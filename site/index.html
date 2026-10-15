@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ICN 특가 레이더</title>
+<meta name="description" content="인천 출발 항공권 할인 행사를 뉴스 기사에서 모아 예고·진행중·마감으로 보여줍니다.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="board">
+  <div class="board-in">
+    <div class="flap" aria-hidden="true"><span>ICN</span><span>→</span><span>SALE</span></div>
+    <h1>ICN 특가 레이더</h1>
+    <p class="sub">인천 출발 항공권 할인 행사를 뉴스 기사에서 모아 보여줍니다.</p>
+    <p class="updated" id="updated">불러오는 중…</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="controls" aria-label="필터">
+    <div class="chips" role="group" aria-label="상태">
+      <button type="button" class="chip" data-status="all" aria-pressed="true">전체 <b id="c-all">0</b></button>
+      <button type="button" class="chip" data-status="upcoming" aria-pressed="false">예고 <b id="c-upcoming">0</b></button>
+      <button type="button" class="chip" data-status="live" aria-pressed="false">진행중 <b id="c-live">0</b></button>
+      <button type="button" class="chip" data-status="undated" aria-pressed="false">날짜 미상 <b id="c-undated">0</b></button>
+      <button type="button" class="chip" data-status="ended" aria-pressed="false">마감 <b id="c-ended">0</b></button>
+    </div>
+    <div class="row">
+      <label class="field"><span>구분</span>
+        <select id="kind">
+          <option value="all">전체 항공사</option>
+          <option value="domestic">국내 항공사</option>
+          <option value="foreign">해외 항공사</option>
+        </select>
+      </label>
+      <label class="field"><span>항공사</span>
+        <select id="airline"><option value="all">전체</option></select>
+      </label>
+      <label class="field grow"><span>검색</span>
+        <input id="q" type="search" placeholder="일본, 얼리버드, 하와이…" autocomplete="off">
+      </label>
+      <label class="toggle"><input id="hide-other" type="checkbox" checked> 인천 외 출발 숨기기</label>
+    </div>
+  </section>
+
+  <section id="list" class="list" aria-live="polite"></section>
+  <p id="empty" class="empty" hidden>조건에 맞는 행사가 없습니다. 필터를 바꿔 보세요.</p>
+
+  <footer class="foot">
+    <p>항공사 공식 발표가 아니라 <b>뉴스 기사 제목</b>에서 자동으로 뽑은 정보입니다. 판매 기간·출발지·할인율은 틀릴 수 있으니 예약 전에 항공사 공지를 확인하세요.</p>
+    <p>"출발지 미확인"은 기사 제목에 출발 공항이 없다는 뜻입니다. 국내 항공사 국제선은 대부분 인천 출발을 포함합니다.</p>
+    <p><a href="https://github.com/theddack/icn-air-deals">소스 코드</a></p>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
