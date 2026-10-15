@@ -115,6 +115,13 @@ a.ev { font-size: 11px; font-weight: 600; color: var(--faint); margin-left: 4px;
 .deal .foot { border-top: 1px solid var(--line-soft); padding-top: 12px; font-size: 12px; color: var(--gray); display: grid; gap: 8px; }
 .foot-row { display: flex; flex-wrap: wrap; gap: 4px 12px; justify-content: space-between; }
 details summary { cursor: pointer; }
+.dest-block { font-size: 12px; color: var(--muted); }
+.dest-block summary { font-weight: 700; color: var(--ink); }
+.dest-block.muted { color: var(--faint); }
+.dest-note { margin: 6px 0 0; line-height: 1.6; }
+.dest-block ul { columns: 2; column-gap: 16px; padding-left: 16px; }
+.dest-block li { break-inside: avoid; }
+.dest-block li.hit { color: var(--green); font-weight: 700; }
 details ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 5px; }
 details li span { color: var(--faint); margin-left: 4px; font-variant-numeric: tabular-nums; }
 .empty { color: var(--muted); text-align: center; padding: 28px 0; margin: 0; }

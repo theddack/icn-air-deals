@@ -111,6 +111,63 @@
     }).join(", ");
   }
 
+  // ---------------------------------------------------------------- 행사 항공사의 인천 출발 운항 도착지
+  // 좌석이 남았는지·할인가는 알 수 없다. 인천공항 정기 일정으로 '어디로 운항하는지'만 보여준다.
+  var destCache = {};
+
+  function airlineDestinations(codes) {
+    var key = codes.join(",");
+    if (destCache[key]) return destCache[key];
+    var today = todayKst(), end = sch.coverage.full_until, by = {};
+    var days = [];
+    for (var i = 0; i < 7; i++) {
+      var iso = new Date(Date.parse(today) + i * DAY).toISOString().slice(0, 10);
+      if (iso <= end) days.push(iso);
+    }
+    sch.schedule.forEach(function (r) {
+      if (r.codeshare_of || codes.indexOf(prefixOf(r.flight)) < 0 || r.last < today) return;
+      var g = by[r.dest_code] || (by[r.dest_code] = { code: r.dest_code, name: r.dest, week: 0, last: r.last });
+      if (r.last > g.last) g.last = r.last;
+      days.forEach(function (iso) {
+        if (r.first <= iso && iso <= r.last && r.days.charAt(weekdayIdx(iso)) === "1") g.week++;
+      });
+    });
+    var list = Object.keys(by).map(function (k) { return by[k]; }).filter(function (g) { return g.week > 0; })
+      .sort(function (a, b) { return b.week - a.week || a.name.localeCompare(b.name, "ko"); });
+    return (destCache[key] = { list: list, days: days.length });
+  }
+
+  function airlineDestBlock(d) {
+    if (sectionOf(d) === "hotel" || !(d.iata || []).length) return "";
+    if (!sch) return schError ? "" : '<div class="dest-block muted">인천 출발 운항 도착지: 시간표 불러오는 중…</div>';
+    var info = airlineDestinations(d.iata);
+    var routes = d.routes || [];
+    var target = function (g) {
+      return routes.some(function (r) {
+        var dest = r.destination || "";
+        return r.origin === "인천(ICN)" && (dest.indexOf("(" + g.code + ")") >= 0 || dest === g.name);
+      });
+    };
+    var other = routes.filter(function (r) { return r.origin && r.origin !== "인천(ICN)"; })
+      .map(function (r) { return r.origin + " → " + (r.destination || "도착 미확인"); });
+    var nTarget = info.list.filter(target).length;
+    var head = info.list.length
+      ? "인천 출발 운항 도착지 " + info.list.length + "곳 · 앞으로 " + info.days + "일간 " +
+        info.list.reduce(function (n, g) { return n + g.week; }, 0) + "편"
+      : "인천 출발 정기편 없음 (확보된 시간표 기준)";
+    var items = info.list.map(function (g) {
+      return "<li" + (target(g) ? ' class="hit"' : "") + ">" + esc(g.name) + ' <span class="cs">' + esc(g.code) + "</span> " +
+        g.week + "편" + (g.last < sch.coverage.full_until ? ' <span class="cs">' + md(g.last) + "까지 운항</span>" : "") +
+        (target(g) ? ' <span class="pill green">행사 대상 확인</span>' : "") + "</li>";
+    }).join("");
+    return '<details class="dest-block"><summary>' + head + "</summary>" +
+      '<p class="dest-note">행사 대상 노선: ' + (nTarget ? nTarget + "곳 기사로 확인" : "기사에서 인천 출발 노선 확인 안 됨") +
+        (other.length ? " · 기사 노선은 " + esc(other.join(", ")) : "") +
+        "<br>좌석이 남았는지·할인가는 알 수 없습니다 (" + (d.official_url ? '<a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">공식 페이지에서 확인 ↗</a>' : "공식 페이지에서 확인") + ")." +
+        " 편수는 인천공항 정기 일정 기준 공동운항 판매 편명 제외, " + md(sch.coverage.full_until) + "까지 확보.</p>" +
+      (items ? "<ul>" + items + "</ul>" : "") + "</details>";
+  }
+
   function card(d, today) {
     var st = d._status;
     var title = d.event_name ? d.event_name : d.headline;
@@ -160,6 +217,7 @@
         ((d.agencies || []).length ? '<div class="foot-row"><span>기사에 나온 판매처</span><span>' + d.agencies.map(function (g) {
           return '<a href="' + esc(g.url) + '" target="_blank" rel="noopener">' + esc(g.name) + " ↗</a>";
         }).join(" · ") + "</span></div>" : "") +
+        airlineDestBlock(d) +
         "<details><summary>관련 기사 " + d.articles.length + "건" + (d.event_name ? " · " + esc(d.headline) : "") + "</summary><ul>" + arts + "</ul></details>" +
       "</div>" +
     "</article>";
@@ -588,10 +646,14 @@
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (data) {
       sch = data;
+      destCache = {};
       if (state.section === "flights") renderSchedule();
-      else document.getElementById("n-flights").textContent = countToday();
+      else {
+        document.getElementById("n-flights").textContent = countToday();
+        if (deals.length) render(); // 카드의 운항 도착지 블록을 채운다
+      }
     })
-    .catch(function (e) { schError = e.message; if (state.section === "flights") renderSchedule(); });
+    .catch(function (e) { schError = e.message; if (state.section === "flights") renderSchedule(); else if (deals.length) render(); });
 
   fetch("deals.json", { cache: "no-store" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
