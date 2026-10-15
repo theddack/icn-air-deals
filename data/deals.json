@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T15:21:19+09:00",
+ "generated_at": "2026-10-15T16:46:16+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,15 +9,15 @@
  "stats": {
   "queries": 92,
   "failed_queries": 0,
-  "rss_items": 1747,
+  "rss_items": 1701,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 1159,
+  "outlet_items": 1154,
   "outlet_new_articles": 0,
-  "outlet_enriched": 2,
+  "outlet_enriched": 0,
   "articles_with_summary": 2,
-  "articles": 198,
-  "new_articles": 12,
+  "articles": 200,
+  "new_articles": 2,
   "deals": 25
  },
  "deals": [
@@ -1154,7 +1154,7 @@
    "first_published": "2026-10-02",
    "last_published": "2026-10-04",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-15T16:46:16+09:00",
    "articles": [
     {
      "title": "진에어, 韓·日·대만 신규 고객 잡는다…수하물 할인·항공권 경품 제공",
@@ -1166,6 +1166,12 @@
      "title": "진에어, 한·일·대만 신규 회원에 수하물 3만원 할인… 왕복 항공권 추첨도 - 조선비즈",
      "outlet": "Chosunbiz",
      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOHI3VE45UVlGVF9lYjR2MjZxNGxkVkxEMXVIQWR6bG9nMjRJdnRuOTNidnEwbEZaQkhLUEQ5TnVQcjNGVXFRYVljS1BQNU5PUFAzdFQ2MHkyYS13YzNDSWFOa3pyZ1ZwYkVWc01uTUVjYnNKMzZSQ0kxSTluWm1wYjNhZXrSAZgBQVVfeXFMUHcyU2ZEVnNzUEVDX25YNkdqSHVjVDNhUzJ2SG1BSm50QXBmak45clN6d2V6eG10ZFJlbzdhUmNMbXRHb1hKYkdqejJJZVEzV2JBdFZXMDNPb3hnc211OWFtaUg0TzRMdEsyUUU4T0U4SFFaSVNkWkNlLU1nXzRNYVpRVTBZdnhoNTZyVjF6Y01yS3hIV2NTOXo?oc=5",
+     "published": "2026-10-02"
+    },
+    {
+     "title": "진에어, 한·일·대만 신규 회원에 수하물 3만원 할인… 왕복 항공권 추첨도",
+     "outlet": "Chosunbiz",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOHI3VE45UVlGVF9lYjR2MjZxNGxkVkxEMXVIQWR6bG9nMjRJdnRuOTNidnEwbEZaQkhLUEQ5TnVQcjNGVXFRYVljS1BQNU5PUFAzdFQ2MHkyYS13YzNDSWFOa3pyZ1ZwYkVWc01uTUVjYnNKMzZSQ0kxSTluWm1wYjNhZXo?oc=5",
      "published": "2026-10-02"
     },
     {
@@ -1526,13 +1532,19 @@
    "first_published": "2026-10-07",
    "last_published": "2026-10-10",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-15T16:46:16+09:00",
    "articles": [
     {
      "title": "대한항공-아웃리거, 하와이·태국 최대 35% 할인..태양의 서커스도 혜택",
      "outlet": "헤럴드경제",
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlcXp1b3BwaTJCS3JMdGhDaDM3al9ZX1JoTzZvSW10RFQtX0wzak9KWGtqdWJ4MnZyd1doNnVQZkNBN3k4eGlXYU0yeWNYUm1iQm9LY3lB?oc=5",
      "published": "2026-10-10"
+    },
+    {
+     "title": "아웃리거X대한항공, 하와이·태국 숙박 최대 35% 할인 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DUUs1NHFua01mb2ZDM1BtZWQxMkk1VFk5SS1xa0lZQlZzRzMxcjMzS3lTSUhYR0R5dlI2dzlNWUxmV3U1UGFkTVVUUnZHdlRYSS1XZmduUW9QVWRFMFdidEpKZjg3dw?oc=5",
+     "published": "2026-10-09"
     },
     {
      "title": "아웃리거 리조트 프로모션, 대한항공 항공권 구매하면 하와이·태국 호텔 6곳 최대 35% 할인",
