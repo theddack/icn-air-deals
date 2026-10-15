@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T13:44:32+09:00",
+ "generated_at": "2026-10-15T13:49:08+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,9 +9,9 @@
  "stats": {
   "queries": 92,
   "failed_queries": 0,
-  "rss_items": 1747,
-  "articles": 183,
-  "new_articles": 0,
+  "rss_items": 1714,
+  "articles": 185,
+  "new_articles": 2,
   "deals": 25
  },
  "deals": [
@@ -52,8 +52,8 @@
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXYUJWd2NRXzFrWlNlMXI2VmlrbGkwUGFhR0FfdWFtcWpsM182TWdzYm80Q3RnOW5DYlozQ1lvd0tjRUNTU1NTZlNRbjRfa3BIQVhzSDZHeFIwNEhmblBsc2tlbHpNS0dXV21XRA?oc=5"
     },
     "discount": {
-     "title": "전남광주통합특별시, '최대 7만 원 할인'... 가을 숙박세일 페스타 돌입",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmZmpwUUxEbVBMTVA3bmdJZEpnUzlnQUdENXRKamVVa0JnUzVwdXB6SXNhUExCY2lfSk1XM09manFrV1h2QXFKa05PZmhBY0dmM3BoN29fR052Qk5KdXdGeVdtcFZOd2JfMUZyLW9CeHPSAXRBVV95cUxQWVhveUhGUVdvbHZrb2Q2d2ltQVRCN2pVNGlaa3ltTFJaa2V4UnE0b0dEeG80akxWLWNQdG5uNWNheFU2U2ZIcGMzNlZJQ25lVi1TTEgwTThIQ2pqU0pSZV9MZzhZS0F5OE5oS3hlS0g1M1gyVg?oc=5"
+     "title": "강원도 숙박세일 페스타, 9월 22일~11월 8일 최대 7만 원 할인",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wMW5Zb01FMGF2X1lYcUlSVGZkRUE0X2lXRWhJZDBPSl9NYTVBMlZaMC1ORWJ3Rzk5cjZtUXpic21KSlBuRWxZakVoanpjM09zUlU0NVlRZ0lFNG1RLWxzZUJGdFZDTEh2a1BsOA?oc=5"
     }
    },
    "date_source": "title",
@@ -63,13 +63,19 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-15T13:00:04+09:00",
+   "last_seen": "2026-10-15T13:49:08+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
      "outlet": "여행픽",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXYUJWd2NRXzFrWlNlMXI2VmlrbGkwUGFhR0FfdWFtcWpsM182TWdzYm80Q3RnOW5DYlozQ1lvd0tjRUNTU1NTZlNRbjRfa3BIQVhzSDZHeFIwNEhmblBsc2tlbHpNS0dXV21XRA?oc=5",
      "published": "2026-10-09"
+    },
+    {
+     "title": "강원도 숙박세일 페스타, 9월 22일~11월 8일 최대 7만 원 할인",
+     "outlet": "한국사회복지저널",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wMW5Zb01FMGF2X1lYcUlSVGZkRUE0X2lXRWhJZDBPSl9NYTVBMlZaMC1ORWJ3Rzk5cjZtUXpic21KSlBuRWxZakVoanpjM09zUlU0NVlRZ0lFNG1RLWxzZUJGdFZDTEh2a1BsOA?oc=5",
+     "published": "2026-10-01"
     },
     {
      "title": "‘숙박세일 페스타’부터 ‘지역사랑 휴가지원’까지, 가을 단풍놀이 싸게 가는 법 총정리 🍁",
@@ -238,6 +244,12 @@
      "outlet": "연합뉴스",
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Eb0xWTW12dS1xdnE1V3VGZ1VWRE5WaFZmckI4WVhpOGVoY1ZvcVE2Q2FSTnVsNnNsWFdsb1Q3Tk1tSDlVWDYyUlBzYy1yYjVzU05Jcjk0U09IYjDSAWBBVV95cUxNMVRUQkNZUk94dXJRNWlzblFoc1FmTkg3cHVmSS1aYzdBZ3VJOXVLeVFlRnJybFJlUTZpenkxN1BuZ0RtY2FEN0pZRkZYVFpNUldNc1Bjc3Zhc2FJaUFJVW4?oc=5",
      "published": "2026-09-21"
+    },
+    {
+     "title": "충남도, ‘숙박세일 페스타’ 참여로 가을철 체류형 관광객 유치 박차",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBaU3UyQ3g1dmJtZVNEX2pNRUhCc3JUMjlUSy1ReVF3SHpxbHFiNVA0WDFBNkxEMFRIdjJvNnF5WnRkUmJWLW9JUQ?oc=5",
+     "published": "2026-09-20"
     },
     {
      "title": "PRIVIA여행, ‘숙박세일 페스타’ 참여",
