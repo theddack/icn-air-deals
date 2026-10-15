@@ -107,12 +107,21 @@ _NOISE = re.compile(r"퀴즈|정답|주가|증권|목표가|실적|영업이익|
                     r"|마일리지 적립|마일리지 프로모션|기내식|면세점|팝업스토어")
 
 
+# 2026-10-15 보완: 항공권 맥락 단어 없이도 운임 할인 행사로 볼 수 있는 표현.
+# '할인 프로모션', '할인이벤트', "'우리 동네 할인' 프로모션", '출발편 할인', '공항과 공동 프로모션'
+_SALE_FARE = re.compile(r"할인['’\"”]?\s?(?:프로모션|이벤트|행사)|출발(?:편|시)\s?할인|공동\s?프로모션")
+# 위 표현이 있어도 운임이 아닌 부가 상품·제휴 혜택이면 뺀다 (같은 날 표본에서 탈락시킨 31건의 유형)
+_ANCILLARY = re.compile(r"멤버십|마일리지|수하물|기내|메뉴|선봬|비빔밥|막국수|팝업|환승|신규\s?(?:회원|가입)|쿠폰팩|무료\s?입장|렌터카|면세")
+
+
 def is_sale_article(title):
     if _NOISE.search(title):
         return False
     if _SALE_STRONG.search(title):
         return True
-    return bool(_SALE_WEAK.search(title) and _TICKET.search(title))
+    if _SALE_WEAK.search(title) and _TICKET.search(title):
+        return True
+    return bool(_SALE_FARE.search(title) and not _ANCILLARY.search(title))
 
 
 # ---------------------------------------------------------------- 날짜
@@ -320,12 +329,12 @@ _QUOTED = re.compile(r"[‘'“\"`「『]([^’'”\"`」』]{2,24})[’'”\"`�
 
 
 def extract_event_name(title):
-    for m in _QUOTED.finditer(title):
-        name = m.group(1).strip()
-        if re.search(r"%|원|\d{1,2}\s?일", name):
-            continue
-        return name
-    return None
+    found = [m for m in _QUOTED.finditer(title) if not re.search(r"%|원|\d{1,2}\s?일", m.group(1))]
+    # 제목 맨 앞의 따옴표는 대개 구호다 (“지방공항 출발시 할인” 트리니티항공, … '우리동네 프로모션').
+    # 뒤에 다른 따옴표가 있으면 그쪽을 행사명으로 본다
+    if len(found) > 1 and found[0].start() == 0:
+        found = found[1:]
+    return found[0].group(1).strip() if found else None
 
 
 def normalize_event_name(name):
@@ -334,6 +343,8 @@ def normalize_event_name(name):
     n = re.sub(r"\(.*?\)", "", name)
     n = re.sub(r"\d{2,4}\s?년?|상반기|하반기|연중\s?최대", "", n)
     n = re.sub(r"[\s\W_]+", "", n).lower()
+    # 같은 행사를 '우리 동네 할인'·'우리동네 프로모션'처럼 끝말만 바꿔 부른다. 끝의 일반어는 비교에서 뺀다
+    n = re.sub(r"(?:프로모션|할인|이벤트|행사)+$", "", n)
     return n or None
 
 

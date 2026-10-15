@@ -1,0 +1,112 @@
+{
+ "labeled_at": "2026-10-15",
+ "note": "2026-10-15 판정 규칙 보완(운임 할인 표현)으로 새로 수집되는 항공 기사 12건. 라벨은 labeled_2026-10-15.json과 같은 체계. YP-promise는 YP-la4th·YP-usdep20 중 어느 행사인지 제목만으로 판단 불가(보류).",
+ "ambiguous": [
+  [
+   "YP-la4th",
+   "YP-promise"
+  ],
+  [
+   "YP-promise",
+   "YP-usdep20"
+  ]
+ ],
+ "articles": [
+  {
+   "title": "트리니티항공, 10월 '우리 동네 할인' 프로모션 진행",
+   "outlet": "뉴스핌",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xSV9fNE9pSkZsSU5nSW41ZGxmZVBlM0o5MHlGamowNUZZX091eERXREREd3lRbUN2bVlGSC1TcnZ3N0F2WXJ5Sk15WUxCY2RWQVFCdHlQZmF3SVZ2?oc=5",
+   "published": "2026-10-12",
+   "first_seen": "2026-10-15T15:30:00+09:00",
+   "label": "TW-local"
+  },
+  {
+   "title": "트리니티항공, 일본 구마모토 공항과 공동 프로모션 진행 - 머니투데이",
+   "outlet": "머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vTTRqcjVmQjhaZ2Z4TGRLaXpvckl1N196VzVfWFJDcEZxdDQ2c3VqS3NwMkM0MWU1a2h5MHpYc2gwTVRNTnRYNy01aTVuWlRKR1ByWlVrdjlFVk5iYXpJUk5ya2lTaWhqcVk0NNIBckFVX3lxTFB5dFA1MVBkaG96akl1c3o1OS1fNnlPcVA0U1dwZ1RZUFZfTTFac2xXeXZLeXJHZEJ3LTMxUDAyN2VSa0ItbjV4UDdYLUJaNVhpbGZvX19Uc3JzWU1wOXlncUQ3UUNJZXJfMTVmZzVpX3pLQQ?oc=5",
+   "published": "2026-09-29",
+   "first_seen": "2026-10-15T15:30:00+09:00",
+   "label": "TW-kumamoto"
+  },
+  {
+   "title": "\"이번 가을엔 구마모토로 떠나볼까\"…트리니티항공, 할인 프로모션 진행",
+   "outlet": "한국금융신문",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zZkRCLUZmMDlRVVB6bUt2eURPblMzMjk4ODJHb08wa3E5UFlWUUt5NzdMenVmamtnQ0lZd2YxcHkyNlNsSU1iaWxwYkhNQkhKZ2Y4bVo1QlhVNHpTcktjQnhNdnFJZlNwakVibWJoWlk0b2VSc3gwWjRuQQ?oc=5",
+   "published": "2026-09-29",
+   "first_seen": "2026-10-15T15:30:00+09:00",
+   "label": "TW-kumamoto"
+  },
+  {
+   "title": "트리니티항공, 지역공항 출발편 할인…부산·대구·청주 대상",
+   "outlet": "아시아투데이",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RWnhRbkluQmxlVmlNRTJ0SFFoVG9IZ2pkWjRiUThBbXl6dTA1bnlDUEl2RXdnY29fLTNydWVpS1J4WGhiTVA1R0F1ZjZ3dlZBT3J0OF9SZzlXeTBqSHJCNDNkaWRYNWhpQnFwRzRB?oc=5",
+   "published": "2026-10-12",
+   "first_seen": "2026-10-15T15:30:00+09:00",
+   "label": "TW-local"
+  },
+  {
+   "title": "트리니티항공, 부산·대구·청주 등 지역공항 출발편 할인",
+   "outlet": "신아일보",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ybUxDZUxnY3dnT3dNWVR6b09PN0NsZDZvQllUdHJVVHN2dW0wUlVxczN5SDhTT0ZlVXpaeGhDanRHd1o0WXYyQVJRSEF6UzAxVFRjVXQ0bVktQ3ctdDFjbDUwYnVoMTFYNmkwRGxmdWs?oc=5",
+   "published": "2026-10-12",
+   "first_seen": "2026-10-15T15:30:00+09:00",
+   "label": "TW-local"
+  },
+  {
+   "title": "트리니티항공, 23일까지 '우리 동네 할인' 프로모션",
+   "outlet": "뉴시스",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tZUxxeGJZS2R0VEZnZmZXSnp6NG55bDMyVG9UUzlfdGd0ZExFbEVZZmtJZ2F6QXpRR2d4Z1V4QVVhMFAxV2tOdGR3ay1CdkFzZ1VmbWljNm1xYzFiQy0tTNIBeEFVX3lxTE41UkJCcmtrZ214Wkh4RVZZWk4zRVB1YmVSWV90d1BLODZZOUVIT2J1X292Qy1ITDJNQk8tcVB3N2FlVHhNeWtoRVBtUm1fV3l1YVRveGZocC1NcWxQNEE1aGdteGRkWnh1QTBDYkJqakdZWEZDS3ppZg?oc=5",
+   "published": "2026-10-12",
+   "first_seen": "2026-10-15T15:30:00+09:00",
+   "label": "TW-local"
+  },
+  {
+   "title": "“지방공항 출발시 할인” 트리니티항공, 이달23일까지 '우리동네 프로모션'",
+   "outlet": "CatchNews",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9OdHFON3g3Q1pxTTIwaXJOYnR6OVBxVjVZZUpEekJEMnN0bE4zbTFnLUY0WkxlWmp0UzBsTzdhUFlUel9MTWVwbDZBRjJHa2s0OUlTaFlNMjlNNXdGc2RSSHFmMVJUaXFtWHRN0gFvQVVfeXFMTWpWanN3a3hIZDJQalNzZWxnZ3hoeHZiaVhvZ29JNFZPaU9jT2xWUUNHcjlaaFN0dmtjaWFMMk5GUzhTeURQM2NUcHRaTVlfNklBallVLTItVXF6X2pSeGR1Z0V0NXJPMkJJSnl6clpj?oc=5",
+   "published": "2026-10-12",
+   "first_seen": "2026-10-15T15:30:00+09:00",
+   "label": "TW-local"
+  },
+  {
+   "title": "트리니티항공, 10월 ‘우리 동네 할인’ 프로모션",
+   "outlet": "싱글리스트",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rNEI3cUVLXzNHUFpRUjMwdkI5SEhpMExXSDBxUkNBb3R5bnhrTUFZU1dzUXI5MkltT0c1aWFQaDJLNUZQNEdValdQVEZTbnNPQ2dpaTdtME83dktGYURTYVZzR0VnUQ?oc=5",
+   "published": "2026-10-10",
+   "first_seen": "2026-10-15T15:30:00+09:00",
+   "label": "TW-local"
+  },
+  {
+   "title": "트리니티항공, 日구마모토 공항과 공동 프로모션",
+   "outlet": "싱글리스트",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iR3lwRENRcUJFMlZvQV9VV2ZFeUlXUl91S0wyWmRmU3pvTDRjbGxpQVhzTXpWR0R4VFp6dnFzTkRQa3JjQVZzVFJ4T21CNUJDdWJ6TlRaYVdzSklYZW85NFFtaG1mUQ?oc=5",
+   "published": "2026-09-29",
+   "first_seen": "2026-10-15T15:30:00+09:00",
+   "label": "TW-kumamoto"
+  },
+  {
+   "title": "에어프레미아, 10~17일 할인이벤트 ‘프로미스’ 실행",
+   "outlet": "미주조선일보",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa3BMbkNVaEhXaVAtMnJKX3B4TzJrQXZETm9wa2ZfWjNTdll2dzJrNkNweTFMY1FDbHJSZ01ZQkFUeEQxQzVxZFI0NUsyRWdUNm9URnl5ZWx2SkVqV3VfUG56X19pazRMdTR3RWw1NG94dWpoOGRGWGpyWFZPWnVjWkdZREFlQzRyVVZvdl92SFhVck5TcTBNNGV3UGdJVnNNdlR6cEpqeWZoaUJKQ251Z0M4UWl0WDRoYnJKV1lZd0J5WEs2R0RHQWVhaTUyR2p2V1E?oc=5",
+   "published": "2026-10-11",
+   "first_seen": "2026-10-15T15:30:00+09:00",
+   "label": "YP-promise"
+  },
+  {
+   "title": "에어아시아, 스카이트랙스 '17년 연속 세계 최고 저비용항공사' 수상…기념 할인 프로모션도",
+   "outlet": "국제뉴스",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Gd0VVdzZnVk83VEl1OHRlc09mMkRFak1nOTVxMGtXNzBiWGpNRFBwREdJa01hT0JzRGZmWkdnYzRULTBXaG5IbWtvc29URjBtaTE5TkpIbE4wTmpncDVfbFBXSHVVNEwyQ19KZUR3?oc=5",
+   "published": "2026-09-19",
+   "first_seen": "2026-10-15T15:30:00+09:00",
+   "label": "AK-27"
+  },
+  {
+   "title": "KLM, ‘107번째 델프트 미니어처 하우스’ 공개→선착순 할인 프로모션",
+   "outlet": "싱글리스트",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE16M2Q3a0JEdXY0MlRaLXFGRTZxUW0yQUhzSERSTGJoWl9xbE5fbXozaFczZU50OHA5d3FOMjdCWHQzRW9wS1VVOFd3a29JMnBMazQ5eEhPRVVOQW9YSmtqYWhOY3RyUQ?oc=5",
+   "published": "2026-10-06",
+   "first_seen": "2026-10-15T15:30:00+09:00",
+   "label": "KL-107"
+  }
+ ]
+}

@@ -285,3 +285,27 @@ class TestHotelFields(unittest.TestCase):
     def test_conditions(self):
         self.assertEqual(x.hotel_conditions("강원도 22일부터 ‘숙박세일페스타’…연박시 최대 7만원 할인"), ["연박"])
         self.assertEqual(x.hotel_conditions("여기어때, 가평 숙소 대상 최대 3만원 할인 쿠폰 제공 선착순"), ["쿠폰", "선착순"])
+
+
+class TestFareSaleRule(unittest.TestCase):
+    """2026-10-15 보완 규칙. 같은 날 탈락 기사 45건을 사람이 읽고 나눈 결과에서 뽑은 제목들."""
+
+    def test_fare_promotions_now_collected(self):
+        for t in ["트리니티항공, 10월 '우리 동네 할인' 프로모션 진행",
+                  "트리니티항공, 지역공항 출발편 할인…부산·대구·청주 대상",
+                  "트리니티항공, 日구마모토 공항과 공동 프로모션",
+                  "에어프레미아, 10~17일 할인이벤트 ‘프로미스’ 실행",
+                  "KLM, ‘107번째 델프트 미니어처 하우스’ 공개→선착순 할인 프로모션"]:
+            self.assertTrue(x.is_sale_article(t), t)
+
+    def test_ancillary_offers_stay_out(self):
+        for t in ["제주항공, 'J멤버십' 최대 5만원 할인…수하물·반려동물 운송비 절감",
+                  "진에어, 한·일·대만 신규 회원에 수하물팩 3만원 할인쿠폰 지급",
+                  "에이비스, 대한항공 스카이패스 회원 대상 제휴 마일리지 적립 프로모션 실시",
+                  "파라타항공, 문어 들기름막국수 선봬…비빔밥 할인 행사도",
+                  "싱가포르항공, 더현대 서울 팝업스토어 오픈…오감 체험·마일리지 프로모션 진행"]:
+            self.assertFalse(x.is_sale_article(t), t)
+
+    def test_leading_slogan_is_not_event_name(self):
+        self.assertEqual(x.extract_event_name("“지방공항 출발시 할인” 트리니티항공, 이달23일까지 '우리동네 프로모션'"), "우리동네 프로모션")
+        self.assertEqual(x.normalize_event_name("우리동네 프로모션"), x.normalize_event_name("우리 동네 할인"))

@@ -14,13 +14,18 @@ from collector.merge import cluster_articles
 
 FIXTURE = Path(__file__).parent / "fixtures" / "labeled_2026-10-15.json"
 MAX_SPLITS = 1  # 2026-10-15 실측: 핀에어 얼리버드 1건이 둘로 나뉨. 줄이면 좋고, 늘면 회귀다.
+RULE_ADDITIONS = Path(__file__).parent / "fixtures" / "labeled_rule_additions_2026-10-15.json"
 HOTEL_FIXTURE = Path(__file__).parent / "fixtures" / "labeled_hotels_2026-10-15.json"
 # 2026-10-15 실측: 숙박세일 페스타가 할인액(최대 7만·9만·5만·3만원)이 달라 4묶음으로 나뉨 = 3
 HOTEL_MAX_SPLITS = 3
 
 
-def load(fixture=FIXTURE):
-    data = json.loads(fixture.read_text(encoding="utf-8"))
+def load(*fixtures):
+    data = {"ambiguous": [], "articles": []}
+    for f in fixtures or (FIXTURE,):
+        d = json.loads(f.read_text(encoding="utf-8"))
+        data["ambiguous"] += d["ambiguous"]
+        data["articles"] += d["articles"]
     label_of = {a["url"]: a["label"] for a in data["articles"]}
     ambiguous = {frozenset(p) for p in data["ambiguous"]}
     deals = cluster_articles([enrich({k: a[k] for k in ("title", "outlet", "url", "published", "first_seen")})
@@ -29,11 +34,11 @@ def load(fixture=FIXTURE):
 
 
 class TestLabeledSample(unittest.TestCase):
-    fixture, max_splits = FIXTURE, MAX_SPLITS
+    fixtures, max_splits = (FIXTURE,), MAX_SPLITS
 
     @classmethod
     def setUpClass(cls):
-        cls.deals, cls.label_of, cls.ambiguous = load(cls.fixture)
+        cls.deals, cls.label_of, cls.ambiguous = load(*cls.fixtures)
 
     def test_no_wrong_merges(self):
         wrong = []
@@ -61,8 +66,13 @@ class TestLabeledSample(unittest.TestCase):
                 self.assertEqual(len(d["articles"]), 1)
 
 
+class TestLabeledWithRuleAdditions(TestLabeledSample):
+    """기존 123건 + 2026-10-15 판정 규칙 보완으로 새로 수집되는 12건. 합쳐도 잘못 합침·나눔이 늘면 안 된다."""
+    fixtures, max_splits = (FIXTURE, RULE_ADDITIONS), MAX_SPLITS
+
+
 class TestLabeledHotelSample(TestLabeledSample):
-    fixture, max_splits = HOTEL_FIXTURE, HOTEL_MAX_SPLITS
+    fixtures, max_splits = (HOTEL_FIXTURE,), HOTEL_MAX_SPLITS
 
     def test_all_classified_as_hotel(self):
         self.assertEqual({d["section"] for d in self.deals}, {"hotel"})
