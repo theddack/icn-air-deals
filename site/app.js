@@ -208,7 +208,7 @@
   var DOW = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
   var sch = null;        // flights.json
   var schError = null;
-  var schState = { date: null, dest: "all", airline: "all", related: false };
+  var schState = { date: null, dest: "all", airline: "all", related: false, hideCodeshare: true };
 
   function weekdayIdx(iso) { return (new Date(iso + "T00:00:00Z").getUTCDay() + 6) % 7; } // 월=0
 
@@ -219,6 +219,12 @@
 
   // 관련 행사: 같은 항공사이고, 행사 노선의 도착지가 이 편의 도착지와 같고, 탑승 기간을 알면 그 안에 드는 것.
   // 할인이 이 편에 적용된다는 뜻은 아니다.
+  // 탭 숫자: 오늘 정기편 중 공동운항 편명으로 알려진 것을 뺀 수
+  function countToday() {
+    var iso = todayKst(), st = (sch.status || {})[iso] || {};
+    return flightsOn(iso).filter(function (f) { return !(f.codeshare_of || (st[f.flight] && st[f.flight].codeshare_of)); }).length;
+  }
+
   function relatedDeals(f, iso) {
     return deals.filter(function (d) {
       if (sectionOf(d) === "hotel" || d._status === "ended" || d.airline !== f.airline) return false;
@@ -274,14 +280,20 @@
     var st = (sch.status || {})[iso] || {};
     var rows = all.filter(function (f) {
       return (schState.dest === "all" || f.dest_code === schState.dest) && (schState.airline === "all" || f.airline === schState.airline);
-    }).map(function (f) { return { f: f, rel: relatedDeals(f, iso), s: st[f.flight] }; })
-      .filter(function (x) { return !schState.related || x.rel.length; });
+    }).map(function (f) {
+      // 공동운항 편명은 실제 운항편의 현황을 보여준다
+      return { f: f, rel: relatedDeals(f, iso), s: st[f.flight] || (f.codeshare_of ? st[f.codeshare_of] : undefined) };
+    })
+      .filter(function (x) { return !schState.related || x.rel.length; })
+      // 공동운항 여부는 운항 현황에서 본 편명만 안다. 모르는 편은 숨기지 않는다
+      .filter(function (x) { return !schState.hideCodeshare || !(x.f.codeshare_of || (x.s && x.s.codeshare_of)); });
 
     body.innerHTML = rows.map(function (x) {
       var f = x.f, s = x.s;
       var changed = s && s.estimated && (s.estimated !== f.time || s.estimated_day !== iso)
         ? (s.estimated_day !== iso ? md(s.estimated_day) + " " : "") + s.estimated : "";
-      var state = s ? (s.remark || "예정") + (s.codeshare_of ? ' <span class="cs">공동운항 · 실제 ' + esc(s.codeshare_of) + "</span>" : "") : "정기 일정";
+      var cs = (s && s.codeshare_of) || f.codeshare_of;
+      var state = (s ? (s.remark || "예정") : "정기 일정") + (cs ? ' <span class="cs">공동운항 · 실제 ' + esc(cs) + "</span>" : "");
       var rel = x.rel.map(function (d) {
         return esc(d.event_name || d.headline).slice(0, 24) + (d.official_url ? ' <a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">↗</a>' : "");
       }).join("<br>");
@@ -291,7 +303,7 @@
     }).join("");
     empty.hidden = rows.length > 0;
     empty.textContent = all.length ? "조건에 맞는 운항편이 없습니다." : "이 날짜의 정기 운항편 데이터가 없습니다.";
-    document.getElementById("n-flights").textContent = flightsOn(today).length;
+    document.getElementById("n-flights").textContent = countToday();
   }
 
   // 탭을 바꾸면 그 종류에 맞게 구분·항공사(브랜드) 선택지와 검색 안내를 다시 만든다
@@ -394,6 +406,7 @@
   document.getElementById("sch-date").addEventListener("change", function (e) { schState.date = e.target.value; renderSchedule(); });
   document.getElementById("sch-dest").addEventListener("change", function (e) { schState.dest = e.target.value; renderSchedule(); });
   document.getElementById("sch-airline").addEventListener("change", function (e) { schState.airline = e.target.value; renderSchedule(); });
+  document.getElementById("sch-codeshare").addEventListener("change", function (e) { schState.hideCodeshare = e.target.checked; renderSchedule(); });
   document.getElementById("sch-related").addEventListener("change", function (e) { schState.related = e.target.checked; renderSchedule(); });
 
   // 시간표는 행사와 따로 불러온다. 없거나 실패해도 행사 화면은 그대로 쓴다
@@ -402,7 +415,7 @@
     .then(function (data) {
       sch = data;
       if (state.section === "flights") renderSchedule();
-      else document.getElementById("n-flights").textContent = flightsOn(todayKst()).length;
+      else document.getElementById("n-flights").textContent = countToday();
     })
     .catch(function (e) { schError = e.message; if (state.section === "flights") renderSchedule(); });
 

@@ -54,6 +54,17 @@ class TestStatus(unittest.TestCase):
         self.assertEqual(s["2026-10-12"]["9G401"]["estimated"], "00:02")
         self.assertEqual(s["2026-10-12"]["VN401"]["codeshare_of"], "9G401")
 
+    def test_codeshare_marked_on_schedule_and_past_days_dropped(self):
+        st = [{"flightId": "VN401", "codeshare": "Slave", "masterFlightId": "9G401", "passengerOrCargo": "Passenger",
+               "scheduleDatetime": "202610120010", "estimatedDatetime": None, "remark": None},
+              {"flightId": "9G401", "codeshare": "Master", "masterFlightId": None, "passengerOrCargo": "Passenger",
+               "scheduleDatetime": "202610160010", "estimatedDatetime": None, "remark": None}]
+        d = build([sched("VN401", "0010", "20260329", "20261024"), sched("9G401", "0010", "20260329", "20261024"),
+                   sched("ZZ1", "0100", "20260329", "20261024")], st, datetime(2026, 10, 15, 13, 0, tzinfo=KST))
+        by = {r["flight"]: (r["codeshare_of"], r["status_seen"]) for r in d["schedule"]}
+        self.assertEqual(by, {"VN401": ("9G401", True), "9G401": (None, True), "ZZ1": (None, False)})
+        self.assertEqual(sorted(d["status"]), ["2026-10-16"])  # 10/12는 지난 날짜
+
     def test_build_ranges(self):
         d = build([sched("7C1401", "0630", "20260329", "20261024")],
                   [{"flightId": "7C1401", "codeshare": "Master", "passengerOrCargo": "Passenger",

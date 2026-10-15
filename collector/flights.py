@@ -119,11 +119,9 @@ def normalize_status(items):
         day = f"{sched[:4]}-{sched[4:6]}-{sched[6:8]}"
         est = str(it.get("estimatedDatetime") or "")
         out.setdefault(day, {})[it["flightId"]] = {
-            "scheduled": f"{sched[8:10]}:{sched[10:12]}",
             "estimated": f"{est[8:10]}:{est[10:12]}" if len(est) == 12 else None,
             "estimated_day": f"{est[:4]}-{est[4:6]}-{est[6:8]}" if len(est) == 12 else None,
             "remark": it.get("remark"),
-            "gate": it.get("gateNumber"),
             # 공동운항 편명(Slave)은 실제 운항편(masterFlightId)을 가리킨다
             "codeshare_of": it.get("masterFlightId") if it.get("codeshare") == "Slave" else None,
         }
@@ -136,10 +134,30 @@ def flights_on(rows, day):
     return [r for r in rows if r["first"] <= iso <= r["last"] and r["days"][wd] == "1"]
 
 
+def mark_codeshares(rows, status):
+    """정기 일정에는 공동운항 구분이 없다. 운항 현황에서 한 번이라도 공동운항 편명(Slave)으로 나온 편명이면
+    정기 일정 행에도 실제 운항편을 붙인다. 현황에 안 나온 편은 None(모름)으로 둔다."""
+    master_of = {}
+    for day in status.values():
+        for flight, s in day.items():
+            if s["codeshare_of"]:
+                master_of[flight] = s["codeshare_of"]
+            elif flight not in master_of:
+                master_of[flight] = None
+    for r in rows:
+        r["codeshare_of"] = master_of.get(r["flight"])
+        r["status_seen"] = r["flight"] in master_of
+    return rows
+
+
 def build(schedule_items, status_items, now):
     today = now.date()
-    rows = normalize_schedule(schedule_items)
     status = normalize_status(status_items)
+    rows = mark_codeshares(normalize_schedule(schedule_items), status)
+    # 화면은 오늘부터만 고를 수 있으니 지난 날짜 현황은 싣지 않는다. 공동운항 편명은 위에서 정기편 행에 붙였으므로
+    # 현황에는 실제 운항편(Master)만 남긴다. 둘 다 파일 크기 때문이다 (2026-10-15 기준 1.8MB → 약 0.6MB)
+    status = {d: {k: v for k, v in day.items() if not v["codeshare_of"]}
+              for d, day in status.items() if d >= today.isoformat()}
     status_days = sorted(status)
     return {
         "generated_at": now.isoformat(timespec="seconds"),
