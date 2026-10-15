@@ -5,13 +5,14 @@ data/deals.json     기사를 행사 단위로 묶은 결과 — 화면이 읽�
 """
 
 import json
+import re
 import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from . import extract
 from .merge import MULTI, cluster_articles
-from .sources import news_rss
+from .sources import news_rss, outlet_rss
 from .status import KST, should_keep, today_kst
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -40,6 +41,52 @@ def to_article(raw, now_iso):
             "published": raw["published"], "first_seen": now_iso}
 
 
+def norm_title(t):
+    return re.sub(r"[\s\W_]+", "", t or "").lower()
+
+
+def summary_facts(item):
+    """언론사 RSS 항목 → 저장용 사실값. 요약문 자체는 저장하지 않는다."""
+    if not item.get("published"):
+        return None
+    facts, evidence = extract.facts_from_summary(item["summary"], date.fromisoformat(item["published"]))
+    if not facts:
+        return None
+    return {"url": item["url"], "outlet": item["outlet"],
+            "fields": {k: (v.isoformat() if hasattr(v, "isoformat") else v) for k, v in facts.items()},
+            "evidence": evidence}
+
+
+def attach_outlet_items(articles, items, now_iso):
+    """언론사 RSS 항목을 기사에 붙인다.
+    - 제목이 같은(공백·문장부호 무시) 기존 기사에는 요약문 사실값을 붙인다 (이미 있으면 그대로 둔다)
+    - 어느 기사와도 안 맞고 행사 기사이면 새 기사로 더한다 (주소는 언론사 원문)
+    → (새 기사 목록, 사실값을 붙인 기존 기사 수)"""
+    by_norm = {norm_title(a["title"]): a for a in articles}
+    new, enriched = [], 0
+    for it in items:
+        key = norm_title(it["title"])
+        if len(key) < 8:
+            continue
+        target = by_norm.get(key) or next(
+            (a for k, a in by_norm.items() if len(k) >= 12 and (k in key or key in k)), None)
+        facts = summary_facts(it)
+        if target is not None:
+            if facts and not target.get("summary_facts"):
+                target["summary_facts"] = facts
+                enriched += 1
+            continue
+        if not it.get("published") or not extract.category_of(it["title"]):
+            continue
+        a = {"title": it["title"], "outlet": it["outlet"], "url": it["url"], "published": it["published"],
+             "first_seen": now_iso, "source": "outlet_rss"}
+        if facts:
+            a["summary_facts"] = facts
+        new.append(a)
+        by_norm[key] = a
+    return new, enriched
+
+
 def enrich(article):
     """저장된 기사에 추출 결과를 붙인다. 매번 다시 계산해서 파서 수정이 지난 기사에도 반영된다."""
     title = article["title"]
@@ -59,7 +106,7 @@ def enrich(article):
         route, route_text = extract.route_of(title)
         from_icn = extract.icn_flag(title)
         origin, destination = extract.airports(title)
-    return {
+    out = {
         **article,
         "category": category,
         # 여러 항공사(브랜드)가 섞여 특가의 주인을 정할 수 없으면 'multi'(미분류)
@@ -80,6 +127,31 @@ def enrich(article):
         "regions": regions,
         "conditions": conditions,
     }
+    return _fill_from_summary(out)
+
+
+# 요약문 사실값은 제목에서 못 뽑은 필드만 채운다. 어느 필드를 요약문에서 채웠는지는 _src에 남겨 근거로 보여준다
+_SUMMARY_GROUPS = {"sale": ("sale_start", "sale_end"), "travel": ("travel_start", "travel_end"),
+                   "discount": ("discount",), "route": ("origin", "destination")}
+
+
+def _fill_from_summary(a):
+    sf = a.get("summary_facts")
+    if not sf:
+        return a
+    src = {}
+    for group, fields in _SUMMARY_GROUPS.items():
+        if group == "route" and a.get("category") == "hotel":
+            continue
+        if any(a.get(f) for f in fields) or not any(sf["fields"].get(f) for f in fields):
+            continue
+        for f in fields:
+            a[f] = sf["fields"].get(f)
+        snippet = sf["evidence"].get(group, "")
+        src[group] = {"title": f"{sf['outlet']} 요약문: {snippet}", "url": sf["url"]}
+    if src:
+        a["_src"] = src
+    return a
 
 
 def merge_articles(existing, new, today):
@@ -145,6 +217,12 @@ def main():
     now_iso = now.isoformat(timespec="seconds")
     new = [a for a in (to_article(r, now_iso) for r in raw) if a]
     articles, added = merge_articles(load_json(DATA / "articles.json", []), new, today)
+
+    # 언론사 RSS: 실패해도 Google 뉴스 결과만으로 계속한다
+    o_items, o_failed, o_total = outlet_rss.collect()
+    o_new, o_enriched = attach_outlet_items(articles, o_items, now_iso)
+    articles, o_added = merge_articles(articles, o_new, today)
+    added += o_added
     deals = build_deals(articles, today)
 
     base = baselines(load_json(DATA / "deals.json", {}), now_iso)
@@ -157,10 +235,14 @@ def main():
         "baselines": base,
         "baseline_first_seen": base["flight"],
         "stats": {"queries": total, "failed_queries": failed, "rss_items": len(raw),
+                  "outlet_feeds": o_total, "outlet_failed": o_failed, "outlet_items": len(o_items),
+                  "outlet_new_articles": o_added, "outlet_enriched": o_enriched,
+                  "articles_with_summary": sum(1 for a in articles if a.get("summary_facts")),
                   "articles": len(articles), "new_articles": added, "deals": len(deals)},
         "deals": deals,
     })
     print(f"[main] 검색어 {total}개 (실패 {failed}), RSS {len(raw)}건 → 기사 {len(articles)}건 (신규 {added}) → 행사 {len(deals)}건")
+    print(f"[main] 언론사 RSS {o_total}곳 (실패 {o_failed}), 항목 {len(o_items)}건 → 새 기사 {o_added}, 요약 사실값 추가 {o_enriched}")
     return 0
 
 

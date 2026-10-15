@@ -214,7 +214,8 @@ def _evidence(arts, chosen):
     for field, test in chosen.items():
         for a in reversed(arts):
             if test(a):
-                out[field] = {"title": a["title"], "url": a["url"]}
+                # 요약문에서 채운 값이면 요약문 근거 구절과 언론사 원문 주소를 근거로 쓴다
+                out[field] = a.get("_src", {}).get(field) or {"title": a["title"], "url": a["url"]}
                 break
     return out
 

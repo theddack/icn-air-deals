@@ -489,3 +489,68 @@ def hotel_regions(title):
 
 def hotel_conditions(title):
     return [name for name, pat in _CONDITIONS if re.search(pat, title)]
+
+
+# ---------------------------------------------------------------- 언론사 RSS 요약문
+
+# 요약문은 여러 문장이다. 판매 기간 문장과 탑승 기간 문장을 나눠서 본다 (한 문장에 섞으면 탑승 날짜를 판매 기간으로 읽는다)
+_SENTENCE = re.compile(r"(?<=[.다요])\s+|(?<=다\.)(?=\S)")
+_TRAVEL_SENT = re.compile(r"(?:탑승|여행|투숙|출발|체크인)\s?(?:기간|일정|가능\s?기간)")
+_SALE_SENT = re.compile(r"판매|예매|예약|구매|진행|프로모션|특가|할인|이벤트|행사")
+EVIDENCE_MAX = 60  # 근거 구절은 이 길이까지만 저장한다 (요약문 전체를 공개 저장소에 두지 않는다)
+
+
+def _snippet(sentence, needle=None):
+    s = sentence.strip()
+    if len(s) <= EVIDENCE_MAX:
+        return s
+    i = s.find(needle) if needle else -1
+    start = max(0, min(i - 10, len(s) - EVIDENCE_MAX)) if i >= 0 else 0
+    return ("…" if start else "") + s[start:start + EVIDENCE_MAX] + "…"
+
+
+def _range_in(sentence, pub):
+    """문장 안의 'A부터 B까지' 두 날짜 → (A, B). 하나뿐이면 (None, B) 또는 (A, None)."""
+    ms = list(_DATE.finditer(sentence))
+    if not ms:
+        return None, None
+    a = _resolve(ms[0], pub)
+    if len(ms) >= 2:
+        b = _resolve(ms[1], pub, base=a) if a else None
+        if a and b and b >= a:
+            return a, b
+    rest = sentence[ms[0].end():]
+    if _END_SUFFIX.match(rest):
+        return None, a
+    return a, None
+
+
+def facts_from_summary(text, pub):
+    """요약문 → {필드: 값}, {필드: 근거 구절}. 확인한 값만 넣고 없으면 비운다."""
+    facts, evidence = {}, {}
+    sentences = [s for s in _SENTENCE.split(text or "") if s.strip()]
+    for s in sentences:
+        if _TRAVEL_SENT.search(s):
+            if "travel_start" not in facts and "travel_end" not in facts:
+                a, b = _range_in(s, pub)
+                if a or b:
+                    facts["travel_start"], facts["travel_end"] = a, b
+                    evidence["travel"] = _snippet(s, _TRAVEL_SENT.search(s).group(0))
+            continue
+        if _SALE_SENT.search(s) and "sale_start" not in facts and "sale_end" not in facts:
+            a, b = extract_dates(s, pub)
+            if a or b:
+                facts["sale_start"], facts["sale_end"] = a, b
+                m = _DATE.search(s)
+                evidence["sale"] = _snippet(s, m.group(0) if m else None)
+        if "discount" not in facts:
+            d = extract_discount(s)
+            if d:
+                facts["discount"] = d
+                evidence["discount"] = _snippet(s, re.match(r"최대|[\d,]+만?", d).group(0))
+        if "destination" not in facts:
+            o, dst = airports(s)
+            if dst:
+                facts["origin"], facts["destination"] = o, dst
+                evidence["route"] = _snippet(s, dst.split("(")[0])
+    return facts, evidence
