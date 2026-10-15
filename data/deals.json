@@ -1,24 +1,25 @@
 {
- "generated_at": "2026-10-15T16:46:16+09:00",
+ "generated_at": "2026-10-15T17:22:32+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
-  "hotel": "2026-10-15T13:00:04+09:00"
+  "hotel": "2026-10-15T13:00:04+09:00",
+  "hotel_trial": "2026-10-15T17:22:32+09:00"
  },
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
-  "queries": 92,
+  "queries": 111,
   "failed_queries": 0,
-  "rss_items": 1701,
+  "rss_items": 2276,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 1154,
+  "outlet_items": 1144,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 2,
-  "articles": 200,
-  "new_articles": 2,
-  "deals": 25
+  "articles": 216,
+  "new_articles": 16,
+  "deals": 31
  },
  "deals": [
   {
@@ -33,6 +34,10 @@
    "section": "hotel",
    "route": null,
    "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
    "official_url": null,
    "iata": [],
    "agencies": [],
@@ -298,6 +303,10 @@
    "section": "flight",
    "route": "international",
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.airpremia.com/",
    "iata": [
     "YP"
@@ -377,6 +386,10 @@
    "section": "hotel",
    "route": null,
    "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
    "official_url": null,
    "iata": [],
    "agencies": [],
@@ -467,6 +480,10 @@
    "section": "flight",
    "route": "international",
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.airbusan.com/",
    "iata": [
     "BX"
@@ -621,6 +638,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.airpremia.com/",
    "iata": [
     "YP"
@@ -691,6 +712,10 @@
    "section": "flight",
    "route": "international",
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.twayair.com/",
    "iata": [
     "TW"
@@ -828,6 +853,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.twayair.com/",
    "iata": [
     "TW"
@@ -962,6 +991,59 @@
    "status": "live"
   },
   {
+   "id": "h-clubmed-3e347de208",
+   "airline_id": "h-clubmed",
+   "airline": "클럽메드",
+   "airlines_mentioned": [
+    "클럽메드"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Save 15% on luxury resorts, with this Club Med discount code",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Save 15% on luxury resorts, with this Club Med discount code",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZNGZ3N0JrQmxwRUtxcGpRcHRFYnVOR0U1Nl9Za1Z0d0dHcVRpN3hnLXc4OF91cmIxcWVWVGpKSmU2Rk1Yemd2Rjk4bmZjQTU1LUZvX1VCcDYtRHZCWjJxSzlJbTluRU1mUmoxemxDdGFibTFwN1pMOWVUeEo?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": null,
+   "discount": "15% 할인",
+   "verification": "news",
+   "first_published": "2026-10-01",
+   "last_published": "2026-10-01",
+   "first_seen": "2026-10-15T17:22:32+09:00",
+   "last_seen": "2026-10-15T17:22:32+09:00",
+   "articles": [
+    {
+     "title": "Save 15% on luxury resorts, with this Club Med discount code",
+     "outlet": "The Independent",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZNGZ3N0JrQmxwRUtxcGpRcHRFYnVOR0U1Nl9Za1Z0d0dHcVRpN3hnLXc4OF91cmIxcWVWVGpKSmU2Rk1Yemd2Rjk4bmZjQTU1LUZvX1VCcDYtRHZCWjJxSzlJbTluRU1mUmoxemxDdGFibTFwN1pMOWVUeEo?oc=5",
+     "published": "2026-10-01"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-yeogi-db578f36ca",
    "airline_id": "h-yeogi",
    "airline": "여기어때",
@@ -973,6 +1055,10 @@
    "section": "hotel",
    "route": null,
    "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
    "official_url": "https://www.yeogi.com/",
    "iata": [],
    "agencies": [],
@@ -1025,6 +1111,10 @@
    "section": "hotel",
    "route": null,
    "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
    "official_url": "https://www.yeogi.com/",
    "iata": [],
    "agencies": [],
@@ -1085,6 +1175,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://flyairseoul.com/",
    "iata": [
     "RS"
@@ -1131,6 +1225,10 @@
    "section": "flight",
    "route": "international",
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.jinair.com/",
    "iata": [
     "LJ"
@@ -1190,6 +1288,59 @@
    "status": "undated"
   },
   {
+   "id": "h-other-2abbbfd934",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Mandai Rainforest Resort Marks First Anniversary With Up to 45% OFF Stays From $229 In November",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Mandai Rainforest Resort Marks First Anniversary With Up to 45% OFF Stays From $229 In November",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWVJCT2NPYTlKbWJYQTdpeEpyX1hvMUtEaTdtbnh2M09mUi0tcnhiNlJ0RTh0STl4Um1CTkZPa2QzRDZkdWdBSjM1SW5jb1ZIa09uUi1sMzZiYVRBQ2tiNTEyTmpOZ01nM3Z4R0ZzUS0wajBWcDdUMzBsNXQ0U2hYX3kwRUhhQU9HMk9vNERfSzlEX0d6Wm1FS2ctS3BLQm8yaVZXcnFoZl81R243ZFE?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": null,
+   "discount": "최대 45%",
+   "verification": "news",
+   "first_published": "2026-10-07",
+   "last_published": "2026-10-07",
+   "first_seen": "2026-10-15T17:22:32+09:00",
+   "last_seen": "2026-10-15T17:22:32+09:00",
+   "articles": [
+    {
+     "title": "Mandai Rainforest Resort Marks First Anniversary With Up to 45% OFF Stays From $229 In November",
+     "outlet": "Great Deals Singapore",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWVJCT2NPYTlKbWJYQTdpeEpyX1hvMUtEaTdtbnh2M09mUi0tcnhiNlJ0RTh0STl4Um1CTkZPa2QzRDZkdWdBSjM1SW5jb1ZIa09uUi1sMzZiYVRBQ2tiNTEyTmpOZ01nM3Z4R0ZzUS0wajBWcDdUMzBsNXQ0U2hYX3kwRUhhQU9HMk9vNERfSzlEX0d6Wm1FS2ctS3BLQm8yaVZXcnFoZl81R243ZFE?oc=5",
+     "published": "2026-10-07"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "airseoul-b0a8a4cad6",
    "airline_id": "airseoul",
    "airline": "에어서울",
@@ -1201,6 +1352,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://flyairseoul.com/",
    "iata": [
     "RS"
@@ -1241,6 +1396,54 @@
    "status": "undated"
   },
   {
+   "id": "h-other-991f9a4176",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "10.10 travel sale: Where to score discounted flights, hotel stays and more this October",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "date_source": "none",
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-08",
+   "last_published": "2026-10-08",
+   "first_seen": "2026-10-15T17:22:32+09:00",
+   "last_seen": "2026-10-15T17:22:32+09:00",
+   "articles": [
+    {
+     "title": "10.10 travel sale: Where to score discounted flights, hotel stays and more this October",
+     "outlet": "Philstar Life",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeFRieWVEb1RZeFR5VGotak1fT2dDT1JyUVNsWTR6ZlNrZzdVYkpRU2ZtamQzaThRUTUxUmxEcDdtcjl0RnVaVXFPakZDUEpTLWUyZHozRDRlYXFjSk1uanZoY0N4bnM4OEFBNk81QXZQTlcta2ZhMjI1ZzlDUTlsZG1vallJZnl3RWJzY1JGQlBFWlVaX2FUR1g4NldJbmlOdlHSAagBQVVfeXFMT2RFTUFTU1JKU3JpUi0zZWFkNGFNakhvR21uOVBZWEJ5MFV0TmtQY1JGQzloUUJVN2REQTV3bm56bjctSk95dnBKbWFGOHh1OFlWNmZYNFNvaVVHQmU4aHZKQkhndG9nY2RfLXF5T0g3VkNiTDFpdHZWVklNNnVMXzc4RVJlUUhCM0EzeG5SQjVGLUkyWnh4LS1jUG5zMU5UWnZMZzZVd2hX?oc=5",
+     "published": "2026-10-08"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "airpremia-353c91f823",
    "airline_id": "airpremia",
    "airline": "에어프레미아",
@@ -1252,6 +1455,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.airpremia.com/",
    "iata": [
     "YP"
@@ -1312,6 +1519,10 @@
    "section": "flight",
    "route": "international",
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.vietjetair.com/ko",
    "iata": [
     "VJ"
@@ -1384,6 +1595,10 @@
    "section": "hotel",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
    "official_url": null,
    "iata": [],
    "agencies": [],
@@ -1429,6 +1644,59 @@
    "status": "undated"
   },
   {
+   "id": "h-tripcom-bc01e325a9",
+   "airline_id": "h-tripcom",
+   "airline": "트립닷컴",
+   "airlines_mentioned": [
+    "트립닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://kr.trip.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Trip.com 10.10 Sale Offers S$301 Flights, Free Attractions and 50% Off Johor Bahru Hotels",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Trip.com 10.10 Sale Offers S$301 Flights, Free Attractions and 50% Off Johor Bahru Hotels",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ3R1bWNlYWlTNVhrRGVZdENLNld2UTdjR25ONm90UGNJaTdaMjJzZGtmam9ud2Y1eFFPbXVTOHBHNGNtdXR6YW1ELU1nU2NOLUY5TlhzaXJmbmtRXzg4dXNzTHU4V0tZRHN3dngtUm9XQko5eXRnekNfcjRnbmtBZ1d6WjBraGpVblVLbEtUSlBiQWhDUTRvSjI5SkFSQmZ3ZHVHVi10enhRdEV4QS1BcXRNNHBTRmZJMDYtbzJn?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": null,
+   "discount": "50% 할인",
+   "verification": "news",
+   "first_published": "2026-10-08",
+   "last_published": "2026-10-08",
+   "first_seen": "2026-10-15T17:22:32+09:00",
+   "last_seen": "2026-10-15T17:22:32+09:00",
+   "articles": [
+    {
+     "title": "Trip.com 10.10 Sale Offers S$301 Flights, Free Attractions and 50% Off Johor Bahru Hotels",
+     "outlet": "Alvinology",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ3R1bWNlYWlTNVhrRGVZdENLNld2UTdjR25ONm90UGNJaTdaMjJzZGtmam9ud2Y1eFFPbXVTOHBHNGNtdXR6YW1ELU1nU2NOLUY5TlhzaXJmbmtRXzg4dXNzTHU4V0tZRHN3dngtUm9XQko5eXRnekNfcjRnbmtBZ1d6WjBraGpVblVLbEtUSlBiQWhDUTRvSjI5SkFSQmZ3ZHVHVi10enhRdEV4QS1BcXRNNHBTRmZJMDYtbzJn?oc=5",
+     "published": "2026-10-08"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "klm-6b572765fa",
    "airline_id": "klm",
    "airline": "KLM",
@@ -1440,6 +1708,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.klm.com/",
    "iata": [
     "KL"
@@ -1504,6 +1776,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.koreanair.com/",
    "iata": [
     "KE"
@@ -1573,6 +1849,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.turkishairlines.com/",
    "iata": [
     "TK"
@@ -1624,6 +1904,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.aircanada.com/kr/ko/aco/home.html",
    "iata": [
     "AC"
@@ -1681,6 +1965,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": null,
    "iata": [],
    "agencies": [],
@@ -1726,6 +2014,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": null,
    "iata": [],
    "agencies": [],
@@ -1770,6 +2062,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://flyasiana.com/C/KR/KO/event/list",
    "iata": [
     "OZ"
@@ -1832,6 +2128,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.jejuair.net/",
    "iata": [
     "7C"
@@ -1881,6 +2181,56 @@
    "status": "undated"
   },
   {
+   "id": "h-other-7afebebcee",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "겨울방학·연말 수요 겨냥…괌 호텔 5곳 공동 프로모션 진행",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "괌"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "date_source": "none",
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-15",
+   "last_published": "2026-10-15",
+   "first_seen": "2026-10-15T17:22:32+09:00",
+   "last_seen": "2026-10-15T17:22:32+09:00",
+   "articles": [
+    {
+     "title": "겨울방학·연말 수요 겨냥…괌 호텔 5곳 공동 프로모션 진행",
+     "outlet": "아주경제",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Vdjd2aEZybEROemk2TkRINE9raEhzeTU0M3FSMXA2d283RmpFOG5Dd2RnakM4VU4xMG9xQlBxNlFlZDdoZldoUEtKcHNuQ1dhak9BV2tXbWfSAVhBVV95cUxNVXY3dmhGcmxETnppNk5ESDRPa2hIc3k1NDNxUjFwNndvN0ZqRThuQ3dkZ2pDOFVOMTBvcUJQcTZRZWQ3aGZXaFBLSnBzbkNXYWpPQVdrV21n?oc=5",
+     "published": "2026-10-15"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "cebu-85f98e637e",
    "airline_id": "cebu",
    "airline": "세부퍼시픽",
@@ -1892,6 +2242,10 @@
    "section": "flight",
    "route": null,
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.cebupacificair.com/ko-KR",
    "iata": [
     "5J"
@@ -1965,6 +2319,63 @@
    "status": "ended"
   },
   {
+   "id": "h-marriott-dab875097a",
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "airlines_mentioned": [
+    "메리어트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[Expired] Marriott Bonvoy Escapes: Save up to 20% on Hotel Stays [Book by October 11]",
+   "sale_start": null,
+   "sale_end": "2026-10-11",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "[Expired] Marriott Bonvoy Escapes: Save up to 20% on Hotel Stays [Book by October 11]",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UZTRGNWN2R3VtV0lCVTJWODYtN1RiZlpUS0QxUG9SUlZQSVpaUWxfcnFGcWVaREZ2R01fR2hfenpReGpKc0hqRGYtU2UwX2JsMHNWMHlvR2FqQWJIcENLRE9DZWp5NVE?oc=5"
+    },
+    "discount": {
+     "title": "[Expired] Marriott Bonvoy Escapes: Save up to 20% on Hotel Stays [Book by October 11]",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UZTRGNWN2R3VtV0lCVTJWODYtN1RiZlpUS0QxUG9SUlZQSVpaUWxfcnFGcWVaREZ2R01fR2hfenpReGpKc0hqRGYtU2UwX2JsMHNWMHlvR2FqQWJIcENLRE9DZWp5NVE?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": null,
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-10-12",
+   "last_published": "2026-10-12",
+   "first_seen": "2026-10-15T17:22:32+09:00",
+   "last_seen": "2026-10-15T17:22:32+09:00",
+   "articles": [
+    {
+     "title": "[Expired] Marriott Bonvoy Escapes: Save up to 20% on Hotel Stays [Book by October 11]",
+     "outlet": "Upgraded Points",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UZTRGNWN2R3VtV0lCVTJWODYtN1RiZlpUS0QxUG9SUlZQSVpaUWxfcnFGcWVaREZ2R01fR2hfenpReGpKc0hqRGYtU2UwX2JsMHNWMHlvR2FqQWJIcENLRE9DZWp5NVE?oc=5",
+     "published": "2026-10-12"
+    }
+   ],
+   "status": "ended"
+  },
+  {
    "id": "trinity-c4ff9cffdb",
    "airline_id": "trinity",
    "airline": "트리니티항공",
@@ -1976,6 +2387,10 @@
    "section": "flight",
    "route": "international",
    "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
    "official_url": "https://www.twayair.com/",
    "iata": [
     "TW"
