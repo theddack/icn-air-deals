@@ -219,6 +219,17 @@ def _evidence(arts, chosen):
     return out
 
 
+def _agencies(arts):
+    from .extract import hotels_in
+    seen = []
+    for a in arts:
+        for hid in hotels_in(a["title"]):
+            h = HOTEL_BY_ID[hid]
+            if h["kind"] == "platform" and h.get("official_url") and hid not in seen:
+                seen.append(hid)
+    return [{"name": HOTEL_BY_ID[h]["name"], "url": HOTEL_BY_ID[h]["official_url"]} for h in seen]
+
+
 def _distinct(values):
     return list(dict.fromkeys(v for v in values if v))
 
@@ -271,6 +282,8 @@ def _to_deal(airline_id, arts):
         "route_text": _mode(a.get("route_text") for a in arts),
         "official_url": airline.get("official_url"),
         "iata": airline.get("iata", []),
+        # 항공권 기사 제목에 나온 예약 플랫폼·여행사 (할인을 그곳에서 판다는 근거가 기사에 있을 때만 화면에 링크)
+        "agencies": _agencies(arts) if category == "flight" else [],
         "event_name": _mode(a.get("event_name") for a in arts if _is_event_like(a.get("event_name"))),
         "headline": arts[-1]["title"],
         "sale_start": start,

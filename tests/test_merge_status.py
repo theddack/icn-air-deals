@@ -68,6 +68,12 @@ class TestMerge(unittest.TestCase):
         self.assertEqual((d["evidence"]["sale"]["url"], d["evidence"]["discount"]["url"]), ("b", "b"))
         self.assertNotIn("travel", d["evidence"])
 
+    def test_agency_link_only_when_named_in_title(self):
+        d = cluster_articles([art("하나투어, 진에어 일본 노선 항공권 최대 30% 할인", "2026-10-02")])[0]
+        self.assertEqual(d["agencies"], [{"name": "하나투어", "url": "https://www.hanatour.com/"}])
+        d = cluster_articles([art("진에어, 일본 노선 항공권 최대 30% 할인", "2026-10-02")])[0]
+        self.assertEqual(d["agencies"], [])
+
     def test_hotel_deal_has_no_airport(self):
         d = cluster_articles([art("여기어때, 가평 숙소 대상 최대 3만원 할인 쿠폰 제공", "2026-10-02")])[0]
         self.assertEqual((d["section"], d["from_icn"], d["airline"]), ("hotel", None, "여기어때"))
