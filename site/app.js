@@ -157,6 +157,9 @@
         '<div class="foot-row"><span>뉴스 기사에서 추출 · 조건은 공식 페이지 확인 필요</span>' +
           (d.official_url ? '<a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">공식 페이지에서 확인 ↗</a>' : "") +
         "</div>" +
+        ((d.agencies || []).length ? '<div class="foot-row"><span>기사에 나온 판매처</span><span>' + d.agencies.map(function (g) {
+          return '<a href="' + esc(g.url) + '" target="_blank" rel="noopener">' + esc(g.name) + " ↗</a>";
+        }).join(" · ") + "</span></div>" : "") +
         "<details><summary>관련 기사 " + d.articles.length + "건" + (d.event_name ? " · " + esc(d.headline) : "") + "</summary><ul>" + arts + "</ul></details>" +
       "</div>" +
     "</article>";
@@ -326,9 +329,22 @@
       "</button>";
   }
 
+  // 행사 이름은 최신 기사로, 옆에 항공사 공식 페이지와 기사에 나온 판매처(여행사·플랫폼) 링크
+  function dealLinks(d) {
+    var links = [];
+    if (d.official_url) links.push('<a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">' + esc(d.airline) + " 공식 ↗</a>");
+    (d.agencies || []).forEach(function (g) {
+      links.push('<a href="' + esc(g.url) + '" target="_blank" rel="noopener" title="기사 제목에 나온 판매처">' + esc(g.name) + " ↗</a>");
+    });
+    return links.length ? '<span class="deal-links">' + links.join(" · ") + "</span>" : "";
+  }
+
   function dealName(d) {
-    return esc((d.event_name || d.headline).slice(0, 22)) +
-      (d.official_url ? ' <a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">↗</a>' : "");
+    var a = d.articles && d.articles[0];
+    var name = esc((d.event_name || d.headline).slice(0, 22));
+    return '<span class="deal-item">' +
+      (a ? '<a href="' + esc(a.url) + '" target="_blank" rel="noopener" title="근거 기사: ' + esc(a.title) + '">' + name + "</a>" : name) +
+      dealLinks(d) + "</span>";
   }
 
   function dealCell(x) {
