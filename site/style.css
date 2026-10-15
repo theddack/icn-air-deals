@@ -82,6 +82,13 @@ select, input[type="search"] {
 .p-ended { background: var(--bad-soft); color: var(--muted); }
 .tag { font-size: .74rem; padding: 0 7px; border-radius: 4px; border: 1px solid var(--line); color: var(--muted); }
 .tag.icn { border-color: var(--accent); color: var(--accent); }
+.tag.warn { border-color: var(--warn); color: var(--warn); }
+.fresh { display: inline-block; font-size: .72rem; font-weight: 600; padding: 0 7px; border-radius: 4px; margin-right: 6px; vertical-align: 2px; background: var(--info); color: var(--surface); }
+.fresh.soft { background: var(--info-soft); color: var(--info); }
+.src { font-size: .78rem; color: var(--muted); }
+.health { background: var(--warn-soft); color: var(--warn); border: 1px solid var(--warn); border-radius: 8px; padding: 10px 14px; font-size: .88rem; display: grid; gap: 4px; }
+.health p { margin: 0; }
+[hidden] { display: none !important; }
 .disc { font-family: var(--font-mono); font-size: .8rem; color: var(--accent); font-weight: 600; }
 details { grid-column: 2 / 4; padding: 0 14px 10px 0; font-size: .85rem; }
 summary { cursor: pointer; color: var(--muted); }

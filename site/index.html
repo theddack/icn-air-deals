@@ -21,6 +21,7 @@
 </header>
 
 <main class="wrap">
+  <div id="health" class="health" role="status" hidden></div>
   <section class="controls" aria-label="필터">
     <div class="chips" role="group" aria-label="상태">
       <button type="button" class="chip" data-status="all" aria-pressed="true">전체 <b id="c-all">0</b></button>
@@ -52,7 +53,8 @@
 
   <footer class="foot">
     <p>항공사 공식 발표가 아니라 <b>뉴스 기사 제목</b>에서 자동으로 뽑은 정보입니다. 판매 기간·출발지·할인율은 틀릴 수 있으니 예약 전에 항공사 공지를 확인하세요.</p>
-    <p>"출발지 미확인"은 기사 제목에 출발 공항이 없다는 뜻입니다. 국내 항공사 국제선은 대부분 인천 출발을 포함합니다.</p>
+    <p>"인천 출발"은 제목에 인천~노선·인천발·인천 출발 같은 근거가 있을 때만 붙습니다. "출발지 미확인"은 제목에 출발 공항이 없다는 뜻입니다.</p>
+    <p>"항공사 미분류"는 한 기사에 여러 항공사가 섞여 어느 항공사 행사인지 정하지 않은 것입니다. "공식 페이지에서 확인"은 항공사 홈페이지(또는 이벤트 목록) 링크이며, 이 사이트가 공식 페이지를 수집한 것은 아닙니다.</p>
     <p><a href="https://github.com/theddack/icn-air-deals">소스 코드</a></p>
   </footer>
 </main>
