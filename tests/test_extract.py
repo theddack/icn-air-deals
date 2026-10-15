@@ -80,9 +80,34 @@ class TestAirline(unittest.TestCase):
     def test_basic(self):
         self.assertEqual(x.detect_airline("에어부산, 내일부터 7일간 국내선 할인 판매"), "airbusan")
 
-    def test_first_mention_wins(self):
+    def test_partner_is_not_an_airline(self):
         self.assertEqual(x.detect_airline("클룩·이스타항공, 일본 항공·호텔 특가"), "eastarjet")
-        self.assertEqual(x.detect_airline("90% 이상 할인… 이스타·에어프레미아, 연중 최대 프로모션 시작"), "eastarjet")
+
+
+class TestMultiAirline(unittest.TestCase):
+    """제목에 항공사가 둘 이상 나오는 실제 기사 (2026-07 ~ 10)."""
+
+    def owner(self, title):
+        return x.attribute_airline(title)[0]
+
+    def test_two_airlines_one_sale_is_unclassified(self):
+        self.assertIsNone(self.owner("90% 이상 할인… 이스타·에어프레미아, 연중 최대 프로모션 시작"))
+
+    def test_roundup_with_two_sales_is_unclassified(self):
+        self.assertIsNone(self.owner("10월 항공권 할인전…트리니티 지방 출발 쿠폰·아시아나 결제 할인"))
+
+    def test_sale_belongs_to_preceding_airline(self):
+        self.assertEqual(self.owner("트리니티항공, 구마모토 노선 최대 15% 할인... 제주항공, 정비 인재 양성 외[시경Today-항공]"), "trinity")
+        self.assertEqual(self.owner("에어서울, '임박 특가' 프로모션→비엣젯항공, '亞대표 항공사' 선정"), "airseoul")
+        self.assertEqual(self.owner("비엣젯, 신규취항 기념 특가 항공권→터키항공, 이스탄불서 세계 안전운항 컨퍼런스"), "vietjet")
+
+    def test_wrong_airline_is_never_confirmed(self):
+        # 특가는 KLM 것인데 예전 규칙은 먼저 나온 에어캐나다로 분류했다
+        self.assertNotEqual(self.owner("[플라이H!] 장거리 여객 공략..에어캐나다 미국 입국 간소화·KLM 107주년 특가"), "aircanada")
+
+    def test_mentioned_list(self):
+        self.assertEqual(x.attribute_airline("90% 이상 할인… 이스타·에어프레미아, 연중 최대 프로모션 시작")[1],
+                         ["eastarjet", "airpremia"])
 
     def test_longer_alias(self):
         self.assertEqual(x.detect_airline("타이에어아시아 특가"), "airasia")
@@ -139,6 +164,42 @@ class TestIcn(unittest.TestCase):
 
     def test_airline_name_is_not_origin(self):
         self.assertEqual(x.icn_flag("제주항공 찜 특가 시작"), "unknown")
+
+    def test_mere_mention_is_not_origin(self):
+        self.assertEqual(x.icn_flag("인천공항 라운지 이용권 할인 이벤트"), "unknown")
+        self.assertEqual(x.icn_flag("인천국제공항공사, 면세 할인"), "unknown")
+        self.assertEqual(x.icn_flag("LA~인천 노선 특가"), "unknown")
+
+    def test_origin_forms(self):
+        self.assertEqual(x.icn_flag("에어부산, 일본·중국·동남아 국제선 특가행사…부산과 인천출발 대상"), "yes")
+        self.assertEqual(x.icn_flag("티웨이항공, 인천-자카르타 “편도 총액 239,200원부터”"), "yes")
+        self.assertEqual(x.icn_flag("인천발 다낭 노선 특가"), "yes")
+        self.assertEqual(x.icn_flag("에어프레미아, 미주 노선 최대 25% 할인…인천~LA 노선 취항 4주년"), "yes")
+
+
+class TestTravel(unittest.TestCase):
+    def check(self, title, pub, start, end):
+        s, e = x.extract_travel(title, D(pub))
+        self.assertEqual((s.isoformat() if s else None, e.isoformat() if e else None), (start, end), title)
+
+    def test_until_date_boarding(self):
+        self.check("티웨이항공, 해외 노선 특가 프로모션 실시..12월 31일까지 탑승 가능", "2026-08-20", None, "2026-12-31")
+
+    def test_month_range_departure(self):
+        self.check("티웨이항공, 6~8월 출발 항공권 할인 프로모션 진행", "2026-06-19", "2026-06-01", "2026-08-31")
+
+    def test_next_year_months(self):
+        self.check("트리니티항공, 내년 1~3월 국제선 항공권 최대 24% 할인", "2026-10-10", "2027-01-01", "2027-03-31")
+
+    def test_next_year_quarter(self):
+        self.check("트리니티항공, 내년 1분기 국제선 최대 24% 할인", "2026-10-13", "2027-01-01", "2027-03-31")
+
+    def test_single_month(self):
+        self.check("OO항공, 12월 출발 일본 노선 특가", "2026-10-10", "2026-12-01", "2026-12-31")
+
+    def test_sale_date_is_not_travel(self):
+        self.check("에어부산, 연말 국제선 특가 프로모션…14일부터 20일까지", "2026-10-10", None, None)
+        self.check("진에어, 13일부터 4일간 ‘진마켓’ 운영…최대 96% 할인", "2026-07-08", None, None)
 
 
 class TestEventName(unittest.TestCase):

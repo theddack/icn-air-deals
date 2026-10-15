@@ -35,16 +35,57 @@ _ALIASES = sorted(
 )
 
 
-def detect_airline(title):
-    """제목에서 가장 먼저 나오는 항공사 id. 같은 위치면 긴 표기가 이긴다."""
-    best = None  # (pos, -len, id)
+def airlines_in(text):
+    """text에 나오는 항공사 id를 처음 나온 순서대로. 긴 표기부터 찾고 찾은 자리는 지운다."""
+    found = []  # (pos, id)
+    masked = text
     for airline_id, alias, pat in _ALIASES:
-        m = pat.search(title)
-        if m:
-            cand = (m.start(), -len(alias), airline_id)
-            if best is None or cand < best:
-                best = cand
-    return best[2] if best else None
+        for m in pat.finditer(masked):
+            found.append((m.start(), airline_id))
+            masked = masked[: m.start()] + "\0" * len(alias) + masked[m.end():]
+    out = []
+    for _, airline_id in sorted(found):
+        if airline_id not in out:
+            out.append(airline_id)
+    return out
+
+
+# 제목을 절로 나누는 구분자. '·'는 "이스타·에어프레미아"처럼 주어를 나열할 때 쓰여서 나누지 않는다.
+_SEGMENT_SPLIT = re.compile(r"…|\.{2,}|⋯|→|,|\||\[|\]|\s-\s")
+
+
+def attribute_airline(title):
+    """특가가 누구 것인지 정한다 → (airline_id 또는 None, 제목에 나온 항공사 목록).
+
+    특가 표현이 있는 절마다 그 절의 항공사(없으면 가장 가까운 앞 절, 그것도 없으면 뒤 절)를 모은다.
+    모은 항공사가 하나일 때만 확정하고, 둘 이상이면 None(미분류)이다.
+    """
+    mentioned = airlines_in(title)
+    if len(mentioned) <= 1:
+        return (mentioned[0] if mentioned else None), mentioned
+
+    segs = [s for s in _SEGMENT_SPLIT.split(title) if s.strip()]
+    seg_airlines = [airlines_in(s) for s in segs]
+    owners = []
+    for i, seg in enumerate(segs):
+        if not _SALE_CLAUSE.search(seg):
+            continue
+        if seg_airlines[i]:
+            owners += seg_airlines[i]
+            continue
+        before = [seg_airlines[j] for j in range(i - 1, -1, -1) if seg_airlines[j]]
+        after = [seg_airlines[j] for j in range(i + 1, len(segs)) if seg_airlines[j]]
+        if before:
+            owners += before[0]
+        elif after:
+            owners += after[0]
+    owners = list(dict.fromkeys(owners))
+    return (owners[0] if len(owners) == 1 else None), mentioned
+
+
+def detect_airline(title):
+    """특가의 주인인 항공사 id. 여러 항공사가 섞여 판단할 수 없으면 None."""
+    return attribute_airline(title)[0]
 
 
 # ---------------------------------------------------------------- 특가 기사 판별
@@ -53,6 +94,8 @@ def detect_airline(title):
 _SALE_STRONG = re.compile(r"특가|얼리버드|세일|SALE|Sale|반값")
 # 이 말은 기내식·호텔·카드 할인에도 쓰여서 항공권 맥락이 같이 있어야 한다
 _SALE_WEAK = re.compile(r"할인|프로모션|이벤트")
+# 절 단위로 특가의 주인을 찾을 때 쓰는 표현 (쿠폰·%도 포함)
+_SALE_CLAUSE = re.compile(r"특가|얼리버드|세일|SALE|Sale|반값|할인|프로모션|이벤트|쿠폰|\d{1,3}\s?%")
 _TICKET = re.compile(r"항공권|운임|노선|국제선|국내선|편도|왕복|항공편|좌석|\d{1,3}\s?%|\d\s?원부터|[가-힣]{2,}행\b|~[가-힣]{2,}")
 _NOISE = re.compile(r"퀴즈|정답|주가|증권|목표가|실적|영업이익|영업손실|채용|사고|추락|비상착륙|국정감사|과징금"
                     r"|마일리지 적립|마일리지 프로모션|기내식|면세점|팝업스토어")
@@ -191,14 +234,68 @@ def extract_discount(title):
     return None
 
 
+# ---------------------------------------------------------------- 탑승 기간
+
+_TRAVEL_WORD = r"(?:탑승|출발|여행)"
+_TRAVEL_END = re.compile(r"(?:(\d{1,2})\s?월\s*)?(\d{1,2})\s?일\s?까지\s?" + _TRAVEL_WORD)
+_TRAVEL_MONTHS = re.compile(r"(내년\s?)?(\d{1,2})\s?[~∼\-–]\s?(\d{1,2})\s?월(?=\s?(?:" + _TRAVEL_WORD[3:-1] + r"|항공권|국제선|노선))")
+_TRAVEL_NEXT_YEAR_MONTHS = re.compile(r"내년\s?(\d{1,2})\s?[~∼\-–]\s?(\d{1,2})\s?월")
+_TRAVEL_QUARTER = re.compile(r"(내년|올해)\s?(\d)\s?분기")
+_TRAVEL_MONTH = re.compile(r"(내년\s?)?(\d{1,2})\s?월\s?" + _TRAVEL_WORD)
+
+
+def _month_year(month, pub, next_year=False):
+    if next_year:
+        return pub.year + 1
+    return pub.year + 1 if month < pub.month - 1 else pub.year
+
+
+def _month_end(year, month):
+    nxt = date(year + (month == 12), month % 12 + 1, 1)
+    return nxt - timedelta(days=1)
+
+
+def extract_travel(title, pub):
+    """(travel_start, travel_end) — 제목에 탑승·출발 기간이 있을 때만. 없으면 (None, None)."""
+    try:
+        m = _TRAVEL_END.search(title)
+        if m:
+            mo = int(m.group(1)) if m.group(1) else pub.month
+            y = _month_year(mo, pub)
+            return None, date(y, mo, int(m.group(2)))
+        m = _TRAVEL_MONTHS.search(title) or _TRAVEL_NEXT_YEAR_MONTHS.search(title)
+        if m:
+            nxt = m.re is _TRAVEL_NEXT_YEAR_MONTHS or bool(m.group(1))
+            a, b = (int(m.group(1)), int(m.group(2))) if m.re is _TRAVEL_NEXT_YEAR_MONTHS else (int(m.group(2)), int(m.group(3)))
+            if 1 <= a <= 12 and 1 <= b <= 12:
+                ya = _month_year(a, pub, nxt)
+                yb = ya + (b < a)
+                return date(ya, a, 1), _month_end(yb, b)
+        m = _TRAVEL_QUARTER.search(title)
+        if m and 1 <= int(m.group(2)) <= 4:
+            y = pub.year + (m.group(1) == "내년")
+            q = int(m.group(2))
+            return date(y, 3 * q - 2, 1), _month_end(y, 3 * q)
+        m = _TRAVEL_MONTH.search(title)
+        if m and 1 <= int(m.group(2)) <= 12:
+            mo = int(m.group(2))
+            y = _month_year(mo, pub, bool(m.group(1)))
+            return date(y, mo, 1), _month_end(y, mo)
+    except ValueError:
+        pass
+    return None, None
+
+
 # ---------------------------------------------------------------- 인천 출발
 
 _OTHER_ORIGIN = re.compile(r"(김포|김해|부산|대구|청주|무안|양양|광주|제주)\s?(?:출발|발\b|[-~–])")
+# 단순 언급("인천공항 라운지")이 아니라 인천이 출발지라는 근거
+_ICN_ORIGIN = re.compile(r"인천\s?(?:[~∼\-–→]|발(?![가-힣])|출발|공항\s?출발)|ICN\s?[~∼\-–→]")
 
 
 def icn_flag(title):
-    """'yes' | 'no' | 'unknown'"""
-    if re.search(r"인천|ICN", title):
+    """'yes' | 'no' | 'unknown' — yes는 노선·출발 표현이 있을 때만."""
+    if _ICN_ORIGIN.search(title):
         return "yes"
     if _OTHER_ORIGIN.search(title):
         return "no"
