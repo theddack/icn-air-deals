@@ -4,14 +4,16 @@
 
   var DAY = 86400000;
   var WEEK = ["일", "월", "화", "수", "목", "금", "토"];
-  var STATUS_LABEL = { upcoming: "예고", live: "진행중", undated: "날짜 미상", ended: "마감" };
+  var STATUS_LABEL = { upcoming: "판매 예정", live: "진행 중", undated: "날짜 미확인", ended: "마감" };
+  var STATUS_PILL = { upcoming: "", live: "green", undated: "orange", ended: "gray" };
+  var CLOSING_DAYS = 3; // 마감까지 이 일수 이내면 '마감 임박'
   var ORDER = { upcoming: 0, live: 1, undated: 2, ended: 3 };
-  var ICN_LABEL = { yes: "인천 출발", no: "인천 외 출발", unknown: "출발지 미확인" };
+  var ICN_LABEL = { yes: "인천(ICN)", no: "인천 외 출발", unknown: "미확인" };
   var VERIFY_LABEL = { official: "공식 확인", news: "뉴스 기반 · 미확인" };
   var NEW_HOURS = 48;   // 처음 본 지 이 시간 안이면 '신규', 기사가 이 시간 안에 더해졌으면 '기사 추가'
   var STALE_HOURS = 12; // 마지막 수집이 이보다 오래되면 수집이 멈춘 것으로 본다
 
-  var state = { status: "all", kind: "all", airline: "all", q: "", hideOther: true };
+  var state = { filter: "all", kind: "all", airline: "all", q: "", hideOther: true };
   var deals = [];
   var names = {};       // airline_id -> 이름 (필터용)
   var baseline = null;  // 첫 수집 시각. 이때 들어온 기사는 신규로 보지 않는다
@@ -61,51 +63,64 @@
     return null;
   }
 
-  function travelText(d) {
-    if (d.travel_start && d.travel_end) return "탑승 " + md(d.travel_start) + " ~ " + md(d.travel_end);
-    if (d.travel_end) return "탑승 ~ " + md(d.travel_end) + "까지";
-    return "";
+  // 기사에 없는 쪽 날짜는 만들지 않고 '미확인'으로 둔다. 둘 다 없으면 null
+  function rangeText(start, end) {
+    if (!start && !end) return null;
+    return (start ? md(start) : "미확인") + " ~ " + (end ? md(end) : "미확인");
   }
 
-  function periodText(d) {
-    if (d.sale_start && d.sale_end) return md(d.sale_start) + " ~ " + md(d.sale_end);
-    if (d.sale_start) return md(d.sale_start) + " 시작 · 마감일 미상";
-    if (d.sale_end) return "~ " + md(d.sale_end) + "까지 · 시작일 미상";
-    return "기간 미상";
+  function isClosing(d, today) {
+    return d._status === "live" && d.sale_end && diffDays(d.sale_end, today) <= CLOSING_DAYS;
+  }
+
+  function matches(d, f, today) {
+    if (f === "all") return true;
+    if (f === "new") return d._fresh === "new";
+    if (f === "closing") return isClosing(d, today);
+    if (f === "official") return d.verification === "official";
+    return d._status === f;
+  }
+
+  function row(label, value, cls) {
+    return "<dt>" + label + "</dt><dd" + (cls ? ' class="' + cls + '"' : "") + ">" + value + "</dd>";
   }
 
   function card(d, today) {
     var st = d._status;
     var title = d.event_name ? d.event_name : d.headline;
-    var fresh = freshness(d);
     var multi = d.airline_id === "multi";
-    var who = multi ? "여러 항공사 · " + d.airlines_mentioned.join("·") : d.airline;
-    var travel = travelText(d);
+    var sale = rangeText(d.sale_start, d.sale_end);
+    var travel = rangeText(d.travel_start, d.travel_end);
+    var verified = d.verification === "official";
     var arts = d.articles.map(function (a) {
       return '<li><a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.title) + "</a>" +
         "<span>" + esc(a.outlet || "") + " · " + md(a.published) + "</span></li>";
     }).join("");
-    return '<article class="deal s-' + st + '">' +
-      '<span class="stripe" aria-hidden="true"></span>' +
-      '<div class="main">' +
-        '<div class="air"><b>' + esc(who) + "</b>" +
-          (multi ? '<span class="tag warn">항공사 미분류</span>' : "") +
-          '<span class="tag' + (d.from_icn === "yes" ? " icn" : "") + '">' + ICN_LABEL[d.from_icn] + "</span>" +
-          (d.discount ? '<span class="disc">' + esc(d.discount) + "</span>" : "") +
+    var pills =
+      '<span class="pill ' + STATUS_PILL[st] + '">' + STATUS_LABEL[st] + "</span>" +
+      (d._fresh === "new" ? '<span class="pill solid">신규</span>' : d._fresh === "updated" ? '<span class="pill">기사 추가</span>' : "") +
+      (isClosing(d, today) ? '<span class="pill orange">마감 임박</span>' : "") +
+      '<span class="pill ' + (verified ? "green" : "orange") + '">' + VERIFY_LABEL[d.verification || "news"] + "</span>" +
+      (multi ? '<span class="pill orange">항공사 미분류</span>' : "");
+    var airline = multi ? "여러 항공사 (" + esc(d.airlines_mentioned.join("·")) + ")" : esc(d.airline);
+    return '<article class="deal' + (st === "ended" ? " ended" : "") + '">' +
+      '<div class="pills">' + pills + "</div>" +
+      "<h3>" + esc(title) + "</h3>" +
+      (d.discount ? '<div class="price">' + esc(d.discount) + "</div>" : '<div class="price none">할인 정보 미확인</div>') +
+      "<dl>" +
+        row("항공사", airline) +
+        row("판매 기간", sale || "미확인", sale ? "" : "unk") +
+        row("탑승 기간", travel || "미확인", travel ? "" : "unk") +
+        row("출발 공항", ICN_LABEL[d.from_icn], d.from_icn === "yes" ? "icn" : d.from_icn === "unknown" ? "unk" : "") +
+        row("남은 기간", st === "undated" ? "미확인 · 최근 기사 " + md(d.last_published) : ddayText(d, st, today), st === "undated" ? "unk" : "") +
+      "</dl>" +
+      '<div class="foot">' +
+        '<div class="foot-row"><span>뉴스 기사에서 추출 · 조건은 공식 페이지 확인 필요</span>' +
+          (d.official_url ? '<a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">공식 페이지에서 확인 ↗</a>' : "") +
         "</div>" +
-        '<div class="title">' +
-          (fresh === "new" ? '<span class="fresh">신규</span>' : fresh === "updated" ? '<span class="fresh soft">기사 추가</span>' : "") +
-          esc(title) + "</div>" +
-        '<div class="period">판매 ' + periodText(d) + (travel ? " · " + travel : "") + "</div>" +
-        '<div class="src">' + VERIFY_LABEL[d.verification || "news"] +
-          (d.official_url ? ' · <a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">공식 페이지에서 확인</a>' : "") +
-        "</div>" +
+        "<details><summary>관련 기사 " + d.articles.length + "건" + (d.event_name ? " · " + esc(d.headline) : "") + "</summary><ul>" + arts + "</ul></details>" +
       "</div>" +
-      '<div class="side"><span class="pill p-' + st + '">' + STATUS_LABEL[st] + "</span>" +
-        '<span class="dday">' + ddayText(d, st, today) + "</span></div>" +
-      "<details><summary>기사 " + d.articles.length + "건" +
-        (d.event_name ? " · " + esc(d.headline) : "") + "</summary><ul>" + arts + "</ul></details>" +
-      "</article>";
+    "</article>";
   }
 
   function visible(d) {
@@ -123,11 +138,18 @@
   function render() {
     var today = todayKst();
     var base = deals.filter(visible);
-    var counts = { all: base.length, upcoming: 0, live: 0, undated: 0, ended: 0 };
-    base.forEach(function (d) { counts[d._status]++; });
-    Object.keys(counts).forEach(function (k) { document.getElementById("c-" + k).textContent = counts[k]; });
-
-    var shown = base.filter(function (d) { return state.status === "all" || d._status === state.status; });
+    ["all", "live", "new", "upcoming", "official", "undated", "ended", "closing"].forEach(function (f) {
+      var n = base.filter(function (d) { return matches(d, f, today); }).length;
+      var c = document.getElementById("c-" + f), t = document.getElementById("s-" + f);
+      if (c) c.textContent = n;
+      if (t) t.textContent = n;
+    });
+    document.querySelectorAll("[data-filter]").forEach(function (b) {
+      var on = b.dataset.filter === state.filter;
+      b.classList.toggle("active", on);
+      b.setAttribute("aria-pressed", String(on));
+    });
+    var shown = base.filter(function (d) { return matches(d, state.filter, today); });
     document.getElementById("list").innerHTML = shown.map(function (d) { return card(d, today); }).join("");
     document.getElementById("empty").hidden = shown.length > 0;
   }
@@ -163,8 +185,9 @@
     });
 
     baseline = data.baseline_first_seen || "";
+    deals.forEach(function (d) { d._fresh = freshness(d); });
     document.getElementById("updated").textContent =
-      "마지막 수집 " + data.generated_at.slice(0, 16).replace("T", " ") + " KST · 기사 " +
+      "ICN AIR DEALS · 마지막 수집 " + data.generated_at.slice(0, 16).replace("T", " ") + " KST · 기사 " +
       data.stats.articles + "건 → 행사 " + data.deals.length + "건";
     showHealth(data);
 
@@ -178,10 +201,11 @@
     render();
   }
 
-  document.querySelectorAll(".chip").forEach(function (b) {
+  // 요약 타일과 툴바 버튼이 같은 필터를 쓴다. 켜진 타일을 다시 누르면 전체로 돌아간다.
+  document.querySelectorAll("[data-filter]").forEach(function (b) {
     b.addEventListener("click", function () {
-      state.status = b.dataset.status;
-      document.querySelectorAll(".chip").forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+      var f = b.dataset.filter;
+      state.filter = (b.classList.contains("stat") && state.filter === f) ? "all" : f;
       render();
     });
   });
@@ -194,6 +218,6 @@
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(init)
     .catch(function (e) {
-      document.getElementById("updated").textContent = "데이터를 불러오지 못했습니다 (" + e.message + "). 잠시 후 새로고침하세요.";
+      document.getElementById("updated").textContent = "ICN AIR DEALS · 데이터를 불러오지 못했습니다 (" + e.message + "). 잠시 후 새로고침하세요.";
     });
 })();

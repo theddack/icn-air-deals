@@ -4,60 +4,74 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ICN 특가 레이더</title>
-<meta name="description" content="인천 출발 항공권 할인 행사를 뉴스 기사에서 모아 예고·진행중·마감으로 보여줍니다.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<meta name="description" content="인천 출발 항공권 할인 행사를 뉴스 기사에서 모아 진행 중·신규·판매 예정으로 보여줍니다.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="board">
-  <div class="board-in">
-    <div class="flap" aria-hidden="true"><span>ICN</span><span>→</span><span>SALE</span></div>
-    <h1>ICN 특가 레이더</h1>
-    <p class="sub">인천 출발 항공권 할인 행사를 뉴스 기사에서 모아 보여줍니다.</p>
-    <p class="updated" id="updated">불러오는 중…</p>
+<header class="hero">
+  <div class="hero-in">
+    <div class="eyebrow" id="updated">ICN AIR DEALS · 불러오는 중…</div>
+    <h1>✈ ICN 특가 레이더</h1>
+    <p>항공사 할인 행사를 뉴스 기사에서 자동으로 모아, <strong>지금 진행 중이거나 새로 나온 특가</strong>를 빠르게 확인하는 개인용 항공권 행사 모니터링 페이지.</p>
+    <div class="hero-pills"><span class="pill">하루 4회 자동 수집</span> <span class="pill">뉴스 기사 기반</span> <span class="pill">LLM 미사용</span></div>
   </div>
 </header>
 
 <main class="wrap">
-  <div id="health" class="health" role="status" hidden></div>
-  <section class="controls" aria-label="필터">
-    <div class="chips" role="group" aria-label="상태">
-      <button type="button" class="chip" data-status="all" aria-pressed="true">전체 <b id="c-all">0</b></button>
-      <button type="button" class="chip" data-status="upcoming" aria-pressed="false">예고 <b id="c-upcoming">0</b></button>
-      <button type="button" class="chip" data-status="live" aria-pressed="false">진행중 <b id="c-live">0</b></button>
-      <button type="button" class="chip" data-status="undated" aria-pressed="false">날짜 미상 <b id="c-undated">0</b></button>
-      <button type="button" class="chip" data-status="ended" aria-pressed="false">마감 <b id="c-ended">0</b></button>
-    </div>
-    <div class="row">
-      <label class="field"><span>구분</span>
-        <select id="kind">
-          <option value="all">전체 항공사</option>
-          <option value="domestic">국내 항공사</option>
-          <option value="foreign">해외 항공사</option>
-        </select>
-      </label>
-      <label class="field"><span>항공사</span>
-        <select id="airline"><option value="all">전체</option></select>
-      </label>
-      <label class="field grow"><span>검색</span>
-        <input id="q" type="search" placeholder="일본, 얼리버드, 하와이…" autocomplete="off">
-      </label>
-      <label class="toggle"><input id="hide-other" type="checkbox" checked> 인천 외 출발 숨기기</label>
+  <div id="health" class="notice warn" role="status" hidden></div>
+
+  <section class="section" aria-labelledby="h-summary">
+    <h2 id="h-summary">한눈에 보기</h2>
+    <div class="stats">
+      <button type="button" class="stat" data-filter="live"><span class="stat-label">진행 중</span><b id="s-live">0</b><span class="stat-sub">판매 기간 안에 있는 행사</span></button>
+      <button type="button" class="stat" data-filter="new"><span class="stat-label">신규</span><b id="s-new">0</b><span class="stat-sub">최근 48시간 안에 처음 수집</span></button>
+      <button type="button" class="stat" data-filter="closing"><span class="stat-label">마감 임박</span><b id="s-closing">0</b><span class="stat-sub">3일 안에 판매 마감</span></button>
+      <button type="button" class="stat" data-filter="upcoming"><span class="stat-label">판매 예정</span><b id="s-upcoming">0</b><span class="stat-sub">판매 시작 전</span></button>
     </div>
   </section>
 
-  <section id="list" class="list" aria-live="polite"></section>
-  <p id="empty" class="empty" hidden>조건에 맞는 행사가 없습니다. 필터를 바꿔 보세요.</p>
+  <section class="section" aria-labelledby="h-list">
+    <h2 id="h-list">행사 목록</h2>
+    <div class="preview">
+      <div class="toolbar" role="group" aria-label="행사 구분">
+        <button type="button" data-filter="all" class="active">전체 행사 <b id="c-all">0</b></button>
+        <button type="button" data-filter="live">진행 중 <b id="c-live">0</b></button>
+        <button type="button" data-filter="new">신규 <b id="c-new">0</b></button>
+        <button type="button" data-filter="upcoming">판매 예정 <b id="c-upcoming">0</b></button>
+        <button type="button" data-filter="official">공식 확인 <b id="c-official">0</b></button>
+        <button type="button" data-filter="undated">정보 미확인 <b id="c-undated">0</b></button>
+        <button type="button" data-filter="ended">마감 <b id="c-ended">0</b></button>
+      </div>
+      <div class="filters">
+        <label class="field"><span>구분</span>
+          <select id="kind">
+            <option value="all">전체 항공사</option>
+            <option value="domestic">국내 항공사</option>
+            <option value="foreign">해외 항공사</option>
+          </select>
+        </label>
+        <label class="field"><span>항공사</span>
+          <select id="airline"><option value="all">전체</option></select>
+        </label>
+        <label class="field grow"><span>검색</span>
+          <input id="q" type="search" placeholder="일본, 얼리버드, 하와이…" autocomplete="off">
+        </label>
+        <label class="toggle"><input id="hide-other" type="checkbox" checked> 인천 외 출발 숨기기</label>
+      </div>
+      <div id="list" class="deals" aria-live="polite"></div>
+      <p id="empty" class="empty" hidden>조건에 맞는 행사가 없습니다. 필터를 바꿔 보세요.</p>
+    </div>
+  </section>
 
-  <footer class="foot">
-    <p>항공사 공식 발표가 아니라 <b>뉴스 기사 제목</b>에서 자동으로 뽑은 정보입니다. 판매 기간·출발지·할인율은 틀릴 수 있으니 예약 전에 항공사 공지를 확인하세요.</p>
-    <p>"인천 출발"은 제목에 인천~노선·인천발·인천 출발 같은 근거가 있을 때만 붙습니다. "출발지 미확인"은 제목에 출발 공항이 없다는 뜻입니다.</p>
-    <p>"항공사 미분류"는 한 기사에 여러 항공사가 섞여 어느 항공사 행사인지 정하지 않은 것입니다. "공식 페이지에서 확인"은 항공사 홈페이지(또는 이벤트 목록) 링크이며, 이 사이트가 공식 페이지를 수집한 것은 아닙니다.</p>
-    <p><a href="https://github.com/theddack/icn-air-deals">소스 코드</a></p>
-  </footer>
+  <section class="section">
+    <div class="notice">
+      <strong>이 페이지를 읽는 법</strong><br>
+      항공사 공식 발표가 아니라 <b>뉴스 기사 제목</b>에서 자동으로 뽑은 정보입니다. 기사에 없는 날짜·가격·출발지는 추측하지 않고 "미확인"으로 둡니다. 실제 운임과 좌석은 항공사 예약 단계에서 달라질 수 있으니 예약 전에 공식 페이지를 확인하세요.<br>
+      "인천(ICN)"은 제목에 인천~노선·인천발·인천 출발 같은 근거가 있을 때만 표시합니다. "항공사 미분류"는 한 기사에 여러 항공사가 섞여 어느 항공사 행사인지 정하지 않은 것입니다. "공식 페이지에서 확인"은 항공사 홈페이지(또는 이벤트 목록) 링크이며, 이 사이트가 공식 페이지를 수집한 것은 아닙니다.
+    </div>
+  </section>
 </main>
+<footer class="site-foot">ICN AIR DEALS · 개인용 항공권 행사 모니터링 · <a href="https://github.com/theddack/icn-air-deals">소스 코드</a></footer>
 <script src="app.js"></script>
 </body>
 </html>
