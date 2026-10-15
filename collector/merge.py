@@ -270,6 +270,7 @@ def _to_deal(airline_id, arts):
         "route": route,
         "route_text": _mode(a.get("route_text") for a in arts),
         "official_url": airline.get("official_url"),
+        "iata": airline.get("iata", []),
         "event_name": _mode(a.get("event_name") for a in arts if _is_event_like(a.get("event_name"))),
         "headline": arts[-1]["title"],
         "sale_start": start,
