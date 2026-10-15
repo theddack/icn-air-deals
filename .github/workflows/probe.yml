@@ -1,0 +1,21 @@
+name: probe-icn-api
+
+# 인천공항 공공 API 응답 구조 확인용. 수동 실행만. 키는 Secrets에서 읽고 로그에 남기지 않는다.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+        run: python -m scripts.probe_icn_api
