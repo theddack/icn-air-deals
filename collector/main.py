@@ -48,13 +48,17 @@ def enrich(article):
     t_start, t_end = extract.extract_travel(title, pub)
     name = extract.extract_event_name(title)
     category = extract.category_of(title) or "flight"
+    origin = destination = None
+    regions, conditions = [], []
     if category == "hotel":
         owner, mentioned = extract.attribute_hotel(title)
         route, route_text, from_icn = None, None, None
+        regions, conditions = extract.hotel_regions(title), extract.hotel_conditions(title)
     else:
         owner, mentioned = extract.attribute_airline(title)
         route, route_text = extract.route_of(title)
         from_icn = extract.icn_flag(title)
+        origin, destination = extract.airports(title)
     return {
         **article,
         "category": category,
@@ -71,6 +75,10 @@ def enrich(article):
         "from_icn": from_icn,
         "route": route,
         "route_text": route_text,
+        "origin": origin,
+        "destination": destination,
+        "regions": regions,
+        "conditions": conditions,
     }
 
 

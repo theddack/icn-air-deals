@@ -257,3 +257,31 @@ class TestHotel(unittest.TestCase):
     def test_amount_discount(self):
         self.assertEqual(extract_discount("강원 숙박상품 최대 7만원 할인…22일부터"), "최대 7만원 할인")
         self.assertEqual(extract_discount("여기어때, 가평 전 숙박시설 ‘최대 3만 원’ 선착순 할인"), "최대 3만원 할인")
+
+
+class TestAirports(unittest.TestCase):
+    def test_pair_and_codes(self):
+        self.assertEqual(x.airports("트리니티항공, 인천~구마모토 노선 최대 15% 할인"), ("인천(ICN)", "구마모토(KMJ)"))
+        self.assertEqual(x.airports("제주항공, 부산~마닐라 12월 17일 취항...최대 50% 할인"), ("부산(PUS)", "마닐라(MNL)"))
+
+    def test_airline_name_is_not_a_place(self):
+        # '세부퍼시픽'의 세부, '제주항공'의 제주는 노선이 아니다
+        self.assertEqual(x.airports("세부퍼시픽, 세부행 특가"), (None, "세부(CEB)"))
+        self.assertEqual(x.airports("제주항공, 최대 50% 할인"), (None, None))
+
+    def test_city_without_single_airport_has_no_code(self):
+        self.assertEqual(x.airports("진에어, 인천~도쿄 특가"), ("인천(ICN)", "도쿄"))
+
+    def test_domestic_pair_text(self):
+        self.assertEqual(x.route_of("제주항공, 김포~제주 노선 특가"), ("domestic", "김포~제주"))
+        self.assertEqual(x.route_of("에어프레미아, 하와이~한국 왕복 특가")[0], None)
+
+
+class TestHotelFields(unittest.TestCase):
+    def test_regions(self):
+        self.assertEqual(x.hotel_regions("전남광주통합특별시, 숙박세일 페스타 가을편…최대 7만 원 할인"), ["전남광주"])
+        self.assertEqual(x.hotel_regions("마이리얼트립, 日 규슈 사가현 숙소·렌터카 할인"), ["규슈", "사가현"])
+
+    def test_conditions(self):
+        self.assertEqual(x.hotel_conditions("강원도 22일부터 ‘숙박세일페스타’…연박시 최대 7만원 할인"), ["연박"])
+        self.assertEqual(x.hotel_conditions("여기어때, 가평 숙소 대상 최대 3만원 할인 쿠폰 제공 선착순"), ["쿠폰", "선착순"])

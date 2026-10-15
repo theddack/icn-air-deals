@@ -50,6 +50,24 @@ class TestMerge(unittest.TestCase):
         deals = sorted(cluster_articles(arts), key=lambda d: d["section"])
         self.assertEqual([d["section"] for d in deals], ["domestic", "flight"])
 
+    def test_travel_disagreement_is_not_resolved(self):
+        # 같은 행사인데 기사마다 탑승 기간이 다르면 한쪽을 고르지 않는다
+        arts = [
+            art("진에어, '진마켓' 오픈…내년 1~3월 탑승 최대 96% 할인", "2026-07-08"),
+            art("진에어, '진마켓' 오픈…내년 2~3월 탑승 최대 96% 할인", "2026-07-08"),
+        ]
+        d = cluster_articles(arts)[0]
+        self.assertEqual((d["travel_start"], d["travel_end"], d["conflicts"]), (None, None, ["travel"]))
+
+    def test_evidence_points_to_article_with_value(self):
+        arts = [
+            art("진에어, '진마켓' 티저 오픈", "2026-07-08", url="a"),
+            art("진에어, 16일까지 '진마켓' 진행…최대 96% 운임 할인", "2026-07-13", url="b"),
+        ]
+        d = cluster_articles(arts)[0]
+        self.assertEqual((d["evidence"]["sale"]["url"], d["evidence"]["discount"]["url"]), ("b", "b"))
+        self.assertNotIn("travel", d["evidence"])
+
     def test_hotel_deal_has_no_airport(self):
         d = cluster_articles([art("여기어때, 가평 숙소 대상 최대 3만원 할인 쿠폰 제공", "2026-10-02")])[0]
         self.assertEqual((d["section"], d["from_icn"], d["airline"]), ("hotel", None, "여기어때"))

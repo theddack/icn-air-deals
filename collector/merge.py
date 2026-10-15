@@ -208,6 +208,21 @@ def _mode(values):
     return Counter(values).most_common(1)[0][0] if values else None
 
 
+def _evidence(arts, chosen):
+    """필드별 근거 기사: 고른 값을 담은 가장 최근 기사의 제목·주소. arts는 발행일 오름차순."""
+    out = {}
+    for field, test in chosen.items():
+        for a in reversed(arts):
+            if test(a):
+                out[field] = {"title": a["title"], "url": a["url"]}
+                break
+    return out
+
+
+def _distinct(values):
+    return list(dict.fromkeys(v for v in values if v))
+
+
 def _to_deal(airline_id, arts):
     arts = sorted(arts, key=lambda a: (a["published"], a["url"]))
     category = arts[0].get("category", "flight")
@@ -227,6 +242,21 @@ def _to_deal(airline_id, arts):
     routes = {a.get("route") for a in arts} - {None}
     route = routes.pop() if len(routes) == 1 else None  # compatible()이 서로 다른 구분을 막는다
     section = "hotel" if category == "hotel" else ("domestic" if route == "domestic" else "flight")
+
+    # 탑승(투숙) 기간은 묶기 충돌 검사 대상이 아니라 기사끼리 다를 수 있다. 다르면 고르지 않고 '출처 간 불일치'로 둔다.
+    conflicts = []
+    t_start, t_end = _mode(a.get("travel_start") for a in arts), _mode(a.get("travel_end") for a in arts)
+    travel_pairs = _distinct((a.get("travel_start"), a.get("travel_end")) for a in arts
+                             if a.get("travel_start") or a.get("travel_end"))
+    if len(travel_pairs) > 1:
+        conflicts.append("travel")
+        t_start = t_end = None
+    # 한 행사가 여러 노선을 다루는 일은 흔하다(예: 인천~구마모토·부산~마닐라). 불일치가 아니라 목록으로 둔다.
+    routes = _distinct((a.get("origin"), a.get("destination")) for a in arts if a.get("origin") or a.get("destination"))
+    regions = Counter(r for a in arts for r in a.get("regions", []))
+    conditions = Counter(c for a in arts for c in a.get("conditions", []))
+    start_, end_ = start, end
+    discount = _mode(a.get("discount") for a in arts)
     seen = sorted(a["first_seen"] for a in arts)
     return {
         "id": f"{airline_id}-{hashlib.sha1(arts[0]['url'].encode()).hexdigest()[:10]}",
@@ -244,11 +274,21 @@ def _to_deal(airline_id, arts):
         "headline": arts[-1]["title"],
         "sale_start": start,
         "sale_end": end,
-        "travel_start": _mode(a.get("travel_start") for a in arts),
-        "travel_end": _mode(a.get("travel_end") for a in arts),
+        "travel_start": t_start,
+        "travel_end": t_end,
+        "routes": [{"origin": o, "destination": d} for o, d in routes],
+        "regions": [r for r, _ in regions.most_common(4)],
+        "conditions": [c for c, _ in conditions.most_common()],
+        "conflicts": conflicts,
+        "evidence": _evidence(arts, {
+            "sale": lambda a: (a["sale_start"] or a["sale_end"]) and a["sale_start"] in (start_, None) and a["sale_end"] in (end_, None),
+            "travel": lambda a: bool(t_start or t_end) and (a.get("travel_start"), a.get("travel_end")) == (t_start, t_end),
+            "discount": lambda a: bool(discount) and a.get("discount") == discount,
+            "route": lambda a: bool(a.get("origin") or a.get("destination") or a.get("route_text")),
+        }),
         "date_source": "title" if (start or end) else "none",
         "from_icn": from_icn,
-        "discount": _mode(a.get("discount") for a in arts),
+        "discount": discount,
         # 지금은 모든 행사가 뉴스 기사 기반이다. 공식 페이지에서 확인한 행사가 생기면 'official'.
         "verification": "news",
         "first_published": arts[0]["published"],

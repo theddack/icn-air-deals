@@ -339,20 +339,16 @@ def normalize_event_name(name):
 
 # ---------------------------------------------------------------- 국내선
 
-# 국내선 공항 도시. '제주항공'·'에어부산' 같은 항공사 이름은 지운 뒤에 찾는다.
-_DOMESTIC_CITY = r"(?:김포|제주|김해|부산|청주|대구|광주|여수|울산|사천|포항|군산|원주|양양|무안|서울)"
-_DOMESTIC_PAIR = re.compile(rf"({_DOMESTIC_CITY})\s?[~∼\-–→]\s?({_DOMESTIC_CITY})")
 _DOMESTIC_JEJU = re.compile(r"제주\s?(?:행|노선|항공권|왕복|편도)")
 
 
 def route_of(title):
-    """(노선 구분, 노선 표기) — 구분은 'domestic' | 'international' | None, 표기는 '김포~제주'처럼 제목에 있을 때만."""
-    masked = title
-    for _, alias, pat in _ALIASES:
-        masked = pat.sub(" ", masked)
-    m = _DOMESTIC_PAIR.search(masked)
-    if m and m.group(1) != m.group(2) and "국제선" not in masked:
-        return "domestic", f"{m.group(1)}~{m.group(2)}"
+    """(노선 구분, 노선 표기) — 구분은 'domestic' | 'international' | None, 표기는 '김포~제주'처럼 제목에 있을 때만.
+    출발·도착이 모두 국내 공항이면 국내선이다(아래 airports 참고)."""
+    masked = _mask_airlines(title)
+    o, d = _airport_keys(masked)
+    if o and d and _PLACES[o][2] and _PLACES[d][2] and "한국" not in (o, d) and "국제선" not in masked:
+        return "domestic", f"{_PLACES[o][0]}~{_PLACES[d][0]}"
     if "국제선" in masked:
         return "international", None
     if "국내선" in masked or _DOMESTIC_JEJU.search(masked):
@@ -401,3 +397,84 @@ def category_of(title):
     if is_hotel_sale(title):
         return "hotel"
     return None
+
+
+# ---------------------------------------------------------------- 출발·도착 공항
+
+# 제목에 나오는 지명 → (표시 이름, 공항 코드 또는 None, 국내 여부).
+# 공항이 여럿인 도시(도쿄·상하이·방콕 등)와 나라·지역 이름은 코드를 붙이지 않는다.
+_PLACES = {
+    "인천": ("인천", "ICN", True), "김포": ("김포", "GMP", True), "김해": ("김해", "PUS", True), "부산": ("부산", "PUS", True),
+    "제주": ("제주", "CJU", True), "청주": ("청주", "CJJ", True), "대구": ("대구", "TAE", True), "광주": ("광주", "KWJ", True),
+    "무안": ("무안", "MWX", True), "양양": ("양양", "YNY", True), "여수": ("여수", "RSU", True), "울산": ("울산", "USN", True),
+    "사천": ("사천", "HIN", True), "포항": ("포항", "KPO", True), "군산": ("군산", "KUV", True), "원주": ("원주", "WJU", True),
+    "오사카": ("오사카", "KIX", False), "간사이": ("오사카", "KIX", False), "후쿠오카": ("후쿠오카", "FUK", False),
+    "삿포로": ("삿포로", "CTS", False), "오키나와": ("오키나와", "OKA", False), "나고야": ("나고야", "NGO", False),
+    "구마모토": ("구마모토", "KMJ", False), "마쓰야마": ("마쓰야마", "MYJ", False), "시즈오카": ("시즈오카", "FSZ", False),
+    "나리타": ("도쿄 나리타", "NRT", False), "하네다": ("도쿄 하네다", "HND", False), "도쿄": ("도쿄", None, False),
+    "다낭": ("다낭", "DAD", False), "나트랑": ("나트랑", "CXR", False), "냐짱": ("나트랑", "CXR", False), "하노이": ("하노이", "HAN", False),
+    "호치민": ("호찌민", "SGN", False), "호찌민": ("호찌민", "SGN", False), "푸꾸옥": ("푸꾸옥", "PQC", False),
+    "방콕": ("방콕", None, False), "치앙마이": ("치앙마이", "CNX", False), "푸껫": ("푸껫", "HKT", False),
+    "세부": ("세부", "CEB", False), "마닐라": ("마닐라", "MNL", False), "보홀": ("보홀", "TAG", False), "클락": ("클락", "CRK", False),
+    "싱가포르": ("싱가포르", "SIN", False), "쿠알라룸푸르": ("쿠알라룸푸르", "KUL", False), "코타키나발루": ("코타키나발루", "BKI", False),
+    "발리": ("발리", "DPS", False), "타이베이": ("타이베이", None, False), "가오슝": ("가오슝", "KHH", False),
+    "홍콩": ("홍콩", "HKG", False), "마카오": ("마카오", "MFM", False), "상하이": ("상하이", None, False), "베이징": ("베이징", None, False),
+    "울란바토르": ("울란바토르", "UBN", False), "괌": ("괌", "GUM", False), "사이판": ("사이판", "SPN", False),
+    "하와이": ("하와이", None, False), "호놀룰루": ("호놀룰루", "HNL", False),
+    "일본": ("일본", None, False), "베트남": ("베트남", None, False), "필리핀": ("필리핀", None, False), "태국": ("태국", None, False),
+    "중국": ("중국", None, False), "대만": ("대만", None, False), "미국": ("미국", None, False), "유럽": ("유럽", None, False),
+    "한국": ("한국", None, True),
+}
+_PLACE = "(" + "|".join(sorted(_PLACES, key=len, reverse=True)) + ")"
+_PAIR = re.compile(_PLACE + r"\s?(?:[~∼\-–→]|에서)\s?" + _PLACE + r"(?![가-힣]{2})")
+_FROM = re.compile(_PLACE + r"\s?(?:발(?![가-힣])|출발)")
+_TO = re.compile(_PLACE + r"\s?(?:행(?![가-힣])|노선|직항)")
+
+
+def _place(name):
+    label, code, _ = _PLACES[name]
+    return f"{label}({code})" if code else label
+
+
+def _mask_airlines(title):
+    """'제주항공'·'에어부산'·'세부퍼시픽'의 지명은 노선이 아니므로 항공사 이름을 지운다."""
+    for _, alias, pat in _ALIASES:
+        title = pat.sub(" ", title)
+    return title
+
+
+def _airport_keys(masked):
+    m = _PAIR.search(masked)
+    if m and m.group(1) != m.group(2):
+        return m.group(1), m.group(2)
+    f, t = _FROM.search(masked), _TO.search(masked)
+    return (f.group(1) if f else None), (t.group(1) if t else None)
+
+
+def airports(title):
+    """(출발, 도착) — 제목에 노선·출발·도착 표현이 있을 때만. 표시용 문자열('인천(ICN)')이며 없으면 None."""
+    o, d = _airport_keys(_mask_airlines(title))
+    return (_place(o) if o else None), (_place(d) if d else None)
+
+
+# ---------------------------------------------------------------- 호텔 지역·조건
+
+_REGIONS = ["서울", "인천", "경기", "가평", "강원", "속초", "강릉", "충남", "충북", "대전", "전북", "전남광주", "전남", "광주",
+            "경북", "경남", "대구", "부산", "울산", "포항", "청도", "여수", "제주", "섬 지역", "비수도권",
+            "일본", "규슈", "사가현", "후쿠오카", "오사카", "도쿄", "베트남", "태국"]
+_REGION = re.compile("|".join(sorted(map(re.escape, _REGIONS), key=len, reverse=True)))
+_CONDITIONS = [("쿠폰", r"쿠폰"), ("연박", r"연박|2박"), ("선착순", r"선착순"), ("회원 전용", r"회원"),
+               ("앱 예약", r"앱(?:으로|에서)?"), ("포인트 적립", r"포인트")]
+
+
+def hotel_regions(title):
+    out = []
+    for m in _REGION.finditer(title):
+        r = m.group(0)
+        if r not in out and not any(r in o for o in out):
+            out.append(r)
+    return out
+
+
+def hotel_conditions(title):
+    return [name for name, pat in _CONDITIONS if re.search(pat, title)]
