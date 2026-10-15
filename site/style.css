@@ -149,6 +149,12 @@ table.sch td.muted, table.sch .cs { color: var(--faint); }
 table.sch .cs { display: block; font-size: 12px; }
 table.sch td.rel { font-size: 13px; }
 table.sch td.st, table.sch th.st { white-space: nowrap; }
+.deal-rel, .deal-air { display: block; font-size: 11px; font-weight: 800; margin-top: 2px; }
+.deal-rel { color: var(--green); }
+.deal-air { color: var(--gray); font-weight: 500; font-size: 12px; }
+details.deal-air summary { font-weight: 800; font-size: 11px; }
+table.sch mark { background: var(--orange-bg); color: var(--orange); border-radius: 4px; padding: 0 3px; }
+.dest .pills { margin-top: 2px; }
 .rel-inline { display: none; margin-top: 4px; font-size: 12px; color: var(--green); }
 
 /* 안내·경고 */

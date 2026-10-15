@@ -217,7 +217,7 @@
   var DOW = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
   var sch = null;        // flights.json
   var schError = null;
-  var schState = { date: null, dest: null, q: "", airline: "all", related: false, hideCodeshare: true, showAll: false };
+  var schState = { date: null, dest: null, q: "", airline: "all", related: false, showAll: false };
   var DEST_PREVIEW = 12; // 도착지 카드를 처음에 이만큼만 보여준다
 
   function weekdayIdx(iso) { return (new Date(iso + "T00:00:00Z").getUTCDay() + 6) % 7; } // 월=0
@@ -227,36 +227,67 @@
     return sch.schedule.filter(function (r) { return r.first <= iso && iso <= r.last && r.days.charAt(wd) === "1"; });
   }
 
-  // 탭 숫자: 오늘 정기편 중 공동운항 편명으로 알려진 것을 뺀 수
+  // 탭 숫자: 오늘 실제 운항편 수 (공동운항 판매 편명 제외)
   function countToday() {
     return flightsOn(todayKst()).filter(function (f) { return !f.codeshare_of; }).length;
   }
 
-  // 관련 행사: 같은 항공사이고, 행사 노선의 도착지가 이 편의 도착지와 같고, 탑승 기간을 알면 그 안에 드는 것.
-  // 할인이 이 편에 적용된다는 뜻은 아니다.
-  function relatedDeals(f, iso) {
-    return deals.filter(function (d) {
-      if (sectionOf(d) === "hotel" || d._status === "ended" || d.airline !== f.airline) return false;
-      if (d.travel_start && iso < d.travel_start) return false;
-      if (d.travel_end && iso > d.travel_end) return false;
-      return (d.routes || []).some(function (r) {
-        // 출발지가 인천이 아닌 노선(예: 부산~마닐라)은 인천 출발편과 관련 없다
-        if (r.origin && r.origin !== "인천(ICN)") return false;
+  function prefixOf(flight) { return String(flight).slice(0, 2).toUpperCase(); }
+  function normFlight(q) { return String(q).toUpperCase().replace(/\s+/g, ""); }
+  var FLIGHT_NO = /^[A-Z0-9]{2}\d{1,4}[A-Z]?$/;
+
+  // 날짜의 시간표 확보 상태: full(정기 일정 확보) | partial(일부 편만 공개) | none(미확보)
+  function coverageOf(iso) {
+    var cov = sch.coverage;
+    return iso <= cov.full_until ? "full" : iso <= cov.partial_until ? "partial" : "none";
+  }
+
+  function activeAirDeals() {
+    return deals.filter(function (d) { return sectionOf(d) !== "hotel" && d._status !== "ended" && (d.iata || []).length; });
+  }
+
+  // 행사와 운항편 연결. 할인이 이 편에 적용된다는 뜻은 아니다.
+  //  related(관련 행사): 운항 항공사 코드 + 행사 노선의 출발지(인천) + 도착지가 모두 일치하고, 탑승 기간을 알면 그 안
+  //  airline(항공사 진행 행사): 운항 또는 판매 항공사만 같은 행사. 노선이 다르거나 확인되지 않은 것
+  function matchDeals(op, sellers, iso, airDeals) {
+    var related = [], airline = [];
+    var opCode = prefixOf(op.flight);
+    airDeals.forEach(function (d) {
+      var codes = d.iata;
+      var byOperator = codes.indexOf(opCode) >= 0;
+      var seller = sellers.filter(function (c) { return codes.indexOf(prefixOf(c.flight)) >= 0; })[0];
+      if (!byOperator && !seller) return;
+      var inTravel = !((d.travel_start && iso < d.travel_start) || (d.travel_end && iso > d.travel_end));
+      var routeHit = (d.routes || []).some(function (r) {
         var dest = r.destination || "";
-        return dest.indexOf("(" + f.dest_code + ")") >= 0 || dest === f.dest;
+        return r.origin === "인천(ICN)" && (dest.indexOf("(" + op.dest_code + ")") >= 0 || dest === op.dest);
       });
+      if (byOperator && routeHit && inTravel) related.push(d);
+      else airline.push({ d: d, via: byOperator ? null : seller.flight });
+    });
+    return { related: related, airline: airline };
+  }
+
+  // 그 날짜의 실제 운항편 목록. 공동운항 판매 편명은 실제 운항편 아래 sellers로 묶는다.
+  function operatingFlights(iso) {
+    var all = flightsOn(iso), st = (sch.status || {})[iso] || {}, airDeals = activeAirDeals();
+    var byFlight = {};
+    all.forEach(function (f) { byFlight[f.flight] = f; });
+    var sellers = {};
+    all.forEach(function (f) {
+      if (f.codeshare_of && byFlight[f.codeshare_of]) (sellers[f.codeshare_of] = sellers[f.codeshare_of] || []).push(f);
+    });
+    // 실제 운항편이 정기 일정에 없는 공동운항 편명은 그 편명 그대로 한 줄로 둔다
+    return all.filter(function (f) { return !f.codeshare_of || !byFlight[f.codeshare_of]; }).map(function (f) {
+      var sl = sellers[f.flight] || [];
+      var m = matchDeals(f, sl, iso, airDeals);
+      return { f: f, sellers: sl, s: st[f.flight] || (f.codeshare_of ? st[f.codeshare_of] : undefined), rel: m.related, air: m.airline };
     });
   }
 
-  // 그 날짜·항공사·공동운항 조건에 맞는 운항편 (상태·관련 행사 포함)
-  function dayFlights(iso) {
-    var st = (sch.status || {})[iso] || {};
-    return flightsOn(iso).filter(function (f) {
-      return (schState.airline === "all" || f.airline === schState.airline) && !(schState.hideCodeshare && f.codeshare_of);
-    }).map(function (f) {
-      // 공동운항 편명은 실제 운항편의 현황을 보여준다
-      return { f: f, rel: relatedDeals(f, iso), s: st[f.flight] || (f.codeshare_of ? st[f.codeshare_of] : undefined) };
-    });
+  function airlineFilterOk(x) {
+    var a = schState.airline;
+    return a === "all" || x.f.airline === a || x.sellers.some(function (c) { return c.airline === a; });
   }
 
   function fillSelect(id, values, label) {
@@ -271,10 +302,11 @@
   function groupByDest(list) {
     var by = {};
     list.forEach(function (x) {
-      var g = by[x.f.dest_code] || (by[x.f.dest_code] = { code: x.f.dest_code, name: x.f.dest, items: [], airlines: {}, rel: {} });
+      var g = by[x.f.dest_code] || (by[x.f.dest_code] = { code: x.f.dest_code, name: x.f.dest, items: [], airlines: {}, rel: {}, air: {} });
       g.items.push(x);
       g.airlines[x.f.airline] = (g.airlines[x.f.airline] || 0) + 1;
       x.rel.forEach(function (d) { g.rel[d.id] = d; });
+      x.air.forEach(function (a) { g.air[a.d.id] = a.d; });
     });
     return Object.keys(by).map(function (k) { return by[k]; });
   }
@@ -282,29 +314,60 @@
   function destCard(g) {
     var times = g.items.map(function (x) { return x.f.time; }).sort();
     var al = Object.keys(g.airlines).sort(function (a, b) { return g.airlines[b] - g.airlines[a]; });
-    var nrel = Object.keys(g.rel).length;
+    var nrel = Object.keys(g.rel).length, nair = Object.keys(g.air).length;
     return '<button type="button" class="dest" data-dest="' + esc(g.code) + '">' +
       '<span class="dest-top"><span class="dest-name">' + esc(g.name) + "<small>" + esc(g.code) + "</small></span>" +
       '<span class="dest-count">' + g.items.length + "편</span></span>" +
       '<span class="dest-sub">첫 편 ' + times[0] + " · 마지막 " + times[times.length - 1] + "</span>" +
       '<span class="dest-sub">' + esc(al.slice(0, 3).join(" · ")) + (al.length > 3 ? " 외 " + (al.length - 3) + "곳" : "") + "</span>" +
-      (nrel ? '<span class="pill green">관련 행사 ' + nrel + "건</span>" : "") +
+      (nrel || nair ? '<span class="pills">' +
+        (nrel ? '<span class="pill green">노선 일치 행사 ' + nrel + "건</span>" : "") +
+        (nair ? '<span class="pill gray">항공사 진행 행사 ' + nair + "건</span>" : "") + "</span>" : "") +
       "</button>";
   }
 
-  function flightRow(x, iso) {
+  function dealName(d) {
+    return esc((d.event_name || d.headline).slice(0, 22)) +
+      (d.official_url ? ' <a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">↗</a>' : "");
+  }
+
+  function dealCell(x) {
+    var out = "";
+    if (x.rel.length) out += '<span class="deal-rel">노선 일치 행사</span>' + x.rel.map(dealName).join("<br>");
+    if (x.air.length) {
+      // 노선이 확인되지 않은 행사라 접어 둔다
+      out += '<details class="deal-air"><summary>항공사 진행 행사 ' + x.air.length + "건</summary>" + x.air.map(function (a) {
+        return dealName(a.d) + (a.via ? ' <span class="cs">판매 편명 ' + esc(a.via) + " 기준</span>" : "");
+      }).join("<br>") + "</details>";
+    }
+    return out;
+  }
+
+  function flightRow(x, iso, searched) {
     var f = x.f, s = x.s;
     var changed = s && s.estimated && (s.estimated !== f.time || s.estimated_day !== iso)
       ? (s.estimated_day !== iso ? md(s.estimated_day) + " " : "") + s.estimated : "";
     var state = s ? esc(s.remark || "예정") : "정기 일정";
-    var rel = x.rel.map(function (d) {
-      return esc((d.event_name || d.headline).slice(0, 24)) + (d.official_url ? ' <a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">↗</a>' : "");
-    }).join("<br>");
+    var share;
+    if (x.sellers.length) {
+      share = "공동운항 판매: " + x.sellers.slice(0, 3).map(function (c) {
+        var hit = searched && c.flight === searched;
+        return (hit ? "<mark>" : "") + esc(c.airline) + " " + esc(c.flight) + (hit ? "</mark>" : "");
+      }).join(" · ") + (x.sellers.length > 3 ? " 외 " + (x.sellers.length - 3) + "편" : "");
+    } else if (f.codeshare_of) {
+      share = "공동운항 판매 편명 · 실제 운항 " + esc(f.codeshare_of) + " (정기 일정에 없음)";
+    } else if (!f.status_seen) {
+      share = "공동운항 여부 미확인";
+    } else {
+      share = "";
+    }
+    var deal = dealCell(x);
     return '<tr><td class="t">' + f.time + (changed ? '<span class="chg">→ ' + esc(changed) + "</span>" : "") + "</td>" +
-      "<td>" + esc(f.airline) + '<span class="cs">' + esc(f.flight) + (f.codeshare_of ? " · 공동운항(실제 " + esc(f.codeshare_of) + ")" : "") + "</span>" +
-        (rel ? '<span class="rel-inline">관련 행사: ' + rel + "</span>" : "") + "</td>" +
+      "<td><b>" + esc(f.airline) + " " + esc(f.flight) + '</b><span class="cs">운항 항공사</span>' +
+        (share ? '<span class="cs">' + share + "</span>" : "") +
+        (deal ? '<span class="rel-inline">' + deal + "</span>" : "") + "</td>" +
       '<td class="st' + (s ? "" : " muted") + '">' + state + "</td>" +
-      '<td class="rel' + (rel ? "" : " muted") + '">' + (rel || "–") + "</td></tr>";
+      '<td class="rel' + (deal ? "" : " muted") + '">' + (deal || "–") + "</td></tr>";
   }
 
   function renderSchedule() {
@@ -318,27 +381,48 @@
     }
     var cov = sch.coverage, today = todayKst(), sr = sch.status_range;
     var input = document.getElementById("sch-date");
-    input.min = today; input.max = cov.partial_until;
-    if (!schState.date || schState.date < today || schState.date > cov.partial_until) schState.date = today;
+    var maxDay = new Date(Date.parse(today) + 365 * DAY).toISOString().slice(0, 10);
+    input.min = today; input.max = maxDay;
+    if (!schState.date || schState.date < today || schState.date > maxDay) schState.date = today;
     input.value = schState.date;
     meta.innerHTML = "마지막 수집 " + esc(sch.generated_at.slice(0, 16).replace("T", " ")) + " KST · 시각은 " + esc(sch.timezone) +
-      "<br>정기 일정: " + md(today) + " ~ " + md(cov.full_until) + " 전체" +
-      (cov.partial_until > cov.full_until ? ", " + md(cov.partial_until) + "까지는 일부 편만" : "") +
-      " · 지연·변경 시각: " + (sr ? md(sr.from) + " ~ " + md(sr.to) : "이번 수집에서 받지 못함");
+      "<br>시간표 확보: " + md(today) + " ~ " + md(cov.full_until) +
+      (cov.partial_until > cov.full_until ? " · 일부 편만 공개: ~ " + md(cov.partial_until) : "") +
+      " · 그 뒤는 미확보 · 지연·변경 시각: " + (sr ? md(sr.from) + " ~ " + md(sr.to) : "이번 수집에서 받지 못함");
 
-    var iso = schState.date;
+    var iso = schState.date, cv = coverageOf(iso);
     var msgs = [];
-    if (iso > cov.full_until) msgs.push(md(iso) + "은 정기 일정이 일부 편만 있습니다. 다음 시즌 일정이 아직 공개 데이터에 없습니다.");
-    if (!sr || iso < sr.from || iso > sr.to) msgs.push("이 날짜는 지연·결항·변경 시각이 제공되지 않아 정기 예정 시각만 보여줍니다.");
+    if (cv === "partial") msgs.push("시간표 일부만 확보: " + md(iso) + "은 다음 시즌 정기편 일정이 아직 공개되지 않아, 공개된 일부 편만 보입니다. 목록에 없는 노선도 운항할 수 있습니다.");
+    if (cv === "none") msgs.push("시간표 미확보: " + md(iso) + "은 공개된 운항 일정이 없습니다. 운항편이 없다는 뜻이 아닙니다.");
+    if (cv !== "none" && (!sr || iso < sr.from || iso > sr.to)) msgs.push("이 날짜는 지연·결항·변경 시각이 제공되지 않아 정기 예정 시각만 보여줍니다.");
     if ((Date.now() - Date.parse(sch.generated_at)) / 3600000 > STALE_HOURS) msgs.push("시간표 마지막 수집이 " + STALE_HOURS + "시간보다 오래됐습니다.");
     warn.hidden = !msgs.length;
     warn.innerHTML = msgs.map(esc).join("<br>");
 
-    var all = flightsOn(iso), airlines = {};
-    all.forEach(function (f) { airlines[f.airline] = 1; });
-    schState.airline = fillSelect("sch-airline", Object.keys(airlines).sort(function (a, b) { return a.localeCompare(b, "ko"); }).map(function (k) { return [k, k]; }), "전체");
+    var ops = operatingFlights(iso), airlines = {};
+    ops.forEach(function (x) { airlines[x.f.airline] = 1; x.sellers.forEach(function (c) { airlines[c.airline] = 1; }); });
+    schState.airline = fillSelect("sch-airline", Object.keys(airlines).sort(function (a, b) { return a.localeCompare(b, "ko"); }).map(function (k) { return [k, k]; }), "전체 (운항·판매)");
+    var list = ops.filter(airlineFilterOk);
+    var noneMsg = cv === "full" ? "운항편 없음 (이 날짜 정기 일정 기준)" : cv === "partial" ? "공개된 일부 편 중에는 없음 · 시간표 일부만 확보" : "시간표 미확보 · 운항편이 없다는 뜻이 아닙니다";
 
-    var groups = groupByDest(dayFlights(iso));
+    // 편명 검색: 운항 편명이든 공동운항 판매 편명이든 찾는다
+    var q = normFlight(schState.q);
+    if (FLIGHT_NO.test(q)) {
+      var hits = list.filter(function (x) { return x.f.flight === q || x.sellers.some(function (c) { return c.flight === q; }); });
+      listBox.hidden = true; detail.hidden = false;
+      document.getElementById("sch-back").hidden = true;
+      var h = hits[0], viaSeller = h && h.f.flight !== q;
+      document.getElementById("sch-title").textContent = "편명 " + q + " · " + md(iso) +
+        (h ? (viaSeller ? " · 공동운항 판매 편명 (실제 운항 " + h.f.airline + " " + h.f.flight + ")" : "") : "");
+      document.getElementById("sch-body").innerHTML = hits.map(function (x) { return flightRow(x, iso, q); }).join("");
+      empty.hidden = hits.length > 0;
+      empty.textContent = q + " — " + noneMsg;
+      document.getElementById("n-flights").textContent = countToday();
+      return;
+    }
+    document.getElementById("sch-back").hidden = false;
+
+    var groups = groupByDest(list);
     var picked = schState.dest && groups.filter(function (g) { return g.code === schState.dest; })[0];
     if (schState.dest && !picked) schState.dest = null; // 그 날짜·항공사에 해당 도착지 편이 없으면 목록으로
 
@@ -346,27 +430,27 @@
     detail.hidden = !picked;
     if (picked) {
       picked.items.sort(function (a, b) { return a.f.time < b.f.time ? -1 : a.f.time > b.f.time ? 1 : 0; });
-      document.getElementById("sch-title").textContent = picked.name + " (" + picked.code + ") · " + md(iso) + " · " + picked.items.length + "편";
+      document.getElementById("sch-title").textContent = picked.name + " (" + picked.code + ") · " + md(iso) + " · 실제 운항 " + picked.items.length + "편" +
+        (cv === "full" ? "" : " · 시간표 일부만 확보");
       var rows = picked.items.filter(function (x) { return !schState.related || x.rel.length; });
       document.getElementById("sch-body").innerHTML = rows.map(function (x) { return flightRow(x, iso); }).join("");
       empty.hidden = rows.length > 0;
-      empty.textContent = "관련 행사가 있는 운항편이 없습니다.";
+      empty.textContent = "노선 일치 행사가 있는 운항편이 없습니다.";
     } else {
-      var q = schState.q.toLowerCase();
+      var ql = schState.q.toLowerCase();
       var shown = groups.filter(function (g) {
-        return (!q || g.name.toLowerCase().indexOf(q) >= 0 || g.code.toLowerCase().indexOf(q) >= 0) &&
+        return (!ql || g.name.toLowerCase().indexOf(ql) >= 0 || g.code.toLowerCase().indexOf(ql) >= 0) &&
           (!schState.related || Object.keys(g.rel).length);
       }).sort(function (a, b) {
         return Object.keys(b.rel).length - Object.keys(a.rel).length || b.items.length - a.items.length || a.name.localeCompare(b.name, "ko");
       });
-      var limit = schState.showAll || q ? shown.length : DEST_PREVIEW;
+      var limit = schState.showAll || ql ? shown.length : DEST_PREVIEW;
       document.getElementById("sch-dests").innerHTML = shown.slice(0, limit).map(destCard).join("");
       var more = document.getElementById("sch-more");
-      more.hidden = shown.length <= limit && !schState.showAll;
+      more.hidden = (shown.length <= limit && !schState.showAll) || !!ql;
       more.textContent = schState.showAll ? "운항편 많은 " + DEST_PREVIEW + "곳만 보기" : "도착지 " + shown.length + "곳 모두 보기";
-      if (q) more.hidden = true;
       empty.hidden = shown.length > 0;
-      empty.textContent = all.length ? "조건에 맞는 도착지가 없습니다." : "이 날짜의 정기 운항편 데이터가 없습니다.";
+      empty.textContent = schState.related ? "노선 일치 행사가 있는 도착지가 없습니다." : (ql ? "'" + schState.q + "' 도착 — " : "") + noneMsg;
     }
     document.getElementById("n-flights").textContent = countToday();
   }
@@ -472,7 +556,6 @@
   document.getElementById("sch-date").addEventListener("change", function (e) { schState.date = e.target.value; renderSchedule(); });
   document.getElementById("sch-q").addEventListener("input", function (e) { schState.q = e.target.value.trim(); schState.dest = null; renderSchedule(); });
   document.getElementById("sch-airline").addEventListener("change", function (e) { schState.airline = e.target.value; renderSchedule(); });
-  document.getElementById("sch-codeshare").addEventListener("change", function (e) { schState.hideCodeshare = e.target.checked; renderSchedule(); });
   document.getElementById("sch-related").addEventListener("change", function (e) { schState.related = e.target.checked; renderSchedule(); });
   document.getElementById("sch-more").addEventListener("click", function () { schState.showAll = !schState.showAll; renderSchedule(); });
   document.getElementById("sch-back").addEventListener("click", function () { schState.dest = null; renderSchedule(); });

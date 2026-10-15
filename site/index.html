@@ -69,14 +69,14 @@
   <section class="section" id="schedule" aria-labelledby="h-schedule" hidden>
     <h2 id="h-schedule">인천공항 출발 시간표</h2>
     <div class="preview">
-      <div class="hint">운항 예정 시각은 <b>예약 가능한 특가 항공권이 아닙니다.</b> "관련 행사"는 같은 항공사·같은 도착지의 행사가 있다는 뜻이며, 그 편에 할인이 적용된다는 뜻이 아닙니다.</div>
+      <div class="hint">운항 예정 시각은 <b>예약 가능한 특가 항공권이 아닙니다.</b> 실제 할인가는 확인하지 않으므로 어느 편에도 할인 적용을 표시하지 않습니다.<br>
+        <b>노선 일치 행사</b>: 운항 항공사와 행사 대상 노선(인천 출발·도착지)이 모두 기사로 확인된 행사 · <b>항공사 진행 행사</b>: 항공사만 같고 노선은 다르거나 확인되지 않은 행사</div>
       <p id="sch-meta" class="sch-meta"></p>
       <div class="filters">
         <label class="field"><span>출발 날짜</span><input id="sch-date" type="date"></label>
-        <label class="field grow"><span>도착지 찾기</span><input id="sch-q" type="search" placeholder="오사카, 후쿠오카, KIX…" autocomplete="off"></label>
-        <label class="field"><span>항공사</span><select id="sch-airline"><option value="all">전체</option></select></label>
-        <label class="toggle"><input id="sch-related" type="checkbox"> 관련 행사 있는 곳만</label>
-        <label class="toggle"><input id="sch-codeshare" type="checkbox" checked> 공동운항 편명 숨기기</label>
+        <label class="field grow"><span>도착지 또는 편명</span><input id="sch-q" type="search" placeholder="오사카, KIX, KE5721…" autocomplete="off"></label>
+        <label class="field"><span>항공사 (운항·판매)</span><select id="sch-airline"><option value="all">전체</option></select></label>
+        <label class="toggle"><input id="sch-related" type="checkbox"> 노선 일치 행사 있는 곳만</label>
       </div>
       <p id="sch-warn" class="notice warn" hidden></p>
       <div id="sch-list">
@@ -89,7 +89,7 @@
           <h3 id="sch-title"></h3>
         </div>
         <table class="sch">
-          <thead><tr><th>출발</th><th>항공사 · 편명</th><th class="st">상태</th><th>관련 행사</th></tr></thead>
+          <thead><tr><th>출발</th><th>운항편 · 공동운항</th><th class="st">상태</th><th>행사 (할인 적용 미확인)</th></tr></thead>
           <tbody id="sch-body"></tbody>
         </table>
       </div>
