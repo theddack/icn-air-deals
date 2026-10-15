@@ -20,12 +20,12 @@
               empty: "조건에 맞는 행사가 없습니다. 필터를 바꿔 보세요." },
     domestic: { kinds: [], who: "항공사", placeholder: "제주, 김포, 추석…",
                 empty: "지금은 국내선 행사가 없습니다. 제목에 '국내선'·'김포~제주' 같은 노선 표현이 있는 기사만 국내선으로 분류합니다." },
-    hotel: { kinds: [["all", "전체"], ["hotel", "호텔·리조트"], ["platform", "예약 플랫폼·여행사"], ["campaign", "정부 할인 행사"]], who: "브랜드",
+    hotel: { kinds: [["all", "전체"], ["hotel", "호텔·리조트"], ["platform", "예약 플랫폼·여행사"], ["campaign", "정부 할인 행사"], ["other", "브랜드 미확인"]], who: "브랜드",
              placeholder: "제주, 페스타, 호캉스…",
              empty: "조건에 맞는 숙박 행사가 없습니다. 필터를 바꿔 보세요." }
   };
 
-  var state = { section: "flight", filter: "all", kind: "all", airline: "all", q: "", hideOther: true };
+  var state = { section: "flight", filter: "all", kind: "all", airline: "all", q: "", hideOther: true, scope: "all" };
   var deals = [];
   var names = {};       // airline_id -> 이름 (필터용)
   var baselines = {};   // 묶음별 첫 수집 시각. 이때 들어온 기사는 신규로 보지 않는다
@@ -71,7 +71,7 @@
   function sectionOf(d) { return d.section || "flight"; } // section이 없던 예전 데이터는 항공권
 
   function freshness(d) {
-    var now = Date.now(), win = NEW_HOURS * 3600000, baseline = baselines[sectionOf(d)] || "";
+    var now = Date.now(), win = NEW_HOURS * 3600000, baseline = baselines[d.baseline || sectionOf(d)] || baselines[sectionOf(d)] || "";
     if (d.first_seen && d.first_seen > baseline && now - Date.parse(d.first_seen) <= win) return "new";
     if (d.last_seen && d.last_seen > baseline && now - Date.parse(d.last_seen) <= win) return "updated";
     return null;
@@ -103,6 +103,13 @@
   function evLink(d, field) {
     var e = (d.evidence || {})[field];
     return e ? ' <a class="ev" href="' + esc(e.url) + '" target="_blank" rel="noopener" title="근거 기사: ' + esc(e.title) + '">근거</a>' : "";
+  }
+
+  // 호텔 지역: '해외 · 괌', '국내 · 강원 · 경남'. 지명이 없으면 국내/해외만 또는 미확인
+  function regionText(d) {
+    var scope = d.scope === "overseas" ? "해외" : d.scope === "domestic" ? "국내" : "";
+    var names = (d.regions || []).join(" · ");
+    return esc([scope, names].filter(Boolean).join(" · ")) || "미확인";
   }
 
   function routesText(d) {
@@ -185,7 +192,10 @@
       (d._fresh === "new" ? '<span class="pill solid">신규</span>' : d._fresh === "updated" ? '<span class="pill">기사 추가</span>' : "") +
       (isClosing(d, today) ? '<span class="pill orange">마감 임박</span>' : "") +
       '<span class="pill ' + (verified ? "green" : "orange") + '">' + VERIFY_LABEL[d.verification || "news"] + "</span>" +
-      (multi ? '<span class="pill orange">' + SECTIONS[sec].who + " 미분류</span>" : "");
+      (multi ? '<span class="pill orange">' + SECTIONS[sec].who + " 미분류</span>" : "") +
+      (d.trial ? '<span class="pill orange">시범</span>' : "") +
+      (hotel && d.scope === "overseas" ? '<span class="pill">해외</span>' : "") +
+      (d.lang === "en" ? '<span class="pill gray">영문 기사 · 번역 안 함</span>' : "");
     var airline = multi ? esc(d.airline) + " (" + esc(d.airlines_mentioned.join("·")) + ")" : esc(d.airline);
     var routes = routesText(d);
     var travelConflict = (d.conflicts || []).indexOf("travel") >= 0;
@@ -193,7 +203,7 @@
       ? row(hotel ? "투숙 기간" : "탑승 기간", "출처 간 불일치 · 관련 기사 확인", "conflict")
       : row(hotel ? "투숙 기간" : "탑승 기간", travel || "미확인", travel ? "" : "unk", travel ? evLink(d, "travel") : "");
     var rows = hotel
-      ? row("지역", (d.regions || []).length ? esc(d.regions.join(" · ")) : "미확인", (d.regions || []).length ? "" : "unk") +
+      ? row("지역", regionText(d), (d.regions || []).length || d.scope ? "" : "unk") +
         row("판매 기간", sale || "미확인", sale ? "" : "unk", sale ? evLink(d, "sale") : "") +
         travelRow +
         row("조건", (d.conditions || []).length ? esc(d.conditions.join(" · ")) : "미확인", (d.conditions || []).length ? "" : "unk")
@@ -226,6 +236,7 @@
   function visible(d) {
     if (sectionOf(d) !== state.section) return false;
     if (state.kind !== "all" && d.kind !== state.kind) return false;
+    if (state.section === "hotel" && state.scope !== "all" && (d.scope || "unknown") !== state.scope) return false;
     if (state.airline !== "all" && d.airline_id !== state.airline &&
         (d.airlines_mentioned || []).indexOf(names[state.airline]) < 0) return false;
     if (state.section === "flight" && state.hideOther && d.from_icn === "no") return false;
@@ -548,6 +559,8 @@
     kind.innerHTML = conf.kinds.map(function (k) { return '<option value="' + k[0] + '">' + k[1] + "</option>"; }).join("");
     document.getElementById("kind-field").hidden = conf.kinds.length === 0;
     document.getElementById("hide-other-field").hidden = sec !== "flight";
+    document.getElementById("scope-field").hidden = sec !== "hotel";
+    state.scope = "all"; document.getElementById("scope").value = "all";
     document.getElementById("airline-label").textContent = conf.who;
     document.getElementById("q").placeholder = conf.placeholder;
     var sel = document.getElementById("airline");
@@ -622,6 +635,7 @@
     sec = SECTIONS[sec] || sec === "flights" ? sec : "flight";
     if (deals.length && sec !== state.section) setSection(sec);
   });
+  document.getElementById("scope").addEventListener("change", function (e) { state.scope = e.target.value; render(); });
   document.getElementById("kind").addEventListener("change", function (e) { state.kind = e.target.value; render(); });
   document.getElementById("airline").addEventListener("change", function (e) { state.airline = e.target.value; render(); });
   document.getElementById("q").addEventListener("input", function (e) { state.q = e.target.value.trim(); render(); });

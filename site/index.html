@@ -23,7 +23,7 @@
   <nav class="sections" aria-label="행사 종류">
     <button type="button" data-section="flight"><span class="sec-icon" aria-hidden="true">✈</span><span class="sec-name">항공권 <small>인천 출발</small></span><b id="n-flight">0</b></button>
     <button type="button" data-section="domestic"><span class="sec-icon" aria-hidden="true">🛬</span><span class="sec-name">국내선</span><b id="n-domestic">0</b></button>
-    <button type="button" data-section="hotel"><span class="sec-icon" aria-hidden="true">🏨</span><span class="sec-name">호텔·숙박</span><b id="n-hotel">0</b></button>
+    <button type="button" data-section="hotel"><span class="sec-icon" aria-hidden="true">🏨</span><span class="sec-name">호텔·숙박 <small>해외 시범</small></span><b id="n-hotel">0</b></button>
     <button type="button" data-section="flights"><span class="sec-icon" aria-hidden="true">🛫</span><span class="sec-name">출발 시간표 <small>인천공항</small></span><b id="n-flights">–</b></button>
   </nav>
 
@@ -52,6 +52,14 @@
       <div class="filters">
         <label class="field" id="kind-field"><span>구분</span>
           <select id="kind"></select>
+        </label>
+        <label class="field" id="scope-field" hidden><span>지역</span>
+          <select id="scope">
+            <option value="all">국내·해외 전체</option>
+            <option value="domestic">국내</option>
+            <option value="overseas">해외 (시범)</option>
+            <option value="unknown">지역 미확인</option>
+          </select>
         </label>
         <label class="field"><span id="airline-label">항공사</span>
           <select id="airline"><option value="all">전체</option></select>
@@ -102,6 +110,7 @@
       <strong>이 페이지를 읽는 법</strong><br>
       항공사·호텔 공식 발표가 아니라 <b>뉴스 기사 제목</b>에서 자동으로 뽑은 정보입니다. 기사에 없는 날짜·가격·출발지는 추측하지 않고 "미확인"으로 둡니다. 실제 요금과 좌석·객실은 예약 단계에서 달라질 수 있으니 예약 전에 공식 페이지를 확인하세요.<br>
       "국내선"은 제목에 국내선·김포~제주 같은 노선 표현이 있는 항공 기사만 모읍니다. "호텔·숙박"은 호텔·리조트, 숙박 예약 플랫폼, 숙박세일 페스타 같은 정부 행사 기사 중 숙박 맥락과 할인 표현이 함께 있는 것만 모읍니다.<br>
+      <b>해외 호텔은 2026-10-15 시작한 시범 수집</b>입니다. 국내 기사 중 해외 지명이 나온 숙박 할인과, 영어 뉴스에서 가격 할인(○% 할인·할인 코드 등)이 분명한 제목만 모읍니다. 영어 기사는 번역하지 않고 제목 원문을 그대로 보여주며, 할인율·기간·지역만 규칙으로 뽑아 한국어 칸에 넣습니다. 해외 행사는 한국에서 예약할 때 적용되지 않을 수 있습니다.<br>
       "출발 시간표"는 인천국제공항공사 공공데이터(여객기 정기운항편 일정, 항공기 운항 현황)를 하루 4회 받아 보여줍니다. 시각은 인천공항 기준 한국 시각이고, 정기 일정에는 도착 시각이 없습니다.<br>
       "인천(ICN)"은 제목에 인천~노선·인천발·인천 출발 같은 근거가 있을 때만 표시합니다. "항공사 미분류"는 한 기사에 여러 항공사가 섞여 어느 항공사 행사인지 정하지 않은 것입니다. "공식 페이지에서 확인"은 항공사 홈페이지(또는 이벤트 목록) 링크이며, 이 사이트가 공식 페이지를 수집한 것은 아닙니다.
     </div>
