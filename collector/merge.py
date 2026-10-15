@@ -6,9 +6,10 @@
 3. 한 기사의 행사명이 다른 기사 제목에 들어 있다 (발행일 SIMILAR_DAYS일 이내)
 4. 할인 표기(예: '최대 22%')가 같고 발행일이 SIMILAR_DAYS일 이내
 5. 제목 단어가 2개 이상, 비율로 TOKEN_OVERLAP 이상 겹치고 발행일이 SIMILAR_DAYS일 이내
-6. 발행일이 BURST_DAYS일 이내 (보도자료 한 건에 기사가 몰리는 패턴)
+6. 발행일이 BURST_DAYS일 이내 (보도자료 한 건에 기사가 몰리는 패턴). 호텔은 흔한 숙박 용어 말고 겹치는 단어도 있어야 한다
 
-어느 단계든 두 묶음의 시작일·마감일·할인 표기·행사명 중 하나라도 서로 다르면 합치지 않는다.
+어느 단계든 두 묶음의 시작일·마감일·할인 표기·행사명·노선 구분(국내선/국제선) 중 하나라도 서로 다르면 합치지 않는다.
+호텔·숙박 기사도 같은 규칙으로 묶는다(브랜드 id는 'h-'로 시작해 항공사와 겹치지 않는다).
 알려진 한계: 같은 항공사가 2일 안에 행사명·날짜·할인율 없이 다른 행사 두 개를 내면 하나로 묶인다.
 """
 
@@ -17,7 +18,10 @@ import re
 from collections import Counter
 from datetime import date
 
-from .airlines import BY_ID
+from .airlines import BY_ID as AIRLINE_BY_ID
+from .hotels import BY_ID as HOTEL_BY_ID
+
+BY_ID = {**AIRLINE_BY_ID, **HOTEL_BY_ID}
 
 MULTI = "multi"  # 여러 항공사가 섞인 미분류 기사
 SIMILAR_DAYS = 10
@@ -53,10 +57,11 @@ class _Group:
         # '타이밍' 같은 따옴표 속 구호는 행사명이 아니므로 충돌 판단에 쓰지 않는다
         self.names = {a.get("event_key")} - {None} if _is_event_like(a.get("event_name")) else set()
         self.discounts = {a.get("discount")} - {None}
+        self.routes = {a.get("route")} - {None}
 
     def compatible(self, other):
         for mine, theirs in ((self.starts, other.starts), (self.ends, other.ends),
-                             (self.discounts, other.discounts)):
+                             (self.discounts, other.discounts), (self.routes, other.routes)):
             if mine and theirs and not (mine & theirs):
                 return False
         if self.names and other.names and not any(
@@ -70,6 +75,7 @@ class _Group:
         self.ends |= other.ends
         self.names |= other.names
         self.discounts |= other.discounts
+        self.routes |= other.routes
 
 
 def _days_apart(a, b):
@@ -122,20 +128,35 @@ def _unique_groups(items, owner):
     return out
 
 
-def _merge_bursts(groups):
+_PARTICLE = re.compile(r"(?:에서도|에서|으로|과|와|은|는|이|가|을|를|에|의|도|로|서)$")
+# 숙박 기사라면 어디에나 나오는 말. 호텔 묶기에서 '같은 행사' 근거로 쓰지 않는다
+_HOTEL_GENERIC = {"숙소", "숙박", "숙박시설", "호텔", "객실", "리조트", "투숙객", "가을", "겨울", "혜택", "쿠폰", "제공", "대상"}
+
+
+def _stems(tokens):
+    return {_PARTICLE.sub("", w) for w in tokens} - _HOTEL_GENERIC - {""}
+
+
+def _merge_bursts(groups, need_shared_word=False):
     """6단계: 작은 묶음부터, BURST_DAYS 이내에 기사가 있는 다른 묶음 중
-    제목 단어가 가장 많이 겹치는 곳으로 합친다. 보도자료 하나에 기사가 몰리는 경우를 처리한다."""
+    제목 단어가 가장 많이 겹치는 곳으로 합친다. 보도자료 하나에 기사가 몰리는 경우를 처리한다.
+
+    need_shared_word: 호텔용. 숙박 플랫폼은 같은 날 지역별 행사를 여러 개 내므로
+    (2026-10-02 여기어때 가평 할인·제주 그린키 페스타) 흔한 숙박 용어 말고 겹치는 단어가 있어야 합친다."""
     def close(g, h):
         return any(_days_apart(a, b) <= BURST_DAYS for a in g.articles for b in h.articles)
 
     def tokens(g):
         return set().union(*(a["_tokens"] for a in g.articles))
 
+    def shares_word(g, h):
+        return not need_shared_word or bool(_stems(tokens(g)) & _stems(tokens(h)))
+
     groups = list(groups)
     for g in sorted(groups, key=lambda g: len(g.articles)):
         if g not in groups:
             continue
-        cands = [h for h in groups if h is not g and close(g, h) and g.compatible(h)]
+        cands = [h for h in groups if h is not g and close(g, h) and g.compatible(h) and shares_word(g, h)]
         if not cands:
             continue
         tg = tokens(g)
@@ -145,7 +166,7 @@ def _merge_bursts(groups):
     return groups
 
 
-def _cluster_one_airline(items):
+def _cluster_one_airline(items, hotel=False):
     owner = {id(a): _Group(a) for a in items}
     for rule in RULES:
         for i, a in enumerate(items):
@@ -156,7 +177,7 @@ def _cluster_one_airline(items):
                 ga.absorb(gb)
                 for art in gb.articles:
                     owner[id(art)] = ga
-    return _merge_bursts(_unique_groups(items, owner))
+    return _merge_bursts(_unique_groups(items, owner), need_shared_word=hotel)
 
 
 def cluster_articles(articles):
@@ -177,7 +198,7 @@ def cluster_articles(articles):
         })
     for airline_id, items in by_airline.items():
         items.sort(key=lambda a: a["published"])
-        for g in _cluster_one_airline(items):
+        for g in _cluster_one_airline(items, hotel=airline_id.startswith("h-")):
             deals.append(_to_deal(airline_id, g.articles))
     return deals
 
@@ -189,16 +210,23 @@ def _mode(values):
 
 def _to_deal(airline_id, arts):
     arts = sorted(arts, key=lambda a: (a["published"], a["url"]))
+    category = arts[0].get("category", "flight")
     if airline_id == MULTI:
         names = [BY_ID[i]["name"] for i in arts[0].get("airlines_mentioned", [])]
-        airline = {"name": "여러 항공사", "kind": "mixed"}
+        airline = {"name": "여러 브랜드" if category == "hotel" else "여러 항공사", "kind": "mixed"}
     else:
         airline = BY_ID[airline_id]
         names = [airline["name"]]
     start = _mode(a["sale_start"] for a in arts)
     end = _mode(a["sale_end"] for a in arts)
     icn = [a["from_icn"] for a in arts]
-    from_icn = "yes" if "yes" in icn else ("no" if all(x == "no" for x in icn) else "unknown")
+    if category == "hotel":
+        from_icn = None
+    else:
+        from_icn = "yes" if "yes" in icn else ("no" if all(x == "no" for x in icn) else "unknown")
+    routes = {a.get("route") for a in arts} - {None}
+    route = routes.pop() if len(routes) == 1 else None  # compatible()이 서로 다른 구분을 막는다
+    section = "hotel" if category == "hotel" else ("domestic" if route == "domestic" else "flight")
     seen = sorted(a["first_seen"] for a in arts)
     return {
         "id": f"{airline_id}-{hashlib.sha1(arts[0]['url'].encode()).hexdigest()[:10]}",
@@ -206,6 +234,11 @@ def _to_deal(airline_id, arts):
         "airline": airline["name"],
         "airlines_mentioned": names,
         "kind": airline["kind"],
+        "category": category,
+        # 화면의 탭이자 '신규' 기준 시각의 묶음: flight(인천 출발 항공권) | domestic(국내선) | hotel(호텔·숙박)
+        "section": section,
+        "route": route,
+        "route_text": _mode(a.get("route_text") for a in arts),
         "official_url": airline.get("official_url"),
         "event_name": _mode(a.get("event_name") for a in arts if _is_event_like(a.get("event_name"))),
         "headline": arts[-1]["title"],

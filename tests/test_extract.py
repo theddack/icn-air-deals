@@ -4,6 +4,7 @@ import unittest
 from datetime import date
 
 from collector import extract as x
+from collector.extract import attribute_hotel, category_of, extract_discount, is_hotel_sale, route_of
 
 
 def D(s):
@@ -217,3 +218,42 @@ class TestEventName(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestRoute(unittest.TestCase):
+    def test_domestic_pair_ignores_airline_names(self):
+        self.assertEqual(route_of("제주항공, 김포~제주 노선 특가"), ("domestic", "김포~제주"))
+        self.assertEqual(route_of("제주항공, 부산~마닐라 12월 17일 취항...최대 50% 할인"), (None, None))
+
+    def test_domestic_words(self):
+        self.assertEqual(route_of("진에어, 국내선 항공권 최대 30% 할인")[0], "domestic")
+        self.assertEqual(route_of("에어부산, 제주행 항공권 특가")[0], "domestic")
+
+    def test_international_wins_when_both(self):
+        self.assertEqual(route_of("진에어, 추석 항공권 최대 15% 할인⋯국제선 43개 노선·국내 역귀성 대상")[0], "international")
+        self.assertEqual(route_of("트리니티항공, 인천~구마모토 최대 15% 할인")[0], "international")
+
+
+class TestHotel(unittest.TestCase):
+    def test_hotel_sale(self):
+        self.assertTrue(is_hotel_sale("여기어때, 가평 숙소 대상 최대 3만원 할인 쿠폰 제공"))
+        self.assertTrue(is_hotel_sale("파라다이스, 21일까지 하반기 슈퍼위크…객실·스파 할인 혜택"))
+
+    def test_not_hotel_sale(self):
+        # 숙박 맥락 없음 / 할인 없음 / 숙박 아닌 할인
+        self.assertFalse(is_hotel_sale("소노인터내셔널, 비발디파크 파크골프 최대 34% 할인"))
+        self.assertFalse(is_hotel_sale("롯데호텔앤리조트, 두짓호텔앤리조트와 멤버십 협력"))
+        self.assertFalse(is_hotel_sale("“폴루아-벨루오와 가을 소풍”… 롯데호텔 뷔페 30% 할인"))
+
+    def test_campaign_owns_article(self):
+        self.assertEqual(attribute_hotel("놀·여기어때, 숙박세일 페스타 참여…비수도권·섬 지역 숙소 할인")[0], "h-stayfesta")
+        self.assertIsNone(attribute_hotel("여기어때·아고다, 호텔 특가 경쟁")[0])
+
+    def test_flight_wins_over_hotel(self):
+        self.assertEqual(category_of("에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인"), "flight")
+        self.assertEqual(category_of("여기어때, 가평 숙소 대상 최대 3만원 할인 쿠폰 제공"), "hotel")
+        self.assertIsNone(category_of("롯데호텔 침구 백화점서 산다"))
+
+    def test_amount_discount(self):
+        self.assertEqual(extract_discount("강원 숙박상품 최대 7만원 할인…22일부터"), "최대 7만원 할인")
+        self.assertEqual(extract_discount("여기어때, 가평 전 숙박시설 ‘최대 3만 원’ 선착순 할인"), "최대 3만원 할인")

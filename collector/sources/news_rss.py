@@ -1,4 +1,4 @@
-"""Google 뉴스 RSS 검색으로 항공사 특가 기사를 모은다."""
+"""Google 뉴스 RSS 검색으로 항공사 특가·호텔 숙박 할인 기사를 모은다."""
 
 import sys
 import time
@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 
 from ..airlines import AIRLINES
+from ..hotels import HOTELS
 from ..status import KST
 
 RSS_URL = "https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
@@ -16,6 +17,9 @@ WINDOW = "when:30d"
 GENERIC_QUERIES = [
     f"인천 출발 항공권 특가 {WINDOW}",
     f"항공권 프로모션 국제선 {WINDOW}",
+    # 국내선: 항공사 이름 검색에서 빠지는 노선 중심 기사 (제목에 항공사가 있어야 수집된다)
+    f"국내선 항공권 특가 {WINDOW}",
+    f"김포 제주 항공권 할인 {WINDOW}",
 ]
 
 
@@ -24,6 +28,9 @@ def queries():
         for name in a.get("search", [a["name"]]):
             yield f'"{name}" (특가 OR 프로모션 OR 할인 OR 세일) {WINDOW}'
     yield from GENERIC_QUERIES
+    for h in HOTELS:
+        for name in h.get("search", [h["name"]]):
+            yield f'"{name}" (특가 OR 할인 OR 세일 OR 프로모션 OR 쿠폰) {WINDOW}'
 
 
 def fetch(query, timeout=20):

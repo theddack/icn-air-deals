@@ -8,6 +8,7 @@ import re
 from datetime import date, timedelta
 
 from .airlines import AIRLINES
+from .hotels import BY_ID as HOTEL_BY_ID, HOTELS
 
 # ---------------------------------------------------------------- 제목 정리
 
@@ -29,17 +30,22 @@ def _alias_pattern(alias):
     return re.compile(re.escape(alias))
 
 
-_ALIASES = sorted(
-    ((a["id"], alias, _alias_pattern(alias)) for a in AIRLINES for alias in a["aliases"]),
-    key=lambda x: -len(x[1]),
-)
+def _alias_table(entries):
+    return sorted(
+        ((a["id"], alias, _alias_pattern(alias)) for a in entries for alias in a["aliases"]),
+        key=lambda x: -len(x[1]),
+    )
 
 
-def airlines_in(text):
+_ALIASES = _alias_table(AIRLINES)
+_HOTEL_ALIASES = _alias_table(HOTELS)
+
+
+def airlines_in(text, table=_ALIASES):
     """text에 나오는 항공사 id를 처음 나온 순서대로. 긴 표기부터 찾고 찾은 자리는 지운다."""
     found = []  # (pos, id)
     masked = text
-    for airline_id, alias, pat in _ALIASES:
+    for airline_id, alias, pat in table:
         for m in pat.finditer(masked):
             found.append((m.start(), airline_id))
             masked = masked[: m.start()] + "\0" * len(alias) + masked[m.end():]
@@ -119,7 +125,7 @@ _START_SUFFIX = re.compile(r"\s*(?:부터|시작|오픈|개막|개시|열린다|
 _END_SUFFIX = re.compile(r"\s*(?:까지|마감|종료)")
 _RANGE_BETWEEN = re.compile(r"\s*(?:부터\s*[~∼\-–]?|[~∼\-–])\s*")
 # 날짜 뒤에 이 말이 붙으면 판매 기간이 아니라 탑승·취항 날짜다.
-_TRAVEL_AFTER = re.compile(r"^.{0,8}?(?:탑승|출발편|출발|여행|운항|취항|직항)")
+_TRAVEL_AFTER = re.compile(r"^.{0,8}?(?:탑승|출발편|출발|여행|운항|취항|직항|투숙|체크인)")
 _DURATION = re.compile(r"(\d{1,2})\s?일\s?(?:간|동안)|(이틀|사흘|나흘|닷새|엿새|이레|일주일)\s?(?:간|동안)?")
 _KOREAN_DAYS = {"이틀": 2, "사흘": 3, "나흘": 4, "닷새": 5, "엿새": 6, "이레": 7, "일주일": 7}
 # 숫자 없는 '~13일'처럼 앞이 '13~16일'인 경우: 앞 숫자에 '일'이 없다.
@@ -231,12 +237,16 @@ def extract_discount(title):
     m = re.search(r"(\d[\d,]*(?:만\s?\d[\d,]*)?\s?만?\s?원)\s?(?:부터|~)", title)
     if m:
         return re.sub(r"\s", "", m.group(1)) + "부터"
+    # 숙박 쿠폰처럼 금액으로 깎아 주는 행사: '최대 7만원 할인', '최대 ‘3만 원’ 선착순 할인'
+    m = re.search(r"최대\s?['‘]?(\d[\d,]*\s?만?\s?원)['’]?[^%]{0,8}?할인", title)
+    if m:
+        return "최대 " + re.sub(r"\s", "", m.group(1)) + " 할인"
     return None
 
 
 # ---------------------------------------------------------------- 탑승 기간
 
-_TRAVEL_WORD = r"(?:탑승|출발|여행)"
+_TRAVEL_WORD = r"(?:탑승|출발|여행|투숙|체크인)"
 _TRAVEL_END = re.compile(r"(?:(\d{1,2})\s?월\s*)?(\d{1,2})\s?일\s?까지\s?" + _TRAVEL_WORD)
 _TRAVEL_MONTHS = re.compile(r"(내년\s?)?(\d{1,2})\s?[~∼\-–]\s?(\d{1,2})\s?월(?=\s?(?:" + _TRAVEL_WORD[3:-1] + r"|항공권|국제선|노선))")
 _TRAVEL_NEXT_YEAR_MONTHS = re.compile(r"내년\s?(\d{1,2})\s?[~∼\-–]\s?(\d{1,2})\s?월")
@@ -325,3 +335,69 @@ def normalize_event_name(name):
     n = re.sub(r"\d{2,4}\s?년?|상반기|하반기|연중\s?최대", "", n)
     n = re.sub(r"[\s\W_]+", "", n).lower()
     return n or None
+
+
+# ---------------------------------------------------------------- 국내선
+
+# 국내선 공항 도시. '제주항공'·'에어부산' 같은 항공사 이름은 지운 뒤에 찾는다.
+_DOMESTIC_CITY = r"(?:김포|제주|김해|부산|청주|대구|광주|여수|울산|사천|포항|군산|원주|양양|무안|서울)"
+_DOMESTIC_PAIR = re.compile(rf"({_DOMESTIC_CITY})\s?[~∼\-–→]\s?({_DOMESTIC_CITY})")
+_DOMESTIC_JEJU = re.compile(r"제주\s?(?:행|노선|항공권|왕복|편도)")
+
+
+def route_of(title):
+    """(노선 구분, 노선 표기) — 구분은 'domestic' | 'international' | None, 표기는 '김포~제주'처럼 제목에 있을 때만."""
+    masked = title
+    for _, alias, pat in _ALIASES:
+        masked = pat.sub(" ", masked)
+    m = _DOMESTIC_PAIR.search(masked)
+    if m and m.group(1) != m.group(2) and "국제선" not in masked:
+        return "domestic", f"{m.group(1)}~{m.group(2)}"
+    if "국제선" in masked:
+        return "international", None
+    if "국내선" in masked or _DOMESTIC_JEJU.search(masked):
+        return "domestic", None
+    if _ICN_ORIGIN.search(title):
+        return "international", None
+    return None, None
+
+
+# ---------------------------------------------------------------- 호텔·숙박
+
+def hotels_in(text):
+    return airlines_in(text, _HOTEL_ALIASES)
+
+
+# 숙박 맥락. 브랜드 이름에 '호텔'이 들어 있으면 그것으로도 충족한다
+_HOTEL_CONTEXT = re.compile(r"호텔|리조트|숙박|숙소|객실|호캉스|스테이|펜션|투숙|체크인|풀빌라|레지던스|스위트")
+_HOTEL_SALE = re.compile(r"특가|할인|세일|SALE|Sale|쿠폰|반값|\d{1,3}\s?%|얼리버드|타임딜|페스타|슈퍼위크|최저가")
+# 2026-10-15 표본(브랜드 26곳 검색 결과 691건)에서 숙박 할인이 아닌데 걸린 유형
+_HOTEL_NOISE = re.compile(r"주가|증권|실적|영업이익|매출|채용|인수|매각|상장|IPO|소송|과징금|노조|사고|화재|수상|어워드|어워즈"
+                          r"|선정|기부|협약|MOU|ESG|임명|인사|대표이사|투자|적자|흑자|순이익"
+                          r"|뷔페|디저트|케이크|침구|매트리스|골프|카지노|eSIM")
+
+
+def is_hotel_sale(title):
+    return bool(hotels_in(title) and _HOTEL_CONTEXT.search(title) and _HOTEL_SALE.search(title)
+                and not _HOTEL_NOISE.search(title))
+
+
+def attribute_hotel(title):
+    """→ (브랜드 id 또는 None, 제목에 나온 브랜드 목록).
+
+    숙박세일 페스타 같은 정부 행사가 나오면 참여 플랫폼이 여럿이어도 그 행사로 본다.
+    그 밖에 브랜드가 둘 이상이면 None(미분류)."""
+    mentioned = hotels_in(title)
+    campaigns = [h for h in mentioned if HOTEL_BY_ID[h]["kind"] == "campaign"]
+    if campaigns:
+        return campaigns[0], mentioned
+    return (mentioned[0] if len(mentioned) == 1 else None), mentioned
+
+
+def category_of(title):
+    """'flight' | 'hotel' | None(수집 대상 아님). 항공사 특가 판정이 우선이다."""
+    if is_sale_article(title) and airlines_in(title):
+        return "flight"
+    if is_hotel_sale(title):
+        return "hotel"
+    return None

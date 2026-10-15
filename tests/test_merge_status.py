@@ -41,6 +41,19 @@ class TestMerge(unittest.TestCase):
         ]
         self.assertEqual(len(cluster_articles(arts)), 2)
 
+    def test_domestic_and_international_never_merge(self):
+        # 같은 날 같은 항공사여도 국내선 행사와 국제선 행사는 따로 둔다 (이틀 내 보도 규칙보다 우선)
+        arts = [
+            art("진에어, 국내선 항공권 최대 30% 할인", "2026-09-22"),
+            art("진에어, 국제선 항공권 최대 15% 할인", "2026-09-22"),
+        ]
+        deals = sorted(cluster_articles(arts), key=lambda d: d["section"])
+        self.assertEqual([d["section"] for d in deals], ["domestic", "flight"])
+
+    def test_hotel_deal_has_no_airport(self):
+        d = cluster_articles([art("여기어때, 가평 숙소 대상 최대 3만원 할인 쿠폰 제공", "2026-10-02")])[0]
+        self.assertEqual((d["section"], d["from_icn"], d["airline"]), ("hotel", None, "여기어때"))
+
     def test_different_events_same_airline(self):
         arts = [
             art("에어부산, 내일부터 연중 최대 규모 동계 항공권 할인", "2026-07-21"),
