@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T14:46:27+09:00",
+ "generated_at": "2026-10-15T15:21:19+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,9 +9,15 @@
  "stats": {
   "queries": 92,
   "failed_queries": 0,
-  "rss_items": 1749,
-  "articles": 186,
-  "new_articles": 0,
+  "rss_items": 1747,
+  "outlet_feeds": 17,
+  "outlet_failed": 0,
+  "outlet_items": 1159,
+  "outlet_new_articles": 0,
+  "outlet_enriched": 2,
+  "articles_with_summary": 2,
+  "articles": 198,
+  "new_articles": 12,
   "deals": 25
  },
  "deals": [
@@ -276,6 +282,85 @@
      "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lbTItMGRxR1J6U2h3MXhlbFZfbGFTQ0NybENpbk5Qa29Lckh5eTNXSGFLdzlhVVBveWhSQUd3SGxOVjVkeHJYSnR5ZkloVzRuU2Q3V3diMVBIU0R2bVplZ1ZsSEgzUGh0aFU1azIzWnplUQ?oc=5",
      "published": "2026-09-16"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "airpremia-03dc368db4",
+   "airline_id": "airpremia",
+   "airline": "에어프레미아",
+   "airlines_mentioned": [
+    "에어프레미아"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "official_url": "https://www.airpremia.com/",
+   "iata": [
+    "YP"
+   ],
+   "agencies": [],
+   "event_name": "미주 할인 이벤트",
+   "headline": "에어프레미아, LA 노선 취항 기념 ‘미주 할인 이벤트’ 펼쳐",
+   "sale_start": "2026-10-10",
+   "sale_end": "2026-10-17",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "에어프레미아, 10~17일 할인이벤트 ‘프로미스’ 실행",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa3BMbkNVaEhXaVAtMnJKX3B4TzJrQXZETm9wa2ZfWjNTdll2dzJrNkNweTFMY1FDbHJSZ01ZQkFUeEQxQzVxZFI0NUsyRWdUNm9URnl5ZWx2SkVqV3VfUG56X19pazRMdTR3RWw1NG94dWpoOGRGWGpyWFZPWnVjWkdZREFlQzRyVVZvdl92SFhVck5TcTBNNGV3UGdJVnNNdlR6cEpqeWZoaUJKQ251Z0M4UWl0WDRoYnJKV1lZd0J5WEs2R0RHQWVhaTUyR2p2V1E?oc=5"
+    },
+    "discount": {
+     "title": "에어프레미아, 미주 노선 최대 25% 할인…인천~LA 노선 취항 4주년·점유율 20% 기념",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ca2oyeV8tem5sTkhqOUNfVzR5NlJBQUdPM1hKS2poT3JYSkFZV28yb19zT3ZpbTU0a3ZCOXVKV294SXV0TUprZmFqNDZzWnhiZmdubjJmS0xJVm8?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": "yes",
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-10-11",
+   "last_published": "2026-10-12",
+   "first_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-15T15:21:19+09:00",
+   "articles": [
+    {
+     "title": "에어프레미아, LA 노선 취항 기념 ‘미주 할인 이벤트’ 펼쳐",
+     "outlet": "충남일보",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CX0hGQkxCRkhzX1BuaWF3Tk81eXVPN0FBVXpaM0VuZmNlNnhFVVE1UUpLUVBLbXMxVVV3NzdMb2diYWFUeDVzbVpPOE1TZWI1R3FxVUo0NWpBWnBYVUd4UV96YlBiVGlNX2pyOVlxYUltZlk?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "에어프레미아, LA 노선 국적사 점유율 20.8% … 미주 5개 노선 할인",
+     "outlet": "워크투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6YU5tZ2NmZmI0dWlNdlZHY2JqY0pYVGFYdDFfQVlyX240OUJhNVZ4TFo1Z1NuaE1DMzRFdXVOQ1o2aU5pMktvLUdkclJSM3FaQk9CcksxR0MyZWpoZkx1UDF3VEZ1VWVxUXBlXw?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "에어프레미아, LA 취항 4년 만에 점유율 20% ↑…할인 이벤트 진행 - 머니투데이",
+     "outlet": "머니투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2Slh1MmZpdHZ0UjNnSEtPakpFWFdCaHNiajc2cC1tVkFlZTEtSFFqVHlQekpXQllWajBUb0t6WXJCME13Vks1d2ZfQUEzUzJ0c09IMkhhNXhrU1hfYWk4TE5STkpiSFJlcEJRbtIBckFVX3lxTFAyZ2FMa2hkVzNpQXN2VTAyN3N3V0g4Y0dXcF9VS0tJbjY3V0ZzNjYtVWxjTDBQNUpwZ0hjNVgzakQtWUl4VGtXOU9admtKUzJYQzVxeG9uTkxiQjdQcTNTM1NzZy1QZkxnWDBaLTJsSlVtZw?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "에어프레미아, 미주 노선 최대 25% 할인…인천~LA 노선 취항 4주년·점유율 20% 기념",
+     "outlet": "경기일보",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ca2oyeV8tem5sTkhqOUNfVzR5NlJBQUdPM1hKS2poT3JYSkFZV28yb19zT3ZpbTU0a3ZCOXVKV294SXV0TUprZmFqNDZzWnhiZmdubjJmS0xJVm8?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "에어프레미아, 10~17일 할인이벤트 ‘프로미스’ 실행",
+     "outlet": "미주조선일보",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa3BMbkNVaEhXaVAtMnJKX3B4TzJrQXZETm9wa2ZfWjNTdll2dzJrNkNweTFMY1FDbHJSZ01ZQkFUeEQxQzVxZFI0NUsyRWdUNm9URnl5ZWx2SkVqV3VfUG56X19pazRMdTR3RWw1NG94dWpoOGRGWGpyWFZPWnVjWkdZREFlQzRyVVZvdl92SFhVck5TcTBNNGV3UGdJVnNNdlR6cEpqeWZoaUJKQ251Z0M4UWl0WDRoYnJKV1lZd0J5WEs2R0RHQWVhaTUyR2p2V1E?oc=5",
+     "published": "2026-10-11"
     }
    ],
    "status": "live"
@@ -732,7 +817,7 @@
    "status": "live"
   },
   {
-   "id": "trinity-a226a73155",
+   "id": "trinity-c45e6768bd",
    "airline_id": "trinity",
    "airline": "트리니티항공",
    "airlines_mentioned": [
@@ -772,10 +857,10 @@
    "from_icn": "unknown",
    "discount": "최대 2만원 할인",
    "verification": "news",
-   "first_published": "2026-10-12",
+   "first_published": "2026-10-10",
    "last_published": "2026-10-13",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-15T15:21:19+09:00",
    "articles": [
     {
      "title": "트리니티항공, 지역 공항 출발 항공권 할인…23일까지 ‘우리 동네 할인’ 진행",
@@ -784,9 +869,21 @@
      "published": "2026-10-13"
     },
     {
+     "title": "트리니티항공, 부산·대구·청주 등 지역공항 출발편 할인",
+     "outlet": "신아일보",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ybUxDZUxnY3dnT3dNWVR6b09PN0NsZDZvQllUdHJVVHN2dW0wUlVxczN5SDhTT0ZlVXpaeGhDanRHd1o0WXYyQVJRSEF6UzAxVFRjVXQ0bVktQ3ctdDFjbDUwYnVoMTFYNmkwRGxmdWs?oc=5",
+     "published": "2026-10-12"
+    },
+    {
      "title": "트리니티항공, 부산·대구 등 지방공항 출발 노선 할인 행사",
      "outlet": "뉴스프리존",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE41Wm5IMDNjSzQtMEVZdEthdjRiMkFuYmx6bGpUYnZiYXJSVF9GTXZHZjE2RU5tTTM0WjJQQ3hyZFJrd1dlOUpETlhubnA3Y0d4RzdDUEhiZG1MdXFNN0V4bUdydUp4N0g4ZDZEdmd2QXViUWvSAXdBVV95cUxNYTR2SVNtLTJaOElkQnQ2UWNXVDMxSUttOUw0eDZ1ckZwWFZEN2FhSkhFaTBIcXF5TGI2NUFocmo1V0dGcVluWm1GWVFTRUhKdWVmaW9oN0NqcFNuMnJnZ2FPRzNGQUpaTnZnbkRmQ2EyMkx1cVNGQQ?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 지역공항 출발편 할인…부산·대구·청주 대상",
+     "outlet": "아시아투데이",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RWnhRbkluQmxlVmlNRTJ0SFFoVG9IZ2pkWjRiUThBbXl6dTA1bnlDUEl2RXdnY29fLTNydWVpS1J4WGhiTVA1R0F1ZjZ3dlZBT3J0OF9SZzlXeTBqSHJCNDNkaWRYNWhpQnFwRzRB?oc=5",
      "published": "2026-10-12"
     },
     {
@@ -805,6 +902,24 @@
      "title": "트리니티항공, 지역 5개 공항 출발 항공권에 할인 쿠폰 제공",
      "outlet": "서울경제TV",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3WG94R3VPMkxKMTMtMU9qbnFERENSZlhvR2NncGpaZk5hUFdVWW9nSm9mT1ZIUm41ZVp0RHhtMmJQNy1qZWs3RlNobjlxaDlYajlnQmpkQlVaRXdDVENxcXF0MUtCSFpZU2E0?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "“지방공항 출발시 할인” 트리니티항공, 이달23일까지 '우리동네 프로모션'",
+     "outlet": "CatchNews",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9OdHFON3g3Q1pxTTIwaXJOYnR6OVBxVjVZZUpEekJEMnN0bE4zbTFnLUY0WkxlWmp0UzBsTzdhUFlUel9MTWVwbDZBRjJHa2s0OUlTaFlNMjlNNXdGc2RSSHFmMVJUaXFtWHRN0gFvQVVfeXFMTWpWanN3a3hIZDJQalNzZWxnZ3hoeHZiaVhvZ29JNFZPaU9jT2xWUUNHcjlaaFN0dmtjaWFMMk5GUzhTeURQM2NUcHRaTVlfNklBallVLTItVXF6X2pSeGR1Z0V0NXJPMkJJSnl6clpj?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 23일까지 '우리 동네 할인' 프로모션",
+     "outlet": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tZUxxeGJZS2R0VEZnZmZXSnp6NG55bDMyVG9UUzlfdGd0ZExFbEVZZmtJZ2F6QXpRR2d4Z1V4QVVhMFAxV2tOdGR3ay1CdkFzZ1VmbWljNm1xYzFiQy0tTNIBeEFVX3lxTE41UkJCcmtrZ214Wkh4RVZZWk4zRVB1YmVSWV90d1BLODZZOUVIT2J1X292Qy1ITDJNQk8tcVB3N2FlVHhNeWtoRVBtUm1fV3l1YVRveGZocC1NcWxQNEE1aGdteGRkWnh1QTBDYkJqakdZWEZDS3ppZg?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 10월 '우리 동네 할인' 프로모션 진행",
+     "outlet": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xSV9fNE9pSkZsSU5nSW41ZGxmZVBlM0o5MHlGamowNUZZX091eERXREREd3lRbUN2bVlGSC1TcnZ3N0F2WXJ5Sk15WUxCY2RWQVFCdHlQZmF3SVZ2?oc=5",
      "published": "2026-10-12"
     },
     {
@@ -836,6 +951,12 @@
      "outlet": "아이뉴스24",
      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZamg2ekd0aFVYVHZZcmZGZERYdXVnYnNGakVfMENtR1hzaW5DazlYVUhxOVZtMDNZUF9EWlc2bk1May1VNHdvT3Z0aw?oc=5",
      "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 10월 ‘우리 동네 할인’ 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rNEI3cUVLXzNHUFpRUjMwdkI5SEhpMExXSDBxUkNBb3R5bnhrTUFZU1dzUXI5MkltT0c1aWFQaDJLNUZQNEdValdQVEZTbnNPQ2dpaTdtME83dktGYURTYVZzR0VnUQ?oc=5",
+     "published": "2026-10-10"
     }
    ],
    "status": "live"
@@ -1302,7 +1423,7 @@
    "status": "undated"
   },
   {
-   "id": "klm-d1c9789132",
+   "id": "klm-6b572765fa",
    "airline_id": "klm",
    "airline": "KLM",
    "airlines_mentioned": [
@@ -1333,10 +1454,10 @@
    "from_icn": "unknown",
    "discount": null,
    "verification": "news",
-   "first_published": "2026-10-08",
+   "first_published": "2026-10-06",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-15T15:21:19+09:00",
    "articles": [
     {
      "title": "KLM 창립 107주년 기념 ‘107번째 델프트 미니어처 하우스' 공개, 항공권 할인 프로모션 실시",
@@ -1355,6 +1476,12 @@
      "outlet": "뉴스1",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WSkdQckRFbzktUDVFVEY4aDVwM1hZQW4zUzNXc2gwcHAtUlpnaE5zaFE1THBhTjhOdlhuQ29QaktfWTRmNXlQd21wVDZkQWlIRkJ4a1hTbURjQ2lycEY3Mg?oc=5",
      "published": "2026-10-08"
+    },
+    {
+     "title": "KLM, ‘107번째 델프트 미니어처 하우스’ 공개→선착순 할인 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE16M2Q3a0JEdXY0MlRaLXFGRTZxUW0yQUhzSERSTGJoWl9xbE5fbXozaFczZU50OHA5d3FOMjdCWHQzRW9wS1VVOFd3a29JMnBMazQ5eEhPRVVOQW9YSmtqYWhOY3RyUQ?oc=5",
+     "published": "2026-10-06"
     }
    ],
    "status": "undated"
@@ -1469,82 +1596,6 @@
      "outlet": "트래블아이",
      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84ZXVwTnhUbmprNktNSDR1ZDE4aElGSmhPeTQzaFdpaVJDcmhyV0wtOXNfSFAxVXRDY3BxcG5DOHRtZlZFUVd2SVBBbDU4dw?oc=5",
      "published": "2026-10-10"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "cebu-85f98e637e",
-   "airline_id": "cebu",
-   "airline": "세부퍼시픽",
-   "airlines_mentioned": [
-    "세부퍼시픽"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "official_url": "https://www.cebupacificair.com/ko-KR",
-   "iata": [
-    "5J"
-   ],
-   "agencies": [],
-   "event_name": "10.10 특가",
-   "headline": "세부퍼시픽항공, '10.10 특가' 프로모션 전개",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": null,
-     "destination": "필리핀"
-    },
-    {
-     "origin": null,
-     "destination": "세부(CEB)"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "세부퍼시픽항공 ‘10.10 특가’ 필리핀행 편도 10만100원부터",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uRUpiTGItaE9sekxjcVd6MW56d0Nta0poTnI0R2hJYUszU2pUWlVraXh1LU9BYlI5MFRNeGQ5V2dIc3poTUZhaWs5OVZISDVmNENCTVVrNFVvdVlmWXY1RDZndXJuajDSAWtBVV95cUxNZnltQ1o1cWE3cFlzelhodUJUc2RwajJhRUdGcUVia0NocGpOX1NTekxvYUhIdXFqSFpVVWRFYWxNVjdaSVh6VTBXT0NqeG42RFVrVXc2WWNhNks3S1JNSVExRWF0U1ZhS0hSSQ?oc=5"
-    },
-    "route": {
-     "title": "세부퍼시픽항공, 10.10 특가 출시…마닐라·세부행 항공권 대상",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZSE51aWNVLUtpN3FvSC1GUEJtUHFXNC1jSk5WV3gyTDBrbi1RSGNRdndYdW9Mdk91TE1NVE9ud1ZvWWEyWTl3eUZ6ZGhJTHhxdmQ3UVJmblpDeUhfU1JtYVRuR3VtLVRYT1lNRS1R?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": "unknown",
-   "discount": "10만100원부터",
-   "verification": "news",
-   "first_published": "2026-10-08",
-   "last_published": "2026-10-11",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
-   "articles": [
-    {
-     "title": "세부퍼시픽항공, '10.10 특가' 프로모션 전개",
-     "outlet": "퍼블릭뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IbnVRc0FVOU1mZTQ2bVVsTFpDejNqZnVQX1A5Z3VRMkpTTkN0eDVLeGJRU3hGSlBYT2xab2hwUlQ3YUl2LTM4d0UtaXNwc3p6MmE1bXlwRjVQejltQ2JMSHQyNDlMYzBwS0E?oc=5",
-     "published": "2026-10-11"
-    },
-    {
-     "title": "세부퍼시픽항공, 10.10 특가 출시…마닐라·세부행 항공권 대상",
-     "outlet": "국제뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZSE51aWNVLUtpN3FvSC1GUEJtUHFXNC1jSk5WV3gyTDBrbi1RSGNRdndYdW9Mdk91TE1NVE9ud1ZvWWEyWTl3eUZ6ZGhJTHhxdmQ3UVJmblpDeUhfU1JtYVRuR3VtLVRYT1lNRS1R?oc=5",
-     "published": "2026-10-08"
-    },
-    {
-     "title": "세부퍼시픽항공 ‘10.10 특가’ 필리핀행 편도 10만100원부터",
-     "outlet": "트래비 매거진",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uRUpiTGItaE9sekxjcVd6MW56d0Nta0poTnI0R2hJYUszU2pUWlVraXh1LU9BYlI5MFRNeGQ5V2dIc3poTUZhaWs5OVZISDVmNENCTVVrNFVvdVlmWXY1RDZndXJuajDSAWtBVV95cUxNZnltQ1o1cWE3cFlzelhodUJUc2RwajJhRUdGcUVia0NocGpOX1NTekxvYUhIdXFqSFpVVWRFYWxNVjdaSVh6VTBXT0NqeG42RFVrVXc2WWNhNks3S1JNSVExRWF0U1ZhS0hSSQ?oc=5",
-     "published": "2026-10-08"
     }
    ],
    "status": "undated"
@@ -1758,75 +1809,6 @@
    "status": "undated"
   },
   {
-   "id": "airpremia-689dfe9f47",
-   "airline_id": "airpremia",
-   "airline": "에어프레미아",
-   "airlines_mentioned": [
-    "에어프레미아"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "official_url": "https://www.airpremia.com/",
-   "iata": [
-    "YP"
-   ],
-   "agencies": [],
-   "event_name": "미주 할인 이벤트",
-   "headline": "에어프레미아, LA 노선 취항 기념 ‘미주 할인 이벤트’ 펼쳐",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "에어프레미아, 미주 노선 최대 25% 할인…인천~LA 노선 취항 4주년·점유율 20% 기념",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ca2oyeV8tem5sTkhqOUNfVzR5NlJBQUdPM1hKS2poT3JYSkFZV28yb19zT3ZpbTU0a3ZCOXVKV294SXV0TUprZmFqNDZzWnhiZmdubjJmS0xJVm8?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": "yes",
-   "discount": "최대 25%",
-   "verification": "news",
-   "first_published": "2026-10-12",
-   "last_published": "2026-10-12",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
-   "articles": [
-    {
-     "title": "에어프레미아, LA 노선 취항 기념 ‘미주 할인 이벤트’ 펼쳐",
-     "outlet": "충남일보",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CX0hGQkxCRkhzX1BuaWF3Tk81eXVPN0FBVXpaM0VuZmNlNnhFVVE1UUpLUVBLbXMxVVV3NzdMb2diYWFUeDVzbVpPOE1TZWI1R3FxVUo0NWpBWnBYVUd4UV96YlBiVGlNX2pyOVlxYUltZlk?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "에어프레미아, LA 노선 국적사 점유율 20.8% … 미주 5개 노선 할인",
-     "outlet": "워크투데이",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6YU5tZ2NmZmI0dWlNdlZHY2JqY0pYVGFYdDFfQVlyX240OUJhNVZ4TFo1Z1NuaE1DMzRFdXVOQ1o2aU5pMktvLUdkclJSM3FaQk9CcksxR0MyZWpoZkx1UDF3VEZ1VWVxUXBlXw?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "에어프레미아, LA 취항 4년 만에 점유율 20% ↑…할인 이벤트 진행 - 머니투데이",
-     "outlet": "머니투데이",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2Slh1MmZpdHZ0UjNnSEtPakpFWFdCaHNiajc2cC1tVkFlZTEtSFFqVHlQekpXQllWajBUb0t6WXJCME13Vks1d2ZfQUEzUzJ0c09IMkhhNXhrU1hfYWk4TE5STkpiSFJlcEJRbtIBckFVX3lxTFAyZ2FMa2hkVzNpQXN2VTAyN3N3V0g4Y0dXcF9VS0tJbjY3V0ZzNjYtVWxjTDBQNUpwZ0hjNVgzakQtWUl4VGtXOU9admtKUzJYQzVxeG9uTkxiQjdQcTNTM1NzZy1QZkxnWDBaLTJsSlVtZw?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "에어프레미아, 미주 노선 최대 25% 할인…인천~LA 노선 취항 4주년·점유율 20% 기념",
-     "outlet": "경기일보",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ca2oyeV8tem5sTkhqOUNfVzR5NlJBQUdPM1hKS2poT3JYSkFZV28yb19zT3ZpbTU0a3ZCOXVKV294SXV0TUprZmFqNDZzWnhiZmdubjJmS0xJVm8?oc=5",
-     "published": "2026-10-12"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "jejuair-2b0d1ccd34",
    "airline_id": "jejuair",
    "airline": "제주항공",
@@ -1885,6 +1867,90 @@
     }
    ],
    "status": "undated"
+  },
+  {
+   "id": "cebu-85f98e637e",
+   "airline_id": "cebu",
+   "airline": "세부퍼시픽",
+   "airlines_mentioned": [
+    "세부퍼시픽"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "official_url": "https://www.cebupacificair.com/ko-KR",
+   "iata": [
+    "5J"
+   ],
+   "agencies": [],
+   "event_name": "10.10 특가",
+   "headline": "세부퍼시픽항공, '10.10 특가' 프로모션 전개",
+   "sale_start": "2026-10-08",
+   "sale_end": "2026-10-14",
+   "travel_start": "2027-02-01",
+   "travel_end": "2027-06-30",
+   "routes": [
+    {
+     "origin": null,
+     "destination": "필리핀"
+    },
+    {
+     "origin": null,
+     "destination": "세부(CEB)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트래블데일리 요약문: …모션은 2026년 10월 8일부터 14일까지 진행되며 마닐라 또는 세부행 항공권을 편도 총액 최저 10만 1…",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72295"
+    },
+    "travel": {
+     "title": "트래블데일리 요약문: 탑승 기간은 2027년 2월 1일부터 6월 30일까지다.",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72295"
+    },
+    "discount": {
+     "title": "트래블데일리 요약문: …일부터 14일까지 진행되며 마닐라 또는 세부행 항공권을 편도 총액 최저 10만 100원부터 구매할 수 있다.…",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72295"
+    },
+    "route": {
+     "title": "세부퍼시픽항공, 10.10 특가 출시…마닐라·세부행 항공권 대상",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZSE51aWNVLUtpN3FvSC1GUEJtUHFXNC1jSk5WV3gyTDBrbi1RSGNRdndYdW9Mdk91TE1NVE9ud1ZvWWEyWTl3eUZ6ZGhJTHhxdmQ3UVJmblpDeUhfU1JtYVRuR3VtLVRYT1lNRS1R?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": "unknown",
+   "discount": "10만100원부터",
+   "verification": "news",
+   "first_published": "2026-10-08",
+   "last_published": "2026-10-11",
+   "first_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-15T10:12:09+09:00",
+   "articles": [
+    {
+     "title": "세부퍼시픽항공, '10.10 특가' 프로모션 전개",
+     "outlet": "퍼블릭뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IbnVRc0FVOU1mZTQ2bVVsTFpDejNqZnVQX1A5Z3VRMkpTTkN0eDVLeGJRU3hGSlBYT2xab2hwUlQ3YUl2LTM4d0UtaXNwc3p6MmE1bXlwRjVQejltQ2JMSHQyNDlMYzBwS0E?oc=5",
+     "published": "2026-10-11"
+    },
+    {
+     "title": "세부퍼시픽항공, 10.10 특가 출시…마닐라·세부행 항공권 대상",
+     "outlet": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZSE51aWNVLUtpN3FvSC1GUEJtUHFXNC1jSk5WV3gyTDBrbi1RSGNRdndYdW9Mdk91TE1NVE9ud1ZvWWEyWTl3eUZ6ZGhJTHhxdmQ3UVJmblpDeUhfU1JtYVRuR3VtLVRYT1lNRS1R?oc=5",
+     "published": "2026-10-08"
+    },
+    {
+     "title": "세부퍼시픽항공 ‘10.10 특가’ 필리핀행 편도 10만100원부터",
+     "outlet": "트래비 매거진",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uRUpiTGItaE9sekxjcVd6MW56d0Nta0poTnI0R2hJYUszU2pUWlVraXh1LU9BYlI5MFRNeGQ5V2dIc3poTUZhaWs5OVZISDVmNENCTVVrNFVvdVlmWXY1RDZndXJuajDSAWtBVV95cUxNZnltQ1o1cWE3cFlzelhodUJUc2RwajJhRUdGcUVia0NocGpOX1NTekxvYUhIdXFqSFpVVWRFYWxNVjdaSVh6VTBXT0NqeG42RFVrVXc2WWNhNks3S1JNSVExRWF0U1ZhS0hSSQ?oc=5",
+     "published": "2026-10-08"
+    }
+   ],
+   "status": "ended"
   },
   {
    "id": "trinity-c4ff9cffdb",
