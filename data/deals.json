@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T13:00:04+09:00",
+ "generated_at": "2026-10-15T13:10:59+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,9 +9,9 @@
  "stats": {
   "queries": 92,
   "failed_queries": 0,
-  "rss_items": 1723,
+  "rss_items": 1712,
   "articles": 183,
-  "new_articles": 60,
+  "new_articles": 0,
   "deals": 25
  },
  "deals": [
@@ -34,6 +34,28 @@
    "sale_end": "2026-11-08",
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [
+    "전남광주",
+    "강원",
+    "경남",
+    "비수도권"
+   ],
+   "conditions": [
+    "연박",
+    "쿠폰"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXYUJWd2NRXzFrWlNlMXI2VmlrbGkwUGFhR0FfdWFtcWpsM182TWdzYm80Q3RnOW5DYlozQ1lvd0tjRUNTU1NTZlNRbjRfa3BIQVhzSDZHeFIwNEhmblBsc2tlbHpNS0dXV21XRA?oc=5"
+    },
+    "discount": {
+     "title": "전남광주통합특별시, '최대 7만 원 할인'... 가을 숙박세일 페스타 돌입",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmZmpwUUxEbVBMTVA3bmdJZEpnUzlnQUdENXRKamVVa0JnUzVwdXB6SXNhUExCY2lfSk1XM09manFrV1h2QXFKa05PZmhBY0dmM3BoN29fR052Qk5KdXdGeVdtcFZOd2JfMUZyLW9CeHPSAXRBVV95cUxQWVhveUhGUVdvbHZrb2Q2d2ltQVRCN2pVNGlaa3ltTFJaa2V4UnE0b0dEeG80akxWLWNQdG5uNWNheFU2U2ZIcGMzNlZJQ25lVi1TTEgwTThIQ2pqU0pSZV9MZzhZS0F5OE5oS3hlS0g1M1gyVg?oc=5"
+    }
+   },
    "date_source": "title",
    "from_icn": null,
    "discount": "최대 7만원 할인",
@@ -257,6 +279,21 @@
    "sale_end": "2026-10-21",
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [
+    "인천",
+    "부산"
+   ],
+   "conditions": [
+    "포인트 적립"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "파라다이스, 12일부터 ‘슈퍼위크’ 진행…호텔·스파·테마파크 할인 혜택",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SMGliY21YQ1k4YmhTeEoxZ3hqS0VXa3lVc1p0ZTJhNzZOME1mbDRxVHA2bl9iOTVfSnlpUkU3TXFMNnhnYW12VzRWNmlKckNTblJHQ2xqRDRhU1F2dEdJT0V1SENONERfMkJRRw?oc=5"
+    }
+   },
    "date_source": "title",
    "from_icn": null,
    "discount": null,
@@ -330,6 +367,29 @@
    "sale_end": "2026-10-20",
    "travel_start": null,
    "travel_end": null,
+   "routes": [
+    {
+     "origin": "인천(ICN)",
+     "destination": null
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "에어부산, 연말 국제선 특가 프로모션…14일부터 20일까지",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mcUhvLXN4cU5wTTBtMTBpZFgzd1dqSW5JWUhUdUlyWThmSEs2RFc0N05TcTVVeTJRdUlDZXY2ZGxDbXNDekphUW1SV2FLVU5ZRjJRa19kYVROVzk1T1N4YlRHVQ?oc=5"
+    },
+    "discount": {
+     "title": "에어부산, 연말 국제선 특가 프로모션… 편도 7만5900원부터",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQczhHT2YzalFDUXF3cmZFY1I0TDMxOUwyUHFxb3dqYXpqRUhMcHRjb3dXQ2NRY1gwNUx6RXFod21LQ1N2M3k0NTV3LWNORXc4cWdVWjJrbm5laVViWHBzVXh3OUJjR1RXWnNtbGV5eC1qeWYwMHhIc19jNERfZDIxWmd2SURKVGJGNlNqQXJ3?oc=5"
+    },
+    "route": {
+     "title": "에어부산, 일본·중국·동남아 국제선 특가행사…부산과 인천출발 대상",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ZclQxY2xBN2hnVERZak9DNzg1Y21iMEJFVGk5bDR0Slh0U3Myb1FtS194ZzJMZnduOHM3bWtteS1SS3VadDViQzZETUI1d0t1QktWYUYxd1Jfd3Q0ekZGUzlkNHZOb1FBUVUxdk1rSzJ1bkNjS2ZzNw?oc=5"
+    }
+   },
    "date_source": "title",
    "from_icn": "yes",
    "discount": "7만5900원부터",
@@ -457,6 +517,29 @@
    "sale_end": "2026-10-19",
    "travel_start": null,
    "travel_end": null,
+   "routes": [
+    {
+     "origin": "하와이",
+     "destination": "한국"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
+     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5"
+    },
+    "discount": {
+     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
+     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5"
+    },
+    "route": {
+     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
+     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5"
+    }
+   },
    "date_source": "title",
    "from_icn": "unknown",
    "discount": "최대 20%",
@@ -500,6 +583,24 @@
    "sale_end": "2026-10-23",
    "travel_start": "2027-01-01",
    "travel_end": "2027-03-31",
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트리니티항공, 23일까지 ‘국제선 얼리버드 프로모션’",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXNXoxRGt3S1gtYU9hcXg0bEdWUDQ4SGl1Y2Z5VGF0UURTUTBXa2lYVE1OekRJaEZidVRmV0JmVFdUd3U2OWZWRVZITkgzT2hUdVY5LXNZY3hhRTBiVUFxNlRta0xXZEMzd0E?oc=5"
+    },
+    "travel": {
+     "title": "트리니티항공, 내년 1분기 국제선 최대 24% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HVmZueXMyTmlRVXZIRl9zbnNLWmZaSUh4dWlKbWI4R0NvVE94aVBhMER2SUMwWGxNM2RqeFlISWx5dG9yNVhiUVpVdW1fdlUzNndFeVk3WDdpRHM?oc=5"
+    },
+    "discount": {
+     "title": "트리니티항공, 내년 1분기 국제선 최대 24% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HVmZueXMyTmlRVXZIRl9zbnNLWmZaSUh4dWlKbWI4R0NvVE94aVBhMER2SUMwWGxNM2RqeFlISWx5dG9yNVhiUVpVdW1fdlUzNndFeVk3WDdpRHM?oc=5"
+    }
+   },
    "date_source": "title",
    "from_icn": "unknown",
    "discount": "최대 24%",
@@ -615,6 +716,20 @@
    "sale_end": "2026-10-23",
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트리니티항공, 지역 공항 출발 항공권 할인…23일까지 ‘우리 동네 할인’ 진행",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZHJJc1c4UVd4OGZjLUlBLU1WcVlRYXVTMmpiNHViWUFzTHhZZjJ2VnVSbDliOVRySzdHTlkxRXdxRWRmMUZYQ1NSM3BNSGtFTnBsejhCaDFaN0U2bkMxSWRsc2U3eTl3WE1EazA3ZGVZSGZRaTZ6cmpza0k5bzFFT2w1Q2VEQQ?oc=5"
+    },
+    "discount": {
+     "title": "“우리 동네 공항에서 떠나면 최대 2만원 할인”…트리니티항공, 지역 출발 항공권 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MeHNIamtyeFVseWJ1NlphMHRDakRkT1JJN0EtZVd6M2VKd1FSWTQwdHpJYVZaaldRVl9xeDZqaW5MZ2J4SnJicmlyUjM2cFlfSFc1b0lSNXBoVTVPaTczcVQyaHkzRWwxTmNxY9IBbEFVX3lxTE1MeHNIamtyeFVseWJ1NlphMHRDakRkT1JJN0EtZVd6M2VKd1FSWTQwdHpJYVZaaldRVl9xeDZqaW5MZ2J4SnJicmlyUjM2cFlfSFc1b0lSNXBoVTVPaTczcVQyaHkzRWwxTmNxYw?oc=5"
+    }
+   },
    "date_source": "title",
    "from_icn": "unknown",
    "discount": "최대 2만원 할인",
@@ -706,6 +821,13 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [
+    "제주"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
    "date_source": "none",
    "from_icn": null,
    "discount": null,
@@ -749,6 +871,21 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [
+    "가평"
+   ],
+   "conditions": [
+    "쿠폰",
+    "선착순"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "여기어때, 가평 전 숙박시설 ‘최대 3만 원’ 선착순 할인",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MOTNHN2lvakctVERGaTlRNjZBc3JBcFUxN0RqWnRySUhQaDB1QmxNN25iclVJdWE0dVNoMmNiUU5lYTU0eC1vMi1kdllzR0UxNm1wSXdZM0VzYlcwdXVmczBndDRsUGd0?oc=5"
+    }
+   },
    "date_source": "none",
    "from_icn": null,
    "discount": "최대 3만원 할인",
@@ -792,6 +929,11 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
    "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
@@ -829,6 +971,11 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
    "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
@@ -884,6 +1031,16 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LZFlVTWdSTHhZZF9GRkpVOUtXN0xwR0JiZHAxR1paY1BHY0daOG1abUQ2T25MWWNjNGV3bmgxblNNVWtCZFN0VkZRQVFyWDRqam9YcUxEMkp3U1ZVdS1aMFA0WWM?oc=5"
+    }
+   },
    "date_source": "none",
    "from_icn": "unknown",
    "discount": "최대 15%",
@@ -921,6 +1078,25 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "한국"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUnRZeDJtUEJkZXJLVzJMR2xWNUs3bm11ZzZQNDlnaXZwRmpmemo2c0FHUzdmVUxFa2NSck91dEJwdFJfelMxcTkxWEp3SmVvVjZsN1MtVmRWOUZJWW5YZzV1ZzNkTXV2RHRmM1EzcXJwbmxVeVhuNUxraC1td09mWGZlMTFoYTNqLWVzZm12anNpOEtvYWxHZFVLSXdYQQ?oc=5"
+    },
+    "route": {
+     "title": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUnRZeDJtUEJkZXJLVzJMR2xWNUs3bm11ZzZQNDlnaXZwRmpmemo2c0FHUzdmVUxFa2NSck91dEJwdFJfelMxcTkxWEp3SmVvVjZsN1MtVmRWOUZJWW5YZzV1ZzNkTXV2RHRmM1EzcXJwbmxVeVhuNUxraC1td09mWGZlMTFoYTNqLWVzZm12anNpOEtvYWxHZFVLSXdYQQ?oc=5"
+    }
+   },
    "date_source": "none",
    "from_icn": "unknown",
    "discount": "최대 80%",
@@ -958,6 +1134,25 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [
+    {
+     "origin": "한국",
+     "destination": "베트남"
+    },
+    {
+     "origin": null,
+     "destination": "한국"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "route": {
+     "title": "비엣젯항공, 신규 취항 잇따라···한국 노선 특가 항공권 선봬",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrUTNGNno2X1ExSDFTajA1RWpIYm9QQ1VYUUIwYjJMOW9QNWNLZUl0QVRPeHNjaTctNWNpdVNDQVhNeHNpZnNGeDR0XzVoekFMejF1RE9pWlBFVWtCUDF4bHU1MzZpTDdfUkxkStIBcEFVX3lxTE04RmhZbFZ1ZlNYX0dyU05oSWNQYU92Y2VCcXZkYzR3THpTbnNfUUhybW5ZTDBwU25TcHNsenJjLVBISjU4UVBZdWNBUEpzcEJMcXo3dnpYUVg2dnl2TWhxTm15dDhpVEg3LS1YTU95ako?oc=5"
+    }
+   },
    "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
@@ -1007,6 +1202,11 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
    "date_source": "none",
    "from_icn": null,
    "discount": null,
@@ -1056,6 +1256,11 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
    "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
@@ -1105,6 +1310,16 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "대한항공-아웃리거, 하와이·태국 최대 35% 할인..태양의 서커스도 혜택",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlcXp1b3BwaTJCS3JMdGhDaDM3al9ZX1JoTzZvSW10RFQtX0wzak9KWGtqdWJ4MnZyd1doNnVQZkNBN3k4eGlXYU0yeWNYUm1iQm9LY3lB?oc=5"
+    }
+   },
    "date_source": "none",
    "from_icn": "unknown",
    "discount": "최대 35%",
@@ -1154,6 +1369,16 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "터키항공, 유럽 특가 프로모션...이코노미 71만원부터, 비즈니스 211만원부터",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84ZXVwTnhUbmprNktNSDR1ZDE4aElGSmhPeTQzaFdpaVJDcmhyV0wtOXNfSFAxVXRDY3BxcG5DOHRtZlZFUVd2SVBBbDU4dw?oc=5"
+    }
+   },
    "date_source": "none",
    "from_icn": "unknown",
    "discount": "71만원부터",
@@ -1191,6 +1416,29 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "필리핀"
+    },
+    {
+     "origin": null,
+     "destination": "세부(CEB)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "세부퍼시픽항공 ‘10.10 특가’ 필리핀행 편도 10만100원부터",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uRUpiTGItaE9sekxjcVd6MW56d0Nta0poTnI0R2hJYUszU2pUWlVraXh1LU9BYlI5MFRNeGQ5V2dIc3poTUZhaWs5OVZISDVmNENCTVVrNFVvdVlmWXY1RDZndXJuajDSAWtBVV95cUxNZnltQ1o1cWE3cFlzelhodUJUc2RwajJhRUdGcUVia0NocGpOX1NTekxvYUhIdXFqSFpVVWRFYWxNVjdaSVh6VTBXT0NqeG42RFVrVXc2WWNhNks3S1JNSVExRWF0U1ZhS0hSSQ?oc=5"
+    },
+    "route": {
+     "title": "세부퍼시픽항공, 10.10 특가 출시…마닐라·세부행 항공권 대상",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZSE51aWNVLUtpN3FvSC1GUEJtUHFXNC1jSk5WV3gyTDBrbi1RSGNRdndYdW9Mdk91TE1NVE9ud1ZvWWEyWTl3eUZ6ZGhJTHhxdmQ3UVJmblpDeUhfU1JtYVRuR3VtLVRYT1lNRS1R?oc=5"
+    }
+   },
    "date_source": "none",
    "from_icn": "unknown",
    "discount": "10만100원부터",
@@ -1240,6 +1488,21 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "미국"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "route": {
+     "title": "\"환승 대기시간도 즐거운 여행으로\"…에어캐나다, 밴쿠버 경유 미국행 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uelU4SmhfUU5pR3QtSTdVY0NFTkVwVTFtdkJmLVUtYVBQVDNTQ2hjbWVVQURsS1hraHl5bEZYMzh5bzYxeUlsUlltaVFPOFBOMXYwX3paU2ZGZXFuYm5kenJKQ3RrcjR4d1E?oc=5"
+    }
+   },
    "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
@@ -1278,6 +1541,11 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
    "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
@@ -1316,6 +1584,11 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
    "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
@@ -1353,6 +1626,21 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "한국"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "route": {
+     "title": "아시아나항공 '한국행 여름 특가 이벤트'",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzhDUERZcF9wRFpJNHkxRWNVdmY2R3d6cUU3b2dXNmZ6OFRtUEwzSFJheEFUc09ud3lWaFlLMy1oZVI3dU5laXNYYWs4aTRFb3d6RkRIajRyRnpZX0d0dTJqNmFON0RDN0VLcEJoWVRmQ2ljbXFRLUxDNlBUVVdqU200QzdrbFdEbWtZNjZ4QVB2Y0xmYi1FVHZLMmx6R0NhZFBvQ0JEZ09EYmVCOG5Ya3YxYlVaNUF3Tnc?oc=5"
+    }
+   },
    "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
@@ -1396,6 +1684,16 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "에어프레미아, 미주 노선 최대 25% 할인…인천~LA 노선 취항 4주년·점유율 20% 기념",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ca2oyeV8tem5sTkhqOUNfVzR5NlJBQUdPM1hKS2poT3JYSkFZV28yb19zT3ZpbTU0a3ZCOXVKV294SXV0TUprZmFqNDZzWnhiZmdubjJmS0xJVm8?oc=5"
+    }
+   },
    "date_source": "none",
    "from_icn": "yes",
    "discount": "최대 25%",
@@ -1451,6 +1749,25 @@
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
+   "routes": [
+    {
+     "origin": "부산(PUS)",
+     "destination": "마닐라(MNL)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "제주항공, 부산~마닐라 12월 17일 취항...최대 50% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zdjUwRE5LYWM4SmtYUDhfNkVzUjRVX2EwcWxrYllWVThYSk96X2RHZEVZdEpYeEJ3WHc4T3AyaGdiWHhieUUwOGduc3B6eXd3aGV1a3lXN0s0ckVOc3FPNTBaMjljQQ?oc=5"
+    },
+    "route": {
+     "title": "제주항공, 부산~마닐라 12월 17일 취항...최대 50% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zdjUwRE5LYWM4SmtYUDhfNkVzUjRVX2EwcWxrYllWVThYSk96X2RHZEVZdEpYeEJ3WHc4T3AyaGdiWHhieUUwOGduc3B6eXd3aGV1a3lXN0s0ckVOc3FPNTBaMjljQQ?oc=5"
+    }
+   },
    "date_source": "none",
    "from_icn": "no",
    "discount": "최대 50%",
@@ -1488,6 +1805,20 @@
    "sale_end": "2026-10-13",
    "travel_start": null,
    "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트리니티항공, 13일까지 국제선 최대 22% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sbkQyVDk0RFJfUS16clFyQjRaLUJyOVBZclc3Q3ZQNS1HMGkyS3F3WEotX21SMndWc2NReF9OLWRZWHN5TVFhYjZHQm1oZ1RFczktRDRVR2FDa1RmNE9WRA?oc=5"
+    },
+    "discount": {
+     "title": "트리니티항공, 13일까지 국제선 최대 22% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sbkQyVDk0RFJfUS16clFyQjRaLUJyOVBZclc3Q3ZQNS1HMGkyS3F3WEotX21SMndWc2NReF9OLWRZWHN5TVFhYjZHQm1oZ1RFczktRDRVR2FDa1RmNE9WRA?oc=5"
+    }
+   },
    "date_source": "title",
    "from_icn": "unknown",
    "discount": "최대 22%",
