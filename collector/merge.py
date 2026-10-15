@@ -28,7 +28,9 @@ SIMILAR_DAYS = 10
 TOKEN_OVERLAP = 0.3   # 공통 단어 수 / 합친 단어 수
 BURST_DAYS = 2
 _STOP = {"프로모션", "할인", "특가", "항공권", "최대", "진행", "실시", "시행", "국제선", "국내선", "노선",
-         "이벤트", "대상", "판매", "오픈", "시작", "혜택", "항공", "여행"}
+         "이벤트", "대상", "판매", "오픈", "시작", "혜택", "항공", "여행",
+         # 영어 호텔 기사 (시범)
+         "hotel", "hotels", "sale", "off", "resort", "resorts", "stays", "stay", "rooms", "discount", "deals", "the", "and", "with", "for"}
 
 
 _EVENT_WORD = re.compile(r"특가|프로모션|이벤트|마켓|세일|SALE|페스타|할인|데이|위크|얼리버드|타임", re.I)
@@ -46,7 +48,7 @@ def _tokens(title, airline_id):
     t = re.sub(r"지방", "지역", t)
     t = re.sub(r"(\S)공항", r"\1 공항", t)
     words = re.findall(r"[가-힣A-Za-z0-9]{2,}", t)
-    return {w for w in words if w not in _STOP and not re.fullmatch(r"\d+", w)}
+    return {w.lower() for w in words if w.lower() not in _STOP and not re.fullmatch(r"\d+", w)}
 
 
 class _Group:
@@ -188,8 +190,9 @@ def cluster_articles(articles):
     by_airline = {}
     deals = []
     for a in articles:
-        if a["airline"] == MULTI:
-            deals.append(_to_deal(MULTI, [a]))
+        # 미분류(여러 항공사·브랜드)와 '브랜드 미확인' 호텔 기사는 묶을 근거가 없어 기사 1건 = 행사 1건
+        if a["airline"] in (MULTI, "h-other"):
+            deals.append(_to_deal(a["airline"], [a]))
             continue
         by_airline.setdefault(a["airline"], []).append({
             **a,
@@ -254,6 +257,9 @@ def _to_deal(airline_id, arts):
     routes = {a.get("route") for a in arts} - {None}
     route = routes.pop() if len(routes) == 1 else None  # compatible()이 서로 다른 구분을 막는다
     section = "hotel" if category == "hotel" else ("domestic" if route == "domestic" else "flight")
+    scopes = {a.get("scope") for a in arts} - {None}
+    scope = ("overseas" if "overseas" in scopes else "domestic" if scopes else None) if category == "hotel" else None
+    lang = "en" if all(a.get("lang") == "en" for a in arts) else "ko"
 
     # 탑승(투숙) 기간은 묶기 충돌 검사 대상이 아니라 기사끼리 다를 수 있다. 다르면 고르지 않고 '출처 간 불일치'로 둔다.
     conflicts = []
@@ -281,6 +287,12 @@ def _to_deal(airline_id, arts):
         "section": section,
         "route": route,
         "route_text": _mode(a.get("route_text") for a in arts),
+        # 호텔 지역(국내/해외)과 시범 여부. 해외 호텔·영어 기사는 2026-10-15 시작한 시범 수집이다
+        "scope": scope,
+        "lang": lang,
+        "trial": category == "hotel" and (scope == "overseas" or lang == "en"),
+        # 화면의 '신규' 판정에 쓸 기준 시각 묶음 (deals.json baselines의 키)
+        "baseline": "hotel_trial" if category == "hotel" and (scope == "overseas" or lang == "en") else section,
         "official_url": airline.get("official_url"),
         "iata": airline.get("iata", []),
         # 항공권 기사 제목에 나온 예약 플랫폼·여행사 (할인을 그곳에서 판다는 근거가 기사에 있을 때만 화면에 링크)

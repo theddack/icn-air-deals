@@ -395,17 +395,22 @@ def attribute_hotel(title):
     숙박세일 페스타 같은 정부 행사가 나오면 참여 플랫폼이 여럿이어도 그 행사로 본다.
     그 밖에 브랜드가 둘 이상이면 None(미분류)."""
     mentioned = hotels_in(title)
+    if not mentioned:
+        return "h-other", []  # 해외 숙박 할인인데 브랜드가 없는 기사 (is_overseas_hotel_sale)
     campaigns = [h for h in mentioned if HOTEL_BY_ID[h]["kind"] == "campaign"]
     if campaigns:
         return campaigns[0], mentioned
     return (mentioned[0] if len(mentioned) == 1 else None), mentioned
 
 
-def category_of(title):
-    """'flight' | 'hotel' | None(수집 대상 아님). 항공사 특가 판정이 우선이다."""
+def category_of(title, lang="ko"):
+    """'flight' | 'hotel' | None(수집 대상 아님). 항공사 특가 판정이 우선이다.
+    영어 기사는 호텔 시범 수집만 한다."""
+    if lang == "en":
+        return "hotel" if is_hotel_sale_en(title) else None
     if is_sale_article(title) and airlines_in(title):
         return "flight"
-    if is_hotel_sale(title):
+    if is_hotel_sale(title) or is_overseas_hotel_sale(title):
         return "hotel"
     return None
 
@@ -480,7 +485,9 @@ _CONDITIONS = [("쿠폰", r"쿠폰"), ("연박", r"연박|2박"), ("선착순", 
 
 def hotel_regions(title):
     out = []
-    for m in _REGION.finditer(title):
+    # 해외 지명(_OVERSEAS, 파일 아래쪽)도 지역으로 쓴다. '해외'·'N개국' 같은 말은 지명이 아니라서 뺀다
+    pat = re.compile(_REGION.pattern + "|" + "|".join(sorted(map(re.escape, [o for o in _OVERSEAS if o != "해외"]), key=len, reverse=True)))
+    for m in pat.finditer(_mask_airlines(title)):
         r = m.group(0)
         if r not in out and not any(r in o for o in out):
             out.append(r)
@@ -554,3 +561,102 @@ def facts_from_summary(text, pub):
                 facts["origin"], facts["destination"] = o, dst
                 evidence["route"] = _snippet(s, dst.split("(")[0])
     return facts, evidence
+
+
+# ---------------------------------------------------------------- 해외 호텔 (2026-10-15 시범)
+
+# 해외 지명. 제목에 있으면 그 숙박 행사를 '해외'로 본다. '18개국'처럼 나라 수가 나와도 해외
+_OVERSEAS = ["일본", "도쿄", "오사카", "교토", "후쿠오카", "오키나와", "삿포로", "홋카이도", "규슈", "사가현", "나고야",
+             "대만", "타이베이", "홍콩", "마카오", "중국", "상하이", "베이징", "싱가포르", "베트남", "다낭", "나트랑", "푸꾸옥",
+             "하노이", "호찌민", "태국", "방콕", "푸껫", "치앙마이", "필리핀", "세부", "보라카이", "말레이시아", "코타키나발루",
+             "인도네시아", "발리", "괌", "사이판", "하와이", "미국", "유럽", "두바이", "몰디브", "호주", "해외"]
+_OVERSEAS_RE = re.compile("|".join(sorted(map(re.escape, _OVERSEAS), key=len, reverse=True)) + r"|\d+\s?개국")
+_DOMESTIC_REGIONS = [r for r in _REGIONS if r not in _OVERSEAS]
+
+
+def hotel_scope(title, regions=None):
+    """'overseas' | 'domestic' | None — 숙박 행사의 지역. 해외 지명이 하나라도 있으면 해외."""
+    if _OVERSEAS_RE.search(_mask_airlines(title)):
+        return "overseas"
+    if any(r in _DOMESTIC_REGIONS for r in (regions or [])):
+        return "domestic"
+    return None
+
+
+# 특정 행사가 아니라 업계 동향·모음 기사 (2026-10-15 시범 첫 수집에서 걸린 '짧은 연휴 어디로 갈까…국내 숙박 할인·일본 소도시 여행 경쟁')
+_TREND = re.compile(r"경쟁|어디로|동향|트렌드|총정리|방법|국내\s?숙박")
+
+
+def is_overseas_hotel_sale(title):
+    """브랜드가 없어도 해외 숙박 할인 기사로 볼 수 있는가 (예: '괌 호텔 5곳 공동 프로모션').
+    브랜드가 있는 기사는 is_hotel_sale만 따른다 ('대구 메리어트 호텔, 베트남 미식 여행 프로모션'은 국내 호텔 행사)."""
+    return bool(_HOTEL_CONTEXT.search(title) and (_HOTEL_SALE.search(title) or "프로모션" in title)
+                and _OVERSEAS_RE.search(_mask_airlines(title)) and not _HOTEL_NOISE.search(title)
+                and not _TREND.search(title) and not airlines_in(title) and not hotels_in(title))
+
+
+# 영어 기사: 번역하지 않는다. 가격 할인이 분명한 것만 받고, 할인율·기간·지역만 규칙으로 뽑아 한국어 칸에 넣는다.
+# 규칙은 2026-10-15 영어판 Google 뉴스 '호텔 할인' 검색 결과 23건을 읽고 정했다 (대부분 포인트 적립·매각·승진 기사)
+_EN_CTX = re.compile(r"\b(?:hotels?|resorts?|stays?|rooms?|accommodation)\b", re.I)
+_EN_PRICE = re.compile(r"\d{1,2}\s?%\s?off|up to \d{1,2}\s?%|save \d{1,2}\s?%|\d{1,2}\s?% discount|flash sale|"
+                       r"travel sale|discount code|promo code|half[- ]price|black friday|cyber monday", re.I)
+_EN_NOISE = re.compile(r"\bpoints?\b|\bmiles\b|\bbonus\b|\bstatus\b|\belite\b|leadership|appoint|for sale|\bsells?\b|\bsold\b|"
+                       r"acquir|\bstake\b|lawsuit|appeal|credit card|\bstock\b|\bshares\b|\bIPO\b|merger|layoff|\bstrike\b|\bearn\b|"
+                       # 포인트 숙박 할인, 박람회, 할인 코드 모음 페이지 (2026-10-15 시범 첫 수집에서 걸린 유형)
+                       r"\baward\b|\bexpo\b|\bfair\b|(?:discount|promo|voucher) codes?\s?(?:\d{4}|:)|coupons? for", re.I)
+_EN_PLACES = {"Asia Pacific": "아시아·태평양", "Latin America": "중남미", "Hong Kong": "홍콩", "Japan": "일본", "Tokyo": "도쿄",
+              "Osaka": "오사카", "Kyoto": "교토", "Okinawa": "오키나와", "Singapore": "싱가포르", "Bali": "발리", "Thailand": "태국",
+              "Bangkok": "방콕", "Phuket": "푸껫", "Vietnam": "베트남", "Macau": "마카오", "Taiwan": "대만", "Guam": "괌",
+              "Hawaii": "하와이", "Maldives": "몰디브", "Dubai": "두바이", "Philippines": "필리핀", "Malaysia": "말레이시아",
+              "Indonesia": "인도네시아", "Australia": "호주", "Europe": "유럽", "Caribbean": "카리브", "Mexico": "멕시코",
+              "Canada": "캐나다", "Asia": "아시아", "Korea": "한국", "Seoul": "서울"}
+_EN_PLACE_RE = re.compile(r"\b(" + "|".join(sorted(map(re.escape, _EN_PLACES), key=len, reverse=True)) + r")\b")
+_EN_MONTHS = {m: i + 1 for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"])}
+_EN_MONTH = r"(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?"
+_EN_RANGE = re.compile(_EN_MONTH + r"\s(\d{1,2})\s?(?:[-–]|to|through)\s?(?:" + _EN_MONTH + r"\s)?(\d{1,2})\b", re.I)
+_EN_UNTIL = re.compile(r"\b(?:until|through|thru|ends?|by)\s" + _EN_MONTH + r"\s(\d{1,2})\b", re.I)
+
+
+def is_hotel_sale_en(title):
+    return bool(_EN_CTX.search(title) and _EN_PRICE.search(title) and not _EN_NOISE.search(title))
+
+
+def _en_date(mon, day, pub):
+    try:
+        mo = _EN_MONTHS[mon[:3].lower()]
+        d = date(pub.year, mo, int(day))
+        return date(pub.year + 1, mo, int(day)) if d < pub - timedelta(days=60) else d
+    except (KeyError, ValueError):
+        return None
+
+
+def extract_dates_en(title, pub):
+    m = _EN_RANGE.search(title)
+    if m:
+        a = _en_date(m.group(1), m.group(2), pub)
+        b = _en_date(m.group(3) or m.group(1), m.group(4), pub)
+        if a and b and b >= a:
+            return a, b
+    m = _EN_UNTIL.search(title)
+    if m:
+        return None, _en_date(m.group(1), m.group(2), pub)
+    return None, None
+
+
+def extract_discount_en(title):
+    m = re.search(r"(\d{1,2})\s?%\s?to\s?(\d{1,2})\s?%\s?off", title, re.I) or re.search(r"up to (\d{1,2})\s?%", title, re.I)
+    if m:
+        return f"최대 {m.group(m.lastindex)}%"
+    m = re.search(r"(\d{1,2})\s?%\s?(?:off|discount)|save (\d{1,2})\s?%", title, re.I)
+    if m:
+        return f"{m.group(1) or m.group(2)}% 할인"
+    return None
+
+
+def regions_en(title):
+    out = []
+    for m in _EN_PLACE_RE.finditer(title):
+        r = _EN_PLACES[m.group(1)]
+        if r not in out:
+            out.append(r)
+    return out

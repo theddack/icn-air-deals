@@ -35,10 +35,14 @@ def write_json(path, obj):
 def to_article(raw, now_iso):
     """RSS 항목 → 저장용 기사. 항공권 특가(항공사 있음)도 숙박 할인(브랜드 있음)도 아니면 None."""
     title = extract.clean_title(raw["raw_title"], raw.get("outlet"))
-    if not extract.category_of(title):
+    lang = raw.get("lang", "ko")
+    if not extract.category_of(title, lang):
         return None
-    return {"title": title, "outlet": raw.get("outlet"), "url": raw["url"],
-            "published": raw["published"], "first_seen": now_iso}
+    a = {"title": title, "outlet": raw.get("outlet"), "url": raw["url"],
+         "published": raw["published"], "first_seen": now_iso}
+    if lang != "ko":
+        a["lang"] = lang
+    return a
 
 
 def norm_title(t):
@@ -91,16 +95,19 @@ def enrich(article):
     """저장된 기사에 추출 결과를 붙인다. 매번 다시 계산해서 파서 수정이 지난 기사에도 반영된다."""
     title = article["title"]
     pub = date.fromisoformat(article["published"])
+    if article.get("lang") == "en":
+        return _enrich_en(article, title, pub)
     start, end = extract.extract_dates(title, pub)
     t_start, t_end = extract.extract_travel(title, pub)
     name = extract.extract_event_name(title)
     category = extract.category_of(title) or "flight"
     origin = destination = None
-    regions, conditions = [], []
+    regions, conditions, scope = [], [], None
     if category == "hotel":
         owner, mentioned = extract.attribute_hotel(title)
         route, route_text, from_icn = None, None, None
         regions, conditions = extract.hotel_regions(title), extract.hotel_conditions(title)
+        scope = extract.hotel_scope(title, regions)
     else:
         owner, mentioned = extract.attribute_airline(title)
         route, route_text = extract.route_of(title)
@@ -126,8 +133,26 @@ def enrich(article):
         "destination": destination,
         "regions": regions,
         "conditions": conditions,
+        "scope": scope,
     }
     return _fill_from_summary(out)
+
+
+def _enrich_en(article, title, pub):
+    """영어 기사(호텔 시범). 제목은 번역하지 않고 할인율·기간·지역만 규칙으로 뽑는다."""
+    start, end = extract.extract_dates_en(title, pub)
+    owner, mentioned = extract.attribute_hotel(title)
+    regions = extract.regions_en(title)
+    return {
+        **article,
+        "category": "hotel", "airline": owner or MULTI, "airlines_mentioned": mentioned,
+        "sale_start": start.isoformat() if start else None, "sale_end": end.isoformat() if end else None,
+        "travel_start": None, "travel_end": None, "event_name": None, "event_key": None,
+        "discount": extract.extract_discount_en(title), "from_icn": None, "route": None, "route_text": None,
+        "origin": None, "destination": None, "regions": regions, "conditions": [],
+        # 영어 기사는 해외로 본다. 한국이 대상이라고 나오면 국내
+        "scope": "domestic" if set(regions) & {"한국", "서울"} else "overseas",
+    }
 
 
 # 요약문 사실값은 제목에서 못 뽑은 필드만 채운다. 어느 필드를 요약문에서 채웠는지는 _src에 남겨 근거로 보여준다
@@ -192,7 +217,7 @@ def build_deals(articles, today):
 def baseline_key(article):
     """'신규' 판정의 기준 시각을 따로 두는 묶음. 나중에 추가한 수집 대상의 첫 수집분이 신규로 뜨지 않게 한다."""
     if article["category"] == "hotel":
-        return "hotel"
+        return "hotel_trial" if article.get("lang") == "en" or article.get("scope") == "overseas" else "hotel"
     return "domestic" if article["route"] == "domestic" else "flight"
 
 
@@ -201,7 +226,8 @@ def baselines(previous, now_iso):
     out = dict(previous.get("baselines") or {})
     if "flight" not in out and previous.get("baseline_first_seen"):
         out["flight"] = previous["baseline_first_seen"]
-    for key in ("flight", "domestic", "hotel"):
+    # hotel_trial: 2026-10-15 시작한 해외 호텔·영어 기사 시범. 첫 수집분(지난 기사)이 신규로 뜨지 않게 따로 둔다
+    for key in ("flight", "domestic", "hotel", "hotel_trial"):
         out.setdefault(key, now_iso)
     return out
 
