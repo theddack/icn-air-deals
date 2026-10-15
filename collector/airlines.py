@@ -3,23 +3,25 @@
 name    화면에 표시할 이름이자 뉴스 검색어
 aliases 기사 제목에서 이 항공사를 알아보는 표기 (name 포함, 긴 것부터 매칭)
 search  뉴스 검색어를 name 대신 여러 개로 쓸 때 (선택)
+official_url  화면의 "공식 페이지" 링크 (선택). 2026-10-15에 주소 응답(200/403)을 확인한 곳만 넣었다.
+              이벤트 목록 주소를 확인한 곳(아시아나·이스타)은 이벤트 목록, 나머지는 첫 화면.
 kind    domestic | foreign
 """
 
 AIRLINES = [
     # 국내 FSC
-    {"id": "koreanair", "name": "대한항공", "aliases": ["대한항공"], "kind": "domestic"},
-    {"id": "asiana", "name": "아시아나항공", "aliases": ["아시아나항공", "아시아나"], "kind": "domestic"},
+    {"id": "koreanair", "name": "대한항공", "aliases": ["대한항공"], "official_url": "https://www.koreanair.com/", "kind": "domestic"},
+    {"id": "asiana", "name": "아시아나항공", "aliases": ["아시아나항공", "아시아나"], "official_url": "https://flyasiana.com/C/KR/KO/event/list", "kind": "domestic"},
     # 국내 LCC
-    {"id": "jejuair", "name": "제주항공", "aliases": ["제주항공"], "kind": "domestic"},
-    {"id": "jinair", "name": "진에어", "aliases": ["진에어"], "kind": "domestic"},
+    {"id": "jejuair", "name": "제주항공", "aliases": ["제주항공"], "official_url": "https://www.jejuair.net/", "kind": "domestic"},
+    {"id": "jinair", "name": "진에어", "aliases": ["진에어"], "official_url": "https://www.jinair.com/", "kind": "domestic"},
     # 2026-09-10 티웨이항공 → 트리니티항공 사명 변경. 옛 이름 기사도 같은 항공사로 본다.
     {"id": "trinity", "name": "트리니티항공", "aliases": ["트리니티항공", "트리니티", "티웨이항공", "티웨이"],
-     "search": ["트리니티항공", "티웨이항공"], "kind": "domestic"},
-    {"id": "airbusan", "name": "에어부산", "aliases": ["에어부산"], "kind": "domestic"},
-    {"id": "airseoul", "name": "에어서울", "aliases": ["에어서울"], "kind": "domestic"},
-    {"id": "eastarjet", "name": "이스타항공", "aliases": ["이스타항공", "이스타"], "kind": "domestic"},
-    {"id": "airpremia", "name": "에어프레미아", "aliases": ["에어프레미아"], "kind": "domestic"},
+     "search": ["트리니티항공", "티웨이항공"], "official_url": "https://www.twayair.com/", "kind": "domestic"},
+    {"id": "airbusan", "name": "에어부산", "aliases": ["에어부산"], "official_url": "https://www.airbusan.com/", "kind": "domestic"},
+    {"id": "airseoul", "name": "에어서울", "aliases": ["에어서울"], "official_url": "https://flyairseoul.com/", "kind": "domestic"},
+    {"id": "eastarjet", "name": "이스타항공", "aliases": ["이스타항공", "이스타"], "official_url": "https://www.eastarjet.com/newstar/PGWTA00001", "kind": "domestic"},
+    {"id": "airpremia", "name": "에어프레미아", "aliases": ["에어프레미아"], "official_url": "https://www.airpremia.com/", "kind": "domestic"},
     {"id": "aerok", "name": "에어로케이", "aliases": ["에어로케이"], "kind": "domestic"},
     {"id": "parataair", "name": "파라타항공", "aliases": ["파라타항공", "파라타"], "kind": "domestic"},
     # 일본

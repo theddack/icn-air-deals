@@ -10,7 +10,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from . import extract
-from .merge import cluster_articles
+from .merge import MULTI, cluster_articles
 from .sources import news_rss
 from .status import KST, should_keep, today_kst
 
@@ -36,7 +36,7 @@ def to_article(raw, now_iso):
     title = extract.clean_title(raw["raw_title"], raw.get("outlet"))
     if not extract.is_sale_article(title):
         return None
-    if not extract.detect_airline(title):
+    if not extract.airlines_in(title):
         return None
     return {"title": title, "outlet": raw.get("outlet"), "url": raw["url"],
             "published": raw["published"], "first_seen": now_iso}
@@ -47,12 +47,18 @@ def enrich(article):
     title = article["title"]
     pub = date.fromisoformat(article["published"])
     start, end = extract.extract_dates(title, pub)
+    t_start, t_end = extract.extract_travel(title, pub)
     name = extract.extract_event_name(title)
+    owner, mentioned = extract.attribute_airline(title)
     return {
         **article,
-        "airline": extract.detect_airline(title),
+        # 여러 항공사가 섞여 특가의 주인을 정할 수 없으면 'multi'(미분류)
+        "airline": owner or MULTI,
+        "airlines_mentioned": mentioned,
         "sale_start": start.isoformat() if start else None,
         "sale_end": end.isoformat() if end else None,
+        "travel_start": t_start.isoformat() if t_start else None,
+        "travel_end": t_end.isoformat() if t_end else None,
         "event_name": name,
         "event_key": extract.normalize_event_name(name),
         "discount": extract.extract_discount(title),
@@ -110,6 +116,8 @@ def main():
     write_json(DATA / "articles.json", articles)
     write_json(DATA / "deals.json", {
         "generated_at": now.isoformat(timespec="seconds"),
+        # 첫 수집에 들어온 기사는 '신규'가 아니다. 화면은 이 시각 이후 처음 본 것만 신규로 표시한다.
+        "baseline_first_seen": min((a["first_seen"] for a in articles), default=None),
         "stats": {"queries": total, "failed_queries": failed, "rss_items": len(raw),
                   "articles": len(articles), "new_articles": added, "deals": len(deals)},
         "deals": deals,

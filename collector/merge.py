@@ -12,12 +12,14 @@
 알려진 한계: 같은 항공사가 2일 안에 행사명·날짜·할인율 없이 다른 행사 두 개를 내면 하나로 묶인다.
 """
 
+import hashlib
 import re
 from collections import Counter
 from datetime import date
 
 from .airlines import BY_ID
 
+MULTI = "multi"  # 여러 항공사가 섞인 미분류 기사
 SIMILAR_DAYS = 10
 TOKEN_OVERLAP = 0.3   # 공통 단어 수 / 합친 단어 수
 BURST_DAYS = 2
@@ -36,6 +38,9 @@ def _tokens(title, airline_id):
     t = title
     for alias in BY_ID[airline_id]["aliases"]:
         t = t.replace(alias, " ")
+    # 같은 말의 다른 표기: '지방공항'·'지역공항'·'지역 공항'을 같은 단어로 본다
+    t = re.sub(r"지방", "지역", t)
+    t = re.sub(r"(\S)공항", r"\1 공항", t)
     words = re.findall(r"[가-힣A-Za-z0-9]{2,}", t)
     return {w for w in words if w not in _STOP and not re.fullmatch(r"\d+", w)}
 
@@ -155,15 +160,21 @@ def _cluster_one_airline(items):
 
 
 def cluster_articles(articles):
-    """articles: extract 결과가 붙은 기사 dict 목록 → 행사 dict 목록."""
+    """articles: extract 결과가 붙은 기사 dict 목록 → 행사 dict 목록.
+
+    airline이 MULTI(여러 항공사가 섞여 특가의 주인을 못 정한 기사)면 묶지 않고 기사 1건 = 행사 1건.
+    """
     by_airline = {}
+    deals = []
     for a in articles:
+        if a["airline"] == MULTI:
+            deals.append(_to_deal(MULTI, [a]))
+            continue
         by_airline.setdefault(a["airline"], []).append({
             **a,
             "_tokens": _tokens(a["title"], a["airline"]),
             "_flat": re.sub(r"[\s\W_]+", "", a["title"]).lower(),
         })
-    deals = []
     for airline_id, items in by_airline.items():
         items.sort(key=lambda a: a["published"])
         for g in _cluster_one_airline(items):
@@ -177,27 +188,40 @@ def _mode(values):
 
 
 def _to_deal(airline_id, arts):
-    arts = sorted(arts, key=lambda a: a["published"])
-    airline = BY_ID[airline_id]
+    arts = sorted(arts, key=lambda a: (a["published"], a["url"]))
+    if airline_id == MULTI:
+        names = [BY_ID[i]["name"] for i in arts[0].get("airlines_mentioned", [])]
+        airline = {"name": "여러 항공사", "kind": "mixed"}
+    else:
+        airline = BY_ID[airline_id]
+        names = [airline["name"]]
     start = _mode(a["sale_start"] for a in arts)
     end = _mode(a["sale_end"] for a in arts)
     icn = [a["from_icn"] for a in arts]
     from_icn = "yes" if "yes" in icn else ("no" if all(x == "no" for x in icn) else "unknown")
-    key_part = _mode(a.get("event_key") for a in arts) or start or end or arts[0]["published"]
+    seen = sorted(a["first_seen"] for a in arts)
     return {
-        "id": f"{airline_id}-{key_part}",
+        "id": f"{airline_id}-{hashlib.sha1(arts[0]['url'].encode()).hexdigest()[:10]}",
         "airline_id": airline_id,
         "airline": airline["name"],
+        "airlines_mentioned": names,
         "kind": airline["kind"],
+        "official_url": airline.get("official_url"),
         "event_name": _mode(a.get("event_name") for a in arts if _is_event_like(a.get("event_name"))),
         "headline": arts[-1]["title"],
         "sale_start": start,
         "sale_end": end,
+        "travel_start": _mode(a.get("travel_start") for a in arts),
+        "travel_end": _mode(a.get("travel_end") for a in arts),
         "date_source": "title" if (start or end) else "none",
         "from_icn": from_icn,
         "discount": _mode(a.get("discount") for a in arts),
+        # 지금은 모든 행사가 뉴스 기사 기반이다. 공식 페이지에서 확인한 행사가 생기면 'official'.
+        "verification": "news",
         "first_published": arts[0]["published"],
         "last_published": arts[-1]["published"],
+        "first_seen": seen[0],
+        "last_seen": seen[-1],
         "articles": [
             {"title": a["title"], "outlet": a.get("outlet"), "url": a["url"], "published": a["published"]}
             for a in reversed(arts)
