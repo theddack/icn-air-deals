@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T14:26:04+09:00",
+ "generated_at": "2026-10-15T14:36:54+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,9 +9,9 @@
  "stats": {
   "queries": 92,
   "failed_queries": 0,
-  "rss_items": 1752,
-  "articles": 185,
-  "new_articles": 0,
+  "rss_items": 1714,
+  "articles": 186,
+  "new_articles": 1,
   "deals": 25
  },
  "deals": [
@@ -29,6 +29,7 @@
    "route_text": null,
    "official_url": null,
    "iata": [],
+   "agencies": [],
    "event_name": "숙박세일 페스타",
    "headline": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
    "sale_start": "2026-09-22",
@@ -64,7 +65,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-15T13:49:08+09:00",
+   "last_seen": "2026-10-15T14:36:54+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
@@ -100,6 +101,12 @@
      "title": "2026 숙박세일 페스타, 전남광주 최대 7만 원 숙박비 할인",
      "outlet": "한국일보",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RVGRqaWQ0SVBXZllBVWVRUFg0dzdWaUtEMWdiSnFLLVIzZVpRM21qWGMwVzF1cmhfYkUtcDZMdm8wVTBYUGlRdjJaNzZOOThBUjNGMHdoemJ5cnE1aFJwRXE2eTd4NHNHeVNlUENB0gFzQVVfeXFMTVFuNVNWYUJvXzlJdHBJUkVzeWVpWWFPcFVGTS0zRmg1TGxSZmFBVUNuMHlyYjI5SHlkN1JmWlpwMTA1am1pNXp5V1dMZ1RXZlNwWmdkbm5tVGVfM3RsRlU0S09LaExNME9tRjhWRGpnSndOcw?oc=5",
+     "published": "2026-09-28"
+    },
+    {
+     "title": "전남광주, ‘숙박세일 페스타’로 가을철 체류관광객 유치",
+     "outlet": "국민일보",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42ckVfVUNDQWtRbTczTFQ2UUkxQUl6TFdyWnNpZVZGNzkySGZwc1o1b0ZCTnZMeXJuNWltZHoza2J5aldFd1ZFdnhJVXh6N2FoTGNONVVBNkNYQkp3Z2w1WTBGLVFyUjTSAWxBVV95cUxPbTlobU9hdngzLVJ5dDNjdFJXQU14cE9NbVdFeDNvQmo3all5RC1TSEVmaEhKeXB3LVRSc2NvSGhqbG9nT0taTDVIdnI2emtHUGRqT1Vtc0hGREZKb2JCVnZzS2lRSDJfdmtpUWQ?oc=5",
      "published": "2026-09-28"
     },
     {
@@ -287,6 +294,7 @@
    "route_text": null,
    "official_url": null,
    "iata": [],
+   "agencies": [],
    "event_name": "슈퍼위크",
    "headline": "객실·먹거리·스파 혜택 총집합…파라다이스, 슈퍼위크 프로모션",
    "sale_start": "2026-10-12",
@@ -378,6 +386,7 @@
    "iata": [
     "BX"
    ],
+   "agencies": [],
    "event_name": null,
    "headline": "에어부산, ‘나의 여행보고서’ 국제선 특가 프로모션",
    "sale_start": "2026-10-14",
@@ -531,6 +540,7 @@
    "iata": [
     "YP"
    ],
+   "agencies": [],
    "event_name": null,
    "headline": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
    "sale_start": null,
@@ -600,6 +610,7 @@
    "iata": [
     "TW"
    ],
+   "agencies": [],
    "event_name": "국제선 얼리버드 프로모션",
    "headline": "트리니티항공, 내년 1분기 국제선 최대 24% 할인",
    "sale_start": null,
@@ -736,6 +747,7 @@
    "iata": [
     "TW"
    ],
+   "agencies": [],
    "event_name": "우리 동네 할인",
    "headline": "트리니티항공, 지역 공항 출발 항공권 할인…23일까지 ‘우리 동네 할인’ 진행",
    "sale_start": null,
@@ -840,8 +852,9 @@
    "section": "hotel",
    "route": null,
    "route_text": null,
-   "official_url": null,
+   "official_url": "https://www.yeogi.com/",
    "iata": [],
+   "agencies": [],
    "event_name": "제주 그린키 숙박 페스타",
    "headline": "여기어때, 제주 친환경 숙소 지원…`그린키 숙박 페스타`",
    "sale_start": null,
@@ -891,8 +904,9 @@
    "section": "hotel",
    "route": null,
    "route_text": null,
-   "official_url": null,
+   "official_url": "https://www.yeogi.com/",
    "iata": [],
+   "agencies": [],
    "event_name": null,
    "headline": "여기어때, 가평 전 숙박시설 ‘최대 3만 원’ 선착순 할인",
    "sale_start": null,
@@ -954,6 +968,7 @@
    "iata": [
     "RS"
    ],
+   "agencies": [],
    "event_name": "임박 특가",
    "headline": "에어서울, '임박 특가' 프로모션→비엣젯항공, '亞대표 항공사' 선정",
    "sale_start": null,
@@ -999,6 +1014,7 @@
    "iata": [
     "LJ"
    ],
+   "agencies": [],
    "event_name": null,
    "headline": "진에어, 韓·日·대만 신규 고객 잡는다…수하물 할인·항공권 경품 제공",
    "sale_start": null,
@@ -1062,6 +1078,7 @@
    "iata": [
     "RS"
    ],
+   "agencies": [],
    "event_name": null,
    "headline": "에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인",
    "sale_start": null,
@@ -1112,6 +1129,7 @@
    "iata": [
     "YP"
    ],
+   "agencies": [],
    "event_name": null,
    "headline": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
    "sale_start": null,
@@ -1167,10 +1185,11 @@
    "section": "flight",
    "route": "international",
    "route_text": null,
-   "official_url": null,
+   "official_url": "https://www.vietjetair.com/ko",
    "iata": [
     "VJ"
    ],
+   "agencies": [],
    "event_name": null,
    "headline": "비엣젯항공, 신규 취항 잇따라···한국 노선 특가 항공권 선봬",
    "sale_start": null,
@@ -1240,6 +1259,7 @@
    "route_text": null,
    "official_url": null,
    "iata": [],
+   "agencies": [],
    "event_name": null,
    "headline": "소노인터내셔널, 지역 관광지 연계 할인·숙박 패키지 확대",
    "sale_start": null,
@@ -1293,10 +1313,11 @@
    "section": "flight",
    "route": null,
    "route_text": null,
-   "official_url": null,
+   "official_url": "https://www.klm.com/",
    "iata": [
     "KL"
    ],
+   "agencies": [],
    "event_name": null,
    "headline": "KLM 창립 107주년 기념 ‘107번째 델프트 미니어처 하우스' 공개, 항공권 할인 프로모션 실시",
    "sale_start": null,
@@ -1354,6 +1375,7 @@
    "iata": [
     "KE"
    ],
+   "agencies": [],
    "event_name": null,
    "headline": "대한항공-아웃리거, 하와이·태국 최대 35% 할인..태양의 서커스도 혜택",
    "sale_start": null,
@@ -1412,10 +1434,11 @@
    "section": "flight",
    "route": null,
    "route_text": null,
-   "official_url": null,
+   "official_url": "https://www.turkishairlines.com/",
    "iata": [
     "TK"
    ],
+   "agencies": [],
    "event_name": null,
    "headline": "터키항공, 유럽 특가 프로모션...이코노미 71만원부터, 비즈니스 211만원부터",
    "sale_start": null,
@@ -1462,10 +1485,11 @@
    "section": "flight",
    "route": null,
    "route_text": null,
-   "official_url": null,
+   "official_url": "https://www.cebupacificair.com/ko-KR",
    "iata": [
     "5J"
    ],
+   "agencies": [],
    "event_name": "10.10 특가",
    "headline": "세부퍼시픽항공, '10.10 특가' 프로모션 전개",
    "sale_start": null,
@@ -1537,10 +1561,11 @@
    "section": "flight",
    "route": null,
    "route_text": null,
-   "official_url": null,
+   "official_url": "https://www.aircanada.com/kr/ko/aco/home.html",
    "iata": [
     "AC"
    ],
+   "agencies": [],
    "event_name": null,
    "headline": "\"환승 대기시간도 즐거운 여행으로\"…에어캐나다, 밴쿠버 경유 미국행 프로모션",
    "sale_start": null,
@@ -1595,6 +1620,7 @@
    "route_text": null,
    "official_url": null,
    "iata": [],
+   "agencies": [],
    "event_name": null,
    "headline": "10월 항공권 할인전…트리니티 지방 출발 쿠폰·아시아나 결제 할인",
    "sale_start": null,
@@ -1639,6 +1665,7 @@
    "route_text": null,
    "official_url": null,
    "iata": [],
+   "agencies": [],
    "event_name": null,
    "headline": "[플라이H!] 장거리 여객 공략..에어캐나다 미국 입국 간소화·KLM 107주년 특가",
    "sale_start": null,
@@ -1684,6 +1711,7 @@
    "iata": [
     "OZ"
    ],
+   "agencies": [],
    "event_name": "한국행 여름 특가 이벤트",
    "headline": "아시아나항공 '한국행 여름 특가 이벤트'",
    "sale_start": null,
@@ -1745,6 +1773,7 @@
    "iata": [
     "YP"
    ],
+   "agencies": [],
    "event_name": "미주 할인 이벤트",
    "headline": "에어프레미아, LA 노선 취항 기념 ‘미주 할인 이벤트’ 펼쳐",
    "sale_start": null,
@@ -1813,6 +1842,7 @@
    "iata": [
     "7C"
    ],
+   "agencies": [],
    "event_name": null,
    "headline": "제주항공, 부산~마닐라 12월 17일 취항...최대 50% 할인",
    "sale_start": null,
@@ -1872,6 +1902,7 @@
    "iata": [
     "TW"
    ],
+   "agencies": [],
    "event_name": "10월 항공권 프로모션",
    "headline": "트리니티항공, 13일까지 국제선 최대 22% 할인",
    "sale_start": null,
