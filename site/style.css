@@ -57,6 +57,19 @@ button, select, input { font: inherit; }
 .pill.gray { background: var(--gray-bg); color: var(--gray); }
 .pill.solid { background: var(--brand); color: #fff; }
 
+/* 행사 종류 탭 */
+.sections { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 24px; }
+.sections button {
+  display: flex; align-items: center; gap: 10px; text-align: left; cursor: pointer; min-width: 0;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; color: var(--ink); box-shadow: var(--shadow);
+}
+.sec-icon { font-size: 22px; line-height: 1; }
+.sec-name { flex: 1; min-width: 0; font-weight: 800; font-size: 15px; }
+.sec-name small { display: block; font-size: 12px; font-weight: 600; color: var(--faint); }
+.sections button b { font-size: 20px; color: var(--brand-ink); font-variant-numeric: tabular-nums; }
+.sections button[aria-pressed="true"] { background: var(--brand); border-color: var(--brand); color: #fff; }
+.sections button[aria-pressed="true"] small, .sections button[aria-pressed="true"] b { color: #fff; }
+
 /* 요약 타일 */
 .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
 .stat {
@@ -113,6 +126,11 @@ details li span { color: var(--faint); margin-left: 4px; font-variant-numeric: t
 @media (max-width: 760px) {
   .hero-in { padding-block: 36px 30px; }
   .hero h1 { font-size: 28px; }
+  .sections { gap: 8px; }
+  .sections button { flex-direction: column; align-items: flex-start; gap: 4px; padding: 12px; }
+  .sec-icon { font-size: 18px; }
+  .sec-name { font-size: 14px; }
+  .sections button b { font-size: 18px; }
   .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .stat { padding: 14px 16px; }
   .stat b { font-size: 26px; }

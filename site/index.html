@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ICN 특가 레이더</title>
-<meta name="description" content="인천 출발 항공권 할인 행사를 뉴스 기사에서 모아 진행 중·신규·판매 예정으로 보여줍니다.">
+<meta name="description" content="인천 출발 항공권·국내선·호텔 숙박 할인 행사를 뉴스 기사에서 모아 진행 중·신규·판매 예정으로 보여줍니다.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,13 +12,19 @@
   <div class="hero-in">
     <div class="eyebrow" id="updated">ICN AIR DEALS · 불러오는 중…</div>
     <h1>✈ ICN 특가 레이더</h1>
-    <p>항공사 할인 행사를 뉴스 기사에서 자동으로 모아, <strong>지금 진행 중이거나 새로 나온 특가</strong>를 빠르게 확인하는 개인용 항공권 행사 모니터링 페이지.</p>
+    <p>항공사·호텔 할인 행사를 뉴스 기사에서 자동으로 모아, <strong>지금 진행 중이거나 새로 나온 특가</strong>를 빠르게 확인하는 개인용 여행 특가 모니터링 페이지.</p>
     <div class="hero-pills"><span class="pill">하루 4회 자동 수집</span> <span class="pill">뉴스 기사 기반</span> <span class="pill">LLM 미사용</span></div>
   </div>
 </header>
 
 <main class="wrap">
   <div id="health" class="notice warn" role="status" hidden></div>
+
+  <nav class="sections" aria-label="행사 종류">
+    <button type="button" data-section="flight"><span class="sec-icon" aria-hidden="true">✈</span><span class="sec-name">항공권 <small>인천 출발</small></span><b id="n-flight">0</b></button>
+    <button type="button" data-section="domestic"><span class="sec-icon" aria-hidden="true">🛬</span><span class="sec-name">국내선</span><b id="n-domestic">0</b></button>
+    <button type="button" data-section="hotel"><span class="sec-icon" aria-hidden="true">🏨</span><span class="sec-name">호텔·숙박</span><b id="n-hotel">0</b></button>
+  </nav>
 
   <section class="section" aria-labelledby="h-summary">
     <h2 id="h-summary">한눈에 보기</h2>
@@ -43,35 +49,32 @@
         <button type="button" data-filter="ended">마감 <b id="c-ended">0</b></button>
       </div>
       <div class="filters">
-        <label class="field"><span>구분</span>
-          <select id="kind">
-            <option value="all">전체 항공사</option>
-            <option value="domestic">국내 항공사</option>
-            <option value="foreign">해외 항공사</option>
-          </select>
+        <label class="field" id="kind-field"><span>구분</span>
+          <select id="kind"></select>
         </label>
-        <label class="field"><span>항공사</span>
+        <label class="field"><span id="airline-label">항공사</span>
           <select id="airline"><option value="all">전체</option></select>
         </label>
         <label class="field grow"><span>검색</span>
           <input id="q" type="search" placeholder="일본, 얼리버드, 하와이…" autocomplete="off">
         </label>
-        <label class="toggle"><input id="hide-other" type="checkbox" checked> 인천 외 출발 숨기기</label>
+        <label class="toggle" id="hide-other-field"><input id="hide-other" type="checkbox" checked> 인천 외 출발 숨기기</label>
       </div>
       <div id="list" class="deals" aria-live="polite"></div>
-      <p id="empty" class="empty" hidden>조건에 맞는 행사가 없습니다. 필터를 바꿔 보세요.</p>
+      <p id="empty" class="empty" hidden></p>
     </div>
   </section>
 
   <section class="section">
     <div class="notice">
       <strong>이 페이지를 읽는 법</strong><br>
-      항공사 공식 발표가 아니라 <b>뉴스 기사 제목</b>에서 자동으로 뽑은 정보입니다. 기사에 없는 날짜·가격·출발지는 추측하지 않고 "미확인"으로 둡니다. 실제 운임과 좌석은 항공사 예약 단계에서 달라질 수 있으니 예약 전에 공식 페이지를 확인하세요.<br>
+      항공사·호텔 공식 발표가 아니라 <b>뉴스 기사 제목</b>에서 자동으로 뽑은 정보입니다. 기사에 없는 날짜·가격·출발지는 추측하지 않고 "미확인"으로 둡니다. 실제 요금과 좌석·객실은 예약 단계에서 달라질 수 있으니 예약 전에 공식 페이지를 확인하세요.<br>
+      "국내선"은 제목에 국내선·김포~제주 같은 노선 표현이 있는 항공 기사만 모읍니다. "호텔·숙박"은 호텔·리조트, 숙박 예약 플랫폼, 숙박세일 페스타 같은 정부 행사 기사 중 숙박 맥락과 할인 표현이 함께 있는 것만 모읍니다.<br>
       "인천(ICN)"은 제목에 인천~노선·인천발·인천 출발 같은 근거가 있을 때만 표시합니다. "항공사 미분류"는 한 기사에 여러 항공사가 섞여 어느 항공사 행사인지 정하지 않은 것입니다. "공식 페이지에서 확인"은 항공사 홈페이지(또는 이벤트 목록) 링크이며, 이 사이트가 공식 페이지를 수집한 것은 아닙니다.
     </div>
   </section>
 </main>
-<footer class="site-foot">ICN AIR DEALS · 개인용 항공권 행사 모니터링 · <a href="https://github.com/theddack/icn-air-deals">소스 코드</a></footer>
+<footer class="site-foot">ICN AIR DEALS · 개인용 여행 특가 모니터링 · <a href="https://github.com/theddack/icn-air-deals">소스 코드</a></footer>
 <script src="app.js"></script>
 </body>
 </html>

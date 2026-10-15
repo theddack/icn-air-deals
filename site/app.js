@@ -13,10 +13,22 @@
   var NEW_HOURS = 48;   // 처음 본 지 이 시간 안이면 '신규', 기사가 이 시간 안에 더해졌으면 '기사 추가'
   var STALE_HOURS = 12; // 마지막 수집이 이보다 오래되면 수집이 멈춘 것으로 본다
 
-  var state = { filter: "all", kind: "all", airline: "all", q: "", hideOther: true };
+  // 행사 종류 탭. kinds는 '구분' 선택지(빈 배열이면 숨김), who는 항공사/브랜드 라벨
+  var SECTIONS = {
+    flight: { kinds: [["all", "전체 항공사"], ["domestic", "국내 항공사"], ["foreign", "해외 항공사"]], who: "항공사",
+              placeholder: "일본, 얼리버드, 하와이…",
+              empty: "조건에 맞는 행사가 없습니다. 필터를 바꿔 보세요." },
+    domestic: { kinds: [], who: "항공사", placeholder: "제주, 김포, 추석…",
+                empty: "지금은 국내선 행사가 없습니다. 제목에 '국내선'·'김포~제주' 같은 노선 표현이 있는 기사만 국내선으로 분류합니다." },
+    hotel: { kinds: [["all", "전체"], ["hotel", "호텔·리조트"], ["platform", "예약 플랫폼·여행사"], ["campaign", "정부 할인 행사"]], who: "브랜드",
+             placeholder: "제주, 페스타, 호캉스…",
+             empty: "조건에 맞는 숙박 행사가 없습니다. 필터를 바꿔 보세요." }
+  };
+
+  var state = { section: "flight", filter: "all", kind: "all", airline: "all", q: "", hideOther: true };
   var deals = [];
   var names = {};       // airline_id -> 이름 (필터용)
-  var baseline = null;  // 첫 수집 시각. 이때 들어온 기사는 신규로 보지 않는다
+  var baselines = {};   // 묶음별 첫 수집 시각. 이때 들어온 기사는 신규로 보지 않는다
 
   function todayKst() {
     return new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
@@ -56,8 +68,10 @@
     return "기사 " + md(d.last_published);
   }
 
+  function sectionOf(d) { return d.section || "flight"; } // section이 없던 예전 데이터는 항공권
+
   function freshness(d) {
-    var now = Date.now(), win = NEW_HOURS * 3600000;
+    var now = Date.now(), win = NEW_HOURS * 3600000, baseline = baselines[sectionOf(d)] || "";
     if (d.first_seen && d.first_seen > baseline && now - Date.parse(d.first_seen) <= win) return "new";
     if (d.last_seen && d.last_seen > baseline && now - Date.parse(d.last_seen) <= win) return "updated";
     return null;
@@ -89,6 +103,7 @@
     var st = d._status;
     var title = d.event_name ? d.event_name : d.headline;
     var multi = d.airline_id === "multi";
+    var sec = sectionOf(d), hotel = sec === "hotel";
     var sale = rangeText(d.sale_start, d.sale_end);
     var travel = rangeText(d.travel_start, d.travel_end);
     var verified = d.verification === "official";
@@ -101,17 +116,20 @@
       (d._fresh === "new" ? '<span class="pill solid">신규</span>' : d._fresh === "updated" ? '<span class="pill">기사 추가</span>' : "") +
       (isClosing(d, today) ? '<span class="pill orange">마감 임박</span>' : "") +
       '<span class="pill ' + (verified ? "green" : "orange") + '">' + VERIFY_LABEL[d.verification || "news"] + "</span>" +
-      (multi ? '<span class="pill orange">항공사 미분류</span>' : "");
-    var airline = multi ? "여러 항공사 (" + esc(d.airlines_mentioned.join("·")) + ")" : esc(d.airline);
+      (multi ? '<span class="pill orange">' + SECTIONS[sec].who + " 미분류</span>" : "");
+    var airline = multi ? esc(d.airline) + " (" + esc(d.airlines_mentioned.join("·")) + ")" : esc(d.airline);
+    var where = hotel ? "" : sec === "domestic"
+      ? row("노선", d.route_text ? "국내선 · " + esc(d.route_text) : "국내선 · 구간 미확인", d.route_text ? "" : "unk")
+      : row("출발 공항", ICN_LABEL[d.from_icn], d.from_icn === "yes" ? "icn" : d.from_icn === "unknown" ? "unk" : "");
     return '<article class="deal' + (st === "ended" ? " ended" : "") + '">' +
       '<div class="pills">' + pills + "</div>" +
       "<h3>" + esc(title) + "</h3>" +
       (d.discount ? '<div class="price">' + esc(d.discount) + "</div>" : '<div class="price none">할인 정보 미확인</div>') +
       "<dl>" +
-        row("항공사", airline) +
+        row(SECTIONS[sec].who, airline) +
         row("판매 기간", sale || "미확인", sale ? "" : "unk") +
-        row("탑승 기간", travel || "미확인", travel ? "" : "unk") +
-        row("출발 공항", ICN_LABEL[d.from_icn], d.from_icn === "yes" ? "icn" : d.from_icn === "unknown" ? "unk" : "") +
+        row(hotel ? "투숙 기간" : "탑승 기간", travel || "미확인", travel ? "" : "unk") +
+        where +
         row("남은 기간", st === "undated" ? "미확인 · 최근 기사 " + md(d.last_published) : ddayText(d, st, today), st === "undated" ? "unk" : "") +
       "</dl>" +
       '<div class="foot">' +
@@ -124,10 +142,11 @@
   }
 
   function visible(d) {
+    if (sectionOf(d) !== state.section) return false;
     if (state.kind !== "all" && d.kind !== state.kind) return false;
     if (state.airline !== "all" && d.airline_id !== state.airline &&
         (d.airlines_mentioned || []).indexOf(names[state.airline]) < 0) return false;
-    if (state.hideOther && d.from_icn === "no") return false;
+    if (state.section === "flight" && state.hideOther && d.from_icn === "no") return false;
     if (state.q) {
       var hay = (d.airline + " " + (d.event_name || "") + " " + d.articles.map(function (a) { return a.title; }).join(" ")).toLowerCase();
       if (hay.indexOf(state.q.toLowerCase()) < 0) return false;
@@ -137,6 +156,14 @@
 
   function render() {
     var today = todayKst();
+    Object.keys(SECTIONS).forEach(function (sec) {
+      document.getElementById("n-" + sec).textContent = deals.filter(function (d) {
+        return sectionOf(d) === sec && !(sec === "flight" && state.hideOther && d.from_icn === "no");
+      }).length;
+    });
+    document.querySelectorAll("[data-section]").forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.dataset.section === state.section));
+    });
     var base = deals.filter(visible);
     ["all", "live", "new", "upcoming", "official", "undated", "ended", "closing"].forEach(function (f) {
       var n = base.filter(function (d) { return matches(d, f, today); }).length;
@@ -151,7 +178,32 @@
     });
     var shown = base.filter(function (d) { return matches(d, state.filter, today); });
     document.getElementById("list").innerHTML = shown.map(function (d) { return card(d, today); }).join("");
-    document.getElementById("empty").hidden = shown.length > 0;
+    var empty = document.getElementById("empty");
+    empty.hidden = shown.length > 0;
+    empty.textContent = SECTIONS[state.section].empty;
+  }
+
+  // 탭을 바꾸면 그 종류에 맞게 구분·항공사(브랜드) 선택지와 검색 안내를 다시 만든다
+  function setSection(sec) {
+    var conf = SECTIONS[sec];
+    state.section = sec; state.filter = "all"; state.kind = "all"; state.airline = "all";
+    var kind = document.getElementById("kind");
+    kind.innerHTML = conf.kinds.map(function (k) { return '<option value="' + k[0] + '">' + k[1] + "</option>"; }).join("");
+    document.getElementById("kind-field").hidden = conf.kinds.length === 0;
+    document.getElementById("hide-other-field").hidden = sec !== "flight";
+    document.getElementById("airline-label").textContent = conf.who;
+    document.getElementById("q").placeholder = conf.placeholder;
+    var sel = document.getElementById("airline");
+    sel.innerHTML = '<option value="all">전체</option>';
+    var ids = {};
+    deals.forEach(function (d) { if (sectionOf(d) === sec && d.airline_id !== "multi") ids[d.airline_id] = d.airline; });
+    Object.keys(ids).sort(function (a, b) { return ids[a].localeCompare(ids[b], "ko"); }).forEach(function (id) {
+      var o = document.createElement("option");
+      o.value = id; o.textContent = ids[id];
+      sel.appendChild(o);
+    });
+    try { history.replaceState(null, "", sec === "flight" ? location.pathname + location.search : "#" + sec); } catch (e) { /* 미리보기 등 */ }
+    render();
   }
 
   function sortKey(d) {
@@ -184,7 +236,7 @@
       return ORDER[a._status] - ORDER[b._status] || (sortKey(a) < sortKey(b) ? -1 : sortKey(a) > sortKey(b) ? 1 : 0);
     });
 
-    baseline = data.baseline_first_seen || "";
+    baselines = data.baselines || { flight: data.baseline_first_seen || "" };
     deals.forEach(function (d) { d._fresh = freshness(d); });
     document.getElementById("updated").textContent =
       "ICN AIR DEALS · 마지막 수집 " + data.generated_at.slice(0, 16).replace("T", " ") + " KST · 기사 " +
@@ -192,13 +244,8 @@
     showHealth(data);
 
     deals.forEach(function (d) { if (d.airline_id !== "multi") names[d.airline_id] = d.airline; });
-    var sel = document.getElementById("airline");
-    Object.keys(names).sort(function (a, b) { return names[a].localeCompare(names[b], "ko"); }).forEach(function (id) {
-      var o = document.createElement("option");
-      o.value = id; o.textContent = names[id];
-      sel.appendChild(o);
-    });
-    render();
+    var fromHash = location.hash.slice(1);
+    setSection(SECTIONS[fromHash] ? fromHash : "flight");
   }
 
   // 요약 타일과 툴바 버튼이 같은 필터를 쓴다. 켜진 타일을 다시 누르면 전체로 돌아간다.
@@ -208,6 +255,14 @@
       state.filter = (b.classList.contains("stat") && state.filter === f) ? "all" : f;
       render();
     });
+  });
+  document.querySelectorAll("[data-section]").forEach(function (b) {
+    b.addEventListener("click", function () { setSection(b.dataset.section); });
+  });
+  // 주소의 #domestic·#hotel을 직접 바꾸거나 뒤로 가기를 해도 탭이 따라간다
+  window.addEventListener("hashchange", function () {
+    var sec = location.hash.slice(1);
+    if (deals.length && (SECTIONS[sec] ? sec : "flight") !== state.section) setSection(SECTIONS[sec] ? sec : "flight");
   });
   document.getElementById("kind").addEventListener("change", function (e) { state.kind = e.target.value; render(); });
   document.getElementById("airline").addEventListener("change", function (e) { state.airline = e.target.value; render(); });
