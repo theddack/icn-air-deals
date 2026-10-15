@@ -95,8 +95,20 @@
     return d._status === f;
   }
 
-  function row(label, value, cls) {
-    return "<dt>" + label + "</dt><dd" + (cls ? ' class="' + cls + '"' : "") + ">" + value + "</dd>";
+  function row(label, value, cls, ev) {
+    return "<dt>" + label + "</dt><dd" + (cls ? ' class="' + cls + '"' : "") + ">" + value + (ev || "") + "</dd>";
+  }
+
+  // 값을 뽑아 온 기사 링크. 기사 제목을 툴팁으로 보여준다
+  function evLink(d, field) {
+    var e = (d.evidence || {})[field];
+    return e ? ' <a class="ev" href="' + esc(e.url) + '" target="_blank" rel="noopener" title="근거 기사: ' + esc(e.title) + '">근거</a>' : "";
+  }
+
+  function routesText(d) {
+    return (d.routes || []).map(function (r) {
+      return esc(r.origin || "출발 미확인") + " → " + esc(r.destination || "도착 미확인");
+    }).join(", ");
   }
 
   function card(d, today) {
@@ -118,18 +130,27 @@
       '<span class="pill ' + (verified ? "green" : "orange") + '">' + VERIFY_LABEL[d.verification || "news"] + "</span>" +
       (multi ? '<span class="pill orange">' + SECTIONS[sec].who + " 미분류</span>" : "");
     var airline = multi ? esc(d.airline) + " (" + esc(d.airlines_mentioned.join("·")) + ")" : esc(d.airline);
-    var where = hotel ? "" : sec === "domestic"
-      ? row("노선", d.route_text ? "국내선 · " + esc(d.route_text) : "국내선 · 구간 미확인", d.route_text ? "" : "unk")
-      : row("출발 공항", ICN_LABEL[d.from_icn], d.from_icn === "yes" ? "icn" : d.from_icn === "unknown" ? "unk" : "");
+    var routes = routesText(d);
+    var travelConflict = (d.conflicts || []).indexOf("travel") >= 0;
+    var travelRow = travelConflict
+      ? row(hotel ? "투숙 기간" : "탑승 기간", "출처 간 불일치 · 관련 기사 확인", "conflict")
+      : row(hotel ? "투숙 기간" : "탑승 기간", travel || "미확인", travel ? "" : "unk", travel ? evLink(d, "travel") : "");
+    var rows = hotel
+      ? row("지역", (d.regions || []).length ? esc(d.regions.join(" · ")) : "미확인", (d.regions || []).length ? "" : "unk") +
+        row("판매 기간", sale || "미확인", sale ? "" : "unk", sale ? evLink(d, "sale") : "") +
+        travelRow +
+        row("조건", (d.conditions || []).length ? esc(d.conditions.join(" · ")) : "미확인", (d.conditions || []).length ? "" : "unk")
+      : row("노선", routes || (sec === "domestic" ? "국내선 · 구간 미확인" : "미확인"), routes ? "" : "unk", routes ? evLink(d, "route") : "") +
+        row("판매 기간", sale || "미확인", sale ? "" : "unk", sale ? evLink(d, "sale") : "") +
+        travelRow +
+        (sec === "domestic" ? "" : row("출발 공항", ICN_LABEL[d.from_icn], d.from_icn === "yes" ? "icn" : d.from_icn === "unknown" ? "unk" : ""));
     return '<article class="deal' + (st === "ended" ? " ended" : "") + '">' +
       '<div class="pills">' + pills + "</div>" +
       "<h3>" + esc(title) + "</h3>" +
-      (d.discount ? '<div class="price">' + esc(d.discount) + "</div>" : '<div class="price none">할인 정보 미확인</div>') +
+      (d.discount ? '<div class="price">' + esc(d.discount) + evLink(d, "discount") + "</div>" : '<div class="price none">할인 정보 미확인</div>') +
       "<dl>" +
         row(SECTIONS[sec].who, airline) +
-        row("판매 기간", sale || "미확인", sale ? "" : "unk") +
-        row(hotel ? "투숙 기간" : "탑승 기간", travel || "미확인", travel ? "" : "unk") +
-        where +
+        rows +
         row("남은 기간", st === "undated" ? "미확인 · 최근 기사 " + md(d.last_published) : ddayText(d, st, today), st === "undated" ? "unk" : "") +
       "</dl>" +
       '<div class="foot">' +
@@ -148,7 +169,7 @@
         (d.airlines_mentioned || []).indexOf(names[state.airline]) < 0) return false;
     if (state.section === "flight" && state.hideOther && d.from_icn === "no") return false;
     if (state.q) {
-      var hay = (d.airline + " " + (d.event_name || "") + " " + d.articles.map(function (a) { return a.title; }).join(" ")).toLowerCase();
+      var hay = (d.airline + " " + (d.event_name || "") + " " + routesText(d) + " " + (d.regions || []).join(" ") + " " + d.articles.map(function (a) { return a.title; }).join(" ")).toLowerCase();
       if (hay.indexOf(state.q.toLowerCase()) < 0) return false;
     }
     return true;
