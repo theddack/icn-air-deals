@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:34:30+09:00",
+ "generated_at": "2026-10-16T16:59:18+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,20 +10,20 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2293,
+  "rss_items": 2299,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 1119,
+  "outlet_items": 1115,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 2,
-  "articles": 250,
+  "articles": 260,
   "new_articles": 10,
-  "deals": 41
+  "deals": 35
  },
  "deals": [
   {
-   "id": "aerok-3bba9a097e",
+   "id": "aerok-76374c6ec0",
    "airline_id": "aerok",
    "airline": "에어로케이",
    "airlines_mentioned": [
@@ -57,21 +57,31 @@
     "sale": {
      "title": "에어로케이, ‘앵콜 에케세일’ 19일 시작…국제선 15개 노선 특가 판매",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SYnRmN3MwVUFNdVhkd3BhWHRxcXZQbHRtdFNpWFF6M3l1SWxrbXVDMXMtZU1IT0M4VWt5dGEzVjM0cXBJQ3pvM1NmSFF3Rl80REFXSGFZWTh4b0tFQ3pqY3hEWTFieXQxbXVmZHN3?oc=5"
+    },
+    "discount": {
+     "title": "에어로케이, 19일부터 동계 항공권 최대 98% 할인",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uS0pZam5iVm5Kdmo2b3lYS0RxV1NYcVZxSF9YV2oyUDdnUm5IaWo3YThMMGpIM0VTdVVXMnRuaTBGUmstUFRtZjFqeTZMamIwaGpEbnNldHNFcWFrR3VkdGZxZ3lFclZIN2Y3ZktB0gFuQVVfeXFMTW5LSllqbmJWbkp2ajZveVhLRHFXU1hxVnFIX1hXajJQN2dSbkhpajdhOEwwakgzRVN1VVcydG5pMEZSay1QVG1mMWp5NkxqYjBoakRuc2V0c0VxYWtHdWR0ZnFneUVyVkg3ZjdmS0E?oc=5"
     }
    },
    "date_source": "title",
    "from_icn": "unknown",
-   "discount": null,
+   "discount": "최대 98%",
    "verification": "news",
    "first_published": "2026-10-16",
    "last_published": "2026-10-16",
    "first_seen": "2026-10-16T16:34:30+09:00",
-   "last_seen": "2026-10-16T16:34:30+09:00",
+   "last_seen": "2026-10-16T16:59:18+09:00",
    "articles": [
     {
      "title": "에어로케이, ‘앵콜 에케세일’ 19일 시작…국제선 15개 노선 특가 판매",
      "outlet": "뉴스홈(newshome)",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SYnRmN3MwVUFNdVhkd3BhWHRxcXZQbHRtdFNpWFF6M3l1SWxrbXVDMXMtZU1IT0M4VWt5dGEzVjM0cXBJQ3pvM1NmSFF3Rl80REFXSGFZWTh4b0tFQ3pqY3hEWTFieXQxbXVmZHN3?oc=5",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "에어로케이, 19일부터 동계 항공권 최대 98% 할인",
+     "outlet": "중부매일",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uS0pZam5iVm5Kdmo2b3lYS0RxV1NYcVZxSF9YV2oyUDdnUm5IaWo3YThMMGpIM0VTdVVXMnRuaTBGUmstUFRtZjFqeTZMamIwaGpEbnNldHNFcWFrR3VkdGZxZ3lFclZIN2Y3ZktB0gFuQVVfeXFMTW5LSllqbmJWbkp2ajZveVhLRHFXU1hxVnFIX1hXajJQN2dSbkhpajdhOEwwakgzRVN1VVcydG5pMEZSay1QVG1mMWp5NkxqYjBoakRuc2V0c0VxYWtHdWR0ZnFneUVyVkg3ZjdmS0E?oc=5",
      "published": "2026-10-16"
     }
    ],
@@ -131,7 +141,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-16T08:56:42+09:00",
+   "last_seen": "2026-10-16T16:59:18+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
@@ -248,6 +258,12 @@
      "published": "2026-09-23"
     },
     {
+     "title": "[지역경제] 가평군, 하반기 숙박세일 페스타···숙박 예약 전년보다 8827건 증가",
+     "outlet": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kVXBZU3pqaTB1X3lRZU0tNFRNNEZ4d1FfY0FWd0JhMWF5c056Y0NDWjBoVDBrYUstUFZ4dll6ZWozNGYtM3czOWY0cmVoVEQtdkd1cmRoaU9FQQ?oc=5",
+     "published": "2026-09-23"
+    },
+    {
      "title": "11번가, 가을 ‘숙박세일 페스타’ 동참",
      "outlet": "데일리안",
      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQOU82WHRDVmdSSVhDWWU2QWQ1a2VXd211MlJPbEJzYU56WG03Mnk3OWtLd1k5RktDMk9DdzZZWWVIVDMxMkkwdzNMUHkyUDZDQ1ZfRlRXWGMzOV92OS03dEZIREx6SmZoUEwwNmZKb1F4b1RYWEZqbHZfZGxERUE3YW5UZEsxcjVmZlozY3l4TXZrSjJEZmROMlpCTGlzTmpUbHZOelZkSlVRVFVsejIyY2FPU1NPTWhTbU9ZaVBEdU9YdFg1c3JCcGxYQTZzbVlfUU1wczNjc0U3U3A0UjgxNjdoM2lvWGFoWUJlUk9ieWtqaEpWUzZ5dno4Z0JpNkNnd2VDQ1o4UFJTSHIwVkE?oc=5",
@@ -275,6 +291,12 @@
      "title": "가을 숙박비 최대 7만원 깎아준다. 숙박세일 페스타, 어디서 받을 수 있을까?",
      "outlet": "여행픽",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KU0Z1Qk1xWFI0ZWkxMndGYk9nVFhEeHhvMFFaVVVOU3RseVNoeDdBRUZOZ2d4WGVXOVI0LWFUZHgxd0NKVVk5QnA5czhoaUMyS0FvR2tBX2lRNXI2STd3NmVsSFBSY1B2QVFGWA?oc=5",
+     "published": "2026-09-22"
+    },
+    {
+     "title": "강원 숙박 예약 시 최대 7만 원 할인…‘대한민국 숙박세일페스타 가을편’ 시작",
+     "outlet": "강릉넷TV",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pVmhqZGs0UXZQdG5sdXFNLWJib2xiNXJOS3dUZERiM2lTS0ZqZEFidTdxeWZDeU41RXM2N1FQWWNtVDBWNktHQ0RTRFRHT2E1N1FybWdlWjhySVFpWlNQblNvQ25fQXBFWHc?oc=5",
      "published": "2026-09-22"
     },
     {
@@ -332,10 +354,22 @@
      "published": "2026-09-21"
     },
     {
+     "title": "부산 숙박 최대 7만원 할인…‘숙박세일 페스타’ 22일 시작",
+     "outlet": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DZzhla3R3cWs4ZGllcWFLRm03TU9tS2dzYjlCUkUzRHdsWDFqUEFEcXdPLVR3cm1tSmpuV1BhN0loTGFtd3FYNWh1R0x0NEJ0aHJPWEd1N3BrUQ?oc=5",
+     "published": "2026-09-21"
+    },
+    {
      "title": "강원 숙박상품 최대 7만원 할인…22일부터 '숙박세일페스타'",
      "outlet": "연합뉴스",
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Eb0xWTW12dS1xdnE1V3VGZ1VWRE5WaFZmckI4WVhpOGVoY1ZvcVE2Q2FSTnVsNnNsWFdsb1Q3Tk1tSDlVWDYyUlBzYy1yYjVzU05Jcjk0U09IYjDSAWBBVV95cUxNMVRUQkNZUk94dXJRNWlzblFoc1FmTkg3cHVmSS1aYzdBZ3VJOXVLeVFlRnJybFJlUTZpenkxN1BuZ0RtY2FEN0pZRkZYVFpNUldNc1Bjc3Zhc2FJaUFJVW4?oc=5",
      "published": "2026-09-21"
+    },
+    {
+     "title": "충남도, ‘대한민국 숙박세일 페스타’ 참여",
+     "outlet": "놀뫼신문",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWl9DT0paWlVFSlYwVzhxblBKazdwNlJONHBpelFveFZKdi1HZVBLMXlNeWJfanF2VDZPdGZsbl9ZbDMteHZ6WjFKdVdjQXFpcHNkQmhhV21qUEFPeE1vWTlRNmZXT0xxcVFDWElMNFMwS3Njck1paEdSSFNZTDRJdjRhTU9MQWhad2xDeHNnRm5sVW5DN1B0QThYNTlPY3NsMEdVX3ptblpNSVAz?oc=5",
+     "published": "2026-09-20"
     },
     {
      "title": "충남도, ‘숙박세일 페스타’ 참여로 가을철 체류형 관광객 유치 박차",
@@ -2358,356 +2392,6 @@
    "status": "undated"
   },
   {
-   "id": "h-other-730ec217a2",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "이랜드파크, 사이판 호텔·리조트 3곳 '1+1' 프로모션",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "사이판"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-16",
-   "last_published": "2026-10-16",
-   "first_seen": "2026-10-16T08:56:42+09:00",
-   "last_seen": "2026-10-16T08:56:42+09:00",
-   "articles": [
-    {
-     "title": "이랜드파크, 사이판 호텔·리조트 3곳 '1+1' 프로모션",
-     "outlet": "뉴스핌",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEdDdSVlZKWlc1OFIwa3F3Z3pia05keDRLdTVrRUxTeFNTV0k2QnVvRnphcml4ZXZiT3Q2eGFDWTBpSjdKT295aFp3NUlxeVhZNjdwTGdyeDl2bWl5?oc=5",
-     "published": "2026-10-16"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-058cfec89f",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "이랜드파크, 사이판 호텔·리조트 3곳 ‘버킷리스트 투어 바우처 1+1’ 프로모션",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "사이판"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-16",
-   "last_published": "2026-10-16",
-   "first_seen": "2026-10-16T08:56:42+09:00",
-   "last_seen": "2026-10-16T08:56:42+09:00",
-   "articles": [
-    {
-     "title": "이랜드파크, 사이판 호텔·리조트 3곳 ‘버킷리스트 투어 바우처 1+1’ 프로모션",
-     "outlet": "한국NGO신문",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYalB1UFZ1NVJkNHpMdHRCWE5CN25EU2E4QWp4cUdIY2VxcTlkTDFMQnhWWkk4dWJldlkyQXJQSDJacG1nTzlkemF5cHREcGhKQ3RZRzNaa2FHemJ1bTI3TVFJX3BiZGk3?oc=5",
-     "published": "2026-10-16"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-b05c046280",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "이랜드파크, 사이판 호텔·리조트 3곳 ‘버킷리스트 투어 바우처 1+1’ 프로모션 진행",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "사이판"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-16",
-   "last_published": "2026-10-16",
-   "first_seen": "2026-10-16T16:34:30+09:00",
-   "last_seen": "2026-10-16T16:34:30+09:00",
-   "articles": [
-    {
-     "title": "이랜드파크, 사이판 호텔·리조트 3곳 ‘버킷리스트 투어 바우처 1+1’ 프로모션 진행",
-     "outlet": "비즈니스리포트",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CMExNQjgtemdpLVJkUHlZRlBvQUJFbm1rdHlUaU5GcV8zZFBzYzN6b2xUa0NVUzU5QTZwWk1fdmkzbUVvLTBPX0Z6V0F4VU10TERjYlFqWmRSX1hGejZQTXhjZlZ5b21BZnpCZ3dYRQ?oc=5",
-     "published": "2026-10-16"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-67c1f79f0d",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": "1+1 프로모션",
-   "headline": "\"액티비티 혜택 두배로\"…이랜드파크 사이판 호텔·리조트, '1+1 프로모션' 전개",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "사이판"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-16",
-   "last_published": "2026-10-16",
-   "first_seen": "2026-10-16T16:34:30+09:00",
-   "last_seen": "2026-10-16T16:34:30+09:00",
-   "articles": [
-    {
-     "title": "\"액티비티 혜택 두배로\"…이랜드파크 사이판 호텔·리조트, '1+1 프로모션' 전개",
-     "outlet": "더페어",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96QzVqRlhMWTdEQ3RuRVFyX3ZyeDFIZ1V2R3Axd29xcGNNdlNLRW53N1BOZTNqYXVEX0wyUGR6cmZINW5DeGh2Mm1VcXZFdXF4QUVfMWVQNDJuVk53RzBkb0hvWWR4c2FGSWk5VHhmbTc?oc=5",
-     "published": "2026-10-16"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-368aceaf08",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "이랜드파크, 사이판 호텔·리조트 투어 바우처 1+1 프로모션",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "사이판"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-16",
-   "last_published": "2026-10-16",
-   "first_seen": "2026-10-16T16:34:30+09:00",
-   "last_seen": "2026-10-16T16:34:30+09:00",
-   "articles": [
-    {
-     "title": "이랜드파크, 사이판 호텔·리조트 투어 바우처 1+1 프로모션",
-     "outlet": "브레이크뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5pbUNPek9rQU54U3NzVG52UjZWdVVMVGREV1FoQ2wtV1dZUmQwSEhGaWY4M0xXWTdEZ1pfTmpNUkFhdw?oc=5",
-     "published": "2026-10-16"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-505bb11213",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "이랜드파크, 사이판 호텔·리조트 3곳_버킷리스트 투어 바우처 1+1 프로모션",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "사이판"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-16",
-   "last_published": "2026-10-16",
-   "first_seen": "2026-10-16T16:34:30+09:00",
-   "last_seen": "2026-10-16T16:34:30+09:00",
-   "articles": [
-    {
-     "title": "이랜드파크, 사이판 호텔·리조트 3곳_버킷리스트 투어 바우처 1+1 프로모션",
-     "outlet": "오늘경제",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8ta280YzJoUWExOUw4T2pYWVQxN01NOTh0VUdIZTNIOWR6R0x4UmhIaU9kSFlvcHpWVGdZZlNuUXJuRlZpTGsxTHA2aXQyVVZyR1RINVM4NzZsYzduaUlZTTNSeEZnT2txTThSSWNNUGZGVUE?oc=5",
-     "published": "2026-10-16"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-aef910e5e7",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "이랜드파크 사이판 호텔·리조트 3곳, '버킷리스트 투어 바우처 1+1' 프로모션",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "사이판"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-16",
-   "last_published": "2026-10-16",
-   "first_seen": "2026-10-16T16:34:30+09:00",
-   "last_seen": "2026-10-16T16:34:30+09:00",
-   "articles": [
-    {
-     "title": "이랜드파크 사이판 호텔·리조트 3곳, '버킷리스트 투어 바우처 1+1' 프로모션",
-     "outlet": "넥스트데일리",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE56QzU5MGpGQ1Vta2dDVWJadWpuRzFCZ0F6b2ZwbFRKVndjMGN4T0R4SGdma3ZrZDM2cElKc2R5LTR6WEV1bzhYZDA1X3RBTE4tUm12LTd3cFFWVDR0ZlZ0THpBOUJKZlZwTFQwQWVIQdIBc0FVX3lxTE9WMU5HcmVuWnZTNFFzeDQ3S3JYMFVwZVBTdmR5MHFaYWNqZGRkNXBHemVjZUhSVVFMdzNsSjdtNFVSTFdPREs5cUdxOXpiUVA1Vm4weGFzc3ExVldCZHFrXzFKc0hyTTcxR1ZDdEplSXFHZjg?oc=5",
-     "published": "2026-10-16"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "koreanair-b722bc4599",
    "airline_id": "koreanair",
    "airline": "대한항공",
@@ -2807,6 +2491,110 @@
      "title": "2026 대한민국 숙박세일 페스타, 경남 숙박비 최대 7만원 할인",
      "outlet": "진주인터넷뉴스",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZVGE4dXo4Ti1oN244MkRldUR5TDNwaDZla3oyb0RoSXVjZExaR2ZNbDRieGRhSTNfdlRSTEtOZFJSbVYzb212NHE4dUNGeEhJdkpFY1RGRmd4YXZSbGJPM0Z3bmgyM21Xc1hvT3U3SF9mbjEyUXBZ?oc=5",
+     "published": "2026-10-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-elandpark-368aceaf08",
+   "airline_id": "h-elandpark",
+   "airline": "이랜드파크",
+   "airlines_mentioned": [
+    "이랜드파크"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "1+1 프로모션",
+   "headline": "이랜드파크, 사이판 3개 호텔·리조트에 투어 바우처 1+1 혜택 제공",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "사이판"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "date_source": "none",
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-16",
+   "last_published": "2026-10-16",
+   "first_seen": "2026-10-16T08:56:42+09:00",
+   "last_seen": "2026-10-16T16:59:18+09:00",
+   "articles": [
+    {
+     "title": "이랜드파크, 사이판 3개 호텔·리조트에 투어 바우처 1+1 혜택 제공",
+     "outlet": "스페셜타임스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1akhlRXpkWHNMb2NkN0tKNm9uT2llNTlSNXF4QVFnOEprZ0dJZTRHMUs5MFEzZXBxX0hiTVhEc0JGMmNOaW0tVFBiMi1VUWR4OHBfZnhLNVBvRm9rODZWM3M4NnZGZ1g2bDFhNzlzbVY2UQ?oc=5",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "\"액티비티 혜택 두배로\"…이랜드파크 사이판 호텔·리조트, '1+1 프로모션' 전개",
+     "outlet": "더페어",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96QzVqRlhMWTdEQ3RuRVFyX3ZyeDFIZ1V2R3Axd29xcGNNdlNLRW53N1BOZTNqYXVEX0wyUGR6cmZINW5DeGh2Mm1VcXZFdXF4QUVfMWVQNDJuVk53RzBkb0hvWWR4c2FGSWk5VHhmbTc?oc=5",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "이랜드파크, 사이판 호텔·리조트 3곳 ‘투어 바우처 1+1’ 프로모션 진행",
+     "outlet": "비즈트리뷴",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nWV9HdGVQODBkblMxSVhydHRmNE5fQUt3Vm81c05fZ2VZX3BVTEFDTk16V3hCSEYyVzRHQjJ3eU9IamVUTEtqM3pBSS1BN240RTdhazVRYU9CX1doOVZQTlpQM0lkcVdLZHA1Y0c2UGQ?oc=5",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "이랜드파크, 사이판 호텔·리조트 3곳_버킷리스트 투어 바우처 1+1 프로모션",
+     "outlet": "오늘경제",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8ta280YzJoUWExOUw4T2pYWVQxN01NOTh0VUdIZTNIOWR6R0x4UmhIaU9kSFlvcHpWVGdZZlNuUXJuRlZpTGsxTHA2aXQyVVZyR1RINVM4NzZsYzduaUlZTTNSeEZnT2txTThSSWNNUGZGVUE?oc=5",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "이랜드파크, 사이판 호텔·리조트 3곳 ‘버킷리스트 투어 바우처 1+1’ 프로모션 진행",
+     "outlet": "비즈니스리포트",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CMExNQjgtemdpLVJkUHlZRlBvQUJFbm1rdHlUaU5GcV8zZFBzYzN6b2xUa0NVUzU5QTZwWk1fdmkzbUVvLTBPX0Z6V0F4VU10TERjYlFqWmRSX1hGejZQTXhjZlZ5b21BZnpCZ3dYRQ?oc=5",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "이랜드파크 사이판 호텔·리조트 3곳, '버킷리스트 투어 바우처 1+1' 프로모션",
+     "outlet": "넥스트데일리",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE56QzU5MGpGQ1Vta2dDVWJadWpuRzFCZ0F6b2ZwbFRKVndjMGN4T0R4SGdma3ZrZDM2cElKc2R5LTR6WEV1bzhYZDA1X3RBTE4tUm12LTd3cFFWVDR0ZlZ0THpBOUJKZlZwTFQwQWVIQdIBc0FVX3lxTE9WMU5HcmVuWnZTNFFzeDQ3S3JYMFVwZVBTdmR5MHFaYWNqZGRkNXBHemVjZUhSVVFMdzNsSjdtNFVSTFdPREs5cUdxOXpiUVA1Vm4weGFzc3ExVldCZHFrXzFKc0hyTTcxR1ZDdEplSXFHZjg?oc=5",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "이랜드파크, 사이판 호텔·리조트 3곳 ‘버킷리스트 투어 바우처 1+1’ 프로모션",
+     "outlet": "한국NGO신문",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYalB1UFZ1NVJkNHpMdHRCWE5CN25EU2E4QWp4cUdIY2VxcTlkTDFMQnhWWkk4dWJldlkyQXJQSDJacG1nTzlkemF5cHREcGhKQ3RZRzNaa2FHemJ1bTI3TVFJX3BiZGk3?oc=5",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "이랜드파크, 사이판 액티비티 혜택 2배로…호텔·리조트 3곳서 '1+1'",
+     "outlet": "뉴스저널리즘",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zeTI4TzFhS2d0R0JlVVgwTXZCdkY3WFZnV0pwMXlycDFGSGZkYW1qU3lsQ0Jna3d1eHBFeGJRYkw0azNhVEdLemhtSmdqRjRON3o0N2M2ekQ1Mk1MakVfdEpaZjQtTG9KMFQ4?oc=5",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "이랜드파크, 사이판 호텔·리조트 3곳 '1+1' 프로모션",
+     "outlet": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEdDdSVlZKWlc1OFIwa3F3Z3pia05keDRLdTVrRUxTeFNTV0k2QnVvRnphcml4ZXZiT3Q2eGFDWTBpSjdKT295aFp3NUlxeVhZNjdwTGdyeDl2bWl5?oc=5",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "이랜드파크, 사이판 호텔·리조트 투어 바우처 1+1 프로모션",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5pbUNPek9rQU54U3NzVG52UjZWdVVMVGREV1FoQ2wtV1dZUmQwSEhGaWY4M0xXWTdEZ1pfTmpNUkFhdw?oc=5",
      "published": "2026-10-16"
     }
    ],
