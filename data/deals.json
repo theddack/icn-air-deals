@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:59:18+09:00",
+ "generated_at": "2026-10-16T22:34:54+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,15 +10,15 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2299,
+  "rss_items": 2279,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 1115,
+  "outlet_items": 970,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 2,
-  "articles": 260,
-  "new_articles": 10,
+  "articles": 267,
+  "new_articles": 7,
   "deals": 35
  },
  "deals": [
@@ -141,7 +141,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-16T16:59:18+09:00",
+   "last_seen": "2026-10-16T22:34:54+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
@@ -154,6 +154,12 @@
      "outlet": "한국사회복지저널",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wMW5Zb01FMGF2X1lYcUlSVGZkRUE0X2lXRWhJZDBPSl9NYTVBMlZaMC1ORWJ3Rzk5cjZtUXpic21KSlBuRWxZakVoanpjM09zUlU0NVlRZ0lFNG1RLWxzZUJGdFZDTEh2a1BsOA?oc=5",
      "published": "2026-10-01"
+    },
+    {
+     "title": "\"경남에서 쉬어가는 가을\"… 숙박세일 페스타 추진",
+     "outlet": "한산신문",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10VzE3dTZfUS1BMTZIeGN6TlJGUExwREhGanZzMURObnRuV2ZhbVltUWl6dXRwcnRpcFpyTXBuOUo4T1ZQaFNJN1psOEx3cXUyMDBHSHRuMjcxYWoweHFRaWd1cThkZEJnZ2tkV253?oc=5",
+     "published": "2026-09-29"
     },
     {
      "title": "‘숙박세일 페스타’부터 ‘지역사랑 휴가지원’까지, 가을 단풍놀이 싸게 가는 법 총정리 🍁",
@@ -270,6 +276,12 @@
      "published": "2026-09-22"
     },
     {
+     "title": "NOL, ‘숙박세일페스타’ 동참",
+     "outlet": "메가경제",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CWmw2TTEzN0diaUdmdVlIX0hodU1oam5xRFBuRnQzLWNCWnlndTRLWTJTY0VJY1FqODI2bzNtMmVCbzJ6WFZDV2Z6Zmlyb2xJeHRGZXV0N01na0NXQk9idW9Nd0NLTWtEZTRyLVpiQjRQQzgy0gFyQVVfeXFMT3NjVXBrdml6UVAybG9EQjg2LVdsSWJkdEU5VXA3VVZJcUFrdnVzYzNIUVN5RFFPSExzM2czbkRBTTJZNkJfaThMTFc1SFVPR3IxUlV5Z0Z2eFU2aHJINWNxVXJZRlZyUGEzYVRPOWZPNkNn?oc=5",
+     "published": "2026-09-22"
+    },
+    {
      "title": "NOL, 숙박세일페스타 참여…지역 숙소 최대 7만원 할인",
      "outlet": "핀포인트뉴스",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80b1M3QU5POEFoRlhidnpzVGczajdWeEc0ZndiVXBzOXFPQzVlVGlNcDdRdUhhODNWZ2JCYTkzblZFbXUydjdYUXpUMVdnVFZPcTJwNTdsV19PaldKejlWOWl5YTc0aEtfUGFhclZWbE0wdmfSAXdBVV95cUxPRzJZQjRhZUZ1QXNEMUdlcnBoSVNXZ1NNY3Blem9FbmJFaEtsMkN6V19temNmbEZuNjFESTBLM0R6QVlUcTVFdzh0YlRZQjBwVVFiR3FUZlo5Q2VHaC16bmlNdjFjbC1FMFgyaExvaDJGOVJGSDJMOA?oc=5",
@@ -303,6 +315,12 @@
      "title": "NOL, '숙박세일 페스타' 참여→야놀자, 여행·생활 AI 기술 전시",
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE80MF9TZ3BpendWY2F2M3pTQm1mbXVLV01fZmFUcGtBUW42LUFSbHdtUERCZkJxNWpUeHk0ZlVZclBIQUlZRGx0b05KZmhHMlJKbkQ2STF5UG9UY3ZhOGhuUmd0UFhDQQ?oc=5",
+     "published": "2026-09-22"
+    },
+    {
+     "title": "NOL, 숙박세일페스타 참여…최대 7만원 할인에 연박 3% 추가",
+     "outlet": "국민일보",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52V2xWZTBrendBbDJYUWhQZkhDQ09fbXBTTzM5d2lvZ2NnTnpMY2hFc3VjeXYwcjk4LTNHam1UVTB1WGtqeHRqM1p2dlF0OW05aFFxRnZHU2R6U09zYTlxYnpuWDVyMDDSAWxBVV95cUxQQm5GWk0xaTduMlBONkdaZzBaM1E3ajVTa1NtcWctM25SNGZXLWZmMlA0cUZzTzBqWV80bHk4QkhaYktvUkdmckpSMm9BV0VuclJ0MmoyYjB6Y3R0cDRpY0NhN21xQzJ5QnM2dTc?oc=5",
      "published": "2026-09-22"
     },
     {
@@ -2535,7 +2553,7 @@
    "first_published": "2026-10-16",
    "last_published": "2026-10-16",
    "first_seen": "2026-10-16T08:56:42+09:00",
-   "last_seen": "2026-10-16T16:59:18+09:00",
+   "last_seen": "2026-10-16T22:34:54+09:00",
    "articles": [
     {
      "title": "이랜드파크, 사이판 3개 호텔·리조트에 투어 바우처 1+1 혜택 제공",
@@ -2562,6 +2580,12 @@
      "published": "2026-10-16"
     },
     {
+     "title": "이랜드파크, 사이판 3대 리조트 액티비티 바우처 ‘1+1’ 프로모션 실시",
+     "outlet": "팝콘뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9YTnZrMkRIQkVRTnZFQ2xwTnZUZ0ZFLUxfNm1QRzIxbDkwWTROTFZ0akJfWTRMRnRCU2xLdnBEaTZzd1kxUXVpTkVpMnVYMmJmV3ZFRHB1VWJUZFhoR18xanFsLW43bVhScDhINEhB0gFyQVVfeXFMUEZXd0ZTWWJ2YzVBc3pSLVVibEltdTd0NXVlX3JQRXFoRmJ3MHVLVTloMFhuTDVfTmFRSFNuZ0VUR1ZlMjFiVmVkYUd2cTFZTElac3JaSWxpSVU3ZktrREZKZXU4U3hPU2dPUXhlNGtsOUVR?oc=5",
+     "published": "2026-10-16"
+    },
+    {
      "title": "이랜드파크, 사이판 호텔·리조트 3곳 ‘버킷리스트 투어 바우처 1+1’ 프로모션 진행",
      "outlet": "비즈니스리포트",
      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CMExNQjgtemdpLVJkUHlZRlBvQUJFbm1rdHlUaU5GcV8zZFBzYzN6b2xUa0NVUzU5QTZwWk1fdmkzbUVvLTBPX0Z6V0F4VU10TERjYlFqWmRSX1hGejZQTXhjZlZ5b21BZnpCZ3dYRQ?oc=5",
@@ -2574,6 +2598,12 @@
      "published": "2026-10-16"
     },
     {
+     "title": "이랜드파크, 사이판 호텔·리조트서 ‘버킷리스트 투어 바우처 1+1’ 프로모션",
+     "outlet": "파이낸셜투데이",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jRFBybklhTDJBNGI4NDh3RU94cWd4dGVYQ3VkQ1dQeHRNTW5jU2cxQV9QcGFBNXh1eFFlVHQzakVMd2g3aFBRV1JxcUVxMGk0ZzYzUTJiY1Z3c0dDZUdXZUFWZGlYTTgtMWfSAW5BVV95cUxNUkgzd2tESHZ4YlZGdDVOUWNqWDV4a01ieU1iOWZNc0toM1JvUGxkcGo3eGJ0Sm5VSWNQaTI4UndiYVBfMkNFUmhhcWg2NUhQVERLalljTzBiNVZoRkJDQ1d5T1hBVEw0YVR2OUxhZw?oc=5",
+     "published": "2026-10-16"
+    },
+    {
      "title": "이랜드파크, 사이판 호텔·리조트 3곳 ‘버킷리스트 투어 바우처 1+1’ 프로모션",
      "outlet": "한국NGO신문",
      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYalB1UFZ1NVJkNHpMdHRCWE5CN25EU2E4QWp4cUdIY2VxcTlkTDFMQnhWWkk4dWJldlkyQXJQSDJacG1nTzlkemF5cHREcGhKQ3RZRzNaa2FHemJ1bTI3TVFJX3BiZGk3?oc=5",
@@ -2583,6 +2613,12 @@
      "title": "이랜드파크, 사이판 액티비티 혜택 2배로…호텔·리조트 3곳서 '1+1'",
      "outlet": "뉴스저널리즘",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zeTI4TzFhS2d0R0JlVVgwTXZCdkY3WFZnV0pwMXlycDFGSGZkYW1qU3lsQ0Jna3d1eHBFeGJRYkw0azNhVEdLemhtSmdqRjRON3o0N2M2ekQ1Mk1MakVfdEpaZjQtTG9KMFQ4?oc=5",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "이랜드파크, 사이판 리조트 3곳서 '투어 바우처 1+1' 프로모션",
+     "outlet": "리버티코리아포스트",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5JajNFV3RVd2dqbW5SdWlIT0R4V1AydXZ1NTRJMzljQmlVV3NadDAtenVpMFEtSUNia0FzUENrbXZyY3RmcE93WmhxS1J2ZlAyMWZfY3o5b2JPbDM3blcyb1c5MNIBZ0FVX3lxTE4wQy1oWWFFMjFpSGI2elZVLS16Ym1tekhMOFJkVkpTbll0cE5hMHZ2eWJaRl8zWTM1cC1OT08xLUZ0ck15MU5kT2pyVkRCSEVoYjZURkZYcW5DVHA3TWxRQm9VYnQ0UGM?oc=5",
      "published": "2026-10-16"
     },
     {
