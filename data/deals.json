@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T22:44:26+09:00",
+ "generated_at": "2026-10-16T08:56:42+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,16 +10,16 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2289,
+  "rss_items": 2276,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 1017,
+  "outlet_items": 1018,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 2,
-  "articles": 231,
-  "new_articles": 15,
-  "deals": 33
+  "articles": 240,
+  "new_articles": 9,
+  "deals": 34
  },
  "deals": [
   {
@@ -76,7 +76,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-15T22:44:26+09:00",
+   "last_seen": "2026-10-16T08:56:42+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
@@ -214,6 +214,12 @@
      "title": "11번가, ‘가을 숙박세일 페스타’…4만여 개 숙박상품 할인",
      "outlet": "ER 이코노믹리뷰",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aOUhITTJGMHgwWEwwYnpnSGN1YjY4OXJFNkRNR2YwVmtWTENqejVHVlJvQ3hYbmpoOEFJN3Btb0ozaWpLWDBvRGR0dmd0UTFHc0ppdVM3ZGszTG1aZ3dpRGFJeWdGVVViSDk5bQ?oc=5",
+     "published": "2026-09-22"
+    },
+    {
+     "title": "가을 숙박비 최대 7만원 깎아준다. 숙박세일 페스타, 어디서 받을 수 있을까?",
+     "outlet": "여행픽",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KU0Z1Qk1xWFI0ZWkxMndGYk9nVFhEeHhvMFFaVVVOU3RseVNoeDdBRUZOZ2d4WGVXOVI0LWFUZHgxd0NKVVk5QnA5czhoaUMyS0FvR2tBX2lRNXI2STd3NmVsSFBSY1B2QVFGWA?oc=5",
      "published": "2026-09-22"
     },
     {
@@ -1052,107 +1058,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "h-clubmed-3e347de208",
-   "airline_id": "h-clubmed",
-   "airline": "클럽메드",
-   "airlines_mentioned": [
-    "클럽메드"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Save 15% on luxury resorts, with this Club Med discount code",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Save 15% on luxury resorts, with this Club Med discount code",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZNGZ3N0JrQmxwRUtxcGpRcHRFYnVOR0U1Nl9Za1Z0d0dHcVRpN3hnLXc4OF91cmIxcWVWVGpKSmU2Rk1Yemd2Rjk4bmZjQTU1LUZvX1VCcDYtRHZCWjJxSzlJbTluRU1mUmoxemxDdGFibTFwN1pMOWVUeEo?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": null,
-   "discount": "15% 할인",
-   "verification": "news",
-   "first_published": "2026-10-01",
-   "last_published": "2026-10-01",
-   "first_seen": "2026-10-15T17:22:32+09:00",
-   "last_seen": "2026-10-15T17:22:32+09:00",
-   "articles": [
-    {
-     "title": "Save 15% on luxury resorts, with this Club Med discount code",
-     "outlet": "The Independent",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZNGZ3N0JrQmxwRUtxcGpRcHRFYnVOR0U1Nl9Za1Z0d0dHcVRpN3hnLXc4OF91cmIxcWVWVGpKSmU2Rk1Yemd2Rjk4bmZjQTU1LUZvX1VCcDYtRHZCWjJxSzlJbTluRU1mUmoxemxDdGFibTFwN1pMOWVUeEo?oc=5",
-     "published": "2026-10-01"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-expedia-9a1ac6ff71",
-   "airline_id": "h-expedia",
-   "airline": "익스피디아",
-   "airlines_mentioned": [
-    "익스피디아"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://www.expedia.co.kr/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "The latest Expedia discount codes to save you 20% on hotel bookings",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-01",
-   "last_published": "2026-10-01",
-   "first_seen": "2026-10-15T22:44:26+09:00",
-   "last_seen": "2026-10-15T22:44:26+09:00",
-   "articles": [
-    {
-     "title": "The latest Expedia discount codes to save you 20% on hotel bookings",
-     "outlet": "The Independent",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaDZ5T2NRYmhQc2RDcnVwNktNaWxJdlFmVVJKNW9zQ1VGTjYxdjRIcWJnWVVEQ2k1SlhOTS1rRENQbWhydC00cEQ1czhoV2I4eEs5ZUxndkNiTUYtTFNPSUJnS2V1dHpNVFF3ZUlHMmx0Z3liNkk1MjYyNzMwb2VaZ0lUcFZMLTlIZ1I5NA?oc=5",
-     "published": "2026-10-01"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "h-yeogi-db578f36ca",
@@ -2392,6 +2297,161 @@
    "status": "undated"
   },
   {
+   "id": "h-other-730ec217a2",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "이랜드파크, 사이판 호텔·리조트 3곳 '1+1' 프로모션",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "사이판"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "date_source": "none",
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-16",
+   "last_published": "2026-10-16",
+   "first_seen": "2026-10-16T08:56:42+09:00",
+   "last_seen": "2026-10-16T08:56:42+09:00",
+   "articles": [
+    {
+     "title": "이랜드파크, 사이판 호텔·리조트 3곳 '1+1' 프로모션",
+     "outlet": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEdDdSVlZKWlc1OFIwa3F3Z3pia05keDRLdTVrRUxTeFNTV0k2QnVvRnphcml4ZXZiT3Q2eGFDWTBpSjdKT295aFp3NUlxeVhZNjdwTGdyeDl2bWl5?oc=5",
+     "published": "2026-10-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-058cfec89f",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "이랜드파크, 사이판 호텔·리조트 3곳 ‘버킷리스트 투어 바우처 1+1’ 프로모션",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "사이판"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "date_source": "none",
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-16",
+   "last_published": "2026-10-16",
+   "first_seen": "2026-10-16T08:56:42+09:00",
+   "last_seen": "2026-10-16T08:56:42+09:00",
+   "articles": [
+    {
+     "title": "이랜드파크, 사이판 호텔·리조트 3곳 ‘버킷리스트 투어 바우처 1+1’ 프로모션",
+     "outlet": "한국NGO신문",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYalB1UFZ1NVJkNHpMdHRCWE5CN25EU2E4QWp4cUdIY2VxcTlkTDFMQnhWWkk4dWJldlkyQXJQSDJacG1nTzlkemF5cHREcGhKQ3RZRzNaa2FHemJ1bTI3TVFJX3BiZGk3?oc=5",
+     "published": "2026-10-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-stayfesta-f4e69f6895",
+   "airline_id": "h-stayfesta",
+   "airline": "숙박세일 페스타",
+   "airlines_mentioned": [
+    "숙박세일 페스타"
+   ],
+   "kind": "campaign",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "2026 대한민국 숙박세일 페스타, 경남 숙박비 최대 7만원 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "경남"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "2026 대한민국 숙박세일 페스타, 경남 숙박비 최대 7만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZVGE4dXo4Ti1oN244MkRldUR5TDNwaDZla3oyb0RoSXVjZExaR2ZNbDRieGRhSTNfdlRSTEtOZFJSbVYzb212NHE4dUNGeEhJdkpFY1RGRmd4YXZSbGJPM0Z3bmgyM21Xc1hvT3U3SF9mbjEyUXBZ?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": null,
+   "discount": "최대 7만원 할인",
+   "verification": "news",
+   "first_published": "2026-10-16",
+   "last_published": "2026-10-16",
+   "first_seen": "2026-10-16T08:56:42+09:00",
+   "last_seen": "2026-10-16T08:56:42+09:00",
+   "articles": [
+    {
+     "title": "2026 대한민국 숙박세일 페스타, 경남 숙박비 최대 7만원 할인",
+     "outlet": "진주인터넷뉴스",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZVGE4dXo4Ti1oN244MkRldUR5TDNwaDZla3oyb0RoSXVjZExaR2ZNbDRieGRhSTNfdlRSTEtOZFJSbVYzb212NHE4dUNGeEhJdkpFY1RGRmd4YXZSbGJPM0Z3bmgyM21Xc1hvT3U3SF9mbjEyUXBZ?oc=5",
+     "published": "2026-10-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "cebu-85f98e637e",
    "airline_id": "cebu",
    "airline": "세부퍼시픽",
@@ -2426,6 +2486,10 @@
     {
      "origin": null,
      "destination": "세부(CEB)"
+    },
+    {
+     "origin": "한국",
+     "destination": "세부(CEB)"
     }
    ],
    "regions": [],
@@ -2445,8 +2509,8 @@
      "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72295"
     },
     "route": {
-     "title": "세부퍼시픽항공, 10.10 특가 출시…마닐라·세부행 항공권 대상",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZSE51aWNVLUtpN3FvSC1GUEJtUHFXNC1jSk5WV3gyTDBrbi1RSGNRdndYdW9Mdk91TE1NVE9ud1ZvWWEyWTl3eUZ6ZGhJTHhxdmQ3UVJmblpDeUhfU1JtYVRuR3VtLVRYT1lNRS1R?oc=5"
+     "title": "세부퍼시픽항공(5J), 한국발 마닐라·세부 노선 프로모션 실시… 내년 상반기 운항편 대상",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5icVU2VWl5XzhWdHE2TGJVZ21fb2NMX2h6SjhuVV9LM2NzRTdaMmtwQ213WkxaN2lOTnFEN1ZhQ3lDaUR5b2VnRTJHbVdKeTdRVkhEVGY2djJPUUQxSVQ4R0ZBN3FSOXdQZVNMaDZvZFB6Zw?oc=5"
     }
    },
    "date_source": "title",
@@ -2456,7 +2520,7 @@
    "first_published": "2026-10-08",
    "last_published": "2026-10-11",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T22:44:26+09:00",
+   "last_seen": "2026-10-16T08:56:42+09:00",
    "articles": [
     {
      "title": "세부퍼시픽항공, '10.10 특가' 프로모션 전개",
@@ -2469,6 +2533,12 @@
      "outlet": "비즈월드",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02S2MxZGtESERJS2sxbXJtV0dpakJfUGJXRmdCSS13ZWplbk1NcV9CbmFGMkdibVRmVHpuSUdHZ3NPMGtETS1Fc3ZfM3RBVTZhdjFpWTg0WlROY2pjUWpMcFhtck51UjU3SXc?oc=5",
      "published": "2026-10-10"
+    },
+    {
+     "title": "세부퍼시픽항공(5J), 한국발 마닐라·세부 노선 프로모션 실시… 내년 상반기 운항편 대상",
+     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5icVU2VWl5XzhWdHE2TGJVZ21fb2NMX2h6SjhuVV9LM2NzRTdaMmtwQ213WkxaN2lOTnFEN1ZhQ3lDaUR5b2VnRTJHbVdKeTdRVkhEVGY2djJPUUQxSVQ4R0ZBN3FSOXdQZVNMaDZvZFB6Zw?oc=5",
+     "published": "2026-10-09"
     },
     {
      "title": "세부퍼시픽항공, 10.10 특가 출시…마닐라·세부행 항공권 대상",
