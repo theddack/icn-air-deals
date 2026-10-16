@@ -78,6 +78,17 @@ class TestMerge(unittest.TestCase):
         d = cluster_articles([art("여기어때, 가평 숙소 대상 최대 3만원 할인 쿠폰 제공", "2026-10-02")])[0]
         self.assertEqual((d["section"], d["from_icn"], d["airline"]), ("hotel", None, "여기어때"))
 
+    def test_elandpark_saipan_articles_become_one_deal(self):
+        # 2026-10-16 실제 기사: 브랜드 미확인으로 처리돼 같은 행사가 7건으로 갈라졌다
+        arts = [
+            art("이랜드파크, 사이판 호텔·리조트 3곳 '1+1' 프로모션", "2026-10-16"),
+            art("\"액티비티 혜택 두배로\"…이랜드파크 사이판 호텔·리조트, '1+1 프로모션' 전개", "2026-10-16"),
+            art("이랜드파크, 사이판 호텔·리조트 3곳 ‘버킷리스트 투어 바우처 1+1’ 프로모션 진행", "2026-10-16"),
+        ]
+        deals = cluster_articles(arts)
+        self.assertEqual(len(deals), 1)
+        self.assertEqual((deals[0]["section"], deals[0]["scope"]), ("hotel", "overseas"))
+
     def test_different_events_same_airline(self):
         arts = [
             art("에어부산, 내일부터 연중 최대 규모 동계 항공권 할인", "2026-07-21"),

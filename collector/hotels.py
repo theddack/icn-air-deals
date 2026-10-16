@@ -36,6 +36,9 @@ HOTELS = [
     # 한국어 기사에서 두짓은 대개 제휴 상대로 나온다('롯데호텔앤리조트, 두짓과 맞손'). 한국어 표기로 잡으면 브랜드가
     # 둘이 되어 미분류로 갈라지므로 영문 표기만 쓴다
     {"id": "h-dusit", "name": "두짓", "aliases": ["Dusit"], "search": [], "kind": "hotel"},
+    # 이랜드파크는 사이판 리조트(PIC·켄싱턴·코럴 오션)를 함께 홍보한다. 2026-10-16 같은 1+1 행사 기사 6건이 브랜드 미확인으로
+    # 1건씩 갈라져 추가. 국내 켄싱턴 기사와 섞이지 않게 별도 브랜드로 두고 검색어는 늘리지 않는다
+    {"id": "h-elandpark", "name": "이랜드파크", "aliases": ["이랜드파크"], "search": [], "kind": "hotel"},
     {"id": "h-mbs", "name": "마리나 베이 샌즈", "aliases": ["마리나 베이 샌즈", "마리나베이샌즈", "Marina Bay Sands"], "kind": "hotel"},
     # 숙박 예약 플랫폼·여행사
     {"id": "h-yeogi", "name": "여기어때", "aliases": ["여기어때"], "official_url": "https://www.yeogi.com/", "kind": "platform"},
