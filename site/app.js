@@ -420,7 +420,7 @@
   var DOW = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
   var sch = null;        // flights.json
   var schError = null;
-  var schState = { date: null, dest: null, q: "", airline: "all", related: false, showAll: false };
+  var schState = { date: null, dest: null, destAirline: "all", q: "", airline: "all", related: false, showAll: false };
   var DEST_PREVIEW = 12; // 도착지 카드를 처음에 이만큼만 보여준다
 
   function weekdayIdx(iso) { return (new Date(iso + "T00:00:00Z").getUTCDay() + 6) % 7; } // 월=0
@@ -666,10 +666,38 @@
       picked.items.sort(function (a, b) { return a.f.time < b.f.time ? -1 : a.f.time > b.f.time ? 1 : 0; });
       document.getElementById("sch-title").textContent = picked.name + " (" + picked.code + ") · " + md(iso) + " · 실제 운항 " + picked.items.length + "편" +
         (cv === "full" ? "" : " · 시간표 일부만 확보");
-      var rows = picked.items.filter(function (x) { return !schState.related || x.rel.length; });
+      // 이 노선 항공사 버튼: 운항 편수 많은 순. 공동운항으로 파는 항공사도 넣는다(위 '항공사 (운항·판매)'와 같은 기준)
+      var carriers = {};
+      picked.items.forEach(function (x) {
+        carriers[x.f.airline] = carriers[x.f.airline] || { op: 0, all: 0 };
+        carriers[x.f.airline].op++;
+        var who = {};
+        who[x.f.airline] = 1;
+        x.sellers.forEach(function (c) { who[c.airline] = 1; });
+        Object.keys(who).forEach(function (n) { (carriers[n] = carriers[n] || { op: 0, all: 0 }).all++; });
+      });
+      if (!carriers[schState.destAirline]) schState.destAirline = "all";
+      var order = Object.keys(carriers).sort(function (a, b) {
+        return carriers[b].op - carriers[a].op || carriers[b].all - carriers[a].all || a.localeCompare(b, "ko");
+      });
+      var chip = function (key, label, n, title, codeshareOnly) {
+        return '<button type="button"' + (codeshareOnly ? ' class="cs-only"' : "") + ' data-carrier="' + esc(key) + '" aria-pressed="' + (schState.destAirline === key) + '"' +
+          (title ? ' title="' + esc(title) + '"' : "") + ">" + esc(label) + " <b>" + n + "</b></button>";
+      };
+      document.getElementById("sch-carriers").innerHTML = order.length > 1
+        ? chip("all", "전체", picked.items.length) + order.map(function (n) {
+            var c = carriers[n];
+            return chip(n, n, c.all, c.op ? (c.all > c.op ? "직접 운항 " + c.op + "편 · 공동운항 판매 포함 " + c.all + "편" : "") : "공동운항 판매만 (직접 운항 없음)", !c.op);
+          }).join("")
+        : "";
+      var rows = picked.items.filter(function (x) {
+        var a = schState.destAirline;
+        return (!schState.related || x.rel.length) &&
+          (a === "all" || x.f.airline === a || x.sellers.some(function (c) { return c.airline === a; }));
+      });
       document.getElementById("sch-body").innerHTML = rows.map(function (x) { return flightRow(x, iso); }).join("");
       empty.hidden = rows.length > 0;
-      empty.textContent = "노선 일치 행사가 있는 운항편이 없습니다.";
+      empty.textContent = schState.related ? "노선 일치 행사가 있는 운항편이 없습니다." : "이 항공사의 운항편이 없습니다.";
     } else {
       var ql = schState.q.toLowerCase();
       var shown = groups.filter(function (g) {
@@ -809,10 +837,17 @@
   document.getElementById("sch-related").addEventListener("change", function (e) { schState.related = e.target.checked; renderSchedule(); });
   document.getElementById("sch-more").addEventListener("click", function () { schState.showAll = !schState.showAll; renderSchedule(); });
   document.getElementById("sch-back").addEventListener("click", function () { schState.dest = null; renderSchedule(); });
+  document.getElementById("sch-carriers").addEventListener("click", function (e) {
+    var b = e.target.closest("[data-carrier]");
+    if (!b) return;
+    schState.destAirline = b.dataset.carrier;
+    renderSchedule();
+  });
   document.getElementById("sch-dests").addEventListener("click", function (e) {
     var b = e.target.closest("[data-dest]");
     if (!b) return;
     schState.dest = b.dataset.dest;
+    schState.destAirline = "all";
     renderSchedule();
     document.getElementById("schedule").scrollIntoView({ block: "start" });
   });

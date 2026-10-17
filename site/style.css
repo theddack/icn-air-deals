@@ -178,6 +178,12 @@ input[type="date"] { font-size: 14px; color: var(--ink); background: var(--surfa
 .more { margin-top: 12px; width: 100%; background: var(--btn-bg); border: 1px solid var(--btn-line); border-radius: 10px; padding: 10px; font-weight: 700; color: var(--btn-ink); cursor: pointer; }
 .detail-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-bottom: 10px; }
 .detail-head h3 { margin: 0; font-size: 18px; }
+.carriers { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.carriers button { background: var(--btn-bg); border: 1px solid var(--btn-line); border-radius: 8px; padding: 6px 10px; font-weight: 700; color: var(--btn-ink); cursor: pointer; font-size: 13px; }
+.carriers button b { font-weight: 600; opacity: .75; font-variant-numeric: tabular-nums; }
+/* 공동운항으로 팔기만 하는 항공사는 흐리게, 뒤쪽에 */
+.carriers button.cs-only { border-style: dashed; color: var(--faint); background: transparent; font-weight: 600; }
+.carriers button[aria-pressed="true"] { background: var(--brand); border-color: var(--brand); color: #fff; }
 .back { background: var(--btn-bg); border: 1px solid var(--btn-line); border-radius: 10px; padding: 7px 12px; font-weight: 700; color: var(--btn-ink); cursor: pointer; }
 table.sch { border-collapse: collapse; width: 100%; font-size: 14px; }
 table.sch th, table.sch td { padding: 10px 8px; text-align: left; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
@@ -233,6 +239,9 @@ table.sch mark { background: var(--orange-bg); color: var(--orange); border-radi
   .filter-toggle[aria-expanded="true"] { border-color: var(--brand); color: var(--brand-ink); }
   .filter-toggle b { background: var(--brand); color: #fff; border-radius: 20px; padding: 0 7px; font-size: 12px; }
   .filters .search-field { order: -2; flex: 1 1 0; }
+  /* 노선 항공사 버튼은 한 줄 가로 스크롤 (여러 줄로 쌓여 시간표가 밀리지 않게) */
+  .carriers { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
+  .carriers button { flex: none; }
   .filters:not(.open) > :not(.search-field):not(.filter-toggle) { display: none; }
   .filters.open > .field:not(.search-field) { flex: 1 1 100%; }
 }
