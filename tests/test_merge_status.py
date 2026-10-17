@@ -1,7 +1,7 @@
 import unittest
 from datetime import date
 
-from collector.main import enrich
+from collector.main import build_deals, enrich
 from collector.merge import cluster_articles
 from collector.status import should_keep, status
 
@@ -140,6 +140,17 @@ class TestStatus(unittest.TestCase):
         open_ended = {"sale_start": "2026-07-07", "sale_end": None, "last_published": "2026-07-08"}
         self.assertTrue(should_keep(open_ended, date(2026, 7, 22)))
         self.assertFalse(should_keep(open_ended, date(2026, 7, 23)))
+
+
+
+class TestRefilterStored(unittest.TestCase):
+    def test_stored_article_that_no_longer_qualifies_is_dropped(self):
+        # 2026-10-18: 저장돼 있던 제휴 호텔 할인 기사가 규칙을 고친 뒤에도 항공권 행사로 남던 문제
+        stored = [{"title": t, "outlet": "o", "url": t, "published": "2026-10-16", "first_seen": "2026-10-16T00:00:00+09:00"}
+                  for t in ("대한항공-아웃리거, 하와이·태국 최대 35% 할인..태양의 서커스도 혜택",
+                            "트리니티항공, 국제선 60개 노선 최대 22% 할인")]
+        deals = build_deals(stored, date(2026, 10, 18))
+        self.assertEqual([d["airline"] for d in deals], ["트리니티항공"])
 
 
 if __name__ == "__main__":
