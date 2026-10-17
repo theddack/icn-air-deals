@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T01:00:07+09:00",
+ "generated_at": "2026-10-18T08:32:42+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,16 +10,16 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2329,
+  "rss_items": 2352,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 855,
+  "outlet_items": 858,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 2,
-  "articles": 309,
-  "new_articles": 0,
-  "deals": 31
+  "articles": 314,
+  "new_articles": 5,
+  "deals": 32
  },
  "deals": [
   {
@@ -128,8 +128,8 @@
    "regions": [
     "강원",
     "전남광주",
-    "비수도권",
-    "경남"
+    "경남",
+    "비수도권"
    ],
    "conditions": [
     "연박",
@@ -153,7 +153,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-18T00:17:24+09:00",
+   "last_seen": "2026-10-18T08:32:42+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
@@ -285,6 +285,12 @@
      "title": "가을 숙박세일페스타, 연박시 최대 7만원 할인",
      "outlet": "숙박매거진",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYR29ldTREeC04N2hkSjE4Z3Y4bTFRZTh1QmpIX1dLVG4xa0lvNGhNSTNnNTRDbDNtbDYyQS1UU2hKRzVfTktXU1BQWU85VVhpYm1EWUcwWEI3OFpELS13bFR6ME5YQTJ5RlVKbUp2b0oyZw?oc=5",
+     "published": "2026-09-23"
+    },
+    {
+     "title": "경남 가을여행 숙박비 최대 7만원 할인···11월8일까지 ‘숙박세일 페스타’",
+     "outlet": "스마트비즈",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QWDhOWUFxMTI0b3JVaGs5V1JlMzBTZjBmX0N6b3k5d3F1c2pldjdpbmZ0aThtRjBfYURTV3lWWTdrWTljRUtVU0ZUSklCVGJ6MFdtclg3ekZXUm56Y3dNdFNxanJiTWtKczVfcA?oc=5",
      "published": "2026-09-23"
     },
     {
@@ -441,6 +447,12 @@
      "title": "웹투어, 정부 주관 '2026 숙박세일 페스타' 공식 참여…가을 지역 여행 할인 집중",
      "outlet": "공감신문",
      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zWHljUTd5QVJBOVJ0d0Q1NDU1eC14S3NQaGlaRExTR0E4N0tBbTBKWmpHaFpjOUEyT3g1MVdwVmNWRlc5WWtqV1N6ZXhxdlFMemZId2F1TDNMb1ZkRU5ESk83YUlFZ21R?oc=5",
+     "published": "2026-09-21"
+    },
+    {
+     "title": "부산관광공사 ‘대한민국 숙박세일 페스타’로 가을 여행객 초대",
+     "outlet": "가야일보",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43ZE9VQ0RKUWdTU0Y3TFEwMDhmamZzeURzc19oNmN0cFctMm1sQzY2WU80ODhPNzNFeDA3T0Fvb1k5VmxURzRpbFpNSjFGQlBtbi00bXlGNzJiLW1nV2t6QjJDUy1zUm9X?oc=5",
      "published": "2026-09-21"
     },
     {
@@ -618,7 +630,7 @@
    "first_published": "2026-10-12",
    "last_published": "2026-10-12",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-15T13:00:04+09:00",
+   "last_seen": "2026-10-18T08:32:42+09:00",
    "articles": [
     {
      "title": "객실·먹거리·스파 혜택 총집합…파라다이스, 슈퍼위크 프로모션",
@@ -654,6 +666,12 @@
      "title": "파라다이스, 객실·테마파크·스파 한바구니에 담다… ‘2026 하반기 슈퍼위크 프로모션’",
      "outlet": "경기일보",
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lLU5aajA4d1p1UEpGS1prQjE3ZF9ydkoyZVR3dFUzdVpaRnJLWjc0QTZJa2dxV0ZiTFJkT3YyZXVOQmFkRXpiWWowaUQ1ank4S1J1UVBOaEJ0UXM?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "“가을·겨울 호캉스는 파라다이스로!” 12~21일 열흘간 특가 쏜다",
+     "outlet": "문화일보",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KXzFVOGhWN2ItT2llUFF1LUFSQ3J6VmtZTHpUUXN4WG1mM2c4azJ1LV9HVzY2U01PeGNqZlZEa3plSUtlZ2ROZlY1OWpkejJn?oc=5",
      "published": "2026-10-12"
     },
     {
@@ -1551,6 +1569,56 @@
      "title": "소노인터내셔널, 가을맞이 호텔·리조트 제휴 확대…투숙객·이용객 할인 강화",
      "outlet": "국제뉴스",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oVnZ4X1Q5MXJNSjFLX0xOWFVheUlJSFlNd1dIUWlHeXZTQl8tdHlZOTZvaUxHaEF3SGlsTjFxR0MwQlhWU2ZDeHNzTk11YXVzemd2c01EY2VTUklUd0JtM0x0UUV3RXdnVjdYdWFB?oc=5",
+     "published": "2026-10-08"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-yeogi-f8eefc4562",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "여기어때, 후쿠오카 신규 호텔 '바운시 바이 리가 하카타' 개관 기념 단독 할인 행사",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "후쿠오카"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "date_source": "none",
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-08",
+   "last_published": "2026-10-08",
+   "first_seen": "2026-10-18T08:32:42+09:00",
+   "last_seen": "2026-10-18T08:32:42+09:00",
+   "articles": [
+    {
+     "title": "여기어때, 후쿠오카 신규 호텔 '바운시 바이 리가 하카타' 개관 기념 단독 할인 행사",
+     "outlet": "넥스트데일리",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EeUlrMEE4bWVCazZYdjcxalVPX204MzRjWVUtRlZiWlVOZEhGSElRZklMeFVFMnI1UVpoTk1hbjF4WnZFbk1SdHY1a25tQUxCTjhhTTN6d0dRLWZBaGt3QTRXbmUwbFltVHdxTFV6NNIBc0FVX3lxTE5faHlmWU40OTZLUzkteEJJUzB6OXZxeEd5cV8wdnZETm9DSF9lbkV0UXAwaHBhWFg3NGVrRmhSWF9LLTBsXzR4azBYaFVuR0E3NnhLQmVKeVNjNS1YcUI3SFBUSDYxazloZ0tMTVFaTWVTclE?oc=5",
      "published": "2026-10-08"
     }
    ],
@@ -2853,7 +2921,7 @@
    "first_published": "2026-10-04",
    "last_published": "2026-10-11",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-17T16:14:00+09:00",
+   "last_seen": "2026-10-18T08:32:42+09:00",
    "articles": [
     {
      "title": "트리니티항공, 13일까지 국제선 최대 22% 할인",
@@ -2901,6 +2969,12 @@
      "title": "트리니티항공, 국제선 60개 노선 최대 22% 할인…내년 1월까지 탑승",
      "outlet": "아시아투데이",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pNXFrRUlTTHppS3A3a19uM0E4WThmU0hNNkVpREM1cUdNYnc4cnFFendtdkpVZ2hPdDJhWU1pLXdqakN6ZGxZX2oyNjZaNk9BMTJnREdYSzl1bDdLNlkyN2VJazRwcHVkbW9hWDRB?oc=5",
+     "published": "2026-10-04"
+    },
+    {
+     "title": "“국제선 최대 22% 할인”…트리니티항공, 60개 노선 10월 프로모션",
+     "outlet": "더게이트",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Fa0RGR1FKWVl0cXYtWS1OMEt1bkxDZVdMTU5RRVE3X3VMaFZMNnRta1cxSWRIc3dNbHgxdXkzSHJ3WEZRSGhmaGlYVGZKYTg3MlBaMmdKTS1KZHlfd01rbDJmLTMwakZJ0gFsQVVfeXFMTkJyZ0w4VTQwRWttVTBZVTNwOTVCYXFrenVmZGt5d2dpS0pZTVVIX1M4aHF1bHBXNUVsb2s3WHVnTkd4ZEU3MGhvYmFoaENrSjVDNHRYWER5TXFSQUg5cTh0VHI4SGozN2dkbWtt?oc=5",
      "published": "2026-10-04"
     },
     {
