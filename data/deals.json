@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T00:17:24+09:00",
+ "generated_at": "2026-10-18T00:28:36+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,16 +10,16 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2320,
+  "rss_items": 2314,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 858,
+  "outlet_items": 857,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 2,
   "articles": 309,
-  "new_articles": 1,
-  "deals": 36
+  "new_articles": 0,
+  "deals": 31
  },
  "deals": [
   {
@@ -1245,80 +1245,6 @@
    "status": "live"
   },
   {
-   "id": "jinair-d144af90ca",
-   "airline_id": "jinair",
-   "airline": "진에어",
-   "airlines_mentioned": [
-    "진에어"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.jinair.com/",
-   "iata": [
-    "LJ"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "진에어, 韓·日·대만 신규 고객 잡는다…수하물 할인·항공권 경품 제공",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-02",
-   "last_published": "2026-10-04",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T16:46:16+09:00",
-   "articles": [
-    {
-     "title": "진에어, 韓·日·대만 신규 고객 잡는다…수하물 할인·항공권 경품 제공",
-     "outlet": "에너지경제신문",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QcTRMOGNZXzBHVEFUTnUxcldCblJHaUhZY2xiaHpEQmREczBoWXZSZHFrMmdsRHdLMldocVAtaDJROW52S3ZhVTR4aDZYc0VjVnB3SWFqazRxZ0U?oc=5",
-     "published": "2026-10-04"
-    },
-    {
-     "title": "진에어, 한·일·대만 신규 회원에 수하물 3만원 할인… 왕복 항공권 추첨도 - 조선비즈",
-     "outlet": "Chosunbiz",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOHI3VE45UVlGVF9lYjR2MjZxNGxkVkxEMXVIQWR6bG9nMjRJdnRuOTNidnEwbEZaQkhLUEQ5TnVQcjNGVXFRYVljS1BQNU5PUFAzdFQ2MHkyYS13YzNDSWFOa3pyZ1ZwYkVWc01uTUVjYnNKMzZSQ0kxSTluWm1wYjNhZXrSAZgBQVVfeXFMUHcyU2ZEVnNzUEVDX25YNkdqSHVjVDNhUzJ2SG1BSm50QXBmak45clN6d2V6eG10ZFJlbzdhUmNMbXRHb1hKYkdqejJJZVEzV2JBdFZXMDNPb3hnc211OWFtaUg0TzRMdEsyUUU4T0U4SFFaSVNkWkNlLU1nXzRNYVpRVTBZdnhoNTZyVjF6Y01yS3hIV2NTOXo?oc=5",
-     "published": "2026-10-02"
-    },
-    {
-     "title": "진에어, 한·일·대만 신규 회원에 수하물 3만원 할인… 왕복 항공권 추첨도",
-     "outlet": "Chosunbiz",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOHI3VE45UVlGVF9lYjR2MjZxNGxkVkxEMXVIQWR6bG9nMjRJdnRuOTNidnEwbEZaQkhLUEQ5TnVQcjNGVXFRYVljS1BQNU5PUFAzdFQ2MHkyYS13YzNDSWFOa3pyZ1ZwYkVWc01uTUVjYnNKMzZSQ0kxSTluWm1wYjNhZXo?oc=5",
-     "published": "2026-10-02"
-    },
-    {
-     "title": "진에어, 신규 회원 잡는다...수하물 3만원 할인에 항공권 추첨까지",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pQ0k3SS1rUFpxbVNiUm8yNUdnaWE2U01zS0FicTVqa282NXUwUU0xdXNva3ZxcURNNkZNVERWZzByQVpxY2Q1MU1uRlB6c1RraVg5bE1TSWZpNnhWa29oVWNrTVpFQndRNjJ5Uw?oc=5",
-     "published": "2026-10-02"
-    },
-    {
-     "title": "진에어, 한·일·대만 신규 회원 공략…수하물 할인에 국제선 항공권까지",
-     "outlet": "https://www.ppss.kr/",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yTUMzVGNFbWJrbjN1dDROWFdOWWVzUzhSaXNZMjlkN3g1b094dmJTOUhYSVFXc3BRU3lOeGV3WDBhN2xIRWZwenRxaC0wVG5ZYjBfa3I0Zmw0NzNsalF1NUpSazU?oc=5",
-     "published": "2026-10-02"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-other-2abbbfd934",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -1420,54 +1346,6 @@
      "outlet": "뉴스1",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LZFlVTWdSTHhZZF9GRkpVOUtXN0xwR0JiZHAxR1paY1BHY0daOG1abUQ2T25MWWNjNGV3bmgxblNNVWtCZFN0VkZRQVFyWDRqam9YcUxEMkp3U1ZVdS1aMFA0WWM?oc=5",
      "published": "2026-10-07"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-991f9a4176",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "10.10 travel sale: Where to score discounted flights, hotel stays and more this October",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-08",
-   "last_published": "2026-10-08",
-   "first_seen": "2026-10-15T17:22:32+09:00",
-   "last_seen": "2026-10-15T17:22:32+09:00",
-   "articles": [
-    {
-     "title": "10.10 travel sale: Where to score discounted flights, hotel stays and more this October",
-     "outlet": "Philstar Life",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeFRieWVEb1RZeFR5VGotak1fT2dDT1JyUVNsWTR6ZlNrZzdVYkpRU2ZtamQzaThRUTUxUmxEcDdtcjl0RnVaVXFPakZDUEpTLWUyZHozRDRlYXFjSk1uanZoY0N4bnM4OEFBNk81QXZQTlcta2ZhMjI1ZzlDUTlsZG1vallJZnl3RWJzY1JGQlBFWlVaX2FUR1g4NldJbmlOdlHSAagBQVVfeXFMT2RFTUFTU1JKU3JpUi0zZWFkNGFNakhvR21uOVBZWEJ5MFV0TmtQY1JGQzloUUJVN2REQTV3bm56bjctSk95dnBKbWFGOHh1OFlWNmZYNFNvaVVHQmU4aHZKQkhndG9nY2RfLXF5T0g3VkNiTDFpdHZWVklNNnVMXzc4RVJlUUhCM0EzeG5SQjVGLUkyWnh4LS1jUG5zMU5UWnZMZzZVd2hX?oc=5",
-     "published": "2026-10-08"
     }
    ],
    "status": "undated"
@@ -1679,59 +1557,6 @@
    "status": "undated"
   },
   {
-   "id": "h-tripcom-bc01e325a9",
-   "airline_id": "h-tripcom",
-   "airline": "트립닷컴",
-   "airlines_mentioned": [
-    "트립닷컴"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://kr.trip.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Trip.com 10.10 Sale Offers S$301 Flights, Free Attractions and 50% Off Johor Bahru Hotels",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Trip.com 10.10 Sale Offers S$301 Flights, Free Attractions and 50% Off Johor Bahru Hotels",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ3R1bWNlYWlTNVhrRGVZdENLNld2UTdjR25ONm90UGNJaTdaMjJzZGtmam9ud2Y1eFFPbXVTOHBHNGNtdXR6YW1ELU1nU2NOLUY5TlhzaXJmbmtRXzg4dXNzTHU4V0tZRHN3dngtUm9XQko5eXRnekNfcjRnbmtBZ1d6WjBraGpVblVLbEtUSlBiQWhDUTRvSjI5SkFSQmZ3ZHVHVi10enhRdEV4QS1BcXRNNHBTRmZJMDYtbzJn?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": null,
-   "discount": "50% 할인",
-   "verification": "news",
-   "first_published": "2026-10-08",
-   "last_published": "2026-10-08",
-   "first_seen": "2026-10-15T17:22:32+09:00",
-   "last_seen": "2026-10-15T17:22:32+09:00",
-   "articles": [
-    {
-     "title": "Trip.com 10.10 Sale Offers S$301 Flights, Free Attractions and 50% Off Johor Bahru Hotels",
-     "outlet": "Alvinology",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ3R1bWNlYWlTNVhrRGVZdENLNld2UTdjR25ONm90UGNJaTdaMjJzZGtmam9ud2Y1eFFPbXVTOHBHNGNtdXR6YW1ELU1nU2NOLUY5TlhzaXJmbmtRXzg4dXNzTHU4V0tZRHN3dngtUm9XQko5eXRnekNfcjRnbmtBZ1d6WjBraGpVblVLbEtUSlBiQWhDUTRvSjI5SkFSQmZ3ZHVHVi10enhRdEV4QS1BcXRNNHBTRmZJMDYtbzJn?oc=5",
-     "published": "2026-10-08"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "klm-6b572765fa",
    "airline_id": "klm",
    "airline": "KLM",
@@ -1795,79 +1620,6 @@
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE16M2Q3a0JEdXY0MlRaLXFGRTZxUW0yQUhzSERSTGJoWl9xbE5fbXozaFczZU50OHA5d3FOMjdCWHQzRW9wS1VVOFd3a29JMnBMazQ5eEhPRVVOQW9YSmtqYWhOY3RyUQ?oc=5",
      "published": "2026-10-06"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "koreanair-f3aa2cfa4b",
-   "airline_id": "koreanair",
-   "airline": "대한항공",
-   "airlines_mentioned": [
-    "대한항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.koreanair.com/",
-   "iata": [
-    "KE"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "대한항공-아웃리거, 하와이·태국 최대 35% 할인..태양의 서커스도 혜택",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "대한항공-아웃리거, 하와이·태국 최대 35% 할인..태양의 서커스도 혜택",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlcXp1b3BwaTJCS3JMdGhDaDM3al9ZX1JoTzZvSW10RFQtX0wzak9KWGtqdWJ4MnZyd1doNnVQZkNBN3k4eGlXYU0yeWNYUm1iQm9LY3lB?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": "unknown",
-   "discount": "최대 35%",
-   "verification": "news",
-   "first_published": "2026-10-07",
-   "last_published": "2026-10-10",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T16:46:16+09:00",
-   "articles": [
-    {
-     "title": "대한항공-아웃리거, 하와이·태국 최대 35% 할인..태양의 서커스도 혜택",
-     "outlet": "헤럴드경제",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlcXp1b3BwaTJCS3JMdGhDaDM3al9ZX1JoTzZvSW10RFQtX0wzak9KWGtqdWJ4MnZyd1doNnVQZkNBN3k4eGlXYU0yeWNYUm1iQm9LY3lB?oc=5",
-     "published": "2026-10-10"
-    },
-    {
-     "title": "아웃리거X대한항공, 하와이·태국 숙박 최대 35% 할인 프로모션",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DUUs1NHFua01mb2ZDM1BtZWQxMkk1VFk5SS1xa0lZQlZzRzMxcjMzS3lTSUhYR0R5dlI2dzlNWUxmV3U1UGFkTVVUUnZHdlRYSS1XZmduUW9QVWRFMFdidEpKZjg3dw?oc=5",
-     "published": "2026-10-09"
-    },
-    {
-     "title": "아웃리거 리조트 프로모션, 대한항공 항공권 구매하면 하와이·태국 호텔 6곳 최대 35% 할인",
-     "outlet": "이로운뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uU2wxVGpzeGJ6RE5wNjhwUmxyc2p1dUJvamloZmhiMU9MTzQzQUlPdUxlbjJiWUNlQmNweE5DdDlMZUJqdWUyS2VZbHZiekxvdzhqRWsyb3lMVjhXelR5Nm9VeXRQSGc?oc=5",
-     "published": "2026-10-08"
-    },
-    {
-     "title": "아웃리거-대한항공, 하와이·태국 6개 호텔 최대 35% 할인…항공권에 객실 업그레이드까지",
-     "outlet": "국제뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Fcnh4X09ZbEEzTFFYVnJLVE5BVmNEODdnVVdTd0F3eHM5dl9ITmhuZHpheEdwY09leFhVTFk1ZkRiMnJMZDVPWkNwUmJ6MmdsajluZ0hrWVdKSTFnSmZQTVB0YnBCRXUySU43ZWdB?oc=5",
-     "published": "2026-10-07"
     }
    ],
    "status": "undated"
@@ -2230,59 +1982,6 @@
    "status": "undated"
   },
   {
-   "id": "h-expedia-ca876f836f",
-   "airline_id": "h-expedia",
-   "airline": "익스피디아",
-   "airlines_mentioned": [
-    "익스피디아"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://www.expedia.co.kr/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Expedia Promo Codes And Deals: Save Up To 25% On Last-Minute Hotels And Vacation Rentals",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Expedia Promo Codes And Deals: Save Up To 25% On Last-Minute Hotels And Vacation Rentals",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUUNOcG0wbDBZdGoyQ0l1eHV1SHVTRDZQNkdWZDFKbl90MXlPa3V3emswRWhONUJybi1pVDMwMnctMl9GNVNjazlUbHI3RWVMTlVzYTNxZGh2aGJ2QnNzeE9Ub1lXcFpNR240VV9RRTJZSzMwa0xXXzBpdTVOSW01OWduY0kxdDFk?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": null,
-   "discount": "최대 25%",
-   "verification": "news",
-   "first_published": "2026-10-14",
-   "last_published": "2026-10-14",
-   "first_seen": "2026-10-17T08:59:56+09:00",
-   "last_seen": "2026-10-17T08:59:56+09:00",
-   "articles": [
-    {
-     "title": "Expedia Promo Codes And Deals: Save Up To 25% On Last-Minute Hotels And Vacation Rentals",
-     "outlet": "Forbes",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUUNOcG0wbDBZdGoyQ0l1eHV1SHVTRDZQNkdWZDFKbl90MXlPa3V3emswRWhONUJybi1pVDMwMnctMl9GNVNjazlUbHI3RWVMTlVzYTNxZGh2aGJ2QnNzeE9Ub1lXcFpNR240VV9RRTJZSzMwa0xXXzBpdTVOSW01OWduY0kxdDFk?oc=5",
-     "published": "2026-10-14"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-other-7afebebcee",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -2378,56 +2077,6 @@
      "outlet": "퍼블릭뉴스통신",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pMy1udVNoYmxlZXVXc0tXTHR2YWJ5bXFnTFg2MjQ2WmZIbzEyLVh5Q1FGVlVOZkxsRm0wQzBDQWo0bWdxRG1pcEd3ZkxpUTM0YjQyWUhSbGFkb2ZnOWdCNEdVRHVDek90TlE?oc=5",
      "published": "2026-10-15"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "koreanair-b722bc4599",
-   "airline_id": "koreanair",
-   "airline": "대한항공",
-   "airlines_mentioned": [
-    "대한항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.koreanair.com/",
-   "iata": [
-    "KE"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "ABC디자인·대한항공·괌관광청, 괌 여행객 위한 공동 프로모션 - 머니투데이",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-16",
-   "last_published": "2026-10-16",
-   "first_seen": "2026-10-16T16:34:30+09:00",
-   "last_seen": "2026-10-16T16:34:30+09:00",
-   "articles": [
-    {
-     "title": "ABC디자인·대한항공·괌관광청, 괌 여행객 위한 공동 프로모션 - 머니투데이",
-     "outlet": "머니투데이",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxWlZBcThiY2tQRXpYdkEySWhnVVViQkhvUlRocHRWY01TOEk0MFZOUFhuNHpNVnlwQ1BPYzhkeExTaGJSVi1JUTZEUXRoTG5OOU0yOENBeTd1Xzk3SnFRcGNsTkJsUGgxb1JNNNIBckFVX3lxTE9LSlZhYjZ1NlVsUjh2QjJKNVg0YmFmejdjUTYtTnhBQk9fai1kV1JWQk1GOVRDNk5qUFM3VUU4TXBjTVBSNTZva0I1dGYxU3hJT2ZUcXhoVC1RTEZFdkJ3dnhpTWk3TkgzNGFiOS1MMWR3dw?oc=5",
-     "published": "2026-10-16"
     }
    ],
    "status": "undated"
@@ -2604,6 +2253,56 @@
      "title": "이랜드파크, 사이판 호텔·리조트 투어 바우처 1+1 프로모션",
      "outlet": "브레이크뉴스",
      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5pbUNPek9rQU54U3NzVG52UjZWdVVMVGREV1FoQ2wtV1dZUmQwSEhGaWY4M0xXWTdEZ1pfTmpNUkFhdw?oc=5",
+     "published": "2026-10-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "koreanair-b722bc4599",
+   "airline_id": "koreanair",
+   "airline": "대한항공",
+   "airlines_mentioned": [
+    "대한항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.koreanair.com/",
+   "iata": [
+    "KE"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "ABC디자인·대한항공·괌관광청, 괌 여행객 위한 공동 프로모션 - 머니투데이",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "date_source": "none",
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-16",
+   "last_published": "2026-10-16",
+   "first_seen": "2026-10-16T16:34:30+09:00",
+   "last_seen": "2026-10-16T16:34:30+09:00",
+   "articles": [
+    {
+     "title": "ABC디자인·대한항공·괌관광청, 괌 여행객 위한 공동 프로모션 - 머니투데이",
+     "outlet": "머니투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxWlZBcThiY2tQRXpYdkEySWhnVVViQkhvUlRocHRWY01TOEk0MFZOUFhuNHpNVnlwQ1BPYzhkeExTaGJSVi1JUTZEUXRoTG5OOU0yOENBeTd1Xzk3SnFRcGNsTkJsUGgxb1JNNNIBckFVX3lxTE9LSlZhYjZ1NlVsUjh2QjJKNVg0YmFmejdjUTYtTnhBQk9fai1kV1JWQk1GOVRDNk5qUFM3VUU4TXBjTVBSNTZva0I1dGYxU3hJT2ZUcXhoVC1RTEZFdkJ3dnhpTWk3TkgzNGFiOS1MMWR3dw?oc=5",
      "published": "2026-10-16"
     }
    ],
