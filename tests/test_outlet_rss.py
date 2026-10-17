@@ -4,7 +4,7 @@ import unittest
 from datetime import date
 
 from collector import extract as x
-from collector.main import attach_outlet_items, enrich
+from collector.main import _summary_fill, attach_outlet_items, enrich
 from collector.merge import cluster_articles
 from collector.sources.outlet_rss import _pub
 
@@ -57,6 +57,35 @@ class TestAttach(unittest.TestCase):
     def test_same_title_twice_is_added_once(self):
         new, _ = attach_outlet_items([], [item("세부퍼시픽항공 ‘10.10 특가’"), item("세부퍼시픽항공 '10.10 특가'", url="u2")], "t")
         self.assertEqual(len(new), 1)
+
+    def test_title_start_only_gets_end_from_summary(self):
+        # 제목 '8일부터'(시작만) + 요약문 '8일부터 14일까지' → 종료일만 요약문에서
+        g = {"title": "세부퍼시픽항공, 8일부터 ‘10.10 특가’", "outlet": "구글", "url": "g1", "published": "2026-10-07", "first_seen": "x"}
+        attach_outlet_items([g], [item("세부퍼시픽항공 8일부터 ‘10.10 특가’", pub="2026-10-07")], "t")
+        a = enrich(g)
+        self.assertEqual((a["sale_start"], a["sale_end"]), ("2026-10-08", "2026-10-14"))
+        self.assertTrue(a["_src"]["sale"]["title"].startswith("제목 + 트래블데일리 요약문:"))
+
+
+class TestSummaryFill(unittest.TestCase):
+    def test_fills_missing_side_when_known_side_agrees(self):
+        self.assertEqual(_summary_fill("sale", ["2026-10-08", None], ["2026-10-08", "2026-10-14"]), ["2026-10-08", "2026-10-14"])
+        self.assertEqual(_summary_fill("sale", ["2026-10-08", None], [None, "2026-10-14"]), ["2026-10-08", "2026-10-14"])
+
+    def test_conflicting_known_side_fills_nothing(self):
+        self.assertIsNone(_summary_fill("sale", ["2026-10-08", None], ["2026-10-01", "2026-10-05"]))
+
+    def test_end_before_start_fills_nothing(self):
+        self.assertIsNone(_summary_fill("travel", ["2026-12-01", None], [None, "2026-11-30"]))
+
+    def test_title_complete_or_summary_empty(self):
+        self.assertIsNone(_summary_fill("sale", ["2026-10-08", "2026-10-14"], ["2026-10-01", "2026-10-20"]))
+        self.assertIsNone(_summary_fill("sale", [None, None], [None, None]))
+        self.assertEqual(_summary_fill("sale", [None, None], ["2026-10-08", "2026-10-14"]), ["2026-10-08", "2026-10-14"])
+
+    def test_route_side_fill(self):
+        self.assertEqual(_summary_fill("route", [None, "세부(CEB)"], ["인천(ICN)", None]), ["인천(ICN)", "세부(CEB)"])
+        self.assertIsNone(_summary_fill("route", [None, "세부(CEB)"], ["인천(ICN)", "보홀(TAG)"]))
 
 
 if __name__ == "__main__":

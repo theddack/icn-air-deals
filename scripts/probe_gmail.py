@@ -2,14 +2,15 @@
 
 python -m scripts.probe_gmail [일수]   # 환경변수 GMAIL_USER, GMAIL_APP_PASSWORD 필요. 기본 30일
 
-Actions 로그가 공개라서 항공사별 메일 수, 발신 도메인, 제목에 특가 표현이 있는 메일 수만 출력한다.
-제목·본문·주소, 항공사가 아닌 발신자의 도메인은 출력하지 않는다.
+항공사 발신 도메인에서 온 메일만 검색한다(collector.sources.gmail_imap.SEARCH_DOMAINS). Actions 로그가 공개라서
+항공사별 메일 수, 발신 인증(DKIM·DMARC) 통과 수, 제목에 특가 표현이 있는 메일 수, 발신 도메인만 출력한다.
+제목·본문·주소는 출력하지 않는다.
 """
 
 import sys
 from collections import Counter, defaultdict
 
-from collector.sources.gmail_imap import airline_of, connect, recent_headers
+from collector.sources.gmail_imap import SEARCH_DOMAINS, airline_of, authenticated, connect, recent_headers
 
 PROMO = ("특가", "할인", "세일", "프로모션", "쿠폰", "이벤트", "sale", "deal", "offer", "% off", "fare")
 
@@ -22,20 +23,35 @@ try:
 finally:
     imap.logout()
 
-print(f"로그인 성공 · 메일함 {box} · 최근 {days}일 메일 {len(rows)}통")
-per, domains, promo = Counter(), defaultdict(Counter), Counter()
-others = 0
+print(f"로그인 성공 · 메일함 {box} · 항공사 발신 도메인 {len(SEARCH_DOMAINS)}곳으로 검색 · 최근 {days}일 {len(rows)}통")
+per, verified, promo, domains = Counter(), Counter(), Counter(), defaultdict(Counter)
+name_only, unknown = Counter(), 0
+seen = set()
+dupes = 0
 for r in rows:
-    name, domain = airline_of(r["from"])
+    if r["message_id"]:
+        if r["message_id"] in seen:
+            dupes += 1
+            continue
+        seen.add(r["message_id"])
+    name, domain, basis = airline_of(r["from"])
     if not name:
-        others += 1
+        unknown += 1
+        continue
+    if basis == "name":
+        name_only[name] += 1
         continue
     per[name] += 1
     domains[name][domain] += 1
+    if authenticated(r["auth"], domain):
+        verified[name] += 1
     if any(w in r["subject"].lower() for w in PROMO):
         promo[name] += 1
 
-print(f"항공사 메일 {sum(per.values())}통 · 항공사가 아닌 메일 {others}통(내용 출력 안 함)\n")
+print(f"항공사 메일 {sum(per.values())}통 (발신 인증 통과 {sum(verified.values())}) · 중복 {dupes} · "
+      f"이름만 일치(검증 필요) {sum(name_only.values())} · 판별 못 함 {unknown}\n")
 for name, n in per.most_common():
     doms = ", ".join(f"{d}({c})" for d, c in domains[name].most_common())
-    print(f"- {name}: {n}통, 제목에 특가 표현 {promo[name]}통 · 발신 도메인 {doms}")
+    print(f"- {name}: {n}통, 인증 통과 {verified[name]}, 제목에 특가 표현 {promo[name]} · 발신 도메인 {doms}")
+for name, n in name_only.most_common():
+    print(f"- (검증 필요) 보낸 사람 이름만 '{name}': {n}통")

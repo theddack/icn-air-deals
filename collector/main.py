@@ -158,6 +158,29 @@ def _enrich_en(article, title, pub):
 # 요약문 사실값은 제목에서 못 뽑은 필드만 채운다. 어느 필드를 요약문에서 채웠는지는 _src에 남겨 근거로 보여준다
 _SUMMARY_GROUPS = {"sale": ("sale_start", "sale_end"), "travel": ("travel_start", "travel_end"),
                    "discount": ("discount",), "route": ("origin", "destination")}
+_DATE_GROUPS = {"sale", "travel"}
+
+
+def _summary_fill(group, title_vals, sum_vals):
+    """한 묶음(시작·종료 등)에서 요약문으로 채울 값. 제목 값과 요약문 값이 어긋나면 채우지 않는다.
+
+    제목에 한쪽만 있으면 요약문의 같은 쪽 값이 제목과 같거나 비어 있을 때만 나머지를 채운다.
+    날짜는 채운 뒤 시작 ≤ 종료여야 한다 (예: 제목 '13일부터' + 요약문 '13일부터 20일까지' → 종료 20일).
+    """
+    if all(title_vals) or not any(sum_vals):
+        return None
+    filled = list(title_vals)
+    for i, (t, s) in enumerate(zip(title_vals, sum_vals)):
+        if t:
+            if s and s != t:
+                return None
+        else:
+            filled[i] = s
+    if filled == list(title_vals):
+        return None
+    if group in _DATE_GROUPS and all(filled) and filled[0] > filled[1]:
+        return None
+    return filled
 
 
 def _fill_from_summary(a):
@@ -168,12 +191,15 @@ def _fill_from_summary(a):
     for group, fields in _SUMMARY_GROUPS.items():
         if group == "route" and a.get("category") == "hotel":
             continue
-        if any(a.get(f) for f in fields) or not any(sf["fields"].get(f) for f in fields):
+        title_vals = [a.get(f) for f in fields]
+        filled = _summary_fill(group, title_vals, [sf["fields"].get(f) for f in fields])
+        if filled is None:
             continue
-        for f in fields:
-            a[f] = sf["fields"].get(f)
+        for f, v in zip(fields, filled):
+            a[f] = v
         snippet = sf["evidence"].get(group, "")
-        src[group] = {"title": f"{sf['outlet']} 요약문: {snippet}", "url": sf["url"]}
+        prefix = "제목 + " if any(title_vals) else ""
+        src[group] = {"title": f"{prefix}{sf['outlet']} 요약문: {snippet}", "url": sf["url"]}
     if src:
         a["_src"] = src
     return a
