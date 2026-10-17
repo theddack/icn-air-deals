@@ -25,7 +25,9 @@
              empty: "조건에 맞는 숙박 행사가 없습니다. 필터를 바꿔 보세요." }
   };
 
-  var state = { section: "flight", filter: "all", kind: "all", airline: "all", q: "", hideOther: true, scope: "all" };
+  var FILTER_LABEL = { live: "진행 중", "new": "신규", closing: "마감 임박", upcoming: "판매 예정", official: "공식 확인", undated: "날짜 미확인", ended: "마감" };
+
+  var state = { section: "flight", filter: "all", kind: "all", airline: "all", q: "", hideOther: true, scope: "all", sort: "default" };
   var deals = [];
   var names = {};       // airline_id -> 이름 (필터용)
   var baselines = {};   // 묶음별 첫 수집 시각. 이때 들어온 기사는 신규로 보지 않는다
@@ -175,6 +177,15 @@
       (items ? "<ul>" + items + "</ul>" : "") + "</details>";
   }
 
+  // 남은 기간 칸: 위에 무엇까지의 기간인지, 아래에 D-day
+  function ddayBox(d, st, today) {
+    var label = st === "upcoming" ? "판매 시작" : st === "live" ? (d.sale_end ? "판매 마감" : "판매 중") : st === "ended" ? "판매 종료" : "판매 기간";
+    var value = st === "undated" ? "미확인" : ddayText(d, st, today).replace(/^마감 /, ""); // 위 칸이 '판매 마감'이라 겹치는 말은 뺀다
+    var cls = isClosing(d, today) ? " urgent" : st === "ended" ? " past" : st === "undated" ? " unk" : "";
+    return '<div class="dday' + cls + '"><span>' + label + "</span><b>" + esc(value) + "</b></div>";
+  }
+
+  // 카드 앞면은 '어디로·얼마나·언제까지'만. 나머지 기간·출발 공항·근거·기사는 '상세 정보'에 접어 둔다
   function card(d, today) {
     var st = d._status;
     var title = d.event_name ? d.event_name : d.headline;
@@ -191,17 +202,19 @@
       '<span class="pill ' + STATUS_PILL[st] + '">' + STATUS_LABEL[st] + "</span>" +
       (d._fresh === "new" ? '<span class="pill solid">신규</span>' : d._fresh === "updated" ? '<span class="pill">기사 추가</span>' : "") +
       (isClosing(d, today) ? '<span class="pill orange">마감 임박</span>' : "") +
-      '<span class="pill ' + (verified ? "green" : "orange") + '">' + VERIFY_LABEL[d.verification || "news"] + "</span>" +
+      (verified ? '<span class="pill green">' + VERIFY_LABEL.official + "</span>" : "") +
       (multi ? '<span class="pill orange">' + SECTIONS[sec].who + " 미분류</span>" : "") +
       (d.trial ? '<span class="pill orange">시범</span>' : "") +
       (hotel && d.scope === "overseas" ? '<span class="pill">해외</span>' : "") +
       (d.lang === "en" ? '<span class="pill gray">영문 기사 · 번역 안 함</span>' : "");
     var airline = multi ? esc(d.airline) + " (" + esc(d.airlines_mentioned.join("·")) + ")" : esc(d.airline);
     var routes = routesText(d);
+    var where = hotel ? regionText(d) : routes;
     var travelConflict = (d.conflicts || []).indexOf("travel") >= 0;
+    var travelLabel = hotel ? "투숙 기간" : "탑승 기간";
     var travelRow = travelConflict
-      ? row(hotel ? "투숙 기간" : "탑승 기간", "출처 간 불일치 · 관련 기사 확인", "conflict")
-      : row(hotel ? "투숙 기간" : "탑승 기간", travel || "미확인", travel ? "" : "unk", travel ? evLink(d, "travel") : "");
+      ? row(travelLabel, "출처 간 불일치 · 관련 기사 확인", "conflict")
+      : row(travelLabel, travel || "미확인", travel ? "" : "unk", travel ? evLink(d, "travel") : "");
     var rows = hotel
       ? row("지역", regionText(d), (d.regions || []).length || d.scope ? "" : "unk") +
         row("판매 기간", sale || "미확인", sale ? "" : "unk", sale ? evLink(d, "sale") : "") +
@@ -211,26 +224,75 @@
         row("판매 기간", sale || "미확인", sale ? "" : "unk", sale ? evLink(d, "sale") : "") +
         travelRow +
         (sec === "domestic" ? "" : row("출발 공항", ICN_LABEL[d.from_icn], d.from_icn === "yes" ? "icn" : d.from_icn === "unknown" ? "unk" : ""));
+    // 앞면 한 줄 요약: 판매 기간, 탑승(투숙) 기간이 확인된 것만
+    var brief = [sale ? "판매 " + sale : "", travel && !travelConflict ? travelLabel.slice(0, 2) + " " + travel : ""].filter(Boolean).join(" · ");
     return '<article class="deal' + (st === "ended" ? " ended" : "") + '">' +
       '<div class="pills">' + pills + "</div>" +
+      '<div class="who">' + airline + (where && where !== "미확인" ? '<span class="where">' + where + "</span>" : "") + "</div>" +
       "<h3>" + esc(title) + "</h3>" +
-      (d.discount ? '<div class="price">' + esc(d.discount) + evLink(d, "discount") + "</div>" : '<div class="price none">할인 정보 미확인</div>') +
-      "<dl>" +
-        row(SECTIONS[sec].who, airline) +
-        rows +
-        row("남은 기간", st === "undated" ? "미확인 · 최근 기사 " + md(d.last_published) : ddayText(d, st, today), st === "undated" ? "unk" : "") +
-      "</dl>" +
-      '<div class="foot">' +
-        '<div class="foot-row"><span>뉴스 기사에서 추출 · 조건은 공식 페이지 확인 필요</span>' +
-          (d.official_url ? '<a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">공식 페이지에서 확인 ↗</a>' : "") +
-        "</div>" +
-        ((d.agencies || []).length ? '<div class="foot-row"><span>기사에 나온 판매처</span><span>' + d.agencies.map(function (g) {
-          return '<a href="' + esc(g.url) + '" target="_blank" rel="noopener">' + esc(g.name) + " ↗</a>";
-        }).join(" · ") + "</span></div>" : "") +
-        airlineDestBlock(d) +
-        "<details><summary>관련 기사 " + d.articles.length + "건" + (d.event_name ? " · " + esc(d.headline) : "") + "</summary><ul>" + arts + "</ul></details>" +
+      '<div class="keyline">' +
+        (d.discount ? '<div class="price">' + esc(d.discount) + evLink(d, "discount") + "</div>" : '<div class="price none">할인 조건 확인 필요</div>') +
+        ddayBox(d, st, today) +
       "</div>" +
+      (brief ? '<p class="brief">' + brief + "</p>" : "") +
+      '<div class="foot-row main-foot"><span>' + (verified ? "항공사 공식 확인" : "뉴스 기사 기반 · 예약 전 공식 확인") + "</span>" +
+        (d.official_url ? '<a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">공식 페이지에서 확인 ↗</a>' : "") +
+      "</div>" +
+      '<details class="more"><summary>상세 정보 · 관련 기사 ' + d.articles.length + "건</summary>" +
+        "<dl>" + row(SECTIONS[sec].who, airline) + rows +
+          (st === "undated" ? row("최근 기사", md(d.last_published)) : "") + "</dl>" +
+        '<div class="foot">' +
+          ((d.agencies || []).length ? '<div class="foot-row"><span>기사에 나온 판매처</span><span>' + d.agencies.map(function (g) {
+            return '<a href="' + esc(g.url) + '" target="_blank" rel="noopener">' + esc(g.name) + " ↗</a>";
+          }).join(" · ") + "</span></div>" : "") +
+          airlineDestBlock(d) +
+          '<div class="arts"><b>관련 기사</b>' + (d.event_name ? ' <span class="cs">' + esc(d.headline) + "</span>" : "") + "<ul>" + arts + "</ul></div>" +
+        "</div>" +
+      "</details>" +
     "</article>";
+  }
+
+  // 할인율 정렬용: 할인 표기 안의 가장 큰 % (없으면 -1 → 맨 뒤)
+  function pctOf(d) {
+    var m = String(d.discount || "").match(/\d{1,3}(?=\s*%)/g);
+    return m ? Math.max.apply(null, m.map(Number)) : -1;
+  }
+
+  // 정렬. 같은 값이면 원래(상태순) 순서를 지킨다
+  function sorted(list) {
+    if (state.sort === "default") return list;
+    var key = {
+      recent: function (d) { return [-(Date.parse(d.first_seen || d.last_published) || 0)]; },
+      closing: function (d) {
+        var open = d._status === "live" || d._status === "upcoming";
+        return [open && d.sale_end ? 0 : 1, open && d.sale_end ? Date.parse(d.sale_end) : 0];
+      },
+      discount: function (d) { return [-pctOf(d)]; }
+    }[state.sort];
+    return list.map(function (d, i) { return { d: d, k: key(d).concat(i) }; }).sort(function (a, b) {
+      for (var j = 0; j < a.k.length; j++) if (a.k[j] !== b.k[j]) return a.k[j] - b.k[j];
+      return 0;
+    }).map(function (x) { return x.d; });
+  }
+
+  // 적용된 조건을 한 줄로 보여주고 초기화할 수 있게 한다
+  function activeConditions() {
+    var out = [];
+    if (state.filter !== "all") out.push(FILTER_LABEL[state.filter]);
+    var kind = document.getElementById("kind");
+    if (state.kind !== "all" && kind.selectedIndex >= 0) out.push(kind.options[kind.selectedIndex].text);
+    var scope = document.getElementById("scope");
+    if (state.section === "hotel" && state.scope !== "all") out.push(scope.options[scope.selectedIndex].text);
+    if (state.airline !== "all") out.push(names[state.airline] || state.airline);
+    if (state.q) out.push("'" + state.q + "'");
+    return out;
+  }
+
+  function resetFilters() {
+    state.filter = "all"; state.kind = "all"; state.airline = "all"; state.q = ""; state.scope = "all";
+    ["kind", "airline", "scope"].forEach(function (id) { document.getElementById(id).value = "all"; });
+    document.getElementById("q").value = "";
+    render();
   }
 
   function visible(d) {
@@ -278,11 +340,16 @@
       b.classList.toggle("active", on);
       b.setAttribute("aria-pressed", String(on));
     });
-    var shown = base.filter(function (d) { return matches(d, state.filter, today); });
+    document.getElementById("official-btn").hidden = !base.some(function (d) { return d.verification === "official"; });
+    var shown = sorted(base.filter(function (d) { return matches(d, state.filter, today); }));
     document.getElementById("list").innerHTML = shown.map(function (d) { return card(d, today); }).join("");
+    var conds = activeConditions();
+    document.getElementById("active").hidden = !conds.length;
+    document.getElementById("active-text").textContent = "적용된 조건: " + conds.join(" · ") + " · " + shown.length + "건";
     var empty = document.getElementById("empty");
     empty.hidden = shown.length > 0;
-    empty.textContent = SECTIONS[state.section].empty;
+    empty.innerHTML = esc(SECTIONS[state.section].empty) +
+      (conds.length ? ' <button type="button" class="reset" data-reset>조건 초기화</button>' : "");
   }
 
   // ---------------------------------------------------------------- 출발 시간표
@@ -293,6 +360,18 @@
   var DEST_PREVIEW = 12; // 도착지 카드를 처음에 이만큼만 보여준다
 
   function weekdayIdx(iso) { return (new Date(iso + "T00:00:00Z").getUTCDay() + 6) % 7; } // 월=0
+
+  // 빠른 날짜: 오늘(0)·내일(1)·이번 주말(오늘이 토·일이면 오늘, 아니면 다가오는 토요일)
+  function quickDate(key) {
+    var today = todayKst(), add;
+    if (key === "weekend") {
+      var wd = weekdayIdx(today); // 월=0 … 토=5, 일=6
+      add = wd >= 5 ? 0 : 5 - wd;
+    } else {
+      add = Number(key);
+    }
+    return new Date(Date.parse(today) + add * DAY).toISOString().slice(0, 10);
+  }
 
   function flightsOn(iso) {
     var wd = weekdayIdx(iso);
@@ -476,6 +555,12 @@
       " · 그 뒤는 미확보 · 지연·변경 시각: " + (sr ? md(sr.from) + " ~ " + md(sr.to) : "이번 수집에서 받지 못함");
 
     var iso = schState.date, cv = coverageOf(iso);
+    document.querySelectorAll(".quick [data-day]").forEach(function (b) {
+      b.setAttribute("aria-pressed", String(quickDate(b.dataset.day) === iso));
+    });
+    var covPill = document.getElementById("sch-cov");
+    covPill.textContent = cv === "full" ? "시간표 확보" : cv === "partial" ? "일정 일부만 확인" : "시간표 미확보";
+    covPill.className = "pill " + (cv === "full" ? "green" : cv === "partial" ? "orange" : "gray");
     var msgs = [];
     if (cv === "partial") msgs.push("시간표 일부만 확보: " + md(iso) + "은 다음 시즌 정기편 일정이 아직 공개되지 않아, 공개된 일부 편만 보입니다. 목록에 없는 노선도 운항할 수 있습니다.");
     if (cv === "none") msgs.push("시간표 미확보: " + md(iso) + "은 공개된 운항 일정이 없습니다. 운항편이 없다는 뜻이 아닙니다.");
@@ -640,6 +725,12 @@
   document.getElementById("airline").addEventListener("change", function (e) { state.airline = e.target.value; render(); });
   document.getElementById("q").addEventListener("input", function (e) { state.q = e.target.value.trim(); render(); });
   document.getElementById("hide-other").addEventListener("change", function (e) { state.hideOther = e.target.checked; render(); });
+  document.getElementById("sort").addEventListener("change", function (e) { state.sort = e.target.value; render(); });
+  // 조건 초기화 버튼은 조건 줄과 빈 목록 안내 두 곳에 있다
+  document.addEventListener("click", function (e) { if (e.target.closest("[data-reset]")) resetFilters(); });
+  document.querySelectorAll(".quick [data-day]").forEach(function (b) {
+    b.addEventListener("click", function () { schState.date = quickDate(b.dataset.day); schState.dest = null; renderSchedule(); });
+  });
 
   document.getElementById("sch-date").addEventListener("change", function (e) { schState.date = e.target.value; renderSchedule(); });
   document.getElementById("sch-q").addEventListener("input", function (e) { schState.q = e.target.value.trim(); schState.dest = null; renderSchedule(); });
