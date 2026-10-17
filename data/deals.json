@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T22:34:54+09:00",
+ "generated_at": "2026-10-17T08:59:56+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,15 +10,15 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2279,
+  "rss_items": 2312,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 970,
+  "outlet_items": 959,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 2,
-  "articles": 267,
-  "new_articles": 7,
+  "articles": 278,
+  "new_articles": 11,
   "deals": 35
  },
  "deals": [
@@ -114,8 +114,8 @@
    "travel_end": null,
    "routes": [],
    "regions": [
-    "전남광주",
     "강원",
+    "전남광주",
     "경남",
     "비수도권"
    ],
@@ -141,7 +141,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-16T22:34:54+09:00",
+   "last_seen": "2026-10-17T08:59:56+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
@@ -172,6 +172,12 @@
      "outlet": "이트레블뉴스",
      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBMYmJGQUFRN2g0OXBLbmxOUGFSeXl5dHJfSzZ4aVpxaDljUXRCMDFVQWZwV1JEaVVJVWMxLUQ1OGhBNjZk?oc=5",
      "published": "2026-09-29"
+    },
+    {
+     "title": "숙박세일 페스타...웹투어, 가을 국내 숙박여행 할인 혜택 강화",
+     "outlet": "글로벌에픽",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1abTZsOGZWUWg4UTlBRmZZTXpYX2pqcDdweWZaamdyZ0hXcy1VRlE5WE9ObjY5NndFb2ZkbFVJOFNxV3lxaXUtSVBNdE9VUjY5c1dwenFLQXcwZ3MxbUppMU13NmdyRU5NR2xFeDZ3enJHd3RJNzRJYm9mdms?oc=5",
+     "published": "2026-09-28"
     },
     {
      "title": "전남광주통합특별시, '최대 7만 원 할인'... 가을 숙박세일 페스타 돌입",
@@ -384,6 +390,12 @@
      "published": "2026-09-21"
     },
     {
+     "title": "강원자치도, ‘대한민국 숙박세일페스타 가을편’ 시작",
+     "outlet": "이코노믹포스트",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9XNWZuQUQ0TmF6ejA0dEw1dldweXRhYlFUTlJ1bmc3VXZYbFNROUx0YzJGS1FLR0twbnRPWXVsRVEtUU1NSGF1Q0VnbEY?oc=5",
+     "published": "2026-09-21"
+    },
+    {
      "title": "충남도, ‘대한민국 숙박세일 페스타’ 참여",
      "outlet": "놀뫼신문",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWl9DT0paWlVFSlYwVzhxblBKazdwNlJONHBpelFveFZKdi1HZVBLMXlNeWJfanF2VDZPdGZsbl9ZbDMteHZ6WjFKdVdjQXFpcHNkQmhhV21qUEFPeE1vWTlRNmZXT0xxcVFDWElMNFMwS3Njck1paEdSSFNZTDRJdjRhTU9MQWhad2xDeHNnRm5sVW5DN1B0QThYNTlPY3NsMEdVX3ptblpNSVAz?oc=5",
@@ -412,6 +424,65 @@
      "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lbTItMGRxR1J6U2h3MXhlbFZfbGFTQ0NybENpbk5Qa29Lckh5eTNXSGFLdzlhVVBveWhSQUd3SGxOVjVkeHJYSnR5ZkloVzRuU2Q3V3diMVBIU0R2bVplZ1ZsSEgzUGh0aFU1azIzWnplUQ?oc=5",
      "published": "2026-09-16"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-hilton-61934fa4f1",
+   "airline_id": "h-hilton",
+   "airline": "힐튼",
+   "airlines_mentioned": [
+    "힐튼"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Hilton For Business 25% Off Sale For Stays In The Americas, Europe, Middle East & Africa October 5 – January 10, 2027 (Book By October 28)",
+   "sale_start": "2026-10-05",
+   "sale_end": "2027-01-10",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "유럽"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "Hilton For Business 25% Off Sale For Stays In The Americas, Europe, Middle East & Africa October 5 – January 10, 2027 (Book By October 28)",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbEZSWXZsSjI3eUp1Z3hhQUx3LXdtQzZiQlhxTElZdHlMcTI0VjZDbXpGVVJsaUI5cXBrQWdoMlFtNmkzLU9VVFcwb0JRcndzMXJoX3AyX3l6VU5DU1pXZnF3R2lWOXNya3V2Qk5EWVlJdElqeXROZ3I2SFJKTUNEYU0zamZCRnJHZE1fWW1KZWFUY2NwcWczVG9zVkpzRldPcW5pTmFJUjdNUEVLOU9iLXZOSzZka1pBNy1VTm41a0NYVXVGTFBVc0E5SnVnMkVDYURJM0FLdDg5OVJscDJfNnBjRFprRTRGczRyaUdBbHRrRU9MdHF3Ug?oc=5"
+    },
+    "discount": {
+     "title": "Hilton For Business 25% Off Sale For Stays In The Americas, Europe, Middle East & Africa October 5 – January 10, 2027 (Book By October 28)",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbEZSWXZsSjI3eUp1Z3hhQUx3LXdtQzZiQlhxTElZdHlMcTI0VjZDbXpGVVJsaUI5cXBrQWdoMlFtNmkzLU9VVFcwb0JRcndzMXJoX3AyX3l6VU5DU1pXZnF3R2lWOXNya3V2Qk5EWVlJdElqeXROZ3I2SFJKTUNEYU0zamZCRnJHZE1fWW1KZWFUY2NwcWczVG9zVkpzRldPcW5pTmFJUjdNUEVLOU9iLXZOSzZka1pBNy1VTm41a0NYVXVGTFBVc0E5SnVnMkVDYURJM0FLdDg5OVJscDJfNnBjRFprRTRGczRyaUdBbHRrRU9MdHF3Ug?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": null,
+   "discount": "25% 할인",
+   "verification": "news",
+   "first_published": "2026-09-25",
+   "last_published": "2026-09-25",
+   "first_seen": "2026-10-17T08:59:56+09:00",
+   "last_seen": "2026-10-17T08:59:56+09:00",
+   "articles": [
+    {
+     "title": "Hilton For Business 25% Off Sale For Stays In The Americas, Europe, Middle East & Africa October 5 – January 10, 2027 (Book By October 28)",
+     "outlet": "LoyaltyLobby",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbEZSWXZsSjI3eUp1Z3hhQUx3LXdtQzZiQlhxTElZdHlMcTI0VjZDbXpGVVJsaUI5cXBrQWdoMlFtNmkzLU9VVFcwb0JRcndzMXJoX3AyX3l6VU5DU1pXZnF3R2lWOXNya3V2Qk5EWVlJdElqeXROZ3I2SFJKTUNEYU0zamZCRnJHZE1fWW1KZWFUY2NwcWczVG9zVkpzRldPcW5pTmFJUjdNUEVLOU9iLXZOSzZka1pBNy1VTm41a0NYVXVGTFBVc0E5SnVnMkVDYURJM0FLdDg5OVJscDJfNnBjRFprRTRGczRyaUdBbHRrRU9MdHF3Ug?oc=5",
+     "published": "2026-09-25"
     }
    ],
    "status": "live"
@@ -1173,127 +1244,7 @@
    "status": "live"
   },
   {
-   "id": "h-yeogi-db578f36ca",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "domestic",
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "제주 그린키 숙박 페스타",
-   "headline": "여기어때, 제주 친환경 숙소 지원…`그린키 숙박 페스타`",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "제주"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-02",
-   "last_published": "2026-10-02",
-   "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-15T13:00:04+09:00",
-   "articles": [
-    {
-     "title": "여기어때, 제주 친환경 숙소 지원…`그린키 숙박 페스타`",
-     "outlet": "디지털데일리",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mSmFzQmtBT2ZVSUFwVTYtY3F4SGl2dGUxY2xmRVhrTDZNb3FPTDJLMkJlblhxTmhoYXoyeGZpWGhyb09rZEdPWFF0b0JQcU1zRHd4ZWtOMHd6akZjTDdpTnhn?oc=5",
-     "published": "2026-10-02"
-    },
-    {
-     "title": "여기어때, '제주 그린키 숙박 페스타' 연다",
-     "outlet": "지디넷코리아",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SMjJsdkhFMkpWRzVtVkM0S1VKYmc0UEw3UEpXMG9tX3VheVB6bThETWh4QURIRmpQaVN0ck5wNl9GSzFRZ196Y3NXVGVoYWZxRFdqOHV3?oc=5",
-     "published": "2026-10-02"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-yeogi-8d6992fb7a",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "domestic",
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "여기어때, 가평 전 숙박시설 ‘최대 3만 원’ 선착순 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "가평"
-   ],
-   "conditions": [
-    "쿠폰",
-    "선착순"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "여기어때, 가평 전 숙박시설 ‘최대 3만 원’ 선착순 할인",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MOTNHN2lvakctVERGaTlRNjZBc3JBcFUxN0RqWnRySUhQaDB1QmxNN25iclVJdWE0dVNoMmNiUU5lYTU0eC1vMi1kdllzR0UxNm1wSXdZM0VzYlcwdXVmczBndDRsUGd0?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": null,
-   "discount": "최대 3만원 할인",
-   "verification": "news",
-   "first_published": "2026-10-02",
-   "last_published": "2026-10-02",
-   "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-15T13:00:04+09:00",
-   "articles": [
-    {
-     "title": "여기어때, 가평 전 숙박시설 ‘최대 3만 원’ 선착순 할인",
-     "outlet": "더쎈뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MOTNHN2lvakctVERGaTlRNjZBc3JBcFUxN0RqWnRySUhQaDB1QmxNN25iclVJdWE0dVNoMmNiUU5lYTU0eC1vMi1kdllzR0UxNm1wSXdZM0VzYlcwdXVmczBndDRsUGd0?oc=5",
-     "published": "2026-10-02"
-    },
-    {
-     "title": "여기어때, 가평 숙소 대상 최대 3만원 할인 쿠폰 제공",
-     "outlet": "비건뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4dm9JYXIxSlV0SjVqMm1CQ05xbGQxQmM5RHRfMDIxMlJFUmdORzc4U2FTR0RiY1BYQU1TSU1sSXh2UlE4ejZRY1lzclpCYlV6Y29UVFV1cEp6VTQxWFFsUjFiTldEZw?oc=5",
-     "published": "2026-10-02"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "airseoul-9d232a6a53",
+   "id": "airseoul-86e16725ae",
    "airline_id": "airseoul",
    "airline": "에어서울",
    "airlines_mentioned": [
@@ -1302,7 +1253,7 @@
    "kind": "domestic",
    "category": "flight",
    "section": "flight",
-   "route": null,
+   "route": "international",
    "route_text": null,
    "scope": null,
    "lang": "ko",
@@ -1328,16 +1279,22 @@
    "from_icn": "unknown",
    "discount": null,
    "verification": "news",
-   "first_published": "2026-10-03",
+   "first_published": "2026-10-02",
    "last_published": "2026-10-03",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-17T08:59:56+09:00",
    "articles": [
     {
      "title": "에어서울, '임박 특가' 프로모션→비엣젯항공, '亞대표 항공사' 선정",
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81SXF6Y2lFZXdrQTVvZFFxcVh6NW82NURld1hBWEVTZmM4ZnN3WHBxUV9lYlpjV1M1b28yYS1JM1gtYkxYeE9NeDFQYmhMVG5vek5RaG1ONEttM1FmYzhIaDFMNTZ4Zw?oc=5",
      "published": "2026-10-03"
+    },
+    {
+     "title": "에어서울, 국제선 전 노선 '임박 특가'...다낭 12만원대부터",
+     "outlet": "뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fakxldWdPaFJ4YTFhOXNsLWVTLUpDdVpsRjhRNy1sVTI2VWsxOTJvd1RjLXQ5ZkdXN0M2dGVra0ZIZHhxdDVZYzVIR0kzSWNfSjJwSEc5aXBqeDJGVmc?oc=5",
+     "published": "2026-10-02"
     }
    ],
    "status": "undated"
@@ -2209,6 +2166,10 @@
    "routes": [
     {
      "origin": null,
+     "destination": "인천(ICN)"
+    },
+    {
+     "origin": null,
      "destination": "한국"
     }
    ],
@@ -2216,6 +2177,10 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {
+    "discount": {
+     "title": "아시아나, 미주~인천행 비즈니스석 7% 할인 특가",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTk5jM3VlNEgyNThvTWVhSnoyVzdMX3ZQUmFoV25Od1ZxNm44UDRVRnljazZ2QVB1Z1M5MHd4ekNHNVF4WGlZV05hWl84WjFKS2FJUWhKMzFzMWZnYWpGQUhWaHlMZDQ5ZlNpb0FNT0JKanlsVzltd1l4blYtbFZrZHliUllXZ0pqSUdlNDQ4QXdzN285QjZWOEYxMFA4RjhMYXNjR0RORGlrSnI1TGQxc2VvWXd0MmZ2WFdsWVpFT2VFMTAwTjRfWWpjUXl4Z1VzQ2c?oc=5"
+    },
     "route": {
      "title": "아시아나항공 '한국행 여름 특가 이벤트'",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzhDUERZcF9wRFpJNHkxRWNVdmY2R3d6cUU3b2dXNmZ6OFRtUEwzSFJheEFUc09ud3lWaFlLMy1oZVI3dU5laXNYYWs4aTRFb3d6RkRIajRyRnpZX0d0dTJqNmFON0RDN0VLcEJoWVRmQ2ljbXFRLUxDNlBUVVdqU200QzdrbFdEbWtZNjZ4QVB2Y0xmYi1FVHZLMmx6R0NhZFBvQ0JEZ09EYmVCOG5Ya3YxYlVaNUF3Tnc?oc=5"
@@ -2223,17 +2188,23 @@
    },
    "date_source": "none",
    "from_icn": "unknown",
-   "discount": null,
+   "discount": "7% 할인",
    "verification": "news",
    "first_published": "2026-10-12",
    "last_published": "2026-10-12",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-17T08:59:56+09:00",
    "articles": [
     {
      "title": "아시아나항공 '한국행 여름 특가 이벤트'",
      "outlet": "미주조선일보",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzhDUERZcF9wRFpJNHkxRWNVdmY2R3d6cUU3b2dXNmZ6OFRtUEwzSFJheEFUc09ud3lWaFlLMy1oZVI3dU5laXNYYWs4aTRFb3d6RkRIajRyRnpZX0d0dTJqNmFON0RDN0VLcEJoWVRmQ2ljbXFRLUxDNlBUVVdqU200QzdrbFdEbWtZNjZ4QVB2Y0xmYi1FVHZLMmx6R0NhZFBvQ0JEZ09EYmVCOG5Ya3YxYlVaNUF3Tnc?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "아시아나, 미주~인천행 비즈니스석 7% 할인 특가",
+     "outlet": "미주조선일보",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTk5jM3VlNEgyNThvTWVhSnoyVzdMX3ZQUmFoV25Od1ZxNm44UDRVRnljazZ2QVB1Z1M5MHd4ekNHNVF4WGlZV05hWl84WjFKS2FJUWhKMzFzMWZnYWpGQUhWaHlMZDQ5ZlNpb0FNT0JKanlsVzltd1l4blYtbFZrZHliUllXZ0pqSUdlNDQ4QXdzN285QjZWOEYxMFA4RjhMYXNjR0RORGlrSnI1TGQxc2VvWXd0MmZ2WFdsWVpFT2VFMTAwTjRfWWpjUXl4Z1VzQ2c?oc=5",
      "published": "2026-10-12"
     },
     {
@@ -2305,6 +2276,59 @@
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zdjUwRE5LYWM4SmtYUDhfNkVzUjRVX2EwcWxrYllWVThYSk96X2RHZEVZdEpYeEJ3WHc4T3AyaGdiWHhieUUwOGduc3B6eXd3aGV1a3lXN0s0ckVOc3FPNTBaMjljQQ?oc=5",
      "published": "2026-10-13"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-expedia-ca876f836f",
+   "airline_id": "h-expedia",
+   "airline": "익스피디아",
+   "airlines_mentioned": [
+    "익스피디아"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.expedia.co.kr/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Expedia Promo Codes And Deals: Save Up To 25% On Last-Minute Hotels And Vacation Rentals",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Expedia Promo Codes And Deals: Save Up To 25% On Last-Minute Hotels And Vacation Rentals",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUUNOcG0wbDBZdGoyQ0l1eHV1SHVTRDZQNkdWZDFKbl90MXlPa3V3emswRWhONUJybi1pVDMwMnctMl9GNVNjazlUbHI3RWVMTlVzYTNxZGh2aGJ2QnNzeE9Ub1lXcFpNR240VV9RRTJZSzMwa0xXXzBpdTVOSW01OWduY0kxdDFk?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": null,
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-10-14",
+   "last_published": "2026-10-14",
+   "first_seen": "2026-10-17T08:59:56+09:00",
+   "last_seen": "2026-10-17T08:59:56+09:00",
+   "articles": [
+    {
+     "title": "Expedia Promo Codes And Deals: Save Up To 25% On Last-Minute Hotels And Vacation Rentals",
+     "outlet": "Forbes",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUUNOcG0wbDBZdGoyQ0l1eHV1SHVTRDZQNkdWZDFKbl90MXlPa3V3emswRWhONUJybi1pVDMwMnctMl9GNVNjazlUbHI3RWVMTlVzYTNxZGh2aGJ2QnNzeE9Ub1lXcFpNR240VV9RRTJZSzMwa0xXXzBpdTVOSW01OWduY0kxdDFk?oc=5",
+     "published": "2026-10-14"
     }
    ],
    "status": "undated"
