@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T23:35:55+09:00",
+ "generated_at": "2026-10-18T00:17:24+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,16 +10,16 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2309,
+  "rss_items": 2320,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 943,
+  "outlet_items": 858,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 2,
-  "articles": 308,
-  "new_articles": 2,
-  "deals": 37
+  "articles": 309,
+  "new_articles": 1,
+  "deals": 36
  },
  "deals": [
   {
@@ -142,8 +142,8 @@
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXYUJWd2NRXzFrWlNlMXI2VmlrbGkwUGFhR0FfdWFtcWpsM182TWdzYm80Q3RnOW5DYlozQ1lvd0tjRUNTU1NTZlNRbjRfa3BIQVhzSDZHeFIwNEhmblBsc2tlbHpNS0dXV21XRA?oc=5"
     },
     "discount": {
-     "title": "강원도 숙박세일 페스타, 9월 22일~11월 8일 최대 7만 원 할인",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wMW5Zb01FMGF2X1lYcUlSVGZkRUE0X2lXRWhJZDBPSl9NYTVBMlZaMC1ORWJ3Rzk5cjZtUXpic21KSlBuRWxZakVoanpjM09zUlU0NVlRZ0lFNG1RLWxzZUJGdFZDTEh2a1BsOA?oc=5"
+     "title": "10월 숙박세일 페스타 아직 끝나지 않았습니다…최대 7만원 할인, 예약 전에 놓치면 안 되는 조건",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ3lKcmFLVEYtdXp3U1NEbGV2VDJRRXNBWGsybjZiUEZXVG5uNFJDMTZQdXl4bnpTTE85TG1yUHVhVUJWcUxGMHRYXzhYeXRYTUQ3eEZYTUxHWUhIMEViMGhXemxmTm5oRmpVRUxIMkYyWHlnMnZLczNOcVN6X3prb2JfWmhqSzR0aHEw?oc=5"
     }
    },
    "date_source": "title",
@@ -153,13 +153,19 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-17T23:35:55+09:00",
+   "last_seen": "2026-10-18T00:17:24+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
      "outlet": "여행픽",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXYUJWd2NRXzFrWlNlMXI2VmlrbGkwUGFhR0FfdWFtcWpsM182TWdzYm80Q3RnOW5DYlozQ1lvd0tjRUNTU1NTZlNRbjRfa3BIQVhzSDZHeFIwNEhmblBsc2tlbHpNS0dXV21XRA?oc=5",
      "published": "2026-10-09"
+    },
+    {
+     "title": "10월 숙박세일 페스타 아직 끝나지 않았습니다…최대 7만원 할인, 예약 전에 놓치면 안 되는 조건",
+     "outlet": "네이버 프리미엄콘텐츠",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ3lKcmFLVEYtdXp3U1NEbGV2VDJRRXNBWGsybjZiUEZXVG5uNFJDMTZQdXl4bnpTTE85TG1yUHVhVUJWcUxGMHRYXzhYeXRYTUQ3eEZYTUxHWUhIMEViMGhXemxmTm5oRmpVRUxIMkYyWHlnMnZLczNOcVN6X3prb2JfWmhqSzR0aHEw?oc=5",
+     "published": "2026-10-02"
     },
     {
      "title": "강원도 숙박세일 페스타, 9월 22일~11월 8일 최대 7만 원 할인",
@@ -566,89 +572,6 @@
    "status": "live"
   },
   {
-   "id": "airpremia-03dc368db4",
-   "airline_id": "airpremia",
-   "airline": "에어프레미아",
-   "airlines_mentioned": [
-    "에어프레미아"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airpremia.com/",
-   "iata": [
-    "YP"
-   ],
-   "agencies": [],
-   "event_name": "미주 할인 이벤트",
-   "headline": "에어프레미아, LA 노선 취항 기념 ‘미주 할인 이벤트’ 펼쳐",
-   "sale_start": "2026-10-10",
-   "sale_end": "2026-10-17",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "에어프레미아, 10~17일 할인이벤트 ‘프로미스’ 실행",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa3BMbkNVaEhXaVAtMnJKX3B4TzJrQXZETm9wa2ZfWjNTdll2dzJrNkNweTFMY1FDbHJSZ01ZQkFUeEQxQzVxZFI0NUsyRWdUNm9URnl5ZWx2SkVqV3VfUG56X19pazRMdTR3RWw1NG94dWpoOGRGWGpyWFZPWnVjWkdZREFlQzRyVVZvdl92SFhVck5TcTBNNGV3UGdJVnNNdlR6cEpqeWZoaUJKQ251Z0M4UWl0WDRoYnJKV1lZd0J5WEs2R0RHQWVhaTUyR2p2V1E?oc=5"
-    },
-    "discount": {
-     "title": "에어프레미아, 미주 노선 최대 25% 할인…인천~LA 노선 취항 4주년·점유율 20% 기념",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ca2oyeV8tem5sTkhqOUNfVzR5NlJBQUdPM1hKS2poT3JYSkFZV28yb19zT3ZpbTU0a3ZCOXVKV294SXV0TUprZmFqNDZzWnhiZmdubjJmS0xJVm8?oc=5"
-    }
-   },
-   "date_source": "title",
-   "from_icn": "yes",
-   "discount": "최대 25%",
-   "verification": "news",
-   "first_published": "2026-10-11",
-   "last_published": "2026-10-12",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T15:21:19+09:00",
-   "articles": [
-    {
-     "title": "에어프레미아, LA 노선 취항 기념 ‘미주 할인 이벤트’ 펼쳐",
-     "outlet": "충남일보",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CX0hGQkxCRkhzX1BuaWF3Tk81eXVPN0FBVXpaM0VuZmNlNnhFVVE1UUpLUVBLbXMxVVV3NzdMb2diYWFUeDVzbVpPOE1TZWI1R3FxVUo0NWpBWnBYVUd4UV96YlBiVGlNX2pyOVlxYUltZlk?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "에어프레미아, LA 노선 국적사 점유율 20.8% … 미주 5개 노선 할인",
-     "outlet": "워크투데이",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6YU5tZ2NmZmI0dWlNdlZHY2JqY0pYVGFYdDFfQVlyX240OUJhNVZ4TFo1Z1NuaE1DMzRFdXVOQ1o2aU5pMktvLUdkclJSM3FaQk9CcksxR0MyZWpoZkx1UDF3VEZ1VWVxUXBlXw?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "에어프레미아, LA 취항 4년 만에 점유율 20% ↑…할인 이벤트 진행 - 머니투데이",
-     "outlet": "머니투데이",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2Slh1MmZpdHZ0UjNnSEtPakpFWFdCaHNiajc2cC1tVkFlZTEtSFFqVHlQekpXQllWajBUb0t6WXJCME13Vks1d2ZfQUEzUzJ0c09IMkhhNXhrU1hfYWk4TE5STkpiSFJlcEJRbtIBckFVX3lxTFAyZ2FMa2hkVzNpQXN2VTAyN3N3V0g4Y0dXcF9VS0tJbjY3V0ZzNjYtVWxjTDBQNUpwZ0hjNVgzakQtWUl4VGtXOU9admtKUzJYQzVxeG9uTkxiQjdQcTNTM1NzZy1QZkxnWDBaLTJsSlVtZw?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "에어프레미아, 미주 노선 최대 25% 할인…인천~LA 노선 취항 4주년·점유율 20% 기념",
-     "outlet": "경기일보",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ca2oyeV8tem5sTkhqOUNfVzR5NlJBQUdPM1hKS2poT3JYSkFZV28yb19zT3ZpbTU0a3ZCOXVKV294SXV0TUprZmFqNDZzWnhiZmdubjJmS0xJVm8?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "에어프레미아, 10~17일 할인이벤트 ‘프로미스’ 실행",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa3BMbkNVaEhXaVAtMnJKX3B4TzJrQXZETm9wa2ZfWjNTdll2dzJrNkNweTFMY1FDbHJSZ01ZQkFUeEQxQzVxZFI0NUsyRWdUNm9URnl5ZWx2SkVqV3VfUG56X19pazRMdTR3RWw1NG94dWpoOGRGWGpyWFZPWnVjWkdZREFlQzRyVVZvdl92SFhVck5TcTBNNGV3UGdJVnNNdlR6cEpqeWZoaUJKQ251Z0M4UWl0WDRoYnJKV1lZd0J5WEs2R0RHQWVhaTUyR2p2V1E?oc=5",
-     "published": "2026-10-11"
-    }
-   ],
-   "status": "live"
-  },
-  {
    "id": "h-paradise-5b561f60db",
    "airline_id": "h-paradise",
    "airline": "파라다이스",
@@ -951,7 +874,7 @@
     }
    },
    "date_source": "title",
-   "from_icn": "unknown",
+   "from_icn": "no",
    "discount": "최대 20%",
    "verification": "news",
    "first_published": "2026-10-11",
@@ -1178,7 +1101,7 @@
     }
    },
    "date_source": "title",
-   "from_icn": "unknown",
+   "from_icn": "no",
    "discount": "최대 2만원 할인",
    "verification": "news",
    "first_published": "2026-10-10",
@@ -1322,62 +1245,6 @@
    "status": "live"
   },
   {
-   "id": "airseoul-86e16725ae",
-   "airline_id": "airseoul",
-   "airline": "에어서울",
-   "airlines_mentioned": [
-    "에어서울"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://flyairseoul.com/",
-   "iata": [
-    "RS"
-   ],
-   "agencies": [],
-   "event_name": "임박 특가",
-   "headline": "에어서울, '임박 특가' 프로모션→비엣젯항공, '亞대표 항공사' 선정",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-02",
-   "last_published": "2026-10-03",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-17T08:59:56+09:00",
-   "articles": [
-    {
-     "title": "에어서울, '임박 특가' 프로모션→비엣젯항공, '亞대표 항공사' 선정",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81SXF6Y2lFZXdrQTVvZFFxcVh6NW82NURld1hBWEVTZmM4ZnN3WHBxUV9lYlpjV1M1b28yYS1JM1gtYkxYeE9NeDFQYmhMVG5vek5RaG1ONEttM1FmYzhIaDFMNTZ4Zw?oc=5",
-     "published": "2026-10-03"
-    },
-    {
-     "title": "에어서울, 국제선 전 노선 '임박 특가'...다낭 12만원대부터",
-     "outlet": "뉴스투데이",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fakxldWdPaFJ4YTFhOXNsLWVTLUpDdVpsRjhRNy1sVTI2VWsxOTJvd1RjLXQ5ZkdXN0M2dGVra0ZIZHhxdDVZYzVIR0kzSWNfSjJwSEc5aXBqeDJGVmc?oc=5",
-     "published": "2026-10-02"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "jinair-d144af90ca",
    "airline_id": "jinair",
    "airline": "진에어",
@@ -1505,25 +1372,23 @@
    "status": "undated"
   },
   {
-   "id": "airseoul-b0a8a4cad6",
-   "airline_id": "airseoul",
-   "airline": "에어서울",
+   "id": "h-inspire-b0a8a4cad6",
+   "airline_id": "h-inspire",
+   "airline": "인스파이어",
    "airlines_mentioned": [
-    "에어서울"
+    "인스파이어"
    ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
    "route": null,
    "route_text": null,
    "scope": null,
    "lang": "ko",
    "trial": false,
-   "baseline": "flight",
-   "official_url": "https://flyairseoul.com/",
-   "iata": [
-    "RS"
-   ],
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
    "agencies": [],
    "event_name": null,
    "headline": "에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인",
@@ -1542,7 +1407,7 @@
     }
    },
    "date_source": "none",
-   "from_icn": "unknown",
+   "from_icn": null,
    "discount": "최대 15%",
    "verification": "news",
    "first_published": "2026-10-07",
@@ -1654,7 +1519,7 @@
     }
    },
    "date_source": "none",
-   "from_icn": "unknown",
+   "from_icn": "no",
    "discount": "최대 80%",
    "verification": "news",
    "first_published": "2026-10-08",
@@ -2154,7 +2019,7 @@
    "conflicts": [],
    "evidence": {},
    "date_source": "none",
-   "from_icn": "unknown",
+   "from_icn": "no",
    "discount": null,
    "verification": "news",
    "first_published": "2026-10-12",
@@ -2271,7 +2136,7 @@
     }
    },
    "date_source": "none",
-   "from_icn": "unknown",
+   "from_icn": "no",
    "discount": "7% 할인",
    "verification": "news",
    "first_published": "2026-10-12",
@@ -2905,6 +2770,89 @@
      "outlet": "트래비 매거진",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uRUpiTGItaE9sekxjcVd6MW56d0Nta0poTnI0R2hJYUszU2pUWlVraXh1LU9BYlI5MFRNeGQ5V2dIc3poTUZhaWs5OVZISDVmNENCTVVrNFVvdVlmWXY1RDZndXJuajDSAWtBVV95cUxNZnltQ1o1cWE3cFlzelhodUJUc2RwajJhRUdGcUVia0NocGpOX1NTekxvYUhIdXFqSFpVVWRFYWxNVjdaSVh6VTBXT0NqeG42RFVrVXc2WWNhNks3S1JNSVExRWF0U1ZhS0hSSQ?oc=5",
      "published": "2026-10-08"
+    }
+   ],
+   "status": "ended"
+  },
+  {
+   "id": "airpremia-03dc368db4",
+   "airline_id": "airpremia",
+   "airline": "에어프레미아",
+   "airlines_mentioned": [
+    "에어프레미아"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airpremia.com/",
+   "iata": [
+    "YP"
+   ],
+   "agencies": [],
+   "event_name": "미주 할인 이벤트",
+   "headline": "에어프레미아, LA 노선 취항 기념 ‘미주 할인 이벤트’ 펼쳐",
+   "sale_start": "2026-10-10",
+   "sale_end": "2026-10-17",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "에어프레미아, 10~17일 할인이벤트 ‘프로미스’ 실행",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa3BMbkNVaEhXaVAtMnJKX3B4TzJrQXZETm9wa2ZfWjNTdll2dzJrNkNweTFMY1FDbHJSZ01ZQkFUeEQxQzVxZFI0NUsyRWdUNm9URnl5ZWx2SkVqV3VfUG56X19pazRMdTR3RWw1NG94dWpoOGRGWGpyWFZPWnVjWkdZREFlQzRyVVZvdl92SFhVck5TcTBNNGV3UGdJVnNNdlR6cEpqeWZoaUJKQ251Z0M4UWl0WDRoYnJKV1lZd0J5WEs2R0RHQWVhaTUyR2p2V1E?oc=5"
+    },
+    "discount": {
+     "title": "에어프레미아, 미주 노선 최대 25% 할인…인천~LA 노선 취항 4주년·점유율 20% 기념",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ca2oyeV8tem5sTkhqOUNfVzR5NlJBQUdPM1hKS2poT3JYSkFZV28yb19zT3ZpbTU0a3ZCOXVKV294SXV0TUprZmFqNDZzWnhiZmdubjJmS0xJVm8?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": "yes",
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-10-11",
+   "last_published": "2026-10-12",
+   "first_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-15T15:21:19+09:00",
+   "articles": [
+    {
+     "title": "에어프레미아, LA 노선 취항 기념 ‘미주 할인 이벤트’ 펼쳐",
+     "outlet": "충남일보",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CX0hGQkxCRkhzX1BuaWF3Tk81eXVPN0FBVXpaM0VuZmNlNnhFVVE1UUpLUVBLbXMxVVV3NzdMb2diYWFUeDVzbVpPOE1TZWI1R3FxVUo0NWpBWnBYVUd4UV96YlBiVGlNX2pyOVlxYUltZlk?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "에어프레미아, LA 노선 국적사 점유율 20.8% … 미주 5개 노선 할인",
+     "outlet": "워크투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6YU5tZ2NmZmI0dWlNdlZHY2JqY0pYVGFYdDFfQVlyX240OUJhNVZ4TFo1Z1NuaE1DMzRFdXVOQ1o2aU5pMktvLUdkclJSM3FaQk9CcksxR0MyZWpoZkx1UDF3VEZ1VWVxUXBlXw?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "에어프레미아, LA 취항 4년 만에 점유율 20% ↑…할인 이벤트 진행 - 머니투데이",
+     "outlet": "머니투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2Slh1MmZpdHZ0UjNnSEtPakpFWFdCaHNiajc2cC1tVkFlZTEtSFFqVHlQekpXQllWajBUb0t6WXJCME13Vks1d2ZfQUEzUzJ0c09IMkhhNXhrU1hfYWk4TE5STkpiSFJlcEJRbtIBckFVX3lxTFAyZ2FMa2hkVzNpQXN2VTAyN3N3V0g4Y0dXcF9VS0tJbjY3V0ZzNjYtVWxjTDBQNUpwZ0hjNVgzakQtWUl4VGtXOU9admtKUzJYQzVxeG9uTkxiQjdQcTNTM1NzZy1QZkxnWDBaLTJsSlVtZw?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "에어프레미아, 미주 노선 최대 25% 할인…인천~LA 노선 취항 4주년·점유율 20% 기념",
+     "outlet": "경기일보",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ca2oyeV8tem5sTkhqOUNfVzR5NlJBQUdPM1hKS2poT3JYSkFZV28yb19zT3ZpbTU0a3ZCOXVKV294SXV0TUprZmFqNDZzWnhiZmdubjJmS0xJVm8?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "에어프레미아, 10~17일 할인이벤트 ‘프로미스’ 실행",
+     "outlet": "미주조선일보",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa3BMbkNVaEhXaVAtMnJKX3B4TzJrQXZETm9wa2ZfWjNTdll2dzJrNkNweTFMY1FDbHJSZ01ZQkFUeEQxQzVxZFI0NUsyRWdUNm9URnl5ZWx2SkVqV3VfUG56X19pazRMdTR3RWw1NG94dWpoOGRGWGpyWFZPWnVjWkdZREFlQzRyVVZvdl92SFhVck5TcTBNNGV3UGdJVnNNdlR6cEpqeWZoaUJKQ251Z0M4UWl0WDRoYnJKV1lZd0J5WEs2R0RHQWVhaTUyR2p2V1E?oc=5",
+     "published": "2026-10-11"
     }
    ],
    "status": "ended"
