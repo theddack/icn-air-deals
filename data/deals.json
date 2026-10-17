@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T22:14:18+09:00",
+ "generated_at": "2026-10-17T22:25:33+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,15 +10,15 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2271,
+  "rss_items": 2304,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 955,
+  "outlet_items": 954,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 2,
-  "articles": 301,
-  "new_articles": 2,
+  "articles": 304,
+  "new_articles": 3,
   "deals": 37
  },
  "deals": [
@@ -122,8 +122,8 @@
    "regions": [
     "강원",
     "전남광주",
-    "경남",
-    "비수도권"
+    "비수도권",
+    "경남"
    ],
    "conditions": [
     "연박",
@@ -147,7 +147,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-17T22:14:18+09:00",
+   "last_seen": "2026-10-17T22:25:33+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
@@ -186,9 +186,21 @@
      "published": "2026-09-28"
     },
     {
+     "title": "웹투어, 가을 국내여행 숙박 할인...숙박세일 페스타 혜택 안내",
+     "outlet": "빅데이터뉴스",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5fcHVISkRKUkxTcDlnenZjU2p2LUtDOFlZSHhnb3BuOVRIYm9ucmFuYUJNRjRERmxpM0xNdzdkSklJQzJaSTg2YnZ5MjVXRFJyN3p1NU1nUU95R3BWTTBBc2ZWSF9USkxOblpLajI0OUw2eFdxMnVMU1Y5Njc?oc=5",
+     "published": "2026-09-28"
+    },
+    {
      "title": "숙박세일 페스타...웹투어, 가을 국내 숙박여행 할인 혜택 강화",
      "outlet": "글로벌에픽",
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1abTZsOGZWUWg4UTlBRmZZTXpYX2pqcDdweWZaamdyZ0hXcy1VRlE5WE9ObjY5NndFb2ZkbFVJOFNxV3lxaXUtSVBNdE9VUjY5c1dwenFLQXcwZ3MxbUppMU13NmdyRU5NR2xFeDZ3enJHd3RJNzRJYm9mdms?oc=5",
+     "published": "2026-09-28"
+    },
+    {
+     "title": "웹투어, '2026 대한민국 숙박세일 페스타' 참여...국내여행 숙박 할인 안내",
+     "outlet": "로이슈",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1VOXJCU19QYVF3MVlFUjc2NDZZZUlvaHVCSTVQbDkyTXZ2MXhpc0VMaUlhM1JSMUNEdUMxSmxHUnhubFhWNS1zWU1hME1MRS05YWlUblkzaGZsSGtXUVZ5VjFhd0RvbF9EMHlwS3lHbXVnZFRMbmtrakJB?oc=5",
      "published": "2026-09-28"
     },
     {
@@ -388,6 +400,12 @@
      "outlet": "전자신문",
      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5IamUyOFZwdWZsSkpBdXVfYXRpdjVTQWI5M01EMk1ua2hSSWpybTEwbUxLdGl3RUhReEdQMlIyOV9FMEpTYkw3RlVGS2pWdw?oc=5",
      "published": "2026-09-22"
+    },
+    {
+     "title": "웹투어, 숙박세일 페스타 행사 참여... 9월 22일부터 비수도권 최대 3만원 쿠폰",
+     "outlet": "로이슈",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aSHY3NnZEQWljVGdVZXM3Q2lwNldHOXJ6Wkpsc3NTZVMzcTBCbEtIZW9qY1B6QlMwclJBT3NleTdPU3MyZGJ1b2drRVpWT1lhbnNmZ1piT3RIcFIzZXFyOFIzYnZiMF9fTkRoSUZiSTdwckhnU1dmTg?oc=5",
+     "published": "2026-09-21"
     },
     {
      "title": "강원도, 숙박세일페스타 가을편…최대 7만원 할인",
