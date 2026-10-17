@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T23:09:41+09:00",
+ "generated_at": "2026-10-17T23:31:40+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,14 +10,14 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2319,
+  "rss_items": 2295,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 948,
+  "outlet_items": 942,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 2,
-  "articles": 305,
+  "articles": 306,
   "new_articles": 1,
   "deals": 37
  },
