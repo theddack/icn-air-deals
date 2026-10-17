@@ -114,6 +114,18 @@
     return esc([scope, names].filter(Boolean).join(" · ")) || "미확인";
   }
 
+  // 공식 링크 이름. 대부분 홈페이지 첫 화면이라 행사 페이지처럼 부르지 않는다.
+  // 이벤트 목록 주소를 확인한 곳(아시아나 /event/list, 이스타 PGWTA00001 — collector/airlines.py)만 '이벤트 목록'
+  var EVENT_LIST_URL = /\/event\/|PGWTA00001/i;
+  function officialLabel(d) {
+    if (EVENT_LIST_URL.test(d.official_url)) return "공식 이벤트 목록";
+    return sectionOf(d) === "hotel" ? "공식 홈페이지" : "항공사 홈페이지";
+  }
+  function officialLink(d, cls) {
+    return d.official_url ? '<a' + (cls ? ' class="' + cls + '"' : "") + ' href="' + esc(d.official_url) +
+      '" target="_blank" rel="noopener" title="행사 안내 페이지가 아닐 수 있습니다">' + officialLabel(d) + " ↗</a>" : "";
+  }
+
   function routesText(d) {
     return (d.routes || []).map(function (r) {
       return esc(r.origin || "출발 미확인") + " → " + esc(r.destination || "도착 미확인");
@@ -172,7 +184,7 @@
     return '<details class="dest-block"><summary>' + head + "</summary>" +
       '<p class="dest-note">행사 대상 노선: ' + (nTarget ? nTarget + "곳 기사로 확인" : "기사에서 인천 출발 노선 확인 안 됨") +
         (other.length ? " · 기사 노선은 " + esc(other.join(", ")) : "") +
-        "<br>좌석이 남았는지·할인가는 알 수 없습니다 (" + (d.official_url ? '<a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">공식 페이지에서 확인 ↗</a>' : "공식 페이지에서 확인") + ")." +
+        "<br>좌석이 남았는지·할인가는 알 수 없습니다 (" + (d.official_url ? officialLink(d) + "에서 확인" : "공식 페이지에서 확인") + ")." +
         " 편수는 인천공항 정기 일정 기준 공동운항 판매 편명 제외, " + md(sch.coverage.full_until) + "까지 확보.</p>" +
       (items ? "<ul>" + items + "</ul>" : "") + "</details>";
   }
@@ -236,7 +248,7 @@
       "</div>" +
       (brief ? '<p class="brief">' + brief + "</p>" : "") +
       '<div class="foot-row main-foot"><span>' + (verified ? "항공사 공식 확인" : "뉴스 기사 기반 · 예약 전 공식 확인") + "</span>" +
-        (d.official_url ? '<a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">공식 페이지에서 확인 ↗</a>' : "") +
+        officialLink(d, "official-link") +
       "</div>" +
       '<details class="more"><summary>상세 정보 · 관련 기사 ' + d.articles.length + "건</summary>" +
         "<dl>" + row(SECTIONS[sec].who, airline) + rows +
@@ -314,6 +326,53 @@
     updateTabCounts();
     var base = deals.filter(visible);
     renderList(base, today);
+    writeUrl();
+  }
+
+  // ---------------------------------------------------------------- 주소에 검색·필터 상태 저장
+  // #탭?q=…&f=…&kind=…&scope=…&airline=…&sort=…&icn=0 형식. 기본값은 넣지 않는다.
+  // 예전 주소(#hotel, #domestic, #flights)도 그대로 열린다. 항공권 탭에 조건이 없으면 해시를 비운다.
+  function parseHash() {
+    var h = location.hash.slice(1), i = h.indexOf("?");
+    var raw = decodeURIComponent(i < 0 ? h : h.slice(0, i));
+    return { raw: raw, sec: SECTIONS[raw] || raw === "flights" ? raw : "flight", p: new URLSearchParams(i < 0 ? "" : h.slice(i + 1)) };
+  }
+
+  function writeUrl() {
+    if (state.section === "flights") return;
+    var p = new URLSearchParams();
+    if (state.q) p.set("q", state.q);
+    if (state.filter !== "all") p.set("f", state.filter);
+    if (state.kind !== "all") p.set("kind", state.kind);
+    if (state.section === "hotel" && state.scope !== "all") p.set("scope", state.scope);
+    if (state.airline !== "all") p.set("airline", state.airline);
+    if (state.sort !== "default") p.set("sort", state.sort);
+    if (state.section === "flight" && !state.hideOther) p.set("icn", "0");
+    var qs = p.toString();
+    var url = state.section === "flight" && !qs ? location.pathname + location.search : "#" + state.section + (qs ? "?" + qs : "");
+    try { history.replaceState(null, "", url); } catch (e) { /* 미리보기 등 */ }
+  }
+
+  // 주소 값을 상태와 입력 칸에 반영한다. 선택지에 없는 값은 무시하고 기본값으로 둔다
+  function applyParams(p) {
+    function opt(id, v) {
+      var sel = document.getElementById(id);
+      return v && [].some.call(sel.options, function (o) { return o.value === v; }) ? v : "all";
+    }
+    state.q = (p.get("q") || "").trim();
+    state.filter = FILTER_LABEL[p.get("f")] ? p.get("f") : "all";
+    state.kind = opt("kind", p.get("kind"));
+    state.scope = state.section === "hotel" ? opt("scope", p.get("scope")) : "all";
+    state.airline = opt("airline", p.get("airline"));
+    var sort = opt("sort", p.get("sort"));
+    state.sort = sort === "all" ? "default" : sort;
+    state.hideOther = p.get("icn") !== "0";
+    document.getElementById("q").value = state.q;
+    document.getElementById("kind").value = state.kind;
+    document.getElementById("scope").value = state.scope;
+    document.getElementById("airline").value = state.airline;
+    document.getElementById("sort").value = state.sort;
+    document.getElementById("hide-other").checked = state.hideOther;
   }
 
   // 탭 숫자는 어느 탭에 있든 행사 데이터 기준으로 채운다 (시간표 탭으로 바로 들어와도)
@@ -343,6 +402,11 @@
     document.getElementById("official-btn").hidden = !base.some(function (d) { return d.verification === "official"; });
     var shown = sorted(base.filter(function (d) { return matches(d, state.filter, today); }));
     document.getElementById("list").innerHTML = shown.map(function (d) { return card(d, today); }).join("");
+    // 모바일 '필터 · 정렬' 버튼 안에 접힌 조건 중 기본값이 아닌 것의 수
+    var folded = [state.kind !== "all", state.section === "hotel" && state.scope !== "all", state.airline !== "all",
+      state.sort !== "default", state.section === "flight" && !state.hideOther].filter(Boolean).length;
+    var fn = document.getElementById("filter-n");
+    fn.hidden = !folded; fn.textContent = folded;
     var conds = activeConditions();
     document.getElementById("active").hidden = !conds.length;
     document.getElementById("active-text").textContent = "적용된 조건: " + conds.join(" · ") + " · " + shown.length + "건";
@@ -480,7 +544,7 @@
   // 행사 이름은 최신 기사로, 옆에 항공사 공식 페이지와 기사에 나온 판매처(여행사·플랫폼) 링크
   function dealLinks(d) {
     var links = [];
-    if (d.official_url) links.push('<a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">' + esc(d.airline) + " 공식 ↗</a>");
+    if (d.official_url) links.push('<a href="' + esc(d.official_url) + '" target="_blank" rel="noopener" title="' + officialLabel(d) + '">' + esc(d.airline) + " 공식 ↗</a>");
     (d.agencies || []).forEach(function (g) {
       links.push('<a href="' + esc(g.url) + '" target="_blank" rel="noopener" title="기사 제목에 나온 판매처">' + esc(g.name) + " ↗</a>");
     });
@@ -625,8 +689,9 @@
     document.getElementById("n-flights").textContent = countToday();
   }
 
-  // 탭을 바꾸면 그 종류에 맞게 구분·항공사(브랜드) 선택지와 검색 안내를 다시 만든다
-  function setSection(sec) {
+  // 탭을 바꾸면 그 종류에 맞게 구분·항공사(브랜드) 선택지와 검색 안내를 다시 만든다.
+  // params(주소의 조건)가 있으면 선택지를 만든 뒤 그 조건을 적용한다
+  function setSection(sec, params) {
     var isSch = sec === "flights";
     document.querySelectorAll(".deal-view").forEach(function (el) { el.hidden = isSch; });
     document.getElementById("schedule").hidden = !isSch;
@@ -657,8 +722,8 @@
       o.value = id; o.textContent = ids[id];
       sel.appendChild(o);
     });
-    try { history.replaceState(null, "", sec === "flight" ? location.pathname + location.search : "#" + sec); } catch (e) { /* 미리보기 등 */ }
-    render();
+    if (params) applyParams(params);
+    render(); // render가 주소도 갱신한다
   }
 
   function sortKey(d) {
@@ -699,8 +764,8 @@
     showHealth(data);
 
     deals.forEach(function (d) { if (d.airline_id !== "multi") names[d.airline_id] = d.airline; });
-    var fromHash = location.hash.slice(1);
-    setSection(SECTIONS[fromHash] || fromHash === "flights" ? fromHash : "flight");
+    var h = parseHash();
+    setSection(h.sec, h.p);
   }
 
   // 요약 타일과 툴바 버튼이 같은 필터를 쓴다. 켜진 타일을 다시 누르면 전체로 돌아간다.
@@ -715,10 +780,12 @@
     b.addEventListener("click", function () { setSection(b.dataset.section); });
   });
   // 주소의 #domestic·#hotel을 직접 바꾸거나 뒤로 가기를 해도 탭이 따라간다
+  // 조건이 담긴 주소를 붙여 넣어도 따라간다. #guide 같은 페이지 안 이동은 무시한다
   window.addEventListener("hashchange", function () {
-    var sec = location.hash.slice(1);
-    sec = SECTIONS[sec] || sec === "flights" ? sec : "flight";
-    if (deals.length && sec !== state.section) setSection(sec);
+    var h = parseHash();
+    if (!deals.length || (h.raw && h.sec !== h.raw)) return;
+    if (h.sec !== state.section) setSection(h.sec, h.p);
+    else if (h.sec !== "flights") { applyParams(h.p); render(); }
   });
   document.getElementById("scope").addEventListener("change", function (e) { state.scope = e.target.value; render(); });
   document.getElementById("kind").addEventListener("change", function (e) { state.kind = e.target.value; render(); });
@@ -726,6 +793,10 @@
   document.getElementById("q").addEventListener("input", function (e) { state.q = e.target.value.trim(); render(); });
   document.getElementById("hide-other").addEventListener("change", function (e) { state.hideOther = e.target.checked; render(); });
   document.getElementById("sort").addEventListener("change", function (e) { state.sort = e.target.value; render(); });
+  document.getElementById("filter-toggle").addEventListener("click", function (e) {
+    var open = document.getElementById("deal-filters").classList.toggle("open");
+    e.currentTarget.setAttribute("aria-expanded", String(open));
+  });
   // 조건 초기화 버튼은 조건 줄과 빈 목록 안내 두 곳에 있다
   document.addEventListener("click", function (e) { if (e.target.closest("[data-reset]")) resetFilters(); });
   document.querySelectorAll(".quick [data-day]").forEach(function (b) {
