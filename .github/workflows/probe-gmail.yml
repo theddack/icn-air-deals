@@ -1,0 +1,28 @@
+name: probe-gmail
+
+# Gmail 연결과 항공사 메일 현황 확인용. 수동 실행만. 계정은 Secrets에서 읽고, 로그에는 항공사별 메일 수와
+# 발신 도메인만 남긴다 (scripts/probe_gmail.py).
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "최근 며칠치 메일을 볼지"
+        default: "30"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DAYS: ${{ inputs.days }}
+        run: python -m scripts.probe_gmail "$DAYS"
