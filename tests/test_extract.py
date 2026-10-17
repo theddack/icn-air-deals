@@ -136,6 +136,25 @@ class TestFilters(unittest.TestCase):
         self.assertTrue(x.is_sale_article("에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택"))
 
 
+class TestNotFare(unittest.TestCase):
+    """2026-10-18 검토에서 항공권 행사로 잘못 들어온 제목. 할인 대상이 숙박·수하물이다."""
+
+    def test_partner_hotel_discount_is_not_fare(self):
+        for t in ["대한항공-아웃리거, 하와이·태국 최대 35% 할인..태양의 서커스도 혜택",
+                  "아웃리거X대한항공, 하와이·태국 숙박 최대 35% 할인 프로모션",
+                  "아웃리거 리조트 프로모션, 대한항공 항공권 구매하면 하와이·태국 호텔 6곳 최대 35% 할인"]:
+            self.assertFalse(x.is_sale_article(t), t)
+
+    def test_baggage_discount_is_not_fare(self):
+        for t in ["진에어, 韓·日·대만 신규 고객 잡는다…수하물 할인·항공권 경품 제공",
+                  "진에어, 한·일·대만 신규 회원에 수하물 3만원 할인… 왕복 항공권 추첨도"]:
+            self.assertFalse(x.is_sale_article(t), t)
+
+    def test_fare_discount_with_hotel_word_stays_fare(self):
+        self.assertTrue(x.is_sale_article("진에어, 호텔 결합 항공권 최대 10% 할인"))
+        self.assertTrue(x.is_sale_article("에어부산, 연말 국제선 특가 프로모션… 편도 7만5900원부터"))
+
+
 class TestRenamedAirline(unittest.TestCase):
     def test_tway_is_trinity(self):
         self.assertEqual(x.detect_airline("티웨이항공, 13일까지 국제선 특가"), "trinity")
@@ -175,6 +194,17 @@ class TestIcn(unittest.TestCase):
         self.assertEqual(x.icn_flag("에어부산, 일본·중국·동남아 국제선 특가행사…부산과 인천출발 대상"), "yes")
         self.assertEqual(x.icn_flag("티웨이항공, 인천-자카르타 “편도 총액 239,200원부터”"), "yes")
         self.assertEqual(x.icn_flag("인천발 다낭 노선 특가"), "yes")
+
+    def test_inbound_and_regional_departures_are_not_icn(self):
+        # 2026-10-18 검토: 해외 출발·한국행, 지역 공항 출발 행사가 인천 출발 탭에 남아 있었다
+        for t in ["에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
+                  "에어프레미아, 미주출발 항공권 최대 20% 프로모션",
+                  "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
+                  "아시아나, 미주~인천행 비즈니스석 7% 할인 특가",
+                  "트리니티항공, 지역 공항 출발 항공권 할인…23일까지 ‘우리 동네 할인’ 진행",
+                  "트리니티항공, 지방 공항 출발 노선 대상 ‘우리 동네 할인’ 프로모션 실시"]:
+            self.assertEqual(x.icn_flag(t), "no", t)
+        self.assertEqual(x.icn_flag("비엣젯항공, 국제선 확대 기념 특가 프로모션…한국~베트남 편도 12만9천원부터"), "unknown")
         self.assertEqual(x.icn_flag("에어프레미아, 미주 노선 최대 25% 할인…인천~LA 노선 취항 4주년"), "yes")
 
 
@@ -250,7 +280,9 @@ class TestHotel(unittest.TestCase):
         self.assertIsNone(attribute_hotel("여기어때·아고다, 호텔 특가 경쟁")[0])
 
     def test_flight_wins_over_hotel(self):
-        self.assertEqual(category_of("에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인"), "flight")
+        self.assertEqual(category_of("트리니티항공, 국제선 60개 노선 최대 22% 할인"), "flight")
+        # 2026-10-18: 항공사가 나와도 할인 대상이 제휴 호텔 숙박이면 호텔 행사다
+        self.assertEqual(category_of("에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인"), "hotel")
         self.assertEqual(category_of("여기어때, 가평 숙소 대상 최대 3만원 할인 쿠폰 제공"), "hotel")
         self.assertIsNone(category_of("롯데호텔 침구 백화점서 산다"))
 

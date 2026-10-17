@@ -253,7 +253,9 @@ def _to_deal(airline_id, arts):
     if category == "hotel":
         from_icn = None
     else:
-        from_icn = "yes" if "yes" in icn else ("no" if all(x == "no" for x in icn) else "unknown")
+        # 인천 출발 근거가 하나라도 있으면 yes. 없고 다른 출발지(한국행 포함)가 명시된 기사가 있으면 no
+        # (같은 행사 기사 대부분은 출발지를 말하지 않는다 — 2026-10-18 '우리 동네 할인' 4건 중 1건만 '광주 출발')
+        from_icn = "yes" if "yes" in icn else ("no" if "no" in icn else "unknown")
     routes = {a.get("route") for a in arts} - {None}
     route = routes.pop() if len(routes) == 1 else None  # compatible()이 서로 다른 구분을 막는다
     section = "hotel" if category == "hotel" else ("domestic" if route == "domestic" else "flight")

@@ -8,8 +8,7 @@ from collector.main import enrich
 from collector.merge import cluster_articles
 
 EN_SALES = ["ALL Accor+ Explorer 30% To 50% Off “Red Hot Rooms” October 2026 Update",
-            "Save 15% on luxury resorts, with this Club Med discount code",
-            "10.10 travel sale: Where to score discounted flights, hotel stays and more this October"]
+            "Save 15% on luxury resorts, with this Club Med discount code"]
 EN_NOT_SALES = ["Hyatt promo: Earn 1.5X Aeroplan points on stays in addition to Hyatt points",   # 포인트
                 "New Marriott Bonvoy Promotion: 1,000 Points per Stay in Canada, Plus Ongoing Offers",
                 "Raffles Hotel Singapore Announces New Leadership Promotion",                  # 인사
@@ -21,7 +20,11 @@ EN_NOT_SALES = ["Hyatt promo: Earn 1.5X Aeroplan points on stays in addition to 
                 "IHG Discount Code: Hotel Deals & Coupons for October 2026",
                 "Hotels.com discount code: Exclusive 6% off bookings",
                 "Save 15% on IHG award stays at new hotels",
-                "Megaworld Global Hotels and Resorts invites travelers to explore PH at Travel Sale Expo 2026"]
+                "Megaworld Global Hotels and Resorts invites travelers to explore PH at Travel Sale Expo 2026",
+                # 2026-10-18 검토: 모음 기사, 코드 모음 페이지, 다른 나라 시장 가격
+                "10.10 travel sale: Where to score discounted flights, hotel stays and more this October",
+                "Expedia Promo Codes And Deals: Save Up To 25% On Last-Minute Hotels And Vacation Rentals",
+                "Trip.com 10.10 Sale Offers S$301 Flights, Free Attractions and 50% Off Johor Bahru Hotels"]
 
 
 def art(title, pub="2026-10-07", lang=None, url=None):
@@ -33,7 +36,7 @@ def art(title, pub="2026-10-07", lang=None, url=None):
 
 class TestEnglish(unittest.TestCase):
     def test_price_discounts_only(self):
-        self.assertEqual([x.is_hotel_sale_en(t) for t in EN_SALES], [True] * 3)
+        self.assertEqual([x.is_hotel_sale_en(t) for t in EN_SALES], [True] * len(EN_SALES))
         self.assertEqual([x.is_hotel_sale_en(t) for t in EN_NOT_SALES], [False] * len(EN_NOT_SALES))
         self.assertIsNone(x.category_of(EN_NOT_SALES[0], "en"))
         self.assertIsNone(x.category_of(EN_SALES[0]))  # 한국어 판정으로는 받지 않는다
@@ -78,7 +81,7 @@ class TestKoreanOverseas(unittest.TestCase):
         self.assertIsNone(x.category_of("경남도, 가을 여행객에 18개 시군 숙박 할인쿠폰…최대 7만원"))
 
     def test_flight_article_with_overseas_place_stays_flight(self):
-        self.assertEqual(x.category_of("에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인"), "flight")
+        self.assertEqual(x.category_of("에어부산, 일본·중국·동남아 국제선 특가행사…부산과 인천출발 대상"), "flight")
 
 
 if __name__ == "__main__":

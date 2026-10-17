@@ -114,8 +114,24 @@ _SALE_FARE = re.compile(r"할인['’\"”]?\s?(?:프로모션|이벤트|행사)
 _ANCILLARY = re.compile(r"멤버십|마일리지|수하물|기내|메뉴|선봬|비빔밥|막국수|팝업|환승|신규\s?(?:회원|가입)|쿠폰팩|무료\s?입장|렌터카|면세")
 
 
+# 운임 자체를 깎는다는 표현 ('항공권 최대 24% 할인', '편도 7만5900원부터', '국제선 특가')
+_FARE_DISCOUNT = re.compile(r"(?:항공권|운임|국제선|국내선|노선|편도|왕복|항공편)\s?(?:[가-힣A-Za-z·]+\s)?(?:최대\s?)?"
+                            r"(?:\d{1,3}\s?%|\d[\d,]*\s?만?\s?[\d,]*\s?원|할인|특가|세일)")
+# 2026-10-18 검토: 항공사 이름이 있어도 할인 대상이 숙박(제휴 호텔 투숙)이거나 수하물이면 항공권 행사가 아니다
+# ('에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인', '대한항공-아웃리거, 하와이·태국 최대 35% 할인',
+#  '진에어, 신규 회원에 수하물 3만원 할인… 왕복 항공권 추첨도')
+_STAY_PARTNER = re.compile(r"호텔|리조트|숙박|숙소|객실|호캉스|투숙|체크인|풀빌라|아웃리거")
+_ANCILLARY_DISCOUNT = re.compile(r"(?:수하물|기내식|좌석\s?지정|라운지)\s?(?:\d[\d,]*\s?만?\s?원\s?)?할인")
+
+
+def _not_fare(title):
+    if _FARE_DISCOUNT.search(title):
+        return False
+    return bool(_STAY_PARTNER.search(title) or hotels_in(title) or _ANCILLARY_DISCOUNT.search(title))
+
+
 def is_sale_article(title):
-    if _NOISE.search(title):
+    if _NOISE.search(title) or _not_fare(title):
         return False
     if _SALE_STRONG.search(title):
         return True
@@ -307,16 +323,21 @@ def extract_travel(title, pub):
 
 # ---------------------------------------------------------------- 인천 출발
 
-_OTHER_ORIGIN = re.compile(r"(김포|김해|부산|대구|청주|무안|양양|광주|제주)\s?(?:출발|발\b|[-~–])")
+_OTHER_ORIGIN = re.compile(r"(김포|김해|부산|대구|청주|무안|양양|광주|제주)\s?(?:출발|발\b|[-~–])"
+                           # '부산·대구·청주 출발', '지역 공항 출발편' (2026-10-18 '우리 동네 할인'이 인천 출발로 남아 있던 문제).
+                           # '출발'이 붙어야 한다: '국제선·지역 공항 동시 할인'은 인천 출발 얼리버드와 함께 다룬 기사다
+                           r"|(?:지역|지방)\s?(?:공항\s?)?출발")
 # 단순 언급("인천공항 라운지")이 아니라 인천이 출발지라는 근거
 _ICN_ORIGIN = re.compile(r"인천\s?(?:[~∼\-–→]|발(?![가-힣])|출발|공항\s?출발)|ICN\s?[~∼\-–→]")
+# 해외에서 한국으로 오는 항공권 행사 ('추석맞이 한국행 항공권', '미주출발 항공권', '하와이~한국 노선', '미주~인천행')
+_INBOUND = re.compile(r"한국행|인천행|[~∼\-–→]\s?한국(?![가-힣])|(?:미주|미국|해외|현지|하와이|괌|일본|중국|베트남|유럽)\s?출발")
 
 
 def icn_flag(title):
-    """'yes' | 'no' | 'unknown' — yes는 노선·출발 표현이 있을 때만."""
+    """'yes' | 'no' | 'unknown' — yes는 노선·출발 표현이 있을 때만. 다른 출발지나 한국행(해외 출발)이 명시되면 no."""
     if _ICN_ORIGIN.search(title):
         return "yes"
-    if _OTHER_ORIGIN.search(title):
+    if _OTHER_ORIGIN.search(title) or _INBOUND.search(title):
         return "no"
     if "국내선" in title and "국제선" not in title:
         return "no"
@@ -603,7 +624,11 @@ _EN_PRICE = re.compile(r"\d{1,2}\s?%\s?off|up to \d{1,2}\s?%|save \d{1,2}\s?%|\d
 _EN_NOISE = re.compile(r"\bpoints?\b|\bmiles\b|\bbonus\b|\bstatus\b|\belite\b|leadership|appoint|for sale|\bsells?\b|\bsold\b|"
                        r"acquir|\bstake\b|lawsuit|appeal|credit card|\bstock\b|\bshares\b|\bIPO\b|merger|layoff|\bstrike\b|\bearn\b|"
                        # 포인트 숙박 할인, 박람회, 할인 코드 모음 페이지 (2026-10-15 시범 첫 수집에서 걸린 유형)
-                       r"\baward\b|\bexpo\b|\bfair\b|(?:discount|promo|voucher) codes?\s?(?:\d{4}|:)|coupons? for", re.I)
+                       r"\baward\b|\bexpo\b|\bfair\b|(?:discount|promo|voucher) codes?\s?(?:\d{4}|:)|coupons? for"
+                       # 2026-10-18 검토: 코드 모음('Expedia Promo Codes And Deals'), 모음 기사('Where to score …'),
+                       # 다른 나라 시장 가격('S$301 Flights … Johor Bahru Hotels')
+                       r"|\b(?:discount|promo|coupon|voucher) codes\b|\bwhere to\b|\bround-?up\b|\bbest .{0,20}deals\b"
+                       r"|S\$|A\$|NZ\$|C\$|HK\$|RM\s?\d|₱|฿|₹", re.I)
 _EN_PLACES = {"Asia Pacific": "아시아·태평양", "Latin America": "중남미", "Hong Kong": "홍콩", "Japan": "일본", "Tokyo": "도쿄",
               "Osaka": "오사카", "Kyoto": "교토", "Okinawa": "오키나와", "Singapore": "싱가포르", "Bali": "발리", "Thailand": "태국",
               "Bangkok": "방콕", "Phuket": "푸껫", "Vietnam": "베트남", "Macau": "마카오", "Taiwan": "대만", "Guam": "괌",
