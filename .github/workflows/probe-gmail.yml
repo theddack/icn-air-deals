@@ -1,8 +1,11 @@
 name: probe-gmail
 
-# Gmail 연결과 항공사 메일 현황 확인용. 수동 실행만. 계정은 Secrets에서 읽고, 로그에는 항공사별 메일 수와
-# 발신 도메인만 남긴다 (scripts/probe_gmail.py).
+# Gmail 연결과 항공사 메일 현황 확인용. 계정은 Secrets에서 읽고, 로그에는 항공사별 메일 수·인증 통과 수와
+# 발신 도메인만 남긴다 (scripts/probe_gmail.py). 잊지 않도록 월·수·금 아침에 자동으로도 돈다.
 on:
+  schedule:
+    # KST 월·수·금 08시 (UTC 일·화·목 23시). Actions 크론은 혼잡하면 수십 분 늦게 돈다.
+    - cron: "0 23 * * 0,2,4"
   workflow_dispatch:
     inputs:
       days:
@@ -25,4 +28,5 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           DAYS: ${{ inputs.days }}
-        run: python -m scripts.probe_gmail "$DAYS"
+        # 예약 실행에는 inputs가 없어서 기본 30일
+        run: python -m scripts.probe_gmail "${DAYS:-30}"
