@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T16:14:00+09:00",
+ "generated_at": "2026-10-17T21:31:16+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,16 +10,16 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2275,
+  "rss_items": 2336,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 931,
+  "outlet_items": 953,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 2,
-  "articles": 290,
-  "new_articles": 12,
-  "deals": 36
+  "articles": 299,
+  "new_articles": 9,
+  "deals": 37
  },
  "deals": [
   {
@@ -120,8 +120,8 @@
    "travel_end": null,
    "routes": [],
    "regions": [
-    "전남광주",
     "강원",
+    "전남광주",
     "경남",
     "비수도권"
    ],
@@ -147,7 +147,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-17T16:14:00+09:00",
+   "last_seen": "2026-10-17T21:31:16+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
@@ -178,6 +178,12 @@
      "outlet": "이트레블뉴스",
      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBMYmJGQUFRN2g0OXBLbmxOUGFSeXl5dHJfSzZ4aVpxaDljUXRCMDFVQWZwV1JEaVVJVWMxLUQ1OGhBNjZk?oc=5",
      "published": "2026-09-29"
+    },
+    {
+     "title": "웹투어, '2026 숙박세일 페스타'로 가을 비수도권 숙박 할인 혜택 제공",
+     "outlet": "비욘드포스트",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9raENYcFh6MEd1X3RLZUZ5eE9pdnpsbWFkbFdoR2VFLUZDbW9FNERjdkJydWFwQmFRVS1sV19QZjV5TmE2QVdxdkFvZzFJaG9YLUcwVWRnY3FjUjBZd3UybFZCcEdSeUhzT2E3T2dwTTNIY01aSWJpaENuRE0?oc=5",
+     "published": "2026-09-28"
     },
     {
      "title": "숙박세일 페스타...웹투어, 가을 국내 숙박여행 할인 혜택 강화",
@@ -306,6 +312,12 @@
      "published": "2026-09-22"
     },
     {
+     "title": "11번가, 가을 숙박세일 페스타 참여…중소여행사 연합 지원",
+     "outlet": "스페셜타임스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RSHc1REU5SFBLWGJlZ0laTURfUFhTZTg1RUVZUDhic3ZEQnR2Y2htdnZ5elFsSjR0RFAtUFBsUnJnUm4xMUxXTkJKVG5jYkFuTWpZUEpCY04wSG5MVTVQS2ZlaE9sSWd1Y0ViZ3BQMWpUV28?oc=5",
+     "published": "2026-09-22"
+    },
+    {
      "title": "NOL, 숙박세일페스타 참여…지역 숙소 최대 7만원 할인",
      "outlet": "핀포인트뉴스",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80b1M3QU5POEFoRlhidnpzVGczajdWeEc0ZndiVXBzOXFPQzVlVGlNcDdRdUhhODNWZ2JCYTkzblZFbXUydjdYUXpUMVdnVFZPcTJwNTdsV19PaldKejlWOWl5YTc0aEtfUGFhclZWbE0wdmfSAXdBVV95cUxPRzJZQjRhZUZ1QXNEMUdlcnBoSVNXZ1NNY3Blem9FbmJFaEtsMkN6V19temNmbEZuNjFESTBLM0R6QVlUcTVFdzh0YlRZQjBwVVFiR3FUZlo5Q2VHaC16bmlNdjFjbC1FMFgyaExvaDJGOVJGSDJMOA?oc=5",
@@ -381,6 +393,12 @@
      "title": "강원도 22일부터 ‘숙박세일페스타’…연박시 최대 7만원 할인",
      "outlet": "동방일보",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xUUo4aHd5R1c1U3JoNmlFWFpaaUREVzZqc0xOTFgxeVpleEthTlhPT19tQ2xxQllXY2pjc3J4bGtOcU80ck5kYzItRW91Vk1FRlozNWxvSkdmTDJlWXpfcllycFdYVFRXSGI0YUoxa2JScFE?oc=5",
+     "published": "2026-09-21"
+    },
+    {
+     "title": "강원도 가을 여행, 숙박비 최대 7만원 할인…9월 22일부터 숙박세일페스타",
+     "outlet": "한국사회복지저널",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54cWY5QmNpSWhvNlN3WmV1eG9zQ21CVDd0LVU5ckw1dHVHQXNvamk4T0tfNW1ZbUphQXJmanJQWURMbkVPaGpwYmZOVDhRYjJ3eXcyZXJkNEpjWklpWVVkQ3pXb0E1Z095Tlc0VQ?oc=5",
      "published": "2026-09-21"
     },
     {
@@ -2767,7 +2785,7 @@
    ],
    "agencies": [],
    "event_name": "10.10 특가",
-   "headline": "세부퍼시픽항공, '10.10 특가' 프로모션 전개",
+   "headline": "세부퍼시픽항공 ‘10.10 특가’",
    "sale_start": "2026-10-08",
    "sale_end": "2026-10-14",
    "travel_start": "2027-02-01",
@@ -2814,8 +2832,14 @@
    "first_published": "2026-10-08",
    "last_published": "2026-10-11",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-16T08:56:42+09:00",
+   "last_seen": "2026-10-17T21:31:16+09:00",
    "articles": [
+    {
+     "title": "세부퍼시픽항공 ‘10.10 특가’",
+     "outlet": "트래블데일리",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NUkRIOXdXams3QTlrSlJwal9EY2Rna0l5ek53c3ppaUlybkFqNE9ldmxNQTBQTUZTMl9MODhrcUhFOVNCVDN1ZHlTbGJXajIyNkgyY2Rmc1ZrQ2NxV1VYa0NMZkpiOWhENDkzcDF0NTE?oc=5",
+     "published": "2026-10-11"
+    },
     {
      "title": "세부퍼시픽항공, '10.10 특가' 프로모션 전개",
      "outlet": "퍼블릭뉴스통신",
@@ -2845,6 +2869,198 @@
      "outlet": "트래비 매거진",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uRUpiTGItaE9sekxjcVd6MW56d0Nta0poTnI0R2hJYUszU2pUWlVraXh1LU9BYlI5MFRNeGQ5V2dIc3poTUZhaWs5OVZISDVmNENCTVVrNFVvdVlmWXY1RDZndXJuajDSAWtBVV95cUxNZnltQ1o1cWE3cFlzelhodUJUc2RwajJhRUdGcUVia0NocGpOX1NTekxvYUhIdXFqSFpVVWRFYWxNVjdaSVh6VTBXT0NqeG42RFVrVXc2WWNhNks3S1JNSVExRWF0U1ZhS0hSSQ?oc=5",
      "published": "2026-10-08"
+    }
+   ],
+   "status": "ended"
+  },
+  {
+   "id": "trinity-692c2ec1c1",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "“1시간30분이면 구마모토”… 트리니티항공, 최대 15% 할인에 2만원 더",
+   "sale_start": null,
+   "sale_end": "2026-10-11",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "구마모토(KMJ)"
+    },
+    {
+     "origin": "인천(ICN)",
+     "destination": "구마모토(KMJ)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트리니티항공, 10월 11일까지 일본 구마모토 공항과 공동 프로모션…최대 15% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qSGc3bVQ0WURlRDFzWTJCMElCc1lpemhQakxsMWZKVmJKOGRUcXFkMTMtWlVKczlza09ORWJ1ajBhM2NmU3dRdTJic08wOGpudkQ0bzgwVVpfeXBtc2VHME1Sci01cVFnNUE?oc=5"
+    },
+    "discount": {
+     "title": "“1시간30분이면 구마모토”… 트리니티항공, 최대 15% 할인에 2만원 더",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWG9WOWtfNDAzZ3lCdUVvLVBKYnAwYUpycXM3cXJoQVZaWHJaNTdxMGtONzRsYzBUc3ljNHg4UGFzSTBuUzR5SnhFWUtFVDF2M1ZKRzl0M1FzbVNVaUQ1UFJoNXFsYW5taGgtMGV0NUx0ekNGbXI0MlpWcV9GbGEzcnB3?oc=5"
+    },
+    "route": {
+     "title": "트리니티항공, 구마모토 노선 최대 15% 할인... 제주항공, 정비 인재 양성 외[시경Today-항공]",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnZjNiTm5ZbVdvbkZDS2h6cE5jM21acTdFZmVzMU5nVzgta3YxbVg1bzBqZVNSN0RwbUwyT1FrN200dEZhdk80YThLQWZON2d2NjhjWEgydTdrckFvdTFEdUE3WEpNeHJGTnR5eE1vaGI?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": "yes",
+   "discount": "최대 15%",
+   "verification": "news",
+   "first_published": "2026-09-29",
+   "last_published": "2026-09-29",
+   "first_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-17T21:31:16+09:00",
+   "articles": [
+    {
+     "title": "“1시간30분이면 구마모토”… 트리니티항공, 최대 15% 할인에 2만원 더",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWG9WOWtfNDAzZ3lCdUVvLVBKYnAwYUpycXM3cXJoQVZaWHJaNTdxMGtONzRsYzBUc3ljNHg4UGFzSTBuUzR5SnhFWUtFVDF2M1ZKRzl0M1FzbVNVaUQ1UFJoNXFsYW5taGgtMGV0NUx0ekNGbXI0MlpWcV9GbGEzcnB3?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 구마모토 공항과 공동 프로모션…최대 15% 할인",
+     "outlet": "로이슈",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9VVG9xWEY3bmQ1MldRMWdDWGtaZ2JsZ2dmSmdQWUxyYjd3U2g3WWZoVDhNX0IxUWEtRU1mYVpYaDdoRkkxM2tFR0dDOG5HUnZocHdLOV85QTR2b2JvM09NRjU5OHhpZ0s0VmNqMnQ2bDNqME44T0xQdnR3?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "\"이번 가을엔 구마모토로 떠나볼까\"…트리니티항공, 할인 프로모션 진행",
+     "outlet": "한국금융신문",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zZkRCLUZmMDlRVVB6bUt2eURPblMzMjk4ODJHb08wa3E5UFlWUUt5NzdMenVmamtnQ0lZd2YxcHkyNlNsSU1iaWxwYkhNQkhKZ2Y4bVo1QlhVNHpTcktjQnhNdnFJZlNwakVibWJoWlk0b2VSc3gwWjRuQQ?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 구마모토 노선 최대 15% 할인... 제주항공, 정비 인재 양성 외[시경Today-항공]",
+     "outlet": "시장경제신문",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnZjNiTm5ZbVdvbkZDS2h6cE5jM21acTdFZmVzMU5nVzgta3YxbVg1bzBqZVNSN0RwbUwyT1FrN200dEZhdk80YThLQWZON2d2NjhjWEgydTdrckFvdTFEdUE3WEpNeHJGTnR5eE1vaGI?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "“가을 여행은 ‘구마모토’로”…트리니티항공, 항공권 프로모션 진행",
+     "outlet": "아시아투데이",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FV1B5YmJrZUpfbkFUVkgyNlExRUhDVkJ4dG5oMGNQNDlMa2tRWmo0UTFMTU9BT0tuZlExd25wRWFRNlFVcDJfZTVpQzViNU40aXp5NmVBOXBkcU90TG9abkNDSnk5c3RsaDhJT0Zn?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "“가을 구마모토, 항공권부터 알뜰하게”…트리니티항공, 최대 15% 할인 프로모션",
+     "outlet": "트래블바이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Kd3VvdHNYSnhxNTk2UGpqanB0N3RvOHRnUEY4dHVwRk1ScklTaTFpMFY2c19QRW4tbHFwQnhUUk1aMFkyQzhWemszNVVweF9KRDdNRjRKR3gxcEtzYmtKZEhOYzA5M2FYSFRDNw?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 일본 구마모토 공항과 공동 프로모션 진행 - 머니투데이",
+     "outlet": "머니투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vTTRqcjVmQjhaZ2Z4TGRLaXpvckl1N196VzVfWFJDcEZxdDQ2c3VqS3NwMkM0MWU1a2h5MHpYc2gwTVRNTnRYNy01aTVuWlRKR1ByWlVrdjlFVk5iYXpJUk5ya2lTaWhqcVk0NNIBckFVX3lxTFB5dFA1MVBkaG96akl1c3o1OS1fNnlPcVA0U1dwZ1RZUFZfTTFac2xXeXZLeXJHZEJ3LTMxUDAyN2VSa0ItbjV4UDdYLUJaNVhpbGZvX19Uc3JzWU1wOXlncUQ3UUNJZXJfMTVmZzVpX3pLQQ?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 인천~구마모토 공동 프로모션…최대 15% 할인",
+     "outlet": "데일리한국",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBaVnhvS09IaDZYdk9oOXB1WGNfOU9hZWdhNEplUWNIZk16WmRwcGNEcmJwRlNIcGZicDJaOWZkN2RSMXNRTG9oX05KWTFoTmt5ajhLb2RMT3p6UllYRUNld0FxcktKQURxYWFLMWk1Z9IBc0FVX3lxTE1fSWZ4OHlSTlBoNmpvX3EzdldpR0VzcExyTFZvWjFSb0NWb2pRNC1FQVJWNWxPTDFzdFBqV2lfc1VJZGZSY1poZTRGd1N5V2lFRXg1WHdUcGpDZmNTZHJ2NWg2Z044SUxCUDdOWWFSWmlrMkU?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 10월 11일까지 일본 구마모토 공항과 공동 프로모션…최대 15% 할인",
+     "outlet": "경북도민일보",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qSGc3bVQ0WURlRDFzWTJCMElCc1lpemhQakxsMWZKVmJKOGRUcXFkMTMtWlVKczlza09ORWJ1ajBhM2NmU3dRdTJic08wOGpudkQ0bzgwVVpfeXBtc2VHME1Sci01cVFnNUE?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 日 구마모토 노선 할인 확대…\"연말 여행 수요 공략\"",
+     "outlet": "팍스경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91dzQtZWMwM1FEcFp1VmJzNXE1LXZrQlVTZGdxd2hsd0U3akpwNmVBbnRjbXp0dlY4U0F0RDhRV01oTll3dGVYTGNHY1hGNTVfN0NQd3pCSldDYnR0UEF1Qm9hYlU5ZHAw?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, '인천-日 구마모토' 공동 프로모션 진행",
+     "outlet": "마일드경제",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwUDVCak1CWHFndE9RbTNXaFJpc054ZmwwZ293bDgzQnRIZ1lEVXltVDdlQXVlYndZeWlHZ3hmRkJzZFFPZWpySi1NMWNEbm5wYnFiTmV0VU1IdkpoUmhLdHdEZlpNbmdxRzdJ?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 인천~日구마모토 항공권 최대 15%할인",
+     "outlet": "CatchNews",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4ydUMwMy0zaXpmbTctcTJrbzU5dW5WVnBiOW0ybFYzaENEMjhHaVR0UTg0d1hpZ3JBWW1Ib1doUVhrWDRvVE52X09TS0t5clY4SUNrS2FKRWczR0ZqQlkzbGdnc3dxZFRXdUl30gFvQVVfeXFMT2d0Yi0tVmdzaTNVSHg1U1Y1UTZKbHBNejg5b2RWN1d0UzRMcnAtVGpRWExvcF9aUTdYZkQxdVgxOXF1XzU1MjNNTl9acnA1SFprc09DU2VjWDg5Qkg5RkZodjRub21zQmRLSUJNZmZR?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 日구마모토 공항과 공동 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iR3lwRENRcUJFMlZvQV9VV2ZFeUlXUl91S0wyWmRmU3pvTDRjbGxpQVhzTXpWR0R4VFp6dnFzTkRQa3JjQVZzVFJ4T21CNUJDdWJ6TlRaYVdzSklYZW85NFFtaG1mUQ?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 구마모토 연말 수요 공략…항공권 최대 15% 할인",
+     "outlet": "매일일보",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtM05uQlNfcDlHWE9rSmJUR2tVMlZLQ0VUbjlDYjI4bGxjZjI0eVpocmE3SHRhcTdsYndnMVVDTFRNdk1OMEJQVE1hd0ppNWhvcUxxS0ZremJUTEhzb1RyMEFHWTU?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 日 구마모토 공항과 프로모션…\"최대 15% 할인\"",
+     "outlet": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11TkRvNzdBcU50RGNJN0F6N2NCN3B1c3U0M3U5aGp0VGFPZ0I0UWxnNXVkdlJTQXRKUmhFR0s3U1pZeVVETTZ3VDRGTXdRZFZyb3A5M1RtaXZpMkp5V0JhRGFjWHA?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 인천~구마모토 항공권 최대 15% 할인",
+     "outlet": "메트로신문",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mSUFENWcyN0JMYTJxZWo3SmRESDcyR1owMlpDcVhTclJHLVAxZDd4NGpQb19vRDBjX2llM3VVSWx3Wk5xYTF0WF84WkZVNjZxYmpGallZRkRRc2VhOFBKeQ?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 인천~구마모토 공동 프로모션…항공권 최대 15% 할인",
+     "outlet": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16OXFiSkIxTVp6dlFfYzNuYjVULTlqQnR3b083aDl4UHN5dEVUYW92NzJQMU1udGxUWGthTDhaQVJENlYzd2syUlU2MVR0bnZ4bHVNVlNnZ1E2M2F0?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 인천-구마모토 항공권 최대 15% 할인",
+     "outlet": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0ySk51aUNqcjhaeWpESll0VzlsdWtGY2txcXVlMmlsUkxuc25xazJLeDdjQ29MVm1aR3JmSy1mSkhQaGJpOHRPOUE3alB5Q19td0pINGxGdkVTUQ?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "가을엔 구마모토로…트리니티항공, 최대 15% 할인",
+     "outlet": "스포츠서울",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9WTVRId09PLWM3RklQQmpVSjBRakdHcmx6QWlXOVFENEFVZFd3T2FXU3Z0cFNwMXNNdWNmU1hNMHQ5Q1pZWVl3NXc5ejdkWVdmZlBQZ3djal8?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 구마모토 노선 할인전…연말 탑승까지 적용",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBiQkhGR0plejZ4M194UGhnMW1fUzJZSlpFS3RTeHVtWGt5ZVZHdFhEU1VZcm9MVkotQ1l1Nmw1ZUg3ZzR1bDJYZGktT19iTG1xeVNjT0Rn?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 日구마모토 공항과 프로모션…항공권 최대 15% 할인",
+     "outlet": "아이뉴스24",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE16SE5ZeTBOV04wNHlCeDgtUUhDWk8yN1JrVDhvdG82WjVLY2pvVVJVc244Q2VqY1MtaHBKZ2hJbHdLVGItSHRobTdzMA?oc=5",
+     "published": "2026-09-29"
     }
    ],
    "status": "ended"
