@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T08:32:42+09:00",
+ "generated_at": "2026-10-18T16:27:51+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,15 +10,15 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2352,
+  "rss_items": 2372,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 858,
+  "outlet_items": 956,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 2,
-  "articles": 314,
-  "new_articles": 5,
+  "articles": 326,
+  "new_articles": 12,
   "deals": 32
  },
  "deals": [
@@ -44,7 +44,7 @@
    ],
    "agencies": [],
    "event_name": "앵콜 에케세일",
-   "headline": "\"국제선 최대 98% 할인\" 에어로케이, '앵콜 에케세일' 진행",
+   "headline": "에어로케이항공권, 최대 98%까지 특가 세일한다",
    "sale_start": "2026-10-19",
    "sale_end": null,
    "travel_start": null,
@@ -55,12 +55,12 @@
    "conflicts": [],
    "evidence": {
     "sale": {
-     "title": "에어로케이, 동계 항공권 최대 98% 할인…‘앵콜 에케세일’ 19일 시작",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5VQXB4T1BYbnhxMWtvTTB0TVRDSmZKUGhjVE5FanRYZEh3VlRBZ09iRmpZUkE0bTVJdHlHbDdZcHRHNUVrU0ZTZUFtZndWR3dGMU5TMHpNc3Y2WmdRV0RyWTJMd3VwbHpLb29kZXBqc9IBb0FVX3lxTE5VQXB4T1BYbnhxMWtvTTB0TVRDSmZKUGhjVE5FanRYZEh3VlRBZ09iRmpZUkE0bTVJdHlHbDdZcHRHNUVrU0ZTZUFtZndWR3dGMU5TMHpNc3Y2WmdRV0RyWTJMd3VwbHpLb29kZXBqcw?oc=5"
+     "title": "에어로케이항공, 동계 항공권 '앵콜 에케세일'⋯ 오는 19일부터",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xNDQyQVR5TFhORGp1TW9FTTI0UGhpVlVpUlVsTzY3YUU2NmZxTjE2OVluRHZ6ZzhoNDFXTVI0ZFVkcWQzTTYwVzhQNFpBT0xpbF93OWVidzVDa0t4X0I0ZjZ3?oc=5"
     },
     "discount": {
-     "title": "\"국제선 최대 98% 할인\" 에어로케이, '앵콜 에케세일' 진행",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nMUstUjN0bVlfQU14STZzMGx5QllsZWtBeExDaDlJb3VuWTNNMzhBMVczRjBFVUE1YUNHWDBCbmtLWWFsT01pVmhaOXVEWnhvTG5YczV4OERtN3pOeFBYdUlpTFNEMmM3N0txWDBsT2c?oc=5"
+     "title": "에어로케이항공권, 최대 98%까지 특가 세일한다",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MUHIydEVBd3d3TnFKNVpWNVRJUjZZMl9FVnNQb29VUmlUR25zNUlaR0Vwd19Ta0JDY2hCYlE2Y3JsTkFtVjlrVWplQ20xcm5rdXRhcnFBRDExUjl1YmtwWllrNjFrTXZGV3ZBR0dDNnNCVzJUYmFKUHB30gF_QVVfeXFMUC1QRWZreE1USHYtYUplUVBUalVkYzFVX25FX0JnRFRIMEk0UGtSVUdMajByMTE1VF84Vk1kSGc5OC1hQjcwS2tjVHplMnVWRmJKYlFjOEdyMWh4Q3NWc0laM05zSjczeDZUOHBLbVJZdHl3enJjcGF4bFlfRGFhQQ?oc=5"
     }
    },
    "date_source": "title",
@@ -68,10 +68,34 @@
    "discount": "최대 98%",
    "verification": "news",
    "first_published": "2026-10-16",
-   "last_published": "2026-10-17",
+   "last_published": "2026-10-18",
    "first_seen": "2026-10-16T16:34:30+09:00",
-   "last_seen": "2026-10-17T23:09:41+09:00",
+   "last_seen": "2026-10-18T16:27:51+09:00",
    "articles": [
+    {
+     "title": "에어로케이항공권, 최대 98%까지 특가 세일한다",
+     "outlet": "뉴데일리 충청세종",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MUHIydEVBd3d3TnFKNVpWNVRJUjZZMl9FVnNQb29VUmlUR25zNUlaR0Vwd19Ta0JDY2hCYlE2Y3JsTkFtVjlrVWplQ20xcm5rdXRhcnFBRDExUjl1YmtwWllrNjFrTXZGV3ZBR0dDNnNCVzJUYmFKUHB30gF_QVVfeXFMUC1QRWZreE1USHYtYUplUVBUalVkYzFVX25FX0JnRFRIMEk0UGtSVUdMajByMTE1VF84Vk1kSGc5OC1hQjcwS2tjVHplMnVWRmJKYlFjOEdyMWh4Q3NWc0laM05zSjczeDZUOHBLbVJZdHl3enJjcGF4bFlfRGFhQQ?oc=5",
+     "published": "2026-10-18"
+    },
+    {
+     "title": "에어로케이, 동계 항공권 특가 판매…국제선 편도 7만원대부터",
+     "outlet": "충청도민일보",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VajBJczNyVmt3b2ltMElGQXdRZ2pjSGJjRjd0V3dod2I3OTRrc2Jtb0VFOTdROV9kalNmZFdza1lsUW41QXdSMHBsd2lWd3cxSThGQzhKbjJ4VmdKZFEyU2hrMmNvbnQyMnpLYQ?oc=5",
+     "published": "2026-10-18"
+    },
+    {
+     "title": "에어로케이항공, 동계 항공권 ‘앵콜 에케세일’…국제선 15개 노선 최대 98% 할인",
+     "outlet": "동양일보",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JVHFmQmpQTE1XbmlMR0NaQ1RyMnFGUExBbjdjeWV6dTcyYUg3bnNpM21zdm12Q0Q4c1gyVThNMHZ5TlJqWlNRWkh2ZE5rMjhIYzJWNHdFSmxMX2NydWNvMEQyanRtamF1b2o0?oc=5",
+     "published": "2026-10-18"
+    },
+    {
+     "title": "에어로케이항공, 동계 항공권 '앵콜 에케세일'⋯ 오는 19일부터",
+     "outlet": "충북일보",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xNDQyQVR5TFhORGp1TW9FTTI0UGhpVlVpUlVsTzY3YUU2NmZxTjE2OVluRHZ6ZzhoNDFXTVI0ZFVkcWQzTTYwVzhQNFpBT0xpbF93OWVidzVDa0t4X0I0ZjZ3?oc=5",
+     "published": "2026-10-18"
+    },
     {
      "title": "\"국제선 최대 98% 할인\" 에어로케이, '앵콜 에케세일' 진행",
      "outlet": "M포스트",
@@ -153,7 +177,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-18T08:32:42+09:00",
+   "last_seen": "2026-10-18T16:27:51+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
@@ -165,6 +189,12 @@
      "title": "10월 숙박세일 페스타 아직 끝나지 않았습니다…최대 7만원 할인, 예약 전에 놓치면 안 되는 조건",
      "outlet": "네이버 프리미엄콘텐츠",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ3lKcmFLVEYtdXp3U1NEbGV2VDJRRXNBWGsybjZiUEZXVG5uNFJDMTZQdXl4bnpTTE85TG1yUHVhVUJWcUxGMHRYXzhYeXRYTUQ3eEZYTUxHWUhIMEViMGhXemxmTm5oRmpVRUxIMkYyWHlnMnZLczNOcVN6X3prb2JfWmhqSzR0aHEw?oc=5",
+     "published": "2026-10-02"
+    },
+    {
+     "title": "여기어때, 가평 전 숙소 대상 ‘2026 가평군 숙박세일 페스타’ 전개",
+     "outlet": "파이낸스투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIdEVQTzczUVV5SDQ3VjVnamFFVktiY1JTVnp1eEtJM2RiT0RrSWN3MTZoUXVmSlEzenR4RlBNUVlYUGI5OEFGb2h6OW9ERktISVpaTzBhaWF2clNhYkpvWnI1R1Q3UUFNZGJyTg?oc=5",
      "published": "2026-10-02"
     },
     {
@@ -489,6 +519,12 @@
      "title": "충남도, ‘대한민국 숙박세일 페스타’ 참여",
      "outlet": "놀뫼신문",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWl9DT0paWlVFSlYwVzhxblBKazdwNlJONHBpelFveFZKdi1HZVBLMXlNeWJfanF2VDZPdGZsbl9ZbDMteHZ6WjFKdVdjQXFpcHNkQmhhV21qUEFPeE1vWTlRNmZXT0xxcVFDWElMNFMwS3Njck1paEdSSFNZTDRJdjRhTU9MQWhad2xDeHNnRm5sVW5DN1B0QThYNTlPY3NsMEdVX3ptblpNSVAz?oc=5",
+     "published": "2026-09-20"
+    },
+    {
+     "title": "충남, 22일부터 숙박세일 페스타…최대 7만원 할인",
+     "outlet": "뉴데일리 충청세종",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBRcnpsb3g5c3VtQ0RrSXZQLW9EUTBlbkF1dzc4SmtYX0kxS1E0Qm9veWZiOXVQTGhwLWduY3Y2V3pyajhaY1p4S01KSHVtOGE3T1o3cTZXUmVaazlHZi1tejc1LXBsbXZyOENaVEIyQW9rTHAtRjhUenZ30gF_QVVfeXFMT1FHVk5EVC0weFVCbTNER0c5ZXcxWThEQ0dJRlBnRS0ya21JaGFIMEVCcmxLNm1yd0NRdHJVeFFzMWQtUG5LcFFVZDAyUk84Rm5YcXd6VzhTSW9teXV0al9XRmhDLXNES2Flc1duRl9JOHIxYjB5Q2ozSHFGNnNmYw?oc=5",
      "published": "2026-09-20"
     },
     {
@@ -1454,7 +1490,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "비엣젯항공, 신규 취항 잇따라···한국 노선 특가 항공권 선봬",
+   "headline": "비엣젯항공, 국제선 프로모션 진행",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -1485,8 +1521,14 @@
    "first_published": "2026-10-08",
    "last_published": "2026-10-08",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-17T16:14:00+09:00",
+   "last_seen": "2026-10-18T16:27:51+09:00",
    "articles": [
+    {
+     "title": "비엣젯항공, 국제선 프로모션 진행",
+     "outlet": "더퍼스트미디어",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14UjVxSzVYZmUyUmZHSlZkS3p5N1ZuYnhXVGNHd2ZyYUVETk55VDA4ME5CaF9IT3doOHYwRFJyUUdheEg3bmR3ZHlzVFIyRGZUS21vQl9VZUxhVC1hdmFQbGF2WlJQQ01ISVR2NUlQa0hzZ9IBdEFVX3lxTE96LTJjRlJHQnBsZVpraTQ3OTBJT09jZHhQMEQ0b0lHTHg3SHRUUXdiNmFSMlZ5U2pVOXhzaUtxX08tZEZoUnFlQWZnczFJMGp2bTJ1RVRzeHp4NTdtWTJDcVZONm5iTjZOM2hGczFvVXhERksx?oc=5",
+     "published": "2026-10-08"
+    },
     {
      "title": "비엣젯항공, 신규 취항 잇따라···한국 노선 특가 항공권 선봬",
      "outlet": "이넷뉴스",
@@ -2674,8 +2716,8 @@
      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWG9WOWtfNDAzZ3lCdUVvLVBKYnAwYUpycXM3cXJoQVZaWHJaNTdxMGtONzRsYzBUc3ljNHg4UGFzSTBuUzR5SnhFWUtFVDF2M1ZKRzl0M1FzbVNVaUQ1UFJoNXFsYW5taGgtMGV0NUx0ekNGbXI0MlpWcV9GbGEzcnB3?oc=5"
     },
     "route": {
-     "title": "트리니티항공, 구마모토 노선 최대 15% 할인... 제주항공, 정비 인재 양성 외[시경Today-항공]",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnZjNiTm5ZbVdvbkZDS2h6cE5jM21acTdFZmVzMU5nVzgta3YxbVg1bzBqZVNSN0RwbUwyT1FrN200dEZhdk80YThLQWZON2d2NjhjWEgydTdrckFvdTFEdUE3WEpNeHJGTnR5eE1vaGI?oc=5"
+     "title": "트리니티항공, 인천~구마모토 노선 프로모션 진행",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GVkUyM29HcjBybjRHeWRObXFndGxLUlNmWVRHdkN3MzZDOFlLNUU1QVB3MVkzY0hKV1R3dVlGM00weUc2VDloRVBQd0dzUFd2TEVmenhKZHNjeEdYaVNkVnUxTUtKZ2tNeDNrR19PNXlSUWpH0gFyQVVfeXFMTTREMUZ2SEhWckwwZUdwQld1a2VlemxabWZvWm9RQ1BINDF4QWxkRjlMYmkxN3p0NktmMEpNUEFOc3huMjJIM3FxeTU5VnBfTlc4NDkxWW9rdVpVMWN2dzFsRkFIOHVTMkxvazRNeDhzazJ3?oc=5"
     }
    },
    "date_source": "title",
@@ -2685,7 +2727,7 @@
    "first_published": "2026-09-29",
    "last_published": "2026-09-29",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-17T21:31:16+09:00",
+   "last_seen": "2026-10-18T16:27:51+09:00",
    "articles": [
     {
      "title": "“1시간30분이면 구마모토”… 트리니티항공, 최대 15% 할인에 2만원 더",
@@ -2703,6 +2745,12 @@
      "title": "\"이번 가을엔 구마모토로 떠나볼까\"…트리니티항공, 할인 프로모션 진행",
      "outlet": "한국금융신문",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zZkRCLUZmMDlRVVB6bUt2eURPblMzMjk4ODJHb08wa3E5UFlWUUt5NzdMenVmamtnQ0lZd2YxcHkyNlNsSU1iaWxwYkhNQkhKZ2Y4bVo1QlhVNHpTcktjQnhNdnFJZlNwakVibWJoWlk0b2VSc3gwWjRuQQ?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "트리니티항공, 인천~구마모토 노선 프로모션 진행",
+     "outlet": "메가경제",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GVkUyM29HcjBybjRHeWRObXFndGxLUlNmWVRHdkN3MzZDOFlLNUU1QVB3MVkzY0hKV1R3dVlGM00weUc2VDloRVBQd0dzUFd2TEVmenhKZHNjeEdYaVNkVnUxTUtKZ2tNeDNrR19PNXlSUWpH0gFyQVVfeXFMTTREMUZ2SEhWckwwZUdwQld1a2VlemxabWZvWm9RQ1BINDF4QWxkRjlMYmkxN3p0NktmMEpNUEFOc3huMjJIM3FxeTU5VnBfTlc4NDkxWW9rdVpVMWN2dzFsRkFIOHVTMkxvazRNeDhzazJ3?oc=5",
      "published": "2026-09-29"
     },
     {
@@ -2921,7 +2969,7 @@
    "first_published": "2026-10-04",
    "last_published": "2026-10-11",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-18T08:32:42+09:00",
+   "last_seen": "2026-10-18T16:27:51+09:00",
    "articles": [
     {
      "title": "트리니티항공, 13일까지 국제선 최대 22% 할인",
@@ -2939,6 +2987,12 @@
      "title": "트리니티항공, 국제선 60개 노선 최대 22% 할인…연말·연초 수요 공략",
      "outlet": "신아일보",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjck5lblNzTHV1Y2xiZmczazZDX1lLbUplRjM3dVI5MWNrdHQ0UmU1aGNuQjJOcWxldVFPeUNOd2ExLU9KSW5OdEhmTGxGZmlvNUhXV2dhbzF0cjBUN0hrQmdkcU1CcGtmbW40azZEYXQ?oc=5",
+     "published": "2026-10-05"
+    },
+    {
+     "title": "트리니티항공, 국제선 60개 노선 할인 프로모션…최대 22% 혜택",
+     "outlet": "뷰티트래블뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56emhoWWlQTDB0dGFnRUtPeG9PWHZ0S2syU3lUSXMwU084RVJNSFpFVWRxWlFFN21TTlR4ZS1BVUJEb0syTmppV0hzTlBkTzRPc21KUTZBMG5LSUVlQ2MxMnlrSjFQVXlMb3pLcXVR?oc=5",
      "published": "2026-10-05"
     },
     {
@@ -2969,6 +3023,12 @@
      "title": "트리니티항공, 국제선 60개 노선 최대 22% 할인…내년 1월까지 탑승",
      "outlet": "아시아투데이",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pNXFrRUlTTHppS3A3a19uM0E4WThmU0hNNkVpREM1cUdNYnc4cnFFendtdkpVZ2hPdDJhWU1pLXdqakN6ZGxZX2oyNjZaNk9BMTJnREdYSzl1bDdLNlkyN2VJazRwcHVkbW9hWDRB?oc=5",
+     "published": "2026-10-04"
+    },
+    {
+     "title": "트리니티항공, 국제선 60개 노선 대상 대규모 할인 프로모션 실시",
+     "outlet": "비즈니스플러스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zQWw2Q0luNkk5eFlxSjFjQTl1TDVOTVJoSVdZRzgxR0FjV3VRaXd0M0ZwVzE5dVhJeklJZVFjcXZUOEt0bjVaOVNMbjhwcHc1bmhITnhoMXBwamlURVIzbGdSVEVsS3BGYWdJSVpLRQ?oc=5",
      "published": "2026-10-04"
     },
     {
