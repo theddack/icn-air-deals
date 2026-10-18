@@ -2500,5 +2500,57 @@
   "published": "2026-10-04",
   "first_seen": "2026-10-19T01:10:56+09:00",
   "lang": "en"
+ },
+ {
+  "title": "[하늘길] 추석 연휴, 한가위 이벤트부터 15% 할인까지…진에어 외 2가지 항공",
+  "outlet": "신아일보",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EY2wtTXVyWXVuaURWRkt6YnBpOUEyMC0xcHQ2cmRNbS14aXdqTjRxTkNlV21pdkZwdFZ5emxDUmplaDV1aUNINkRkLW9qLVNtTUZQRG1KWldubGE0NVdwY0FVVks3REF5dWVDS0RPR0w?oc=5",
+  "published": "2026-09-25",
+  "first_seen": "2026-10-19T08:45:21+09:00"
+ },
+ {
+  "title": "에어아시아, 전 좌석·노선 최대 30% 할인 프로모션",
+  "outlet": "싱글리스트",
+  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XR01Td1hqbFgzUmFUeGF0bnBjcVUyOWo0M0FnSzNIT2dITDloTVZUaGtXRHZUaGdlLUJUWFY2dGdDc2VNdTBCWXI0OHhaRmZuMFZjeTZ0enZyUkhUM2R3ekxoMVA4QQ?oc=5",
+  "published": "2026-10-19",
+  "first_seen": "2026-10-19T08:45:21+09:00",
+  "summary_facts": {
+   "url": "https://www.slist.kr/news/articleView.html?idxno=774408",
+   "outlet": "싱글리스트",
+   "fields": {
+    "discount": "최대 30%"
+   },
+   "evidence": {
+    "discount": "…루·타와우 등 에어아시아의 인기 간편 환승 노선까지 최대 30%까지 할인이 적용된 항공권을 구매할 수 있다.…"
+   }
+  }
+ },
+ {
+  "title": "트리니티항공, 내년 1~3월 국제선 얼리버드 할인…최대 24% 적용",
+  "outlet": "포인트데일리",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBU3c2bHFBQ1Q3S3IzRnBCMmpMTWtBaGFnVGhUcXBCeW12WC1XZ3N2QlozSDVJTWVTS3NsUVpSR0hJcmFkOXBfa2hLMHJiRXYxc0RtX3kzTEZpLTMxSkg2bmQzZjgtdElBV2M0YUdGaETSAXRBVV95cUxNc1I1dEo4aWFUWTBFQlB4VnoyTWpEODVfXzFvRmJmRXZFOGFpSUV6TVN3c3o1OHRmLVFoUjBrR1U1YTJqVTNRTnVabDBtV3RoRmVWMFozcDVVemR0c1lNeEFDZmdLR216VnlxZXRCSmx6enBETQ?oc=5",
+  "published": "2026-10-11",
+  "first_seen": "2026-10-19T08:45:21+09:00"
+ },
+ {
+  "title": "트리니티항공, 국제선 얼리버드 프로모션",
+  "outlet": "잡포스트",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrVWRZWE5kMnZ1SGs4WE5OeWh5Q2w2N1QxMi1MRkNGQkhXN2lYSXpiNW9NMm41amlkdmxqOFZnQnBod3M3eDRBUjY1ZjZOYWUtc3F0T1VDSkZkYmM2bXFEZXRTNFl5WWhpcnVDd0Fn0gFyQVVfeXFMT3ZmUUwwSk9xaXI2MVdHZWFYTC1NNjl3dGt4dzRYRjFVR0MtX1lhYlBYdXZhSTZKWVRiNDdCRjBnVWg3WnUzQmV3T0NrUFpzT25aOEhrMVQtTTlJODNQaXo2ZXNyb3FNVk8xVnFVTEhjWERB?oc=5",
+  "published": "2026-10-10",
+  "first_seen": "2026-10-19T08:45:21+09:00"
+ },
+ {
+  "title": "여기어때, 가을 섬 여행 숙박비 5만원 할인…32개 지역 대상",
+  "outlet": "스마트경제",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44Z3E2cmkwcllXcnloai04ZWE3MXpWVV9YNmF4RklKaXBvdnhzOW50N1E1TmcwS09TZnJoWmJHUUtrV2R4XzNoTzNjSWNQNTRPdExFblpWNmg1aTZQYUwxa0t0TFRJWmYwSjg0YlpFVQ?oc=5",
+  "published": "2026-09-22",
+  "first_seen": "2026-10-19T08:45:21+09:00"
+ },
+ {
+  "title": "NOL, '대한민국 숙박세일 페스타' 하반기편 참여",
+  "outlet": "부산파이낸셜뉴스",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OellGaElsaDJmaFZJNlVrZ3dvSmV0MkdmRGhETmQwU3FaVmJPM3JBVThxVzJlYXNNZU1lbVVRT0FlanFTM2VCbGY5cG9sVGhad1VTSUxNWl9SbW8w?oc=5",
+  "published": "2026-09-22",
+  "first_seen": "2026-10-19T08:45:21+09:00"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T01:10:56+09:00",
+ "generated_at": "2026-10-19T08:45:21+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,16 +10,16 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2478,
+  "rss_items": 2487,
   "outlet_feeds": 17,
   "outlet_failed": 1,
-  "outlet_items": 823,
+  "outlet_items": 953,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
-  "articles_with_summary": 2,
-  "articles": 350,
-  "new_articles": 10,
-  "deals": 31
+  "outlet_enriched": 1,
+  "articles_with_summary": 3,
+  "articles": 356,
+  "new_articles": 6,
+  "deals": 32
  },
  "deals": [
   {
@@ -76,7 +76,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-19T01:10:56+09:00",
+   "last_seen": "2026-10-19T08:45:21+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
@@ -358,6 +358,12 @@
      "title": "11번가, ‘대한민국 숙박세일 페스타’ 참여",
      "outlet": "메트로신문",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZYk1BREc1ZlBCYkp2dTZhT3oxSm9fNWVmLVItdzluQXdab1ltM01jcElYR3RUcHVZdldJZG9BZ2lXYjRVY1lMOWZUTm9zazM4ZEx5R0xZYlA1T3Jzb0hLcg?oc=5",
+     "published": "2026-09-22"
+    },
+    {
+     "title": "NOL, '대한민국 숙박세일 페스타' 하반기편 참여",
+     "outlet": "부산파이낸셜뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OellGaElsaDJmaFZJNlVrZ3dvSmV0MkdmRGhETmQwU3FaVmJPM3JBVThxVzJlYXNNZU1lbVVRT0FlanFTM2VCbGY5cG9sVGhad1VTSUxNWl9SbW8w?oc=5",
      "published": "2026-09-22"
     },
     {
@@ -1051,7 +1057,7 @@
    "first_published": "2026-10-10",
    "last_published": "2026-10-13",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-18T21:49:43+09:00",
+   "last_seen": "2026-10-19T08:45:21+09:00",
    "articles": [
     {
      "title": "트리니티항공, 내년 1분기 국제선 최대 24% 할인",
@@ -1081,6 +1087,12 @@
      "title": "트리니티항공, 국제선 얼리버드 프로모션 진행",
      "outlet": "로이슈",
      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1LTFJKd19HQVFqS2lSeHJGUVI4SHlac3FjR2ktRUdYSUxZbzdhYmlKNzR6aHVqcFRsV1RURnFwN19nSnVURVB6WFp6MVlsSWRVRXh1VkZSQ3ZmNVNOT3R5YVlfMmxZTThnTFQ2bEk3RWhuQ3VmQnVmSlVB?oc=5",
+     "published": "2026-10-11"
+    },
+    {
+     "title": "트리니티항공, 내년 1~3월 국제선 얼리버드 할인…최대 24% 적용",
+     "outlet": "포인트데일리",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBU3c2bHFBQ1Q3S3IzRnBCMmpMTWtBaGFnVGhUcXBCeW12WC1XZ3N2QlozSDVJTWVTS3NsUVpSR0hJcmFkOXBfa2hLMHJiRXYxc0RtX3kzTEZpLTMxSkg2bmQzZjgtdElBV2M0YUdGaETSAXRBVV95cUxNc1I1dEo4aWFUWTBFQlB4VnoyTWpEODVfXzFvRmJmRXZFOGFpSUV6TVN3c3o1OHRmLVFoUjBrR1U1YTJqVTNRTnVabDBtV3RoRmVWMFozcDVVemR0c1lNeEFDZmdLR216VnlxZXRCSmx6enBETQ?oc=5",
      "published": "2026-10-11"
     },
     {
@@ -1117,6 +1129,12 @@
      "title": "트리니티항공, 국제선 항공권 얼리버드 프로모션 펼쳐",
      "outlet": "메가경제",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54RjRwQU5yOGNoY042dmZ1WXRpZFpMTHc0bExLVG0yeGFNb1FXeVdXY29rcGtsVmpJR0J3X2lTOEhjZ0pVRnA1bkhHd2EzQ2FSX3FOQzBxODhuSXlycTRvQUtqdlN0aHlZazlzbC12dTFwQdIBckFVX3lxTE54RjRwQU5yOGNoY042dmZ1WXRpZFpMTHc0bExLVG0yeGFNb1FXeVdXY29rcGtsVmpJR0J3X2lTOEhjZ0pVRnA1bkhHd2EzQ2FSX3FOQzBxODhuSXlycTRvQUtqdlN0aHlZazlzbC12dTFwQQ?oc=5",
+     "published": "2026-10-10"
+    },
+    {
+     "title": "트리니티항공, 국제선 얼리버드 프로모션",
+     "outlet": "잡포스트",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrVWRZWE5kMnZ1SGs4WE5OeWh5Q2w2N1QxMi1MRkNGQkhXN2lYSXpiNW9NMm41amlkdmxqOFZnQnBod3M3eDRBUjY1ZjZOYWUtc3F0T1VDSkZkYmM2bXFEZXRTNFl5WWhpcnVDd0Fn0gFyQVVfeXFMT3ZmUUwwSk9xaXI2MVdHZWFYTC1NNjl3dGt4dzRYRjFVR0MtX1lhYlBYdXZhSTZKWVRiNDdCRjBnVWg3WnUzQmV3T0NrUFpzT25aOEhrMVQtTTlJODNQaXo2ZXNyb3FNVk8xVnFVTEhjWERB?oc=5",
      "published": "2026-10-10"
     },
     {
@@ -2589,6 +2607,65 @@
      "outlet": "파이낸셜뉴스",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xTU5CaGRhT21xZVJ1OWQxMW84YzEzZjNiSGFUTXlSeFNCbnlCN250QlBBalpwQnpCOUVOZXdsclh1YTNDd2tVaGp4M2UwSlJUUWhGQlN4ek85Zw?oc=5",
      "published": "2026-10-17"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "airasia-52c40ce69d",
+   "airline_id": "airasia",
+   "airline": "에어아시아",
+   "airlines_mentioned": [
+    "에어아시아"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airasia.com/ko/kr",
+   "iata": [
+    "AK",
+    "D7",
+    "FD",
+    "Z2",
+    "XJ"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어아시아, 전 좌석·노선 최대 30% 할인 프로모션",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "에어아시아, 전 좌석·노선 최대 30% 할인 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XR01Td1hqbFgzUmFUeGF0bnBjcVUyOWo0M0FnSzNIT2dITDloTVZUaGtXRHZUaGdlLUJUWFY2dGdDc2VNdTBCWXI0OHhaRmZuMFZjeTZ0enZyUkhUM2R3ekxoMVA4QQ?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": "unknown",
+   "discount": "최대 30%",
+   "verification": "news",
+   "first_published": "2026-10-19",
+   "last_published": "2026-10-19",
+   "first_seen": "2026-10-19T08:45:21+09:00",
+   "last_seen": "2026-10-19T08:45:21+09:00",
+   "articles": [
+    {
+     "title": "에어아시아, 전 좌석·노선 최대 30% 할인 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XR01Td1hqbFgzUmFUeGF0bnBjcVUyOWo0M0FnSzNIT2dITDloTVZUaGtXRHZUaGdlLUJUWFY2dGdDc2VNdTBCWXI0OHhaRmZuMFZjeTZ0enZyUkhUM2R3ekxoMVA4QQ?oc=5",
+     "published": "2026-10-19"
     }
    ],
    "status": "undated"
