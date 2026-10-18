@@ -80,6 +80,14 @@ class TestKoreanOverseas(unittest.TestCase):
         # 브랜드 없는 국내 숙박 기사는 예전처럼 받지 않는다 (지자체 쿠폰 등 잡음이 많다)
         self.assertIsNone(x.category_of("경남도, 가을 여행객에 18개 시군 숙박 할인쿠폰…최대 7만원"))
 
+    def test_stats_article_is_not_a_deal(self):
+        # 2026-10-18: 증감률(%)을 할인율로 보고 호텔 행사로 받았던 동향 기사
+        self.assertIsNone(x.category_of("해외 호텔 검색량 여름 대비 34% 상승"))
+        self.assertIsNone(x.category_of("연말 제주항공 국제선 예약 30% 증가"))
+        # 통계가 나와도 할인 표현이 있으면 행사 기사다
+        self.assertEqual(x.category_of("에어프레미아, LA 노선 국적사 점유율 20.8% … 미주 5개 노선 할인"), "flight")
+        self.assertEqual(x.category_of("괌 5개 호텔, '가을 페이백' 프로모션…최대 79% 할인"), "hotel")
+
     def test_flight_article_with_overseas_place_stays_flight(self):
         self.assertEqual(x.category_of("에어부산, 일본·중국·동남아 국제선 특가행사…부산과 인천출발 대상"), "flight")
 

@@ -424,11 +424,23 @@ def attribute_hotel(title):
     return (mentioned[0] if len(mentioned) == 1 else None), mentioned
 
 
+# 통계·동향 기사: 숫자(%)가 할인율이 아니라 증감률이다 ('해외 호텔 검색량 여름 대비 34% 상승', 2026-10-18).
+# 할인 표현이 하나도 없을 때만 뺀다 ('LA 노선 점유율 20.8% … 미주 5개 노선 할인'은 행사 기사)
+_STATS = re.compile(r"검색량|예약률|예약\s?건수|탑승률|점유율|이용객|증가|상승|감소|하락|급증|급감|늘어|줄어|전년\s?대비|대비\s?\d")
+_DISCOUNT_WORD = re.compile(r"할인|특가|세일|SALE|Sale|프로모션|쿠폰|페이백|반값|얼리버드|원부터|1\+1")
+
+
+def is_stats_article(title):
+    return bool(_STATS.search(title) and not _DISCOUNT_WORD.search(title))
+
+
 def category_of(title, lang="ko"):
     """'flight' | 'hotel' | None(수집 대상 아님). 항공사 특가 판정이 우선이다.
-    영어 기사는 호텔 시범 수집만 한다."""
+    영어 기사는 호텔 시범 수집만 한다. 할인 없이 증감만 다룬 통계·동향 기사는 받지 않는다."""
     if lang == "en":
         return "hotel" if is_hotel_sale_en(title) else None
+    if is_stats_article(title):
+        return None
     if is_sale_article(title) and airlines_in(title):
         return "flight"
     if is_hotel_sale(title) or is_overseas_hotel_sale(title):
