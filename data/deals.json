@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T17:08:36+09:00",
+ "generated_at": "2026-10-19T21:28:27+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,14 +10,14 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2554,
-  "outlet_feeds": 17,
-  "outlet_failed": 0,
-  "outlet_items": 1194,
-  "outlet_new_articles": 0,
-  "outlet_enriched": 0,
-  "articles_with_summary": 3,
-  "articles": 364,
+  "rss_items": 2535,
+  "outlet_feeds": 31,
+  "outlet_failed": 2,
+  "outlet_items": 1867,
+  "outlet_new_articles": 1,
+  "outlet_enriched": 1,
+  "articles_with_summary": 5,
+  "articles": 368,
   "new_articles": 4,
   "deals": 35
  },
@@ -1408,7 +1408,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "에어아시아, 전 노선 항공권 최대 30% 할인…25일까지 특별 프로모션",
+   "headline": "에어아시아, 전 좌석·전 노선 최대 30% 할인 프로모션",
    "sale_start": null,
    "sale_end": "2026-10-25",
    "travel_start": null,
@@ -1423,8 +1423,8 @@
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcUtkTXlCUXJPa09tMFA0MUlHYzZzOG45TTBzZ0tlOGlUdDBaUzdBeWxHVDFnNS1CakdBXzFUOVBGZzF2M08zdWNZM1dRTC1hdWZiQWZtNFJNaEZnQkdPMmxUNnhtOFc0WG0yNWxfX05VeDc5cW0wQVRGQlBUVVl4NlAzNnRPQQ?oc=5"
     },
     "discount": {
-     "title": "에어아시아, 전 노선 항공권 최대 30% 할인…25일까지 특별 프로모션",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcUtkTXlCUXJPa09tMFA0MUlHYzZzOG45TTBzZ0tlOGlUdDBaUzdBeWxHVDFnNS1CakdBXzFUOVBGZzF2M08zdWNZM1dRTC1hdWZiQWZtNFJNaEZnQkdPMmxUNnhtOFc0WG0yNWxfX05VeDc5cW0wQVRGQlBUVVl4NlAzNnRPQQ?oc=5"
+     "title": "에어아시아, 전 좌석·전 노선 최대 30% 할인 프로모션",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72379"
     }
    },
    "date_source": "title",
@@ -1434,8 +1434,14 @@
    "first_published": "2026-10-19",
    "last_published": "2026-10-19",
    "first_seen": "2026-10-19T08:45:21+09:00",
-   "last_seen": "2026-10-19T17:08:36+09:00",
+   "last_seen": "2026-10-19T21:28:27+09:00",
    "articles": [
+    {
+     "title": "에어아시아, 전 좌석·전 노선 최대 30% 할인 프로모션",
+     "outlet": "트래블데일리",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72379",
+     "published": "2026-10-19"
+    },
     {
      "title": "에어아시아, 전 노선 항공권 최대 30% 할인…25일까지 특별 프로모션",
      "outlet": "뷰티트래블뉴스",
@@ -3086,7 +3092,7 @@
    "first_published": "2026-10-04",
    "last_published": "2026-10-11",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-19T01:10:56+09:00",
+   "last_seen": "2026-10-19T21:28:27+09:00",
    "articles": [
     {
      "title": "트리니티항공, 13일까지 국제선 최대 22% 할인",
@@ -3099,6 +3105,12 @@
      "outlet": "신아일보",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OZV85ZW5wVXktaEFCS090ejdSVU1IMGsyamV6b25hSFNQRmVrM094QklpT01feVNmRHJqbTJFcXVHTGtEZDNqamVqQnR4TUs3RW1qaHlVUGZrUE5yUnhXMnlJV18wa0VXOGwyUGxuQWM?oc=5",
      "published": "2026-10-10"
+    },
+    {
+     "title": "트리니티항공 국제선 60개 노선 최대 22% 할인",
+     "outlet": "Tbc.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNEowM0QxVl9RR0ZsbTl5N2t4WndoOXpJWGczZS04bC1SRmJ5WFh0RnBHbUFZZGk5VXpXV2hQV2hrbTRhTTJjWUs0VWIxTHRXT0lfaTdaVjluRzJ5ZGdIekR2TnVGRGw2bFRWNEZUbFhWUW5JMTdwbzlXaHhZSWJyOQ?oc=5",
+     "published": "2026-10-06"
     },
     {
      "title": "트리니티항공, 국제선 60개 노선 대상 최대 22% 할인",

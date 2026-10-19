@@ -783,7 +783,26 @@
   "outlet": "트래비 매거진",
   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uRUpiTGItaE9sekxjcVd6MW56d0Nta0poTnI0R2hJYUszU2pUWlVraXh1LU9BYlI5MFRNeGQ5V2dIc3poTUZhaWs5OVZISDVmNENCTVVrNFVvdVlmWXY1RDZndXJuajDSAWtBVV95cUxNZnltQ1o1cWE3cFlzelhodUJUc2RwajJhRUdGcUVia0NocGpOX1NTekxvYUhIdXFqSFpVVWRFYWxNVjdaSVh6VTBXT0NqeG42RFVrVXc2WWNhNks3S1JNSVExRWF0U1ZhS0hSSQ?oc=5",
   "published": "2026-10-08",
-  "first_seen": "2026-10-15T10:12:09+09:00"
+  "first_seen": "2026-10-15T10:12:09+09:00",
+  "summary_facts": {
+   "url": "https://www.travie.com/news/articleView.html?idxno=56080",
+   "outlet": "트래비",
+   "fields": {
+    "sale_start": "2026-10-08",
+    "sale_end": null,
+    "discount": "10만100원부터",
+    "origin": "인천(ICN)",
+    "destination": "마닐라(MNL)",
+    "travel_start": "2027-02-01",
+    "travel_end": "2027-06-30"
+   },
+   "evidence": {
+    "sale": "필리핀 항공사 세부퍼시픽항공이 한국 여행객을 대상으로 10월 8일부터 ‘10.10 특가 행사’ 를 진행한다.",
+    "discount": "… 14일까지 진행되며, 인천-마닐라·세부 노선의 항공권을 편도 총액 최저 10만100원부터 구매할 수 있다.…",
+    "route": "… 14일까지 진행되며, 인천-마닐라·세부 노선의 항공권을 편도 총액 최저 10만100원부터 구매할 수 있다.…",
+    "travel": "탑승 기간은 2027년 2월 1일부터 6월 30일까지다."
+   }
+  }
  },
  {
   "title": "세부퍼시픽항공, '10.10 특가' 프로모션 전개",
@@ -2608,5 +2627,44 @@
   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBlcElvVkkzek9RVW5yUjdQNm9rUV9zbWxta2NPejRrM1laUkIySk5iMFByYVVpY1lMVGQyMm1aUTFaSVdnYmlXb3ZJSHNCNDZNT1N3UjZFa2FkOVZIRGc2OUxVU0MybEJPeDJaQUdlTFJJVVdVcGhmUEdGeEhBdw?oc=5",
   "published": "2026-10-19",
   "first_seen": "2026-10-19T17:08:36+09:00"
+ },
+ {
+  "title": "진에어, 필리핀 노선 최대 25% 할인 프로모션 실시",
+  "outlet": "브릿지경제",
+  "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tOWtRSkdGLWdCSmljVHBDelNfa3lENGJRVFpwUFJpbVQ5aUs5VHNERHhXdk5QUDZPVjZ5UzFvSTNyLWdnaTZWbFd5YjlHZURoYWNNaTNMek4wdw?oc=5",
+  "published": "2026-09-29",
+  "first_seen": "2026-10-19T21:28:27+09:00"
+ },
+ {
+  "title": "“약과 나누고 항공권 최대 15% 할인”…진에어, 추석 맞이 특별 이벤트",
+  "outlet": "더게이트",
+  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yUWJqZG9MVk9NWlY1NFc5YVFYbWRvZlpmVV9YTGhBQXh2X24xR2MxWUp3VV82WUZCZDkyZ2tEVnBYVHBlMkR0bFhxOUI0dFVlSzdaRUtQSUpYYjNjQmllNDVCQnNneThQ0gFsQVVfeXFMT2gxYldMcHNQZGRYVlA4bjVNNlpYbDJDR2syUE9XazFzQllEdUpJOXJXdWdHZUpMN21hbUhoUTJTd0M5VzhSelYyMERCVk53WktLbEpBcmFFdTRsWjVWaktjSnZUc3Z3NjRhMjJ1?oc=5",
+  "published": "2026-09-22",
+  "first_seen": "2026-10-19T21:28:27+09:00"
+ },
+ {
+  "title": "트리니티항공 국제선 60개 노선 최대 22% 할인",
+  "outlet": "Tbc.co.kr",
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNEowM0QxVl9RR0ZsbTl5N2t4WndoOXpJWGczZS04bC1SRmJ5WFh0RnBHbUFZZGk5VXpXV2hQV2hrbTRhTTJjWUs0VWIxTHRXT0lfaTdaVjluRzJ5ZGdIekR2TnVGRGw2bFRWNEZUbFhWUW5JMTdwbzlXaHhZSWJyOQ?oc=5",
+  "published": "2026-10-06",
+  "first_seen": "2026-10-19T21:28:27+09:00"
+ },
+ {
+  "title": "에어아시아, 전 좌석·전 노선 최대 30% 할인 프로모션",
+  "outlet": "트래블데일리",
+  "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72379",
+  "published": "2026-10-19",
+  "first_seen": "2026-10-19T21:28:27+09:00",
+  "source": "outlet_rss",
+  "summary_facts": {
+   "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72379",
+   "outlet": "트래블데일리",
+   "fields": {
+    "discount": "최대 30%"
+   },
+   "evidence": {
+    "discount": "…루·타와우 등 에어아시아의 인기 간편 환승 노선까지 최대 30%까지 할인이 적용된 항공권을 구매할 수 있다.…"
+   }
+  }
  }
 ]
