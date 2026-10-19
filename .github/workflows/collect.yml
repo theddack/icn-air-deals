@@ -40,6 +40,10 @@ jobs:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
         run: python -m collector.flights
 
+      # Secret Flying 공개 특가 중 서울 출발 (하루 1번만 받는다). 실패해도 이전 파일을 두고 계속한다
+      - name: Collect Secret Flying
+        run: python -m collector.secretflying
+
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
@@ -58,6 +62,7 @@ jobs:
           cp site/* _site/
           cp data/deals.json _site/
           if [ -f data/flights.json ]; then cp data/flights.json _site/; fi
+          if [ -f data/secretflying.json ]; then cp data/secretflying.json _site/; fi
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

@@ -326,7 +326,32 @@
     updateTabCounts();
     var base = deals.filter(visible);
     renderList(base, today);
+    renderSecretFlying();
     writeUrl();
+  }
+
+  // ---------------------------------------------------------------- 실제 가격 특가 (Secret Flying, 서울 출발)
+  var sf = null; // secretflying.json. 없거나 실패하면 이 칸을 숨긴다
+  var CURRENCY = { USD: "$", EUR: "€", GBP: "£", JPY: "¥", KRW: "₩" };
+
+  function sfPrice(d) {
+    var sym = CURRENCY[d.currency];
+    var n = Number(d.price).toLocaleString("en-US");
+    return sym ? sym + n + (d.currency === "USD" ? " USD" : "") : n + " " + d.currency;
+  }
+
+  function renderSecretFlying() {
+    var box = document.getElementById("sf");
+    var list = sf && sf.deals || [];
+    box.hidden = state.section !== "flight" || !list.length;
+    if (box.hidden) return;
+    document.getElementById("sf-list").innerHTML = list.map(function (d) {
+      return '<li><a href="' + esc(d.url) + '" target="_blank" rel="noopener" title="' + esc(d.title) + '">' +
+        '<span class="sf-route">서울 → ' + esc(d.destination) + "</span>" +
+        '<span class="sf-price">' + esc(sfPrice(d)) + "</span>" +
+        '<span class="sf-meta">' + (d.trip === "oneway" ? "편도" : "왕복") + (d.nonstop ? " · 직항" : "") +
+          (d.tag ? " · " + esc(d.tag) : "") + " · " + md(d.first_seen) + " 확인 ↗</span></a></li>";
+    }).join("");
   }
 
   // ---------------------------------------------------------------- 주소에 검색·필터 상태 저장
@@ -865,6 +890,12 @@
       }
     })
     .catch(function (e) { schError = e.message; if (state.section === "flights") renderSchedule(); else if (deals.length) render(); });
+
+  // Secret Flying 서울 출발 특가. 없거나 실패해도 나머지 화면은 그대로 쓴다
+  fetch("secretflying.json", { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (data) { sf = data; if (deals.length) render(); })
+    .catch(function () { sf = null; });
 
   fetch("deals.json", { cache: "no-store" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
