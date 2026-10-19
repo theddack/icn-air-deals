@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T21:55:39+09:00",
+ "generated_at": "2026-10-20T00:55:17+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -14,12 +14,12 @@
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1847,
+  "outlet_items": 1741,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 5,
-  "articles": 368,
-  "new_articles": 0,
+  "articles": 369,
+  "new_articles": 1,
   "deals": 35
  },
  "deals": [
@@ -77,7 +77,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-19T08:45:21+09:00",
+   "last_seen": "2026-10-20T00:55:17+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
@@ -222,6 +222,12 @@
      "outlet": "비건뉴스",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxUnNrZkpfQXRMaGZqeWNJR0pQa3FnZUhUY1Z3THlhYm5tWHNxODQwYkphSXNQeEJUbVNrVGw3bGpzVFA1Z3AyYjZ6eWdHTm9USHdBLXhzcjZNVFZkcGFPYzdxZGVidw?oc=5",
      "published": "2026-09-24"
+    },
+    {
+     "title": "전진선 양평군수, 가을 관광객 잡는다…‘숙박세일 페스타’ 가동",
+     "outlet": "비욘드포스트",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1WSjVZTjhIYnpkYVMwaDRfVy05V2d1Qnh4SHVUYUhkbTlxaWpSdDhlOXh6emI1RnlnVHQwMDV6OXRZblBWbUlXNjZMT0l1NDc0eml1aWxjNC1zcU4wRHZCUE1mQjlBdy1adWRtNmY3MVF5TnlVRHR1ejZGVVA?oc=5",
+     "published": "2026-09-23"
     },
     {
      "title": "가을 숙박세일페스타, 연박시 최대 7만원 할인",
@@ -814,80 +820,6 @@
      "title": "에어부산, 연말 국제선 특가 프로모션…14일부터 20일까지",
      "outlet": "쿠키뉴스",
      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mcUhvLXN4cU5wTTBtMTBpZFgzd1dqSW5JWUhUdUlyWThmSEs2RFc0N05TcTVVeTJRdUlDZXY2ZGxDbXNDekphUW1SV2FLVU5ZRjJRa19kYVROVzk1T1N4YlRHVQ?oc=5",
-     "published": "2026-10-11"
-    }
-   ],
-   "status": "live"
-  },
-  {
-   "id": "airpremia-af1ecccd27",
-   "airline_id": "airpremia",
-   "airline": "에어프레미아",
-   "airlines_mentioned": [
-    "에어프레미아"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airpremia.com/",
-   "iata": [
-    "YP"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
-   "sale_start": null,
-   "sale_end": "2026-10-19",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": "하와이",
-     "destination": "한국"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
-     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5"
-    },
-    "discount": {
-     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
-     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5"
-    },
-    "route": {
-     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
-     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5"
-    }
-   },
-   "date_source": "title",
-   "from_icn": "no",
-   "discount": "최대 20%",
-   "verification": "news",
-   "first_published": "2026-10-11",
-   "last_published": "2026-10-14",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
-   "articles": [
-    {
-     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
-     "outlet": "KBFD",
-     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5",
-     "published": "2026-10-14"
-    },
-    {
-     "title": "에어프레미아, 미주출발 항공권 최대 20% 프로모션",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdUNkWUJSeVdHQjViRUI5djlKTElBWURiVlVsNHRwM0RoSUNxZnV4dTJHTS1FRnVzRHhBV183NlIzaG1uc2RoZC1lUjZhY1pRalJFUzFIenhCRGNPTmpLWDMydnE2Z1Aya2g0eXBFNjJYVHEzVlJFQ1kwUVZjUTBuZV9YY0Y4cndwY1dkTDN6TDE1SnloZjZrUzc0ZUNRNzdZamxfSlcyRUlRUTVUemNsOUg2bXM2UElFLUZHUjVGZXpOZlJr?oc=5",
      "published": "2026-10-11"
     }
    ],
@@ -3196,6 +3128,80 @@
      "outlet": "에너지경제신문",
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OdFFSTVViY2VFamJxbjhOWFZjdmJJdi1OYlRtMmhNcmhsUURQaEZGY1Nseno2ZUVuV1hzbHc0Q1VyenQ0WUMzYmhwSVZqdWVSdlB5LUZvVHFmMkE?oc=5",
      "published": "2026-10-04"
+    }
+   ],
+   "status": "ended"
+  },
+  {
+   "id": "airpremia-af1ecccd27",
+   "airline_id": "airpremia",
+   "airline": "에어프레미아",
+   "airlines_mentioned": [
+    "에어프레미아"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airpremia.com/",
+   "iata": [
+    "YP"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
+   "sale_start": null,
+   "sale_end": "2026-10-19",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "하와이",
+     "destination": "한국"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
+     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5"
+    },
+    "discount": {
+     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
+     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5"
+    },
+    "route": {
+     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
+     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": "no",
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-10-11",
+   "last_published": "2026-10-14",
+   "first_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-15T10:12:09+09:00",
+   "articles": [
+    {
+     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
+     "outlet": "KBFD",
+     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5",
+     "published": "2026-10-14"
+    },
+    {
+     "title": "에어프레미아, 미주출발 항공권 최대 20% 프로모션",
+     "outlet": "미주조선일보",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdUNkWUJSeVdHQjViRUI5djlKTElBWURiVlVsNHRwM0RoSUNxZnV4dTJHTS1FRnVzRHhBV183NlIzaG1uc2RoZC1lUjZhY1pRalJFUzFIenhCRGNPTmpLWDMydnE2Z1Aya2g0eXBFNjJYVHEzVlJFQ1kwUVZjUTBuZV9YY0Y4cndwY1dkTDN6TDE1SnloZjZrUzc0ZUNRNzdZamxfSlcyRUlRUTVUemNsOUg2bXM2UElFLUZHUjVGZXpOZlJr?oc=5",
+     "published": "2026-10-11"
     }
    ],
    "status": "ended"
