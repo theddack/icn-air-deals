@@ -2,7 +2,12 @@
 
 import unittest
 
-from collector.sources.gmail_imap import SEARCH_DOMAINS, airline_of, authenticated, decode, search_query
+from datetime import date
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
+from collector.sources.gmail_imap import (SEARCH_DOMAINS, airline_of, authenticated, decode, message_text, promo_signals,
+                                         search_query)
 
 
 class TestAirlineOf(unittest.TestCase):
@@ -75,6 +80,45 @@ class TestSearch(unittest.TestCase):
         for d in ("jejuair.net", "ceair.com", "jal.co.jp", "jal.com", "airmacau.com.cn", "infos-klm.com"):
             self.assertIn(d, SEARCH_DOMAINS)
         self.assertNotIn("kr.ceair.com", SEARCH_DOMAINS)  # 하위 도메인은 등록 도메인으로 묶는다
+
+
+class TestPromoSignals(unittest.TestCase):
+    PUB = date(2026, 10, 19)
+
+    def test_korean_sale_mail(self):
+        got = promo_signals("(광고) 가을 특가 오픈", "인천-오사카 편도 총액 59,000원부터. 판매기간: 10월 20일~10월 26일. "
+                            "탑승기간: 12월 1일~2월 28일. 최대 30% 할인", self.PUB)
+        self.assertEqual(got, {"ad", "price_krw", "sale", "travel", "discount", "route"})
+
+    def test_foreign_price(self):
+        self.assertEqual(promo_signals("Autumn offers", "Fly to Helsinki. Fares from €299", self.PUB), {"price_foreign"})
+
+    def test_welcome_mail_has_nothing(self):
+        self.assertEqual(promo_signals("회원가입을 환영합니다", "가입해 주셔서 감사합니다. 회원번호 12345678", self.PUB), set())
+
+
+class FakeImap:
+    def __init__(self, raw):
+        self.raw = raw
+
+    def uid(self, cmd, uid, what):
+        return "OK", [(b"1 (UID 7 BODY[] {100}", self.raw), b")"]
+
+
+class TestMessageText(unittest.TestCase):
+    def test_html_only_mail_becomes_text(self):
+        msg = MIMEMultipart("alternative")
+        msg.attach(MIMEText("<html><head><style>p{}</style></head><body><p>편도 59,000원&nbsp;부터</p>"
+                            "<script>x()</script></body></html>", "html", "utf-8"))
+        text = message_text(FakeImap(msg.as_bytes()), "7")
+        self.assertIn("편도 59,000원 부터", " ".join(text.split()))
+        self.assertNotIn("x()", text)
+
+    def test_plain_preferred(self):
+        msg = MIMEMultipart("alternative")
+        msg.attach(MIMEText("plain 본문", "plain", "utf-8"))
+        msg.attach(MIMEText("<p>html 본문</p>", "html", "utf-8"))
+        self.assertEqual(message_text(FakeImap(msg.as_bytes()), "7").strip(), "plain 본문")
 
 
 if __name__ == "__main__":

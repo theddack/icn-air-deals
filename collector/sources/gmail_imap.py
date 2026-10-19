@@ -14,6 +14,7 @@
 """
 
 import email
+import html
 import imaplib
 import os
 import re
@@ -163,12 +164,68 @@ def recent_headers(imap, days):
         for row in rows:
             if not isinstance(row, tuple):
                 continue
+            m = re.search(rb"UID (\d+)", row[0])
             msg = email.message_from_bytes(row[1])
             try:
                 sent = parsedate_to_datetime(msg["Date"]) if msg["Date"] else None
             except (TypeError, ValueError):
                 sent = None
-            out.append({"from": msg["From"] or "", "subject": decode(msg["Subject"]), "date": sent,
+            out.append({"uid": m.group(1).decode() if m else None, "from": msg["From"] or "", "subject": decode(msg["Subject"]), "date": sent,
                         "message_id": (msg["Message-ID"] or "").strip(),
                         "auth": msg.get_all("Authentication-Results") or []})
     return box, out
+
+
+def _html_text(s):
+    s = re.sub(r"(?is)<(script|style|head)\b.*?</\1>", " ", s)
+    s = re.sub(r"(?i)<br\s*/?>|</(p|div|tr|td|li|h\d)>", "\n", s)
+    return html.unescape(re.sub(r"<[^>]+>", " ", s))
+
+
+def message_text(imap, uid):
+    """메일 본문을 글자만 남겨 돌려준다(PEEK이라 읽음 표시가 바뀌지 않는다). 메모리에서만 쓰고 저장·출력하지 않는다.
+    text/plain이 있으면 그것을, 없으면 text/html에서 태그를 지운 것을 쓴다."""
+    _, rows = imap.uid("FETCH", uid, "(BODY.PEEK[])")
+    raw = next((r[1] for r in rows or [] if isinstance(r, tuple)), None)
+    if not raw:
+        return ""
+    msg = email.message_from_bytes(raw)
+    plain, htm = [], []
+    for part in msg.walk():
+        ctype = part.get_content_type()
+        if ctype not in ("text/plain", "text/html") or part.get_filename():
+            continue
+        try:
+            text = part.get_payload(decode=True).decode(part.get_content_charset() or "utf-8", "replace")
+        except (LookupError, AttributeError):
+            continue
+        (plain if ctype == "text/plain" else htm).append(text)
+    text = "\n".join(plain) if plain else _html_text("\n".join(htm))
+    return re.sub(r"[ \t\u00a0\u200b]+", " ", text)
+
+
+_KRW = re.compile(r"(?:₩|KRW)\s?\d[\d,]{3,}|\d{1,3}(?:,\d{3})+\s?원|\d+\s?만\s?\d{0,4}\s?원")
+_FOREIGN = re.compile(r"(?:US\$|HK\$|NT\$|S\$|\$|¥|€|£)\s?\d[\d,.]*|\d[\d,.]*\s?(?:USD|JPY|EUR|HKD|TWD|SGD|엔|달러)\b")
+_AD_PREFIX = re.compile(r"^\s*[(\[]\s*광고\s*[)\]]")
+
+
+def promo_signals(subject, text, pub):
+    """메일 한 통에서 행사 정보가 있는지(측정용) → 들어 있는 항목 이름 집합. 값은 돌려주지 않는다.
+
+    price_krw 원화 금액 / price_foreign 외화 금액 / sale 판매 기간 / travel 탑승 기간 / discount 할인율 / route 도착지
+    ad 제목 앞 '(광고)' (국내 광고 메일은 법으로 붙인다)"""
+    from ..extract import facts_from_summary  # 측정 때만 쓴다
+    got = set()
+    body = f"{subject}\n{text or ''}"
+    if _KRW.search(body):
+        got.add("price_krw")
+    if _FOREIGN.search(body):
+        got.add("price_foreign")
+    facts, _ = facts_from_summary(body.replace("\n", ". "), pub)
+    for k, f in (("sale", ("sale_start", "sale_end")), ("travel", ("travel_start", "travel_end")),
+                 ("discount", ("discount",)), ("route", ("destination",))):
+        if any(facts.get(x) for x in f):
+            got.add(k)
+    if _AD_PREFIX.match(subject or ""):
+        got.add("ad")
+    return got
