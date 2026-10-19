@@ -38,11 +38,10 @@ FEEDS = [
     ("이투데이", "https://rss.etoday.co.kr/eto/etoday_news_all.xml"),
     ("서울파이낸스", "https://www.seoulfn.com/rss/allArticle.xml"),
     # 2026-10-19 추가: 요약문이 있고 robots.txt가 막지 않는 곳만 (같은 User-Agent로 직접 받아 확인)
+# 트래블바이크뉴스(연결 실패)·비즈니스포스트(403)는 GitHub Actions 서버에서 막혀 뺐다 (2026-10-19)
     ("트래비", "https://www.travie.com/rss/allArticle.xml"),
-    ("트래블바이크뉴스", "https://www.travelnbike.com/rss/allArticle.xml"),
     ("호텔앤레스토랑", "https://www.hotelrestaurant.co.kr/rss/allArticle.xml"),
     ("TTL뉴스", "https://www.ttlnews.com/rss/allArticle.xml"),
-    ("비즈니스포스트", "https://www.businesspost.co.kr/rss/Article.xml"),  # 약 1주치 700건을 한 번에 준다
     ("컨슈머치", "https://www.consumuch.com/rss/allArticle.xml"),
     ("매일경제 기업", "https://www.mk.co.kr/rss/50100032/"),
     ("매일일보", "https://cdn.m-i.kr/rss/gn_rss_allArticle.xml"),
