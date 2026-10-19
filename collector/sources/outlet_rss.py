@@ -87,15 +87,15 @@ def parse(xml_bytes, outlet):
 
 
 def collect(delay=0.5):
-    """→ (항목 목록, 실패한 피드 수, 전체 피드 수). 요약문은 메모리에서만 쓰고 저장하지 않는다."""
-    items, failed = [], 0
+    """→ (항목 목록, 실패한 피드 이름 목록, 전체 피드 수). 요약문은 메모리에서만 쓰고 저장하지 않는다."""
+    items, failed = [], []
     for i, (name, url) in enumerate(FEEDS):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
             with urllib.request.urlopen(req, timeout=20) as res:
                 items += parse(res.read(), name)
         except Exception as e:  # 피드 하나 실패로 전체를 멈추지 않는다
-            failed += 1
+            failed.append(f"{name}: {type(e).__name__} {getattr(e, 'code', '')}".strip())
             print(f"[outlet_rss] 실패: {name}: {e}", file=sys.stderr)
         if i < len(FEEDS) - 1:
             time.sleep(delay)

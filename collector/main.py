@@ -290,14 +290,14 @@ def main():
         "baselines": base,
         "baseline_first_seen": base["flight"],
         "stats": {"queries": total, "failed_queries": failed, "rss_items": len(raw),
-                  "outlet_feeds": o_total, "outlet_failed": o_failed, "outlet_items": len(o_items),
+                  "outlet_feeds": o_total, "outlet_failed": len(o_failed), "outlet_failed_feeds": o_failed, "outlet_items": len(o_items),
                   "outlet_new_articles": o_added, "outlet_enriched": o_enriched,
                   "articles_with_summary": sum(1 for a in articles if a.get("summary_facts")),
                   "articles": len(articles), "new_articles": added, "deals": len(deals)},
         "deals": deals,
     })
     print(f"[main] 검색어 {total}개 (실패 {failed}), RSS {len(raw)}건 → 기사 {len(articles)}건 (신규 {added}) → 행사 {len(deals)}건")
-    print(f"[main] 언론사 RSS {o_total}곳 (실패 {o_failed}), 항목 {len(o_items)}건 → 새 기사 {o_added}, 요약 사실값 추가 {o_enriched}")
+    print(f"[main] 언론사 RSS {o_total}곳 (실패 {len(o_failed)}), 항목 {len(o_items)}건 → 새 기사 {o_added}, 요약 사실값 추가 {o_enriched}")
     return 0
 
 
