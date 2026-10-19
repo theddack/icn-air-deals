@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T21:28:27+09:00",
+ "generated_at": "2026-10-19T21:33:47+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,15 +10,19 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2535,
+  "rss_items": 2562,
   "outlet_feeds": 31,
   "outlet_failed": 2,
-  "outlet_items": 1867,
-  "outlet_new_articles": 1,
-  "outlet_enriched": 1,
+  "outlet_failed_feeds": [
+   "트래블바이크뉴스: URLError",
+   "비즈니스포스트: HTTPError 403"
+  ],
+  "outlet_items": 1862,
+  "outlet_new_articles": 0,
+  "outlet_enriched": 0,
   "articles_with_summary": 5,
   "articles": 368,
-  "new_articles": 4,
+  "new_articles": 0,
   "deals": 35
  },
  "deals": [
