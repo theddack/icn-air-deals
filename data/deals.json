@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T13:48:24+09:00",
+ "generated_at": "2026-10-19T17:08:36+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,16 +10,16 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2512,
+  "rss_items": 2554,
   "outlet_feeds": 17,
   "outlet_failed": 0,
-  "outlet_items": 1225,
+  "outlet_items": 1194,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 3,
-  "articles": 360,
+  "articles": 364,
   "new_articles": 4,
-  "deals": 33
+  "deals": 35
  },
  "deals": [
   {
@@ -1383,6 +1383,81 @@
    "status": "live"
   },
   {
+   "id": "airasia-52c40ce69d",
+   "airline_id": "airasia",
+   "airline": "에어아시아",
+   "airlines_mentioned": [
+    "에어아시아"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airasia.com/ko/kr",
+   "iata": [
+    "AK",
+    "D7",
+    "FD",
+    "Z2",
+    "XJ"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어아시아, 전 노선 항공권 최대 30% 할인…25일까지 특별 프로모션",
+   "sale_start": null,
+   "sale_end": "2026-10-25",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "에어아시아, 전 노선 항공권 최대 30% 할인…25일까지 특별 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcUtkTXlCUXJPa09tMFA0MUlHYzZzOG45TTBzZ0tlOGlUdDBaUzdBeWxHVDFnNS1CakdBXzFUOVBGZzF2M08zdWNZM1dRTC1hdWZiQWZtNFJNaEZnQkdPMmxUNnhtOFc0WG0yNWxfX05VeDc5cW0wQVRGQlBUVVl4NlAzNnRPQQ?oc=5"
+    },
+    "discount": {
+     "title": "에어아시아, 전 노선 항공권 최대 30% 할인…25일까지 특별 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcUtkTXlCUXJPa09tMFA0MUlHYzZzOG45TTBzZ0tlOGlUdDBaUzdBeWxHVDFnNS1CakdBXzFUOVBGZzF2M08zdWNZM1dRTC1hdWZiQWZtNFJNaEZnQkdPMmxUNnhtOFc0WG0yNWxfX05VeDc5cW0wQVRGQlBUVVl4NlAzNnRPQQ?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": "unknown",
+   "discount": "최대 30%",
+   "verification": "news",
+   "first_published": "2026-10-19",
+   "last_published": "2026-10-19",
+   "first_seen": "2026-10-19T08:45:21+09:00",
+   "last_seen": "2026-10-19T17:08:36+09:00",
+   "articles": [
+    {
+     "title": "에어아시아, 전 노선 항공권 최대 30% 할인…25일까지 특별 프로모션",
+     "outlet": "뷰티트래블뉴스",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcUtkTXlCUXJPa09tMFA0MUlHYzZzOG45TTBzZ0tlOGlUdDBaUzdBeWxHVDFnNS1CakdBXzFUOVBGZzF2M08zdWNZM1dRTC1hdWZiQWZtNFJNaEZnQkdPMmxUNnhtOFc0WG0yNWxfX05VeDc5cW0wQVRGQlBUVVl4NlAzNnRPQQ?oc=5",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "에어아시아, 단 1주일간만! 전 노선 항공권 최대 30% 할인 프로모션",
+     "outlet": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtM3BsV0VEMkJzcWNtTHBXYV92QXd4UUhQbllNenZVdkJMcERaelJWNUVGWVdIY3FfZXRpUkxwdFhfNF9Jcm5Ba0JkSEhGeWVwOVBtcEg2LV84TUJYY3MzY0FtemI5eU0xYnJQNGhR?oc=5",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "에어아시아, 전 좌석·노선 최대 30% 할인 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XR01Td1hqbFgzUmFUeGF0bnBjcVUyOWo0M0FnSzNIT2dITDloTVZUaGtXRHZUaGdlLUJUWFY2dGdDc2VNdTBCWXI0OHhaRmZuMFZjeTZ0enZyUkhUM2R3ekxoMVA4QQ?oc=5",
+     "published": "2026-10-19"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "multi-64f21625b7",
    "airline_id": "multi",
    "airline": "여러 항공사",
@@ -2618,71 +2693,6 @@
    "status": "undated"
   },
   {
-   "id": "airasia-52c40ce69d",
-   "airline_id": "airasia",
-   "airline": "에어아시아",
-   "airlines_mentioned": [
-    "에어아시아"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airasia.com/ko/kr",
-   "iata": [
-    "AK",
-    "D7",
-    "FD",
-    "Z2",
-    "XJ"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어아시아, 단 1주일간만! 전 노선 항공권 최대 30% 할인 프로모션",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "에어아시아, 단 1주일간만! 전 노선 항공권 최대 30% 할인 프로모션",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtM3BsV0VEMkJzcWNtTHBXYV92QXd4UUhQbllNenZVdkJMcERaelJWNUVGWVdIY3FfZXRpUkxwdFhfNF9Jcm5Ba0JkSEhGeWVwOVBtcEg2LV84TUJYY3MzY0FtemI5eU0xYnJQNGhR?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": "unknown",
-   "discount": "최대 30%",
-   "verification": "news",
-   "first_published": "2026-10-19",
-   "last_published": "2026-10-19",
-   "first_seen": "2026-10-19T08:45:21+09:00",
-   "last_seen": "2026-10-19T13:48:24+09:00",
-   "articles": [
-    {
-     "title": "에어아시아, 단 1주일간만! 전 노선 항공권 최대 30% 할인 프로모션",
-     "outlet": "국제뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtM3BsV0VEMkJzcWNtTHBXYV92QXd4UUhQbllNenZVdkJMcERaelJWNUVGWVdIY3FfZXRpUkxwdFhfNF9Jcm5Ba0JkSEhGeWVwOVBtcEg2LV84TUJYY3MzY0FtemI5eU0xYnJQNGhR?oc=5",
-     "published": "2026-10-19"
-    },
-    {
-     "title": "에어아시아, 전 좌석·노선 최대 30% 할인 프로모션",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XR01Td1hqbFgzUmFUeGF0bnBjcVUyOWo0M0FnSzNIT2dITDloTVZUaGtXRHZUaGdlLUJUWFY2dGdDc2VNdTBCWXI0OHhaRmZuMFZjeTZ0enZyUkhUM2R3ekxoMVA4QQ?oc=5",
-     "published": "2026-10-19"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-yeogi-5953d6eec2",
    "airline_id": "h-yeogi",
    "airline": "여기어때",
@@ -2732,6 +2742,104 @@
      "title": "여기어때, 경기 웰니스 숙박·레저 상품 최대 5만원 할인",
      "outlet": "글로벌이코노믹",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2pjZGhWcWRfcGNQcEhpZkNGakRqZVd0cXZsaEJEMi1JU2c3c25IN191RHF3emhmTThOMGp3Y0ZmWi1Hal9sckk2akQzUmR1YlpBVUZGekFIN0NCV2J2QWtSaktPYmlBM0NfSFMxYWpmNEpFbGR4cTEyOGlMYTc4VzFERzNBUFNzTGNR?oc=5",
+     "published": "2026-10-19"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "pal-c440118efa",
+   "airline_id": "pal",
+   "airline": "필리핀항공",
+   "airlines_mentioned": [
+    "필리핀항공"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.philippineairlines.com/",
+   "iata": [
+    "PR"
+   ],
+   "agencies": [],
+   "event_name": "함께 떠날수록 항공권 할인",
+   "headline": "필리핀항공, ‘함께 떠날수록 항공권 할인’ 프로모션",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "date_source": "none",
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-19",
+   "last_published": "2026-10-19",
+   "first_seen": "2026-10-19T17:08:36+09:00",
+   "last_seen": "2026-10-19T17:08:36+09:00",
+   "articles": [
+    {
+     "title": "필리핀항공, ‘함께 떠날수록 항공권 할인’ 프로모션",
+     "outlet": "중앙일보",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRQnJtZWNaMUktTlpDemV1Z210QjhkSzhsbVdJV3FQTG1sYjR4RF9mRTh5ZGNMNkNWVmljQi1haXZaMVdCNEczNElqeEFuZnQ1YVpUTThn?oc=5",
+     "published": "2026-10-19"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-kensington-cfc2a3a9b2",
+   "airline_id": "h-kensington",
+   "airline": "켄싱턴호텔앤리조트",
+   "airlines_mentioned": [
+    "켄싱턴호텔앤리조트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[본사직영] 켄싱턴리조트 경주, 단, 하루 특가!!",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "date_source": "none",
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-19",
+   "last_published": "2026-10-19",
+   "first_seen": "2026-10-19T17:08:36+09:00",
+   "last_seen": "2026-10-19T17:08:36+09:00",
+   "articles": [
+    {
+     "title": "[본사직영] 켄싱턴리조트 경주, 단, 하루 특가!!",
+     "outlet": "쿠팡",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBlcElvVkkzek9RVW5yUjdQNm9rUV9zbWxta2NPejRrM1laUkIySk5iMFByYVVpY1lMVGQyMm1aUTFaSVdnYmlXb3ZJSHNCNDZNT1N3UjZFa2FkOVZIRGc2OUxVU0MybEJPeDJaQUdlTFJJVVdVcGhmUEdGeEhBdw?oc=5",
      "published": "2026-10-19"
     }
    ],
