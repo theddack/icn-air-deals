@@ -37,7 +37,25 @@ FEEDS = [
     ("연합뉴스", "https://www.yna.co.kr/rss/economy.xml"),
     ("이투데이", "https://rss.etoday.co.kr/eto/etoday_news_all.xml"),
     ("서울파이낸스", "https://www.seoulfn.com/rss/allArticle.xml"),
+    # 2026-10-19 추가: 요약문이 있고 robots.txt가 막지 않는 곳만 (같은 User-Agent로 직접 받아 확인)
+    ("트래비", "https://www.travie.com/rss/allArticle.xml"),
+    ("트래블바이크뉴스", "https://www.travelnbike.com/rss/allArticle.xml"),
+    ("호텔앤레스토랑", "https://www.hotelrestaurant.co.kr/rss/allArticle.xml"),
+    ("TTL뉴스", "https://www.ttlnews.com/rss/allArticle.xml"),
+    ("비즈니스포스트", "https://www.businesspost.co.kr/rss/Article.xml"),  # 약 1주치 700건을 한 번에 준다
+    ("컨슈머치", "https://www.consumuch.com/rss/allArticle.xml"),
+    ("매일경제 기업", "https://www.mk.co.kr/rss/50100032/"),
+    ("매일일보", "https://cdn.m-i.kr/rss/gn_rss_allArticle.xml"),
+    ("국민일보", "https://www.kmib.co.kr/rss/data/kmibRssAll.xml"),
+    ("아주경제 산업", "https://www.ajunews.com/rss/industry.xml"),
+    ("아주경제 사회", "https://www.ajunews.com/rss/society.xml"),  # 지자체 여행 할인 기사
+    ("연합뉴스 문화", "https://www.yna.co.kr/rss/culture.xml"),  # '[여행소식]' 연재
+    ("뉴시스 문화", "https://www.newsis.com/RSS/culture.xml"),
+    # 정부 할인 캠페인(숙박세일 페스타·여행가는 달) 공식 발표. 최근 10건, 요약문 없음(제목만), 공공누리
+    ("문화체육관광부", "https://www.mcst.go.kr/common/rss/press.jsp"),
 ]
+# 요약문 칸에 내용 대신 들어오는 값 (문체부 RSS는 'EMPTY_CLOB()')
+_EMPTY_SUMMARY = {"EMPTY_CLOB()"}
 
 
 def _text(s):
@@ -48,6 +66,7 @@ def _pub(s):
     """RFC 822(대부분) 또는 'YYYY-MM-DD HH:MM:SS'(일부 언론사) → KST 날짜 ISO."""
     if not s:
         return None
+    s = re.sub(r"\sKST$", " +0900", s.strip())  # 문체부: '… 08:06:37 KST' (표준 형식이 아니라 시간대를 못 읽는다)
     try:
         return parsedate_to_datetime(s).astimezone(KST).date().isoformat()
     except (TypeError, ValueError):
@@ -61,7 +80,8 @@ def parse(xml_bytes, outlet):
         title = _text(it.findtext("title"))
         if not title:
             continue
-        out.append({"outlet": outlet, "title": title, "summary": _text(it.findtext("description")),
+        summary = _text(it.findtext("description"))
+        out.append({"outlet": outlet, "title": title, "summary": "" if summary in _EMPTY_SUMMARY else summary,
                     "url": (it.findtext("link") or "").strip(), "published": _pub(it.findtext("pubDate"))})
     return out
 

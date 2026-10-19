@@ -6,7 +6,7 @@ from datetime import date
 from collector import extract as x
 from collector.main import _summary_fill, attach_outlet_items, enrich
 from collector.merge import cluster_articles
-from collector.sources.outlet_rss import _pub
+from collector.sources.outlet_rss import FEEDS, _pub, parse
 
 SUMMARY = ("세부퍼시픽항공이 ‘10.10 특가 행사’를 통해 프로모션을 선보인다. "
            "이번 프로모션은 2026년 10월 8일부터 14일까지 진행되며 세부행 항공권을 편도 총액 최저 10만 100원부터 구매할 수 있다. "
@@ -29,6 +29,21 @@ class TestSummaryFacts(unittest.TestCase):
     def test_pub_date_formats(self):
         self.assertEqual(_pub("2026-10-14 22:18:44"), "2026-10-14")
         self.assertEqual(_pub("Tue, 14 Oct 2026 22:18:44 +0900"), "2026-10-14")
+        # 문체부 RSS는 시간대를 'KST'로 적는다. 밤 11시 기사가 UTC로 읽혀 날짜가 바뀌면 안 된다
+        self.assertEqual(_pub("Mon, 19 Oct 2026 23:30:00 KST"), "2026-10-19")
+
+    def test_placeholder_summary_is_empty(self):
+        xml = ("<rss><channel><item><title><![CDATA[2026 숙박세일 페스타]]></title>"
+               "<link>http://www.mcst.go.kr/x</link><description><![CDATA[\n\t\tEMPTY_CLOB()\n\t]]></description>"
+               "<pubDate>Mon, 19 Oct 2026 08:06:37 KST</pubDate></item></channel></rss>").encode("utf-8")
+        it = parse(xml, "문화체육관광부")[0]
+        self.assertEqual((it["summary"], it["published"]), ("", "2026-10-19"))
+
+    def test_feed_list(self):
+        urls = [u for _, u in FEEDS]
+        self.assertEqual(len(urls), len(set(urls)))
+        self.assertEqual(len({n for n, _ in FEEDS}), len(FEEDS))
+        self.assertTrue(all(u.startswith("https://") for u in urls))
 
 
 def item(title, summary=SUMMARY, pub="2026-10-10", url="https://outlet.example/1"):
