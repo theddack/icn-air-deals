@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T17:03:11+09:00",
+ "generated_at": "2026-10-20T23:18:02+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,17 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2606,
+  "rss_items": 2652,
   "outlet_feeds": 29,
-  "outlet_failed": 1,
-  "outlet_failed_feeds": [
-   "문화체육관광부: URLError"
-  ],
-  "outlet_items": 2078,
+  "outlet_failed": 0,
+  "outlet_failed_feeds": [],
+  "outlet_items": 1950,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 8,
-  "articles": 384,
-  "new_articles": 0,
-  "deals": 37
+  "articles": 394,
+  "new_articles": 10,
+  "deals": 40
  },
  "deals": [
   {
@@ -79,7 +77,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-20T00:55:17+09:00",
+   "last_seen": "2026-10-20T23:18:02+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
@@ -382,6 +380,12 @@
      "published": "2026-09-22"
     },
     {
+     "title": "NOL, 숙박세일페스타 참여⋯최대 7만원 할인에 연박 3% 추가",
+     "outlet": "국민일보",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9rN2ppWnZ6dmR2RkE2S0pWMTFZcWthbjFPZllkaF9wbm5lQUNkY3poc05RaUg0aWN6UzdyaW1lZFhTR0JRWW96Z1IwVVl5ZFVxbVlUREF2Vko?oc=5",
+     "published": "2026-09-22"
+    },
+    {
      "title": "놀유니버스, '숙박세일 페스타 하반기편' 참여…최대 7만원 할인",
      "outlet": "연합뉴스",
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2Zng5ZTVCalpmMi1JLWhBWE5KbUpQeWV5QU1JYUFMRVg0NldUcEU3ajdXOW9PMEExSnNKSlA3UGNYeG5YS3R0WmdZdnJmR21JSFUzWXBTb0pkWkXSAWBBVV95cUxORnhueTlUalNpUDd4Y2VaOGtfZGZjRXc3cGRxMWhyaDRRVGhsMjhLeFV6Sl85QUpTMmV0MjRKbVVPSW5LQTh6cTRBLWZjSjg4S1owa1FjSDNfajlfSlFwbDM?oc=5",
@@ -421,6 +425,12 @@
      "title": "강원도 가을 여행, 숙박비 최대 7만원 할인…9월 22일부터 숙박세일페스타",
      "outlet": "한국사회복지저널",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54cWY5QmNpSWhvNlN3WmV1eG9zQ21CVDd0LVU5ckw1dHVHQXNvamk4T0tfNW1ZbUphQXJmanJQWURMbkVPaGpwYmZOVDhRYjJ3eXcyZXJkNEpjWklpWVVkQ3pXb0E1Z095Tlc0VQ?oc=5",
+     "published": "2026-09-21"
+    },
+    {
+     "title": "여행 부담 덜고 머무는 도시로···부산 숙박세일 페스타 개막",
+     "outlet": "데일리한국",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGMkFrT3FMTGU0VFRhYUlEQ3RVWDc5Q1lZakZMTjVUOVRwLTMxRXhzMEhqRWk3R28zRjZ2VWFKNTdMWWdKak85MkxFTjJEU2VhRF9zVDlXLUo3R3l6dG5EZmlucG5aOUV5RnVxSXdKZ9IBc0FVX3lxTFB4dGVKMXo0TkFRQk1VYmN0eVdtdTNZeFdQelVmYU9oMGRSLWU5ZUJSdG9YeFlzZERXeF83emp6dGY0b005bElHUjRyRWtsMDRuUkxTU25aY0NoSWE2ZnlCYVUxYnBwVjA3aVA1X0NmR0lVR0k?oc=5",
      "published": "2026-09-21"
     },
     {
@@ -823,6 +833,63 @@
      "outlet": "쿠키뉴스",
      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mcUhvLXN4cU5wTTBtMTBpZFgzd1dqSW5JWUhUdUlyWThmSEs2RFc0N05TcTVVeTJRdUlDZXY2ZGxDbXNDekphUW1SV2FLVU5ZRjJRa19kYVROVzk1T1N4YlRHVQ?oc=5",
      "published": "2026-10-11"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-accor-21056eba91",
+   "airline_id": "h-accor",
+   "airline": "아코르",
+   "airlines_mentioned": [
+    "아코르"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "ALL Accor 20% OFF APP Booking Offer For Stays October 16 – December 13 & September 25 – March 31, 2027 (Book By October 4)",
+   "sale_start": "2026-10-16",
+   "sale_end": "2026-12-13",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "ALL Accor 20% OFF APP Booking Offer For Stays October 16 – December 13 & September 25 – March 31, 2027 (Book By October 4)",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOWRDUXk4dHFja1gzdWpsOWZBQUFQZlZhdi1SRFhWdy1lQnc3anNXRlNTLUdmcHV0d3hQQkZibzFPczlsR2wyeWFFaVpXQ1p6Z29iNk9LTnlaa1UtZ3NMY1hiaGc1Z1ZpcHZLam5FbEs3eF9kYWR3b0dJYmgtSTh3cmpIaml4Z3c0alhCM0ZVRHBuelJpX0dPQmRHQ3lvU3QzVVM5VFpzTG5tdWRDYVgtdkthenladm9GRlRJRC12NGtkNmRVamRNVzY0QmZDTEhEX09Ka0Y3UkFoVHJtUmRNbnJzNA?oc=5"
+    },
+    "discount": {
+     "title": "ALL Accor 20% OFF APP Booking Offer For Stays October 16 – December 13 & September 25 – March 31, 2027 (Book By October 4)",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOWRDUXk4dHFja1gzdWpsOWZBQUFQZlZhdi1SRFhWdy1lQnc3anNXRlNTLUdmcHV0d3hQQkZibzFPczlsR2wyeWFFaVpXQ1p6Z29iNk9LTnlaa1UtZ3NMY1hiaGc1Z1ZpcHZLam5FbEs3eF9kYWR3b0dJYmgtSTh3cmpIaml4Z3c0alhCM0ZVRHBuelJpX0dPQmRHQ3lvU3QzVVM5VFpzTG5tdWRDYVgtdkthenladm9GRlRJRC12NGtkNmRVamRNVzY0QmZDTEhEX09Ka0Y3UkFoVHJtUmRNbnJzNA?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": null,
+   "discount": "20% 할인",
+   "verification": "news",
+   "first_published": "2026-09-22",
+   "last_published": "2026-09-22",
+   "first_seen": "2026-10-20T23:18:02+09:00",
+   "last_seen": "2026-10-20T23:18:02+09:00",
+   "articles": [
+    {
+     "title": "ALL Accor 20% OFF APP Booking Offer For Stays October 16 – December 13 & September 25 – March 31, 2027 (Book By October 4)",
+     "outlet": "LoyaltyLobby",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOWRDUXk4dHFja1gzdWpsOWZBQUFQZlZhdi1SRFhWdy1lQnc3anNXRlNTLUdmcHV0d3hQQkZibzFPczlsR2wyeWFFaVpXQ1p6Z29iNk9LTnlaa1UtZ3NMY1hiaGc1Z1ZpcHZLam5FbEs3eF9kYWR3b0dJYmgtSTh3cmpIaml4Z3c0alhCM0ZVRHBuelJpX0dPQmRHQ3lvU3QzVVM5VFpzTG5tdWRDYVgtdkthenladm9GRlRJRC12NGtkNmRVamRNVzY0QmZDTEhEX09Ka0Y3UkFoVHJtUmRNbnJzNA?oc=5",
+     "published": "2026-09-22"
     }
    ],
    "status": "live"
@@ -1473,12 +1540,18 @@
    "first_published": "2026-10-20",
    "last_published": "2026-10-20",
    "first_seen": "2026-10-20T09:45:40+09:00",
-   "last_seen": "2026-10-20T16:57:38+09:00",
+   "last_seen": "2026-10-20T23:18:02+09:00",
    "articles": [
     {
      "title": "에어프레미아, 12월 취항 삿포로·호치민 노선 할인 프로모션",
      "outlet": "싱글리스트",
      "url": "https://www.slist.kr/news/articleView.html?idxno=774770",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "에어프레미아, 삿포로·호치민 취항 특가…왕복 40만원대",
+     "outlet": "이데일리",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUG5Nc2hwdzZjeTMyTU8wZE96Tzk4dkZQMHdabE5LR21DQ1NDUXVPaDhHanR0c0tPUENDeUxMOXl4THhFSGoyb1VYRE95VGZrZ2Rvb1ZVblZSdzdoR0lhZS1ESEw2a3EtdkNJRWtwWnA3M3R4X0s3eDFHamxSV0t6aA?oc=5",
      "published": "2026-10-20"
     },
     {
@@ -1494,9 +1567,21 @@
      "published": "2026-10-20"
     },
     {
+     "title": "에어프레미아, 삿포로·호치민 신규 취항 기념 할인 … 왕복 40만원대부터",
+     "outlet": "워크투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnMUZ3b0FQYVpRazhvNC1Nb0J0WEdjNHNSU1pPUGVWb0hMX04tdVZUZXo0NVNMdFd5Z0xiQy1QLXFSM2lTbWxGeUttQVhRbkFENy1EdVk1ZjJ5dDB2TGx2ZUp6ZXBaazEtSTJDNg?oc=5",
+     "published": "2026-10-20"
+    },
+    {
      "title": "에어프레미아, 삿포로·호치민 신규 노선 특가 프로모션 실시",
      "outlet": "한스경제",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pbkItUmJ5UmV3M0h6WUwyVjBWcVF1RTZwb1NmaEh2QjFvaXlFb1pNRHhJUTFkeGhFd3hvNUxqZ1pISTY0d3NNVUY0bjZqQmJ5SWJDRXg0MHc0U1NBMWVRekRDLUtwejNqSFZBU9IBb0FVX3lxTE43ZVNpdGlaM19PYk1ySGotUFZiRjk3YnJRRnZLUTNQVnVSRHNqcGRhazVta09tQWxEdVY3aklEaWt6V1hXUEMxNGNfMEZfS0t0TnBwckhadmdGRXNveU9talJyXzJ0NVRsRVhKd2JNRQ?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "에어프레미아, 오는 26일까지 12월 취항 '삿포로·호치민' 노선 할인 프로모션 전개",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5acF9LOWE0Unoxb1IyemxhRjBuMGN5eFMzLUNOTEFScVFwazdkSkZWRnY2RGJPdUQyVkVuN2JxNktsRU9xUUR2UVZIVzFvN1ZGbTNxNzhYazZLZ0tDOEluM3gxYVhmVDZiUGVJ?oc=5",
      "published": "2026-10-20"
     },
     {
@@ -2511,7 +2596,7 @@
    "first_published": "2026-10-16",
    "last_published": "2026-10-16",
    "first_seen": "2026-10-16T08:56:42+09:00",
-   "last_seen": "2026-10-16T22:34:54+09:00",
+   "last_seen": "2026-10-20T23:18:02+09:00",
    "articles": [
     {
      "title": "이랜드파크, 사이판 3개 호텔·리조트에 투어 바우처 1+1 혜택 제공",
@@ -2535,6 +2620,12 @@
      "title": "이랜드파크, 사이판 호텔·리조트 3곳_버킷리스트 투어 바우처 1+1 프로모션",
      "outlet": "오늘경제",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8ta280YzJoUWExOUw4T2pYWVQxN01NOTh0VUdIZTNIOWR6R0x4UmhIaU9kSFlvcHpWVGdZZlNuUXJuRlZpTGsxTHA2aXQyVVZyR1RINVM4NzZsYzduaUlZTTNSeEZnT2txTThSSWNNUGZGVUE?oc=5",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "이랜드파크, 사이판 3개 리조트 액티비티 혜택 2배…바우처 1+1",
+     "outlet": "일요주간",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jaFBBTmowbzJORWd5QWFSSHpIQ3k3UDgxY1ROVHhhc2hrWWdydnBNNkM1Z2U0NnE2YW9kc0xFZTZ1T1ZzVEFOVXVIR2JhdEU0SndPRWJrOEhZdHNwbG1WSzVzeDV3OHg5ZTUwQkhDckRMem8?oc=5",
      "published": "2026-10-16"
     },
     {
@@ -2995,6 +3086,107 @@
      "title": "“올리브영 할인에 대한항공 50만원까지”… 신한은행, ‘SOL통장·트래블’ 연계 대규모 고객 이벤트 전격 실시",
      "outlet": "스마트경제",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KWElKQklrOEJxdDItN3hQNXM2WVJjWXFQV1lUemtyeFFZTmVhT21Lb2hzUDlxTVRXNWFpN0l5TFhfVEYzUGpMOVRxdHZhcVVBT0pHSkNrZHZQN3V6eFFuN2xWaEFsR0hsbnhRUjdRbEY?oc=5",
+     "published": "2026-10-20"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-hotelscom-eccb5c6209",
+   "airline_id": "h-hotelscom",
+   "airline": "호텔스닷컴",
+   "airlines_mentioned": [
+    "호텔스닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://kr.hotels.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[현장] 호텔스닷컴 '언팩 27' 발표…부산 여행 검색 50% 늘고 짧은 여행 관심 확대",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "부산"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "date_source": "none",
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-20",
+   "last_published": "2026-10-20",
+   "first_seen": "2026-10-20T23:18:02+09:00",
+   "last_seen": "2026-10-20T23:18:02+09:00",
+   "articles": [
+    {
+     "title": "[현장] 호텔스닷컴 '언팩 27' 발표…부산 여행 검색 50% 늘고 짧은 여행 관심 확대",
+     "outlet": "열린뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE03X2NSM2hpY2NWWEprZ2xoVFByclJEbWMzR2JfZzVCMzczN2R0V3VueFV5aG44U0N0MmJkTkpkbnhRRjVCVlRtQVlrUXFqUi14Q2swZ3FxSXpTR2phaGtHMVJWSm55dw?oc=5",
+     "published": "2026-10-20"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-28c37ca8cc",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "하노이 호텔들이 10월 20일 베트남 여성의 날을 맞아 수요 촉진을 위한 프로모션을 시작합니다.",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "하노이",
+    "베트남"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "date_source": "none",
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-20",
+   "last_published": "2026-10-20",
+   "first_seen": "2026-10-20T23:18:02+09:00",
+   "last_seen": "2026-10-20T23:18:02+09:00",
+   "articles": [
+    {
+     "title": "하노이 호텔들이 10월 20일 베트남 여성의 날을 맞아 수요 촉진을 위한 프로모션을 시작합니다.",
+     "outlet": "Vietnam.vn",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOckpkTE80Ml9UUDdySWZZM0hIMi1HVGhob1dDTkM0ODFKV2EtUVNIdWpST2lKT3VhTmRKb0h2NEZEUTljR1d5dHIxa3FuM0hTcWloeDdFQUNnc1NadVFCYzE2MlVXRmFpeUJ0ZXdDMnZIWUdkWFYyUTBfeE15NzBkcjBqdG1RNnpYb3NYTHJPWTRGN2NCMlpqdHRB?oc=5",
      "published": "2026-10-20"
     }
    ],
