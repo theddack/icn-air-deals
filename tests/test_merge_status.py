@@ -89,6 +89,17 @@ class TestMerge(unittest.TestCase):
         self.assertEqual(len(deals), 1)
         self.assertEqual((deals[0]["section"], deals[0]["scope"]), ("hotel", "overseas"))
 
+    def test_unknown_brand_hotels_merge_only_by_event_name(self):
+        # 2026-10-15·17 실제 기사: 브랜드는 없지만 같은 '가을 페이백' 행사
+        arts = [
+            art("괌 주요 리조트 동계 시즌 요금 조정 및 프로모션 '괌 가을 페이백’ 전개", "2026-10-15"),
+            art("괌 5개 호텔, '가을 페이백' 프로모션…최대 79% 할인", "2026-10-17"),
+            art("겨울방학·연말 수요 겨냥…괌 호텔 5곳 공동 프로모션 진행", "2026-10-15"),  # 이름 없음: 따로 둔다
+        ]
+        deals = sorted(cluster_articles(arts), key=lambda d: len(d["articles"]))
+        self.assertEqual([len(d["articles"]) for d in deals], [1, 2])
+        self.assertTrue(all(d["airline"] == "브랜드 미확인" for d in deals))
+
     def test_different_events_same_airline(self):
         arts = [
             art("에어부산, 내일부터 연중 최대 규모 동계 항공권 할인", "2026-07-21"),
@@ -120,6 +131,13 @@ class TestMerge(unittest.TestCase):
             art("티웨이항공, 28일까지 구마모토 특가", "2026-06-16"),
         ]
         self.assertEqual(cluster_articles(arts)[0]["from_icn"], "yes")
+
+
+class TestNotNews(unittest.TestCase):
+    def test_shopping_listing_is_not_an_article(self):
+        from collector.main import to_article
+        raw = {"raw_title": "[본사직영] 켄싱턴리조트 경주, 단, 하루 특가!! - 쿠팡", "outlet": "쿠팡", "url": "u", "published": "2026-10-19"}
+        self.assertIsNone(to_article(raw, "2026-10-19T09:00:00+09:00"))
 
 
 class TestStatus(unittest.TestCase):

@@ -189,10 +189,16 @@ def cluster_articles(articles):
     """
     by_airline = {}
     deals = []
+    other = []
     for a in articles:
         # 미분류(여러 항공사·브랜드)와 '브랜드 미확인' 호텔 기사는 묶을 근거가 없어 기사 1건 = 행사 1건
-        if a["airline"] in (MULTI, "h-other"):
+        if a["airline"] == MULTI:
             deals.append(_to_deal(a["airline"], [a]))
+            continue
+        # 단, 브랜드 미확인이어도 따옴표 행사명이 같으면(한쪽이 다른 쪽을 포함해도) 같은 행사로 본다.
+        # 2026-10-15·17 '괌 가을 페이백'과 '가을 페이백'이 따로 보였다
+        if a["airline"] == "h-other":
+            other.append(a)
             continue
         by_airline.setdefault(a["airline"], []).append({
             **a,
@@ -203,7 +209,34 @@ def cluster_articles(articles):
         items.sort(key=lambda a: a["published"])
         for g in _cluster_one_airline(items, hotel=airline_id.startswith("h-")):
             deals.append(_to_deal(airline_id, g.articles))
+    deals += [_to_deal("h-other", g) for g in _group_by_name(other)]
     return deals
+
+
+OTHER_NAME_DAYS = 14  # 브랜드 미확인 기사를 행사명으로 묶을 때 발행일 차이 한도
+OTHER_NAME_MIN = 4    # 포함 관계로 볼 행사명 최소 길이 ('페이백' 같은 일반어만으로는 묶지 않는다)
+
+
+def _same_name(a, b):
+    if not a or not b:
+        return False
+    short, long_ = sorted((a, b), key=len)
+    return a == b or (len(short) >= OTHER_NAME_MIN and short in long_)
+
+
+def _group_by_name(articles):
+    groups = []
+    for a in sorted(articles, key=lambda a: a["published"]):
+        key = a.get("event_key")
+        hit = next((g for g in groups if any(
+            _same_name(key, b.get("event_key"))
+            and abs((date.fromisoformat(a["published"]) - date.fromisoformat(b["published"])).days) <= OTHER_NAME_DAYS
+            for b in g)), None)
+        if hit is not None:
+            hit.append(a)
+        else:
+            groups.append([a])
+    return groups
 
 
 def _mode(values):
