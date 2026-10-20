@@ -4,8 +4,8 @@ name: probe-gmail
 # 발신 도메인만 남긴다 (scripts/probe_gmail.py). 잊지 않도록 월·수·금 아침에 자동으로도 돈다.
 on:
   schedule:
-    # KST 월·수·금 08시 (UTC 일·화·목 23시). Actions 크론은 혼잡하면 수십 분 늦게 돈다.
-    - cron: "0 23 * * 0,2,4"
+    # KST 월·수·금 08시 23분 (UTC 일·화·목 23시). Actions 크론은 혼잡하면 수십 분 늦게 돈다.
+    - cron: "23 23 * * 0,2,4"  # 정각 혼잡을 피해 23분
   workflow_dispatch:
     inputs:
       days:
