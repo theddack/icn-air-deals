@@ -32,11 +32,19 @@ def write_json(path, obj):
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
+# Google 뉴스에 가끔 뉴스가 아닌 쇼핑몰 상품 페이지가 섞인다 (2026-10-19 쿠팡 '[본사직영] 켄싱턴리조트 경주, 단, 하루 특가!!')
+NOT_NEWS_OUTLETS = {"쿠팡", "11번가", "G마켓", "지마켓", "옥션", "SSG.COM", "위메프", "티몬"}
+
+
+def is_news(article):
+    return (article.get("outlet") or "").strip() not in NOT_NEWS_OUTLETS
+
+
 def to_article(raw, now_iso):
     """RSS 항목 → 저장용 기사. 항공권 특가(항공사 있음)도 숙박 할인(브랜드 있음)도 아니면 None."""
     title = extract.clean_title(raw["raw_title"], raw.get("outlet"))
     lang = raw.get("lang", "ko")
-    if not extract.category_of(title, lang):
+    if not extract.category_of(title, lang) or not is_news(raw):
         return None
     a = {"title": title, "outlet": raw.get("outlet"), "url": raw["url"],
          "published": raw["published"], "first_seen": now_iso}
@@ -232,7 +240,7 @@ def build_deals(articles, today):
     deals = []
     # 저장된 기사도 매번 지금 규칙으로 다시 거른다. 규칙을 고쳐 대상이 아니게 된 지난 기사(예: 2026-10-18 제외한
     # 제휴 호텔·수하물 할인)가 행사로 남지 않게 한다
-    current = [a for a in articles if extract.category_of(a["title"], a.get("lang") or "ko")]
+    current = [a for a in articles if extract.category_of(a["title"], a.get("lang") or "ko") and is_news(a)]
     for d in cluster_articles([enrich(a) for a in current]):
         if not should_keep(d, today):
             continue
