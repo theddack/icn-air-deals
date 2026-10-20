@@ -74,6 +74,47 @@ class TestStatus(unittest.TestCase):
         self.assertEqual(d["coverage"]["full_until"], "2026-10-24")
         self.assertEqual(d["seasons"], ["S26"])
 
+    def test_status_failure_reuses_previous_file(self):
+        # 2026-10-20 실제 사례: 운항 현황이 TLS 시간 초과로 실패해 공동운항·지연 정보가 빈 값으로 덮였다
+        now = datetime(2026, 10, 16, 9, 0, tzinfo=KST)
+        prev = build([sched("VN401", "0010", "20260329", "20261024"), sched("9G401", "0010", "20260329", "20261024")],
+                     [{"flightId": "VN401", "codeshare": "Slave", "masterFlightId": "9G401", "passengerOrCargo": "Passenger",
+                       "scheduleDatetime": "202610160010"},
+                      {"flightId": "9G401", "codeshare": "Master", "passengerOrCargo": "Passenger",
+                       "scheduleDatetime": "202610150010", "estimatedDatetime": "202610150030", "remark": "출발"},
+                      {"flightId": "9G401", "codeshare": "Master", "passengerOrCargo": "Passenger",
+                       "scheduleDatetime": "202610160010", "estimatedDatetime": "202610160040", "remark": "지연"}],
+                     datetime(2026, 10, 15, 22, 0, tzinfo=KST))
+        d = build([sched("VN401", "0010", "20260329", "20261024"), sched("9G401", "0010", "20260329", "20261024"),
+                   sched("NEW1", "0100", "20260329", "20261024")], [], now, previous=prev)
+        by = {r["flight"]: (r["codeshare_of"], r["status_seen"]) for r in d["schedule"]}
+        self.assertEqual(by, {"VN401": ("9G401", True), "9G401": (None, True), "NEW1": (None, False)})
+        self.assertEqual(sorted(d["status"]), ["2026-10-16"])  # 지난 날짜(10/15)는 이어 쓰지 않는다
+        self.assertEqual(d["status"]["2026-10-16"]["9G401"]["remark"], "지연")
+        self.assertEqual(d["status_from"], prev["generated_at"])
+
+    def test_retry_then_give_up(self):
+        from unittest import mock
+        from collector import flights
+        calls = []
+
+        def boom(*a):
+            calls.append(1)
+            raise flights.ApiError("HTTP 503", retryable=True)
+        with mock.patch.object(flights, "_call_once", boom), mock.patch.object(flights.time, "sleep"):
+            with self.assertRaises(flights.ApiError):
+                flights._call("k", "p", 1)
+        self.assertEqual(len(calls), 3)
+        calls.clear()
+
+        def bad_key(*a):
+            calls.append(1)
+            raise flights.ApiError("HTTP 401", retryable=False)
+        with mock.patch.object(flights, "_call_once", bad_key), mock.patch.object(flights.time, "sleep"):
+            with self.assertRaises(flights.ApiError):
+                flights._call("k", "p", 1)
+        self.assertEqual(len(calls), 1)
+
 
 if __name__ == "__main__":
     unittest.main()

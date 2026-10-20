@@ -641,7 +641,9 @@
     meta.innerHTML = "마지막 수집 " + esc(sch.generated_at.slice(0, 16).replace("T", " ")) + " KST · 시각은 " + esc(sch.timezone) +
       "<br>시간표 확보: " + md(today) + " ~ " + md(cov.full_until) +
       (cov.partial_until > cov.full_until ? " · 일부 편만 공개: ~ " + md(cov.partial_until) : "") +
-      " · 그 뒤는 미확보 · 지연·변경 시각: " + (sr ? md(sr.from) + " ~ " + md(sr.to) : "이번 수집에서 받지 못함");
+      " · 그 뒤는 미확보 · 지연·변경 시각: " + (sr ? md(sr.from) + " ~ " + md(sr.to) : "이번 수집에서 받지 못함") +
+      // 운항 현황을 못 받아 직전 수집분을 이어 쓴 경우 (collector/flights.py reuse_previous)
+      (sch.status_from && sr ? " (이번 수집 실패, " + esc(sch.status_from.slice(5, 16).replace("-", "/").replace("T", " ")) + " 수집분)" : "");
 
     var iso = schState.date, cv = coverageOf(iso);
     document.querySelectorAll(".quick [data-day]").forEach(function (b) {
