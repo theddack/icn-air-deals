@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T00:55:17+09:00",
+ "generated_at": "2026-10-20T09:45:40+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,17 +10,17 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2562,
+  "rss_items": 2564,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1741,
-  "outlet_new_articles": 0,
-  "outlet_enriched": 0,
-  "articles_with_summary": 5,
-  "articles": 369,
-  "new_articles": 1,
-  "deals": 35
+  "outlet_items": 1954,
+  "outlet_new_articles": 1,
+  "outlet_enriched": 2,
+  "articles_with_summary": 8,
+  "articles": 376,
+  "new_articles": 7,
+  "deals": 37
  },
  "deals": [
   {
@@ -1341,7 +1341,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "에어아시아, 전 좌석·전 노선 최대 30% 할인 프로모션",
+   "headline": "에어아시아, 전 노선·전 좌석 최대 30% 할인…“연말·내년 동남아 여행 가성비 높인다”",
    "sale_start": null,
    "sale_end": "2026-10-25",
    "travel_start": null,
@@ -1356,8 +1356,8 @@
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcUtkTXlCUXJPa09tMFA0MUlHYzZzOG45TTBzZ0tlOGlUdDBaUzdBeWxHVDFnNS1CakdBXzFUOVBGZzF2M08zdWNZM1dRTC1hdWZiQWZtNFJNaEZnQkdPMmxUNnhtOFc0WG0yNWxfX05VeDc5cW0wQVRGQlBUVVl4NlAzNnRPQQ?oc=5"
     },
     "discount": {
-     "title": "에어아시아, 전 좌석·전 노선 최대 30% 할인 프로모션",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72379"
+     "title": "에어아시아, 전 노선·전 좌석 최대 30% 할인…“연말·내년 동남아 여행 가성비 높인다”",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLQWlXa1RnRjdvSzl2R1Ria3BOSGt2MDVmYjlQSXhfa3J3Q1FfYjc2SEhuZzQtTHBPNWdCdGxUeWhaNkZ3OFBMMTF0bVNKUTFrcTU0MkJNR0lmWHhfaE5JT2JNbmpIeWEzVGc?oc=5"
     }
    },
    "date_source": "title",
@@ -1365,10 +1365,16 @@
    "discount": "최대 30%",
    "verification": "news",
    "first_published": "2026-10-19",
-   "last_published": "2026-10-19",
+   "last_published": "2026-10-20",
    "first_seen": "2026-10-19T08:45:21+09:00",
-   "last_seen": "2026-10-19T21:28:27+09:00",
+   "last_seen": "2026-10-20T09:45:40+09:00",
    "articles": [
+    {
+     "title": "에어아시아, 전 노선·전 좌석 최대 30% 할인…“연말·내년 동남아 여행 가성비 높인다”",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLQWlXa1RnRjdvSzl2R1Ria3BOSGt2MDVmYjlQSXhfa3J3Q1FfYjc2SEhuZzQtTHBPNWdCdGxUeWhaNkZ3OFBMMTF0bVNKUTFrcTU0MkJNR0lmWHhfaE5JT2JNbmpIeWEzVGc?oc=5",
+     "published": "2026-10-20"
+    },
     {
      "title": "에어아시아, 전 좌석·전 노선 최대 30% 할인 프로모션",
      "outlet": "트래블데일리",
@@ -1392,6 +1398,94 @@
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XR01Td1hqbFgzUmFUeGF0bnBjcVUyOWo0M0FnSzNIT2dITDloTVZUaGtXRHZUaGdlLUJUWFY2dGdDc2VNdTBCWXI0OHhaRmZuMFZjeTZ0enZyUkhUM2R3ekxoMVA4QQ?oc=5",
      "published": "2026-10-19"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "airpremia-7f40b847ea",
+   "airline_id": "airpremia",
+   "airline": "에어프레미아",
+   "airlines_mentioned": [
+    "에어프레미아"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airpremia.com/",
+   "iata": [
+    "YP"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어프레미아, 12월 취항 삿포로·호치민 노선 할인 프로모션",
+   "sale_start": null,
+   "sale_end": "2026-10-26",
+   "travel_start": "2026-12-02",
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "인천(ICN)",
+     "destination": "삿포로(CTS)"
+    },
+    {
+     "origin": null,
+     "destination": "호찌민(SGN)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "싱글리스트 요약문: 프로모션은 20일 오전 10시부터 26일까지 에어프레미아 공식 홈페이지와 모바일 앱에서 진행된다.",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=774770"
+    },
+    "travel": {
+     "title": "핀포인트뉴스 요약문: 탑승기간은 삿포로 노선이 12월2일부",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496743"
+    },
+    "discount": {
+     "title": "싱글리스트 요약문: …300원, 호치민 40만3400원부터이며 와이드 프리미엄 클래스는 삿포로 65만3300원, 호치민 70만34…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=774770"
+    },
+    "route": {
+     "title": "에어프레미아, 12월 취항 삿포로·호치민 노선 할인 프로모션",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=774770"
+    }
+   },
+   "date_source": "title",
+   "from_icn": "yes",
+   "discount": "40만3400원부터",
+   "verification": "news",
+   "first_published": "2026-10-20",
+   "last_published": "2026-10-20",
+   "first_seen": "2026-10-20T09:45:40+09:00",
+   "last_seen": "2026-10-20T09:45:40+09:00",
+   "articles": [
+    {
+     "title": "에어프레미아, 12월 취항 삿포로·호치민 노선 할인 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=774770",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "에어프레미아, 인천~삿포로·호치민 12월 취항 기념 항공권 특가 프로모션",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yQnZ1Y1JEQVVlVU5xQTduel9ReFJCeHdWLURRYUYwQXYtZmtabjlzeVpQZDhESEVXYUhCcDgyUWNCQkFnOWJKWnBWaHB5WWo2N1BIdDk1eUJsdzI0UkZaTzBRZVRQOThjMElFeE5PUTNiNEnSAXdBVV95cUxQTTVPYmpGOVNTTVdyajRodUZUOGF6M1B0ekxlQ0wwWVI3YnY5aEVBN1RTdUVBU0JaNGl4WGtzNFdtMlpWcm9YNjBIVHpfTDNwaFRybFV3WjlXa09FRHN2Yl8wR0hmVlg4TDdGTnNVX29EUmgydlNhbw?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "에어프레미아, 삿포로·호치민 신규 노선 특가 프로모션 실시",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pbkItUmJ5UmV3M0h6WUwyVjBWcVF1RTZwb1NmaEh2QjFvaXlFb1pNRHhJUTFkeGhFd3hvNUxqZ1pISTY0d3NNVUY0bjZqQmJ5SWJDRXg0MHc0U1NBMWVRekRDLUtwejNqSFZBU9IBb0FVX3lxTE43ZVNpdGlaM19PYk1ySGotUFZiRjk3YnJRRnZLUTNQVnVSRHNqcGRhazVta09tQWxEdVY3aklEaWt6V1hXUEMxNGNfMEZfS0t0TnBwckhadmdGRXNveU9talJyXzJ0NVRsRVhKd2JNRQ?oc=5",
+     "published": "2026-10-20"
     }
    ],
    "status": "live"
@@ -2632,7 +2726,7 @@
    "status": "undated"
   },
   {
-   "id": "h-yeogi-5953d6eec2",
+   "id": "h-yeogi-4828500e9e",
    "airline_id": "h-yeogi",
    "airline": "여기어때",
    "airlines_mentioned": [
@@ -2675,12 +2769,18 @@
    "first_published": "2026-10-19",
    "last_published": "2026-10-19",
    "first_seen": "2026-10-19T13:48:24+09:00",
-   "last_seen": "2026-10-19T13:48:24+09:00",
+   "last_seen": "2026-10-20T09:45:40+09:00",
    "articles": [
     {
      "title": "여기어때, 경기 웰니스 숙박·레저 상품 최대 5만원 할인",
      "outlet": "글로벌이코노믹",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2pjZGhWcWRfcGNQcEhpZkNGakRqZVd0cXZsaEJEMi1JU2c3c25IN191RHF3emhmTThOMGp3Y0ZmWi1Hal9sckk2akQzUmR1YlpBVUZGekFIN0NCV2J2QWtSaktPYmlBM0NfSFMxYWpmNEpFbGR4cTEyOGlMYTc4VzFERzNBUFNzTGNR?oc=5",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "여기어때, 경기도 웰니스 여행 할인…숙박·레저 수요 공략",
+     "outlet": "메가경제",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TZ00wMFM5cW5HR2hGbmtnbGY2eGVxbzVwcjBoekxaS05kcUEyNzl6VmpDSno0V2hZNVIyWTJCcDNKbEVQMC0wenF5bF82UGJ4ZVN5YUlYU3ZILWdnV1lFVGxrRmV0M1NuVWJva3A1RVVnVkdz0gFyQVVfeXFMTmplSTJsR1VBSTlsdGJ5S0hTa3gzajdxeVBJT1Jfa0NDMThlVGFOYmYtLWVPcnlyaGgybzI3SGhPM1A1bDdJY01SMEZtRHRRQ05fVDJNUnRFX2xCVnhGYnZTTGhJRlM0YUx5MkpFYkh3a0NB?oc=5",
      "published": "2026-10-19"
     }
    ],
@@ -2780,6 +2880,67 @@
      "outlet": "쿠팡",
      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBlcElvVkkzek9RVW5yUjdQNm9rUV9zbWxta2NPejRrM1laUkIySk5iMFByYVVpY1lMVGQyMm1aUTFaSVdnYmlXb3ZJSHNCNDZNT1N3UjZFa2FkOVZIRGc2OUxVU0MybEJPeDJaQUdlTFJJVVdVcGhmUEdGeEhBdw?oc=5",
      "published": "2026-10-19"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-yeogi-b43743e957",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "여기어때, 대전 체류형 관광 지원…숙소 최대 6만원 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "대전"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "여기어때, 대전 체류형 관광 지원…숙소 최대 6만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWN09kcE9ESmdRTnBqNEdwaVJ4d3lHa0YxeThBeVE1VjVLUzhKNUdBVFg2SDU2NFFDT19iNkwwX2M1dm1OSXRsdGZyVkxfdzVuZ2RYUDRodWVLUzVnWC00MS1DTEJXcXIxblN0blRrVXF4aUXSAXdBVV95cUxQZXRtT0FVZDZ0dXRBcm4wOTJUZE9nNUpOY2FKODktZTE4VHRrUDlwU1czeGVXRWIyTlRpWGFxY1ZYN2hlYlNUTmY3U0FPbG1OUWwzdmFnTE83SjFOWDBMV3V1M3RMNUJMVmZCVW5odFJrT3Bqemc5WQ?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": null,
+   "discount": "최대 6만원 할인",
+   "verification": "news",
+   "first_published": "2026-10-20",
+   "last_published": "2026-10-20",
+   "first_seen": "2026-10-20T09:45:40+09:00",
+   "last_seen": "2026-10-20T09:45:40+09:00",
+   "articles": [
+    {
+     "title": "여기어때, 대전 체류형 관광 지원…숙소 최대 6만원 할인",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWN09kcE9ESmdRTnBqNEdwaVJ4d3lHa0YxeThBeVE1VjVLUzhKNUdBVFg2SDU2NFFDT19iNkwwX2M1dm1OSXRsdGZyVkxfdzVuZ2RYUDRodWVLUzVnWC00MS1DTEJXcXIxblN0blRrVXF4aUXSAXdBVV95cUxQZXRtT0FVZDZ0dXRBcm4wOTJUZE9nNUpOY2FKODktZTE4VHRrUDlwU1czeGVXRWIyTlRpWGFxY1ZYN2hlYlNUTmY3U0FPbG1OUWwzdmFnTE83SjFOWDBMV3V1M3RMNUJMVmZCVW5odFJrT3Bqemc5WQ?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "여기어때 대전관광공사와 스포츠 직관 여행객에 숙소 6만원 할인 준다",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MdVRsQm9mMEI0MHFoZ2xrRnJId3JQcFlpZFBaTGFIdTFHM1ZuTG5YU1JWLVVrUk1aaDNJcVpXM3N3R21MeFhBNlVYMURONTBid3BMb2dUX3lPNHpwcWItaWNQOTI3X1hlREJRYw?oc=5",
+     "published": "2026-10-20"
     }
    ],
    "status": "undated"
