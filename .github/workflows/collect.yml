@@ -54,6 +54,9 @@ jobs:
             echo "변경 없음"
           else
             git commit -m "data: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M') KST 수집"
+            # 수집 중에 코드 커밋이 올라오면 push가 거절된다(2026-10-20 2번). 실행은 concurrency로 한 번에 하나라
+            # 다른 data 커밋과 겹치지 않으니 새 커밋 위에 다시 얹어서 올린다
+            git pull --rebase origin main
             git push
           fi
 
