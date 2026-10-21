@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T09:36:47+09:00",
+ "generated_at": "2026-10-21T14:18:44+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,16 +10,16 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2599,
+  "rss_items": 2570,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2068,
-  "outlet_new_articles": 1,
-  "outlet_enriched": 1,
-  "articles_with_summary": 10,
-  "articles": 405,
-  "new_articles": 11,
+  "outlet_items": 2188,
+  "outlet_new_articles": 0,
+  "outlet_enriched": 2,
+  "articles_with_summary": 12,
+  "articles": 424,
+  "new_articles": 19,
   "deals": 42
  },
  "deals": [
@@ -77,7 +77,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-09",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-21T09:36:47+09:00",
+   "last_seen": "2026-10-21T14:18:44+09:00",
    "articles": [
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
@@ -251,6 +251,12 @@
      "title": "경남 가을여행 숙박비 최대 7만원 할인···11월8일까지 ‘숙박세일 페스타’",
      "outlet": "스마트비즈",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QWDhOWUFxMTI0b3JVaGs5V1JlMzBTZjBmX0N6b3k5d3F1c2pldjdpbmZ0aThtRjBfYURTV3lWWTdrWTljRUtVU0ZUSklCVGJ6MFdtclg3ekZXUm56Y3dNdFNxanJiTWtKczVfcA?oc=5",
+     "published": "2026-09-23"
+    },
+    {
+     "title": "양평군, '2026년 양평군 숙박세일 페스타'로 숙박·야영장 할인",
+     "outlet": "매일일보",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SWkxIaTV6TXNSSWtXQkY2V3RGWEhFd0dkTDhMX0NSYmJBRDVyN0E4ZFhxVVJlWFVUOGt2SDMtclRYdG5PbFh4bDViaUZHQ2toLXQ3b2ZHLVVpWVN6TktVYUpHN3k?oc=5",
      "published": "2026-09-23"
     },
     {
@@ -764,7 +770,7 @@
    ],
    "agencies": [],
    "event_name": "앵콜 에케세일",
-   "headline": "에어로케이, 동계 항공권 최대 98% 할인…19일부터 ‘앵콜 에케세일’...편도 7만원대 부터... : 기업·산업",
+   "headline": "에어로케이항공, 충북청주FC 홈경기서 항공권 증정 이벤트",
    "sale_start": "2026-10-19",
    "sale_end": null,
    "travel_start": null,
@@ -788,10 +794,16 @@
    "discount": "최대 98%",
    "verification": "news",
    "first_published": "2026-10-16",
-   "last_published": "2026-10-19",
+   "last_published": "2026-10-21",
    "first_seen": "2026-10-16T16:34:30+09:00",
-   "last_seen": "2026-10-19T13:48:24+09:00",
+   "last_seen": "2026-10-21T14:18:44+09:00",
    "articles": [
+    {
+     "title": "에어로케이항공, 충북청주FC 홈경기서 항공권 증정 이벤트",
+     "outlet": "중부매일",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1MXB0RDVJbHhabkgtTWhNWjY3enNzdEpFazVTVUxSQ2dmYXNoNmY4ZXozLUdQZTQzbHJ2SjlLYlRxdlB2aHV4ejBVb1VZdXJlaDhJcVBGUUtlVlhnZERyR2cwMm80eU9rU1HSAW5BVV95cUxPV3h0SFAzdnp6aGF3MVJ4SEJNdDZ2QzFfMVNTQXlzWG1yWHM5TGNnX0FJcUdGSUtwd1NJMG5RajBONGN4dTJKazBkR3ZmZVlHZnRsMkFyN0NtZ2FCajJpMS1ZdEh2OFU1UVE1UzRoZw?oc=5",
+     "published": "2026-10-21"
+    },
     {
      "title": "에어로케이, 동계 항공권 최대 98% 할인…19일부터 ‘앵콜 에케세일’...편도 7만원대 부터... : 기업·산업",
      "outlet": "재경일보",
@@ -1388,12 +1400,18 @@
    "first_published": "2026-10-20",
    "last_published": "2026-10-21",
    "first_seen": "2026-10-20T09:45:40+09:00",
-   "last_seen": "2026-10-21T09:36:47+09:00",
+   "last_seen": "2026-10-21T14:18:44+09:00",
    "articles": [
     {
      "title": "에어프레미아, 삿포로·호치민 할인 프로모션",
      "outlet": "트래블데일리",
      "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "에어프레미아, 12월 취항 삿포로·호치민 노선 특가…이코노미 왕복 40만원대부터",
+     "outlet": "디지틀조선일보",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZcTJ0dVhlNVh0Y1hZb3dVMkN6RC1EcXE3VVptQ1ZzSDItaEtDci1HTUdxOTJnVzhVQWhUdTY5Q0UzSElXQWFuQlRhVlZ0cEVyYjlESElmTU5nek03Q2x5N19tWDY1WVJrVEFXTjVGejFvSU01dTZ5Wnd4MNIBe0FVX3lxTE5ZcTJ0dVhlNVh0Y1hZb3dVMkN6RC1EcXE3VVptQ1ZzSDItaEtDci1HTUdxOTJnVzhVQWhUdTY5Q0UzSElXQWFuQlRhVlZ0cEVyYjlESElmTU5nek03Q2x5N19tWDY1WVJrVEFXTjVGejFvSU01dTZ5Wnd4MA?oc=5",
      "published": "2026-10-21"
     },
     {
@@ -1443,6 +1461,83 @@
      "outlet": "경기일보",
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CdE5BVjYxaUZSSUhBRGdqWGxmOWFuM0JUUDdCNHdDWV9CeDNiNXBudEZUV1ZVU1B5VDlCa0Q1dW1udFVNQmhhZkZzaUlOZ085aGtfMGlseVh6QU0?oc=5",
      "published": "2026-10-20"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "trinity-08820b7077",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": "가을·겨울 시즌 국제선 할인",
+   "headline": "트리니티항공, 항공의 날 기념 국제선 할인 프로모션…오는 31일까지 사전예매",
+   "sale_start": null,
+   "sale_end": "2026-10-31",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트리니티항공, 항공의 날 기념 국제선 할인 프로모션…오는 31일까지 사전예매",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9WWGhmX3ZfdHQyZVBvSkRaLUlzWFN6MzlvaklQYkRmWERIbXpYYWtfQmtMcWg2UHZlSkZFMzdid0Myc1g1Sk1qeHJJYjVLQnpMMVoyeFVORlNteWdOTm9DUkpnelNzbkxQbEpJdXQzZlNtbzRYTDhj0gF3QVVfeXFMT1ZYaGZfdl90dDJlUG9KRFotSXNYU3ozOW9qSVBiRGZYREhtelhha19Ca0xxaDZQdmVKRkUzN2J3QzJzWDVKTWp4ckliNUtCekwxWjJ4VU5GU215Z05Ob0NSSmd6U3NuTFBsSkl1dDNmU21vNFhMOGM?oc=5"
+    },
+    "discount": {
+     "title": "트리니티항공, 항공의 날 맞아 국제선 최대 22% 할인...31일까지",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZM3dLd2c0Mk5qdnVZZWota1ZCSHdSdWpkbFRaQmdHNUFuOGY2NFBVb051Vm80Ujg4Ui1IbTJBWkdiVUFtZFQxUXd3blNYM0FESFZGaWVwTzd6MXdUQ2NzcURVTG9Na2dHM25fMW5DSFVzdw?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": "unknown",
+   "discount": "최대 22%",
+   "verification": "news",
+   "first_published": "2026-10-21",
+   "last_published": "2026-10-21",
+   "first_seen": "2026-10-21T09:36:47+09:00",
+   "last_seen": "2026-10-21T14:18:44+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공, 항공의 날 기념 국제선 할인 프로모션…오는 31일까지 사전예매",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9WWGhmX3ZfdHQyZVBvSkRaLUlzWFN6MzlvaklQYkRmWERIbXpYYWtfQmtMcWg2UHZlSkZFMzdid0Myc1g1Sk1qeHJJYjVLQnpMMVoyeFVORlNteWdOTm9DUkpnelNzbkxQbEpJdXQzZlNtbzRYTDhj0gF3QVVfeXFMT1ZYaGZfdl90dDJlUG9KRFotSXNYU3ozOW9qSVBiRGZYREhtelhha19Ca0xxaDZQdmVKRkUzN2J3QzJzWDVKTWp4ckliNUtCekwxWjJ4VU5GU215Z05Ob0NSSmd6U3NuTFBsSkl1dDNmU21vNFhMOGM?oc=5",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "트리니티항공, 항공의 날 맞아 국제선 최대 22% 할인...31일까지",
+     "outlet": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZM3dLd2c0Mk5qdnVZZWota1ZCSHdSdWpkbFRaQmdHNUFuOGY2NFBVb051Vm80Ujg4Ui1IbTJBWkdiVUFtZFQxUXd3blNYM0FESFZGaWVwTzd6MXdUQ2NzcURVTG9Na2dHM25fMW5DSFVzdw?oc=5",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "트리니티항공 '가을·겨울 시즌 국제선 할인' 프로모션",
+     "outlet": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUdzRKbzlkdUM1QUpJZTFiU2tBVzMxNjNzVExUOE1fLTh5QW9BejNUYWlLMHV0OHBZZDFhR3VmemF5QUh2SEI4czljVGhHRVJXU29EeHMtdVlicmE5dUtpetIBeEFVX3lxTE03Vm54bEs2SjhmSHUtWmFWUmI0V1NjYnZDWGloMlpjbnZqWjdMMVNSbDFZQjNZQjU5X0hJQzhldzF2MlhpS0U4RXd1bVkxcEtwOWstM0p5OU5URjBPRDZUQ2U0VXN2Nzd2Y1VHVUpadmdaa1pmQ2I5bA?oc=5",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "트리니티항공, 항공의 날 맞아 국제선 최대 22% 할인",
+     "outlet": "메트로신문",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tS0NHY05oN2c2cXBoWGRjUjJtS3duREdRY1JROFdrRHVuNkVZakpYdlZXdEhNc3R1YUVqVVNsNDM2V1prNmVLQmFORUp2enZndFhSOFBQYlhFaEJCYjFVdA?oc=5",
+     "published": "2026-10-21"
     }
    ],
    "status": "live"
@@ -2708,13 +2803,13 @@
    "status": "undated"
   },
   {
-   "id": "jejuair-e72d5ce4ad",
-   "airline_id": "jejuair",
-   "airline": "제주항공",
+   "id": "multi-e72d5ce4ad",
+   "airline_id": "multi",
+   "airline": "여러 항공사",
    "airlines_mentioned": [
     "제주항공"
    ],
-   "kind": "domestic",
+   "kind": "mixed",
    "category": "flight",
    "section": "flight",
    "route": "international",
@@ -2723,10 +2818,8 @@
    "lang": "ko",
    "trial": false,
    "baseline": "flight",
-   "official_url": "https://www.jejuair.net/",
-   "iata": [
-    "7C"
-   ],
+   "official_url": null,
+   "iata": [],
    "agencies": [],
    "event_name": null,
    "headline": "KB페이로 국제선 사면 12% 할인…제주항공 등 5개 LCC 대상",
@@ -2842,106 +2935,6 @@
    "status": "undated"
   },
   {
-   "id": "koreanair-e91c39ca70",
-   "airline_id": "koreanair",
-   "airline": "대한항공",
-   "airlines_mentioned": [
-    "대한항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.koreanair.com/",
-   "iata": [
-    "KE"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "“올리브영 할인에 대한항공 50만원까지”… 신한은행, ‘SOL통장·트래블’ 연계 대규모 고객 이벤트 전격 실시",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-20",
-   "last_published": "2026-10-20",
-   "first_seen": "2026-10-20T16:57:38+09:00",
-   "last_seen": "2026-10-20T16:57:38+09:00",
-   "articles": [
-    {
-     "title": "“올리브영 할인에 대한항공 50만원까지”… 신한은행, ‘SOL통장·트래블’ 연계 대규모 고객 이벤트 전격 실시",
-     "outlet": "스마트경제",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KWElKQklrOEJxdDItN3hQNXM2WVJjWXFQV1lUemtyeFFZTmVhT21Lb2hzUDlxTVRXNWFpN0l5TFhfVEYzUGpMOVRxdHZhcVVBT0pHSkNrZHZQN3V6eFFuN2xWaEFsR0hsbnhRUjdRbEY?oc=5",
-     "published": "2026-10-20"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-hotelscom-eccb5c6209",
-   "airline_id": "h-hotelscom",
-   "airline": "호텔스닷컴",
-   "airlines_mentioned": [
-    "호텔스닷컴"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "domestic",
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://kr.hotels.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "[현장] 호텔스닷컴 '언팩 27' 발표…부산 여행 검색 50% 늘고 짧은 여행 관심 확대",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "부산"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-20",
-   "last_published": "2026-10-20",
-   "first_seen": "2026-10-20T23:18:02+09:00",
-   "last_seen": "2026-10-20T23:18:02+09:00",
-   "articles": [
-    {
-     "title": "[현장] 호텔스닷컴 '언팩 27' 발표…부산 여행 검색 50% 늘고 짧은 여행 관심 확대",
-     "outlet": "열린뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE03X2NSM2hpY2NWWEprZ2xoVFByclJEbWMzR2JfZzVCMzczN2R0V3VueFV5aG44U0N0MmJkTkpkbnhRRjVCVlRtQVlrUXFqUi14Q2swZ3FxSXpTR2phaGtHMVJWSm55dw?oc=5",
-     "published": "2026-10-20"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-other-28c37ca8cc",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -3046,57 +3039,7 @@
    "status": "undated"
   },
   {
-   "id": "trinity-65f80a9489",
-   "airline_id": "trinity",
-   "airline": "트리니티항공",
-   "airlines_mentioned": [
-    "트리니티항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.twayair.com/",
-   "iata": [
-    "TW"
-   ],
-   "agencies": [],
-   "event_name": "가을·겨울 시즌 국제선 할인",
-   "headline": "트리니티항공 '가을·겨울 시즌 국제선 할인' 프로모션",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-21",
-   "last_published": "2026-10-21",
-   "first_seen": "2026-10-21T09:36:47+09:00",
-   "last_seen": "2026-10-21T09:36:47+09:00",
-   "articles": [
-    {
-     "title": "트리니티항공 '가을·겨울 시즌 국제선 할인' 프로모션",
-     "outlet": "뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUdzRKbzlkdUM1QUpJZTFiU2tBVzMxNjNzVExUOE1fLTh5QW9BejNUYWlLMHV0OHBZZDFhR3VmemF5QUh2SEI4czljVGhHRVJXU29EeHMtdVlicmE5dUtpetIBeEFVX3lxTE03Vm54bEs2SjhmSHUtWmFWUmI0V1NjYnZDWGloMlpjbnZqWjdMMVNSbDFZQjNZQjU5X0hJQzhldzF2MlhpS0U4RXd1bVkxcEtwOWstM0p5OU5URjBPRDZUQ2U0VXN2Nzd2Y1VHVUpadmdaa1pmQ2I5bA?oc=5",
-     "published": "2026-10-21"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-inspire-5578942df1",
+   "id": "h-inspire-376b5c2d7e",
    "airline_id": "h-inspire",
    "airline": "인스파이어",
    "airlines_mentioned": [
@@ -3115,7 +3058,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "인스파이어, ‘원더 페스타’ 개최...쇼핑·숙박·미식·엔터테인먼트 혜택 한자리에",
+   "headline": "쇼핑 최대 50%·객실 25% 할인…인스파이어, '원더 페스타' 개최",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -3126,8 +3069,8 @@
    "conflicts": [],
    "evidence": {
     "discount": {
-     "title": "숙박에 쇼핑까지 인스파이어 '원더 페스타'…최대 50% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PTDJScmgxSVdRa1l4M0RUSnFaTXRkdzIxWEZTWklLWkxzblZ4dHRTd3JKRDZJcW5VUUxBM2hsREVfWDlkUWx4d1hRdFhhcThpbXFiU0d1UmRUVHBGTVNVaQ?oc=5"
+     "title": "쇼핑 최대 50%·객실 25% 할인…인스파이어, '원더 페스타' 개최",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcTQybndGYXFpbkljYkZZdFlVb2pzSnoyNWx6YW1yQWtwRmNGaWk3d0l0OTdXSjRmSndOMUVIZlR1YmRVb2N3ZEdLaF9HT2ZoNnVaYWVodjQzbnJRWHllQ3dkOFd6OVhZRFdwdFQwSkdvV3NFeVlKR0RIVWlWbW9WbE93WlhYYmxjbFpZ?oc=5"
     }
    },
    "date_source": "none",
@@ -3137,18 +3080,136 @@
    "first_published": "2026-10-21",
    "last_published": "2026-10-21",
    "first_seen": "2026-10-21T09:36:47+09:00",
-   "last_seen": "2026-10-21T09:36:47+09:00",
+   "last_seen": "2026-10-21T14:18:44+09:00",
    "articles": [
     {
-     "title": "인스파이어, ‘원더 페스타’ 개최...쇼핑·숙박·미식·엔터테인먼트 혜택 한자리에",
-     "outlet": "중부일보",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHQVMtQlI3THItWXoyUUk4azk1N2x5VVlFOWNScXlEUnlVdkpmaXJSeFhMTVd4UnpqYzZGNElCZkxRcU5qcE55Q2RzelBTS29OSXRNMFpkT2RBWjVQM01xWmRPQjFkYS1kaXM4ZkJ3?oc=5",
+     "title": "쇼핑 최대 50%·객실 25% 할인…인스파이어, '원더 페스타' 개최",
+     "outlet": "글로벌이코노믹",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcTQybndGYXFpbkljYkZZdFlVb2pzSnoyNWx6YW1yQWtwRmNGaWk3d0l0OTdXSjRmSndOMUVIZlR1YmRVb2N3ZEdLaF9HT2ZoNnVaYWVodjQzbnJRWHllQ3dkOFd6OVhZRFdwdFQwSkdvV3NFeVlKR0RIVWlWbW9WbE93WlhYYmxjbFpZ?oc=5",
      "published": "2026-10-21"
     },
     {
      "title": "숙박에 쇼핑까지 인스파이어 '원더 페스타'…최대 50% 할인",
      "outlet": "아시아경제",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PTDJScmgxSVdRa1l4M0RUSnFaTXRkdzIxWEZTWklLWkxzblZ4dHRTd3JKRDZJcW5VUUxBM2hsREVfWDlkUWx4d1hRdFhhcThpbXFiU0d1UmRUVHBGTVNVaQ?oc=5",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "쇼핑은 최대 50%, 호텔 조식 패키지는 25%…인스파이어 할인 축제",
+     "outlet": "아주경제",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wV092SzZtV3J6SjZjMUxjX3hfSk12QW43Vmw1SUdNU01MakpkaW1WODU0Ujc2VzlFSWg2blBkR3J1Mk5vQzZVRDlXRGJxRm1rOTNYZUxFSkjSAVhBVV95cUxNcFdPdks2bVdyeko2YzFMY194X0pNdkFuN1ZsNUlHTVNNTGpKZGltVjg1NFI3Nlc5RUloNm5QZEdydTJOb0M2VUQ5V0RicUZtazkzWGVMRUpI?oc=5",
+     "published": "2026-10-21"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-inspire-812f3670d5",
+   "airline_id": "h-inspire",
+   "airline": "인스파이어",
+   "airlines_mentioned": [
+    "인스파이어"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "인스파이어 '원더 페스타' 개최…쇼핑·미식에 객실 패키지 25% 할인까지",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "인스파이어 '원더 페스타' 개최…쇼핑·미식에 객실 패키지 25% 할인까지",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMNIBe0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMA?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": null,
+   "discount": "25% 할인",
+   "verification": "news",
+   "first_published": "2026-10-21",
+   "last_published": "2026-10-21",
+   "first_seen": "2026-10-21T09:36:47+09:00",
+   "last_seen": "2026-10-21T14:18:44+09:00",
+   "articles": [
+    {
+     "title": "인스파이어 '원더 페스타' 개최…쇼핑·미식에 객실 패키지 25% 할인까지",
+     "outlet": "디지틀조선일보",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMNIBe0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMA?oc=5",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "인스파이어, ‘원더 페스타’ 개최...쇼핑·숙박·미식·엔터테인먼트 혜택 한자리에",
+     "outlet": "중부일보",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHQVMtQlI3THItWXoyUUk4azk1N2x5VVlFOWNScXlEUnlVdkpmaXJSeFhMTVd4UnpqYzZGNElCZkxRcU5qcE55Q2RzelBTS29OSXRNMFpkT2RBWjVQM01xWmRPQjFkYS1kaXM4ZkJ3?oc=5",
+     "published": "2026-10-21"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-lotte-336a8f6da1",
+   "airline_id": "h-lotte",
+   "airline": "롯데호텔",
+   "airlines_mentioned": [
+    "롯데호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "롯데호텔 '논알코올' 칵테일 7종 출시…연말까지 10% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "롯데호텔 '논알코올' 칵테일 7종 출시…연말까지 10% 할인",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqNVpKMXpsNl9IUFB6amZDbnNpbFpWZmp3bnE3LUdmSkE4ancxbWFHeTlLVFlIUjNOaHEwVGJCMTVCWXpIYnFpQ195UVZOSGxYUnR1ZHVUYzVPQ3NvdE5wTGRGZnN5UkpUeXU0?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": null,
+   "discount": "10% 할인",
+   "verification": "news",
+   "first_published": "2026-10-21",
+   "last_published": "2026-10-21",
+   "first_seen": "2026-10-21T14:18:44+09:00",
+   "last_seen": "2026-10-21T14:18:44+09:00",
+   "articles": [
+    {
+     "title": "롯데호텔 '논알코올' 칵테일 7종 출시…연말까지 10% 할인",
+     "outlet": "뉴스저널리즘",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqNVpKMXpsNl9IUFB6amZDbnNpbFpWZmp3bnE3LUdmSkE4ancxbWFHeTlLVFlIUjNOaHEwVGJCMTVCWXpIYnFpQ195UVZOSGxYUnR1ZHVUYzVPQ3NvdE5wTGRGZnN5UkpUeXU0?oc=5",
      "published": "2026-10-21"
     }
    ],
