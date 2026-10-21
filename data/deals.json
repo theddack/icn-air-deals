@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T17:32:23+09:00",
+ "generated_at": "2026-10-21T23:28:51+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,17 +10,19 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2556,
+  "rss_items": 2613,
   "outlet_feeds": 29,
-  "outlet_failed": 0,
-  "outlet_failed_feeds": [],
-  "outlet_items": 2152,
-  "outlet_new_articles": 0,
+  "outlet_failed": 1,
+  "outlet_failed_feeds": [
+   "문화체육관광부: URLError"
+  ],
+  "outlet_items": 1969,
+  "outlet_new_articles": 1,
   "outlet_enriched": 0,
-  "articles_with_summary": 12,
-  "articles": 429,
-  "new_articles": 2,
-  "deals": 68
+  "articles_with_summary": 13,
+  "articles": 434,
+  "new_articles": 5,
+  "deals": 67
  },
  "deals": [
   {
@@ -43,7 +45,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "숙박세일 페스타",
-   "headline": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
+   "headline": "단풍을 눈에 가득 담을 수 있는 곳🍁 '숙박세일페스타'로 떠나자🍂 : 네이버 블로그",
    "sale_start": "2026-09-22",
    "sale_end": "2026-11-08",
    "travel_start": null,
@@ -66,8 +68,8 @@
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXYUJWd2NRXzFrWlNlMXI2VmlrbGkwUGFhR0FfdWFtcWpsM182TWdzYm80Q3RnOW5DYlozQ1lvd0tjRUNTU1NTZlNRbjRfa3BIQVhzSDZHeFIwNEhmblBsc2tlbHpNS0dXV21XRA?oc=5"
     },
     "discount": {
-     "title": "10월 숙박세일 페스타 아직 끝나지 않았습니다…최대 7만원 할인, 예약 전에 놓치면 안 되는 조건",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ3lKcmFLVEYtdXp3U1NEbGV2VDJRRXNBWGsybjZiUEZXVG5uNFJDMTZQdXl4bnpTTE85TG1yUHVhVUJWcUxGMHRYXzhYeXRYTUQ3eEZYTUxHWUhIMEViMGhXemxmTm5oRmpVRUxIMkYyWHlnMnZLczNOcVN6X3prb2JfWmhqSzR0aHEw?oc=5"
+     "title": "2026 대한민국 숙박세일 페스타, 경남 숙박비 최대 7만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZVGE4dXo4Ti1oN244MkRldUR5TDNwaDZla3oyb0RoSXVjZExaR2ZNbDRieGRhSTNfdlRSTEtOZFJSbVYzb212NHE4dUNGeEhJdkpFY1RGRmd4YXZSbGJPM0Z3bmgyM21Xc1hvT3U3SF9mbjEyUXBZ?oc=5"
     }
    },
    "date_source": "title",
@@ -75,10 +77,22 @@
    "discount": "최대 7만원 할인",
    "verification": "news",
    "first_published": "2026-09-16",
-   "last_published": "2026-10-09",
+   "last_published": "2026-10-21",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-21T14:18:44+09:00",
+   "last_seen": "2026-10-21T23:28:51+09:00",
    "articles": [
+    {
+     "title": "단풍을 눈에 가득 담을 수 있는 곳🍁 '숙박세일페스타'로 떠나자🍂 : 네이버 블로그",
+     "outlet": "Naver Blog",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbllKOGEwX3RITFE4N0tYSkFtMGhJTFA0cjNVd05KdDFBWFVSRDljdTZ0VHNRY3VoVFlleWZ4WVR0b0JIaVYxV1l4TWJ6OVBuWXd1QngwdlJmeTdIQmpQbTdoSl9sSDZjV25fUldLc2lJYUhBT0RUcm1QUlhZMlU1eA?oc=5",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "2026 대한민국 숙박세일 페스타, 경남 숙박비 최대 7만원 할인",
+     "outlet": "진주인터넷뉴스",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZVGE4dXo4Ti1oN244MkRldUR5TDNwaDZla3oyb0RoSXVjZExaR2ZNbDRieGRhSTNfdlRSTEtOZFJSbVYzb212NHE4dUNGeEhJdkpFY1RGRmd4YXZSbGJPM0Z3bmgyM21Xc1hvT3U3SF9mbjEyUXBZ?oc=5",
+     "published": "2026-10-16"
+    },
     {
      "title": "숙박세일 페스타 11월 8일까지, 2박이면 7만원 할인",
      "outlet": "여행픽",
@@ -1495,12 +1509,18 @@
    "first_published": "2026-10-21",
    "last_published": "2026-10-21",
    "first_seen": "2026-10-21T09:36:47+09:00",
-   "last_seen": "2026-10-21T17:32:23+09:00",
+   "last_seen": "2026-10-21T23:28:51+09:00",
    "articles": [
     {
      "title": "트리니티항공, 항공의 날 기념 국제선 할인 프로모션…오는 31일까지 사전예매",
      "outlet": "핀포인트뉴스",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9WWGhmX3ZfdHQyZVBvSkRaLUlzWFN6MzlvaklQYkRmWERIbXpYYWtfQmtMcWg2UHZlSkZFMzdid0Myc1g1Sk1qeHJJYjVLQnpMMVoyeFVORlNteWdOTm9DUkpnelNzbkxQbEpJdXQzZlNtbzRYTDhj0gF3QVVfeXFMT1ZYaGZfdl90dDJlUG9KRFotSXNYU3ozOW9qSVBiRGZYREhtelhha19Ca0xxaDZQdmVKRkUzN2J3QzJzWDVKTWp4ckliNUtCekwxWjJ4VU5GU215Z05Ob0NSSmd6U3NuTFBsSkl1dDNmU21vNFhMOGM?oc=5",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "트리니티항공, 항공의 날 맞아 국제선 할인 행사 진행",
+     "outlet": "뉴스프리존",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE42bGxYYVM0SmZySzIwQmhNN3Q2VEpnREl3aWVPdWNCUjgwaURLRGlsTU40QjA4RGx5bW5JaGFlZ1FVME9ZU3dqMGgwUDZrYWxtWlZ4TUhELVhwbkxsRWF5UUdRdUlyeGZwR2wxXzNoVnUxeXlZUnk40gF3QVVfeXFMTjZsbFhhUzRKZnJLMjBCaE03dDZUSmdESXdpZU91Y0JSODBpREtEaWxNTjRCMDhEbHltbkloYWVnUVUwT1lTd2owaDBQNmthbG1aVnhNSEQtWHBuTGxFYXlRR1F1SXJ4ZnBHbDFfM2hWdTF5eVlSeTg?oc=5",
      "published": "2026-10-21"
     },
     {
@@ -1513,6 +1533,12 @@
      "title": "트리니티항공, 제46회 항공의 날 맞아 국제선 운임 프로모션 실시",
      "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5KTUhDcVMzQ292S1RCX05vMjFPc09kODI2TDdZZDdOa1ZsbmJmYmZxaFhhT012cDU2ZFNsOXptQ3JCNy1TV1ItQndubEZaMzNSdWJlaTJkMElyajNEM1ZfVzFxY1pScExkbWpSOTJKSHJEQQ?oc=5",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "트리니티항공, 31일까지 ‘가을·겨울 시즌 국제선 할인 프로모션’",
+     "outlet": "경북도민일보",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkdHMxbGcxTnJMWEJMR3BLZnh1S2hRXzktWFltRXB6Z2pkNUFScDVDejZCbkttMUxxZV8wSU9aWHFiY2I5bk91WV9jWkZvN0hNY3UyMXVGWVk0a1BvTVpoSUtfMnFCRXZCT2c?oc=5",
      "published": "2026-10-21"
     },
     {
@@ -2434,61 +2460,6 @@
      "outlet": "아주경제",
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Vdjd2aEZybEROemk2TkRINE9raEhzeTU0M3FSMXA2d283RmpFOG5Dd2RnakM4VU4xMG9xQlBxNlFlZDdoZldoUEtKcHNuQ1dhak9BV2tXbWfSAVhBVV95cUxNVXY3dmhGcmxETnppNk5ESDRPa2hIc3k1NDNxUjFwNndvN0ZqRThuQ3dkZ2pDOFVOMTBvcUJQcTZRZWQ3aGZXaFBLSnBzbkNXYWpPQVdrV21n?oc=5",
      "published": "2026-10-15"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-stayfesta-f4e69f6895",
-   "airline_id": "h-stayfesta",
-   "airline": "숙박세일 페스타",
-   "airlines_mentioned": [
-    "숙박세일 페스타"
-   ],
-   "kind": "campaign",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "domestic",
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "2026 대한민국 숙박세일 페스타, 경남 숙박비 최대 7만원 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "경남"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "2026 대한민국 숙박세일 페스타, 경남 숙박비 최대 7만원 할인",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZVGE4dXo4Ti1oN244MkRldUR5TDNwaDZla3oyb0RoSXVjZExaR2ZNbDRieGRhSTNfdlRSTEtOZFJSbVYzb212NHE4dUNGeEhJdkpFY1RGRmd4YXZSbGJPM0Z3bmgyM21Xc1hvT3U3SF9mbjEyUXBZ?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": null,
-   "discount": "최대 7만원 할인",
-   "verification": "news",
-   "first_published": "2026-10-16",
-   "last_published": "2026-10-16",
-   "first_seen": "2026-10-16T08:56:42+09:00",
-   "last_seen": "2026-10-16T08:56:42+09:00",
-   "articles": [
-    {
-     "title": "2026 대한민국 숙박세일 페스타, 경남 숙박비 최대 7만원 할인",
-     "outlet": "진주인터넷뉴스",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZVGE4dXo4Ti1oN244MkRldUR5TDNwaDZla3oyb0RoSXVjZExaR2ZNbDRieGRhSTNfdlRSTEtOZFJSbVYzb212NHE4dUNGeEhJdkpFY1RGRmd4YXZSbGJPM0Z3bmgyM21Xc1hvT3U3SF9mbjEyUXBZ?oc=5",
-     "published": "2026-10-16"
     }
    ],
    "status": "undated"
