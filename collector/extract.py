@@ -267,9 +267,10 @@ def extract_discount(title):
     m = re.search(r"(\d{1,3})\s?%\s?(?:할인|특가)", title)
     if m:
         return f"{m.group(1)}% 할인"
-    m = re.search(r"(\d[\d,]*(?:만\s?\d[\d,]*)?\s?만?\s?원)\s?(?:부터|~)", title)
+    # '편도 7만5900원부터', '다낭 12만원대부터'(2026-10 에어서울·에어로케이: '대'까지 그대로 둔다)
+    m = re.search(r"(\d[\d,]*(?:만\s?\d[\d,]*)?\s?만?\s?원)(대)?\s?(?:부터|~)", title)
     if m:
-        return re.sub(r"\s", "", m.group(1)) + "부터"
+        return re.sub(r"\s", "", m.group(1)) + (m.group(2) or "") + "부터"
     # 숙박 쿠폰처럼 금액으로 깎아 주는 행사: '최대 7만원 할인', '최대 ‘3만 원’ 선착순 할인'
     m = re.search(r"최대\s?['‘]?(\d[\d,]*\s?만?\s?원)['’]?[^%]{0,8}?할인", title)
     if m:
