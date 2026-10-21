@@ -14,8 +14,8 @@ import sys
 from collections import Counter, defaultdict
 from datetime import datetime
 
-from collector.sources.gmail_imap import (SEARCH_DOMAINS, airline_of, authenticated, connect, message_text, promo_signals,
-                                         recent_headers)
+from collector.sources.gmail_imap import (SEARCH_DOMAINS, airline_of, authenticated, connect, count_in, message_text,
+                                         promo_signals, recent_headers, special_box)
 
 PROMO = ("특가", "할인", "세일", "프로모션", "쿠폰", "이벤트", "sale", "deal", "offer", "% off", "fare")
 
@@ -27,6 +27,8 @@ SIGNALS = [("price_krw", "원화 금액"), ("price_foreign", "외화 금액"), (
            ("discount", "할인율"), ("route", "도착지"), ("ad", "(광고) 제목")]
 signals = defaultdict(Counter)
 try:
+    # 전체보관함은 스팸·휴지통을 빼고 센다. 광고 메일이 스팸으로 가는지 개수만 따로 본다 (2026-10-21 추가)
+    junk = {name: count_in(imap, special_box(imap, flag), days) for name, flag in (("스팸함", "\\Junk"), ("휴지통", "\\Trash"))}
     box, rows = recent_headers(imap, days)
     seen_body = set()
     for r in rows:
@@ -48,6 +50,7 @@ try:
 finally:
     imap.logout()
 
+print("항공사 발신 도메인 메일 · " + " · ".join(f"{k} {'메일함 못 찾음' if v is None else str(v) + '통'}" for k, v in junk.items()))
 print(f"로그인 성공 · 메일함 {box} · 항공사 발신 도메인 {len(SEARCH_DOMAINS)}곳으로 검색 · 최근 {days}일 {len(rows)}통")
 per, verified, promo, domains = Counter(), Counter(), Counter(), defaultdict(Counter)
 name_only, unknown = Counter(), 0

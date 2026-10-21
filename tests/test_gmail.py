@@ -6,8 +6,8 @@ from datetime import date
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from collector.sources.gmail_imap import (SEARCH_DOMAINS, airline_of, authenticated, decode, message_text, promo_signals,
-                                         search_query)
+from collector.sources.gmail_imap import (SEARCH_DOMAINS, airline_of, authenticated, count_in, decode, message_text,
+                                         promo_signals, search_query, special_box)
 
 
 class TestAirlineOf(unittest.TestCase):
@@ -119,6 +119,34 @@ class TestMessageText(unittest.TestCase):
         msg.attach(MIMEText("plain 본문", "plain", "utf-8"))
         msg.attach(MIMEText("<p>html 본문</p>", "html", "utf-8"))
         self.assertEqual(message_text(FakeImap(msg.as_bytes()), "7").strip(), "plain 본문")
+
+
+class FakeBoxes:
+    LIST = [b'(\\HasNoChildren) "/" "INBOX"', b'(\\All \\HasNoChildren) "/" "[Gmail]/&yATMtLz0rQDVaA-"',
+            b'(\\HasNoChildren \\Junk) "/" "[Gmail]/&wqTTONVo-"']
+
+    def __init__(self):
+        self.selected = None
+
+    def list(self):
+        return "OK", self.LIST
+
+    def select(self, box, readonly=False):
+        assert readonly  # 읽기 전용으로만 연다
+        self.selected = box
+
+    def uid(self, cmd, *args):
+        return "OK", [b"11 12 13"]
+
+
+class TestSpecialBox(unittest.TestCase):
+    def test_junk_found_by_flag_and_counted_read_only(self):
+        imap = FakeBoxes()
+        box = special_box(imap, "\\Junk")
+        self.assertEqual(box, '"[Gmail]/&wqTTONVo-"')
+        self.assertEqual(count_in(imap, box, 30), 3)
+        self.assertIsNone(special_box(imap, "\\Trash"))
+        self.assertIsNone(count_in(imap, None, 30))
 
 
 if __name__ == "__main__":

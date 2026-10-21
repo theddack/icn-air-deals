@@ -146,6 +146,26 @@ def all_mail_box(imap):
     return "INBOX"
 
 
+def special_box(imap, flag):
+    """\\Junk(스팸함)·\\Trash 같은 특수 메일함 이름. 계정 언어에 따라 이름이 달라 표시로 찾는다. 없으면 None."""
+    _, lines = imap.list()
+    for line in lines or []:
+        if line and flag.encode() in line:
+            m = re.search(rb'"([^"]+)"\s*$', line) or re.search(rb"(\S+)\s*$", line)
+            if m:
+                return '"' + m.group(1).decode() + '"'
+    return None
+
+
+def count_in(imap, box, days):
+    """그 메일함에서 최근 days일 항공사 발신 도메인 메일 수 (헤더도 받지 않고 개수만)."""
+    if not box:
+        return None
+    imap.select(box, readonly=True)
+    _, data = imap.uid("SEARCH", "X-GM-RAW", f'"{search_query(days)}"')
+    return len(data[0].split()) if data and data[0] else 0
+
+
 def search_query(days):
     return f"newer_than:{days}d from:({' OR '.join(SEARCH_DOMAINS)})"
 
