@@ -255,3 +255,10 @@ table.sch mark { background: var(--orange-bg); color: var(--orange); border-radi
   .filters:not(.open) > :not(.search-field):not(.filter-toggle) { display: none; }
   .filters.open > .field:not(.search-field) { flex: 1 1 100%; }
 }
+
+/* 진행 여부 미확인 (접힘) */
+.stale-box { margin-top: 18px; border-top: 1px solid var(--line); padding-top: 12px; }
+.stale-box > summary { cursor: pointer; color: var(--muted); font-size: 14px; padding: 6px 0; }
+.stale-box > summary b { color: var(--ink); }
+.stale-box > summary small { display: block; font-size: 12px; margin-top: 2px; }
+.stale-box > .deals { margin-top: 12px; }

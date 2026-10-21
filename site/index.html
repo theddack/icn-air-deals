@@ -84,6 +84,11 @@
       </div>
       <div id="list" class="deals" aria-live="polite"></div>
       <p id="empty" class="empty" hidden></p>
+      <!-- 마감일을 모르고 마지막 기사 후 14일이 지난 행사 (30일까지 보관). 끝났는지 알 수 없어 접어 둔다 -->
+      <details id="stale" class="stale-box" hidden>
+        <summary>진행 여부 미확인 <b id="stale-n">0</b>건 <small>마감일이 기사에 없고 최근 기사가 14일 넘게 없는 행사 · 공식 페이지에서 확인하세요</small></summary>
+        <div id="stale-list" class="deals"></div>
+      </details>
     </div>
   </section>
 

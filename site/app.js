@@ -4,10 +4,12 @@
 
   var DAY = 86400000;
   var WEEK = ["일", "월", "화", "수", "목", "금", "토"];
-  var STATUS_LABEL = { upcoming: "판매 예정", live: "진행 중", undated: "날짜 미확인", ended: "마감" };
-  var STATUS_PILL = { upcoming: "", live: "green", undated: "orange", ended: "gray" };
+  var STATUS_LABEL = { upcoming: "판매 예정", live: "진행 중", undated: "날짜 미확인", stale: "진행 여부 미확인", ended: "마감" };
+  var STATUS_PILL = { upcoming: "", live: "green", undated: "orange", stale: "gray", ended: "gray" };
   var CLOSING_DAYS = 3; // 마감까지 이 일수 이내면 '마감 임박'
-  var ORDER = { upcoming: 0, live: 1, undated: 2, ended: 3 };
+  var ORDER = { upcoming: 0, live: 1, undated: 2, stale: 3, ended: 4 };
+  // 마감일을 모르는 행사는 마지막 기사 후 이 일수가 지나면 '진행 여부 미확인'으로 목록 아래에 접는다 (collector/status.py)
+  var STALE_AFTER_DAYS = 14;
   var ICN_LABEL = { yes: "인천(ICN)", no: "인천 외 출발", unknown: "미확인" };
   var VERIFY_LABEL = { official: "공식 확인", news: "뉴스 기반 · 미확인" };
   var NEW_HOURS = 48;   // 처음 본 지 이 시간 안이면 '신규', 기사가 이 시간 안에 더해졌으면 '기사 추가'
@@ -53,6 +55,7 @@
   function statusOf(d, today) {
     if (d.sale_start && today < d.sale_start) return "upcoming";
     if (d.sale_end && today > d.sale_end) return "ended";
+    if (!d.sale_end && diffDays(today, d.last_published) > STALE_AFTER_DAYS) return "stale";
     if (d.sale_start || d.sale_end) return "live";
     return "undated";
   }
@@ -90,6 +93,7 @@
   }
 
   function matches(d, f, today) {
+    if (d._status === "stale") return f === "stale"; // 접힌 칸에만 보인다 ('전체'·'신규' 수에도 넣지 않는다)
     if (f === "all") return true;
     if (f === "new") return d._fresh === "new";
     if (f === "closing") return isClosing(d, today);
@@ -192,8 +196,8 @@
   // 남은 기간 칸: 위에 무엇까지의 기간인지, 아래에 D-day
   function ddayBox(d, st, today) {
     var label = st === "upcoming" ? "판매 시작" : st === "live" ? (d.sale_end ? "판매 마감" : "판매 중") : st === "ended" ? "판매 종료" : "판매 기간";
-    var value = st === "undated" ? "미확인" : ddayText(d, st, today).replace(/^마감 /, ""); // 위 칸이 '판매 마감'이라 겹치는 말은 뺀다
-    var cls = isClosing(d, today) ? " urgent" : st === "ended" ? " past" : st === "undated" ? " unk" : "";
+    var value = st === "undated" ? "미확인" : st === "stale" ? "진행 여부 미확인" : ddayText(d, st, today).replace(/^마감 /, ""); // 위 칸이 '판매 마감'이라 겹치는 말은 뺀다
+    var cls = isClosing(d, today) ? " urgent" : st === "ended" || st === "stale" ? " past" : st === "undated" ? " unk" : "";
     return '<div class="dday' + cls + '"><span>' + label + "</span><b>" + esc(value) + "</b></div>";
   }
 
@@ -238,7 +242,7 @@
         (sec === "domestic" ? "" : row("출발 공항", ICN_LABEL[d.from_icn], d.from_icn === "yes" ? "icn" : d.from_icn === "unknown" ? "unk" : ""));
     // 앞면 한 줄 요약: 판매 기간, 탑승(투숙) 기간이 확인된 것만
     var brief = [sale ? "판매 " + sale : "", travel && !travelConflict ? travelLabel.slice(0, 2) + " " + travel : ""].filter(Boolean).join(" · ");
-    return '<article class="deal' + (st === "ended" ? " ended" : "") + '">' +
+    return '<article class="deal' + (st === "ended" || st === "stale" ? " ended" : "") + '">' +
       '<div class="pills">' + pills + "</div>" +
       '<div class="who">' + airline + (where && where !== "미확인" ? '<span class="where">' + where + "</span>" : "") + "</div>" +
       "<h3>" + esc(title) + "</h3>" +
@@ -252,7 +256,7 @@
       "</div>" +
       '<details class="more"><summary>상세 정보 · 관련 기사 ' + d.articles.length + "건</summary>" +
         "<dl>" + row(SECTIONS[sec].who, airline) + rows +
-          (st === "undated" ? row("최근 기사", md(d.last_published)) : "") + "</dl>" +
+          (st === "undated" || st === "stale" ? row("최근 기사", md(d.last_published)) : "") + "</dl>" +
         '<div class="foot">' +
           ((d.agencies || []).length ? '<div class="foot-row"><span>기사에 나온 판매처</span><span>' + d.agencies.map(function (g) {
             return '<a href="' + esc(g.url) + '" target="_blank" rel="noopener">' + esc(g.name) + " ↗</a>";
@@ -404,7 +408,7 @@
   function updateTabCounts() {
     Object.keys(SECTIONS).forEach(function (sec) {
       document.getElementById("n-" + sec).textContent = deals.filter(function (d) {
-        return sectionOf(d) === sec && !(sec === "flight" && state.hideOther && d.from_icn === "no");
+        return sectionOf(d) === sec && d._status !== "stale" && !(sec === "flight" && state.hideOther && d.from_icn === "no");
       }).length;
     });
     document.querySelectorAll("[data-section]").forEach(function (b) {
@@ -435,8 +439,14 @@
     var conds = activeConditions();
     document.getElementById("active").hidden = !conds.length;
     document.getElementById("active-text").textContent = "적용된 조건: " + conds.join(" · ") + " · " + shown.length + "건";
+    // 진행 여부 미확인: 마감일을 모르고 기사가 끊긴 지 오래된 행사. 지금 조건(탭·검색 등)에 맞는 것만 접어서 보여준다
+    var stale = state.filter === "all" ? sorted(base.filter(function (d) { return d._status === "stale"; })) : [];
+    var staleBox = document.getElementById("stale");
+    staleBox.hidden = !stale.length;
+    document.getElementById("stale-n").textContent = stale.length;
+    document.getElementById("stale-list").innerHTML = stale.map(function (d) { return card(d, today); }).join("");
     var empty = document.getElementById("empty");
-    empty.hidden = shown.length > 0;
+    empty.hidden = shown.length > 0 || stale.length > 0;
     empty.innerHTML = esc(SECTIONS[state.section].empty) +
       (conds.length ? ' <button type="button" class="reset" data-reset>조건 초기화</button>' : "");
   }
@@ -483,7 +493,7 @@
   }
 
   function activeAirDeals() {
-    return deals.filter(function (d) { return sectionOf(d) !== "hotel" && d._status !== "ended" && (d.iata || []).length; });
+    return deals.filter(function (d) { return sectionOf(d) !== "hotel" && d._status !== "ended" && d._status !== "stale" && (d.iata || []).length; });
   }
 
   // 행사와 운항편 연결. 할인이 이 편에 적용된다는 뜻은 아니다.

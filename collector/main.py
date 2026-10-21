@@ -231,12 +231,12 @@ def merge_articles(existing, new, today):
 
 
 def sort_key(d):
-    order = {"upcoming": 0, "live": 1, "undated": 2, "ended": 3}
+    order = {"upcoming": 0, "live": 1, "undated": 2, "stale": 3, "ended": 4}
     return (order[d["status"]], d["sale_start"] or d["sale_end"] or "9999", d["last_published"])
 
 
 def build_deals(articles, today):
-    from .status import status
+    from .status import display_status
     deals = []
     # 저장된 기사도 매번 지금 규칙으로 다시 거른다. 규칙을 고쳐 대상이 아니게 된 지난 기사(예: 2026-10-18 제외한
     # 제휴 호텔·수하물 할인)가 행사로 남지 않게 한다
@@ -244,9 +244,7 @@ def build_deals(articles, today):
     for d in cluster_articles([enrich(a) for a in current]):
         if not should_keep(d, today):
             continue
-        s = date.fromisoformat(d["sale_start"]) if d["sale_start"] else None
-        e = date.fromisoformat(d["sale_end"]) if d["sale_end"] else None
-        d["status"] = status(s, e, today)
+        d["status"] = display_status(d, today)
         deals.append(d)
     return sorted(deals, key=sort_key)
 

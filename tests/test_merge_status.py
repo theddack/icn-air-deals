@@ -3,7 +3,7 @@ from datetime import date
 
 from collector.main import build_deals, enrich
 from collector.merge import cluster_articles
-from collector.status import should_keep, status
+from collector.status import display_status, should_keep, status
 
 
 def art(title, pub, url=None):
@@ -177,7 +177,25 @@ class TestStatus(unittest.TestCase):
         self.assertFalse(should_keep(d, date(2026, 7, 24)))
         open_ended = {"sale_start": "2026-07-07", "sale_end": None, "last_published": "2026-07-08"}
         self.assertTrue(should_keep(open_ended, date(2026, 7, 22)))
-        self.assertFalse(should_keep(open_ended, date(2026, 7, 23)))
+        self.assertFalse(should_keep(open_ended, date(2026, 7, 23)))  # 정보가 없으면 14일에 뺀다
+
+    def test_stale_with_facts_kept_30_days(self):
+        # 2026-10 에어서울 '임박 특가'(마지막 기사 10/4): 마감일이 없어 10/18에 사라지던 것
+        d = {"sale_start": None, "sale_end": None, "last_published": "2026-10-04", "event_name": "임박 특가",
+             "discount": "12만원대부터"}
+        self.assertEqual(display_status(d, date(2026, 10, 18)), "undated")
+        self.assertEqual(display_status(d, date(2026, 10, 19)), "stale")
+        self.assertTrue(should_keep(d, date(2026, 11, 3)))
+        self.assertFalse(should_keep(d, date(2026, 11, 4)))
+        started = {"sale_start": "2026-10-01", "sale_end": None, "last_published": "2026-10-01", "discount": "최대 10%"}
+        self.assertEqual(display_status(started, date(2026, 10, 16)), "stale")
+        upcoming = {"sale_start": "2026-12-01", "sale_end": None, "last_published": "2026-10-01"}
+        self.assertEqual(display_status(upcoming, date(2026, 10, 20)), "upcoming")
+
+    def test_price_range_wording(self):
+        from collector.extract import extract_discount
+        self.assertEqual(extract_discount("에어서울, 국제선 전 노선 '임박 특가'...다낭 12만원대부터"), "12만원대부터")
+        self.assertEqual(extract_discount("에어부산, 편도 7만5900원부터"), "7만5900원부터")
 
 
 
