@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T14:18:44+09:00",
+ "generated_at": "2026-10-21T14:24:10+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,16 +10,18 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2570,
+  "rss_items": 2613,
   "outlet_feeds": 29,
-  "outlet_failed": 0,
-  "outlet_failed_feeds": [],
-  "outlet_items": 2188,
+  "outlet_failed": 1,
+  "outlet_failed_feeds": [
+   "문화체육관광부: URLError"
+  ],
+  "outlet_items": 2181,
   "outlet_new_articles": 0,
-  "outlet_enriched": 2,
+  "outlet_enriched": 0,
   "articles_with_summary": 12,
-  "articles": 424,
-  "new_articles": 19,
+  "articles": 426,
+  "new_articles": 2,
   "deals": 42
  },
  "deals": [
@@ -2348,6 +2350,59 @@
    "status": "undated"
   },
   {
+   "id": "h-other-57b6f9e118",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "EaseMyTrip launches Travel Utsav 2026 sale with up to 50% hotel discounts",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "EaseMyTrip launches Travel Utsav 2026 sale with up to 50% hotel discounts",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ0VLMzNzdGF4bmVac2JxUFJyOHhLcDh5WmlVNXZ2eVg2V3NQendXRndyLS1hX1JBUlJTRnVDUzlIRnBiV1d4akYydTB3bFNnTXR5Z1B2TThGMk9LelBtT1NmRi1Dd1NuaW9aeVNqN3puVi1FZ2dzaUdmc2Q5a19vVThla1dWOE5LZC1WTHpJYXFPVHBKQjNMZE9rc2VpY3pBcXBwYTl5cElUQnFISFZCcXVQcXREMkRjQUVtNV93?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": null,
+   "discount": "최대 50%",
+   "verification": "news",
+   "first_published": "2026-10-13",
+   "last_published": "2026-10-13",
+   "first_seen": "2026-10-21T14:24:10+09:00",
+   "last_seen": "2026-10-21T14:24:10+09:00",
+   "articles": [
+    {
+     "title": "EaseMyTrip launches Travel Utsav 2026 sale with up to 50% hotel discounts",
+     "outlet": "scanx.trade",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ0VLMzNzdGF4bmVac2JxUFJyOHhLcDh5WmlVNXZ2eVg2V3NQendXRndyLS1hX1JBUlJTRnVDUzlIRnBiV1d4akYydTB3bFNnTXR5Z1B2TThGMk9LelBtT1NmRi1Dd1NuaW9aeVNqN3puVi1FZ2dzaUdmc2Q5a19vVThla1dWOE5LZC1WTHpJYXFPVHBKQjNMZE9rc2VpY3pBcXBwYTl5cElUQnFISFZCcXVQcXREMkRjQUVtNV93?oc=5",
+     "published": "2026-10-13"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-other-7afebebcee",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -3157,59 +3212,6 @@
      "title": "인스파이어, ‘원더 페스타’ 개최...쇼핑·숙박·미식·엔터테인먼트 혜택 한자리에",
      "outlet": "중부일보",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHQVMtQlI3THItWXoyUUk4azk1N2x5VVlFOWNScXlEUnlVdkpmaXJSeFhMTVd4UnpqYzZGNElCZkxRcU5qcE55Q2RzelBTS29OSXRNMFpkT2RBWjVQM01xWmRPQjFkYS1kaXM4ZkJ3?oc=5",
-     "published": "2026-10-21"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-lotte-336a8f6da1",
-   "airline_id": "h-lotte",
-   "airline": "롯데호텔",
-   "airlines_mentioned": [
-    "롯데호텔"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "롯데호텔 '논알코올' 칵테일 7종 출시…연말까지 10% 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "롯데호텔 '논알코올' 칵테일 7종 출시…연말까지 10% 할인",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqNVpKMXpsNl9IUFB6amZDbnNpbFpWZmp3bnE3LUdmSkE4ancxbWFHeTlLVFlIUjNOaHEwVGJCMTVCWXpIYnFpQ195UVZOSGxYUnR1ZHVUYzVPQ3NvdE5wTGRGZnN5UkpUeXU0?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": null,
-   "discount": "10% 할인",
-   "verification": "news",
-   "first_published": "2026-10-21",
-   "last_published": "2026-10-21",
-   "first_seen": "2026-10-21T14:18:44+09:00",
-   "last_seen": "2026-10-21T14:18:44+09:00",
-   "articles": [
-    {
-     "title": "롯데호텔 '논알코올' 칵테일 7종 출시…연말까지 10% 할인",
-     "outlet": "뉴스저널리즘",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqNVpKMXpsNl9IUFB6amZDbnNpbFpWZmp3bnE3LUdmSkE4ancxbWFHeTlLVFlIUjNOaHEwVGJCMTVCWXpIYnFpQ195UVZOSGxYUnR1ZHVUYzVPQ3NvdE5wTGRGZnN5UkpUeXU0?oc=5",
      "published": "2026-10-21"
     }
    ],
