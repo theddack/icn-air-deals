@@ -60,6 +60,9 @@ def airlines_in(text, table=_ALIASES):
 _SEGMENT_SPLIT = re.compile(r"…|\.{2,}|⋯|→|,|\||\[|\]|\s-\s")
 
 
+_SEVERAL = re.compile(r"등\s?\d+\s?(?:개|곳)\s?(?:LCC|저비용항공사|항공사|국적사)")
+
+
 def attribute_airline(title):
     """특가가 누구 것인지 정한다 → (airline_id 또는 None, 제목에 나온 항공사 목록).
 
@@ -67,6 +70,9 @@ def attribute_airline(title):
     모은 항공사가 하나일 때만 확정하고, 둘 이상이면 None(미분류)이다.
     """
     mentioned = airlines_in(title)
+    # '제주항공 등 5개 LCC 대상'처럼 한 곳만 이름이 나와도 여러 항공사 공동 대상이면 미분류 (2026-10-20 KB페이 기사)
+    if _SEVERAL.search(title):
+        return None, mentioned
     if len(mentioned) <= 1:
         return (mentioned[0] if mentioned else None), mentioned
 
@@ -104,7 +110,9 @@ _SALE_WEAK = re.compile(r"할인|프로모션|이벤트")
 _SALE_CLAUSE = re.compile(r"특가|얼리버드|세일|SALE|Sale|반값|할인|프로모션|이벤트|쿠폰|\d{1,3}\s?%")
 _TICKET = re.compile(r"항공권|운임|노선|국제선|국내선|편도|왕복|항공편|좌석|\d{1,3}\s?%|\d\s?원부터|[가-힣]{2,}행\b|~[가-힣]{2,}")
 _NOISE = re.compile(r"퀴즈|정답|주가|증권|목표가|실적|영업이익|영업손실|채용|사고|추락|비상착륙|국정감사|과징금"
-                    r"|마일리지 적립|마일리지 프로모션|기내식|면세점|팝업스토어")
+                    r"|마일리지 적립|마일리지 프로모션|기내식|면세점|팝업스토어"
+                    # 은행 상품 가입 경품 이벤트 ('신한은행, SOL통장·트래블 연계 … 대한항공 50만원까지', 2026-10-20)
+                    r"|은행|통장|적금|예금")
 
 
 # 2026-10-15 보완: 항공권 맥락 단어 없이도 운임 할인 행사로 볼 수 있는 표현.
@@ -426,7 +434,8 @@ def attribute_hotel(title):
 
 # 통계·동향 기사: 숫자(%)가 할인율이 아니라 증감률이다 ('해외 호텔 검색량 여름 대비 34% 상승', 2026-10-18).
 # 할인 표현이 하나도 없을 때만 뺀다 ('LA 노선 점유율 20.8% … 미주 5개 노선 할인'은 행사 기사)
-_STATS = re.compile(r"검색량|예약률|예약\s?건수|탑승률|점유율|이용객|증가|상승|감소|하락|급증|급감|늘어|줄어|전년\s?대비|대비\s?\d")
+_STATS = re.compile(r"검색량|예약률|예약\s?건수|탑승률|점유율|이용객|증가|상승|감소|하락|급증|급감|늘어|줄어|늘고|늘었|줄고|줄었"
+                    r"|전년\s?대비|대비\s?\d")  # 늘고·줄고: '호텔스닷컴 언팩 27 발표…부산 여행 검색 50% 늘고' (2026-10-20)
 _DISCOUNT_WORD = re.compile(r"할인|특가|세일|SALE|Sale|프로모션|쿠폰|페이백|반값|얼리버드|원부터|1\+1")
 
 

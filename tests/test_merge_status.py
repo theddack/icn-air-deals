@@ -140,6 +140,22 @@ class TestNotNews(unittest.TestCase):
         self.assertIsNone(to_article(raw, "2026-10-19T09:00:00+09:00"))
 
 
+class TestRules20261021(unittest.TestCase):
+    # 2026-10-20 수집에 들어온 실제 제목
+    def test_several_carriers_named_one(self):
+        from collector.extract import attribute_airline
+        self.assertIsNone(attribute_airline("KB페이로 국제선 사면 12% 할인…제주항공 등 5개 LCC 대상")[0])
+
+    def test_bank_event_is_not_fare_sale(self):
+        from collector.extract import category_of
+        self.assertIsNone(category_of("“올리브영 할인에 대한항공 50만원까지”… 신한은행, ‘SOL통장·트래블’ 연계 대규모 고객 이벤트 전격 실시"))
+
+    def test_trend_report_is_not_hotel_sale(self):
+        from collector.extract import category_of
+        self.assertIsNone(category_of("[현장] 호텔스닷컴 '언팩 27' 발표…부산 여행 검색 50% 늘고 짧은 여행 관심 확대"))
+        self.assertEqual(category_of("에어서울, 일본 노선 최대 50% 할인…예약 늘고"), "flight")  # 할인 표현이 있으면 행사
+
+
 class TestStatus(unittest.TestCase):
     def test_states(self):
         s, e = date(2026, 7, 13), date(2026, 7, 16)
