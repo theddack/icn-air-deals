@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T14:56:23+09:00",
+ "generated_at": "2026-10-21T17:32:23+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,16 +10,16 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2608,
+  "rss_items": 2556,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2183,
+  "outlet_items": 2152,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 12,
-  "articles": 427,
-  "new_articles": 1,
+  "articles": 429,
+  "new_articles": 2,
   "deals": 68
  },
  "deals": [
@@ -1089,7 +1089,7 @@
    "first_published": "2026-10-10",
    "last_published": "2026-10-15",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-19T01:10:56+09:00",
+   "last_seen": "2026-10-21T17:32:23+09:00",
    "articles": [
     {
      "title": "트리니티항공, 23일까지 ‘10월 우리 동네 할인’ 프로모션…부산·대구·청주·제주·광주 출발 항공편 할인",
@@ -1119,6 +1119,12 @@
      "title": "트리니티항공, 10월 ‘우리 동네 할인’ 프로모션 진행",
      "outlet": "오늘경제",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96bE1reFdNNkVWWWJiUTdWdnd6cGJLc0FVTEFxc0o4bkRoNDZvandSV2ZONURzMWotUlNhZGllbXMyUGNKa3BoVENHLTB0QlhkS0JrY3R3eHJPUmYtVUREUzR5bFQ2Mk1mSWNuYVVKbng5WTg?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 지역 공항 출발 항공권 할인 진행",
+     "outlet": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BSUhrbWtaaC1salV0cDkwQ1k0aDZyYTJBd0MwVkNqLVkxT05INjBVQnZ4c3lVSG5hajJUZF9xc19WTlpDVW1nRmxWN0d4RGR0V0dUaFhBMVp4RG9QbG9QQzFyX3g1cFpncXJsRVlodEtRWlXSAXdBVV95cUxQdENJbExaUlY0SGJxcE9udzZuOGN0M0dKV09rZ0VvNXM4N0lKTThSVTFmcWIzU3ItYk4wOHhTTC1DZ0d5WEpRdDBKS3JYYVhIVFFiLTlaRmRUbTlhV2hadHNEVXZpc040UXhYalBIaEZ5YjVaY0FfRQ?oc=5",
      "published": "2026-10-12"
     },
     {
@@ -1489,7 +1495,7 @@
    "first_published": "2026-10-21",
    "last_published": "2026-10-21",
    "first_seen": "2026-10-21T09:36:47+09:00",
-   "last_seen": "2026-10-21T14:18:44+09:00",
+   "last_seen": "2026-10-21T17:32:23+09:00",
    "articles": [
     {
      "title": "트리니티항공, 항공의 날 기념 국제선 할인 프로모션…오는 31일까지 사전예매",
@@ -1501,6 +1507,12 @@
      "title": "트리니티항공, 항공의 날 맞아 국제선 최대 22% 할인...31일까지",
      "outlet": "중앙이코노미뉴스",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZM3dLd2c0Mk5qdnVZZWota1ZCSHdSdWpkbFRaQmdHNUFuOGY2NFBVb051Vm80Ujg4Ui1IbTJBWkdiVUFtZFQxUXd3blNYM0FESFZGaWVwTzd6MXdUQ2NzcURVTG9Na2dHM25fMW5DSFVzdw?oc=5",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "트리니티항공, 제46회 항공의 날 맞아 국제선 운임 프로모션 실시",
+     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5KTUhDcVMzQ292S1RCX05vMjFPc09kODI2TDdZZDdOa1ZsbmJmYmZxaFhhT012cDU2ZFNsOXptQ3JCNy1TV1ItQndubEZaMzNSdWJlaTJkMElyajNEM1ZfVzFxY1pScExkbWpSOTJKSHJEQQ?oc=5",
      "published": "2026-10-21"
     },
     {
