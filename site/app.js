@@ -166,6 +166,10 @@
     if (sectionOf(d) === "hotel" || !(d.iata || []).length) return "";
     if (!sch) return schError ? "" : '<div class="dest-block muted">인천 출발 운항 도착지: 시간표 불러오는 중…</div>';
     var info = airlineDestinations(d.iata);
+    // 오늘이 확보된 시간표 끝(full_until)을 지났으면 셀 날짜가 없다. 시즌이 바뀌었는데 다음 시즌 일정이 아직 덜
+    // 공개된 때다 (2026-10-25 동계 전환: 10/22 기준 동계 정기편 36건만 공개). '정기편 없음'이 아니라 미확보로 둔다
+    if (!info.days) return '<div class="dest-block muted">인천 출발 운항 도착지: 시간표 미확보 (' +
+      md(sch.coverage.full_until) + " 이후 정기편 일정이 아직 공개되지 않음)</div>";
     var routes = d.routes || [];
     var target = function (g) {
       return routes.some(function (r) {
@@ -649,8 +653,10 @@
     if (!schState.date || schState.date < today || schState.date > maxDay) schState.date = today;
     input.value = schState.date;
     meta.innerHTML = "마지막 수집 " + esc(sch.generated_at.slice(0, 16).replace("T", " ")) + " KST · 시각은 " + esc(sch.timezone) +
-      "<br>시간표 확보: " + md(today) + " ~ " + md(cov.full_until) +
-      (cov.partial_until > cov.full_until ? " · 일부 편만 공개: ~ " + md(cov.partial_until) : "") +
+      // 시즌이 바뀌어 오늘이 확보 끝을 지났으면 '10/25 ~ 10/24'처럼 거꾸로 쓰지 않는다
+      (today <= cov.full_until ? "<br>시간표 확보: " + md(today) + " ~ " + md(cov.full_until)
+        : "<br>시간표 확보: 없음 (" + md(cov.full_until) + " 이후 정기편 일정이 아직 공개되지 않음)") +
+      (cov.partial_until > cov.full_until && cov.partial_until >= today ? " · 일부 편만 공개: ~ " + md(cov.partial_until) : "") +
       " · 그 뒤는 미확보 · 지연·변경 시각: " + (sr ? md(sr.from) + " ~ " + md(sr.to) : "이번 수집에서 받지 못함") +
       // 운항 현황을 못 받아 직전 수집분을 이어 쓴 경우 (collector/flights.py reuse_previous)
       (sch.status_from && sr ? " (이번 수집 실패, " + esc(sch.status_from.slice(5, 16).replace("-", "/").replace("T", " ")) + " 수집분)" : "");
