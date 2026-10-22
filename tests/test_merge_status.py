@@ -155,6 +155,11 @@ class TestRules20261021(unittest.TestCase):
         self.assertIsNone(category_of("[현장] 호텔스닷컴 '언팩 27' 발표…부산 여행 검색 50% 늘고 짧은 여행 관심 확대"))
         self.assertEqual(category_of("에어서울, 일본 노선 최대 50% 할인…예약 늘고"), "flight")  # 할인 표현이 있으면 행사
 
+    def test_tech_event_is_not_stay_sale(self):
+        from collector.extract import category_of
+        self.assertIsNone(category_of("야놀자, 'AI 페스타 2026' 참가…여행·호텔·아파트 AI 기술 총출동"))
+        self.assertEqual(category_of("NOL, 가평군과 가을숙소 프로모션...최대 3만원 할인"), "hotel")
+
     def test_hotel_drink_discount_is_not_stay_sale(self):
         from collector.extract import category_of
         self.assertIsNone(category_of("롯데호텔 '논알코올' 칵테일 7종 출시…연말까지 10% 할인"))
