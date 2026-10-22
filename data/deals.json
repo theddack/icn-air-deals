@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T09:40:54+09:00",
+ "generated_at": "2026-10-22T13:14:51+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,17 +10,17 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2524,
+  "rss_items": 2527,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2053,
-  "outlet_new_articles": 1,
-  "outlet_enriched": 1,
+  "outlet_items": 2201,
+  "outlet_new_articles": 0,
+  "outlet_enriched": 0,
   "articles_with_summary": 15,
-  "articles": 442,
-  "new_articles": 8,
-  "deals": 64
+  "articles": 446,
+  "new_articles": 4,
+  "deals": 65
  },
  "deals": [
   {
@@ -134,7 +134,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-21",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-22T09:40:54+09:00",
+   "last_seen": "2026-10-22T13:14:51+09:00",
    "articles": [
     {
      "title": "단풍을 눈에 가득 담을 수 있는 곳🍁 '숙박세일페스타'로 떠나자🍂 : 네이버 블로그",
@@ -422,6 +422,12 @@
      "title": "가을 숙박비 최대 7만원 깎아준다. 숙박세일 페스타, 어디서 받을 수 있을까?",
      "outlet": "여행픽",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KU0Z1Qk1xWFI0ZWkxMndGYk9nVFhEeHhvMFFaVVVOU3RseVNoeDdBRUZOZ2d4WGVXOVI0LWFUZHgxd0NKVVk5QnA5czhoaUMyS0FvR2tBX2lRNXI2STd3NmVsSFBSY1B2QVFGWA?oc=5",
+     "published": "2026-09-22"
+    },
+    {
+     "title": "11번가, 가을 ‘숙박세일 페스타’ 동참… 국내 4만여곳 할인",
+     "outlet": "뉴스웰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wTzRxNTBIejhCaUZIWGZhSEJDLUZEcnB0VVlMMHJHazgzaU9taG9peGh3TjhSdW5LV19zOEJBMU9VaGhOWjd4dWFuN0JnTFpIRFdZQnJnWkFwLTFkODJ4dkJXVkdYZzNsS2xqMg?oc=5",
      "published": "2026-09-22"
     },
     {
@@ -1573,12 +1579,24 @@
    "first_published": "2026-10-22",
    "last_published": "2026-10-22",
    "first_seen": "2026-10-22T09:40:54+09:00",
-   "last_seen": "2026-10-22T09:40:54+09:00",
+   "last_seen": "2026-10-22T13:14:51+09:00",
    "articles": [
     {
      "title": "NOL, 가평군과 가을숙소 프로모션...최대 3만원 할인",
      "outlet": "싱글리스트",
      "url": "https://www.slist.kr/news/articleView.html?idxno=775411",
+     "published": "2026-10-22"
+    },
+    {
+     "title": "NOL, 가평 숙소 최대 3만원 할인…지역 관광 활성화 나서",
+     "outlet": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE04YW92YWhWX08tZWxyVlBxVWU0YWNTdWJzNjVtazRwUU1kZndodDlIa2NWa2NRdUY2ZGxwWlZocmNwdG5COVJzZW9hRjVpRmFlUWp4VE1OTEUtM0VPelFNb0M3UDBEY1FIRVhCYjVuUlZPZw?oc=5",
+     "published": "2026-10-22"
+    },
+    {
+     "title": "놀유니버스, 가평군과 관광 활성화 협력…숙박비 최대 3만원 할인",
+     "outlet": "우먼타임스",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sTUFLN09tVHNlUFlITHJRcVhMTkhZRkxzcFJRZ05sOUlrU0dXS21MOGlhQWtNd3FGd3F4cmtGWDVNNmtMWHpyYUZFaHd6YlhhUzlQSkFPY1Y4T1Z6dVBJRE41REw3UklpNHM4bHp5N1bSAXRBVV95cUxQVmxaeVIyUWVuN3dSMHZsN2xqS1NRZ1hhUUtfYlNac3JPLUdLN1lHRWVYYkFUbTY0UjBRTHRzZC1TZzBuMjlCRTFUS1NKbEE1dDhCYkg1T1dHRS1jSW95VkVrUEszNWhkVVZoaVhVM1VPMVhUOA?oc=5",
      "published": "2026-10-22"
     },
     {
@@ -3528,6 +3546,60 @@
      "title": "여기어때, 가을 섬 여행객 잡는다... ‘2026 숙박 세일 페스타 섬 지역편’ 진행",
      "outlet": "메가경제",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14MkRBelVJenRFcEd6cDJ5ZXc1R2JpT1JJWTBncWhmMDc1RG9uTE9TX0dzWDh0WlZFVG5SdFZPeVRyZU1sZkF4Q3J4TnlQak9TNzRMVGJhSUZsa2FHclB0MHYxejhvOGRJSU5DSjlveDZ6Z9IBckFVX3lxTE14MkRBelVJenRFcEd6cDJ5ZXc1R2JpT1JJWTBncWhmMDc1RG9uTE9TX0dzWDh0WlZFVG5SdFZPeVRyZU1sZkF4Q3J4TnlQak9TNzRMVGJhSUZsa2FHclB0MHYxejhvOGRJSU5DSjlveDZ6Zw?oc=5",
+     "published": "2026-09-22"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-nol-3a2c1b4bef",
+   "airline_id": "h-nol",
+   "airline": "놀(야놀자)",
+   "airlines_mentioned": [
+    "놀(야놀자)"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://nol.yanolja.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "AI 페스타 2026",
+   "headline": "야놀자, 'AI 페스타 2026' 참가…여행·호텔·아파트 AI 기술 총출동",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "date_source": "none",
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-09-22",
+   "last_published": "2026-09-22",
+   "first_seen": "2026-10-22T09:40:54+09:00",
+   "last_seen": "2026-10-22T13:14:51+09:00",
+   "articles": [
+    {
+     "title": "야놀자, 'AI 페스타 2026' 참가…여행·호텔·아파트 AI 기술 총출동",
+     "outlet": "IT타임스",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fVEZJY0dsazVpS09ZbmxXWnFhNGFlNzJqQXl3T0VZbkw0Q29WQ1c0R1N2WVZyTDNLSE5mUFA1ekx2d2NGdVgwdzVZbC1UMlNtRXYybEFFUXBLNko4V3JodFpBcjVEdVpo?oc=5",
+     "published": "2026-09-22"
+    },
+    {
+     "title": "야놀자, 여행 넘어 주거·호텔까지…AI 페스타 2026서 기술 총출동",
+     "outlet": "아주경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LYkxBcElIWnQwX3l2Mm1yV3FpY3V3Y0R2OWEtRlFJX0pqNExnbHhLSFJxaEd4TUxjYXMxOWllR0FFdVBCdk9OTE92WEotXzRQWU1LcEJQcEhMUdIBWEFVX3lxTE1sLTBhNHBfcUNWLTBRTG9oTHNmTmQtV0s2ZHBUdWRINmVZR2xmMWZDVGNqcnBQeTNvaEM1VHNfZXp6NGNfSEhIemhXUjN2aEdxOFZHWHBQbzg?oc=5",
      "published": "2026-09-22"
     }
    ],
