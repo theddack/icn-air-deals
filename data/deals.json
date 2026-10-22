@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T23:28:51+09:00",
+ "generated_at": "2026-10-22T09:40:54+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,21 +10,76 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2613,
+  "rss_items": 2524,
   "outlet_feeds": 29,
-  "outlet_failed": 1,
-  "outlet_failed_feeds": [
-   "문화체육관광부: URLError"
-  ],
-  "outlet_items": 1969,
+  "outlet_failed": 0,
+  "outlet_failed_feeds": [],
+  "outlet_items": 2053,
   "outlet_new_articles": 1,
-  "outlet_enriched": 0,
-  "articles_with_summary": 13,
-  "articles": 434,
-  "new_articles": 5,
-  "deals": 67
+  "outlet_enriched": 1,
+  "articles_with_summary": 15,
+  "articles": 442,
+  "new_articles": 8,
+  "deals": 64
  },
  "deals": [
+  {
+   "id": "h-marriott-c2e930026f",
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "airlines_mentioned": [
+    "메리어트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Marriott Worldwide 20% Off Escapes For Stays October 30 – November 15, 2026 (Book By Sunday)",
+   "sale_start": "2026-10-30",
+   "sale_end": "2026-11-15",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "Marriott Worldwide 20% Off Escapes For Stays October 30 – November 15, 2026 (Book By Sunday)",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM2FjZ1NYdVBSZFg5YUdWdVl2dFJ5eFJSVF80YkMyMkJoQXhhVGR5ZnAzUnZtRm1qaERPZmlPajVucGVJZ2xGLTl2LXA1SmcxeGF1QzlYbXhBdEZXRk9EQ2IwY2hOcVo1aTVaSFJjWlZ0RWg4ZTJpUzBReDZQOFVsUDRZa01YS25yamw2MGktSS1hUVJpSFZiMXRpazZsdlJObHYtSHh4VmVHV0JsY0VFQnFoNExwbmRsc18xZHEyYWM?oc=5"
+    },
+    "discount": {
+     "title": "Marriott Worldwide 20% Off Escapes For Stays October 30 – November 15, 2026 (Book By Sunday)",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM2FjZ1NYdVBSZFg5YUdWdVl2dFJ5eFJSVF80YkMyMkJoQXhhVGR5ZnAzUnZtRm1qaERPZmlPajVucGVJZ2xGLTl2LXA1SmcxeGF1QzlYbXhBdEZXRk9EQ2IwY2hOcVo1aTVaSFJjWlZ0RWg4ZTJpUzBReDZQOFVsUDRZa01YS25yamw2MGktSS1hUVJpSFZiMXRpazZsdlJObHYtSHh4VmVHV0JsY0VFQnFoNExwbmRsc18xZHEyYWM?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": null,
+   "discount": "20% 할인",
+   "verification": "news",
+   "first_published": "2026-10-22",
+   "last_published": "2026-10-22",
+   "first_seen": "2026-10-22T09:40:54+09:00",
+   "last_seen": "2026-10-22T09:40:54+09:00",
+   "articles": [
+    {
+     "title": "Marriott Worldwide 20% Off Escapes For Stays October 30 – November 15, 2026 (Book By Sunday)",
+     "outlet": "LoyaltyLobby",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM2FjZ1NYdVBSZFg5YUdWdVl2dFJ5eFJSVF80YkMyMkJoQXhhVGR5ZnAzUnZtRm1qaERPZmlPajVucGVJZ2xGLTl2LXA1SmcxeGF1QzlYbXhBdEZXRk9EQ2IwY2hOcVo1aTVaSFJjWlZ0RWg4ZTJpUzBReDZQOFVsUDRZa01YS25yamw2MGktSS1hUVJpSFZiMXRpazZsdlJObHYtSHh4VmVHV0JsY0VFQnFoNExwbmRsc18xZHEyYWM?oc=5",
+     "published": "2026-10-22"
+    }
+   ],
+   "status": "upcoming"
+  },
   {
    "id": "h-stayfesta-d3e7cb5ec4",
    "airline_id": "h-stayfesta",
@@ -79,7 +134,7 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-21",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-21T23:28:51+09:00",
+   "last_seen": "2026-10-22T09:40:54+09:00",
    "articles": [
     {
      "title": "단풍을 눈에 가득 담을 수 있는 곳🍁 '숙박세일페스타'로 떠나자🍂 : 네이버 블로그",
@@ -109,6 +164,12 @@
      "title": "여기어때, 가평 전 숙소 대상 ‘2026 가평군 숙박세일 페스타’ 전개",
      "outlet": "파이낸스투데이",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIdEVQTzczUVV5SDQ3VjVnamFFVktiY1JTVnp1eEtJM2RiT0RrSWN3MTZoUXVmSlEzenR4RlBNUVlYUGI5OEFGb2h6OW9ERktISVpaTzBhaWF2clNhYkpvWnI1R1Q3UUFNZGJyTg?oc=5",
+     "published": "2026-10-02"
+    },
+    {
+     "title": "\"교통비가 더 나온다?\" 단풍 시기·가을여행·숙박세일페스타",
+     "outlet": "판다랭크",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5xS25xT1Z2NmJWSlZldjdHdzRybkJMdVY4bnJpQWFGTjhJQm0zTmotOWNsYjNUMldPTmN1SHhTS19OM29WbWow?oc=5",
      "published": "2026-10-02"
     },
     {
@@ -601,106 +662,6 @@
      "outlet": "LoyaltyLobby",
      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbEZSWXZsSjI3eUp1Z3hhQUx3LXdtQzZiQlhxTElZdHlMcTI0VjZDbXpGVVJsaUI5cXBrQWdoMlFtNmkzLU9VVFcwb0JRcndzMXJoX3AyX3l6VU5DU1pXZnF3R2lWOXNya3V2Qk5EWVlJdElqeXROZ3I2SFJKTUNEYU0zamZCRnJHZE1fWW1KZWFUY2NwcWczVG9zVkpzRldPcW5pTmFJUjdNUEVLOU9iLXZOSzZka1pBNy1VTm41a0NYVXVGTFBVc0E5SnVnMkVDYURJM0FLdDg5OVJscDJfNnBjRFprRTRGczRyaUdBbHRrRU9MdHF3Ug?oc=5",
      "published": "2026-09-25"
-    }
-   ],
-   "status": "live"
-  },
-  {
-   "id": "h-paradise-5b561f60db",
-   "airline_id": "h-paradise",
-   "airline": "파라다이스",
-   "airlines_mentioned": [
-    "파라다이스"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "domestic",
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": "슈퍼위크",
-   "headline": "객실·먹거리·스파 혜택 총집합…파라다이스, 슈퍼위크 프로모션",
-   "sale_start": "2026-10-12",
-   "sale_end": "2026-10-21",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "인천",
-    "부산"
-   ],
-   "conditions": [
-    "포인트 적립"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "파라다이스, 12일부터 ‘슈퍼위크’ 진행…호텔·스파·테마파크 할인 혜택",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SMGliY21YQ1k4YmhTeEoxZ3hqS0VXa3lVc1p0ZTJhNzZOME1mbDRxVHA2bl9iOTVfSnlpUkU3TXFMNnhnYW12VzRWNmlKckNTblJHQ2xqRDRhU1F2dEdJT0V1SENONERfMkJRRw?oc=5"
-    }
-   },
-   "date_source": "title",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-12",
-   "last_published": "2026-10-12",
-   "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-18T08:32:42+09:00",
-   "articles": [
-    {
-     "title": "객실·먹거리·스파 혜택 총집합…파라다이스, 슈퍼위크 프로모션",
-     "outlet": "아시아경제",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOb3NyUGNXTGZWNS1wNVRYTGo3VlBHeGVGTTczYU5sNG94SndJalBORjY5UGdFcm1Kd25IdkNEbk5YNHdickFEVXhYTWRrZVFtbXVwVkZGRU1Ia0pBc2p2aGVVT0hMYnJoNXVCa3ZuRFh6dFFUX1Q0QWVnZEVzMVdoWW93?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "파라다이스, 12일부터 ‘슈퍼위크’ 진행…호텔·스파·테마파크 할인 혜택",
-     "outlet": "뉴스탭",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SMGliY21YQ1k4YmhTeEoxZ3hqS0VXa3lVc1p0ZTJhNzZOME1mbDRxVHA2bl9iOTVfSnlpUkU3TXFMNnhnYW12VzRWNmlKckNTblJHQ2xqRDRhU1F2dEdJT0V1SENONERfMkJRRw?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "파라다이스, '2026 하반기 슈퍼위크 프로모션' 진행…\"가을·겨울 호캉스 혜택\"",
-     "outlet": "비즈니스플러스",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KRHpUazVvakg1Ni1mUzRQdDZTelYwT0kyMnVnaG1ENDY1ZVp1dC1jVlpncy01ZlE4SG5FdTU3UnhmSmJOeTctcHhNak9la1hUR0NjYWkzZVVFT3R5bV9qc09nUmxWTnQ4X0N6eDlIOA?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "파라다이스, 인천·부산서 ‘슈퍼위크’…가을·겨울 호캉스 특전 가득",
-     "outlet": "뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SQVM5bEN3MHdjRFYtYTVMazREWnplY01mcmI4d3A3UGR5dDRnb1IxMTQtWVVNMklxdVZDbWpLd1F6cGVNdXlRY2kzT2l1V1p0OTlQS2VwME1PTHhxV0JNc9IBeEFVX3lxTE5RUjNtVHNIcWF2amZTMzFNa3h6RGpBbHRDbXVFWFBuTWQtYS1Rd0hJUVZ4dTdwTzJxNFpkaERhVmFHakdkbmpqSVRKQjU1T2xUMmRTdXVZdk1la3MwUW9WdmZlQzR4ZDM0bU1vYkt5aFZJQU9hTnV4bA?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "파라다이스, 21일까지 하반기 슈퍼위크…객실·스파 할인 혜택",
-     "outlet": "파이낸셜뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93REFfUThORTJfSDJJd1dlZjlyRGdXbXZ5TUZreGN3aEVHZ0lNbkxUU2owdWkxY3dTVk1KRFM2RHZkVWxfX1lNZXhjblY0bmtkUU8tcXROSEM1UQ?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "파라다이스, 객실·테마파크·스파 한바구니에 담다… ‘2026 하반기 슈퍼위크 프로모션’",
-     "outlet": "경기일보",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lLU5aajA4d1p1UEpGS1prQjE3ZF9ydkoyZVR3dFUzdVpaRnJLWjc0QTZJa2dxV0ZiTFJkT3YyZXVOQmFkRXpiWWowaUQ1ank4S1J1UVBOaEJ0UXM?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "“가을·겨울 호캉스는 파라다이스로!” 12~21일 열흘간 특가 쏜다",
-     "outlet": "문화일보",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KXzFVOGhWN2ItT2llUFF1LUFSQ3J6VmtZTHpUUXN4WG1mM2c4azJ1LV9HVzY2U01PeGNqZlZEa3plSUtlZ2ROZlY1OWpkejJn?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "파라다이스, 21일까지 ‘슈퍼위크’…객실 구매 시 포인트 2배",
-     "outlet": "서울경제",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FdG5ZX2V5V2VGNVpKWkV6b2VqcVR1VWVMVWV5VUtwVHdHbl9HZ1ctamlWMi1MOENsaGppaXZNYkRMYTZNa2s1RGxrTEIwanF5aFc00gFTQVVfeXFMTkV0bllfZXlXZUY1WkpaRXpvZWpxVHVVZUxVZXlVS3BUd0duX0dnVy1qaVYyLUw4Q2xoamlpdk1iRExhNk1razVEbGtMQjBqcXloVzQ?oc=5",
-     "published": "2026-10-12"
     }
    ],
    "status": "live"
@@ -1408,12 +1369,18 @@
    "first_published": "2026-10-20",
    "last_published": "2026-10-21",
    "first_seen": "2026-10-20T09:45:40+09:00",
-   "last_seen": "2026-10-21T09:36:47+09:00",
+   "last_seen": "2026-10-22T09:40:54+09:00",
    "articles": [
     {
      "title": "에어프레미아, 삿포로·호치민 할인 프로모션",
      "outlet": "트래블데일리",
      "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "에어프레미아, 가을맞이 서울행 특별 프로모션 실시",
+     "outlet": "미주조선일보",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOS2NPVzc0WlR0QzFEak02Y0ZTVDdUU3A4bzllN29IMjhrYXg3WXpicVBwa3Jnd0dGQ2RvcmNpdFp0X292YmMtdjZ0OUJYVWV5Vy1iYi1ta2lNSnNOYmhZRzRhZjFqdUdkN093NUd1MHZxYjFXcml0b2swV3l5c01hdUZWamtVaXAyaEM0aE85amw4TUxKbmZ0bWdlM1pPOGNhUDItOC1BOHdQajhOZ2ZlZE1BWFhVTE5FMURlOVgtV2pwZFhjSnppZnU5Qm95aUU4VWc?oc=5",
      "published": "2026-10-21"
     },
     {
@@ -1557,110 +1524,77 @@
    "status": "live"
   },
   {
-   "id": "h-inspire-b0a8a4cad6",
-   "airline_id": "h-inspire",
-   "airline": "인스파이어",
+   "id": "h-nol-868ebee9b5",
+   "airline_id": "h-nol",
+   "airline": "놀(야놀자)",
    "airlines_mentioned": [
-    "인스파이어"
+    "놀(야놀자)"
    ],
-   "kind": "hotel",
+   "kind": "platform",
    "category": "hotel",
    "section": "hotel",
    "route": null,
    "route_text": null,
-   "scope": null,
+   "scope": "domestic",
    "lang": "ko",
    "trial": false,
    "baseline": "hotel",
-   "official_url": null,
+   "official_url": "https://nol.yanolja.com/",
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인",
+   "headline": "NOL, 가평군과 가을숙소 프로모션...최대 3만원 할인",
    "sale_start": null,
-   "sale_end": null,
+   "sale_end": "2026-11-15",
    "travel_start": null,
    "travel_end": null,
    "routes": [],
-   "regions": [],
-   "conditions": [],
+   "regions": [
+    "가평"
+   ],
+   "conditions": [
+    "쿠폰"
+   ],
    "conflicts": [],
    "evidence": {
+    "sale": {
+     "title": "싱글리스트 요약문: 다음달 15일까지 NOL 내 ‘쿠폰 적용 숙소’ 메뉴에서 가평 소재 숙소 예약시 할인 혜택을 얻을 수 있다.",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=775411"
+    },
     "discount": {
-     "title": "에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LZFlVTWdSTHhZZF9GRkpVOUtXN0xwR0JiZHAxR1paY1BHY0daOG1abUQ2T25MWWNjNGV3bmgxblNNVWtCZFN0VkZRQVFyWDRqam9YcUxEMkp3U1ZVdS1aMFA0WWM?oc=5"
+     "title": "NOL, 가평군과 가을숙소 프로모션...최대 3만원 할인",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=775411"
     }
    },
-   "date_source": "none",
+   "date_source": "title",
    "from_icn": null,
-   "discount": "최대 15%",
+   "discount": "최대 3만원 할인",
    "verification": "news",
-   "first_published": "2026-10-07",
-   "last_published": "2026-10-07",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
+   "first_published": "2026-10-22",
+   "last_published": "2026-10-22",
+   "first_seen": "2026-10-22T09:40:54+09:00",
+   "last_seen": "2026-10-22T09:40:54+09:00",
    "articles": [
     {
-     "title": "에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인",
-     "outlet": "뉴스1",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LZFlVTWdSTHhZZF9GRkpVOUtXN0xwR0JiZHAxR1paY1BHY0daOG1abUQ2T25MWWNjNGV3bmgxblNNVWtCZFN0VkZRQVFyWDRqam9YcUxEMkp3U1ZVdS1aMFA0WWM?oc=5",
-     "published": "2026-10-07"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-2abbbfd934",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Mandai Rainforest Resort Marks First Anniversary With Up to 45% OFF Stays From $229 In November",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Mandai Rainforest Resort Marks First Anniversary With Up to 45% OFF Stays From $229 In November",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWVJCT2NPYTlKbWJYQTdpeEpyX1hvMUtEaTdtbnh2M09mUi0tcnhiNlJ0RTh0STl4Um1CTkZPa2QzRDZkdWdBSjM1SW5jb1ZIa09uUi1sMzZiYVRBQ2tiNTEyTmpOZ01nM3Z4R0ZzUS0wajBWcDdUMzBsNXQ0U2hYX3kwRUhhQU9HMk9vNERfSzlEX0d6Wm1FS2ctS3BLQm8yaVZXcnFoZl81R243ZFE?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": null,
-   "discount": "최대 45%",
-   "verification": "news",
-   "first_published": "2026-10-07",
-   "last_published": "2026-10-07",
-   "first_seen": "2026-10-15T17:22:32+09:00",
-   "last_seen": "2026-10-15T17:22:32+09:00",
-   "articles": [
+     "title": "NOL, 가평군과 가을숙소 프로모션...최대 3만원 할인",
+     "outlet": "싱글리스트",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=775411",
+     "published": "2026-10-22"
+    },
     {
-     "title": "Mandai Rainforest Resort Marks First Anniversary With Up to 45% OFF Stays From $229 In November",
-     "outlet": "Great Deals Singapore",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWVJCT2NPYTlKbWJYQTdpeEpyX1hvMUtEaTdtbnh2M09mUi0tcnhiNlJ0RTh0STl4Um1CTkZPa2QzRDZkdWdBSjM1SW5jb1ZIa09uUi1sMzZiYVRBQ2tiNTEyTmpOZ01nM3Z4R0ZzUS0wajBWcDdUMzBsNXQ0U2hYX3kwRUhhQU9HMk9vNERfSzlEX0d6Wm1FS2ctS3BLQm8yaVZXcnFoZl81R243ZFE?oc=5",
-     "published": "2026-10-07"
+     "title": "놀유니버스, 가평 숙소 할인쿠폰 쏜다…11월 15일까지",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNV25ZeTVvYkw2MXFweTczQS1qWlIxdUt2VDJ5TzRpQUd5V1ByM192ZURBOUZqS0ttUEM3XzdjQUloeEZBeF9LWlZMQWFrRnduekprMUZlVU1kNndfMkZLdXNqRVY5cUFXNkFUTHhPOHBPTGvSAXdBVV95cUxNNDF0WlNpTWdsUDM4VDRVN0cwS19GODE4eXBvb0FtZG9pckYzWjQ0OGQ4VzhXcC0xbFVKV2VZRzVUOFlnRTVzWGNMRUIteW82SzFZQ3FfLVRoc0g2amJkNDhIODJ3N1JKZlJkS2I0ZWw1b2wwTUkxdw?oc=5",
+     "published": "2026-10-22"
+    },
+    {
+     "title": "\"가평 가을여행 떠나볼까\" NOL, 숙박비 최대 3만원 할인",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DQTlRRFZhNFA0QXEwT1dWN3JnNmRUVXMxWlIxY0pzUkNCaHdjOUhrTGRuclRPMVB1SnhfMktVRXVaNEIzdzRkdUFSYm1sMXlHd2ZwNHVQWVZOUmhzTzNkRGNNWUJRR3NkWlc2NA?oc=5",
+     "published": "2026-10-22"
     }
    ],
-   "status": "undated"
+   "status": "live"
   },
   {
    "id": "airpremia-353c91f823",
@@ -3550,269 +3484,6 @@
    "status": "stale"
   },
   {
-   "id": "airpremia-de3ded4874",
-   "airline_id": "airpremia",
-   "airline": "에어프레미아",
-   "airlines_mentioned": [
-    "에어프레미아"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airpremia.com/",
-   "iata": [
-    "YP"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어프레미아, 인천~삿포로 취항 기념 할인 행사 진행 - 조선비즈",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": "인천(ICN)",
-     "destination": "삿포로(CTS)"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "에어프레미아, 인천-삿포로 취항 기념 5% 할인",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPXzZBelB1YlFNZjNDT0d0YUNJVTJ6dUc4MDFmcGFJcUlGQ0g1bVAzeS1JTTdza2RrTVdNQUwtMWR2NHRiYVp1X0ZIZEFCX1dqVHItWjRvaDNteUt2RVg0elBNVmRDc04xZUFMWm9yZ1M?oc=5"
-    },
-    "route": {
-     "title": "에어프레미아, 인천~삿포로 취항 기념 할인 행사 진행 - 조선비즈",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEVUX25tV2I5UHpQdl9QWHlaYVctN1pVbVVoNmhSRGJSY0JnOGpzZ2p3cjh3bXRXWnNuSU5tc1dzb2xOUGNPcHJmV0FtaFY1VzNUNDl1M3Q3Nkp5UFpWTU9JcjZYTE9vTDd6R0xjN1A5djVLaXhlU29xUnJRMU84WU9USVrSAZgBQVVfeXFMUFNhcmRrTVRLZWxfT1Q5TG9qU1pGb1UtS3dZdlNyMWhWUVlCWWRwM1N2RTM4U0FVMVN1X1Z1ZGlBbnBoZXA5YmVnU1d2QVZZa0RaMU85TDQweGc5ZGt1aW1iRlJ0Y3FwUkJiWGFJR2kyZ2laOGVENnR3ZlZ2S3RXZkY4d2t1Zzd0Q1dzWGdoQzVNS3dEWlNxb3M?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": "yes",
-   "discount": "5% 할인",
-   "verification": "news",
-   "first_published": "2026-09-21",
-   "last_published": "2026-09-21",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-21T14:18:44+09:00",
-   "articles": [
-    {
-     "title": "에어프레미아, 인천~삿포로 취항 기념 할인 행사 진행 - 조선비즈",
-     "outlet": "Chosunbiz",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEVUX25tV2I5UHpQdl9QWHlaYVctN1pVbVVoNmhSRGJSY0JnOGpzZ2p3cjh3bXRXWnNuSU5tc1dzb2xOUGNPcHJmV0FtaFY1VzNUNDl1M3Q3Nkp5UFpWTU9JcjZYTE9vTDd6R0xjN1A5djVLaXhlU29xUnJRMU84WU9USVrSAZgBQVVfeXFMUFNhcmRrTVRLZWxfT1Q5TG9qU1pGb1UtS3dZdlNyMWhWUVlCWWRwM1N2RTM4U0FVMVN1X1Z1ZGlBbnBoZXA5YmVnU1d2QVZZa0RaMU85TDQweGc5ZGt1aW1iRlJ0Y3FwUkJiWGFJR2kyZ2laOGVENnR3ZlZ2S3RXZkY4d2t1Zzd0Q1dzWGdoQzVNS3dEWlNxb3M?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "에어프레미아, 인천~삿포로 취항 기념 프로모션",
-     "outlet": "부산일보",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKM19mV2JiTkNjZnN0Y2hHQWFMRml0ZDBncGhqS1E3VnZ1bTFya3ozaTR5ZVdhaVJIYlFZNFlMQXViV014bDhTZ29TRDc2R0hmSWp2b2lGeWp0cl9BeDM0bDhTUElaWGVhZlFQRFVsTUpmMzNU?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "에어프레미아, 인천-삿포로 취항 기념 5% 할인",
-     "outlet": "신아일보",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPXzZBelB1YlFNZjNDT0d0YUNJVTJ6dUc4MDFmcGFJcUlGQ0g1bVAzeS1JTTdza2RrTVdNQUwtMWR2NHRiYVp1X0ZIZEFCX1dqVHItWjRvaDNteUt2RVg0elBNVmRDc04xZUFMWm9yZ1M?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "에어프레미아, 겨울 삿포로 여행객 잡는다... 신규 취항 앞두고 항공권 할인",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MaS10QnpuaEtGZ1hlWFZ3YmtTVDBzaEFhWU9nbXRwSU9LWHV3WFB6NnFLeVp3UnJwaVRjelRyQXpwRkwzU1NaSVJDTklnZkVpbVM0OUVZV2dxRFdRRURDX1dlZHNTLTZaMU1Ueg?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "에어프레미아, 인천~삿포로 신규 취항…\"항공권 5% 할인\"",
-     "outlet": "팍스경제TV",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFTG00aFVwajlPaUV6TDhQOGt0c3BQTk90N2wwVDB2WGluWk1Nc28xNEhCQjdhMnpfNDlvVHlGUmh6aEpGU2ZhUWhvSTVzbzg4a1BNY0FJUk8zM3hqbm5VQmpySmVpMWNf?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "에어프레미아, 삿포로 취항 기념 프로모션… 항공권 5% 할인",
-     "outlet": "브릿지경제",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5QQ0VpNTE4Y0lEZXNfdU5NWDFhV3RBeTc0UUY4ZFB6blM4YkdwY01OVkg4NzVaWXJub1c0SENDeVZsNEozNk1tRGZHa1E0eDk0ZThzdXpnZw?oc=5",
-     "published": "2026-09-21"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "h-stayfesta-63f180d97c",
-   "airline_id": "h-stayfesta",
-   "airline": "숙박세일 페스타",
-   "airlines_mentioned": [
-    "숙박세일 페스타"
-   ],
-   "kind": "campaign",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "숙박세일 페스타 22일 가을여행 시작.. 섬지역 1박 최대 5만원 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "숙박세일 페스타 22일 가을여행 시작.. 섬지역 1박 최대 5만원 할인",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CeXdIRzJ0Wk8zd2I1Vk41Y19rTzVkQ2owRkZQRjI5YlZzSS01cXREc3lVa0hFZkZ1bmJweDN1MVhOV25EdkxEV3BtcXhtTUhPSTV2X0ZMVXk0SGJuQzdhc0RR?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": null,
-   "discount": "최대 5만원 할인",
-   "verification": "news",
-   "first_published": "2026-09-21",
-   "last_published": "2026-09-21",
-   "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-15T13:00:04+09:00",
-   "articles": [
-    {
-     "title": "숙박세일 페스타 22일 가을여행 시작.. 섬지역 1박 최대 5만원 할인",
-     "outlet": "스포츠월드",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CeXdIRzJ0Wk8zd2I1Vk41Y19rTzVkQ2owRkZQRjI5YlZzSS01cXREc3lVa0hFZkZ1bmJweDN1MVhOV25EdkxEV3BtcXhtTUhPSTV2X0ZMVXk0SGJuQzdhc0RR?oc=5",
-     "published": "2026-09-21"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "h-myrealtrip-9fd753f6f0",
-   "airline_id": "h-myrealtrip",
-   "airline": "마이리얼트립",
-   "airlines_mentioned": [
-    "마이리얼트립"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://www.myrealtrip.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "숙소 예약하면 렌터카 할인",
-   "headline": "마이리얼트립, 日규슈 사가현 숙소·렌터카 할인 프로모션",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "사가현",
-    "규슈"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-09-21",
-   "last_published": "2026-09-21",
-   "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-15T13:00:04+09:00",
-   "articles": [
-    {
-     "title": "마이리얼트립, 日규슈 사가현 숙소·렌터카 할인 프로모션",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlU2VVdDNpM1NlYUkwUjlhNG9vZklYcmdHOEt3cFh6dVkzZ3U5XzBtMk9DdXgxRFlXQ21aM3dpN01HR1MyOVZaeWY1U0VLZ0pwV1RZSUdwVmYyWnZEQzhlc0pKZmRrZw?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "마이리얼트립, 日 규슈 사가현 숙소·렌터카 할인 프로모션 연다",
-     "outlet": "디지털데일리",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVVmY5blN5bC1jMHdORlJmcXJYdU5mNWxUT1dBaTJUdzFqcm9HbGJUOWprbG1OYktGai12MjNnSHZlVlN6cVJsVmNHS2NJdHF1TS1DaGZqRDJwTzdxZnFhaUhB?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "\"숙소 예약하면 렌터카 할인”…마이리얼트립, 사가현 렌터카 특가 행사",
-     "outlet": "지디넷코리아",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11TmRSem5Id1BYYzVoU2g5aWRPSzRqYzNjVkJCb1U0OXZzQUlSODBtaF9YZlpBTmhTQWtKWGRnOEVUVDJxMlAyMnhLVFNrRHVkQ21aSGlB?oc=5",
-     "published": "2026-09-21"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "h-other-50cf767295",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Las Vegas Launches New Sale of Up to 60% Off Hotels",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Las Vegas Launches New Sale of Up to 60% Off Hotels",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeHpqWTdUaF9jcXNQdFh5ZkZLSjlGVDFYSzdoNTN3MHlTdnA5Q2RpNjJwWmxNc1BaNFdkcjQ5Sm96enhwSE1aYXctdEgwa2loUnVOdnozbS1NTEVXS3ludUdaQjdOdDVSNVd2WGpRc1hseEd3OWRQQmRDZTdxOFVFclQwZWFGTHdfMkRDVThTa2tsOEdIa09oV0U5QXY?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": null,
-   "discount": "최대 60%",
-   "verification": "news",
-   "first_published": "2026-09-21",
-   "last_published": "2026-09-21",
-   "first_seen": "2026-10-16T08:56:42+09:00",
-   "last_seen": "2026-10-16T08:56:42+09:00",
-   "articles": [
-    {
-     "title": "Las Vegas Launches New Sale of Up to 60% Off Hotels",
-     "outlet": "TravelPulse",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeHpqWTdUaF9jcXNQdFh5ZkZLSjlGVDFYSzdoNTN3MHlTdnA5Q2RpNjJwWmxNc1BaNFdkcjQ5Sm96enhwSE1aYXctdEgwa2loUnVOdnozbS1NTEVXS3ludUdaQjdOdDVSNVd2WGpRc1hseEd3OWRQQmRDZTdxOFVFclQwZWFGTHdfMkRDVThTa2tsOEdIa09oV0U5QXY?oc=5",
-     "published": "2026-09-21"
-    }
-   ],
-   "status": "stale"
-  },
-  {
    "id": "h-yeogi-f621514a13",
    "airline_id": "h-yeogi",
    "airline": "여기어때",
@@ -4989,114 +4660,110 @@
    "status": "stale"
   },
   {
-   "id": "cebu-85f98e637e",
-   "airline_id": "cebu",
-   "airline": "세부퍼시픽",
+   "id": "h-inspire-b0a8a4cad6",
+   "airline_id": "h-inspire",
+   "airline": "인스파이어",
    "airlines_mentioned": [
-    "세부퍼시픽"
+    "인스파이어"
    ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
    "route": null,
    "route_text": null,
    "scope": null,
    "lang": "ko",
    "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.cebupacificair.com/ko-KR",
-   "iata": [
-    "5J"
-   ],
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
    "agencies": [],
-   "event_name": "10.10 특가",
-   "headline": "세부퍼시픽항공 ‘10.10 특가’",
-   "sale_start": "2026-10-08",
-   "sale_end": "2026-10-14",
-   "travel_start": "2027-02-01",
-   "travel_end": "2027-06-30",
-   "routes": [
-    {
-     "origin": null,
-     "destination": "필리핀"
-    },
-    {
-     "origin": null,
-     "destination": "세부(CEB)"
-    },
-    {
-     "origin": "한국",
-     "destination": "세부(CEB)"
-    }
-   ],
+   "event_name": null,
+   "headline": "에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
    "regions": [],
    "conditions": [],
    "conflicts": [],
    "evidence": {
-    "sale": {
-     "title": "트래블데일리 요약문: …모션은 2026년 10월 8일부터 14일까지 진행되며 마닐라 또는 세부행 항공권을 편도 총액 최저 10만 1…",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72295"
-    },
-    "travel": {
-     "title": "트래블데일리 요약문: 탑승 기간은 2027년 2월 1일부터 6월 30일까지다.",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72295"
-    },
     "discount": {
-     "title": "트래블데일리 요약문: …일부터 14일까지 진행되며 마닐라 또는 세부행 항공권을 편도 총액 최저 10만 100원부터 구매할 수 있다.…",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72295"
-    },
-    "route": {
-     "title": "세부퍼시픽항공(5J), 한국발 마닐라·세부 노선 프로모션 실시… 내년 상반기 운항편 대상",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5icVU2VWl5XzhWdHE2TGJVZ21fb2NMX2h6SjhuVV9LM2NzRTdaMmtwQ213WkxaN2lOTnFEN1ZhQ3lDaUR5b2VnRTJHbVdKeTdRVkhEVGY2djJPUUQxSVQ4R0ZBN3FSOXdQZVNMaDZvZFB6Zw?oc=5"
+     "title": "에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LZFlVTWdSTHhZZF9GRkpVOUtXN0xwR0JiZHAxR1paY1BHY0daOG1abUQ2T25MWWNjNGV3bmgxblNNVWtCZFN0VkZRQVFyWDRqam9YcUxEMkp3U1ZVdS1aMFA0WWM?oc=5"
     }
    },
-   "date_source": "title",
-   "from_icn": "unknown",
-   "discount": "10만100원부터",
+   "date_source": "none",
+   "from_icn": null,
+   "discount": "최대 15%",
    "verification": "news",
-   "first_published": "2026-10-08",
-   "last_published": "2026-10-11",
+   "first_published": "2026-10-07",
+   "last_published": "2026-10-07",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-17T21:31:16+09:00",
+   "last_seen": "2026-10-15T10:12:09+09:00",
    "articles": [
     {
-     "title": "세부퍼시픽항공 ‘10.10 특가’",
-     "outlet": "트래블데일리",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NUkRIOXdXams3QTlrSlJwal9EY2Rna0l5ek53c3ppaUlybkFqNE9ldmxNQTBQTUZTMl9MODhrcUhFOVNCVDN1ZHlTbGJXajIyNkgyY2Rmc1ZrQ2NxV1VYa0NMZkpiOWhENDkzcDF0NTE?oc=5",
-     "published": "2026-10-11"
-    },
-    {
-     "title": "세부퍼시픽항공, '10.10 특가' 프로모션 전개",
-     "outlet": "퍼블릭뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IbnVRc0FVOU1mZTQ2bVVsTFpDejNqZnVQX1A5Z3VRMkpTTkN0eDVLeGJRU3hGSlBYT2xab2hwUlQ3YUl2LTM4d0UtaXNwc3p6MmE1bXlwRjVQejltQ2JMSHQyNDlMYzBwS0E?oc=5",
-     "published": "2026-10-11"
-    },
-    {
-     "title": "“편도 10만원에 필리핀 간다”…세부퍼시픽항공, ‘10.10 특가’ 프로모션 실시",
-     "outlet": "비즈월드",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02S2MxZGtESERJS2sxbXJtV0dpakJfUGJXRmdCSS13ZWplbk1NcV9CbmFGMkdibVRmVHpuSUdHZ3NPMGtETS1Fc3ZfM3RBVTZhdjFpWTg0WlROY2pjUWpMcFhtck51UjU3SXc?oc=5",
-     "published": "2026-10-10"
-    },
-    {
-     "title": "세부퍼시픽항공(5J), 한국발 마닐라·세부 노선 프로모션 실시… 내년 상반기 운항편 대상",
-     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5icVU2VWl5XzhWdHE2TGJVZ21fb2NMX2h6SjhuVV9LM2NzRTdaMmtwQ213WkxaN2lOTnFEN1ZhQ3lDaUR5b2VnRTJHbVdKeTdRVkhEVGY2djJPUUQxSVQ4R0ZBN3FSOXdQZVNMaDZvZFB6Zw?oc=5",
-     "published": "2026-10-09"
-    },
-    {
-     "title": "세부퍼시픽항공, 10.10 특가 출시…마닐라·세부행 항공권 대상",
-     "outlet": "국제뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZSE51aWNVLUtpN3FvSC1GUEJtUHFXNC1jSk5WV3gyTDBrbi1RSGNRdndYdW9Mdk91TE1NVE9ud1ZvWWEyWTl3eUZ6ZGhJTHhxdmQ3UVJmblpDeUhfU1JtYVRuR3VtLVRYT1lNRS1R?oc=5",
-     "published": "2026-10-08"
-    },
-    {
-     "title": "세부퍼시픽항공 ‘10.10 특가’ 필리핀행 편도 10만100원부터",
-     "outlet": "트래비 매거진",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uRUpiTGItaE9sekxjcVd6MW56d0Nta0poTnI0R2hJYUszU2pUWlVraXh1LU9BYlI5MFRNeGQ5V2dIc3poTUZhaWs5OVZISDVmNENCTVVrNFVvdVlmWXY1RDZndXJuajDSAWtBVV95cUxNZnltQ1o1cWE3cFlzelhodUJUc2RwajJhRUdGcUVia0NocGpOX1NTekxvYUhIdXFqSFpVVWRFYWxNVjdaSVh6VTBXT0NqeG42RFVrVXc2WWNhNks3S1JNSVExRWF0U1ZhS0hSSQ?oc=5",
-     "published": "2026-10-08"
+     "title": "에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LZFlVTWdSTHhZZF9GRkpVOUtXN0xwR0JiZHAxR1paY1BHY0daOG1abUQ2T25MWWNjNGV3bmgxblNNVWtCZFN0VkZRQVFyWDRqam9YcUxEMkp3U1ZVdS1aMFA0WWM?oc=5",
+     "published": "2026-10-07"
     }
    ],
-   "status": "ended"
+   "status": "stale"
+  },
+  {
+   "id": "h-other-2abbbfd934",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Mandai Rainforest Resort Marks First Anniversary With Up to 45% OFF Stays From $229 In November",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Mandai Rainforest Resort Marks First Anniversary With Up to 45% OFF Stays From $229 In November",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWVJCT2NPYTlKbWJYQTdpeEpyX1hvMUtEaTdtbnh2M09mUi0tcnhiNlJ0RTh0STl4Um1CTkZPa2QzRDZkdWdBSjM1SW5jb1ZIa09uUi1sMzZiYVRBQ2tiNTEyTmpOZ01nM3Z4R0ZzUS0wajBWcDdUMzBsNXQ0U2hYX3kwRUhhQU9HMk9vNERfSzlEX0d6Wm1FS2ctS3BLQm8yaVZXcnFoZl81R243ZFE?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": null,
+   "discount": "최대 45%",
+   "verification": "news",
+   "first_published": "2026-10-07",
+   "last_published": "2026-10-07",
+   "first_seen": "2026-10-15T17:22:32+09:00",
+   "last_seen": "2026-10-15T17:22:32+09:00",
+   "articles": [
+    {
+     "title": "Mandai Rainforest Resort Marks First Anniversary With Up to 45% OFF Stays From $229 In November",
+     "outlet": "Great Deals Singapore",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWVJCT2NPYTlKbWJYQTdpeEpyX1hvMUtEaTdtbnh2M09mUi0tcnhiNlJ0RTh0STl4Um1CTkZPa2QzRDZkdWdBSjM1SW5jb1ZIa09uUi1sMzZiYVRBQ2tiNTEyTmpOZ01nM3Z4R0ZzUS0wajBWcDdUMzBsNXQ0U2hYX3kwRUhhQU9HMk9vNERfSzlEX0d6Wm1FS2ctS3BLQm8yaVZXcnFoZl81R243ZFE?oc=5",
+     "published": "2026-10-07"
+    }
+   ],
+   "status": "stale"
   },
   {
    "id": "airpremia-03dc368db4",
@@ -5177,6 +4844,106 @@
      "outlet": "미주조선일보",
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa3BMbkNVaEhXaVAtMnJKX3B4TzJrQXZETm9wa2ZfWjNTdll2dzJrNkNweTFMY1FDbHJSZ01ZQkFUeEQxQzVxZFI0NUsyRWdUNm9URnl5ZWx2SkVqV3VfUG56X19pazRMdTR3RWw1NG94dWpoOGRGWGpyWFZPWnVjWkdZREFlQzRyVVZvdl92SFhVck5TcTBNNGV3UGdJVnNNdlR6cEpqeWZoaUJKQ251Z0M4UWl0WDRoYnJKV1lZd0J5WEs2R0RHQWVhaTUyR2p2V1E?oc=5",
      "published": "2026-10-11"
+    }
+   ],
+   "status": "ended"
+  },
+  {
+   "id": "h-paradise-5b561f60db",
+   "airline_id": "h-paradise",
+   "airline": "파라다이스",
+   "airlines_mentioned": [
+    "파라다이스"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "슈퍼위크",
+   "headline": "객실·먹거리·스파 혜택 총집합…파라다이스, 슈퍼위크 프로모션",
+   "sale_start": "2026-10-12",
+   "sale_end": "2026-10-21",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "인천",
+    "부산"
+   ],
+   "conditions": [
+    "포인트 적립"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "파라다이스, 12일부터 ‘슈퍼위크’ 진행…호텔·스파·테마파크 할인 혜택",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SMGliY21YQ1k4YmhTeEoxZ3hqS0VXa3lVc1p0ZTJhNzZOME1mbDRxVHA2bl9iOTVfSnlpUkU3TXFMNnhnYW12VzRWNmlKckNTblJHQ2xqRDRhU1F2dEdJT0V1SENONERfMkJRRw?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-12",
+   "last_published": "2026-10-12",
+   "first_seen": "2026-10-15T13:00:04+09:00",
+   "last_seen": "2026-10-18T08:32:42+09:00",
+   "articles": [
+    {
+     "title": "객실·먹거리·스파 혜택 총집합…파라다이스, 슈퍼위크 프로모션",
+     "outlet": "아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOb3NyUGNXTGZWNS1wNVRYTGo3VlBHeGVGTTczYU5sNG94SndJalBORjY5UGdFcm1Kd25IdkNEbk5YNHdickFEVXhYTWRrZVFtbXVwVkZGRU1Ia0pBc2p2aGVVT0hMYnJoNXVCa3ZuRFh6dFFUX1Q0QWVnZEVzMVdoWW93?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "파라다이스, 12일부터 ‘슈퍼위크’ 진행…호텔·스파·테마파크 할인 혜택",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SMGliY21YQ1k4YmhTeEoxZ3hqS0VXa3lVc1p0ZTJhNzZOME1mbDRxVHA2bl9iOTVfSnlpUkU3TXFMNnhnYW12VzRWNmlKckNTblJHQ2xqRDRhU1F2dEdJT0V1SENONERfMkJRRw?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "파라다이스, '2026 하반기 슈퍼위크 프로모션' 진행…\"가을·겨울 호캉스 혜택\"",
+     "outlet": "비즈니스플러스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KRHpUazVvakg1Ni1mUzRQdDZTelYwT0kyMnVnaG1ENDY1ZVp1dC1jVlpncy01ZlE4SG5FdTU3UnhmSmJOeTctcHhNak9la1hUR0NjYWkzZVVFT3R5bV9qc09nUmxWTnQ4X0N6eDlIOA?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "파라다이스, 인천·부산서 ‘슈퍼위크’…가을·겨울 호캉스 특전 가득",
+     "outlet": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SQVM5bEN3MHdjRFYtYTVMazREWnplY01mcmI4d3A3UGR5dDRnb1IxMTQtWVVNMklxdVZDbWpLd1F6cGVNdXlRY2kzT2l1V1p0OTlQS2VwME1PTHhxV0JNc9IBeEFVX3lxTE5RUjNtVHNIcWF2amZTMzFNa3h6RGpBbHRDbXVFWFBuTWQtYS1Rd0hJUVZ4dTdwTzJxNFpkaERhVmFHakdkbmpqSVRKQjU1T2xUMmRTdXVZdk1la3MwUW9WdmZlQzR4ZDM0bU1vYkt5aFZJQU9hTnV4bA?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "파라다이스, 21일까지 하반기 슈퍼위크…객실·스파 할인 혜택",
+     "outlet": "파이낸셜뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93REFfUThORTJfSDJJd1dlZjlyRGdXbXZ5TUZreGN3aEVHZ0lNbkxUU2owdWkxY3dTVk1KRFM2RHZkVWxfX1lNZXhjblY0bmtkUU8tcXROSEM1UQ?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "파라다이스, 객실·테마파크·스파 한바구니에 담다… ‘2026 하반기 슈퍼위크 프로모션’",
+     "outlet": "경기일보",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lLU5aajA4d1p1UEpGS1prQjE3ZF9ydkoyZVR3dFUzdVpaRnJLWjc0QTZJa2dxV0ZiTFJkT3YyZXVOQmFkRXpiWWowaUQ1ank4S1J1UVBOaEJ0UXM?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "“가을·겨울 호캉스는 파라다이스로!” 12~21일 열흘간 특가 쏜다",
+     "outlet": "문화일보",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KXzFVOGhWN2ItT2llUFF1LUFSQ3J6VmtZTHpUUXN4WG1mM2c4azJ1LV9HVzY2U01PeGNqZlZEa3plSUtlZ2ROZlY1OWpkejJn?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "파라다이스, 21일까지 ‘슈퍼위크’…객실 구매 시 포인트 2배",
+     "outlet": "서울경제",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FdG5ZX2V5V2VGNVpKWkV6b2VqcVR1VWVMVWV5VUtwVHdHbl9HZ1ctamlWMi1MOENsaGppaXZNYkRMYTZNa2s1RGxrTEIwanF5aFc00gFTQVVfeXFMTkV0bllfZXlXZUY1WkpaRXpvZWpxVHVVZUxVZXlVS3BUd0duX0dnVy1qaVYyLUw4Q2xoamlpdk1iRExhNk1razVEbGtMQjBqcXloVzQ?oc=5",
+     "published": "2026-10-12"
     }
    ],
    "status": "ended"
