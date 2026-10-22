@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T13:14:51+09:00",
+ "generated_at": "2026-10-22T13:20:46+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,17 +10,17 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2527,
+  "rss_items": 2496,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2201,
+  "outlet_items": 2198,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 15,
-  "articles": 446,
-  "new_articles": 4,
-  "deals": 65
+  "articles": 447,
+  "new_articles": 1,
+  "deals": 64
  },
  "deals": [
   {
@@ -3339,7 +3339,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "홀리데이 in 포항",
-   "headline": "여기어때, 가을 섬 여행 숙박비 5만원 할인…32개 지역 대상",
+   "headline": "여기어때, 섬 지역 숙박세일 이벤트 오픈",
    "sale_start": "2026-09-22",
    "sale_end": null,
    "travel_start": null,
@@ -3347,7 +3347,8 @@
    "routes": [],
    "regions": [
     "청도",
-    "포항"
+    "포항",
+    "섬 지역"
    ],
    "conditions": [
     "쿠폰",
@@ -3367,8 +3368,14 @@
    "first_published": "2026-09-16",
    "last_published": "2026-09-22",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-19T08:45:21+09:00",
+   "last_seen": "2026-10-22T13:20:46+09:00",
    "articles": [
+    {
+     "title": "여기어때, 섬 지역 숙박세일 이벤트 오픈",
+     "outlet": "숙박매거진",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ma2J0UDFqUWtyUXpLbGF6MHNOcVVWUGZsMTNNdjZKRnlPR0dtUm02WlRzZGwtS3pueHJ2U1ZtU1NqTFhkSlJ4cEJQbHhuZHdTZjJpT1dkS1E4NWZtd0JkVzhXcnZQUW5ZclZoNDVMREdPdw?oc=5",
+     "published": "2026-09-22"
+    },
     {
      "title": "여기어때, 가을 섬 여행 숙박비 5만원 할인…32개 지역 대상",
      "outlet": "스마트경제",
@@ -3546,60 +3553,6 @@
      "title": "여기어때, 가을 섬 여행객 잡는다... ‘2026 숙박 세일 페스타 섬 지역편’ 진행",
      "outlet": "메가경제",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14MkRBelVJenRFcEd6cDJ5ZXc1R2JpT1JJWTBncWhmMDc1RG9uTE9TX0dzWDh0WlZFVG5SdFZPeVRyZU1sZkF4Q3J4TnlQak9TNzRMVGJhSUZsa2FHclB0MHYxejhvOGRJSU5DSjlveDZ6Z9IBckFVX3lxTE14MkRBelVJenRFcEd6cDJ5ZXc1R2JpT1JJWTBncWhmMDc1RG9uTE9TX0dzWDh0WlZFVG5SdFZPeVRyZU1sZkF4Q3J4TnlQak9TNzRMVGJhSUZsa2FHclB0MHYxejhvOGRJSU5DSjlveDZ6Zw?oc=5",
-     "published": "2026-09-22"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "h-nol-3a2c1b4bef",
-   "airline_id": "h-nol",
-   "airline": "놀(야놀자)",
-   "airlines_mentioned": [
-    "놀(야놀자)"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://nol.yanolja.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "AI 페스타 2026",
-   "headline": "야놀자, 'AI 페스타 2026' 참가…여행·호텔·아파트 AI 기술 총출동",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-09-22",
-   "last_published": "2026-09-22",
-   "first_seen": "2026-10-22T09:40:54+09:00",
-   "last_seen": "2026-10-22T13:14:51+09:00",
-   "articles": [
-    {
-     "title": "야놀자, 'AI 페스타 2026' 참가…여행·호텔·아파트 AI 기술 총출동",
-     "outlet": "IT타임스",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fVEZJY0dsazVpS09ZbmxXWnFhNGFlNzJqQXl3T0VZbkw0Q29WQ1c0R1N2WVZyTDNLSE5mUFA1ekx2d2NGdVgwdzVZbC1UMlNtRXYybEFFUXBLNko4V3JodFpBcjVEdVpo?oc=5",
-     "published": "2026-09-22"
-    },
-    {
-     "title": "야놀자, 여행 넘어 주거·호텔까지…AI 페스타 2026서 기술 총출동",
-     "outlet": "아주경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LYkxBcElIWnQwX3l2Mm1yV3FpY3V3Y0R2OWEtRlFJX0pqNExnbHhLSFJxaEd4TUxjYXMxOWllR0FFdVBCdk9OTE92WEotXzRQWU1LcEJQcEhMUdIBWEFVX3lxTE1sLTBhNHBfcUNWLTBRTG9oTHNmTmQtV0s2ZHBUdWRINmVZR2xmMWZDVGNqcnBQeTNvaEM1VHNfZXp6NGNfSEhIemhXUjN2aEdxOFZHWHBQbzg?oc=5",
      "published": "2026-09-22"
     }
    ],
