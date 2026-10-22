@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T17:34:48+09:00",
+ "generated_at": "2026-10-22T23:30:51+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,17 +10,17 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2508,
+  "rss_items": 2450,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2153,
+  "outlet_items": 1949,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 15,
-  "articles": 448,
-  "new_articles": 1,
-  "deals": 64
+  "articles": 451,
+  "new_articles": 3,
+  "deals": 66
  },
  "deals": [
   {
@@ -1579,7 +1579,7 @@
    "first_published": "2026-10-22",
    "last_published": "2026-10-22",
    "first_seen": "2026-10-22T09:40:54+09:00",
-   "last_seen": "2026-10-22T13:14:51+09:00",
+   "last_seen": "2026-10-22T23:30:51+09:00",
    "articles": [
     {
      "title": "NOL, 가평군과 가을숙소 프로모션...최대 3만원 할인",
@@ -1603,6 +1603,12 @@
      "title": "놀유니버스, 가평 숙소 할인쿠폰 쏜다…11월 15일까지",
      "outlet": "핀포인트뉴스",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNV25ZeTVvYkw2MXFweTczQS1qWlIxdUt2VDJ5TzRpQUd5V1ByM192ZURBOUZqS0ttUEM3XzdjQUloeEZBeF9LWlZMQWFrRnduekprMUZlVU1kNndfMkZLdXNqRVY5cUFXNkFUTHhPOHBPTGvSAXdBVV95cUxNNDF0WlNpTWdsUDM4VDRVN0cwS19GODE4eXBvb0FtZG9pckYzWjQ0OGQ4VzhXcC0xbFVKV2VZRzVUOFlnRTVzWGNMRUIteW82SzFZQ3FfLVRoc0g2amJkNDhIODJ3N1JKZlJkS2I0ZWw1b2wwTUkxdw?oc=5",
+     "published": "2026-10-22"
+    },
+    {
+     "title": "놀유니버스, 가평 숙소 할인 프로모션 전개...최대 3만 원 쿠폰 제공",
+     "outlet": "팝콘뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwNTRsUDIyNWtja1hzcS1haXNUY2pVeF81a3BEUlN1SFh1c3VFQ1NONzdZTHJkcXpielY3OUFyUjdjdkpRX1k2eHZrRmR5UE9lUC1wN1pxVjNldUhsekxfQW1nbVZvem5NX1FaeE9B0gFyQVVfeXFMUEJ3THlyZXFvc1hUREdRdUFEQmFzckxKSGljNEFhR25zZ3BNcWtRSlpkclhfYXR1UUJsX0I4elBULXd5WWZDbHloVEtPVXppQm14UlRiYVNxenQ4d1FGa0xXbFA1NFdMTWNvYXRPNG9iRjln?oc=5",
      "published": "2026-10-22"
     },
     {
@@ -3320,6 +3326,59 @@
    "status": "undated"
   },
   {
+   "id": "h-other-175f6079f1",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Le Graal Cortina Offers 20% Off Ahead of Luxury Dolomites Hotel Opening",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Le Graal Cortina Offers 20% Off Ahead of Luxury Dolomites Hotel Opening",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZS1aTHh0YXpqaTQ1LUYza3VxWkV0WXoyYVdDLXgzM1VaemZIa2ZyMC10WTdtdktBWU9adUNsSTVwQlRNcTRkTmh0a3AzcmZEc0c2ejZyeXpQSnVtV3VFeDA2amIxU3JxVXV2Q042dVBVdlptQ3JrbTBvX1dNdmNvNUNPajl6RW5LMlZoS0RsMkI1RElhRTVxWGlnWGRGRUtYWlB5MmtSWVlfYnBBTTdxLUw0cw?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": null,
+   "discount": "20% 할인",
+   "verification": "news",
+   "first_published": "2026-10-22",
+   "last_published": "2026-10-22",
+   "first_seen": "2026-10-22T23:30:51+09:00",
+   "last_seen": "2026-10-22T23:30:51+09:00",
+   "articles": [
+    {
+     "title": "Le Graal Cortina Offers 20% Off Ahead of Luxury Dolomites Hotel Opening",
+     "outlet": "Rus Tourism News",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZS1aTHh0YXpqaTQ1LUYza3VxWkV0WXoyYVdDLXgzM1VaemZIa2ZyMC10WTdtdktBWU9adUNsSTVwQlRNcTRkTmh0a3AzcmZEc0c2ejZyeXpQSnVtV3VFeDA2amIxU3JxVXV2Q042dVBVdlptQ3JrbTBvX1dNdmNvNUNPajl6RW5LMlZoS0RsMkI1RElhRTVxWGlnWGRGRUtYWlB5MmtSWVlfYnBBTTdxLUw0cw?oc=5",
+     "published": "2026-10-22"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-yeogi-7055a73f00",
    "airline_id": "h-yeogi",
    "airline": "여기어때",
@@ -4789,6 +4848,63 @@
     }
    ],
    "status": "stale"
+  },
+  {
+   "id": "h-marriott-dd19b3c8b8",
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "airlines_mentioned": [
+    "메리어트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Marriott Worldwide 20% Off Escapes For Stays October 2 – 18, 2026 (Book By Sunday)",
+   "sale_start": "2026-10-02",
+   "sale_end": "2026-10-18",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "Marriott Worldwide 20% Off Escapes For Stays October 2 – 18, 2026 (Book By Sunday)",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkVhcGtiSW04eHQxOHBnbHd1Yy1oZnZ5OEVCY1YwWFp1YWhMMEJ1ZHhNWU04NFJDTG9GSVcwcWZReU95TUxtSGIwdEUybUUxRG1femdidWNTMDl4a2ZJWFZWVmh2QVhhbTJId2hnQnFXbFo3ZTlhZ0FFV0E0eHRCUHdQZk5XR1haNFJ6SWtsckROT1lsTFZxR1RBUmRLc2xraGd4VXo3SE9ET0lKd3ZQcU8xQQ?oc=5"
+    },
+    "discount": {
+     "title": "Marriott Worldwide 20% Off Escapes For Stays October 2 – 18, 2026 (Book By Sunday)",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkVhcGtiSW04eHQxOHBnbHd1Yy1oZnZ5OEVCY1YwWFp1YWhMMEJ1ZHhNWU04NFJDTG9GSVcwcWZReU95TUxtSGIwdEUybUUxRG1femdidWNTMDl4a2ZJWFZWVmh2QVhhbTJId2hnQnFXbFo3ZTlhZ0FFV0E0eHRCUHdQZk5XR1haNFJ6SWtsckROT1lsTFZxR1RBUmRLc2xraGd4VXo3SE9ET0lKd3ZQcU8xQQ?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": null,
+   "discount": "20% 할인",
+   "verification": "news",
+   "first_published": "2026-09-26",
+   "last_published": "2026-09-26",
+   "first_seen": "2026-10-22T23:30:51+09:00",
+   "last_seen": "2026-10-22T23:30:51+09:00",
+   "articles": [
+    {
+     "title": "Marriott Worldwide 20% Off Escapes For Stays October 2 – 18, 2026 (Book By Sunday)",
+     "outlet": "LoyaltyLobby",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkVhcGtiSW04eHQxOHBnbHd1Yy1oZnZ5OEVCY1YwWFp1YWhMMEJ1ZHhNWU04NFJDTG9GSVcwcWZReU95TUxtSGIwdEUybUUxRG1femdidWNTMDl4a2ZJWFZWVmh2QVhhbTJId2hnQnFXbFo3ZTlhZ0FFV0E0eHRCUHdQZk5XR1haNFJ6SWtsckROT1lsTFZxR1RBUmRLc2xraGd4VXo3SE9ET0lKd3ZQcU8xQQ?oc=5",
+     "published": "2026-09-26"
+    }
+   ],
+   "status": "ended"
   },
   {
    "id": "airpremia-03dc368db4",
