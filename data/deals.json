@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T23:30:51+09:00",
+ "generated_at": "2026-10-23T09:39:22+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,17 +10,17 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2450,
+  "rss_items": 2597,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1949,
+  "outlet_items": 2042,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 15,
-  "articles": 451,
-  "new_articles": 3,
-  "deals": 66
+  "articles": 455,
+  "new_articles": 4,
+  "deals": 60
  },
  "deals": [
   {
@@ -1307,7 +1307,7 @@
    "status": "live"
   },
   {
-   "id": "airpremia-bd698eefbf",
+   "id": "airpremia-e2ef05c49f",
    "airline_id": "airpremia",
    "airline": "에어프레미아",
    "airlines_mentioned": [
@@ -1375,7 +1375,7 @@
    "first_published": "2026-10-20",
    "last_published": "2026-10-21",
    "first_seen": "2026-10-20T09:45:40+09:00",
-   "last_seen": "2026-10-22T09:40:54+09:00",
+   "last_seen": "2026-10-23T09:39:22+09:00",
    "articles": [
     {
      "title": "에어프레미아, 삿포로·호치민 할인 프로모션",
@@ -1429,6 +1429,12 @@
      "title": "에어프레미아, 12월 삿포로·호치민 노선 할인 프로모션",
      "outlet": "경기일보",
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CdE5BVjYxaUZSSUhBRGdqWGxmOWFuM0JUUDdCNHdDWV9CeDNiNXBudEZUV1ZVU1B5VDlCa0Q1dW1udFVNQmhhZkZzaUlOZ085aGtfMGlseVh6QU0?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "에어프레미아, 12월 삿포로·호치민 첫 취항, 할인 프로모션도 진행",
+     "outlet": "세계일보",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4tcXlfQ3Fad2poaHp0U1FLT0E4QU54MWwySHJtNlBrQU80eEhqOHZoSkQ5WllVY3k5a0dXNW95Y3BXZmwxXzRSRGczQmFlY3EydWdPNNIBVEFVX3lxTE4tcXlfQ3Fad2poaHp0U1FLT0E4QU54MWwySHJtNlBrQU80eEhqOHZoSkQ5WllVY3k5a0dXNW95Y3BXZmwxXzRSRGczQmFlY3EydWdPNA?oc=5",
      "published": "2026-10-20"
     }
    ],
@@ -1579,12 +1585,24 @@
    "first_published": "2026-10-22",
    "last_published": "2026-10-22",
    "first_seen": "2026-10-22T09:40:54+09:00",
-   "last_seen": "2026-10-22T23:30:51+09:00",
+   "last_seen": "2026-10-23T09:39:22+09:00",
    "articles": [
     {
      "title": "NOL, 가평군과 가을숙소 프로모션...최대 3만원 할인",
      "outlet": "싱글리스트",
      "url": "https://www.slist.kr/news/articleView.html?idxno=775411",
+     "published": "2026-10-22"
+    },
+    {
+     "title": "NOL, 가평 숙소 프로모션...최대 3만원 할인 쿠폰 지급",
+     "outlet": "빅데이터뉴스",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jQ3VtUWtmYTZoNUZka084dV83c3g5RWpNRGc5Mmc0T0l3SmJXSUotekl0dGc5MmZ6R2pXSHhFSTBWd1I5UjJkMEI1MWRKRy05SjlPS280NUo2UjBySk4xNFpvWFpLeXBmYklneDNzdXlfdlJXTWFSN2JTS3A?oc=5",
+     "published": "2026-10-22"
+    },
+    {
+     "title": "NOL, 가평 숙소 할인전…최대 3만원 쿠폰 제공",
+     "outlet": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HeWQzY1V2b0N2NlpGeG1xM3VTYVB1YWMwOTBacUdQc1Bhc0VkLUhEVE05WkZRSkY2U28xTVo3QnlKWGpwRkZFaFcwa2FnZjZRMDg3VlExMlprbnN1aUNta0dUQ2VLeFRwVkNvY3Z4bWxnaDlzckxZ0gF3QVVfeXFMT0d5ZDNjVXZvQ3Y2WkZ4bXEzdVNhUHVhYzA5MFpxR1BzUGFzRWQtSERUTTlaRlFKRjZTbzFNWjdCeUpYanBGRkVoVzBrYWdmNlEwODdWUTEyWmtuc3VpQ21rR1RDZUt4VHBWQ29jdnhtbGdoOXNyTFk?oc=5",
      "published": "2026-10-22"
     },
     {
@@ -1619,274 +1637,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "airpremia-353c91f823",
-   "airline_id": "airpremia",
-   "airline": "에어프레미아",
-   "airlines_mentioned": [
-    "에어프레미아"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airpremia.com/",
-   "iata": [
-    "YP"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": null,
-     "destination": "한국"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUnRZeDJtUEJkZXJLVzJMR2xWNUs3bm11ZzZQNDlnaXZwRmpmemo2c0FHUzdmVUxFa2NSck91dEJwdFJfelMxcTkxWEp3SmVvVjZsN1MtVmRWOUZJWW5YZzV1ZzNkTXV2RHRmM1EzcXJwbmxVeVhuNUxraC1td09mWGZlMTFoYTNqLWVzZm12anNpOEtvYWxHZFVLSXdYQQ?oc=5"
-    },
-    "route": {
-     "title": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUnRZeDJtUEJkZXJLVzJMR2xWNUs3bm11ZzZQNDlnaXZwRmpmemo2c0FHUzdmVUxFa2NSck91dEJwdFJfelMxcTkxWEp3SmVvVjZsN1MtVmRWOUZJWW5YZzV1ZzNkTXV2RHRmM1EzcXJwbmxVeVhuNUxraC1td09mWGZlMTFoYTNqLWVzZm12anNpOEtvYWxHZFVLSXdYQQ?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": "no",
-   "discount": "최대 80%",
-   "verification": "news",
-   "first_published": "2026-10-08",
-   "last_published": "2026-10-08",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
-   "articles": [
-    {
-     "title": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUnRZeDJtUEJkZXJLVzJMR2xWNUs3bm11ZzZQNDlnaXZwRmpmemo2c0FHUzdmVUxFa2NSck91dEJwdFJfelMxcTkxWEp3SmVvVjZsN1MtVmRWOUZJWW5YZzV1ZzNkTXV2RHRmM1EzcXJwbmxVeVhuNUxraC1td09mWGZlMTFoYTNqLWVzZm12anNpOEtvYWxHZFVLSXdYQQ?oc=5",
-     "published": "2026-10-08"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "vietjet-fabae71c45",
-   "airline_id": "vietjet",
-   "airline": "비엣젯항공",
-   "airlines_mentioned": [
-    "비엣젯항공"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.vietjetair.com/ko",
-   "iata": [
-    "VJ"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "비엣젯항공, 국제선 프로모션 진행",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": "한국",
-     "destination": "베트남"
-    },
-    {
-     "origin": null,
-     "destination": "한국"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "route": {
-     "title": "비엣젯항공, 신규 취항 잇따라···한국 노선 특가 항공권 선봬",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrUTNGNno2X1ExSDFTajA1RWpIYm9QQ1VYUUIwYjJMOW9QNWNLZUl0QVRPeHNjaTctNWNpdVNDQVhNeHNpZnNGeDR0XzVoekFMejF1RE9pWlBFVWtCUDF4bHU1MzZpTDdfUkxkStIBcEFVX3lxTE04RmhZbFZ1ZlNYX0dyU05oSWNQYU92Y2VCcXZkYzR3THpTbnNfUUhybW5ZTDBwU25TcHNsenJjLVBISjU4UVBZdWNBUEpzcEJMcXo3dnpYUVg2dnl2TWhxTm15dDhpVEg3LS1YTU95ako?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-08",
-   "last_published": "2026-10-08",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-20T16:57:38+09:00",
-   "articles": [
-    {
-     "title": "비엣젯항공, 국제선 프로모션 진행",
-     "outlet": "더퍼스트미디어",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14UjVxSzVYZmUyUmZHSlZkS3p5N1ZuYnhXVGNHd2ZyYUVETk55VDA4ME5CaF9IT3doOHYwRFJyUUdheEg3bmR3ZHlzVFIyRGZUS21vQl9VZUxhVC1hdmFQbGF2WlJQQ01ISVR2NUlQa0hzZ9IBdEFVX3lxTE96LTJjRlJHQnBsZVpraTQ3OTBJT09jZHhQMEQ0b0lHTHg3SHRUUXdiNmFSMlZ5U2pVOXhzaUtxX08tZEZoUnFlQWZnczFJMGp2bTJ1RVRzeHp4NTdtWTJDcVZONm5iTjZOM2hGczFvVXhERksx?oc=5",
-     "published": "2026-10-08"
-    },
-    {
-     "title": "비엣젯항공, 신규 취항 잇따라···한국 노선 특가 항공권 선봬",
-     "outlet": "이넷뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrUTNGNno2X1ExSDFTajA1RWpIYm9QQ1VYUUIwYjJMOW9QNWNLZUl0QVRPeHNjaTctNWNpdVNDQVhNeHNpZnNGeDR0XzVoekFMejF1RE9pWlBFVWtCUDF4bHU1MzZpTDdfUkxkStIBcEFVX3lxTE04RmhZbFZ1ZlNYX0dyU05oSWNQYU92Y2VCcXZkYzR3THpTbnNfUUhybW5ZTDBwU25TcHNsenJjLVBISjU4UVBZdWNBUEpzcEJMcXo3dnpYUVg2dnl2TWhxTm15dDhpVEg3LS1YTU95ako?oc=5",
-     "published": "2026-10-08"
-    },
-    {
-     "title": "비엣젯항공, 국제선 확대 기념 특가 프로모션…한국~베트남 편도 12만9천원부터",
-     "outlet": "뉴스플릭스",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSLW1lbWRtank1VHVULTNFaEVfU245cWRyUFAtaFhXbExqYjlsa3IwWE95X3h5eGc3TzFnUW95TXA2aDVnLWc5OE4tQ1VJZ3J1VWVUY1pKRkJ4dnhlV1hfUGRmRGVHUFR0ZWk3cw?oc=5",
-     "published": "2026-10-08"
-    },
-    {
-     "title": "비엣젯, 신규취항 기념 특가 항공권→터키항공, 이스탄불서 세계 안전운항 컨퍼런스",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBEVkFhb283NW91b21OZXE0SUljV0h4UWpGRU5aNkJsRE9EbDY2U0RrcmlSVnJJU0ZHUEZseEVHLWdsT3VCa0Z2YmF6aEU1d2M0d0pQeF91ZTY0N0Nldnd4ekFJcXozQQ?oc=5",
-     "published": "2026-10-08"
-    },
-    {
-     "title": "비엣젯항공, 국제선 신규 취항 기념 특가 항공권 수백만 장 선보여",
-     "outlet": "ABC뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3d0R0WWhMUGJjVGMwak8tZE1DS09PaWZTVUswUWltUUlqZ3N3VEp4NTJTNnE2MEozOXJmanBOa3l0YUhnZHhzU2JpN2RTSmhGOWN5dnVJVHNHS2F2MDJsQWtXUdIBZ0FVX3lxTFAwTzgzVjloVG9ubTlrTmptOWRIMTVSbEwwdmJxRnpRR2QtUkUxdlhsaUhRWXlnSG5vLVhqUXA4MDhxY0k2MTl4bV9HTUt5NUdzbjJFUmVTSFNSSXlGTmVhcS1HdGgySlE?oc=5",
-     "published": "2026-10-08"
-    },
-    {
-     "title": "비엣젯항공, 국제선 신규 취항 기념 프로모션…특가 항공권 선봬",
-     "outlet": "대학저널",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04RFREQVM1MU1DbGVUNWNCczJHaTRCeU1iZFFTN1cxQURNbTNvLU5LQmlKQjNteGFab2k4TkI0WlN5SDdrWTc2VUZsZHR4MXNTd2RXZDNaMV9iZDjSAWpBVV95cUxNNG5UTzktSEtHN3VKNUU2STkxbnh6dkZFQlVnVEdOdU1QT21mVk0yOTJYTXh2V0U3NUh1RUpqekVKcVluRUZBQk56NEQ3R09Pd3NfWGlMdWZ4Z2dDelAtdzdCd2dBSGl4blJR?oc=5",
-     "published": "2026-10-08"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-sono-771a07bfe3",
-   "airline_id": "h-sono",
-   "airline": "소노",
-   "airlines_mentioned": [
-    "소노"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "소노인터내셔널, 지역 관광지 연계 할인·숙박 패키지 확대",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-08",
-   "last_published": "2026-10-08",
-   "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-15T13:00:04+09:00",
-   "articles": [
-    {
-     "title": "소노인터내셔널, 지역 관광지 연계 할인·숙박 패키지 확대",
-     "outlet": "한국금융신문",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XWld5NmZiWmx0Z2Z3T0FCNC1kRVBkdWMxR3Jhb2R6aEhIQVJnMW1STy1EdDBKLXFDRjcySjJLNVlqeE52Vk1KQ3BoTkdWLW5sTnU4MHFKMXBlVEw1cVdHTWdWMHN6OHNzSHV2TUk0bmVSWlU3dEZhUDdZdDA?oc=5",
-     "published": "2026-10-08"
-    },
-    {
-     "title": "소노인터내셔널, 지역관광 제휴 확대…숙박 시설·관광상품 할인",
-     "outlet": "연합뉴스 한민족센터",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wNTZob25Sa2gxX0tFZVFhcW4zcWU3dGF2SjFZN0JOUzRkUGtTZ09UdlRNRG1QT2FVc2pZY1FFUkxJamhBT3FmQTg5RHJFUGRKNHJ2TElKcVlFa2NCdEFnR3BCLWhBM2JZOHhVdHpaNnZnckpC?oc=5",
-     "published": "2026-10-08"
-    },
-    {
-     "title": "소노인터내셔널, 가을맞이 호텔·리조트 제휴 확대…투숙객·이용객 할인 강화",
-     "outlet": "국제뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oVnZ4X1Q5MXJNSjFLX0xOWFVheUlJSFlNd1dIUWlHeXZTQl8tdHlZOTZvaUxHaEF3SGlsTjFxR0MwQlhWU2ZDeHNzTk11YXVzemd2c01EY2VTUklUd0JtM0x0UUV3RXdnVjdYdWFB?oc=5",
-     "published": "2026-10-08"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-yeogi-f8eefc4562",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "여기어때, 후쿠오카 신규 호텔 '바운시 바이 리가 하카타' 개관 기념 단독 할인 행사",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "후쿠오카"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-08",
-   "last_published": "2026-10-08",
-   "first_seen": "2026-10-18T08:32:42+09:00",
-   "last_seen": "2026-10-18T08:32:42+09:00",
-   "articles": [
-    {
-     "title": "여기어때, 후쿠오카 신규 호텔 '바운시 바이 리가 하카타' 개관 기념 단독 할인 행사",
-     "outlet": "넥스트데일리",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EeUlrMEE4bWVCazZYdjcxalVPX204MzRjWVUtRlZiWlVOZEhGSElRZklMeFVFMnI1UVpoTk1hbjF4WnZFbk1SdHY1a25tQUxCTjhhTTN6d0dRLWZBaGt3QTRXbmUwbFltVHdxTFV6NNIBc0FVX3lxTE5faHlmWU40OTZLUzkteEJJUzB6OXZxeEd5cV8wdnZETm9DSF9lbkV0UXAwaHBhWFg3NGVrRmhSWF9LLTBsXzR4azBYaFVuR0E3NnhLQmVKeVNjNS1YcUI3SFBUSDYxazloZ0tMTVFaTWVTclE?oc=5",
-     "published": "2026-10-08"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "klm-6b572765fa",
@@ -3326,6 +3076,66 @@
    "status": "undated"
   },
   {
+   "id": "koreanair-975d3255b9",
+   "airline_id": "koreanair",
+   "airline": "대한항공",
+   "airlines_mentioned": [
+    "대한항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.koreanair.com/",
+   "iata": [
+    "KE"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[항공 프로모션] 대한항공 괌 항공권 특가! 겨울 해외여행 추천, 괌 직항 스케줄 & 여행 명소 BEST 4",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "괌(GUM)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "route": {
+     "title": "[항공 프로모션] 대한항공 괌 항공권 특가! 겨울 해외여행 추천, 괌 직항 스케줄 & 여행 명소 BEST 4",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SU3ZGejJuZ3I2VTc3Nm9uUjVwMHRkUXFyYmxSbnZKWGU3QUFEcGY4Zkt5Z0N3MjQwMXJSbjFmLUMwMThib092WDNDWUVmSTRPWlB1WW5KNFbSAVhBVV95cUxPUlN2RnoybmdyNlU3NzZvblI1cDB0ZFFxcmJsUm52SlhlN0FBRHBmOGZLeWdDdzI0MDFyUm4xZi1DMDE4Ym9PdlgzQ1lFZkk0T1pQdVluSjRW?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-22",
+   "last_published": "2026-10-22",
+   "first_seen": "2026-10-23T09:39:22+09:00",
+   "last_seen": "2026-10-23T09:39:22+09:00",
+   "articles": [
+    {
+     "title": "[항공 프로모션] 대한항공 괌 항공권 특가! 겨울 해외여행 추천, 괌 직항 스케줄 & 여행 명소 BEST 4",
+     "outlet": "네이트뷰",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SU3ZGejJuZ3I2VTc3Nm9uUjVwMHRkUXFyYmxSbnZKWGU3QUFEcGY4Zkt5Z0N3MjQwMXJSbjFmLUMwMThib092WDNDWUVmSTRPWlB1WW5KNFbSAVhBVV95cUxPUlN2RnoybmdyNlU3NzZvblI1cDB0ZFFxcmJsUm52SlhlN0FBRHBmOGZLeWdDdzI0MDFyUm4xZi1DMDE4Ym9PdlgzQ1lFZkk0T1pQdVluSjRW?oc=5",
+     "published": "2026-10-22"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-other-175f6079f1",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -3377,108 +3187,6 @@
     }
    ],
    "status": "undated"
-  },
-  {
-   "id": "h-yeogi-7055a73f00",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "domestic",
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "홀리데이 in 포항",
-   "headline": "여기어때, 섬 지역 숙박세일 이벤트 오픈",
-   "sale_start": "2026-09-22",
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "청도",
-    "포항",
-    "섬 지역"
-   ],
-   "conditions": [
-    "쿠폰",
-    "앱 예약"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "청도군, 오는 22일부터‘여기어때’서 2만원 숙박 할인쿠폰 발행",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBHZ1N2R3NBZ0VMRkQxQWEzczc5eXNCSU92OGFpaVpIUGlYZlpqOEhKSkxnY3VjOS03QllrSzRIQzl1RnBzRTA4WHF3UEpGWHhlNlJCUg?oc=5"
-    }
-   },
-   "date_source": "title",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-09-16",
-   "last_published": "2026-09-22",
-   "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-22T13:20:46+09:00",
-   "articles": [
-    {
-     "title": "여기어때, 섬 지역 숙박세일 이벤트 오픈",
-     "outlet": "숙박매거진",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ma2J0UDFqUWtyUXpLbGF6MHNOcVVWUGZsMTNNdjZKRnlPR0dtUm02WlRzZGwtS3pueHJ2U1ZtU1NqTFhkSlJ4cEJQbHhuZHdTZjJpT1dkS1E4NWZtd0JkVzhXcnZQUW5ZclZoNDVMREdPdw?oc=5",
-     "published": "2026-09-22"
-    },
-    {
-     "title": "여기어때, 가을 섬 여행 숙박비 5만원 할인…32개 지역 대상",
-     "outlet": "스마트경제",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44Z3E2cmkwcllXcnloai04ZWE3MXpWVV9YNmF4RklKaXBvdnhzOW50N1E1TmcwS09TZnJoWmJHUUtrV2R4XzNoTzNjSWNQNTRPdExFblpWNmg1aTZQYUwxa0t0TFRJWmYwSjg0YlpFVQ?oc=5",
-     "published": "2026-09-22"
-    },
-    {
-     "title": "[스마트컨슈머] 숙박 세일 페스타 여기어때·국내 숙박상품 할인 11번가",
-     "outlet": "한국정경신문",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5Vi1CUUU1djRYOWtKWmhrVTRiV2ktc0RabHhWT0JMMnFLcDJhYTZJMUdVaUtzVVRhTjliUFRTQ1lYOEZwejFCQ3o3aGdPc1QwbUE?oc=5",
-     "published": "2026-09-22"
-    },
-    {
-     "title": "‘홀리데이 in 포항’ 여기어때·포항시,추석 맞이 펜션ㆍ풀빌라 할인전",
-     "outlet": "대학저널",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9HWXEzWVZSU1F1QUVtbG1wYlpXSDhlbkdPZ1lSNVQ3OUJINWJfengyMVRSRlV6TVFxMFZKQS10dFcyc1FLc1F4WDZEekNYVlNIOXZjdzFBTF8tZXVk0gFqQVVfeXFMUGJSdTBRZlpucVplUnFObUxhR1ZKQ2MzazF1TkE5RkVzLWMydWxJanYzd2FLbWtQblR3M2pCcld3eWlLbkduMkptMnFMcUxiajVHY1hLeXpPaVl3blFub2ljSWEtWW1OeUlnUQ?oc=5",
-     "published": "2026-09-18"
-    },
-    {
-     "title": "여기어때, 포항시와 추석 맞이 펜션·풀빌라 할인전",
-     "outlet": "Daum",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE94ZnhKUDNXX1o4N3EtTHIybU5XU3Jtb1h4VGtVVTYzZWo4T0RVdFhNcVczMU92clNEbHZmNDNROEV4V3B6S3pIWnJpaw?oc=5",
-     "published": "2026-09-18"
-    },
-    {
-     "title": "청도군, 오는 22일부터‘여기어때’서 2만원 숙박 할인쿠폰 발행",
-     "outlet": "헤럴드대구경북",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBHZ1N2R3NBZ0VMRkQxQWEzczc5eXNCSU92OGFpaVpIUGlYZlpqOEhKSkxnY3VjOS03QllrSzRIQzl1RnBzRTA4WHF3UEpGWHhlNlJCUg?oc=5",
-     "published": "2026-09-17"
-    },
-    {
-     "title": "청도군, 9월 22일부터‘여기어때’에서 2만 원 숙박 할인쿠폰 발행",
-     "outlet": "데일리대구경북뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tRmh5d3dYOUtMMTBXYjVtTExQMjZSTkpXcEJYeHdxaWFiXy02YjV0Yl9UMGlTb1p6NFVHOGVJamI5aDJkUWJOdGduY3laWEg5MTJsR0pIU3Y0d3owWXN0aWFHYVhzdw?oc=5",
-     "published": "2026-09-16"
-    },
-    {
-     "title": "\"여기어때 앱으로 청도 숙박 예약하세요\"…'2만원' 할인",
-     "outlet": "뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nQlZibDhoRGs0QzgxVjk4QUVWUFFfVHViNTJXS2RBdmdiOFZvaWtWTnlkOVdveTlhRmtWZ0VqakpqTExRQXpHaFRlYkNCS2JvZ1lWMnRzRFFRTnJqX0hjM9IBeEFVX3lxTE93LWxGUW1yN3NuSkZXOFkyTWdaSjBkakoyS0NZMlVuR3UweFNLVERCNjl3VXNRdnh1djhqVlVQOFZRY0JzV2Rrcjh1aUF4YmZUTExzUS10Y3Nld192TXhIWVh1cmQtQi1lS2R0Q3F3czZSajlJRUVtUA?oc=5",
-     "published": "2026-09-16"
-    }
-   ],
-   "status": "stale"
   },
   {
    "id": "h-stayfesta-7e0434c21a",
@@ -3563,162 +3271,6 @@
      "outlet": "비욘드포스트",
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53OWNyT1BzSWJLYjRQTHdRWkxwQU9DcG1OMnFrM1V2cW5CR25qVVd1cGFqb3dLTDlKRzJEUWZ5WUtPX210d0NwUVJBRzE1TnFIQUE1dlVNNUVXUlZBMHV0LVlMVFUyZVB5ZjloN3l3UTdQcmtlMUFCbklPZG8?oc=5",
      "published": "2026-09-21"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "h-yeogi-f621514a13",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "domestic",
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "2026 숙박 세일 페스타 섬 지역편",
-   "headline": "여기어때, 가을 섬 여행객 잡는다... ‘2026 숙박 세일 페스타 섬 지역편’ 진행",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "섬 지역"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-09-22",
-   "last_published": "2026-09-22",
-   "first_seen": "2026-10-17T23:35:55+09:00",
-   "last_seen": "2026-10-17T23:35:55+09:00",
-   "articles": [
-    {
-     "title": "여기어때, 가을 섬 여행객 잡는다... ‘2026 숙박 세일 페스타 섬 지역편’ 진행",
-     "outlet": "메가경제",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14MkRBelVJenRFcEd6cDJ5ZXc1R2JpT1JJWTBncWhmMDc1RG9uTE9TX0dzWDh0WlZFVG5SdFZPeVRyZU1sZkF4Q3J4TnlQak9TNzRMVGJhSUZsa2FHclB0MHYxejhvOGRJSU5DSjlveDZ6Z9IBckFVX3lxTE14MkRBelVJenRFcEd6cDJ5ZXc1R2JpT1JJWTBncWhmMDc1RG9uTE9TX0dzWDh0WlZFVG5SdFZPeVRyZU1sZkF4Q3J4TnlQak9TNzRMVGJhSUZsa2FHclB0MHYxejhvOGRJSU5DSjlveDZ6Zw?oc=5",
-     "published": "2026-09-22"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "h-other-33efc79e1f",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Las Vegas launches five-day sale with hotel savings up to 60%",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Las Vegas launches five-day sale with hotel savings up to 60%",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42bDUzNkNfZVhseGZ2Ymp1YWpMVGNtTUVrTUswQml3NXZnWTN4OUJ6b0tVNW9Yem5uZ1phWFJ1cGR2a0dBVVdzZzVqTnlkYzFDdEkzWEpQMWdKVFRVd0Nja3ZxcTFvWlNi?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": null,
-   "discount": "최대 60%",
-   "verification": "news",
-   "first_published": "2026-09-22",
-   "last_published": "2026-09-22",
-   "first_seen": "2026-10-15T17:22:32+09:00",
-   "last_seen": "2026-10-15T17:22:32+09:00",
-   "articles": [
-    {
-     "title": "Las Vegas launches five-day sale with hotel savings up to 60%",
-     "outlet": "The Manual",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42bDUzNkNfZVhseGZ2Ymp1YWpMVGNtTUVrTUswQml3NXZnWTN4OUJ6b0tVNW9Yem5uZ1phWFJ1cGR2a0dBVVdzZzVqTnlkYzFDdEkzWEpQMWdKVFRVd0Nja3ZxcTFvWlNi?oc=5",
-     "published": "2026-09-22"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "h-other-d58ee86504",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Vegas 5-Day Sale returns with 180-plus deals, up to 60% off resort stays",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Vegas 5-Day Sale returns with 180-plus deals, up to 60% off resort stays",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTXNOdWJKNlNqUHZmTnBaYVczbnlHeklhOXJmWWdBVHpNalVmbHVMQkFSLVpXOTEtTXVpYjJmQnAtNVQ5emI0MW4tNHlxSEdBcFQ0OXg1VGV1WnlKRzR3VklmcnpSeVVkeFBJbzA4ZDRuSG9iYWM0NWc3Z0pDYTNQU0c5X1QzYS1xSm1XdFNfRDlwc1VkS196blRsbEhfNHl1M2hr?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": null,
-   "discount": "최대 60%",
-   "verification": "news",
-   "first_published": "2026-09-22",
-   "last_published": "2026-09-22",
-   "first_seen": "2026-10-16T08:56:42+09:00",
-   "last_seen": "2026-10-16T08:56:42+09:00",
-   "articles": [
-    {
-     "title": "Vegas 5-Day Sale returns with 180-plus deals, up to 60% off resort stays",
-     "outlet": "KSNV",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTXNOdWJKNlNqUHZmTnBaYVczbnlHeklhOXJmWWdBVHpNalVmbHVMQkFSLVpXOTEtTXVpYjJmQnAtNVQ5emI0MW4tNHlxSEdBcFQ0OXg1VGV1WnlKRzR3VklmcnpSeVVkeFBJbzA4ZDRuSG9iYWM0NWc3Z0pDYTNQU0c5X1QzYS1xSm1XdFNfRDlwc1VkS196blRsbEhfNHl1M2hr?oc=5",
-     "published": "2026-09-22"
     }
    ],
    "status": "stale"
@@ -4845,6 +4397,70 @@
      "outlet": "Great Deals Singapore",
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWVJCT2NPYTlKbWJYQTdpeEpyX1hvMUtEaTdtbnh2M09mUi0tcnhiNlJ0RTh0STl4Um1CTkZPa2QzRDZkdWdBSjM1SW5jb1ZIa09uUi1sMzZiYVRBQ2tiNTEyTmpOZ01nM3Z4R0ZzUS0wajBWcDdUMzBsNXQ0U2hYX3kwRUhhQU9HMk9vNERfSzlEX0d6Wm1FS2ctS3BLQm8yaVZXcnFoZl81R243ZFE?oc=5",
      "published": "2026-10-07"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "airpremia-353c91f823",
+   "airline_id": "airpremia",
+   "airline": "에어프레미아",
+   "airlines_mentioned": [
+    "에어프레미아"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airpremia.com/",
+   "iata": [
+    "YP"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "한국"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUnRZeDJtUEJkZXJLVzJMR2xWNUs3bm11ZzZQNDlnaXZwRmpmemo2c0FHUzdmVUxFa2NSck91dEJwdFJfelMxcTkxWEp3SmVvVjZsN1MtVmRWOUZJWW5YZzV1ZzNkTXV2RHRmM1EzcXJwbmxVeVhuNUxraC1td09mWGZlMTFoYTNqLWVzZm12anNpOEtvYWxHZFVLSXdYQQ?oc=5"
+    },
+    "route": {
+     "title": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUnRZeDJtUEJkZXJLVzJMR2xWNUs3bm11ZzZQNDlnaXZwRmpmemo2c0FHUzdmVUxFa2NSck91dEJwdFJfelMxcTkxWEp3SmVvVjZsN1MtVmRWOUZJWW5YZzV1ZzNkTXV2RHRmM1EzcXJwbmxVeVhuNUxraC1td09mWGZlMTFoYTNqLWVzZm12anNpOEtvYWxHZFVLSXdYQQ?oc=5"
+    }
+   },
+   "date_source": "none",
+   "from_icn": "no",
+   "discount": "최대 80%",
+   "verification": "news",
+   "first_published": "2026-10-08",
+   "last_published": "2026-10-08",
+   "first_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-15T10:12:09+09:00",
+   "articles": [
+    {
+     "title": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
+     "outlet": "미주조선일보",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUnRZeDJtUEJkZXJLVzJMR2xWNUs3bm11ZzZQNDlnaXZwRmpmemo2c0FHUzdmVUxFa2NSck91dEJwdFJfelMxcTkxWEp3SmVvVjZsN1MtVmRWOUZJWW5YZzV1ZzNkTXV2RHRmM1EzcXJwbmxVeVhuNUxraC1td09mWGZlMTFoYTNqLWVzZm12anNpOEtvYWxHZFVLSXdYQQ?oc=5",
+     "published": "2026-10-08"
     }
    ],
    "status": "stale"
