@@ -74,6 +74,16 @@ class TestStatus(unittest.TestCase):
         self.assertEqual(d["coverage"]["full_until"], "2026-10-24")
         self.assertEqual(d["seasons"], ["S26"])
 
+    def test_coverage_moves_to_new_season_only_when_filled(self):
+        # 2026-10-22: 동계 일정이 일부만 공개 → 10/24까지 확보, 10/23: 동계가 하계만큼 공개 → 동계 종료일까지
+        summer = [dict(normalize_schedule([sched(f"7C{i}", "0700", "20260329", "20261024")])[0], season="S26") for i in range(10)]
+        winter = [dict(normalize_schedule([sched(f"7C{i}", "0700", "20261025", "20270327")])[0], season="W26") for i in range(10)]
+        self.assertEqual(coverage(summer + winter[:3], date(2026, 10, 22))["full_until"], "2026-10-24")
+        self.assertEqual(coverage(summer + winter[:9], date(2026, 10, 23))["full_until"], "2027-03-27")
+        # 공동운항 판매 편명은 세지 않는다
+        shared = [dict(r, codeshare_of="KE1") for r in winter[:9]]
+        self.assertEqual(coverage(summer + shared, date(2026, 10, 23))["full_until"], "2026-10-24")
+
     def test_status_failure_reuses_previous_file(self):
         # 2026-10-20 실제 사례: 운항 현황이 TLS 시간 초과로 실패해 공동운항·지연 정보가 빈 값으로 덮였다
         now = datetime(2026, 10, 16, 9, 0, tzinfo=KST)

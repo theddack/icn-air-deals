@@ -117,13 +117,36 @@ def normalize_schedule(items):
     return rows
 
 
+SEASON_FILLED = 0.8  # 새 시즌 첫 주 운항편이 이전 시즌 마지막 날의 이 비율 이상이면 새 시즌 일정이 다 나온 것으로 본다
+
+
+def _mode(values):
+    return Counter(values).most_common(1)[0][0]
+
+
 def coverage(rows, today):
     """조회 가능한 날짜 범위. full_until은 정기편 대부분(종료일 최빈값)이 끝나는 날,
-    partial_until은 가장 늦게 끝나는 편의 종료일. full_until 뒤는 일부 편만 있다."""
+    partial_until은 가장 늦게 끝나는 편의 종료일. full_until 뒤는 일부 편만 있다.
+
+    시즌이 둘(예: 하계 S26 + 동계 W26)이면 새 시즌이 이전 시즌만큼 채워졌는지 운항편 수로 본다. 다 채워졌으면
+    새 시즌 종료일까지 확보. 2026-10-23: 동계 공개 뒤에도 전체 최빈값이 하계 종료일(10/24)이라 10/25부터
+    '미확보'로 보일 뻔했다 (10/24 실제 운항 553편, 동계 첫 주 544~551편)."""
     if not rows:
         return None
     lasts = Counter(r["last"] for r in rows)
     full = lasts.most_common(1)[0][0]
+    seasons = {}
+    for r in rows:
+        if r.get("season"):
+            seasons.setdefault(r["season"], []).append(r)
+    if len(seasons) >= 2:
+        order = sorted(seasons, key=lambda k: _mode(r["first"] for r in seasons[k]))
+        prev, new = seasons[order[-2]], seasons[order[-1]]
+        prev_end = date.fromisoformat(_mode(r["last"] for r in prev))
+        real = [r for r in rows if not r.get("codeshare_of")]
+        before = len(flights_on(real, prev_end))
+        after = min(len(flights_on(real, prev_end + timedelta(days=i))) for i in range(1, 8))
+        full = _mode(r["last"] for r in new) if before and after >= SEASON_FILLED * before else prev_end.isoformat()
     return {"from": today.isoformat(), "full_until": full, "partial_until": max(lasts)}
 
 
