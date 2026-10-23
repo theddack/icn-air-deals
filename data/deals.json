@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T12:51:51+09:00",
+ "generated_at": "2026-10-23T17:30:54+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,17 +10,17 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2544,
+  "rss_items": 2584,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2120,
+  "outlet_items": 2055,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 15,
-  "articles": 456,
-  "new_articles": 1,
-  "deals": 60
+  "articles": 459,
+  "new_articles": 3,
+  "deals": 62
  },
  "deals": [
   {
@@ -1531,6 +1531,65 @@
      "outlet": "메트로신문",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tS0NHY05oN2c2cXBoWGRjUjJtS3duREdRY1JROFdrRHVuNkVZakpYdlZXdEhNc3R1YUVqVVNsNDM2V1prNmVLQmFORUp2enZndFhSOFBQYlhFaEJCYjFVdA?oc=5",
      "published": "2026-10-21"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "jejuair-0c3cd04418",
+   "airline_id": "jejuair",
+   "airline": "제주항공",
+   "airlines_mentioned": [
+    "제주항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.jejuair.net/",
+   "iata": [
+    "7C"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "제주항공, 인천~센다이 신규 취항…오는 8일까지 항공권 20% 할인 혜택도",
+   "sale_start": null,
+   "sale_end": "2026-11-08",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "제주항공, 인천~센다이 신규 취항…오는 8일까지 항공권 20% 할인 혜택도",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FZHVPRzhrSkZwc1dnNkdWMEhuOERGb1NRREYxenFaOWdjNmx6d2hDZ1RXWHBJai1FVm1ObVFZLXl1YkVzMEV4MXdlVFBNQUViRTVCYk9ZMUpYcXR2ZVYtUnpRdUlvSnM?oc=5"
+    },
+    "discount": {
+     "title": "제주항공, 인천~센다이 신규 취항…오는 8일까지 항공권 20% 할인 혜택도",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FZHVPRzhrSkZwc1dnNkdWMEhuOERGb1NRREYxenFaOWdjNmx6d2hDZ1RXWHBJai1FVm1ObVFZLXl1YkVzMEV4MXdlVFBNQUViRTVCYk9ZMUpYcXR2ZVYtUnpRdUlvSnM?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": "yes",
+   "discount": "20% 할인",
+   "verification": "news",
+   "first_published": "2026-10-23",
+   "last_published": "2026-10-23",
+   "first_seen": "2026-10-23T17:30:54+09:00",
+   "last_seen": "2026-10-23T17:30:54+09:00",
+   "articles": [
+    {
+     "title": "제주항공, 인천~센다이 신규 취항…오는 8일까지 항공권 20% 할인 혜택도",
+     "outlet": "팍스경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FZHVPRzhrSkZwc1dnNkdWMEhuOERGb1NRREYxenFaOWdjNmx6d2hDZ1RXWHBJai1FVm1ObVFZLXl1YkVzMEV4MXdlVFBNQUViRTVCYk9ZMUpYcXR2ZVYtUnpRdUlvSnM?oc=5",
+     "published": "2026-10-23"
     }
    ],
    "status": "live"
@@ -3195,6 +3254,56 @@
    "status": "undated"
   },
   {
+   "id": "h-other-4b00c9252d",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "H.I.S. Holds Flash Sale on International Flight and Hotel Packages from Tokyo Area",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "도쿄"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "date_source": "none",
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-23",
+   "last_published": "2026-10-23",
+   "first_seen": "2026-10-23T17:30:54+09:00",
+   "last_seen": "2026-10-23T17:30:54+09:00",
+   "articles": [
+    {
+     "title": "H.I.S. Holds Flash Sale on International Flight and Hotel Packages from Tokyo Area",
+     "outlet": "TRAICY Global",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA4SjRVUXMyd2NkZHJHTnpSOFgtOU1BUkgtTFRxd2hva2JMXzk0eURWYnoweHlpLTZTdWtBZE5hWF9fdjNqMjgzeVNEMm5hNmhGb29LWA?oc=5",
+     "published": "2026-10-23"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-stayfesta-7e0434c21a",
    "airline_id": "h-stayfesta",
    "airline": "숙박세일 페스타",
@@ -4127,7 +4236,7 @@
    "first_published": "2026-10-02",
    "last_published": "2026-10-02",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-20T23:18:02+09:00",
+   "last_seen": "2026-10-23T17:30:54+09:00",
    "articles": [
     {
      "title": "여기어때, 제주 친환경 숙소 12곳 할인…그린키 페스타 진행",
@@ -4163,6 +4272,12 @@
      "title": "여기어때, 제주 친환경 숙소 지원…`그린키 숙박 페스타`",
      "outlet": "디지털데일리",
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mSmFzQmtBT2ZVSUFwVTYtY3F4SGl2dGUxY2xmRVhrTDZNb3FPTDJLMkJlblhxTmhoYXoyeGZpWGhyb09rZEdPWFF0b0JQcU1zRHd4ZWtOMHd6akZjTDdpTnhn?oc=5",
+     "published": "2026-10-02"
+    },
+    {
+     "title": "여기어때, 가평 전 숙소 대상 할인 프로모션 진행",
+     "outlet": "대학저널",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12Q2RGTmJvM2FUMW1iZmc1eGlMU1p3ZkdENXN0ckk5MFcxbG1tZEV5dURqTWwteXhFejZCRTMtaml4dFJvMlJ3dGxvT3pNQlJ1MllkQlhESjRMWkXSAWpBVV95cUxNYXV2YWRNRXZVTFd0UEpGakxJd3VjeFZ2dlNmRTIwb0JhQmVmTmNwU01SRXltdUFseUZkcm5kUUdzekJtUHlfbGR0clk4THllb1pSLW5aaHptX0dnNTZQQkEzYnZqYjhKTUxn?oc=5",
      "published": "2026-10-02"
     },
     {
