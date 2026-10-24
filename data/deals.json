@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T23:24:58+09:00",
+ "generated_at": "2026-10-25T01:33:25+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,17 +10,17 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2435,
+  "rss_items": 2502,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1692,
+  "outlet_items": 1575,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "articles_with_summary": 15,
   "articles": 462,
   "new_articles": 0,
-  "deals": 59
+  "deals": 58
  },
  "deals": [
   {
@@ -62,7 +62,6 @@
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM2FjZ1NYdVBSZFg5YUdWdVl2dFJ5eFJSVF80YkMyMkJoQXhhVGR5ZnAzUnZtRm1qaERPZmlPajVucGVJZ2xGLTl2LXA1SmcxeGF1QzlYbXhBdEZXRk9EQ2IwY2hOcVo1aTVaSFJjWlZ0RWg4ZTJpUzBReDZQOFVsUDRZa01YS25yamw2MGktSS1hUVJpSFZiMXRpazZsdlJObHYtSHh4VmVHV0JsY0VFQnFoNExwbmRsc18xZHEyYWM?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": null,
    "discount": "20% 할인",
    "verification": "news",
@@ -127,7 +126,6 @@
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZVGE4dXo4Ti1oN244MkRldUR5TDNwaDZla3oyb0RoSXVjZExaR2ZNbDRieGRhSTNfdlRSTEtOZFJSbVYzb212NHE4dUNGeEhJdkpFY1RGRmd4YXZSbGJPM0Z3bmgyM21Xc1hvT3U3SF9mbjEyUXBZ?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": null,
    "discount": "최대 7만원 할인",
    "verification": "news",
@@ -660,7 +658,6 @@
      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbEZSWXZsSjI3eUp1Z3hhQUx3LXdtQzZiQlhxTElZdHlMcTI0VjZDbXpGVVJsaUI5cXBrQWdoMlFtNmkzLU9VVFcwb0JRcndzMXJoX3AyX3l6VU5DU1pXZnF3R2lWOXNya3V2Qk5EWVlJdElqeXROZ3I2SFJKTUNEYU0zamZCRnJHZE1fWW1KZWFUY2NwcWczVG9zVkpzRldPcW5pTmFJUjdNUEVLOU9iLXZOSzZka1pBNy1VTm41a0NYVXVGTFBVc0E5SnVnMkVDYURJM0FLdDg5OVJscDJfNnBjRFprRTRGczRyaUdBbHRrRU9MdHF3Ug?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": null,
    "discount": "25% 할인",
    "verification": "news",
@@ -717,7 +714,6 @@
      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOWRDUXk4dHFja1gzdWpsOWZBQUFQZlZhdi1SRFhWdy1lQnc3anNXRlNTLUdmcHV0d3hQQkZibzFPczlsR2wyeWFFaVpXQ1p6Z29iNk9LTnlaa1UtZ3NMY1hiaGc1Z1ZpcHZLam5FbEs3eF9kYWR3b0dJYmgtSTh3cmpIaml4Z3c0alhCM0ZVRHBuelJpX0dPQmRHQ3lvU3QzVVM5VFpzTG5tdWRDYVgtdkthenladm9GRlRJRC12NGtkNmRVamRNVzY0QmZDTEhEX09Ka0Y3UkFoVHJtUmRNbnJzNA?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": null,
    "discount": "20% 할인",
    "verification": "news",
@@ -776,7 +772,6 @@
      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBoUGR4TzRoNmRGU0o2TGl2SXYyRVp0OWwxZFk2WWl0MDJYb0ZENXFKZldCeUlWOElfWkRXWlVKTDlzdW40TXQxakVXbw?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": "unknown",
    "discount": "최대 98%",
    "verification": "news",
@@ -893,7 +888,6 @@
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLQWlXa1RnRjdvSzl2R1Ria3BOSGt2MDVmYjlQSXhfa3J3Q1FfYjc2SEhuZzQtTHBPNWdCdGxUeWhaNkZ3OFBMMTF0bVNKUTFrcTU0MkJNR0lmWHhfaE5JT2JNbmpIeWEzVGc?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": "unknown",
    "discount": "최대 30%",
    "verification": "news",
@@ -997,7 +991,6 @@
      "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396"
     }
    },
-   "date_source": "title",
    "from_icn": "yes",
    "discount": "40만3400원부터",
    "verification": "news",
@@ -1110,7 +1103,6 @@
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZM3dLd2c0Mk5qdnVZZWota1ZCSHdSdWpkbFRaQmdHNUFuOGY2NFBVb051Vm80Ujg4Ui1IbTJBWkdiVUFtZFQxUXd3blNYM0FESFZGaWVwTzd6MXdUQ2NzcURVTG9Na2dHM25fMW5DSFVzdw?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": "unknown",
    "discount": "최대 22%",
    "verification": "news",
@@ -1205,7 +1197,6 @@
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FZHVPRzhrSkZwc1dnNkdWMEhuOERGb1NRREYxenFaOWdjNmx6d2hDZ1RXWHBJai1FVm1ObVFZLXl1YkVzMEV4MXdlVFBNQUViRTVCYk9ZMUpYcXR2ZVYtUnpRdUlvSnM?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": "yes",
    "discount": "20% 할인",
    "verification": "news",
@@ -1266,7 +1257,6 @@
      "url": "https://www.slist.kr/news/articleView.html?idxno=775411"
     }
    },
-   "date_source": "title",
    "from_icn": null,
    "discount": "최대 3만원 할인",
    "verification": "news",
@@ -1333,61 +1323,6 @@
    "status": "live"
   },
   {
-   "id": "turkish-ed654b3dcf",
-   "airline_id": "turkish",
-   "airline": "터키항공",
-   "airlines_mentioned": [
-    "터키항공"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.turkishairlines.com/",
-   "iata": [
-    "TK"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "터키항공, 유럽 특가 프로모션...이코노미 71만원부터, 비즈니스 211만원부터",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "터키항공, 유럽 특가 프로모션...이코노미 71만원부터, 비즈니스 211만원부터",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84ZXVwTnhUbmprNktNSDR1ZDE4aElGSmhPeTQzaFdpaVJDcmhyV0wtOXNfSFAxVXRDY3BxcG5DOHRtZlZFUVd2SVBBbDU4dw?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": "unknown",
-   "discount": "71만원부터",
-   "verification": "news",
-   "first_published": "2026-10-10",
-   "last_published": "2026-10-10",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
-   "articles": [
-    {
-     "title": "터키항공, 유럽 특가 프로모션...이코노미 71만원부터, 비즈니스 211만원부터",
-     "outlet": "트래블아이",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84ZXVwTnhUbmprNktNSDR1ZDE4aElGSmhPeTQzaFdpaVJDcmhyV0wtOXNfSFAxVXRDY3BxcG5DOHRtZlZFUVd2SVBBbDU4dw?oc=5",
-     "published": "2026-10-10"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "aircanada-7155f9577c",
    "airline_id": "aircanada",
    "airline": "에어캐나다",
@@ -1429,7 +1364,6 @@
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uelU4SmhfUU5pR3QtSTdVY0NFTkVwVTFtdkJmLVUtYVBQVDNTQ2hjbWVVQURsS1hraHl5bEZYMzh5bzYxeUlsUlltaVFPOFBOMXYwX3paU2ZGZXFuYm5kenJKQ3RrcjR4d1E?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
    "verification": "news",
@@ -1478,7 +1412,6 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {},
-   "date_source": "none",
    "from_icn": "no",
    "discount": null,
    "verification": "news",
@@ -1527,7 +1460,6 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {},
-   "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
    "verification": "news",
@@ -1595,7 +1527,6 @@
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzhDUERZcF9wRFpJNHkxRWNVdmY2R3d6cUU3b2dXNmZ6OFRtUEwzSFJheEFUc09ud3lWaFlLMy1oZVI3dU5laXNYYWs4aTRFb3d6RkRIajRyRnpZX0d0dTJqNmFON0RDN0VLcEJoWVRmQ2ljbXFRLUxDNlBUVVdqU200QzdrbFdEbWtZNjZ4QVB2Y0xmYi1FVHZLMmx6R0NhZFBvQ0JEZ09EYmVCOG5Ya3YxYlVaNUF3Tnc?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "no",
    "discount": "7% 할인",
    "verification": "news",
@@ -1671,7 +1602,6 @@
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zdjUwRE5LYWM4SmtYUDhfNkVzUjRVX2EwcWxrYllWVThYSk96X2RHZEVZdEpYeEJ3WHc4T3AyaGdiWHhieUUwOGduc3B6eXd3aGV1a3lXN0s0ckVOc3FPNTBaMjljQQ?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "no",
    "discount": "최대 50%",
    "verification": "news",
@@ -1724,7 +1654,6 @@
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ0VLMzNzdGF4bmVac2JxUFJyOHhLcDh5WmlVNXZ2eVg2V3NQendXRndyLS1hX1JBUlJTRnVDUzlIRnBiV1d4akYydTB3bFNnTXR5Z1B2TThGMk9LelBtT1NmRi1Dd1NuaW9aeVNqN3puVi1FZ2dzaUdmc2Q5a19vVThla1dWOE5LZC1WTHpJYXFPVHBKQjNMZE9rc2VpY3pBcXBwYTl5cElUQnFISFZCcXVQcXREMkRjQUVtNV93?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "최대 50%",
    "verification": "news",
@@ -1774,7 +1703,6 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {},
-   "date_source": "none",
    "from_icn": null,
    "discount": null,
    "verification": "news",
@@ -1824,7 +1752,6 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {},
-   "date_source": "none",
    "from_icn": null,
    "discount": null,
    "verification": "news",
@@ -1952,7 +1879,6 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {},
-   "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
    "verification": "news",
@@ -2007,7 +1933,6 @@
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xTU5CaGRhT21xZVJ1OWQxMW84YzEzZjNiSGFUTXlSeFNCbnlCN250QlBBalpwQnpCOUVOZXdsclh1YTNDd2tVaGp4M2UwSlJUUWhGQlN4ek85Zw?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "최대 79%",
    "verification": "news",
@@ -2063,7 +1988,6 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {},
-   "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
    "verification": "news",
@@ -2118,7 +2042,6 @@
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VajBJczNyVmt3b2ltMElGQXdRZ2pjSGJjRjd0V3dod2I3OTRrc2Jtb0VFOTdROV9kalNmZFdza1lsUW41QXdSMHBsd2lWd3cxSThGQzhKbjJ4VmdKZFEyU2hrMmNvbnQyMnpLYQ?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "unknown",
    "discount": "7만원대부터",
    "verification": "news",
@@ -2179,7 +2102,6 @@
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2pjZGhWcWRfcGNQcEhpZkNGakRqZVd0cXZsaEJEMi1JU2c3c25IN191RHF3emhmTThOMGp3Y0ZmWi1Hal9sckk2akQzUmR1YlpBVUZGekFIN0NCV2J2QWtSaktPYmlBM0NfSFMxYWpmNEpFbGR4cTEyOGlMYTc4VzFERzNBUFNzTGNR?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "최대 5만원 할인",
    "verification": "news",
@@ -2238,7 +2160,6 @@
      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KUzk0amxjZ3RxX09RRkJyOG8xaThNNnNhVjloOUZ5YkZoNjd1UkxkNTAzeGs5MTBVbHN6OUNJaG1DT01Pb0VYbHVLNWR2MndUUWNnVE5yeENCZ3ZiZ3VEVVMwRlhHZk5tOVNJczhqcw?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "unknown",
    "discount": "12% 할인",
    "verification": "news",
@@ -2293,7 +2214,6 @@
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zX1h1TlZHQmhweldXd2x1SWNJbG51RFR0SUhKYUE3RVpPNGROMm1DZEV4Vm9IMVBRSl9jZVZFM3JmWmFxRnAwZG5oaFk3azF5aC1YVXRuU0RQUkZybXVtUTQ2cUY1bnp4Q25FdkxQbkswdG02VW5UeHQxbXo?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "최대 6만원 할인",
    "verification": "news",
@@ -2368,7 +2288,6 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {},
-   "date_source": "none",
    "from_icn": null,
    "discount": null,
    "verification": "news",
@@ -2421,7 +2340,6 @@
      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRjZnd3ZtZUpkM245eVBfM0Q1VXpJcGs0NDBMaXJTbXNLNElVN0RFVk11eFoyLWxMbkppSllZR3l2NkZZMElMUTBlTWFsUkpXbGdySElTWXFuWjF2T01tS1QwM0ZLdno4VkQ3dkZtT2Z3b1l3V1dOdHF2YlEtTDlaYURqVHdXSmlxX0kxSWhjRWNRemsxTjZuMlA0YU9rNE5hQVBVMkkyd3B2NHU4MC1ZM04zbzBWcmhFaTRtZ0p2TDFvNVAtdGhtUzlZUHFTc3UwaC1oS1VEZDdYOUF1X2Zvaks5ZkJmR2pTdkE?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "25% 할인",
    "verification": "news",
@@ -2474,7 +2392,6 @@
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcTQybndGYXFpbkljYkZZdFlVb2pzSnoyNWx6YW1yQWtwRmNGaWk3d0l0OTdXSjRmSndOMUVIZlR1YmRVb2N3ZEdLaF9HT2ZoNnVaYWVodjQzbnJRWHllQ3dkOFd6OVhZRFdwdFQwSkdvV3NFeVlKR0RIVWlWbW9WbE93WlhYYmxjbFpZ?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "최대 50%",
    "verification": "news",
@@ -2539,7 +2456,6 @@
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMNIBe0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMA?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "25% 할인",
    "verification": "news",
@@ -2615,7 +2531,6 @@
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZcTJ0dVhlNVh0Y1hZb3dVMkN6RC1EcXE3VVptQ1ZzSDItaEtDci1HTUdxOTJnVzhVQWhUdTY5Q0UzSElXQWFuQlRhVlZ0cEVyYjlESElmTU5nek03Q2x5N19tWDY1WVJrVEFXTjVGejFvSU01dTZ5Wnd4MNIBe0FVX3lxTE5ZcTJ0dVhlNVh0Y1hZb3dVMkN6RC1EcXE3VVptQ1ZzSDItaEtDci1HTUdxOTJnVzhVQWhUdTY5Q0UzSElXQWFuQlRhVlZ0cEVyYjlESElmTU5nek03Q2x5N19tWDY1WVJrVEFXTjVGejFvSU01dTZ5Wnd4MA?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "unknown",
    "discount": "40만원대부터",
    "verification": "news",
@@ -2671,7 +2586,6 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {},
-   "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
    "verification": "news",
@@ -2737,7 +2651,6 @@
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SU3ZGejJuZ3I2VTc3Nm9uUjVwMHRkUXFyYmxSbnZKWGU3QUFEcGY4Zkt5Z0N3MjQwMXJSbjFmLUMwMThib092WDNDWUVmSTRPWlB1WW5KNFbSAVhBVV95cUxPUlN2RnoybmdyNlU3NzZvblI1cDB0ZFFxcmJsUm52SlhlN0FBRHBmOGZLeWdDdzI0MDFyUm4xZi1DMDE4Ym9PdlgzQ1lFZkk0T1pQdVluSjRW?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "unknown",
    "discount": null,
    "verification": "news",
@@ -2790,7 +2703,6 @@
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZS1aTHh0YXpqaTQ1LUYza3VxWkV0WXoyYVdDLXgzM1VaemZIa2ZyMC10WTdtdktBWU9adUNsSTVwQlRNcTRkTmh0a3AzcmZEc0c2ejZyeXpQSnVtV3VFeDA2amIxU3JxVXV2Q042dVBVdlptQ3JrbTBvX1dNdmNvNUNPajl6RW5LMlZoS0RsMkI1RElhRTVxWGlnWGRGRUtYWlB5MmtSWVlfYnBBTTdxLUw0cw?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "20% 할인",
    "verification": "news",
@@ -2840,7 +2752,6 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {},
-   "date_source": "none",
    "from_icn": null,
    "discount": null,
    "verification": "news",
@@ -2895,7 +2806,6 @@
      "url": "https://www.slist.kr/news/articleView.html?idxno=776014"
     }
    },
-   "date_source": "none",
    "from_icn": "yes",
    "discount": "최대 20%",
    "verification": "news",
@@ -2950,7 +2860,6 @@
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EY2wtTXVyWXVuaURWRkt6YnBpOUEyMC0xcHQ2cmRNbS14aXdqTjRxTkNlV21pdkZwdFZ5emxDUmplaDV1aUNINkRkLW9qLVNtTUZQRG1KWldubGE0NVdwY0FVVks3REF5dWVDS0RPR0w?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "unknown",
    "discount": "15% 할인",
    "verification": "news",
@@ -3003,7 +2912,6 @@
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQVBtNFNCVGdERmpUaF9XYl9HdlJEQjl2bWJLenQ0cW9UYzNCTU96LXBSelZpTzBHYTR6SldCU0k3MUFGemtGRm5PN3pFSXczUU9DX0QyTWdsd0RWaUxLLUM3cEkzSDVyZ0VzMWZvTmxfZGVCbkZlRi1WUmppU0lSdmhlSF81NG9WRmhVYjVVeTBOSFRHR05mS0hnTWpYRGFFVlpTS1dua0M2WFkt?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "80% 할인",
    "verification": "news",
@@ -3061,7 +2969,6 @@
      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9fanN1LTZDd0dsZGQ5ZThJeF8wUGowMHpDR1UyZmlKd0I3OFZXcnYzYVpMS29kd0FTdzgxV0VfcGVCRWdmN0l1akY0bDhrcEk?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "10% 할인",
    "verification": "news",
@@ -3126,7 +3033,6 @@
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTndlT1pQbGdKNFFNRnRacWx3S2hjQ0hlX3BTQlhRb2lzMktIQmZVWncxNzBzb1Awemg0LXJtQ1Y1S1JEZkhOcDZKODhxT0Q1NElrMXhrRU5weVBCQlFVbW9IRDE4N1lqZ1FBb2hpaEZIY2xJeFdaLWZNT0oybTQyRlc3cDM5Q0FwM2RWRVgzWVRtZmlNYUFQOEtnMXdNRHJRel9JT19MYXQtb1BGckc3SEpudXE?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "최대 60%",
    "verification": "news",
@@ -3181,7 +3087,6 @@
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPamlUTWowMnBnd1pZYXpUWGsyY2x4UWlmWUdFdWZ6OEw0TEpNQklRc0Q2R2k5aVMyR09UV1lId29lQ0RfclFjYkM5bG5qbWFQRjdKSVY2c0MwS3B3Ymw0aGFRQmVsanlTQUR2ZmprQlZ6RENIWkY3d2Z5MDFGTHdYajZ0Vmxxanh3LUxlcnRpUQ?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "unknown",
    "discount": "최대 10%",
    "verification": "news",
@@ -3267,7 +3172,6 @@
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yZUtaNVlCMkprNXRVbzlCQ2pqQkg1MlBHaVNNMHAwdnRDRmFYMTNKRkl6YlNJeEU4blNuU25DMC1PSVZ6cy1OTVZualVsS1NVbnV0NDBSUFB2NS1NZHZCNEl2ajBHQVpnWGpFX1hCWVnSAXRBVV95cUxONW55Z2pOejM2a3lUMEQtT0VqcG9NWWhxU0JSRXR6alp0aUpnVXo3VDVCTnBBSjNFZ1NNcjBLbUhOeURZWk1Tc2ZhUklBWXVkdDFkRkV5cHlVTHgzX0VwU0oxN1djZm10NlI5clNaSy1IWnB2VA?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "no",
    "discount": "최대 25%",
    "verification": "news",
@@ -3409,7 +3313,6 @@
      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeHBLQUw5SkxidnljNl9hQlIwQ0dKXzdhT25wbmJ2ZUNwTU4yalMxLUVKaXg4SG8wQWEzU3FrU0NkRGt0ZzlqdG5xYTFQYVh0aFBISURtMTFqaXpwY1pnOW96YXgwNUJpRWlMM3lEeWQ1RHc2WUNGdnp5bmlLUnJQYlh2LXhneUtpOWVHSFpsQVBjZlB2UUN0cWFjQ0FTZ1dybnRuU3A3ZDg0YzVMOW1UYm85cGR1STdKREQ4OF91N3Q5MDJrV2Z5ZC12MA?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "no",
    "discount": "최대 15%",
    "verification": "news",
@@ -3463,7 +3366,6 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {},
-   "date_source": "none",
    "from_icn": null,
    "discount": null,
    "verification": "news",
@@ -3516,7 +3418,6 @@
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pd0pOTm1oNHFPeUFyeURIU3R3ZDIyQkxUbHhuRzlHa1R2SDdiNGNTOUpHZ1lGRWFXNHVSTFZJUERHNHZoU2RraW9vay03dm8way11RlMza05XdHd0UG5IU08zRzVyNWpGa0JIZnY5LU1mMXQ1NFdz?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "최대 30%",
    "verification": "news",
@@ -3569,7 +3470,6 @@
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZNGZ3N0JrQmxwRUtxcGpRcHRFYnVOR0U1Nl9Za1Z0d0dHcVRpN3hnLXc4OF91cmIxcWVWVGpKSmU2Rk1Yemd2Rjk4bmZjQTU1LUZvX1VCcDYtRHZCWjJxSzlJbTluRU1mUmoxemxDdGFibTFwN1pMOWVUeEo?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "15% 할인",
    "verification": "news",
@@ -3628,7 +3528,6 @@
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nV3MzMGRRN251YmRKX3pSdndjMUJiY2owZmtua2otbm5FbHplM2VaTWRyRVRCcHVIQ1B0UzNRZ2NaVWZDblJTQkhIYlJYODZOS3hyRmJ0WFZ0YmxtY1hnZ2VMZk5PWTdFSklDOA?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "최대 3만원 할인",
    "verification": "news",
@@ -3725,7 +3624,6 @@
      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fakxldWdPaFJ4YTFhOXNsLWVTLUpDdVpsRjhRNy1sVTI2VWsxOTJvd1RjLXQ5ZkdXN0M2dGVra0ZIZHhxdDVZYzVIR0kzSWNfSjJwSEc5aXBqeDJGVmc?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "unknown",
    "discount": "12만원대부터",
    "verification": "news",
@@ -3797,7 +3695,6 @@
      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93OS13WGc2cUg5YklsMGROMEZzaWdyZEtMRFo3bnhJeFdtQjJvdEh2dndLdUZBNllyODVtM1RlMXF3b2doekFkZ2k2dkhxb3RtLVE?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "unknown",
    "discount": "22% 할인",
    "verification": "news",
@@ -3850,7 +3747,6 @@
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LZFlVTWdSTHhZZF9GRkpVOUtXN0xwR0JiZHAxR1paY1BHY0daOG1abUQ2T25MWWNjNGV3bmgxblNNVWtCZFN0VkZRQVFyWDRqam9YcUxEMkp3U1ZVdS1aMFA0WWM?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "최대 15%",
    "verification": "news",
@@ -3903,7 +3799,6 @@
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWVJCT2NPYTlKbWJYQTdpeEpyX1hvMUtEaTdtbnh2M09mUi0tcnhiNlJ0RTh0STl4Um1CTkZPa2QzRDZkdWdBSjM1SW5jb1ZIa09uUi1sMzZiYVRBQ2tiNTEyTmpOZ01nM3Z4R0ZzUS0wajBWcDdUMzBsNXQ0U2hYX3kwRUhhQU9HMk9vNERfSzlEX0d6Wm1FS2ctS3BLQm8yaVZXcnFoZl81R243ZFE?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": null,
    "discount": "최대 45%",
    "verification": "news",
@@ -3967,7 +3862,6 @@
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUnRZeDJtUEJkZXJLVzJMR2xWNUs3bm11ZzZQNDlnaXZwRmpmemo2c0FHUzdmVUxFa2NSck91dEJwdFJfelMxcTkxWEp3SmVvVjZsN1MtVmRWOUZJWW5YZzV1ZzNkTXV2RHRmM1EzcXJwbmxVeVhuNUxraC1td09mWGZlMTFoYTNqLWVzZm12anNpOEtvYWxHZFVLSXdYQQ?oc=5"
     }
    },
-   "date_source": "none",
    "from_icn": "no",
    "discount": "최대 80%",
    "verification": "news",
@@ -3981,6 +3875,60 @@
      "outlet": "미주조선일보",
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUnRZeDJtUEJkZXJLVzJMR2xWNUs3bm11ZzZQNDlnaXZwRmpmemo2c0FHUzdmVUxFa2NSck91dEJwdFJfelMxcTkxWEp3SmVvVjZsN1MtVmRWOUZJWW5YZzV1ZzNkTXV2RHRmM1EzcXJwbmxVeVhuNUxraC1td09mWGZlMTFoYTNqLWVzZm12anNpOEtvYWxHZFVLSXdYQQ?oc=5",
      "published": "2026-10-08"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "turkish-ed654b3dcf",
+   "airline_id": "turkish",
+   "airline": "터키항공",
+   "airlines_mentioned": [
+    "터키항공"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.turkishairlines.com/",
+   "iata": [
+    "TK"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "터키항공, 유럽 특가 프로모션...이코노미 71만원부터, 비즈니스 211만원부터",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "터키항공, 유럽 특가 프로모션...이코노미 71만원부터, 비즈니스 211만원부터",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84ZXVwTnhUbmprNktNSDR1ZDE4aElGSmhPeTQzaFdpaVJDcmhyV0wtOXNfSFAxVXRDY3BxcG5DOHRtZlZFUVd2SVBBbDU4dw?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "71만원부터",
+   "verification": "news",
+   "first_published": "2026-10-10",
+   "last_published": "2026-10-10",
+   "first_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-15T10:12:09+09:00",
+   "articles": [
+    {
+     "title": "터키항공, 유럽 특가 프로모션...이코노미 71만원부터, 비즈니스 211만원부터",
+     "outlet": "트래블아이",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84ZXVwTnhUbmprNktNSDR1ZDE4aElGSmhPeTQzaFdpaVJDcmhyV0wtOXNfSFAxVXRDY3BxcG5DOHRtZlZFUVd2SVBBbDU4dw?oc=5",
+     "published": "2026-10-10"
     }
    ],
    "status": "stale"
@@ -4024,7 +3972,6 @@
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkVhcGtiSW04eHQxOHBnbHd1Yy1oZnZ5OEVCY1YwWFp1YWhMMEJ1ZHhNWU04NFJDTG9GSVcwcWZReU95TUxtSGIwdEUybUUxRG1femdidWNTMDl4a2ZJWFZWVmh2QVhhbTJId2hnQnFXbFo3ZTlhZ0FFV0E0eHRCUHdQZk5XR1haNFJ6SWtsckROT1lsTFZxR1RBUmRLc2xraGd4VXo3SE9ET0lKd3ZQcU8xQQ?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": null,
    "discount": "20% 할인",
    "verification": "news",
@@ -4038,89 +3985,6 @@
      "outlet": "LoyaltyLobby",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkVhcGtiSW04eHQxOHBnbHd1Yy1oZnZ5OEVCY1YwWFp1YWhMMEJ1ZHhNWU04NFJDTG9GSVcwcWZReU95TUxtSGIwdEUybUUxRG1femdidWNTMDl4a2ZJWFZWVmh2QVhhbTJId2hnQnFXbFo3ZTlhZ0FFV0E0eHRCUHdQZk5XR1haNFJ6SWtsckROT1lsTFZxR1RBUmRLc2xraGd4VXo3SE9ET0lKd3ZQcU8xQQ?oc=5",
      "published": "2026-09-26"
-    }
-   ],
-   "status": "ended"
-  },
-  {
-   "id": "airpremia-03dc368db4",
-   "airline_id": "airpremia",
-   "airline": "에어프레미아",
-   "airlines_mentioned": [
-    "에어프레미아"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airpremia.com/",
-   "iata": [
-    "YP"
-   ],
-   "agencies": [],
-   "event_name": "미주 할인 이벤트",
-   "headline": "에어프레미아, LA 노선 취항 기념 ‘미주 할인 이벤트’ 펼쳐",
-   "sale_start": "2026-10-10",
-   "sale_end": "2026-10-17",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "에어프레미아, 10~17일 할인이벤트 ‘프로미스’ 실행",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa3BMbkNVaEhXaVAtMnJKX3B4TzJrQXZETm9wa2ZfWjNTdll2dzJrNkNweTFMY1FDbHJSZ01ZQkFUeEQxQzVxZFI0NUsyRWdUNm9URnl5ZWx2SkVqV3VfUG56X19pazRMdTR3RWw1NG94dWpoOGRGWGpyWFZPWnVjWkdZREFlQzRyVVZvdl92SFhVck5TcTBNNGV3UGdJVnNNdlR6cEpqeWZoaUJKQ251Z0M4UWl0WDRoYnJKV1lZd0J5WEs2R0RHQWVhaTUyR2p2V1E?oc=5"
-    },
-    "discount": {
-     "title": "에어프레미아, 미주 노선 최대 25% 할인…인천~LA 노선 취항 4주년·점유율 20% 기념",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ca2oyeV8tem5sTkhqOUNfVzR5NlJBQUdPM1hKS2poT3JYSkFZV28yb19zT3ZpbTU0a3ZCOXVKV294SXV0TUprZmFqNDZzWnhiZmdubjJmS0xJVm8?oc=5"
-    }
-   },
-   "date_source": "title",
-   "from_icn": "yes",
-   "discount": "최대 25%",
-   "verification": "news",
-   "first_published": "2026-10-11",
-   "last_published": "2026-10-12",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T15:21:19+09:00",
-   "articles": [
-    {
-     "title": "에어프레미아, LA 노선 취항 기념 ‘미주 할인 이벤트’ 펼쳐",
-     "outlet": "충남일보",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CX0hGQkxCRkhzX1BuaWF3Tk81eXVPN0FBVXpaM0VuZmNlNnhFVVE1UUpLUVBLbXMxVVV3NzdMb2diYWFUeDVzbVpPOE1TZWI1R3FxVUo0NWpBWnBYVUd4UV96YlBiVGlNX2pyOVlxYUltZlk?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "에어프레미아, LA 노선 국적사 점유율 20.8% … 미주 5개 노선 할인",
-     "outlet": "워크투데이",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6YU5tZ2NmZmI0dWlNdlZHY2JqY0pYVGFYdDFfQVlyX240OUJhNVZ4TFo1Z1NuaE1DMzRFdXVOQ1o2aU5pMktvLUdkclJSM3FaQk9CcksxR0MyZWpoZkx1UDF3VEZ1VWVxUXBlXw?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "에어프레미아, LA 취항 4년 만에 점유율 20% ↑…할인 이벤트 진행 - 머니투데이",
-     "outlet": "머니투데이",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2Slh1MmZpdHZ0UjNnSEtPakpFWFdCaHNiajc2cC1tVkFlZTEtSFFqVHlQekpXQllWajBUb0t6WXJCME13Vks1d2ZfQUEzUzJ0c09IMkhhNXhrU1hfYWk4TE5STkpiSFJlcEJRbtIBckFVX3lxTFAyZ2FMa2hkVzNpQXN2VTAyN3N3V0g4Y0dXcF9VS0tJbjY3V0ZzNjYtVWxjTDBQNUpwZ0hjNVgzakQtWUl4VGtXOU9admtKUzJYQzVxeG9uTkxiQjdQcTNTM1NzZy1QZkxnWDBaLTJsSlVtZw?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "에어프레미아, 미주 노선 최대 25% 할인…인천~LA 노선 취항 4주년·점유율 20% 기념",
-     "outlet": "경기일보",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ca2oyeV8tem5sTkhqOUNfVzR5NlJBQUdPM1hKS2poT3JYSkFZV28yb19zT3ZpbTU0a3ZCOXVKV294SXV0TUprZmFqNDZzWnhiZmdubjJmS0xJVm8?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "에어프레미아, 10~17일 할인이벤트 ‘프로미스’ 실행",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa3BMbkNVaEhXaVAtMnJKX3B4TzJrQXZETm9wa2ZfWjNTdll2dzJrNkNweTFMY1FDbHJSZ01ZQkFUeEQxQzVxZFI0NUsyRWdUNm9URnl5ZWx2SkVqV3VfUG56X19pazRMdTR3RWw1NG94dWpoOGRGWGpyWFZPWnVjWkdZREFlQzRyVVZvdl92SFhVck5TcTBNNGV3UGdJVnNNdlR6cEpqeWZoaUJKQ251Z0M4UWl0WDRoYnJKV1lZd0J5WEs2R0RHQWVhaTUyR2p2V1E?oc=5",
-     "published": "2026-10-11"
     }
    ],
    "status": "ended"
@@ -4165,7 +4029,6 @@
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SMGliY21YQ1k4YmhTeEoxZ3hqS0VXa3lVc1p0ZTJhNzZOME1mbDRxVHA2bl9iOTVfSnlpUkU3TXFMNnhnYW12VzRWNmlKckNTblJHQ2xqRDRhU1F2dEdJT0V1SENONERfMkJRRw?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": null,
    "discount": null,
    "verification": "news",
@@ -4275,7 +4138,6 @@
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ZclQxY2xBN2hnVERZak9DNzg1Y21iMEJFVGk5bDR0Slh0U3Myb1FtS194ZzJMZnduOHM3bWtteS1SS3VadDViQzZETUI1d0t1QktWYUYxd1Jfd3Q0ekZGUzlkNHZOb1FBUVUxdk1rSzJ1bkNjS2ZzNw?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": "yes",
    "discount": "7만5900원부터",
    "verification": "news",
@@ -4433,7 +4295,6 @@
      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": "no",
    "discount": "최대 20%",
    "verification": "news",
@@ -4502,7 +4363,6 @@
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HVmZueXMyTmlRVXZIRl9zbnNLWmZaSUh4dWlKbWI4R0NvVE94aVBhMER2SUMwWGxNM2RqeFlISWx5dG9yNVhiUVpVdW1fdlUzNndFeVk3WDdpRHM?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": "unknown",
    "discount": "최대 24%",
    "verification": "news",
@@ -4678,7 +4538,6 @@
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84S0dURHpyZjF5TS1sTmstWjd0cXpwTTFpSkxscEZBWE93dTJuczNZbDJSVkw0SzMtblB6aG5vQy02S1RoN2J0d2t3bTcyTVJBbFpNd1BNbzdUTDJOdTBrM1F1Vjkzb2RpV1E?oc=5"
     }
    },
-   "date_source": "title",
    "from_icn": "no",
    "discount": "최대 2만원 할인",
    "verification": "news",
