@@ -217,7 +217,8 @@ OTHER_NAME_DAYS = 14  # 브랜드 미확인 기사를 행사명으로 묶을 때
 OTHER_NAME_MIN = 4    # 포함 관계로 볼 행사명 최소 길이 ('페이백' 같은 일반어만으로는 묶지 않는다)
 
 
-def _same_name(a, b):
+def _same_other_name(a, b):
+    """행사명 문자열끼리 비교 (위 RULES의 _same_name은 기사 둘을 받는다 — 이름이 겹쳐 덮어쓰던 것을 2026-10-25 분리)."""
     if not a or not b:
         return False
     short, long_ = sorted((a, b), key=len)
@@ -229,7 +230,7 @@ def _group_by_name(articles):
     for a in sorted(articles, key=lambda a: a["published"]):
         key = a.get("event_key")
         hit = next((g for g in groups if any(
-            _same_name(key, b.get("event_key"))
+            _same_other_name(key, b.get("event_key"))
             and abs((date.fromisoformat(a["published"]) - date.fromisoformat(b["published"])).days) <= OTHER_NAME_DAYS
             for b in g)), None)
         if hit is not None:
@@ -348,7 +349,6 @@ def _to_deal(airline_id, arts):
             "discount": lambda a: bool(discount) and a.get("discount") == discount,
             "route": lambda a: bool(a.get("origin") or a.get("destination") or a.get("route_text")),
         }),
-        "date_source": "title" if (start or end) else "none",
         "from_icn": from_icn,
         "discount": discount,
         # 지금은 모든 행사가 뉴스 기사 기반이다. 공식 페이지에서 확인한 행사가 생기면 'official'.

@@ -94,6 +94,15 @@ def main(today=None):
     except Exception as e:  # 사이트 문제로 배포를 멈추지 않는다
         print(f"[secretflying] 실패: {e}", file=sys.stderr)
         return 0
+    if not items:
+        # 페이지 구조가 바뀌었거나 차단 페이지일 수 있다. 오늘 받은 것으로 치지 않아 다음 수집 때 다시 시도하고,
+        # 언제부터 비었는지만 남긴다 (2026-10-25 검토: 0건이어도 하루를 넘겨 조용히 사라질 수 있었다)
+        prev.setdefault("deals", [])
+        prev["empty_since"] = prev.get("empty_since") or today.isoformat()
+        OUT.write_text(json.dumps(prev, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        print(f"[secretflying] 공개 서울 출발 특가 0건 ({prev['empty_since']}부터) — 다음 수집 때 다시 시도합니다.",
+              file=sys.stderr)
+        return 0
     deals = merge(prev.get("deals", []), items, today)
     OUT.write_text(json.dumps({"fetched_on": today.isoformat(), "source": SOURCE, "seen_today": len(items), "deals": deals},
                               ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

@@ -36,8 +36,16 @@ jobs:
       - name: Test
         run: python -m unittest -v
 
+      # 뉴스 검색이 전부 실패하면 collector.main이 1로 끝나고 deals.json을 그대로 둔다. 그래도 시간표·Secret Flying
+      # 갱신과 배포는 계속하고 경고만 남긴다 (2026-10-25 검토). 화면은 마지막 수집 시각으로 오래됨을 알린다
       - name: Collect
+        id: news
+        continue-on-error: true
         run: python -m collector.main
+
+      - name: Warn news failure
+        if: steps.news.outcome == 'failure'
+        run: echo "::warning::뉴스 수집이 실패해 행사 데이터는 이전 그대로입니다 (시간표·배포는 계속)"
 
       # 인천공항 출발 시간표. 키가 없거나 API가 실패해도 행사 수집·배포는 계속한다 (이전 flights.json 유지)
       - name: Collect flights

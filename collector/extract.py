@@ -311,15 +311,20 @@ def extract_travel(title, pub):
     try:
         m = _TRAVEL_END.search(title)
         if m:
-            mo = int(m.group(1)) if m.group(1) else pub.month
-            y = _month_year(mo, pub)
-            return None, date(y, mo, int(m.group(2)))
+            if not m.group(1):
+                # 월 없는 '5일까지 탑승': 판매 날짜와 같은 규칙으로 이미 지난 날이면 다음 달 (2026-10-25 검토: 10/24 기사가 10/5로 나왔다)
+                return None, _resolve_parts(None, int(m.group(2)), pub)
+            mo = int(m.group(1))
+            return None, date(_month_year(mo, pub), mo, int(m.group(2)))
         m = _TRAVEL_MONTHS.search(title) or _TRAVEL_NEXT_YEAR_MONTHS.search(title)
         if m:
             nxt = m.re is _TRAVEL_NEXT_YEAR_MONTHS or bool(m.group(1))
             a, b = (int(m.group(1)), int(m.group(2))) if m.re is _TRAVEL_NEXT_YEAR_MONTHS else (int(m.group(2)), int(m.group(3)))
             if 1 <= a <= 12 and 1 <= b <= 12:
                 ya = _month_year(a, pub, nxt)
+                # 해를 넘는 범위('12~2월')를 그 기간 안(1~2월)에 쓴 기사는 지금 겨울이다 (2027-01 기사가 2027-12로 나왔다)
+                if b < a and not nxt and pub.month <= b:
+                    ya = pub.year - 1
                 yb = ya + (b < a)
                 return date(ya, a, 1), _month_end(yb, b)
         m = _TRAVEL_QUARTER.search(title)

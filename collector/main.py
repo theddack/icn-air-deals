@@ -69,6 +69,22 @@ def summary_facts(item):
             "evidence": evidence}
 
 
+# 제목이 한쪽에 포함될 때 같은 기사로 보는 조건 (2026-10-25 검토: '에어부산얼리버드특가'처럼 짧은 제목이
+# 지난 행사 기사에 붙어 다른 행사의 판매 기간이 채워질 수 있었다)
+SAME_STORY_RATIO = 0.7
+SAME_STORY_DAYS = 3
+
+
+def _same_story(k, key, pub_a, pub_b):
+    short, long_ = sorted((k, key), key=len)
+    if len(short) < 12 or short not in long_ or len(short) < len(long_) * SAME_STORY_RATIO:
+        return False
+    try:
+        return abs((date.fromisoformat(pub_a) - date.fromisoformat(pub_b)).days) <= SAME_STORY_DAYS
+    except (TypeError, ValueError):
+        return False
+
+
 def attach_outlet_items(articles, items, now_iso):
     """언론사 RSS 항목을 기사에 붙인다.
     - 제목이 같은(공백·문장부호 무시) 기존 기사에는 요약문 사실값을 붙인다 (이미 있으면 그대로 둔다)
@@ -81,7 +97,7 @@ def attach_outlet_items(articles, items, now_iso):
         if len(key) < 8:
             continue
         target = by_norm.get(key) or next(
-            (a for k, a in by_norm.items() if len(k) >= 12 and (k in key or key in k)), None)
+            (a for k, a in by_norm.items() if _same_story(k, key, a.get("published"), it.get("published"))), None)
         facts = summary_facts(it)
         if target is not None:
             if facts and not target.get("summary_facts"):
