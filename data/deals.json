@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T23:14:16+09:00",
+ "generated_at": "2026-10-24T09:40:28+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,17 +10,17 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2505,
+  "rss_items": 2616,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1915,
-  "outlet_new_articles": 0,
+  "outlet_items": 1876,
+  "outlet_new_articles": 1,
   "outlet_enriched": 0,
   "articles_with_summary": 15,
-  "articles": 459,
-  "new_articles": 0,
-  "deals": 62
+  "articles": 460,
+  "new_articles": 1,
+  "deals": 59
  },
  "deals": [
   {
@@ -843,383 +843,6 @@
    "status": "live"
   },
   {
-   "id": "trinity-4e856ab3a2",
-   "airline_id": "trinity",
-   "airline": "트리니티항공",
-   "airlines_mentioned": [
-    "트리니티항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.twayair.com/",
-   "iata": [
-    "TW"
-   ],
-   "agencies": [],
-   "event_name": "국제선 얼리버드 프로모션",
-   "headline": "트리니티항공, 내년 1분기 국제선 최대 24% 할인",
-   "sale_start": null,
-   "sale_end": "2026-10-23",
-   "travel_start": "2027-01-01",
-   "travel_end": "2027-03-31",
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "트리니티항공, 23일까지 ‘국제선 얼리버드 프로모션’",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXNXoxRGt3S1gtYU9hcXg0bEdWUDQ4SGl1Y2Z5VGF0UURTUTBXa2lYVE1OekRJaEZidVRmV0JmVFdUd3U2OWZWRVZITkgzT2hUdVY5LXNZY3hhRTBiVUFxNlRta0xXZEMzd0E?oc=5"
-    },
-    "travel": {
-     "title": "트리니티항공, 내년 1분기 국제선 최대 24% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HVmZueXMyTmlRVXZIRl9zbnNLWmZaSUh4dWlKbWI4R0NvVE94aVBhMER2SUMwWGxNM2RqeFlISWx5dG9yNVhiUVpVdW1fdlUzNndFeVk3WDdpRHM?oc=5"
-    },
-    "discount": {
-     "title": "트리니티항공, 내년 1분기 국제선 최대 24% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HVmZueXMyTmlRVXZIRl9zbnNLWmZaSUh4dWlKbWI4R0NvVE94aVBhMER2SUMwWGxNM2RqeFlISWx5dG9yNVhiUVpVdW1fdlUzNndFeVk3WDdpRHM?oc=5"
-    }
-   },
-   "date_source": "title",
-   "from_icn": "unknown",
-   "discount": "최대 24%",
-   "verification": "news",
-   "first_published": "2026-10-10",
-   "last_published": "2026-10-13",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-19T08:45:21+09:00",
-   "articles": [
-    {
-     "title": "트리니티항공, 내년 1분기 국제선 최대 24% 할인",
-     "outlet": "에너지경제신문",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HVmZueXMyTmlRVXZIRl9zbnNLWmZaSUh4dWlKbWI4R0NvVE94aVBhMER2SUMwWGxNM2RqeFlISWx5dG9yNVhiUVpVdW1fdlUzNndFeVk3WDdpRHM?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "[플라이H!] \"내년초 여행 미리 준비\"..트리니티항공, 국제선·지역 공항 동시 할인",
-     "outlet": "한국정경신문",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9qb2h0bk9ydEhqNDRzVmlKVUZIbEpJUnhYdlBmWE55VUs4cDY5SzhZVXlOUkJFdzVqRmd2bDBETXNqR3EtdWI5UTU4NEVOQVByQXc?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "트리니티항공, 23일까지 ‘국제선 얼리버드 프로모션’",
-     "outlet": "경북도민일보",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXNXoxRGt3S1gtYU9hcXg0bEdWUDQ4SGl1Y2Z5VGF0UURTUTBXa2lYVE1OekRJaEZidVRmV0JmVFdUd3U2OWZWRVZITkgzT2hUdVY5LXNZY3hhRTBiVUFxNlRta0xXZEMzd0E?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 국제선 얼리버드 프로모션 실시…항공권 최대 24% 할인",
-     "outlet": "뷰티트래블뉴스",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUTdsVGpsVk5GWmhjbzZEeGdZVWRlLUg4cHhTUExpcVlHNnMxSm5qTDJjOE5ZSEpPWHJ3OGZHQUNuX3lKaVVkWmdxQV8tWlNfTmJ1YnNYWDRVbXBvLV9kUFRCQjc1YWk2UjROT29uNFlCVUdZN2JoSWhBMHFPazJ5Qjh5R2toZw?oc=5",
-     "published": "2026-10-11"
-    },
-    {
-     "title": "트리니티항공, 국제선 얼리버드 프로모션 진행",
-     "outlet": "로이슈",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1LTFJKd19HQVFqS2lSeHJGUVI4SHlac3FjR2ktRUdYSUxZbzdhYmlKNzR6aHVqcFRsV1RURnFwN19nSnVURVB6WFp6MVlsSWRVRXh1VkZSQ3ZmNVNOT3R5YVlfMmxZTThnTFQ2bEk3RWhuQ3VmQnVmSlVB?oc=5",
-     "published": "2026-10-11"
-    },
-    {
-     "title": "트리니티항공, 내년 1~3월 국제선 얼리버드 할인…최대 24% 적용",
-     "outlet": "포인트데일리",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBU3c2bHFBQ1Q3S3IzRnBCMmpMTWtBaGFnVGhUcXBCeW12WC1XZ3N2QlozSDVJTWVTS3NsUVpSR0hJcmFkOXBfa2hLMHJiRXYxc0RtX3kzTEZpLTMxSkg2bmQzZjgtdElBV2M0YUdGaETSAXRBVV95cUxNc1I1dEo4aWFUWTBFQlB4VnoyTWpEODVfXzFvRmJmRXZFOGFpSUV6TVN3c3o1OHRmLVFoUjBrR1U1YTJqVTNRTnVabDBtV3RoRmVWMFozcDVVemR0c1lNeEFDZmdLR216VnlxZXRCSmx6enBETQ?oc=5",
-     "published": "2026-10-11"
-    },
-    {
-     "title": "트리니티항공, 국제선 ‘얼리버드’ 프로모션…내년 초 출발 항공권 최대 24% 할인",
-     "outlet": "핀포인트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02VUFscm1ONktZY3BwWmZsRzVIOFMxbEtwbERBRlJWdWRFclhLakNocVJ4MVcxQW5JeHlwbjZYb1FvSnN6cHVEYmY4bzE5dTdoNmZMdjNuSnZoOW5DUjFoVHJqMTRlay1jcWo3RTBxWnBRazDSAXdBVV95cUxORmNGLTNnMk1ac3lBRm9jMDF6a0M0elB3bVQ1RWZmQlVjYndGamY1QWlmY0Z5d05idUhFS3NCLTBaMzdzeU9XY1RpaVgyOVhjbDByTEdVeHQ3YWMyLU9rZnZvcFdwRmtacFY0b3k2Y1RqZTl4dnpCbw?oc=5",
-     "published": "2026-10-11"
-    },
-    {
-     "title": "트리니티항공, 2027년 초 국제선 최대 24% 할인",
-     "outlet": "비건뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9jOFVqeFN2dHdobkZEc2lNSU1GNDNkdExNVkViVjRnQmFWZjYyZEVGYlZucmJlcFZORzVmdlBlaDVkRzNRNmJYTkJGNVg1ZVZrOV9KNkF4Zk1sWG9JZkJQR3V0NFlLdw?oc=5",
-     "published": "2026-10-11"
-    },
-    {
-     "title": "트리니티항공, 국제선 얼리버드 프로모션…최대 24% 할인",
-     "outlet": "경북매일",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DUlFwZDNta0VyLUF0UGZVRlBqcndpTTZCX0IyMTE5dk9oZDdLSnZNNVFIZmlaUklkMTJ4SDNrbjFrYmg5NG1DS2xLbVE2T3RSWG5YQnZKVDJCdw?oc=5",
-     "published": "2026-10-11"
-    },
-    {
-     "title": "새해 여행 얼리버드 잡아라…트리니티항공 국제선 프로모션",
-     "outlet": "스포츠서울",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3ekxhb2FpaEd6a3RZeFJSY0tiajRLeGctWG1sdm41cmYxUk10aFFMWjd5aUY5RjV3Q1JEUDY0Z0hVbjVDZ2p0WTd1aVpieF9ORzk2ZHROZHY?oc=5",
-     "published": "2026-10-11"
-    },
-    {
-     "title": "트리니티항공, 내년 1분기 탑승 항공권 대상 국제선 ‘얼리버드’ 특가전… 최대 24% 할인",
-     "outlet": "인더스트리뉴스",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDR1loOFRkQzZuQ011ZERoaWJyaE9tZTYwdEppQ2N2TVFDQkNYdS1URDA4aUJIXzdUdTdGYVJSOVJlSlh5RlJwaWN1am5XbXMwdEIxekRrSHlGVmdQRnRJSU9iNXhqbkVRRmJQX2czZHVqUQ?oc=5",
-     "published": "2026-10-10"
-    },
-    {
-     "title": "트리니티항공, 국제선 항공권 얼리버드 프로모션 펼쳐",
-     "outlet": "메가경제",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54RjRwQU5yOGNoY042dmZ1WXRpZFpMTHc0bExLVG0yeGFNb1FXeVdXY29rcGtsVmpJR0J3X2lTOEhjZ0pVRnA1bkhHd2EzQ2FSX3FOQzBxODhuSXlycTRvQUtqdlN0aHlZazlzbC12dTFwQdIBckFVX3lxTE54RjRwQU5yOGNoY042dmZ1WXRpZFpMTHc0bExLVG0yeGFNb1FXeVdXY29rcGtsVmpJR0J3X2lTOEhjZ0pVRnA1bkhHd2EzQ2FSX3FOQzBxODhuSXlycTRvQUtqdlN0aHlZazlzbC12dTFwQQ?oc=5",
-     "published": "2026-10-10"
-    },
-    {
-     "title": "트리니티항공, 국제선 얼리버드 프로모션",
-     "outlet": "잡포스트",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrVWRZWE5kMnZ1SGs4WE5OeWh5Q2w2N1QxMi1MRkNGQkhXN2lYSXpiNW9NMm41amlkdmxqOFZnQnBod3M3eDRBUjY1ZjZOYWUtc3F0T1VDSkZkYmM2bXFEZXRTNFl5WWhpcnVDd0Fn0gFyQVVfeXFMT3ZmUUwwSk9xaXI2MVdHZWFYTC1NNjl3dGt4dzRYRjFVR0MtX1lhYlBYdXZhSTZKWVRiNDdCRjBnVWg3WnUzQmV3T0NrUFpzT25aOEhrMVQtTTlJODNQaXo2ZXNyb3FNVk8xVnFVTEhjWERB?oc=5",
-     "published": "2026-10-10"
-    },
-    {
-     "title": "항공권 할인도 '타이밍'... 트리니티항공, 23일까지 얼리버드",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LNExkeWNiVWp5WmpCcHhPYnBUYmRFdDFtZ3puVVZpS21NdzdCZWNmc3gwRFlYN2VJRWp0aV91NlUxcmhaQUZhYU9ldVdmQnVfalVxcjk3VmFwRkRPZWNFdzlaRmVFYlpnbGtaYQ?oc=5",
-     "published": "2026-10-10"
-    },
-    {
-     "title": "트리니티항공, '국제선 얼리버드 프로모션' 실시...최대 24% 할인",
-     "outlet": "월요신문",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zQXJHelhOTjBmTW9nQWNNY0txODhNbFNTS0h0a3J2elNsdGYwX0JzS3dFa2txU0VPckQtMlkzWkpqM2V2UG13bTBxd0czRzdmMEZzaEtZblNFckUzVFd2Y3NCNkpKUVVZRkE?oc=5",
-     "published": "2026-10-10"
-    },
-    {
-     "title": "트리니티항공, 최대 24% 할인 '국제선 얼리버드 프로모션'",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04Q2k5U0NRUG5nbGsyenhSSGpYUUFoODZNVTdKdFV4T1E4bG1WbG9yamVuZEtKUjBndHRKN3BYQ2xqM2NYY0ViSnl1Z3A1ejhsaEljMjRYazh2NnduSEdJMHRBWEk4UQ?oc=5",
-     "published": "2026-10-10"
-    },
-    {
-     "title": "\"내년 초 여행, 미리 준비해볼까\"…트리니티항공, 국제선 얼리버드 프로모션",
-     "outlet": "더팩트",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RQmRaRk9udnhFLXE2SXFwY3dPZ21RUWVJa1k3ek93WGVLZzhxV0swWXVJZWhSSzdnMU45OERPRGdVZVNpMnZic3otaEtYRnY1aHVLQmNhbl8wUdIBVEFVX3lxTE1aT0R0QnJTUnFYbG1iM1IyekJiQ3FLMVI2bEdqR1pDUWFqUHhST0ttSm5TNVFPcEJXRWR2MHJxRVhfdzlLRjB4cjB4TGc2QUJsTG9aNQ?oc=5",
-     "published": "2026-10-10"
-    },
-    {
-     "title": "트리니티항공, 내년 1~3월 국제선 항공권 최대 24% 할인",
-     "outlet": "에너지경제신문",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PbFRkajVfTm5aekJSSjRIdGhqbWNNQlRDZjJCOTlZb2xvOFZmejdzaURYYlhqbWttVHpPb0Zva2RPVTN3eVNzbkZzWUhoNzBfWlBGQmFOZzQzSGc?oc=5",
-     "published": "2026-10-10"
-    },
-    {
-     "title": "트리니티항공, 해외 노선 ‘얼리버드 프로모션’ 시행…최대 24% 할인",
-     "outlet": "헤럴드경제",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LUW9hVUhlX3ZpazRMemhaYU9DT3RvRWlaNEZwLVVsdmZPTkVGOEp5NUhfbWt5OEFFYnJrWmtkdGo1MHNuYnY2Q2FjeUdxNzBXcFVUNTdn?oc=5",
-     "published": "2026-10-10"
-    }
-   ],
-   "status": "live"
-  },
-  {
-   "id": "trinity-c45e6768bd",
-   "airline_id": "trinity",
-   "airline": "트리니티항공",
-   "airlines_mentioned": [
-    "트리니티항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.twayair.com/",
-   "iata": [
-    "TW"
-   ],
-   "agencies": [],
-   "event_name": "우리 동네 할인",
-   "headline": "트리니티항공, 23일까지 ‘10월 우리 동네 할인’ 프로모션…부산·대구·청주·제주·광주 출발 항공편 할인",
-   "sale_start": null,
-   "sale_end": "2026-10-23",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": "광주(KWJ)",
-     "destination": null
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "트리니티항공, 23일까지 ‘10월 우리 동네 할인’ 프로모션…부산·대구·청주·제주·광주 출발 항공편 할인",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84S0dURHpyZjF5TS1sTmstWjd0cXpwTTFpSkxscEZBWE93dTJuczNZbDJSVkw0SzMtblB6aG5vQy02S1RoN2J0d2t3bTcyTVJBbFpNd1BNbzdUTDJOdTBrM1F1Vjkzb2RpV1E?oc=5"
-    },
-    "discount": {
-     "title": "“우리 동네 공항에서 떠나면 최대 2만원 할인”…트리니티항공, 지역 출발 항공권 프로모션",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MeHNIamtyeFVseWJ1NlphMHRDakRkT1JJN0EtZVd6M2VKd1FSWTQwdHpJYVZaaldRVl9xeDZqaW5MZ2J4SnJicmlyUjM2cFlfSFc1b0lSNXBoVTVPaTczcVQyaHkzRWwxTmNxY9IBbEFVX3lxTE1MeHNIamtyeFVseWJ1NlphMHRDakRkT1JJN0EtZVd6M2VKd1FSWTQwdHpJYVZaaldRVl9xeDZqaW5MZ2J4SnJicmlyUjM2cFlfSFc1b0lSNXBoVTVPaTczcVQyaHkzRWwxTmNxYw?oc=5"
-    },
-    "route": {
-     "title": "트리니티항공, 23일까지 ‘10월 우리 동네 할인’ 프로모션…부산·대구·청주·제주·광주 출발 항공편 할인",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84S0dURHpyZjF5TS1sTmstWjd0cXpwTTFpSkxscEZBWE93dTJuczNZbDJSVkw0SzMtblB6aG5vQy02S1RoN2J0d2t3bTcyTVJBbFpNd1BNbzdUTDJOdTBrM1F1Vjkzb2RpV1E?oc=5"
-    }
-   },
-   "date_source": "title",
-   "from_icn": "no",
-   "discount": "최대 2만원 할인",
-   "verification": "news",
-   "first_published": "2026-10-10",
-   "last_published": "2026-10-15",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-21T17:32:23+09:00",
-   "articles": [
-    {
-     "title": "트리니티항공, 23일까지 ‘10월 우리 동네 할인’ 프로모션…부산·대구·청주·제주·광주 출발 항공편 할인",
-     "outlet": "경북도민일보",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84S0dURHpyZjF5TS1sTmstWjd0cXpwTTFpSkxscEZBWE93dTJuczNZbDJSVkw0SzMtblB6aG5vQy02S1RoN2J0d2t3bTcyTVJBbFpNd1BNbzdUTDJOdTBrM1F1Vjkzb2RpV1E?oc=5",
-     "published": "2026-10-15"
-    },
-    {
-     "title": "트리니티항공, 지역 공항 출발 항공권 할인…23일까지 ‘우리 동네 할인’ 진행",
-     "outlet": "뷰티트래블뉴스",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZHJJc1c4UVd4OGZjLUlBLU1WcVlRYXVTMmpiNHViWUFzTHhZZjJ2VnVSbDliOVRySzdHTlkxRXdxRWRmMUZYQ1NSM3BNSGtFTnBsejhCaDFaN0U2bkMxSWRsc2U3eTl3WE1EazA3ZGVZSGZRaTZ6cmpza0k5bzFFT2w1Q2VEQQ?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "트리니티항공, 지방 공항 출발 노선 대상 ‘우리 동네 할인’ 프로모션 실시",
-     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kdERRdkxIMUtsM3YxRldGbDg0aEdMQ1poczc3cUZWZnZQYVFfSTNkUjZpX0N6SFZMNW1nSEM2WUdJSVlVMklHa25IU0Zua09BeHczdFVQYmh0cWJiUnUyc3VhUnZhYWxPeVB3LUNLSHNTZw?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 부산·대구·청주 등 지역공항 출발편 할인",
-     "outlet": "신아일보",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ybUxDZUxnY3dnT3dNWVR6b09PN0NsZDZvQllUdHJVVHN2dW0wUlVxczN5SDhTT0ZlVXpaeGhDanRHd1o0WXYyQVJRSEF6UzAxVFRjVXQ0bVktQ3ctdDFjbDUwYnVoMTFYNmkwRGxmdWs?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 10월 ‘우리 동네 할인’ 프로모션 진행",
-     "outlet": "오늘경제",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96bE1reFdNNkVWWWJiUTdWdnd6cGJLc0FVTEFxc0o4bkRoNDZvandSV2ZONURzMWotUlNhZGllbXMyUGNKa3BoVENHLTB0QlhkS0JrY3R3eHJPUmYtVUREUzR5bFQ2Mk1mSWNuYVVKbng5WTg?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 지역 공항 출발 항공권 할인 진행",
-     "outlet": "인사이트코리아",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BSUhrbWtaaC1salV0cDkwQ1k0aDZyYTJBd0MwVkNqLVkxT05INjBVQnZ4c3lVSG5hajJUZF9xc19WTlpDVW1nRmxWN0d4RGR0V0dUaFhBMVp4RG9QbG9QQzFyX3g1cFpncXJsRVlodEtRWlXSAXdBVV95cUxQdENJbExaUlY0SGJxcE9udzZuOGN0M0dKV09rZ0VvNXM4N0lKTThSVTFmcWIzU3ItYk4wOHhTTC1DZ0d5WEpRdDBKS3JYYVhIVFFiLTlaRmRUbTlhV2hadHNEVXZpc040UXhYalBIaEZ5YjVaY0FfRQ?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 부산·대구 등 지방공항 출발 노선 할인 행사",
-     "outlet": "뉴스프리존",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE41Wm5IMDNjSzQtMEVZdEthdjRiMkFuYmx6bGpUYnZiYXJSVF9GTXZHZjE2RU5tTTM0WjJQQ3hyZFJrd1dlOUpETlhubnA3Y0d4RzdDUEhiZG1MdXFNN0V4bUdydUp4N0g4ZDZEdmd2QXViUWvSAXdBVV95cUxNYTR2SVNtLTJaOElkQnQ2UWNXVDMxSUttOUw0eDZ1ckZwWFZEN2FhSkhFaTBIcXF5TGI2NUFocmo1V0dGcVluWm1GWVFTRUhKdWVmaW9oN0NqcFNuMnJnZ2FPRzNGQUpaTnZnbkRmQ2EyMkx1cVNGQQ?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 지역공항 출발편 할인…부산·대구·청주 대상",
-     "outlet": "아시아투데이",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RWnhRbkluQmxlVmlNRTJ0SFFoVG9IZ2pkWjRiUThBbXl6dTA1bnlDUEl2RXdnY29fLTNydWVpS1J4WGhiTVA1R0F1ZjZ3dlZBT3J0OF9SZzlXeTBqSHJCNDNkaWRYNWhpQnFwRzRB?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 부산·대구 등 5개 공항 출발편 할인",
-     "outlet": "스마트비즈",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NSVprWXJfaTVpc2ZCV2VVR29OeC1iWndMb2Q5RXRYbkd0MVl3bW93NWcxTktYOVhCd25mWWJ2eDRxMlJkamsxSktNVUtJWVR3dkV0aWRqMlBMeHNCbHFQQ1RvU0E2XzM2WmJSNw?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "지방공항서 떠나면 항공권 할인... 트리니티항공, 최대 2만원 쿠폰",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zVkZ6VHlKX2Jfay1FWXZWN2pnemVYNl8yQzRNVWZYX2xIN2dpSUtaSTNIOU9fTjVQRzVaSG1MSmhYbEFJWE1rYjFlVGJWMzhjOHFUOGkyWGxwTm9hQzZwRGdQaURGS3RoQkJNUQ?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "“우리 동네 공항에서 떠나면 최대 2만원 할인”…트리니티항공, 지역 출발 항공권 프로모션",
-     "outlet": "더게이트",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MeHNIamtyeFVseWJ1NlphMHRDakRkT1JJN0EtZVd6M2VKd1FSWTQwdHpJYVZaaldRVl9xeDZqaW5MZ2J4SnJicmlyUjM2cFlfSFc1b0lSNXBoVTVPaTczcVQyaHkzRWwxTmNxY9IBbEFVX3lxTE1MeHNIamtyeFVseWJ1NlphMHRDakRkT1JJN0EtZVd6M2VKd1FSWTQwdHpJYVZaaldRVl9xeDZqaW5MZ2J4SnJicmlyUjM2cFlfSFc1b0lSNXBoVTVPaTczcVQyaHkzRWwxTmNxYw?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 지역 공항 출발 노선 대상 '우리 동네 할인' 진행",
-     "outlet": "비즈니스플러스",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBvRjl6VjhwaFRSQmx2Wm9aYXhrQ1ZES0NrX21UMzVNWnhTSWhTYlVVeGxzRU1tV05BdjVJRzE4ZXFPeENRQldNRTFXTlhnVFl5cHpNb242eHh1R1Axd3JWZzNBOVRLcGxnNzlORFA4UQ?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "'최대 2만원 혜택'…트리니티항공, 지방 출발 항공권 할인 프로모션",
-     "outlet": "컨슈머타임스",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NUmIzTG1WLTQ1TWpwM2VqZUUzNjNiMWRySlhDZkxWdUNRQlhEcHdQak1meEd4V0JIb1c5aVdZVmtLYjQ2RzF6NFdxdkxlMjl5QV9mbXVRR25DVFNoREpqaklqaVg0MzdOclE?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 지역 5개 공항 출발 항공권에 할인 쿠폰 제공",
-     "outlet": "서울경제TV",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3WG94R3VPMkxKMTMtMU9qbnFERENSZlhvR2NncGpaZk5hUFdVWW9nSm9mT1ZIUm41ZVp0RHhtMmJQNy1qZWs3RlNobjlxaDlYajlnQmpkQlVaRXdDVENxcXF0MUtCSFpZU2E0?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "“지방공항 출발시 할인” 트리니티항공, 이달23일까지 '우리동네 프로모션'",
-     "outlet": "CatchNews",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9OdHFON3g3Q1pxTTIwaXJOYnR6OVBxVjVZZUpEekJEMnN0bE4zbTFnLUY0WkxlWmp0UzBsTzdhUFlUel9MTWVwbDZBRjJHa2s0OUlTaFlNMjlNNXdGc2RSSHFmMVJUaXFtWHRN0gFvQVVfeXFMTWpWanN3a3hIZDJQalNzZWxnZ3hoeHZiaVhvZ29JNFZPaU9jT2xWUUNHcjlaaFN0dmtjaWFMMk5GUzhTeURQM2NUcHRaTVlfNklBallVLTItVXF6X2pSeGR1Z0V0NXJPMkJJSnl6clpj?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 지역공항 출발 항공편 할인 프로모션",
-     "outlet": "메트로신문",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmWHNZZ3dVNGRScjBRTFZsRFRTTndOZkdndnVNREpOZlZzT2VFSmpaY3Y4UGs0STI3d1hhemg4SDhvSi1pNXBxZTZ3OEdRNWpvX3laZ1JhY2EyODB1TU15SA?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 23일까지 '우리 동네 할인' 프로모션",
-     "outlet": "뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tZUxxeGJZS2R0VEZnZmZXSnp6NG55bDMyVG9UUzlfdGd0ZExFbEVZZmtJZ2F6QXpRR2d4Z1V4QVVhMFAxV2tOdGR3ay1CdkFzZ1VmbWljNm1xYzFiQy0tTNIBeEFVX3lxTE41UkJCcmtrZ214Wkh4RVZZWk4zRVB1YmVSWV90d1BLODZZOUVIT2J1X292Qy1ITDJNQk8tcVB3N2FlVHhNeWtoRVBtUm1fV3l1YVRveGZocC1NcWxQNEE1aGdteGRkWnh1QTBDYkJqakdZWEZDS3ppZg?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 10월 '우리 동네 할인' 프로모션 진행",
-     "outlet": "뉴스핌",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xSV9fNE9pSkZsSU5nSW41ZGxmZVBlM0o5MHlGamowNUZZX091eERXREREd3lRbUN2bVlGSC1TcnZ3N0F2WXJ5Sk15WUxCY2RWQVFCdHlQZmF3SVZ2?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 지역 공항 5곳 출발 항공권 할인",
-     "outlet": "스마트투데이",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IeXRrMXJPY0dVb3l5eDdXYUhCcVJDVGVGX1lIc2hSSlpIZFBjbDc4X0ZOQ00xRktocXNZVzNWNG1ySWd2NlFtREJOYmhGeGN2Q29ocVdQRktiTWF5bDBJ?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 지역공항 출발 항공권 최대 2만원 할인",
-     "outlet": "브릿지경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjTldxWk5VVUk3aVFaVXBLMjVteHhOZ3JFUEJQOTBvcXR0RGVKVXlFUUtQMjRGNXJteGl4RG5pcXZGRDc1TlQxLTdIMmpBQ29iTkExSEwxeUVxZw?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 지역 출발 항공권 할인 프로모션",
-     "outlet": "경북매일",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wdkU4dWxDQ2haaUlXR25UcDJ4S0dueWlWdWpOc1ZfclkzSWNuRjVuRDhxaGphZFNiTm1HT3kwbUtFQ2NCS0phRTVxNGwyNVFfcU5mUGliNHk3dw?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 지역 공항 출발 항공권 할인",
-     "outlet": "더팩트",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0a1F0cS1kV290ZUMtUGlMenlhUmZCRzQwb0MwajdmMDV0TUtrWE50T0ZBbDY2Uk9OUl9CMEhTaWk2b2Nwdy0yUm9qYTRJZEtZRTZZOdIBVEFVX3lxTFA0a1F0cS1kV290ZUMtUGlMenlhUmZCRzQwb0MwajdmMDV0TUtrWE50T0ZBbDY2Uk9OUl9CMEhTaWk2b2Nwdy0yUm9qYTRJZEtZRTZZOQ?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 지역 공항 출발 항공권 할인 프로모션",
-     "outlet": "아이뉴스24",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZamg2ekd0aFVYVHZZcmZGZERYdXVnYnNGakVfMENtR1hzaW5DazlYVUhxOVZtMDNZUF9EWlc2bk1May1VNHdvT3Z0aw?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "트리니티항공, 10월 ‘우리 동네 할인’ 프로모션",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rNEI3cUVLXzNHUFpRUjMwdkI5SEhpMExXSDBxUkNBb3R5bnhrTUFZU1dzUXI5MkltT0c1aWFQaDJLNUZQNEdValdQVEZTbnNPQ2dpaTdtME83dktGYURTYVZzR0VnUQ?oc=5",
-     "published": "2026-10-10"
-    }
-   ],
-   "status": "live"
-  },
-  {
    "id": "airasia-52c40ce69d",
    "airline_id": "airasia",
    "airline": "에어아시아",
@@ -1702,80 +1325,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "klm-6b572765fa",
-   "airline_id": "klm",
-   "airline": "KLM",
-   "airlines_mentioned": [
-    "KLM"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.klm.com/",
-   "iata": [
-    "KL"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "KLM 창립 107주년 기념 ‘107번째 델프트 미니어처 하우스' 공개, 항공권 할인 프로모션 실시",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "date_source": "none",
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-06",
-   "last_published": "2026-10-09",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-18T21:49:43+09:00",
-   "articles": [
-    {
-     "title": "KLM 창립 107주년 기념 ‘107번째 델프트 미니어처 하우스' 공개, 항공권 할인 프로모션 실시",
-     "outlet": "이로운뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zZUlxSEF3S1dibS0ta0hRT0lZUDBIZGF4LUJEWUpocmVvb1hnQl9YV1hmd1pJVkVjUnBQMXd3V09NTGtGcDliQlZZbU9SdjZhNTlkVFVKUVhuOXozdWdYbXl3X1BaYUU?oc=5",
-     "published": "2026-10-09"
-    },
-    {
-     "title": "KLM 네덜란드 항공, 창립 107주년 맞아 특별한 미니어처 하우스 공개…항공권 할인 프로모션 진행",
-     "outlet": "뷰티트래블뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zR1ZkNmlmaU5kZWFJNTlabGxxOC1IODdFbzhmem9veFF1YUw5ekRXZ3E0V0ZGSVRqZnNHdE95alhhY2RZUTZDbk1jb3NHX1Voa3p2OHF3enNSbmtEcDdHMUFESU9wV3MtREVMTS1n?oc=5",
-     "published": "2026-10-08"
-    },
-    {
-     "title": "KLM, 창립 107주년 델프트 블루 미니어처 하우스 공개…선착순 할인 프로모션 실시",
-     "outlet": "팍스경제TV",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE81S2w4SHV5UlBhblpGa2Q5WEpFY2prQW9pUUxJeGRRT3Y4eUdoSnVHQTI4Tm8zV083a1JEeS1jTm9IUWtTMEtMcUdYTkdQYmZlcjVXQ1F2YjZMZG9qc0IwR1JlWXZzbXM?oc=5",
-     "published": "2026-10-08"
-    },
-    {
-     "title": "KLM, 107번째 미니어처 하우스 공개…항공권 선착순 200명 할인",
-     "outlet": "뉴스1",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WSkdQckRFbzktUDVFVEY4aDVwM1hZQW4zUzNXc2gwcHAtUlpnaE5zaFE1THBhTjhOdlhuQ29QaktfWTRmNXlQd21wVDZkQWlIRkJ4a1hTbURjQ2lycEY3Mg?oc=5",
-     "published": "2026-10-08"
-    },
-    {
-     "title": "KLM, ‘107번째 델프트 미니어처 하우스’ 공개→선착순 할인 프로모션",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE16M2Q3a0JEdXY0MlRaLXFGRTZxUW0yQUhzSERSTGJoWl9xbE5fbXozaFczZU50OHA5d3FOMjdCWHQzRW9wS1VVOFd3a29JMnBMazQ5eEhPRVVOQW9YSmtqYWhOY3RyUQ?oc=5",
-     "published": "2026-10-06"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "turkish-ed654b3dcf",
@@ -3304,184 +2853,28 @@
    "status": "undated"
   },
   {
-   "id": "h-stayfesta-7e0434c21a",
-   "airline_id": "h-stayfesta",
-   "airline": "숙박세일 페스타",
+   "id": "jejuair-778daf7c87",
+   "airline_id": "jejuair",
+   "airline": "제주항공",
    "airlines_mentioned": [
-    "숙박세일 페스타"
+    "제주항공"
    ],
-   "kind": "campaign",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "domestic",
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": "2026 숙박세일 페스타",
-   "headline": "“가평에 여행 오시면 숙박비 할인해 드려요” 가평군, ‘숙박세일 페스타’ 10월 1일부터 선착순 접수",
-   "sale_start": "2026-10-01",
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "가평",
-    "비수도권"
-   ],
-   "conditions": [
-    "쿠폰",
-    "선착순"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "“가평에 여행 오시면 숙박비 할인해 드려요” 가평군, ‘숙박세일 페스타’ 10월 1일부터 선착순 접수",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wQkpkR0hBNlZVNmZrZmtlamc0SU9qN0Y2VElPN2ZUVWlHTnhPbFRCUWhJajMwUnlJRlV3OVN5Q2JhM1NKQ1BpZUkwb3JkWHNDSnY0MEVEVXhyOGJvR1paQV94VFNuT1RZMWNCelJ3?oc=5"
-    },
-    "discount": {
-     "title": "양평군, 가을 '2026 숙박세일 페스타'…최대 3만원 할인쿠폰 제공",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RcGQzTVl2WFQyaXZwS3NMbDJhOElGQXlvUWNDZk5ORFo5NTZmdHRCZ3U2MTRMdC1fenMzWms0cVhqcHZkV28xNHJGbGRzcVFkOWczZzRtNHlwSE5LUXVlNnpubl9WZGFvTjlV?oc=5"
-    }
-   },
-   "date_source": "title",
-   "from_icn": null,
-   "discount": "최대 3만원 할인",
-   "verification": "news",
-   "first_published": "2026-09-21",
-   "last_published": "2026-09-23",
-   "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-19T17:08:36+09:00",
-   "articles": [
-    {
-     "title": "“가평에 여행 오시면 숙박비 할인해 드려요” 가평군, ‘숙박세일 페스타’ 10월 1일부터 선착순 접수",
-     "outlet": "서프라이즈뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wQkpkR0hBNlZVNmZrZmtlamc0SU9qN0Y2VElPN2ZUVWlHTnhPbFRCUWhJajMwUnlJRlV3OVN5Q2JhM1NKQ1BpZUkwb3JkWHNDSnY0MEVEVXhyOGJvR1paQV94VFNuT1RZMWNCelJ3?oc=5",
-     "published": "2026-09-23"
-    },
-    {
-     "title": "양평군, 가을 '2026 숙박세일 페스타'…최대 3만원 할인쿠폰 제공",
-     "outlet": "팔당유역신문",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RcGQzTVl2WFQyaXZwS3NMbDJhOElGQXlvUWNDZk5ORFo5NTZmdHRCZ3U2MTRMdC1fenMzWms0cVhqcHZkV28xNHJGbGRzcVFkOWczZzRtNHlwSE5LUXVlNnpubl9WZGFvTjlV?oc=5",
-     "published": "2026-09-23"
-    },
-    {
-     "title": "양평군, ‘2026 숙박세일 페스타’ 추진… 최대 3만 원 할인",
-     "outlet": "경인미래신문",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LYWdETEVhdEduQUZKUHJBcmRsUGhHWVBGTlFlUmJwVjJ1MG96M19PY1N2MnBkSUdLWUJHaUZtTHByRUpHalpSUklTZ1R6MUVJa2QxQnhqRk9NZ0VTYVJfVndR?oc=5",
-     "published": "2026-09-23"
-    },
-    {
-     "title": "가평군, 10월 1일부터 숙박세일 페스타…최대 3만 원 할인",
-     "outlet": "뉴스1",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LZFNHWFdsQXpQa3lvTFd0MHg1RThlSUdCcDBXLVNSYVFFanhvWEpKejNiWjZVbEZONGRXS04zOEw4MDJmeTdDY1dHckVKdzBLMEluMEVn?oc=5",
-     "published": "2026-09-23"
-    },
-    {
-     "title": "웹투어, '2026 숙박세일 페스타' 참여... 가을 비수도권 여행객 최대 3만원 할인",
-     "outlet": "비욘드포스트",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53OWNyT1BzSWJLYjRQTHdRWkxwQU9DcG1OMnFrM1V2cW5CR25qVVd1cGFqb3dLTDlKRzJEUWZ5WUtPX210d0NwUVJBRzE1TnFIQUE1dlVNNUVXUlZBMHV0LVlMVFUyZVB5ZjloN3l3UTdQcmtlMUFCbklPZG8?oc=5",
-     "published": "2026-09-21"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "h-stayfesta-a69a2c2d03",
-   "airline_id": "h-stayfesta",
-   "airline": "숙박세일 페스타",
-   "airlines_mentioned": [
-    "숙박세일 페스타"
-   ],
-   "kind": "campaign",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
    "route_text": null,
    "scope": null,
    "lang": "ko",
    "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": "숙박세일 페스타",
-   "headline": "“최대 9만 원 할인”…‘숙박세일 페스타’ 어제 시작됐다→최대 할인 적용받는 방법?",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "“최대 9만 원 할인”…‘숙박세일 페스타’ 어제 시작됐다→최대 할인 적용받는 방법?",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBGT3FxVTU4QnNOTDVYaFgyRnFqbHYzMHhqanJHTXEtNXlRVFdnSW1pblB4Ym9hM1JBWFk3SEVJWUhZTmdZbm9aX1lrR1dUbHJEb0RXZXpyMzZvXzFUalMtRmJoYVZzQmFaYW5sTkJvU1RiQQ?oc=5"
-    }
-   },
-   "date_source": "none",
-   "from_icn": null,
-   "discount": "최대 9만원 할인",
-   "verification": "news",
-   "first_published": "2026-09-22",
-   "last_published": "2026-09-23",
-   "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-15T13:00:04+09:00",
-   "articles": [
-    {
-     "title": "“최대 9만 원 할인”…‘숙박세일 페스타’ 어제 시작됐다→최대 할인 적용받는 방법?",
-     "outlet": "톱스타뉴스",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBGT3FxVTU4QnNOTDVYaFgyRnFqbHYzMHhqanJHTXEtNXlRVFdnSW1pblB4Ym9hM1JBWFk3SEVJWUhZTmdZbm9aX1lrR1dUbHJEb0RXZXpyMzZvXzFUalMtRmJoYVZzQmFaYW5sTkJvU1RiQQ?oc=5",
-     "published": "2026-09-23"
-    },
-    {
-     "title": "11번가, 가을 숙박세일 페스타 참여…국내 숙박상품 4만여 개 최대 9만원 할인",
-     "outlet": "직썰",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nRlNDQ0VoS2NIbnNMVGQtaXMySWowbkZRcC1hRGhpNENiZFZSTk1pcnBkLXN0aG9udnZNZExiOTN4QTVFaGdDN3JpRXF5NC1ZdXlRV3NERTRIQlgzcWFiel9pUzIxczFs0gFsQVVfeXFMUFhvQ3ptSWNoWkJVU04xRFBRZTBNeVZPak1XTWJJTG9YeWIySmY2X2FIeWN1anZxQktLdlM3TldPaGFnaGV0NXAwX0s2Wml2NlNVVUVGRnBfZWFCRnBGLVE1eWpkenlWdjdHNjB0?oc=5",
-     "published": "2026-09-22"
-    },
-    {
-     "title": "11번가, 가을 '숙박세일 페스타' 동참…국내 숙박 최대 9만원 할인",
-     "outlet": "뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE03WjM3OHBaRjZuZ2hYR0RfTmhmUnlXWklTcGNnWHQ1cEFkU0xWNTl1anBWN0RzNkY5NmtVZy1rZFlnWW0zeWVkWEFPaDV0NTFnRklIQVQzZ3l0SEZPcmt4btIBeEFVX3lxTE9qRHNGR25IMUhrdktKUllEMnJ3bl9KT1ZBMThfbDdWWG80d0RESUt1Z1dNQ0RjU0RwMVduLTdjbWU2WUxLelVQQTNPMVpGYzE2SFg5RTdnVjFReEpPczlaSWpINEI1NVpFaFBqYTVXTGNMSzhVdk5wQw?oc=5",
-     "published": "2026-09-22"
-    },
-    {
-     "title": "11번가, '2026 숙박세일 페스타' 참여…최대 9만원 할인",
-     "outlet": "지디넷코리아",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE41d3l6aUpGRy12MGpYYTNBRVM0dVYyeXkzVUM5c1laMkNXM1U1aUNZb2tmM3lXQnRkY1J0RkRUOURaYS1BQUVfeU1mVGZtcUlJU2t2Y3JB?oc=5",
-     "published": "2026-09-22"
-    }
+   "baseline": "flight",
+   "official_url": "https://www.jejuair.net/",
+   "iata": [
+    "7C"
    ],
-   "status": "stale"
-  },
-  {
-   "id": "h-other-18df832214",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "Up to 20% Off Discounts on Hotels of Disneyland Resort for Halloween & Christmas 2026",
+   "headline": "제주항공, 인천~센다이 내년 1월 취항...최대 20% 할인행사",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -3492,27 +2885,27 @@
    "conflicts": [],
    "evidence": {
     "discount": {
-     "title": "Up to 20% Off Discounts on Hotels of Disneyland Resort for Halloween & Christmas 2026",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM2lwMWpGT2JxYklyZnd1emU2b3FycjBYZ0xFOWQ0b0dod3FYMzZNYURlSjBOWU0ySTctR0NhYjdjbEFXdC1UbVgxNEZ5RjNtVWdkYkhfM2lBSlc1bExlTzg3T1owVGlyT0lRZEtMWUlRVnR5YWJaS2NpTUdFLXNqVmtRUnZiOVoxNEhXYUZpdkR5S21WNHd6LU9NaEd5cnVjR0R3NE5sekJvVmlscWVHaEVTUmJJTldq?oc=5"
+     "title": "제주항공, 인천~센다이 내년 1월 취항...최대 20% 할인행사",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=776014"
     }
    },
    "date_source": "none",
-   "from_icn": null,
+   "from_icn": "yes",
    "discount": "최대 20%",
    "verification": "news",
-   "first_published": "2026-09-23",
-   "last_published": "2026-09-23",
-   "first_seen": "2026-10-15T17:22:32+09:00",
-   "last_seen": "2026-10-15T17:22:32+09:00",
+   "first_published": "2026-10-24",
+   "last_published": "2026-10-24",
+   "first_seen": "2026-10-24T09:40:28+09:00",
+   "last_seen": "2026-10-24T09:40:28+09:00",
    "articles": [
     {
-     "title": "Up to 20% Off Discounts on Hotels of Disneyland Resort for Halloween & Christmas 2026",
-     "outlet": "Disney Tourist Blog",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM2lwMWpGT2JxYklyZnd1emU2b3FycjBYZ0xFOWQ0b0dod3FYMzZNYURlSjBOWU0ySTctR0NhYjdjbEFXdC1UbVgxNEZ5RjNtVWdkYkhfM2lBSlc1bExlTzg3T1owVGlyT0lRZEtMWUlRVnR5YWJaS2NpTUdFLXNqVmtRUnZiOVoxNEhXYUZpdkR5S21WNHd6LU9NaEd5cnVjR0R3NE5sekJvVmlscWVHaEVTUmJJTldq?oc=5",
-     "published": "2026-09-23"
+     "title": "제주항공, 인천~센다이 내년 1월 취항...최대 20% 할인행사",
+     "outlet": "싱글리스트",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=776014",
+     "published": "2026-10-24"
     }
    ],
-   "status": "stale"
+   "status": "undated"
   },
   {
    "id": "jinair-22fc70b13c",
@@ -5054,6 +4447,383 @@
      "outlet": "미주조선일보",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdUNkWUJSeVdHQjViRUI5djlKTElBWURiVlVsNHRwM0RoSUNxZnV4dTJHTS1FRnVzRHhBV183NlIzaG1uc2RoZC1lUjZhY1pRalJFUzFIenhCRGNPTmpLWDMydnE2Z1Aya2g0eXBFNjJYVHEzVlJFQ1kwUVZjUTBuZV9YY0Y4cndwY1dkTDN6TDE1SnloZjZrUzc0ZUNRNzdZamxfSlcyRUlRUTVUemNsOUg2bXM2UElFLUZHUjVGZXpOZlJr?oc=5",
      "published": "2026-10-11"
+    }
+   ],
+   "status": "ended"
+  },
+  {
+   "id": "trinity-4e856ab3a2",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": "국제선 얼리버드 프로모션",
+   "headline": "트리니티항공, 내년 1분기 국제선 최대 24% 할인",
+   "sale_start": null,
+   "sale_end": "2026-10-23",
+   "travel_start": "2027-01-01",
+   "travel_end": "2027-03-31",
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트리니티항공, 23일까지 ‘국제선 얼리버드 프로모션’",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXNXoxRGt3S1gtYU9hcXg0bEdWUDQ4SGl1Y2Z5VGF0UURTUTBXa2lYVE1OekRJaEZidVRmV0JmVFdUd3U2OWZWRVZITkgzT2hUdVY5LXNZY3hhRTBiVUFxNlRta0xXZEMzd0E?oc=5"
+    },
+    "travel": {
+     "title": "트리니티항공, 내년 1분기 국제선 최대 24% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HVmZueXMyTmlRVXZIRl9zbnNLWmZaSUh4dWlKbWI4R0NvVE94aVBhMER2SUMwWGxNM2RqeFlISWx5dG9yNVhiUVpVdW1fdlUzNndFeVk3WDdpRHM?oc=5"
+    },
+    "discount": {
+     "title": "트리니티항공, 내년 1분기 국제선 최대 24% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HVmZueXMyTmlRVXZIRl9zbnNLWmZaSUh4dWlKbWI4R0NvVE94aVBhMER2SUMwWGxNM2RqeFlISWx5dG9yNVhiUVpVdW1fdlUzNndFeVk3WDdpRHM?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": "unknown",
+   "discount": "최대 24%",
+   "verification": "news",
+   "first_published": "2026-10-10",
+   "last_published": "2026-10-13",
+   "first_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-19T08:45:21+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공, 내년 1분기 국제선 최대 24% 할인",
+     "outlet": "에너지경제신문",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HVmZueXMyTmlRVXZIRl9zbnNLWmZaSUh4dWlKbWI4R0NvVE94aVBhMER2SUMwWGxNM2RqeFlISWx5dG9yNVhiUVpVdW1fdlUzNndFeVk3WDdpRHM?oc=5",
+     "published": "2026-10-13"
+    },
+    {
+     "title": "[플라이H!] \"내년초 여행 미리 준비\"..트리니티항공, 국제선·지역 공항 동시 할인",
+     "outlet": "한국정경신문",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9qb2h0bk9ydEhqNDRzVmlKVUZIbEpJUnhYdlBmWE55VUs4cDY5SzhZVXlOUkJFdzVqRmd2bDBETXNqR3EtdWI5UTU4NEVOQVByQXc?oc=5",
+     "published": "2026-10-13"
+    },
+    {
+     "title": "트리니티항공, 23일까지 ‘국제선 얼리버드 프로모션’",
+     "outlet": "경북도민일보",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXNXoxRGt3S1gtYU9hcXg0bEdWUDQ4SGl1Y2Z5VGF0UURTUTBXa2lYVE1OekRJaEZidVRmV0JmVFdUd3U2OWZWRVZITkgzT2hUdVY5LXNZY3hhRTBiVUFxNlRta0xXZEMzd0E?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 국제선 얼리버드 프로모션 실시…항공권 최대 24% 할인",
+     "outlet": "뷰티트래블뉴스",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUTdsVGpsVk5GWmhjbzZEeGdZVWRlLUg4cHhTUExpcVlHNnMxSm5qTDJjOE5ZSEpPWHJ3OGZHQUNuX3lKaVVkWmdxQV8tWlNfTmJ1YnNYWDRVbXBvLV9kUFRCQjc1YWk2UjROT29uNFlCVUdZN2JoSWhBMHFPazJ5Qjh5R2toZw?oc=5",
+     "published": "2026-10-11"
+    },
+    {
+     "title": "트리니티항공, 국제선 얼리버드 프로모션 진행",
+     "outlet": "로이슈",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1LTFJKd19HQVFqS2lSeHJGUVI4SHlac3FjR2ktRUdYSUxZbzdhYmlKNzR6aHVqcFRsV1RURnFwN19nSnVURVB6WFp6MVlsSWRVRXh1VkZSQ3ZmNVNOT3R5YVlfMmxZTThnTFQ2bEk3RWhuQ3VmQnVmSlVB?oc=5",
+     "published": "2026-10-11"
+    },
+    {
+     "title": "트리니티항공, 내년 1~3월 국제선 얼리버드 할인…최대 24% 적용",
+     "outlet": "포인트데일리",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBU3c2bHFBQ1Q3S3IzRnBCMmpMTWtBaGFnVGhUcXBCeW12WC1XZ3N2QlozSDVJTWVTS3NsUVpSR0hJcmFkOXBfa2hLMHJiRXYxc0RtX3kzTEZpLTMxSkg2bmQzZjgtdElBV2M0YUdGaETSAXRBVV95cUxNc1I1dEo4aWFUWTBFQlB4VnoyTWpEODVfXzFvRmJmRXZFOGFpSUV6TVN3c3o1OHRmLVFoUjBrR1U1YTJqVTNRTnVabDBtV3RoRmVWMFozcDVVemR0c1lNeEFDZmdLR216VnlxZXRCSmx6enBETQ?oc=5",
+     "published": "2026-10-11"
+    },
+    {
+     "title": "트리니티항공, 국제선 ‘얼리버드’ 프로모션…내년 초 출발 항공권 최대 24% 할인",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02VUFscm1ONktZY3BwWmZsRzVIOFMxbEtwbERBRlJWdWRFclhLakNocVJ4MVcxQW5JeHlwbjZYb1FvSnN6cHVEYmY4bzE5dTdoNmZMdjNuSnZoOW5DUjFoVHJqMTRlay1jcWo3RTBxWnBRazDSAXdBVV95cUxORmNGLTNnMk1ac3lBRm9jMDF6a0M0elB3bVQ1RWZmQlVjYndGamY1QWlmY0Z5d05idUhFS3NCLTBaMzdzeU9XY1RpaVgyOVhjbDByTEdVeHQ3YWMyLU9rZnZvcFdwRmtacFY0b3k2Y1RqZTl4dnpCbw?oc=5",
+     "published": "2026-10-11"
+    },
+    {
+     "title": "트리니티항공, 2027년 초 국제선 최대 24% 할인",
+     "outlet": "비건뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9jOFVqeFN2dHdobkZEc2lNSU1GNDNkdExNVkViVjRnQmFWZjYyZEVGYlZucmJlcFZORzVmdlBlaDVkRzNRNmJYTkJGNVg1ZVZrOV9KNkF4Zk1sWG9JZkJQR3V0NFlLdw?oc=5",
+     "published": "2026-10-11"
+    },
+    {
+     "title": "트리니티항공, 국제선 얼리버드 프로모션…최대 24% 할인",
+     "outlet": "경북매일",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DUlFwZDNta0VyLUF0UGZVRlBqcndpTTZCX0IyMTE5dk9oZDdLSnZNNVFIZmlaUklkMTJ4SDNrbjFrYmg5NG1DS2xLbVE2T3RSWG5YQnZKVDJCdw?oc=5",
+     "published": "2026-10-11"
+    },
+    {
+     "title": "새해 여행 얼리버드 잡아라…트리니티항공 국제선 프로모션",
+     "outlet": "스포츠서울",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3ekxhb2FpaEd6a3RZeFJSY0tiajRLeGctWG1sdm41cmYxUk10aFFMWjd5aUY5RjV3Q1JEUDY0Z0hVbjVDZ2p0WTd1aVpieF9ORzk2ZHROZHY?oc=5",
+     "published": "2026-10-11"
+    },
+    {
+     "title": "트리니티항공, 내년 1분기 탑승 항공권 대상 국제선 ‘얼리버드’ 특가전… 최대 24% 할인",
+     "outlet": "인더스트리뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDR1loOFRkQzZuQ011ZERoaWJyaE9tZTYwdEppQ2N2TVFDQkNYdS1URDA4aUJIXzdUdTdGYVJSOVJlSlh5RlJwaWN1am5XbXMwdEIxekRrSHlGVmdQRnRJSU9iNXhqbkVRRmJQX2czZHVqUQ?oc=5",
+     "published": "2026-10-10"
+    },
+    {
+     "title": "트리니티항공, 국제선 항공권 얼리버드 프로모션 펼쳐",
+     "outlet": "메가경제",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54RjRwQU5yOGNoY042dmZ1WXRpZFpMTHc0bExLVG0yeGFNb1FXeVdXY29rcGtsVmpJR0J3X2lTOEhjZ0pVRnA1bkhHd2EzQ2FSX3FOQzBxODhuSXlycTRvQUtqdlN0aHlZazlzbC12dTFwQdIBckFVX3lxTE54RjRwQU5yOGNoY042dmZ1WXRpZFpMTHc0bExLVG0yeGFNb1FXeVdXY29rcGtsVmpJR0J3X2lTOEhjZ0pVRnA1bkhHd2EzQ2FSX3FOQzBxODhuSXlycTRvQUtqdlN0aHlZazlzbC12dTFwQQ?oc=5",
+     "published": "2026-10-10"
+    },
+    {
+     "title": "트리니티항공, 국제선 얼리버드 프로모션",
+     "outlet": "잡포스트",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrVWRZWE5kMnZ1SGs4WE5OeWh5Q2w2N1QxMi1MRkNGQkhXN2lYSXpiNW9NMm41amlkdmxqOFZnQnBod3M3eDRBUjY1ZjZOYWUtc3F0T1VDSkZkYmM2bXFEZXRTNFl5WWhpcnVDd0Fn0gFyQVVfeXFMT3ZmUUwwSk9xaXI2MVdHZWFYTC1NNjl3dGt4dzRYRjFVR0MtX1lhYlBYdXZhSTZKWVRiNDdCRjBnVWg3WnUzQmV3T0NrUFpzT25aOEhrMVQtTTlJODNQaXo2ZXNyb3FNVk8xVnFVTEhjWERB?oc=5",
+     "published": "2026-10-10"
+    },
+    {
+     "title": "항공권 할인도 '타이밍'... 트리니티항공, 23일까지 얼리버드",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LNExkeWNiVWp5WmpCcHhPYnBUYmRFdDFtZ3puVVZpS21NdzdCZWNmc3gwRFlYN2VJRWp0aV91NlUxcmhaQUZhYU9ldVdmQnVfalVxcjk3VmFwRkRPZWNFdzlaRmVFYlpnbGtaYQ?oc=5",
+     "published": "2026-10-10"
+    },
+    {
+     "title": "트리니티항공, '국제선 얼리버드 프로모션' 실시...최대 24% 할인",
+     "outlet": "월요신문",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zQXJHelhOTjBmTW9nQWNNY0txODhNbFNTS0h0a3J2elNsdGYwX0JzS3dFa2txU0VPckQtMlkzWkpqM2V2UG13bTBxd0czRzdmMEZzaEtZblNFckUzVFd2Y3NCNkpKUVVZRkE?oc=5",
+     "published": "2026-10-10"
+    },
+    {
+     "title": "트리니티항공, 최대 24% 할인 '국제선 얼리버드 프로모션'",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04Q2k5U0NRUG5nbGsyenhSSGpYUUFoODZNVTdKdFV4T1E4bG1WbG9yamVuZEtKUjBndHRKN3BYQ2xqM2NYY0ViSnl1Z3A1ejhsaEljMjRYazh2NnduSEdJMHRBWEk4UQ?oc=5",
+     "published": "2026-10-10"
+    },
+    {
+     "title": "\"내년 초 여행, 미리 준비해볼까\"…트리니티항공, 국제선 얼리버드 프로모션",
+     "outlet": "더팩트",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RQmRaRk9udnhFLXE2SXFwY3dPZ21RUWVJa1k3ek93WGVLZzhxV0swWXVJZWhSSzdnMU45OERPRGdVZVNpMnZic3otaEtYRnY1aHVLQmNhbl8wUdIBVEFVX3lxTE1aT0R0QnJTUnFYbG1iM1IyekJiQ3FLMVI2bEdqR1pDUWFqUHhST0ttSm5TNVFPcEJXRWR2MHJxRVhfdzlLRjB4cjB4TGc2QUJsTG9aNQ?oc=5",
+     "published": "2026-10-10"
+    },
+    {
+     "title": "트리니티항공, 내년 1~3월 국제선 항공권 최대 24% 할인",
+     "outlet": "에너지경제신문",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PbFRkajVfTm5aekJSSjRIdGhqbWNNQlRDZjJCOTlZb2xvOFZmejdzaURYYlhqbWttVHpPb0Zva2RPVTN3eVNzbkZzWUhoNzBfWlBGQmFOZzQzSGc?oc=5",
+     "published": "2026-10-10"
+    },
+    {
+     "title": "트리니티항공, 해외 노선 ‘얼리버드 프로모션’ 시행…최대 24% 할인",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LUW9hVUhlX3ZpazRMemhaYU9DT3RvRWlaNEZwLVVsdmZPTkVGOEp5NUhfbWt5OEFFYnJrWmtkdGo1MHNuYnY2Q2FjeUdxNzBXcFVUNTdn?oc=5",
+     "published": "2026-10-10"
+    }
+   ],
+   "status": "ended"
+  },
+  {
+   "id": "trinity-c45e6768bd",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": "우리 동네 할인",
+   "headline": "트리니티항공, 23일까지 ‘10월 우리 동네 할인’ 프로모션…부산·대구·청주·제주·광주 출발 항공편 할인",
+   "sale_start": null,
+   "sale_end": "2026-10-23",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "광주(KWJ)",
+     "destination": null
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트리니티항공, 23일까지 ‘10월 우리 동네 할인’ 프로모션…부산·대구·청주·제주·광주 출발 항공편 할인",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84S0dURHpyZjF5TS1sTmstWjd0cXpwTTFpSkxscEZBWE93dTJuczNZbDJSVkw0SzMtblB6aG5vQy02S1RoN2J0d2t3bTcyTVJBbFpNd1BNbzdUTDJOdTBrM1F1Vjkzb2RpV1E?oc=5"
+    },
+    "discount": {
+     "title": "“우리 동네 공항에서 떠나면 최대 2만원 할인”…트리니티항공, 지역 출발 항공권 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MeHNIamtyeFVseWJ1NlphMHRDakRkT1JJN0EtZVd6M2VKd1FSWTQwdHpJYVZaaldRVl9xeDZqaW5MZ2J4SnJicmlyUjM2cFlfSFc1b0lSNXBoVTVPaTczcVQyaHkzRWwxTmNxY9IBbEFVX3lxTE1MeHNIamtyeFVseWJ1NlphMHRDakRkT1JJN0EtZVd6M2VKd1FSWTQwdHpJYVZaaldRVl9xeDZqaW5MZ2J4SnJicmlyUjM2cFlfSFc1b0lSNXBoVTVPaTczcVQyaHkzRWwxTmNxYw?oc=5"
+    },
+    "route": {
+     "title": "트리니티항공, 23일까지 ‘10월 우리 동네 할인’ 프로모션…부산·대구·청주·제주·광주 출발 항공편 할인",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84S0dURHpyZjF5TS1sTmstWjd0cXpwTTFpSkxscEZBWE93dTJuczNZbDJSVkw0SzMtblB6aG5vQy02S1RoN2J0d2t3bTcyTVJBbFpNd1BNbzdUTDJOdTBrM1F1Vjkzb2RpV1E?oc=5"
+    }
+   },
+   "date_source": "title",
+   "from_icn": "no",
+   "discount": "최대 2만원 할인",
+   "verification": "news",
+   "first_published": "2026-10-10",
+   "last_published": "2026-10-15",
+   "first_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-21T17:32:23+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공, 23일까지 ‘10월 우리 동네 할인’ 프로모션…부산·대구·청주·제주·광주 출발 항공편 할인",
+     "outlet": "경북도민일보",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84S0dURHpyZjF5TS1sTmstWjd0cXpwTTFpSkxscEZBWE93dTJuczNZbDJSVkw0SzMtblB6aG5vQy02S1RoN2J0d2t3bTcyTVJBbFpNd1BNbzdUTDJOdTBrM1F1Vjkzb2RpV1E?oc=5",
+     "published": "2026-10-15"
+    },
+    {
+     "title": "트리니티항공, 지역 공항 출발 항공권 할인…23일까지 ‘우리 동네 할인’ 진행",
+     "outlet": "뷰티트래블뉴스",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZHJJc1c4UVd4OGZjLUlBLU1WcVlRYXVTMmpiNHViWUFzTHhZZjJ2VnVSbDliOVRySzdHTlkxRXdxRWRmMUZYQ1NSM3BNSGtFTnBsejhCaDFaN0U2bkMxSWRsc2U3eTl3WE1EazA3ZGVZSGZRaTZ6cmpza0k5bzFFT2w1Q2VEQQ?oc=5",
+     "published": "2026-10-13"
+    },
+    {
+     "title": "트리니티항공, 지방 공항 출발 노선 대상 ‘우리 동네 할인’ 프로모션 실시",
+     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kdERRdkxIMUtsM3YxRldGbDg0aEdMQ1poczc3cUZWZnZQYVFfSTNkUjZpX0N6SFZMNW1nSEM2WUdJSVlVMklHa25IU0Zua09BeHczdFVQYmh0cWJiUnUyc3VhUnZhYWxPeVB3LUNLSHNTZw?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 부산·대구·청주 등 지역공항 출발편 할인",
+     "outlet": "신아일보",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ybUxDZUxnY3dnT3dNWVR6b09PN0NsZDZvQllUdHJVVHN2dW0wUlVxczN5SDhTT0ZlVXpaeGhDanRHd1o0WXYyQVJRSEF6UzAxVFRjVXQ0bVktQ3ctdDFjbDUwYnVoMTFYNmkwRGxmdWs?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 10월 ‘우리 동네 할인’ 프로모션 진행",
+     "outlet": "오늘경제",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96bE1reFdNNkVWWWJiUTdWdnd6cGJLc0FVTEFxc0o4bkRoNDZvandSV2ZONURzMWotUlNhZGllbXMyUGNKa3BoVENHLTB0QlhkS0JrY3R3eHJPUmYtVUREUzR5bFQ2Mk1mSWNuYVVKbng5WTg?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 지역 공항 출발 항공권 할인 진행",
+     "outlet": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BSUhrbWtaaC1salV0cDkwQ1k0aDZyYTJBd0MwVkNqLVkxT05INjBVQnZ4c3lVSG5hajJUZF9xc19WTlpDVW1nRmxWN0d4RGR0V0dUaFhBMVp4RG9QbG9QQzFyX3g1cFpncXJsRVlodEtRWlXSAXdBVV95cUxQdENJbExaUlY0SGJxcE9udzZuOGN0M0dKV09rZ0VvNXM4N0lKTThSVTFmcWIzU3ItYk4wOHhTTC1DZ0d5WEpRdDBKS3JYYVhIVFFiLTlaRmRUbTlhV2hadHNEVXZpc040UXhYalBIaEZ5YjVaY0FfRQ?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 부산·대구 등 지방공항 출발 노선 할인 행사",
+     "outlet": "뉴스프리존",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE41Wm5IMDNjSzQtMEVZdEthdjRiMkFuYmx6bGpUYnZiYXJSVF9GTXZHZjE2RU5tTTM0WjJQQ3hyZFJrd1dlOUpETlhubnA3Y0d4RzdDUEhiZG1MdXFNN0V4bUdydUp4N0g4ZDZEdmd2QXViUWvSAXdBVV95cUxNYTR2SVNtLTJaOElkQnQ2UWNXVDMxSUttOUw0eDZ1ckZwWFZEN2FhSkhFaTBIcXF5TGI2NUFocmo1V0dGcVluWm1GWVFTRUhKdWVmaW9oN0NqcFNuMnJnZ2FPRzNGQUpaTnZnbkRmQ2EyMkx1cVNGQQ?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 지역공항 출발편 할인…부산·대구·청주 대상",
+     "outlet": "아시아투데이",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RWnhRbkluQmxlVmlNRTJ0SFFoVG9IZ2pkWjRiUThBbXl6dTA1bnlDUEl2RXdnY29fLTNydWVpS1J4WGhiTVA1R0F1ZjZ3dlZBT3J0OF9SZzlXeTBqSHJCNDNkaWRYNWhpQnFwRzRB?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 부산·대구 등 5개 공항 출발편 할인",
+     "outlet": "스마트비즈",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NSVprWXJfaTVpc2ZCV2VVR29OeC1iWndMb2Q5RXRYbkd0MVl3bW93NWcxTktYOVhCd25mWWJ2eDRxMlJkamsxSktNVUtJWVR3dkV0aWRqMlBMeHNCbHFQQ1RvU0E2XzM2WmJSNw?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "지방공항서 떠나면 항공권 할인... 트리니티항공, 최대 2만원 쿠폰",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zVkZ6VHlKX2Jfay1FWXZWN2pnemVYNl8yQzRNVWZYX2xIN2dpSUtaSTNIOU9fTjVQRzVaSG1MSmhYbEFJWE1rYjFlVGJWMzhjOHFUOGkyWGxwTm9hQzZwRGdQaURGS3RoQkJNUQ?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "“우리 동네 공항에서 떠나면 최대 2만원 할인”…트리니티항공, 지역 출발 항공권 프로모션",
+     "outlet": "더게이트",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MeHNIamtyeFVseWJ1NlphMHRDakRkT1JJN0EtZVd6M2VKd1FSWTQwdHpJYVZaaldRVl9xeDZqaW5MZ2J4SnJicmlyUjM2cFlfSFc1b0lSNXBoVTVPaTczcVQyaHkzRWwxTmNxY9IBbEFVX3lxTE1MeHNIamtyeFVseWJ1NlphMHRDakRkT1JJN0EtZVd6M2VKd1FSWTQwdHpJYVZaaldRVl9xeDZqaW5MZ2J4SnJicmlyUjM2cFlfSFc1b0lSNXBoVTVPaTczcVQyaHkzRWwxTmNxYw?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 지역 공항 출발 노선 대상 '우리 동네 할인' 진행",
+     "outlet": "비즈니스플러스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBvRjl6VjhwaFRSQmx2Wm9aYXhrQ1ZES0NrX21UMzVNWnhTSWhTYlVVeGxzRU1tV05BdjVJRzE4ZXFPeENRQldNRTFXTlhnVFl5cHpNb242eHh1R1Axd3JWZzNBOVRLcGxnNzlORFA4UQ?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "'최대 2만원 혜택'…트리니티항공, 지방 출발 항공권 할인 프로모션",
+     "outlet": "컨슈머타임스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NUmIzTG1WLTQ1TWpwM2VqZUUzNjNiMWRySlhDZkxWdUNRQlhEcHdQak1meEd4V0JIb1c5aVdZVmtLYjQ2RzF6NFdxdkxlMjl5QV9mbXVRR25DVFNoREpqaklqaVg0MzdOclE?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 지역 5개 공항 출발 항공권에 할인 쿠폰 제공",
+     "outlet": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3WG94R3VPMkxKMTMtMU9qbnFERENSZlhvR2NncGpaZk5hUFdVWW9nSm9mT1ZIUm41ZVp0RHhtMmJQNy1qZWs3RlNobjlxaDlYajlnQmpkQlVaRXdDVENxcXF0MUtCSFpZU2E0?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "“지방공항 출발시 할인” 트리니티항공, 이달23일까지 '우리동네 프로모션'",
+     "outlet": "CatchNews",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9OdHFON3g3Q1pxTTIwaXJOYnR6OVBxVjVZZUpEekJEMnN0bE4zbTFnLUY0WkxlWmp0UzBsTzdhUFlUel9MTWVwbDZBRjJHa2s0OUlTaFlNMjlNNXdGc2RSSHFmMVJUaXFtWHRN0gFvQVVfeXFMTWpWanN3a3hIZDJQalNzZWxnZ3hoeHZiaVhvZ29JNFZPaU9jT2xWUUNHcjlaaFN0dmtjaWFMMk5GUzhTeURQM2NUcHRaTVlfNklBallVLTItVXF6X2pSeGR1Z0V0NXJPMkJJSnl6clpj?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 지역공항 출발 항공편 할인 프로모션",
+     "outlet": "메트로신문",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmWHNZZ3dVNGRScjBRTFZsRFRTTndOZkdndnVNREpOZlZzT2VFSmpaY3Y4UGs0STI3d1hhemg4SDhvSi1pNXBxZTZ3OEdRNWpvX3laZ1JhY2EyODB1TU15SA?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 23일까지 '우리 동네 할인' 프로모션",
+     "outlet": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tZUxxeGJZS2R0VEZnZmZXSnp6NG55bDMyVG9UUzlfdGd0ZExFbEVZZmtJZ2F6QXpRR2d4Z1V4QVVhMFAxV2tOdGR3ay1CdkFzZ1VmbWljNm1xYzFiQy0tTNIBeEFVX3lxTE41UkJCcmtrZ214Wkh4RVZZWk4zRVB1YmVSWV90d1BLODZZOUVIT2J1X292Qy1ITDJNQk8tcVB3N2FlVHhNeWtoRVBtUm1fV3l1YVRveGZocC1NcWxQNEE1aGdteGRkWnh1QTBDYkJqakdZWEZDS3ppZg?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 10월 '우리 동네 할인' 프로모션 진행",
+     "outlet": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xSV9fNE9pSkZsSU5nSW41ZGxmZVBlM0o5MHlGamowNUZZX091eERXREREd3lRbUN2bVlGSC1TcnZ3N0F2WXJ5Sk15WUxCY2RWQVFCdHlQZmF3SVZ2?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 지역 공항 5곳 출발 항공권 할인",
+     "outlet": "스마트투데이",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IeXRrMXJPY0dVb3l5eDdXYUhCcVJDVGVGX1lIc2hSSlpIZFBjbDc4X0ZOQ00xRktocXNZVzNWNG1ySWd2NlFtREJOYmhGeGN2Q29ocVdQRktiTWF5bDBJ?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 지역공항 출발 항공권 최대 2만원 할인",
+     "outlet": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjTldxWk5VVUk3aVFaVXBLMjVteHhOZ3JFUEJQOTBvcXR0RGVKVXlFUUtQMjRGNXJteGl4RG5pcXZGRDc1TlQxLTdIMmpBQ29iTkExSEwxeUVxZw?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 지역 출발 항공권 할인 프로모션",
+     "outlet": "경북매일",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wdkU4dWxDQ2haaUlXR25UcDJ4S0dueWlWdWpOc1ZfclkzSWNuRjVuRDhxaGphZFNiTm1HT3kwbUtFQ2NCS0phRTVxNGwyNVFfcU5mUGliNHk3dw?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 지역 공항 출발 항공권 할인",
+     "outlet": "더팩트",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0a1F0cS1kV290ZUMtUGlMenlhUmZCRzQwb0MwajdmMDV0TUtrWE50T0ZBbDY2Uk9OUl9CMEhTaWk2b2Nwdy0yUm9qYTRJZEtZRTZZOdIBVEFVX3lxTFA0a1F0cS1kV290ZUMtUGlMenlhUmZCRzQwb0MwajdmMDV0TUtrWE50T0ZBbDY2Uk9OUl9CMEhTaWk2b2Nwdy0yUm9qYTRJZEtZRTZZOQ?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 지역 공항 출발 항공권 할인 프로모션",
+     "outlet": "아이뉴스24",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZamg2ekd0aFVYVHZZcmZGZERYdXVnYnNGakVfMENtR1hzaW5DazlYVUhxOVZtMDNZUF9EWlc2bk1May1VNHdvT3Z0aw?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "트리니티항공, 10월 ‘우리 동네 할인’ 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rNEI3cUVLXzNHUFpRUjMwdkI5SEhpMExXSDBxUkNBb3R5bnhrTUFZU1dzUXI5MkltT0c1aWFQaDJLNUZQNEdValdQVEZTbnNPQ2dpaTdtME83dktGYURTYVZzR0VnUQ?oc=5",
+     "published": "2026-10-10"
     }
    ],
    "status": "ended"
