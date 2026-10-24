@@ -79,9 +79,12 @@ def parse(xml_bytes, outlet):
         title = _text(it.findtext("title"))
         if not title:
             continue
+        url = (it.findtext("link") or "").strip()
+        if not re.match(r"https?://", url, re.I):  # 주소가 없거나 http(s)가 아닌 항목은 버린다
+            continue
         summary = _text(it.findtext("description"))
         out.append({"outlet": outlet, "title": title, "summary": "" if summary in _EMPTY_SUMMARY else summary,
-                    "url": (it.findtext("link") or "").strip(), "published": _pub(it.findtext("pubDate"))})
+                    "url": url, "published": _pub(it.findtext("pubDate"))})
     return out
 
 

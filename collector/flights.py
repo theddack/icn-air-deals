@@ -236,6 +236,28 @@ def _assemble(rows, status, now, today):
     }
 
 
+MIN_KEEP_RATIO = 0.3  # 정기편이 직전 파일의 30% 아래로 줄면 API 이상으로 본다 (시즌 교체로는 이만큼 줄지 않는다)
+
+
+def _schedule_count(path):
+    try:
+        with open(path, encoding="utf-8") as f:
+            return len(json.load(f).get("schedule") or [])
+    except (OSError, ValueError):
+        return 0
+
+
+def suspicious(data, previous_count):
+    """저장하면 안 되는 결과면 그 이유, 괜찮으면 None. 오류 없이 빈 목록이 오거나(필드 이름 변경 등) 갑자기
+    크게 줄면 정상 파일을 덮어쓰지 않는다 (2026-10-24 검토: 빈 파일이 덮어쓰면 화면 행사 목록까지 멈췄다)."""
+    n = len(data.get("schedule") or [])
+    if not n or not data.get("coverage"):
+        return "정기 일정이 비어 있음"
+    if previous_count and n < previous_count * MIN_KEEP_RATIO:
+        return f"정기 일정이 {previous_count}건 → {n}건으로 크게 줄었음"
+    return None
+
+
 def main():
     key = os.environ.get("DATA_GO_KR_KEY")
     if not key:
@@ -262,6 +284,10 @@ def main():
         print(f"[flights] 운항 현황 수집 실패, {'직전 현황을 이어 씀' if previous else '정기 일정만 저장'}: {e}", file=sys.stderr)
     data = build(sched, status, now, previous)
     data["status_failed"] = not status
+    reason = suspicious(data, _schedule_count(path))
+    if reason:
+        print(f"[flights] {reason} — 이전 flights.json을 유지합니다.", file=sys.stderr)
+        return 0
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
         f.write("\n")

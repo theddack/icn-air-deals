@@ -181,6 +181,17 @@ def _resolve(m, pub, base=None):
     return _resolve_parts(m.group("mo"), day, pub, base, next_month=bool(m.group("nm")))
 
 
+def _year_window(month, day, pub):
+    """월·일만 있는 날짜의 연도: 발행일 기준 60일 전 ~ 300일 뒤 안에 들도록 고른다.
+    10월 기사의 '1월 5일'은 내년, 1월 기사의 '12월 29일'은 작년이다 (2026-10-24 검토: 작년으로 보내는 쪽이 없었다)."""
+    d = date(pub.year, month, day)
+    if d < pub - timedelta(days=60):
+        return date(pub.year + 1, month, day)
+    if d > pub + timedelta(days=300):
+        return date(pub.year - 1, month, day)
+    return d
+
+
 def _resolve_parts(mo, day, pub, base=None, next_month=False):
     try:
         if base is not None and not mo:
@@ -194,11 +205,7 @@ def _resolve_parts(mo, day, pub, base=None, next_month=False):
             y, mth = _add_months(pub.year, pub.month, 1)
             return date(y, mth, day)
         if mo:
-            mth = int(mo)
-            d = date(pub.year, mth, day)
-            if d < pub - timedelta(days=60):
-                d = date(pub.year + 1, mth, day)
-            return d
+            return _year_window(int(mo), day, pub)
         d = date(pub.year, pub.month, day)
         if day < pub.day - 7:
             y, mth = _add_months(pub.year, pub.month, 1)
@@ -675,9 +682,7 @@ def is_hotel_sale_en(title):
 
 def _en_date(mon, day, pub):
     try:
-        mo = _EN_MONTHS[mon[:3].lower()]
-        d = date(pub.year, mo, int(day))
-        return date(pub.year + 1, mo, int(day)) if d < pub - timedelta(days=60) else d
+        return _year_window(_EN_MONTHS[mon[:3].lower()], int(day), pub)
     except (KeyError, ValueError):
         return None
 

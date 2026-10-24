@@ -226,8 +226,23 @@ def merge_articles(existing, new, today):
         seen_title.add(a["title"])
         added += 1
     cutoff = (today - timedelta(days=ARTICLE_KEEP_DAYS)).isoformat()
-    merged = [a for a in merged if a["published"] >= cutoff]
+    merged = [a for a in merged if a["published"] >= cutoff or _still_on_sale(a, today)]
     return merged, added
+
+
+ARTICLE_MAX_DAYS = 180  # 판매 중이어도 이보다 오래된 기사는 지운다
+
+
+def _still_on_sale(article, today):
+    """45일이 지났어도 판매 마감일이 아직 안 지난 기사는 남긴다. 9/1 기사 '11/30까지 얼리버드'가 10/17에
+    지워져 진행 중인 행사가 목록에서 사라지던 문제 (2026-10-24 검토)."""
+    if article["published"] < (today - timedelta(days=ARTICLE_MAX_DAYS)).isoformat():
+        return False
+    try:
+        end = enrich(dict(article)).get("sale_end")
+    except Exception:  # 오래된 기사 한 건의 해석 오류로 수집을 멈추지 않는다
+        return False
+    return bool(end) and end >= today.isoformat()
 
 
 def sort_key(d):

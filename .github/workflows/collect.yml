@@ -23,7 +23,11 @@ jobs:
   collect:
     runs-on: ubuntu-latest
     steps:
+      # 실행이 만들어진 시점의 커밋이 아니라 시작할 때의 최신 main을 받는다. concurrency로 기다린 실행이
+      # 앞 실행의 data 커밋 없이 옛 파일로 수집하면 data push가 충돌난다 (2026-10-24 검토)
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -54,8 +58,8 @@ jobs:
             echo "변경 없음"
           else
             git commit -m "data: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M') KST 수집"
-            # 수집 중에 코드 커밋이 올라오면 push가 거절된다(2026-10-20 2번). 실행은 concurrency로 한 번에 하나라
-            # 다른 data 커밋과 겹치지 않으니 새 커밋 위에 다시 얹어서 올린다
+            # 수집 중에 코드 커밋이 올라오면 push가 거절된다(2026-10-20 2번). 실행은 concurrency로 한 번에 하나이고
+            # 최신 main에서 시작하므로 다른 data 커밋과 겹치지 않는다. 새 커밋 위에 다시 얹어서 올린다
             git pull --rebase origin main
             git push
           fi

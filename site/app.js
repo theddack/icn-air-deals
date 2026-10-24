@@ -46,6 +46,10 @@
     var y = d.getUTCFullYear() === Number(todayKst().slice(0, 4)) ? "" : d.getUTCFullYear() + "/";
     return y + (d.getUTCMonth() + 1) + "/" + d.getUTCDate() + "(" + WEEK[d.getUTCDay()] + ")";
   }
+  // 링크 주소는 http(s)만 쓴다. 피드에 'javascript:' 같은 값이 섞여도 실행되지 않게 (2026-10-24 검토)
+  function href(u) {
+    return /^https?:\/\//i.test(String(u || "")) ? esc(u) : "#";
+  }
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
@@ -108,7 +112,7 @@
   // 값을 뽑아 온 기사 링크. 기사 제목을 툴팁으로 보여준다
   function evLink(d, field) {
     var e = (d.evidence || {})[field];
-    return e ? ' <a class="ev" href="' + esc(e.url) + '" target="_blank" rel="noopener" title="근거 기사: ' + esc(e.title) + '">근거</a>' : "";
+    return e ? ' <a class="ev" href="' + href(e.url) + '" target="_blank" rel="noopener" title="근거 기사: ' + esc(e.title) + '">근거</a>' : "";
   }
 
   // 호텔 지역: '해외 · 괌', '국내 · 강원 · 경남'. 지명이 없으면 국내/해외만 또는 미확인
@@ -126,7 +130,7 @@
     return sectionOf(d) === "hotel" ? "공식 홈페이지" : "항공사 홈페이지";
   }
   function officialLink(d, cls) {
-    return d.official_url ? '<a' + (cls ? ' class="' + cls + '"' : "") + ' href="' + esc(d.official_url) +
+    return d.official_url ? '<a' + (cls ? ' class="' + cls + '"' : "") + ' href="' + href(d.official_url) +
       '" target="_blank" rel="noopener" title="행사 안내 페이지가 아닐 수 있습니다">' + officialLabel(d) + " ↗</a>" : "";
   }
 
@@ -215,7 +219,7 @@
     var travel = rangeText(d.travel_start, d.travel_end);
     var verified = d.verification === "official";
     var arts = d.articles.map(function (a) {
-      return '<li><a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.title) + "</a>" +
+      return '<li><a href="' + href(a.url) + '" target="_blank" rel="noopener">' + esc(a.title) + "</a>" +
         "<span>" + esc(a.outlet || "") + " · " + md(a.published) + "</span></li>";
     }).join("");
     var pills =
@@ -263,7 +267,7 @@
           (st === "undated" || st === "stale" ? row("최근 기사", md(d.last_published)) : "") + "</dl>" +
         '<div class="foot">' +
           ((d.agencies || []).length ? '<div class="foot-row"><span>기사에 나온 판매처</span><span>' + d.agencies.map(function (g) {
-            return '<a href="' + esc(g.url) + '" target="_blank" rel="noopener">' + esc(g.name) + " ↗</a>";
+            return '<a href="' + href(g.url) + '" target="_blank" rel="noopener">' + esc(g.name) + " ↗</a>";
           }).join(" · ") + "</span></div>" : "") +
           airlineDestBlock(d) +
           '<div class="arts"><b>관련 기사</b>' + (d.event_name ? ' <span class="cs">' + esc(d.headline) + "</span>" : "") + "<ul>" + arts + "</ul></div>" +
@@ -354,7 +358,7 @@
     box.hidden = state.section !== "flight" || !list.length;
     if (box.hidden) return;
     document.getElementById("sf-list").innerHTML = list.map(function (d) {
-      return '<li><a href="' + esc(d.url) + '" target="_blank" rel="noopener" title="' + esc(d.title) + '">' +
+      return '<li><a href="' + href(d.url) + '" target="_blank" rel="noopener" title="' + esc(d.title) + '">' +
         '<span class="sf-route">서울 → ' + esc(d.destination) + "</span>" +
         '<span class="sf-price">' + esc(sfPrice(d)) + "</span>" +
         '<span class="sf-meta">' + (d.trip === "oneway" ? "편도" : "왕복") + (d.nonstop ? " · 직항" : "") +
@@ -367,8 +371,11 @@
   // 예전 주소(#hotel, #domestic, #flights)도 그대로 열린다. 항공권 탭에 조건이 없으면 해시를 비운다.
   function parseHash() {
     var h = location.hash.slice(1), i = h.indexOf("?");
-    var raw = decodeURIComponent(i < 0 ? h : h.slice(0, i));
-    return { raw: raw, sec: SECTIONS[raw] || raw === "flights" ? raw : "flight", p: new URLSearchParams(i < 0 ? "" : h.slice(i + 1)) };
+    var raw = i < 0 ? h : h.slice(0, i);
+    try { raw = decodeURIComponent(raw); } catch (e) { /* '#hotel%' 같은 잘못된 표기는 그대로 둔다 */ }
+    var params;
+    try { params = new URLSearchParams(i < 0 ? "" : h.slice(i + 1)); } catch (e) { params = new URLSearchParams(); }
+    return { raw: raw, sec: SECTIONS[raw] || raw === "flights" ? raw : "flight", p: params };
   }
 
   function writeUrl() {
@@ -583,9 +590,9 @@
   // 행사 이름은 최신 기사로, 옆에 항공사 공식 페이지와 기사에 나온 판매처(여행사·플랫폼) 링크
   function dealLinks(d) {
     var links = [];
-    if (d.official_url) links.push('<a href="' + esc(d.official_url) + '" target="_blank" rel="noopener" title="' + officialLabel(d) + '">' + esc(d.airline) + " 공식 ↗</a>");
+    if (d.official_url) links.push('<a href="' + href(d.official_url) + '" target="_blank" rel="noopener" title="' + officialLabel(d) + '">' + esc(d.airline) + " 공식 ↗</a>");
     (d.agencies || []).forEach(function (g) {
-      links.push('<a href="' + esc(g.url) + '" target="_blank" rel="noopener" title="기사 제목에 나온 판매처">' + esc(g.name) + " ↗</a>");
+      links.push('<a href="' + href(g.url) + '" target="_blank" rel="noopener" title="기사 제목에 나온 판매처">' + esc(g.name) + " ↗</a>");
     });
     return links.length ? '<span class="deal-links">' + links.join(" · ") + "</span>" : "";
   }
@@ -594,7 +601,7 @@
     var a = d.articles && d.articles[0];
     var name = esc((d.event_name || d.headline).slice(0, 22));
     return '<span class="deal-item">' +
-      (a ? '<a href="' + esc(a.url) + '" target="_blank" rel="noopener" title="근거 기사: ' + esc(a.title) + '">' + name + "</a>" : name) +
+      (a ? '<a href="' + href(a.url) + '" target="_blank" rel="noopener" title="근거 기사: ' + esc(a.title) + '">' + name + "</a>" : name) +
       dealLinks(d) + "</span>";
   }
 
@@ -899,6 +906,8 @@
   fetch("flights.json", { cache: "no-store" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (data) {
+      // 정기 일정이 비었거나 확보 범위가 없으면 시간표를 못 받은 것으로 본다 (행사 화면까지 멈추지 않게)
+      if (!data || !data.coverage || !(data.schedule || []).length) throw new Error("시간표 비어 있음");
       sch = data;
       destCache = {};
       if (state.section === "flights") renderSchedule();
