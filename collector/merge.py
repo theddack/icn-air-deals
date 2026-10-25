@@ -351,8 +351,8 @@ def _to_deal(airline_id, arts):
         }),
         "from_icn": from_icn,
         "discount": discount,
-        # 지금은 모든 행사가 뉴스 기사 기반이다. 공식 페이지에서 확인한 행사가 생기면 'official'.
-        "verification": "news",
+        # 발신 인증을 통과한 항공사 메일(collector.mail_deals)이 묶인 행사는 'official', 나머지는 뉴스 기사 기반
+        "verification": "official" if any(a.get("source") == "mail" for a in arts) else "news",
         "first_published": arts[0]["published"],
         "last_published": arts[-1]["published"],
         "first_seen": seen[0],

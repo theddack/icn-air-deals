@@ -223,7 +223,8 @@ def _fill_from_summary(a):
             a[f] = v
         snippet = sf["evidence"].get(group, "")
         prefix = "제목 + " if any(title_vals) else ""
-        src[group] = {"title": f"{prefix}{sf['outlet']} 요약문: {snippet}", "url": sf["url"]}
+        label = sf.get("label", "요약문")  # 항공사 메일은 '본문' (근거 구절은 저장하지 않는다)
+        src[group] = {"title": f"{prefix}{sf['outlet']} {label}" + (f": {snippet}" if snippet else ""), "url": sf["url"]}
     if src:
         a["_src"] = src
     return a
@@ -315,6 +316,10 @@ def main():
     o_new, o_enriched = attach_outlet_items(articles, o_items, now_iso)
     articles, o_added = merge_articles(articles, o_new, today)
     added += o_added
+    # 항공사 뉴스레터(collector.mail_deals가 먼저 만든 파일). 없으면 건너뛴다
+    mail = load_json(DATA / "mail_articles.json", [])
+    articles, m_added = merge_articles(articles, mail, today)
+    added += m_added
     deals = build_deals(articles, today)
 
     base = baselines(load_json(DATA / "deals.json", {}), now_iso)
@@ -329,6 +334,7 @@ def main():
         "stats": {"queries": total, "failed_queries": failed, "rss_items": len(raw),
                   "outlet_feeds": o_total, "outlet_failed": len(o_failed), "outlet_failed_feeds": o_failed, "outlet_items": len(o_items),
                   "outlet_new_articles": o_added, "outlet_enriched": o_enriched,
+                  "mail_articles": len(mail), "mail_new_articles": m_added,
                   "articles_with_summary": sum(1 for a in articles if a.get("summary_facts")),
                   "articles": len(articles), "new_articles": added, "deals": len(deals)},
         "deals": deals,
