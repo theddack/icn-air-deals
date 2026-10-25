@@ -1,1 +1,28 @@
-[]
+[
+ {
+  "title": "카약 인천​발 오사카​행 이동하는 항공편, 224,867원부터 시작합니다.",
+  "outlet": "카약 메일",
+  "url": "https://www.kayak.co.kr/#mail-8a53ffb151c5a58a",
+  "published": "2026-10-25",
+  "first_seen": "2026-10-25T17:39:35+09:00",
+  "source": "mail",
+  "mail_id": "8a53ffb151c5a58a",
+  "category_hint": "hotel",
+  "summary_facts": {
+   "url": "https://www.kayak.co.kr/#mail-8a53ffb151c5a58a",
+   "outlet": "카약 메일",
+   "label": "본문",
+   "fields": {
+    "discount": "224,867원부터",
+    "origin": null,
+    "destination": "오사카(KIX)"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
+ }
+]

@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-10-25T17:21:55+09:00",
+ "checked_at": "2026-10-25T17:39:35+09:00",
  "days": 21,
- "searched": 27,
+ "searched": 28,
  "sender:제주항공": 1,
- "checked": 27,
+ "checked": 28,
  "transactional": 19,
  "sender:대한항공": 1,
  "sender:피치항공": 1,
@@ -20,10 +20,11 @@
  "sender:젯스타": 1,
  "sender:델타항공": 2,
  "sender:스쿠트항공": 3,
- "sender:카약": 2,
+ "sender:카약": 3,
  "sender:트립닷컴": 2,
  "sender:하나투어": 1,
  "sender:아고다": 1,
  "sender:스카이스캐너": 1,
- "kept": 0
+ "accepted": 1,
+ "kept": 1
 }
