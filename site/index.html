@@ -4,116 +4,187 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ICN 특가 레이더</title>
-<meta name="description" content="인천 출발 항공권·국내선·호텔 숙박 할인 행사를 뉴스 기사에서 모아 진행 중·신규·판매 예정으로 보여줍니다.">
+<meta name="description" content="인천 출발 항공권·국내선·호텔 숙박 할인을 항공사 메일·판매처·뉴스에서 모아 목적지·할인·판매 기간으로 보여줍니다.">
 <!-- 검색 노출·AI 학습 거부 요청. 지키는 봇에만 효과가 있고 강제 차단은 아니다. -->
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="hero">
+<!-- 리디자인 시안(docs/design/redesign-proposal.html): 여행 첫 화면 → 곧 마감 → 지역별 최저가 → 할인 둘러보기 → 가격으로 보기 → 시간표 -->
+<header class="hero" id="top">
   <div class="hero-in">
     <div class="topbar">
-      <a class="brand" href="#flight">✈ ICN 특가 레이더</a>
+      <a class="brand" href="#flight"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 16l20-6-20-6 3 6-3 6z"/><path d="M5 10h8"/></svg>ICN 특가 레이더</a>
       <nav class="topnav" aria-label="바로 가기">
-        <a href="#flight">항공권</a><a href="#hotel">숙박</a><a href="#flights">출발 시간표</a><a href="#guide">이용 안내</a>
+        <a href="#flight">할인</a><a href="#hotel">숙박</a><a href="#flights">출발 시간표</a><a href="#guide">이용 안내</a>
       </nav>
     </div>
-    <h1 class="hero-q">어디로 떠나고 싶으세요?</h1>
-    <form class="hero-search" id="search-form" role="search">
-      <label class="sr-only" for="q">행사 검색</label>
-      <input id="q" type="search" placeholder="일본, 제주, 항공사 이름으로 검색" autocomplete="off" enterkeyhint="search">
-      <button type="submit">검색</button>
-    </form>
-    <p class="eyebrow" id="updated">불러오는 중…</p>
+    <div class="hero-grid">
+      <div>
+        <h1 class="hero-q">인천에서,<br>이번엔 어디로 떠나볼까요?</h1>
+        <p class="hero-sub">항공사 메일·판매처·뉴스에서 모은 인천 출발 할인을 한곳에서 둘러보세요.</p>
+        <form class="hero-search" id="search-form" role="search">
+          <label class="sr-only" for="q">할인 검색</label>
+          <svg class="s-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+          <input id="q" type="search" placeholder="도시, 나라, 항공사 — 예: 오사카, 다낭, 제주항공" autocomplete="off" enterkeyhint="search">
+          <button type="submit">할인 찾기</button>
+        </form>
+        <div class="pop" role="group" aria-label="인기 목적지">
+          <span class="pop-k">인기 목적지</span>
+          <button type="button" data-q="일본">일본</button><button type="button" data-q="다낭">다낭</button><button type="button" data-q="나트랑">나트랑</button><button type="button" data-q="타이베이">타이베이</button><button type="button" data-q="제주">제주</button><button type="button" data-q="유럽">유럽</button>
+        </div>
+        <div class="kpi">
+          <div><b id="k-count">–</b><span>지금 볼 수 있는 항공 할인</span></div>
+          <div id="k-low-box" hidden><b class="won" id="k-low"></b><span id="k-low-note"></span></div>
+        </div>
+        <p class="eyebrow" id="updated">불러오는 중…</p>
+      </div>
+      <svg class="sky-art" viewBox="0 0 520 320" aria-hidden="true">
+        <circle class="sun" cx="430" cy="70" r="38"/>
+        <g class="cloud"><ellipse cx="120" cy="90" rx="70" ry="24"/><ellipse cx="160" cy="76" rx="44" ry="26"/><ellipse cx="380" cy="210" rx="80" ry="26"/><ellipse cx="420" cy="196" rx="46" ry="26"/><ellipse cx="220" cy="250" rx="60" ry="18"/></g>
+        <path class="path" d="M60 270 C 180 120, 330 90, 470 140"/>
+        <circle class="pin" cx="60" cy="270" r="7"/><text class="pin-t" x="30" y="302">ICN</text>
+        <circle class="pin to" cx="470" cy="140" r="7"/>
+        <g class="plane" transform="translate(300 108) rotate(-12)"><path d="M-22 0 L22 0 M-4 0 L-14 -12 M-4 0 L-14 12 M14 0 L8 -6 M14 0 L8 6"/></g>
+      </svg>
+    </div>
   </div>
 </header>
 
 <main class="wrap">
   <div id="health" class="notice warn" role="status" hidden></div>
 
-  <nav class="sections" aria-label="행사 종류">
-    <button type="button" data-section="flight"><span class="sec-icon" aria-hidden="true">✈</span><span class="sec-name">항공권</span><b id="n-flight">0</b></button>
-    <button type="button" data-section="domestic"><span class="sec-icon" aria-hidden="true">🛬</span><span class="sec-name">국내선</span><b id="n-domestic">0</b></button>
-    <button type="button" data-section="hotel"><span class="sec-icon" aria-hidden="true">🏨</span><span class="sec-name">숙박</span><b id="n-hotel">0</b></button>
-    <button type="button" data-section="flights"><span class="sec-icon" aria-hidden="true">🛫</span><span class="sec-name">출발 시간표</span><b id="n-flights">–</b></button>
-  </nav>
+  <!-- 곧 마감되는 할인: 지금 조건(종류·검색 등)에서 판매 마감이 7일 안인 행사, 마감 가까운 순 3건 -->
+  <section class="section deal-view" id="closing" aria-labelledby="h-closing" hidden>
+    <div class="sec-h">
+      <div><h2 id="h-closing">곧 마감되는 할인</h2><p>판매 마감이 가까운 순 · 7일 안에 끝나는 행사</p></div>
+      <button type="button" class="link-btn" id="closing-all">모두 보기 →</button>
+    </div>
+    <div id="closing-list" class="rail"></div>
+  </section>
+
+  <!-- 지역별 최저가: 땡처리닷컴 판매가·Secret Flying 게시 가격·할인 소식을 지역으로 묶는다. 누르면 아래 목록이 그 지역만 -->
+  <section class="section deal-view" id="regions" aria-labelledby="h-regions" hidden>
+    <div class="sec-h">
+      <div><h2 id="h-regions">어디로 갈까요? 지역별 최저가</h2><p>판매처 가격과 할인 소식을 지역으로 묶었습니다 · 누르면 아래 목록이 그 지역만 보여요</p></div>
+    </div>
+    <div id="region-tiles" class="regions" role="group" aria-label="지역"></div>
+  </section>
 
   <section class="section deal-view" aria-labelledby="h-list">
-    <h2 id="h-list">최근 발견한 할인 소식</h2>
-    <div class="preview">
-      <!-- 상태 필터 한 줄 (예전 '한눈에 보기' 타일과 보조 버튼을 합쳤다). 숫자는 지금 조건에서의 건수 -->
-      <div class="toolbar" role="group" aria-label="상태">
-        <button type="button" data-filter="all" class="active">전체 <b id="c-all">0</b></button>
-        <button type="button" data-filter="live">진행 중 <b id="c-live">0</b></button>
-        <button type="button" data-filter="new">신규 <b id="c-new">0</b></button>
-        <button type="button" data-filter="closing">마감 임박 <b id="c-closing">0</b></button>
-        <button type="button" data-filter="upcoming">판매 예정 <b id="c-upcoming">0</b></button>
-        <button type="button" data-filter="official" id="official-btn" hidden>공식 확인 <b id="c-official">0</b></button>
-        <button type="button" data-filter="undated">날짜 미확인 <b id="c-undated">0</b></button>
-        <button type="button" data-filter="ended">마감 <b id="c-ended">0</b></button>
-      </div>
-      <!-- 좁은 화면에서는 검색창만 두고 나머지 필터·정렬은 '필터 · 정렬' 버튼 안에 접는다 -->
-      <div class="filters" id="deal-filters">
+    <div class="sec-h">
+      <div><h2 id="h-list">할인 소식 둘러보기</h2><p id="list-note">항공사 메일·뉴스에서 찾은 행사</p></div>
+    </div>
+    <div class="browse">
+      <aside class="side" aria-label="종류·상태·조건">
+        <nav class="sections" aria-label="행사 종류">
+          <button type="button" data-section="flight">항공권 <b id="n-flight">0</b></button>
+          <button type="button" data-section="domestic">국내선 <b id="n-domestic">0</b></button>
+          <button type="button" data-section="hotel">숙박 <b id="n-hotel">0</b></button>
+        </nav>
+        <p class="side-k">상태</p>
+        <!-- 숫자는 지금 조건에서의 건수 -->
+        <div class="toolbar" role="group" aria-label="상태">
+          <button type="button" data-filter="all" class="active">전체 <b id="c-all">0</b></button>
+          <button type="button" data-filter="live">진행 중 <b id="c-live">0</b></button>
+          <button type="button" data-filter="closing">곧 마감 <b id="c-closing">0</b></button>
+          <button type="button" data-filter="new">새로 나옴 <b id="c-new">0</b></button>
+          <button type="button" data-filter="upcoming">판매 예정 <b id="c-upcoming">0</b></button>
+          <button type="button" data-filter="official" id="official-btn" hidden>항공사 공식 <b id="c-official">0</b></button>
+          <button type="button" data-filter="undated">날짜 미확인 <b id="c-undated">0</b></button>
+          <button type="button" data-filter="ended">마감 <b id="c-ended">0</b></button>
+        </div>
+        <!-- 좁은 화면에서는 아래 조건을 '필터 · 정렬' 버튼으로 여는 시트에 넣는다 -->
         <button type="button" class="filter-toggle" id="filter-toggle" aria-expanded="false" aria-controls="deal-filters">필터 · 정렬 <b id="filter-n" hidden></b></button>
-        <label class="field" id="kind-field"><span>구분</span>
-          <select id="kind"></select>
-        </label>
-        <label class="field" id="scope-field" hidden><span>지역</span>
-          <select id="scope">
-            <option value="all">국내·해외 전체</option>
-            <option value="domestic">국내</option>
-            <option value="overseas">해외 (시범)</option>
-            <option value="unknown">지역 미확인</option>
-          </select>
-        </label>
-        <label class="field"><span id="airline-label">항공사</span>
-          <select id="airline"><option value="all">전체</option></select>
-        </label>
-        <label class="field"><span>정렬</span>
-          <select id="sort">
-            <option value="default">상태순</option>
-            <option value="recent">최신 등록순</option>
-            <option value="closing">마감 임박순</option>
-            <option value="discount">할인율 높은 순</option>
-          </select>
-        </label>
-        <label class="toggle" id="hide-other-field"><input id="hide-other" type="checkbox" checked> 인천 외 출발 숨기기</label>
+        <div class="filters sheet" id="deal-filters">
+          <p class="side-k sheet-title">조건</p>
+          <label class="field" id="kind-field"><span>구분</span>
+            <select id="kind"></select>
+          </label>
+          <label class="field" id="scope-field" hidden><span>지역</span>
+            <select id="scope">
+              <option value="all">국내·해외 전체</option>
+              <option value="domestic">국내</option>
+              <option value="overseas">해외 (시범)</option>
+              <option value="unknown">지역 미확인</option>
+            </select>
+          </label>
+          <label class="field"><span id="airline-label">항공사</span>
+            <select id="airline"><option value="all">전체</option></select>
+          </label>
+          <label class="field"><span>정렬</span>
+            <select id="sort">
+              <option value="default">상태순</option>
+              <option value="recent">최신 등록순</option>
+              <option value="closing">마감 가까운 순</option>
+              <option value="discount">할인율 높은 순</option>
+            </select>
+          </label>
+          <label class="toggle" id="hide-other-field"><input id="hide-other" type="checkbox" checked> 인천 외 출발 숨기기</label>
+          <button type="button" class="sheet-done" id="sheet-done">결과 보기</button>
+        </div>
+      </aside>
+      <div class="results">
+        <div id="active" class="active-bar" hidden>
+          <span id="active-text"></span>
+          <button type="button" class="reset" data-reset>조건 초기화</button>
+        </div>
+        <div id="list" class="deals" aria-live="polite"></div>
+        <p id="empty" class="empty" hidden></p>
+        <!-- 마감일을 모르고 마지막 기사 후 14일이 지난 행사 (30일까지 보관). 끝났는지 알 수 없어 접어 둔다 -->
+        <details id="stale" class="stale-box" hidden>
+          <summary>진행 여부 미확인 <b id="stale-n">0</b>건 <small>마감일이 기사에 없고 최근 기사가 14일 넘게 없는 행사 · 공식 페이지에서 확인하세요</small></summary>
+          <div id="stale-list" class="deals"></div>
+        </details>
       </div>
-      <div id="active" class="active-bar" hidden>
-        <span id="active-text"></span>
-        <button type="button" class="reset" data-reset>조건 초기화</button>
+    </div>
+  </section>
+  <div class="sheet-backdrop" id="sheet-backdrop" hidden></div>
+
+  <!-- 가격으로 보기: 실제 가격이 적힌 두 곳. 항공권 탭에서만 보인다
+       땡처리닷컴 판매 중인 인천 출발 땡처리 항공권 (collector/ttang.py, 하루 1번)
+       Secret Flying 공개 특가 중 서울 출발 (collector/secretflying.py, 하루 1번) -->
+  <section class="section deal-view" id="prices" aria-labelledby="h-prices" hidden>
+    <div class="sec-h">
+      <div><h2 id="h-prices">가격으로 보기</h2><p>실제 가격이 적힌 두 곳 · 성격이 달라 나란히 둡니다</p></div>
+    </div>
+    <div class="prices">
+      <div class="pbox" id="tt" hidden>
+        <div class="pbox-hd"><h3>판매 중인 땡처리 항공권</h3><span class="trust t-seller"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8L3 12z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>땡처리닷컴 판매가 · 원화 총액</span></div>
+        <p class="pbox-note" id="tt-note">인천 출발 · 도착지별 최저 총액</p>
+        <ul id="tt-list" class="plist"></ul>
+        <button type="button" id="tt-more" class="more" hidden></button>
+        <p class="sf-note">땡처리닷컴에 올라온 판매 상품의 표시 총액(유류할증료·세금 포함)입니다. 출발 기간 안에서도 날짜·좌석에 따라 다를 수 있으니 땡처리닷컴에서 확인하세요.</p>
       </div>
-      <div id="list" class="deals" aria-live="polite"></div>
-      <p id="empty" class="empty" hidden></p>
-      <!-- 마감일을 모르고 마지막 기사 후 14일이 지난 행사 (30일까지 보관). 끝났는지 알 수 없어 접어 둔다 -->
-      <details id="stale" class="stale-box" hidden>
-        <summary>진행 여부 미확인 <b id="stale-n">0</b>건 <small>마감일이 기사에 없고 최근 기사가 14일 넘게 없는 행사 · 공식 페이지에서 확인하세요</small></summary>
-        <div id="stale-list" class="deals"></div>
-      </details>
+      <div class="pbox" id="sf" hidden>
+        <div class="pbox-hd"><h3>해외 특가 게시물</h3><span class="trust t-post"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>Secret Flying · 게시 당시 가격</span></div>
+        <p class="pbox-note" id="sf-note">서울 출발 · 항공사 확인 아님</p>
+        <ul id="sf-list" class="plist"></ul>
+        <button type="button" id="sf-more" class="more" hidden></button>
+        <p class="sf-note">가격은 게시 당시 기준이고 원래 통화로 표시합니다. 이미 끝났거나 날짜가 맞지 않을 수 있으니 게시물과 항공사에서 확인하세요.</p>
+      </div>
     </div>
   </section>
 
-  <!-- Secret Flying 공개 특가 중 서울 출발 (collector/secretflying.py, 하루 1번). 항공권 탭에서만 보인다 -->
-  <!-- 땡처리닷컴 판매 중인 인천 출발 땡처리 항공권 (collector/ttang.py, 하루 1번). 항공권 탭에서만 보인다 -->
-  <section class="section deal-view" id="tt" aria-labelledby="h-tt" hidden>
-    <h2 id="h-tt">땡처리닷컴 판매가 <small class="h-note" id="tt-note">인천 출발 · 도착지별 최저 총액</small></h2>
-    <div class="preview">
-      <ul id="tt-list" class="sf-list"></ul>
-      <button type="button" id="tt-more" class="more" hidden></button>
-      <p class="sf-note">땡처리닷컴에 올라온 판매 상품의 표시 총액(유류할증료·세금 포함)입니다. 출발 기간 안에서도 날짜·좌석에 따라 다를 수 있으니 땡처리닷컴에서 확인하세요.</p>
-    </div>
-  </section>
-
-  <section class="section deal-view" id="sf" aria-labelledby="h-sf" hidden>
-    <h2 id="h-sf">Secret Flying 게시 가격 <small class="h-note">서울 출발 · 게시 당시 가격, 항공사 확인 아님</small></h2>
-    <div class="preview">
-      <ul id="sf-list" class="sf-list"></ul>
-      <p class="sf-note">가격은 게시 당시 기준이고 원래 통화로 표시합니다. 이미 끝났거나 날짜가 맞지 않을 수 있으니 게시물과 항공사에서 확인하세요.</p>
+  <section class="section deal-view" id="sched-cta" aria-labelledby="h-sched-cta">
+    <div class="cta">
+      <div>
+        <h2 id="h-sched-cta">인천공항 출발 시간표 <small class="h-note">오늘 <b id="n-flights">–</b>편 운항</small></h2>
+        <p>날짜를 고르면 도착지별 운항편과, 그 항공사가 진행 중인 할인을 함께 보여 줍니다.</p>
+        <div class="pop" role="group" aria-label="시간표 바로 가기">
+          <button type="button" data-go-day="0">오늘</button><button type="button" data-go-day="1">내일</button><button type="button" data-go-day="weekend">이번 주말</button>
+          <span id="cta-dests"></span>
+        </div>
+      </div>
+      <button type="button" class="btn" data-go-day="0">시간표 열기</button>
     </div>
   </section>
 
   <section class="section" id="schedule" aria-labelledby="h-schedule" hidden>
-    <h2 id="h-schedule">인천공항 출발 시간표</h2>
+    <div class="sec-h">
+      <div><h2 id="h-schedule">인천공항 출발 시간표</h2></div>
+      <a class="link-btn" href="#flight">← 할인 보기</a>
+    </div>
     <div class="preview">
       <div class="hint">운항 예정 시각은 <b>예약 가능한 특가 항공권이 아닙니다.</b> 실제 할인가는 확인하지 않으므로 어느 편에도 할인 적용을 표시하지 않습니다.<br>
         <b>노선 일치 행사</b>: 운항 항공사와 행사 대상 노선(인천 출발·도착지)이 모두 기사로 확인된 행사 · <b>항공사 진행 행사</b>: 항공사만 같고 노선은 다르거나 확인되지 않은 행사</div>
@@ -155,20 +226,30 @@
   <section class="section" id="guide">
     <div class="notice">
       <strong>정보 제공 안내</strong><br>
-      이 사이트는 <b>정보만 제공합니다.</b> 항공권·숙박을 판매하거나 예약·결제를 대행하지 않으며, 소개된 항공사·호텔·언론사와 제휴 관계가 없습니다. 표시된 내용의 정확성이나 최신성을 보장하지 않으니, 예약·결제는 각 공식 판매처에서 직접 확인한 뒤 진행하세요. 기사의 저작권은 각 언론사에 있으며 이 사이트는 제목과 원문 링크만 보여줍니다.
+      이 사이트는 <b>정보만 제공합니다.</b> 항공권·숙박을 판매하거나 예약·결제를 대행하지 않으며, 소개된 항공사·호텔·판매처·언론사와 제휴 관계가 없습니다. 표시된 내용의 정확성이나 최신성을 보장하지 않으니, 예약·결제는 각 공식 판매처에서 직접 확인한 뒤 진행하세요. 기사의 저작권은 각 언론사에 있으며 이 사이트는 제목과 원문 링크만 보여줍니다.
       <details class="guide-more">
       <summary>이용 안내 · 이 페이지를 읽는 법</summary>
-      하루 4회 뉴스 기사를 자동으로 모으며, AI(LLM)가 아니라 정해진 규칙으로 정리합니다.<br>
-      항공사·호텔 공식 발표가 아니라 <b>뉴스 기사 제목</b>에서 자동으로 뽑은 정보입니다. 기사에 없는 날짜·가격·출발지는 추측하지 않고 "미확인"으로 둡니다. 실제 요금과 좌석·객실은 예약 단계에서 달라질 수 있으니 예약 전에 공식 페이지를 확인하세요.<br>
-      "국내선"은 제목에 국내선·김포~제주 같은 노선 표현이 있는 항공 기사만 모읍니다. "호텔·숙박"은 호텔·리조트, 숙박 예약 플랫폼, 숙박세일 페스타 같은 정부 행사 기사 중 숙박 맥락과 할인 표현이 함께 있는 것만 모읍니다.<br>
+      <b>출처 표시</b>: <span class="trust t-official">항공사 공식</span> 발신 인증을 통과한 항공사·판매처 메일에서 확인 · <span class="trust t-seller">판매처 가격</span> 땡처리닷컴이 올려 둔 원화 총액 · <span class="trust t-post">게시 당시 가격</span> Secret Flying 게시물의 가격(원래 통화) · <span class="trust t-news">뉴스 기사</span> 기사 제목·요약에서 뽑은 정보로 예약 전 공식 확인이 필요합니다.<br>
+      하루 3~4회 자동으로 모으며, AI(LLM)가 아니라 정해진 규칙으로 정리합니다.<br>
+      뉴스 기반 행사는 항공사·호텔 공식 발표가 아니라 <b>기사 제목·요약</b>에서 자동으로 뽑은 정보입니다. 기사에 없는 날짜·가격·출발지는 추측하지 않고 "미확인"으로 둡니다. 실제 요금과 좌석·객실은 예약 단계에서 달라질 수 있으니 예약 전에 공식 페이지를 확인하세요.<br>
+      "지역별 최저가"는 도착지 이름·공항 코드로 지역을 묶은 것입니다. 땡처리닷컴 판매가가 있는 지역은 그 최저 총액, 없으면 Secret Flying 게시 가격을 보여줍니다.<br>
+      "국내선"은 제목에 국내선·김포~제주 같은 노선 표현이 있는 항공 기사만 모읍니다. "숙박"은 호텔·리조트, 숙박 예약 플랫폼, 숙박세일 페스타 같은 정부 행사 기사 중 숙박 맥락과 할인 표현이 함께 있는 것만 모읍니다.<br>
       <b>해외 호텔은 2026-10-15 시작한 시범 수집</b>입니다. 국내 기사 중 해외 지명이 나온 숙박 할인과, 영어 뉴스에서 가격 할인(○% 할인·할인 코드 등)이 분명한 제목만 모읍니다. 영어 기사는 번역하지 않고 제목 원문을 그대로 보여주며, 할인율·기간·지역만 규칙으로 뽑아 한국어 칸에 넣습니다. 해외 행사는 한국에서 예약할 때 적용되지 않을 수 있습니다.<br>
-      "출발 시간표"는 인천국제공항공사 공공데이터(여객기 정기운항편 일정, 항공기 운항 현황)를 하루 4회 받아 보여줍니다. 시각은 인천공항 기준 한국 시각이고, 정기 일정에는 도착 시각이 없습니다.<br>
+      "출발 시간표"는 인천국제공항공사 공공데이터(여객기 정기운항편 일정, 항공기 운항 현황)를 받아 보여줍니다. 시각은 인천공항 기준 한국 시각이고, 정기 일정에는 도착 시각이 없습니다.<br>
       "인천(ICN)"은 제목에 인천~노선·인천발·인천 출발 같은 근거가 있을 때만 표시합니다. "항공사 미분류"는 한 기사에 여러 항공사가 섞여 어느 항공사 행사인지 정하지 않은 것입니다. 카드의 "항공사 홈페이지"·"공식 이벤트 목록"은 공식 사이트로 가는 링크일 뿐 해당 행사의 안내 페이지가 아니며, 이 사이트가 공식 페이지를 수집한 것도 아닙니다.
       </details>
     </div>
   </section>
 </main>
 <footer class="site-foot">ICN AIR DEALS · 개인용 여행 특가 모니터링 · 정보 제공 목적이며 판매·예약을 대행하지 않습니다 · <a href="https://github.com/theddack/icn-air-deals">소스 코드</a></footer>
+
+<!-- 모바일 아래 탭 -->
+<nav class="tabbar" aria-label="화면 이동">
+  <button type="button" data-go="top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7v9H3z"/></svg>홈</button>
+  <button type="button" data-go="h-list"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8L3 12z"/></svg>할인</button>
+  <button type="button" data-go="prices"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19h16M7 16V9M12 16V5M17 16v-4"/></svg>가격</button>
+  <button type="button" data-go="schedule"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>시간표</button>
+</nav>
 <script src="app.js"></script>
 </body>
 </html>
