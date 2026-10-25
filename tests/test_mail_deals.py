@@ -41,6 +41,14 @@ class TestMailArticle(unittest.TestCase):
         self.assertIsNone(md.mail_article("제주항공", "가을 특가 오픈", "자세한 내용은 앱에서 확인하세요.", SENT, "<b>", "t"))
         self.assertIsNone(md.mail_article("춘추항공", "가을 특가 오픈", BODY, SENT, "<c>", "t"))  # airlines.py에 없음
 
+    def test_filter_stages_are_counted(self):
+        from collections import Counter
+        why = Counter()
+        md.mail_article("춘추항공", "가을 특가", BODY, SENT, "<1>", "t", why)
+        md.mail_article("제주항공", "회원가입을 환영합니다", BODY, SENT, "<2>", "t", why)
+        md.mail_article("제주항공", "가을 특가 오픈", "앱에서 확인하세요.", SENT, "<3>", "t", why)
+        self.assertEqual(dict(why), {"not_listed": 1, "not_sale_subject": 1, "no_facts": 1})
+
     def test_deal_from_mail_is_official(self):
         a = md.mail_article("제주항공", "가을 특가 오픈", BODY, SENT, "<abc@mail.jejuair.net>", "t")
         deals = build_deals([a], date(2026, 10, 21))
