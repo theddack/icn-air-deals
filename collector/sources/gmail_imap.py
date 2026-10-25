@@ -41,6 +41,14 @@ EXTRA_DOMAINS = [
     # 항공권 가격 비교(메타서치) 이벤트 메일 (2026-10-25 가입). 이름은 hotels.py의 플랫폼 이름과 같게 둔다
     ("스카이스캐너", ["skyscanner.net", "skyscanner.com", "skyscanner.co.kr"]),
     ("카약", ["kayak.com", "kayak.co.kr"]),
+    # 여행사·예약 플랫폼 (2026-10-25 가입). 발신 도메인은 공식 사이트 기준으로 넣었다. 실제 메일이 다른 도메인에서
+    # 오면 mail_stats.json의 sender: 개수가 0으로 남으니 그때 맞춘다
+    ("땡처리닷컴", ["ttang.com"]),
+    ("아고다", ["agoda.com"]),
+    ("트립닷컴", ["trip.com", "ctrip.com"]),
+    ("놀(야놀자)", ["yanolja.com", "interpark.com"]),
+    ("하나투어", ["hanatour.com"]),
+    ("마이리얼트립", ["myrealtrip.com"]),
 ]
 
 _TWO_LEVEL = {"co.kr", "co.jp", "co.uk", "com.mo", "com.my", "com.au", "com.tw", "com.hk", "com.cn", "co.nz"}

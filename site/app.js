@@ -338,6 +338,7 @@
     updateTabCounts();
     var base = deals.filter(visible);
     renderList(base, today);
+    renderTtang();
     renderSecretFlying();
     writeUrl();
   }
@@ -364,6 +365,42 @@
         '<span class="sf-meta">' + (d.trip === "oneway" ? "편도" : "왕복") + (d.nonstop ? " · 직항" : "") +
           (d.tag ? " · " + esc(d.tag) : "") + " · " + md(d.first_seen) + " 확인 ↗</span></a></li>";
     }).join("");
+  }
+
+  // ---------------------------------------------------------------- 땡처리닷컴 판매가 (인천 출발)
+  var tt = null, ttAll = false;
+  var TT_PREVIEW = 12;
+
+  // 도착지마다 가장 싼 상품 하나와 그 도착지 상품 수
+  function ttByDest(items) {
+    var by = {};
+    items.forEach(function (x) {
+      var k = x.dest_code || x.destination;
+      if (!by[k]) by[k] = { best: x, n: 0 };
+      by[k].n++;
+      if (x.price < by[k].best.price) by[k].best = x;
+    });
+    return Object.keys(by).map(function (k) { return by[k]; }).sort(function (a, b) { return a.best.price - b.best.price; });
+  }
+
+  function renderTtang() {
+    var box = document.getElementById("tt");
+    var items = tt && tt.items || [];
+    box.hidden = state.section !== "flight" || !items.length;
+    if (box.hidden) return;
+    var groups = ttByDest(items), shown = ttAll ? groups : groups.slice(0, TT_PREVIEW);
+    document.getElementById("tt-note").textContent = "인천 출발 · 도착지별 최저 총액 · " + md(tt.fetched_on) + " 수집";
+    document.getElementById("tt-list").innerHTML = shown.map(function (g) {
+      var x = g.best;
+      return '<li><a href="' + href(tt.source) + '" target="_blank" rel="noopener">' +
+        '<span class="sf-route">인천 → ' + esc(x.destination) + "</span>" +
+        '<span class="sf-price">' + Number(x.price).toLocaleString("ko-KR") + "원~</span>" +
+        '<span class="sf-meta">' + esc(x.airline) + " · " + (x.direct ? "직항" : "경유") + " · " + (x.trip === "oneway" ? "편도" : "왕복") +
+          " · 출발 " + md(x.depart_from) + " ~ " + md(x.depart_to) + (g.n > 1 ? " · 상품 " + g.n + "개" : "") + " ↗</span></a></li>";
+    }).join("");
+    var more = document.getElementById("tt-more");
+    more.hidden = groups.length <= TT_PREVIEW;
+    more.textContent = ttAll ? "싼 " + TT_PREVIEW + "곳만 보기" : "도착지 " + groups.length + "곳 모두 보기";
   }
 
   // ---------------------------------------------------------------- 주소에 검색·필터 상태 저장
@@ -919,6 +956,13 @@
     .catch(function (e) { schError = e.message; if (state.section === "flights") renderSchedule(); else if (deals.length) render(); });
 
   // Secret Flying 서울 출발 특가. 없거나 실패해도 나머지 화면은 그대로 쓴다
+  // 땡처리닷컴 판매가. 없거나 실패해도 나머지 화면은 그대로 쓴다
+  fetch("ttang.json", { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (data) { tt = data; if (deals.length) render(); })
+    .catch(function () { tt = null; });
+  document.getElementById("tt-more").addEventListener("click", function () { ttAll = !ttAll; renderTtang(); });
+
   fetch("secretflying.json", { cache: "no-store" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (data) { sf = data; if (deals.length) render(); })

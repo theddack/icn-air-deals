@@ -55,6 +55,8 @@ HOTELS = [
     # 항공권 가격 비교(메타서치). 2026-10-25 추가: 자체 이벤트·할인 코드 기사. '카약'만으로는 레저 카약 기사와 섞여
     # KAYAK 표기가 있을 때만 알아보고 검색어도 KAYAK으로 한다
     {"id": "h-skyscanner", "name": "스카이스캐너", "aliases": ["스카이스캐너", "Skyscanner"], "official_url": "https://www.skyscanner.co.kr/", "kind": "platform"},
+    # 땡처리 항공권 판매 (2026-10-25 가입). 판매 목록은 collector/ttang.py가 따로 받는다
+    {"id": "h-ttang", "name": "땡처리닷컴", "aliases": ["땡처리닷컴"], "official_url": "https://www.ttang.com/", "kind": "platform"},
     {"id": "h-kayak", "name": "카약", "aliases": ["카약닷컴", "카약(KAYAK)", "KAYAK"], "search": ["KAYAK"], "official_url": "https://www.kayak.co.kr/", "kind": "platform"},
     # 정부 할인 행사
     {"id": "h-stayfesta", "name": "숙박세일 페스타", "aliases": ["숙박세일 페스타", "숙박세일페스타"], "kind": "campaign"},

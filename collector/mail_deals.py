@@ -129,6 +129,7 @@ def collect(imap, now_iso):
         if not name or basis != "domain" or not r["uid"]:
             why["not_airline_domain"] += 1
             continue
+        why["sender:" + name] += 1  # 보낸 곳별 메일 수 (우리 목록의 이름만, 주소·제목 없음)
         if not gm.authenticated(r["auth"], domain):
             why["not_authenticated"] += 1
             continue

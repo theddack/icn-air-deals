@@ -93,6 +93,16 @@
   </section>
 
   <!-- Secret Flying 공개 특가 중 서울 출발 (collector/secretflying.py, 하루 1번). 항공권 탭에서만 보인다 -->
+  <!-- 땡처리닷컴 판매 중인 인천 출발 땡처리 항공권 (collector/ttang.py, 하루 1번). 항공권 탭에서만 보인다 -->
+  <section class="section deal-view" id="tt" aria-labelledby="h-tt" hidden>
+    <h2 id="h-tt">땡처리닷컴 판매가 <small class="h-note" id="tt-note">인천 출발 · 도착지별 최저 총액</small></h2>
+    <div class="preview">
+      <ul id="tt-list" class="sf-list"></ul>
+      <button type="button" id="tt-more" class="more" hidden></button>
+      <p class="sf-note">땡처리닷컴에 올라온 판매 상품의 표시 총액(유류할증료·세금 포함)입니다. 출발 기간 안에서도 날짜·좌석에 따라 다를 수 있으니 땡처리닷컴에서 확인하세요.</p>
+    </div>
+  </section>
+
   <section class="section deal-view" id="sf" aria-labelledby="h-sf" hidden>
     <h2 id="h-sf">Secret Flying 게시 가격 <small class="h-note">서울 출발 · 게시 당시 가격, 항공사 확인 아님</small></h2>
     <div class="preview">
