@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T09:19:52+09:00",
+ "generated_at": "2026-10-25T12:25:09+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,13 +10,17 @@
  "stats": {
   "queries": 111,
   "failed_queries": 0,
-  "rss_items": 2461,
+  "rss_items": 2509,
   "outlet_feeds": 29,
-  "outlet_failed": 0,
-  "outlet_failed_feeds": [],
-  "outlet_items": 1587,
+  "outlet_failed": 1,
+  "outlet_failed_feeds": [
+   "문화체육관광부: URLError"
+  ],
+  "outlet_items": 1624,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
+  "mail_articles": 0,
+  "mail_new_articles": 0,
   "articles_with_summary": 15,
   "articles": 462,
   "new_articles": 0,
