@@ -124,7 +124,8 @@ def enrich(article):
     start, end = extract.extract_dates(title, pub)
     t_start, t_end = extract.extract_travel(title, pub)
     name = extract.extract_event_name(title)
-    category = extract.category_of(title) or "flight"
+    # 항공사·플랫폼 메일은 제목만으로 판정이 안 될 수 있어 수집 단계에서 정한 구분(category_hint)을 쓴다
+    category = extract.category_of(title) or article.get("category_hint") or "flight"
     origin = destination = None
     regions, conditions, scope = [], [], None
     if category == "hotel":

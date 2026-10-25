@@ -52,6 +52,10 @@ HOTELS = [
     {"id": "h-tripbtoz", "name": "트립비토즈", "aliases": ["트립비토즈"], "official_url": "https://www.tripbtoz.com/", "kind": "platform"},
     {"id": "h-hanatour", "name": "하나투어", "aliases": ["하나투어"], "official_url": "https://www.hanatour.com/", "kind": "platform"},
     {"id": "h-modetour", "name": "모두투어", "aliases": ["모두투어"], "official_url": "https://www.modetour.com/", "kind": "platform"},
+    # 항공권 가격 비교(메타서치). 2026-10-25 추가: 자체 이벤트·할인 코드 기사. '카약'만으로는 레저 카약 기사와 섞여
+    # KAYAK 표기가 있을 때만 알아보고 검색어도 KAYAK으로 한다
+    {"id": "h-skyscanner", "name": "스카이스캐너", "aliases": ["스카이스캐너", "Skyscanner"], "official_url": "https://www.skyscanner.co.kr/", "kind": "platform"},
+    {"id": "h-kayak", "name": "카약", "aliases": ["카약닷컴", "카약(KAYAK)", "KAYAK"], "search": ["KAYAK"], "official_url": "https://www.kayak.co.kr/", "kind": "platform"},
     # 정부 할인 행사
     {"id": "h-stayfesta", "name": "숙박세일 페스타", "aliases": ["숙박세일 페스타", "숙박세일페스타"], "kind": "campaign"},
     # 해외 숙박 할인인데 위 브랜드가 제목에 없는 기사 (예: '괌 호텔 5곳 공동 프로모션')

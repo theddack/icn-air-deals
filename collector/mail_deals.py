@@ -21,6 +21,7 @@ from pathlib import Path
 
 from . import extract
 from .airlines import AIRLINES
+from .hotels import HOTELS
 from .sources import gmail_imap as gm
 from .status import KST, today_kst
 
@@ -39,7 +40,10 @@ _TRANSACTIONAL = re.compile(r"가입(?:을|이)?\s?(?:환영|완료|축하)|환�
                             r"개인정보\s?(?:처리방침|이용내역)|회원\s?(?:정보|등급)\s?(?:변경|안내)|"
                             r"\b(?:welcome|verify|verification|confirm(?:ation)?|receipt|itinerary|password|e-?ticket|boarding pass)\b", re.I)
 
+AIRLINE_NAMES = {a["name"] for a in AIRLINES}
 OFFICIAL = {a["name"]: a["official_url"] for a in AIRLINES}
+# 예약 플랫폼(스카이스캐너·카약 등) 이벤트 메일도 받는다. 행사는 호텔·숙박 탭의 '예약 플랫폼·여행사'로 묶인다
+OFFICIAL.update({h["name"]: h["official_url"] for h in HOTELS if h["kind"] == "platform" and h.get("official_url")})
 
 # 제목에서 지울 것: 광고 표기, 수신자 이름('홍길동님'), 메일 주소, 주소(URL), 6자리 이상 숫자(회원·예약 번호), 쿠폰 코드처럼 보이는 영숫자
 _AD = re.compile(r"^\s*[(\[]\s*광고\s*[)\]]\s*")
@@ -74,7 +78,7 @@ def mail_article(airline, subject, body, sent, message_id, now_iso, why=None):
         why["transactional"] += 1
         return None
     title = f"{airline} {subj}" if airline not in subj else subj
-    sale_subject = extract.category_of(title) == "flight"
+    sale_subject = extract.category_of(title) in ("flight", "hotel")
     pub = (sent.astimezone(KST) if sent and sent.tzinfo else (sent or datetime.now(KST))).date()
     facts, _ = extract.facts_from_summary(f"{subj}. {text}".replace("\n", ". "), pub)
     if not facts:
@@ -91,6 +95,8 @@ def mail_article(airline, subject, body, sent, message_id, now_iso, why=None):
     fields = {k: (v.isoformat() if hasattr(v, "isoformat") else v) for k, v in facts.items()}
     return {"title": title, "outlet": f"{airline} 메일", "url": url, "published": pub.isoformat(), "first_seen": now_iso,
             "source": "mail", "mail_id": mail_id,
+            # 예약 플랫폼 메일은 호텔·숙박 탭의 '예약 플랫폼·여행사'로, 항공사 메일은 항공권으로
+            "category_hint": "flight" if airline in AIRLINE_NAMES else "hotel",
             # 근거 구절은 남기지 않는다 (본문 문장에 이름·쿠폰이 섞일 수 있다)
             "summary_facts": {"url": url, "outlet": f"{airline} 메일", "label": "본문", "fields": fields,
                               "evidence": {g: "" for g in ("sale", "travel", "discount", "route")}}}

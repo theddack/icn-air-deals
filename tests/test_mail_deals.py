@@ -94,3 +94,23 @@ class TestMerge(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestPlatformEvents(unittest.TestCase):
+    """2026-10-25: 스카이스캐너·카약 이벤트 (뉴스와 메일)."""
+
+    def test_news_titles(self):
+        from collector import extract as x
+        self.assertEqual(x.category_of("스카이스캐너, 블랙프라이데이 항공권 최대 30% 할인 코드"), "hotel")
+        self.assertEqual(x.attribute_hotel("카약(KAYAK), 연말 해외여행 특가 모음")[0], "h-kayak")
+        self.assertIsNone(x.category_of("한강 카약 체험 할인 이벤트"))           # 레저 카약은 아니다
+        self.assertEqual(x.category_of("제주항공, 스카이스캐너와 공동 특가"), "flight")  # 항공사 특가는 그대로 항공권
+
+    def test_platform_mail_is_platform_event(self):
+        from collector.sources.gmail_imap import airline_of
+        self.assertEqual(airline_of("Skyscanner <deals@email.skyscanner.net>")[:3:2], ("스카이스캐너", "domain"))
+        a = md.mail_article("스카이스캐너", "이번 주 특가 여행지", "인천-오사카 왕복 129,000원부터. 판매기간 10월 20일~10월 31일",
+                            SENT, "<sk1>", "t")
+        self.assertEqual((a["category_hint"], a["url"].startswith("https://www.skyscanner.co.kr/")), ("hotel", True))
+        d = build_deals([a], date(2026, 10, 21))[0]
+        self.assertEqual((d["section"], d["airline_id"], d["verification"]), ("hotel", "h-skyscanner", "official"))

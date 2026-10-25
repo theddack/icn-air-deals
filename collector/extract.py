@@ -135,7 +135,9 @@ _ANCILLARY_DISCOUNT = re.compile(r"(?:수하물|기내식|좌석\s?지정|라운
 def _not_fare(title):
     if _FARE_DISCOUNT.search(title):
         return False
-    return bool(_STAY_PARTNER.search(title) or hotels_in(title) or _ANCILLARY_DISCOUNT.search(title))
+    # 예약 플랫폼·여행사(트립닷컴·스카이스캐너 등)는 항공권도 판다. 숙박 제휴로 보는 건 호텔·정부 숙박 행사 브랜드뿐
+    stay_brand = any(HOTEL_BY_ID[h]["kind"] in ("hotel", "campaign") for h in hotels_in(title))
+    return bool(_STAY_PARTNER.search(title) or stay_brand or _ANCILLARY_DISCOUNT.search(title))
 
 
 def is_sale_article(title):
@@ -431,9 +433,18 @@ _HOTEL_NOISE = re.compile(r"주가|증권|실적|영업이익|매출|채용|인�
                           r"|AI\s?페스타")
 
 
+# 예약 플랫폼·여행사(스카이스캐너·카약·트립닷컴 등)는 숙박 말고 항공권·여행 이벤트도 받는다 (2026-10-25)
+_PLATFORM_CONTEXT = re.compile(r"항공권|항공|해외여행|여행|가격\s?비교")
+
+
 def is_hotel_sale(title):
-    return bool(hotels_in(title) and _HOTEL_CONTEXT.search(title) and _HOTEL_SALE.search(title)
-                and not _HOTEL_NOISE.search(title))
+    brands = hotels_in(title)
+    if not brands or not _HOTEL_SALE.search(title) or _HOTEL_NOISE.search(title):
+        return False
+    if _HOTEL_CONTEXT.search(title):
+        return True
+    platform = any(HOTEL_BY_ID[h]["kind"] == "platform" for h in brands)
+    return bool(platform and _PLATFORM_CONTEXT.search(title))
 
 
 def attribute_hotel(title):

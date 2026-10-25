@@ -38,6 +38,9 @@ EXTRA_DOMAINS = [
     ("에어로몽골리아", ["aeromongolia.com"]),
     ("스칸디나비아항공", ["flysas.com"]),
     ("해남항공", ["hainanairlines.com"]),
+    # 항공권 가격 비교(메타서치) 이벤트 메일 (2026-10-25 가입). 이름은 hotels.py의 플랫폼 이름과 같게 둔다
+    ("스카이스캐너", ["skyscanner.net", "skyscanner.com", "skyscanner.co.kr"]),
+    ("카약", ["kayak.com", "kayak.co.kr"]),
 ]
 
 _TWO_LEVEL = {"co.kr", "co.jp", "co.uk", "com.mo", "com.my", "com.au", "com.tw", "com.hk", "com.cn", "co.nz"}
