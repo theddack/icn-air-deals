@@ -18,7 +18,7 @@
   // 행사 종류 탭. kinds는 '구분' 선택지(빈 배열이면 숨김), who는 항공사/브랜드 라벨
   var SECTIONS = {
     flight: { kinds: [["all", "전체 항공사"], ["domestic", "국내 항공사"], ["foreign", "해외 항공사"]], who: "항공사",
-              placeholder: "일본, 얼리버드, 하와이…",
+              placeholder: "일본, 제주, 항공사 이름으로 검색",
               empty: "조건에 맞는 행사가 없습니다. 필터를 바꿔 보세요." },
     domestic: { kinds: [], who: "항공사", placeholder: "제주, 김포, 추석…",
                 empty: "지금은 국내선 행사가 없습니다. 제목에 '국내선'·'김포~제주' 같은 노선 표현이 있는 기사만 국내선으로 분류합니다." },
@@ -259,7 +259,8 @@
         ddayBox(d, st, today) +
       "</div>" +
       (brief ? '<p class="brief">' + brief + "</p>" : "") +
-      '<div class="foot-row main-foot"><span>' + (verified ? "항공사 공식 확인" : "뉴스 기사 기반 · 예약 전 공식 확인") + "</span>" +
+      '<div class="foot-row main-foot"><span class="src ' + (verified ? "official" : "news") + '">' +
+        (verified ? "공식 확인 · " + (hotel ? "판매처" : "항공사") + " 메일" : "뉴스 기사 기반 · 예약 전 공식 확인") + "</span>" +
         officialLink(d, "official-link") +
       "</div>" +
       '<details class="more"><summary>상세 정보 · 관련 기사 ' + d.articles.length + "건</summary>" +
@@ -874,8 +875,8 @@
     baselines = data.baselines || { flight: data.baseline_first_seen || "" };
     deals.forEach(function (d) { d._fresh = freshness(d); });
     document.getElementById("updated").textContent =
-      "ICN AIR DEALS · 마지막 수집 " + data.generated_at.slice(0, 16).replace("T", " ") + " KST · 기사 " +
-      data.stats.articles + "건 → 행사 " + data.deals.length + "건";
+      "마지막 수집 " + data.generated_at.slice(0, 16).replace("T", " ") + " KST · 뉴스 기사 " +
+      data.stats.articles + "건에서 행사 " + data.deals.length + "건";
     showHealth(data);
 
     deals.forEach(function (d) { if (d.airline_id !== "multi") names[d.airline_id] = d.airline; });
@@ -887,7 +888,7 @@
   document.querySelectorAll("[data-filter]").forEach(function (b) {
     b.addEventListener("click", function () {
       var f = b.dataset.filter;
-      state.filter = (b.classList.contains("stat") && state.filter === f) ? "all" : f;
+      state.filter = state.filter === f && f !== "all" ? "all" : f;
       render();
     });
   });
@@ -905,7 +906,15 @@
   document.getElementById("scope").addEventListener("change", function (e) { state.scope = e.target.value; render(); });
   document.getElementById("kind").addEventListener("change", function (e) { state.kind = e.target.value; render(); });
   document.getElementById("airline").addEventListener("change", function (e) { state.airline = e.target.value; render(); });
-  document.getElementById("q").addEventListener("input", function (e) { state.q = e.target.value.trim(); render(); });
+  document.getElementById("q").addEventListener("input", function (e) {
+    state.q = e.target.value.trim();
+    if (state.section === "flights") setSection("flight", new URLSearchParams(state.q ? "q=" + encodeURIComponent(state.q) : ""));
+    else render();
+  });
+  document.getElementById("search-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    document.getElementById("h-list").scrollIntoView({ block: "start", behavior: "smooth" });
+  });
   document.getElementById("hide-other").addEventListener("change", function (e) { state.hideOther = e.target.checked; render(); });
   document.getElementById("sort").addEventListener("change", function (e) { state.sort = e.target.value; render(); });
   document.getElementById("filter-toggle").addEventListener("click", function (e) {
@@ -972,6 +981,6 @@
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(init)
     .catch(function (e) {
-      document.getElementById("updated").textContent = "ICN AIR DEALS · 데이터를 불러오지 못했습니다 (" + e.message + "). 잠시 후 새로고침하세요.";
+      document.getElementById("updated").textContent = "데이터를 불러오지 못했습니다 (" + e.message + "). 잠시 후 새로고침하세요.";
     });
 })();

@@ -12,9 +12,19 @@
 <body>
 <header class="hero">
   <div class="hero-in">
-    <div class="eyebrow" id="updated">ICN AIR DEALS · 불러오는 중…</div>
-    <h1>✈ ICN 특가 레이더</h1>
-    <p>인천에서 출발하는 항공권·국내선·호텔 할인 소식을 한눈에. <a class="hero-link" href="#guide">이용 안내</a></p>
+    <div class="topbar">
+      <a class="brand" href="#flight">✈ ICN 특가 레이더</a>
+      <nav class="topnav" aria-label="바로 가기">
+        <a href="#flight">항공권</a><a href="#hotel">숙박</a><a href="#flights">출발 시간표</a><a href="#guide">이용 안내</a>
+      </nav>
+    </div>
+    <h1 class="hero-q">어디로 떠나고 싶으세요?</h1>
+    <form class="hero-search" id="search-form" role="search">
+      <label class="sr-only" for="q">행사 검색</label>
+      <input id="q" type="search" placeholder="일본, 제주, 항공사 이름으로 검색" autocomplete="off" enterkeyhint="search">
+      <button type="submit">검색</button>
+    </form>
+    <p class="eyebrow" id="updated">불러오는 중…</p>
   </div>
 </header>
 
@@ -22,31 +32,25 @@
   <div id="health" class="notice warn" role="status" hidden></div>
 
   <nav class="sections" aria-label="행사 종류">
-    <button type="button" data-section="flight"><span class="sec-icon" aria-hidden="true">✈</span><span class="sec-name">항공권 <small>인천 출발</small></span><b id="n-flight">0</b></button>
+    <button type="button" data-section="flight"><span class="sec-icon" aria-hidden="true">✈</span><span class="sec-name">항공권</span><b id="n-flight">0</b></button>
     <button type="button" data-section="domestic"><span class="sec-icon" aria-hidden="true">🛬</span><span class="sec-name">국내선</span><b id="n-domestic">0</b></button>
-    <button type="button" data-section="hotel"><span class="sec-icon" aria-hidden="true">🏨</span><span class="sec-name">호텔·숙박 <small>해외 시범</small></span><b id="n-hotel">0</b></button>
-    <button type="button" data-section="flights"><span class="sec-icon" aria-hidden="true">🛫</span><span class="sec-name">출발 시간표 <small>인천공항</small></span><b id="n-flights">–</b></button>
+    <button type="button" data-section="hotel"><span class="sec-icon" aria-hidden="true">🏨</span><span class="sec-name">숙박</span><b id="n-hotel">0</b></button>
+    <button type="button" data-section="flights"><span class="sec-icon" aria-hidden="true">🛫</span><span class="sec-name">출발 시간표</span><b id="n-flights">–</b></button>
   </nav>
 
-  <section class="section deal-view" aria-labelledby="h-summary">
-    <h2 id="h-summary">한눈에 보기 <small class="h-note">숫자를 누르면 아래 목록이 그 조건으로 바뀝니다</small></h2>
-    <div class="stats">
-      <button type="button" class="stat" data-filter="live"><span class="stat-label">진행 중</span><b id="s-live">0</b><span class="stat-sub">판매 기간 안에 있는 행사</span></button>
-      <button type="button" class="stat" data-filter="new"><span class="stat-label">신규</span><b id="s-new">0</b><span class="stat-sub">최근 48시간 안에 처음 수집</span></button>
-      <button type="button" class="stat" data-filter="closing"><span class="stat-label">마감 임박</span><b id="s-closing">0</b><span class="stat-sub">3일 안에 판매 마감</span></button>
-      <button type="button" class="stat" data-filter="upcoming"><span class="stat-label">판매 예정</span><b id="s-upcoming">0</b><span class="stat-sub">판매 시작 전</span></button>
-    </div>
-  </section>
-
   <section class="section deal-view" aria-labelledby="h-list">
-    <h2 id="h-list">행사 목록</h2>
+    <h2 id="h-list">최근 발견한 할인 소식</h2>
     <div class="preview">
-      <!-- 진행 중·신규·마감 임박·판매 예정은 위 요약 타일이 같은 필터다. 여기에는 타일에 없는 보기만 둔다 -->
-      <div class="toolbar" role="group" aria-label="그 밖의 보기">
-        <button type="button" data-filter="all" class="active">전체 행사 <b id="c-all">0</b></button>
+      <!-- 상태 필터 한 줄 (예전 '한눈에 보기' 타일과 보조 버튼을 합쳤다). 숫자는 지금 조건에서의 건수 -->
+      <div class="toolbar" role="group" aria-label="상태">
+        <button type="button" data-filter="all" class="active">전체 <b id="c-all">0</b></button>
+        <button type="button" data-filter="live">진행 중 <b id="c-live">0</b></button>
+        <button type="button" data-filter="new">신규 <b id="c-new">0</b></button>
+        <button type="button" data-filter="closing">마감 임박 <b id="c-closing">0</b></button>
+        <button type="button" data-filter="upcoming">판매 예정 <b id="c-upcoming">0</b></button>
+        <button type="button" data-filter="official" id="official-btn" hidden>공식 확인 <b id="c-official">0</b></button>
         <button type="button" data-filter="undated">날짜 미확인 <b id="c-undated">0</b></button>
         <button type="button" data-filter="ended">마감 <b id="c-ended">0</b></button>
-        <button type="button" data-filter="official" id="official-btn" hidden>공식 확인 <b id="c-official">0</b></button>
       </div>
       <!-- 좁은 화면에서는 검색창만 두고 나머지 필터·정렬은 '필터 · 정렬' 버튼 안에 접는다 -->
       <div class="filters" id="deal-filters">
@@ -64,9 +68,6 @@
         </label>
         <label class="field"><span id="airline-label">항공사</span>
           <select id="airline"><option value="all">전체</option></select>
-        </label>
-        <label class="field grow search-field"><span>검색</span>
-          <input id="q" type="search" placeholder="일본, 얼리버드, 하와이…" autocomplete="off">
         </label>
         <label class="field"><span>정렬</span>
           <select id="sort">
