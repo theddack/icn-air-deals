@@ -272,7 +272,9 @@ def build_deals(articles, today):
     deals = []
     # 저장된 기사도 매번 지금 규칙으로 다시 거른다. 규칙을 고쳐 대상이 아니게 된 지난 기사(예: 2026-10-18 제외한
     # 제휴 호텔·수하물 할인)가 행사로 남지 않게 한다
-    current = [a for a in articles if extract.category_of(a["title"], a.get("lang") or "ko") and is_news(a)]
+    # 항공사 메일 기사는 수집 단계(collector/mail_deals.py)에서 이미 본문으로 판정했다. 제목만으로는 특가가 아닐 수 있다
+    current = [a for a in articles if a.get("source") == "mail"
+               or (extract.category_of(a["title"], a.get("lang") or "ko") and is_news(a))]
     for d in cluster_articles([enrich(a) for a in current]):
         if not should_keep(d, today):
             continue

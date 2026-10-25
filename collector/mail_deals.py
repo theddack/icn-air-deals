@@ -30,6 +30,14 @@ STATS = ROOT / "data" / "mail_stats.json"  # 단계별 메일 개수만 (제목�
 DAYS = 21          # 한 번에 살펴볼 최근 메일 기간
 KEEP_DAYS = 45     # 뉴스 기사 보관 기간과 같다
 BODY_MAX = 6000    # 본문 앞부분만 본다 (행사 안내는 위쪽에 있다)
+TRANSACTIONAL_HEAD = 300  # 거래 메일 표현은 본문 맨 앞만 본다 (광고 메일 하단 안내문에 '예약'이 흔하다)
+
+# 가입·예약·결제·인증 같은 거래 메일 (행사 메일이 아니다)
+_TRANSACTIONAL = re.compile(r"가입(?:을|이)?\s?(?:환영|완료|축하)|환영합니다|인증\s?(?:번호|코드|메일)|이메일\s?(?:인증|확인)|비밀번호|"
+                            r"예약\s?(?:확인|완료|변경|취소|내역|번호)|결제\s?(?:완료|확인|내역)|영수증|e-?티켓|전자\s?항공권|"
+                            r"탑승권|체크인\s?(?:안내|완료)|여정\s?(?:안내|변경)|운항\s?(?:변경|지연|결항)|휴면|탈퇴|약관\s?(?:변경|개정)|"
+                            r"개인정보\s?(?:처리방침|이용내역)|회원\s?(?:정보|등급)\s?(?:변경|안내)|"
+                            r"\b(?:welcome|verify|verification|confirm(?:ation)?|receipt|itinerary|password|e-?ticket|boarding pass)\b", re.I)
 
 OFFICIAL = {a["name"]: a["official_url"] for a in AIRLINES}
 
@@ -49,22 +57,35 @@ def clean_subject(subject):
 
 def mail_article(airline, subject, body, sent, message_id, now_iso, why=None):
     """인증된 항공사 메일 한 통 → 행사 기사 dict, 행사 메일이 아니면 None. 본문은 돌려주지 않는다.
-    why(Counter)를 주면 걸러진 단계를 센다: not_listed / not_sale_subject / no_facts."""
+    why(Counter)를 주면 걸러진 단계를 센다: not_listed / transactional / not_sale / no_facts.
+
+    받는 기준 (2026-10-25 넓힘: 인증 메일 18통 중 16통이 제목만으로는 특가가 아니라 빠졌다)
+    - 가입·예약·결제·인증 같은 거래 메일은 뺀다 (제목 또는 본문 앞부분).
+    - 제목이 특가 메일이면(뉴스와 같은 규칙) 본문 사실값이 하나라도 있으면 받는다.
+    - 제목이 특가가 아니어도 본문에 판매 기간이 있거나, 금액과 도착지가 함께 있으면 받는다."""
     why = why if why is not None else Counter()
     official = OFFICIAL.get(airline)
     if not official:  # airlines.py에 없는 항공사(춘추항공 등)는 행사 묶기·화면 링크를 만들 수 없어 건너뛴다
         why["not_listed"] += 1
         return None
     subj = clean_subject(subject)
-    title = f"{airline} {subj}" if airline not in subj else subj
-    if extract.category_of(title) != "flight":
-        why["not_sale_subject"] += 1
+    text = (body or "")[:BODY_MAX]
+    if _TRANSACTIONAL.search(subj) or _TRANSACTIONAL.search(text[:TRANSACTIONAL_HEAD]):
+        why["transactional"] += 1
         return None
+    title = f"{airline} {subj}" if airline not in subj else subj
+    sale_subject = extract.category_of(title) == "flight"
     pub = (sent.astimezone(KST) if sent and sent.tzinfo else (sent or datetime.now(KST))).date()
-    facts, _ = extract.facts_from_summary(f"{subj}. {(body or '')[:BODY_MAX]}".replace("\n", ". "), pub)
+    facts, _ = extract.facts_from_summary(f"{subj}. {text}".replace("\n", ". "), pub)
     if not facts:
         why["no_facts"] += 1
         return None
+    if not sale_subject:
+        has_sale = bool(facts.get("sale_start") or facts.get("sale_end"))
+        has_price_route = bool(facts.get("destination") and (gm._KRW.search(text) or gm._FOREIGN.search(text)))
+        if not (has_sale or has_price_route):
+            why["not_sale"] += 1
+            return None
     mail_id = hashlib.sha256((message_id or f"{airline}{subject}{pub}").encode("utf-8")).hexdigest()[:16]
     url = f"{official}#mail-{mail_id}"  # 기사마다 주소가 달라야 중복 제거에 걸리지 않는다 (링크는 공식 사이트)
     fields = {k: (v.isoformat() if hasattr(v, "isoformat") else v) for k, v in facts.items()}

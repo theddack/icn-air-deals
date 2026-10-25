@@ -47,7 +47,27 @@ class TestMailArticle(unittest.TestCase):
         md.mail_article("춘추항공", "가을 특가", BODY, SENT, "<1>", "t", why)
         md.mail_article("제주항공", "회원가입을 환영합니다", BODY, SENT, "<2>", "t", why)
         md.mail_article("제주항공", "가을 특가 오픈", "앱에서 확인하세요.", SENT, "<3>", "t", why)
-        self.assertEqual(dict(why), {"not_listed": 1, "not_sale_subject": 1, "no_facts": 1})
+        self.assertEqual(dict(why), {"not_listed": 1, "transactional": 1, "no_facts": 1})
+
+    def test_plain_subject_accepted_by_body_facts(self):
+        # 제목에 특가 표현이 없어도 본문에 판매 기간, 또는 금액+도착지가 있으면 받는다 (2026-10-25)
+        a = md.mail_article("제주항공", "이번 주 소식", "판매기간: 10월 20일~10월 26일. 일본 노선 안내.", SENT, "<p1>", "t")
+        self.assertEqual(a["summary_facts"]["fields"]["sale_end"], "2026-10-26")
+        b = md.mail_article("제주항공", "가을 여행 떠나세요", "인천-오사카 편도 총액 59,000원부터", SENT, "<p2>", "t")
+        self.assertEqual(b["summary_facts"]["fields"]["destination"], "오사카(KIX)")
+        self.assertEqual(build_deals([b], date(2026, 10, 21))[0]["verification"], "official")
+
+    def test_plain_subject_without_sale_or_price_route_is_skipped(self):
+        from collections import Counter
+        why = Counter()
+        self.assertIsNone(md.mail_article("제주항공", "가을 소식", "탑승기간: 12월 1일~2월 28일. 최대 30% 할인", SENT, "<p3>", "t", why))
+        self.assertEqual(dict(why), {"not_sale": 1})
+
+    def test_transactional_mails_are_skipped(self):
+        for subject, body in [("예약 확인 안내", "인천-오사카 편도 59,000원. 판매기간 10월 20일~26일"),
+                              ("가을 특가 오픈", "이메일 인증 번호는 123456 입니다. 판매기간 10월 20일~26일"),
+                              ("Your e-ticket receipt", "ICN-NRT 120,000원")]:
+            self.assertIsNone(md.mail_article("제주항공", subject, body, SENT, "<t>", "t"), subject)
 
     def test_deal_from_mail_is_official(self):
         a = md.mail_article("제주항공", "가을 특가 오픈", BODY, SENT, "<abc@mail.jejuair.net>", "t")
