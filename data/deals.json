@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T22:29:04+09:00",
+ "generated_at": "2026-10-26T22:37:23+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2583,
+  "rss_items": 2530,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1852,
+  "outlet_items": 1850,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 1,
   "mail_new_articles": 0,
   "articles_with_summary": 17,
-  "articles": 484,
-  "new_articles": 0,
+  "articles": 485,
+  "new_articles": 1,
   "deals": 66
  },
  "deals": [
@@ -3965,8 +3965,8 @@
    "travel_end": null,
    "routes": [],
    "regions": [
-    "가평",
-    "제주"
+    "제주",
+    "가평"
    ],
    "conditions": [
     "쿠폰",
@@ -3985,7 +3985,7 @@
    "first_published": "2026-10-02",
    "last_published": "2026-10-02",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-25T16:25:30+09:00",
+   "last_seen": "2026-10-26T22:37:23+09:00",
    "articles": [
     {
      "title": "여기어때, 제주 친환경 숙소 12곳 할인…그린키 페스타 진행",
@@ -4015,6 +4015,12 @@
      "title": "여기어때, 가평 전 숙박시설 ‘최대 3만 원’ 선착순 할인",
      "outlet": "더쎈뉴스",
      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MOTNHN2lvakctVERGaTlRNjZBc3JBcFUxN0RqWnRySUhQaDB1QmxNN25iclVJdWE0dVNoMmNiUU5lYTU0eC1vMi1kdllzR0UxNm1wSXdZM0VzYlcwdXVmczBndDRsUGd0?oc=5",
+     "published": "2026-10-02"
+    },
+    {
+     "title": "여기어때, 제주 친환경 인증 숙소 할인전…\"호텔·리조트 12곳 대상\"",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9MRmVEb09XNVlCaXh0UnJLT3VXZUVEUHk2WFFmVU1NZnVpRjhULTFhYUYyQ0ROaEFERTBEdWJyMVkteU5KRUxkU2oxUFRXdXBDaTBKbWc5eE8wWVBENGx6QUoxN3R2N0V0ZmYw?oc=5",
      "published": "2026-10-02"
     },
     {
