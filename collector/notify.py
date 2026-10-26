@@ -9,12 +9,15 @@
 - new             새로 발견 (처음 본 지 3일 안)
 
 시간대 (KST). 시간대마다 메시지는 한 번만, 보낼 것이 없으면 보내지 않는다
-- 오전 09~14시: 오늘 시작 · 곧 시작(D-3) · 오늘 마감 · 신규
-- 오후 14~20시: 신규 · 오늘 시작 · 오늘 마감
-- 저녁 20~24시: 오늘·내일 마감 · 내일 시작 · 오늘 시작 · 신규
-- 0~9시에는 보내지 않는다. 앞 시간대가 실행되지 않았으면(예약 지연·누락) 그 시간대 종류도 함께 보낸다.
+- 오전 09~13시: 오늘 시작 · 곧 시작(D-3) · 오늘 마감 · 신규
+- 오후 13~18시: 신규 · 오늘 시작 · 오늘 마감
+- 저녁 18~21시: 오늘·내일 마감 · 내일 시작 · 오늘 시작 · 신규
+- 21시~다음 날 9시에는 보내지 않는다 (밤늦은 알림 부담, 2026-10-27 의견). 22시대 수집은 데이터만 갱신하고,
+  그 사이 발견한 행사는 다음 날 오전 '신규'로 간다(처음 본 지 3일 안, 마감된 행사는 제외).
+  전날 저녁에 못 보낸 '내일 마감'·'내일 시작'은 다음 날 아침 '오늘 마감'·'오늘 시작'이 된다.
+- 앞 시간대가 실행되지 않았으면(예약 지연·누락) 그 시간대 종류도 함께 보낸다.
 
-실행: 예약(09·14·20시) + 수집 작업이 끝날 때마다 (.github/workflows/telegram.yml).
+실행: 예약(09:07 · 14:07 · 18:37 · 20:07) + 수집 작업이 끝날 때마다 (.github/workflows/telegram.yml).
 보낸 기록은 data/telegram_sent.json (행사 id·확인된 정보·종류별 발송일, 받는 사람 정보 없음).
 수집 실패 경고는 여행 알림에 넣지 않고 Actions 로그와 관리자 대화(TELEGRAM_ADMIN_CHAT_ID, 선택)로만 보낸다.
 
@@ -52,9 +55,9 @@ WEEK = "월화수목금토일"
 SECTION = {"flight": "항공권", "domestic": "국내선", "hotel": "숙박"}
 
 SLOTS = [  # (이름, 시작 시, 끝 시)
-    ("morning", 9, 14),
-    ("afternoon", 14, 20),
-    ("evening", 20, 24),
+    ("morning", 9, 13),
+    ("afternoon", 13, 18),
+    ("evening", 18, 21),
 ]
 SLOT_KINDS = {
     "morning": ["start_today", "upcoming_d3", "closing_today", "new"],
@@ -141,21 +144,39 @@ def info_of(deal):
         "sale_start": deal.get("sale_start"),
         "sale_end": deal.get("sale_end"),
         "dests": sorted(_places(deal)),
+        "last": deal.get("last_published"),
         "urls": sorted({hashlib.sha1(a["url"].encode()).hexdigest()[:10] for a in deal.get("articles") or [] if a.get("url")})[:30],
     }
 
 
+UNDATED_SAME_DAYS = 14  # 날짜 없는 행사끼리 이름·도착지로 같다고 볼 최근 기사 날짜 차이 한도
+
+
 def same_event(a, b):
     """id가 다른 두 행사가 같은 행사인가. 기사가 더해져 묶음의 첫 기사가 바뀌면 id도 바뀐다.
-    주인·판매 시작일·종료일이 모두 같아야 하고(판매 기간이 다른 반복 행사는 다른 행사),
-    그 위에 행사명과 도착지가 같거나 같은 기사를 함께 담고 있어야 한다. 행사명만으로는 같다고 보지 않는다."""
+    행사명만으로는 같다고 보지 않는다. 판정 순서 (2026-10-27 보완):
+    1. 주인이 다르면 다르다.
+    2. 같은 기사를 함께 담고 있으면 같다 (기사 하나는 한 행사에만 묶인다. 날짜 유무와 상관없음).
+    3. 양쪽에 모두 있는 판매 시작일 또는 종료일이 서로 다르면 다르다 (판매 기간이 다른 반복 행사).
+    4. 날짜가 한쪽에만 있으면(기사가 더해져 정보가 늘어난 경우) 같은 기사로만 잇는다 → 여기서는 다르다.
+    5. 날짜가 양쪽 다 같으면 행사명·도착지가 같을 때 같다.
+    6. 날짜가 양쪽 다 없으면 행사명·도착지가 같고 최근 기사 날짜가 14일 안일 때만 같다
+       (없음끼리를 같은 값으로 치면 한 달 뒤 같은 이름의 다른 회차가 합쳐진다)."""
     if not a or not b or a["airline"] != b["airline"]:
         return False
+    if set(a["urls"]) & set(b["urls"]):
+        return True
+    for k in ("sale_start", "sale_end"):
+        if a[k] and b[k] and a[k] != b[k]:
+            return False
     if (a["sale_start"], a["sale_end"]) != (b["sale_start"], b["sale_end"]):
         return False
-    if a["name"] and a["name"] == b["name"] and a["dests"] == b["dests"]:
+    if not (a["name"] and a["name"] == b["name"] and a["dests"] == b["dests"]):
+        return False
+    if a["sale_start"] or a["sale_end"]:
         return True
-    return bool(set(a["urls"]) & set(b["urls"]))
+    la, lb = _d(a.get("last")), _d(b.get("last"))
+    return bool(la and lb and abs((la - lb).days) <= UNDATED_SAME_DAYS)
 
 
 def record_for(deal, events):
@@ -389,7 +410,7 @@ def run(deals_data, state, now, sender, admin=None):
     state = {**state, "events": rekey(deals, state.get("events", {}))}
     items, slot = plan(deals, state, now, data_fresh)
     if not slot:
-        print("[notify] 알림 시간대(09~24시)가 아니라 보내지 않습니다.")
+        print("[notify] 알림 시간대(09~21시)가 아니라 보내지 않습니다.")
         return state, None
     if not items:
         print(f"[notify] {slot}: 보낼 항목이 없습니다.")
@@ -474,16 +495,20 @@ def main(argv=None):
             send(token, admin_chat, "[관리자] " + text)
 
     new_state, error = run(deals_data, state, now, sender, admin)
-    if dry:
-        print("[dry-run] 기록 파일은 바꾸지 않았습니다.")
-        return 0
-    # 실패해도 그 앞까지 보낸 기록은 저장한다 (다시 보내지 않게)
-    STATE.write_text(json.dumps(new_state, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     if error:
         # 토큰·chat id는 찍지 않는다
         print(f"::error::텔레그램 발송 실패: {type(error).__name__} {getattr(error, 'code', '')} — 남은 항목은 다음 실행에서 보냅니다.")
-        return 1
-    return 0
+    if dry:
+        print("[dry-run] 기록 파일은 바꾸지 않았습니다.")
+        return 0
+    # 실패해도 그 앞까지 보낸 기록은 저장한다 (다시 보내지 않게). saved_at은 저장소 파일과 Actions 캐시 중
+    # 어느 쪽이 최신인지 가리는 데 쓴다 (기록을 저장소에 못 올린 경우 캐시 쪽이 더 최신, telegram.yml)
+    # 바뀐 게 없으면 파일을 그대로 둔다 (실행마다 저장 시각만 바뀐 커밋이 쌓이지 않게)
+    if {k: v for k, v in new_state.items() if k != "saved_at"} == {k: v for k, v in state.items() if k != "saved_at"}:
+        return 1 if error else 0
+    new_state = {**new_state, "saved_at": datetime.now(KST).isoformat(timespec="seconds")}
+    STATE.write_text(json.dumps(new_state, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    return 1 if error else 0
 
 
 if __name__ == "__main__":

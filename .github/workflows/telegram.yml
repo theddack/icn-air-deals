@@ -1,18 +1,23 @@
 name: telegram
 
-# 텔레그램 여행 할인 브리핑 (collector/notify.py). 시간대(KST 오전 09~14 · 오후 14~20 · 저녁 20~24시)마다 한 번,
-# 보낼 것이 없으면 보내지 않는다. 0~9시에는 보내지 않는다.
+# 텔레그램 여행 할인 브리핑 (collector/notify.py). 시간대(KST 오전 09~13 · 오후 13~18 · 저녁 18~21시)마다 한 번,
+# 보낼 것이 없으면 보내지 않는다. 21시~다음 날 9시에는 보내지 않는다 (22시대 수집은 데이터만 갱신).
 #
 # 언제 도는가
-# - 예약: KST 09:07 · 14:07 · 20:07 (UTC 0·5·11시). Actions 예약은 1~5시간 늦거나 빠지기도 한다
+# - 예약: KST 09:07 · 14:07 · 18:37 · 20:07 (UTC 0:07 · 5:07 · 9:37 · 11:07). Actions 예약은 1~5시간 늦거나 빠지기도
+#   해서 저녁은 두 번 걸어 21시 안에 들어올 가능성을 높인다 (같은 시간대는 한 번만 보낸다)
 # - 수집 작업(collect)이 끝날 때마다: 2026-10-20~26 기록상 수집은 실제로 KST 09:30 · 17:30 · 22:45쯤 끝난다.
 #   예약만 쓰면 새 데이터보다 먼저 돌거나 늦어진다. 이미 보낸 시간대면 notify.py가 아무것도 하지 않는다.
 #
-# 수집 작업과 따로 돈다 (같은 concurrency 그룹이면 수집 몇 분씩 알림이 밀린다). 이 작업은 data/telegram_sent.json만
-# 커밋하고 수집 작업은 그 파일을 건드리지 않아, 서로 먼저 올라온 커밋 위에 rebase해도 충돌하지 않는다.
+# 수집 작업과 따로 돈다 (같은 concurrency 그룹이면 수집 몇 분씩 알림이 밀린다). 알림 작업끼리는 한 번에 하나.
+# 이 작업은 data/telegram_sent.json만 커밋하고 수집 작업은 그 파일을 건드리지 않는다. 그래도 같은 브랜치에 거의
+# 동시에 올리면 먼저 올라간 쪽 때문에 push가 거절되므로, 원격을 다시 받아(rebase) 간격을 늘려 가며 다시 올린다.
+# 텔레그램은 보냈는데 끝내 못 올린 경우를 대비해 기록을 Actions 캐시에도 남기고, 다음 실행은 저장소 파일과
+# 캐시 중 최신(saved_at)을 쓴다 — 같은 알림이 다시 가지 않게.
 on:
   schedule:
     - cron: "7 0,5,11 * * *"
+    - cron: "37 9 * * *"
   workflow_run:
     workflows: [collect]
     types: [completed]
@@ -43,6 +48,29 @@ jobs:
         with:
           python-version: "3.12"
 
+      # 지난 실행이 캐시에 남긴 발송 기록 (가장 최근 것)
+      - name: Restore sent log cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .telegram-cache
+          key: telegram-sent-${{ github.run_id }}
+          restore-keys: telegram-sent-
+
+      - name: Use newest sent log
+        run: |
+          python - <<'EOF'
+          import json, pathlib, shutil
+          repo, cache = pathlib.Path("data/telegram_sent.json"), pathlib.Path(".telegram-cache/telegram_sent.json")
+          def saved(p):
+              try:
+                  return json.loads(p.read_text(encoding="utf-8")).get("saved_at", "")
+              except Exception:
+                  return ""
+          if cache.exists() and saved(cache) > saved(repo):
+              shutil.copy(cache, repo)
+              print("캐시의 발송 기록이 더 최신이라 그것을 씁니다 (지난번 저장소 저장 실패분)")
+          EOF
+
       - name: Notify
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -51,7 +79,18 @@ jobs:
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
         run: python -m collector.notify
 
-      # 보낸 기록 저장. 발송이 중간에 실패해도(위 단계 실패) 그때까지 보낸 기록은 올린다
+      # 발송이 중간에 실패해도(위 단계 실패) 그때까지 보낸 기록은 남긴다: 캐시 먼저, 그다음 저장소
+      - name: Copy sent log for cache
+        if: always()
+        run: mkdir -p .telegram-cache && cp data/telegram_sent.json .telegram-cache/ 2>/dev/null || true
+
+      - name: Save sent log cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .telegram-cache
+          key: telegram-sent-${{ github.run_id }}-${{ github.run_attempt }}
+
       - name: Save sent log
         if: always()
         run: |
@@ -63,9 +102,10 @@ jobs:
             exit 0
           fi
           git commit -m "data: 텔레그램 발송 기록 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M') KST"
-          for i in 1 2 3; do
+          for wait in 5 10 20 40 80; do
             git pull --rebase origin main && git push && exit 0
-            sleep 10
+            echo "올리기 실패, ${wait}초 뒤 다시 시도"
+            sleep $wait
           done
-          echo "::error::발송 기록을 올리지 못했습니다. 다음 실행에서 같은 항목을 다시 보낼 수 있습니다."
+          echo "::error::발송 기록을 저장소에 올리지 못했습니다. 캐시에 남긴 기록으로 다음 실행의 중복 발송을 막습니다."
           exit 1

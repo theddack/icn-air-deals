@@ -83,6 +83,23 @@ class TestSlots(Base):
         self.assertIn("내일 판매 시작", m)
 
 
+class TestQuietHours(Base):
+    def test_no_send_after_21(self):
+        st, out, _ = self.go([deal(1, sale_end="2026-10-28"), deal(2, first_seen="2026-10-27T21:10:00+09:00")],
+                             STARTED, "2026-10-27T21:30")
+        self.assertEqual(out, [])
+
+    def test_late_night_find_goes_next_morning_and_tomorrow_closing_becomes_today(self):
+        deals = [deal(2, first_seen="2026-10-27T22:45:00+09:00"),                 # 22시대 수집에서 발견
+                 deal(3, sale_end="2026-10-28"),                                  # 어제 저녁 못 보낸 '내일 마감'
+                 deal(4, first_seen="2026-10-27T22:45:00+09:00", sale_end="2026-10-27")]  # 어제 마감 → 제외
+        _, out, _ = self.go(deals, STARTED, "2026-10-28T09:20")
+        m = out[0]
+        self.assertIn("행사 2", m)
+        self.assertIn("판매 마감: 10/28 (오늘)", m)
+        self.assertNotIn("행사 4", m)
+
+
 class TestDelay(Base):
     def test_missed_morning_kinds_come_in_afternoon(self):
         # 오전 예약이 실행되지 않음 → 오후 실행이 D-3 안내도 함께 보낸다
@@ -143,6 +160,32 @@ class TestDedupe(Base):
         b = notify.info_of(deal(9, routes=[{"origin": "인천(ICN)", "destination": "다낭(DAD)"}],
                                 articles=[{"url": "https://news.example/other"}]))
         self.assertFalse(notify.same_event(a, b))
+
+    def test_undated_same_name_far_apart_is_new_event(self):
+        a = notify.info_of(deal(11, sale_start=None, sale_end=None, last_published="2026-09-20"))
+        b = notify.info_of(deal(11, sale_start=None, sale_end=None, last_published="2026-10-26",
+                                articles=[{"url": "https://news.example/11b"}]))
+        self.assertFalse(notify.same_event(a, b))                      # 한 달 뒤 같은 이름 → 다른 회차
+        c = notify.info_of(deal(11, sale_start=None, sale_end=None, last_published="2026-10-20",
+                                articles=[{"url": "https://news.example/11c"}]))
+        self.assertTrue(notify.same_event(c, b))                       # 14일 안 → 같은 행사
+
+    def test_undated_without_name_needs_shared_article(self):
+        a = notify.info_of(deal(12, event_name=None, routes=[], sale_start=None, sale_end=None))
+        b = notify.info_of(deal(12, event_name=None, routes=[], sale_start=None, sale_end=None,
+                                articles=[{"url": "https://news.example/12b"}]))
+        self.assertFalse(notify.same_event(a, b))
+        shared = notify.info_of(deal(12, event_name=None, routes=[], sale_start=None, sale_end=None,
+                                     articles=[{"url": "https://news.example/12"}, {"url": "https://news.example/12c"}]))
+        self.assertTrue(notify.same_event(a, shared))
+
+    def test_date_added_links_only_by_shared_article(self):
+        before = notify.info_of(deal(13, sale_start=None, sale_end=None))
+        after_same = notify.info_of(deal(13, sale_end="2026-11-01",
+                                         articles=[{"url": "https://news.example/13"}, {"url": "https://news.example/13b"}]))
+        after_other = notify.info_of(deal(13, sale_end="2026-11-01", articles=[{"url": "https://news.example/13c"}]))
+        self.assertTrue(notify.same_event(before, after_same))
+        self.assertFalse(notify.same_event(before, after_other))
 
     def test_migrates_old_log(self):
         old = {"started": "2026-10-26", "sent": {"d1": "2026-10-26", "d1:closing": "2026-10-26", "failed:2026-10-26": "x"}}
