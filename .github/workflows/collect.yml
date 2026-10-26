@@ -69,6 +69,15 @@ jobs:
       - name: Collect Secret Flying
         run: python -m collector.secretflying
 
+      # 텔레그램 알림: 새 할인·곧 마감(오늘·내일)·수집 실패. 보낸 기록(data/telegram_sent.json)은 아래에서 함께 커밋한다.
+      # 비밀값이 없으면 건너뛰고, 실패해도 수집·배포는 계속한다 (collector/notify.py)
+      - name: Notify Telegram
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m collector.notify
+
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
