@@ -3583,5 +3583,46 @@
     "route": ""
    }
   }
+ },
+ {
+  "title": "진에어, 필리핀 노선 최대 25% 할인",
+  "outlet": "데일리로그",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nUWFwWU52b25qU1l1SmJEbTFac2ltX2twcFpHZ1c1akl3TndIeXBaWkVFZHNTVmVJbmVZZm9vZGhzVEdkV0Y5dmtJUk9XV3drUDNLY1dBdU1MNWJ3aWxxSmk4bFEzSkVSRHhoWA?oc=5",
+  "published": "2026-09-30",
+  "first_seen": "2026-10-26T09:21:46+09:00"
+ },
+ {
+  "title": "여기어때, '숙박 세일 페스타 섬 지역편' 선봬…\"숙박비 5만원 할인\"",
+  "outlet": "비즈월드",
+  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10VWJEWUM3dXpNYk1DU2VSNGVwQTBtV25KQmNLSGx2NTdVd2I0UXFGakZ0MkJxbHhEV1NoTzBwUFI3T2RWaXVwaXZqWjR1azMwZGdjSXNfZlZ2M2tZVlJWUTZ2c3hDTEp3djZ3?oc=5",
+  "published": "2026-09-26",
+  "first_seen": "2026-10-26T09:21:46+09:00"
+ },
+ {
+  "title": "여기어때, 겨울 ‘블랙위크’…일본 프리미엄 숙소 할인",
+  "outlet": "핀포인트뉴스",
+  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fQW5pZmVhaXlCa0xoUURJbDNBZkVvLUVtOG9NRDRYRGFOOTRNWXBnYmlCRHdJYk5qbGRjMEYyelU2QWZwcWxUaGlFbldmR0p1Wlg5QWZhbi1yVFhxak1GYUdsN1BEbVZrb0oyU3lacWtCbjTSAXdBVV95cUxNWnE1SXNlTXdOTXIxenZqUWtkbkh6cUg5MENpTHkwWjA5a013aFRMbEpBOHdkdkhETDdYbXF2WV9MY1pJV09pLXpUSEU1S3JSLUh6clNaMGx3SkYydU9YVkZ1SDVERXU4ZGY0TTBINFAwbDRueDU3MA?oc=5",
+  "published": "2026-10-26",
+  "first_seen": "2026-10-26T09:21:46+09:00",
+  "summary_facts": {
+   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498311",
+   "outlet": "핀포인트뉴스",
+   "fields": {
+    "sale_start": null,
+    "sale_end": "2026-11-15",
+    "discount": "20% 할인"
+   },
+   "evidence": {
+    "sale": "…‘일본 블랙’ 오픈을 기념해 다음 달 15일까지 해외숙소 할인 행사 ‘블랙위크’를 진행한다고 26일 밝혔다.…",
+    "discount": "행사 기간 매일 오전 10시 선착순으로 해외숙소 20% 할인 쿠폰을 지급한다."
+   }
+  }
+ },
+ {
+  "title": "‘여름 숙박세일 페스타’로 지역관광 활성화 나선다",
+  "outlet": "시사매거진",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE14VzR0VmxRc0g5eVN6UGJJVEg3UDNEd3l5S0hqOWtHUTBjd3hrSmllemsySG52T0pieTBFM3E4NDRaSkJrUWdlY1F3dGFUX3pMRHZmLTIzR1I?oc=5",
+  "published": "2026-10-24",
+  "first_seen": "2026-10-26T09:21:46+09:00"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T22:42:24+09:00",
+ "generated_at": "2026-10-26T09:21:46+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2496,
+  "rss_items": 2597,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1587,
+  "outlet_items": 1721,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_enriched": 1,
   "mail_articles": 1,
   "mail_new_articles": 0,
-  "articles_with_summary": 16,
-  "articles": 475,
-  "new_articles": 0,
-  "deals": 66
+  "articles_with_summary": 17,
+  "articles": 479,
+  "new_articles": 4,
+  "deals": 64
  },
  "deals": [
   {
@@ -237,7 +237,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "숙박세일 페스타",
-   "headline": "단풍을 눈에 가득 담을 수 있는 곳🍁 '숙박세일페스타'로 떠나자🍂 : 네이버 블로그",
+   "headline": "‘여름 숙박세일 페스타’로 지역관광 활성화 나선다",
    "sale_start": "2026-09-22",
    "sale_end": "2026-11-08",
    "travel_start": null,
@@ -268,10 +268,16 @@
    "discount": "최대 7만원 할인",
    "verification": "news",
    "first_published": "2026-09-16",
-   "last_published": "2026-10-21",
+   "last_published": "2026-10-24",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-24T17:05:52+09:00",
+   "last_seen": "2026-10-26T09:21:46+09:00",
    "articles": [
+    {
+     "title": "‘여름 숙박세일 페스타’로 지역관광 활성화 나선다",
+     "outlet": "시사매거진",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE14VzR0VmxRc0g5eVN6UGJJVEg3UDNEd3l5S0hqOWtHUTBjd3hrSmllemsySG52T0pieTBFM3E4NDRaSkJrUWdlY1F3dGFUX3pMRHZmLTIzR1I?oc=5",
+     "published": "2026-10-24"
+    },
     {
      "title": "단풍을 눈에 가득 담을 수 있는 곳🍁 '숙박세일페스타'로 떠나자🍂 : 네이버 블로그",
      "outlet": "Naver Blog",
@@ -982,92 +988,6 @@
    "status": "live"
   },
   {
-   "id": "airasia-52c40ce69d",
-   "airline_id": "airasia",
-   "airline": "에어아시아",
-   "airlines_mentioned": [
-    "에어아시아"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airasia.com/ko/kr",
-   "iata": [
-    "AK",
-    "D7",
-    "FD",
-    "Z2",
-    "XJ"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어아시아, 전 노선·전 좌석 최대 30% 할인…“연말·내년 동남아 여행 가성비 높인다”",
-   "sale_start": null,
-   "sale_end": "2026-10-25",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "에어아시아, 전 노선 항공권 최대 30% 할인…25일까지 특별 프로모션",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcUtkTXlCUXJPa09tMFA0MUlHYzZzOG45TTBzZ0tlOGlUdDBaUzdBeWxHVDFnNS1CakdBXzFUOVBGZzF2M08zdWNZM1dRTC1hdWZiQWZtNFJNaEZnQkdPMmxUNnhtOFc0WG0yNWxfX05VeDc5cW0wQVRGQlBUVVl4NlAzNnRPQQ?oc=5"
-    },
-    "discount": {
-     "title": "에어아시아, 전 노선·전 좌석 최대 30% 할인…“연말·내년 동남아 여행 가성비 높인다”",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLQWlXa1RnRjdvSzl2R1Ria3BOSGt2MDVmYjlQSXhfa3J3Q1FfYjc2SEhuZzQtTHBPNWdCdGxUeWhaNkZ3OFBMMTF0bVNKUTFrcTU0MkJNR0lmWHhfaE5JT2JNbmpIeWEzVGc?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 30%",
-   "verification": "news",
-   "first_published": "2026-10-19",
-   "last_published": "2026-10-20",
-   "first_seen": "2026-10-19T08:45:21+09:00",
-   "last_seen": "2026-10-20T09:45:40+09:00",
-   "articles": [
-    {
-     "title": "에어아시아, 전 노선·전 좌석 최대 30% 할인…“연말·내년 동남아 여행 가성비 높인다”",
-     "outlet": "비즈월드",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLQWlXa1RnRjdvSzl2R1Ria3BOSGt2MDVmYjlQSXhfa3J3Q1FfYjc2SEhuZzQtTHBPNWdCdGxUeWhaNkZ3OFBMMTF0bVNKUTFrcTU0MkJNR0lmWHhfaE5JT2JNbmpIeWEzVGc?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어아시아, 전 좌석·전 노선 최대 30% 할인 프로모션",
-     "outlet": "트래블데일리",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72379",
-     "published": "2026-10-19"
-    },
-    {
-     "title": "에어아시아, 전 노선 항공권 최대 30% 할인…25일까지 특별 프로모션",
-     "outlet": "뷰티트래블뉴스",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcUtkTXlCUXJPa09tMFA0MUlHYzZzOG45TTBzZ0tlOGlUdDBaUzdBeWxHVDFnNS1CakdBXzFUOVBGZzF2M08zdWNZM1dRTC1hdWZiQWZtNFJNaEZnQkdPMmxUNnhtOFc0WG0yNWxfX05VeDc5cW0wQVRGQlBUVVl4NlAzNnRPQQ?oc=5",
-     "published": "2026-10-19"
-    },
-    {
-     "title": "에어아시아, 단 1주일간만! 전 노선 항공권 최대 30% 할인 프로모션",
-     "outlet": "국제뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtM3BsV0VEMkJzcWNtTHBXYV92QXd4UUhQbllNenZVdkJMcERaelJWNUVGWVdIY3FfZXRpUkxwdFhfNF9Jcm5Ba0JkSEhGeWVwOVBtcEg2LV84TUJYY3MzY0FtemI5eU0xYnJQNGhR?oc=5",
-     "published": "2026-10-19"
-    },
-    {
-     "title": "에어아시아, 전 좌석·노선 최대 30% 할인 프로모션",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XR01Td1hqbFgzUmFUeGF0bnBjcVUyOWo0M0FnSzNIT2dITDloTVZUaGtXRHZUaGdlLUJUWFY2dGdDc2VNdTBCWXI0OHhaRmZuMFZjeTZ0enZyUkhUM2R3ekxoMVA4QQ?oc=5",
-     "published": "2026-10-19"
-    }
-   ],
-   "status": "live"
-  },
-  {
    "id": "airpremia-e2ef05c49f",
    "airline_id": "airpremia",
    "airline": "에어프레미아",
@@ -1461,63 +1381,62 @@
    "status": "live"
   },
   {
-   "id": "aircanada-7155f9577c",
-   "airline_id": "aircanada",
-   "airline": "에어캐나다",
+   "id": "h-yeogi-5c8be00dba",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
    "airlines_mentioned": [
-    "에어캐나다"
+    "여기어때"
    ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
    "route": null,
    "route_text": null,
-   "scope": null,
+   "scope": "overseas",
    "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.aircanada.com/kr/ko/aco/home.html",
-   "iata": [
-    "AC"
-   ],
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
    "agencies": [],
-   "event_name": null,
-   "headline": "\"환승 대기시간도 즐거운 여행으로\"…에어캐나다, 밴쿠버 경유 미국행 프로모션",
+   "event_name": "블랙위크",
+   "headline": "여기어때, 겨울 ‘블랙위크’…일본 프리미엄 숙소 할인",
    "sale_start": null,
-   "sale_end": null,
+   "sale_end": "2026-11-15",
    "travel_start": null,
    "travel_end": null,
-   "routes": [
-    {
-     "origin": null,
-     "destination": "미국"
-    }
+   "routes": [],
+   "regions": [
+    "일본"
    ],
-   "regions": [],
    "conditions": [],
    "conflicts": [],
    "evidence": {
-    "route": {
-     "title": "\"환승 대기시간도 즐거운 여행으로\"…에어캐나다, 밴쿠버 경유 미국행 프로모션",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uelU4SmhfUU5pR3QtSTdVY0NFTkVwVTFtdkJmLVUtYVBQVDNTQ2hjbWVVQURsS1hraHl5bEZYMzh5bzYxeUlsUlltaVFPOFBOMXYwX3paU2ZGZXFuYm5kenJKQ3RrcjR4d1E?oc=5"
+    "sale": {
+     "title": "핀포인트뉴스 요약문: …‘일본 블랙’ 오픈을 기념해 다음 달 15일까지 해외숙소 할인 행사 ‘블랙위크’를 진행한다고 26일 밝혔다.…",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498311"
+    },
+    "discount": {
+     "title": "핀포인트뉴스 요약문: 행사 기간 매일 오전 10시 선착순으로 해외숙소 20% 할인 쿠폰을 지급한다.",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498311"
     }
    },
-   "from_icn": "unknown",
-   "discount": null,
+   "from_icn": null,
+   "discount": "20% 할인",
    "verification": "news",
-   "first_published": "2026-10-11",
-   "last_published": "2026-10-11",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
+   "first_published": "2026-10-26",
+   "last_published": "2026-10-26",
+   "first_seen": "2026-10-26T09:21:46+09:00",
+   "last_seen": "2026-10-26T09:21:46+09:00",
    "articles": [
     {
-     "title": "\"환승 대기시간도 즐거운 여행으로\"…에어캐나다, 밴쿠버 경유 미국행 프로모션",
-     "outlet": "비즈월드",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uelU4SmhfUU5pR3QtSTdVY0NFTkVwVTFtdkJmLVUtYVBQVDNTQ2hjbWVVQURsS1hraHl5bEZYMzh5bzYxeUlsUlltaVFPOFBOMXYwX3paU2ZGZXFuYm5kenJKQ3RrcjR4d1E?oc=5",
-     "published": "2026-10-11"
+     "title": "여기어때, 겨울 ‘블랙위크’…일본 프리미엄 숙소 할인",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fQW5pZmVhaXlCa0xoUURJbDNBZkVvLUVtOG9NRDRYRGFOOTRNWXBnYmlCRHdJYk5qbGRjMEYyelU2QWZwcWxUaGlFbldmR0p1Wlg5QWZhbi1yVFhxak1GYUdsN1BEbVZrb0oyU3lacWtCbjTSAXdBVV95cUxNWnE1SXNlTXdOTXIxenZqUWtkbkh6cUg5MENpTHkwWjA5a013aFRMbEpBOHdkdkhETDdYbXF2WV9MY1pJV09pLXpUSEU1S3JSLUh6clNaMGx3SkYydU9YVkZ1SDVERXU4ZGY0TTBINFAwbDRueDU3MA?oc=5",
+     "published": "2026-10-26"
     }
    ],
-   "status": "undated"
+   "status": "live"
   },
   {
    "id": "multi-cec13ce028",
@@ -3162,107 +3081,56 @@
    "status": "undated"
   },
   {
-   "id": "jinair-22fc70b13c",
-   "airline_id": "jinair",
-   "airline": "진에어",
+   "id": "h-yeogi-f621514a13",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
    "airlines_mentioned": [
-    "진에어"
+    "여기어때"
    ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.jinair.com/",
-   "iata": [
-    "LJ"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "[하늘길] 추석 연휴, 한가위 이벤트부터 15% 할인까지…진에어 외 2가지 항공",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "[하늘길] 추석 연휴, 한가위 이벤트부터 15% 할인까지…진에어 외 2가지 항공",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EY2wtTXVyWXVuaURWRkt6YnBpOUEyMC0xcHQ2cmRNbS14aXdqTjRxTkNlV21pdkZwdFZ5emxDUmplaDV1aUNINkRkLW9qLVNtTUZQRG1KWldubGE0NVdwY0FVVks3REF5dWVDS0RPR0w?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "15% 할인",
-   "verification": "news",
-   "first_published": "2026-09-25",
-   "last_published": "2026-09-25",
-   "first_seen": "2026-10-19T08:45:21+09:00",
-   "last_seen": "2026-10-19T08:45:21+09:00",
-   "articles": [
-    {
-     "title": "[하늘길] 추석 연휴, 한가위 이벤트부터 15% 할인까지…진에어 외 2가지 항공",
-     "outlet": "신아일보",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EY2wtTXVyWXVuaURWRkt6YnBpOUEyMC0xcHQ2cmRNbS14aXdqTjRxTkNlV21pdkZwdFZ5emxDUmplaDV1aUNINkRkLW9qLVNtTUZQRG1KWldubGE0NVdwY0FVVks3REF5dWVDS0RPR0w?oc=5",
-     "published": "2026-09-25"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "h-other-b8a2951aa9",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
+   "kind": "platform",
    "category": "hotel",
    "section": "hotel",
    "route": null,
    "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.yeogi.com/",
    "iata": [],
    "agencies": [],
-   "event_name": null,
-   "headline": "Le Creuset Is Having An 80% Off Sale At One World Hotel From 25 To 27 September",
+   "event_name": "2026 숙박 세일 페스타 섬 지역편",
+   "headline": "여기어때, '숙박 세일 페스타 섬 지역편' 선봬…\"숙박비 5만원 할인\"",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
    "routes": [],
-   "regions": [],
+   "regions": [
+    "섬 지역"
+   ],
    "conditions": [],
    "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Le Creuset Is Having An 80% Off Sale At One World Hotel From 25 To 27 September",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQVBtNFNCVGdERmpUaF9XYl9HdlJEQjl2bWJLenQ0cW9UYzNCTU96LXBSelZpTzBHYTR6SldCU0k3MUFGemtGRm5PN3pFSXczUU9DX0QyTWdsd0RWaUxLLUM3cEkzSDVyZ0VzMWZvTmxfZGVCbkZlRi1WUmppU0lSdmhlSF81NG9WRmhVYjVVeTBOSFRHR05mS0hnTWpYRGFFVlpTS1dua0M2WFkt?oc=5"
-    }
-   },
+   "evidence": {},
    "from_icn": null,
-   "discount": "80% 할인",
+   "discount": null,
    "verification": "news",
-   "first_published": "2026-09-25",
-   "last_published": "2026-09-25",
-   "first_seen": "2026-10-15T17:22:32+09:00",
-   "last_seen": "2026-10-15T17:22:32+09:00",
+   "first_published": "2026-09-22",
+   "last_published": "2026-09-26",
+   "first_seen": "2026-10-17T23:35:55+09:00",
+   "last_seen": "2026-10-26T09:21:46+09:00",
    "articles": [
     {
-     "title": "Le Creuset Is Having An 80% Off Sale At One World Hotel From 25 To 27 September",
-     "outlet": "SAYS",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQVBtNFNCVGdERmpUaF9XYl9HdlJEQjl2bWJLenQ0cW9UYzNCTU96LXBSelZpTzBHYTR6SldCU0k3MUFGemtGRm5PN3pFSXczUU9DX0QyTWdsd0RWaUxLLUM3cEkzSDVyZ0VzMWZvTmxfZGVCbkZlRi1WUmppU0lSdmhlSF81NG9WRmhVYjVVeTBOSFRHR05mS0hnTWpYRGFFVlpTS1dua0M2WFkt?oc=5",
-     "published": "2026-09-25"
+     "title": "여기어때, '숙박 세일 페스타 섬 지역편' 선봬…\"숙박비 5만원 할인\"",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10VWJEWUM3dXpNYk1DU2VSNGVwQTBtV25KQmNLSGx2NTdVd2I0UXFGakZ0MkJxbHhEV1NoTzBwUFI3T2RWaXVwaXZqWjR1azMwZGdjSXNfZlZ2M2tZVlJWUTZ2c3hDTEp3djZ3?oc=5",
+     "published": "2026-09-26"
+    },
+    {
+     "title": "여기어때, 가을 섬 여행객 잡는다... ‘2026 숙박 세일 페스타 섬 지역편’ 진행",
+     "outlet": "메가경제",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14MkRBelVJenRFcEd6cDJ5ZXc1R2JpT1JJWTBncWhmMDc1RG9uTE9TX0dzWDh0WlZFVG5SdFZPeVRyZU1sZkF4Q3J4TnlQak9TNzRMVGJhSUZsa2FHclB0MHYxejhvOGRJSU5DSjlveDZ6Z9IBckFVX3lxTE14MkRBelVJenRFcEd6cDJ5ZXc1R2JpT1JJWTBncWhmMDc1RG9uTE9TX0dzWDh0WlZFVG5SdFZPeVRyZU1sZkF4Q3J4TnlQak9TNzRMVGJhSUZsa2FHclB0MHYxejhvOGRJSU5DSjlveDZ6Zw?oc=5",
+     "published": "2026-09-22"
     }
    ],
    "status": "stale"
@@ -3594,7 +3462,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "가을·겨울철 수요 잡는다… 진에어, 필리핀 4개 노선 할인 - 조선비즈",
+   "headline": "진에어, 필리핀 노선 최대 25% 할인",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -3614,22 +3482,28 @@
    "conflicts": [],
    "evidence": {
     "discount": {
-     "title": "진에어, 필리핀 노선 최대 25% 할인 프로모션",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yZUtaNVlCMkprNXRVbzlCQ2pqQkg1MlBHaVNNMHAwdnRDRmFYMTNKRkl6YlNJeEU4blNuU25DMC1PSVZ6cy1OTVZualVsS1NVbnV0NDBSUFB2NS1NZHZCNEl2ajBHQVpnWGpFX1hCWVnSAXRBVV95cUxONW55Z2pOejM2a3lUMEQtT0VqcG9NWWhxU0JSRXR6alp0aUpnVXo3VDVCTnBBSjNFZ1NNcjBLbUhOeURZWk1Tc2ZhUklBWXVkdDFkRkV5cHlVTHgzX0VwU0oxN1djZm10NlI5clNaSy1IWnB2VA?oc=5"
+     "title": "진에어, 필리핀 노선 최대 25% 할인",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nUWFwWU52b25qU1l1SmJEbTFac2ltX2twcFpHZ1c1akl3TndIeXBaWkVFZHNTVmVJbmVZZm9vZGhzVEdkV0Y5dmtJUk9XV3drUDNLY1dBdU1MNWJ3aWxxSmk4bFEzSkVSRHhoWA?oc=5"
     },
     "route": {
-     "title": "진에어, 필리핀 노선 최대 25% 할인 프로모션",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yZUtaNVlCMkprNXRVbzlCQ2pqQkg1MlBHaVNNMHAwdnRDRmFYMTNKRkl6YlNJeEU4blNuU25DMC1PSVZ6cy1OTVZualVsS1NVbnV0NDBSUFB2NS1NZHZCNEl2ajBHQVpnWGpFX1hCWVnSAXRBVV95cUxONW55Z2pOejM2a3lUMEQtT0VqcG9NWWhxU0JSRXR6alp0aUpnVXo3VDVCTnBBSjNFZ1NNcjBLbUhOeURZWk1Tc2ZhUklBWXVkdDFkRkV5cHlVTHgzX0VwU0oxN1djZm10NlI5clNaSy1IWnB2VA?oc=5"
+     "title": "진에어, 필리핀 노선 최대 25% 할인",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nUWFwWU52b25qU1l1SmJEbTFac2ltX2twcFpHZ1c1akl3TndIeXBaWkVFZHNTVmVJbmVZZm9vZGhzVEdkV0Y5dmtJUk9XV3drUDNLY1dBdU1MNWJ3aWxxSmk4bFEzSkVSRHhoWA?oc=5"
     }
    },
    "from_icn": "no",
    "discount": "최대 25%",
    "verification": "news",
    "first_published": "2026-09-29",
-   "last_published": "2026-09-29",
+   "last_published": "2026-09-30",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-19T21:28:27+09:00",
+   "last_seen": "2026-10-26T09:21:46+09:00",
    "articles": [
+    {
+     "title": "진에어, 필리핀 노선 최대 25% 할인",
+     "outlet": "데일리로그",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nUWFwWU52b25qU1l1SmJEbTFac2ltX2twcFpHZ1c1akl3TndIeXBaWkVFZHNTVmVJbmVZZm9vZGhzVEdkV0Y5dmtJUk9XV3drUDNLY1dBdU1MNWJ3aWxxSmk4bFEzSkVSRHhoWA?oc=5",
+     "published": "2026-09-30"
+    },
     {
      "title": "가을·겨울철 수요 잡는다… 진에어, 필리핀 4개 노선 할인 - 조선비즈",
      "outlet": "Chosunbiz",
@@ -4442,62 +4316,6 @@
    "status": "stale"
   },
   {
-   "id": "h-marriott-dd19b3c8b8",
-   "airline_id": "h-marriott",
-   "airline": "메리어트",
-   "airlines_mentioned": [
-    "메리어트"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Marriott Worldwide 20% Off Escapes For Stays October 2 – 18, 2026 (Book By Sunday)",
-   "sale_start": "2026-10-02",
-   "sale_end": "2026-10-18",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "Marriott Worldwide 20% Off Escapes For Stays October 2 – 18, 2026 (Book By Sunday)",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkVhcGtiSW04eHQxOHBnbHd1Yy1oZnZ5OEVCY1YwWFp1YWhMMEJ1ZHhNWU04NFJDTG9GSVcwcWZReU95TUxtSGIwdEUybUUxRG1femdidWNTMDl4a2ZJWFZWVmh2QVhhbTJId2hnQnFXbFo3ZTlhZ0FFV0E0eHRCUHdQZk5XR1haNFJ6SWtsckROT1lsTFZxR1RBUmRLc2xraGd4VXo3SE9ET0lKd3ZQcU8xQQ?oc=5"
-    },
-    "discount": {
-     "title": "Marriott Worldwide 20% Off Escapes For Stays October 2 – 18, 2026 (Book By Sunday)",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkVhcGtiSW04eHQxOHBnbHd1Yy1oZnZ5OEVCY1YwWFp1YWhMMEJ1ZHhNWU04NFJDTG9GSVcwcWZReU95TUxtSGIwdEUybUUxRG1femdidWNTMDl4a2ZJWFZWVmh2QVhhbTJId2hnQnFXbFo3ZTlhZ0FFV0E0eHRCUHdQZk5XR1haNFJ6SWtsckROT1lsTFZxR1RBUmRLc2xraGd4VXo3SE9ET0lKd3ZQcU8xQQ?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "20% 할인",
-   "verification": "news",
-   "first_published": "2026-09-26",
-   "last_published": "2026-09-26",
-   "first_seen": "2026-10-22T23:30:51+09:00",
-   "last_seen": "2026-10-22T23:30:51+09:00",
-   "articles": [
-    {
-     "title": "Marriott Worldwide 20% Off Escapes For Stays October 2 – 18, 2026 (Book By Sunday)",
-     "outlet": "LoyaltyLobby",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkVhcGtiSW04eHQxOHBnbHd1Yy1oZnZ5OEVCY1YwWFp1YWhMMEJ1ZHhNWU04NFJDTG9GSVcwcWZReU95TUxtSGIwdEUybUUxRG1femdidWNTMDl4a2ZJWFZWVmh2QVhhbTJId2hnQnFXbFo3ZTlhZ0FFV0E0eHRCUHdQZk5XR1haNFJ6SWtsckROT1lsTFZxR1RBUmRLc2xraGd4VXo3SE9ET0lKd3ZQcU8xQQ?oc=5",
-     "published": "2026-09-26"
-    }
-   ],
-   "status": "ended"
-  },
-  {
    "id": "h-paradise-5b561f60db",
    "airline_id": "h-paradise",
    "airline": "파라다이스",
@@ -5197,6 +5015,92 @@
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rNEI3cUVLXzNHUFpRUjMwdkI5SEhpMExXSDBxUkNBb3R5bnhrTUFZU1dzUXI5MkltT0c1aWFQaDJLNUZQNEdValdQVEZTbnNPQ2dpaTdtME83dktGYURTYVZzR0VnUQ?oc=5",
      "published": "2026-10-10"
+    }
+   ],
+   "status": "ended"
+  },
+  {
+   "id": "airasia-52c40ce69d",
+   "airline_id": "airasia",
+   "airline": "에어아시아",
+   "airlines_mentioned": [
+    "에어아시아"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airasia.com/ko/kr",
+   "iata": [
+    "AK",
+    "D7",
+    "FD",
+    "Z2",
+    "XJ"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어아시아, 전 노선·전 좌석 최대 30% 할인…“연말·내년 동남아 여행 가성비 높인다”",
+   "sale_start": null,
+   "sale_end": "2026-10-25",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "에어아시아, 전 노선 항공권 최대 30% 할인…25일까지 특별 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcUtkTXlCUXJPa09tMFA0MUlHYzZzOG45TTBzZ0tlOGlUdDBaUzdBeWxHVDFnNS1CakdBXzFUOVBGZzF2M08zdWNZM1dRTC1hdWZiQWZtNFJNaEZnQkdPMmxUNnhtOFc0WG0yNWxfX05VeDc5cW0wQVRGQlBUVVl4NlAzNnRPQQ?oc=5"
+    },
+    "discount": {
+     "title": "에어아시아, 전 노선·전 좌석 최대 30% 할인…“연말·내년 동남아 여행 가성비 높인다”",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLQWlXa1RnRjdvSzl2R1Ria3BOSGt2MDVmYjlQSXhfa3J3Q1FfYjc2SEhuZzQtTHBPNWdCdGxUeWhaNkZ3OFBMMTF0bVNKUTFrcTU0MkJNR0lmWHhfaE5JT2JNbmpIeWEzVGc?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 30%",
+   "verification": "news",
+   "first_published": "2026-10-19",
+   "last_published": "2026-10-20",
+   "first_seen": "2026-10-19T08:45:21+09:00",
+   "last_seen": "2026-10-20T09:45:40+09:00",
+   "articles": [
+    {
+     "title": "에어아시아, 전 노선·전 좌석 최대 30% 할인…“연말·내년 동남아 여행 가성비 높인다”",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLQWlXa1RnRjdvSzl2R1Ria3BOSGt2MDVmYjlQSXhfa3J3Q1FfYjc2SEhuZzQtTHBPNWdCdGxUeWhaNkZ3OFBMMTF0bVNKUTFrcTU0MkJNR0lmWHhfaE5JT2JNbmpIeWEzVGc?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "에어아시아, 전 좌석·전 노선 최대 30% 할인 프로모션",
+     "outlet": "트래블데일리",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72379",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "에어아시아, 전 노선 항공권 최대 30% 할인…25일까지 특별 프로모션",
+     "outlet": "뷰티트래블뉴스",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcUtkTXlCUXJPa09tMFA0MUlHYzZzOG45TTBzZ0tlOGlUdDBaUzdBeWxHVDFnNS1CakdBXzFUOVBGZzF2M08zdWNZM1dRTC1hdWZiQWZtNFJNaEZnQkdPMmxUNnhtOFc0WG0yNWxfX05VeDc5cW0wQVRGQlBUVVl4NlAzNnRPQQ?oc=5",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "에어아시아, 단 1주일간만! 전 노선 항공권 최대 30% 할인 프로모션",
+     "outlet": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtM3BsV0VEMkJzcWNtTHBXYV92QXd4UUhQbllNenZVdkJMcERaelJWNUVGWVdIY3FfZXRpUkxwdFhfNF9Jcm5Ba0JkSEhGeWVwOVBtcEg2LV84TUJYY3MzY0FtemI5eU0xYnJQNGhR?oc=5",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "에어아시아, 전 좌석·노선 최대 30% 할인 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XR01Td1hqbFgzUmFUeGF0bnBjcVUyOWo0M0FnSzNIT2dITDloTVZUaGtXRHZUaGdlLUJUWFY2dGdDc2VNdTBCWXI0OHhaRmZuMFZjeTZ0enZyUkhUM2R3ekxoMVA4QQ?oc=5",
+     "published": "2026-10-19"
     }
    ],
    "status": "ended"
