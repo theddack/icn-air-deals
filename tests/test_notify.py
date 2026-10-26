@@ -53,6 +53,27 @@ class TestNotify(unittest.TestCase):
         _, out = self.run_once(deals, st)
         self.assertEqual(out, [])
 
+    def test_start_day_sent_once(self):
+        # 어제 '판매 예정'으로 알린 행사 → 판매 시작일 아침에 한 번 더
+        st, _ = self.run_once([], {})
+        upcoming = deal(5, sale_start="2026-10-29", sale_end="2026-11-05")
+        st, out = self.run_once([upcoming], st)
+        self.assertIn("10/29(목) 판매 시작", out[0])
+        later = notify.run({"deals": [upcoming]}, st, date(2026, 10, 29), (out := []).append)
+        self.assertEqual(len(out), 1)
+        self.assertIn("오늘 판매 시작 1건", out[0])
+        notify.run({"deals": [upcoming]}, later, date(2026, 10, 29), (out := []).append)
+        self.assertEqual(out, [])
+
+    def test_new_deal_starting_today_not_repeated(self):
+        st, _ = self.run_once([], {})
+        st, out = self.run_once([deal(6, sale_start="2026-10-27")], st)
+        self.assertEqual(len(out), 1)
+        self.assertIn("새 할인 1건", out[0])
+        self.assertIn("오늘 판매 시작", out[0])
+        _, out = self.run_once([deal(6, sale_start="2026-10-27")], st)
+        self.assertEqual(out, [])
+
     def test_text_is_escaped(self):
         st, _ = self.run_once([], {})
         _, out = self.run_once([deal(9, routes=[], event_name="<특가> & 이벤트")], st)

@@ -1,4 +1,5 @@
-"""텔레그램 알림. 수집이 끝난 뒤 새로 나온 할인, 판매 마감이 내일·오늘인 할인, 수집 실패를 봇으로 보낸다.
+"""텔레그램 알림. 수집이 끝난 뒤 새로 나온 할인, 오늘 판매가 시작되는 할인, 판매 마감이 내일·오늘인 할인,
+수집 실패를 봇으로 보낸다.
 
 - 토큰·받는 사람은 Secrets(TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID)에서 읽는다. 없으면 아무것도 하지 않는다.
   받는 사람은 쉼표로 여럿 넣을 수 있다.
@@ -61,6 +62,8 @@ def line(deal, today):
     if deal.get("sale_end"):
         left = (date.fromisoformat(deal["sale_end"]) - today).days
         bits.append("오늘 마감" if left == 0 else f"판매 ~{md(deal['sale_end'])}" + (f" (D-{left})" if left <= 3 else ""))
+    if deal.get("sale_start") == today.isoformat():
+        bits.append("오늘 판매 시작")
     elif deal.get("sale_start") and deal["sale_start"] > today.isoformat():
         bits.append(f"{md(deal['sale_start'])} 판매 시작")
     src = ("판매처" if deal.get("kind") == "platform" or deal.get("section") == "hotel" else "항공사") + " 공식" \
@@ -76,8 +79,8 @@ def line(deal, today):
 
 
 def pick(deals, sent, today):
-    """→ (새 할인 목록, 곧 마감 목록). 마감·진행 여부 미확인·인천 외 출발은 뺀다."""
-    new, closing = [], []
+    """→ (새 할인, 오늘 판매 시작, 곧 마감). 마감·진행 여부 미확인·인천 외 출발은 뺀다."""
+    new, starting, closing = [], [], []
     cutoff = (today - timedelta(days=NEW_MAX_AGE_DAYS)).isoformat()
     for d in deals:
         st = display_status(d, today)
@@ -85,18 +88,26 @@ def pick(deals, sent, today):
             continue
         if d["id"] not in sent and (d.get("first_seen") or "")[:10] >= cutoff:
             new.append(d)
+        # 판매 시작일 알림 (2026-10-26 요청: 행사가 시작하는 날 알려 주기). 그날 첫 수집 때 한 번
+        if d.get("sale_start") == today.isoformat() and f"{d['id']}:start" not in sent:
+            starting.append(d)
         if st == "live" and d.get("sale_end") and (date.fromisoformat(d["sale_end"]) - today).days <= 1 \
                 and f"{d['id']}:closing" not in sent:
             closing.append(d)
-    # 새 할인에 이미 들어간 행사는 곧 마감에 또 넣지 않는다 (줄에 D-day가 붙는다)
-    closing = [d for d in closing if d not in new]
+    # 새 할인에 이미 들어간 행사는 다른 알림에 또 넣지 않는다 (줄에 '오늘 판매 시작'·D-day가 붙는다)
+    starting = [d for d in starting if d not in new]
+    closing = [d for d in closing if d not in new and d not in starting]
     # 공식 확인 먼저, 그다음 마감 가까운 순
     new.sort(key=lambda d: (d.get("verification") != "official", d.get("sale_end") or "9999"))
-    return new, closing
+    return new, starting, closing
 
 
-def messages(new, closing, failed, today):
+def messages(new, starting, closing, failed, today):
     out = []
+    if starting:
+        body = "\n".join(line(d, today) for d in starting[:LIST_MAX])
+        more = f"\n외 {len(starting) - LIST_MAX}건은 사이트에서 확인하세요." if len(starting) > LIST_MAX else ""
+        out.append(f"🛫 오늘 판매 시작 {len(starting)}건\n\n{body}{more}")
     if new:
         body = "\n".join(line(d, today) for d in new[:LIST_MAX])
         more = f"\n외 {len(new) - LIST_MAX}건은 사이트에서 확인하세요." if len(new) > LIST_MAX else ""
@@ -144,16 +155,20 @@ def run(deals_data, state, today, sender):
         sender(f"ICN 특가 레이더 알림이 연결됐습니다.\n지금 볼 수 있는 할인 {live}건 · 앞으로 새 할인과 곧 마감되는 할인을 보내 드려요."
                f'\n\n<a href="{SITE}">ICN 특가 레이더 열기</a>')
         return {"started": today.isoformat(), "sent": sent}
-    new, closing = pick(deals, sent, today)
+    new, starting, closing = pick(deals, sent, today)
     failed = (deals_data.get("stats") or {}).get("failed_queries") or 0
     fail_key = f"failed:{today.isoformat()}"
     failed = failed if failed and fail_key not in sent else 0
-    for text in messages(new, closing, failed, today):
+    for text in messages(new, starting, closing, failed, today):
         sender(text)
     for d in new:
         sent[d["id"]] = today.isoformat()
         if d.get("sale_end") and (date.fromisoformat(d["sale_end"]) - today).days <= 1:
             sent[f"{d['id']}:closing"] = today.isoformat()
+        if d.get("sale_start") == today.isoformat():
+            sent[f"{d['id']}:start"] = today.isoformat()
+    for d in starting:
+        sent[f"{d['id']}:start"] = today.isoformat()
     for d in closing:
         sent[f"{d['id']}:closing"] = today.isoformat()
     if failed:
