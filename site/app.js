@@ -159,7 +159,7 @@
   var EVENT_LIST_URL = /\/event\/|PGWTA00001/i;
   function officialLabel(d) {
     if (EVENT_LIST_URL.test(d.official_url)) return "공식 이벤트 목록";
-    return sectionOf(d) === "hotel" ? "공식 홈페이지" : "항공사 홈페이지";
+    return sectionOf(d) === "hotel" || d.kind === "platform" ? "공식 홈페이지" : "항공사 홈페이지";
   }
   function officialLink(d, cls) {
     return d.official_url ? '<a' + (cls ? ' class="' + cls + '"' : "") + ' href="' + href(d.official_url) +
@@ -336,7 +336,7 @@
       ? '<h3 class="dest">' + esc(dest) + "<small>" + airline + "</small></h3>" + '<p class="deal-title">' + esc(title) + "</p>"
       : '<h3 class="dest t">' + esc(title) + "<small>" + airline + "</small></h3>";
     var badge = verified
-      ? '<span class="trust t-official">' + ICON.official + (hotel ? "판매처" : "항공사") + " 공식 · 메일 인증</span>"
+      ? '<span class="trust t-official">' + ICON.official + (hotel || d.kind === "platform" ? "판매처" : "항공사") + " 공식 · 메일 인증</span>"
       : '<span class="trust t-news">' + ICON.news + "뉴스 기사 " + d.articles.length + "건 · 예약 전 공식 확인</span>";
 
     return '<article class="pass' + (compact ? " v" : "") + (verified ? " official" : "") + (st === "ended" || st === "stale" ? " ended" : "") + '">' +

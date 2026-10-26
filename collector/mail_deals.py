@@ -42,7 +42,7 @@ _TRANSACTIONAL = re.compile(r"가입(?:을|이)?\s?(?:환영|완료|축하)|환�
 
 AIRLINE_NAMES = {a["name"] for a in AIRLINES}
 OFFICIAL = {a["name"]: a["official_url"] for a in AIRLINES}
-# 예약 플랫폼(스카이스캐너·카약 등) 이벤트 메일도 받는다. 행사는 호텔·숙박 탭의 '예약 플랫폼·여행사'로 묶인다
+# 예약 플랫폼(스카이스캐너·카약 등) 이벤트 메일도 받는다. 항공편 메일은 항공권, 나머지는 호텔·숙박 탭의 '예약 플랫폼·여행사'로 묶인다
 OFFICIAL.update({h["name"]: h["official_url"] for h in HOTELS if h["kind"] == "platform" and h.get("official_url")})
 
 # 제목에서 지울 것: 광고 표기, 수신자 이름('홍길동님'), 메일 주소, 주소(URL), 6자리 이상 숫자(회원·예약 번호), 쿠폰 코드처럼 보이는 영숫자
@@ -51,8 +51,28 @@ _PRIVATE = [re.compile(p) for p in (r"\S+@\S+", r"https?://\S+", r"[가-힣A-Za-
                                      r"\b(?=[A-Z0-9]*\d)(?=[A-Z0-9]*[A-Z])[A-Z0-9]{6,}\b")]
 
 
+# 메일 제목에 낱말 사이로 숨어 있는 폭 없는 문자. 2026-10-26 카약 메일 '인천​발 오사카​행'이 노선으로 읽히지 않았다
+_ZERO_WIDTH = re.compile(r"[​-‍⁠﻿]")
+# 보낸 곳 이름 → 행사 주인 id (항공사, 예약 플랫폼)
+SENDER_ID = {a["name"]: a["id"] for a in AIRLINES}
+SENDER_ID.update({h["name"]: h["id"] for h in HOTELS if h["kind"] == "platform"})
+# 예약 플랫폼 메일 중 항공권 메일 (제목에 항공편·노선이 있으면 숙박이 아니라 항공권)
+_FLIGHT_SUBJECT = re.compile(r"항공편|항공권|비행기|왕복|편도|[가-힣]+\s?발\s?[가-힣]+\s?행|\bflights?\b", re.I)
+
+
+def strip_zero_width(text):
+    return _ZERO_WIDTH.sub("", text or "")
+
+
+def hints(sender, subject):
+    """보낸 곳과 제목 → (구분 category, 행사 주인 id). 저장된 메일 기사도 화면을 만들 때마다 이걸로 다시 정한다.
+    항공사 메일은 항공권, 예약 플랫폼 메일은 제목에 항공편·노선이 있으면 항공권, 아니면 호텔·숙박의 '예약 플랫폼·여행사'."""
+    flight = sender in AIRLINE_NAMES or bool(_FLIGHT_SUBJECT.search(strip_zero_width(subject)))
+    return ("flight" if flight else "hotel"), SENDER_ID.get(sender)
+
+
 def clean_subject(subject):
-    s = _AD.sub("", subject or "")
+    s = _AD.sub("", strip_zero_width(subject))
     for p in _PRIVATE:
         s = p.sub(" ", s)
     s = re.sub(r"\s+", " ", s).strip(" ,·-:|")
@@ -95,8 +115,8 @@ def mail_article(airline, subject, body, sent, message_id, now_iso, why=None):
     fields = {k: (v.isoformat() if hasattr(v, "isoformat") else v) for k, v in facts.items()}
     return {"title": title, "outlet": f"{airline} 메일", "url": url, "published": pub.isoformat(), "first_seen": now_iso,
             "source": "mail", "mail_id": mail_id,
-            # 예약 플랫폼 메일은 호텔·숙박 탭의 '예약 플랫폼·여행사'로, 항공사 메일은 항공권으로
-            "category_hint": "flight" if airline in AIRLINE_NAMES else "hotel",
+            # 항공사 메일은 항공권, 예약 플랫폼 메일은 항공편 메일이면 항공권 · 아니면 호텔·숙박 (hints 참고)
+            "category_hint": hints(airline, subj)[0],
             # 근거 구절은 남기지 않는다 (본문 문장에 이름·쿠폰이 섞일 수 있다)
             "summary_facts": {"url": url, "outlet": f"{airline} 메일", "label": "본문", "fields": fields,
                               "evidence": {g: "" for g in ("sale", "travel", "discount", "route")}}}

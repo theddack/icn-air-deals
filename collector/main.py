@@ -10,7 +10,7 @@ import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
-from . import extract
+from . import extract, mail_deals
 from .merge import MULTI, cluster_articles
 from .sources import news_rss, outlet_rss
 from .status import KST, should_keep, today_kst
@@ -117,6 +117,12 @@ def attach_outlet_items(articles, items, now_iso):
 
 def enrich(article):
     """저장된 기사에 추출 결과를 붙인다. 매번 다시 계산해서 파서 수정이 지난 기사에도 반영된다."""
+    owner_hint = None
+    if article.get("source") == "mail":
+        # 메일은 보낸 곳으로 구분·주인을 다시 정한다 (저장된 예전 메일 기사에도 규칙 수정이 반영되게)
+        article = {**article, "title": mail_deals.strip_zero_width(article["title"])}
+        hint, owner_hint = mail_deals.hints(article.get("outlet", "").removesuffix(" 메일"), article["title"])
+        article["category_hint"] = hint
     title = article["title"]
     pub = date.fromisoformat(article["published"])
     if article.get("lang") == "en":
@@ -138,6 +144,9 @@ def enrich(article):
         route, route_text = extract.route_of(title)
         from_icn = extract.icn_flag(title)
         origin, destination = extract.airports(title)
+    # 제목에 주인 이름이 없는 메일(카약 '인천발 오사카행 항공편…')은 보낸 곳이 주인
+    if owner_hint and owner in (None, "h-other"):
+        owner = owner_hint
     out = {
         **article,
         "category": category,

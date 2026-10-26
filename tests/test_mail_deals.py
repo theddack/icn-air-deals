@@ -78,6 +78,22 @@ class TestMailArticle(unittest.TestCase):
         self.assertEqual((d["sale_start"], d["sale_end"]), ("2026-10-20", "2026-10-26"))
         self.assertEqual(d["evidence"]["sale"]["title"], "제주항공 메일 본문")
 
+    def test_platform_flight_mail_goes_to_flights_with_sender_as_owner(self):
+        # 2026-10-26: 낱말 사이 폭 없는 문자 때문에 노선을 못 읽고, 플랫폼 메일이라 숙박 '브랜드 미확인'으로 들어갔다
+        subject = "인천​발 오사카​행 이동하는 항공편, 224,867원부터 시작합니다."
+        a = md.mail_article("카약", subject, "인천발 오사카행 항공편 224,867원부터", SENT, "<k@kayak.com>", "t")
+        self.assertNotIn("​", a["title"])
+        d = build_deals([a], date(2026, 10, 21))[0]
+        self.assertEqual((d["section"], d["airline"], d["from_icn"]), ("flight", "카약", "yes"))
+        self.assertEqual(d["routes"], [{"origin": "인천(ICN)", "destination": "오사카(KIX)"}])
+        # 예전에 저장된(폭 없는 문자가 남은) 메일 기사도 화면을 만들 때 다시 정한다
+        old = {**a, "title": "카약 " + subject, "category_hint": "hotel"}
+        self.assertEqual(enrich(old)["airline"], "h-kayak")
+
+    def test_platform_event_mail_stays_hotel(self):
+        self.assertEqual(md.hints("아고다", "주말 호텔 최대 30% 할인"), ("hotel", "h-agoda"))
+        self.assertEqual(md.hints("제주항공", "가을 특가 오픈")[0], "flight")
+
     def test_news_deal_stays_news(self):
         news = {"title": "제주항공, 가을 특가 오픈…20일부터", "outlet": "o", "url": "u", "published": "2026-10-19", "first_seen": "t"}
         self.assertEqual(build_deals([news], date(2026, 10, 21))[0]["verification"], "news")
