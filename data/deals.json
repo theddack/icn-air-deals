@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T23:16:28+09:00",
+ "generated_at": "2026-10-27T01:06:48+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2464,
+  "rss_items": 2481,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1821,
+  "outlet_items": 1784,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 1,
   "mail_new_articles": 0,
   "articles_with_summary": 17,
   "articles": 486,
-  "new_articles": 1,
-  "deals": 67
+  "new_articles": 0,
+  "deals": 63
  },
  "deals": [
   {
@@ -988,139 +988,6 @@
    "status": "live"
   },
   {
-   "id": "airpremia-e2ef05c49f",
-   "airline_id": "airpremia",
-   "airline": "에어프레미아",
-   "airlines_mentioned": [
-    "에어프레미아"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airpremia.com/",
-   "iata": [
-    "YP"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어프레미아, 삿포로·호치민 할인 프로모션",
-   "sale_start": null,
-   "sale_end": "2026-10-26",
-   "travel_start": "2026-12-02",
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": null,
-     "destination": "호찌민(SGN)"
-    },
-    {
-     "origin": "인천(ICN)",
-     "destination": "삿포로(CTS)"
-    },
-    {
-     "origin": "인천(ICN)",
-     "destination": "호찌민(SGN)"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "트래블데일리 요약문: 프로모션은 10월20일 오전 10시부터 26일까지 에어프레미아 공식 홈페이지와 모바일 앱에서 진행된다.",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396"
-    },
-    "travel": {
-     "title": "핀포인트뉴스 요약문: 탑승기간은 삿포로 노선이 12월2일부",
-     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496743"
-    },
-    "discount": {
-     "title": "트래블데일리 요약문: …300원, 호치민 40만3400원부터이며, 와이드 프리미엄 클래스는 삿포로 65만3300원, 호치민 70만3…",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396"
-    },
-    "route": {
-     "title": "트래블데일리 요약문: 에어프레미아가 12월 취항하는 인천~삿포로, 인천~호치민 노선의 항공권 할인 프로모션을 진행한다.",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396"
-    }
-   },
-   "from_icn": "yes",
-   "discount": "40만3400원부터",
-   "verification": "news",
-   "first_published": "2026-10-20",
-   "last_published": "2026-10-21",
-   "first_seen": "2026-10-20T09:45:40+09:00",
-   "last_seen": "2026-10-23T09:39:22+09:00",
-   "articles": [
-    {
-     "title": "에어프레미아, 삿포로·호치민 할인 프로모션",
-     "outlet": "트래블데일리",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "에어프레미아, 가을맞이 서울행 특별 프로모션 실시",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOS2NPVzc0WlR0QzFEak02Y0ZTVDdUU3A4bzllN29IMjhrYXg3WXpicVBwa3Jnd0dGQ2RvcmNpdFp0X292YmMtdjZ0OUJYVWV5Vy1iYi1ta2lNSnNOYmhZRzRhZjFqdUdkN093NUd1MHZxYjFXcml0b2swV3l5c01hdUZWamtVaXAyaEM0aE85amw4TUxKbmZ0bWdlM1pPOGNhUDItOC1BOHdQajhOZ2ZlZE1BWFhVTE5FMURlOVgtV2pwZFhjSnppZnU5Qm95aUU4VWc?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "에어프레미아, 12월 취항 삿포로·호치민 노선 할인 프로모션",
-     "outlet": "싱글리스트",
-     "url": "https://www.slist.kr/news/articleView.html?idxno=774770",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 삿포로·호치민 취항 특가…왕복 40만원대",
-     "outlet": "이데일리",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUG5Nc2hwdzZjeTMyTU8wZE96Tzk4dkZQMHdabE5LR21DQ1NDUXVPaDhHanR0c0tPUENDeUxMOXl4THhFSGoyb1VYRE95VGZrZ2Rvb1ZVblZSdzdoR0lhZS1ESEw2a3EtdkNJRWtwWnA3M3R4X0s3eDFHamxSV0t6aA?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 12월 인천발 삿포로·호치민 노선 신규 운항 및 프로모션 공개",
-     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1abS1ES3BHS3M1cDg5N0t4WVZzc29ILTBWSzd1OGd0M2MzNnROWTAxbUduSHBWenV3T2VQaGRXNklud2djX2gxZ2hrRXZrcGtFZmtpdWI2aUhHUEpmUjJBcUNVaHVlSk5yUXZxRzJycGZSZw?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 인천~삿포로·호치민 12월 취항 기념 항공권 특가 프로모션",
-     "outlet": "핀포인트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yQnZ1Y1JEQVVlVU5xQTduel9ReFJCeHdWLURRYUYwQXYtZmtabjlzeVpQZDhESEVXYUhCcDgyUWNCQkFnOWJKWnBWaHB5WWo2N1BIdDk1eUJsdzI0UkZaTzBRZVRQOThjMElFeE5PUTNiNEnSAXdBVV95cUxQTTVPYmpGOVNTTVdyajRodUZUOGF6M1B0ekxlQ0wwWVI3YnY5aEVBN1RTdUVBU0JaNGl4WGtzNFdtMlpWcm9YNjBIVHpfTDNwaFRybFV3WjlXa09FRHN2Yl8wR0hmVlg4TDdGTnNVX29EUmgydlNhbw?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 삿포로·호치민 신규 노선 특가 프로모션 실시",
-     "outlet": "한스경제",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pbkItUmJ5UmV3M0h6WUwyVjBWcVF1RTZwb1NmaEh2QjFvaXlFb1pNRHhJUTFkeGhFd3hvNUxqZ1pISTY0d3NNVUY0bjZqQmJ5SWJDRXg0MHc0U1NBMWVRekRDLUtwejNqSFZBU9IBb0FVX3lxTE43ZVNpdGlaM19PYk1ySGotUFZiRjk3YnJRRnZLUTNQVnVSRHNqcGRhazVta09tQWxEdVY3aklEaWt6V1hXUEMxNGNfMEZfS0t0TnBwckhadmdGRXNveU9talJyXzJ0NVRsRVhKd2JNRQ?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 오는 26일까지 12월 취항 '삿포로·호치민' 노선 할인 프로모션 전개",
-     "outlet": "비즈월드",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5acF9LOWE0Unoxb1IyemxhRjBuMGN5eFMzLUNOTEFScVFwazdkSkZWRnY2RGJPdUQyVkVuN2JxNktsRU9xUUR2UVZIVzFvN1ZGbTNxNzhYazZLZ0tDOEluM3gxYVhmVDZiUGVJ?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 12월 삿포로·호치민 노선 할인 프로모션",
-     "outlet": "경기일보",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CdE5BVjYxaUZSSUhBRGdqWGxmOWFuM0JUUDdCNHdDWV9CeDNiNXBudEZUV1ZVU1B5VDlCa0Q1dW1udFVNQmhhZkZzaUlOZ085aGtfMGlseVh6QU0?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 12월 삿포로·호치민 첫 취항, 할인 프로모션도 진행",
-     "outlet": "세계일보",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4tcXlfQ3Fad2poaHp0U1FLT0E4QU54MWwySHJtNlBrQU80eEhqOHZoSkQ5WllVY3k5a0dXNW95Y3BXZmwxXzRSRGczQmFlY3EydWdPNNIBVEFVX3lxTE4tcXlfQ3Fad2poaHp0U1FLT0E4QU54MWwySHJtNlBrQU80eEhqOHZoSkQ5WllVY3k5a0dXNW95Y3BXZmwxXzRSRGczQmFlY3EydWdPNA?oc=5",
-     "published": "2026-10-20"
-    }
-   ],
-   "status": "live"
-  },
-  {
    "id": "trinity-08820b7077",
    "airline_id": "trinity",
    "airline": "트리니티항공",
@@ -1437,181 +1304,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "multi-cec13ce028",
-   "airline_id": "multi",
-   "airline": "여러 항공사",
-   "airlines_mentioned": [
-    "트리니티항공",
-    "아시아나항공"
-   ],
-   "kind": "mixed",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "10월 항공권 할인전…트리니티 지방 출발 쿠폰·아시아나 결제 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": "no",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-12",
-   "last_published": "2026-10-12",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
-   "articles": [
-    {
-     "title": "10월 항공권 할인전…트리니티 지방 출발 쿠폰·아시아나 결제 할인",
-     "outlet": "스트레이트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vY0Vtd0tDT3c2aFNCVmR5ekNORjR1SDlGcHA5ZEZYVGdsTF9RTXltcTV3WmpnemtiRVZSaDFDUTBBVXZ1NEJDT1VqUnpxZmRMTVZVWUlSZk01RHJnMUFRUFY2aTZYWGNlS1hoeFlzWlVWU2sza05J0gF3QVVfeXFMTW9jRW13S0NPdzZoU0JWZHl6Q05GNHVIOUZwcDlkRlhUZ2xMX1FNeW1xNXdaamd6a2JFVlJoMUNRMEFVdnU0QkNPVWpSenFmZExNVlVZSVJmTTVEcmcxQVFQVjZpNlhYY2VLWGh4WXNaVVZTazNrTkk?oc=5",
-     "published": "2026-10-12"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "multi-9998bf5be2",
-   "airline_id": "multi",
-   "airline": "여러 항공사",
-   "airlines_mentioned": [
-    "에어캐나다",
-    "KLM"
-   ],
-   "kind": "mixed",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "[플라이H!] 장거리 여객 공략..에어캐나다 미국 입국 간소화·KLM 107주년 특가",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-12",
-   "last_published": "2026-10-12",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
-   "articles": [
-    {
-     "title": "[플라이H!] 장거리 여객 공략..에어캐나다 미국 입국 간소화·KLM 107주년 특가",
-     "outlet": "한국정경신문",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1jY3ByTFRXQS02WWwtcHNVSUllX1hmSXNwQUN0TEFmVEF6dXhiTUpUclJMLWY4d1J5TnF3Z1JzaGJKUzdac0xaVW9uLUhUdmU3ZlE?oc=5",
-     "published": "2026-10-12"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "asiana-238325139d",
-   "airline_id": "asiana",
-   "airline": "아시아나항공",
-   "airlines_mentioned": [
-    "아시아나항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://flyasiana.com/C/KR/KO/event/list",
-   "iata": [
-    "OZ"
-   ],
-   "agencies": [],
-   "event_name": "한국행 여름 특가 이벤트",
-   "headline": "아시아나항공 '한국행 여름 특가 이벤트'",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": null,
-     "destination": "인천(ICN)"
-    },
-    {
-     "origin": null,
-     "destination": "한국"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "아시아나, 미주~인천행 비즈니스석 7% 할인 특가",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTk5jM3VlNEgyNThvTWVhSnoyVzdMX3ZQUmFoV25Od1ZxNm44UDRVRnljazZ2QVB1Z1M5MHd4ekNHNVF4WGlZV05hWl84WjFKS2FJUWhKMzFzMWZnYWpGQUhWaHlMZDQ5ZlNpb0FNT0JKanlsVzltd1l4blYtbFZrZHliUllXZ0pqSUdlNDQ4QXdzN285QjZWOEYxMFA4RjhMYXNjR0RORGlrSnI1TGQxc2VvWXd0MmZ2WFdsWVpFT2VFMTAwTjRfWWpjUXl4Z1VzQ2c?oc=5"
-    },
-    "route": {
-     "title": "아시아나항공 '한국행 여름 특가 이벤트'",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzhDUERZcF9wRFpJNHkxRWNVdmY2R3d6cUU3b2dXNmZ6OFRtUEwzSFJheEFUc09ud3lWaFlLMy1oZVI3dU5laXNYYWs4aTRFb3d6RkRIajRyRnpZX0d0dTJqNmFON0RDN0VLcEJoWVRmQ2ljbXFRLUxDNlBUVVdqU200QzdrbFdEbWtZNjZ4QVB2Y0xmYi1FVHZLMmx6R0NhZFBvQ0JEZ09EYmVCOG5Ya3YxYlVaNUF3Tnc?oc=5"
-    }
-   },
-   "from_icn": "no",
-   "discount": "7% 할인",
-   "verification": "news",
-   "first_published": "2026-10-12",
-   "last_published": "2026-10-12",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-17T08:59:56+09:00",
-   "articles": [
-    {
-     "title": "아시아나항공 '한국행 여름 특가 이벤트'",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzhDUERZcF9wRFpJNHkxRWNVdmY2R3d6cUU3b2dXNmZ6OFRtUEwzSFJheEFUc09ud3lWaFlLMy1oZVI3dU5laXNYYWs4aTRFb3d6RkRIajRyRnpZX0d0dTJqNmFON0RDN0VLcEJoWVRmQ2ljbXFRLUxDNlBUVVdqU200QzdrbFdEbWtZNjZ4QVB2Y0xmYi1FVHZLMmx6R0NhZFBvQ0JEZ09EYmVCOG5Ya3YxYlVaNUF3Tnc?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "아시아나, 미주~인천행 비즈니스석 7% 할인 특가",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTk5jM3VlNEgyNThvTWVhSnoyVzdMX3ZQUmFoV25Od1ZxNm44UDRVRnljazZ2QVB1Z1M5MHd4ekNHNVF4WGlZV05hWl84WjFKS2FJUWhKMzFzMWZnYWpGQUhWaHlMZDQ5ZlNpb0FNT0JKanlsVzltd1l4blYtbFZrZHliUllXZ0pqSUdlNDQ4QXdzN285QjZWOEYxMFA4RjhMYXNjR0RORGlrSnI1TGQxc2VvWXd0MmZ2WFdsWVpFT2VFMTAwTjRfWWpjUXl4Z1VzQ2c?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "아시아나, A380 재운항 및 미주노선 증편 기념 이벤트",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY2hGUjBNOUY1Y3JCRzN6bWdCM0hEeVJPeEhhUG9lUXgyZE5OZzBoUTQ5cDVqNGxhOEpEMndwV1ByeFZVdDI4X1pTTkt3N181WGtvVnREd3hwdWYwWTlTUkVvX2dqaFZ1RjFfcVhFOURwNUdXYkx6LUZnQ1d1Y1MyVTB1UnJDR3ZvWnotTXRQUGtWYWRjRjlWQ0FXT2RFMHJZd2VqVXljMmVtcHZEeWN3VE04aDhNQnJLWXJHSVhjbnU1WDR2WUxVV2IwOWYyTDhB?oc=5",
-     "published": "2026-10-12"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "jejuair-2b0d1ccd34",
@@ -3249,61 +2941,6 @@
    "status": "undated"
   },
   {
-   "id": "h-yeogi-f621514a13",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "domestic",
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "2026 숙박 세일 페스타 섬 지역편",
-   "headline": "여기어때, '숙박 세일 페스타 섬 지역편' 선봬…\"숙박비 5만원 할인\"",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "섬 지역"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-09-22",
-   "last_published": "2026-09-26",
-   "first_seen": "2026-10-17T23:35:55+09:00",
-   "last_seen": "2026-10-26T09:21:46+09:00",
-   "articles": [
-    {
-     "title": "여기어때, '숙박 세일 페스타 섬 지역편' 선봬…\"숙박비 5만원 할인\"",
-     "outlet": "비즈월드",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10VWJEWUM3dXpNYk1DU2VSNGVwQTBtV25KQmNLSGx2NTdVd2I0UXFGakZ0MkJxbHhEV1NoTzBwUFI3T2RWaXVwaXZqWjR1azMwZGdjSXNfZlZ2M2tZVlJWUTZ2c3hDTEp3djZ3?oc=5",
-     "published": "2026-09-26"
-    },
-    {
-     "title": "여기어때, 가을 섬 여행객 잡는다... ‘2026 숙박 세일 페스타 섬 지역편’ 진행",
-     "outlet": "메가경제",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14MkRBelVJenRFcEd6cDJ5ZXc1R2JpT1JJWTBncWhmMDc1RG9uTE9TX0dzWDh0WlZFVG5SdFZPeVRyZU1sZkF4Q3J4TnlQak9TNzRMVGJhSUZsa2FHclB0MHYxejhvOGRJSU5DSjlveDZ6Z9IBckFVX3lxTE14MkRBelVJenRFcEd6cDJ5ZXc1R2JpT1JJWTBncWhmMDc1RG9uTE9TX0dzWDh0WlZFVG5SdFZPeVRyZU1sZkF4Q3J4TnlQak9TNzRMVGJhSUZsa2FHclB0MHYxejhvOGRJSU5DSjlveDZ6Zw?oc=5",
-     "published": "2026-09-22"
-    }
-   ],
-   "status": "stale"
-  },
-  {
    "id": "h-lotte-9be1e23149",
    "airline_id": "h-lotte",
    "airline": "롯데호텔",
@@ -4496,6 +4133,85 @@
    "status": "stale"
   },
   {
+   "id": "asiana-238325139d",
+   "airline_id": "asiana",
+   "airline": "아시아나항공",
+   "airlines_mentioned": [
+    "아시아나항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://flyasiana.com/C/KR/KO/event/list",
+   "iata": [
+    "OZ"
+   ],
+   "agencies": [],
+   "event_name": "한국행 여름 특가 이벤트",
+   "headline": "아시아나항공 '한국행 여름 특가 이벤트'",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "인천(ICN)"
+    },
+    {
+     "origin": null,
+     "destination": "한국"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "아시아나, 미주~인천행 비즈니스석 7% 할인 특가",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTk5jM3VlNEgyNThvTWVhSnoyVzdMX3ZQUmFoV25Od1ZxNm44UDRVRnljazZ2QVB1Z1M5MHd4ekNHNVF4WGlZV05hWl84WjFKS2FJUWhKMzFzMWZnYWpGQUhWaHlMZDQ5ZlNpb0FNT0JKanlsVzltd1l4blYtbFZrZHliUllXZ0pqSUdlNDQ4QXdzN285QjZWOEYxMFA4RjhMYXNjR0RORGlrSnI1TGQxc2VvWXd0MmZ2WFdsWVpFT2VFMTAwTjRfWWpjUXl4Z1VzQ2c?oc=5"
+    },
+    "route": {
+     "title": "아시아나항공 '한국행 여름 특가 이벤트'",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzhDUERZcF9wRFpJNHkxRWNVdmY2R3d6cUU3b2dXNmZ6OFRtUEwzSFJheEFUc09ud3lWaFlLMy1oZVI3dU5laXNYYWs4aTRFb3d6RkRIajRyRnpZX0d0dTJqNmFON0RDN0VLcEJoWVRmQ2ljbXFRLUxDNlBUVVdqU200QzdrbFdEbWtZNjZ4QVB2Y0xmYi1FVHZLMmx6R0NhZFBvQ0JEZ09EYmVCOG5Ya3YxYlVaNUF3Tnc?oc=5"
+    }
+   },
+   "from_icn": "no",
+   "discount": "7% 할인",
+   "verification": "news",
+   "first_published": "2026-10-12",
+   "last_published": "2026-10-12",
+   "first_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-17T08:59:56+09:00",
+   "articles": [
+    {
+     "title": "아시아나항공 '한국행 여름 특가 이벤트'",
+     "outlet": "미주조선일보",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzhDUERZcF9wRFpJNHkxRWNVdmY2R3d6cUU3b2dXNmZ6OFRtUEwzSFJheEFUc09ud3lWaFlLMy1oZVI3dU5laXNYYWs4aTRFb3d6RkRIajRyRnpZX0d0dTJqNmFON0RDN0VLcEJoWVRmQ2ljbXFRLUxDNlBUVVdqU200QzdrbFdEbWtZNjZ4QVB2Y0xmYi1FVHZLMmx6R0NhZFBvQ0JEZ09EYmVCOG5Ya3YxYlVaNUF3Tnc?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "아시아나, 미주~인천행 비즈니스석 7% 할인 특가",
+     "outlet": "미주조선일보",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTk5jM3VlNEgyNThvTWVhSnoyVzdMX3ZQUmFoV25Od1ZxNm44UDRVRnljazZ2QVB1Z1M5MHd4ekNHNVF4WGlZV05hWl84WjFKS2FJUWhKMzFzMWZnYWpGQUhWaHlMZDQ5ZlNpb0FNT0JKanlsVzltd1l4blYtbFZrZHliUllXZ0pqSUdlNDQ4QXdzN285QjZWOEYxMFA4RjhMYXNjR0RORGlrSnI1TGQxc2VvWXd0MmZ2WFdsWVpFT2VFMTAwTjRfWWpjUXl4Z1VzQ2c?oc=5",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "아시아나, A380 재운항 및 미주노선 증편 기념 이벤트",
+     "outlet": "미주조선일보",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY2hGUjBNOUY1Y3JCRzN6bWdCM0hEeVJPeEhhUG9lUXgyZE5OZzBoUTQ5cDVqNGxhOEpEMndwV1ByeFZVdDI4X1pTTkt3N181WGtvVnREd3hwdWYwWTlTUkVvX2dqaFZ1RjFfcVhFOURwNUdXYkx6LUZnQ1d1Y1MyVTB1UnJDR3ZvWnotTXRQUGtWYWRjRjlWQ0FXT2RFMHJZd2VqVXljMmVtcHZEeWN3VE04aDhNQnJLWXJHSVhjbnU1WDR2WUxVV2IwOWYyTDhB?oc=5",
+     "published": "2026-10-12"
+    }
+   ],
+   "status": "stale"
+  },
+  {
    "id": "h-paradise-5b561f60db",
    "airline_id": "h-paradise",
    "airline": "파라다이스",
@@ -4746,79 +4462,6 @@
      "title": "에어부산, 연말 국제선 특가 프로모션…14일부터 20일까지",
      "outlet": "쿠키뉴스",
      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mcUhvLXN4cU5wTTBtMTBpZFgzd1dqSW5JWUhUdUlyWThmSEs2RFc0N05TcTVVeTJRdUlDZXY2ZGxDbXNDekphUW1SV2FLVU5ZRjJRa19kYVROVzk1T1N4YlRHVQ?oc=5",
-     "published": "2026-10-11"
-    }
-   ],
-   "status": "ended"
-  },
-  {
-   "id": "airpremia-af1ecccd27",
-   "airline_id": "airpremia",
-   "airline": "에어프레미아",
-   "airlines_mentioned": [
-    "에어프레미아"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airpremia.com/",
-   "iata": [
-    "YP"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
-   "sale_start": null,
-   "sale_end": "2026-10-19",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": "하와이",
-     "destination": "한국"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
-     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5"
-    },
-    "discount": {
-     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
-     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5"
-    },
-    "route": {
-     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
-     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5"
-    }
-   },
-   "from_icn": "no",
-   "discount": "최대 20%",
-   "verification": "news",
-   "first_published": "2026-10-11",
-   "last_published": "2026-10-14",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
-   "articles": [
-    {
-     "title": "에어프레미아, 하와이~한국 노선도 할인… 19일까지 최대 20% 혜택",
-     "outlet": "KBFD",
-     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE94bFhseFUxeUNYRlFvV1M4TFBhcElSeVR5Q1BoeGxWQkVqR25DZDJDMm94dWsyWEx0aEVjdFdR0gE-QVVfeXFMT3hsWGx4VTF5Q1hGUW9XUzhMUGFwSVJ5VHlDUGh4bFZCRWpHbkNkMkMyb3h1azJYTHRoRWN0V1E?oc=5",
-     "published": "2026-10-14"
-    },
-    {
-     "title": "에어프레미아, 미주출발 항공권 최대 20% 프로모션",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdUNkWUJSeVdHQjViRUI5djlKTElBWURiVlVsNHRwM0RoSUNxZnV4dTJHTS1FRnVzRHhBV183NlIzaG1uc2RoZC1lUjZhY1pRalJFUzFIenhCRGNPTmpLWDMydnE2Z1Aya2g0eXBFNjJYVHEzVlJFQ1kwUVZjUTBuZV9YY0Y4cndwY1dkTDN6TDE1SnloZjZrUzc0ZUNRNzdZamxfSlcyRUlRUTVUemNsOUg2bXM2UElFLUZHUjVGZXpOZlJr?oc=5",
      "published": "2026-10-11"
     }
    ],
@@ -5281,6 +4924,139 @@
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XR01Td1hqbFgzUmFUeGF0bnBjcVUyOWo0M0FnSzNIT2dITDloTVZUaGtXRHZUaGdlLUJUWFY2dGdDc2VNdTBCWXI0OHhaRmZuMFZjeTZ0enZyUkhUM2R3ekxoMVA4QQ?oc=5",
      "published": "2026-10-19"
+    }
+   ],
+   "status": "ended"
+  },
+  {
+   "id": "airpremia-e2ef05c49f",
+   "airline_id": "airpremia",
+   "airline": "에어프레미아",
+   "airlines_mentioned": [
+    "에어프레미아"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airpremia.com/",
+   "iata": [
+    "YP"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어프레미아, 삿포로·호치민 할인 프로모션",
+   "sale_start": null,
+   "sale_end": "2026-10-26",
+   "travel_start": "2026-12-02",
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "호찌민(SGN)"
+    },
+    {
+     "origin": "인천(ICN)",
+     "destination": "삿포로(CTS)"
+    },
+    {
+     "origin": "인천(ICN)",
+     "destination": "호찌민(SGN)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트래블데일리 요약문: 프로모션은 10월20일 오전 10시부터 26일까지 에어프레미아 공식 홈페이지와 모바일 앱에서 진행된다.",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396"
+    },
+    "travel": {
+     "title": "핀포인트뉴스 요약문: 탑승기간은 삿포로 노선이 12월2일부",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496743"
+    },
+    "discount": {
+     "title": "트래블데일리 요약문: …300원, 호치민 40만3400원부터이며, 와이드 프리미엄 클래스는 삿포로 65만3300원, 호치민 70만3…",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396"
+    },
+    "route": {
+     "title": "트래블데일리 요약문: 에어프레미아가 12월 취항하는 인천~삿포로, 인천~호치민 노선의 항공권 할인 프로모션을 진행한다.",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396"
+    }
+   },
+   "from_icn": "yes",
+   "discount": "40만3400원부터",
+   "verification": "news",
+   "first_published": "2026-10-20",
+   "last_published": "2026-10-21",
+   "first_seen": "2026-10-20T09:45:40+09:00",
+   "last_seen": "2026-10-23T09:39:22+09:00",
+   "articles": [
+    {
+     "title": "에어프레미아, 삿포로·호치민 할인 프로모션",
+     "outlet": "트래블데일리",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "에어프레미아, 가을맞이 서울행 특별 프로모션 실시",
+     "outlet": "미주조선일보",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOS2NPVzc0WlR0QzFEak02Y0ZTVDdUU3A4bzllN29IMjhrYXg3WXpicVBwa3Jnd0dGQ2RvcmNpdFp0X292YmMtdjZ0OUJYVWV5Vy1iYi1ta2lNSnNOYmhZRzRhZjFqdUdkN093NUd1MHZxYjFXcml0b2swV3l5c01hdUZWamtVaXAyaEM0aE85amw4TUxKbmZ0bWdlM1pPOGNhUDItOC1BOHdQajhOZ2ZlZE1BWFhVTE5FMURlOVgtV2pwZFhjSnppZnU5Qm95aUU4VWc?oc=5",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "에어프레미아, 12월 취항 삿포로·호치민 노선 할인 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=774770",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "에어프레미아, 삿포로·호치민 취항 특가…왕복 40만원대",
+     "outlet": "이데일리",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUG5Nc2hwdzZjeTMyTU8wZE96Tzk4dkZQMHdabE5LR21DQ1NDUXVPaDhHanR0c0tPUENDeUxMOXl4THhFSGoyb1VYRE95VGZrZ2Rvb1ZVblZSdzdoR0lhZS1ESEw2a3EtdkNJRWtwWnA3M3R4X0s3eDFHamxSV0t6aA?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "에어프레미아, 12월 인천발 삿포로·호치민 노선 신규 운항 및 프로모션 공개",
+     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1abS1ES3BHS3M1cDg5N0t4WVZzc29ILTBWSzd1OGd0M2MzNnROWTAxbUduSHBWenV3T2VQaGRXNklud2djX2gxZ2hrRXZrcGtFZmtpdWI2aUhHUEpmUjJBcUNVaHVlSk5yUXZxRzJycGZSZw?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "에어프레미아, 인천~삿포로·호치민 12월 취항 기념 항공권 특가 프로모션",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yQnZ1Y1JEQVVlVU5xQTduel9ReFJCeHdWLURRYUYwQXYtZmtabjlzeVpQZDhESEVXYUhCcDgyUWNCQkFnOWJKWnBWaHB5WWo2N1BIdDk1eUJsdzI0UkZaTzBRZVRQOThjMElFeE5PUTNiNEnSAXdBVV95cUxQTTVPYmpGOVNTTVdyajRodUZUOGF6M1B0ekxlQ0wwWVI3YnY5aEVBN1RTdUVBU0JaNGl4WGtzNFdtMlpWcm9YNjBIVHpfTDNwaFRybFV3WjlXa09FRHN2Yl8wR0hmVlg4TDdGTnNVX29EUmgydlNhbw?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "에어프레미아, 삿포로·호치민 신규 노선 특가 프로모션 실시",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pbkItUmJ5UmV3M0h6WUwyVjBWcVF1RTZwb1NmaEh2QjFvaXlFb1pNRHhJUTFkeGhFd3hvNUxqZ1pISTY0d3NNVUY0bjZqQmJ5SWJDRXg0MHc0U1NBMWVRekRDLUtwejNqSFZBU9IBb0FVX3lxTE43ZVNpdGlaM19PYk1ySGotUFZiRjk3YnJRRnZLUTNQVnVSRHNqcGRhazVta09tQWxEdVY3aklEaWt6V1hXUEMxNGNfMEZfS0t0TnBwckhadmdGRXNveU9talJyXzJ0NVRsRVhKd2JNRQ?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "에어프레미아, 오는 26일까지 12월 취항 '삿포로·호치민' 노선 할인 프로모션 전개",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5acF9LOWE0Unoxb1IyemxhRjBuMGN5eFMzLUNOTEFScVFwazdkSkZWRnY2RGJPdUQyVkVuN2JxNktsRU9xUUR2UVZIVzFvN1ZGbTNxNzhYazZLZ0tDOEluM3gxYVhmVDZiUGVJ?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "에어프레미아, 12월 삿포로·호치민 노선 할인 프로모션",
+     "outlet": "경기일보",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CdE5BVjYxaUZSSUhBRGdqWGxmOWFuM0JUUDdCNHdDWV9CeDNiNXBudEZUV1ZVU1B5VDlCa0Q1dW1udFVNQmhhZkZzaUlOZ085aGtfMGlseVh6QU0?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "에어프레미아, 12월 삿포로·호치민 첫 취항, 할인 프로모션도 진행",
+     "outlet": "세계일보",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4tcXlfQ3Fad2poaHp0U1FLT0E4QU54MWwySHJtNlBrQU80eEhqOHZoSkQ5WllVY3k5a0dXNW95Y3BXZmwxXzRSRGczQmFlY3EydWdPNNIBVEFVX3lxTE4tcXlfQ3Fad2poaHp0U1FLT0E4QU54MWwySHJtNlBrQU80eEhqOHZoSkQ5WllVY3k5a0dXNW95Y3BXZmwxXzRSRGczQmFlY3EydWdPNA?oc=5",
+     "published": "2026-10-20"
     }
    ],
    "status": "ended"
