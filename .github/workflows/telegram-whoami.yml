@@ -1,0 +1,22 @@
+name: telegram-whoami
+
+# 텔레그램 봇 연결 확인. 봇에게 메시지를 보낸 사람에게 그 대화의 chat id를 봇이 답장으로 알려 준다
+# (scripts/telegram_whoami.py). 로그에는 chat id를 남기지 않는다. Actions 탭에서 손으로 실행한다.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  whoami:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Reply chat id
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python scripts/telegram_whoami.py
