@@ -1,72 +1,1220 @@
 {
  "started": "2026-10-26",
- "sent": {
-  "h-marriott-c2e930026f": "2026-10-26",
-  "h-yeogi-7055a73f00": "2026-10-26",
-  "h-stayfesta-d3e7cb5ec4": "2026-10-26",
-  "h-hilton-61934fa4f1": "2026-10-26",
-  "h-accor-21056eba91": "2026-10-26",
-  "aerok-76374c6ec0": "2026-10-26",
-  "airpremia-e2ef05c49f": "2026-10-26",
-  "trinity-08820b7077": "2026-10-26",
-  "jejuair-0c3cd04418": "2026-10-26",
-  "h-nol-868ebee9b5": "2026-10-26",
-  "h-yeogi-5c8be00dba": "2026-10-26",
-  "multi-cec13ce028": "2026-10-26",
-  "multi-9998bf5be2": "2026-10-26",
-  "asiana-238325139d": "2026-10-26",
-  "jejuair-2b0d1ccd34": "2026-10-26",
-  "h-myrealtrip-42e7c57ad1": "2026-10-26",
-  "h-other-57b6f9e118": "2026-10-26",
-  "h-yeogi-28510b370c": "2026-10-26",
-  "h-other-7afebebcee": "2026-10-26",
-  "h-elandpark-368aceaf08": "2026-10-26",
-  "koreanair-b722bc4599": "2026-10-26",
-  "h-other-748de7fcf9": "2026-10-26",
-  "airseoul-cf204a998a": "2026-10-26",
-  "aerok-39e7acbffb": "2026-10-26",
-  "multi-e72d5ce4ad": "2026-10-26",
-  "h-yeogi-d8fddb469a": "2026-10-26",
-  "h-other-28c37ca8cc": "2026-10-26",
-  "h-other-7f814be9af": "2026-10-26",
-  "h-inspire-376b5c2d7e": "2026-10-26",
-  "airpremia-291366713a": "2026-10-26",
-  "pal-c440118efa": "2026-10-26",
-  "trinity-763bb245f3": "2026-10-26",
-  "koreanair-975d3255b9": "2026-10-26",
-  "h-other-175f6079f1": "2026-10-26",
-  "h-myrealtrip-e1eedfd71b": "2026-10-26",
-  "h-other-4b00c9252d": "2026-10-26",
-  "jejuair-778daf7c87": "2026-10-26",
-  "h-kayak-3e90d9f371": "2026-10-26",
-  "h-inspire-0201864b79": "2026-10-26",
-  "h-yeogi-e90c0ad919": "2026-10-26",
-  "h-modetour-16a0129775": "2026-10-26",
-  "h-yeogi-f621514a13": "2026-10-26",
-  "h-lotte-9be1e23149": "2026-10-26",
-  "h-hilton-cb48b4c6cc": "2026-10-26",
-  "h-modetour-9429ac111b": "2026-10-26",
-  "h-other-787b60ea70": "2026-10-26",
-  "eastarjet-f127b7e5de": "2026-10-26",
-  "jinair-09c726eef1": "2026-10-26",
-  "airpremia-3725af9bff": "2026-10-26",
-  "h-yeogi-2f093da9cc": "2026-10-26",
-  "h-tripcom-ee8abca341": "2026-10-26",
-  "h-clubmed-3e347de208": "2026-10-26",
-  "h-yeogi-db578f36ca": "2026-10-26",
-  "airseoul-86e16725ae": "2026-10-26",
-  "multi-64f21625b7": "2026-10-26",
-  "h-inspire-b0a8a4cad6": "2026-10-26",
-  "h-other-2abbbfd934": "2026-10-26",
-  "h-other-83f7fecedc": "2026-10-26",
-  "airpremia-353c91f823": "2026-10-26",
-  "turkish-ed654b3dcf": "2026-10-26",
-  "h-paradise-5b561f60db": "2026-10-26",
-  "airbusan-9a5e168a4c": "2026-10-26",
-  "airpremia-af1ecccd27": "2026-10-26",
-  "trinity-4e856ab3a2": "2026-10-26",
-  "trinity-c45e6768bd": "2026-10-26",
-  "airasia-52c40ce69d": "2026-10-26",
-  "airpremia-e2ef05c49f:closing": "2026-10-26"
+ "events": {
+  "h-marriott-c2e930026f": {
+   "info": {
+    "airline": "h-marriott",
+    "name": "",
+    "sale_start": "2026-10-30",
+    "sale_end": "2026-11-15",
+    "dests": [],
+    "urls": [
+     "c2e930026f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-yeogi-7055a73f00": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "홀리데이in포항",
+    "sale_start": "2026-09-22",
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "031f3c8398",
+     "3b42a51972",
+     "47c346dc06",
+     "4828500e9e",
+     "5443e4639b",
+     "582c01bdda",
+     "5953d6eec2",
+     "6a236c0f60",
+     "7055a73f00",
+     "8995361a69",
+     "99b400c25e",
+     "d25bf3e608",
+     "ecd18ab08c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-stayfesta-d3e7cb5ec4": {
+   "info": {
+    "airline": "h-stayfesta",
+    "name": "숙박세일페스타",
+    "sale_start": "2026-09-22",
+    "sale_end": "2026-11-08",
+    "dests": [],
+    "urls": [
+     "0164aef066",
+     "024cedd8b5",
+     "026af38bc2",
+     "02b25ed52f",
+     "0aa85d192c",
+     "0badc13143",
+     "0c090912ee",
+     "0c51bf01cc",
+     "0feabf982b",
+     "107f1b3a98",
+     "12f663d1b4",
+     "1349c89ee0",
+     "1efdfc96ae",
+     "231cccb20c",
+     "25d72a1817",
+     "276c379152",
+     "381955d876",
+     "38e62e271c",
+     "3bc9862aff",
+     "48b763c2c1",
+     "48daec1eb8",
+     "4bbf6fcb7a",
+     "4f09bb2651",
+     "52ec7f2bfd",
+     "5ad47d8cfa",
+     "6177623c6d",
+     "61d8ea006e",
+     "6370b8d9df",
+     "6906dea9c1",
+     "69397efdfc"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-hilton-61934fa4f1": {
+   "info": {
+    "airline": "h-hilton",
+    "name": "",
+    "sale_start": "2026-10-05",
+    "sale_end": "2027-01-10",
+    "dests": [],
+    "urls": [
+     "61934fa4f1"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-accor-21056eba91": {
+   "info": {
+    "airline": "h-accor",
+    "name": "",
+    "sale_start": "2026-10-16",
+    "sale_end": "2026-12-13",
+    "dests": [],
+    "urls": [
+     "21056eba91"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "aerok-76374c6ec0": {
+   "info": {
+    "airline": "aerok",
+    "name": "앵콜에케세일",
+    "sale_start": "2026-10-19",
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "3bba9a097e",
+     "47fa6a9190",
+     "59cfbe64b9",
+     "76374c6ec0",
+     "8cd8965f3e",
+     "a88213b1f8",
+     "ba01245301",
+     "c16ade8c75",
+     "c4d023ab32",
+     "daccdf7e38"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "airpremia-e2ef05c49f": {
+   "info": {
+    "airline": "airpremia",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-10-26",
+    "dests": [
+     "삿포로",
+     "호찌민"
+    ],
+    "urls": [
+     "7f40b847ea",
+     "8382092fb2",
+     "a3fa56b6ea",
+     "ac7781867c",
+     "accecf739d",
+     "b7f820b4ae",
+     "bd698eefbf",
+     "e2ef05c49f",
+     "ee7663bdfc",
+     "f02366ee36"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26",
+    "closing_today": "2026-10-26",
+    "closing_tomorrow": "2026-10-26"
+   }
+  },
+  "trinity-08820b7077": {
+   "info": {
+    "airline": "trinity",
+    "name": "가을겨울시즌국제선할인",
+    "sale_start": null,
+    "sale_end": "2026-10-31",
+    "dests": [],
+    "urls": [
+     "08820b7077",
+     "65a86b9ac6",
+     "65f80a9489",
+     "a2b7aa1e6c",
+     "b99e1df276",
+     "cb187eba69",
+     "dfe05160fb"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "jejuair-0c3cd04418": {
+   "info": {
+    "airline": "jejuair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-08",
+    "dests": [],
+    "urls": [
+     "0c3cd04418"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-nol-868ebee9b5": {
+   "info": {
+    "airline": "h-nol",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-15",
+    "dests": [],
+    "urls": [
+     "147e769a93",
+     "617bc662c2",
+     "6d8a0cdd4e",
+     "868ebee9b5",
+     "c7b04a7419",
+     "d1e881d078",
+     "d3c77e0cab",
+     "dcbb6558dd",
+     "f93f1f602f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-yeogi-5c8be00dba": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "블랙위크",
+    "sale_start": null,
+    "sale_end": "2026-11-15",
+    "dests": [],
+    "urls": [
+     "5c8be00dba"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "multi-cec13ce028": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "cec13ce028"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "multi-9998bf5be2": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "9998bf5be2"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "asiana-238325139d": {
+   "info": {
+    "airline": "asiana",
+    "name": "한국행여름특가이벤트",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "0b36ae7fe5",
+     "238325139d",
+     "aea7f3b96a"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "jejuair-2b0d1ccd34": {
+   "info": {
+    "airline": "jejuair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "마닐라"
+    ],
+    "urls": [
+     "2b0d1ccd34"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-myrealtrip-42e7c57ad1": {
+   "info": {
+    "airline": "h-myrealtrip",
+    "name": "k푸드페스타",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "42e7c57ad1"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-other-57b6f9e118": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "57b6f9e118"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-yeogi-28510b370c": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "패키지여행에할인혜택쏟아진다",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "28510b370c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-other-7afebebcee": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "7afebebcee"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-elandpark-368aceaf08": {
+   "info": {
+    "airline": "h-elandpark",
+    "name": "11프로모션",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "058cfec89f",
+     "368aceaf08",
+     "505bb11213",
+     "52c93dab3e",
+     "62c332aa03",
+     "67c1f79f0d",
+     "7065621916",
+     "730ec217a2",
+     "82d25289bc",
+     "aef910e5e7",
+     "b05c046280",
+     "b6c7fcf78c",
+     "cf15cfdd22",
+     "f421756bba"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "koreanair-b722bc4599": {
+   "info": {
+    "airline": "koreanair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "b722bc4599"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-other-748de7fcf9": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "748de7fcf9",
+     "7f15176e41"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "airseoul-cf204a998a": {
+   "info": {
+    "airline": "airseoul",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "cf204a998a"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "aerok-39e7acbffb": {
+   "info": {
+    "airline": "aerok",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "39e7acbffb",
+     "61edbd1f86"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "multi-e72d5ce4ad": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "e72d5ce4ad"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-yeogi-d8fddb469a": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "61e6a77469",
+     "b43743e957",
+     "d8fddb469a",
+     "f4c0fa54ed",
+     "fbaf1c30df"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-other-28c37ca8cc": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "28c37ca8cc"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-other-7f814be9af": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "7f814be9af"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-inspire-376b5c2d7e": {
+   "info": {
+    "airline": "h-inspire",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "376b5c2d7e",
+     "5578942df1",
+     "ab4ecf96bf"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "airpremia-291366713a": {
+   "info": {
+    "airline": "airpremia",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "호찌민"
+    ],
+    "urls": [
+     "291366713a",
+     "2fc780139d"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "pal-c440118efa": {
+   "info": {
+    "airline": "pal",
+    "name": "함께떠날수록항공권할인",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "1b3ba7c996",
+     "c440118efa"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "trinity-763bb245f3": {
+   "info": {
+    "airline": "trinity",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "763bb245f3"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "koreanair-975d3255b9": {
+   "info": {
+    "airline": "koreanair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "괌"
+    ],
+    "urls": [
+     "975d3255b9"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-other-175f6079f1": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "175f6079f1"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-myrealtrip-e1eedfd71b": {
+   "info": {
+    "airline": "h-myrealtrip",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "e1eedfd71b"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-other-4b00c9252d": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "4b00c9252d"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "jejuair-778daf7c87": {
+   "info": {
+    "airline": "jejuair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "778daf7c87"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-kayak-3e90d9f371": {
+   "info": {
+    "airline": "h-kayak",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "오사카"
+    ],
+    "urls": [
+     "3e90d9f371"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-inspire-0201864b79": {
+   "info": {
+    "airline": "h-inspire",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "0201864b79",
+     "812f3670d5",
+     "94bf49ff77",
+     "b5982e5844"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-yeogi-e90c0ad919": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "d8edfac9f0",
+     "e90c0ad919"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-modetour-16a0129775": {
+   "info": {
+    "airline": "h-modetour",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "16a0129775"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-yeogi-f621514a13": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "2026숙박세일페스타섬지역편",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "e927b787c4",
+     "f621514a13"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-lotte-9be1e23149": {
+   "info": {
+    "airline": "h-lotte",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "9be1e23149",
+     "b97dd879be",
+     "e13f81696c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-hilton-cb48b4c6cc": {
+   "info": {
+    "airline": "h-hilton",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "cb48b4c6cc"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-modetour-9429ac111b": {
+   "info": {
+    "airline": "h-modetour",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "9429ac111b",
+     "e1e2c5746f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-other-787b60ea70": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "787b60ea70"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "eastarjet-f127b7e5de": {
+   "info": {
+    "airline": "eastarjet",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "74f1b9c30b",
+     "82f63c4de6",
+     "d53378000f",
+     "f127b7e5de"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "jinair-09c726eef1": {
+   "info": {
+    "airline": "jinair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "필리핀"
+    ],
+    "urls": [
+     "09c726eef1",
+     "196dfff6f3",
+     "384dc0883d",
+     "41dbc3d182",
+     "711c0335a7",
+     "777623c8af",
+     "7d488e822c",
+     "9d1e4d8601",
+     "bfcfa76888",
+     "c25cb36d25",
+     "ccf4352f27",
+     "e004a54089",
+     "f072d94bda",
+     "f9c9a8897e",
+     "fbb05aa770",
+     "ff9ea2bb9f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "airpremia-3725af9bff": {
+   "info": {
+    "airline": "airpremia",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "3725af9bff",
+     "5f570794b0"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-yeogi-2f093da9cc": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "기업전용숙박특가",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "2f093da9cc"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-tripcom-ee8abca341": {
+   "info": {
+    "airline": "h-tripcom",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "ee8abca341"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-clubmed-3e347de208": {
+   "info": {
+    "airline": "h-clubmed",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "3e347de208"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-yeogi-db578f36ca": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "제주그린키숙박페스타",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "0ecc2bc0f2",
+     "121a535932",
+     "20a5468a68",
+     "24596db911",
+     "554039e7ca",
+     "5678ebac8a",
+     "65e7221615",
+     "8d6992fb7a",
+     "db578f36ca",
+     "fd188b4649"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "airseoul-86e16725ae": {
+   "info": {
+    "airline": "airseoul",
+    "name": "임박특가",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "06892d46c5",
+     "86e16725ae",
+     "9d232a6a53",
+     "afeb038a66"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "multi-64f21625b7": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "64f21625b7"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-inspire-b0a8a4cad6": {
+   "info": {
+    "airline": "h-inspire",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "b0a8a4cad6"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-other-2abbbfd934": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "2abbbfd934"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-other-83f7fecedc": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "83f7fecedc"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "airpremia-353c91f823": {
+   "info": {
+    "airline": "airpremia",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "353c91f823"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "turkish-ed654b3dcf": {
+   "info": {
+    "airline": "turkish",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "urls": [
+     "ed654b3dcf"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-paradise-5b561f60db": {
+   "info": {
+    "airline": "h-paradise",
+    "name": "슈퍼위크",
+    "sale_start": "2026-10-12",
+    "sale_end": "2026-10-21",
+    "dests": [],
+    "urls": [
+     "08afd0752e",
+     "105c2885e2",
+     "40eff1af72",
+     "575048f469",
+     "5b561f60db",
+     "6d2e999e14",
+     "ead5890211",
+     "f40f7b4d37"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "airbusan-9a5e168a4c": {
+   "info": {
+    "airline": "airbusan",
+    "name": "",
+    "sale_start": "2026-10-14",
+    "sale_end": "2026-10-20",
+    "dests": [],
+    "urls": [
+     "0b764a1cc6",
+     "12d2affe45",
+     "1444d83b04",
+     "225fc867f8",
+     "34a1900a3b",
+     "39da9aebd2",
+     "3f2cf4f358",
+     "4373b1ac17",
+     "4a70d752a7",
+     "4c53b16ff4",
+     "54f771bb3d",
+     "65d4f0c0c5",
+     "78f88449b0",
+     "9a5e168a4c",
+     "a80703562c",
+     "c190e23676"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "airpremia-af1ecccd27": {
+   "info": {
+    "airline": "airpremia",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-10-19",
+    "dests": [],
+    "urls": [
+     "617f3882ca",
+     "af1ecccd27"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "trinity-4e856ab3a2": {
+   "info": {
+    "airline": "trinity",
+    "name": "국제선얼리버드프로모션",
+    "sale_start": null,
+    "sale_end": "2026-10-23",
+    "dests": [],
+    "urls": [
+     "1985510de2",
+     "22363f107b",
+     "2537d816ed",
+     "3321be9339",
+     "3e2f481e96",
+     "40c57c1ddc",
+     "42adcd7c7c",
+     "4e856ab3a2",
+     "5efec7ca3c",
+     "7276619282",
+     "7dee3ca985",
+     "850e13e0b5",
+     "86e69b076e",
+     "915fc0a802",
+     "a4ba25d8e6",
+     "bf4f9db17e",
+     "c3859d2220",
+     "d732151ddd",
+     "fd46a685fc"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "trinity-c45e6768bd": {
+   "info": {
+    "airline": "trinity",
+    "name": "우리동네할인",
+    "sale_start": null,
+    "sale_end": "2026-10-23",
+    "dests": [],
+    "urls": [
+     "05a42986ed",
+     "077168f6d2",
+     "0a96b3d694",
+     "0b79e437bd",
+     "0fb068f73c",
+     "125438195f",
+     "1ea8513c05",
+     "287de12246",
+     "33d1623896",
+     "35425cc437",
+     "6b0284360a",
+     "6c61216da2",
+     "6c77286cf8",
+     "77f530d6ef",
+     "8dbb372888",
+     "9e5261e892",
+     "a226a73155",
+     "aec497c73c",
+     "bdd2c5b520",
+     "c45e6768bd",
+     "d165a802fb",
+     "e3cc33135d",
+     "ea87e9b06f",
+     "ec17eb05a2"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "airasia-52c40ce69d": {
+   "info": {
+    "airline": "airasia",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-10-25",
+    "dests": [],
+    "urls": [
+     "1bdc847c82",
+     "46d0cafe53",
+     "52c40ce69d",
+     "62958d09ba",
+     "b27e8df5a9"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  }
+ },
+ "slots": {
+  "2026-10-26": {
+   "evening": "empty"
+  }
  }
 }
