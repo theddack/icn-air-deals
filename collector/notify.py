@@ -1,25 +1,41 @@
-"""텔레그램 알림. 수집이 끝난 뒤 새로 나온 할인, 오늘 판매가 시작되는 할인, 판매 마감이 내일·오늘인 할인,
-수집 실패를 봇으로 보낸다.
+"""텔레그램 알림. 하루 세 시간대(오전·오후·저녁)에 여행 할인 브리핑을 보낸다 (2026-10-27 알림 기획서).
 
-- 토큰·받는 사람은 Secrets(TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID)에서 읽는다. 없으면 아무것도 하지 않는다.
-  받는 사람은 쉼표로 여럿 넣을 수 있다.
-- 보낸 것은 data/telegram_sent.json에 남겨 같은 소식을 두 번 보내지 않는다 (행사 id와 알림 종류만, 받는 사람 정보 없음).
-- 처음 켤 때는 지금 있는 행사를 보낸 것으로 치고 '연결 완료' 한 통만 보낸다 (수십 건이 한꺼번에 오지 않게).
-- 알림이 실패해도 수집·배포는 계속한다 (collect.yml에서 continue-on-error).
+알림 종류 (행사마다 종류별로 한 번만)
+- start_today     오늘 판매 시작 (sale_start가 오늘)
+- upcoming_d3     곧 시작 (판매 시작 2~3일 전. 하루 늦게 실행돼도 놓치지 않게 2일 전까지)
+- upcoming_d1     내일 판매 시작
+- closing_today   오늘 판매 마감
+- closing_tomorrow 내일 판매 마감
+- new             새로 발견 (처음 본 지 3일 안)
+
+시간대 (KST). 시간대마다 메시지는 한 번만, 보낼 것이 없으면 보내지 않는다
+- 오전 09~14시: 오늘 시작 · 곧 시작(D-3) · 오늘 마감 · 신규
+- 오후 14~20시: 신규 · 오늘 시작 · 오늘 마감
+- 저녁 20~24시: 오늘·내일 마감 · 내일 시작 · 오늘 시작 · 신규
+- 0~9시에는 보내지 않는다. 앞 시간대가 실행되지 않았으면(예약 지연·누락) 그 시간대 종류도 함께 보낸다.
+
+실행: 예약(09·14·20시) + 수집 작업이 끝날 때마다 (.github/workflows/telegram.yml).
+보낸 기록은 data/telegram_sent.json (행사 id·확인된 정보·종류별 발송일, 받는 사람 정보 없음).
+수집 실패 경고는 여행 알림에 넣지 않고 Actions 로그와 관리자 대화(TELEGRAM_ADMIN_CHAT_ID, 선택)로만 보낸다.
+
+python -m collector.notify --dry-run [--now 2026-10-27T09:10] : 보내지 않고 메시지와 바뀔 기록만 출력
 """
 
+import argparse
+import hashlib
 import html
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
-from .status import display_status, today_kst
+from .status import KST, display_status
 
 ROOT = Path(__file__).resolve().parent.parent
 DEALS = ROOT / "data" / "deals.json"
@@ -28,16 +44,80 @@ SITE = "https://theddack.github.io/icn-air-deals/"
 API = "https://api.telegram.org/bot{token}/{method}"
 UA = "icn-air-deals/0.1 (+https://github.com/theddack/icn-air-deals)"
 
-NEW_MAX_AGE_DAYS = 3   # 처음 본 지 이 일수 안인 행사만 '새 할인'으로 (기사가 더해져 id가 바뀐 옛 행사를 다시 보내지 않게)
-LIST_MAX = 10          # 한 메시지에 넣는 행사 수
-KEEP_DAYS = 60         # 보낸 기록 보관 기간
-SECTION = {"flight": "항공권", "domestic": "국내선", "hotel": "숙박"}
+NEW_MAX_AGE_DAYS = 3     # 처음 본 지 이 일수 안인 행사만 '신규'
+DATA_STALE_HOURS = 14    # 행사 데이터가 이보다 오래되면 신규로 안내하지 않는다 (수집이 멈춘 것)
+KEEP_DAYS = 60           # 보낸 기록 보관 기간
+TEXT_MAX = 3800          # 텔레그램 한 메시지 4096자 제한보다 여유 있게
 WEEK = "월화수목금토일"
+SECTION = {"flight": "항공권", "domestic": "국내선", "hotel": "숙박"}
+
+SLOTS = [  # (이름, 시작 시, 끝 시)
+    ("morning", 9, 14),
+    ("afternoon", 14, 20),
+    ("evening", 20, 24),
+]
+SLOT_KINDS = {
+    "morning": ["start_today", "upcoming_d3", "closing_today", "new"],
+    "afternoon": ["new", "start_today", "closing_today"],
+    "evening": ["closing_today", "closing_tomorrow", "upcoming_d1", "start_today", "new"],
+}
+# 한 메시지 안의 순서와 제목. 한 행사가 여러 종류에 해당하면 앞의 것 하나로만 보여 준다
+KIND_ORDER = ["start_today", "closing_today", "closing_tomorrow", "upcoming_d1", "upcoming_d3", "new"]
+KIND_TITLE = {
+    "start_today": "🚀 <b>오늘 판매 시작</b>",
+    "closing_today": "⏰ <b>오늘 판매 마감</b>",
+    "closing_tomorrow": "⌛ <b>내일 판매 마감</b>",
+    "upcoming_d1": "📅 <b>내일 판매 시작</b>",
+    "upcoming_d3": "📅 <b>곧 시작하는 행사</b>",
+    "new": "🆕 <b>새로 발견한 할인</b>",
+}
+KIND_SUMMARY = {
+    "start_today": "🚀 오늘 판매 시작", "closing_today": "⏰ 오늘 판매 마감", "closing_tomorrow": "⌛ 내일 판매 마감",
+    "upcoming_d1": "📅 내일 판매 시작", "upcoming_d3": "📅 곧 시작하는 행사", "new": "🆕 새로 발견한 할인",
+}
+HEADER = {
+    "morning": "☀️ <b>오늘의 여행 할인 브리핑</b>",
+    "afternoon": "🆕 <b>새로운 할인 소식</b>",
+    "evening": "🌙 <b>오늘의 마감 임박 특가</b>",
+}
+RULE = "━━━━━━━━━━━━"
+NOTE = "※ 표시된 할인·가격은 실제 예약 조건과 다를 수 있습니다."
+
+
+# ---------------------------------------------------------------- 날짜·시간대
+
+def slot_of(now):
+    for name, start, end in SLOTS:
+        if start <= now.hour < end:
+            return name
+    return None
 
 
 def md(iso):
     d = date.fromisoformat(iso)
-    return f"{d.month}/{d.day}({WEEK[d.weekday()]})"
+    return f"{d.month}/{d.day}"
+
+
+def kr_date(d):
+    return f"{d.month}월 {d.day}일 {WEEK[d.weekday()]}요일"
+
+
+def _d(s):
+    return date.fromisoformat(s) if s else None
+
+
+def _dt(s):
+    """ISO 문자열 → KST datetime. 날짜만 있으면 그날 0시 ('started'의 예전 형식)."""
+    if not s:
+        return None
+    d = datetime.fromisoformat(s)
+    return d if d.tzinfo else d.replace(tzinfo=KST)
+
+
+# ---------------------------------------------------------------- 같은 행사 판정 (행사 id가 바뀌어도)
+
+def _norm(s):
+    return re.sub(r"[\s\W_]+", "", s or "").lower()
 
 
 def _places(deal):
@@ -53,76 +133,198 @@ def _places(deal):
     return out
 
 
-def line(deal, today):
-    """행사 한 줄: [구분] 주인 · 목적지(또는 행사 이름) — 할인 · 판매 기한 · 출처."""
-    e = html.escape
-    where = " · ".join(_places(deal)[:2]) if deal.get("section") != "hotel" else " · ".join((deal.get("regions") or [])[:2])
-    title = where or (deal.get("event_name") or deal.get("headline") or "")[:40]
-    bits = [deal.get("discount") or "할인 조건은 공식 페이지에서 확인"]
-    if deal.get("sale_end"):
-        left = (date.fromisoformat(deal["sale_end"]) - today).days
-        bits.append("오늘 마감" if left == 0 else f"판매 ~{md(deal['sale_end'])}" + (f" (D-{left})" if left <= 3 else ""))
-    if deal.get("sale_start") == today.isoformat():
-        bits.append("오늘 판매 시작")
-    elif deal.get("sale_start") and deal["sale_start"] > today.isoformat():
-        bits.append(f"{md(deal['sale_start'])} 판매 시작")
-    src = ("판매처" if deal.get("kind") == "platform" or deal.get("section") == "hotel" else "항공사") + " 공식" \
-        if deal.get("verification") == "official" else f"뉴스 {len(deal.get('articles') or [])}건"
-    link, label = deal.get("official_url"), "공식 홈페이지"
-    if not link:
-        link, label = (deal.get("articles") or [{}])[0].get("url"), "기사"
-    head = f"[{SECTION.get(deal.get('section'), '항공권')}] {e(deal.get('airline') or '')} · <b>{e(title)}</b>"
-    tail = " · ".join(e(b) for b in bits) + f" · {e(src)}"
-    if link and link.startswith(("http://", "https://")):
-        tail += f' · <a href="{e(link, quote=True)}">{label}</a>'
-    return f"• {head}\n  {tail}"
+def info_of(deal):
+    """행사를 다시 알아보는 데 쓰는 확인된 정보. 기사 주소는 해시 앞 10자만."""
+    return {
+        "airline": deal.get("airline_id"),
+        "name": _norm(deal.get("event_name") or ""),
+        "sale_start": deal.get("sale_start"),
+        "sale_end": deal.get("sale_end"),
+        "dests": sorted(_places(deal)),
+        "urls": sorted({hashlib.sha1(a["url"].encode()).hexdigest()[:10] for a in deal.get("articles") or [] if a.get("url")})[:30],
+    }
 
 
-def pick(deals, sent, today):
-    """→ (새 할인, 오늘 판매 시작, 곧 마감). 마감·진행 여부 미확인·인천 외 출발은 뺀다."""
-    new, starting, closing = [], [], []
-    cutoff = (today - timedelta(days=NEW_MAX_AGE_DAYS)).isoformat()
+def same_event(a, b):
+    """id가 다른 두 행사가 같은 행사인가. 기사가 더해져 묶음의 첫 기사가 바뀌면 id도 바뀐다.
+    주인·판매 시작일·종료일이 모두 같아야 하고(판매 기간이 다른 반복 행사는 다른 행사),
+    그 위에 행사명과 도착지가 같거나 같은 기사를 함께 담고 있어야 한다. 행사명만으로는 같다고 보지 않는다."""
+    if not a or not b or a["airline"] != b["airline"]:
+        return False
+    if (a["sale_start"], a["sale_end"]) != (b["sale_start"], b["sale_end"]):
+        return False
+    if a["name"] and a["name"] == b["name"] and a["dests"] == b["dests"]:
+        return True
+    return bool(set(a["urls"]) & set(b["urls"]))
+
+
+def record_for(deal, events):
+    """deal의 발송 기록. id가 같거나 같은 행사로 판정된 기록 → (id, 기록). 없으면 (None, None)."""
+    if deal["id"] in events:
+        return deal["id"], events[deal["id"]]
+    info = info_of(deal)
+    for eid, rec in events.items():
+        if same_event(rec.get("info"), info):
+            return eid, rec
+    return None, None
+
+
+def rekey(deals, events):
+    """id가 바뀐 행사의 기록을 지금 id로 옮기고 확인된 정보를 새로 고친다 (보낼 것이 없어도)."""
+    events = dict(events)
     for d in deals:
-        st = display_status(d, today)
-        if st in ("ended", "stale") or d.get("from_icn") == "no":
+        if d["id"] in events:
             continue
-        if d["id"] not in sent and (d.get("first_seen") or "")[:10] >= cutoff:
-            new.append(d)
-        # 판매 시작일 알림 (2026-10-26 요청: 행사가 시작하는 날 알려 주기). 그날 첫 수집 때 한 번
-        if d.get("sale_start") == today.isoformat() and f"{d['id']}:start" not in sent:
-            starting.append(d)
-        if st == "live" and d.get("sale_end") and (date.fromisoformat(d["sale_end"]) - today).days <= 1 \
-                and f"{d['id']}:closing" not in sent:
-            closing.append(d)
-    # 새 할인에 이미 들어간 행사는 다른 알림에 또 넣지 않는다 (줄에 '오늘 판매 시작'·D-day가 붙는다)
-    starting = [d for d in starting if d not in new]
-    closing = [d for d in closing if d not in new and d not in starting]
-    # 공식 확인 먼저, 그다음 마감 가까운 순
-    new.sort(key=lambda d: (d.get("verification") != "official", d.get("sale_end") or "9999"))
-    return new, starting, closing
+        eid, rec = record_for(d, events)
+        if eid:
+            events.pop(eid)
+            events[d["id"]] = {"info": info_of(d), "kinds": rec.get("kinds", {})}
+    return events
 
 
-def messages(new, starting, closing, failed, today):
-    out = []
-    if starting:
-        body = "\n".join(line(d, today) for d in starting[:LIST_MAX])
-        more = f"\n외 {len(starting) - LIST_MAX}건은 사이트에서 확인하세요." if len(starting) > LIST_MAX else ""
-        out.append(f"🛫 오늘 판매 시작 {len(starting)}건\n\n{body}{more}")
-    if new:
-        body = "\n".join(line(d, today) for d in new[:LIST_MAX])
-        more = f"\n외 {len(new) - LIST_MAX}건은 사이트에서 확인하세요." if len(new) > LIST_MAX else ""
-        out.append(f"✈ 새 할인 {len(new)}건\n\n{body}{more}")
-    if closing:
-        body = "\n".join(line(d, today) for d in closing[:LIST_MAX])
-        out.append(f"⏰ 곧 마감 {len(closing)}건 (오늘·내일)\n\n{body}")
-    if failed:
-        out.append(f"⚠ 직전 수집에서 뉴스 검색어 {failed}개가 실패했습니다. 일부 행사가 빠졌을 수 있습니다.")
-    return [m + f'\n\n<a href="{SITE}">ICN 특가 레이더 열기</a>' for m in out]
+# ---------------------------------------------------------------- 알림 대상
 
+def due_kinds(deal, today, data_fresh, started):
+    """지금 알릴 수 있는 종류 (보냈는지는 아직 보지 않는다)."""
+    st = display_status(deal, today)
+    if st in ("ended", "stale") or deal.get("from_icn") == "no":
+        return []
+    kinds = []
+    dates_ok = "sale" not in (deal.get("conflicts") or [])  # 출처 간 판매 날짜가 다르면 날짜 알림을 하지 않는다
+    start, end = _d(deal.get("sale_start")), _d(deal.get("sale_end"))
+    if dates_ok and start:
+        left = (start - today).days
+        if left == 0:
+            kinds.append("start_today")
+        elif left == 1:
+            kinds.append("upcoming_d1")
+        elif left in (2, 3):
+            kinds.append("upcoming_d3")
+    if dates_ok and end and st == "live":
+        left = (end - today).days
+        if left == 0:
+            kinds.append("closing_today")
+        elif left == 1:
+            kinds.append("closing_tomorrow")
+    seen = _dt(deal.get("first_seen"))
+    if data_fresh and seen and seen.date() >= today - timedelta(days=NEW_MAX_AGE_DAYS) and (not started or seen > _dt(started)):
+        kinds.append("new")
+    return kinds
+
+
+def allowed_kinds(slot, today, slots_log):
+    """이 시간대에 보낼 종류. 오늘 앞 시간대가 보내지 못했으면 그 종류도 더한다 (예약 지연·누락 보완)."""
+    names = [s[0] for s in SLOTS]
+    out = list(SLOT_KINDS[slot])
+    done = slots_log.get(today.isoformat(), {})
+    for prev in names[:names.index(slot)]:
+        if done.get(prev) != "sent":
+            out += [k for k in SLOT_KINDS[prev] if k not in out]
+    return out
+
+
+def plan(deals, state, now, data_fresh):
+    """→ (보낼 항목 [(행사, 보여 줄 종류, 기록할 종류들, 기록 id)], 시간대). 시간대 밖이거나 이미 보낸 시간대면 빈 목록."""
+    today = now.date()
+    slot = slot_of(now)
+    if not slot:
+        return [], None
+    if state.get("slots", {}).get(today.isoformat(), {}).get(slot) == "sent":
+        return [], slot
+    allowed = allowed_kinds(slot, today, state.get("slots", {}))
+    events = state.get("events", {})
+    items, taken = [], set()
+    for d in deals:
+        kinds = [k for k in due_kinds(d, today, data_fresh, state.get("started", "")) if k in allowed]
+        if not kinds:
+            continue
+        eid, rec = record_for(d, events)
+        sent = (rec or {}).get("kinds", {})
+        todo = [k for k in kinds if k not in sent]
+        # 행사를 새로 찾았는데 이미 날짜 알림을 받은 행사면 신규로 또 알리지 않는다
+        if "new" in todo and sent:
+            todo.remove("new")
+        if not todo or (eid or d["id"]) in taken:
+            continue
+        taken.add(eid or d["id"])
+        show = next(k for k in KIND_ORDER if k in todo)
+        items.append((d, show, todo, eid or d["id"]))
+    # 같은 종류 안에서는 공식 확인 먼저, 그다음 마감 가까운 순
+    items.sort(key=lambda x: (KIND_ORDER.index(x[1]), x[0].get("verification") != "official", x[0].get("sale_end") or "9999"))
+    return items, slot
+
+
+# ---------------------------------------------------------------- 메시지
+
+def source_label(deal):
+    if deal.get("verification") == "official":
+        return "판매처 공식" if deal.get("kind") == "platform" or deal.get("section") == "hotel" else "항공사 공식"
+    return "기사 기준"
+
+
+def item_text(deal, kind, today):
+    e = html.escape
+    hotel = deal.get("section") == "hotel"
+    where = " · ".join((deal.get("regions") or [])[:2]) if hotel else " · ".join(_places(deal)[:2])
+    name = deal.get("event_name") or deal.get("headline") or ""
+    title = where or (name if len(name) <= 40 else name[:39].rstrip() + "…")
+    lines = [f"<b>{e(deal.get('airline') or '')} · {e(title)}</b>"]
+    if where and deal.get("event_name"):
+        lines.append(e(deal["event_name"][:50]))
+    lines.append(e(deal["discount"]) if deal.get("discount") else "할인 조건 확인 필요")
+    start, end = deal.get("sale_start"), deal.get("sale_end")
+    if kind in ("upcoming_d3", "upcoming_d1"):
+        left = (date.fromisoformat(start) - today).days
+        lines.append(f"{md(start)} 판매 시작 · D-{left}" + (f" · 마감 {md(end)}" if end else ""))
+    elif kind in ("closing_today", "closing_tomorrow"):
+        lines.append(f"판매 마감: {md(end)} ({'오늘' if kind == 'closing_today' else '내일'})")
+    elif start or end:
+        lines.append(f"판매 기간: {md(start) if start else ''}~{md(end) if end else ''}")
+    else:
+        lines.append("판매 기간: 확인 필요")
+    src = f"확인 상태: {source_label(deal)}"
+    if (deal.get("official_url") or "").startswith(("http://", "https://")):
+        src += f' · <a href="{e(deal["official_url"], quote=True)}">공식 홈페이지</a>'
+    lines.append(src)
+    return "\n".join(lines)
+
+
+def build_messages(items, slot, now, late=False):
+    """→ [텍스트, …]. 길면 항목 경계에서 나눈다. 버튼은 보낼 때 붙인다."""
+    if not items:
+        return []
+    today = now.date()
+    counts = {}
+    for _, k, _, _ in items:
+        counts[k] = counts.get(k, 0) + 1
+    head = ["✈️ <b>ICN 특가 레이더</b>", "", HEADER[slot], kr_date(today)]
+    if late:
+        head.append("앞 시간대 알림이 늦어 함께 보내 드려요.")
+    head.append("")
+    head += [f"{KIND_SUMMARY[k]} {counts[k]}건" for k in KIND_ORDER if k in counts]
+    blocks, cur = [], None
+    for d, k, _, _ in items:
+        if k != cur:
+            blocks.append(f"{RULE}\n\n{KIND_TITLE[k]}")
+            cur = k
+        blocks.append(item_text(d, k, today))
+    tail = f"{RULE}\n\n{NOTE}"
+    out, buf = [], "\n".join(head)
+    for b in blocks:
+        if len(buf) + len(b) + len(tail) + 4 > TEXT_MAX:
+            out.append(buf)
+            buf = "✈️ <b>ICN 특가 레이더</b> (이어서)"
+        buf += "\n\n" + b
+    out.append(buf + "\n\n" + tail)
+    return out
+
+
+# ---------------------------------------------------------------- 보내기
 
 def send(token, chat_id, text, tries=5):
-    data = urllib.parse.urlencode({"chat_id": chat_id, "text": text, "parse_mode": "HTML",
-                                   "disable_web_page_preview": "true"}).encode()
+    payload = {"chat_id": chat_id, "text": text, "parse_mode": "HTML", "disable_web_page_preview": "true",
+               "reply_markup": json.dumps({"inline_keyboard": [[{"text": "전체 할인 행사 보기", "url": SITE}]]})}
+    data = urllib.parse.urlencode(payload).encode()
     for i in range(tries):
         req = urllib.request.Request(API.format(token=token, method="sendMessage"), data=data, headers={"User-Agent": UA})
         try:
@@ -143,58 +345,144 @@ def send(token, chat_id, text, tries=5):
         time.sleep(min(wait, 60) + 1)
 
 
-def run(deals_data, state, today, sender):
-    """→ 새 state. sender(text)로 보낸다. 보낸 뒤에만 기록해서 실패하면 다음 수집 때 다시 보낸다."""
+def migrate(state, deals):
+    """예전 기록 {'started', 'sent': {id: 날짜, 'id:closing': 날짜, 'id:start': 날짜}} → 새 형식."""
+    if "events" in state or "sent" not in state:
+        return state
+    by_id = {d["id"]: d for d in deals}
+    events = {}
+    for key, day in state["sent"].items():
+        if key.startswith("failed:"):
+            continue
+        eid, _, kind = key.partition(":")
+        rec = events.setdefault(eid, {"info": info_of(by_id[eid]) if eid in by_id else None, "kinds": {}})
+        for k in {"": ["new"], "closing": ["closing_today", "closing_tomorrow"], "start": ["start_today"]}.get(kind, []):
+            rec["kinds"][k] = day
+    return {"started": state.get("started", ""), "events": events, "slots": {}}
+
+
+def run(deals_data, state, now, sender, admin=None):
+    """한 번 실행 → (새 state, 오류 또는 None). sender(text)가 예외를 내면 그 앞까지 보낸 항목만 기록하고,
+    시간대는 '보냄'으로 표시하지 않아 남은 항목을 다음 실행에서 다시 보낸다."""
     deals = deals_data.get("deals", [])
-    sent = dict(state.get("sent", {}))
+    state = migrate(state, deals)
+    today = now.date()
     if not state.get("started"):
-        # 처음: 지금 있는 행사는 보낸 것으로 친다
-        for d in deals:
-            sent[d["id"]] = today.isoformat()
-        live = sum(display_status(d, today) not in ("ended", "stale") for d in deals)
-        sender(f"ICN 특가 레이더 알림이 연결됐습니다.\n지금 볼 수 있는 할인 {live}건 · 앞으로 새 할인과 곧 마감되는 할인을 보내 드려요."
-               f'\n\n<a href="{SITE}">ICN 특가 레이더 열기</a>')
-        return {"started": today.isoformat(), "sent": sent}
-    new, starting, closing = pick(deals, sent, today)
+        # 처음: 지금 있는 행사는 신규로 보지 않는다 (수십 건이 한꺼번에 오지 않게)
+        state = {"started": now.isoformat(), "events": {}, "slots": {}}
+    generated = deals_data.get("generated_at")
+    age_h = (now - _dt(generated)).total_seconds() / 3600 if generated else 999
+    data_fresh = age_h <= DATA_STALE_HOURS
+    if not data_fresh:
+        msg = f"행사 데이터가 {age_h:.0f}시간 전 것이라 신규 알림을 보내지 않습니다 (수집 확인 필요)."
+        print(f"::warning::{msg}")
+        if admin and state.get("admin_stale") != today.isoformat():
+            admin(msg)
+            state = {**state, "admin_stale": today.isoformat()}
     failed = (deals_data.get("stats") or {}).get("failed_queries") or 0
-    fail_key = f"failed:{today.isoformat()}"
-    failed = failed if failed and fail_key not in sent else 0
-    for text in messages(new, starting, closing, failed, today):
-        sender(text)
-    for d in new:
-        sent[d["id"]] = today.isoformat()
-        if d.get("sale_end") and (date.fromisoformat(d["sale_end"]) - today).days <= 1:
-            sent[f"{d['id']}:closing"] = today.isoformat()
-        if d.get("sale_start") == today.isoformat():
-            sent[f"{d['id']}:start"] = today.isoformat()
-    for d in starting:
-        sent[f"{d['id']}:start"] = today.isoformat()
-    for d in closing:
-        sent[f"{d['id']}:closing"] = today.isoformat()
     if failed:
-        sent[fail_key] = today.isoformat()
+        print(f"::warning::직전 수집에서 뉴스 검색어 {failed}개가 실패했습니다.")
+        if admin and state.get("admin_failed") != today.isoformat():
+            admin(f"직전 수집에서 뉴스 검색어 {failed}개가 실패했습니다.")
+            state = {**state, "admin_failed": today.isoformat()}
+
+    state = {**state, "events": rekey(deals, state.get("events", {}))}
+    items, slot = plan(deals, state, now, data_fresh)
+    if not slot:
+        print("[notify] 알림 시간대(09~24시)가 아니라 보내지 않습니다.")
+        return state, None
+    if not items:
+        print(f"[notify] {slot}: 보낼 항목이 없습니다.")
+        if state.get("slots", {}).get(today.isoformat(), {}).get(slot) != "sent":
+            state = _mark_slot(state, today, slot, "empty")
+        return state, None
+    late = any(k not in SLOT_KINDS[slot] for _, _, todo, _ in items for k in todo)
+    texts = build_messages(items, slot, now, late)
+    # 여러 메시지로 나뉘면 메시지마다 그 안의 항목을 기록한다 (중간에 실패해도 보낸 것은 다시 보내지 않게)
+    events = dict(state.get("events", {}))
+    per_text = _split_items(items, texts)
+    error = None
+    for text, chunk in zip(texts, per_text):
+        try:
+            sender(text)
+        except Exception as e:
+            error = e
+            break
+        for d, _, todo, eid in chunk:
+            rec = events.get(eid) or {"info": None, "kinds": {}}
+            kinds = {**rec.get("kinds", {}), **{k: today.isoformat() for k in todo}}
+            # 같은 행사로 판정된 예전 id 기록은 지금 id로 옮긴다
+            events.pop(eid, None)
+            events[d["id"]] = {"info": info_of(d), "kinds": kinds}
+    state = {**state, "events": _prune(events, today)}
+    if error:
+        return state, error
+    print(f"[notify] {slot}: 항목 {len(items)}건을 메시지 {len(texts)}통으로 보냈습니다.")
+    return _mark_slot(state, today, slot, "sent"), None
+
+
+def _split_items(items, texts):
+    """build_messages가 나눈 메시지마다 들어간 항목 (제목 줄로 세어 나눈다)."""
+    if len(texts) == 1:
+        return [items]
+    out, i = [], 0
+    for t in texts:
+        n = t.count("확인 상태:")
+        out.append(items[i:i + n])
+        i += n
+    return out
+
+
+def _mark_slot(state, today, slot, value):
+    slots = {k: v for k, v in state.get("slots", {}).items() if k >= (today - timedelta(days=7)).isoformat()}
+    slots[today.isoformat()] = {**slots.get(today.isoformat(), {}), slot: value}
+    return {**state, "slots": slots}
+
+
+def _prune(events, today):
     cutoff = (today - timedelta(days=KEEP_DAYS)).isoformat()
-    return {**state, "sent": {k: v for k, v in sent.items() if v >= cutoff}}
+    return {k: v for k, v in events.items() if max(v.get("kinds", {}).values() or ["0"]) >= cutoff}
 
 
-def main():
+def main(argv=None):
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--dry-run", action="store_true", help="보내지 않고 메시지만 출력")
+    ap.add_argument("--now", help="시험용 현재 시각 (KST, 예: 2026-10-27T09:10)")
+    args = ap.parse_args(argv)
+    dry = args.dry_run or os.environ.get("DRY_RUN") == "1"
+    now = datetime.fromisoformat(args.now).replace(tzinfo=KST) if args.now else datetime.now(KST)
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     chats = [c.strip() for c in os.environ.get("TELEGRAM_CHAT_ID", "").split(",") if c.strip()]
-    if not token or not chats:
+    admin_chat = os.environ.get("TELEGRAM_ADMIN_CHAT_ID", "").strip()
+    if not dry and (not token or not chats):
         print("텔레그램 비밀값이 없어 알림을 건너뜁니다.")
         return 0
     deals_data = json.loads(DEALS.read_text(encoding="utf-8"))
     state = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
-    count = [0]
 
     def sender(text):
+        if dry:
+            print("----- 메시지 -----\n" + text + "\n[버튼: 전체 할인 행사 보기]")
+            return
         for c in chats:
             send(token, c, text)
-        count[0] += 1
 
-    new_state = run(deals_data, state, today_kst(), sender)
+    def admin(text):
+        if dry:
+            print("----- 관리자 -----\n" + text)
+        elif token and admin_chat:
+            send(token, admin_chat, "[관리자] " + text)
+
+    new_state, error = run(deals_data, state, now, sender, admin)
+    if dry:
+        print("[dry-run] 기록 파일은 바꾸지 않았습니다.")
+        return 0
+    # 실패해도 그 앞까지 보낸 기록은 저장한다 (다시 보내지 않게)
     STATE.write_text(json.dumps(new_state, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"[notify] 메시지 {count[0]}통을 {len(chats)}곳에 보냈습니다.")
+    if error:
+        # 토큰·chat id는 찍지 않는다
+        print(f"::error::텔레그램 발송 실패: {type(error).__name__} {getattr(error, 'code', '')} — 남은 항목은 다음 실행에서 보냅니다.")
+        return 1
     return 0
 
 
