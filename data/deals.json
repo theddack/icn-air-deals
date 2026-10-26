@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T17:52:11+09:00",
+ "generated_at": "2026-10-26T22:11:51+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2593,
+  "rss_items": 2620,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1966,
+  "outlet_items": 1867,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 1,
   "mail_new_articles": 0,
   "articles_with_summary": 17,
-  "articles": 483,
-  "new_articles": 4,
+  "articles": 484,
+  "new_articles": 1,
   "deals": 66
  },
  "deals": [
@@ -2962,44 +2962,50 @@
    "status": "undated"
   },
   {
-   "id": "h-other-3e90d9f371",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
+   "id": "h-kayak-3e90d9f371",
+   "airline_id": "h-kayak",
+   "airline": "카약",
    "airlines_mentioned": [
-    "브랜드 미확인"
+    "카약"
    ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
+   "kind": "platform",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
    "route_text": null,
-   "scope": "overseas",
+   "scope": null,
    "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.kayak.co.kr/",
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "카약 인천​발 오사카​행 이동하는 항공편, 224,867원부터 시작합니다.",
+   "headline": "카약 인천발 오사카행 이동하는 항공편, 224,867원부터 시작합니다.",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
-   "routes": [],
-   "regions": [
-    "인천",
-    "오사카"
+   "routes": [
+    {
+     "origin": "인천(ICN)",
+     "destination": "오사카(KIX)"
+    }
    ],
+   "regions": [],
    "conditions": [],
    "conflicts": [],
    "evidence": {
     "discount": {
-     "title": "카약 인천​발 오사카​행 이동하는 항공편, 224,867원부터 시작합니다.",
+     "title": "카약 인천발 오사카행 이동하는 항공편, 224,867원부터 시작합니다.",
+     "url": "https://www.kayak.co.kr/#mail-8a53ffb151c5a58a"
+    },
+    "route": {
+     "title": "카약 인천발 오사카행 이동하는 항공편, 224,867원부터 시작합니다.",
      "url": "https://www.kayak.co.kr/#mail-8a53ffb151c5a58a"
     }
    },
-   "from_icn": null,
+   "from_icn": "yes",
    "discount": "224,867원부터",
    "verification": "official",
    "first_published": "2026-10-25",
@@ -3008,7 +3014,7 @@
    "last_seen": "2026-10-25T17:39:35+09:00",
    "articles": [
     {
-     "title": "카약 인천​발 오사카​행 이동하는 항공편, 224,867원부터 시작합니다.",
+     "title": "카약 인천발 오사카행 이동하는 항공편, 224,867원부터 시작합니다.",
      "outlet": "카약 메일",
      "url": "https://www.kayak.co.kr/#mail-8a53ffb151c5a58a",
      "published": "2026-10-25"
@@ -3611,7 +3617,7 @@
    "first_published": "2026-09-29",
    "last_published": "2026-09-30",
    "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-26T09:21:46+09:00",
+   "last_seen": "2026-10-26T22:11:51+09:00",
    "articles": [
     {
      "title": "진에어, 필리핀 노선 최대 25% 할인",
@@ -3659,6 +3665,12 @@
      "title": "“필리핀 노선 최대 25% 할인”…진에어, 세부·보홀·클락 특가 프로모션",
      "outlet": "더게이트",
      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02TC16VmR3cV9GQ3A5cmlyMWxpYzVQN1lmUjF1WEJ5QXZLNXBqeXM3ZmRDcWxmUUtYcUhnbGVsbm9vZ2lSUWkyemhpY2NscnNudkNHcWNGTEgwcENKSWpsMDNVUzdWbFNY0gFsQVVfeXFMUHhJWFBnVjhkU2pQXzlicTJKWHVqN0dmNFA1SDZiTkZqYjdmV1MtSmJVQnV2bjk1X0NORjRNVkV3N2I0QW53LUt3V1dHYjVXc0cxMV8yTmpQeEpoTkZicTkzT0I2ajIxWk1BREd1?oc=5",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "진에어, 필리핀 4개 노선 대상 특별 할인 프로모션 진행",
+     "outlet": "BBS불교방송",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5jWGVER1NpemtDaEl4d0ZjZjd3OTh5RWZkLXJSRUNxV1VadE5oZ0Jsb3JldW1pd3FuTTZWQWROVTl6S1NIUHdvamdBZ0JlT2IycjNodEhfTmhXU1cyTVpDLXo3WjJwdE5TekFj?oc=5",
      "published": "2026-09-29"
     },
     {
