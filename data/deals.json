@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T09:21:46+09:00",
+ "generated_at": "2026-10-26T17:52:11+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2597,
+  "rss_items": 2593,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1721,
+  "outlet_items": 1966,
   "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_enriched": 0,
   "mail_articles": 1,
   "mail_new_articles": 0,
   "articles_with_summary": 17,
-  "articles": 479,
+  "articles": 483,
   "new_articles": 4,
-  "deals": 64
+  "deals": 66
  },
  "deals": [
   {
@@ -2513,70 +2513,6 @@
    "status": "undated"
   },
   {
-   "id": "h-inspire-0201864b79",
-   "airline_id": "h-inspire",
-   "airline": "인스파이어",
-   "airlines_mentioned": [
-    "인스파이어"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "인스파이어 '원더 페스타' 개최…쇼핑·미식에 객실 패키지 25% 할인까지",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "인스파이어 '원더 페스타' 개최…쇼핑·미식에 객실 패키지 25% 할인까지",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMNIBe0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMA?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "25% 할인",
-   "verification": "news",
-   "first_published": "2026-10-21",
-   "last_published": "2026-10-21",
-   "first_seen": "2026-10-21T09:36:47+09:00",
-   "last_seen": "2026-10-21T14:56:23+09:00",
-   "articles": [
-    {
-     "title": "인스파이어 '원더 페스타' 개최…쇼핑·미식에 객실 패키지 25% 할인까지",
-     "outlet": "디지틀조선일보",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMNIBe0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMA?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "인스파이어, ‘원더 페스타’ 개최...쇼핑·숙박·미식·엔터테인먼트 혜택 한자리에",
-     "outlet": "중부일보",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHQVMtQlI3THItWXoyUUk4azk1N2x5VVlFOWNScXlEUnlVdkpmaXJSeFhMTVd4UnpqYzZGNElCZkxRcU5qcE55Q2RzelBTS29OSXRNMFpkT2RBWjVQM01xWmRPQjFkYS1kaXM4ZkJ3?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "인스파이어, 쇼핑·숙박·미식·엔터 망라 '원더 페스타'",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fNURwdEJNc2pHd082dFh5NGItaE1mQTU2VUNxTF8tNnZRM3h6X2ZXNHB0Q1pnTHQxc2ZuSnJQcmRqMmxWM29meDRSQ1l4SDZhLWJodUxLUGRDbnJBUW5VUnNyUnpGUQ?oc=5",
-     "published": "2026-10-21"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "airpremia-291366713a",
    "airline_id": "airpremia",
    "airline": "에어프레미아",
@@ -3076,6 +3012,185 @@
      "outlet": "카약 메일",
      "url": "https://www.kayak.co.kr/#mail-8a53ffb151c5a58a",
      "published": "2026-10-25"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-inspire-0201864b79",
+   "airline_id": "h-inspire",
+   "airline": "인스파이어",
+   "airlines_mentioned": [
+    "인스파이어"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "쇼핑·숙박·미식·전시를 한 손에… 인스파이어, ‘인스파이어 원더 페스타’ 첫 개최",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "인스파이어 '원더 페스타' 개최…쇼핑·미식에 객실 패키지 25% 할인까지",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMNIBe0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMA?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "25% 할인",
+   "verification": "news",
+   "first_published": "2026-10-21",
+   "last_published": "2026-10-26",
+   "first_seen": "2026-10-21T09:36:47+09:00",
+   "last_seen": "2026-10-26T17:52:11+09:00",
+   "articles": [
+    {
+     "title": "쇼핑·숙박·미식·전시를 한 손에… 인스파이어, ‘인스파이어 원더 페스타’ 첫 개최",
+     "outlet": "한경매거진",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NcjlwaUdoaDhoeGdlVWlhdnlXV0c0anZUVGt0cjBBM3RQVWZQZkhORk40S0U0bV9RR0dTcjZZSTZUS2llekpndFVlbVB2d1dUbTBQYUtrWE9DNnY5R1dkYzNPazcxa0tQ?oc=5",
+     "published": "2026-10-26"
+    },
+    {
+     "title": "인스파이어 '원더 페스타' 개최…쇼핑·미식에 객실 패키지 25% 할인까지",
+     "outlet": "디지틀조선일보",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMNIBe0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMA?oc=5",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "인스파이어, ‘원더 페스타’ 개최...쇼핑·숙박·미식·엔터테인먼트 혜택 한자리에",
+     "outlet": "중부일보",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHQVMtQlI3THItWXoyUUk4azk1N2x5VVlFOWNScXlEUnlVdkpmaXJSeFhMTVd4UnpqYzZGNElCZkxRcU5qcE55Q2RzelBTS29OSXRNMFpkT2RBWjVQM01xWmRPQjFkYS1kaXM4ZkJ3?oc=5",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "인스파이어, 쇼핑·숙박·미식·엔터 망라 '원더 페스타'",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fNURwdEJNc2pHd082dFh5NGItaE1mQTU2VUNxTF8tNnZRM3h6X2ZXNHB0Q1pnTHQxc2ZuSnJQcmRqMmxWM29meDRSQ1l4SDZhLWJodUxLUGRDbnJBUW5VUnNyUnpGUQ?oc=5",
+     "published": "2026-10-21"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-yeogi-e90c0ad919",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "여기어때, 일본 프리미엄 숙소 최대 20% 할인 프로모션",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "일본"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "여기어때, 일본 프리미엄 숙소 최대 20% 할인 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE03RElFbXFlYWNFZlpaVlAxLXFNNWVQX0Y3RF9VOG5sR0ZFX3d3U0JINnZfS0NMTElUOENVaW5vLWp0eHRQODVraWxYYzd6N2FEQnUtSHZIWmxXNWdlTEJoMHo0VXpzaU5GWmV2eTNnNjZvUQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-10-26",
+   "last_published": "2026-10-26",
+   "first_seen": "2026-10-26T17:52:11+09:00",
+   "last_seen": "2026-10-26T17:52:11+09:00",
+   "articles": [
+    {
+     "title": "여기어때, 일본 프리미엄 숙소 최대 20% 할인 프로모션",
+     "outlet": "숙박매거진",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE03RElFbXFlYWNFZlpaVlAxLXFNNWVQX0Y3RF9VOG5sR0ZFX3d3U0JINnZfS0NMTElUOENVaW5vLWp0eHRQODVraWxYYzd6N2FEQnUtSHZIWmxXNWdlTEJoMHo0VXpzaU5GWmV2eTNnNjZvUQ?oc=5",
+     "published": "2026-10-26"
+    },
+    {
+     "title": "여기어때, 日 고급 숙소까지 `블랙` 확대…\"최대 20% 할인\"",
+     "outlet": "디지털데일리",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fX1VrVGRBTzBRekZMSUM0Y0lxdU5sMUlsV19sM0xHbGhRUW52OXpTVjg1QmlQTVRpMVg0UVJIUHYxVmhIS3Z1Y1hDaHk0UkJBQjdOSWUzY042QU0ya0lFYmJjMDc?oc=5",
+     "published": "2026-10-26"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-modetour-16a0129775",
+   "airline_id": "h-modetour",
+   "airline": "모두투어",
+   "airlines_mentioned": [
+    "모두투어"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.modetour.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "겨울 일본여행 예약 27.4%… 모두투어 온천·미식 강화",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "일본"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-26",
+   "last_published": "2026-10-26",
+   "first_seen": "2026-10-26T17:52:11+09:00",
+   "last_seen": "2026-10-26T17:52:11+09:00",
+   "articles": [
+    {
+     "title": "겨울 일본여행 예약 27.4%… 모두투어 온천·미식 강화",
+     "outlet": "https://www.newsphere.kr/",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91TURqdkhmS3RLNEFBbFR2VV8yTzZhd0g0Y2puYmlLQnBYeFlSV0lUdjNNT1ZlajFZREdMUnJmenEzYkhzQ1VIb1dMeE4zXzRhNXJPWkpxODhpZFBMekdtYVdKdndTOTh2?oc=5",
+     "published": "2026-10-26"
     }
    ],
    "status": "undated"
