@@ -7,18 +7,35 @@
 import json
 import os
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
 API = "https://api.telegram.org/bot{token}/{method}"
 
 
-def call(token, method, params=None):
+def call(token, method, params=None, tries=5):
+    """시간 초과·429(요청 과다)는 기다렸다 다시 한다. GitHub 공용 러너는 같은 IP를 여럿이 써서 429가 난다 (2026-10-26)."""
     data = urllib.parse.urlencode(params or {}).encode() if params else None
-    req = urllib.request.Request(API.format(token=token, method=method), data=data,
-                                 headers={"User-Agent": "icn-air-deals/0.1 (+https://github.com/theddack/icn-air-deals)"})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return json.load(r)
+    for i in range(tries):
+        req = urllib.request.Request(API.format(token=token, method=method), data=data,
+                                     headers={"User-Agent": "icn-air-deals/0.1 (+https://github.com/theddack/icn-air-deals)"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or i == tries - 1:
+                raise
+            try:
+                wait = int(json.load(e).get("parameters", {}).get("retry_after", 5))
+            except Exception:
+                wait = 5
+        except (TimeoutError, urllib.error.URLError):
+            if i == tries - 1:
+                raise
+            wait = 5
+        time.sleep(min(wait, 60) + 1)
 
 
 def main():
@@ -29,8 +46,10 @@ def main():
     try:
         me = call(token, "getMe")
         updates = call(token, "getUpdates")
-    except Exception as e:  # 토큰이 틀리면 401/404
-        print(f"텔레그램 API 호출 실패: {type(e).__name__} {getattr(e, 'code', '')} — 토큰을 다시 확인하세요.")
+    except Exception as e:
+        code = getattr(e, "code", "")
+        hint = "토큰을 다시 확인하세요." if code in (401, 404) else "텔레그램 쪽 일시 문제일 수 있으니 잠시 뒤 다시 실행하세요."
+        print(f"텔레그램 API 호출 실패: {type(e).__name__} {code} — {hint}")
         return 1
     print(f"봇 확인: @{me['result']['username']}")
     chats = {}
