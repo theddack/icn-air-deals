@@ -251,3 +251,35 @@ class TestSafety(Base):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SendAllTest(unittest.TestCase):
+    """받는 사람 여럿: 동시에 보내고, 한 사람 실패가 다른 사람에게 번지지 않는다."""
+
+    def test_one_failure_does_not_stop_others(self):
+        got = []
+
+        def one(chat, text):
+            if chat == "bad":
+                raise RuntimeError("blocked")
+            got.append(chat)
+
+        failed = notify.send_all(["a", "bad", "c"], "안녕", one)
+        self.assertEqual(failed, [2])
+        self.assertEqual(sorted(got), ["a", "c"])
+
+    def test_all_fail_raises(self):
+        def one(chat, text):
+            raise RuntimeError("down")
+
+        with self.assertRaises(RuntimeError):
+            notify.send_all(["a", "b"], "안녕", one)
+
+    def test_sent_in_parallel(self):
+        import threading
+        barrier = threading.Barrier(2, timeout=5)
+
+        def one(chat, text):
+            barrier.wait()  # 차례로 보내면 여기서 멈춰 시간 초과가 난다
+
+        self.assertEqual(notify.send_all(["a", "b"], "안녕", one), [])

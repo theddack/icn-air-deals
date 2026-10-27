@@ -35,6 +35,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
@@ -366,6 +367,18 @@ def send(token, chat_id, text, tries=5):
         time.sleep(min(wait, 60) + 1)
 
 
+def send_all(chats, text, send_one):
+    """받는 사람 모두에게 동시에 보낸다 → 실패한 순번(1부터) 목록. 한 사람이라도 받았으면 보낸 것으로 친다
+    (다시 보내면 받은 사람이 같은 알림을 또 받는다). 모두 실패하면 첫 오류를 낸다."""
+    with ThreadPoolExecutor(max_workers=min(len(chats), 8) or 1) as pool:
+        futures = [pool.submit(send_one, c, text) for c in chats]
+    errors = [f.exception() for f in futures]
+    failed = [i + 1 for i, e in enumerate(errors) if e]
+    if chats and len(failed) == len(chats):
+        raise errors[0]
+    return failed
+
+
 def migrate(state, deals):
     """예전 기록 {'started', 'sent': {id: 날짜, 'id:closing': 날짜, 'id:start': 날짜}} → 새 형식."""
     if "events" in state or "sent" not in state:
@@ -486,8 +499,12 @@ def main(argv=None):
         if dry:
             print("----- 메시지 -----\n" + text + "\n[버튼: 전체 할인 행사 보기]")
             return
-        for c in chats:
-            send(token, c, text)
+        failed = send_all(chats, text, lambda c, t: send(token, c, t))
+        if failed:
+            # chat id는 찍지 않고 TELEGRAM_CHAT_ID 안의 순번만 남긴다
+            note = f"받는 사람 {', '.join(f'{n}번째' for n in failed)}에게 보내지 못했습니다 (번호가 틀렸거나 봇을 차단했을 수 있음)."
+            print(f"::warning::{note}")
+            admin(note)
 
     def admin(text):
         if dry:

@@ -88,6 +88,7 @@
 - **수집 문제**: 행사 데이터가 14시간보다 오래되면 신규 알림을 보내지 않습니다. 수집 실패·오래된 데이터 경고는 여행 알림에 넣지 않고 Actions 로그와 관리자 대화(`TELEGRAM_ADMIN_CHAT_ID`, 선택)로만 보냅니다
 - **미리 보기**: `python -m collector.notify --dry-run --now 2026-10-27T09:30` (보내지 않고 기록도 바꾸지 않음). Actions에서 `telegram`을 손으로 실행하면 기본이 dry-run입니다
 - 비밀값: `TELEGRAM_BOT_TOKEN`(봇 토큰), `TELEGRAM_CHAT_ID`(받는 사람 chat id, 여럿이면 쉼표로). 없으면 알림을 건너뜁니다
+- 받는 사람이 여럿이면 동시에 보냅니다. 한 사람에게 실패해도(번호 오류·봇 차단) 다른 사람은 그대로 받고, 실패한 사람은 TELEGRAM_CHAT_ID 안의 순번만 로그에 경고로 남깁니다. 모두 실패했을 때만 다음 실행에서 다시 보냅니다
 - 받는 사람 추가: 그 사람이 봇(https://t.me/icn_air_deals_bot)에서 시작을 누르고 아무 글이나 보냄 → Actions에서 `telegram-whoami`를 손으로 실행하면 봇이 그 사람에게 chat id를 답장 → `TELEGRAM_CHAT_ID`를 `기존id,새id`로 다시 저장. 봇은 최근 24시간 안에 받은 메시지만 볼 수 있습니다
 
 기사는 `data/articles.json`에 45일간 보관하고, 매 실행마다 저장된 기사 전체를 다시 추출·묶기 때문에 규칙을 고치면 지난 기사에도 반영됩니다.
