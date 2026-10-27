@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T22:16:34+09:00",
+ "generated_at": "2026-10-28T00:20:42+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,11 +10,11 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2065,
+  "rss_items": 2189,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2037,
+  "outlet_items": 1928,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 2,
@@ -22,7 +22,7 @@
   "articles_with_summary": 18,
   "articles": 490,
   "new_articles": 0,
-  "deals": 65
+  "deals": 63
  },
  "deals": [
   {
@@ -1364,215 +1364,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "jejuair-2b0d1ccd34",
-   "airline_id": "jejuair",
-   "airline": "제주항공",
-   "airlines_mentioned": [
-    "제주항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.jejuair.net/",
-   "iata": [
-    "7C"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "제주항공, 부산~마닐라 12월 17일 취항...최대 50% 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": "부산(PUS)",
-     "destination": "마닐라(MNL)"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "제주항공, 부산~마닐라 12월 17일 취항...최대 50% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zdjUwRE5LYWM4SmtYUDhfNkVzUjRVX2EwcWxrYllWVThYSk96X2RHZEVZdEpYeEJ3WHc4T3AyaGdiWHhieUUwOGduc3B6eXd3aGV1a3lXN0s0ckVOc3FPNTBaMjljQQ?oc=5"
-    },
-    "route": {
-     "title": "제주항공, 부산~마닐라 12월 17일 취항...최대 50% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zdjUwRE5LYWM4SmtYUDhfNkVzUjRVX2EwcWxrYllWVThYSk96X2RHZEVZdEpYeEJ3WHc4T3AyaGdiWHhieUUwOGduc3B6eXd3aGV1a3lXN0s0ckVOc3FPNTBaMjljQQ?oc=5"
-    }
-   },
-   "from_icn": "no",
-   "discount": "최대 50%",
-   "verification": "news",
-   "first_published": "2026-10-13",
-   "last_published": "2026-10-13",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
-   "articles": [
-    {
-     "title": "제주항공, 부산~마닐라 12월 17일 취항...최대 50% 할인",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zdjUwRE5LYWM4SmtYUDhfNkVzUjRVX2EwcWxrYllWVThYSk96X2RHZEVZdEpYeEJ3WHc4T3AyaGdiWHhieUUwOGduc3B6eXd3aGV1a3lXN0s0ckVOc3FPNTBaMjljQQ?oc=5",
-     "published": "2026-10-13"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-myrealtrip-42e7c57ad1",
-   "airline_id": "h-myrealtrip",
-   "airline": "마이리얼트립",
-   "airlines_mentioned": [
-    "마이리얼트립"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://www.myrealtrip.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "K-푸드 페스타",
-   "headline": "'K-푸드 페스타' 열풍 탄다…마이리얼트립, 구미 미식 여행 연결",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-13",
-   "last_published": "2026-10-13",
-   "first_seen": "2026-10-25T16:25:30+09:00",
-   "last_seen": "2026-10-25T16:25:30+09:00",
-   "articles": [
-    {
-     "title": "'K-푸드 페스타' 열풍 탄다…마이리얼트립, 구미 미식 여행 연결",
-     "outlet": "뉴스1",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxbE1EUXY4eTZjWWhwanBEeFVJeVZIMTU0SkljOGltTnZtSnl6SmtxVnRCcjRxS3dFNFlHNjRkazdMTEd3WS1aWkFsWEhQcXJJVWRIN2lKajRuV0haT19EcA?oc=5",
-     "published": "2026-10-13"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-57b6f9e118",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "EaseMyTrip launches Travel Utsav 2026 sale with up to 50% hotel discounts",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "EaseMyTrip launches Travel Utsav 2026 sale with up to 50% hotel discounts",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ0VLMzNzdGF4bmVac2JxUFJyOHhLcDh5WmlVNXZ2eVg2V3NQendXRndyLS1hX1JBUlJTRnVDUzlIRnBiV1d4akYydTB3bFNnTXR5Z1B2TThGMk9LelBtT1NmRi1Dd1NuaW9aeVNqN3puVi1FZ2dzaUdmc2Q5a19vVThla1dWOE5LZC1WTHpJYXFPVHBKQjNMZE9rc2VpY3pBcXBwYTl5cElUQnFISFZCcXVQcXREMkRjQUVtNV93?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 50%",
-   "verification": "news",
-   "first_published": "2026-10-13",
-   "last_published": "2026-10-13",
-   "first_seen": "2026-10-21T14:24:10+09:00",
-   "last_seen": "2026-10-21T14:24:10+09:00",
-   "articles": [
-    {
-     "title": "EaseMyTrip launches Travel Utsav 2026 sale with up to 50% hotel discounts",
-     "outlet": "scanx.trade",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ0VLMzNzdGF4bmVac2JxUFJyOHhLcDh5WmlVNXZ2eVg2V3NQendXRndyLS1hX1JBUlJTRnVDUzlIRnBiV1d4akYydTB3bFNnTXR5Z1B2TThGMk9LelBtT1NmRi1Dd1NuaW9aeVNqN3puVi1FZ2dzaUdmc2Q5a19vVThla1dWOE5LZC1WTHpJYXFPVHBKQjNMZE9rc2VpY3pBcXBwYTl5cElUQnFISFZCcXVQcXREMkRjQUVtNV93?oc=5",
-     "published": "2026-10-13"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-3abb0048fd",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Sri Lanka Lake Villa Offers All 11 Rooms for USD 700 a Night in a 40-Day Flash Sale",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-13",
-   "last_published": "2026-10-13",
-   "first_seen": "2026-10-26T23:16:28+09:00",
-   "last_seen": "2026-10-26T23:16:28+09:00",
-   "articles": [
-    {
-     "title": "Sri Lanka Lake Villa Offers All 11 Rooms for USD 700 a Night in a 40-Day Flash Sale",
-     "outlet": "openPR.com",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMWdlemZadXJJNDZaWXlWckk1ZE52MGxGeloyMWJSckVGajhmSG9EblhZT0JscjJ0SEJuQmZXWUp6dXB4c0NzZGpyQnFZWUdhbk9fUEUwdEduQ21aY0RWQmZlZWppcTY5M3Bocjk0ZS1jbXdYUFc4TlNYSlZNNEpDTzRHV1ZycEFDOEg3RF9fdFFFUkNnX2ZpcmliTkRLUmhH?oc=5",
-     "published": "2026-10-13"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "h-yeogi-28510b370c",
@@ -4324,6 +4115,168 @@
    "status": "stale"
   },
   {
+   "id": "jejuair-2b0d1ccd34",
+   "airline_id": "jejuair",
+   "airline": "제주항공",
+   "airlines_mentioned": [
+    "제주항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.jejuair.net/",
+   "iata": [
+    "7C"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "제주항공, 부산~마닐라 12월 17일 취항...최대 50% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "부산(PUS)",
+     "destination": "마닐라(MNL)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "제주항공, 부산~마닐라 12월 17일 취항...최대 50% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zdjUwRE5LYWM4SmtYUDhfNkVzUjRVX2EwcWxrYllWVThYSk96X2RHZEVZdEpYeEJ3WHc4T3AyaGdiWHhieUUwOGduc3B6eXd3aGV1a3lXN0s0ckVOc3FPNTBaMjljQQ?oc=5"
+    },
+    "route": {
+     "title": "제주항공, 부산~마닐라 12월 17일 취항...최대 50% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zdjUwRE5LYWM4SmtYUDhfNkVzUjRVX2EwcWxrYllWVThYSk96X2RHZEVZdEpYeEJ3WHc4T3AyaGdiWHhieUUwOGduc3B6eXd3aGV1a3lXN0s0ckVOc3FPNTBaMjljQQ?oc=5"
+    }
+   },
+   "from_icn": "no",
+   "discount": "최대 50%",
+   "verification": "news",
+   "first_published": "2026-10-13",
+   "last_published": "2026-10-13",
+   "first_seen": "2026-10-15T10:12:09+09:00",
+   "last_seen": "2026-10-15T10:12:09+09:00",
+   "articles": [
+    {
+     "title": "제주항공, 부산~마닐라 12월 17일 취항...최대 50% 할인",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zdjUwRE5LYWM4SmtYUDhfNkVzUjRVX2EwcWxrYllWVThYSk96X2RHZEVZdEpYeEJ3WHc4T3AyaGdiWHhieUUwOGduc3B6eXd3aGV1a3lXN0s0ckVOc3FPNTBaMjljQQ?oc=5",
+     "published": "2026-10-13"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-myrealtrip-42e7c57ad1",
+   "airline_id": "h-myrealtrip",
+   "airline": "마이리얼트립",
+   "airlines_mentioned": [
+    "마이리얼트립"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.myrealtrip.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "K-푸드 페스타",
+   "headline": "'K-푸드 페스타' 열풍 탄다…마이리얼트립, 구미 미식 여행 연결",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-13",
+   "last_published": "2026-10-13",
+   "first_seen": "2026-10-25T16:25:30+09:00",
+   "last_seen": "2026-10-25T16:25:30+09:00",
+   "articles": [
+    {
+     "title": "'K-푸드 페스타' 열풍 탄다…마이리얼트립, 구미 미식 여행 연결",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxbE1EUXY4eTZjWWhwanBEeFVJeVZIMTU0SkljOGltTnZtSnl6SmtxVnRCcjRxS3dFNFlHNjRkazdMTEd3WS1aWkFsWEhQcXJJVWRIN2lKajRuV0haT19EcA?oc=5",
+     "published": "2026-10-13"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-other-57b6f9e118",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "EaseMyTrip launches Travel Utsav 2026 sale with up to 50% hotel discounts",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "EaseMyTrip launches Travel Utsav 2026 sale with up to 50% hotel discounts",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ0VLMzNzdGF4bmVac2JxUFJyOHhLcDh5WmlVNXZ2eVg2V3NQendXRndyLS1hX1JBUlJTRnVDUzlIRnBiV1d4akYydTB3bFNnTXR5Z1B2TThGMk9LelBtT1NmRi1Dd1NuaW9aeVNqN3puVi1FZ2dzaUdmc2Q5a19vVThla1dWOE5LZC1WTHpJYXFPVHBKQjNMZE9rc2VpY3pBcXBwYTl5cElUQnFISFZCcXVQcXREMkRjQUVtNV93?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 50%",
+   "verification": "news",
+   "first_published": "2026-10-13",
+   "last_published": "2026-10-13",
+   "first_seen": "2026-10-21T14:24:10+09:00",
+   "last_seen": "2026-10-21T14:24:10+09:00",
+   "articles": [
+    {
+     "title": "EaseMyTrip launches Travel Utsav 2026 sale with up to 50% hotel discounts",
+     "outlet": "scanx.trade",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ0VLMzNzdGF4bmVac2JxUFJyOHhLcDh5WmlVNXZ2eVg2V3NQendXRndyLS1hX1JBUlJTRnVDUzlIRnBiV1d4akYydTB3bFNnTXR5Z1B2TThGMk9LelBtT1NmRi1Dd1NuaW9aeVNqN3puVi1FZ2dzaUdmc2Q5a19vVThla1dWOE5LZC1WTHpJYXFPVHBKQjNMZE9rc2VpY3pBcXBwYTl5cElUQnFISFZCcXVQcXREMkRjQUVtNV93?oc=5",
+     "published": "2026-10-13"
+    }
+   ],
+   "status": "stale"
+  },
+  {
    "id": "h-paradise-5b561f60db",
    "airline_id": "h-paradise",
    "airline": "파라다이스",
@@ -4418,163 +4371,6 @@
      "outlet": "서울경제",
      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FdG5ZX2V5V2VGNVpKWkV6b2VqcVR1VWVMVWV5VUtwVHdHbl9HZ1ctamlWMi1MOENsaGppaXZNYkRMYTZNa2s1RGxrTEIwanF5aFc00gFTQVVfeXFMTkV0bllfZXlXZUY1WkpaRXpvZWpxVHVVZUxVZXlVS3BUd0duX0dnVy1qaVYyLUw4Q2xoamlpdk1iRExhNk1razVEbGtMQjBqcXloVzQ?oc=5",
      "published": "2026-10-12"
-    }
-   ],
-   "status": "ended"
-  },
-  {
-   "id": "airbusan-9a5e168a4c",
-   "airline_id": "airbusan",
-   "airline": "에어부산",
-   "airlines_mentioned": [
-    "에어부산"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airbusan.com/",
-   "iata": [
-    "BX"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어부산, ‘나의 여행보고서’ 국제선 특가 프로모션",
-   "sale_start": "2026-10-14",
-   "sale_end": "2026-10-20",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": "인천(ICN)",
-     "destination": null
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "에어부산, 연말 국제선 특가 프로모션…14일부터 20일까지",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mcUhvLXN4cU5wTTBtMTBpZFgzd1dqSW5JWUhUdUlyWThmSEs2RFc0N05TcTVVeTJRdUlDZXY2ZGxDbXNDekphUW1SV2FLVU5ZRjJRa19kYVROVzk1T1N4YlRHVQ?oc=5"
-    },
-    "discount": {
-     "title": "에어부산, 연말 국제선 특가 프로모션… 편도 7만5900원부터",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQczhHT2YzalFDUXF3cmZFY1I0TDMxOUwyUHFxb3dqYXpqRUhMcHRjb3dXQ2NRY1gwNUx6RXFod21LQ1N2M3k0NTV3LWNORXc4cWdVWjJrbm5laVViWHBzVXh3OUJjR1RXWnNtbGV5eC1qeWYwMHhIc19jNERfZDIxWmd2SURKVGJGNlNqQXJ3?oc=5"
-    },
-    "route": {
-     "title": "에어부산, 일본·중국·동남아 국제선 특가행사…부산과 인천출발 대상",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ZclQxY2xBN2hnVERZak9DNzg1Y21iMEJFVGk5bDR0Slh0U3Myb1FtS194ZzJMZnduOHM3bWtteS1SS3VadDViQzZETUI1d0t1QktWYUYxd1Jfd3Q0ekZGUzlkNHZOb1FBUVUxdk1rSzJ1bkNjS2ZzNw?oc=5"
-    }
-   },
-   "from_icn": "yes",
-   "discount": "7만5900원부터",
-   "verification": "news",
-   "first_published": "2026-10-11",
-   "last_published": "2026-10-14",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
-   "articles": [
-    {
-     "title": "에어부산, ‘나의 여행보고서’ 국제선 특가 프로모션",
-     "outlet": "울산매일 - 울산최초, 최고의 조간신문",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xMXdsbm1fWnlJSTZncGFSRnJ0alh2cG9rbjdBdXM2LWFuOTdxYjd3TVRFWWc1aTcxMlFIaVlXVTJlVEp6YWkwaHlQckU5YVc3bW1pZVRwbnlTZWtFMjNOQk1jeTEtdWFjaWVZUTRn0gFuQVVfeXFMT3Exd2xubV9aeUlJNmdwYVJGcnRqWHZwb2tuN0F1czYtYW45N3FiN3dNVEVZZzVpNzEyUUhpWVdVMmVUSnphaTBoeVByRTlhVzdtbWllVHBueVNla0UyM05CTWN5MS11YWNpZVlRNGc?oc=5",
-     "published": "2026-10-14"
-    },
-    {
-     "title": "에어부산, 연말 국제선 특가 프로모션… 편도 7만5900원부터",
-     "outlet": "국제신문",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQczhHT2YzalFDUXF3cmZFY1I0TDMxOUwyUHFxb3dqYXpqRUhMcHRjb3dXQ2NRY1gwNUx6RXFod21LQ1N2M3k0NTV3LWNORXc4cWdVWjJrbm5laVViWHBzVXh3OUJjR1RXWnNtbGV5eC1qeWYwMHhIc19jNERfZDIxWmd2SURKVGJGNlNqQXJ3?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "에어부산, 국제선 특가…日노선 7만5900원부터 판매",
-     "outlet": "뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5PMFZRbzdhUXYtOE9Ja0hEVHM2cFJKa2xiTjVzbW5UOWhNdWRFNG93ajdpZ2pnLVIzcVAwQkxjanFCWUoybk1CNGc0TFB2X01rVVZyUUdON3oxellucE0zYVd6WDFlQWFVblZoWThxOE5DY251b2hHbNIBeEFVX3lxTE5PMFZRbzdhUXYtOE9Ja0hEVHM2cFJKa2xiTjVzbW5UOWhNdWRFNG93ajdpZ2pnLVIzcVAwQkxjanFCWUoybk1CNGc0TFB2X01rVVZyUUdON3oxellucE0zYVd6WDFlQWFVblZoWThxOE5DY251b2hHbA?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "에어부산, 일본·중국·동남아 국제선 특가행사…부산과 인천출발 대상",
-     "outlet": "부산일보",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ZclQxY2xBN2hnVERZak9DNzg1Y21iMEJFVGk5bDR0Slh0U3Myb1FtS194ZzJMZnduOHM3bWtteS1SS3VadDViQzZETUI1d0t1QktWYUYxd1Jfd3Q0ekZGUzlkNHZOb1FBUVUxdk1rSzJ1bkNjS2ZzNw?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "에어부산, 국제선 특가 프로모션…편도 총액 7만 5900원부터",
-     "outlet": "국제뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5faDJaUXljV2xZOXFDci1YV2dFX01sOWMyZm5adk1rVV9TS21VeDV5aXB6RmRxOFlUbXRBbE5vWUFzZVgwV0Y2VW8yRmhoNTJQMHBLbHNVRi11S094M0k4b1lNS3F3V2wzdDBuV2VR?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "에어부산 연말 시즌 국제선 특가 프로모션 진행 - 머니투데이",
-     "outlet": "머니투데이",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBhTGJ0TWFQQjJWYUEycEJGQjVaX3RrX2c0WTNBMEdmMTJkSElYSDRoX1pXNXkxSTBvMHo1LXJ1bzNnNDdCY1hkSkhDLXdUWDdVVVBEZ2I5R2I0aE96Wl9IYlVDeURtbDhybjlESmR0b9IBb0FVX3lxTFBhTGJ0TWFQQjJWYUEycEJGQjVaX3RrX2c0WTNBMEdmMTJkSElYSDRoX1pXNXkxSTBvMHo1LXJ1bzNnNDdCY1hkSkhDLXdUWDdVVVBEZ2I5R2I0aE96Wl9IYlVDeURtbDhybjlESmR0bw?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "에어부산, 국제선 특가 프로모션 진행… 일정·가격은?",
-     "outlet": "금강일보",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sanJmMHROZzRjVTRxTnBHT2JCeW5mZ2VtSnROUlpUcEdNd1VSb3RNY1JvRk02QlhqVmZwdFhOOXdJNF9ILTJ4bHh5aUFkQ1U3X3p5MGRESF9VWkRjOWVOUnctbFJjTEJrSmc?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "에어부산 '나의 여행보고서' 특가 프로모션",
-     "outlet": "BBS불교방송",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FckY5U042cEpNdGU4UFh0LXlrMG04NHZNaTktcU5RaWMteTB1azNKX1FRSnozdVRHTlBQSV90RnJibmF4eUNzMVFoYlFQbnpIaUhTb0FoMWIyZ2E4WlFheVlMOXFjSWJlWko0?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "연말 해외여행 부담 낮춘다… 에어부산 국제선 할인 프로모션",
-     "outlet": "아시아경제",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBxaElLOG1Nc0xVdzFjNDhYazRiamNCcUhYUDZQOWVJRnRLalIxMERxaXp4Yl9VNXZ4MWYwTkR4UUM4dGxYWlNIVmVvM1dwdmFUYW9mTURtXzBFTllKZ2Z1WDJ3?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "에어부산, 연말 여행객 일본·중국·동남아 노선 특가 행사",
-     "outlet": "연합뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ubjVaSHBmOGVvdHhMRDJrNUh6ZXNYT2dmVFE3b21HaDZib0NfLUxmSHhPYVd1T3ZtdjBVMUpnZTdfODItSEVScDVPQUZOSkpFc0RRUGFETVFEdklrSURJY9IBYEFVX3lxTE5ubjVaSHBmOGVvdHhMRDJrNUh6ZXNYT2dmVFE3b21HaDZib0NfLUxmSHhPYVd1T3ZtdjBVMUpnZTdfODItSEVScDVPQUZOSkpFc0RRUGFETVFEdklrSURJYw?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "에어부산, 연말 일본·중국·동남아 노선 특가 행사",
-     "outlet": "파이낸셜뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yR3c4OXJuazRuclNKaFJrWEdPV0kxREc5RG9KRGVGZWx5cTJZbXVRUnlabGVsREwtVThMa2hqMTJTQkt6eWJuZ2p3cXdEeFZOZmZjbWxWVWVvUQ?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "일본 편도 최저 7만5900원…에어부산, 연말시즌 국제선 특가 프로모션",
-     "outlet": "파이낸셜뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9UV25BaVNvS1FCZHBDczRHdTdTRjRZV19CLWVsZTZiYnhqeHpaQllucmhjeUs2c0xhR05Gb3BiVW8xNTZpQlZEdnYyWFNhclZ5QzQxSDV0b0dtUQ?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "에어부산, 연말 특가 프로모션… 국제선 항공권 7만5900원부터",
-     "outlet": "브릿지경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KZHVyNVR0UVJLekZyU2pybXR6Vi14Yk93SFp6LUN1NTlzX2pvU1F1TnVqY1ctR05ya1ZuWVBIeXUtN1hfTV9sRDY3MERQV0JvamxvX2xSd1g3dw?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "에어부산, 연말 국제선 특가…신규 노선 포함",
-     "outlet": "서울경제",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03cVdTa1Z3VGpuRDM2X3Awb3RSV2hueWNCQlVUQkx4bWowWGVqSkVaSUNwMDQ5MV8zSTlaNTJxdkw3b1p1Zk5Bb3ctWllySEwxUGfSAVNBVV95cUxPRjhrQUFoMDN5N0ZVaEppM3Bkb3c3MDNZSFF6SkEtZTBrckNLWlctMU1TRlRnQVduS1dJcmk5SGFDV0J3YUZRT3BlTFZyalQ5ZU1rQQ?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "에어부산, ‘나의 여행보고서’ 국제선 특가 프로모션 실시",
-     "outlet": "인디포커스",
-     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9OTnFmRjNCQ1ROcEs0dGxpTm1qZ05oQjI2OXhaamVESkR0Uy1vMUxVZ2NGRVRWR3ljNERNQ2YzUHlqV0E?oc=5",
-     "published": "2026-10-13"
-    },
-    {
-     "title": "에어부산, 연말 국제선 특가 프로모션…14일부터 20일까지",
-     "outlet": "쿠키뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mcUhvLXN4cU5wTTBtMTBpZFgzd1dqSW5JWUhUdUlyWThmSEs2RFc0N05TcTVVeTJRdUlDZXY2ZGxDbXNDekphUW1SV2FLVU5ZRjJRa19kYVROVzk1T1N4YlRHVQ?oc=5",
-     "published": "2026-10-11"
     }
    ],
    "status": "ended"
