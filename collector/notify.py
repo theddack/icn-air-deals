@@ -413,10 +413,11 @@ def run(deals_data, state, now, sender, admin=None):
         print("[notify] 알림 시간대(09~21시)가 아니라 보내지 않습니다.")
         return state, None
     if not items:
+        if state.get("slots", {}).get(today.isoformat(), {}).get(slot) == "sent":
+            print(f"[notify] {slot}: 이 시간대는 이미 보냈습니다. 새 항목은 다음 시간대에 보냅니다.")
+            return state, None
         print(f"[notify] {slot}: 보낼 항목이 없습니다.")
-        if state.get("slots", {}).get(today.isoformat(), {}).get(slot) != "sent":
-            state = _mark_slot(state, today, slot, "empty")
-        return state, None
+        return _mark_slot(state, today, slot, "empty"), None
     late = any(k not in SLOT_KINDS[slot] for _, _, todo, _ in items for k in todo)
     texts = build_messages(items, slot, now, late)
     # 여러 메시지로 나뉘면 메시지마다 그 안의 항목을 기록한다 (중간에 실패해도 보낸 것은 다시 보내지 않게)
