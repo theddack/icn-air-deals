@@ -1,10 +1,10 @@
 {
- "checked_at": "2026-10-27T10:47:00+09:00",
+ "checked_at": "2026-10-27T11:33:49+09:00",
  "days": 21,
- "searched": 30,
+ "searched": 31,
  "sender:제주항공": 1,
- "checked": 30,
- "transactional": 18,
+ "checked": 31,
+ "transactional": 19,
  "transactional_hit:본문:인증코드:제주항공": 1,
  "transactional:제주항공": 1,
  "sender:대한항공": 1,
@@ -52,9 +52,9 @@
  "transactional_hit:제목:인증 코드:카약": 1,
  "transactional:카약": 2,
  "transactional_hit:제목:환영합니다:카약": 1,
- "sender:트립닷컴": 2,
+ "sender:트립닷컴": 3,
  "transactional_hit:본문:가입 완료:트립닷컴": 1,
- "transactional:트립닷컴": 1,
+ "transactional:트립닷컴": 2,
  "accepted": 2,
  "accepted:트립닷컴": 1,
  "sender:하나투어": 1,
@@ -68,5 +68,6 @@
  "no_facts:LOT폴란드항공": 1,
  "accepted:카약": 1,
  "no_facts:피치항공": 1,
+ "transactional_hit:제목:인증번호:트립닷컴": 1,
  "kept": 2
 }
