@@ -1244,6 +1244,22 @@
    "kinds": {
     "new": "2026-10-27"
    }
+  },
+  "vietjet-247b5c7050": {
+   "info": {
+    "airline": "vietjet",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-01",
+    "dests": [],
+    "last": "2026-10-27",
+    "urls": [
+     "247b5c7050"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-27"
+   }
   }
  },
  "slots": {
@@ -1252,8 +1268,9 @@
   },
   "2026-10-27": {
    "morning": "sent",
-   "afternoon": "sent"
+   "afternoon": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-10-27T13:49:54+09:00"
+ "saved_at": "2026-10-27T18:02:32+09:00"
 }
