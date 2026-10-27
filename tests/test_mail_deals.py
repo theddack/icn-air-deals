@@ -62,6 +62,12 @@ class TestMailArticle(unittest.TestCase):
         self.assertIsNone(md.mail_article("트립닷컴", "이번 주 놓치면 아쉬운 혜택", body, SENT, "<t2>", "t", why))
         self.assertEqual(why["not_sale"], 1)
 
+    def test_ad_mail_greeting_not_transactional(self):
+        body = "트립닷컴에 오신 것을 환영합니다! 이번 주 해외 호텔 최대 25% 할인."
+        self.assertIsNotNone(md.mail_article("트립닷컴", "(광고) 이번 주 혜택", body, SENT, "<g1>", "t"))
+        # (광고)가 없는 가입 안내는 여전히 거래 메일
+        self.assertIsNone(md.mail_article("트립닷컴", "계정 안내", body, SENT, "<g2>", "t"))
+
     def test_stages_counted_per_sender(self):
         from unittest import mock
         rows = [{"from": "a", "message_id": "<1>", "uid": b"1", "subject": "(광고) 혜택", "date": SENT, "auth": "ok"},

@@ -98,7 +98,9 @@ def mail_article(airline, subject, body, sent, message_id, now_iso, why=None):
     text = (body or "")[:BODY_MAX]
     hit = _TRANSACTIONAL.search(subj)
     where = "제목"
-    if not hit:
+    # (광고) 메일은 홍보 메일이라 본문 첫머리는 보지 않는다. 2026-10-27: 트립닷컴 (광고) 할인 메일이 첫머리 인사
+    # '…에 오신 것을 환영합니다'로 거래 메일 판정을 받았다 (실제 가입·인증 메일은 제목에서 걸린다)
+    if not hit and not _AD.search(subject or ""):
         hit, where = _TRANSACTIONAL.search(text[:TRANSACTIONAL_HEAD]), "본문"
     if hit:
         why["transactional"] += 1
@@ -179,7 +181,7 @@ def collect(imap, now_iso):
                 out.append(a)
         why.update(one)
         for stage in one:
-            if stage != "checked":
+            if stage != "checked" and "_hit:" not in stage:
                 why[f"{stage}:{name}"] += one[stage]
     return out, why
 
