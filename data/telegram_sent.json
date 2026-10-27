@@ -1,21 +1,6 @@
 {
  "started": "2026-10-26",
  "events": {
-  "h-marriott-c2e930026f": {
-   "info": {
-    "airline": "h-marriott",
-    "name": "",
-    "sale_start": "2026-10-30",
-    "sale_end": "2026-11-15",
-    "dests": [],
-    "urls": [
-     "c2e930026f"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26"
-   }
-  },
   "h-yeogi-7055a73f00": {
    "info": {
     "airline": "h-yeogi",
@@ -1210,11 +1195,48 @@
    "kinds": {
     "new": "2026-10-26"
    }
+  },
+  "h-marriott-c2e930026f": {
+   "info": {
+    "airline": "h-marriott",
+    "name": "",
+    "sale_start": "2026-10-30",
+    "sale_end": "2026-11-15",
+    "dests": [],
+    "last": "2026-10-22",
+    "urls": [
+     "c2e930026f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26",
+    "upcoming_d3": "2026-10-27"
+   }
+  },
+  "h-other-3abb0048fd": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-13",
+    "urls": [
+     "3abb0048fd"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-27"
+   }
   }
  },
  "slots": {
   "2026-10-26": {
    "evening": "empty"
+  },
+  "2026-10-27": {
+   "morning": "sent"
   }
- }
+ },
+ "saved_at": "2026-10-27T10:09:36+09:00"
 }
