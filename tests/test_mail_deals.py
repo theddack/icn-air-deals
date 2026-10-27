@@ -47,7 +47,8 @@ class TestMailArticle(unittest.TestCase):
         md.mail_article("춘추항공", "가을 특가", BODY, SENT, "<1>", "t", why)
         md.mail_article("제주항공", "회원가입을 환영합니다", BODY, SENT, "<2>", "t", why)
         md.mail_article("제주항공", "가을 특가 오픈", "앱에서 확인하세요.", SENT, "<3>", "t", why)
-        self.assertEqual(dict(why), {"not_listed": 1, "transactional": 1, "no_facts": 1})
+        self.assertEqual({k: v for k, v in why.items() if "_hit:" not in k}, {"not_listed": 1, "transactional": 1, "no_facts": 1})
+        self.assertEqual(why["transactional_hit:제목:가입을 환영:제주항공"], 1)
 
     def test_ad_mail_with_discount_only_is_accepted(self):
         # 2026-10-27: 판매 기간·도착지 없이 할인율만 있는 (광고) 홍보 메일이 빠졌다

@@ -96,8 +96,16 @@ def mail_article(airline, subject, body, sent, message_id, now_iso, why=None):
         return None
     subj = clean_subject(subject)
     text = (body or "")[:BODY_MAX]
-    if _TRANSACTIONAL.search(subj) or _TRANSACTIONAL.search(text[:TRANSACTIONAL_HEAD]):
+    hit = _TRANSACTIONAL.search(subj)
+    where = "제목"
+    if not hit:
+        hit, where = _TRANSACTIONAL.search(text[:TRANSACTIONAL_HEAD]), "본문"
+    if hit:
         why["transactional"] += 1
+        # 어떤 표현에 걸렸는지 (규칙에 있는 낱말만, 메일 문장은 남기지 않는다). 2026-10-27: 30통 중 19통이
+        # 거래 메일로 빠져 홍보 메일까지 걸리는지 확인하려고
+        word = re.sub(r"\s+", " ", hit.group(0)).lower()
+        why[f"transactional_hit:{where}:{word}:{airline}"] += 1
         return None
     title = f"{airline} {subj}" if airline not in subj else subj
     sale_subject = extract.category_of(title) in ("flight", "hotel")
