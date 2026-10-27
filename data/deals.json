@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T10:24:41+09:00",
+ "generated_at": "2026-10-27T10:47:02+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2311,
+  "rss_items": 2120,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2062,
+  "outlet_items": 2096,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
-  "mail_articles": 1,
-  "mail_new_articles": 0,
-  "articles_with_summary": 17,
-  "articles": 487,
-  "new_articles": 0,
-  "deals": 63
+  "mail_articles": 2,
+  "mail_new_articles": 1,
+  "articles_with_summary": 18,
+  "articles": 488,
+  "new_articles": 1,
+  "deals": 64
  },
  "deals": [
   {
@@ -2696,6 +2696,58 @@
      "outlet": "싱글리스트",
      "url": "https://www.slist.kr/news/articleView.html?idxno=776014",
      "published": "2026-10-24"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-tripcom-7bb2e85132",
+   "airline_id": "h-tripcom",
+   "airline": "트립닷컴",
+   "airlines_mentioned": [
+    "트립닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://kr.trip.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "트립닷컴 - 올인원 여행 동반자",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "트립닷컴 메일 본문",
+     "url": "https://kr.trip.com/#mail-0c0c3edf72a2c799"
+    }
+   },
+   "from_icn": null,
+   "discount": "10% 할인",
+   "verification": "official",
+   "first_published": "2026-10-25",
+   "last_published": "2026-10-25",
+   "first_seen": "2026-10-27T10:47:00+09:00",
+   "last_seen": "2026-10-27T10:47:00+09:00",
+   "articles": [
+    {
+     "title": "트립닷컴 - 올인원 여행 동반자",
+     "outlet": "트립닷컴 메일",
+     "url": "https://kr.trip.com/#mail-0c0c3edf72a2c799",
+     "published": "2026-10-25"
     }
    ],
    "status": "undated"

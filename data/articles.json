@@ -3681,5 +3681,29 @@
   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1hc2E1SVp6SU5MR3I3Qk5nbm10akJDdjhCT2VCUmdMWUlNY0d5b3lmWlJlOVgyYW5xSnpoUW01clY4VVcxTVUzUTFsd3d1X0VWRHFfNG5CX3d1TVlJMmc?oc=5",
   "published": "2026-10-05",
   "first_seen": "2026-10-27T10:17:27+09:00"
+ },
+ {
+  "title": "트립닷컴 - 올인원 여행 동반자",
+  "outlet": "트립닷컴 메일",
+  "url": "https://kr.trip.com/#mail-0c0c3edf72a2c799",
+  "published": "2026-10-25",
+  "first_seen": "2026-10-27T10:47:00+09:00",
+  "source": "mail",
+  "mail_id": "0c0c3edf72a2c799",
+  "category_hint": "hotel",
+  "summary_facts": {
+   "url": "https://kr.trip.com/#mail-0c0c3edf72a2c799",
+   "outlet": "트립닷컴 메일",
+   "label": "본문",
+   "fields": {
+    "discount": "10% 할인"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
  }
 ]
