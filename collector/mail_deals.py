@@ -86,7 +86,9 @@ def mail_article(airline, subject, body, sent, message_id, now_iso, why=None):
     받는 기준 (2026-10-25 넓힘: 인증 메일 18통 중 16통이 제목만으로는 특가가 아니라 빠졌다)
     - 가입·예약·결제·인증 같은 거래 메일은 뺀다 (제목 또는 본문 앞부분).
     - 제목이 특가 메일이면(뉴스와 같은 규칙) 본문 사실값이 하나라도 있으면 받는다.
-    - 제목이 특가가 아니어도 본문에 판매 기간이 있거나, 금액과 도착지가 함께 있으면 받는다."""
+    - 제목이 특가가 아니어도 본문에 판매 기간이 있거나, 금액과 도착지가 함께 있으면 받는다.
+    - 제목에 (광고) 표시가 있는 홍보 메일은 할인율·할인 금액만 있어도 받는다 (2026-10-27: 트립닷컴 (광고) 할인 메일이
+      판매 기간·도착지가 없어 빠졌다. 정보통신망법상 광고 메일은 제목에 (광고)를 붙인다)."""
     why = why if why is not None else Counter()
     official = OFFICIAL.get(airline)
     if not official:  # airlines.py에 없는 항공사(춘추항공 등)는 행사 묶기·화면 링크를 만들 수 없어 건너뛴다
@@ -107,7 +109,8 @@ def mail_article(airline, subject, body, sent, message_id, now_iso, why=None):
     if not sale_subject:
         has_sale = bool(facts.get("sale_start") or facts.get("sale_end"))
         has_price_route = bool(facts.get("destination") and (gm._KRW.search(text) or gm._FOREIGN.search(text)))
-        if not (has_sale or has_price_route):
+        ad_discount = bool(_AD.search(subject or "") and facts.get("discount"))
+        if not (has_sale or has_price_route or ad_discount):
             why["not_sale"] += 1
             return None
     mail_id = hashlib.sha256((message_id or f"{airline}{subject}{pub}").encode("utf-8")).hexdigest()[:16]
@@ -150,19 +153,26 @@ def collect(imap, now_iso):
             why["not_airline_domain"] += 1
             continue
         why["sender:" + name] += 1  # 보낸 곳별 메일 수 (우리 목록의 이름만, 주소·제목 없음)
+        # 보낸 곳마다 어느 단계에서 빠졌는지도 센다: '단계:보낸 곳' (2026-10-27: 합계만으로는 트립닷컴 메일이
+        # 왜 빠졌는지 알 수 없었다)
+        one = Counter()
         if not gm.authenticated(r["auth"], domain):
-            why["not_authenticated"] += 1
-            continue
-        why["checked"] += 1
-        try:
-            a = mail_article(name, r["subject"], gm.message_text(imap, r["uid"]), r["date"], r["message_id"], now_iso, why)
-        except Exception as e:  # 한 통 실패로 전체를 멈추지 않는다. 오류 종류만 남긴다
-            why["read_error"] += 1
-            print(f"[mail_deals] 메일 한 통 읽기 실패: {type(e).__name__}", file=sys.stderr)
-            continue
-        if a:
-            why["accepted"] += 1
-            out.append(a)
+            one["not_authenticated"] += 1
+        else:
+            one["checked"] += 1
+            try:
+                a = mail_article(name, r["subject"], gm.message_text(imap, r["uid"]), r["date"], r["message_id"], now_iso, one)
+            except Exception as e:  # 한 통 실패로 전체를 멈추지 않는다. 오류 종류만 남긴다
+                a = None
+                one["read_error"] += 1
+                print(f"[mail_deals] 메일 한 통 읽기 실패: {type(e).__name__}", file=sys.stderr)
+            if a:
+                one["accepted"] += 1
+                out.append(a)
+        why.update(one)
+        for stage in one:
+            if stage != "checked":
+                why[f"{stage}:{name}"] += one[stage]
     return out, why
 
 

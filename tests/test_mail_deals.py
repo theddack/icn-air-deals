@@ -49,6 +49,31 @@ class TestMailArticle(unittest.TestCase):
         md.mail_article("제주항공", "가을 특가 오픈", "앱에서 확인하세요.", SENT, "<3>", "t", why)
         self.assertEqual(dict(why), {"not_listed": 1, "transactional": 1, "no_facts": 1})
 
+    def test_ad_mail_with_discount_only_is_accepted(self):
+        # 2026-10-27: 판매 기간·도착지 없이 할인율만 있는 (광고) 홍보 메일이 빠졌다
+        body = "이번 주 한정, 해외 호텔 최대 25% 할인 혜택을 확인하세요."
+        a = md.mail_article("트립닷컴", "(광고) 이번 주 놓치면 아쉬운 혜택", body, SENT, "<t1>", "t")
+        self.assertIsNotNone(a)
+        self.assertEqual(a["summary_facts"]["fields"].get("discount"), "최대 25%")
+        # (광고) 표시가 없으면 예전처럼 판매 기간이나 도착지·금액이 있어야 한다
+        from collections import Counter
+        why = Counter()
+        self.assertIsNone(md.mail_article("트립닷컴", "이번 주 놓치면 아쉬운 혜택", body, SENT, "<t2>", "t", why))
+        self.assertEqual(why["not_sale"], 1)
+
+    def test_stages_counted_per_sender(self):
+        from unittest import mock
+        rows = [{"from": "a", "message_id": "<1>", "uid": b"1", "subject": "(광고) 혜택", "date": SENT, "auth": "ok"},
+                {"from": "b", "message_id": "<2>", "uid": b"2", "subject": "회원가입을 환영합니다", "date": SENT, "auth": "ok"}]
+        senders = {"a": ("트립닷컴", "trip.com", "domain"), "b": ("제주항공", "jejuair.net", "domain")}
+        with mock.patch.object(md.gm, "recent_headers", return_value=(None, rows)), \
+             mock.patch.object(md.gm, "airline_of", side_effect=lambda f: senders[f]), \
+             mock.patch.object(md.gm, "authenticated", return_value=True), \
+             mock.patch.object(md.gm, "message_text", return_value="해외 호텔 최대 25% 할인"):
+            out, why = md.collect(None, "t")
+        self.assertEqual(len(out), 1)
+        self.assertEqual((why["accepted:트립닷컴"], why["transactional:제주항공"], why["accepted"], why["checked"]), (1, 1, 1, 2))
+
     def test_plain_subject_accepted_by_body_facts(self):
         # 제목에 특가 표현이 없어도 본문에 판매 기간, 또는 금액+도착지가 있으면 받는다 (2026-10-25)
         a = md.mail_article("제주항공", "이번 주 소식", "판매기간: 10월 20일~10월 26일. 일본 노선 안내.", SENT, "<p1>", "t")
