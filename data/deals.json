@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T00:20:42+09:00",
+ "generated_at": "2026-10-28T10:19:38+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2189,
+  "rss_items": 2236,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1928,
-  "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_items": 2197,
+  "outlet_new_articles": 1,
+  "outlet_enriched": 1,
   "mail_articles": 2,
   "mail_new_articles": 0,
-  "articles_with_summary": 18,
-  "articles": 490,
-  "new_articles": 0,
-  "deals": 63
+  "articles_with_summary": 19,
+  "articles": 501,
+  "new_articles": 11,
+  "deals": 68
  },
  "deals": [
   {
@@ -80,142 +80,6 @@
     }
    ],
    "status": "upcoming"
-  },
-  {
-   "id": "h-yeogi-7055a73f00",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "홀리데이 in 포항",
-   "headline": "여기어때, 경기 웰니스 숙박·레저 상품 최대 5만원 할인",
-   "sale_start": "2026-09-22",
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "경기",
-    "청도",
-    "포항",
-    "섬 지역"
-   ],
-   "conditions": [
-    "쿠폰",
-    "앱 예약"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "청도군, 오는 22일부터‘여기어때’서 2만원 숙박 할인쿠폰 발행",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBHZ1N2R3NBZ0VMRkQxQWEzczc5eXNCSU92OGFpaVpIUGlYZlpqOEhKSkxnY3VjOS03QllrSzRIQzl1RnBzRTA4WHF3UEpGWHhlNlJCUg?oc=5"
-    },
-    "discount": {
-     "title": "여기어때, 경기 웰니스 숙박·레저 상품 최대 5만원 할인",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2pjZGhWcWRfcGNQcEhpZkNGakRqZVd0cXZsaEJEMi1JU2c3c25IN191RHF3emhmTThOMGp3Y0ZmWi1Hal9sckk2akQzUmR1YlpBVUZGekFIN0NCV2J2QWtSaktPYmlBM0NfSFMxYWpmNEpFbGR4cTEyOGlMYTc4VzFERzNBUFNzTGNR?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 5만원 할인",
-   "verification": "news",
-   "first_published": "2026-09-16",
-   "last_published": "2026-10-19",
-   "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-25T16:25:30+09:00",
-   "articles": [
-    {
-     "title": "여기어때, 경기 웰니스 숙박·레저 상품 최대 5만원 할인",
-     "outlet": "글로벌이코노믹",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2pjZGhWcWRfcGNQcEhpZkNGakRqZVd0cXZsaEJEMi1JU2c3c25IN191RHF3emhmTThOMGp3Y0ZmWi1Hal9sckk2akQzUmR1YlpBVUZGekFIN0NCV2J2QWtSaktPYmlBM0NfSFMxYWpmNEpFbGR4cTEyOGlMYTc4VzFERzNBUFNzTGNR?oc=5",
-     "published": "2026-10-19"
-    },
-    {
-     "title": "경기관광공사, 도내 웰니스 여행 '여기어때'서 최대 5만원 할인",
-     "outlet": "비욘드포스트",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wdm5NWHlBTkpPLXBTU0NwR3R1Qi1VVy1yb0laOWc3N2FIaW1Za21WaXFzSlQ0MkJrSzc3RmM2YTRBUmYzTEJSU1p4aE1ndWZjWnpud1lhY0RpOXpOWm4zeGJubGNheGFhR2x0UW9IY2gzN0puclp2bFVGNA?oc=5",
-     "published": "2026-10-19"
-    },
-    {
-     "title": "여기어때, 경기도 웰니스 여행 할인…숙박·레저 수요 공략",
-     "outlet": "메가경제",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TZ00wMFM5cW5HR2hGbmtnbGY2eGVxbzVwcjBoekxaS05kcUEyNzl6VmpDSno0V2hZNVIyWTJCcDNKbEVQMC0wenF5bF82UGJ4ZVN5YUlYU3ZILWdnV1lFVGxrRmV0M1NuVWJva3A1RVVnVkdz0gFyQVVfeXFMTmplSTJsR1VBSTlsdGJ5S0hTa3gzajdxeVBJT1Jfa0NDMThlVGFOYmYtLWVPcnlyaGgybzI3SGhPM1A1bDdJY01SMEZtRHRRQ05fVDJNUnRFX2xCVnhGYnZTTGhJRlM0YUx5MkpFYkh3a0NB?oc=5",
-     "published": "2026-10-19"
-    },
-    {
-     "title": "여기어때, 경기도 웰니스 여행 떠나면 ‘5만원’ 할인",
-     "outlet": "일간대한뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmaTY0M3hSazhVSUFWN2Z0UmI0MXEyUEJWUE4wdFh4TW44elFGdkRrV1VqakJ0Ry1XSldSVF9lT0RLOUdMdzNmZ2VzT3JCbjB0b3lubXRYY0VRaEtobzZzUWJaWjA1VjQ?oc=5",
-     "published": "2026-10-19"
-    },
-    {
-     "title": "여기어때, 해외여행 상품 할인 확대…매주 지역별 특가 공개",
-     "outlet": "핀포인트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NTGlPNUxkdE5ZOUZvMlFUcXdDdkpMOGxfUWdIQVNuWGdyXzNmQjRTN0haZ09wZjNlRng0TFRuSHVIckxnU0dtOVkwQXVaa1JMV0JKWlJDUWw0d0ZHTURSYzdQRG1icEs3ZFlvTERlTHR1OEHSAXdBVV95cUxNS3U0NDJnN09uNTdRdHlBVm01bmJrRG41dTBVbVE1UnR4cXVheldxakdWSWl3WW1oZ3ZFbDFQVjZpMXlhUVlWamw0R0duOHRiaVZ0VDR6bzhhTnRsRk9ZcDlGeU9kR29UNGpvRzRLQ0Y5UHZWYllRZw?oc=5",
-     "published": "2026-10-15"
-    },
-    {
-     "title": "여기어때, 섬 지역 숙박세일 이벤트 오픈",
-     "outlet": "숙박매거진",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ma2J0UDFqUWtyUXpLbGF6MHNOcVVWUGZsMTNNdjZKRnlPR0dtUm02WlRzZGwtS3pueHJ2U1ZtU1NqTFhkSlJ4cEJQbHhuZHdTZjJpT1dkS1E4NWZtd0JkVzhXcnZQUW5ZclZoNDVMREdPdw?oc=5",
-     "published": "2026-09-22"
-    },
-    {
-     "title": "여기어때, 가을 섬 여행 숙박비 5만원 할인…32개 지역 대상",
-     "outlet": "스마트경제",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44Z3E2cmkwcllXcnloai04ZWE3MXpWVV9YNmF4RklKaXBvdnhzOW50N1E1TmcwS09TZnJoWmJHUUtrV2R4XzNoTzNjSWNQNTRPdExFblpWNmg1aTZQYUwxa0t0TFRJWmYwSjg0YlpFVQ?oc=5",
-     "published": "2026-09-22"
-    },
-    {
-     "title": "[스마트컨슈머] 숙박 세일 페스타 여기어때·국내 숙박상품 할인 11번가",
-     "outlet": "한국정경신문",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5Vi1CUUU1djRYOWtKWmhrVTRiV2ktc0RabHhWT0JMMnFLcDJhYTZJMUdVaUtzVVRhTjliUFRTQ1lYOEZwejFCQ3o3aGdPc1QwbUE?oc=5",
-     "published": "2026-09-22"
-    },
-    {
-     "title": "‘홀리데이 in 포항’ 여기어때·포항시,추석 맞이 펜션ㆍ풀빌라 할인전",
-     "outlet": "대학저널",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9HWXEzWVZSU1F1QUVtbG1wYlpXSDhlbkdPZ1lSNVQ3OUJINWJfengyMVRSRlV6TVFxMFZKQS10dFcyc1FLc1F4WDZEekNYVlNIOXZjdzFBTF8tZXVk0gFqQVVfeXFMUGJSdTBRZlpucVplUnFObUxhR1ZKQ2MzazF1TkE5RkVzLWMydWxJanYzd2FLbWtQblR3M2pCcld3eWlLbkduMkptMnFMcUxiajVHY1hLeXpPaVl3blFub2ljSWEtWW1OeUlnUQ?oc=5",
-     "published": "2026-09-18"
-    },
-    {
-     "title": "여기어때, 포항시와 추석 맞이 펜션·풀빌라 할인전",
-     "outlet": "Daum",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE94ZnhKUDNXX1o4N3EtTHIybU5XU3Jtb1h4VGtVVTYzZWo4T0RVdFhNcVczMU92clNEbHZmNDNROEV4V3B6S3pIWnJpaw?oc=5",
-     "published": "2026-09-18"
-    },
-    {
-     "title": "청도군, 오는 22일부터‘여기어때’서 2만원 숙박 할인쿠폰 발행",
-     "outlet": "헤럴드대구경북",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBHZ1N2R3NBZ0VMRkQxQWEzczc5eXNCSU92OGFpaVpIUGlYZlpqOEhKSkxnY3VjOS03QllrSzRIQzl1RnBzRTA4WHF3UEpGWHhlNlJCUg?oc=5",
-     "published": "2026-09-17"
-    },
-    {
-     "title": "청도군, 9월 22일부터‘여기어때’에서 2만 원 숙박 할인쿠폰 발행",
-     "outlet": "데일리대구경북뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tRmh5d3dYOUtMMTBXYjVtTExQMjZSTkpXcEJYeHdxaWFiXy02YjV0Yl9UMGlTb1p6NFVHOGVJamI5aDJkUWJOdGduY3laWEg5MTJsR0pIU3Y0d3owWXN0aWFHYVhzdw?oc=5",
-     "published": "2026-09-16"
-    },
-    {
-     "title": "\"여기어때 앱으로 청도 숙박 예약하세요\"…'2만원' 할인",
-     "outlet": "뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nQlZibDhoRGs0QzgxVjk4QUVWUFFfVHViNTJXS2RBdmdiOFZvaWtWTnlkOVdveTlhRmtWZ0VqakpqTExRQXpHaFRlYkNCS2JvZ1lWMnRzRFFRTnJqX0hjM9IBeEFVX3lxTE93LWxGUW1yN3NuSkZXOFkyTWdaSjBkakoyS0NZMlVuR3UweFNLVERCNjl3VXNRdnh1djhqVlVQOFZRY0JzV2Rrcjh1aUF4YmZUTExzUS10Y3Nld192TXhIWVh1cmQtQi1lS2R0Q3F3czZSajlJRUVtUA?oc=5",
-     "published": "2026-09-16"
-    }
-   ],
-   "status": "live"
   },
   {
    "id": "h-stayfesta-d3e7cb5ec4",
@@ -762,6 +626,148 @@
      "title": "PRIVIA 여행, ‘2026 대한민국 숙박세일 페스타’ 참여… 비수도권 숙박 연계 프로모션 진행",
      "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lbTItMGRxR1J6U2h3MXhlbFZfbGFTQ0NybENpbk5Qa29Lckh5eTNXSGFLdzlhVVBveWhSQUd3SGxOVjVkeHJYSnR5ZkloVzRuU2Q3V3diMVBIU0R2bVplZ1ZsSEgzUGh0aFU1azIzWnplUQ?oc=5",
+     "published": "2026-09-16"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-yeogi-7055a73f00",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "홀리데이 in 포항",
+   "headline": "여기어때·춘천시, 가을 숙박 할인전…최대 3만원 쿠폰",
+   "sale_start": "2026-09-22",
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "경기",
+    "청도",
+    "포항",
+    "섬 지역"
+   ],
+   "conditions": [
+    "쿠폰",
+    "앱 예약"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "청도군, 오는 22일부터‘여기어때’서 2만원 숙박 할인쿠폰 발행",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBHZ1N2R3NBZ0VMRkQxQWEzczc5eXNCSU92OGFpaVpIUGlYZlpqOEhKSkxnY3VjOS03QllrSzRIQzl1RnBzRTA4WHF3UEpGWHhlNlJCUg?oc=5"
+    },
+    "discount": {
+     "title": "여기어때, 경기 웰니스 숙박·레저 상품 최대 5만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2pjZGhWcWRfcGNQcEhpZkNGakRqZVd0cXZsaEJEMi1JU2c3c25IN191RHF3emhmTThOMGp3Y0ZmWi1Hal9sckk2akQzUmR1YlpBVUZGekFIN0NCV2J2QWtSaktPYmlBM0NfSFMxYWpmNEpFbGR4cTEyOGlMYTc4VzFERzNBUFNzTGNR?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 5만원 할인",
+   "verification": "news",
+   "first_published": "2026-09-16",
+   "last_published": "2026-10-28",
+   "first_seen": "2026-10-15T13:00:04+09:00",
+   "last_seen": "2026-10-28T10:19:38+09:00",
+   "articles": [
+    {
+     "title": "여기어때·춘천시, 가을 숙박 할인전…최대 3만원 쿠폰",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5UE5XUmE2ajczT2Z1MnNsRENCYXpaX2s5T1k5WllVUVFqNGVrMTUxM2dxNHh1THlhUHZCenR2amhlTE5VWUVCNHZMT0Q5Y1ViRnJWb05FZHVSUlN4ekVENUpONlFEeHQ5WkxrVjNMeDJ2QnPSAXdBVV95cUxQWWpLUm5wMXlERmU3TUFUTU0tLURfMGNraWN2OHNLWmo0MDRGMXdqTjJTOEQ0U0FvbzF2NFVKUHl6REJ0X1E0aG1EM3NhNUduRGh6TEpVOFdiQTMzMHVVTm1FeWNDWkQtMjhzTWlHSWFCOW9HV1gzVQ?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "여기어때, 경기 웰니스 숙박·레저 상품 최대 5만원 할인",
+     "outlet": "글로벌이코노믹",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2pjZGhWcWRfcGNQcEhpZkNGakRqZVd0cXZsaEJEMi1JU2c3c25IN191RHF3emhmTThOMGp3Y0ZmWi1Hal9sckk2akQzUmR1YlpBVUZGekFIN0NCV2J2QWtSaktPYmlBM0NfSFMxYWpmNEpFbGR4cTEyOGlMYTc4VzFERzNBUFNzTGNR?oc=5",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "경기관광공사, 도내 웰니스 여행 '여기어때'서 최대 5만원 할인",
+     "outlet": "비욘드포스트",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wdm5NWHlBTkpPLXBTU0NwR3R1Qi1VVy1yb0laOWc3N2FIaW1Za21WaXFzSlQ0MkJrSzc3RmM2YTRBUmYzTEJSU1p4aE1ndWZjWnpud1lhY0RpOXpOWm4zeGJubGNheGFhR2x0UW9IY2gzN0puclp2bFVGNA?oc=5",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "여기어때, 경기도 웰니스 여행 할인…숙박·레저 수요 공략",
+     "outlet": "메가경제",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TZ00wMFM5cW5HR2hGbmtnbGY2eGVxbzVwcjBoekxaS05kcUEyNzl6VmpDSno0V2hZNVIyWTJCcDNKbEVQMC0wenF5bF82UGJ4ZVN5YUlYU3ZILWdnV1lFVGxrRmV0M1NuVWJva3A1RVVnVkdz0gFyQVVfeXFMTmplSTJsR1VBSTlsdGJ5S0hTa3gzajdxeVBJT1Jfa0NDMThlVGFOYmYtLWVPcnlyaGgybzI3SGhPM1A1bDdJY01SMEZtRHRRQ05fVDJNUnRFX2xCVnhGYnZTTGhJRlM0YUx5MkpFYkh3a0NB?oc=5",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "여기어때, 경기도 웰니스 여행 떠나면 ‘5만원’ 할인",
+     "outlet": "일간대한뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmaTY0M3hSazhVSUFWN2Z0UmI0MXEyUEJWUE4wdFh4TW44elFGdkRrV1VqakJ0Ry1XSldSVF9lT0RLOUdMdzNmZ2VzT3JCbjB0b3lubXRYY0VRaEtobzZzUWJaWjA1VjQ?oc=5",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "여기어때, 해외여행 상품 할인 확대…매주 지역별 특가 공개",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NTGlPNUxkdE5ZOUZvMlFUcXdDdkpMOGxfUWdIQVNuWGdyXzNmQjRTN0haZ09wZjNlRng0TFRuSHVIckxnU0dtOVkwQXVaa1JMV0JKWlJDUWw0d0ZHTURSYzdQRG1icEs3ZFlvTERlTHR1OEHSAXdBVV95cUxNS3U0NDJnN09uNTdRdHlBVm01bmJrRG41dTBVbVE1UnR4cXVheldxakdWSWl3WW1oZ3ZFbDFQVjZpMXlhUVlWamw0R0duOHRiaVZ0VDR6bzhhTnRsRk9ZcDlGeU9kR29UNGpvRzRLQ0Y5UHZWYllRZw?oc=5",
+     "published": "2026-10-15"
+    },
+    {
+     "title": "여기어때, 섬 지역 숙박세일 이벤트 오픈",
+     "outlet": "숙박매거진",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ma2J0UDFqUWtyUXpLbGF6MHNOcVVWUGZsMTNNdjZKRnlPR0dtUm02WlRzZGwtS3pueHJ2U1ZtU1NqTFhkSlJ4cEJQbHhuZHdTZjJpT1dkS1E4NWZtd0JkVzhXcnZQUW5ZclZoNDVMREdPdw?oc=5",
+     "published": "2026-09-22"
+    },
+    {
+     "title": "여기어때, 가을 섬 여행 숙박비 5만원 할인…32개 지역 대상",
+     "outlet": "스마트경제",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44Z3E2cmkwcllXcnloai04ZWE3MXpWVV9YNmF4RklKaXBvdnhzOW50N1E1TmcwS09TZnJoWmJHUUtrV2R4XzNoTzNjSWNQNTRPdExFblpWNmg1aTZQYUwxa0t0TFRJWmYwSjg0YlpFVQ?oc=5",
+     "published": "2026-09-22"
+    },
+    {
+     "title": "[스마트컨슈머] 숙박 세일 페스타 여기어때·국내 숙박상품 할인 11번가",
+     "outlet": "한국정경신문",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5Vi1CUUU1djRYOWtKWmhrVTRiV2ktc0RabHhWT0JMMnFLcDJhYTZJMUdVaUtzVVRhTjliUFRTQ1lYOEZwejFCQ3o3aGdPc1QwbUE?oc=5",
+     "published": "2026-09-22"
+    },
+    {
+     "title": "‘홀리데이 in 포항’ 여기어때·포항시,추석 맞이 펜션ㆍ풀빌라 할인전",
+     "outlet": "대학저널",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9HWXEzWVZSU1F1QUVtbG1wYlpXSDhlbkdPZ1lSNVQ3OUJINWJfengyMVRSRlV6TVFxMFZKQS10dFcyc1FLc1F4WDZEekNYVlNIOXZjdzFBTF8tZXVk0gFqQVVfeXFMUGJSdTBRZlpucVplUnFObUxhR1ZKQ2MzazF1TkE5RkVzLWMydWxJanYzd2FLbWtQblR3M2pCcld3eWlLbkduMkptMnFMcUxiajVHY1hLeXpPaVl3blFub2ljSWEtWW1OeUlnUQ?oc=5",
+     "published": "2026-09-18"
+    },
+    {
+     "title": "여기어때, 포항시와 추석 맞이 펜션·풀빌라 할인전",
+     "outlet": "Daum",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE94ZnhKUDNXX1o4N3EtTHIybU5XU3Jtb1h4VGtVVTYzZWo4T0RVdFhNcVczMU92clNEbHZmNDNROEV4V3B6S3pIWnJpaw?oc=5",
+     "published": "2026-09-18"
+    },
+    {
+     "title": "청도군, 오는 22일부터‘여기어때’서 2만원 숙박 할인쿠폰 발행",
+     "outlet": "헤럴드대구경북",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBHZ1N2R3NBZ0VMRkQxQWEzczc5eXNCSU92OGFpaVpIUGlYZlpqOEhKSkxnY3VjOS03QllrSzRIQzl1RnBzRTA4WHF3UEpGWHhlNlJCUg?oc=5",
+     "published": "2026-09-17"
+    },
+    {
+     "title": "청도군, 9월 22일부터‘여기어때’에서 2만 원 숙박 할인쿠폰 발행",
+     "outlet": "데일리대구경북뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tRmh5d3dYOUtMMTBXYjVtTExQMjZSTkpXcEJYeHdxaWFiXy02YjV0Yl9UMGlTb1p6NFVHOGVJamI5aDJkUWJOdGduY3laWEg5MTJsR0pIU3Y0d3owWXN0aWFHYVhzdw?oc=5",
+     "published": "2026-09-16"
+    },
+    {
+     "title": "\"여기어때 앱으로 청도 숙박 예약하세요\"…'2만원' 할인",
+     "outlet": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nQlZibDhoRGs0QzgxVjk4QUVWUFFfVHViNTJXS2RBdmdiOFZvaWtWTnlkOVdveTlhRmtWZ0VqakpqTExRQXpHaFRlYkNCS2JvZ1lWMnRzRFFRTnJqX0hjM9IBeEFVX3lxTE93LWxGUW1yN3NuSkZXOFkyTWdaSjBkakoyS0NZMlVuR3UweFNLVERCNjl3VXNRdnh1djhqVlVQOFZRY0JzV2Rrcjh1aUF4YmZUTExzUS10Y3Nld192TXhIWVh1cmQtQi1lS2R0Q3F3czZSajlJRUVtUA?oc=5",
      "published": "2026-09-16"
     }
    ],
@@ -2839,6 +2845,276 @@
      "outlet": "https://www.newsphere.kr/",
      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91TURqdkhmS3RLNEFBbFR2VV8yTzZhd0g0Y2puYmlLQnBYeFlSV0lUdjNNT1ZlajFZREdMUnJmenEzYkhzQ1VIb1dMeE4zXzRhNXJPWkpxODhpZFBMekdtYVdKdndTOTh2?oc=5",
      "published": "2026-10-26"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-paradise-aff283a0a8",
+   "airline_id": "h-paradise",
+   "airline": "파라다이스",
+   "airlines_mentioned": [
+    "파라다이스"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "객실 할인부터 무료 숙박권까지",
+   "headline": "파라다이스 호텔 부산, 창립 45주년 맞아 숙박 할인부터 특별 경품까지 ‘혜택 풍성’",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "부산"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-28",
+   "last_published": "2026-10-28",
+   "first_seen": "2026-10-28T10:19:38+09:00",
+   "last_seen": "2026-10-28T10:19:38+09:00",
+   "articles": [
+    {
+     "title": "파라다이스 호텔 부산, 창립 45주년 맞아 숙박 할인부터 특별 경품까지 ‘혜택 풍성’",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zRmU3UVVRX3pMSTluZzBid0dRcDI2Z3poZVhqaWVqUmt3Q3Z5SUNkeDZrNmowNUZtRnZoVGZDR29vazFvbml2a1E4U0FDVE5WTzBsN2VhdXNOdkdlelZiWGh2RXlzLWQzemo1Ng?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "파라다이스 호텔 부산, 창립 45주년…객실 할인·한정판 기념품 - 머니투데이",
+     "outlet": "머니투데이",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45dDNfblhidWpxQktMZElJOXliZlFJNzFLRDlfQzY1R2tlMzVoRkVqTmxTTXR3dXd2ZVBvOHk1akhqV1dZSjUtcC1CUWdPY2dJZGZfbWNDblN6dEtHRTJoOUFoWjJ4S2g2UHIw0gFwQVVfeXFMTUJtM2xndVQxM0s0VVQ4NXJWdHZzeXdNNkRuWllBd0JfX1RFRkZoMjM5TDJ6dktWa2plOFprUnN0QnFyQ1hXTHl4VkhsQmJ6bHpmT0dYUkdVSTRwSTlRaXRNUXczeXRxcHZ1SkI5ZzBDSg?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "파라다이스 호텔 부산, 45주년 프로모션...객실 할인·럭키드로우",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14YmV5Ul9PeVMtdTFidXZSM1JKRnRjMTJrMUxrQU1LMFh2RU01cm1haTdaYmVfaXk0UGlHakJfOFMzbEFMNENvbXl1MUxfMG5HNU5BYXBmSC0wenlzZkE4dWY4RkJLdw?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "\"객실 할인부터 무료 숙박권까지\"…파라다이스 부산, 45주년 기념",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rSFlDUEZYeWNhcDZpN0xBVlhZTUk1QmNFQ1BEWE9QMVJmMl9pN1UtTlhNdl9Tb2hocmdpbjZPQTBqd3pqaGp3azl1aXNJZjFiRG9ocXhMcUF4eHdVM1JaNg?oc=5",
+     "published": "2026-10-28"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-paradise-7cb70947cd",
+   "airline_id": "h-paradise",
+   "airline": "파라다이스",
+   "airlines_mentioned": [
+    "파라다이스"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "객실 할인에 숙박권까지",
+   "headline": "“객실 할인에 숙박권까지”…파라다이스 부산, 45주년 혜택 쏜다",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "부산"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-28",
+   "last_published": "2026-10-28",
+   "first_seen": "2026-10-28T10:19:38+09:00",
+   "last_seen": "2026-10-28T10:19:38+09:00",
+   "articles": [
+    {
+     "title": "“객실 할인에 숙박권까지”…파라다이스 부산, 45주년 혜택 쏜다",
+     "outlet": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOSHlNVGJKS2FEOWRlaTlHRV9tMGpxeGZpY2oxcUVqUE14YzZway1HLXVNSVJ0WXRIcU9pWVhzY1VBUmNoajdhTEdlcENuUTBYMXBIU3I2cmdTaGZFcW9ocGhRbkIyYUhiMHgwWnpEUDNVc1VmQXJXWkt5RE1SNlhubjBnWHZ3SG1HRGZ5YnN2Rm1zOGtNc3lFZ2gzRWlSOHFVZGpCTGF1eFNtaFZVUFg5OEpNQjZWMzdKTDhJWVR4S2NpcmZRN3Q5aE1iSjBHOUR0UVRLc3FfZ05sdGh0UVlrSFZUZWZJY1ZvQUJFb05VMXUxeHhDNktRQ18zUW5lU0hqMm1Db21XMlgwQndlWUdRdHN3TTAyd1hxRjB4LWl6UVFXallpNDhQb3lWTlFPQQ?oc=5",
+     "published": "2026-10-28"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-yeogi-39aeffb860",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "여기어때, 춘천 숙소 최대 3만원 할인…가을 여행객 지원",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "여기어때, 춘천 숙소 최대 3만원 할인…가을 여행객 지원",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5TDA0bEl5bWM2WjVuV3Q2b0ZlS1ltTkRTU2tfcVhZU2FkLWxkZ0Z3N2ZOSnZkVC02REQ2RU5vcFBQVFVIQ3k3V3p1WFBSOFRTOExPMnFGZndPMUx5Y1FLNHR3ZFdCSGxyZWtDTFlibjl0UQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 3만원 할인",
+   "verification": "news",
+   "first_published": "2026-10-28",
+   "last_published": "2026-10-28",
+   "first_seen": "2026-10-28T10:19:38+09:00",
+   "last_seen": "2026-10-28T10:19:38+09:00",
+   "articles": [
+    {
+     "title": "여기어때, 춘천 숙소 최대 3만원 할인…가을 여행객 지원",
+     "outlet": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5TDA0bEl5bWM2WjVuV3Q2b0ZlS1ltTkRTU2tfcVhZU2FkLWxkZ0Z3N2ZOSnZkVC02REQ2RU5vcFBQVFVIQ3k3V3p1WFBSOFRTOExPMnFGZndPMUx5Y1FLNHR3ZFdCSGxyZWtDTFlibjl0UQ?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "여기어때 춘천 숙소 최대 3만원 할인 늦가을 여행 지원",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52WUtDTjlOS3RFMUFKWFlpUE1qOUZnMWZWZXpsYldBMUJZeWVFNDFWc0lfQlZYM0hDeTZKVm1QQjdrdkxaTkNyajJxRmVTSFBkSmM5elRpME9IMk1MUHRxaExIMl9pTHl4OTBMUA?oc=5",
+     "published": "2026-10-28"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-hanatour-4986472c7d",
+   "airline_id": "h-hanatour",
+   "airline": "하나투어",
+   "airlines_mentioned": [
+    "하나투어"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.hanatour.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "“기업 출장에도 AI 바람”…하나투어·세일즈포스, 여행 비즈니스 확장 맞손",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-28",
+   "last_published": "2026-10-28",
+   "first_seen": "2026-10-28T10:19:38+09:00",
+   "last_seen": "2026-10-28T10:19:38+09:00",
+   "articles": [
+    {
+     "title": "“기업 출장에도 AI 바람”…하나투어·세일즈포스, 여행 비즈니스 확장 맞손",
+     "outlet": "투어코리아",
+     "url": "https://www.tournews21.com/news/articleView.html?idxno=146841",
+     "published": "2026-10-28"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-358240f62b",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "필리핀 마닐라 여행, 숙박비 부담 낮춘다…시티오브드림 호텔 특가 프로모션 주목",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "필리핀"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-28",
+   "last_published": "2026-10-28",
+   "first_seen": "2026-10-28T10:19:38+09:00",
+   "last_seen": "2026-10-28T10:19:38+09:00",
+   "articles": [
+    {
+     "title": "필리핀 마닐라 여행, 숙박비 부담 낮춘다…시티오브드림 호텔 특가 프로모션 주목",
+     "outlet": "유스연합",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE95UHVIWVVCR2xqRG9Tekc1cDZKLXhqWjdSakNxS3BOMVFiZE9QTWlPTlB5R0ZrVFBxTVI4WnZkdEFRQlQ5aVVoVmdteE9VSTFTeEdn?oc=5",
+     "published": "2026-10-28"
     }
    ],
    "status": "undated"
