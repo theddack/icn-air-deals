@@ -1260,6 +1260,90 @@
    "kinds": {
     "new": "2026-10-27"
    }
+  },
+  "h-paradise-aff283a0a8": {
+   "info": {
+    "airline": "h-paradise",
+    "name": "객실할인부터무료숙박권까지",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-28",
+    "urls": [
+     "1c632b5133",
+     "62879e67e3",
+     "aff283a0a8",
+     "b849649dab"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-28"
+   }
+  },
+  "h-paradise-7cb70947cd": {
+   "info": {
+    "airline": "h-paradise",
+    "name": "객실할인에숙박권까지",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-28",
+    "urls": [
+     "7cb70947cd"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-28"
+   }
+  },
+  "h-yeogi-39aeffb860": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-28",
+    "urls": [
+     "39aeffb860",
+     "6cf83c4168"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-28"
+   }
+  },
+  "h-hanatour-4986472c7d": {
+   "info": {
+    "airline": "h-hanatour",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-28",
+    "urls": [
+     "4986472c7d"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-28"
+   }
+  },
+  "h-other-358240f62b": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-28",
+    "urls": [
+     "358240f62b"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-28"
+   }
   }
  },
  "slots": {
@@ -1270,7 +1354,10 @@
    "morning": "sent",
    "afternoon": "sent",
    "evening": "sent"
+  },
+  "2026-10-28": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-10-27T18:02:32+09:00"
+ "saved_at": "2026-10-28T10:24:34+09:00"
 }
