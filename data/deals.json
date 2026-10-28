@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T10:19:38+09:00",
+ "generated_at": "2026-10-28T18:37:34+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2236,
+  "rss_items": 2204,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2197,
-  "outlet_new_articles": 1,
+  "outlet_items": 2238,
+  "outlet_new_articles": 0,
   "outlet_enriched": 1,
-  "mail_articles": 2,
-  "mail_new_articles": 0,
-  "articles_with_summary": 19,
-  "articles": 501,
-  "new_articles": 11,
-  "deals": 68
+  "mail_articles": 4,
+  "mail_new_articles": 2,
+  "articles_with_summary": 22,
+  "articles": 516,
+  "new_articles": 15,
+  "deals": 70
  },
  "deals": [
   {
@@ -684,12 +684,18 @@
    "first_published": "2026-09-16",
    "last_published": "2026-10-28",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-28T10:19:38+09:00",
+   "last_seen": "2026-10-28T18:37:34+09:00",
    "articles": [
     {
      "title": "여기어때·춘천시, 가을 숙박 할인전…최대 3만원 쿠폰",
      "outlet": "핀포인트뉴스",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5UE5XUmE2ajczT2Z1MnNsRENCYXpaX2s5T1k5WllVUVFqNGVrMTUxM2dxNHh1THlhUHZCenR2amhlTE5VWUVCNHZMT0Q5Y1ViRnJWb05FZHVSUlN4ekVENUpONlFEeHQ5WkxrVjNMeDJ2QnPSAXdBVV95cUxQWWpLUm5wMXlERmU3TUFUTU0tLURfMGNraWN2OHNLWmo0MDRGMXdqTjJTOEQ0U0FvbzF2NFVKUHl6REJ0X1E0aG1EM3NhNUduRGh6TEpVOFdiQTMzMHVVTm1FeWNDWkQtMjhzTWlHSWFCOW9HV1gzVQ?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "여기어때, 춘천 가을 여행 지원…숙박 할인전 진행",
+     "outlet": "일간대한뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kdkx4aVMwcXAtWHZ1UFlsUmVtT2hZUjdnTi1ROVp5M1RTX1dUajg2TDZIYThHam5VbTVVQlhmSWtuZndGbTdfYzdKYUV1T3pTZnBza0d2cldsd0RINEE0YTlHWXBOTVE?oc=5",
      "published": "2026-10-28"
     },
     {
@@ -1115,12 +1121,17 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "비엣젯항공, 내달 1일까지 국내외 ‘에코’ 특가항공권 프로모션…최대 무료",
+   "headline": "비엣젯항공, 한국∼베트남 편도 9만9천 원 특가…내년 10월까지 탑승 가능",
    "sale_start": null,
    "sale_end": "2026-11-01",
    "travel_start": null,
    "travel_end": null,
-   "routes": [],
+   "routes": [
+    {
+     "origin": "한국",
+     "destination": "베트남"
+    }
+   ],
    "regions": [],
    "conditions": [],
    "conflicts": [],
@@ -1128,21 +1139,131 @@
     "sale": {
      "title": "비엣젯항공, 내달 1일까지 국내외 ‘에코’ 특가항공권 프로모션…최대 무료",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aSkRhaW5pVVlXRGhjeHBEWi1UOTFKMktyc0pWem1FZ19jTzh0clpTLU5aOTk5amc2VHBZVWpvMEs5cTJfaDBiQ1pid09vMGkxZDRNdUF5cFJ6ZmJXTjJqWVpxa21vbnI4SmZrWQ?oc=5"
+    },
+    "route": {
+     "title": "비엣젯항공, 한국∼베트남 편도 9만9천 원 특가…내년 10월까지 탑승 가능",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBKUjZONUR0SkJ4N1NMRm1xcHlmN2wxaFE1V0Rrd0lJcDZXZ2x3eW9XXy1rZV9qVEVZX2pxMTlicW5zejJBbFdIT2d1RVBKX0tNVmFKMjV1cnNockJWXzZsRndSa3l4QUF0a2xIR2hR?oc=5"
     }
    },
    "from_icn": "unknown",
    "discount": null,
    "verification": "news",
    "first_published": "2026-10-27",
-   "last_published": "2026-10-27",
+   "last_published": "2026-10-28",
    "first_seen": "2026-10-27T17:57:28+09:00",
-   "last_seen": "2026-10-27T17:57:28+09:00",
+   "last_seen": "2026-10-28T18:37:34+09:00",
    "articles": [
+    {
+     "title": "비엣젯항공, 한국∼베트남 편도 9만9천 원 특가…내년 10월까지 탑승 가능",
+     "outlet": "미디어인뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBKUjZONUR0SkJ4N1NMRm1xcHlmN2wxaFE1V0Rrd0lJcDZXZ2x3eW9XXy1rZV9qVEVZX2pxMTlicW5zejJBbFdIT2d1RVBKX0tNVmFKMjV1cnNockJWXzZsRndSa3l4QUF0a2xIR2hR?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "비엣젯항공, 에코 특가 항공권 한정 기간 판매",
+     "outlet": "경상일보",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RVDl1N2lkQjJXVUN0bklTb0tMbkxoS0ZxTDd3eGs5SVJsREx5YTJENkFIMGNKTnVfTnpCNmZZelNEYTJLWVFMeS1MN1YwSjFORnNXQlVsWVg3a1dSazlZSi16MlZJWmZHN1cwcA?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "비엣젯항공, 신규노선 확대…9만9천원부터 특가판매",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9jczd4LU8tUjBwekJrNVJvWENOUHkwZ1pQTGhYM2ZQd1oyeWh3S3J0OUxWSFkxaXE3cFBKaGFIUTNiOVBfWnhTbEFFS1BLQ2JBTlhSUEJ6TTZfNDQ0MzNNNDYzODNrdw?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "비엣젯항공, 항공권 특가 판매 프로모션 진행",
+     "outlet": "livesnews.com",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54NExFT0RDVjhINVNsZjVtNnF3aDNzMHVnMEg2eWMzOUFwcjAwaFZlaDI5RXdSbVFWalNvbVhWUUFqQ3o0NlVxNUp3NDFYTWg2eG9iaUFQdmFRLXJG?oc=5",
+     "published": "2026-10-28"
+    },
     {
      "title": "비엣젯항공, 내달 1일까지 국내외 ‘에코’ 특가항공권 프로모션…최대 무료",
      "outlet": "인사이드비나",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aSkRhaW5pVVlXRGhjeHBEWi1UOTFKMktyc0pWem1FZ19jTzh0clpTLU5aOTk5amc2VHBZVWpvMEs5cTJfaDBiQ1pid09vMGkxZDRNdUF5cFJ6ZmJXTjJqWVpxa21vbnI4SmZrWQ?oc=5",
      "published": "2026-10-27"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-yeogi-e795a43d64",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "여기어때, 춘천 숙박 최대 3만 원 할인…11월 6일까지 쿠폰 지급",
+   "sale_start": null,
+   "sale_end": "2026-11-06",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [
+    "쿠폰"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "여기어때, 춘천 숙박 최대 3만 원 할인…11월 6일까지 쿠폰 지급",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81bk9wXy1ZMnpMdkZ6N0diU1RKeUNBcW1Gcll5R29BNEF0RHd6ZVpjaTFrYUZkMFdja2lzbVJCV1ZsRGxsYWF4QkFrZmpGYnBlNnByT3ZQM1dTZ3JBNGZTa21QV0hjUDdocE9PZlExWWZhMjRBWldpdFVpWGF3dw?oc=5"
+    },
+    "discount": {
+     "title": "여기어때, 춘천 숙박 최대 3만 원 할인…11월 6일까지 쿠폰 지급",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81bk9wXy1ZMnpMdkZ6N0diU1RKeUNBcW1Gcll5R29BNEF0RHd6ZVpjaTFrYUZkMFdja2lzbVJCV1ZsRGxsYWF4QkFrZmpGYnBlNnByT3ZQM1dTZ3JBNGZTa21QV0hjUDdocE9PZlExWWZhMjRBWldpdFVpWGF3dw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 3만원 할인",
+   "verification": "news",
+   "first_published": "2026-10-28",
+   "last_published": "2026-10-28",
+   "first_seen": "2026-10-28T10:19:38+09:00",
+   "last_seen": "2026-10-28T18:37:34+09:00",
+   "articles": [
+    {
+     "title": "여기어때, 춘천 숙박 최대 3만 원 할인…11월 6일까지 쿠폰 지급",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81bk9wXy1ZMnpMdkZ6N0diU1RKeUNBcW1Gcll5R29BNEF0RHd6ZVpjaTFrYUZkMFdja2lzbVJCV1ZsRGxsYWF4QkFrZmpGYnBlNnByT3ZQM1dTZ3JBNGZTa21QV0hjUDdocE9PZlExWWZhMjRBWldpdFVpWGF3dw?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "여기어때, 춘천 숙소 최대 3만원 할인…가을 여행객 지원",
+     "outlet": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5TDA0bEl5bWM2WjVuV3Q2b0ZlS1ltTkRTU2tfcVhZU2FkLWxkZ0Z3N2ZOSnZkVC02REQ2RU5vcFBQVFVIQ3k3V3p1WFBSOFRTOExPMnFGZndPMUx5Y1FLNHR3ZFdCSGxyZWtDTFlibjl0UQ?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "여기어때 춘천 숙소 최대 3만원 할인 늦가을 여행 지원",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52WUtDTjlOS3RFMUFKWFlpUE1qOUZnMWZWZXpsYldBMUJZeWVFNDFWc0lfQlZYM0hDeTZKVm1QQjdrdkxaTkNyajJxRmVTSFBkSmM5elRpME9IMk1MUHRxaExIMl9pTHl4OTBMUA?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "여기어때, 춘천 숙소 최대 3만원 할인…11월 6일까지",
+     "outlet": "파이낸셜투데이",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Lc28xWmVnLVppYlNTR1hSbzhMbnVYVTY1eXNWc1NST1BhaVNKYjFtZzFnbXcyT21Ec1N0MU01MWl5QUMwOW9DOU04MlU0Ui05RF9yai1KMGVDSkZkQ0dzOUJnVWtjaHlMRWhv?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "여기어때, 춘천시와 손잡고 가을 여행 지원…숙박비 최대 3만원 할인",
+     "outlet": "소셜밸류",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3REtCcUhXMXY2ek03MHJYVkl1Q3lPUEl1WUN3VDJxUjA2aGtucmVoRmxDSy1pMVk2dUI4ZTFLaUNwSkZDVzBCVi16MF9vMWg3UjJuV2FJNHNqNll6NDZIV21nUdIBbEFVX3lxTE5BeUdxRGZZVTN4bm8xU29FekFFM2Exc3RCY1Jwc05sWWhpMkd3NGYwMC0zOXR6YUg0TkRGTGxHREF6OHg0OEFnelQ0dTZ1Z19aQXoxUUtqTFZsNm9MZzZJdDZJMUUycFd5b1JCSA?oc=5",
+     "published": "2026-10-28"
     }
    ],
    "status": "live"
@@ -1169,19 +1290,23 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "제주항공, 인천~센다이 신규 취항…오는 8일까지 항공권 20% 할인 혜택도",
+   "headline": "제주항공, 항공의 날 맞아 국내·국제선 48시간 특가",
    "sale_start": null,
    "sale_end": "2026-11-08",
-   "travel_start": null,
-   "travel_end": null,
+   "travel_start": "2027-01-08",
+   "travel_end": "2027-03-27",
    "routes": [],
    "regions": [],
    "conditions": [],
    "conflicts": [],
    "evidence": {
     "sale": {
-     "title": "제주항공, 인천~센다이 신규 취항…오는 8일까지 항공권 20% 할인 혜택도",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FZHVPRzhrSkZwc1dnNkdWMEhuOERGb1NRREYxenFaOWdjNmx6d2hDZ1RXWHBJai1FVm1ObVFZLXl1YkVzMEV4MXdlVFBNQUViRTVCYk9ZMUpYcXR2ZVYtUnpRdUlvSnM?oc=5"
+     "title": "싱글리스트 요약문: … 제주항공의 내년 1월 8일 인천~센다이 신규 취항을 기념해 오는 11월 8일까지 특별 프로모션을 진행한다.…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=777126"
+    },
+    "travel": {
+     "title": "싱글리스트 요약문: 프로모션 대상 탑승 기간은 2027년 1월 8일부터 3월 27일까지이며 항공 일정에 따라 변동될 수 있다.",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=777126"
     },
     "discount": {
      "title": "제주항공, 인천~센다이 신규 취항…오는 8일까지 항공권 20% 할인 혜택도",
@@ -1192,10 +1317,22 @@
    "discount": "20% 할인",
    "verification": "news",
    "first_published": "2026-10-23",
-   "last_published": "2026-10-23",
+   "last_published": "2026-10-28",
    "first_seen": "2026-10-23T17:30:54+09:00",
-   "last_seen": "2026-10-23T17:30:54+09:00",
+   "last_seen": "2026-10-28T18:37:34+09:00",
    "articles": [
+    {
+     "title": "제주항공, 항공의 날 맞아 국내·국제선 48시간 특가",
+     "outlet": "비건뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wWHJfWk55NFVvcTBhYjVwcVZ1eHZLTEIyZzA2ZWdWQlBUemdORUFUSHlXRGFVRWdyNTlDd3hKUnFXc2k2VExSRllqVE1qSWFCZGpPU3JIVGE0bnhHQTNnVjZDeFF3QQ?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "신세계免, 제주항공 인천~센다이 취항 프로모션...최대 42만원 혜택",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53SG9tMURfN0VxYTEzTXdCZ1hDcXJ3djlSRk9kb1otWGdyZk1kdXpiVUMyel9CNFpCd0dIVVBDQzRMbEw5UFdTRkFmXzdqZ1BNOEg5Q1lVa2p4WlJtaUpIREg3bDVaQQ?oc=5",
+     "published": "2026-10-28"
+    },
     {
      "title": "제주항공, 인천~센다이 신규 취항…오는 8일까지 항공권 20% 할인 혜택도",
      "outlet": "팍스경제TV",
@@ -2850,6 +2987,123 @@
    "status": "undated"
   },
   {
+   "id": "jejuair-6c8e4f068c",
+   "airline_id": "jejuair",
+   "airline": "제주항공",
+   "airlines_mentioned": [
+    "제주항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.jejuair.net/",
+   "iata": [
+    "7C"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "제주항공 최대 33만원 혜택과 항공권 특가 소식 도착!💌",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "제주항공 메일 본문",
+     "url": "https://www.jejuair.net/#mail-cdf4d3f90731ae33"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 3만원 할인",
+   "verification": "official",
+   "first_published": "2026-10-28",
+   "last_published": "2026-10-28",
+   "first_seen": "2026-10-28T18:37:28+09:00",
+   "last_seen": "2026-10-28T18:37:28+09:00",
+   "articles": [
+    {
+     "title": "제주항공 최대 33만원 혜택과 항공권 특가 소식 도착!💌",
+     "outlet": "제주항공 메일",
+     "url": "https://www.jejuair.net/#mail-cdf4d3f90731ae33",
+     "published": "2026-10-28"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "airbusan-d18f1756ce",
+   "airline_id": "airbusan",
+   "airline": "에어부산",
+   "airlines_mentioned": [
+    "에어부산"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airbusan.com/",
+   "iata": [
+    "BX"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어부산 발길 닿는 모든 곳이 완벽한 지금, 치앙마이 부산-치앙마이 최대 8만원 할인!",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "부산(PUS)",
+     "destination": "치앙마이(CNX)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "에어부산 발길 닿는 모든 곳이 완벽한 지금, 치앙마이 부산-치앙마이 최대 8만원 할인!",
+     "url": "https://www.airbusan.com/#mail-2de6c7968ed94cf1"
+    },
+    "route": {
+     "title": "에어부산 발길 닿는 모든 곳이 완벽한 지금, 치앙마이 부산-치앙마이 최대 8만원 할인!",
+     "url": "https://www.airbusan.com/#mail-2de6c7968ed94cf1"
+    }
+   },
+   "from_icn": "no",
+   "discount": "최대 8만원 할인",
+   "verification": "official",
+   "first_published": "2026-10-28",
+   "last_published": "2026-10-28",
+   "first_seen": "2026-10-28T18:37:28+09:00",
+   "last_seen": "2026-10-28T18:37:28+09:00",
+   "articles": [
+    {
+     "title": "에어부산 발길 닿는 모든 곳이 완벽한 지금, 치앙마이 부산-치앙마이 최대 8만원 할인!",
+     "outlet": "에어부산 메일",
+     "url": "https://www.airbusan.com/#mail-2de6c7968ed94cf1",
+     "published": "2026-10-28"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-paradise-aff283a0a8",
    "airline_id": "h-paradise",
    "airline": "파라다이스",
@@ -2869,7 +3123,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "객실 할인부터 무료 숙박권까지",
-   "headline": "파라다이스 호텔 부산, 창립 45주년 맞아 숙박 할인부터 특별 경품까지 ‘혜택 풍성’",
+   "headline": "파라다이스 호텔 부산, 45주년 객실 할인…폐페트병 재활용 토트백도",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -2887,8 +3141,14 @@
    "first_published": "2026-10-28",
    "last_published": "2026-10-28",
    "first_seen": "2026-10-28T10:19:38+09:00",
-   "last_seen": "2026-10-28T10:19:38+09:00",
+   "last_seen": "2026-10-28T18:37:34+09:00",
    "articles": [
+    {
+     "title": "파라다이스 호텔 부산, 45주년 객실 할인…폐페트병 재활용 토트백도",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeDBVVkpfdC1RRjdJQUtwZU9aYllwV0ZvZE45YTF2UlJJUm1sMU1WcVQwUl9pY19XOFkxY0YtZ2JmbUJpVUI3NHVPQk0tbDh0SGh0QTMyVFhfRVNaNS1kejkwZVlucm1XU0loTVk0SDZibnJpc2dPdEgzUEx4OEhST1ExaVQxUTdERXZJdw?oc=5",
+     "published": "2026-10-28"
+    },
     {
      "title": "파라다이스 호텔 부산, 창립 45주년 맞아 숙박 할인부터 특별 경품까지 ‘혜택 풍성’",
      "outlet": "뉴스탭",
@@ -2960,64 +3220,6 @@
      "title": "“객실 할인에 숙박권까지”…파라다이스 부산, 45주년 혜택 쏜다",
      "outlet": "데일리안",
      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOSHlNVGJKS2FEOWRlaTlHRV9tMGpxeGZpY2oxcUVqUE14YzZway1HLXVNSVJ0WXRIcU9pWVhzY1VBUmNoajdhTEdlcENuUTBYMXBIU3I2cmdTaGZFcW9ocGhRbkIyYUhiMHgwWnpEUDNVc1VmQXJXWkt5RE1SNlhubjBnWHZ3SG1HRGZ5YnN2Rm1zOGtNc3lFZ2gzRWlSOHFVZGpCTGF1eFNtaFZVUFg5OEpNQjZWMzdKTDhJWVR4S2NpcmZRN3Q5aE1iSjBHOUR0UVRLc3FfZ05sdGh0UVlrSFZUZWZJY1ZvQUJFb05VMXUxeHhDNktRQ18zUW5lU0hqMm1Db21XMlgwQndlWUdRdHN3TTAyd1hxRjB4LWl6UVFXallpNDhQb3lWTlFPQQ?oc=5",
-     "published": "2026-10-28"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-yeogi-39aeffb860",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "여기어때, 춘천 숙소 최대 3만원 할인…가을 여행객 지원",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "여기어때, 춘천 숙소 최대 3만원 할인…가을 여행객 지원",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5TDA0bEl5bWM2WjVuV3Q2b0ZlS1ltTkRTU2tfcVhZU2FkLWxkZ0Z3N2ZOSnZkVC02REQ2RU5vcFBQVFVIQ3k3V3p1WFBSOFRTOExPMnFGZndPMUx5Y1FLNHR3ZFdCSGxyZWtDTFlibjl0UQ?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 3만원 할인",
-   "verification": "news",
-   "first_published": "2026-10-28",
-   "last_published": "2026-10-28",
-   "first_seen": "2026-10-28T10:19:38+09:00",
-   "last_seen": "2026-10-28T10:19:38+09:00",
-   "articles": [
-    {
-     "title": "여기어때, 춘천 숙소 최대 3만원 할인…가을 여행객 지원",
-     "outlet": "중앙이코노미뉴스",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5TDA0bEl5bWM2WjVuV3Q2b0ZlS1ltTkRTU2tfcVhZU2FkLWxkZ0Z3N2ZOSnZkVC02REQ2RU5vcFBQVFVIQ3k3V3p1WFBSOFRTOExPMnFGZndPMUx5Y1FLNHR3ZFdCSGxyZWtDTFlibjl0UQ?oc=5",
-     "published": "2026-10-28"
-    },
-    {
-     "title": "여기어때 춘천 숙소 최대 3만원 할인 늦가을 여행 지원",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52WUtDTjlOS3RFMUFKWFlpUE1qOUZnMWZWZXpsYldBMUJZeWVFNDFWc0lfQlZYM0hDeTZKVm1QQjdrdkxaTkNyajJxRmVTSFBkSmM5elRpME9IMk1MUHRxaExIMl9pTHl4OTBMUA?oc=5",
      "published": "2026-10-28"
     }
    ],

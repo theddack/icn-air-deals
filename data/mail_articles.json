@@ -1,5 +1,55 @@
 [
  {
+  "title": "에어부산 발길 닿는 모든 곳이 완벽한 지금, 치앙마이 부산-치앙마이 최대 8만원 할인!",
+  "outlet": "에어부산 메일",
+  "url": "https://www.airbusan.com/#mail-2de6c7968ed94cf1",
+  "published": "2026-10-28",
+  "first_seen": "2026-10-28T18:37:28+09:00",
+  "source": "mail",
+  "mail_id": "2de6c7968ed94cf1",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.airbusan.com/#mail-2de6c7968ed94cf1",
+   "outlet": "에어부산 메일",
+   "label": "본문",
+   "fields": {
+    "discount": "최대 8만원 할인",
+    "origin": "부산(PUS)",
+    "destination": "치앙마이(CNX)"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
+ },
+ {
+  "title": "제주항공 최대 33만원 혜택과 항공권 특가 소식 도착!💌",
+  "outlet": "제주항공 메일",
+  "url": "https://www.jejuair.net/#mail-cdf4d3f90731ae33",
+  "published": "2026-10-28",
+  "first_seen": "2026-10-28T18:37:28+09:00",
+  "source": "mail",
+  "mail_id": "cdf4d3f90731ae33",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.jejuair.net/#mail-cdf4d3f90731ae33",
+   "outlet": "제주항공 메일",
+   "label": "본문",
+   "fields": {
+    "discount": "최대 3만원 할인"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
+ },
+ {
   "title": "카약 인천​발 오사카​행 이동하는 항공편, 224,867원부터 시작합니다.",
   "outlet": "카약 메일",
   "url": "https://www.kayak.co.kr/#mail-8a53ffb151c5a58a",
