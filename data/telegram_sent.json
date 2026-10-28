@@ -1296,23 +1296,6 @@
     "new": "2026-10-28"
    }
   },
-  "h-yeogi-39aeffb860": {
-   "info": {
-    "airline": "h-yeogi",
-    "name": "",
-    "sale_start": null,
-    "sale_end": null,
-    "dests": [],
-    "last": "2026-10-28",
-    "urls": [
-     "39aeffb860",
-     "6cf83c4168"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-28"
-   }
-  },
   "h-hanatour-4986472c7d": {
    "info": {
     "airline": "h-hanatour",
@@ -1344,6 +1327,42 @@
    "kinds": {
     "new": "2026-10-28"
    }
+  },
+  "h-yeogi-e795a43d64": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-06",
+    "dests": [],
+    "last": "2026-10-28",
+    "urls": [
+     "09487b6834",
+     "39aeffb860",
+     "6cf83c4168",
+     "94b30c0bb4",
+     "e795a43d64"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-28"
+   }
+  },
+  "jejuair-6c8e4f068c": {
+   "info": {
+    "airline": "jejuair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-28",
+    "urls": [
+     "6c8e4f068c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-28"
+   }
   }
  },
  "slots": {
@@ -1357,8 +1376,9 @@
   },
   "2026-10-28": {
    "morning": "sent",
-   "afternoon": "empty"
+   "afternoon": "empty",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-10-28T14:25:12+09:00"
+ "saved_at": "2026-10-28T18:42:04+09:00"
 }
