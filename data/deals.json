@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T17:38:55+09:00",
+ "generated_at": "2026-10-29T17:43:24+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2068,
+  "rss_items": 2140,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2263,
+  "outlet_items": 2265,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
   "articles_with_summary": 23,
-  "articles": 530,
-  "new_articles": 0,
-  "deals": 72
+  "articles": 533,
+  "new_articles": 3,
+  "deals": 74
  },
  "deals": [
   {
@@ -1400,6 +1400,62 @@
      "outlet": "팍스경제TV",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FZHVPRzhrSkZwc1dnNkdWMEhuOERGb1NRREYxenFaOWdjNmx6d2hDZ1RXWHBJai1FVm1ObVFZLXl1YkVzMEV4MXdlVFBNQUViRTVCYk9ZMUpYcXR2ZVYtUnpRdUlvSnM?oc=5",
      "published": "2026-10-23"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-ihg-744888ff6e",
+   "airline_id": "h-ihg",
+   "airline": "IHG",
+   "airlines_mentioned": [
+    "IHG"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Save up to 55% at IHG’s Iberostar Resorts [Book by November 15]",
+   "sale_start": null,
+   "sale_end": "2026-11-15",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "Save up to 55% at IHG’s Iberostar Resorts [Book by November 15]",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5EQm5vWEVhaHUxVy11THRoLU9acXlaV3o5UWdIVC1keTJUU3VqOVl3WU9nT19RUEV5dFp3eFpjRnFvUG93QzJZQU5HME5URmVkYmdFT3ZGSndmeW02cVRsRnh3bjU2eWVEWk1xWFlsVU1IQUVFYU1BcGJFa0c?oc=5"
+    },
+    "discount": {
+     "title": "Save up to 55% at IHG’s Iberostar Resorts [Book by November 15]",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5EQm5vWEVhaHUxVy11THRoLU9acXlaV3o5UWdIVC1keTJUU3VqOVl3WU9nT19RUEV5dFp3eFpjRnFvUG93QzJZQU5HME5URmVkYmdFT3ZGSndmeW02cVRsRnh3bjU2eWVEWk1xWFlsVU1IQUVFYU1BcGJFa0c?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 55%",
+   "verification": "news",
+   "first_published": "2026-10-16",
+   "last_published": "2026-10-16",
+   "first_seen": "2026-10-29T17:43:24+09:00",
+   "last_seen": "2026-10-29T17:43:24+09:00",
+   "articles": [
+    {
+     "title": "Save up to 55% at IHG’s Iberostar Resorts [Book by November 15]",
+     "outlet": "Upgraded Points",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5EQm5vWEVhaHUxVy11THRoLU9acXlaV3o5UWdIVC1keTJUU3VqOVl3WU9nT19RUEV5dFp3eFpjRnFvUG93QzJZQU5HME5URmVkYmdFT3ZGSndmeW02cVRsRnh3bjU2eWVEWk1xWFlsVU1IQUVFYU1BcGJFa0c?oc=5",
+     "published": "2026-10-16"
     }
    ],
    "status": "live"
@@ -3516,7 +3572,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "연말 호캉스 할인받고 즐기자",
-   "headline": "\"연말 호캉스 할인받고 즐기자\" 시그니엘 서울·부산, 브랜드 페스타",
+   "headline": "시그니엘 서울·부산, 연말연시 '호캉스' 위한 '브랜드 페스타' 선봬",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -3535,12 +3591,65 @@
    "first_published": "2026-10-29",
    "last_published": "2026-10-29",
    "first_seen": "2026-10-29T10:47:32+09:00",
-   "last_seen": "2026-10-29T10:47:32+09:00",
+   "last_seen": "2026-10-29T17:43:24+09:00",
    "articles": [
+    {
+     "title": "시그니엘 서울·부산, 연말연시 '호캉스' 위한 '브랜드 페스타' 선봬",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1rZWxjUWdIQ3RNNllpS0swRVBBNlA3dGF6QUYtbEEzNldjMnlGSG5GSTI0Y1JxU0FZZE9iQ0dxck5HSUpMZ2R1WkJmZlNiR1h4eFc5RF9TaXFFLW9rYVlSY1RGRGxEVmxXNnc?oc=5",
+     "published": "2026-10-29"
+    },
     {
      "title": "\"연말 호캉스 할인받고 즐기자\" 시그니엘 서울·부산, 브랜드 페스타",
      "outlet": "뉴시스",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDaW55dU1LREVXcTJZcVYwejA3THBEZjExUEJVSDhOWXhHWVBYOGl5dWR5bS11dWpEazVSbmRoc3VJRFhURGJydHp3UnhLclNuek1OcDdEM0FiTmhaOEt5ZdIBeEFVX3lxTE8yMlpIZkIwWmNKMVM0dkJpbU5iQ0lJU1JNNDl6WTVTeURvTGl2ZTVicVNVVmFUaW9ZZ0ZYV2duYy1lRkNXenB0R1N5SjI0VHdYLXRiUU0wa1doZXdjRGNmMGxwLVBiZzJUOVJVUXc3ZEhueHZuV0pwdw?oc=5",
+     "published": "2026-10-29"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-lotte-5738c1904c",
+   "airline_id": "h-lotte",
+   "airline": "롯데호텔",
+   "airlines_mentioned": [
+    "롯데호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "브랜드 페스타",
+   "headline": "“연말연시 럭셔리 호캉스 특가”... 시그니엘, 일주일간 ‘브랜드 페스타’ 전개",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-29",
+   "last_published": "2026-10-29",
+   "first_seen": "2026-10-29T17:43:24+09:00",
+   "last_seen": "2026-10-29T17:43:24+09:00",
+   "articles": [
+    {
+     "title": "“연말연시 럭셔리 호캉스 특가”... 시그니엘, 일주일간 ‘브랜드 페스타’ 전개",
+     "outlet": "www.insight.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WcjBINzF4YUV0T0tvTHFyY2lUTlk2STBnVE03dWJQc3ZveW1JZ2RmT18xSzdEYXR5dEdHTVUtUzI5aGcwQW9wMXRzbHRwTTlEV3hV?oc=5",
      "published": "2026-10-29"
     }
    ],
