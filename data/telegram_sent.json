@@ -1447,6 +1447,23 @@
    "kinds": {
     "new": "2026-10-29"
    }
+  },
+  "h-hyatt-1e97bd2d04": {
+   "info": {
+    "airline": "h-hyatt",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-29",
+    "urls": [
+     "1e97bd2d04",
+     "9beddfac75"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-29"
+   }
   }
  },
  "slots": {
@@ -1465,8 +1482,8 @@
   },
   "2026-10-29": {
    "morning": "sent",
-   "afternoon": "empty"
+   "afternoon": "sent"
   }
  },
- "saved_at": "2026-10-29T14:34:36+09:00"
+ "saved_at": "2026-10-29T17:35:20+09:00"
 }
