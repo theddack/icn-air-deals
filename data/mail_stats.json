@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-10-29T10:47:26+09:00",
+ "checked_at": "2026-10-29T17:30:33+09:00",
  "days": 21,
- "searched": 35,
+ "searched": 36,
  "sender:제주항공": 2,
- "checked": 35,
+ "checked": 36,
  "transactional": 19,
  "transactional_hit:본문:인증코드:제주항공": 1,
  "transactional:제주항공": 1,
@@ -20,7 +20,7 @@
  "not_listed": 3,
  "not_listed:홍콩익스프레스": 2,
  "sender:에어서울": 1,
- "no_facts": 9,
+ "no_facts": 10,
  "no_facts:에어서울": 1,
  "sender:에어프레미아": 1,
  "transactional_hit:제목:verification:에어프레미아": 1,
@@ -52,7 +52,7 @@
  "transactional_hit:제목:인증 코드:카약": 1,
  "transactional:카약": 2,
  "transactional_hit:제목:환영합니다:카약": 1,
- "sender:트립닷컴": 3,
+ "sender:트립닷컴": 4,
  "transactional_hit:본문:가입 완료:트립닷컴": 1,
  "transactional:트립닷컴": 2,
  "accepted": 4,
@@ -73,5 +73,6 @@
  "sender:에어부산": 1,
  "accepted:에어부산": 1,
  "accepted:제주항공": 1,
+ "no_facts:트립닷컴": 1,
  "kept": 4
 }
