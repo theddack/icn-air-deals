@@ -1363,6 +1363,90 @@
    "kinds": {
     "new": "2026-10-28"
    }
+  },
+  "h-skyscanner-30e6478f61": {
+   "info": {
+    "airline": "h-skyscanner",
+    "name": "1111쇼핑데이",
+    "sale_start": "2026-11-01",
+    "sale_end": "2026-11-11",
+    "dests": [],
+    "last": "2026-10-29",
+    "urls": [
+     "30e6478f61"
+    ]
+   },
+   "kinds": {
+    "upcoming_d3": "2026-10-29",
+    "new": "2026-10-29"
+   }
+  },
+  "h-other-c47c29906a": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-28",
+    "urls": [
+     "c47c29906a"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-29"
+   }
+  },
+  "multi-e142fdb009": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "제주"
+    ],
+    "last": "2026-10-29",
+    "urls": [
+     "e142fdb009"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-29"
+   }
+  },
+  "h-lotte-a66f90a566": {
+   "info": {
+    "airline": "h-lotte",
+    "name": "연말호캉스할인받고즐기자",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-29",
+    "urls": [
+     "a66f90a566"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-29"
+   }
+  },
+  "h-agoda-190645e2cd": {
+   "info": {
+    "airline": "h-agoda",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-29",
+    "urls": [
+     "190645e2cd",
+     "c733cc2f5e"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-29"
+   }
   }
  },
  "slots": {
@@ -1378,7 +1462,10 @@
    "morning": "sent",
    "afternoon": "empty",
    "evening": "sent"
+  },
+  "2026-10-29": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-10-28T18:42:04+09:00"
+ "saved_at": "2026-10-29T10:52:23+09:00"
 }
