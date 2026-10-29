@@ -1196,23 +1196,6 @@
     "new": "2026-10-26"
    }
   },
-  "h-marriott-c2e930026f": {
-   "info": {
-    "airline": "h-marriott",
-    "name": "",
-    "sale_start": "2026-10-30",
-    "sale_end": "2026-11-15",
-    "dests": [],
-    "last": "2026-10-22",
-    "urls": [
-     "c2e930026f"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26",
-    "upcoming_d3": "2026-10-27"
-   }
-  },
   "h-other-3abb0048fd": {
    "info": {
     "airline": "h-other",
@@ -1464,6 +1447,56 @@
    "kinds": {
     "new": "2026-10-29"
    }
+  },
+  "h-marriott-c2e930026f": {
+   "info": {
+    "airline": "h-marriott",
+    "name": "",
+    "sale_start": "2026-10-30",
+    "sale_end": "2026-11-15",
+    "dests": [],
+    "last": "2026-10-22",
+    "urls": [
+     "c2e930026f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26",
+    "upcoming_d3": "2026-10-27",
+    "upcoming_d1": "2026-10-29"
+   }
+  },
+  "h-ihg-744888ff6e": {
+   "info": {
+    "airline": "h-ihg",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-15",
+    "dests": [],
+    "last": "2026-10-16",
+    "urls": [
+     "744888ff6e"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-29"
+   }
+  },
+  "h-lotte-5738c1904c": {
+   "info": {
+    "airline": "h-lotte",
+    "name": "브랜드페스타",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-29",
+    "urls": [
+     "5738c1904c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-29"
+   }
   }
  },
  "slots": {
@@ -1482,8 +1515,9 @@
   },
   "2026-10-29": {
    "morning": "sent",
-   "afternoon": "sent"
+   "afternoon": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-10-29T17:35:20+09:00"
+ "saved_at": "2026-10-29T18:20:30+09:00"
 }
