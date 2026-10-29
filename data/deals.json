@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T18:16:07+09:00",
+ "generated_at": "2026-10-29T22:17:34+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,17 +10,17 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2217,
+  "rss_items": 2172,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2258,
+  "outlet_items": 2094,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
   "articles_with_summary": 23,
-  "articles": 534,
+  "articles": 535,
   "new_articles": 1,
   "deals": 74
  },
@@ -707,7 +707,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "홀리데이 in 포항",
-   "headline": "여기어때·춘천시, 가을 숙박 할인전…최대 3만원 쿠폰",
+   "headline": "여기어때, 춘천시와 늦가을 숙박 할인 행사…최대 3만원 혜택",
    "sale_start": "2026-09-22",
    "sale_end": null,
    "travel_start": null,
@@ -738,10 +738,16 @@
    "discount": "최대 5만원 할인",
    "verification": "news",
    "first_published": "2026-09-16",
-   "last_published": "2026-10-28",
+   "last_published": "2026-10-29",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-28T18:37:34+09:00",
+   "last_seen": "2026-10-29T22:17:34+09:00",
    "articles": [
+    {
+     "title": "여기어때, 춘천시와 늦가을 숙박 할인 행사…최대 3만원 혜택",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02NG9JRUo3REJUbktfYTdQWkRGTk0xTXFYZWJYT1MxSXZ5eFJzbzVrTmw2SUU2dWdrZ3laX01lcFV5cHlIMTdlWC1HSHBCZzVlOXJ6V2FXLXBkbV9JUU00b3BsRlpHWXhWdlV3T9IBb0FVX3lxTFBpbjZzSHpqX0VHZWFCRjIzNGJ1bWFQSXJ6NktwRDJYRmNKSmd6Y0dJR2FfQVQzVnhOMGRvSDFhai1DaEhnc25kb1dRVnlqdUl4aFJWbi1pX3ZZMS1pTWp1QXNOSzhMQ3RyTjJzR29FRQ?oc=5",
+     "published": "2026-10-29"
+    },
     {
      "title": "여기어때·춘천시, 가을 숙박 할인전…최대 3만원 쿠폰",
      "outlet": "핀포인트뉴스",
