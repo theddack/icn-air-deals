@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T22:17:34+09:00",
+ "generated_at": "2026-10-30T01:25:27+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,77 +10,21 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2172,
+  "rss_items": 2191,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2094,
+  "outlet_items": 1975,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
   "articles_with_summary": 23,
-  "articles": 535,
+  "articles": 536,
   "new_articles": 1,
-  "deals": 74
+  "deals": 73
  },
  "deals": [
-  {
-   "id": "h-marriott-c2e930026f",
-   "airline_id": "h-marriott",
-   "airline": "메리어트",
-   "airlines_mentioned": [
-    "메리어트"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Marriott Worldwide 20% Off Escapes For Stays October 30 – November 15, 2026 (Book By Sunday)",
-   "sale_start": "2026-10-30",
-   "sale_end": "2026-11-15",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "Marriott Worldwide 20% Off Escapes For Stays October 30 – November 15, 2026 (Book By Sunday)",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM2FjZ1NYdVBSZFg5YUdWdVl2dFJ5eFJSVF80YkMyMkJoQXhhVGR5ZnAzUnZtRm1qaERPZmlPajVucGVJZ2xGLTl2LXA1SmcxeGF1QzlYbXhBdEZXRk9EQ2IwY2hOcVo1aTVaSFJjWlZ0RWg4ZTJpUzBReDZQOFVsUDRZa01YS25yamw2MGktSS1hUVJpSFZiMXRpazZsdlJObHYtSHh4VmVHV0JsY0VFQnFoNExwbmRsc18xZHEyYWM?oc=5"
-    },
-    "discount": {
-     "title": "Marriott Worldwide 20% Off Escapes For Stays October 30 – November 15, 2026 (Book By Sunday)",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM2FjZ1NYdVBSZFg5YUdWdVl2dFJ5eFJSVF80YkMyMkJoQXhhVGR5ZnAzUnZtRm1qaERPZmlPajVucGVJZ2xGLTl2LXA1SmcxeGF1QzlYbXhBdEZXRk9EQ2IwY2hOcVo1aTVaSFJjWlZ0RWg4ZTJpUzBReDZQOFVsUDRZa01YS25yamw2MGktSS1hUVJpSFZiMXRpazZsdlJObHYtSHh4VmVHV0JsY0VFQnFoNExwbmRsc18xZHEyYWM?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "20% 할인",
-   "verification": "news",
-   "first_published": "2026-10-22",
-   "last_published": "2026-10-22",
-   "first_seen": "2026-10-22T09:40:54+09:00",
-   "last_seen": "2026-10-22T09:40:54+09:00",
-   "articles": [
-    {
-     "title": "Marriott Worldwide 20% Off Escapes For Stays October 30 – November 15, 2026 (Book By Sunday)",
-     "outlet": "LoyaltyLobby",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM2FjZ1NYdVBSZFg5YUdWdVl2dFJ5eFJSVF80YkMyMkJoQXhhVGR5ZnAzUnZtRm1qaERPZmlPajVucGVJZ2xGLTl2LXA1SmcxeGF1QzlYbXhBdEZXRk9EQ2IwY2hOcVo1aTVaSFJjWlZ0RWg4ZTJpUzBReDZQOFVsUDRZa01YS25yamw2MGktSS1hUVJpSFZiMXRpazZsdlJObHYtSHh4VmVHV0JsY0VFQnFoNExwbmRsc18xZHEyYWM?oc=5",
-     "published": "2026-10-22"
-    }
-   ],
-   "status": "upcoming"
-  },
   {
    "id": "h-skyscanner-30e6478f61",
    "airline_id": "h-skyscanner",
@@ -1068,6 +1012,62 @@
    "status": "live"
   },
   {
+   "id": "h-marriott-c2e930026f",
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "airlines_mentioned": [
+    "메리어트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Marriott Worldwide 20% Off Escapes For Stays October 30 – November 15, 2026 (Book By Sunday)",
+   "sale_start": "2026-10-30",
+   "sale_end": "2026-11-15",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "Marriott Worldwide 20% Off Escapes For Stays October 30 – November 15, 2026 (Book By Sunday)",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM2FjZ1NYdVBSZFg5YUdWdVl2dFJ5eFJSVF80YkMyMkJoQXhhVGR5ZnAzUnZtRm1qaERPZmlPajVucGVJZ2xGLTl2LXA1SmcxeGF1QzlYbXhBdEZXRk9EQ2IwY2hOcVo1aTVaSFJjWlZ0RWg4ZTJpUzBReDZQOFVsUDRZa01YS25yamw2MGktSS1hUVJpSFZiMXRpazZsdlJObHYtSHh4VmVHV0JsY0VFQnFoNExwbmRsc18xZHEyYWM?oc=5"
+    },
+    "discount": {
+     "title": "Marriott Worldwide 20% Off Escapes For Stays October 30 – November 15, 2026 (Book By Sunday)",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM2FjZ1NYdVBSZFg5YUdWdVl2dFJ5eFJSVF80YkMyMkJoQXhhVGR5ZnAzUnZtRm1qaERPZmlPajVucGVJZ2xGLTl2LXA1SmcxeGF1QzlYbXhBdEZXRk9EQ2IwY2hOcVo1aTVaSFJjWlZ0RWg4ZTJpUzBReDZQOFVsUDRZa01YS25yamw2MGktSS1hUVJpSFZiMXRpazZsdlJObHYtSHh4VmVHV0JsY0VFQnFoNExwbmRsc18xZHEyYWM?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "20% 할인",
+   "verification": "news",
+   "first_published": "2026-10-22",
+   "last_published": "2026-10-22",
+   "first_seen": "2026-10-22T09:40:54+09:00",
+   "last_seen": "2026-10-22T09:40:54+09:00",
+   "articles": [
+    {
+     "title": "Marriott Worldwide 20% Off Escapes For Stays October 30 – November 15, 2026 (Book By Sunday)",
+     "outlet": "LoyaltyLobby",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM2FjZ1NYdVBSZFg5YUdWdVl2dFJ5eFJSVF80YkMyMkJoQXhhVGR5ZnAzUnZtRm1qaERPZmlPajVucGVJZ2xGLTl2LXA1SmcxeGF1QzlYbXhBdEZXRk9EQ2IwY2hOcVo1aTVaSFJjWlZ0RWg4ZTJpUzBReDZQOFVsUDRZa01YS25yamw2MGktSS1hUVJpSFZiMXRpazZsdlJObHYtSHh4VmVHV0JsY0VFQnFoNExwbmRsc18xZHEyYWM?oc=5",
+     "published": "2026-10-22"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "trinity-08820b7077",
    "airline_id": "trinity",
    "airline": "트리니티항공",
@@ -1631,102 +1631,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "h-yeogi-28510b370c",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "패키지 여행에 할인 혜택 쏟아진다",
-   "headline": "‘패키지 여행에 할인 혜택 쏟아진다’...여기어때, 해외 패키지 특가 위크",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-15",
-   "last_published": "2026-10-15",
-   "first_seen": "2026-10-25T16:25:30+09:00",
-   "last_seen": "2026-10-25T16:25:30+09:00",
-   "articles": [
-    {
-     "title": "‘패키지 여행에 할인 혜택 쏟아진다’...여기어때, 해외 패키지 특가 위크",
-     "outlet": "일간대한뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jbFNBWG9UUkZNZFFQTUNSOG91S0ZxT2lKUVktUU52S1FfbVYtTEUzWTdTRVdvQjVxMVBsN3RtdEIzWHZqMkJSMkpUaHVPMHE4MEdNTWlXaVFQRUt1bVBxcEZDMDNaSFE?oc=5",
-     "published": "2026-10-15"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-7afebebcee",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "겨울방학·연말 수요 겨냥…괌 호텔 5곳 공동 프로모션 진행",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "괌"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-15",
-   "last_published": "2026-10-15",
-   "first_seen": "2026-10-15T17:22:32+09:00",
-   "last_seen": "2026-10-15T17:22:32+09:00",
-   "articles": [
-    {
-     "title": "겨울방학·연말 수요 겨냥…괌 호텔 5곳 공동 프로모션 진행",
-     "outlet": "아주경제",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Vdjd2aEZybEROemk2TkRINE9raEhzeTU0M3FSMXA2d283RmpFOG5Dd2RnakM4VU4xMG9xQlBxNlFlZDdoZldoUEtKcHNuQ1dhak9BV2tXbWfSAVhBVV95cUxNVXY3dmhGcmxETnppNk5ESDRPa2hIc3k1NDNxUjFwNndvN0ZqRThuQ3dkZ2pDOFVOMTBvcUJQcTZRZWQ3aGZXaFBLSnBzbkNXYWpPQVdrV21n?oc=5",
-     "published": "2026-10-15"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "h-elandpark-368aceaf08",
@@ -3793,78 +3697,6 @@
    "status": "undated"
   },
   {
-   "id": "eastarjet-f127b7e5de",
-   "airline_id": "eastarjet",
-   "airline": "이스타항공",
-   "airlines_mentioned": [
-    "이스타항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.eastarjet.com/newstar/PGWTA00001",
-   "iata": [
-    "ZE"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "이스타항공, 60대 이상 국제선 최대 10% 할인… ‘액티브 시니어’ 공략",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "이스타항공, 60대 이상 국제선 최대 10% 할인… ‘액티브 시니어’ 공략",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPamlUTWowMnBnd1pZYXpUWGsyY2x4UWlmWUdFdWZ6OEw0TEpNQklRc0Q2R2k5aVMyR09UV1lId29lQ0RfclFjYkM5bG5qbWFQRjdKSVY2c0MwS3B3Ymw0aGFRQmVsanlTQUR2ZmprQlZ6RENIWkY3d2Z5MDFGTHdYajZ0Vmxxanh3LUxlcnRpUQ?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 10%",
-   "verification": "news",
-   "first_published": "2026-09-29",
-   "last_published": "2026-09-29",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-17T16:14:00+09:00",
-   "articles": [
-    {
-     "title": "이스타항공, 60대 이상 국제선 최대 10% 할인… ‘액티브 시니어’ 공략",
-     "outlet": "조선일보",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPamlUTWowMnBnd1pZYXpUWGsyY2x4UWlmWUdFdWZ6OEw0TEpNQklRc0Q2R2k5aVMyR09UV1lId29lQ0RfclFjYkM5bG5qbWFQRjdKSVY2c0MwS3B3Ymw0aGFRQmVsanlTQUR2ZmprQlZ6RENIWkY3d2Z5MDFGTHdYajZ0Vmxxanh3LUxlcnRpUQ?oc=5",
-     "published": "2026-09-29"
-    },
-    {
-     "title": "이스타항공, ‘액티브 시니어’ 고객 잡는다…큰 글자·쉬운 안내·운임 할인",
-     "outlet": "글로벌이코노믹",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZmIySlgxdEhzcWlRZ0Q5ZHlWQi1UYVd1ampfcS1mZDQ4V3Rhc283WktKSjRjeXpRY081Wl82Q0k0ckItaktvRU5PT3pLNWtBVDl1cXR0c0w2YXQtR2p5UnZ3X2UzbEI1U1N6UE1oSXVkZWhLczlSVTFyRmZnSmZNTlZYWk5jZw?oc=5",
-     "published": "2026-09-29"
-    },
-    {
-     "title": "이스타항공, 액티브 시니어 공략 캠페인 전개…60세 이상 국제선 최대 10% 할인",
-     "outlet": "핀포인트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1zdmFRZTlCTE9wdlhUOEJNV3Jhb1daNWVJeC1NZ3N4T1BPUFgxY0JWZUtOdHVKb3hKVEhqMnhDTnVadnhteDdMTEZOTWs2M1ZDS3RGNEZheS03dC1EMXZwMWZlNjNhY0ROcldaLUswd01fUjTSAXdBVV95cUxPQWVPYkNhZTVhU1U2enAzNFJLOUlmejZHNDZTem9zZG5KaGx6ZkVxTU5MeHlRTlhRLWdlTWZ4ZFZMbGxVUkRDckRBc1NrYlNubWpfUzUyTHljWmI5ejRyWHlkNTJXcjlURzktZkVwYmlxS0poZ29COA?oc=5",
-     "published": "2026-09-29"
-    },
-    {
-     "title": "이스타항공, 액티브 시니어 공략…큰 글자·항공권 할인 도입",
-     "outlet": "뉴스핌",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1xckVBb0RfZFBocXU2NEpWa0RHSDRvbnBzcHN5Zmcwb2hXRV9mczM0YlZsdFB0WmVCVXpucHEtdjk0WS1BbkljanhreWVjeGo0azRZZlJaa1hVNmlC?oc=5",
-     "published": "2026-09-29"
-    }
-   ],
-   "status": "stale"
-  },
-  {
    "id": "jinair-09c726eef1",
    "airline_id": "jinair",
    "airline": "진에어",
@@ -4756,6 +4588,58 @@
    "status": "stale"
   },
   {
+   "id": "h-other-605ee56f95",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "EXPIRED: Catch Nelly Live at Muckleshoot Casino Resort and Save 30% on Tickets!",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "EXPIRED: Catch Nelly Live at Muckleshoot Casino Resort and Save 30% on Tickets!",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWkEySER6MlZqU1g5b29VYV8zbVFLczktdW9iUTRkLUdXU2JITUN3M0Jzc3V6eGloVF80RlRqbFhSeU5hTGVQWkxZLXBzV3pNWUdjOTctcjk3MEpKVzEyeWNneW9yVEFxTDE2UkhIdG13dHlhUkZiWXN4elZvbTBIZEdfcnMxLUd1TGl4NFNwc3FFdTZXUXdMUmVvU2ROZThwMS16aWZVVHlCb1otT2dCeWhVTkpmd0Vr?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "30% 할인",
+   "verification": "news",
+   "first_published": "2026-10-08",
+   "last_published": "2026-10-08",
+   "first_seen": "2026-10-30T01:25:27+09:00",
+   "last_seen": "2026-10-30T01:25:27+09:00",
+   "articles": [
+    {
+     "title": "EXPIRED: Catch Nelly Live at Muckleshoot Casino Resort and Save 30% on Tickets!",
+     "outlet": "MyNorthwest.com",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWkEySER6MlZqU1g5b29VYV8zbVFLczktdW9iUTRkLUdXU2JITUN3M0Jzc3V6eGloVF80RlRqbFhSeU5hTGVQWkxZLXBzV3pNWUdjOTctcjk3MEpKVzEyeWNneW9yVEFxTDE2UkhIdG13dHlhUkZiWXN4elZvbTBIZEdfcnMxLUd1TGl4NFNwc3FFdTZXUXdMUmVvU2ROZThwMS16aWZVVHlCb1otT2dCeWhVTkpmd0Vr?oc=5",
+     "published": "2026-10-08"
+    }
+   ],
+   "status": "stale"
+  },
+  {
    "id": "turkish-ed654b3dcf",
    "airline_id": "turkish",
    "airline": "터키항공",
@@ -5046,6 +4930,53 @@
      "outlet": "scanx.trade",
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ0VLMzNzdGF4bmVac2JxUFJyOHhLcDh5WmlVNXZ2eVg2V3NQendXRndyLS1hX1JBUlJTRnVDUzlIRnBiV1d4akYydTB3bFNnTXR5Z1B2TThGMk9LelBtT1NmRi1Dd1NuaW9aeVNqN3puVi1FZ2dzaUdmc2Q5a19vVThla1dWOE5LZC1WTHpJYXFPVHBKQjNMZE9rc2VpY3pBcXBwYTl5cElUQnFISFZCcXVQcXREMkRjQUVtNV93?oc=5",
      "published": "2026-10-13"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-yeogi-28510b370c",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "패키지 여행에 할인 혜택 쏟아진다",
+   "headline": "‘패키지 여행에 할인 혜택 쏟아진다’...여기어때, 해외 패키지 특가 위크",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-15",
+   "last_published": "2026-10-15",
+   "first_seen": "2026-10-25T16:25:30+09:00",
+   "last_seen": "2026-10-25T16:25:30+09:00",
+   "articles": [
+    {
+     "title": "‘패키지 여행에 할인 혜택 쏟아진다’...여기어때, 해외 패키지 특가 위크",
+     "outlet": "일간대한뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jbFNBWG9UUkZNZFFQTUNSOG91S0ZxT2lKUVktUU52S1FfbVYtTEUzWTdTRVdvQjVxMVBsN3RtdEIzWHZqMkJSMkpUaHVPMHE4MEdNTWlXaVFQRUt1bVBxcEZDMDNaSFE?oc=5",
+     "published": "2026-10-15"
     }
    ],
    "status": "stale"
