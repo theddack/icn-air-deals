@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T17:43:24+09:00",
+ "generated_at": "2026-10-29T18:16:07+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2140,
+  "rss_items": 2217,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2265,
+  "outlet_items": 2258,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
   "articles_with_summary": 23,
-  "articles": 533,
-  "new_articles": 3,
+  "articles": 534,
+  "new_articles": 1,
   "deals": 74
  },
  "deals": [
@@ -3753,8 +3753,8 @@
    "conflicts": [],
    "evidence": {
     "discount": {
-     "title": "하얏트 호텔&리조트, 국내 객실 최대 20% 할인 프로모",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0ydUpYMGlhUTAtM3Z4SGxyRm5mSk9QNFNCUkUxdERrVzhUWWVNNlFTcHZ0TGpEcTNKd19TZHBVbFBjV2tUZ1dPQzIyN1laQmEwLVk1WkpRa0lzM0U3M010akRiMHZnQQ?oc=5"
+     "title": "하얏트, 국내 5개 호텔 최대 20% 할인…내년 봄까지 투숙",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFByamhXUmJxcjhBVmM1Ulg2RDZWX1BDSUtFVHdkZFBNYnpxNURBMGZ1b0E1alVqeXBIN2xOeF85WmRPU19hTk01NG54YURVTEVyRXJ2MnJqTWotWGd5S19BczMxVzZacVBJMkHSAW5BVV95cUxPQTBMd2diM1RSYTVXR21FTEtDbUxhcnpPNlRVZW5WbkZxTnpFMEx4VUJ6dTZ2ODFGSUI3YjIwQjNTb3N0a212TGtYLWhNMGMzX0o2NTd4NGlKVWJid0NFVVVuRWJaYWNSWGRYR2NUdw?oc=5"
     }
    },
    "from_icn": null,
@@ -3763,12 +3763,18 @@
    "first_published": "2026-10-29",
    "last_published": "2026-10-29",
    "first_seen": "2026-10-29T17:30:37+09:00",
-   "last_seen": "2026-10-29T17:30:37+09:00",
+   "last_seen": "2026-10-29T18:16:07+09:00",
    "articles": [
     {
      "title": "하얏트 호텔 & 리조트, 객실 특가 프로모션 진행",
      "outlet": "비욘드포스트",
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4SWVTWGlhNWtVTWpjWjlCLW8yUDVqT2FEckNkZjBJTG4yeXRQS2IwMk5GZGdic096NldvUUJ4RmhBLVhxY0sxSDRQRmwzNjZIZE1Cc3djVXFpY29hb2dvd1ZYX2NwZHMxS1RwRnJQanFwdDRFWEczcWVnUlI?oc=5",
+     "published": "2026-10-29"
+    },
+    {
+     "title": "하얏트, 국내 5개 호텔 최대 20% 할인…내년 봄까지 투숙",
+     "outlet": "지피코리아",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFByamhXUmJxcjhBVmM1Ulg2RDZWX1BDSUtFVHdkZFBNYnpxNURBMGZ1b0E1alVqeXBIN2xOeF85WmRPU19hTk01NG54YURVTEVyRXJ2MnJqTWotWGd5S19BczMxVzZacVBJMkHSAW5BVV95cUxPQTBMd2diM1RSYTVXR21FTEtDbUxhcnpPNlRVZW5WbkZxTnpFMEx4VUJ6dTZ2ODFGSUI3YjIwQjNTb3N0a212TGtYLWhNMGMzX0o2NTd4NGlKVWJid0NFVVVuRWJaYWNSWGRYR2NUdw?oc=5",
      "published": "2026-10-29"
     },
     {
