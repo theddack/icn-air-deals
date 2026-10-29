@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T03:51:32+09:00",
+ "generated_at": "2026-10-29T10:47:32+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2261,
+  "rss_items": 2293,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1946,
+  "outlet_items": 2223,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_enriched": 1,
   "mail_articles": 4,
   "mail_new_articles": 0,
-  "articles_with_summary": 22,
-  "articles": 519,
-  "new_articles": 3,
-  "deals": 66
+  "articles_with_summary": 23,
+  "articles": 525,
+  "new_articles": 6,
+  "deals": 71
  },
  "deals": [
   {
@@ -77,6 +77,62 @@
      "outlet": "LoyaltyLobby",
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM2FjZ1NYdVBSZFg5YUdWdVl2dFJ5eFJSVF80YkMyMkJoQXhhVGR5ZnAzUnZtRm1qaERPZmlPajVucGVJZ2xGLTl2LXA1SmcxeGF1QzlYbXhBdEZXRk9EQ2IwY2hOcVo1aTVaSFJjWlZ0RWg4ZTJpUzBReDZQOFVsUDRZa01YS25yamw2MGktSS1hUVJpSFZiMXRpazZsdlJObHYtSHh4VmVHV0JsY0VFQnFoNExwbmRsc18xZHEyYWM?oc=5",
      "published": "2026-10-22"
+    }
+   ],
+   "status": "upcoming"
+  },
+  {
+   "id": "h-skyscanner-30e6478f61",
+   "airline_id": "h-skyscanner",
+   "airline": "스카이스캐너",
+   "airlines_mentioned": [
+    "스카이스캐너"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.skyscanner.co.kr/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "11.11 쇼핑데이",
+   "headline": "스카이스캐너, ‘11.11 쇼핑데이’ 항공권 할인 프로모션",
+   "sale_start": "2026-11-01",
+   "sale_end": "2026-11-11",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "싱글리스트 요약문: …이스캐너가 다가오는 연말을 맞아 11월 1~11일 ‘11.11 쇼핑 데이’ 항공권 할인 프로모션을 진행한다.…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=777337"
+    },
+    "discount": {
+     "title": "싱글리스트 요약문: …, 캐세이퍼시픽 4곳은 스카이스캐너 단독 혜택을 선보여 여행객들은 최대 15%의 인하 혜택을 받을 수 있다.…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=777337"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 15%",
+   "verification": "news",
+   "first_published": "2026-10-29",
+   "last_published": "2026-10-29",
+   "first_seen": "2026-10-29T10:47:32+09:00",
+   "last_seen": "2026-10-29T10:47:32+09:00",
+   "articles": [
+    {
+     "title": "스카이스캐너, ‘11.11 쇼핑데이’ 항공권 할인 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wcG1weVU5cmhVV2V2eFJwaUFBdEMtUngxb1c3ZEdJWklCdkw5dWp4S2VRNmFtQkFySFFPMmdGUktVZXN1NmdWUmoyZ3NrVy1CT2kxeXBGdVVHTWw0WDlRcF9YVWNLQQ?oc=5",
+     "published": "2026-10-29"
     }
    ],
    "status": "upcoming"
@@ -3377,6 +3433,174 @@
    "status": "undated"
   },
   {
+   "id": "multi-e142fdb009",
+   "airline_id": "multi",
+   "airline": "여러 항공사",
+   "airlines_mentioned": [
+    "싱가포르항공",
+    "스쿠트항공"
+   ],
+   "kind": "mixed",
+   "category": "flight",
+   "section": "domestic",
+   "route": "domestic",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "domestic",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "싱가포르항공·스쿠트, 125개 목적지 특가…한국·제주 노선 포함",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "제주(CJU)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "route": {
+     "title": "싱가포르항공·스쿠트, 125개 목적지 특가…한국·제주 노선 포함",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5HNWRiajdHYW9CUFYta0JVZFpmdjM0Z3FnemtlMmJseDZVQ1Ezc2Q2cklRMWFqUnhMU183LUt3R2tvRnp3V3RldlpnQkFXNzlLQlZ4aXVzOUppdkdPUzVBbXlpQUloQQ?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-29",
+   "last_published": "2026-10-29",
+   "first_seen": "2026-10-29T10:47:32+09:00",
+   "last_seen": "2026-10-29T10:47:32+09:00",
+   "articles": [
+    {
+     "title": "싱가포르항공·스쿠트, 125개 목적지 특가…한국·제주 노선 포함",
+     "outlet": "뉴스트래블",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5HNWRiajdHYW9CUFYta0JVZFpmdjM0Z3FnemtlMmJseDZVQ1Ezc2Q2cklRMWFqUnhMU183LUt3R2tvRnp3V3RldlpnQkFXNzlLQlZ4aXVzOUppdkdPUzVBbXlpQUloQQ?oc=5",
+     "published": "2026-10-29"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-lotte-a66f90a566",
+   "airline_id": "h-lotte",
+   "airline": "롯데호텔",
+   "airlines_mentioned": [
+    "롯데호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "연말 호캉스 할인받고 즐기자",
+   "headline": "\"연말 호캉스 할인받고 즐기자\" 시그니엘 서울·부산, 브랜드 페스타",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "서울",
+    "부산"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-29",
+   "last_published": "2026-10-29",
+   "first_seen": "2026-10-29T10:47:32+09:00",
+   "last_seen": "2026-10-29T10:47:32+09:00",
+   "articles": [
+    {
+     "title": "\"연말 호캉스 할인받고 즐기자\" 시그니엘 서울·부산, 브랜드 페스타",
+     "outlet": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDaW55dU1LREVXcTJZcVYwejA3THBEZjExUEJVSDhOWXhHWVBYOGl5dWR5bS11dWpEazVSbmRoc3VJRFhURGJydHp3UnhLclNuek1OcDdEM0FiTmhaOEt5ZdIBeEFVX3lxTE8yMlpIZkIwWmNKMVM0dkJpbU5iQ0lJU1JNNDl6WTVTeURvTGl2ZTVicVNVVmFUaW9ZZ0ZYV2duYy1lRkNXenB0R1N5SjI0VHdYLXRiUU0wa1doZXdjRGNmMGxwLVBiZzJUOVJVUXc3ZEhueHZuV0pwdw?oc=5",
+     "published": "2026-10-29"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-agoda-190645e2cd",
+   "airline_id": "h-agoda",
+   "airline": "아고다",
+   "airlines_mentioned": [
+    "아고다"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.agoda.com/ko-kr/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "아고다, 유로비전 송 콘테스트 아시아 공식 여행 파트너 참여…방콕 여행 최대 25% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "방콕"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "아고다, 유로비전 송 콘테스트 아시아 공식 여행 파트너 참여…방콕 여행 최대 25% 할인",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZzVQZnBydzVnSlpYYXRpLUZQTlI0NGJJenE4VW1iYkcza2N0c2Q2dE1XYzlJRG5ldEJHX3Z6R2lQSzZyT0xhWTRlS0I3ZU44bWdmQldRUnh4VkFySVVOeGVDbXZ2TEJMOFp2SlB1X2FwMy1EbTBLNlBEbVhUTGRrOXFRcTNsdw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-10-29",
+   "last_published": "2026-10-29",
+   "first_seen": "2026-10-29T10:47:32+09:00",
+   "last_seen": "2026-10-29T10:47:32+09:00",
+   "articles": [
+    {
+     "title": "아고다, 유로비전 송 콘테스트 아시아 공식 여행 파트너 참여…방콕 여행 최대 25% 할인",
+     "outlet": "뷰티트래블뉴스",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZzVQZnBydzVnSlpYYXRpLUZQTlI0NGJJenE4VW1iYkcza2N0c2Q2dE1XYzlJRG5ldEJHX3Z6R2lQSzZyT0xhWTRlS0I3ZU44bWdmQldRUnh4VkFySVVOeGVDbXZ2TEJMOFp2SlB1X2FwMy1EbTBLNlBEbVhUTGRrOXFRcTNsdw?oc=5",
+     "published": "2026-10-29"
+    },
+    {
+     "title": "아고다, 아시아 음악 대회 공식 파트너로 숙박 할인 제공",
+     "outlet": "숙박매거진",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnd1Nia3pCX1lycXR6SUx2UEJIdV9NX2F0Ymp3WFU4NEVoMFlZUUZIdWtfc0IzYmFnN2d6XzJvY1BrdWVmOU1pbWJrQzdhVEZvZFVSaGVGbU1xQk5xMkpaT1ZzaDZqMWtlVTVqeTF1aks?oc=5",
+     "published": "2026-10-29"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "eastarjet-f127b7e5de",
    "airline_id": "eastarjet",
    "airline": "이스타항공",
@@ -4115,6 +4339,58 @@
      "title": "에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인",
      "outlet": "뉴스1",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LZFlVTWdSTHhZZF9GRkpVOUtXN0xwR0JiZHAxR1paY1BHY0daOG1abUQ2T25MWWNjNGV3bmgxblNNVWtCZFN0VkZRQVFyWDRqam9YcUxEMkp3U1ZVdS1aMFA0WWM?oc=5",
+     "published": "2026-10-07"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-accor-6fa35581c0",
+   "airline_id": "h-accor",
+   "airline": "아코르",
+   "airlines_mentioned": [
+    "아코르"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "ALL Accor+ Explorer 30% To 50% Off “Red Hot Rooms” October 2026 Update",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "ALL Accor+ Explorer 30% To 50% Off “Red Hot Rooms” October 2026 Update",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVGdXMFZmdXdMUjZmX0dwakJVWlF6MC0zeWR3eG9PVGJPV0FSZXZBOWs4TzdIWlE0eHJLcGJrdGtPS1JuWjRRalJHTVAwNmx5eGNyLVlkVl9PR0pVQWlObzNGNjdybUtXczU5N3F1VnZPbThrUFlIREo1R0FRQ18tMUwzMU5GWFNIYXc3aERWeGZRdURDbjBwX1MtcnRUV0JyeW5MSg?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 50%",
+   "verification": "news",
+   "first_published": "2026-10-07",
+   "last_published": "2026-10-07",
+   "first_seen": "2026-10-29T10:47:32+09:00",
+   "last_seen": "2026-10-29T10:47:32+09:00",
+   "articles": [
+    {
+     "title": "ALL Accor+ Explorer 30% To 50% Off “Red Hot Rooms” October 2026 Update",
+     "outlet": "LoyaltyLobby",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVGdXMFZmdXdMUjZmX0dwakJVWlF6MC0zeWR3eG9PVGJPV0FSZXZBOWs4TzdIWlE0eHJLcGJrdGtPS1JuWjRRalJHTVAwNmx5eGNyLVlkVl9PR0pVQWlObzNGNjdybUtXczU5N3F1VnZPbThrUFlIREo1R0FRQ18tMUwzMU5GWFNIYXc3aERWeGZRdURDbjBwX1MtcnRUV0JyeW5MSg?oc=5",
      "published": "2026-10-07"
     }
    ],
