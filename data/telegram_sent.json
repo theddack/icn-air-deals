@@ -155,27 +155,6 @@
     "closing_tomorrow": "2026-10-26"
    }
   },
-  "trinity-08820b7077": {
-   "info": {
-    "airline": "trinity",
-    "name": "가을겨울시즌국제선할인",
-    "sale_start": null,
-    "sale_end": "2026-10-31",
-    "dests": [],
-    "urls": [
-     "08820b7077",
-     "65a86b9ac6",
-     "65f80a9489",
-     "a2b7aa1e6c",
-     "b99e1df276",
-     "cb187eba69",
-     "dfe05160fb"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26"
-   }
-  },
   "jejuair-0c3cd04418": {
    "info": {
     "airline": "jejuair",
@@ -185,29 +164,6 @@
     "dests": [],
     "urls": [
      "0c3cd04418"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26"
-   }
-  },
-  "h-nol-868ebee9b5": {
-   "info": {
-    "airline": "h-nol",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-15",
-    "dests": [],
-    "urls": [
-     "147e769a93",
-     "617bc662c2",
-     "6d8a0cdd4e",
-     "868ebee9b5",
-     "c7b04a7419",
-     "d1e881d078",
-     "d3c77e0cab",
-     "dcbb6558dd",
-     "f93f1f602f"
     ]
    },
    "kinds": {
@@ -1591,6 +1547,70 @@
    "kinds": {
     "new": "2026-10-30"
    }
+  },
+  "h-nol-fb9502d421": {
+   "info": {
+    "airline": "h-nol",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-15",
+    "dests": [],
+    "last": "2026-10-23",
+    "urls": [
+     "147e769a93",
+     "617bc662c2",
+     "6d8a0cdd4e",
+     "868ebee9b5",
+     "c7b04a7419",
+     "d1e881d078",
+     "d3c77e0cab",
+     "dcbb6558dd",
+     "f93f1f602f",
+     "fb9502d421"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "trinity-08820b7077": {
+   "info": {
+    "airline": "trinity",
+    "name": "가을겨울시즌국제선할인",
+    "sale_start": null,
+    "sale_end": "2026-10-31",
+    "dests": [],
+    "last": "2026-10-21",
+    "urls": [
+     "08820b7077",
+     "65a86b9ac6",
+     "65f80a9489",
+     "a2b7aa1e6c",
+     "b99e1df276",
+     "cb187eba69",
+     "dfe05160fb"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26",
+    "closing_tomorrow": "2026-10-30"
+   }
+  },
+  "h-accor-09eedd0a2c": {
+   "info": {
+    "airline": "h-accor",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-30",
+    "urls": [
+     "09eedd0a2c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-30"
+   }
   }
  },
  "slots": {
@@ -1614,8 +1634,9 @@
   },
   "2026-10-30": {
    "morning": "sent",
-   "afternoon": "sent"
+   "afternoon": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-10-30T15:32:23+09:00"
+ "saved_at": "2026-10-30T18:07:52+09:00"
 }
