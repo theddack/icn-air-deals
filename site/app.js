@@ -530,8 +530,26 @@
   }
 
   // ---------------------------------------------------------------- 땡처리닷컴 판매가 (인천 출발)
-  var tt = null, ttAll = false;
+  var tt = null, ttAll = false, ph = null;
   var TT_PREVIEW = 6;
+  var PH_WINDOW = 30;
+
+  // 가격 이력(price_history.json)으로 본 이 도착지의 최근 최저. 기록이 30일보다 짧으면 쌓인 날수만큼만 말한다
+  function ttLow(x) {
+    var rec = ph && ph.dests && ph.dests[(x.dest_code || x.destination) + (x.trip === "oneway" ? ":oneway" : "")];
+    if (!rec || !tt.fetched_on) return "";
+    var DAY = 86400000, today = Date.parse(tt.fetched_on + "T00:00:00Z"), prev = null, first = today;
+    Object.keys(rec.days).forEach(function (d) {
+      var t = Date.parse(d + "T00:00:00Z");
+      if (t >= today || today - t >= PH_WINDOW * DAY) return;
+      if (t < first) first = t;
+      if (prev === null || rec.days[d].price < prev) prev = rec.days[d].price;
+    });
+    if (prev === null) return "";
+    var n = Math.round((today - first) / DAY) + 1;
+    if (x.price < prev) return ' · <b class="tt-low">최근 ' + n + "일 중 최저가</b>";
+    return " · 최근 " + n + "일 최저 " + Number(prev).toLocaleString("ko-KR") + "원";
+  }
 
   // 도착지마다 가장 싼 상품 하나와 그 도착지 상품 수
   function ttByDest(items) {
@@ -560,7 +578,7 @@
         '<span class="sf-route">인천 → ' + esc(x.destination) + "</span>" +
         '<span class="sf-price">' + Number(x.price).toLocaleString("ko-KR") + "원~</span>" +
         '<span class="sf-meta">' + esc(x.airline) + " · " + (x.direct ? "직항" : "경유") + " · " + (x.trip === "oneway" ? "편도" : "왕복") +
-          " · 출발 " + md(x.depart_from) + " ~ " + md(x.depart_to) + (g.n > 1 ? " · 상품 " + g.n + "개" : "") + " ↗</span></a></li>";
+          " · 출발 " + md(x.depart_from) + " ~ " + md(x.depart_to) + (g.n > 1 ? " · 상품 " + g.n + "개" : "") + ttLow(x) + " ↗</span></a></li>";
     }).join("");
     var more = document.getElementById("tt-more");
     more.hidden = groups.length <= TT_PREVIEW;
@@ -1214,6 +1232,11 @@
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (data) { tt = data; if (deals.length) render(); })
     .catch(function () { tt = null; });
+  // 땡처리닷컴 도착지별 가격 이력. 없으면 '최근 최저' 표시만 빠진다
+  fetch("price_history.json", { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (data) { ph = data; if (tt && deals.length) renderTtang(); })
+    .catch(function () { ph = null; });
   document.getElementById("tt-more").addEventListener("click", function () { ttAll = !ttAll; renderTtang(); });
 
   fetch("secretflying.json", { cache: "no-store" })

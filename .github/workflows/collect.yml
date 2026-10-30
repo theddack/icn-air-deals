@@ -97,6 +97,7 @@ jobs:
           if [ -f data/flights.json ]; then cp data/flights.json _site/; fi
           if [ -f data/secretflying.json ]; then cp data/secretflying.json _site/; fi
           if [ -f data/ttang.json ]; then cp data/ttang.json _site/; fi
+          if [ -f data/price_history.json ]; then cp data/price_history.json _site/; fi
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

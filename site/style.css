@@ -258,6 +258,7 @@ details li span { color: var(--faint); margin-left: 4px; font-variant-numeric: t
 .sf-route { font-weight: 700; overflow-wrap: anywhere; }
 .sf-price { font-weight: 800; color: var(--coral); white-space: nowrap; font-variant-numeric: tabular-nums; }
 .sf-meta { grid-column: 1 / -1; font-size: 13px; color: var(--faint); }
+.tt-low { color: var(--coral); font-weight: 700; }
 .sf-note { margin: 8px 0 0; font-size: 13px; color: var(--muted); }
 .more { margin-top: 8px; width: 100%; min-height: 44px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px; font-weight: 700; color: var(--btn-ink); }
 

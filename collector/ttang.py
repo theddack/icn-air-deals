@@ -9,6 +9,8 @@ python -m collector.ttang
 - 판매 상품 목록이라 매일 통째로 바꾼다(지난 상품은 남기지 않는다). 가격은 수집 시각 기준 표시 총액이며
   좌석·날짜에 따라 달라질 수 있다.
 - 실패하거나 0건이면 이전 파일을 두고 다음 수집 때 다시 시도한다 (행사 수집·배포는 계속).
+- 판매 목록은 매일 바뀌므로, 받은 날마다 도착지별 최저 총액만 data/price_history.json에 HISTORY_DAYS일 쌓는다.
+  화면의 '30일 최저'와 찜 알림의 기준가로 쓴다.
 """
 
 import html
@@ -16,12 +18,15 @@ import json
 import re
 import sys
 import urllib.request
+from datetime import timedelta
 from pathlib import Path
 
 from .status import KST, today_kst
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "ttang.json"
+HISTORY = ROOT / "data" / "price_history.json"
+HISTORY_DAYS = 90
 LIST_URL = "https://www.ttang.com/ttangair/search/ttang/list.do?arr0=A2ALL&dep0=ICN&orderBy=LOW_COST"
 SOURCE = LIST_URL + "&scale=200&page=1"  # 한 번에 전부 (2026-10-25: 출발지 섞여 164건, 인천 114건)
 USER_AGENT = "icn-air-deals/0.1 (+https://github.com/theddack/icn-air-deals)"
@@ -60,6 +65,29 @@ def parse(page):
     return sorted(out, key=lambda x: (x["price"], x["destination"]))
 
 
+def history_key(item):
+    """도착지(공항 코드, 없으면 이름) + 편도 여부. 왕복과 편도 가격은 따로 본다."""
+    key = item.get("dest_code") or item["destination"]
+    return key + (":oneway" if item.get("trip") == "oneway" else "")
+
+
+def add_history(hist, items, day):
+    """그날 도착지별 최저 총액을 더하고 HISTORY_DAYS일 지난 날은 뺀다 → 새 이력."""
+    dests = {k: {**v, "days": dict(v.get("days", {}))} for k, v in (hist.get("dests") or {}).items()}
+    for it in items:
+        k = history_key(it)
+        rec = dests.setdefault(k, {"destination": it["destination"], "trip": it.get("trip"), "days": {}})
+        rec["destination"] = it["destination"]
+        low = rec["days"].get(day.isoformat())
+        if not low or it["price"] < low["price"]:
+            rec["days"][day.isoformat()] = {"price": it["price"], "airline": it["airline"]}
+    cutoff = (day - timedelta(days=HISTORY_DAYS)).isoformat()
+    for rec in dests.values():
+        rec["days"] = {d: v for d, v in sorted(rec["days"].items()) if d > cutoff}
+    return {"source": LIST_URL, "keep_days": HISTORY_DAYS,
+            "dests": {k: v for k, v in sorted(dests.items()) if v["days"]}}
+
+
 def fetch():
     req = urllib.request.Request(SOURCE, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=30) as res:
@@ -91,6 +119,11 @@ def main(today=None, now=None):
     now = now or datetime.now(KST)
     OUT.write_text(json.dumps({"fetched_on": today.isoformat(), "fetched_at": now.isoformat(timespec="minutes"),
                                "source": LIST_URL, "items": items}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    try:
+        hist = json.loads(HISTORY.read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        hist = {}
+    HISTORY.write_text(json.dumps(add_history(hist, items, today), ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"[ttang] 인천 출발 땡처리 항공권 {len(items)}건")
     return 0
 
