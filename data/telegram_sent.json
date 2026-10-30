@@ -1542,23 +1542,6 @@
     "new": "2026-10-30"
    }
   },
-  "airpremia-64c07b4ecc": {
-   "info": {
-    "airline": "airpremia",
-    "name": "블랙프라이데이",
-    "sale_start": null,
-    "sale_end": null,
-    "dests": [],
-    "last": "2026-10-30",
-    "urls": [
-     "64c07b4ecc",
-     "88f04af486"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-30"
-   }
-  },
   "h-other-0db3c57e6e": {
    "info": {
     "airline": "h-other",
@@ -1590,6 +1573,24 @@
    "kinds": {
     "new": "2026-10-30"
    }
+  },
+  "airpremia-b1d6c87d91": {
+   "info": {
+    "airline": "airpremia",
+    "name": "블랙프라이데이",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-30",
+    "urls": [
+     "64c07b4ecc",
+     "88f04af486",
+     "b1d6c87d91"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-30"
+   }
   }
  },
  "slots": {
@@ -1616,5 +1617,5 @@
    "afternoon": "sent"
   }
  },
- "saved_at": "2026-10-30T13:23:19+09:00"
+ "saved_at": "2026-10-30T15:32:23+09:00"
 }
