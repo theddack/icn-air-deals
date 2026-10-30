@@ -1448,24 +1448,6 @@
     "new": "2026-10-29"
    }
   },
-  "h-marriott-c2e930026f": {
-   "info": {
-    "airline": "h-marriott",
-    "name": "",
-    "sale_start": "2026-10-30",
-    "sale_end": "2026-11-15",
-    "dests": [],
-    "last": "2026-10-22",
-    "urls": [
-     "c2e930026f"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26",
-    "upcoming_d3": "2026-10-27",
-    "upcoming_d1": "2026-10-29"
-   }
-  },
   "h-ihg-744888ff6e": {
    "info": {
     "airline": "h-ihg",
@@ -1497,6 +1479,60 @@
    "kinds": {
     "new": "2026-10-29"
    }
+  },
+  "h-marriott-c2e930026f": {
+   "info": {
+    "airline": "h-marriott",
+    "name": "",
+    "sale_start": "2026-10-30",
+    "sale_end": "2026-11-15",
+    "dests": [],
+    "last": "2026-10-22",
+    "urls": [
+     "c2e930026f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26",
+    "upcoming_d3": "2026-10-27",
+    "upcoming_d1": "2026-10-29",
+    "start_today": "2026-10-30"
+   }
+  },
+  "airpremia-bbdfa1be87": {
+   "info": {
+    "airline": "airpremia",
+    "name": "블프할인",
+    "sale_start": "2026-11-02",
+    "sale_end": "2026-11-15",
+    "dests": [],
+    "last": "2026-10-30",
+    "urls": [
+     "bbdfa1be87"
+    ]
+   },
+   "kinds": {
+    "upcoming_d3": "2026-10-30",
+    "new": "2026-10-30"
+   }
+  },
+  "trinity-95cb3f43e8": {
+   "info": {
+    "airline": "trinity",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "제주"
+    ],
+    "last": "2026-10-30",
+    "urls": [
+     "95cb3f43e8"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-30"
+   }
   }
  },
  "slots": {
@@ -1517,7 +1553,10 @@
    "morning": "sent",
    "afternoon": "sent",
    "evening": "sent"
+  },
+  "2026-10-30": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-10-29T18:20:30+09:00"
+ "saved_at": "2026-10-30T09:18:39+09:00"
 }
