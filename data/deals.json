@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T01:25:27+09:00",
+ "generated_at": "2026-10-30T09:14:18+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2191,
+  "rss_items": 2183,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1975,
+  "outlet_items": 2095,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_enriched": 1,
   "mail_articles": 4,
   "mail_new_articles": 0,
-  "articles_with_summary": 23,
-  "articles": 536,
-  "new_articles": 1,
-  "deals": 73
+  "articles_with_summary": 24,
+  "articles": 538,
+  "new_articles": 2,
+  "deals": 75
  },
  "deals": [
   {
@@ -77,6 +77,64 @@
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wcG1weVU5cmhVV2V2eFJwaUFBdEMtUngxb1c3ZEdJWklCdkw5dWp4S2VRNmFtQkFySFFPMmdGUktVZXN1NmdWUmoyZ3NrVy1CT2kxeXBGdVVHTWw0WDlRcF9YVWNLQQ?oc=5",
      "published": "2026-10-29"
+    }
+   ],
+   "status": "upcoming"
+  },
+  {
+   "id": "airpremia-bbdfa1be87",
+   "airline_id": "airpremia",
+   "airline": "에어프레미아",
+   "airlines_mentioned": [
+    "에어프레미아"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airpremia.com/",
+   "iata": [
+    "YP"
+   ],
+   "agencies": [],
+   "event_name": "블프 할인",
+   "headline": "에어프레미아, 최대 72% '블프 할인' 프로모션",
+   "sale_start": "2026-11-02",
+   "sale_end": "2026-11-15",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "싱글리스트 요약문: …전 노선을 대상으로 블랙프라이데이 할인 프로모션을 11월 2~15일 공식 홈페이지와 모바일 앱에서 진행한다.…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=777666"
+    },
+    "discount": {
+     "title": "에어프레미아, 최대 72% '블프 할인' 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpckR5S2Jidk9WZnFFeGdWaE1fcWF0UWhrN0dBYUdCeUVEVWNtN0FRX1pYS3JNOGxnYm9nNjJLQWtqQzctdGRMTkprWGRHeEFBTXNGejlmQkQ5OXoxT0dRcEtycllvdw?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 72%",
+   "verification": "news",
+   "first_published": "2026-10-30",
+   "last_published": "2026-10-30",
+   "first_seen": "2026-10-30T09:14:18+09:00",
+   "last_seen": "2026-10-30T09:14:18+09:00",
+   "articles": [
+    {
+     "title": "에어프레미아, 최대 72% '블프 할인' 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpckR5S2Jidk9WZnFFeGdWaE1fcWF0UWhrN0dBYUdCeUVEVWNtN0FRX1pYS3JNOGxnYm9nNjJLQWtqQzctdGRMTkprWGRHeEFBTXNGejlmQkQ5OXoxT0dRcEtycllvdw?oc=5",
+     "published": "2026-10-30"
     }
    ],
    "status": "upcoming"
@@ -3692,6 +3750,65 @@
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0ydUpYMGlhUTAtM3Z4SGxyRm5mSk9QNFNCUkUxdERrVzhUWWVNNlFTcHZ0TGpEcTNKd19TZHBVbFBjV2tUZ1dPQzIyN1laQmEwLVk1WkpRa0lzM0U3M010akRiMHZnQQ?oc=5",
      "published": "2026-10-29"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "trinity-95cb3f43e8",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "domestic",
+   "route": "domestic",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "domestic",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "트리니티항공, 제주도·관광공사와 제주행 항공권 프로모션",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "제주(CJU)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "route": {
+     "title": "트리니티항공, 제주도·관광공사와 제주행 항공권 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9KMjZMNmV2cTdieGk4eEsxdFBHQU42dXc2ZUlFaEl6VVp0MG5BSWo2eFZ5RVRNcTVPYmdrcXdYTmI4V1NpX3BwS2pVWE9DZXhLbGFWelVBRXdlUlZjd21ZWXBKMVVrZTQ?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-30",
+   "last_published": "2026-10-30",
+   "first_seen": "2026-10-30T09:14:18+09:00",
+   "last_seen": "2026-10-30T09:14:18+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공, 제주도·관광공사와 제주행 항공권 프로모션",
+     "outlet": "팍스경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9KMjZMNmV2cTdieGk4eEsxdFBHQU42dXc2ZUlFaEl6VVp0MG5BSWo2eFZ5RVRNcTVPYmdrcXdYTmI4V1NpX3BwS2pVWE9DZXhLbGFWelVBRXdlUlZjd21ZWXBKMVVrZTQ?oc=5",
+     "published": "2026-10-30"
     }
    ],
    "status": "undated"

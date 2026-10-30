@@ -4118,5 +4118,32 @@
   "published": "2026-10-08",
   "first_seen": "2026-10-30T01:25:27+09:00",
   "lang": "en"
+ },
+ {
+  "title": "트리니티항공, 제주도·관광공사와 제주행 항공권 프로모션",
+  "outlet": "팍스경제TV",
+  "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9KMjZMNmV2cTdieGk4eEsxdFBHQU42dXc2ZUlFaEl6VVp0MG5BSWo2eFZ5RVRNcTVPYmdrcXdYTmI4V1NpX3BwS2pVWE9DZXhLbGFWelVBRXdlUlZjd21ZWXBKMVVrZTQ?oc=5",
+  "published": "2026-10-30",
+  "first_seen": "2026-10-30T09:14:18+09:00"
+ },
+ {
+  "title": "에어프레미아, 최대 72% '블프 할인' 프로모션",
+  "outlet": "싱글리스트",
+  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpckR5S2Jidk9WZnFFeGdWaE1fcWF0UWhrN0dBYUdCeUVEVWNtN0FRX1pYS3JNOGxnYm9nNjJLQWtqQzctdGRMTkprWGRHeEFBTXNGejlmQkQ5OXoxT0dRcEtycllvdw?oc=5",
+  "published": "2026-10-30",
+  "first_seen": "2026-10-30T09:14:18+09:00",
+  "summary_facts": {
+   "url": "https://www.slist.kr/news/articleView.html?idxno=777666",
+   "outlet": "싱글리스트",
+   "fields": {
+    "sale_start": "2026-11-02",
+    "sale_end": "2026-11-15",
+    "discount": "153만7800원부터"
+   },
+   "evidence": {
+    "sale": "…전 노선을 대상으로 블랙프라이데이 할인 프로모션을 11월 2~15일 공식 홈페이지와 모바일 앱에서 진행한다.…",
+    "discount": "153만7800원부터다."
+   }
+  }
  }
 ]
