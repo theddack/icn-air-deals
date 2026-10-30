@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T15:27:42+09:00",
+ "generated_at": "2026-10-30T18:03:08+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2290,
+  "rss_items": 2272,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2180,
+  "outlet_items": 2117,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
   "articles_with_summary": 25,
-  "articles": 555,
+  "articles": 560,
   "new_articles": 5,
-  "deals": 78
+  "deals": 79
  },
  "deals": [
   {
@@ -1159,7 +1159,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "트리니티항공, 제주 왕복 항공권 최대 2만원 할인···겨울 여행객 유치",
+   "headline": "트리니티항공, 제주행 왕복 항공권 최대 2만 원 할인 프로모션 진행",
    "sale_start": "2026-10-30",
    "sale_end": null,
    "travel_start": null,
@@ -1187,12 +1187,12 @@
      "url": "http://www.kdfnews.com/news/articleView.html?idxno=190168"
     },
     "discount": {
-     "title": "트리니티항공, 제주 왕복 항공권 최대 2만원 할인···겨울 여행객 유치",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9wSjBOX0VqMHhOTm43TURSVG1jVU5kV084QUlCRlU5WUx3ejlaeGpmYU5WZ1Y1cVN5bm9Qb2NURHJ6b0YwTXlwV1RXU1hMbVQzVWFUTTB1cXFrZERaalNqQXA1QnEzLVpJdUw4SGtLRndHY195SF9j0gF3QVVfeXFMT3BKME5fRWoweE5ObjdNRFJUbWNVTmRXTzhBSUJGVTlZTHd6OVp4amZhTlZnVjVxU3lub1BvY1REcnpvRjBNeXBXVFdTWExtVDNVYVRNMHVxcWtkRFpqU2pBcDVCcTMtWkl1TDhIa0tGd0djX3lIX2M?oc=5"
+     "title": "트리니티항공, 제주행 왕복 항공권 최대 2만 원 할인 프로모션 진행",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQR1JEUFlha0ZpU3JYdUZwcWpSYXhES2lfcHRnVTRybzgzNFhkUWt5dElxUlVKcm14XzdBdUJSM0xvVWJBa0wybm1mZVNGbDFQbW83cmIzYjhHdko3WkRwRkRiN0NIend6Mm9sbW5OLVd6OENjNUp4dVZrQW5WT0RZcklQZGRZZw?oc=5"
     },
     "route": {
-     "title": "영풍 석포제련소 앞 낙동강서 수달 포착... 트리니티항공, 제주 노선 할인 외 [시경Today-소재·정유·항공]",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YOW1sN19ZdUNCeHh4dERvWlhYblh5Mnh3SC1pN29TMnhHLTZ4M25qZjlUYUlULTJ2bFdOT3dXdEFhSWNkMEdNd3M0M0FhSzRXRF9ZMDhaamgyX2FvR253QVdnamc2S2J1T1hIZU5OUVE?oc=5"
+     "title": "트리니티항공, 제주행 왕복 항공권 최대 2만 원 할인 프로모션 진행",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQR1JEUFlha0ZpU3JYdUZwcWpSYXhES2lfcHRnVTRybzgzNFhkUWt5dElxUlVKcm14XzdBdUJSM0xvVWJBa0wybm1mZVNGbDFQbW83cmIzYjhHdko3WkRwRkRiN0NIend6Mm9sbW5OLVd6OENjNUp4dVZrQW5WT0RZcklQZGRZZw?oc=5"
     }
    },
    "from_icn": "no",
@@ -1201,8 +1201,14 @@
    "first_published": "2026-10-30",
    "last_published": "2026-10-30",
    "first_seen": "2026-10-30T09:14:18+09:00",
-   "last_seen": "2026-10-30T15:27:42+09:00",
+   "last_seen": "2026-10-30T18:03:08+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 제주행 왕복 항공권 최대 2만 원 할인 프로모션 진행",
+     "outlet": "뷰티트래블뉴스",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQR1JEUFlha0ZpU3JYdUZwcWpSYXhES2lfcHRnVTRybzgzNFhkUWt5dElxUlVKcm14XzdBdUJSM0xvVWJBa0wybm1mZVNGbDFQbW83cmIzYjhHdko3WkRwRkRiN0NIend6Mm9sbW5OLVd6OENjNUp4dVZrQW5WT0RZcklQZGRZZw?oc=5",
+     "published": "2026-10-30"
+    },
     {
      "title": "트리니티항공, 제주 왕복 항공권 최대 2만원 할인···겨울 여행객 유치",
      "outlet": "뉴스프리존",
@@ -1672,7 +1678,7 @@
    "status": "live"
   },
   {
-   "id": "h-nol-868ebee9b5",
+   "id": "h-nol-fb9502d421",
    "airline_id": "h-nol",
    "airline": "놀(야놀자)",
    "airlines_mentioned": [
@@ -1701,7 +1707,8 @@
     "가평"
    ],
    "conditions": [
-    "쿠폰"
+    "쿠폰",
+    "선착순"
    ],
    "conflicts": [],
    "evidence": {
@@ -1720,7 +1727,7 @@
    "first_published": "2026-10-22",
    "last_published": "2026-10-23",
    "first_seen": "2026-10-22T09:40:54+09:00",
-   "last_seen": "2026-10-23T12:51:51+09:00",
+   "last_seen": "2026-10-30T18:03:08+09:00",
    "articles": [
     {
      "title": "NOL, 가평군과 숙소 할인 쿠폰…7만 원 이상 예약 시 3만 원 할인",
@@ -1774,6 +1781,12 @@
      "title": "\"가평 가을여행 떠나볼까\" NOL, 숙박비 최대 3만원 할인",
      "outlet": "ER 이코노믹리뷰",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DQTlRRFZhNFA0QXEwT1dWN3JnNmRUVXMxWlIxY0pzUkNCaHdjOUhrTGRuclRPMVB1SnhfMktVRXVaNEIzdzRkdUFSYm1sMXlHd2ZwNHVQWVZOUmhzTzNkRGNNWUJRR3NkWlc2NA?oc=5",
+     "published": "2026-10-22"
+    },
+    {
+     "title": "NOL, 가평 호텔·모텔·펜션 할인쿠폰 선착순 지급…최대 3만원",
+     "outlet": "IT타임스",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95MzBqOTQxMjZxU3hhN3lySFNJLU90Z1FBTVp5MEZ5R3oxblh3QklIX094ZkZNWndWTjVCZWR5aV9YS2htQUtYdXgzU1VKQy1iLVlyQk1oZW8xeFpSVXp1TEhxLTlmTVRI?oc=5",
      "published": "2026-10-22"
     }
    ],
@@ -3687,7 +3700,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "연말 호캉스 할인받고 즐기자",
-   "headline": "시그니엘 서울·부산, 연말연시 '호캉스' 위한 '브랜드 페스타' 선봬",
+   "headline": "시그니엘 서울·부산, 연말 맞아 객실 최대 20% 할인",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -3699,15 +3712,26 @@
    ],
    "conditions": [],
    "conflicts": [],
-   "evidence": {},
+   "evidence": {
+    "discount": {
+     "title": "시그니엘 서울·부산, 연말 맞아 객실 최대 20% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOFY3UkQ5QWpmM3RGSkZ1UHQ0NVFuZlZ5dDQtakpMS0FkYjZCcGFfRXZKNzJzYVRtNFZFMUw3VnhRTWxxMml2VnJWVzVZeGYzaG5sMEhyazBYeTJVY1lMYlVsa1hDYVdoME5lMVZhMDNOQ0FpdEQ1MU1mQ3VNdkM3UVVR?oc=5"
+    }
+   },
    "from_icn": null,
-   "discount": null,
+   "discount": "최대 20%",
    "verification": "news",
    "first_published": "2026-10-29",
    "last_published": "2026-10-29",
    "first_seen": "2026-10-29T10:47:32+09:00",
-   "last_seen": "2026-10-29T17:43:24+09:00",
+   "last_seen": "2026-10-30T18:03:08+09:00",
    "articles": [
+    {
+     "title": "시그니엘 서울·부산, 연말 맞아 객실 최대 20% 할인",
+     "outlet": "아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOFY3UkQ5QWpmM3RGSkZ1UHQ0NVFuZlZ5dDQtakpMS0FkYjZCcGFfRXZKNzJzYVRtNFZFMUw3VnhRTWxxMml2VnJWVzVZeGYzaG5sMEhyazBYeTJVY1lMYlVsa1hDYVdoME5lMVZhMDNOQ0FpdEQ1MU1mQ3VNdkM3UVVR?oc=5",
+     "published": "2026-10-29"
+    },
     {
      "title": "시그니엘 서울·부산, 연말연시 '호캉스' 위한 '브랜드 페스타' 선봬",
      "outlet": "비즈월드",
@@ -3911,7 +3935,7 @@
    "kind": "domestic",
    "category": "flight",
    "section": "flight",
-   "route": null,
+   "route": "international",
    "route_text": null,
    "scope": null,
    "lang": "ko",
@@ -3923,12 +3947,17 @@
    ],
    "agencies": [],
    "event_name": "블랙프라이데이",
-   "headline": "에어프레미아, 전 노선 ‘블랙프라이데이’ 프로모션 진행",
+   "headline": "에어프레미아, 인천 출발 전 노선 대상 ‘블랙프라이데이’ 프로모션 진행",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
-   "routes": [],
+   "routes": [
+    {
+     "origin": "인천(ICN)",
+     "destination": null
+    }
+   ],
    "regions": [],
    "conditions": [],
    "conflicts": [],
@@ -3936,16 +3965,26 @@
     "discount": {
      "title": "에어프레미아, 전 노선 블랙프라이데이 할인…최대 72% 할인",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sOEFSNEd4Q1R1V2FPSDF6SVlna1J0dHBaanRBX3prbHozb0dITmVZSS1KZlpkZWU4bExxTEtJSmZ5eTdZdENNb25QV1VwbWQ5WGNlT01oWmZwMmN6a2swODExR0ZGQkVuR2Rr?oc=5"
+    },
+    "route": {
+     "title": "에어프레미아, 인천 출발 전 노선 대상 ‘블랙프라이데이’ 프로모션 진행",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQeV9xbTU5eC1vdzRKdENJcTBCeGhZSnFkSEJCR0lnMEpacFIwc25qN2ZtN252RVhlMlJOMkxObHFHYTRPcmNxUjZ4QlliTGp4bnZpY211SnM4b2NDOG9PanNmM2VyLUdTMUpfMkZfcy1zUQ?oc=5"
     }
    },
-   "from_icn": "unknown",
+   "from_icn": "yes",
    "discount": "최대 72%",
    "verification": "news",
    "first_published": "2026-10-30",
    "last_published": "2026-10-30",
    "first_seen": "2026-10-30T13:18:25+09:00",
-   "last_seen": "2026-10-30T15:27:42+09:00",
+   "last_seen": "2026-10-30T18:03:08+09:00",
    "articles": [
+    {
+     "title": "에어프레미아, 인천 출발 전 노선 대상 ‘블랙프라이데이’ 프로모션 진행",
+     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQeV9xbTU5eC1vdzRKdENJcTBCeGhZSnFkSEJCR0lnMEpacFIwc25qN2ZtN252RVhlMlJOMkxObHFHYTRPcmNxUjZ4QlliTGp4bnZpY211SnM4b2NDOG9PanNmM2VyLUdTMUpfMkZfcy1zUQ?oc=5",
+     "published": "2026-10-30"
+    },
     {
      "title": "에어프레미아, 전 노선 ‘블랙프라이데이’ 프로모션 진행",
      "outlet": "이뉴스투데이",
@@ -3962,6 +4001,60 @@
      "title": "에어프레미아, 전 노선 블랙프라이데이 특가…최대 72% 할인",
      "outlet": "서울경제TV",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fekFsQktaUE1iVFYtc2F3TW5pdkFScEowREpTNGozaFY1R20tSVR2ZGtFbGxpU3Z6UjFpeWIyV0dFWE1yNGNwc1A5cnhldTFzZmFWajhwTFRsSW1yOWFoeDl6aU0?oc=5",
+     "published": "2026-10-30"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-accor-09eedd0a2c",
+   "airline_id": "h-accor",
+   "airline": "아코르",
+   "airlines_mentioned": [
+    "아코르"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "ALL Accor Launches Stay for More Offer with up to 25% off Flexible Rates across Europe and Beyond",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "유럽"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "ALL Accor Launches Stay for More Offer with up to 25% off Flexible Rates across Europe and Beyond",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOTQ4NHpKaG5mZ29ZWHhwRHZ0MnVjTXRsOGNhMUlMZXMxa0xlUFlLbGRmRGFES2FaRmFYZDJtdWJtSms1b196V3Z6MWJSZlhtT1ZkWUR2ck9WeWlqUjdsakcwYzhuS29SQlpNazkxUnc5ZFZKRmNMQmhwVUJpSUo0RVlLYjdjeHg5V2EyNzNreWxDTHBTUXl0dzBpTFFnWE9FdEV0U0JOWXo5WXFxSkMtUHJmVXlWQ0daazJPemp5LVpLdw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-10-30",
+   "last_published": "2026-10-30",
+   "first_seen": "2026-10-30T18:03:08+09:00",
+   "last_seen": "2026-10-30T18:03:08+09:00",
+   "articles": [
+    {
+     "title": "ALL Accor Launches Stay for More Offer with up to 25% off Flexible Rates across Europe and Beyond",
+     "outlet": "Breaking Travel News",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOTQ4NHpKaG5mZ29ZWHhwRHZ0MnVjTXRsOGNhMUlMZXMxa0xlUFlLbGRmRGFES2FaRmFYZDJtdWJtSms1b196V3Z6MWJSZlhtT1ZkWUR2ck9WeWlqUjdsakcwYzhuS29SQlpNazkxUnc5ZFZKRmNMQmhwVUJpSUo0RVlLYjdjeHg5V2EyNzNreWxDTHBTUXl0dzBpTFFnWE9FdEV0U0JOWXo5WXFxSkMtUHJmVXlWQ0daazJPemp5LVpLdw?oc=5",
      "published": "2026-10-30"
     }
    ],
