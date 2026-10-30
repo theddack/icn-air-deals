@@ -1499,7 +1499,7 @@
     "start_today": "2026-10-30"
    }
   },
-  "airpremia-bbdfa1be87": {
+  "airpremia-494cf833d5": {
    "info": {
     "airline": "airpremia",
     "name": "블프할인",
@@ -1508,6 +1508,8 @@
     "dests": [],
     "last": "2026-10-30",
     "urls": [
+     "494cf833d5",
+     "5d9f9f4e14",
      "bbdfa1be87"
     ]
    },
@@ -1516,18 +1518,73 @@
     "new": "2026-10-30"
    }
   },
-  "trinity-95cb3f43e8": {
+  "trinity-71137dd51c": {
    "info": {
     "airline": "trinity",
     "name": "",
-    "sale_start": null,
+    "sale_start": "2026-10-30",
     "sale_end": null,
     "dests": [
      "제주"
     ],
     "last": "2026-10-30",
     "urls": [
-     "95cb3f43e8"
+     "1cd8305e4f",
+     "6ebc463673",
+     "71137dd51c",
+     "715eb165b3",
+     "95cb3f43e8",
+     "994746e5f0",
+     "c590d692e8"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-30"
+   }
+  },
+  "airpremia-64c07b4ecc": {
+   "info": {
+    "airline": "airpremia",
+    "name": "블랙프라이데이",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-30",
+    "urls": [
+     "64c07b4ecc",
+     "88f04af486"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-30"
+   }
+  },
+  "h-other-0db3c57e6e": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-30",
+    "urls": [
+     "0db3c57e6e"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-30"
+   }
+  },
+  "h-other-11349b1fd3": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-30",
+    "urls": [
+     "11349b1fd3"
     ]
    },
    "kinds": {
@@ -1555,8 +1612,9 @@
    "evening": "sent"
   },
   "2026-10-30": {
-   "morning": "sent"
+   "morning": "sent",
+   "afternoon": "sent"
   }
  },
- "saved_at": "2026-10-30T09:18:39+09:00"
+ "saved_at": "2026-10-30T13:23:19+09:00"
 }
