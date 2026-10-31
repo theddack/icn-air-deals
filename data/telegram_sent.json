@@ -1184,22 +1184,6 @@
     "new": "2026-10-27"
    }
   },
-  "vietjet-247b5c7050": {
-   "info": {
-    "airline": "vietjet",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-01",
-    "dests": [],
-    "last": "2026-10-27",
-    "urls": [
-     "247b5c7050"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-27"
-   }
-  },
   "h-paradise-aff283a0a8": {
    "info": {
     "airline": "h-paradise",
@@ -1301,23 +1285,6 @@
    },
    "kinds": {
     "new": "2026-10-28"
-   }
-  },
-  "h-skyscanner-30e6478f61": {
-   "info": {
-    "airline": "h-skyscanner",
-    "name": "1111쇼핑데이",
-    "sale_start": "2026-11-01",
-    "sale_end": "2026-11-11",
-    "dests": [],
-    "last": "2026-10-29",
-    "urls": [
-     "30e6478f61"
-    ]
-   },
-   "kinds": {
-    "upcoming_d3": "2026-10-29",
-    "new": "2026-10-29"
    }
   },
   "h-other-c47c29906a": {
@@ -1645,6 +1612,48 @@
    "kinds": {
     "new": "2026-10-31"
    }
+  },
+  "vietjet-247b5c7050": {
+   "info": {
+    "airline": "vietjet",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-01",
+    "dests": [
+     "베트남"
+    ],
+    "last": "2026-10-28",
+    "urls": [
+     "247b5c7050",
+     "4833979a01",
+     "516c59603d",
+     "52523891f1",
+     "9f10661e3a",
+     "a8509a5901"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-27",
+    "closing_tomorrow": "2026-10-31"
+   }
+  },
+  "h-skyscanner-30e6478f61": {
+   "info": {
+    "airline": "h-skyscanner",
+    "name": "1111쇼핑데이",
+    "sale_start": "2026-11-01",
+    "sale_end": "2026-11-11",
+    "dests": [],
+    "last": "2026-10-29",
+    "urls": [
+     "30e6478f61"
+    ]
+   },
+   "kinds": {
+    "upcoming_d3": "2026-10-29",
+    "new": "2026-10-29",
+    "upcoming_d1": "2026-10-31"
+   }
   }
  },
  "slots": {
@@ -1673,8 +1682,9 @@
   },
   "2026-10-31": {
    "morning": "sent",
-   "afternoon": "empty"
+   "afternoon": "empty",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-10-31T13:22:54+09:00"
+ "saved_at": "2026-10-31T18:20:27+09:00"
 }
