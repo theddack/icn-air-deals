@@ -20,7 +20,8 @@
    "airline": "에어프레미아",
    "name": "에어프레미아, 블랙프라이데이 할인 프로모션",
    "sale_start": "2026-11-02",
-   "sale_end": "2026-11-15"
+   "sale_end": "2026-11-15",
+   "price_from": 1537800
   },
   "h-accor|2026-10-16|allaccor20offappbookingo": {
    "airline_id": "h-accor",
@@ -69,7 +70,10 @@
    "airline": "트리니티항공",
    "name": "트리니티항공, 제주행 왕복 항공권 최대 2만 원 할인 프로모션 진행",
    "sale_start": "2026-10-30",
-   "sale_end": null
+   "sale_end": null,
+   "dests": [
+    "제주"
+   ]
   }
  }
 }
