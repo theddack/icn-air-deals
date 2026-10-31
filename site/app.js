@@ -1068,6 +1068,7 @@
     document.querySelectorAll(".deal-view").forEach(function (el) { el.hidden = isSch; });
     document.getElementById("schedule").hidden = !isSch;
     if (isSch) {
+      loadFlights();
       state.section = sec;
       document.querySelectorAll("[data-section]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.section === sec)); });
       try { history.replaceState(null, "", "#flights"); } catch (e) { /* 미리보기 등 */ }
@@ -1275,8 +1276,14 @@
     document.getElementById("schedule").scrollIntoView({ block: "start" });
   });
 
-  // 시간표는 행사와 따로 불러온다. 없거나 실패해도 행사 화면은 그대로 쓴다
-  fetch("flights.json", { cache: "no-store" })
+  // 시간표는 행사와 따로 불러온다. 없거나 실패해도 행사 화면은 그대로 쓴다.
+  // 파일이 커서(약 1MB) 행사 목록을 다 받은 뒤에 받는다. 같이 받으면 행사 목록이 몇 초 늦게 뜬다 (2026-11-01 측정).
+  // 시간표 탭으로 바로 들어오면 처음부터 받는다
+  var flightsLoading = false;
+  function loadFlights() {
+    if (flightsLoading) return;
+    flightsLoading = true;
+  fetch("flights.json", { cache: "no-cache" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (data) {
       // 정기 일정이 비었거나 확보 범위가 없으면 시간표를 못 받은 것으로 본다 (행사 화면까지 멈추지 않게)
@@ -1291,29 +1298,32 @@
       }
     })
     .catch(function (e) { schError = e.message; if (state.section === "flights") renderSchedule(); else if (deals.length) render(); });
+  }
+  if (parseHash().sec === "flights") loadFlights();
 
   // Secret Flying 서울 출발 특가. 없거나 실패해도 나머지 화면은 그대로 쓴다
   // 땡처리닷컴 판매가. 없거나 실패해도 나머지 화면은 그대로 쓴다
-  fetch("ttang.json", { cache: "no-store" })
+  fetch("ttang.json", { cache: "no-cache" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (data) { tt = data; if (deals.length) render(); })
     .catch(function () { tt = null; });
   // 땡처리닷컴 도착지별 가격 이력. 없으면 '최근 최저' 표시만 빠진다
-  fetch("price_history.json", { cache: "no-store" })
+  fetch("price_history.json", { cache: "no-cache" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (data) { ph = data; if (tt && deals.length) renderTtang(); })
     .catch(function () { ph = null; });
   document.getElementById("tt-more").addEventListener("click", function () { ttAll = !ttAll; renderTtang(); });
 
-  fetch("secretflying.json", { cache: "no-store" })
+  fetch("secretflying.json", { cache: "no-cache" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (data) { sf = data; if (deals.length) render(); })
     .catch(function () { sf = null; });
 
-  fetch("deals.json", { cache: "no-store" })
+  fetch("deals.json", { cache: "no-cache" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(init)
     .catch(function (e) {
       document.getElementById("updated").textContent = "데이터를 불러오지 못했습니다 (" + e.message + "). 잠시 후 새로고침하세요.";
-    });
+    })
+    .then(loadFlights);
 })();
