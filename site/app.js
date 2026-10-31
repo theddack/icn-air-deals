@@ -27,7 +27,16 @@
              empty: "조건에 맞는 숙박 행사가 없습니다. 필터를 바꿔 보세요." }
   };
 
-  var FILTER_LABEL = { live: "진행 중", "new": "새로 나옴", closing: "곧 마감", upcoming: "판매 예정", official: "항공사 공식", undated: "날짜 미확인", ended: "마감" };
+  var FILTER_LABEL = { live: "진행 중", "new": "새로 나옴", closing: "곧 마감", upcoming: "판매 예정", official: "항공사 공식", undated: "날짜 미확인", ended: "마감", fav: "즐겨찾기" };
+
+  // 즐겨찾기: 행사 id를 이 기기 브라우저에만 저장한다 (서버로 보내지 않음). 저장이 막힌 브라우저에서는 이번 화면에서만 기억한다
+  var FAV_KEY = "icn-fav";
+  var favs = {};
+  try { (JSON.parse(localStorage.getItem(FAV_KEY)) || []).forEach(function (id) { favs[id] = true; }); } catch (e) {}
+  function toggleFav(id) {
+    if (favs[id]) delete favs[id]; else favs[id] = true;
+    try { localStorage.setItem(FAV_KEY, JSON.stringify(Object.keys(favs))); } catch (e) {}
+  }
 
   // 지역별 최저가·지역 검색. 도착지 이름·공항 코드·나라 이름으로 묶는다 (땡처리닷컴은 한국어, Secret Flying은 영어 도시명)
   var REGIONS = [
@@ -134,6 +143,7 @@
     if (f === "new") return d._fresh === "new";
     if (f === "closing") return isClosing(d, today);
     if (f === "official") return d.verification === "official";
+    if (f === "fav") return !!favs[d.id];
     return d._status === f;
   }
 
@@ -341,6 +351,8 @@
 
     return '<article class="pass' + (compact ? " v" : "") + (verified ? " official" : "") + (st === "ended" || st === "stale" ? " ended" : "") + '">' +
       '<div class="main">' +
+        '<button type="button" class="fav" data-fav="' + esc(d.id) + '" aria-pressed="' + !!favs[d.id] + '" aria-label="즐겨찾기" title="즐겨찾기">' +
+          '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg></button>' +
         '<div class="pills">' + pills + "</div>" +
         '<div class="route"><span>' + esc(from) + '</span><span class="dash"></span><span>' + esc(to) + "</span></div>" +
         head +
@@ -649,7 +661,7 @@
   }
 
   function renderList(base, today) {
-    ["all", "live", "new", "upcoming", "official", "undated", "ended", "closing"].forEach(function (f) {
+    ["all", "live", "new", "upcoming", "official", "undated", "ended", "closing", "fav"].forEach(function (f) {
       var n = base.filter(function (d) { return matches(d, f, today); }).length;
       var c = document.getElementById("c-" + f), t = document.getElementById("s-" + f);
       if (c) c.textContent = n;
@@ -661,6 +673,7 @@
       b.setAttribute("aria-pressed", String(on));
     });
     document.getElementById("official-btn").hidden = !base.some(function (d) { return d.verification === "official"; });
+    document.getElementById("fav-btn").hidden = state.filter !== "fav" && !base.some(function (d) { return favs[d.id]; });
     var shown = sorted(base.filter(function (d) { return matches(d, state.filter, today); }));
     document.getElementById("list").innerHTML = shown.map(function (d) { return card(d, today); }).join("");
     // 모바일 '필터 · 정렬' 버튼 안에 접힌 조건 중 기본값이 아닌 것의 수
@@ -1123,6 +1136,13 @@
     document.getElementById("filter-toggle").setAttribute("aria-expanded", String(open));
     if (open) document.getElementById("sort").focus();
   }
+  // 카드의 별: 카드는 다시 그려지므로 문서에서 한 번에 받는다
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest && e.target.closest("[data-fav]");
+    if (!b) return;
+    toggleFav(b.dataset.fav);
+    render();
+  });
   document.getElementById("filter-toggle").addEventListener("click", function () { setSheet(true); });
   document.getElementById("sheet-done").addEventListener("click", function () {
     setSheet(false);

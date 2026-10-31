@@ -1,0 +1,16 @@
+{
+  "name": "ICN 특가 레이더",
+  "short_name": "ICN 특가",
+  "description": "인천 출발 항공권·국내선·숙박 할인 모음",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8fbfd",
+  "theme_color": "#1f5f78",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

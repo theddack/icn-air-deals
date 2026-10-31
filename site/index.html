@@ -8,6 +8,12 @@
 <!-- 검색 노출·AI 학습 거부 요청. 지키는 봇에만 효과가 있고 강제 차단은 아니다. -->
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai">
 <link rel="stylesheet" href="style.css">
+<!-- 휴대폰 홈 화면에 앱처럼 추가 -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1f5f78">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-title" content="ICN 특가">
 </head>
 <body>
 <!-- 리디자인 시안(docs/design/redesign-proposal.html): 여행 첫 화면 → 곧 마감 → 지역별 최저가 → 할인 둘러보기 → 가격으로 보기 → 시간표 -->
@@ -93,6 +99,7 @@
           <button type="button" data-filter="official" id="official-btn" hidden>항공사 공식 <b id="c-official">0</b></button>
           <button type="button" data-filter="undated">날짜 미확인 <b id="c-undated">0</b></button>
           <button type="button" data-filter="ended">마감 <b id="c-ended">0</b></button>
+          <button type="button" data-filter="fav" id="fav-btn" hidden>★ 즐겨찾기 <b id="c-fav">0</b></button>
         </div>
         <!-- 좁은 화면에서는 아래 조건을 '필터 · 정렬' 버튼으로 여는 시트에 넣는다 -->
         <button type="button" class="filter-toggle" id="filter-toggle" aria-expanded="false" aria-controls="deal-filters">필터 · 정렬 <b id="filter-n" hidden></b></button>
@@ -251,5 +258,6 @@
   <button type="button" data-go="schedule"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>시간표</button>
 </nav>
 <script src="app.js"></script>
+<script>if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(function () {});</script>
 </body>
 </html>
