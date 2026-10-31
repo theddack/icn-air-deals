@@ -9,6 +9,8 @@ python -m collector.secretflying
 - 가격은 게시 당시 기준이다. 실제 예약 가격·남은 좌석은 확인하지 않는다. 목록에 마지막으로 보인 뒤
   KEEP_DAYS가 지나면 뺀다.
 - 실패해도 이전 파일을 그대로 두고 0으로 끝낸다 (행사 수집·배포는 계속).
+- 받은 게시물은 data/sf_history.json에 HISTORY_DAYS일 쌓는다. 같은 도착지(왕복·편도·통화가 같은)의 다른 게시물 중
+  최저가를 각 게시물의 prev_low로 붙여, 화면이 '지난 게시 최저'와 비교한다. 따로 더 요청하지 않는다.
 """
 
 import html
@@ -23,6 +25,8 @@ from .status import today_kst
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "secretflying.json"
+HISTORY = ROOT / "data" / "sf_history.json"
+HISTORY_DAYS = 365
 SOURCE = "https://www.secretflying.com/posts/category/seoul/"
 USER_AGENT = "icn-air-deals/0.1 (+https://github.com/theddack/icn-air-deals)"
 KEEP_DAYS = 14
@@ -73,6 +77,35 @@ def merge(previous, items, today):
     return sorted(kept, key=lambda d: (d["first_seen"], d["url"]), reverse=True)
 
 
+def _route_key(d):
+    return f"{(d.get('destination') or '').strip().lower()}|{d.get('trip')}|{d.get('currency')}"
+
+
+def add_history(hist, deals, today):
+    """게시물(주소)별 도착지·가격·처음 본 날을 쌓는다 → 새 기록. 가격이 바뀐 게시물은 가장 싼 값을 남긴다."""
+    posts = dict((hist or {}).get("posts") or {})
+    for d in deals:
+        old = posts.get(d["url"]) or {}
+        posts[d["url"]] = {"destination": d.get("destination"), "trip": d.get("trip"), "currency": d.get("currency"),
+                           "price": min(p for p in (d.get("price"), old.get("price")) if p is not None),
+                           "first_seen": min(x for x in (d.get("first_seen"), old.get("first_seen")) if x)}
+    cutoff = (today - timedelta(days=HISTORY_DAYS)).isoformat()
+    return {"about": "Secret Flying 서울 출발 게시물 가격 기록 (collector/secretflying.py)",
+            "posts": {u: v for u, v in sorted(posts.items()) if v["first_seen"] >= cutoff}}
+
+
+def with_prev_low(deals, hist):
+    """게시물마다 같은 도착지의 다른(먼저 올라온) 게시물 중 최저가 → prev_low {price, first_seen}."""
+    out = []
+    for d in deals:
+        same = [v for u, v in ((hist or {}).get("posts") or {}).items()
+                if u != d["url"] and _route_key(v) == _route_key(d) and v["first_seen"] <= d["first_seen"]]
+        low = min(same, key=lambda v: (v["price"], v["first_seen"])) if same else None
+        out.append({**{k: v for k, v in d.items() if k != "prev_low"},
+                    **({"prev_low": {"price": low["price"], "first_seen": low["first_seen"]}} if low else {})})
+    return out
+
+
 def fetch():
     req = urllib.request.Request(SOURCE, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=30) as res:
@@ -104,6 +137,9 @@ def main(today=None):
               file=sys.stderr)
         return 0
     deals = merge(prev.get("deals", []), items, today)
+    hist = add_history(json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else {}, deals, today)
+    HISTORY.write_text(json.dumps(hist, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    deals = with_prev_low(deals, hist)
     OUT.write_text(json.dumps({"fetched_on": today.isoformat(), "source": SOURCE, "seen_today": len(items), "deals": deals},
                               ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"[secretflying] 공개 서울 출발 특가 {len(items)}건 → 보관 {len(deals)}건")

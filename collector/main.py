@@ -333,6 +333,9 @@ def main():
     articles, m_added = merge_articles(articles, mail, today)
     added += m_added
     deals = build_deals(articles, today)
+    # 같은 항공사·도착지의 지난 행사 '부터' 가격 (기록은 아래에서 이번 행사까지 더해 저장한다)
+    events = load_json(DATA / "event_history.json", {})
+    deals = annual.with_prev_price(deals, events, today)
 
     base = baselines(load_json(DATA / "deals.json", {}), now_iso)
 
@@ -352,7 +355,7 @@ def main():
         "deals": deals,
     })
     # 연례 세일 예고에 쓸 행사 기록 (판매 날짜가 확인된 것만, collector/annual.py)
-    write_json(DATA / "event_history.json", annual.remember(load_json(DATA / "event_history.json", {}), deals, today))
+    write_json(DATA / "event_history.json", annual.remember(events, deals, today))
     print(f"[main] 검색어 {total}개 (실패 {failed}), RSS {len(raw)}건 → 기사 {len(articles)}건 (신규 {added}) → 행사 {len(deals)}건")
     print(f"[main] 언론사 RSS {o_total}곳 (실패 {len(o_failed)}), 항목 {len(o_items)}건 → 새 기사 {o_added}, 요약 사실값 추가 {o_enriched}")
     return 0

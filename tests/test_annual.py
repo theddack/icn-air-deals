@@ -65,3 +65,30 @@ class PriceFromTest(unittest.TestCase):
         (rec,) = h["events"].values()
         self.assertEqual(rec["price_from"], 49400)
         self.assertEqual(rec["dests"], ["후쿠오카"])  # 나중 수집에 노선이 없어도 앞서 본 노선을 남긴다
+
+
+class PrevPriceTest(unittest.TestCase):
+    """같은 항공사·도착지의 지난 행사 '부터' 가격."""
+
+    def d(self, **kw):
+        return deal(routes=[{"origin": "인천(ICN)", "destination": "후쿠오카(FUK)"}], **kw)
+
+    def test_earlier_event_same_airline_and_dest(self):
+        hist = annual.remember({}, [self.d(id="a", event_name="봄 특가", sale_start="2026-03-02", discount="5만5000원부터"),
+                                    self.d(id="b", event_name="다른 항공", airline_id="lj", sale_start="2026-03-05", discount="3만원부터")],
+                               date(2026, 3, 5))
+        (got,) = annual.with_prev_price([self.d(event_name="가을 특가", sale_start="2026-09-01", discount="4만9400원부터")], hist, date(2026, 9, 1))
+        self.assertEqual(got["prev_price"], {"price": 55000, "name": "봄 특가", "sale_start": "2026-03-02"})
+
+    def test_not_itself_or_other_dest(self):
+        cur = self.d(event_name="가을 특가", sale_start="2026-09-01", discount="4만9400원부터")
+        other = deal(id="o", event_name="오사카", sale_start="2026-03-01", discount="3만원부터",
+                     routes=[{"origin": "인천(ICN)", "destination": "오사카(KIX)"}])
+        hist = annual.remember({}, [cur, other], date(2026, 9, 1))
+        (got,) = annual.with_prev_price([cur], hist, date(2026, 9, 1))
+        self.assertNotIn("prev_price", got)
+
+    def test_no_price_no_compare(self):
+        hist = annual.remember({}, [self.d(id="a", sale_start="2026-03-02", discount="5만원부터")], date(2026, 3, 2))
+        (got,) = annual.with_prev_price([self.d(sale_start="2026-09-01", discount="최대 30%")], hist, date(2026, 9, 1))
+        self.assertNotIn("prev_price", got)

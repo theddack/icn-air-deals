@@ -294,6 +294,14 @@
 
   // 탑승권 카드. 몸통은 '어디로·얼마나', 절취선 오른쪽 꼬리는 '언제까지'. 나머지는 '상세 정보'에 접어 둔다.
   // compact(곧 마감 칸)는 꼬리를 아래에 두고 상세 정보를 뺀다
+  // 같은 항공사·도착지의 지난 행사 '부터' 가격 (수집할 때 붙인 prev_price). 기사 기준이라 편도·왕복·세금 조건은 다를 수 있다
+  function prevPriceRow(d) {
+    var p = d.prev_price;
+    if (!p || !p.price) return "";
+    var won = function (v) { return v >= 10000 && v % 10000 === 0 ? v / 10000 + "만원" : Number(v).toLocaleString("ko-KR") + "원"; };
+    return row("지난 행사 가격", won(p.price) + "부터 · " + esc(p.name) + " (" + md(p.sale_start) + " 판매) · 기사 기준 참고");
+  }
+
   function card(d, today, compact) {
     var st = d._status;
     var title = d.event_name ? d.event_name : d.headline;
@@ -363,7 +371,7 @@
       (compact ? "" :
       '<details class="more"><summary>상세 정보 · 관련 기사 ' + d.articles.length + "건</summary>" +
         "<dl>" + row(SECTIONS[sec].who, airline) + rows +
-          (st === "undated" || st === "stale" ? row("최근 기사", md(d.last_published)) : "") + "</dl>" +
+          (st === "undated" || st === "stale" ? row("최근 기사", md(d.last_published)) : "") + prevPriceRow(d) + "</dl>" +
         '<div class="foot">' +
           ((d.agencies || []).length ? '<div class="foot-row"><span>기사에 나온 판매처</span><span>' + d.agencies.map(function (g) {
             return '<a href="' + href(g.url) + '" target="_blank" rel="noopener">' + esc(g.name) + " ↗</a>";
@@ -520,6 +528,15 @@
   }
 
   var sfAll = false, SF_PREVIEW = 6;
+  // 같은 도착지의 지난 게시 최저 (수집할 때 붙여 둔 prev_low. 게시는 가끔 올라오는 특가라 '어제'가 아니라 '지난 게시'와 비교)
+  function sfPrev(d) {
+    var p = d.prev_low;
+    if (!p || p.price == null) return "";
+    var cur = d.currency === "USD" ? "$" : "", tail = d.currency === "USD" ? "" : " " + esc(d.currency);
+    if (d.price < p.price) return ' · <b class="tt-low">지난 게시보다 ' + cur + (p.price - d.price) + tail + " 싸요</b>";
+    return " · 지난 게시 최저 " + cur + p.price + tail + " (" + md(p.first_seen) + ")";
+  }
+
   function renderSecretFlying() {
     var box = document.getElementById("sf");
     var all = sf && sf.deals || [];
@@ -537,7 +554,7 @@
         '<span class="sf-route">서울 → ' + esc(d.destination) + "</span>" +
         '<span class="sf-price">' + esc(sfPrice(d)) + "</span>" +
         '<span class="sf-meta">' + (d.trip === "oneway" ? "편도" : "왕복") + (d.nonstop ? " · 직항" : "") +
-          (d.tag ? " · " + esc(d.tag) : "") + " · " + md(d.first_seen) + " 확인 ↗</span></a></li>";
+          (d.tag ? " · " + esc(d.tag) : "") + " · " + md(d.first_seen) + " 확인" + sfPrev(d) + " ↗</span></a></li>";
     }).join("");
   }
 

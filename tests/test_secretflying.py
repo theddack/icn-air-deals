@@ -53,7 +53,7 @@ class TestMain(unittest.TestCase):
     def test_once_a_day_and_failure_keeps_file(self):
         with tempfile.TemporaryDirectory() as tmp:
             out = Path(tmp) / "secretflying.json"
-            with mock.patch.object(sf, "OUT", out), mock.patch.object(sf, "fetch", return_value=PAGE) as f:
+            with mock.patch.object(sf, "OUT", out), mock.patch.object(sf, "HISTORY", Path(tmp) / "h.json"),                     mock.patch.object(sf, "fetch", return_value=PAGE) as f:
                 self.assertEqual(sf.main(date(2026, 10, 19)), 0)
                 self.assertEqual(sf.main(date(2026, 10, 19)), 0)  # 같은 날 두 번째는 받지 않는다
                 self.assertEqual(f.call_count, 1)
@@ -62,6 +62,32 @@ class TestMain(unittest.TestCase):
             with mock.patch.object(sf, "OUT", out), mock.patch.object(sf, "fetch", side_effect=OSError("down")):
                 self.assertEqual(sf.main(date(2026, 10, 20)), 0)
             self.assertEqual(json.loads(out.read_text(encoding="utf-8")), saved)
+
+
+
+class TestPrevLow(unittest.TestCase):
+    """같은 도착지의 지난 게시 최저 (prev_low)."""
+
+    def post(self, url, dest, price, seen, trip="roundtrip"):
+        return {"url": url, "destination": dest, "price": price, "currency": "USD", "trip": trip, "first_seen": seen}
+
+    def test_compare_with_earlier_posts_same_route(self):
+        old = [self.post("a", "Vienna, Austria", 480, "2026-10-01"), self.post("b", "Vienna, Austria", 300, "2026-10-05", "oneway"),
+               self.post("c", "Milan, Italy", 200, "2026-10-02")]
+        new = self.post("d", "Vienna, Austria", 442, "2026-10-20")
+        hist = sf.add_history(sf.add_history({}, old, date(2026, 10, 20)), [new], date(2026, 10, 20))
+        (got,) = sf.with_prev_low([new], hist)
+        self.assertEqual(got["prev_low"], {"price": 480, "first_seen": "2026-10-01"})  # 편도·다른 도착지는 비교하지 않는다
+
+    def test_no_earlier_post(self):
+        new = self.post("d", "Vienna, Austria", 442, "2026-10-20")
+        (got,) = sf.with_prev_low([new], sf.add_history({}, [new], date(2026, 10, 20)))
+        self.assertNotIn("prev_low", got)
+
+    def test_history_keeps_lowest_price_and_first_seen(self):
+        h = sf.add_history({}, [self.post("a", "X", 300, "2026-10-05")], date(2026, 10, 5))
+        h = sf.add_history(h, [self.post("a", "X", 350, "2026-10-06")], date(2026, 10, 6))
+        self.assertEqual((h["posts"]["a"]["price"], h["posts"]["a"]["first_seen"]), (300, "2026-10-05"))
 
 
 if __name__ == "__main__":

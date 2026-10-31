@@ -40,6 +40,32 @@ def _dests(deal):
     return out[:5]
 
 
+def _key(d):
+    name = d.get("event_name") or d.get("headline") or ""
+    return f"{d['airline_id']}|{d['sale_start']}|{_norm(name)[:24]}"
+
+
+def with_prev_price(deals, history, today, days=365):
+    """'○○원부터' 가격이 있는 행사에, 같은 항공사·같은 도착지(하나라도 겹침)의 먼저 열린 다른 행사 중 가장 싼
+    '부터' 가격을 prev_price {price, name, sale_start}로 붙인다 → 새 목록. 기사 기준 가격이라 편도·왕복·세금 조건은 다를 수 있다."""
+    since = (today - timedelta(days=days)).isoformat()
+    events = ((history or {}).get("events") or {})
+    out = []
+    for d in deals:
+        d = {k: v for k, v in d.items() if k != "prev_price"}
+        price, dests = price_from(d.get("discount")), set(_dests(d))
+        if price and dests and d.get("sale_start") and d.get("airline_id") not in (None, "multi"):
+            mine = _key(d)
+            same = [e for k, e in events.items()
+                    if k != mine and e["airline_id"] == d["airline_id"] and e.get("price_from")
+                    and since <= e["sale_start"] < d["sale_start"] and dests & set(e.get("dests") or [])]
+            if same:
+                low = min(same, key=lambda e: (e["price_from"], e["sale_start"]))
+                d["prev_price"] = {"price": low["price_from"], "name": low["name"], "sale_start": low["sale_start"]}
+        out.append(d)
+    return out
+
+
 def remember(history, deals, today):
     """판매 시작일이 확인된 행사를 기록에 더한다 → 새 기록."""
     events = dict((history or {}).get("events") or {})
@@ -47,7 +73,7 @@ def remember(history, deals, today):
         if not d.get("sale_start") or "sale" in (d.get("conflicts") or []) or d.get("airline_id") in (None, "multi"):
             continue
         name = d.get("event_name") or d.get("headline") or ""
-        key = f"{d['airline_id']}|{d['sale_start']}|{_norm(name)[:24]}"
+        key = _key(d)
         rec = {"airline_id": d["airline_id"], "airline": d.get("airline") or "", "name": name[:60],
                "sale_start": d["sale_start"], "sale_end": d.get("sale_end")}
         price = price_from(d.get("discount"))

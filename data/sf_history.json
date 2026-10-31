@@ -1,0 +1,68 @@
+{
+ "about": "Secret Flying 서울 출발 게시물 가격 기록 (collector/secretflying.py)",
+ "posts": {
+  "https://www.secretflying.com/posts/seoul-south-korea-to-da-nang-vietnam-for-only-153-usd-roundtrip/": {
+   "destination": "Da Nang, Vietnam",
+   "trip": "roundtrip",
+   "currency": "USD",
+   "price": 153,
+   "first_seen": "2026-10-19"
+  },
+  "https://www.secretflying.com/posts/seoul-south-korea-to-kuala-lumpur-malaysia-for-only-237-usd-roundtrip/": {
+   "destination": "Kuala Lumpur, Malaysia",
+   "trip": "roundtrip",
+   "currency": "USD",
+   "price": 265,
+   "first_seen": "2026-10-19"
+  },
+  "https://www.secretflying.com/posts/seoul-south-korea-to-madrid-spain-for-only-419-usd-roundtrip/": {
+   "destination": "Madrid, Spain",
+   "trip": "roundtrip",
+   "currency": "USD",
+   "price": 429,
+   "first_seen": "2026-10-19"
+  },
+  "https://www.secretflying.com/posts/seoul-south-korea-to-milan-italy-for-only-518-usd-roundtrip/": {
+   "destination": "Milan, Italy",
+   "trip": "roundtrip",
+   "currency": "USD",
+   "price": 390,
+   "first_seen": "2026-10-19"
+  },
+  "https://www.secretflying.com/posts/seoul-south-korea-to-phu-quoc-vietnam-for-only-149-usd-roundtrip/": {
+   "destination": "Phu Quoc, Vietnam",
+   "trip": "roundtrip",
+   "currency": "USD",
+   "price": 191,
+   "first_seen": "2026-10-22"
+  },
+  "https://www.secretflying.com/posts/seoul-south-korea-to-sofia-bulgaria-for-only-557-usd-roundtrip/": {
+   "destination": "Sofia, Bulgaria",
+   "trip": "roundtrip",
+   "currency": "USD",
+   "price": 557,
+   "first_seen": "2026-10-19"
+  },
+  "https://www.secretflying.com/posts/seoul-south-korea-to-venice-italy-for-only-417-usd-roundtrip/": {
+   "destination": "Venice, Italy",
+   "trip": "roundtrip",
+   "currency": "USD",
+   "price": 417,
+   "first_seen": "2026-10-19"
+  },
+  "https://www.secretflying.com/posts/seoul-south-korea-to-vienna-austria-for-only-222-usd-one-way/": {
+   "destination": "Vienna, Austria",
+   "trip": "oneway",
+   "currency": "USD",
+   "price": 222,
+   "first_seen": "2026-10-19"
+  },
+  "https://www.secretflying.com/posts/seoul-south-korea-to-vienna-austria-for-only-438-usd-roundtrip/": {
+   "destination": "Vienna, Austria",
+   "trip": "roundtrip",
+   "currency": "USD",
+   "price": 442,
+   "first_seen": "2026-10-19"
+  }
+ }
+}
