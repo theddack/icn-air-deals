@@ -45,3 +45,23 @@ class AnnualTest(unittest.TestCase):
         hist = annual.remember({}, [deal(sale_start=None), deal(id="d2", conflicts=["sale"]), deal(id="d3", airline_id="multi")],
                                date(2026, 1, 22))
         self.assertEqual(hist["events"], {})
+
+
+class PriceFromTest(unittest.TestCase):
+    def test_parse(self):
+        self.assertEqual(annual.price_from("153만7800원부터"), 1537800)
+        self.assertEqual(annual.price_from("4만9400원부터"), 49400)
+        self.assertEqual(annual.price_from("190,000원부터"), 190000)
+        self.assertEqual(annual.price_from("7만원대부터"), 70000)
+        self.assertIsNone(annual.price_from("최대 3만원 할인"))
+        self.assertIsNone(annual.price_from("최대 30%"))
+        self.assertIsNone(annual.price_from(None))
+
+    def test_remember_keeps_lowest_price_and_dests(self):
+        d = deal(discount="5만원부터", routes=[{"origin": "인천(ICN)", "destination": "후쿠오카(FUK)"}])
+        h = annual.remember({}, [d], date(2026, 1, 22))
+        h = annual.remember(h, [deal(discount="4만9400원부터")], date(2026, 1, 23))
+        h = annual.remember(h, [deal(discount="최대 30%")], date(2026, 1, 24))
+        (rec,) = h["events"].values()
+        self.assertEqual(rec["price_from"], 49400)
+        self.assertEqual(rec["dests"], ["후쿠오카"])  # 나중 수집에 노선이 없어도 앞서 본 노선을 남긴다

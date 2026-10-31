@@ -4,6 +4,7 @@
 - data/event_history.json: 수집할 때마다 판매 날짜가 확인된 행사를 쌓는다 (지우지 않고 EVENT_KEEP_YEARS년 보관).
   1년이 지나면 '작년 이맘때 열린 행사'를 이 기록으로 찾는다.
 지금 그 항공사의 같은 행사가 이미 보이면(판매 중·예정) 예고하지 않는다.
+행사 기록에는 '○○원부터' 가격(price_from)과 도착지도 남긴다. 같은 행사가 다시 열리면 지난번 가격과 비교하는 데 쓴다.
 """
 
 import re
@@ -19,6 +20,26 @@ def _norm(s):
     return re.sub(r"[\s\W_]+", "", s or "").lower()
 
 
+def price_from(text):
+    """'153만7800원부터'·'190,000원부터'·'7만원대부터' → 원 단위 정수. '부터' 가격이 아니면(할인 금액 등) None."""
+    if not text or "부터" not in text:
+        return None
+    m = re.search(r"(\d+)\s*만\s*(\d{1,4})?\s*원", text)
+    if m:
+        return int(m.group(1)) * 10000 + int(m.group(2) or 0)
+    m = re.search(r"(\d{1,3}(?:,\d{3})+|\d{4,})\s*원", text)
+    return int(m.group(1).replace(",", "")) if m else None
+
+
+def _dests(deal):
+    out = []
+    for r in deal.get("routes") or []:
+        name = (r.get("destination") or "").split("(")[0].strip()
+        if name and name != "한국" and not name.startswith("인천") and name not in out:
+            out.append(name)
+    return out[:5]
+
+
 def remember(history, deals, today):
     """판매 시작일이 확인된 행사를 기록에 더한다 → 새 기록."""
     events = dict((history or {}).get("events") or {})
@@ -27,8 +48,16 @@ def remember(history, deals, today):
             continue
         name = d.get("event_name") or d.get("headline") or ""
         key = f"{d['airline_id']}|{d['sale_start']}|{_norm(name)[:24]}"
-        events[key] = {"airline_id": d["airline_id"], "airline": d.get("airline") or "", "name": name[:60],
-                       "sale_start": d["sale_start"], "sale_end": d.get("sale_end")}
+        rec = {"airline_id": d["airline_id"], "airline": d.get("airline") or "", "name": name[:60],
+               "sale_start": d["sale_start"], "sale_end": d.get("sale_end")}
+        price = price_from(d.get("discount"))
+        old = (events.get(key) or {}).get("price_from")
+        if price or old:  # 같은 행사가 여러 번 수집되면 가장 싼 '부터' 가격을 남긴다
+            rec["price_from"] = min(p for p in (price, old) if p)
+        dests = _dests(d) or (events.get(key) or {}).get("dests")
+        if dests:
+            rec["dests"] = dests
+        events[key] = rec
     cutoff = date(today.year - EVENT_KEEP_YEARS, today.month, 1).isoformat()
     events = {k: v for k, v in sorted(events.items()) if v["sale_start"] >= cutoff}
     return {"about": "판매 날짜가 확인된 행사 기록 (collector/annual.py). 연례 세일 예고에 쓴다.", "events": events}

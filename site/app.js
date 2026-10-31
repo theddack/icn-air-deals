@@ -550,17 +550,28 @@
   function ttLow(x) {
     var rec = ph && ph.dests && ph.dests[(x.dest_code || x.destination) + (x.trip === "oneway" ? ":oneway" : "")];
     if (!rec || !tt.fetched_on) return "";
-    var DAY = 86400000, today = Date.parse(tt.fetched_on + "T00:00:00Z"), prev = null, first = today;
+    var DAY = 86400000, today = Date.parse(tt.fetched_on + "T00:00:00Z"), prev = null, high = null, first = today, last = null;
     Object.keys(rec.days).forEach(function (d) {
       var t = Date.parse(d + "T00:00:00Z");
       if (t >= today || today - t >= PH_WINDOW * DAY) return;
       if (t < first) first = t;
-      if (prev === null || rec.days[d].price < prev) prev = rec.days[d].price;
+      var p = rec.days[d].price;
+      if (prev === null || p < prev) prev = p;
+      if (high === null || p > high) high = p;
+      if (!last || t > last.t) last = { t: t, p: p };
     });
     if (prev === null) return "";
     var n = Math.round((today - first) / DAY) + 1;
-    if (x.price < prev) return ' · <b class="tt-low">최근 ' + n + "일 중 최저가</b>";
-    return " · 최근 " + n + "일 최저 " + Number(prev).toLocaleString("ko-KR") + "원";
+    var won = function (v) { return Number(v).toLocaleString("ko-KR") + "원"; };
+    // 바로 전 기록과의 차이 (이미 받아 둔 기록만 쓴다. 땡처리닷컴에 더 요청하지 않는다)
+    var diff = last && x.price !== last.p
+      ? " · " + (today - last.t === DAY ? "어제" : "지난 기록") + "보다 " + won(Math.abs(x.price - last.p)) + (x.price < last.p ? "↓" : "↑")
+      : "";
+    if (x.price < prev) {
+      var off = Math.round((high - x.price) / high * 100);
+      return ' · <b class="tt-low">최근 ' + n + "일 중 최저가" + (off >= 3 ? " · 최고 대비 " + off + "%↓" : "") + "</b>" + diff;
+    }
+    return " · 최근 " + n + "일 최저 " + won(prev) + diff;
   }
 
   // 최근 30일 하루 최저가 작은 그래프 (기록이 3일 미만이면 그리지 않는다). 위로 갈수록 비싸다
