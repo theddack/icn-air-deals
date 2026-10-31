@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T01:14:30+09:00",
+ "generated_at": "2026-10-31T09:14:05+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2182,
+  "rss_items": 2261,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1926,
-  "outlet_new_articles": 1,
+  "outlet_items": 1949,
+  "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
   "articles_with_summary": 26,
-  "articles": 553,
+  "articles": 554,
   "new_articles": 1,
-  "deals": 73
+  "deals": 74
  },
  "deals": [
   {
@@ -4054,6 +4054,58 @@
      "outlet": "아시아경제",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBkMGxfR25hak5NT25BWkxDeHdjd2w5ZjNhVE1FVVNTQmh0cHJvOU43Si1CQ2NPTHkzN25LckdTcmVGYVVqcTBVVjQzalN0VXRFUnRQNXhBVXV3bkdEcndvdmVNZUY?oc=5",
      "published": "2026-10-30"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-hyatt-51c07de753",
+   "airline_id": "h-hyatt",
+   "airline": "하얏트",
+   "airlines_mentioned": [
+    "하얏트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "World of Hyatt Promo: Save up to 25% on paid stays at properties worldwide",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "World of Hyatt Promo: Save up to 25% on paid stays at properties worldwide",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTUlzYTRTb3Y2RHp3Qm83X0dFR0tTa3JPaWM0cWJKOVdJd0x2V0xZbEVxZWtJTUR1N21qRzRNcEQ2T3J1YmRRTy1aZGpUZkN5MHY5ZFJaRnFQM0VBN3BVbkktWmg0UUl4UnZFUlFmb09YX28yMF9PZzh2NFpRdDdRVkVfdHVzUFc5WWZKY1M3SjV3Q3F6dk9JTmF2UUdicTlh?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-10-31",
+   "last_published": "2026-10-31",
+   "first_seen": "2026-10-31T09:14:05+09:00",
+   "last_seen": "2026-10-31T09:14:05+09:00",
+   "articles": [
+    {
+     "title": "World of Hyatt Promo: Save up to 25% on paid stays at properties worldwide",
+     "outlet": "Frequent Miler",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTUlzYTRTb3Y2RHp3Qm83X0dFR0tTa3JPaWM0cWJKOVdJd0x2V0xZbEVxZWtJTUR1N21qRzRNcEQ2T3J1YmRRTy1aZGpUZkN5MHY5ZFJaRnFQM0VBN3BVbkktWmg0UUl4UnZFUlFmb09YX28yMF9PZzh2NFpRdDdRVkVfdHVzUFc5WWZKY1M3SjV3Q3F6dk9JTmF2UUdicTlh?oc=5",
+     "published": "2026-10-31"
     }
    ],
    "status": "undated"
