@@ -1573,6 +1573,22 @@
     "new": "2026-10-26"
    }
   },
+  "h-accor-09eedd0a2c": {
+   "info": {
+    "airline": "h-accor",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-30",
+    "urls": [
+     "09eedd0a2c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-30"
+   }
+  },
   "trinity-08820b7077": {
    "info": {
     "airline": "trinity",
@@ -1593,23 +1609,41 @@
    },
    "kinds": {
     "new": "2026-10-26",
-    "closing_tomorrow": "2026-10-30"
+    "closing_tomorrow": "2026-10-30",
+    "closing_today": "2026-10-31"
    }
   },
-  "h-accor-09eedd0a2c": {
+  "airpremia-5314ca42b9": {
    "info": {
-    "airline": "h-accor",
+    "airline": "airpremia",
+    "name": "",
+    "sale_start": "2026-11-02",
+    "sale_end": "2026-11-15",
+    "dests": [],
+    "last": "2026-10-30",
+    "urls": [
+     "5314ca42b9"
+    ]
+   },
+   "kinds": {
+    "upcoming_d3": "2026-10-31",
+    "new": "2026-10-31"
+   }
+  },
+  "h-hyatt-51c07de753": {
+   "info": {
+    "airline": "h-hyatt",
     "name": "",
     "sale_start": null,
     "sale_end": null,
     "dests": [],
-    "last": "2026-10-30",
+    "last": "2026-10-31",
     "urls": [
-     "09eedd0a2c"
+     "51c07de753"
     ]
    },
    "kinds": {
-    "new": "2026-10-30"
+    "new": "2026-10-31"
    }
   }
  },
@@ -1636,7 +1670,10 @@
    "morning": "sent",
    "afternoon": "sent",
    "evening": "sent"
+  },
+  "2026-10-31": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-10-30T18:07:52+09:00"
+ "saved_at": "2026-10-31T09:18:43+09:00"
 }
