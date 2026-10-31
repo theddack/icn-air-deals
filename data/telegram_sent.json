@@ -1,77 +1,6 @@
 {
  "started": "2026-10-26",
  "events": {
-  "h-yeogi-7055a73f00": {
-   "info": {
-    "airline": "h-yeogi",
-    "name": "홀리데이in포항",
-    "sale_start": "2026-09-22",
-    "sale_end": null,
-    "dests": [],
-    "urls": [
-     "031f3c8398",
-     "3b42a51972",
-     "47c346dc06",
-     "4828500e9e",
-     "5443e4639b",
-     "582c01bdda",
-     "5953d6eec2",
-     "6a236c0f60",
-     "7055a73f00",
-     "8995361a69",
-     "99b400c25e",
-     "d25bf3e608",
-     "ecd18ab08c"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26"
-   }
-  },
-  "h-stayfesta-d3e7cb5ec4": {
-   "info": {
-    "airline": "h-stayfesta",
-    "name": "숙박세일페스타",
-    "sale_start": "2026-09-22",
-    "sale_end": "2026-11-08",
-    "dests": [],
-    "urls": [
-     "0164aef066",
-     "024cedd8b5",
-     "026af38bc2",
-     "02b25ed52f",
-     "0aa85d192c",
-     "0badc13143",
-     "0c090912ee",
-     "0c51bf01cc",
-     "0feabf982b",
-     "107f1b3a98",
-     "12f663d1b4",
-     "1349c89ee0",
-     "1efdfc96ae",
-     "231cccb20c",
-     "25d72a1817",
-     "276c379152",
-     "381955d876",
-     "38e62e271c",
-     "3bc9862aff",
-     "48b763c2c1",
-     "48daec1eb8",
-     "4bbf6fcb7a",
-     "4f09bb2651",
-     "52ec7f2bfd",
-     "5ad47d8cfa",
-     "6177623c6d",
-     "61d8ea006e",
-     "6370b8d9df",
-     "6906dea9c1",
-     "69397efdfc"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26"
-   }
-  },
   "h-hilton-61934fa4f1": {
    "info": {
     "airline": "h-hilton",
@@ -1654,6 +1583,80 @@
     "new": "2026-10-29",
     "upcoming_d1": "2026-10-31"
    }
+  },
+  "h-stayfesta-cf3251da6d": {
+   "info": {
+    "airline": "h-stayfesta",
+    "name": "숙박세일페스타",
+    "sale_start": "2026-09-22",
+    "sale_end": "2026-11-08",
+    "dests": [],
+    "last": "2026-10-24",
+    "urls": [
+     "0164aef066",
+     "024cedd8b5",
+     "026af38bc2",
+     "02b25ed52f",
+     "0aa85d192c",
+     "0badc13143",
+     "0c090912ee",
+     "0c51bf01cc",
+     "0cc26f64f4",
+     "107f1b3a98",
+     "12f663d1b4",
+     "1349c89ee0",
+     "1efdfc96ae",
+     "231cccb20c",
+     "25d72a1817",
+     "276c379152",
+     "381955d876",
+     "38e62e271c",
+     "3bc9862aff",
+     "48b763c2c1",
+     "48daec1eb8",
+     "4bbf6fcb7a",
+     "4f09bb2651",
+     "52ec7f2bfd",
+     "5ad47d8cfa",
+     "6177623c6d",
+     "61d8ea006e",
+     "6370b8d9df",
+     "6906dea9c1",
+     "69397efdfc"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
+  },
+  "h-yeogi-ecd18ab08c": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "홀리데이in포항",
+    "sale_start": "2026-09-22",
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-29",
+    "urls": [
+     "031f3c8398",
+     "30590298e1",
+     "379a5dce25",
+     "3b42a51972",
+     "47c346dc06",
+     "4828500e9e",
+     "4a198b7534",
+     "582c01bdda",
+     "5953d6eec2",
+     "6a236c0f60",
+     "8995361a69",
+     "99b400c25e",
+     "d25bf3e608",
+     "ecd18ab08c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
   }
  },
  "slots": {
@@ -1686,5 +1689,5 @@
    "evening": "sent"
   }
  },
- "saved_at": "2026-10-31T18:20:27+09:00"
+ "saved_at": "2026-11-01T00:34:30+09:00"
 }
