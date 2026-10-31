@@ -17,6 +17,7 @@
   전날 저녁에 못 보낸 '내일 마감'·'내일 시작'은 다음 날 아침 '오늘 마감'·'오늘 시작'이 된다.
 - 앞 시간대가 실행되지 않았으면(예약 지연·누락) 그 시간대 종류도 함께 보낸다.
 - 일요일 저녁 시간대에는 주간 요약을 따로 한 통 보낸다 (이번 주 새로 발견, 다음 주 판매 시작·마감). 주마다 한 번.
+- 땡처리닷컴 도착지별 최저가가 최근 30일 중 가장 싸지면 하루 한 번 따로 알린다 (data/price_history.json).
 
 실행: 수집 작업이 끝날 때마다(수집은 KST 09·13·18·22시 17분 전후) + 비상용 예약(09:07 · 14:07 · 18:37 · 20:07)
 (.github/workflows/telegram.yml).
@@ -46,6 +47,7 @@ from .status import KST, display_status
 ROOT = Path(__file__).resolve().parent.parent
 DEALS = ROOT / "data" / "deals.json"
 STATE = ROOT / "data" / "telegram_sent.json"
+HISTORY = ROOT / "data" / "price_history.json"   # 땡처리닷컴 도착지별 하루 최저가 (collector/ttang.py)
 SITE = "https://theddack.github.io/icn-air-deals/"
 API = "https://api.telegram.org/bot{token}/{method}"
 UA = "icn-air-deals/0.1 (+https://github.com/theddack/icn-air-deals)"
@@ -55,6 +57,10 @@ DATA_STALE_HOURS = 14    # 행사 데이터가 이보다 오래되면 신규로 
 KEEP_DAYS = 60           # 보낸 기록 보관 기간
 WEEKLY_DAYS = 7         # 주간 요약: 이번 주 = 오늘 포함 7일, 다음 주 = 내일부터 7일
 WEEKLY_MAX = 10         # 주간 요약 한 묶음에 보여 줄 최대 건수 (나머지는 '외 n건')
+DROP_WINDOW_DAYS = 30   # 땡처리 최저가 알림: 오늘 가격을 이 일수 안의 이전 최저와 비교
+DROP_MIN_DAYS = 5       # 이전 기록이 이 일수보다 적으면 비교하지 않는다 (기록이 짧으면 '최저'가 의미 없다)
+DROP_MAX = 8            # 한 번에 알릴 최대 도착지 수
+TTANG_LIST = "https://www.ttang.com/ttangair/search/ttang/list.do?arr0=A2ALL&dep0=ICN&orderBy=LOW_COST"
 TEXT_MAX = 3800         # 텔레그램 한 메시지 4096자 제한보다 여유 있게
 WEEK = "월화수목금토일"
 SECTION = {"flight": "항공권", "domestic": "국내선", "hotel": "숙박"}
@@ -399,7 +405,7 @@ def migrate(state, deals):
     return {"started": state.get("started", ""), "events": events, "slots": {}}
 
 
-def run(deals_data, state, now, sender, admin=None):
+def run(deals_data, state, now, sender, admin=None, history=None):
     """한 번 실행 → (새 state, 오류 또는 None). sender(text)가 예외를 내면 그 앞까지 보낸 항목만 기록하고,
     시간대는 '보냄'으로 표시하지 않아 남은 항목을 다음 실행에서 다시 보낸다."""
     deals = deals_data.get("deals", [])
@@ -428,7 +434,10 @@ def run(deals_data, state, now, sender, admin=None):
     state, error = _brief(deals, state, now, data_fresh, sender)
     if error:
         return state, error
-    return _weekly(deals, state, now, data_fresh, sender)
+    state, error = _weekly(deals, state, now, data_fresh, sender)
+    if error:
+        return state, error
+    return _price_drops(history, state, now, sender)
 
 
 def _brief(deals, state, now, data_fresh, sender):
@@ -607,7 +616,8 @@ def main(argv=None):
         elif token and admin_chat:
             send(token, admin_chat, "[관리자] " + text)
 
-    new_state, error = run(deals_data, state, now, sender, admin)
+    history = json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else None
+    new_state, error = run(deals_data, state, now, sender, admin, history)
     if error:
         # 토큰·chat id는 찍지 않는다
         print(f"::error::텔레그램 발송 실패: {type(error).__name__} {getattr(error, 'code', '')} — 남은 항목은 다음 실행에서 보냅니다.")
@@ -622,6 +632,62 @@ def main(argv=None):
     new_state = {**new_state, "saved_at": datetime.now(KST).isoformat(timespec="seconds")}
     STATE.write_text(json.dumps(new_state, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return 1 if error else 0
+
+
+
+# ---------------------------------------------------------------- 땡처리 최저가 (하루 한 번)
+
+def price_drops(history, today):
+    """오늘 최저가가 최근 DROP_WINDOW_DAYS일의 이전 최저보다 싼 도착지 → [{key, destination, trip, price, prev, days, airline}]."""
+    out = []
+    since = (today - timedelta(days=DROP_WINDOW_DAYS)).isoformat()
+    for key, rec in ((history or {}).get("dests") or {}).items():
+        days = rec.get("days") or {}
+        now_ = days.get(today.isoformat())
+        before = [v["price"] for d, v in days.items() if since <= d < today.isoformat()]
+        if not now_ or len(before) < DROP_MIN_DAYS or now_["price"] >= min(before):
+            continue
+        out.append({"key": key, "destination": rec.get("destination") or key, "trip": rec.get("trip"),
+                    "price": now_["price"], "prev": min(before), "days": len(before) + 1, "airline": now_.get("airline") or ""})
+    out.sort(key=lambda x: (x["price"] - x["prev"]) / x["prev"])  # 많이 내린 순
+    return out
+
+
+def build_drops(drops, today):
+    e = html.escape
+    lines = ["✈️ <b>ICN 특가 레이더</b>", "", "📉 <b>땡처리 최저가 갱신</b>", kr_date(today), "",
+             f"최근 기록 중 가장 싸진 도착지 {len(drops)}곳"]
+    for x in drops[:DROP_MAX]:
+        trip = "편도" if x["trip"] == "oneway" else "왕복"
+        pct = round((x["prev"] - x["price"]) / x["prev"] * 100)
+        lines += ["", f"<b>인천 → {e(x['destination'])}</b> ({trip})",
+                  f"{x['price']:,}원 · 이전 최저 {x['prev']:,}원보다 {pct}% ↓",
+                  f"최근 {x['days']}일 중 최저 · {e(x['airline'])}"]
+    if len(drops) > DROP_MAX:
+        lines += ["", f"…외 {len(drops) - DROP_MAX}곳은 사이트에서"]
+    lines += ["", RULE, "", f'확인 상태: 판매처 가격 · <a href="{e(TTANG_LIST, quote=True)}">땡처리닷컴 목록</a>',
+              "※ 땡처리 항공권은 좌석이 적어 금방 팔릴 수 있습니다."]
+    return "\n".join(lines)
+
+
+def _price_drops(history, state, now, sender):
+    """알림 시간대 안에서 하루 한 번. 같은 도착지는 지난번 알린 가격보다 더 내려야 다시 알린다."""
+    today = now.date()
+    if not history or not slot_of(now) or state.get("drops_day") == today.isoformat():
+        return state, None
+    if not any(today.isoformat() in (r.get("days") or {}) for r in (history.get("dests") or {}).values()):
+        return state, None  # 오늘 땡처리 가격을 아직 받지 않았다. 다음 실행에서 다시 본다
+    since = (today - timedelta(days=DROP_WINDOW_DAYS)).isoformat()
+    told = {k: v for k, v in (state.get("drops") or {}).items() if v.get("date", "") >= since}
+    drops = [x for x in price_drops(history, today) if x["key"] not in told or x["price"] < told[x["key"]]["price"]]
+    if drops:
+        try:
+            sender(build_drops(drops, today))
+        except Exception as e:
+            return state, e
+        print(f"[notify] 땡처리 최저가 갱신 {len(drops)}곳을 보냈습니다.")
+        told = {**told, **{x["key"]: {"price": x["price"], "date": today.isoformat()} for x in drops[:DROP_MAX]}}
+    return {**state, "drops_day": today.isoformat(), "drops": told}, None
 
 
 if __name__ == "__main__":

@@ -563,6 +563,24 @@
     return " · 최근 " + n + "일 최저 " + Number(prev).toLocaleString("ko-KR") + "원";
   }
 
+  // 최근 30일 하루 최저가 작은 그래프 (기록이 3일 미만이면 그리지 않는다). 위로 갈수록 비싸다
+  function ttSpark(x) {
+    var rec = ph && ph.dests && ph.dests[(x.dest_code || x.destination) + (x.trip === "oneway" ? ":oneway" : "")];
+    if (!rec || !tt.fetched_on) return "";
+    var DAY = 86400000, today = Date.parse(tt.fetched_on + "T00:00:00Z");
+    var pts = Object.keys(rec.days).sort().map(function (d) { return { t: Date.parse(d + "T00:00:00Z"), p: rec.days[d].price }; })
+      .filter(function (o) { return o.t <= today && today - o.t < PH_WINDOW * DAY; });
+    if (pts.length < 3) return "";
+    var W = 72, H = 22, lo = Math.min.apply(null, pts.map(function (o) { return o.p; })), hi = Math.max.apply(null, pts.map(function (o) { return o.p; }));
+    var t0 = pts[0].t, span = Math.max(today - t0, DAY);
+    var xy = pts.map(function (o) {
+      return [((o.t - t0) / span * (W - 4) + 2).toFixed(1), (hi === lo ? H / 2 : 2 + (hi - o.p) / (hi - lo) * (H - 4)).toFixed(1)];
+    });
+    var last = xy[xy.length - 1];
+    return '<svg class="spark" viewBox="0 0 ' + W + " " + H + '" width="' + W + '" height="' + H + '" role="img" aria-label="최근 ' + pts.length + '일 최저가 흐름">' +
+      '<polyline points="' + xy.map(function (a) { return a.join(","); }).join(" ") + '"/><circle cx="' + last[0] + '" cy="' + last[1] + '" r="2.5"/></svg>';
+  }
+
   // 도착지마다 가장 싼 상품 하나와 그 도착지 상품 수
   function ttByDest(items) {
     var by = {};
@@ -588,7 +606,7 @@
       var x = g.best;
       return '<li><a href="' + href(tt.source) + '" target="_blank" rel="noopener">' +
         '<span class="sf-route">인천 → ' + esc(x.destination) + "</span>" +
-        '<span class="sf-price">' + Number(x.price).toLocaleString("ko-KR") + "원~</span>" +
+        '<span class="sf-price">' + ttSpark(x) + Number(x.price).toLocaleString("ko-KR") + "원~</span>" +
         '<span class="sf-meta">' + esc(x.airline) + " · " + (x.direct ? "직항" : "경유") + " · " + (x.trip === "oneway" ? "편도" : "왕복") +
           " · 출발 " + md(x.depart_from) + " ~ " + md(x.depart_to) + (g.n > 1 ? " · 상품 " + g.n + "개" : "") + ttLow(x) + " ↗</span></a></li>";
     }).join("");

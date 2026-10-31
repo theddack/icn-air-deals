@@ -446,3 +446,8 @@ table.sch mark { background: var(--orange-bg); color: var(--orange); border-radi
 .fav[aria-pressed="true"] svg { fill: currentColor; }
 .fav:hover { background: var(--line-soft); }
 .fav:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+
+/* 땡처리 도착지별 최근 30일 최저가 흐름 */
+.spark { vertical-align: middle; margin-right: 8px; }
+.spark polyline { fill: none; stroke: var(--faint); stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; }
+.spark circle { fill: var(--coral); }

@@ -326,3 +326,46 @@ class WeeklyTest(Base):
         many = [deal(i, first_seen="2026-10-30T09:00:00+09:00") for i in range(notify.WEEKLY_MAX + 3)]
         text = notify.build_weekly(notify.weekly_sections(many, at(self.SUN).date()), at(self.SUN).date())
         self.assertIn("…외 3건은 사이트에서", text)
+
+
+class PriceDropTest(unittest.TestCase):
+    """땡처리 최저가 갱신: 하루 한 번, 같은 도착지는 더 내려야 다시."""
+
+    def hist(self, today_price, before=(500000, 480000, 490000, 470000, 475000)):
+        days = {f"2026-10-{25 + i:02d}": {"price": p, "airline": "가항공"} for i, p in enumerate(before)}
+        days["2026-10-31"] = {"price": today_price, "airline": "나항공"}
+        return {"dests": {"DAD": {"destination": "다낭", "trip": "roundtrip", "days": days},
+                          "BKK": {"destination": "방콕", "trip": "roundtrip", "days": {"2026-10-31": {"price": 1, "airline": "x"}}}}}
+
+    def go(self, hist, state, now="2026-10-31T10:00"):
+        out = []
+        new, err = notify._price_drops(hist, state, at(now), out.append)
+        self.assertIsNone(err)
+        return new, out
+
+    def test_new_low_alerts_once_a_day(self):
+        state, out = self.go(self.hist(430000), {})
+        self.assertEqual(len(out), 1)
+        self.assertIn("다낭", out[0])
+        self.assertIn("9% ↓", out[0])
+        self.assertNotIn("방콕", out[0])  # 이전 기록이 짧으면 비교하지 않는다
+        _, again = self.go(self.hist(400000), state, "2026-10-31T15:00")
+        self.assertEqual(again, [])
+
+    def test_not_lower_no_alert(self):
+        _, out = self.go(self.hist(470000), {})
+        self.assertEqual(out, [])
+
+    def test_same_price_next_day_not_repeated(self):
+        state = {"drops": {"DAD": {"price": 430000, "date": "2026-10-30"}}}
+        _, out = self.go(self.hist(430000, before=(500000, 480000, 490000, 470000, 475000, 440000)), state)
+        self.assertEqual(out, [])
+
+    def test_waits_for_today_data_and_slot(self):
+        h = self.hist(430000)
+        h["dests"]["DAD"]["days"].pop("2026-10-31")
+        h["dests"]["BKK"]["days"] = {"2026-10-30": {"price": 1, "airline": "x"}}
+        state, out = self.go(h, {})
+        self.assertEqual((out, state.get("drops_day")), ([], None))
+        _, out = self.go(self.hist(430000), {}, "2026-10-31T22:00")
+        self.assertEqual(out, [])
