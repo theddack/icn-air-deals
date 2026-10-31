@@ -16,6 +16,7 @@
   그 사이 발견한 행사는 다음 날 오전 '신규'로 간다(처음 본 지 3일 안, 마감된 행사는 제외).
   전날 저녁에 못 보낸 '내일 마감'·'내일 시작'은 다음 날 아침 '오늘 마감'·'오늘 시작'이 된다.
 - 앞 시간대가 실행되지 않았으면(예약 지연·누락) 그 시간대 종류도 함께 보낸다.
+- 일요일 저녁 시간대에는 주간 요약을 따로 한 통 보낸다 (이번 주 새로 발견, 다음 주 판매 시작·마감). 주마다 한 번.
 
 실행: 수집 작업이 끝날 때마다(수집은 KST 09·13·18·22시 17분 전후) + 비상용 예약(09:07 · 14:07 · 18:37 · 20:07)
 (.github/workflows/telegram.yml).
@@ -52,7 +53,9 @@ UA = "icn-air-deals/0.1 (+https://github.com/theddack/icn-air-deals)"
 NEW_MAX_AGE_DAYS = 3     # 처음 본 지 이 일수 안인 행사만 '신규'
 DATA_STALE_HOURS = 14    # 행사 데이터가 이보다 오래되면 신규로 안내하지 않는다 (수집이 멈춘 것)
 KEEP_DAYS = 60           # 보낸 기록 보관 기간
-TEXT_MAX = 3800          # 텔레그램 한 메시지 4096자 제한보다 여유 있게
+WEEKLY_DAYS = 7         # 주간 요약: 이번 주 = 오늘 포함 7일, 다음 주 = 내일부터 7일
+WEEKLY_MAX = 10         # 주간 요약 한 묶음에 보여 줄 최대 건수 (나머지는 '외 n건')
+TEXT_MAX = 3800         # 텔레그램 한 메시지 4096자 제한보다 여유 있게
 WEEK = "월화수목금토일"
 SECTION = {"flight": "항공권", "domestic": "국내선", "hotel": "숙박"}
 
@@ -422,6 +425,15 @@ def run(deals_data, state, now, sender, admin=None):
             state = {**state, "admin_failed": today.isoformat()}
 
     state = {**state, "events": rekey(deals, state.get("events", {}))}
+    state, error = _brief(deals, state, now, data_fresh, sender)
+    if error:
+        return state, error
+    return _weekly(deals, state, now, data_fresh, sender)
+
+
+def _brief(deals, state, now, data_fresh, sender):
+    """시간대 브리핑 → (새 state, 오류 또는 None)."""
+    today = now.date()
     items, slot = plan(deals, state, now, data_fresh)
     if not slot:
         print("[notify] 알림 시간대(09~21시)가 아니라 보내지 않습니다.")
@@ -455,6 +467,88 @@ def run(deals_data, state, now, sender, admin=None):
         return state, error
     print(f"[notify] {slot}: 항목 {len(items)}건을 메시지 {len(texts)}통으로 보냈습니다.")
     return _mark_slot(state, today, slot, "sent"), None
+
+
+# ---------------------------------------------------------------- 주간 요약 (일요일 저녁)
+
+def weekly_sections(deals, today):
+    """→ {'new': [...], 'start': [...], 'close': [...], 'live': 판매 중 건수}.
+    new: 이번 주(오늘 포함 7일) 처음 본 행사 / start·close: 다음 주(내일부터 7일) 판매 시작·마감."""
+    week_ago = today - timedelta(days=WEEKLY_DAYS - 1)
+    nxt = today + timedelta(days=WEEKLY_DAYS)
+    out = {"new": [], "start": [], "close": [], "live": 0}
+    for d in deals:
+        st = display_status(d, today)
+        if st in ("ended", "stale") or d.get("from_icn") == "no":
+            continue
+        if st == "live":
+            out["live"] += 1
+        seen = _dt(d.get("first_seen"))
+        if seen and seen.date() >= week_ago:
+            out["new"].append(d)
+        if "sale" in (d.get("conflicts") or []):  # 출처 간 판매 날짜가 다르면 일정에 넣지 않는다
+            continue
+        start, end = _d(d.get("sale_start")), _d(d.get("sale_end"))
+        if start and today < start <= nxt:
+            out["start"].append(d)
+        if end and today < end <= nxt:
+            out["close"].append(d)
+    official_first = lambda d: (d.get("verification") != "official", d.get("first_seen") or "")
+    out["new"].sort(key=official_first)
+    out["start"].sort(key=lambda d: d["sale_start"])
+    out["close"].sort(key=lambda d: d["sale_end"])
+    return out
+
+
+def _weekly_line(deal, day=None):
+    e = html.escape
+    name = deal.get("event_name") or deal.get("headline") or ""
+    name = name if len(name) <= 30 else name[:29].rstrip() + "…"
+    line = f"• {e(deal.get('airline') or '')} · {e(name)}"
+    if deal.get("discount"):
+        line += f" — {e(deal['discount'])}"
+    if day:
+        d = date.fromisoformat(day)
+        line = f"• {d.month}/{d.day}({WEEK[d.weekday()]}) " + line[2:]
+    return line
+
+
+def build_weekly(sec, today):
+    """→ 텍스트 또는 None(알릴 것이 없을 때)."""
+    if not (sec["new"] or sec["start"] or sec["close"]):
+        return None
+    lines = ["✈️ <b>ICN 특가 레이더</b>", "", "🗓️ <b>이번 주 여행 할인 요약</b>",
+             f"{kr_date(today - timedelta(days=WEEKLY_DAYS - 1))} ~ {kr_date(today)}", "",
+             f"지금 판매 중 {sec['live']}건 · 이번 주 새로 발견 {len(sec['new'])}건"]
+    parts = [("🆕 <b>이번 주 새로 발견</b>", [_weekly_line(d) for d in sec["new"]]),
+             ("📅 <b>다음 주 판매 시작</b>", [_weekly_line(d, d["sale_start"]) for d in sec["start"]]),
+             ("⏰ <b>다음 주 판매 마감</b>", [_weekly_line(d, d["sale_end"]) for d in sec["close"]])]
+    for title, rows in parts:
+        if not rows:
+            continue
+        more = len(rows) - WEEKLY_MAX
+        lines += ["", RULE, "", title] + rows[:WEEKLY_MAX] + ([f"…외 {more}건은 사이트에서"] if more > 0 else [])
+    lines += ["", RULE, "", NOTE]
+    return "\n".join(lines)
+
+
+def _weekly(deals, state, now, data_fresh, sender):
+    """일요일 저녁 시간대에 한 번, 시간대 브리핑과 따로 보낸다 → (새 state, 오류 또는 None)."""
+    today = now.date()
+    if today.weekday() != 6 or slot_of(now) != "evening" or state.get("weekly") == today.isoformat():
+        return state, None
+    if not data_fresh:  # 수집이 멈춘 채로 요약하지 않는다. 저녁 시간대 안 다음 실행에서 다시 본다
+        return state, None
+    text = build_weekly(weekly_sections(deals, today), today)
+    if text:
+        try:
+            sender(text)
+        except Exception as e:
+            return state, e
+        print("[notify] 주간 요약을 보냈습니다.")
+    else:
+        print("[notify] 주간 요약: 알릴 행사가 없습니다.")
+    return {**state, "weekly": today.isoformat()}, None
 
 
 def _split_items(items, texts):

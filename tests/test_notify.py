@@ -283,3 +283,46 @@ class SendAllTest(unittest.TestCase):
             barrier.wait()  # 차례로 보내면 여기서 멈춰 시간 초과가 난다
 
         self.assertEqual(notify.send_all(["a", "b"], "안녕", one), [])
+
+
+class WeeklyTest(Base):
+    """일요일 저녁 주간 요약: 주마다 한 번, 시간대 브리핑과 따로."""
+    SUN = "2026-11-01T18:40"
+
+    def deals(self):
+        return [deal(1, first_seen="2026-10-28T09:00:00+09:00", sale_start="2026-10-20", sale_end="2026-11-04"),
+                deal(2, first_seen="2026-10-10T09:00:00+09:00", sale_start="2026-11-03", sale_end="2026-11-20"),
+                deal(3, first_seen="2026-10-10T09:00:00+09:00", sale_start="2026-10-01", sale_end="2026-10-25")]
+
+    def run_at(self, now, state):
+        out = []
+        data = {"generated_at": at(now).isoformat(), "deals": self.deals()}
+        new_state, err = notify.run(data, state, at(now), out.append)
+        self.assertIsNone(err)
+        return new_state, [t for t in out if "이번 주 여행 할인 요약" in t]
+
+    def test_sections(self):
+        sec = notify.weekly_sections(self.deals(), at(self.SUN).date())
+        self.assertEqual([d["id"] for d in sec["new"]], ["d1"])
+        self.assertEqual([d["id"] for d in sec["start"]], ["d2"])
+        self.assertEqual([d["id"] for d in sec["close"]], ["d1"])  # d3은 이미 끝나 빠진다
+
+    def test_sunday_evening_once(self):
+        state, weekly = self.run_at(self.SUN, dict(STARTED))
+        self.assertEqual(len(weekly), 1)
+        self.assertIn("11/3(화)", weekly[0])
+        _, again = self.run_at("2026-11-01T20:10", state)
+        self.assertEqual(again, [])
+
+    def test_not_other_days_or_slots(self):
+        for now in ("2026-11-01T10:00", "2026-11-02T18:40", "2026-10-31T19:00"):
+            _, weekly = self.run_at(now, dict(STARTED))
+            self.assertEqual(weekly, [], now)
+
+    def test_nothing_to_tell(self):
+        self.assertIsNone(notify.build_weekly({"new": [], "start": [], "close": [], "live": 0}, at(self.SUN).date()))
+
+    def test_more_than_max(self):
+        many = [deal(i, first_seen="2026-10-30T09:00:00+09:00") for i in range(notify.WEEKLY_MAX + 3)]
+        text = notify.build_weekly(notify.weekly_sections(many, at(self.SUN).date()), at(self.SUN).date())
+        self.assertIn("…외 3건은 사이트에서", text)
