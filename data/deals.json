@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T21:22:44+09:00",
+ "generated_at": "2026-10-31T21:27:21+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,7 +10,7 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2046,
+  "rss_items": 2200,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],

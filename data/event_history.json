@@ -1,0 +1,75 @@
+{
+ "about": "판매 날짜가 확인된 행사 기록 (collector/annual.py). 연례 세일 예고에 쓴다.",
+ "events": {
+  "aerok|2026-10-19|앵콜에케세일": {
+   "airline_id": "aerok",
+   "airline": "에어로케이",
+   "name": "앵콜 에케세일",
+   "sale_start": "2026-10-19",
+   "sale_end": null
+  },
+  "airpremia|2026-11-02|블프할인": {
+   "airline_id": "airpremia",
+   "airline": "에어프레미아",
+   "name": "블프 할인",
+   "sale_start": "2026-11-02",
+   "sale_end": "2026-11-15"
+  },
+  "airpremia|2026-11-02|에어프레미아블랙프라이데이할인프로모션": {
+   "airline_id": "airpremia",
+   "airline": "에어프레미아",
+   "name": "에어프레미아, 블랙프라이데이 할인 프로모션",
+   "sale_start": "2026-11-02",
+   "sale_end": "2026-11-15"
+  },
+  "h-accor|2026-10-16|allaccor20offappbookingo": {
+   "airline_id": "h-accor",
+   "airline": "아코르",
+   "name": "ALL Accor 20% OFF APP Booking Offer For Stays October 16 – D",
+   "sale_start": "2026-10-16",
+   "sale_end": "2026-12-13"
+  },
+  "h-hilton|2026-10-05|hiltonforbusiness25offsa": {
+   "airline_id": "h-hilton",
+   "airline": "힐튼",
+   "name": "Hilton For Business 25% Off Sale For Stays In The Americas, ",
+   "sale_start": "2026-10-05",
+   "sale_end": "2027-01-10"
+  },
+  "h-marriott|2026-10-30|marriottworldwide20offes": {
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "name": "Marriott Worldwide 20% Off Escapes For Stays October 30 – No",
+   "sale_start": "2026-10-30",
+   "sale_end": "2026-11-15"
+  },
+  "h-skyscanner|2026-11-01|1111쇼핑데이": {
+   "airline_id": "h-skyscanner",
+   "airline": "스카이스캐너",
+   "name": "11.11 쇼핑데이",
+   "sale_start": "2026-11-01",
+   "sale_end": "2026-11-11"
+  },
+  "h-stayfesta|2026-09-22|숙박세일페스타": {
+   "airline_id": "h-stayfesta",
+   "airline": "숙박세일 페스타",
+   "name": "숙박세일 페스타",
+   "sale_start": "2026-09-22",
+   "sale_end": "2026-11-08"
+  },
+  "h-yeogi|2026-09-22|홀리데이in포항": {
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "name": "홀리데이 in 포항",
+   "sale_start": "2026-09-22",
+   "sale_end": null
+  },
+  "trinity|2026-10-30|트리니티항공제주행왕복항공권최대2만원할인프로모": {
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "name": "트리니티항공, 제주행 왕복 항공권 최대 2만 원 할인 프로모션 진행",
+   "sale_start": "2026-10-30",
+   "sale_end": null
+  }
+ }
+}
