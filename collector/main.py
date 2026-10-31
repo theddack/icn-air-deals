@@ -10,7 +10,7 @@ import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
-from . import extract, mail_deals
+from . import annual, extract, mail_deals
 from .merge import MULTI, cluster_articles
 from .sources import news_rss, outlet_rss
 from .status import KST, should_keep, today_kst
@@ -351,6 +351,8 @@ def main():
                   "articles": len(articles), "new_articles": added, "deals": len(deals)},
         "deals": deals,
     })
+    # 연례 세일 예고에 쓸 행사 기록 (판매 날짜가 확인된 것만, collector/annual.py)
+    write_json(DATA / "event_history.json", annual.remember(load_json(DATA / "event_history.json", {}), deals, today))
     print(f"[main] 검색어 {total}개 (실패 {failed}), RSS {len(raw)}건 → 기사 {len(articles)}건 (신규 {added}) → 행사 {len(deals)}건")
     print(f"[main] 언론사 RSS {o_total}곳 (실패 {len(o_failed)}), 항목 {len(o_items)}건 → 새 기사 {o_added}, 요약 사실값 추가 {o_enriched}")
     return 0

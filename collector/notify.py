@@ -42,11 +42,14 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
+from . import annual
 from .status import KST, display_status
 
 ROOT = Path(__file__).resolve().parent.parent
 DEALS = ROOT / "data" / "deals.json"
 STATE = ROOT / "data" / "telegram_sent.json"
+ANNUAL = ROOT / "data" / "annual_sales.json"      # 연례 세일 시기표 (collector/annual.py)
+EVENTS = ROOT / "data" / "event_history.json"
 HISTORY = ROOT / "data" / "price_history.json"   # 땡처리닷컴 도착지별 하루 최저가 (collector/ttang.py)
 SITE = "https://theddack.github.io/icn-air-deals/"
 API = "https://api.telegram.org/bot{token}/{method}"
@@ -405,7 +408,7 @@ def migrate(state, deals):
     return {"started": state.get("started", ""), "events": events, "slots": {}}
 
 
-def run(deals_data, state, now, sender, admin=None, history=None):
+def run(deals_data, state, now, sender, admin=None, history=None, expected=None):
     """한 번 실행 → (새 state, 오류 또는 None). sender(text)가 예외를 내면 그 앞까지 보낸 항목만 기록하고,
     시간대는 '보냄'으로 표시하지 않아 남은 항목을 다음 실행에서 다시 보낸다."""
     deals = deals_data.get("deals", [])
@@ -434,7 +437,7 @@ def run(deals_data, state, now, sender, admin=None, history=None):
     state, error = _brief(deals, state, now, data_fresh, sender)
     if error:
         return state, error
-    state, error = _weekly(deals, state, now, data_fresh, sender)
+    state, error = _weekly(deals, state, now, data_fresh, sender, expected or [])
     if error:
         return state, error
     return _price_drops(history, state, now, sender)
@@ -522,9 +525,9 @@ def _weekly_line(deal, day=None):
     return line
 
 
-def build_weekly(sec, today):
-    """→ 텍스트 또는 None(알릴 것이 없을 때)."""
-    if not (sec["new"] or sec["start"] or sec["close"]):
+def build_weekly(sec, today, expected=()):
+    """→ 텍스트 또는 None(알릴 것이 없을 때). expected: 곧 열릴 수도 있는 연례 세일 (collector/annual.py)."""
+    if not (sec["new"] or sec["start"] or sec["close"] or expected):
         return None
     lines = ["✈️ <b>ICN 특가 레이더</b>", "", "🗓️ <b>이번 주 여행 할인 요약</b>",
              f"{kr_date(today - timedelta(days=WEEKLY_DAYS - 1))} ~ {kr_date(today)}", "",
@@ -537,18 +540,24 @@ def build_weekly(sec, today):
             continue
         more = len(rows) - WEEKLY_MAX
         lines += ["", RULE, "", title] + rows[:WEEKLY_MAX] + ([f"…외 {more}건은 사이트에서"] if more > 0 else [])
+    if expected:
+        lines += ["", RULE, "", "📌 <b>곧 열릴 수도 있는 연례 세일</b>"]
+        for x in expected[:WEEKLY_MAX]:
+            d = date.fromisoformat(x["start"])
+            lines.append(f"• {html.escape(x['airline'])} · {html.escape(x['name'])} — {d.month}월 {'초' if d.day <= 10 else '중순' if d.day <= 20 else '하순'}쯤 ({html.escape(x['basis'])})")
+        lines.append("예상일 뿐이라 날짜는 해마다 달라요. 열리면 바로 알려 드릴게요.")
     lines += ["", RULE, "", NOTE]
     return "\n".join(lines)
 
 
-def _weekly(deals, state, now, data_fresh, sender):
+def _weekly(deals, state, now, data_fresh, sender, expected=()):
     """일요일 저녁 시간대에 한 번, 시간대 브리핑과 따로 보낸다 → (새 state, 오류 또는 None)."""
     today = now.date()
     if today.weekday() != 6 or slot_of(now) != "evening" or state.get("weekly") == today.isoformat():
         return state, None
     if not data_fresh:  # 수집이 멈춘 채로 요약하지 않는다. 저녁 시간대 안 다음 실행에서 다시 본다
         return state, None
-    text = build_weekly(weekly_sections(deals, today), today)
+    text = build_weekly(weekly_sections(deals, today), today, expected)
     if text:
         try:
             sender(text)
@@ -617,7 +626,9 @@ def main(argv=None):
             send(token, admin_chat, "[관리자] " + text)
 
     history = json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else None
-    new_state, error = run(deals_data, state, now, sender, admin, history)
+    load = lambda p: json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
+    expected = annual.expected(load(ANNUAL), load(EVENTS), deals_data.get("deals", []), now.date())
+    new_state, error = run(deals_data, state, now, sender, admin, history, expected)
     if error:
         # 토큰·chat id는 찍지 않는다
         print(f"::error::텔레그램 발송 실패: {type(error).__name__} {getattr(error, 'code', '')} — 남은 항목은 다음 실행에서 보냅니다.")

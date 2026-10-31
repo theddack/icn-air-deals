@@ -1,0 +1,19 @@
+{
+ "about": "해마다 비슷한 때 열리는 항공사 대표 세일. 지난 기사로 본 대략적인 시기이며 날짜는 해마다 달라진다 (2026-10-31 정리). 주간 요약의 '곧 열릴 수도 있는 연례 세일'에 쓴다. 새 해 기록이 쌓이면 data/event_history.json이 함께 쓰인다.",
+ "sales": [
+  {"airline_id": "jejuair", "airline": "제주항공", "name": "찜 특가", "keywords": ["찜"],
+   "windows": [{"from": "01-20", "to": "02-15", "seen": ["2024-01", "2026-02"]},
+               {"from": "06-15", "to": "07-20", "seen": ["2025-06", "2026-07"]}],
+   "sources": ["https://www.fnnews.com/news/202602030917493083", "https://www.fnnews.com/news/202506160911040761", "https://www.fnnews.com/news/202607071019315936"]},
+  {"airline_id": "jinair", "airline": "진에어", "name": "진마켓", "keywords": ["진마켓"],
+   "windows": [{"from": "01-20", "to": "02-10", "seen": ["2024-01"]},
+               {"from": "07-10", "to": "07-25", "seen": ["2025-07", "2026-07"]}],
+   "sources": ["https://biz.newdaily.co.kr/site/data/html/2024/01/30/2024013000075.amp.html", "https://biz.newdaily.co.kr/site/data/html/2025/07/21/2025072100237.html", "https://www.ddaily.co.kr/page/view/2026070821480285408"]},
+  {"airline_id": "trinity", "airline": "트리니티항공", "name": "블랙프라이데이 특가", "keywords": ["블랙프라이데이", "블프"],
+   "windows": [{"from": "11-20", "to": "12-03", "seen": ["2023-11", "2024-11"]}],
+   "sources": ["https://www.metroseoul.co.kr/article/20231128500530", "https://www.metroseoul.co.kr/article/20241125500370"]},
+  {"airline_id": "airbusan", "airline": "에어부산", "name": "플라이앤세일", "keywords": ["플라이앤세일"],
+   "windows": [{"from": "08-12", "to": "08-25", "seen": ["2024-08"]}],
+   "sources": ["https://biz.newdaily.co.kr/site/data/html/2024/08/19/2024081900226.amp.html"]}
+ ]
+}
