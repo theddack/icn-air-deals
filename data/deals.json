@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T15:51:11+09:00",
+ "generated_at": "2026-11-01T18:16:08+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2158,
+  "rss_items": 2169,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1742,
+  "outlet_items": 1699,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
   "articles_with_summary": 27,
-  "articles": 557,
-  "new_articles": 3,
+  "articles": 558,
+  "new_articles": 1,
   "deals": 75
  },
  "deals": [
@@ -1629,12 +1629,18 @@
    "first_published": "2026-11-01",
    "last_published": "2026-11-01",
    "first_seen": "2026-11-01T13:18:15+09:00",
-   "last_seen": "2026-11-01T15:51:11+09:00",
+   "last_seen": "2026-11-01T18:16:08+09:00",
    "articles": [
     {
      "title": "조선호텔앤리조트, ‘쓱데이’서 최대 77% 객실 할인부터 디퓨저 특가",
      "outlet": "싱글리스트",
      "url": "https://www.slist.kr/news/articleView.html?idxno=778067",
+     "published": "2026-11-01"
+    },
+    {
+     "title": "조선호텔앤리조트,‘2026 대한민국 쓱데이’참여…호텔 객실부터 웨딩·레저까지 500여종 특가",
+     "outlet": "뷰티트래블뉴스",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcE11VWhQRV9jMHNXMWZHN3hUR0JuVzJWdTZCRDR2OUdZbjlpaWdmbFVXOUhHRDNvN1B2akphV2M3anNvbWptZ3RybHF3LTZscUJzeHptR1VoNkRlNTZ3UFBiZHJNWVV4YUVYbWxhWm9vcXdqc3J6X01BS3hPTU1DQkVkTQ?oc=5",
      "published": "2026-11-01"
     },
     {
