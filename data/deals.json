@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T09:14:06+09:00",
+ "generated_at": "2026-11-01T13:18:15+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2241,
+  "rss_items": 2168,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1672,
-  "outlet_new_articles": 0,
+  "outlet_items": 1740,
+  "outlet_new_articles": 1,
   "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
-  "articles_with_summary": 26,
-  "articles": 549,
-  "new_articles": 2,
-  "deals": 73
+  "articles_with_summary": 27,
+  "articles": 554,
+  "new_articles": 5,
+  "deals": 75
  },
  "deals": [
   {
@@ -1574,6 +1574,80 @@
      "outlet": "팍스경제TV",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FZHVPRzhrSkZwc1dnNkdWMEhuOERGb1NRREYxenFaOWdjNmx6d2hDZ1RXWHBJai1FVm1ObVFZLXl1YkVzMEV4MXdlVFBNQUViRTVCYk9ZMUpYcXR2ZVYtUnpRdUlvSnM?oc=5",
      "published": "2026-10-23"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-josun-1a4e1d1d9f",
+   "airline_id": "h-josun",
+   "airline": "조선호텔앤리조트",
+   "airlines_mentioned": [
+    "조선호텔앤리조트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "쓱데이",
+   "headline": "조선호텔앤리조트, ‘쓱데이’서 최대 77% 객실 할인부터 디퓨저 특가",
+   "sale_start": null,
+   "sale_end": "2026-11-08",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "싱글리스트 요약문: …텔앤리조트가 오는 8일까지 진행되는 ‘2026 대한민국 쓱데이’에 객실, 레스토랑, 웨딩을 비롯해 리테일, …",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=778067"
+    },
+    "discount": {
+     "title": "조선호텔앤리조트, ‘쓱데이’서 최대 77% 객실 할인부터 디퓨저 특가",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=778067"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 77%",
+   "verification": "news",
+   "first_published": "2026-11-01",
+   "last_published": "2026-11-01",
+   "first_seen": "2026-11-01T13:18:15+09:00",
+   "last_seen": "2026-11-01T13:18:15+09:00",
+   "articles": [
+    {
+     "title": "조선호텔앤리조트, ‘쓱데이’서 최대 77% 객실 할인부터 디퓨저 특가",
+     "outlet": "싱글리스트",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=778067",
+     "published": "2026-11-01"
+    },
+    {
+     "title": "조선호텔앤리조트, 쓱데이서 500여종 상품 할인…객실 최대 77%",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jemVjZXZ0MG9kM2hWQ3cxdmpLeGx3NHNpVHF6X2tVMi12bzZiR3FQRXlmRl93WFk4REwxcWk4WGE5T2o5YThOT1U2Z3BheUVaSGtQamk3bkVtMmVKQXk4?oc=5",
+     "published": "2026-11-01"
+    },
+    {
+     "title": "조선호텔앤리조트, 연말 소비 수요 공략..쓱데이서 500여종 할인",
+     "outlet": "한국정경신문",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TbmVoLXhfUUNHWFQzc2lodXpUaVZ3S282TkRBakJ5Wk1ZejJ6Q1E1dEtaNVRmdVljZE5XOW9oWjQwcDg5aWJXSkpRS3BSTUZMYUE?oc=5",
+     "published": "2026-11-01"
+    },
+    {
+     "title": "조선호텔앤리조트, '쓱데이' 참가…객실 최대 77% 할인",
+     "outlet": "전자신문",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1tenktVXprWm92YWpxMTB2Q0FsblNJM3d3dmhqQ1BaOS1vbjNNTXY2MmhOUnJFQXVSb1ltTF9MTEtVMk1mY1pEaW5veW92UQ?oc=5",
+     "published": "2026-11-01"
     }
    ],
    "status": "live"
@@ -3939,6 +4013,58 @@
      "outlet": "서울경제TV",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fekFsQktaUE1iVFYtc2F3TW5pdkFScEowREpTNGozaFY1R20tSVR2ZGtFbGxpU3Z6UjFpeWIyV0dFWE1yNGNwc1A5cnhldTFzZmFWajhwTFRsSW1yOWFoeDl6aU0?oc=5",
      "published": "2026-10-30"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-josun-2719250284",
+   "airline_id": "h-josun",
+   "airline": "조선호텔앤리조트",
+   "airlines_mentioned": [
+    "조선호텔앤리조트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "호텔 객실 최대 78% 할인…조선호텔앤리조트, 쓱데이 500여종 특가 쏟아낸다",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "호텔 객실 최대 78% 할인…조선호텔앤리조트, 쓱데이 500여종 특가 쏟아낸다",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JVTN0UGFDNHNqeWhZSWd5T2JvTmEwdGQ0bS1uRDlVTlIyNEVNMUVaTFpEVk9BYVEyNG9lZWpfbjVKamhVMkM4WHNLb19sSzR2WkYtZHA2bVRwZnBNZEI5R1dibDRmX0g1YzZ0LQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 78%",
+   "verification": "news",
+   "first_published": "2026-11-01",
+   "last_published": "2026-11-01",
+   "first_seen": "2026-11-01T13:18:15+09:00",
+   "last_seen": "2026-11-01T13:18:15+09:00",
+   "articles": [
+    {
+     "title": "호텔 객실 최대 78% 할인…조선호텔앤리조트, 쓱데이 500여종 특가 쏟아낸다",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JVTN0UGFDNHNqeWhZSWd5T2JvTmEwdGQ0bS1uRDlVTlIyNEVNMUVaTFpEVk9BYVEyNG9lZWpfbjVKamhVMkM4WHNLb19sSzR2WkYtZHA2bVRwZnBNZEI5R1dibDRmX0g1YzZ0LQ?oc=5",
+     "published": "2026-11-01"
     }
    ],
    "status": "undated"

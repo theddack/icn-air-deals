@@ -4257,5 +4257,52 @@
   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xQ3dic1Y3Q2dMb096MjYwdXh0ODFRSE43eFI2V1E5QWxCNkhMYnE3VTlmOWE4dF9OY0JuSFJMZEhLYmY5MzFLR21wLXJTQjNhR2w5b3NZN2xsTGszVHlpZnFOTzl6RVlRWkJOTQ?oc=5",
   "published": "2026-11-01",
   "first_seen": "2026-11-01T09:14:06+09:00"
+ },
+ {
+  "title": "조선호텔앤리조트, 연말 소비 수요 공략..쓱데이서 500여종 할인",
+  "outlet": "한국정경신문",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TbmVoLXhfUUNHWFQzc2lodXpUaVZ3S282TkRBakJ5Wk1ZejJ6Q1E1dEtaNVRmdVljZE5XOW9oWjQwcDg5aWJXSkpRS3BSTUZMYUE?oc=5",
+  "published": "2026-11-01",
+  "first_seen": "2026-11-01T13:18:15+09:00"
+ },
+ {
+  "title": "조선호텔앤리조트, '쓱데이' 참가…객실 최대 77% 할인",
+  "outlet": "전자신문",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1tenktVXprWm92YWpxMTB2Q0FsblNJM3d3dmhqQ1BaOS1vbjNNTXY2MmhOUnJFQXVSb1ltTF9MTEtVMk1mY1pEaW5veW92UQ?oc=5",
+  "published": "2026-11-01",
+  "first_seen": "2026-11-01T13:18:15+09:00"
+ },
+ {
+  "title": "조선호텔앤리조트, 쓱데이서 500여종 상품 할인…객실 최대 77%",
+  "outlet": "뉴스1",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jemVjZXZ0MG9kM2hWQ3cxdmpLeGx3NHNpVHF6X2tVMi12bzZiR3FQRXlmRl93WFk4REwxcWk4WGE5T2o5YThOT1U2Z3BheUVaSGtQamk3bkVtMmVKQXk4?oc=5",
+  "published": "2026-11-01",
+  "first_seen": "2026-11-01T13:18:15+09:00"
+ },
+ {
+  "title": "호텔 객실 최대 78% 할인…조선호텔앤리조트, 쓱데이 500여종 특가 쏟아낸다",
+  "outlet": "뉴스탭",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JVTN0UGFDNHNqeWhZSWd5T2JvTmEwdGQ0bS1uRDlVTlIyNEVNMUVaTFpEVk9BYVEyNG9lZWpfbjVKamhVMkM4WHNLb19sSzR2WkYtZHA2bVRwZnBNZEI5R1dibDRmX0g1YzZ0LQ?oc=5",
+  "published": "2026-11-01",
+  "first_seen": "2026-11-01T13:18:15+09:00"
+ },
+ {
+  "title": "조선호텔앤리조트, ‘쓱데이’서 최대 77% 객실 할인부터 디퓨저 특가",
+  "outlet": "싱글리스트",
+  "url": "https://www.slist.kr/news/articleView.html?idxno=778067",
+  "published": "2026-11-01",
+  "first_seen": "2026-11-01T13:18:15+09:00",
+  "source": "outlet_rss",
+  "summary_facts": {
+   "url": "https://www.slist.kr/news/articleView.html?idxno=778067",
+   "outlet": "싱글리스트",
+   "fields": {
+    "sale_start": null,
+    "sale_end": "2026-11-08"
+   },
+   "evidence": {
+    "sale": "…텔앤리조트가 오는 8일까지 진행되는 ‘2026 대한민국 쓱데이’에 객실, 레스토랑, 웨딩을 비롯해 리테일, …"
+   }
+  }
  }
 ]
