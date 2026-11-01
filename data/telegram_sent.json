@@ -1542,48 +1542,6 @@
     "new": "2026-10-31"
    }
   },
-  "vietjet-247b5c7050": {
-   "info": {
-    "airline": "vietjet",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-01",
-    "dests": [
-     "베트남"
-    ],
-    "last": "2026-10-28",
-    "urls": [
-     "247b5c7050",
-     "4833979a01",
-     "516c59603d",
-     "52523891f1",
-     "9f10661e3a",
-     "a8509a5901"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-27",
-    "closing_tomorrow": "2026-10-31"
-   }
-  },
-  "h-skyscanner-30e6478f61": {
-   "info": {
-    "airline": "h-skyscanner",
-    "name": "1111쇼핑데이",
-    "sale_start": "2026-11-01",
-    "sale_end": "2026-11-11",
-    "dests": [],
-    "last": "2026-10-29",
-    "urls": [
-     "30e6478f61"
-    ]
-   },
-   "kinds": {
-    "upcoming_d3": "2026-10-29",
-    "new": "2026-10-29",
-    "upcoming_d1": "2026-10-31"
-   }
-  },
   "h-stayfesta-cf3251da6d": {
    "info": {
     "airline": "h-stayfesta",
@@ -1657,6 +1615,51 @@
    "kinds": {
     "new": "2026-10-26"
    }
+  },
+  "h-skyscanner-30e6478f61": {
+   "info": {
+    "airline": "h-skyscanner",
+    "name": "1111쇼핑데이",
+    "sale_start": "2026-11-01",
+    "sale_end": "2026-11-11",
+    "dests": [],
+    "last": "2026-11-01",
+    "urls": [
+     "30e6478f61",
+     "730352f259"
+    ]
+   },
+   "kinds": {
+    "upcoming_d3": "2026-10-29",
+    "new": "2026-10-29",
+    "upcoming_d1": "2026-10-31",
+    "start_today": "2026-11-01"
+   }
+  },
+  "vietjet-247b5c7050": {
+   "info": {
+    "airline": "vietjet",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-01",
+    "dests": [
+     "베트남"
+    ],
+    "last": "2026-10-28",
+    "urls": [
+     "247b5c7050",
+     "4833979a01",
+     "516c59603d",
+     "52523891f1",
+     "9f10661e3a",
+     "a8509a5901"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-27",
+    "closing_tomorrow": "2026-10-31",
+    "closing_today": "2026-11-01"
+   }
   }
  },
  "slots": {
@@ -1687,7 +1690,21 @@
    "morning": "sent",
    "afternoon": "empty",
    "evening": "sent"
+  },
+  "2026-11-01": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-11-01T00:34:30+09:00"
+ "saved_at": "2026-11-01T09:18:45+09:00",
+ "drops_day": "2026-11-01",
+ "drops": {
+  "BKK": {
+   "price": 411600,
+   "date": "2026-11-01"
+  },
+  "SIN": {
+   "price": 397300,
+   "date": "2026-11-01"
+  }
+ }
 }
