@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T00:30:04+09:00",
+ "generated_at": "2026-11-01T09:14:06+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2169,
+  "rss_items": 2241,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1684,
+  "outlet_items": 1672,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
   "articles_with_summary": 26,
-  "articles": 547,
-  "new_articles": 0,
+  "articles": 549,
+  "new_articles": 2,
   "deals": 73
  },
  "deals": [
@@ -1372,15 +1372,15 @@
    "section": "hotel",
    "route": null,
    "route_text": null,
-   "scope": null,
+   "scope": "overseas",
    "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
+   "trial": true,
+   "baseline": "hotel_trial",
    "official_url": "https://www.skyscanner.co.kr/",
    "iata": [],
    "agencies": [],
    "event_name": "11.11 쇼핑데이",
-   "headline": "스카이스캐너, ‘11.11 쇼핑데이’ 항공권 할인 프로모션",
+   "headline": "연말 해외여행 준비한다면 주목… 스카이스캐너, 항공권 최대 15% 할인",
    "sale_start": "2026-11-01",
    "sale_end": "2026-11-11",
    "travel_start": null,
@@ -1395,18 +1395,24 @@
      "url": "https://www.slist.kr/news/articleView.html?idxno=777337"
     },
     "discount": {
-     "title": "싱글리스트 요약문: …, 캐세이퍼시픽 4곳은 스카이스캐너 단독 혜택을 선보여 여행객들은 최대 15%의 인하 혜택을 받을 수 있다.…",
-     "url": "https://www.slist.kr/news/articleView.html?idxno=777337"
+     "title": "연말 해외여행 준비한다면 주목… 스카이스캐너, 항공권 최대 15% 할인",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xQ3dic1Y3Q2dMb096MjYwdXh0ODFRSE43eFI2V1E5QWxCNkhMYnE3VTlmOWE4dF9OY0JuSFJMZEhLYmY5MzFLR21wLXJTQjNhR2w5b3NZN2xsTGszVHlpZnFOTzl6RVlRWkJOTQ?oc=5"
     }
    },
    "from_icn": null,
    "discount": "최대 15%",
    "verification": "news",
    "first_published": "2026-10-29",
-   "last_published": "2026-10-29",
+   "last_published": "2026-11-01",
    "first_seen": "2026-10-29T10:47:32+09:00",
-   "last_seen": "2026-10-29T10:47:32+09:00",
+   "last_seen": "2026-11-01T09:14:06+09:00",
    "articles": [
+    {
+     "title": "연말 해외여행 준비한다면 주목… 스카이스캐너, 항공권 최대 15% 할인",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xQ3dic1Y3Q2dMb096MjYwdXh0ODFRSE43eFI2V1E5QWxCNkhMYnE3VTlmOWE4dF9OY0JuSFJMZEhLYmY5MzFLR21wLXJTQjNhR2w5b3NZN2xsTGszVHlpZnFOTzl6RVlRWkJOTQ?oc=5",
+     "published": "2026-11-01"
+    },
     {
      "title": "스카이스캐너, ‘11.11 쇼핑데이’ 항공권 할인 프로모션",
      "outlet": "싱글리스트",
@@ -3641,87 +3647,6 @@
    "status": "undated"
   },
   {
-   "id": "airpremia-b1d6c87d91",
-   "airline_id": "airpremia",
-   "airline": "에어프레미아",
-   "airlines_mentioned": [
-    "에어프레미아"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airpremia.com/",
-   "iata": [
-    "YP"
-   ],
-   "agencies": [],
-   "event_name": "블랙프라이데이",
-   "headline": "에어프레미아, 인천 출발 전 노선 대상 ‘블랙프라이데이’ 프로모션 진행",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": "인천(ICN)",
-     "destination": null
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "에어프레미아, 전 노선 블랙프라이데이 할인…최대 72% 할인",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sOEFSNEd4Q1R1V2FPSDF6SVlna1J0dHBaanRBX3prbHozb0dITmVZSS1KZlpkZWU4bExxTEtJSmZ5eTdZdENNb25QV1VwbWQ5WGNlT01oWmZwMmN6a2swODExR0ZGQkVuR2Rr?oc=5"
-    },
-    "route": {
-     "title": "에어프레미아, 인천 출발 전 노선 대상 ‘블랙프라이데이’ 프로모션 진행",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQeV9xbTU5eC1vdzRKdENJcTBCeGhZSnFkSEJCR0lnMEpacFIwc25qN2ZtN252RVhlMlJOMkxObHFHYTRPcmNxUjZ4QlliTGp4bnZpY211SnM4b2NDOG9PanNmM2VyLUdTMUpfMkZfcy1zUQ?oc=5"
-    }
-   },
-   "from_icn": "yes",
-   "discount": "최대 72%",
-   "verification": "news",
-   "first_published": "2026-10-30",
-   "last_published": "2026-10-30",
-   "first_seen": "2026-10-30T13:18:25+09:00",
-   "last_seen": "2026-10-30T18:03:08+09:00",
-   "articles": [
-    {
-     "title": "에어프레미아, 인천 출발 전 노선 대상 ‘블랙프라이데이’ 프로모션 진행",
-     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQeV9xbTU5eC1vdzRKdENJcTBCeGhZSnFkSEJCR0lnMEpacFIwc25qN2ZtN252RVhlMlJOMkxObHFHYTRPcmNxUjZ4QlliTGp4bnZpY211SnM4b2NDOG9PanNmM2VyLUdTMUpfMkZfcy1zUQ?oc=5",
-     "published": "2026-10-30"
-    },
-    {
-     "title": "에어프레미아, 전 노선 ‘블랙프라이데이’ 프로모션 진행",
-     "outlet": "이뉴스투데이",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB4LTBfWENjazcyU29pNUt6emVBc2VQZkZDS0hkdERXeDAyNUVaYmppOFJzN0hOZERaYWNWemNxYUJIWmpYUkp6QzhldlJPb3QyNHJYOEUtTDJLOU5sa3pBenZzVnFsMlVYSW56RllYQnLSAXRBVV95cUxQeU40OWVBY1JoQXB6M1BQSF9uQ1BnMjhSZENaMWVJNWxsM0JFUFIzOUtRelBmMWhmeEY1SDc5NFcyNzdYR3V2Z1VTeWRjN3U1SjlWaExjdTNBTzNid0d4NVgxZWN6LWgxQWJhU3B1RXRraVFSNw?oc=5",
-     "published": "2026-10-30"
-    },
-    {
-     "title": "에어프레미아, 전 노선 블랙프라이데이 할인…최대 72% 할인",
-     "outlet": "BBS불교방송",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sOEFSNEd4Q1R1V2FPSDF6SVlna1J0dHBaanRBX3prbHozb0dITmVZSS1KZlpkZWU4bExxTEtJSmZ5eTdZdENNb25QV1VwbWQ5WGNlT01oWmZwMmN6a2swODExR0ZGQkVuR2Rr?oc=5",
-     "published": "2026-10-30"
-    },
-    {
-     "title": "에어프레미아, 전 노선 블랙프라이데이 특가…최대 72% 할인",
-     "outlet": "서울경제TV",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fekFsQktaUE1iVFYtc2F3TW5pdkFScEowREpTNGozaFY1R20tSVR2ZGtFbGxpU3Z6UjFpeWIyV0dFWE1yNGNwc1A5cnhldTFzZmFWajhwTFRsSW1yOWFoeDl6aU0?oc=5",
-     "published": "2026-10-30"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-accor-09eedd0a2c",
    "airline_id": "h-accor",
    "airline": "아코르",
@@ -3927,6 +3852,93 @@
      "outlet": "Frequent Miler",
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTUlzYTRTb3Y2RHp3Qm83X0dFR0tTa3JPaWM0cWJKOVdJd0x2V0xZbEVxZWtJTUR1N21qRzRNcEQ2T3J1YmRRTy1aZGpUZkN5MHY5ZFJaRnFQM0VBN3BVbkktWmg0UUl4UnZFUlFmb09YX28yMF9PZzh2NFpRdDdRVkVfdHVzUFc5WWZKY1M3SjV3Q3F6dk9JTmF2UUdicTlh?oc=5",
      "published": "2026-10-31"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "airpremia-b1d6c87d91",
+   "airline_id": "airpremia",
+   "airline": "에어프레미아",
+   "airlines_mentioned": [
+    "에어프레미아"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airpremia.com/",
+   "iata": [
+    "YP"
+   ],
+   "agencies": [],
+   "event_name": "블랙프라이데이",
+   "headline": "[하늘길] 11월 1주, 블랙프라이데이 항공권 특가…에어프레미아 외 2가지 항공",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "인천(ICN)",
+     "destination": null
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "에어프레미아, 전 노선 블랙프라이데이 할인…최대 72% 할인",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sOEFSNEd4Q1R1V2FPSDF6SVlna1J0dHBaanRBX3prbHozb0dITmVZSS1KZlpkZWU4bExxTEtJSmZ5eTdZdENNb25QV1VwbWQ5WGNlT01oWmZwMmN6a2swODExR0ZGQkVuR2Rr?oc=5"
+    },
+    "route": {
+     "title": "에어프레미아, 인천 출발 전 노선 대상 ‘블랙프라이데이’ 프로모션 진행",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQeV9xbTU5eC1vdzRKdENJcTBCeGhZSnFkSEJCR0lnMEpacFIwc25qN2ZtN252RVhlMlJOMkxObHFHYTRPcmNxUjZ4QlliTGp4bnZpY211SnM4b2NDOG9PanNmM2VyLUdTMUpfMkZfcy1zUQ?oc=5"
+    }
+   },
+   "from_icn": "yes",
+   "discount": "최대 72%",
+   "verification": "news",
+   "first_published": "2026-10-30",
+   "last_published": "2026-11-01",
+   "first_seen": "2026-10-30T13:18:25+09:00",
+   "last_seen": "2026-11-01T09:14:06+09:00",
+   "articles": [
+    {
+     "title": "[하늘길] 11월 1주, 블랙프라이데이 항공권 특가…에어프레미아 외 2가지 항공",
+     "outlet": "신아일보",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16eGVlZGhfdjFrS2hEa3NsbmhPUFlKZmVkZTNwamMzRW1adFI2MEV0N0hsMmR5TWp3cnI5eG14NEk2S1ZLS19JZnR3SUs1QjNCVjJrUDd0U1gxN2RfWkVydExpZV9Fc21jSGtUR0hPcWM?oc=5",
+     "published": "2026-11-01"
+    },
+    {
+     "title": "에어프레미아, 인천 출발 전 노선 대상 ‘블랙프라이데이’ 프로모션 진행",
+     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQeV9xbTU5eC1vdzRKdENJcTBCeGhZSnFkSEJCR0lnMEpacFIwc25qN2ZtN252RVhlMlJOMkxObHFHYTRPcmNxUjZ4QlliTGp4bnZpY211SnM4b2NDOG9PanNmM2VyLUdTMUpfMkZfcy1zUQ?oc=5",
+     "published": "2026-10-30"
+    },
+    {
+     "title": "에어프레미아, 전 노선 ‘블랙프라이데이’ 프로모션 진행",
+     "outlet": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB4LTBfWENjazcyU29pNUt6emVBc2VQZkZDS0hkdERXeDAyNUVaYmppOFJzN0hOZERaYWNWemNxYUJIWmpYUkp6QzhldlJPb3QyNHJYOEUtTDJLOU5sa3pBenZzVnFsMlVYSW56RllYQnLSAXRBVV95cUxQeU40OWVBY1JoQXB6M1BQSF9uQ1BnMjhSZENaMWVJNWxsM0JFUFIzOUtRelBmMWhmeEY1SDc5NFcyNzdYR3V2Z1VTeWRjN3U1SjlWaExjdTNBTzNid0d4NVgxZWN6LWgxQWJhU3B1RXRraVFSNw?oc=5",
+     "published": "2026-10-30"
+    },
+    {
+     "title": "에어프레미아, 전 노선 블랙프라이데이 할인…최대 72% 할인",
+     "outlet": "BBS불교방송",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sOEFSNEd4Q1R1V2FPSDF6SVlna1J0dHBaanRBX3prbHozb0dITmVZSS1KZlpkZWU4bExxTEtJSmZ5eTdZdENNb25QV1VwbWQ5WGNlT01oWmZwMmN6a2swODExR0ZGQkVuR2Rr?oc=5",
+     "published": "2026-10-30"
+    },
+    {
+     "title": "에어프레미아, 전 노선 블랙프라이데이 특가…최대 72% 할인",
+     "outlet": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fekFsQktaUE1iVFYtc2F3TW5pdkFScEowREpTNGozaFY1R20tSVR2ZGtFbGxpU3Z6UjFpeWIyV0dFWE1yNGNwc1A5cnhldTFzZmFWajhwTFRsSW1yOWFoeDl6aU0?oc=5",
+     "published": "2026-10-30"
     }
    ],
    "status": "undated"
