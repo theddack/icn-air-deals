@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T13:18:15+09:00",
+ "generated_at": "2026-11-01T15:51:11+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2168,
+  "rss_items": 2158,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1740,
-  "outlet_new_articles": 1,
+  "outlet_items": 1742,
+  "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
   "articles_with_summary": 27,
-  "articles": 554,
-  "new_articles": 5,
+  "articles": 557,
+  "new_articles": 3,
   "deals": 75
  },
  "deals": [
@@ -1289,7 +1289,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "비엣젯항공, 노선망 확대 및 에코 특가 항공권 판매 돌입",
+   "headline": "﻿비엣젯항공, 신규 노선 확대 및 항공권 특가 프로모션 전개",
    "sale_start": null,
    "sale_end": "2026-11-01",
    "travel_start": null,
@@ -1319,8 +1319,14 @@
    "first_published": "2026-10-27",
    "last_published": "2026-10-28",
    "first_seen": "2026-10-27T17:57:28+09:00",
-   "last_seen": "2026-10-29T03:51:32+09:00",
+   "last_seen": "2026-11-01T15:51:11+09:00",
    "articles": [
+    {
+     "title": "﻿비엣젯항공, 신규 노선 확대 및 항공권 특가 프로모션 전개",
+     "outlet": "한국목재신문",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tT1hLVkZaQzJIbkpCOVZtdGlWVU0yb2wwRGhaUEp1ZkJsX0R0dWJxckN6c2FSc2ZMTlNQVGhlUXB2dVg4TkNqWVJnVGcwMFVha0tMSUxVQzNtRDNqWERRZENac1E0amNQWTd5T2Z3b2FTQdIBckFVX3lxTE9tT1hLVkZaQzJIbkpCOVZtdGlWVU0yb2wwRGhaUEp1ZkJsX0R0dWJxckN6c2FSc2ZMTlNQVGhlUXB2dVg4TkNqWVJnVGcwMFVha0tMSUxVQzNtRDNqWERRZENac1E0amNQWTd5T2Z3b2FTQQ?oc=5",
+     "published": "2026-10-28"
+    },
     {
      "title": "비엣젯항공, 노선망 확대 및 에코 특가 항공권 판매 돌입",
      "outlet": "스페셜타임스",
@@ -1623,7 +1629,7 @@
    "first_published": "2026-11-01",
    "last_published": "2026-11-01",
    "first_seen": "2026-11-01T13:18:15+09:00",
-   "last_seen": "2026-11-01T13:18:15+09:00",
+   "last_seen": "2026-11-01T15:51:11+09:00",
    "articles": [
     {
      "title": "조선호텔앤리조트, ‘쓱데이’서 최대 77% 객실 할인부터 디퓨저 특가",
@@ -1635,6 +1641,12 @@
      "title": "조선호텔앤리조트, 쓱데이서 500여종 상품 할인…객실 최대 77%",
      "outlet": "뉴스1",
      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jemVjZXZ0MG9kM2hWQ3cxdmpLeGx3NHNpVHF6X2tVMi12bzZiR3FQRXlmRl93WFk4REwxcWk4WGE5T2o5YThOT1U2Z3BheUVaSGtQamk3bkVtMmVKQXk4?oc=5",
+     "published": "2026-11-01"
+    },
+    {
+     "title": "조선호텔앤리조트, 쓱데이서 객실부터 미식·레저까지 할인 상품 500여종 선봬",
+     "outlet": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WQ1ZyR2lUMjQwcEpyMVdMZkJjcTNEY0JMbEZQUWJHN1lUN0VIV0NEekw4UFpWUE5DVE80S2pHT0s5bUkyWDREckJvN21Vcmc1bGFHQmpRQUpvUQ?oc=5",
      "published": "2026-11-01"
     },
     {
@@ -4018,7 +4030,7 @@
    "status": "undated"
   },
   {
-   "id": "h-josun-2719250284",
+   "id": "h-josun-2802988f3a",
    "airline_id": "h-josun",
    "airline": "조선호텔앤리조트",
    "airlines_mentioned": [
@@ -4058,12 +4070,18 @@
    "first_published": "2026-11-01",
    "last_published": "2026-11-01",
    "first_seen": "2026-11-01T13:18:15+09:00",
-   "last_seen": "2026-11-01T13:18:15+09:00",
+   "last_seen": "2026-11-01T15:51:11+09:00",
    "articles": [
     {
      "title": "호텔 객실 최대 78% 할인…조선호텔앤리조트, 쓱데이 500여종 특가 쏟아낸다",
      "outlet": "뉴스탭",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JVTN0UGFDNHNqeWhZSWd5T2JvTmEwdGQ0bS1uRDlVTlIyNEVNMUVaTFpEVk9BYVEyNG9lZWpfbjVKamhVMkM4WHNLb19sSzR2WkYtZHA2bVRwZnBNZEI5R1dibDRmX0g1YzZ0LQ?oc=5",
+     "published": "2026-11-01"
+    },
+    {
+     "title": "조선호텔앤리조트, 쓱데이 맞아 객실 최대 78% 할인",
+     "outlet": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rVThwcld0OERCODgyVlhFOTZHY0h3N3lIN01WQ2Eyd2lJWHlKYkRnNzFqUWZ0LTZwVUVaTDVJemxXNjFTVjJNcklDRlpGNHctcnVPZUtLTHk5NjMt?oc=5",
      "published": "2026-11-01"
     }
    ],
