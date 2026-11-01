@@ -1660,6 +1660,41 @@
     "closing_tomorrow": "2026-10-31",
     "closing_today": "2026-11-01"
    }
+  },
+  "h-josun-1a4e1d1d9f": {
+   "info": {
+    "airline": "h-josun",
+    "name": "쓱데이",
+    "sale_start": null,
+    "sale_end": "2026-11-08",
+    "dests": [],
+    "last": "2026-11-01",
+    "urls": [
+     "1a4e1d1d9f",
+     "35ba73e2ef",
+     "86e4467622",
+     "cb75b7103f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-01"
+   }
+  },
+  "h-josun-2719250284": {
+   "info": {
+    "airline": "h-josun",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-01",
+    "urls": [
+     "2719250284"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-01"
+   }
   }
  },
  "slots": {
@@ -1692,10 +1727,11 @@
    "evening": "sent"
   },
   "2026-11-01": {
-   "morning": "sent"
+   "morning": "sent",
+   "afternoon": "sent"
   }
  },
- "saved_at": "2026-11-01T09:18:45+09:00",
+ "saved_at": "2026-11-01T13:23:01+09:00",
  "drops_day": "2026-11-01",
  "drops": {
   "BKK": {
