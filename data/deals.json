@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T18:16:08+09:00",
+ "generated_at": "2026-11-01T22:17:37+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2169,
+  "rss_items": 2075,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1699,
+  "outlet_items": 1655,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
   "articles_with_summary": 27,
-  "articles": 558,
+  "articles": 559,
   "new_articles": 1,
-  "deals": 75
+  "deals": 76
  },
  "deals": [
   {
@@ -4031,6 +4031,53 @@
      "outlet": "서울경제TV",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fekFsQktaUE1iVFYtc2F3TW5pdkFScEowREpTNGozaFY1R20tSVR2ZGtFbGxpU3Z6UjFpeWIyV0dFWE1yNGNwc1A5cnhldTFzZmFWajhwTFRsSW1yOWFoeDl6aU0?oc=5",
      "published": "2026-10-30"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-nol-0b49a2048d",
+   "airline_id": "h-nol",
+   "airline": "놀(야놀자)",
+   "airlines_mentioned": [
+    "놀(야놀자)"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://nol.yanolja.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "야놀자, 호텔 운영 SW·AI에 무게⋯B2B 거래액 비중 87%",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-01",
+   "last_published": "2026-11-01",
+   "first_seen": "2026-11-01T22:17:37+09:00",
+   "last_seen": "2026-11-01T22:17:37+09:00",
+   "articles": [
+    {
+     "title": "야놀자, 호텔 운영 SW·AI에 무게⋯B2B 거래액 비중 87%",
+     "outlet": "아이뉴스24",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8tZEFOSEpndVpnV3JQRlBXcjg2eEFHU2c2Q2RrV1RCWTJ6VDh4ZjJCZmJoM294LURhanN6Z0hCbXBJVmNCTVdfckdDbw?oc=5",
+     "published": "2026-11-01"
     }
    ],
    "status": "undated"
