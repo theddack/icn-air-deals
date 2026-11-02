@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T13:18:14+09:00",
+ "generated_at": "2026-11-02T15:50:37+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2376,
+  "rss_items": 2110,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1983,
+  "outlet_items": 2007,
   "outlet_new_articles": 0,
-  "outlet_enriched": 2,
+  "outlet_enriched": 1,
   "mail_articles": 4,
   "mail_new_articles": 0,
-  "articles_with_summary": 29,
-  "articles": 589,
-  "new_articles": 22,
-  "deals": 84
+  "articles_with_summary": 30,
+  "articles": 600,
+  "new_articles": 11,
+  "deals": 86
  },
  "deals": [
   {
@@ -961,7 +961,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "트리니티항공, 제주행 왕복 항공권 최대 2만 원 할인 프로모션 진행",
+   "headline": "트리니티항공, 제주행 항공권 최대 2만원 할인…제주도·제주관광공사와 관광 활성화 맞손 ‘지금, 제주를 만나다’ 프로모션",
    "sale_start": "2026-10-30",
    "sale_end": null,
    "travel_start": null,
@@ -989,22 +989,28 @@
      "url": "http://www.kdfnews.com/news/articleView.html?idxno=190168"
     },
     "discount": {
-     "title": "트리니티항공, 제주행 왕복 항공권 최대 2만 원 할인 프로모션 진행",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQR1JEUFlha0ZpU3JYdUZwcWpSYXhES2lfcHRnVTRybzgzNFhkUWt5dElxUlVKcm14XzdBdUJSM0xvVWJBa0wybm1mZVNGbDFQbW83cmIzYjhHdko3WkRwRkRiN0NIend6Mm9sbW5OLVd6OENjNUp4dVZrQW5WT0RZcklQZGRZZw?oc=5"
+     "title": "트리니티항공, 제주행 항공권 최대 2만원 할인…제주도·제주관광공사와 관광 활성화 맞손 ‘지금, 제주를 만나다’ 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Ub1JxTk1xS0lBZlhWT1RyLU8yVFdzNGpEUEMyQkN6Yzd3aUl1eXduT3VCU3lEa0xCZFFfdW1GakdKOVJVNHFJRlUyTkRsYWdLTVZGdnlKS3lNOWhXT29QanRNcVhqdkdDeVE?oc=5"
     },
     "route": {
-     "title": "트리니티항공, 제주행 왕복 항공권 최대 2만 원 할인 프로모션 진행",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQR1JEUFlha0ZpU3JYdUZwcWpSYXhES2lfcHRnVTRybzgzNFhkUWt5dElxUlVKcm14XzdBdUJSM0xvVWJBa0wybm1mZVNGbDFQbW83cmIzYjhHdko3WkRwRkRiN0NIend6Mm9sbW5OLVd6OENjNUp4dVZrQW5WT0RZcklQZGRZZw?oc=5"
+     "title": "트리니티항공, 제주행 항공권 최대 2만원 할인…제주도·제주관광공사와 관광 활성화 맞손 ‘지금, 제주를 만나다’ 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Ub1JxTk1xS0lBZlhWT1RyLU8yVFdzNGpEUEMyQkN6Yzd3aUl1eXduT3VCU3lEa0xCZFFfdW1GakdKOVJVNHFJRlUyTkRsYWdLTVZGdnlKS3lNOWhXT29QanRNcVhqdkdDeVE?oc=5"
     }
    },
    "from_icn": "no",
    "discount": "최대 2만원 할인",
    "verification": "news",
    "first_published": "2026-10-30",
-   "last_published": "2026-10-30",
+   "last_published": "2026-11-02",
    "first_seen": "2026-10-30T09:14:18+09:00",
-   "last_seen": "2026-10-30T22:17:33+09:00",
+   "last_seen": "2026-11-02T15:50:37+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 제주행 항공권 최대 2만원 할인…제주도·제주관광공사와 관광 활성화 맞손 ‘지금, 제주를 만나다’ 프로모션",
+     "outlet": "www.hidomin.com",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Ub1JxTk1xS0lBZlhWT1RyLU8yVFdzNGpEUEMyQkN6Yzd3aUl1eXduT3VCU3lEa0xCZFFfdW1GakdKOVJVNHFJRlUyTkRsYWdLTVZGdnlKS3lNOWhXT29QanRNcVhqdkdDeVE?oc=5",
+     "published": "2026-11-02"
+    },
     {
      "title": "트리니티항공, 제주행 왕복 항공권 최대 2만 원 할인 프로모션 진행",
      "outlet": "뷰티트래블뉴스",
@@ -1546,19 +1552,23 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
+   "headline": "트리니티항공, 국제선 예약 프로모션…현지 여행 혜택도 제공",
    "sale_start": null,
    "sale_end": "2026-11-13",
    "travel_start": null,
-   "travel_end": null,
+   "travel_end": "2027-01-31",
    "routes": [],
    "regions": [],
    "conditions": [],
    "conflicts": [],
    "evidence": {
     "sale": {
-     "title": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jRWlmZ0RTTzJxQkptMHhlQTUzbl9hM2ZCSDRyc2xJWVB1TWRYZFZHcXBLRnd5eGdKMTg5UXhjdzVrdUlWbGJoZkhVbw?oc=5"
+     "title": "한국면세뉴스 요약문: …리니티항공은 오는 13일까지 공식 홈페이지와 모바일 앱·웹에서 '11월 더블 혜택 프로모션'을 운영한다고 2…",
+     "url": "http://www.kdfnews.com/news/articleView.html?idxno=190298"
+    },
+    "travel": {
+     "title": "한국면세뉴스 요약문: 국제선 노선으로, 탑승 기간은 일부 제외 기간을 빼고 2027년 1월 31일까지다.",
+     "url": "http://www.kdfnews.com/news/articleView.html?idxno=190298"
     },
     "discount": {
      "title": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
@@ -1571,8 +1581,14 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-02",
    "first_seen": "2026-11-02T13:18:14+09:00",
-   "last_seen": "2026-11-02T13:18:14+09:00",
+   "last_seen": "2026-11-02T15:50:37+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 국제선 예약 프로모션…현지 여행 혜택도 제공",
+     "outlet": "한국면세뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OQnFDWnFJdmxOYnBlbHYyNVhSMXVDZFB2blQxNzR0Sm5Icmp5QmhrOGt3TDV3Qk01YmU0MC11SDdVT1lEV2o1M3J6MHk1MUJ4LXlTbTZSaHhYemdObENTSHhPbUZwRV80aVE?oc=5",
+     "published": "2026-11-02"
+    },
     {
      "title": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
      "outlet": "재경일보",
@@ -4219,7 +4235,7 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-02",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-02T13:18:14+09:00",
+   "last_seen": "2026-11-02T15:50:37+09:00",
    "articles": [
     {
      "title": "트리니티항공, 11월 항공권 최대 25% 할인",
@@ -4234,6 +4250,12 @@
      "published": "2026-11-02"
     },
     {
+     "title": "트리니티항공, 국제선 최대 25% 할인…3만원 중복 쿠폰 제공",
+     "outlet": "포인트데일리",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53N2FsQ0hjYTEtQXBoR3pGaWhJLUYyNXJPYXBfODRIYlpPVFBWU01lYzlXbHY3M1V5NnhQd2ZUelZFUnNnVkZLUUM1V3YxTk8tWHpXQy1VV3Y4MnptNFVYWkUzcUI2OElTQmlDbWMtUWXSAXRBVV95cUxNMU5mR3VPUVRZWjlJSzVub1NZcV9rLWRWZVNjUzBRRFhfa2hvVG14a1BxSnJ1RGlHcWFjYkJ2STNhdUFJSEtva2s3MkppQVZFallrWEstR19NZHhoZ1ZyTlAtVXNGei1qZEtmZUtNTUZ6MUpHVw?oc=5",
+     "published": "2026-11-02"
+    },
+    {
      "title": "트리니티항공, 국제선 항공권 최대 25% 할인···추가 쿠폰 3만원 제공",
      "outlet": "뉴스프리존",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44eGZvQW1XMk1kYmN6WnRaeGtkWV8zS1loTFdsanA3RTB3Zjg2UlhQeWZiR1VRUnZ2aG92ZFlya1R2NXpWbHR0dFNrTmY1RURqR0hFU1BFZndUWGpJX3kzNXFZaHJVRFV0VnBhcjU2SWNOME3SAXdBVV95cUxNUXYwR0lWc0R4Q3NHNUZNbTlNZElMRTlhWGVBU0ZmVlU2Y1FzQ0FNaVY4ckE4SjdqbDdxdDFaXzhaSkZFdjEwREExNS1Mc2lhbnF6R3o1LWZVQzBqNW9rSHBVNzdQWm5Ocmo4cEF0U1hEYUxicHphNA?oc=5",
@@ -4243,6 +4265,12 @@
      "title": "해외여행 망설였다면 지금…트리니티항공, 항공권 할인에 쿠폰까지",
      "outlet": "ER 이코노믹리뷰",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQdktZSnZzWXNRa3ZLclF6ZC1YZUNWSktzc0hMV2d5RDgwTnZqM2hwT3RtWmtTY1BCRlBTQlJpanVUVTlmNi1iVXNyaXBLSDVEMFVZVzlkOUdyU00zUHg0WG1YUDdfX3hkOFZwbg?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "트리니티항공, 국제선 최대 25% 할인···최대 3만원 쿠폰 중복 적용",
+     "outlet": "스마트비즈",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YTXJwZ0FoN21ReEx0X0ozTHdrcWc2Z1NEbWtFNHZuWVFrWVdsWHRRUTcwWnItcTZiZU1ydmZYVGd6akdTc2FPNnV6T1A3WXhvMXl6QWp6OTctaENLQWxyVHpHOS0tQk0wX0lBZw?oc=5",
      "published": "2026-11-02"
     },
     {
@@ -4369,14 +4397,16 @@
    "iata": [],
    "agencies": [],
    "event_name": "겨울여행 페스타",
-   "headline": "하나투어, 겨울 여행 선택 폭 넓힌 ‘겨울여행 페스타’ 오픈",
+   "headline": "하나투어, 성수기 겨냥 ‘26-27 하나투어 겨울여행 페스타’ 개막",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
    "routes": [],
    "regions": [],
-   "conditions": [],
+   "conditions": [
+    "쿠폰"
+   ],
    "conflicts": [],
    "evidence": {
     "discount": {
@@ -4390,12 +4420,42 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-02",
    "first_seen": "2026-11-02T13:18:14+09:00",
-   "last_seen": "2026-11-02T13:18:14+09:00",
+   "last_seen": "2026-11-02T15:50:37+09:00",
    "articles": [
+    {
+     "title": "하나투어, 성수기 겨냥 ‘26-27 하나투어 겨울여행 페스타’ 개막",
+     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lWG9tcDN2eHVyYUZwVllvNVFoQ19XcjRRX192VDJobXhfSGw3d2c3S1BmQ0lKQV96cDFobGNYSTlqNkNXMk5PeV9uMS10bjJia2duNzk3Y2J5Njk3eDk2aV82aEZqMkFJbnVxb2VWWDlYQQ?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, 겨울 성수기 여행 수요 맞춰 ‘겨울여행 페스타’ 진행",
+     "outlet": "FETV",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sOUZsQ0JBS1BDQngzQWxSQ3NGbC1PenZjZ0p0aC13QjF2R1FReDFhME5BeTBhN2x2WFFCeWVkNXpEX1RVYnVDNmVDU2FRTmhTX3FJc1BQY3JLbzY4WUJ4YTVYMklpY0o2?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, '26-27 하나투어 겨울여행 페스타’ 진행… 쿠폰·특가 혜택 제공",
+     "outlet": "퍼블릭뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBOOWEyV19kUkVLM1lyaGRVWXk1eU5pall1NkcyeXl5Q0dORk1iMlE0eTlPVlI4eW5VdmpOS3p3a1NsSlNIaGtmMFF5dnVhVnFjTk5pVGJTN2tueDhnVHVYQVZvaVl3YVVhTnpz?oc=5",
+     "published": "2026-11-02"
+    },
     {
      "title": "하나투어, 겨울 여행 선택 폭 넓힌 ‘겨울여행 페스타’ 오픈",
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmeWtSVUIxV3pqeXBwWkVjb3RpSU5qbVMtT053d1YxVjdXeEp2R2F6NTVFaHUycXo1bV81bVRfVm5wT09Na0tiVjBRTG5QODdqNkhwSDB6Z1l6bHRUSXpKNldxdHczUQ?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, 겨울여행 페스타 개최…패키지·항공·호텔 등 혜택 확대",
+     "outlet": "뉴스트래블",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JbFQ0NWtCZGE5em5CT01sSXVKZnhId3haamdNQ1I2enpkblFSVWF4OHpIOU1Tcm9EOWx6MEYxcGFZTXU0Y1RNaVRCYUFvdGNZNVBoRXgtZmstZHNNc2ltZkFhVWdNdw?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, 겨울 성수기 공략 '겨울여행 페스타' 오픈",
+     "outlet": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KbVhBME5XZGhhZ1lhQjRMbGUtU1FUNWVQYVNYY1pCc3dSTHZib1J0QTlvb1BVRFRhWHZpQS1aQjQxcEg2b0JXR2NBWWVFSkxYSi1CX0phTjZQdkdx?oc=5",
      "published": "2026-11-02"
     },
     {
@@ -4456,6 +4516,53 @@
      "title": "IHG One Rewards: 15% Off Reward Nights at New Hotels, Including 7 in Canada",
      "outlet": "Milesopedia",
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN0E0VFVhLW9ub3k0dGpNcTB6elduTGlfeEoycnRfNkoyMVZCSEZJWHNJNW96aXEzQXU5Wnloa0lXZ0U0N3plSXUyN1NmLXJWbXVjWnQzcncxRlRJQ3U5aU1kMk5MaThhai0zUERBbDBZZEFQWkgweTB1WDVtanhXSWFPUzlVVmFWeGRpSFRLeTJBUQ?oc=5",
+     "published": "2026-11-02"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-hanwha-df98030ef8",
+   "airline_id": "h-hanwha",
+   "airline": "한화리조트",
+   "airlines_mentioned": [
+    "한화리조트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "객실 샴푸·보디워시 바꾼 한화호텔앤드리조트…투숙객 구매 할인도",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-02",
+   "last_published": "2026-11-02",
+   "first_seen": "2026-11-02T15:50:37+09:00",
+   "last_seen": "2026-11-02T15:50:37+09:00",
+   "articles": [
+    {
+     "title": "객실 샴푸·보디워시 바꾼 한화호텔앤드리조트…투숙객 구매 할인도",
+     "outlet": "경기신문",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EenEwNXF2LVJTMXB0dktld1pBb0ZDcnlSZ2RKZnZ0bldxREgzeFJnQzFvd1ltZjZENFVpaVZ1dVd5eXd0eVJqXzlsSW9mYTg1bWRmQlpzY2p2MHE1RHR4czJn?oc=5",
      "published": "2026-11-02"
     }
    ],
@@ -4649,6 +4756,53 @@
      "title": "11번가, 그랜드십일절서 호텔·해외여행 특가 판매",
      "outlet": "전자신문",
      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBaVDlGbVFWd2VqQ1VaNUVsUUpkaEhFdlpHSGZ4dWx2NHRrWVlVRDJHTXR2cTFTNWlBLVZqTEVJRC1JcnZQck5HYnZRUUNsQQ?oc=5",
+     "published": "2026-11-02"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-36620fbc11",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "11번가, 여행상품 단독 특가 판매…프리미엄 호텔부터 해외 휴양지까지",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-02",
+   "last_published": "2026-11-02",
+   "first_seen": "2026-11-02T15:50:37+09:00",
+   "last_seen": "2026-11-02T15:50:37+09:00",
+   "articles": [
+    {
+     "title": "11번가, 여행상품 단독 특가 판매…프리미엄 호텔부터 해외 휴양지까지",
+     "outlet": "오늘경제",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsZlJuclZ2ZnlTVC1sTDBsbmdkbEdXWXhXTnlWcklpNFZSRTRTeHJJV3ctUG8wMEswQnRHaVhhUzY1Skg4aGN2aldFVjBaNGxLYTZFdTl6QVJFclJPQXI3NzhFZE9lQWdsMWdpanYxYjlfUlk?oc=5",
      "published": "2026-11-02"
     }
    ],
