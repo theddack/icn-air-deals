@@ -8,6 +8,14 @@
    "sale_start": "2026-10-19",
    "sale_end": null
   },
+  "airbusan|2026-11-03|부산광저우직항돌아온다에어부산편도14만원대특가": {
+   "airline_id": "airbusan",
+   "airline": "에어부산",
+   "name": "부산-광저우 직항 돌아온다…에어부산, 편도 14만원대 특가",
+   "sale_start": "2026-11-03",
+   "sale_end": null,
+   "price_from": 140000
+  },
   "airpremia|2026-11-02|블프할인": {
    "airline_id": "airpremia",
    "airline": "에어프레미아",
