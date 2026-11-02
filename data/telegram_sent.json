@@ -1616,45 +1616,6 @@
     "new": "2026-11-01"
    }
   },
-  "airpremia-494cf833d5": {
-   "info": {
-    "airline": "airpremia",
-    "name": "블프할인",
-    "sale_start": "2026-11-02",
-    "sale_end": "2026-11-15",
-    "dests": [],
-    "last": "2026-10-30",
-    "urls": [
-     "494cf833d5",
-     "5d9f9f4e14",
-     "bbdfa1be87",
-     "d3619493d2"
-    ]
-   },
-   "kinds": {
-    "upcoming_d3": "2026-10-30",
-    "new": "2026-10-30",
-    "upcoming_d1": "2026-11-01"
-   }
-  },
-  "airpremia-5314ca42b9": {
-   "info": {
-    "airline": "airpremia",
-    "name": "",
-    "sale_start": "2026-11-02",
-    "sale_end": "2026-11-15",
-    "dests": [],
-    "last": "2026-10-30",
-    "urls": [
-     "5314ca42b9"
-    ]
-   },
-   "kinds": {
-    "upcoming_d3": "2026-10-31",
-    "new": "2026-10-31",
-    "upcoming_d1": "2026-11-01"
-   }
-  },
   "h-stayfesta-ad268a7c50": {
    "info": {
     "airline": "h-stayfesta",
@@ -1699,6 +1660,146 @@
    "kinds": {
     "new": "2026-10-26"
    }
+  },
+  "airpremia-494cf833d5": {
+   "info": {
+    "airline": "airpremia",
+    "name": "블프할인",
+    "sale_start": "2026-11-02",
+    "sale_end": "2026-11-15",
+    "dests": [],
+    "last": "2026-10-30",
+    "urls": [
+     "494cf833d5",
+     "5d9f9f4e14",
+     "bbdfa1be87",
+     "d3619493d2"
+    ]
+   },
+   "kinds": {
+    "upcoming_d3": "2026-10-30",
+    "new": "2026-10-30",
+    "upcoming_d1": "2026-11-01",
+    "start_today": "2026-11-02"
+   }
+  },
+  "airpremia-5314ca42b9": {
+   "info": {
+    "airline": "airpremia",
+    "name": "",
+    "sale_start": "2026-11-02",
+    "sale_end": "2026-11-15",
+    "dests": [],
+    "last": "2026-10-30",
+    "urls": [
+     "5314ca42b9"
+    ]
+   },
+   "kinds": {
+    "upcoming_d3": "2026-10-31",
+    "new": "2026-10-31",
+    "upcoming_d1": "2026-11-01",
+    "start_today": "2026-11-02"
+   }
+  },
+  "h-nol-0b49a2048d": {
+   "info": {
+    "airline": "h-nol",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-01",
+    "urls": [
+     "0b49a2048d"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-02"
+   }
+  },
+  "h-other-fe2ec60158": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-01",
+    "urls": [
+     "fe2ec60158"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-02"
+   }
+  },
+  "trinity-89e98a3f61": {
+   "info": {
+    "airline": "trinity",
+    "name": "11월더블혜택프로모션",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-02",
+    "urls": [
+     "3218284e11",
+     "7079183336",
+     "89e98a3f61"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-02"
+   }
+  },
+  "h-sono-ae27a96a05": {
+   "info": {
+    "airline": "h-sono",
+    "name": "소노페스타on",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-02",
+    "urls": [
+     "538c934a8e",
+     "ae27a96a05"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-02"
+   }
+  },
+  "h-other-a1c6339903": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-02",
+    "urls": [
+     "a1c6339903"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-02"
+   }
+  },
+  "h-other-2756fe2045": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-02",
+    "urls": [
+     "2756fe2045"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-02"
+   }
   }
  },
  "slots": {
@@ -1734,10 +1835,13 @@
    "morning": "sent",
    "afternoon": "sent",
    "evening": "sent"
+  },
+  "2026-11-02": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-11-02T01:28:09+09:00",
- "drops_day": "2026-11-01",
+ "saved_at": "2026-11-02T09:18:47+09:00",
+ "drops_day": "2026-11-02",
  "drops": {
   "BKK": {
    "price": 411600,
