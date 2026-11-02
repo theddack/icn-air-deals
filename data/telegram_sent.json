@@ -1824,23 +1824,6 @@
     "new": "2026-11-02"
    }
   },
-  "h-hanatour-4d20c3133f": {
-   "info": {
-    "airline": "h-hanatour",
-    "name": "겨울여행페스타",
-    "sale_start": null,
-    "sale_end": null,
-    "dests": [],
-    "last": "2026-11-02",
-    "urls": [
-     "4d20c3133f",
-     "9409af5e16"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-02"
-   }
-  },
   "h-ihg-05bfb34759": {
    "info": {
     "airline": "h-ihg",
@@ -1888,6 +1871,79 @@
    "kinds": {
     "new": "2026-11-02"
    }
+  },
+  "h-hanatour-4d37057fce": {
+   "info": {
+    "airline": "h-hanatour",
+    "name": "겨울여행페스타",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-02",
+    "urls": [
+     "2147d8b07e",
+     "2eb73d2af3",
+     "2f992b0644",
+     "4d20c3133f",
+     "4d37057fce",
+     "5ebbe4342a",
+     "623100067e",
+     "9409af5e16",
+     "b52249e10c",
+     "c06433db79"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-02"
+   }
+  },
+  "h-hanwha-df98030ef8": {
+   "info": {
+    "airline": "h-hanwha",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-02",
+    "urls": [
+     "df98030ef8"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-02"
+   }
+  },
+  "h-hanwha-a9fcb2d758": {
+   "info": {
+    "airline": "h-hanwha",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-02",
+    "urls": [
+     "a9fcb2d758"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-02"
+   }
+  },
+  "h-other-36620fbc11": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-02",
+    "urls": [
+     "36620fbc11"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-02"
+   }
   }
  },
  "slots": {
@@ -1926,10 +1982,11 @@
   },
   "2026-11-02": {
    "morning": "sent",
-   "afternoon": "sent"
+   "afternoon": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-02T13:23:01+09:00",
+ "saved_at": "2026-11-02T18:20:48+09:00",
  "drops_day": "2026-11-02",
  "drops": {
   "BKK": {
