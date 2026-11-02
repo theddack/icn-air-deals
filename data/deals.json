@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T22:17:34+09:00",
+ "generated_at": "2026-11-03T04:46:51+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,121 +10,21 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2235,
+  "rss_items": 2273,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1860,
+  "outlet_items": 1773,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
   "articles_with_summary": 30,
   "articles": 612,
-  "new_articles": 5,
+  "new_articles": 4,
   "deals": 88
  },
  "deals": [
-  {
-   "id": "airbusan-d5895a8209",
-   "airline_id": "airbusan",
-   "airline": "에어부산",
-   "airlines_mentioned": [
-    "에어부산"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airbusan.com/",
-   "iata": [
-    "BX"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어부산, 부산~광저우 취항 앞서 항공권 특가 판매",
-   "sale_start": "2026-11-03",
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "에어부산 부산~광저우 노선 신규 취항…3일부터 프로모션",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sTF9MMmdsVHdrWFAwYU1zM3J6LWN4b0lNd1M4TDJfMUwyVlFUNGxmVG1pZnpQUEJib0hsQi16RmNzSFp1T0pSWnhtbktScURaOURHVExHNnB5X1JSY1g3MNIBeEFVX3lxTE9KR0cxUG1VQ1NaaENua0JxZ3ZEemZHSDMxTzY5ODZveHpaekprbDN4a19ZMHJGWlI4REwyTmZfUmpURkd0dGRUQ0hoTjJuVlRZNThkRHFVaEF1QXJobXlkU09MblVEQXlZUjZMTlYzbHFoN1FtZ2s4ZA?oc=5"
-    },
-    "discount": {
-     "title": "에어부산, 부산~광저우 취항 프로모션...편도 14만원대부터",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Tdzhqdy01dEpGb1pub3RaM3JDa00waGtJbXBOYVdQSlp3UHN2anpHWUNwcjY1a3RDVS1vdm1tZXk2cVdzaFNWNmE1cTJZY0ZMYVZDVXRDRGNLU1FMV1hIbkhWRm1Bdw?oc=5"
-    }
-   },
-   "from_icn": "no",
-   "discount": "14만원대부터",
-   "verification": "news",
-   "first_published": "2026-11-02",
-   "last_published": "2026-11-02",
-   "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-02T13:18:14+09:00",
-   "articles": [
-    {
-     "title": "에어부산, 부산~광저우 취항 앞서 항공권 특가 판매",
-     "outlet": "부산일보",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iZlRzRzhTY3hGNXo2Mlo1eU9PaTZLQl9wYVVIam10ek1rZzBBVDh1a05CTTBqbVdKTlZrMktnbVlqSTZqNE50RkhjcGdONnRkZzR4ZjE5b2JENU9CZzhSV0RCblFRWnhIdUwwcWREYUs1cW9TQ3NoRQ?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "부산-광저우 직항 돌아온다…에어부산, 편도 14만원대 특가",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXYnZmWW4xV1FIcHlTTmZmQXQ5LUJWWFZfeTFJU3VYOGdaaGhid21HQUw2c0VDcXdXMjA0dDFrYlM2UG5rM1hsbDc3YnhscmtmQm1xN2l1bElRdVU5NHVQVlpFc3Iyd1ViMndwbQ?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "에어부산, 부산~광저우 취항 프로모션...편도 14만원대부터",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Tdzhqdy01dEpGb1pub3RaM3JDa00waGtJbXBOYVdQSlp3UHN2anpHWUNwcjY1a3RDVS1vdm1tZXk2cVdzaFNWNmE1cTJZY0ZMYVZDVXRDRGNLU1FMV1hIbkhWRm1Bdw?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "에어부산, 부산~광저우 신규 취항 프로모션 진행",
-     "outlet": "팍스경제TV",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OcWRTQ0wydmd3MUhTYndpaGVLYkF3X3hOOHZPZ1ZBYUltbi1CUUdHVmhrZXVBbWpOaXlTOEFOQzd1YjlDandqU2kxblVBSV9tMEQ0UkhRSzgwdEdZWFBEQkVpQXQ3RGM?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "에어부산 부산~광저우 노선 신규 취항…3일부터 프로모션",
-     "outlet": "뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sTF9MMmdsVHdrWFAwYU1zM3J6LWN4b0lNd1M4TDJfMUwyVlFUNGxmVG1pZnpQUEJib0hsQi16RmNzSFp1T0pSWnhtbktScURaOURHVExHNnB5X1JSY1g3MNIBeEFVX3lxTE9KR0cxUG1VQ1NaaENua0JxZ3ZEemZHSDMxTzY5ODZveHpaekprbDN4a19ZMHJGWlI4REwyTmZfUmpURkd0dGRUQ0hoTjJuVlRZNThkRHFVaEF1QXJobXlkU09MblVEQXlZUjZMTlYzbHFoN1FtZ2s4ZA?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "에어부산, 부산∼광저우 신규 취항 기념 할인 행사",
-     "outlet": "연합뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oZUFqSlZ4cTUtVDFrbzBwNmxZdUZ2dENhNklpUTEwQjJsS2FLeVlsTkdKT19tbmhENEN2OWloSk40Q2hkbkJ1Q0RfMndSd2loWTJ0Y0Q4ZnJxU3dWb1Zyb9IBYEFVX3lxTE5oZUFqSlZ4cTUtVDFrbzBwNmxZdUZ2dENhNklpUTEwQjJsS2FLeVlsTkdKT19tbmhENEN2OWloSk40Q2hkbkJ1Q0RfMndSd2loWTJ0Y0Q4ZnJxU3dWb1Zybw?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "에어부산, 부산~광저우 신규 취항 기념 프로모션…최저 14만 9900원",
-     "outlet": "뉴스1",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xdlJ4Vy12cm1VSFNMdFJPMmk1eWhPTmJTT2JmODZ6S1lhNmVsX09hUDRZdlhkTExYVjJ0TnZTS1RNVDFpSWNPdUtFMklRa2dtdWx4clBZSUdaZjA1Skhv?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "에어부산, 부산~광저우 취항 기념 특가 항공권 선보여",
-     "outlet": "서울경제",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mWmNtZXZybjQxUnB5WjlMZUl2V1U3X3dsczd1UEdRN1NZWkgzdXBVd0VCdTVlWkk1SVdrX2Z5Ump5STNyS2RsbjJpdWlQRndEdnZv0gFTQVVfeXFMTmZaY21ldnJuNDFScHlaOUxlSXZXVTdfd2xzN3VQR1E3U1laSDN1cFV3RUJ1NWVaSTVJV2tfZnlSanlJM3JLZGxuMml1aVBGd0R2dm8?oc=5",
-     "published": "2026-11-02"
-    }
-   ],
-   "status": "upcoming"
-  },
   {
    "id": "h-stayfesta-ad268a7c50",
    "airline_id": "h-stayfesta",
@@ -1289,6 +1189,106 @@
    "status": "live"
   },
   {
+   "id": "airbusan-d5895a8209",
+   "airline_id": "airbusan",
+   "airline": "에어부산",
+   "airlines_mentioned": [
+    "에어부산"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airbusan.com/",
+   "iata": [
+    "BX"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어부산, 부산~광저우 취항 앞서 항공권 특가 판매",
+   "sale_start": "2026-11-03",
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "에어부산 부산~광저우 노선 신규 취항…3일부터 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sTF9MMmdsVHdrWFAwYU1zM3J6LWN4b0lNd1M4TDJfMUwyVlFUNGxmVG1pZnpQUEJib0hsQi16RmNzSFp1T0pSWnhtbktScURaOURHVExHNnB5X1JSY1g3MNIBeEFVX3lxTE9KR0cxUG1VQ1NaaENua0JxZ3ZEemZHSDMxTzY5ODZveHpaekprbDN4a19ZMHJGWlI4REwyTmZfUmpURkd0dGRUQ0hoTjJuVlRZNThkRHFVaEF1QXJobXlkU09MblVEQXlZUjZMTlYzbHFoN1FtZ2s4ZA?oc=5"
+    },
+    "discount": {
+     "title": "에어부산, 부산~광저우 취항 프로모션...편도 14만원대부터",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Tdzhqdy01dEpGb1pub3RaM3JDa00waGtJbXBOYVdQSlp3UHN2anpHWUNwcjY1a3RDVS1vdm1tZXk2cVdzaFNWNmE1cTJZY0ZMYVZDVXRDRGNLU1FMV1hIbkhWRm1Bdw?oc=5"
+    }
+   },
+   "from_icn": "no",
+   "discount": "14만원대부터",
+   "verification": "news",
+   "first_published": "2026-11-02",
+   "last_published": "2026-11-02",
+   "first_seen": "2026-11-02T09:14:06+09:00",
+   "last_seen": "2026-11-02T13:18:14+09:00",
+   "articles": [
+    {
+     "title": "에어부산, 부산~광저우 취항 앞서 항공권 특가 판매",
+     "outlet": "부산일보",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iZlRzRzhTY3hGNXo2Mlo1eU9PaTZLQl9wYVVIam10ek1rZzBBVDh1a05CTTBqbVdKTlZrMktnbVlqSTZqNE50RkhjcGdONnRkZzR4ZjE5b2JENU9CZzhSV0RCblFRWnhIdUwwcWREYUs1cW9TQ3NoRQ?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "부산-광저우 직항 돌아온다…에어부산, 편도 14만원대 특가",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXYnZmWW4xV1FIcHlTTmZmQXQ5LUJWWFZfeTFJU3VYOGdaaGhid21HQUw2c0VDcXdXMjA0dDFrYlM2UG5rM1hsbDc3YnhscmtmQm1xN2l1bElRdVU5NHVQVlpFc3Iyd1ViMndwbQ?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "에어부산, 부산~광저우 취항 프로모션...편도 14만원대부터",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Tdzhqdy01dEpGb1pub3RaM3JDa00waGtJbXBOYVdQSlp3UHN2anpHWUNwcjY1a3RDVS1vdm1tZXk2cVdzaFNWNmE1cTJZY0ZMYVZDVXRDRGNLU1FMV1hIbkhWRm1Bdw?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "에어부산, 부산~광저우 신규 취항 프로모션 진행",
+     "outlet": "팍스경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OcWRTQ0wydmd3MUhTYndpaGVLYkF3X3hOOHZPZ1ZBYUltbi1CUUdHVmhrZXVBbWpOaXlTOEFOQzd1YjlDandqU2kxblVBSV9tMEQ0UkhRSzgwdEdZWFBEQkVpQXQ3RGM?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "에어부산 부산~광저우 노선 신규 취항…3일부터 프로모션",
+     "outlet": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sTF9MMmdsVHdrWFAwYU1zM3J6LWN4b0lNd1M4TDJfMUwyVlFUNGxmVG1pZnpQUEJib0hsQi16RmNzSFp1T0pSWnhtbktScURaOURHVExHNnB5X1JSY1g3MNIBeEFVX3lxTE9KR0cxUG1VQ1NaaENua0JxZ3ZEemZHSDMxTzY5ODZveHpaekprbDN4a19ZMHJGWlI4REwyTmZfUmpURkd0dGRUQ0hoTjJuVlRZNThkRHFVaEF1QXJobXlkU09MblVEQXlZUjZMTlYzbHFoN1FtZ2s4ZA?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "에어부산, 부산∼광저우 신규 취항 기념 할인 행사",
+     "outlet": "연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oZUFqSlZ4cTUtVDFrbzBwNmxZdUZ2dENhNklpUTEwQjJsS2FLeVlsTkdKT19tbmhENEN2OWloSk40Q2hkbkJ1Q0RfMndSd2loWTJ0Y0Q4ZnJxU3dWb1Zyb9IBYEFVX3lxTE5oZUFqSlZ4cTUtVDFrbzBwNmxZdUZ2dENhNklpUTEwQjJsS2FLeVlsTkdKT19tbmhENEN2OWloSk40Q2hkbkJ1Q0RfMndSd2loWTJ0Y0Q4ZnJxU3dWb1Zybw?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "에어부산, 부산~광저우 신규 취항 기념 프로모션…최저 14만 9900원",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xdlJ4Vy12cm1VSFNMdFJPMmk1eWhPTmJTT2JmODZ6S1lhNmVsX09hUDRZdlhkTExYVjJ0TnZTS1RNVDFpSWNPdUtFMklRa2dtdWx4clBZSUdaZjA1Skhv?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "에어부산, 부산~광저우 취항 기념 특가 항공권 선보여",
+     "outlet": "서울경제",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mWmNtZXZybjQxUnB5WjlMZUl2V1U3X3dsczd1UEdRN1NZWkgzdXBVd0VCdTVlWkk1SVdrX2Z5Ump5STNyS2RsbjJpdWlQRndEdnZv0gFTQVVfeXFMTmZaY21ldnJuNDFScHlaOUxlSXZXVTdfd2xzN3VQR1E3U1laSDN1cFV3RUJ1NWVaSTVJV2tfZnlSanlJM3JLZGxuMml1aVBGd0R2dm8?oc=5",
+     "published": "2026-11-02"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "h-yeogi-e795a43d64",
    "airline_id": "h-yeogi",
    "airline": "여기어때",
@@ -1581,7 +1581,7 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-02",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-02T22:17:34+09:00",
+   "last_seen": "2026-11-03T04:46:51+09:00",
    "articles": [
     {
      "title": "트리니티항공, 11월 항공권 최대 25% 할인",
@@ -1599,6 +1599,12 @@
      "title": "“노선별 최대 25% 할인 혜택”..트리니티항공, 국제선 항공권 ‘더블 혜택’ 프로모션 실시",
      "outlet": "데일리카",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHQUxOM1BXc19ELXNocTlHY1BaMGF0ZTFQZGJEbG5GN3EtSWtKZzFfMTBoU2M5MXIwV0tWSXlESWR3MGdUdGRCbldDcGxuempoRWRxd1ZmYmFmT3hnbS1BMDMtY1pmVnc4YnE2N0x5OVJnb0gwU3c?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "트리니티항공, 11월 국제선 노선 대상 프로모션 진행",
+     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lelExWnZMZTBBMEYyaUVLTXRqMVhsTThTcFJDSFFQSUlDdG5IWXpyU21Hak5ianpRV1ZWX1BSZC1oT3ljQkVLMkRPUDBuSmUwLXJZVGlsb0V0NnhMeE40VGVHMG1BTUZuTFB6ZjlDOHpoZw?oc=5",
      "published": "2026-11-02"
     },
     {
@@ -4515,12 +4521,18 @@
    "first_published": "2026-10-31",
    "last_published": "2026-11-02",
    "first_seen": "2026-11-02T13:18:14+09:00",
-   "last_seen": "2026-11-02T18:16:10+09:00",
+   "last_seen": "2026-11-03T04:46:51+09:00",
    "articles": [
     {
      "title": "하나투어, 성수기 겨냥 ‘26-27 하나투어 겨울여행 페스타’ 개막",
      "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lWG9tcDN2eHVyYUZwVllvNVFoQ19XcjRRX192VDJobXhfSGw3d2c3S1BmQ0lKQV96cDFobGNYSTlqNkNXMk5PeV9uMS10bjJia2duNzk3Y2J5Njk3eDk2aV82aEZqMkFJbnVxb2VWWDlYQQ?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, ‘겨울여행 페스타’ 오픈",
+     "outlet": "트래블데일리",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOZnNsbXJSU1laVTNyQlhUOThJTnRuaXlWZjM2aVFiUkpuZjlTLXV1aGhhY1JNcjF2eW9IQUR0cjlPQTdCczFwUnBDMnJVVVBXQ05wSXpXT1NUektGdDhUbkdJYlkyT0JUREZwcmRLWTc?oc=5",
      "published": "2026-11-02"
     },
     {
@@ -4963,6 +4975,53 @@
      "title": "11번가, 여행상품 단독 특가 판매…프리미엄 호텔부터 해외 휴양지까지",
      "outlet": "오늘경제",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsZlJuclZ2ZnlTVC1sTDBsbmdkbEdXWXhXTnlWcklpNFZSRTRTeHJJV3ctUG8wMEswQnRHaVhhUzY1Skg4aGN2aldFVjBaNGxLYTZFdTl6QVJFclJPQXI3NzhFZE9lQWdsMWdpanYxYjlfUlk?oc=5",
+     "published": "2026-11-02"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-76436e34d6",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "2026 Black Friday Travel Deals: Best Cruise, Tour, and Hotel Sales for Advisors",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-02",
+   "last_published": "2026-11-02",
+   "first_seen": "2026-11-03T04:46:51+09:00",
+   "last_seen": "2026-11-03T04:46:51+09:00",
+   "articles": [
+    {
+     "title": "2026 Black Friday Travel Deals: Best Cruise, Tour, and Hotel Sales for Advisors",
+     "outlet": "Travel Market Report",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOejJTakNzdGhFWDY3TWVxWWgzTWVHSE13dVZLcTMtbV9MWW9MTTNrTF9lbV9SM09qdXM5WUhjWUJKYkJxcDJVcXFpdHQ4MGdsUzVjY2tTMWNCSzZEYXVyeWo2bUVFc0FFZkZ3UWNoU2RZLXVuVnljRmZOeVZyTUVGRVpwSXFWOVpVUnNaY2VGN0k?oc=5",
      "published": "2026-11-02"
     }
    ],
@@ -5957,145 +6016,6 @@
     }
    ],
    "status": "stale"
-  },
-  {
-   "id": "airpremia-e2ef05c49f",
-   "airline_id": "airpremia",
-   "airline": "에어프레미아",
-   "airlines_mentioned": [
-    "에어프레미아"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airpremia.com/",
-   "iata": [
-    "YP"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어프레미아, 삿포로·호치민 할인 프로모션",
-   "sale_start": null,
-   "sale_end": "2026-10-26",
-   "travel_start": "2026-12-02",
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": null,
-     "destination": "호찌민(SGN)"
-    },
-    {
-     "origin": "인천(ICN)",
-     "destination": "삿포로(CTS)"
-    },
-    {
-     "origin": "인천(ICN)",
-     "destination": "호찌민(SGN)"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "트래블데일리 요약문: 프로모션은 10월20일 오전 10시부터 26일까지 에어프레미아 공식 홈페이지와 모바일 앱에서 진행된다.",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396"
-    },
-    "travel": {
-     "title": "핀포인트뉴스 요약문: 탑승기간은 삿포로 노선이 12월2일부",
-     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496743"
-    },
-    "discount": {
-     "title": "트래블데일리 요약문: …300원, 호치민 40만3400원부터이며, 와이드 프리미엄 클래스는 삿포로 65만3300원, 호치민 70만3…",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396"
-    },
-    "route": {
-     "title": "트래블데일리 요약문: 에어프레미아가 12월 취항하는 인천~삿포로, 인천~호치민 노선의 항공권 할인 프로모션을 진행한다.",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396"
-    }
-   },
-   "from_icn": "yes",
-   "discount": "40만3400원부터",
-   "verification": "news",
-   "first_published": "2026-10-20",
-   "last_published": "2026-10-21",
-   "first_seen": "2026-10-20T09:45:40+09:00",
-   "last_seen": "2026-10-29T17:30:37+09:00",
-   "articles": [
-    {
-     "title": "에어프레미아, 삿포로·호치민 할인 프로모션",
-     "outlet": "트래블데일리",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72396",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "에어프레미아, 가을맞이 서울행 특별 프로모션 실시",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOS2NPVzc0WlR0QzFEak02Y0ZTVDdUU3A4bzllN29IMjhrYXg3WXpicVBwa3Jnd0dGQ2RvcmNpdFp0X292YmMtdjZ0OUJYVWV5Vy1iYi1ta2lNSnNOYmhZRzRhZjFqdUdkN093NUd1MHZxYjFXcml0b2swV3l5c01hdUZWamtVaXAyaEM0aE85amw4TUxKbmZ0bWdlM1pPOGNhUDItOC1BOHdQajhOZ2ZlZE1BWFhVTE5FMURlOVgtV2pwZFhjSnppZnU5Qm95aUU4VWc?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "에어프레미아, 12월 취항 삿포로·호치민 노선 할인 프로모션",
-     "outlet": "싱글리스트",
-     "url": "https://www.slist.kr/news/articleView.html?idxno=774770",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 삿포로·호치민 취항 특가…왕복 40만원대",
-     "outlet": "이데일리",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUG5Nc2hwdzZjeTMyTU8wZE96Tzk4dkZQMHdabE5LR21DQ1NDUXVPaDhHanR0c0tPUENDeUxMOXl4THhFSGoyb1VYRE95VGZrZ2Rvb1ZVblZSdzdoR0lhZS1ESEw2a3EtdkNJRWtwWnA3M3R4X0s3eDFHamxSV0t6aA?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 12월 인천발 삿포로·호치민 노선 신규 운항 및 프로모션 공개",
-     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1abS1ES3BHS3M1cDg5N0t4WVZzc29ILTBWSzd1OGd0M2MzNnROWTAxbUduSHBWenV3T2VQaGRXNklud2djX2gxZ2hrRXZrcGtFZmtpdWI2aUhHUEpmUjJBcUNVaHVlSk5yUXZxRzJycGZSZw?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 인천~삿포로·호치민 12월 취항 기념 항공권 특가 프로모션",
-     "outlet": "핀포인트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yQnZ1Y1JEQVVlVU5xQTduel9ReFJCeHdWLURRYUYwQXYtZmtabjlzeVpQZDhESEVXYUhCcDgyUWNCQkFnOWJKWnBWaHB5WWo2N1BIdDk1eUJsdzI0UkZaTzBRZVRQOThjMElFeE5PUTNiNEnSAXdBVV95cUxQTTVPYmpGOVNTTVdyajRodUZUOGF6M1B0ekxlQ0wwWVI3YnY5aEVBN1RTdUVBU0JaNGl4WGtzNFdtMlpWcm9YNjBIVHpfTDNwaFRybFV3WjlXa09FRHN2Yl8wR0hmVlg4TDdGTnNVX29EUmgydlNhbw?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 삿포로·호치민 신규 노선 특가 프로모션 실시",
-     "outlet": "한스경제",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pbkItUmJ5UmV3M0h6WUwyVjBWcVF1RTZwb1NmaEh2QjFvaXlFb1pNRHhJUTFkeGhFd3hvNUxqZ1pISTY0d3NNVUY0bjZqQmJ5SWJDRXg0MHc0U1NBMWVRekRDLUtwejNqSFZBU9IBb0FVX3lxTE43ZVNpdGlaM19PYk1ySGotUFZiRjk3YnJRRnZLUTNQVnVSRHNqcGRhazVta09tQWxEdVY3aklEaWt6V1hXUEMxNGNfMEZfS0t0TnBwckhadmdGRXNveU9talJyXzJ0NVRsRVhKd2JNRQ?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 오는 26일까지 12월 취항 '삿포로·호치민' 노선 할인 프로모션 전개",
-     "outlet": "비즈월드",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5acF9LOWE0Unoxb1IyemxhRjBuMGN5eFMzLUNOTEFScVFwazdkSkZWRnY2RGJPdUQyVkVuN2JxNktsRU9xUUR2UVZIVzFvN1ZGbTNxNzhYazZLZ0tDOEluM3gxYVhmVDZiUGVJ?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 삿포로 호치민 노선 할인 프로모션",
-     "outlet": "BBS불교방송",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55emRwdTZDbVBkb1JIWXpJa2RDX0ZxYTFRWFlmc2tMbXFQSVd3UmtmandCV1RqTGZiVDVDcVlyVFl3ckNQQWgySTBrbWloYi1rMmRTRk85bFFycXdQb1NUX295WlRST2FWdHRN?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 12월 삿포로·호치민 노선 할인 프로모션",
-     "outlet": "경기일보",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CdE5BVjYxaUZSSUhBRGdqWGxmOWFuM0JUUDdCNHdDWV9CeDNiNXBudEZUV1ZVU1B5VDlCa0Q1dW1udFVNQmhhZkZzaUlOZ085aGtfMGlseVh6QU0?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "에어프레미아, 12월 삿포로·호치민 첫 취항, 할인 프로모션도 진행",
-     "outlet": "세계일보",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4tcXlfQ3Fad2poaHp0U1FLT0E4QU54MWwySHJtNlBrQU80eEhqOHZoSkQ5WllVY3k5a0dXNW95Y3BXZmwxXzRSRGczQmFlY3EydWdPNNIBVEFVX3lxTE4tcXlfQ3Fad2poaHp0U1FLT0E4QU54MWwySHJtNlBrQU80eEhqOHZoSkQ5WllVY3k5a0dXNW95Y3BXZmwxXzRSRGczQmFlY3EydWdPNA?oc=5",
-     "published": "2026-10-20"
-    }
-   ],
-   "status": "ended"
   },
   {
    "id": "trinity-08820b7077",
