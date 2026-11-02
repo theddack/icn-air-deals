@@ -16,6 +16,14 @@
    "sale_end": null,
    "price_from": 140000
   },
+  "airbusan|2026-11-03|에어부산부산광저우취항앞서항공권특가판매": {
+   "airline_id": "airbusan",
+   "airline": "에어부산",
+   "name": "에어부산, 부산~광저우 취항 앞서 항공권 특가 판매",
+   "sale_start": "2026-11-03",
+   "sale_end": null,
+   "price_from": 140000
+  },
   "airpremia|2026-11-02|블프할인": {
    "airline_id": "airpremia",
    "airline": "에어프레미아",

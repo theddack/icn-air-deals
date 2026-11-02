@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T09:14:06+09:00",
+ "generated_at": "2026-11-02T13:18:14+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2176,
+  "rss_items": 2376,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1745,
+  "outlet_items": 1983,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_enriched": 2,
   "mail_articles": 4,
   "mail_new_articles": 0,
-  "articles_with_summary": 27,
-  "articles": 567,
-  "new_articles": 11,
-  "deals": 78
+  "articles_with_summary": 29,
+  "articles": 589,
+  "new_articles": 22,
+  "deals": 84
  },
  "deals": [
   {
@@ -47,7 +47,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "부산-광저우 직항 돌아온다…에어부산, 편도 14만원대 특가",
+   "headline": "에어부산, 부산~광저우 취항 앞서 항공권 특가 판매",
    "sale_start": "2026-11-03",
    "sale_end": null,
    "travel_start": null,
@@ -72,8 +72,14 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-02",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-02T09:14:06+09:00",
+   "last_seen": "2026-11-02T13:18:14+09:00",
    "articles": [
+    {
+     "title": "에어부산, 부산~광저우 취항 앞서 항공권 특가 판매",
+     "outlet": "부산일보",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iZlRzRzhTY3hGNXo2Mlo1eU9PaTZLQl9wYVVIam10ek1rZzBBVDh1a05CTTBqbVdKTlZrMktnbVlqSTZqNE50RkhjcGdONnRkZzR4ZjE5b2JENU9CZzhSV0RCblFRWnhIdUwwcWREYUs1cW9TQ3NoRQ?oc=5",
+     "published": "2026-11-02"
+    },
     {
      "title": "부산-광저우 직항 돌아온다…에어부산, 편도 14만원대 특가",
      "outlet": "ER 이코노믹리뷰",
@@ -87,9 +93,27 @@
      "published": "2026-11-02"
     },
     {
+     "title": "에어부산, 부산~광저우 신규 취항 프로모션 진행",
+     "outlet": "팍스경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OcWRTQ0wydmd3MUhTYndpaGVLYkF3X3hOOHZPZ1ZBYUltbi1CUUdHVmhrZXVBbWpOaXlTOEFOQzd1YjlDandqU2kxblVBSV9tMEQ0UkhRSzgwdEdZWFBEQkVpQXQ3RGM?oc=5",
+     "published": "2026-11-02"
+    },
+    {
      "title": "에어부산 부산~광저우 노선 신규 취항…3일부터 프로모션",
      "outlet": "뉴시스",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sTF9MMmdsVHdrWFAwYU1zM3J6LWN4b0lNd1M4TDJfMUwyVlFUNGxmVG1pZnpQUEJib0hsQi16RmNzSFp1T0pSWnhtbktScURaOURHVExHNnB5X1JSY1g3MNIBeEFVX3lxTE9KR0cxUG1VQ1NaaENua0JxZ3ZEemZHSDMxTzY5ODZveHpaekprbDN4a19ZMHJGWlI4REwyTmZfUmpURkd0dGRUQ0hoTjJuVlRZNThkRHFVaEF1QXJobXlkU09MblVEQXlZUjZMTlYzbHFoN1FtZ2s4ZA?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "에어부산, 부산∼광저우 신규 취항 기념 할인 행사",
+     "outlet": "연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oZUFqSlZ4cTUtVDFrbzBwNmxZdUZ2dENhNklpUTEwQjJsS2FLeVlsTkdKT19tbmhENEN2OWloSk40Q2hkbkJ1Q0RfMndSd2loWTJ0Y0Q4ZnJxU3dWb1Zyb9IBYEFVX3lxTE5oZUFqSlZ4cTUtVDFrbzBwNmxZdUZ2dENhNklpUTEwQjJsS2FLeVlsTkdKT19tbmhENEN2OWloSk40Q2hkbkJ1Q0RfMndSd2loWTJ0Y0Q4ZnJxU3dWb1Zybw?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "에어부산, 부산~광저우 신규 취항 기념 프로모션…최저 14만 9900원",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xdlJ4Vy12cm1VSFNMdFJPMmk1eWhPTmJTT2JmODZ6S1lhNmVsX09hUDRZdlhkTExYVjJ0TnZTS1RNVDFpSWNPdUtFMklRa2dtdWx4clBZSUdaZjA1Skhv?oc=5",
      "published": "2026-11-02"
     },
     {
@@ -1501,6 +1525,64 @@
    "status": "live"
   },
   {
+   "id": "trinity-d5c147a777",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
+   "sale_start": null,
+   "sale_end": "2026-11-13",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jRWlmZ0RTTzJxQkptMHhlQTUzbl9hM2ZCSDRyc2xJWVB1TWRYZFZHcXBLRnd5eGdKMTg5UXhjdzVrdUlWbGJoZkhVbw?oc=5"
+    },
+    "discount": {
+     "title": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jRWlmZ0RTTzJxQkptMHhlQTUzbl9hM2ZCSDRyc2xJWVB1TWRYZFZHcXBLRnd5eGdKMTg5UXhjdzVrdUlWbGJoZkhVbw?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "25% 할인",
+   "verification": "news",
+   "first_published": "2026-11-02",
+   "last_published": "2026-11-02",
+   "first_seen": "2026-11-02T13:18:14+09:00",
+   "last_seen": "2026-11-02T13:18:14+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
+     "outlet": "재경일보",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jRWlmZ0RTTzJxQkptMHhlQTUzbl9hM2ZCSDRyc2xJWVB1TWRYZFZHcXBLRnd5eGdKMTg5UXhjdzVrdUlWbGJoZkhVbw?oc=5",
+     "published": "2026-11-02"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "h-ihg-744888ff6e",
    "airline_id": "h-ihg",
    "airline": "IHG",
@@ -1725,6 +1807,80 @@
      "outlet": "핀포인트뉴스",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fQW5pZmVhaXlCa0xoUURJbDNBZkVvLUVtOG9NRDRYRGFOOTRNWXBnYmlCRHdJYk5qbGRjMEYyelU2QWZwcWxUaGlFbldmR0p1Wlg5QWZhbi1yVFhxak1GYUdsN1BEbVZrb0oyU3lacWtCbjTSAXdBVV95cUxNWnE1SXNlTXdOTXIxenZqUWtkbkh6cUg5MENpTHkwWjA5a013aFRMbEpBOHdkdkhETDdYbXF2WV9MY1pJV09pLXpUSEU1S3JSLUh6clNaMGx3SkYydU9YVkZ1SDVERXU4ZGY0TTBINFAwbDRueDU3MA?oc=5",
      "published": "2026-10-26"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "airbusan-e50759c268",
+   "airline_id": "airbusan",
+   "airline": "에어부산",
+   "airlines_mentioned": [
+    "에어부산"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airbusan.com/",
+   "iata": [
+    "BX"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어부산, 부산~광저우 신규 취항 특가… 편도 14만9900원부터",
+   "sale_start": null,
+   "sale_end": "2026-11-16",
+   "travel_start": "2026-12-02",
+   "travel_end": "2027-03-26",
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "국제뉴스 요약문: 이번 프로모션은 광저우 노선 취항 기념으로 마련됐으며, 오는 3일 오전 11시부터 16일까지 진행된다.",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3739411"
+    },
+    "travel": {
+     "title": "국제뉴스 요약문: 탑승 기간은 오는 12월 2일부터 내년 3월 26일까지다.",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3739411"
+    },
+    "discount": {
+     "title": "에어부산, 부산~광저우 신규 취항 특가… 편도 14만9900원부터",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQc3QyN2psYWJFaldCWmI1TWRXbVVWSDZCSHhqZnV4dmt6eWVaSTB5Q2VHemdXbEZQTVJXam1sak9raWI2SGJoeWZNWUNRanM4bDF5TXdBLWNNaHdwVHQ5VjI5ZWs1TkdFbFpiTks4RHBFVFNlc2t5V3VzZnYtcUNBZm5pRDRhNXZsT0hid3J3?oc=5"
+    }
+   },
+   "from_icn": "no",
+   "discount": "14만9900원부터",
+   "verification": "news",
+   "first_published": "2026-11-02",
+   "last_published": "2026-11-02",
+   "first_seen": "2026-11-02T13:18:14+09:00",
+   "last_seen": "2026-11-02T13:18:14+09:00",
+   "articles": [
+    {
+     "title": "에어부산, 부산~광저우 신규 취항 특가… 편도 14만9900원부터",
+     "outlet": "국제신문",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQc3QyN2psYWJFaldCWmI1TWRXbVVWSDZCSHhqZnV4dmt6eWVaSTB5Q2VHemdXbEZQTVJXam1sak9raWI2SGJoeWZNWUNRanM4bDF5TXdBLWNNaHdwVHQ5VjI5ZWs1TkdFbFpiTks4RHBFVFNlc2t5V3VzZnYtcUNBZm5pRDRhNXZsT0hid3J3?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "에어부산, 부산~광저우 신규 취항 기념 특가 프로모션",
+     "outlet": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qYV9wU2d1QXNzVkRCcEhNZ3p0QjFKN3NOaWJxUGFsNmlLcnQ2TmdsS1RHcFA3bllFcHQ1dFVnR29qYlVaNWtSanF5Yjc0Ym4zQzhLazRBLUU4dmdJSUc0c0p6WW04a1VFUGpvb0VR?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "에어부산, 부산-광저우 신규 취항 특가… 편도 14만9900원부터",
+     "outlet": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAycFhPazJQUXhIS29jWlF3cGhoQ21Va2NtT05OSjdPbU96ZDl4ZzdfTUkxSkNEdWFRcHBDS2NqemJkTEk0LTh3RmlQTFc5QXZBSFJPM1hEWnNOZw?oc=5",
+     "published": "2026-11-02"
     }
    ],
    "status": "live"
@@ -4017,7 +4173,7 @@
    "status": "undated"
   },
   {
-   "id": "trinity-89e98a3f61",
+   "id": "trinity-e94e178f89",
    "airline_id": "trinity",
    "airline": "트리니티항공",
    "airlines_mentioned": [
@@ -4038,19 +4194,23 @@
    ],
    "agencies": [],
    "event_name": "11월 더블 혜택 프로모션",
-   "headline": "트리니티항공, 국제선 항공권 최대 25% 할인···추가 쿠폰 3만원 제공",
+   "headline": "트리니티항공, 11월 항공권 최대 25% 할인",
    "sale_start": null,
    "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
+   "travel_start": "2026-11-01",
+   "travel_end": "2026-11-30",
    "routes": [],
    "regions": [],
    "conditions": [],
    "conflicts": [],
    "evidence": {
+    "travel": {
+     "title": "“항공권 최대 25% 할인”…트리니티항공, 11월 여행 특가",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzX3lLdHI0TWZZSWd6YlJuSTlzOEkzQlR3M054d3ZqcnFmYVFmSWZRaVd4WUdNeFllRTR6SWlhbXZYWHNBREdWMUNIOFVlejZyUWRpMWw4NjJZWTh4ZlcxdjRYdms?oc=5"
+    },
     "discount": {
-     "title": "트리니티항공, 국제선 항공권 최대 25% 할인···추가 쿠폰 3만원 제공",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44eGZvQW1XMk1kYmN6WnRaeGtkWV8zS1loTFdsanA3RTB3Zjg2UlhQeWZiR1VRUnZ2aG92ZFlya1R2NXpWbHR0dFNrTmY1RURqR0hFU1BFZndUWGpJX3kzNXFZaHJVRFV0VnBhcjU2SWNOME3SAXdBVV95cUxNUXYwR0lWc0R4Q3NHNUZNbTlNZElMRTlhWGVBU0ZmVlU2Y1FzQ0FNaVY4ckE4SjdqbDdxdDFaXzhaSkZFdjEwREExNS1Mc2lhbnF6R3o1LWZVQzBqNW9rSHBVNzdQWm5Ocmo4cEF0U1hEYUxicHphNA?oc=5"
+     "title": "트리니티항공, 11월 항공권 최대 25% 할인",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd3NrQkh6U1BZREtVVnNUYWNfWGE5ZmhkMFlXTVAwcTNWb3laRzRIQWlucy1DSi1Ncy01bzllWjE5SkFhYUhPeVQ4WDZUbi1OUGVDaUxfRXlmM3g2TDNuRGtGQUJacHdieExibW1UZVE4TWRRMVZUenUzV3d5bk1fcENJem1XSWF2dHJCYWhPaWpqbGdFNHp0X9IBmAFBVV95cUxOd3NrQkh6U1BZREtVVnNUYWNfWGE5ZmhkMFlXTVAwcTNWb3laRzRIQWlucy1DSi1Ncy01bzllWjE5SkFhYUhPeVQ4WDZUbi1OUGVDaUxfRXlmM3g2TDNuRGtGQUJacHdieExibW1UZVE4TWRRMVZUenUzV3d5bk1fcENJem1XSWF2dHJCYWhPaWpqbGdFNHp0Xw?oc=5"
     }
    },
    "from_icn": "unknown",
@@ -4059,12 +4219,48 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-02",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-02T09:14:06+09:00",
+   "last_seen": "2026-11-02T13:18:14+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 11월 항공권 최대 25% 할인",
+     "outlet": "Chosunbiz",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd3NrQkh6U1BZREtVVnNUYWNfWGE5ZmhkMFlXTVAwcTNWb3laRzRIQWlucy1DSi1Ncy01bzllWjE5SkFhYUhPeVQ4WDZUbi1OUGVDaUxfRXlmM3g2TDNuRGtGQUJacHdieExibW1UZVE4TWRRMVZUenUzV3d5bk1fcENJem1XSWF2dHJCYWhPaWpqbGdFNHp0X9IBmAFBVV95cUxOd3NrQkh6U1BZREtVVnNUYWNfWGE5ZmhkMFlXTVAwcTNWb3laRzRIQWlucy1DSi1Ncy01bzllWjE5SkFhYUhPeVQ4WDZUbi1OUGVDaUxfRXlmM3g2TDNuRGtGQUJacHdieExibW1UZVE4TWRRMVZUenUzV3d5bk1fcENJem1XSWF2dHJCYWhPaWpqbGdFNHp0Xw?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "“노선별 최대 25% 할인 혜택”..트리니티항공, 국제선 항공권 ‘더블 혜택’ 프로모션 실시",
+     "outlet": "데일리카",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHQUxOM1BXc19ELXNocTlHY1BaMGF0ZTFQZGJEbG5GN3EtSWtKZzFfMTBoU2M5MXIwV0tWSXlESWR3MGdUdGRCbldDcGxuempoRWRxd1ZmYmFmT3hnbS1BMDMtY1pmVnc4YnE2N0x5OVJnb0gwU3c?oc=5",
+     "published": "2026-11-02"
+    },
     {
      "title": "트리니티항공, 국제선 항공권 최대 25% 할인···추가 쿠폰 3만원 제공",
      "outlet": "뉴스프리존",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44eGZvQW1XMk1kYmN6WnRaeGtkWV8zS1loTFdsanA3RTB3Zjg2UlhQeWZiR1VRUnZ2aG92ZFlya1R2NXpWbHR0dFNrTmY1RURqR0hFU1BFZndUWGpJX3kzNXFZaHJVRFV0VnBhcjU2SWNOME3SAXdBVV95cUxNUXYwR0lWc0R4Q3NHNUZNbTlNZElMRTlhWGVBU0ZmVlU2Y1FzQ0FNaVY4ckE4SjdqbDdxdDFaXzhaSkZFdjEwREExNS1Mc2lhbnF6R3o1LWZVQzBqNW9rSHBVNzdQWm5Ocmo4cEF0U1hEYUxicHphNA?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "해외여행 망설였다면 지금…트리니티항공, 항공권 할인에 쿠폰까지",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQdktZSnZzWXNRa3ZLclF6ZC1YZUNWSktzc0hMV2d5RDgwTnZqM2hwT3RtWmtTY1BCRlBTQlJpanVUVTlmNi1iVXNyaXBLSDVEMFVZVzlkOUdyU00zUHg0WG1YUDdfX3hkOFZwbg?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "트리니티항공, 11월 '더블 혜택' 행사 '최대 25% 할인'",
+     "outlet": "컨슈머타임스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84TXMzM2t3TTdPdExEbDFTNzl2cmFnNnFTcW1hUHdBTXYxVG91WUdjLWpJWXBIUWxQOVdpV1JmRUJMWVNEQjY3RTZLRmdmbTBKTEZ2TU03bHZ5ZkE3OW9QYl91cTAtUUFnbVE?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "트리니티항공, ‘더블 혜택 프로모션’…국제선 최대 25% 할인",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JYXhVSTFDSldYWGdERDJzNk1OemFvWjFKbk8xTlpDTWNCSU5UMkVzemtYekVTNTJ6VnkyeTZKd2FvTGF0Y0FkX2tZVzFJdXVTYTFNMXJmWXlmX2dRZWVZbFNwRFktdw?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "“항공권 최대 25% 할인”…트리니티항공, 11월 여행 특가",
+     "outlet": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzX3lLdHI0TWZZSWd6YlJuSTlzOEkzQlR3M054d3ZqcnFmYVFmSWZRaVd4WUdNeFllRTR6SWlhbXZYWHNBREdWMUNIOFVlejZyUWRpMWw4NjJZWTh4ZlcxdjRYdms?oc=5",
      "published": "2026-11-02"
     },
     {
@@ -4077,6 +4273,12 @@
      "title": "트리니티항공 '11월 더블 혜택 프로모션'…최대 25%↓",
      "outlet": "뉴시스",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nUldVUFlXOFlFLXZBT1Z6QzlnMzVqWURBN2Jua21FeUtMNTZUeU44MldfXzR1NlhSeDBNNXFMd2prbE5XaV9wcHBWUmU4M0FZeVg5RDYzaTBiZkN3elNnMtIBeEFVX3lxTE5OaFUwNkFQWVp0anVoRVhGTEt1eVNIS1NoaDlaUzM0ZTlyQ2ZxcUxLa0FEQzNkUHZoRy0zU0dvdTdrU282Q1hhZWlneVVkdXZCV1hqTmVxMUhRNHhKVFNKWThQemE2QWJxX1NKVDJFTHdITUNvWVFpWA?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "트리니티항공, 11월 국제선 항공권 최대 25% 할인 프로모션",
+     "outlet": "경북신문",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQQjRpNUtNT3VPMm5IUGtYXy1xR3pWZHVKV3FDYnZBMW9fVlRva0tMekZvMWtFczhROEZjd1pVclFXYVU3WWZIRVNlSTFZaFRJejlVRFNRNnM?oc=5",
      "published": "2026-11-02"
     }
    ],
@@ -4102,7 +4304,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "소노페스타 ON",
-   "headline": "롯데온, 소노호텔앤리조트 통합 기획전 '소노페스타 ON' 개최...겨울 여행 수요 겨냥",
+   "headline": "롯데온, 소노호텔앤리조트와 겨울 여행 기획전…숙박·레저 할인",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -4118,8 +4320,14 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-02",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-02T09:14:06+09:00",
+   "last_seen": "2026-11-02T13:18:14+09:00",
    "articles": [
+    {
+     "title": "롯데온, 소노호텔앤리조트와 겨울 여행 기획전…숙박·레저 할인",
+     "outlet": "인더스트리뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tdGRleUl2QmJCVTFXOE91NXl5WHE2ek5DOGFWVnVlUUxTUnd1U0YyTlVTMFlRS1AxbldJb240LWdvYVNoMGtvclphQ3ZPTVljcjdVbkEtX3l5NHEzRXBGSGNfdFBNQ3NuUFRVR0ZCbVhEQQ?oc=5",
+     "published": "2026-11-02"
+    },
     {
      "title": "롯데온, 소노호텔앤리조트 통합 기획전 '소노페스타 ON' 개최...겨울 여행 수요 겨냥",
      "outlet": "팝콘뉴스",
@@ -4127,9 +4335,127 @@
      "published": "2026-11-02"
     },
     {
+     "title": "롯데온, 소노호텔앤리조트 통합 기획전 ‘소노페스타 ON’ 개최",
+     "outlet": "인더뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3b2drUVdjOWE4NTltNFNNaXU3aktyOWFSOW8tdlkxcE0zUFE2TGZtZUM0eEhCOVV6WjZHekg2R2JiNGN6SDNXM2J0eEcwSWpvMVc3d0NBVWlrZ3plZU9JTmZBMWU?oc=5",
+     "published": "2026-11-02"
+    },
+    {
      "title": "롯데온, 소노호텔앤리조트와 겨울 여행 얼리버드 기획전",
      "outlet": "전자신문",
      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDWVVoYm5ydUhadGZlRlJIdk5aWVNGTVJRY1ZBNGNNQWI1LVhDVy1mMUkwckxLeWZrQnF0UW9rZjZPYTA0T3hvYWxkNHRLZw?oc=5",
+     "published": "2026-11-02"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-hanatour-4d20c3133f",
+   "airline_id": "h-hanatour",
+   "airline": "하나투어",
+   "airlines_mentioned": [
+    "하나투어"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.hanatour.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "겨울여행 페스타",
+   "headline": "하나투어, 겨울 여행 선택 폭 넓힌 ‘겨울여행 페스타’ 오픈",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "최대 20만 원 결제 할인…하나투어, 겨울여행 페스타 돌입",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MVkZKSHFHb1RyTEtYbVJydUlmTnhrcG9vUTlqOHI0OUtnU2JFVjI0bWEyYllzV250T1JhWm5xdWZ2YXREOHJSVklFbkE5cXlGdVpuaE12aw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 20만원 할인",
+   "verification": "news",
+   "first_published": "2026-11-02",
+   "last_published": "2026-11-02",
+   "first_seen": "2026-11-02T13:18:14+09:00",
+   "last_seen": "2026-11-02T13:18:14+09:00",
+   "articles": [
+    {
+     "title": "하나투어, 겨울 여행 선택 폭 넓힌 ‘겨울여행 페스타’ 오픈",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmeWtSVUIxV3pqeXBwWkVjb3RpSU5qbVMtT053d1YxVjdXeEp2R2F6NTVFaHUycXo1bV81bVRfVm5wT09Na0tiVjBRTG5QODdqNkhwSDB6Z1l6bHRUSXpKNldxdHczUQ?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "최대 20만 원 결제 할인…하나투어, 겨울여행 페스타 돌입",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MVkZKSHFHb1RyTEtYbVJydUlmTnhrcG9vUTlqOHI0OUtnU2JFVjI0bWEyYllzV250T1JhWm5xdWZ2YXREOHJSVklFbkE5cXlGdVpuaE12aw?oc=5",
+     "published": "2026-11-02"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-ihg-05bfb34759",
+   "airline_id": "h-ihg",
+   "airline": "IHG",
+   "airlines_mentioned": [
+    "IHG"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "IHG One Rewards: 15% Off Reward Nights at New Hotels, Including 7 in Canada",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "캐나다"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "IHG One Rewards: 15% Off Reward Nights at New Hotels, Including 7 in Canada",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN0E0VFVhLW9ub3k0dGpNcTB6elduTGlfeEoycnRfNkoyMVZCSEZJWHNJNW96aXEzQXU5Wnloa0lXZ0U0N3plSXUyN1NmLXJWbXVjWnQzcncxRlRJQ3U5aU1kMk5MaThhai0zUERBbDBZZEFQWkgweTB1WDVtanhXSWFPUzlVVmFWeGRpSFRLeTJBUQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "15% 할인",
+   "verification": "news",
+   "first_published": "2026-11-02",
+   "last_published": "2026-11-02",
+   "first_seen": "2026-11-02T13:18:14+09:00",
+   "last_seen": "2026-11-02T13:18:14+09:00",
+   "articles": [
+    {
+     "title": "IHG One Rewards: 15% Off Reward Nights at New Hotels, Including 7 in Canada",
+     "outlet": "Milesopedia",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN0E0VFVhLW9ub3k0dGpNcTB6elduTGlfeEoycnRfNkoyMVZCSEZJWHNJNW96aXEzQXU5Wnloa0lXZ0U0N3plSXUyN1NmLXJWbXVjWnQzcncxRlRJQ3U5aU1kMk5MaThhai0zUERBbDBZZEFQWkgweTB1WDVtanhXSWFPUzlVVmFWeGRpSFRLeTJBUQ?oc=5",
      "published": "2026-11-02"
     }
    ],
@@ -4229,6 +4555,100 @@
      "title": "11번가, 여행상품 단독특가...프리미엄 호텔부터 해외 휴양지",
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91YV8walRMd1l6NjhYN0VmSUhXNm5GenVqUkZ4NWR3YnhzWi0wcnlzVDVGZmNsdXRjZjRwR3BBYXJEbERSV0V2X1JDVlppTEpzb3EwQ29WZlNMTElYamFiQmt1M3B3dw?oc=5",
+     "published": "2026-11-02"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-a2b8298dbe",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[유통갤러리] 11번가, 프리미엄 호텔·해외 여행상품 단독 특가 판매 外",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-02",
+   "last_published": "2026-11-02",
+   "first_seen": "2026-11-02T13:18:14+09:00",
+   "last_seen": "2026-11-02T13:18:14+09:00",
+   "articles": [
+    {
+     "title": "[유통갤러리] 11번가, 프리미엄 호텔·해외 여행상품 단독 특가 판매 外",
+     "outlet": "뷰어스",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1KLU1tOXZscDhhTEtpdzZCWmdxaU5NcEwtWks4YzFHcDJtR0VtOGdEQzRBUUxWOU5EVjhXY3kwRUdpY1RGOEZ2WHREd2ZRNm11eFZncU1Bb2M?oc=5",
+     "published": "2026-11-02"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-4b05d3fb2d",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "11번가, 그랜드십일절서 호텔·해외여행 특가 판매",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-02",
+   "last_published": "2026-11-02",
+   "first_seen": "2026-11-02T13:18:14+09:00",
+   "last_seen": "2026-11-02T13:18:14+09:00",
+   "articles": [
+    {
+     "title": "11번가, 그랜드십일절서 호텔·해외여행 특가 판매",
+     "outlet": "전자신문",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBaVDlGbVFWd2VqQ1VaNUVsUUpkaEhFdlpHSGZ4dWx2NHRrWVlVRDJHTXR2cTFTNWlBLVZqTEVJRC1JcnZQck5HYnZRUUNsQQ?oc=5",
      "published": "2026-11-02"
     }
    ],
