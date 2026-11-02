@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T15:50:37+09:00",
+ "generated_at": "2026-11-02T18:16:10+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2110,
+  "rss_items": 2321,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2007,
+  "outlet_items": 2003,
   "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
   "articles_with_summary": 30,
-  "articles": 600,
-  "new_articles": 11,
-  "deals": 86
+  "articles": 607,
+  "new_articles": 7,
+  "deals": 87
  },
  "deals": [
   {
@@ -4235,7 +4235,7 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-02",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-02T15:50:37+09:00",
+   "last_seen": "2026-11-02T18:16:10+09:00",
    "articles": [
     {
      "title": "트리니티항공, 11월 항공권 최대 25% 할인",
@@ -4265,6 +4265,12 @@
      "title": "해외여행 망설였다면 지금…트리니티항공, 항공권 할인에 쿠폰까지",
      "outlet": "ER 이코노믹리뷰",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQdktZSnZzWXNRa3ZLclF6ZC1YZUNWSktzc0hMV2d5RDgwTnZqM2hwT3RtWmtTY1BCRlBTQlJpanVUVTlmNi1iVXNyaXBLSDVEMFVZVzlkOUdyU00zUHg0WG1YUDdfX3hkOFZwbg?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "트리니티항공, 가을 프로모션 진행... 국제선 최대 25% 할인",
+     "outlet": "뉴스락",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jQWkyaWFNQ1lVenRaMUlxNUI0dE9aUW9XOGYxdEoyT1BkdUZ3VWxuWGRwbUpJZzJ6M1FQRFlJUGs1NGlFNE8zbkZueTZGN2ZkWmxUblNhVUFpRTFENmFPNVA3eFJqU1hYUDVqLQ?oc=5",
      "published": "2026-11-02"
     },
     {
@@ -4304,6 +4310,12 @@
      "published": "2026-11-02"
     },
     {
+     "title": "트리니티항공, 11월 맞이 국제선 최대 25% 할인 프로모션",
+     "outlet": "경북매일",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiZzUzd2hQMUxxWlNVeXFwQmMwWDRnZjhxMTFxOVhzV3YzeW9qc283ajFJdHc4eFVyUnVwb1pzeW1HYlp3dy1oVnIxNmF0NGpyS1RvemI5bWt1dw?oc=5",
+     "published": "2026-11-02"
+    },
+    {
      "title": "트리니티항공, 11월 국제선 항공권 최대 25% 할인 프로모션",
      "outlet": "경북신문",
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQQjRpNUtNT3VPMm5IUGtYXy1xR3pWZHVKV3FDYnZBMW9fVlRva0tMekZvMWtFczhROEZjd1pVclFXYVU3WWZIRVNlSTFZaFRJejlVRFNRNnM?oc=5",
@@ -4332,7 +4344,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "소노페스타 ON",
-   "headline": "롯데온, 소노호텔앤리조트와 겨울 여행 기획전…숙박·레저 할인",
+   "headline": "롯데온, 소노호텔앤리조트 통합 기획전…겨울 여행 얼리버드 수요 공략",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -4348,8 +4360,14 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-02",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-02T13:18:14+09:00",
+   "last_seen": "2026-11-02T18:16:10+09:00",
    "articles": [
+    {
+     "title": "롯데온, 소노호텔앤리조트 통합 기획전…겨울 여행 얼리버드 수요 공략",
+     "outlet": "더퍼스트미디어",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TMDhwRXVTUnpJd1g5LWhDTy1ySTV3b3I3cXdaTkxFcm5wSVA5TGdNWEFGTHdYY1pBTjdlS3Z6aTNRaWJFb2NhNUhWT21ueGgyYktJRWZrX2FlWk1BaTJ5c1lDcC15Rkk1Y1cxWGZieUU4MEM10gF0QVVfeXFMT1MwOHBFdVNSekl3WDktaENPLXJJNXdvcjdxd1pOTEVybnBJUDlMZ01YQUZMd1hjWkFON2VLdnppM1FpYkVvY2E1SFZPbW54aDJiS0lFZmtfYWVaTUFpMnlzWUNwLXlGSTVjVzFYZmJ5RTgwQzU?oc=5",
+     "published": "2026-11-02"
+    },
     {
      "title": "롯데온, 소노호텔앤리조트와 겨울 여행 기획전…숙박·레저 할인",
      "outlet": "인더스트리뉴스",
@@ -4378,7 +4396,7 @@
    "status": "undated"
   },
   {
-   "id": "h-hanatour-4d20c3133f",
+   "id": "h-hanatour-4d37057fce",
    "airline_id": "h-hanatour",
    "airline": "하나투어",
    "airlines_mentioned": [
@@ -4417,15 +4435,21 @@
    "from_icn": null,
    "discount": "최대 20만원 할인",
    "verification": "news",
-   "first_published": "2026-11-02",
+   "first_published": "2026-10-31",
    "last_published": "2026-11-02",
    "first_seen": "2026-11-02T13:18:14+09:00",
-   "last_seen": "2026-11-02T15:50:37+09:00",
+   "last_seen": "2026-11-02T18:16:10+09:00",
    "articles": [
     {
      "title": "하나투어, 성수기 겨냥 ‘26-27 하나투어 겨울여행 페스타’ 개막",
      "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lWG9tcDN2eHVyYUZwVllvNVFoQ19XcjRRX192VDJobXhfSGw3d2c3S1BmQ0lKQV96cDFobGNYSTlqNkNXMk5PeV9uMS10bjJia2duNzk3Y2J5Njk3eDk2aV82aEZqMkFJbnVxb2VWWDlYQQ?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, ‘겨울여행 페스타’ 오픈…쿠폰·경품·특가 혜택",
+     "outlet": "SWTV",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJOWFXdTVBeFlvOG9xUmsyNUlDMUNwaEd2YmthTHFrZ0E3TFlic1QzT05ydnUxR2dyVmRuYjk2Z2t4UjZTMkd3VnpKbXJKQjJPdTM3RjUzNmc4eHNaLUFpY24wdnJZV3RUX1hqaXh30gFrQVVfeXFMT3hMcF9HcDFaUk1HVW5Ceng1aHpCR25HUzMxdXdaVFNCVmt1UEM4T0g0UE9wNFdpc0dqM0lNa1dNUi1GZWROcFRNbFBTSlZWQnJjNTlCYUNmM3gybzA0MkdUbUhFX1ZDd0lXVTg?oc=5",
      "published": "2026-11-02"
     },
     {
@@ -4459,10 +4483,22 @@
      "published": "2026-11-02"
     },
     {
+     "title": "\"여행비 부담 확 낮춘다\"…하나투어, 겨울여행 페스타 돌입",
+     "outlet": "한국경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkMXNhQXFEbW1Ha3hid2FmOXBWLUdCZXFkYS1hUWVtZVlINnY2Y1hUeEdneHJCeG4tSzVLalJOVXp6dEtfWHNNTXJBbHFSSk1OLTVpM3ZyOEljZw?oc=5",
+     "published": "2026-11-02"
+    },
+    {
      "title": "최대 20만 원 결제 할인…하나투어, 겨울여행 페스타 돌입",
      "outlet": "헤럴드경제",
      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MVkZKSHFHb1RyTEtYbVJydUlmTnhrcG9vUTlqOHI0OUtnU2JFVjI0bWEyYllzV250T1JhWm5xdWZ2YXREOHJSVklFbkE5cXlGdVpuaE12aw?oc=5",
      "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, ‘겨울여행 페스타’ 개최",
+     "outlet": "한국금융경제신문",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zNG1XUnYyMUlJM0ZYbWlyX3l3RXc2eWxxbnQycFdDM1d1ZTJqM3dYUG44ai1hWmszMHRpUlZXcFhrLW4yS0lHVFdJUzlnbExqakx6R1ZIYmtZa3hKc0VvN0xtcU9ZUmxwdk5yT9IBcEFVX3lxTE4yOWxQTnhHODVkOHRyZ01oNE96NmQ4M1NKTUV1V3pVTnFZM2ozWVlXbmUzNkh1ZGk1ZVhiMG9zSDRMU1VRNGdPVXgzT3ByeG1zSnRkV2x4cmpyYjdrTG0taHlqZk9sLVZ1RnNJZTRtUW0?oc=5",
+     "published": "2026-10-31"
     }
    ],
    "status": "undated"
@@ -4563,6 +4599,53 @@
      "title": "객실 샴푸·보디워시 바꾼 한화호텔앤드리조트…투숙객 구매 할인도",
      "outlet": "경기신문",
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EenEwNXF2LVJTMXB0dktld1pBb0ZDcnlSZ2RKZnZ0bldxREgzeFJnQzFvd1ltZjZENFVpaVZ1dVd5eXd0eVJqXzlsSW9mYTg1bWRmQlpzY2p2MHE1RHR4czJn?oc=5",
+     "published": "2026-11-02"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-hanwha-a9fcb2d758",
+   "airline_id": "h-hanwha",
+   "airline": "한화리조트",
+   "airlines_mentioned": [
+    "한화리조트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "한화호텔앤드리조트, 60.1%의 목소리에 향기로 답했다 [PS]",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-02",
+   "last_published": "2026-11-02",
+   "first_seen": "2026-11-02T18:16:10+09:00",
+   "last_seen": "2026-11-02T18:16:10+09:00",
+   "articles": [
+    {
+     "title": "한화호텔앤드리조트, 60.1%의 목소리에 향기로 답했다 [PS]",
+     "outlet": "스포츠동아",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpQ1lsUjFsZHBJMmRVWUJFWHNZRHJmRkhIZkJrSkNoMFo5R1NYbEpwTGdxT2piZGV0ZU91cFNIWWJtU1g2QlJXWUl3ZW15LURpbWFtVFZJM0NOdFN4ZmVJajVJU2lDU244ZmJFNXNhMA?oc=5",
      "published": "2026-11-02"
     }
    ],

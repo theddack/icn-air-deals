@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-11-02T15:50:33+09:00",
+ "checked_at": "2026-11-02T18:16:03+09:00",
  "days": 21,
- "searched": 39,
+ "searched": 40,
  "sender:제주항공": 2,
- "checked": 39,
+ "checked": 40,
  "transactional": 19,
  "transactional_hit:본문:인증코드:제주항공": 1,
  "transactional:제주항공": 1,
@@ -43,7 +43,7 @@
  "transactional:델타항공": 2,
  "transactional_hit:제목:환영합니다:핀에어": 1,
  "transactional:핀에어": 1,
- "sender:스쿠트항공": 3,
+ "sender:스쿠트항공": 4,
  "no_facts:스쿠트항공": 2,
  "transactional_hit:제목:welcome:스쿠트항공": 1,
  "transactional:스쿠트항공": 1,
@@ -75,5 +75,7 @@
  "accepted:제주항공": 1,
  "no_facts:트립닷컴": 1,
  "no_facts:에어부산": 1,
+ "not_sale": 1,
+ "not_sale:스쿠트항공": 1,
  "kept": 4
 }
