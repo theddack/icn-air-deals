@@ -1616,51 +1616,6 @@
     "new": "2026-11-01"
    }
   },
-  "h-stayfesta-ad268a7c50": {
-   "info": {
-    "airline": "h-stayfesta",
-    "name": "숙박세일페스타",
-    "sale_start": "2026-09-22",
-    "sale_end": "2026-11-08",
-    "dests": [],
-    "last": "2026-10-24",
-    "urls": [
-     "0164aef066",
-     "024cedd8b5",
-     "026af38bc2",
-     "02b25ed52f",
-     "0aa85d192c",
-     "0badc13143",
-     "0c090912ee",
-     "0c51bf01cc",
-     "0cc26f64f4",
-     "107f1b3a98",
-     "12f663d1b4",
-     "1349c89ee0",
-     "1efdfc96ae",
-     "231cccb20c",
-     "25d72a1817",
-     "276c379152",
-     "381955d876",
-     "38e62e271c",
-     "3bc9862aff",
-     "48b763c2c1",
-     "48daec1eb8",
-     "4bbf6fcb7a",
-     "4f09bb2651",
-     "52ec7f2bfd",
-     "5ad47d8cfa",
-     "6177623c6d",
-     "61d8ea006e",
-     "6370b8d9df",
-     "6906dea9c1",
-     "69397efdfc"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26"
-   }
-  },
   "airpremia-494cf833d5": {
    "info": {
     "airline": "airpremia",
@@ -2040,6 +1995,51 @@
    "kinds": {
     "new": "2026-11-03"
    }
+  },
+  "h-stayfesta-4f09bb2651": {
+   "info": {
+    "airline": "h-stayfesta",
+    "name": "숙박세일페스타",
+    "sale_start": "2026-09-22",
+    "sale_end": "2026-11-08",
+    "dests": [],
+    "last": "2026-10-24",
+    "urls": [
+     "0164aef066",
+     "024cedd8b5",
+     "026af38bc2",
+     "02b25ed52f",
+     "0aa85d192c",
+     "0badc13143",
+     "0c090912ee",
+     "0c51bf01cc",
+     "0cc26f64f4",
+     "107f1b3a98",
+     "12f663d1b4",
+     "1349c89ee0",
+     "1efdfc96ae",
+     "231cccb20c",
+     "25d72a1817",
+     "276c379152",
+     "381955d876",
+     "38e62e271c",
+     "3bc9862aff",
+     "48b763c2c1",
+     "48daec1eb8",
+     "4bbf6fcb7a",
+     "4f09bb2651",
+     "52ec7f2bfd",
+     "5ad47d8cfa",
+     "6177623c6d",
+     "61d8ea006e",
+     "6370b8d9df",
+     "6906dea9c1",
+     "69397efdfc"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26"
+   }
   }
  },
  "slots": {
@@ -2084,7 +2084,7 @@
    "evening": "sent"
   }
  },
- "saved_at": "2026-11-03T18:21:05+09:00",
+ "saved_at": "2026-11-04T02:25:28+09:00",
  "drops_day": "2026-11-03",
  "drops": {
   "BKK": {
