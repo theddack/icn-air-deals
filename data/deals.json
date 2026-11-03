@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T18:16:04+09:00",
+ "generated_at": "2026-11-03T22:17:33+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2205,
+  "rss_items": 2162,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2135,
-  "outlet_new_articles": 0,
+  "outlet_items": 2010,
+  "outlet_new_articles": 1,
   "outlet_enriched": 0,
   "mail_articles": 5,
   "mail_new_articles": 0,
-  "articles_with_summary": 32,
-  "articles": 625,
-  "new_articles": 2,
-  "deals": 93
+  "articles_with_summary": 33,
+  "articles": 630,
+  "new_articles": 5,
+  "deals": 96
  },
  "deals": [
   {
@@ -1337,7 +1337,7 @@
    "first_published": "2026-10-28",
    "last_published": "2026-11-03",
    "first_seen": "2026-10-28T10:19:38+09:00",
-   "last_seen": "2026-11-03T16:15:08+09:00",
+   "last_seen": "2026-11-03T22:17:33+09:00",
    "articles": [
     {
      "title": "겨울 동해 여행 숙박비 낮춘다…여기어때, 경북 5개 지역 최대 3만원 할인",
@@ -1349,6 +1349,12 @@
      "title": "여기어때, 경북 동해안 5개 지역 숙박 할인…최대 3만원 혜택",
      "outlet": "스마트경제",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56c0J4cElqVlo0UklEcWphdHFKblJ0TlJNaDV1cG5mLWdiRUd1aWJ4Tm95MGpreDNuMjhZUUZiMlJCbEZyVVMtMDMyWFZmOXN1RlZvX0tTYkNKV0hpTGpKYm05YUl4bHFLS0Q4Rk1yMlo?oc=5",
+     "published": "2026-11-03"
+    },
+    {
+     "title": "여기어때, 경북 동해안 5개 지역 숙박 할인",
+     "outlet": "한국금융경제신문",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ReFJPVmhRQ0ZJcUE5VUx0X0lEQ0lNdExkcV9aRzdzcDBxNWdmdFdFYVlKV05lWFNJMXllRDMtVU9DY2VYM0x5aUMyTVAzWVJHd2w2blRVcnVmV01YY1pHbklWWnp1R05MWjRCZdIBcEFVX3lxTE82VERadEwyZ2lTMDFTRkhSenFKaHpsTDNJM2Rab1A3M3MzMTJjLXhxalFFNktnUS1Gc3ZlWWlsc3VnelZUczA4YzRzZWRhc1h4QU96S0s2aWR3NW01bEk3QUd2QmpjU29NN2psdDVTSEM?oc=5",
      "published": "2026-11-03"
     },
     {
@@ -2057,7 +2063,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "에어부산, 부산~광저우 신규 취항 특가… 편도 14만9900원부터",
+   "headline": "에어부산, 부산~광저우 신규 취항 이벤트…편도 14만9900원부터",
    "sale_start": null,
    "sale_end": "2026-11-16",
    "travel_start": "2026-12-02",
@@ -2076,18 +2082,24 @@
      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3739411"
     },
     "discount": {
-     "title": "에어부산, 부산~광저우 신규 취항 특가… 편도 14만9900원부터",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQc3QyN2psYWJFaldCWmI1TWRXbVVWSDZCSHhqZnV4dmt6eWVaSTB5Q2VHemdXbEZQTVJXam1sak9raWI2SGJoeWZNWUNRanM4bDF5TXdBLWNNaHdwVHQ5VjI5ZWs1TkdFbFpiTks4RHBFVFNlc2t5V3VzZnYtcUNBZm5pRDRhNXZsT0hid3J3?oc=5"
+     "title": "에어부산, 부산~광저우 신규 취항 이벤트…편도 14만9900원부터",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13QUV2OU5VT3NQWFlfNW5XLXlKYmhaWmF5Z2lIMk5DcDZfeUgzcXNNNkZDS1NEM2swZ0xNVHNJWVdWR29xMEtwejhMcnJVNVp6V3BaelphakplRDAzVUtHLXJ3a28zUHB3WVHSAW5BVV95cUxOTVZvRVV6cGN4MUpPNkIyMmFvUFZpcl9kR3dfamhMUTN0UjBCN01GR0l6Q0ZKWlFrMkNZdG40QVVldVJhcW16blNic0xYcUpsa1dWYWd0Q0FuODU1QVJLVFpjWFF3LTBjeHdyR2ZaZw?oc=5"
     }
    },
    "from_icn": "no",
    "discount": "14만9900원부터",
    "verification": "news",
    "first_published": "2026-11-02",
-   "last_published": "2026-11-02",
+   "last_published": "2026-11-03",
    "first_seen": "2026-11-02T13:18:14+09:00",
-   "last_seen": "2026-11-02T13:18:14+09:00",
+   "last_seen": "2026-11-03T22:17:33+09:00",
    "articles": [
+    {
+     "title": "에어부산, 부산~광저우 신규 취항 이벤트…편도 14만9900원부터",
+     "outlet": "울산매일 - 울산최초, 최고의 조간신문",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13QUV2OU5VT3NQWFlfNW5XLXlKYmhaWmF5Z2lIMk5DcDZfeUgzcXNNNkZDS1NEM2swZ0xNVHNJWVdWR29xMEtwejhMcnJVNVp6V3BaelphakplRDAzVUtHLXJ3a28zUHB3WVHSAW5BVV95cUxOTVZvRVV6cGN4MUpPNkIyMmFvUFZpcl9kR3dfamhMUTN0UjBCN01GR0l6Q0ZKWlFrMkNZdG40QVVldVJhcW16blNic0xYcUpsa1dWYWd0Q0FuODU1QVJLVFpjWFF3LTBjeHdyR2ZaZw?oc=5",
+     "published": "2026-11-03"
+    },
     {
      "title": "에어부산, 부산~광저우 신규 취항 특가… 편도 14만9900원부터",
      "outlet": "국제신문",
@@ -2105,6 +2117,68 @@
      "outlet": "브릿지경제",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAycFhPazJQUXhIS29jWlF3cGhoQ21Va2NtT05OSjdPbU96ZDl4ZzdfTUkxSkNEdWFRcHBDS2NqemJkTEk0LTh3RmlQTFc5QXZBSFJPM1hEWnNOZw?oc=5",
      "published": "2026-11-02"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "airbusan-51312b7f1c",
+   "airline_id": "airbusan",
+   "airline": "에어부산",
+   "airlines_mentioned": [
+    "에어부산"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airbusan.com/",
+   "iata": [
+    "BX"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어부산, 부산~광저우 프로모션 실시",
+   "sale_start": null,
+   "sale_end": "2026-11-16",
+   "travel_start": "2026-12-02",
+   "travel_end": "2027-03-26",
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트래블데일리 요약문: 이번 프로모션은 광저우 노선을 대상으로 한 단독 특가 프로모션으로 16일까지 2주간 진행된다.",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72554"
+    },
+    "travel": {
+     "title": "트래블데일리 요약문: …기준 14만 9900원부터 판매되며 탑승 기간은 첫 운항을 시작하는 12월 2일부터 내년 3월 26일까지다.…",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72554"
+    },
+    "discount": {
+     "title": "트래블데일리 요약문: ▲부가서비스 번들 최대 4만 원 할인 ▲트립닷컴 제휴 8% 추가 할인 ▲카카오페이 간편결제 혜택",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72554"
+    }
+   },
+   "from_icn": "no",
+   "discount": "최대 4만원 할인",
+   "verification": "news",
+   "first_published": "2026-11-03",
+   "last_published": "2026-11-03",
+   "first_seen": "2026-11-03T22:17:33+09:00",
+   "last_seen": "2026-11-03T22:17:33+09:00",
+   "articles": [
+    {
+     "title": "에어부산, 부산~광저우 프로모션 실시",
+     "outlet": "트래블데일리",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72554",
+     "published": "2026-11-03"
     }
    ],
    "status": "live"
@@ -4168,6 +4242,58 @@
    "status": "undated"
   },
   {
+   "id": "h-hilton-6012143f61",
+   "airline_id": "h-hilton",
+   "airline": "힐튼",
+   "airlines_mentioned": [
+    "힐튼"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Hilton's Stay Longer discount is perfect for holiday travel: save 10% on your next extended stay",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Hilton's Stay Longer discount is perfect for holiday travel: save 10% on your next extended stay",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcndyWmdIdUh3SlZEZGhVR20xWGF3djlqa1RTbHhjZHNySXNTYjJlMjFDbjdwV0ZNOVhQSHd4R1Q3SEV1Y2VOVF83UzFteHJwNTVvRkNUMDBYcDlkM05pUzRTNkpZSkpxRUE1cF9wLUg5TERuZzZFWnRkZnN3TllmREpZNVdnRk9xU25JNE4xbTc5NjNaR2tQZGVwTHY3bzczNEZ5QV9Uc3pRNDlBbzgyeVRWMzNLZmhrY1RuMWo0N3hxYUg5cU42bXFCc3JSc0ktc0VRWkhMdw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "10% 할인",
+   "verification": "news",
+   "first_published": "2026-10-31",
+   "last_published": "2026-10-31",
+   "first_seen": "2026-11-03T22:17:33+09:00",
+   "last_seen": "2026-11-03T22:17:33+09:00",
+   "articles": [
+    {
+     "title": "Hilton's Stay Longer discount is perfect for holiday travel: save 10% on your next extended stay",
+     "outlet": "Tom's Guide",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcndyWmdIdUh3SlZEZGhVR20xWGF3djlqa1RTbHhjZHNySXNTYjJlMjFDbjdwV0ZNOVhQSHd4R1Q3SEV1Y2VOVF83UzFteHJwNTVvRkNUMDBYcDlkM05pUzRTNkpZSkpxRUE1cF9wLUg5TERuZzZFWnRkZnN3TllmREpZNVdnRk9xU25JNE4xbTc5NjNaR2tQZGVwTHY3bzczNEZ5QV9Uc3pRNDlBbzgyeVRWMzNLZmhrY1RuMWo0N3hxYUg5cU42bXFCc3JSc0ktc0VRWkhMdw?oc=5",
+     "published": "2026-10-31"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-hyatt-51c07de753",
    "airline_id": "h-hyatt",
    "airline": "하얏트",
@@ -5236,6 +5362,62 @@
      "title": "[단독] 공정위 무시하는 CVC·정명훈 號 여기어때, 인기 추천 숙소 65%가 '유령 정가'",
      "outlet": "로이슈",
      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9rWGVUalVYVlh5cVBkMk5vVDJxUXdsT0twb2FXeFRGWlNKZDNPMk1pdEFtR2lGbDhLNWNOb1NYWE1uM3NwQzhsRDZKMXNKMzRRZU1oMHFpOGxsRU1mTVlwN0RoNzN4bHlvWEtBbTZjN3ozQjdMR3Mwb25B?oc=5",
+     "published": "2026-11-03"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-clubmed-561b8f7f14",
+   "airline_id": "h-clubmed",
+   "airline": "클럽메드",
+   "airlines_mentioned": [
+    "클럽메드"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Club Med Launches Up to 30% Off Resorts in Maldives, Thailand and Asia",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "몰디브",
+    "태국",
+    "아시아"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Club Med Launches Up to 30% Off Resorts in Maldives, Thailand and Asia",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbEtadDZzaC1xaG5NekVJZjI5eURWQUNZbDB0R2V0dlhIbExzR2N3bFhWSV9hZGVuM3YwRXcyNlNidUg1SFlBTjBjc2QzVU53U25TOTlDV3laM1BtYmVidW9jRDkzaHp4SWZvaVlaRUxEWDJJNk01NUxWYTZ0UzZKSmZ6OGhlYjNZbXhqSmxxSDJQOGZhUUp6eERQUHFUb0twXy1kaGNVVWF2M2g3dzlhWg?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 30%",
+   "verification": "news",
+   "first_published": "2026-11-03",
+   "last_published": "2026-11-03",
+   "first_seen": "2026-11-03T22:17:33+09:00",
+   "last_seen": "2026-11-03T22:17:33+09:00",
+   "articles": [
+    {
+     "title": "Club Med Launches Up to 30% Off Resorts in Maldives, Thailand and Asia",
+     "outlet": "Rus Tourism News",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbEtadDZzaC1xaG5NekVJZjI5eURWQUNZbDB0R2V0dlhIbExzR2N3bFhWSV9hZGVuM3YwRXcyNlNidUg1SFlBTjBjc2QzVU53U25TOTlDV3laM1BtYmVidW9jRDkzaHp4SWZvaVlaRUxEWDJJNk01NUxWYTZ0UzZKSmZ6OGhlYjNZbXhqSmxxSDJQOGZhUUp6eERQUHFUb0twXy1kaGNVVWF2M2g3dzlhWg?oc=5",
      "published": "2026-11-03"
     }
    ],
