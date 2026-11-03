@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T22:17:33+09:00",
+ "generated_at": "2026-11-04T02:20:23+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,23 +10,23 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2162,
+  "rss_items": 2084,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2010,
-  "outlet_new_articles": 1,
+  "outlet_items": 1888,
+  "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 5,
   "mail_new_articles": 0,
   "articles_with_summary": 33,
-  "articles": 630,
-  "new_articles": 5,
-  "deals": 96
+  "articles": 626,
+  "new_articles": 0,
+  "deals": 94
  },
  "deals": [
   {
-   "id": "h-stayfesta-ad268a7c50",
+   "id": "h-stayfesta-4f09bb2651",
    "airline_id": "h-stayfesta",
    "airline": "숙박세일 페스타",
    "airlines_mentioned": [
@@ -75,7 +75,7 @@
    "from_icn": null,
    "discount": "최대 7만원 할인",
    "verification": "news",
-   "first_published": "2026-09-19",
+   "first_published": "2026-09-20",
    "last_published": "2026-10-24",
    "first_seen": "2026-10-15T13:00:04+09:00",
    "last_seen": "2026-10-27T17:57:28+09:00",
@@ -547,12 +547,6 @@
      "outlet": "브레이크뉴스",
      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBaU3UyQ3g1dmJtZVNEX2pNRUhCc3JUMjlUSy1ReVF3SHpxbHFiNVA0WDFBNkxEMFRIdjJvNnF5WnRkUmJWLW9JUQ?oc=5",
      "published": "2026-09-20"
-    },
-    {
-     "title": "트립비토즈, ‘2026 대한민국 숙박세일페스타’ 참여…“최대 12만원 혜택”",
-     "outlet": "비즈월드",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rX01LYm1UZDA1NjdxVGZlSm9mVWNUbjRLM3VhVzdCS3gxWWozbWx3TmVDYkZ2X0hDeDA1YkRRYlVGamdReWVJOWQ5WFpOOVBoMEhsX25MajRWYVpRaVFxRExaZXVPVWdLT3BV?oc=5",
-     "published": "2026-09-19"
     }
    ],
    "status": "live"
@@ -2248,238 +2242,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "multi-e72d5ce4ad",
-   "airline_id": "multi",
-   "airline": "여러 항공사",
-   "airlines_mentioned": [
-    "제주항공"
-   ],
-   "kind": "mixed",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "KB페이로 국제선 사면 12% 할인…제주항공 등 5개 LCC 대상",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "KB페이로 국제선 사면 12% 할인…제주항공 등 5개 LCC 대상",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KUzk0amxjZ3RxX09RRkJyOG8xaThNNnNhVjloOUZ5YkZoNjd1UkxkNTAzeGs5MTBVbHN6OUNJaG1DT01Pb0VYbHVLNWR2MndUUWNnVE5yeENCZ3ZiZ3VEVVMwRlhHZk5tOVNJczhqcw?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "12% 할인",
-   "verification": "news",
-   "first_published": "2026-10-20",
-   "last_published": "2026-10-20",
-   "first_seen": "2026-10-20T16:57:38+09:00",
-   "last_seen": "2026-10-20T16:57:38+09:00",
-   "articles": [
-    {
-     "title": "KB페이로 국제선 사면 12% 할인…제주항공 등 5개 LCC 대상",
-     "outlet": "뉴스퀘스트",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KUzk0amxjZ3RxX09RRkJyOG8xaThNNnNhVjloOUZ5YkZoNjd1UkxkNTAzeGs5MTBVbHN6OUNJaG1DT01Pb0VYbHVLNWR2MndUUWNnVE5yeENCZ3ZiZ3VEVVMwRlhHZk5tOVNJczhqcw?oc=5",
-     "published": "2026-10-20"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-yeogi-d8fddb469a",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "domestic",
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "“대전 스포츠 직관부터 축제까지” 여기어때, 최대 6만원 숙소 할인...소비자 관심도 상승",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "대전"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "“대전 스포츠 직관부터 축제까지” 여기어때, 최대 6만원 숙소 할인...소비자 관심도 상승",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zX1h1TlZHQmhweldXd2x1SWNJbG51RFR0SUhKYUE3RVpPNGROMm1DZEV4Vm9IMVBRSl9jZVZFM3JmWmFxRnAwZG5oaFk3azF5aC1YVXRuU0RQUkZybXVtUTQ2cUY1bnp4Q25FdkxQbkswdG02VW5UeHQxbXo?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 6만원 할인",
-   "verification": "news",
-   "first_published": "2026-10-20",
-   "last_published": "2026-10-20",
-   "first_seen": "2026-10-20T09:45:40+09:00",
-   "last_seen": "2026-10-20T16:57:38+09:00",
-   "articles": [
-    {
-     "title": "“대전 스포츠 직관부터 축제까지” 여기어때, 최대 6만원 숙소 할인...소비자 관심도 상승",
-     "outlet": "빅데이터뉴스",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zX1h1TlZHQmhweldXd2x1SWNJbG51RFR0SUhKYUE3RVpPNGROMm1DZEV4Vm9IMVBRSl9jZVZFM3JmWmFxRnAwZG5oaFk3azF5aC1YVXRuU0RQUkZybXVtUTQ2cUY1bnp4Q25FdkxQbkswdG02VW5UeHQxbXo?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "여기어때, 대전 여행 시 최대 6만원 숙소 할인 프로모션",
-     "outlet": "숙박매거진",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wTE9TNzNUSTdmLTJYYThfSGlCV0ZvN21WNzNDNlhCajM1dTczbVBDNDI1anFtbnZQUS14NXdOVjh1anZZb0RfRnZNVE1jUVJfRUJxWmE3NEp5V3gwc3hVT0cycmlpVGVoZ21UYVdjT25qdw?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "여기어때, 대전 체류형 관광 지원…숙소 최대 6만원 할인",
-     "outlet": "핀포인트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWN09kcE9ESmdRTnBqNEdwaVJ4d3lHa0YxeThBeVE1VjVLUzhKNUdBVFg2SDU2NFFDT19iNkwwX2M1dm1OSXRsdGZyVkxfdzVuZ2RYUDRodWVLUzVnWC00MS1DTEJXcXIxblN0blRrVXF4aUXSAXdBVV95cUxQZXRtT0FVZDZ0dXRBcm4wOTJUZE9nNUpOY2FKODktZTE4VHRrUDlwU1czeGVXRWIyTlRpWGFxY1ZYN2hlYlNUTmY3U0FPbG1OUWwzdmFnTE83SjFOWDBMV3V1M3RMNUJMVmZCVW5odFJrT3Bqemc5WQ?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "여기어때 대전관광공사와 스포츠 직관 여행객에 숙소 6만원 할인 준다",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MdVRsQm9mMEI0MHFoZ2xrRnJId3JQcFlpZFBaTGFIdTFHM1ZuTG5YU1JWLVVrUk1aaDNJcVpXM3N3R21MeFhBNlVYMURONTBid3BMb2dUX3lPNHpwcWItaWNQOTI3X1hlREJRYw?oc=5",
-     "published": "2026-10-20"
-    },
-    {
-     "title": "여기어때, 대전관광공사와 여행 프로모션 열어…숙소 최대 6만원 할인",
-     "outlet": "직썰",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LcnpfMjI5S2RsVkhDcElnYTFFbXZlRk82QTJOalJjelU3NzBQaEdwTnVvU1NMVTVCalNiSXFxTHFPTmlOQ0NiZ0JwVndRUVBpVDR1blhaQWtnTUhIczc5SmZMdVVOM0NM0gFsQVVfeXFMT1JJLUtBUTFWdHd3SnZvY08wdlJLZUdYbURFMUJXcXJNQm9wVFhzWUpLLU5wdWp0c1NjY1pNdDB2eUNPNGtjQklGdG5rbVBnVGxYQ2V5c1h4WVZORG1nN0lQZ19ZR0o1SUlRQWFn?oc=5",
-     "published": "2026-10-20"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-28c37ca8cc",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "하노이 호텔들이 10월 20일 베트남 여성의 날을 맞아 수요 촉진을 위한 프로모션을 시작합니다.",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "하노이",
-    "베트남"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-20",
-   "last_published": "2026-10-20",
-   "first_seen": "2026-10-20T23:18:02+09:00",
-   "last_seen": "2026-10-20T23:18:02+09:00",
-   "articles": [
-    {
-     "title": "하노이 호텔들이 10월 20일 베트남 여성의 날을 맞아 수요 촉진을 위한 프로모션을 시작합니다.",
-     "outlet": "Vietnam.vn",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOckpkTE80Ml9UUDdySWZZM0hIMi1HVGhob1dDTkM0ODFKV2EtUVNIdWpST2lKT3VhTmRKb0h2NEZEUTljR1d5dHIxa3FuM0hTcWloeDdFQUNnc1NadVFCYzE2MlVXRmFpeUJ0ZXdDMnZIWUdkWFYyUTBfeE15NzBkcjBqdG1RNnpYb3NYTHJPWTRGN2NCMlpqdHRB?oc=5",
-     "published": "2026-10-20"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-7f814be9af",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Regenta Rewards Unveils Members-Only “Secret Sale” with 25% Off Across 90+ Royal Orchid and Regenta Hotels",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Regenta Rewards Unveils Members-Only “Secret Sale” with 25% Off Across 90+ Royal Orchid and Regenta Hotels",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRjZnd3ZtZUpkM245eVBfM0Q1VXpJcGs0NDBMaXJTbXNLNElVN0RFVk11eFoyLWxMbkppSllZR3l2NkZZMElMUTBlTWFsUkpXbGdySElTWXFuWjF2T01tS1QwM0ZLdno4VkQ3dkZtT2Z3b1l3V1dOdHF2YlEtTDlaYURqVHdXSmlxX0kxSWhjRWNRemsxTjZuMlA0YU9rNE5hQVBVMkkyd3B2NHU4MC1ZM04zbzBWcmhFaTRtZ0p2TDFvNVAtdGhtUzlZUHFTc3UwaC1oS1VEZDdYOUF1X2Zvaks5ZkJmR2pTdkE?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "25% 할인",
-   "verification": "news",
-   "first_published": "2026-10-20",
-   "last_published": "2026-10-20",
-   "first_seen": "2026-10-21T09:36:47+09:00",
-   "last_seen": "2026-10-21T09:36:47+09:00",
-   "articles": [
-    {
-     "title": "Regenta Rewards Unveils Members-Only “Secret Sale” with 25% Off Across 90+ Royal Orchid and Regenta Hotels",
-     "outlet": "HospiBuz",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRjZnd3ZtZUpkM245eVBfM0Q1VXpJcGs0NDBMaXJTbXNLNElVN0RFVk11eFoyLWxMbkppSllZR3l2NkZZMElMUTBlTWFsUkpXbGdySElTWXFuWjF2T01tS1QwM0ZLdno4VkQ3dkZtT2Z3b1l3V1dOdHF2YlEtTDlaYURqVHdXSmlxX0kxSWhjRWNRemsxTjZuMlA0YU9rNE5hQVBVMkkyd3B2NHU4MC1ZM04zbzBWcmhFaTRtZ0p2TDFvNVAtdGhtUzlZUHFTc3UwaC1oS1VEZDdYOUF1X2Zvaks5ZkJmR2pTdkE?oc=5",
-     "published": "2026-10-20"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "h-inspire-376b5c2d7e",
@@ -5520,78 +5282,6 @@
    "status": "undated"
   },
   {
-   "id": "airseoul-86e16725ae",
-   "airline_id": "airseoul",
-   "airline": "에어서울",
-   "airlines_mentioned": [
-    "에어서울"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://flyairseoul.com/",
-   "iata": [
-    "RS"
-   ],
-   "agencies": [],
-   "event_name": "임박 특가",
-   "headline": "에어서울, 국제선 전 노선 대상 ‘임박 특가’ 실시…다낭 편 ‘알쓸민잡’ 콘텐츠 공개",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "에어서울, 국제선 전 노선 '임박 특가'...다낭 12만원대부터",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fakxldWdPaFJ4YTFhOXNsLWVTLUpDdVpsRjhRNy1sVTI2VWsxOTJvd1RjLXQ5ZkdXN0M2dGVra0ZIZHhxdDVZYzVIR0kzSWNfSjJwSEc5aXBqeDJGVmc?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "12만원대부터",
-   "verification": "news",
-   "first_published": "2026-10-02",
-   "last_published": "2026-10-04",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-18T21:49:43+09:00",
-   "articles": [
-    {
-     "title": "에어서울, 국제선 전 노선 대상 ‘임박 특가’ 실시…다낭 편 ‘알쓸민잡’ 콘텐츠 공개",
-     "outlet": "핀포인트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1zSnpNMjZvS2ZiVzBwVXFtSEZCWTk1RHhPZWx1cVBtRUozV0pLVlBEOWliRjA5MTRWeDZSb0dWTERudUx6V1MxTEV1S2d2OHdHdVRRV2lmSmZFWUlzUHZicl9vWS0xNFQ1MjVVaVUwbWZ3bmvSAXdBVV95cUxPNlU2cUEwTm9tenNudEdhcm5HSG1UVUVBbmpBci1IbGctSTFoZTE1YURlSGVWaGJYLU1OaFdwRlFRVGxpb1plTWVBbVRtVkF5SUtQcmF0LVlMSkx2QXNIY0QyQ1JCLWozbTBIZmVLVURaYlhPd1pkQQ?oc=5",
-     "published": "2026-10-04"
-    },
-    {
-     "title": "에어서울, '임박 특가' 프로모션→비엣젯항공, '亞대표 항공사' 선정",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81SXF6Y2lFZXdrQTVvZFFxcVh6NW82NURld1hBWEVTZmM4ZnN3WHBxUV9lYlpjV1M1b28yYS1JM1gtYkxYeE9NeDFQYmhMVG5vek5RaG1ONEttM1FmYzhIaDFMNTZ4Zw?oc=5",
-     "published": "2026-10-03"
-    },
-    {
-     "title": "에어서울, 국제선 전 노선 임박 특가 프로모션",
-     "outlet": "교통뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91U1A0T1JwWDN4UDA4YldSbl9xdDg3akV2dTg1NmctYjFnOGNMemxUSkRHRmxxSEkxYmxYd1JROTloYVlhbHlhQlZWR2h6UEg5djkxYjVETjVPSGhKTWhOQ0pQTzducXdjYldkeA?oc=5",
-     "published": "2026-10-02"
-    },
-    {
-     "title": "에어서울, 국제선 전 노선 '임박 특가'...다낭 12만원대부터",
-     "outlet": "뉴스투데이",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fakxldWdPaFJ4YTFhOXNsLWVTLUpDdVpsRjhRNy1sVTI2VWsxOTJvd1RjLXQ5ZkdXN0M2dGVra0ZIZHhxdDVZYzVIR0kzSWNfSjJwSEc5aXBqeDJGVmc?oc=5",
-     "published": "2026-10-02"
-    }
-   ],
-   "status": "stale"
-  },
-  {
    "id": "multi-64f21625b7",
    "airline_id": "multi",
    "airline": "여러 항공사",
@@ -6505,6 +6195,188 @@
      "outlet": "아이뉴스24",
      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1PSjZmd0FJMXV4WVBLRWNCZG9VUU5GLW1ONEhEbDIxUkVDcEFYSjlma2NMSnZqZG1zYy1iY05BdTJHVVdHLUlWU3F4V3k?oc=5",
      "published": "2026-10-18"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "multi-e72d5ce4ad",
+   "airline_id": "multi",
+   "airline": "여러 항공사",
+   "airlines_mentioned": [
+    "제주항공"
+   ],
+   "kind": "mixed",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "KB페이로 국제선 사면 12% 할인…제주항공 등 5개 LCC 대상",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "KB페이로 국제선 사면 12% 할인…제주항공 등 5개 LCC 대상",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KUzk0amxjZ3RxX09RRkJyOG8xaThNNnNhVjloOUZ5YkZoNjd1UkxkNTAzeGs5MTBVbHN6OUNJaG1DT01Pb0VYbHVLNWR2MndUUWNnVE5yeENCZ3ZiZ3VEVVMwRlhHZk5tOVNJczhqcw?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "12% 할인",
+   "verification": "news",
+   "first_published": "2026-10-20",
+   "last_published": "2026-10-20",
+   "first_seen": "2026-10-20T16:57:38+09:00",
+   "last_seen": "2026-10-20T16:57:38+09:00",
+   "articles": [
+    {
+     "title": "KB페이로 국제선 사면 12% 할인…제주항공 등 5개 LCC 대상",
+     "outlet": "뉴스퀘스트",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KUzk0amxjZ3RxX09RRkJyOG8xaThNNnNhVjloOUZ5YkZoNjd1UkxkNTAzeGs5MTBVbHN6OUNJaG1DT01Pb0VYbHVLNWR2MndUUWNnVE5yeENCZ3ZiZ3VEVVMwRlhHZk5tOVNJczhqcw?oc=5",
+     "published": "2026-10-20"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-yeogi-d8fddb469a",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "“대전 스포츠 직관부터 축제까지” 여기어때, 최대 6만원 숙소 할인...소비자 관심도 상승",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "대전"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "“대전 스포츠 직관부터 축제까지” 여기어때, 최대 6만원 숙소 할인...소비자 관심도 상승",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zX1h1TlZHQmhweldXd2x1SWNJbG51RFR0SUhKYUE3RVpPNGROMm1DZEV4Vm9IMVBRSl9jZVZFM3JmWmFxRnAwZG5oaFk3azF5aC1YVXRuU0RQUkZybXVtUTQ2cUY1bnp4Q25FdkxQbkswdG02VW5UeHQxbXo?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 6만원 할인",
+   "verification": "news",
+   "first_published": "2026-10-20",
+   "last_published": "2026-10-20",
+   "first_seen": "2026-10-20T09:45:40+09:00",
+   "last_seen": "2026-10-20T16:57:38+09:00",
+   "articles": [
+    {
+     "title": "“대전 스포츠 직관부터 축제까지” 여기어때, 최대 6만원 숙소 할인...소비자 관심도 상승",
+     "outlet": "빅데이터뉴스",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zX1h1TlZHQmhweldXd2x1SWNJbG51RFR0SUhKYUE3RVpPNGROMm1DZEV4Vm9IMVBRSl9jZVZFM3JmWmFxRnAwZG5oaFk3azF5aC1YVXRuU0RQUkZybXVtUTQ2cUY1bnp4Q25FdkxQbkswdG02VW5UeHQxbXo?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "여기어때, 대전 여행 시 최대 6만원 숙소 할인 프로모션",
+     "outlet": "숙박매거진",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wTE9TNzNUSTdmLTJYYThfSGlCV0ZvN21WNzNDNlhCajM1dTczbVBDNDI1anFtbnZQUS14NXdOVjh1anZZb0RfRnZNVE1jUVJfRUJxWmE3NEp5V3gwc3hVT0cycmlpVGVoZ21UYVdjT25qdw?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "여기어때, 대전 체류형 관광 지원…숙소 최대 6만원 할인",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWN09kcE9ESmdRTnBqNEdwaVJ4d3lHa0YxeThBeVE1VjVLUzhKNUdBVFg2SDU2NFFDT19iNkwwX2M1dm1OSXRsdGZyVkxfdzVuZ2RYUDRodWVLUzVnWC00MS1DTEJXcXIxblN0blRrVXF4aUXSAXdBVV95cUxQZXRtT0FVZDZ0dXRBcm4wOTJUZE9nNUpOY2FKODktZTE4VHRrUDlwU1czeGVXRWIyTlRpWGFxY1ZYN2hlYlNUTmY3U0FPbG1OUWwzdmFnTE83SjFOWDBMV3V1M3RMNUJMVmZCVW5odFJrT3Bqemc5WQ?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "여기어때 대전관광공사와 스포츠 직관 여행객에 숙소 6만원 할인 준다",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MdVRsQm9mMEI0MHFoZ2xrRnJId3JQcFlpZFBaTGFIdTFHM1ZuTG5YU1JWLVVrUk1aaDNJcVpXM3N3R21MeFhBNlVYMURONTBid3BMb2dUX3lPNHpwcWItaWNQOTI3X1hlREJRYw?oc=5",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "여기어때, 대전관광공사와 여행 프로모션 열어…숙소 최대 6만원 할인",
+     "outlet": "직썰",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LcnpfMjI5S2RsVkhDcElnYTFFbXZlRk82QTJOalJjelU3NzBQaEdwTnVvU1NMVTVCalNiSXFxTHFPTmlOQ0NiZ0JwVndRUVBpVDR1blhaQWtnTUhIczc5SmZMdVVOM0NM0gFsQVVfeXFMT1JJLUtBUTFWdHd3SnZvY08wdlJLZUdYbURFMUJXcXJNQm9wVFhzWUpLLU5wdWp0c1NjY1pNdDB2eUNPNGtjQklGdG5rbVBnVGxYQ2V5c1h4WVZORG1nN0lQZ19ZR0o1SUlRQWFn?oc=5",
+     "published": "2026-10-20"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-other-7f814be9af",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Regenta Rewards Unveils Members-Only “Secret Sale” with 25% Off Across 90+ Royal Orchid and Regenta Hotels",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Regenta Rewards Unveils Members-Only “Secret Sale” with 25% Off Across 90+ Royal Orchid and Regenta Hotels",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRjZnd3ZtZUpkM245eVBfM0Q1VXpJcGs0NDBMaXJTbXNLNElVN0RFVk11eFoyLWxMbkppSllZR3l2NkZZMElMUTBlTWFsUkpXbGdySElTWXFuWjF2T01tS1QwM0ZLdno4VkQ3dkZtT2Z3b1l3V1dOdHF2YlEtTDlaYURqVHdXSmlxX0kxSWhjRWNRemsxTjZuMlA0YU9rNE5hQVBVMkkyd3B2NHU4MC1ZM04zbzBWcmhFaTRtZ0p2TDFvNVAtdGhtUzlZUHFTc3UwaC1oS1VEZDdYOUF1X2Zvaks5ZkJmR2pTdkE?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "25% 할인",
+   "verification": "news",
+   "first_published": "2026-10-20",
+   "last_published": "2026-10-20",
+   "first_seen": "2026-10-21T09:36:47+09:00",
+   "last_seen": "2026-10-21T09:36:47+09:00",
+   "articles": [
+    {
+     "title": "Regenta Rewards Unveils Members-Only “Secret Sale” with 25% Off Across 90+ Royal Orchid and Regenta Hotels",
+     "outlet": "HospiBuz",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRjZnd3ZtZUpkM245eVBfM0Q1VXpJcGs0NDBMaXJTbXNLNElVN0RFVk11eFoyLWxMbkppSllZR3l2NkZZMElMUTBlTWFsUkpXbGdySElTWXFuWjF2T01tS1QwM0ZLdno4VkQ3dkZtT2Z3b1l3V1dOdHF2YlEtTDlaYURqVHdXSmlxX0kxSWhjRWNRemsxTjZuMlA0YU9rNE5hQVBVMkkyd3B2NHU4MC1ZM04zbzBWcmhFaTRtZ0p2TDFvNVAtdGhtUzlZUHFTc3UwaC1oS1VEZDdYOUF1X2Zvaks5ZkJmR2pTdkE?oc=5",
+     "published": "2026-10-20"
     }
    ],
    "status": "stale"
