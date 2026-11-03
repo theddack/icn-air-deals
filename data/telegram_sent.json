@@ -2008,6 +2008,38 @@
    "kinds": {
     "new": "2026-11-03"
    }
+  },
+  "h-yeogi-ab4563033f": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-03",
+    "urls": [
+     "ab4563033f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-03"
+   }
+  },
+  "h-hilton-b48393e0ef": {
+   "info": {
+    "airline": "h-hilton",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-03",
+    "urls": [
+     "b48393e0ef"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-03"
+   }
   }
  },
  "slots": {
@@ -2048,10 +2080,11 @@
   },
   "2026-11-03": {
    "morning": "sent",
-   "afternoon": "sent"
+   "afternoon": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-03T13:23:08+09:00",
+ "saved_at": "2026-11-03T18:21:05+09:00",
  "drops_day": "2026-11-03",
  "drops": {
   "BKK": {
