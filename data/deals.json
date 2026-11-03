@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T04:46:51+09:00",
+ "generated_at": "2026-11-03T09:14:10+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2273,
+  "rss_items": 2244,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1773,
+  "outlet_items": 1970,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_enriched": 1,
   "mail_articles": 4,
   "mail_new_articles": 0,
-  "articles_with_summary": 30,
-  "articles": 612,
+  "articles_with_summary": 31,
+  "articles": 616,
   "new_articles": 4,
-  "deals": 88
+  "deals": 89
  },
  "deals": [
   {
@@ -1581,7 +1581,7 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-02",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-03T04:46:51+09:00",
+   "last_seen": "2026-11-03T09:14:10+09:00",
    "articles": [
     {
      "title": "트리니티항공, 11월 항공권 최대 25% 할인",
@@ -1623,6 +1623,12 @@
      "title": "트리니티항공, 국제선 최대 25% 할인…3만원 중복 쿠폰 제공",
      "outlet": "포인트데일리",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53N2FsQ0hjYTEtQXBoR3pGaWhJLUYyNXJPYXBfODRIYlpPVFBWU01lYzlXbHY3M1V5NnhQd2ZUelZFUnNnVkZLUUM1V3YxTk8tWHpXQy1VV3Y4MnptNFVYWkUzcUI2OElTQmlDbWMtUWXSAXRBVV95cUxNMU5mR3VPUVRZWjlJSzVub1NZcV9rLWRWZVNjUzBRRFhfa2hvVG14a1BxSnJ1RGlHcWFjYkJ2STNhdUFJSEtva2s3MkppQVZFallrWEstR19NZHhoZ1ZyTlAtVXNGei1qZEtmZUtNTUZ6MUpHVw?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "트리니티항공, 11월 국제선 프로모션…최대 25% 할인",
+     "outlet": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LbTdoLURjTl9VZnR0eWRZSkxuVjZMRjlqTlBDRnRBVk9LYTRTREh6T1QydFBnOHAzOFQ2NWZnYUg0QkpoYi1lVlE5TjBKYzZBa1lGNHQyUWw4SF9nN0FvV2RvSkdic3FpR29CbldLTHBOOGPSAXdBVV95cUxPM3dXdllkOUJPLV9OVmNDbUZaODNBQzFuUXQyRktvaDlRVDdhdjJLVzMtZF9Zel9qN2NoRG5DSEhoRTUwck9ISFN1MnVUa0t3enROY1NmR1YzOVlHbnZHb1ZyOHZPQzFsdUZYZ3N4N293cjNFRnVxMA?oc=5",
      "published": "2026-11-02"
     },
     {
@@ -1683,6 +1689,12 @@
      "title": "트리니티항공 '11월 더블 혜택 프로모션'…최대 25%↓",
      "outlet": "뉴시스",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nUldVUFlXOFlFLXZBT1Z6QzlnMzVqWURBN2Jua21FeUtMNTZUeU44MldfXzR1NlhSeDBNNXFMd2prbE5XaV9wcHBWUmU4M0FZeVg5RDYzaTBiZkN3elNnMtIBeEFVX3lxTE5OaFUwNkFQWVp0anVoRVhGTEt1eVNIS1NoaDlaUzM0ZTlyQ2ZxcUxLa0FEQzNkUHZoRy0zU0dvdTdrU282Q1hhZWlneVVkdXZCV1hqTmVxMUhRNHhKVFNKWThQemE2QWJxX1NKVDJFTHdITUNvWVFpWA?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "트리니티항공, 국제선 항공권 최대 25% 할인 행사",
+     "outlet": "경상매일신문",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iWVB3M0Z6aVgtYm53WU5YUmhETUZHVXZYeWhzeEFzRWJCUmpLeUJzVW14d0huN25xLUJ6R0poNmVqbWFuSG9uTzNGSllUMkw1N0t5TlI1OEhVeXFpMEJv?oc=5",
      "published": "2026-11-02"
     },
     {
@@ -2067,6 +2079,64 @@
      "outlet": "브릿지경제",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAycFhPazJQUXhIS29jWlF3cGhoQ21Va2NtT05OSjdPbU96ZDl4ZzdfTUkxSkNEdWFRcHBDS2NqemJkTEk0LTh3RmlQTFc5QXZBSFJPM1hEWnNOZw?oc=5",
      "published": "2026-11-02"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-yeogi-204900ee5a",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "숙소 할인에 여행 코스까지…여기어때, 경북 동해안 여행 지원",
+   "sale_start": null,
+   "sale_end": "2026-11-30",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "경북"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "핀포인트뉴스 요약문: 여기어때는 오는 30일까지 포항시와 경주시, 영덕군, 울진군, 울릉군 등 경상북도 5개 지역에서 사용할 수 …",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500763"
+    },
+    "discount": {
+     "title": "핀포인트뉴스 요약문: 여기어때가 경북 동해안 5개 지역 숙소를 대상으로 최대 3만원 할인 혜택을 제공한다.",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500763"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 3만원 할인",
+   "verification": "news",
+   "first_published": "2026-11-03",
+   "last_published": "2026-11-03",
+   "first_seen": "2026-11-03T09:14:10+09:00",
+   "last_seen": "2026-11-03T09:14:10+09:00",
+   "articles": [
+    {
+     "title": "숙소 할인에 여행 코스까지…여기어때, 경북 동해안 여행 지원",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IbmVfUlN4RXR6ellnRW83WGg1d3FjWjdYVXJReHpmZ2xKWlpMSlRPX1g5R2NONjBUYlNTZGpuMTVYZ29ZQnhjQmJpMWZFNlFpN3Zmc3RobzA3M1NrYlY0UVJaY3ZiX1p6bjFHTFE1ZElIczTSAXdBVV95cUxNdFRXckZDbU5JaXBmWmdoSGNjbjUyTmlmcWhKeUgxaGNrWHFDcXByOEE3MUpySm5ma0F3QzNHZWlXMy1RYUdmY1dLc3pOcHY3SHJDQkx0d1pPYng1bzFEeWhQUE5uNE9WRlNDeXJYeG5IOGtKMGw2OA?oc=5",
+     "published": "2026-11-03"
     }
    ],
    "status": "live"
@@ -6073,21 +6143,9 @@
      "published": "2026-10-21"
     },
     {
-     "title": "트리니티항공, 항공의 날 맞아 국제선 할인 행사 진행",
-     "outlet": "뉴스프리존",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE42bGxYYVM0SmZySzIwQmhNN3Q2VEpnREl3aWVPdWNCUjgwaURLRGlsTU40QjA4RGx5bW5JaGFlZ1FVME9ZU3dqMGgwUDZrYWxtWlZ4TUhELVhwbkxsRWF5UUdRdUlyeGZwR2wxXzNoVnUxeXlZUnk40gF3QVVfeXFMTjZsbFhhUzRKZnJLMjBCaE03dDZUSmdESXdpZU91Y0JSODBpREtEaWxNTjRCMDhEbHltbkloYWVnUVUwT1lTd2owaDBQNmthbG1aVnhNSEQtWHBuTGxFYXlRR1F1SXJ4ZnBHbDFfM2hWdTF5eVlSeTg?oc=5",
-     "published": "2026-10-21"
-    },
-    {
      "title": "트리니티항공, 항공의 날 맞아 국제선 최대 22% 할인...31일까지",
      "outlet": "중앙이코노미뉴스",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZM3dLd2c0Mk5qdnVZZWota1ZCSHdSdWpkbFRaQmdHNUFuOGY2NFBVb051Vm80Ujg4Ui1IbTJBWkdiVUFtZFQxUXd3blNYM0FESFZGaWVwTzd6MXdUQ2NzcURVTG9Na2dHM25fMW5DSFVzdw?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "트리니티항공, 제46회 항공의 날 맞아 국제선 운임 프로모션 실시",
-     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5KTUhDcVMzQ292S1RCX05vMjFPc09kODI2TDdZZDdOa1ZsbmJmYmZxaFhhT012cDU2ZFNsOXptQ3JCNy1TV1ItQndubEZaMzNSdWJlaTJkMElyajNEM1ZfVzFxY1pScExkbWpSOTJKSHJEQQ?oc=5",
      "published": "2026-10-21"
     },
     {
