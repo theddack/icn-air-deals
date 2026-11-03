@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T09:14:10+09:00",
+ "generated_at": "2026-11-03T13:18:16+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2244,
+  "rss_items": 2237,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1970,
-  "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_items": 2091,
+  "outlet_new_articles": 1,
+  "outlet_enriched": 0,
   "mail_articles": 4,
   "mail_new_articles": 0,
   "articles_with_summary": 31,
-  "articles": 616,
-  "new_articles": 4,
-  "deals": 89
+  "articles": 619,
+  "new_articles": 3,
+  "deals": 90
  },
  "deals": [
   {
@@ -1300,7 +1300,7 @@
    "section": "hotel",
    "route": null,
    "route_text": null,
-   "scope": null,
+   "scope": "domestic",
    "lang": "ko",
    "trial": false,
    "baseline": "hotel",
@@ -1308,13 +1308,15 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "여기어때, 춘천 숙박 최대 3만 원 할인…11월 6일까지 쿠폰 지급",
+   "headline": "여기어때, 경북 동해안 5개 지역 숙박 할인…최대 3만원 혜택",
    "sale_start": null,
    "sale_end": "2026-11-06",
    "travel_start": null,
    "travel_end": null,
    "routes": [],
-   "regions": [],
+   "regions": [
+    "경북"
+   ],
    "conditions": [
     "쿠폰"
    ],
@@ -1325,18 +1327,30 @@
      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81bk9wXy1ZMnpMdkZ6N0diU1RKeUNBcW1Gcll5R29BNEF0RHd6ZVpjaTFrYUZkMFdja2lzbVJCV1ZsRGxsYWF4QkFrZmpGYnBlNnByT3ZQM1dTZ3JBNGZTa21QV0hjUDdocE9PZlExWWZhMjRBWldpdFVpWGF3dw?oc=5"
     },
     "discount": {
-     "title": "여기어때, 춘천 숙박 최대 3만 원 할인…11월 6일까지 쿠폰 지급",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81bk9wXy1ZMnpMdkZ6N0diU1RKeUNBcW1Gcll5R29BNEF0RHd6ZVpjaTFrYUZkMFdja2lzbVJCV1ZsRGxsYWF4QkFrZmpGYnBlNnByT3ZQM1dTZ3JBNGZTa21QV0hjUDdocE9PZlExWWZhMjRBWldpdFVpWGF3dw?oc=5"
+     "title": "여기어때, 경북 동해안 5개 지역 숙박 최대 3만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15NzViNVRTNjNmd0E3Z0ZwOWJCd1RwOS1DODJSQmtQQTJKeDhvRDlwdXRBRUFmajU5cWNSbnlRTlEwelRrNGJBZGs1bk44TXZRUDBTeVZPeE5CeTdyRW9rZkFnQXpQekpCOTJVb9IBb0FVX3lxTE1XMkVIc3ZJV3RJR0JBUmxSOEIzMXdFTjZxcWRKM3hvaklHVzUza3RaMktBNTg2X2V5X3Q1Mlk3cERKS29RZ0xrc05NOEpMMHRySDlfLUo1RTA1MUExeWxEdWdYUUt2T0hnYnRPRXJHTQ?oc=5"
     }
    },
    "from_icn": null,
    "discount": "최대 3만원 할인",
    "verification": "news",
    "first_published": "2026-10-28",
-   "last_published": "2026-10-28",
+   "last_published": "2026-11-03",
    "first_seen": "2026-10-28T10:19:38+09:00",
-   "last_seen": "2026-10-28T18:37:34+09:00",
+   "last_seen": "2026-11-03T13:18:16+09:00",
    "articles": [
+    {
+     "title": "여기어때, 경북 동해안 5개 지역 숙박 할인…최대 3만원 혜택",
+     "outlet": "스마트경제",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56c0J4cElqVlo0UklEcWphdHFKblJ0TlJNaDV1cG5mLWdiRUd1aWJ4Tm95MGpreDNuMjhZUUZiMlJCbEZyVVMtMDMyWFZmOXN1RlZvX0tTYkNKV0hpTGpKYm05YUl4bHFLS0Q4Rk1yMlo?oc=5",
+     "published": "2026-11-03"
+    },
+    {
+     "title": "여기어때, 경북 동해안 5개 지역 숙박 최대 3만원 할인",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15NzViNVRTNjNmd0E3Z0ZwOWJCd1RwOS1DODJSQmtQQTJKeDhvRDlwdXRBRUFmajU5cWNSbnlRTlEwelRrNGJBZGs1bk44TXZRUDBTeVZPeE5CeTdyRW9rZkFnQXpQekpCOTJVb9IBb0FVX3lxTE1XMkVIc3ZJV3RJR0JBUmxSOEIzMXdFTjZxcWRKM3hvaklHVzUza3RaMktBNTg2X2V5X3Q1Mlk3cERKS29RZ0xrc05NOEpMMHRySDlfLUo1RTA1MUExeWxEdWdYUUt2T0hnYnRPRXJHTQ?oc=5",
+     "published": "2026-11-03"
+    },
     {
      "title": "여기어때, 춘천 숙박 최대 3만 원 할인…11월 6일까지 쿠폰 지급",
      "outlet": "여행레저신문",
@@ -5093,6 +5107,55 @@
      "outlet": "Travel Market Report",
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOejJTakNzdGhFWDY3TWVxWWgzTWVHSE13dVZLcTMtbV9MWW9MTTNrTF9lbV9SM09qdXM5WUhjWUJKYkJxcDJVcXFpdHQ4MGdsUzVjY2tTMWNCSzZEYXVyeWo2bUVFc0FFZkZ3UWNoU2RZLXVuVnljRmZOeVZyTUVGRVpwSXFWOVpVUnNaY2VGN0k?oc=5",
      "published": "2026-11-02"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-51580b2b1e",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "한국 단풍 관광객 늘자 일본 호텔비 올랐다…9% 가까이 급등",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "일본"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-03",
+   "last_published": "2026-11-03",
+   "first_seen": "2026-11-03T13:18:16+09:00",
+   "last_seen": "2026-11-03T13:18:16+09:00",
+   "articles": [
+    {
+     "title": "한국 단풍 관광객 늘자 일본 호텔비 올랐다…9% 가까이 급등",
+     "outlet": "연합뉴스 문화",
+     "url": "https://www.yna.co.kr/view/AKR20261103088100009",
+     "published": "2026-11-03"
     }
    ],
    "status": "undated"
