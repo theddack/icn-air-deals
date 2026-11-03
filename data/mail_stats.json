@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-11-03T13:18:11+09:00",
+ "checked_at": "2026-11-03T16:15:01+09:00",
  "days": 21,
- "searched": 40,
+ "searched": 41,
  "sender:제주항공": 2,
- "checked": 40,
+ "checked": 41,
  "transactional": 19,
  "transactional_hit:본문:인증코드:제주항공": 1,
  "transactional:제주항공": 1,
@@ -55,7 +55,7 @@
  "sender:트립닷컴": 4,
  "transactional_hit:본문:가입 완료:트립닷컴": 1,
  "transactional:트립닷컴": 2,
- "accepted": 4,
+ "accepted": 5,
  "accepted:트립닷컴": 1,
  "sender:하나투어": 1,
  "transactional_hit:제목:환영합니다:하나투어": 1,
@@ -70,12 +70,12 @@
  "no_facts:피치항공": 1,
  "transactional_hit:제목:인증번호:트립닷컴": 1,
  "no_facts:스카이스캐너": 4,
- "sender:에어부산": 2,
- "accepted:에어부산": 1,
+ "sender:에어부산": 3,
+ "accepted:에어부산": 2,
  "accepted:제주항공": 1,
  "no_facts:트립닷컴": 1,
  "no_facts:에어부산": 1,
  "not_sale": 1,
  "not_sale:스쿠트항공": 1,
- "kept": 4
+ "kept": 5
 }

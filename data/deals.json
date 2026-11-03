@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T13:18:16+09:00",
+ "generated_at": "2026-11-03T16:15:08+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2237,
+  "rss_items": 2307,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2091,
-  "outlet_new_articles": 1,
+  "outlet_items": 2106,
+  "outlet_new_articles": 0,
   "outlet_enriched": 0,
-  "mail_articles": 4,
-  "mail_new_articles": 0,
-  "articles_with_summary": 31,
-  "articles": 619,
-  "new_articles": 3,
-  "deals": 90
+  "mail_articles": 5,
+  "mail_new_articles": 1,
+  "articles_with_summary": 32,
+  "articles": 623,
+  "new_articles": 4,
+  "deals": 91
  },
  "deals": [
   {
@@ -1308,7 +1308,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "여기어때, 경북 동해안 5개 지역 숙박 할인…최대 3만원 혜택",
+   "headline": "겨울 동해 여행 숙박비 낮춘다…여기어때, 경북 5개 지역 최대 3만원 할인",
    "sale_start": null,
    "sale_end": "2026-11-06",
    "travel_start": null,
@@ -1327,8 +1327,8 @@
      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81bk9wXy1ZMnpMdkZ6N0diU1RKeUNBcW1Gcll5R29BNEF0RHd6ZVpjaTFrYUZkMFdja2lzbVJCV1ZsRGxsYWF4QkFrZmpGYnBlNnByT3ZQM1dTZ3JBNGZTa21QV0hjUDdocE9PZlExWWZhMjRBWldpdFVpWGF3dw?oc=5"
     },
     "discount": {
-     "title": "여기어때, 경북 동해안 5개 지역 숙박 최대 3만원 할인",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15NzViNVRTNjNmd0E3Z0ZwOWJCd1RwOS1DODJSQmtQQTJKeDhvRDlwdXRBRUFmajU5cWNSbnlRTlEwelRrNGJBZGs1bk44TXZRUDBTeVZPeE5CeTdyRW9rZkFnQXpQekpCOTJVb9IBb0FVX3lxTE1XMkVIc3ZJV3RJR0JBUmxSOEIzMXdFTjZxcWRKM3hvaklHVzUza3RaMktBNTg2X2V5X3Q1Mlk3cERKS29RZ0xrc05NOEpMMHRySDlfLUo1RTA1MUExeWxEdWdYUUt2T0hnYnRPRXJHTQ?oc=5"
+     "title": "겨울 동해 여행 숙박비 낮춘다…여기어때, 경북 5개 지역 최대 3만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZdC13bG9sNHg0cnJiWi0xbUdiTk5yNXdqWVFtdU5qZm5pS2dlV0l5WXdQWWhWVGhJV2RRcnBPNElpMVhwQlg0b0FsdHBwVFl6a2NfZHhIUFQ5dUNNMS1Ub2pYMjRkaWtIREo0VzdDNVA0Zw?oc=5"
     }
    },
    "from_icn": null,
@@ -1337,8 +1337,14 @@
    "first_published": "2026-10-28",
    "last_published": "2026-11-03",
    "first_seen": "2026-10-28T10:19:38+09:00",
-   "last_seen": "2026-11-03T13:18:16+09:00",
+   "last_seen": "2026-11-03T16:15:08+09:00",
    "articles": [
+    {
+     "title": "겨울 동해 여행 숙박비 낮춘다…여기어때, 경북 5개 지역 최대 3만원 할인",
+     "outlet": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZdC13bG9sNHg0cnJiWi0xbUdiTk5yNXdqWVFtdU5qZm5pS2dlV0l5WXdQWWhWVGhJV2RRcnBPNElpMVhwQlg0b0FsdHBwVFl6a2NfZHhIUFQ5dUNNMS1Ub2pYMjRkaWtIREo0VzdDNVA0Zw?oc=5",
+     "published": "2026-11-03"
+    },
     {
      "title": "여기어때, 경북 동해안 5개 지역 숙박 할인…최대 3만원 혜택",
      "outlet": "스마트경제",
@@ -1545,6 +1551,74 @@
    "status": "live"
   },
   {
+   "id": "trinity-d5c147a777",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "트리니티항공, 국제선 예약 프로모션…현지 여행 혜택도 제공",
+   "sale_start": null,
+   "sale_end": "2026-11-13",
+   "travel_start": null,
+   "travel_end": "2027-01-31",
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "한국면세뉴스 요약문: …리니티항공은 오는 13일까지 공식 홈페이지와 모바일 앱·웹에서 '11월 더블 혜택 프로모션'을 운영한다고 2…",
+     "url": "http://www.kdfnews.com/news/articleView.html?idxno=190298"
+    },
+    "travel": {
+     "title": "한국면세뉴스 요약문: 국제선 노선으로, 탑승 기간은 일부 제외 기간을 빼고 2027년 1월 31일까지다.",
+     "url": "http://www.kdfnews.com/news/articleView.html?idxno=190298"
+    },
+    "discount": {
+     "title": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jRWlmZ0RTTzJxQkptMHhlQTUzbl9hM2ZCSDRyc2xJWVB1TWRYZFZHcXBLRnd5eGdKMTg5UXhjdzVrdUlWbGJoZkhVbw?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "25% 할인",
+   "verification": "news",
+   "first_published": "2026-11-02",
+   "last_published": "2026-11-02",
+   "first_seen": "2026-11-02T13:18:14+09:00",
+   "last_seen": "2026-11-02T15:50:37+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공, 국제선 예약 프로모션…현지 여행 혜택도 제공",
+     "outlet": "한국면세뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OQnFDWnFJdmxOYnBlbHYyNVhSMXVDZFB2blQxNzR0Sm5Icmp5QmhrOGt3TDV3Qk01YmU0MC11SDdVT1lEV2o1M3J6MHk1MUJ4LXlTbTZSaHhYemdObENTSHhPbUZwRV80aVE?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
+     "outlet": "재경일보",
+     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jRWlmZ0RTTzJxQkptMHhlQTUzbl9hM2ZCSDRyc2xJWVB1TWRYZFZHcXBLRnd5eGdKMTg5UXhjdzVrdUlWbGJoZkhVbw?oc=5",
+     "published": "2026-11-02"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "trinity-e94e178f89",
    "airline_id": "trinity",
    "airline": "트리니티항공",
@@ -1566,7 +1640,7 @@
    ],
    "agencies": [],
    "event_name": "11월 더블 혜택 프로모션",
-   "headline": "트리니티항공, 11월 항공권 최대 25% 할인",
+   "headline": "트리니티항공, 국제선 최대 25% 할인…최대 3만원 추가 혜택까지",
    "sale_start": null,
    "sale_end": "2026-11-13",
    "travel_start": "2026-11-01",
@@ -1585,18 +1659,24 @@
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzX3lLdHI0TWZZSWd6YlJuSTlzOEkzQlR3M054d3ZqcnFmYVFmSWZRaVd4WUdNeFllRTR6SWlhbXZYWHNBREdWMUNIOFVlejZyUWRpMWw4NjJZWTh4ZlcxdjRYdms?oc=5"
     },
     "discount": {
-     "title": "트리니티항공, 11월 항공권 최대 25% 할인",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd3NrQkh6U1BZREtVVnNUYWNfWGE5ZmhkMFlXTVAwcTNWb3laRzRIQWlucy1DSi1Ncy01bzllWjE5SkFhYUhPeVQ4WDZUbi1OUGVDaUxfRXlmM3g2TDNuRGtGQUJacHdieExibW1UZVE4TWRRMVZUenUzV3d5bk1fcENJem1XSWF2dHJCYWhPaWpqbGdFNHp0X9IBmAFBVV95cUxOd3NrQkh6U1BZREtVVnNUYWNfWGE5ZmhkMFlXTVAwcTNWb3laRzRIQWlucy1DSi1Ncy01bzllWjE5SkFhYUhPeVQ4WDZUbi1OUGVDaUxfRXlmM3g2TDNuRGtGQUJacHdieExibW1UZVE4TWRRMVZUenUzV3d5bk1fcENJem1XSWF2dHJCYWhPaWpqbGdFNHp0Xw?oc=5"
+     "title": "트리니티항공, 국제선 최대 25% 할인…최대 3만원 추가 혜택까지",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1USGpCM1YweG5ZWGtYTXpYRVd3OFJ6TWdKU3U1LWVhQVNSS1Z0MTBUQmdGYUlnd3Z3WXoxX2VkckhNZldFUU5MdzQ4ck0yczF4VjJfb2I1dXFCUVdVTlZ1Nm52Wmd3dzdibUE?oc=5"
     }
    },
    "from_icn": "unknown",
    "discount": "최대 25%",
    "verification": "news",
    "first_published": "2026-11-02",
-   "last_published": "2026-11-02",
+   "last_published": "2026-11-03",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-03T09:14:10+09:00",
+   "last_seen": "2026-11-03T16:15:08+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 국제선 최대 25% 할인…최대 3만원 추가 혜택까지",
+     "outlet": "경북도민일보",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1USGpCM1YweG5ZWGtYTXpYRVd3OFJ6TWdKU3U1LWVhQVNSS1Z0MTBUQmdGYUlnd3Z3WXoxX2VkckhNZldFUU5MdzQ4ck0yczF4VjJfb2I1dXFCUVdVTlZ1Nm52Wmd3dzdibUE?oc=5",
+     "published": "2026-11-03"
+    },
     {
      "title": "트리니티항공, 11월 항공권 최대 25% 할인",
      "outlet": "Chosunbiz",
@@ -1721,74 +1801,6 @@
      "title": "트리니티항공, 11월 국제선 항공권 최대 25% 할인 프로모션",
      "outlet": "경북신문",
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQQjRpNUtNT3VPMm5IUGtYXy1xR3pWZHVKV3FDYnZBMW9fVlRva0tMekZvMWtFczhROEZjd1pVclFXYVU3WWZIRVNlSTFZaFRJejlVRFNRNnM?oc=5",
-     "published": "2026-11-02"
-    }
-   ],
-   "status": "live"
-  },
-  {
-   "id": "trinity-d5c147a777",
-   "airline_id": "trinity",
-   "airline": "트리니티항공",
-   "airlines_mentioned": [
-    "트리니티항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.twayair.com/",
-   "iata": [
-    "TW"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "트리니티항공, 국제선 예약 프로모션…현지 여행 혜택도 제공",
-   "sale_start": null,
-   "sale_end": "2026-11-13",
-   "travel_start": null,
-   "travel_end": "2027-01-31",
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "한국면세뉴스 요약문: …리니티항공은 오는 13일까지 공식 홈페이지와 모바일 앱·웹에서 '11월 더블 혜택 프로모션'을 운영한다고 2…",
-     "url": "http://www.kdfnews.com/news/articleView.html?idxno=190298"
-    },
-    "travel": {
-     "title": "한국면세뉴스 요약문: 국제선 노선으로, 탑승 기간은 일부 제외 기간을 빼고 2027년 1월 31일까지다.",
-     "url": "http://www.kdfnews.com/news/articleView.html?idxno=190298"
-    },
-    "discount": {
-     "title": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jRWlmZ0RTTzJxQkptMHhlQTUzbl9hM2ZCSDRyc2xJWVB1TWRYZFZHcXBLRnd5eGdKMTg5UXhjdzVrdUlWbGJoZkhVbw?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "25% 할인",
-   "verification": "news",
-   "first_published": "2026-11-02",
-   "last_published": "2026-11-02",
-   "first_seen": "2026-11-02T13:18:14+09:00",
-   "last_seen": "2026-11-02T15:50:37+09:00",
-   "articles": [
-    {
-     "title": "트리니티항공, 국제선 예약 프로모션…현지 여행 혜택도 제공",
-     "outlet": "한국면세뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OQnFDWnFJdmxOYnBlbHYyNVhSMXVDZFB2blQxNzR0Sm5Icmp5QmhrOGt3TDV3Qk01YmU0MC11SDdVT1lEV2o1M3J6MHk1MUJ4LXlTbTZSaHhYemdObENTSHhPbUZwRV80aVE?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
-     "outlet": "재경일보",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jRWlmZ0RTTzJxQkptMHhlQTUzbl9hM2ZCSDRyc2xJWVB1TWRYZFZHcXBLRnd5eGdKMTg5UXhjdzVrdUlWbGJoZkhVbw?oc=5",
      "published": "2026-11-02"
     }
    ],
@@ -2117,7 +2129,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "숙소 할인에 여행 코스까지…여기어때, 경북 동해안 여행 지원",
+   "headline": "여기어때 경북 동해안 숙박 최대 3만원 할인…11월 30일까지 쿠폰 발급",
    "sale_start": null,
    "sale_end": "2026-11-30",
    "travel_start": null,
@@ -2126,16 +2138,18 @@
    "regions": [
     "경북"
    ],
-   "conditions": [],
+   "conditions": [
+    "쿠폰"
+   ],
    "conflicts": [],
    "evidence": {
     "sale": {
-     "title": "핀포인트뉴스 요약문: 여기어때는 오는 30일까지 포항시와 경주시, 영덕군, 울진군, 울릉군 등 경상북도 5개 지역에서 사용할 수 …",
-     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500763"
+     "title": "여기어때 경북 동해안 숙박 최대 3만원 할인…11월 30일까지 쿠폰 발급",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZGJEVjV4QmlYeGR3SFhSdEF6YTl2SlAwMEpkbjlQdXBFcUNaU0NjMUo0RTREd2VfN21ERjhQallzdkVRY3NrQ0lYalh0ejFpS2ZfVHZrNjYxTkpvOXJfVTNmRmI5eXc2TnJRd2t2Ym5LLUhOV002WENEWjdZdHJuQ3dzc0Y?oc=5"
     },
     "discount": {
-     "title": "핀포인트뉴스 요약문: 여기어때가 경북 동해안 5개 지역 숙소를 대상으로 최대 3만원 할인 혜택을 제공한다.",
-     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500763"
+     "title": "여기어때 경북 동해안 숙박 최대 3만원 할인…11월 30일까지 쿠폰 발급",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZGJEVjV4QmlYeGR3SFhSdEF6YTl2SlAwMEpkbjlQdXBFcUNaU0NjMUo0RTREd2VfN21ERjhQallzdkVRY3NrQ0lYalh0ejFpS2ZfVHZrNjYxTkpvOXJfVTNmRmI5eXc2TnJRd2t2Ym5LLUhOV002WENEWjdZdHJuQ3dzc0Y?oc=5"
     }
    },
    "from_icn": null,
@@ -2144,8 +2158,14 @@
    "first_published": "2026-11-03",
    "last_published": "2026-11-03",
    "first_seen": "2026-11-03T09:14:10+09:00",
-   "last_seen": "2026-11-03T09:14:10+09:00",
+   "last_seen": "2026-11-03T16:15:08+09:00",
    "articles": [
+    {
+     "title": "여기어때 경북 동해안 숙박 최대 3만원 할인…11월 30일까지 쿠폰 발급",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZGJEVjV4QmlYeGR3SFhSdEF6YTl2SlAwMEpkbjlQdXBFcUNaU0NjMUo0RTREd2VfN21ERjhQallzdkVRY3NrQ0lYalh0ejFpS2ZfVHZrNjYxTkpvOXJfVTNmRmI5eXc2TnJRd2t2Ym5LLUhOV002WENEWjdZdHJuQ3dzc0Y?oc=5",
+     "published": "2026-11-03"
+    },
     {
      "title": "숙소 할인에 여행 코스까지…여기어때, 경북 동해안 여행 지원",
      "outlet": "핀포인트뉴스",
@@ -5107,6 +5127,69 @@
      "outlet": "Travel Market Report",
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOejJTakNzdGhFWDY3TWVxWWgzTWVHSE13dVZLcTMtbV9MWW9MTTNrTF9lbV9SM09qdXM5WUhjWUJKYkJxcDJVcXFpdHQ4MGdsUzVjY2tTMWNCSzZEYXVyeWo2bUVFc0FFZkZ3UWNoU2RZLXVuVnljRmZOeVZyTUVGRVpwSXFWOVpVUnNaY2VGN0k?oc=5",
      "published": "2026-11-02"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "airbusan-b8c86413b9",
+   "airline_id": "airbusan",
+   "airline": "에어부산",
+   "airlines_mentioned": [
+    "에어부산"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airbusan.com/",
+   "iata": [
+    "BX"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "부산(PUS)",
+     "destination": null
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
+     "url": "https://www.airbusan.com/#mail-149658625d65af90"
+    },
+    "route": {
+     "title": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
+     "url": "https://www.airbusan.com/#mail-149658625d65af90"
+    }
+   },
+   "from_icn": "no",
+   "discount": "149,900원부터",
+   "verification": "official",
+   "first_published": "2026-11-03",
+   "last_published": "2026-11-03",
+   "first_seen": "2026-11-03T16:15:01+09:00",
+   "last_seen": "2026-11-03T16:15:01+09:00",
+   "articles": [
+    {
+     "title": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
+     "outlet": "에어부산 메일",
+     "url": "https://www.airbusan.com/#mail-149658625d65af90",
+     "published": "2026-11-03"
     }
    ],
    "status": "undated"

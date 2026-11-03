@@ -4816,5 +4816,50 @@
   "published": "2026-11-03",
   "first_seen": "2026-11-03T13:18:16+09:00",
   "source": "outlet_rss"
+ },
+ {
+  "title": "트리니티항공, 국제선 최대 25% 할인…최대 3만원 추가 혜택까지",
+  "outlet": "경북도민일보",
+  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1USGpCM1YweG5ZWGtYTXpYRVd3OFJ6TWdKU3U1LWVhQVNSS1Z0MTBUQmdGYUlnd3Z3WXoxX2VkckhNZldFUU5MdzQ4ck0yczF4VjJfb2I1dXFCUVdVTlZ1Nm52Wmd3dzdibUE?oc=5",
+  "published": "2026-11-03",
+  "first_seen": "2026-11-03T16:15:08+09:00"
+ },
+ {
+  "title": "여기어때 경북 동해안 숙박 최대 3만원 할인…11월 30일까지 쿠폰 발급",
+  "outlet": "여행레저신문",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZGJEVjV4QmlYeGR3SFhSdEF6YTl2SlAwMEpkbjlQdXBFcUNaU0NjMUo0RTREd2VfN21ERjhQallzdkVRY3NrQ0lYalh0ejFpS2ZfVHZrNjYxTkpvOXJfVTNmRmI5eXc2TnJRd2t2Ym5LLUhOV002WENEWjdZdHJuQ3dzc0Y?oc=5",
+  "published": "2026-11-03",
+  "first_seen": "2026-11-03T16:15:08+09:00"
+ },
+ {
+  "title": "겨울 동해 여행 숙박비 낮춘다…여기어때, 경북 5개 지역 최대 3만원 할인",
+  "outlet": "중앙이코노미뉴스",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZdC13bG9sNHg0cnJiWi0xbUdiTk5yNXdqWVFtdU5qZm5pS2dlV0l5WXdQWWhWVGhJV2RRcnBPNElpMVhwQlg0b0FsdHBwVFl6a2NfZHhIUFQ5dUNNMS1Ub2pYMjRkaWtIREo0VzdDNVA0Zw?oc=5",
+  "published": "2026-11-03",
+  "first_seen": "2026-11-03T16:15:08+09:00"
+ },
+ {
+  "title": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
+  "outlet": "에어부산 메일",
+  "url": "https://www.airbusan.com/#mail-149658625d65af90",
+  "published": "2026-11-03",
+  "first_seen": "2026-11-03T16:15:01+09:00",
+  "source": "mail",
+  "mail_id": "149658625d65af90",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.airbusan.com/#mail-149658625d65af90",
+   "outlet": "에어부산 메일",
+   "label": "본문",
+   "fields": {
+    "discount": "149,900원부터"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
  }
 ]
