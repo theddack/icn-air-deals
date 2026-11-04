@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T13:18:21+09:00",
+ "generated_at": "2026-11-04T15:58:55+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2133,
+  "rss_items": 2393,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2196,
+  "outlet_items": 2163,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 5,
   "mail_new_articles": 0,
   "articles_with_summary": 33,
-  "articles": 628,
-  "new_articles": 1,
+  "articles": 630,
+  "new_articles": 2,
   "deals": 95
  },
  "deals": [
@@ -3224,12 +3224,6 @@
      "published": "2026-10-28"
     },
     {
-     "title": "파라다이스 호텔 부산, 창립 45주년 맞아 숙박 할인부터 특별 경품까지 ‘혜택 풍성’",
-     "outlet": "뉴스탭",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zRmU3UVVRX3pMSTluZzBid0dRcDI2Z3poZVhqaWVqUmt3Q3Z5SUNkeDZrNmowNUZtRnZoVGZDR29vazFvbml2a1E4U0FDVE5WTzBsN2VhdXNOdkdlelZiWGh2RXlzLWQzemo1Ng?oc=5",
-     "published": "2026-10-28"
-    },
-    {
      "title": "파라다이스 호텔 부산, 창립 45주년…객실 할인·한정판 기념품 - 머니투데이",
      "outlet": "머니투데이",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45dDNfblhidWpxQktMZElJOXliZlFJNzFLRDlfQzY1R2tlMzVoRkVqTmxTTXR3dXd2ZVBvOHk1akhqV1dZSjUtcC1CUWdPY2dJZGZfbWNDblN6dEtHRTJoOUFoWjJ4S2g2UHIw0gFwQVVfeXFMTUJtM2xndVQxM0s0VVQ4NXJWdHZzeXdNNkRuWllBd0JfX1RFRkZoMjM5TDJ6dktWa2plOFprUnN0QnFyQ1hXTHl4VkhsQmJ6bHpmT0dYUkdVSTRwSTlRaXRNUXczeXRxcHZ1SkI5ZzBDSg?oc=5",
@@ -3245,55 +3239,6 @@
      "title": "\"객실 할인부터 무료 숙박권까지\"…파라다이스 부산, 45주년 기념",
      "outlet": "뉴스1",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rSFlDUEZYeWNhcDZpN0xBVlhZTUk1QmNFQ1BEWE9QMVJmMl9pN1UtTlhNdl9Tb2hocmdpbjZPQTBqd3pqaGp3azl1aXNJZjFiRG9ocXhMcUF4eHdVM1JaNg?oc=5",
-     "published": "2026-10-28"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-paradise-7cb70947cd",
-   "airline_id": "h-paradise",
-   "airline": "파라다이스",
-   "airlines_mentioned": [
-    "파라다이스"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "domestic",
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": "객실 할인에 숙박권까지",
-   "headline": "“객실 할인에 숙박권까지”…파라다이스 부산, 45주년 혜택 쏜다",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "부산"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-28",
-   "last_published": "2026-10-28",
-   "first_seen": "2026-10-28T10:19:38+09:00",
-   "last_seen": "2026-10-28T10:19:38+09:00",
-   "articles": [
-    {
-     "title": "“객실 할인에 숙박권까지”…파라다이스 부산, 45주년 혜택 쏜다",
-     "outlet": "데일리안",
-     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOSHlNVGJKS2FEOWRlaTlHRV9tMGpxeGZpY2oxcUVqUE14YzZway1HLXVNSVJ0WXRIcU9pWVhzY1VBUmNoajdhTEdlcENuUTBYMXBIU3I2cmdTaGZFcW9ocGhRbkIyYUhiMHgwWnpEUDNVc1VmQXJXWkt5RE1SNlhubjBnWHZ3SG1HRGZ5YnN2Rm1zOGtNc3lFZ2gzRWlSOHFVZGpCTGF1eFNtaFZVUFg5OEpNQjZWMzdKTDhJWVR4S2NpcmZRN3Q5aE1iSjBHOUR0UVRLc3FfZ05sdGh0UVlrSFZUZWZJY1ZvQUJFb05VMXUxeHhDNktRQ18zUW5lU0hqMm1Db21XMlgwQndlWUdRdHN3TTAyd1hxRjB4LWl6UVFXallpNDhQb3lWTlFPQQ?oc=5",
      "published": "2026-10-28"
     }
    ],
@@ -4477,120 +4422,6 @@
    "status": "undated"
   },
   {
-   "id": "h-hanatour-4d37057fce",
-   "airline_id": "h-hanatour",
-   "airline": "하나투어",
-   "airlines_mentioned": [
-    "하나투어"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://www.hanatour.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "겨울여행 페스타",
-   "headline": "하나투어, 성수기 겨냥 ‘26-27 하나투어 겨울여행 페스타’ 개막",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [
-    "쿠폰"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "최대 20만 원 결제 할인…하나투어, 겨울여행 페스타 돌입",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MVkZKSHFHb1RyTEtYbVJydUlmTnhrcG9vUTlqOHI0OUtnU2JFVjI0bWEyYllzV250T1JhWm5xdWZ2YXREOHJSVklFbkE5cXlGdVpuaE12aw?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 20만원 할인",
-   "verification": "news",
-   "first_published": "2026-10-31",
-   "last_published": "2026-11-02",
-   "first_seen": "2026-11-02T13:18:14+09:00",
-   "last_seen": "2026-11-03T04:46:51+09:00",
-   "articles": [
-    {
-     "title": "하나투어, 성수기 겨냥 ‘26-27 하나투어 겨울여행 페스타’ 개막",
-     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lWG9tcDN2eHVyYUZwVllvNVFoQ19XcjRRX192VDJobXhfSGw3d2c3S1BmQ0lKQV96cDFobGNYSTlqNkNXMk5PeV9uMS10bjJia2duNzk3Y2J5Njk3eDk2aV82aEZqMkFJbnVxb2VWWDlYQQ?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "하나투어, ‘겨울여행 페스타’ 오픈",
-     "outlet": "트래블데일리",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOZnNsbXJSU1laVTNyQlhUOThJTnRuaXlWZjM2aVFiUkpuZjlTLXV1aGhhY1JNcjF2eW9IQUR0cjlPQTdCczFwUnBDMnJVVVBXQ05wSXpXT1NUektGdDhUbkdJYlkyT0JUREZwcmRLWTc?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "하나투어, ‘겨울여행 페스타’ 오픈…쿠폰·경품·특가 혜택",
-     "outlet": "SWTV",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJOWFXdTVBeFlvOG9xUmsyNUlDMUNwaEd2YmthTHFrZ0E3TFlic1QzT05ydnUxR2dyVmRuYjk2Z2t4UjZTMkd3VnpKbXJKQjJPdTM3RjUzNmc4eHNaLUFpY24wdnJZV3RUX1hqaXh30gFrQVVfeXFMT3hMcF9HcDFaUk1HVW5Ceng1aHpCR25HUzMxdXdaVFNCVmt1UEM4T0g0UE9wNFdpc0dqM0lNa1dNUi1GZWROcFRNbFBTSlZWQnJjNTlCYUNmM3gybzA0MkdUbUhFX1ZDd0lXVTg?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "하나투어, 겨울 성수기 여행 수요 맞춰 ‘겨울여행 페스타’ 진행",
-     "outlet": "FETV",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sOUZsQ0JBS1BDQngzQWxSQ3NGbC1PenZjZ0p0aC13QjF2R1FReDFhME5BeTBhN2x2WFFCeWVkNXpEX1RVYnVDNmVDU2FRTmhTX3FJc1BQY3JLbzY4WUJ4YTVYMklpY0o2?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "하나투어, '26-27 하나투어 겨울여행 페스타’ 진행… 쿠폰·특가 혜택 제공",
-     "outlet": "퍼블릭뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBOOWEyV19kUkVLM1lyaGRVWXk1eU5pall1NkcyeXl5Q0dORk1iMlE0eTlPVlI4eW5VdmpOS3p3a1NsSlNIaGtmMFF5dnVhVnFjTk5pVGJTN2tueDhnVHVYQVZvaVl3YVVhTnpz?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "하나투어, 겨울 여행 선택 폭 넓힌 ‘겨울여행 페스타’ 오픈",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmeWtSVUIxV3pqeXBwWkVjb3RpSU5qbVMtT053d1YxVjdXeEp2R2F6NTVFaHUycXo1bV81bVRfVm5wT09Na0tiVjBRTG5QODdqNkhwSDB6Z1l6bHRUSXpKNldxdHczUQ?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "하나투어, 겨울여행 페스타 개최…패키지·항공·호텔 등 혜택 확대",
-     "outlet": "뉴스트래블",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JbFQ0NWtCZGE5em5CT01sSXVKZnhId3haamdNQ1I2enpkblFSVWF4OHpIOU1Tcm9EOWx6MEYxcGFZTXU0Y1RNaVRCYUFvdGNZNVBoRXgtZmstZHNNc2ltZkFhVWdNdw?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "하나투어, 겨울 성수기 공략 '겨울여행 페스타' 오픈",
-     "outlet": "뉴스핌",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KbVhBME5XZGhhZ1lhQjRMbGUtU1FUNWVQYVNYY1pCc3dSTHZib1J0QTlvb1BVRFRhWHZpQS1aQjQxcEg2b0JXR2NBWWVFSkxYSi1CX0phTjZQdkdx?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "\"여행비 부담 확 낮춘다\"…하나투어, 겨울여행 페스타 돌입",
-     "outlet": "한국경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkMXNhQXFEbW1Ha3hid2FmOXBWLUdCZXFkYS1hUWVtZVlINnY2Y1hUeEdneHJCeG4tSzVLalJOVXp6dEtfWHNNTXJBbHFSSk1OLTVpM3ZyOEljZw?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "최대 20만 원 결제 할인…하나투어, 겨울여행 페스타 돌입",
-     "outlet": "헤럴드경제",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MVkZKSHFHb1RyTEtYbVJydUlmTnhrcG9vUTlqOHI0OUtnU2JFVjI0bWEyYllzV250T1JhWm5xdWZ2YXREOHJSVklFbkE5cXlGdVpuaE12aw?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "하나투어, ‘겨울여행 페스타’ 개최",
-     "outlet": "한국금융경제신문",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zNG1XUnYyMUlJM0ZYbWlyX3l3RXc2eWxxbnQycFdDM1d1ZTJqM3dYUG44ai1hWmszMHRpUlZXcFhrLW4yS0lHVFdJUzlnbExqakx6R1ZIYmtZa3hKc0VvN0xtcU9ZUmxwdk5yT9IBcEFVX3lxTE4yOWxQTnhHODVkOHRyZ01oNE96NmQ4M1NKTUV1V3pVTnFZM2ozWVlXbmUzNkh1ZGk1ZVhiMG9zSDRMU1VRNGdPVXgzT3ByeG1zSnRkV2x4cmpyYjdrTG0taHlqZk9sLVZ1RnNJZTRtUW0?oc=5",
-     "published": "2026-10-31"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-ihg-05bfb34759",
    "airline_id": "h-ihg",
    "airline": "IHG",
@@ -5283,6 +5114,188 @@
      "outlet": "연합뉴스 문화",
      "url": "https://www.yna.co.kr/view/AKR20261103088100009",
      "published": "2026-11-03"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-paradise-b849649dab",
+   "airline_id": "h-paradise",
+   "airline": "파라다이스",
+   "airlines_mentioned": [
+    "파라다이스"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "객실 할인에 숙박권까지",
+   "headline": "겨울 호캉스 미리 예약하면 혜택 풍성…파라다이스, 인천·부산 호텔 특가 라이브",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "부산",
+    "인천"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-28",
+   "last_published": "2026-11-04",
+   "first_seen": "2026-10-28T10:19:38+09:00",
+   "last_seen": "2026-11-04T15:58:55+09:00",
+   "articles": [
+    {
+     "title": "겨울 호캉스 미리 예약하면 혜택 풍성…파라다이스, 인천·부산 호텔 특가 라이브",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51R2hsQnRfMzVVSzk2SUNZZTM0SW1nLTUtMVVaTl9fSkt1WHNJWjhYemR6bi1SSG5pcFpRYnROUldTYi1hRWJKcnhJNVNsa1RfeEplX3k5WUwybVowTDU4TjZDYWxLSXBERnRkVQ?oc=5",
+     "published": "2026-11-04"
+    },
+    {
+     "title": "“객실 할인에 숙박권까지”…파라다이스 부산, 45주년 혜택 쏜다",
+     "outlet": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOSHlNVGJKS2FEOWRlaTlHRV9tMGpxeGZpY2oxcUVqUE14YzZway1HLXVNSVJ0WXRIcU9pWVhzY1VBUmNoajdhTEdlcENuUTBYMXBIU3I2cmdTaGZFcW9ocGhRbkIyYUhiMHgwWnpEUDNVc1VmQXJXWkt5RE1SNlhubjBnWHZ3SG1HRGZ5YnN2Rm1zOGtNc3lFZ2gzRWlSOHFVZGpCTGF1eFNtaFZVUFg5OEpNQjZWMzdKTDhJWVR4S2NpcmZRN3Q5aE1iSjBHOUR0UVRLc3FfZ05sdGh0UVlrSFZUZWZJY1ZvQUJFb05VMXUxeHhDNktRQ18zUW5lU0hqMm1Db21XMlgwQndlWUdRdHN3TTAyd1hxRjB4LWl6UVFXallpNDhQb3lWTlFPQQ?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "파라다이스 호텔 부산, 창립 45주년 맞아 숙박 할인부터 특별 경품까지 ‘혜택 풍성’",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zRmU3UVVRX3pMSTluZzBid0dRcDI2Z3poZVhqaWVqUmt3Q3Z5SUNkeDZrNmowNUZtRnZoVGZDR29vazFvbml2a1E4U0FDVE5WTzBsN2VhdXNOdkdlelZiWGh2RXlzLWQzemo1Ng?oc=5",
+     "published": "2026-10-28"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-hanatour-4d37057fce",
+   "airline_id": "h-hanatour",
+   "airline": "하나투어",
+   "airlines_mentioned": [
+    "하나투어"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.hanatour.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "겨울여행 페스타",
+   "headline": "“다음 여행을 선물합니다”…하나투어, 경품 쏟아지는 ‘겨울여행 페스타’ 오픈",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [
+    "쿠폰"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "최대 20만 원 결제 할인…하나투어, 겨울여행 페스타 돌입",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MVkZKSHFHb1RyTEtYbVJydUlmTnhrcG9vUTlqOHI0OUtnU2JFVjI0bWEyYllzV250T1JhWm5xdWZ2YXREOHJSVklFbkE5cXlGdVpuaE12aw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 20만원 할인",
+   "verification": "news",
+   "first_published": "2026-10-31",
+   "last_published": "2026-11-04",
+   "first_seen": "2026-11-02T13:18:14+09:00",
+   "last_seen": "2026-11-04T15:58:55+09:00",
+   "articles": [
+    {
+     "title": "“다음 여행을 선물합니다”…하나투어, 경품 쏟아지는 ‘겨울여행 페스타’ 오픈",
+     "outlet": "매일경제",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1BRDBYTEJRUF9GckxJbjdUU2RSajZaTlJpUHA4cmd6TTB2UFdTT1lpS3NtN3Fqb2Vrd3A4NW41OTk5ZXRWdHRMTXpQejBkcHct?oc=5",
+     "published": "2026-11-04"
+    },
+    {
+     "title": "하나투어, 성수기 겨냥 ‘26-27 하나투어 겨울여행 페스타’ 개막",
+     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lWG9tcDN2eHVyYUZwVllvNVFoQ19XcjRRX192VDJobXhfSGw3d2c3S1BmQ0lKQV96cDFobGNYSTlqNkNXMk5PeV9uMS10bjJia2duNzk3Y2J5Njk3eDk2aV82aEZqMkFJbnVxb2VWWDlYQQ?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, ‘겨울여행 페스타’ 오픈",
+     "outlet": "트래블데일리",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOZnNsbXJSU1laVTNyQlhUOThJTnRuaXlWZjM2aVFiUkpuZjlTLXV1aGhhY1JNcjF2eW9IQUR0cjlPQTdCczFwUnBDMnJVVVBXQ05wSXpXT1NUektGdDhUbkdJYlkyT0JUREZwcmRLWTc?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, ‘겨울여행 페스타’ 오픈…쿠폰·경품·특가 혜택",
+     "outlet": "SWTV",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJOWFXdTVBeFlvOG9xUmsyNUlDMUNwaEd2YmthTHFrZ0E3TFlic1QzT05ydnUxR2dyVmRuYjk2Z2t4UjZTMkd3VnpKbXJKQjJPdTM3RjUzNmc4eHNaLUFpY24wdnJZV3RUX1hqaXh30gFrQVVfeXFMT3hMcF9HcDFaUk1HVW5Ceng1aHpCR25HUzMxdXdaVFNCVmt1UEM4T0g0UE9wNFdpc0dqM0lNa1dNUi1GZWROcFRNbFBTSlZWQnJjNTlCYUNmM3gybzA0MkdUbUhFX1ZDd0lXVTg?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, 겨울 성수기 여행 수요 맞춰 ‘겨울여행 페스타’ 진행",
+     "outlet": "FETV",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sOUZsQ0JBS1BDQngzQWxSQ3NGbC1PenZjZ0p0aC13QjF2R1FReDFhME5BeTBhN2x2WFFCeWVkNXpEX1RVYnVDNmVDU2FRTmhTX3FJc1BQY3JLbzY4WUJ4YTVYMklpY0o2?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, '26-27 하나투어 겨울여행 페스타’ 진행… 쿠폰·특가 혜택 제공",
+     "outlet": "퍼블릭뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBOOWEyV19kUkVLM1lyaGRVWXk1eU5pall1NkcyeXl5Q0dORk1iMlE0eTlPVlI4eW5VdmpOS3p3a1NsSlNIaGtmMFF5dnVhVnFjTk5pVGJTN2tueDhnVHVYQVZvaVl3YVVhTnpz?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, 겨울 여행 선택 폭 넓힌 ‘겨울여행 페스타’ 오픈",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmeWtSVUIxV3pqeXBwWkVjb3RpSU5qbVMtT053d1YxVjdXeEp2R2F6NTVFaHUycXo1bV81bVRfVm5wT09Na0tiVjBRTG5QODdqNkhwSDB6Z1l6bHRUSXpKNldxdHczUQ?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, 겨울여행 페스타 개최…패키지·항공·호텔 등 혜택 확대",
+     "outlet": "뉴스트래블",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JbFQ0NWtCZGE5em5CT01sSXVKZnhId3haamdNQ1I2enpkblFSVWF4OHpIOU1Tcm9EOWx6MEYxcGFZTXU0Y1RNaVRCYUFvdGNZNVBoRXgtZmstZHNNc2ltZkFhVWdNdw?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, 겨울 성수기 공략 '겨울여행 페스타' 오픈",
+     "outlet": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KbVhBME5XZGhhZ1lhQjRMbGUtU1FUNWVQYVNYY1pCc3dSTHZib1J0QTlvb1BVRFRhWHZpQS1aQjQxcEg2b0JXR2NBWWVFSkxYSi1CX0phTjZQdkdx?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "\"여행비 부담 확 낮춘다\"…하나투어, 겨울여행 페스타 돌입",
+     "outlet": "한국경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkMXNhQXFEbW1Ha3hid2FmOXBWLUdCZXFkYS1hUWVtZVlINnY2Y1hUeEdneHJCeG4tSzVLalJOVXp6dEtfWHNNTXJBbHFSSk1OLTVpM3ZyOEljZw?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "최대 20만 원 결제 할인…하나투어, 겨울여행 페스타 돌입",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MVkZKSHFHb1RyTEtYbVJydUlmTnhrcG9vUTlqOHI0OUtnU2JFVjI0bWEyYllzV250T1JhWm5xdWZ2YXREOHJSVklFbkE5cXlGdVpuaE12aw?oc=5",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "하나투어, ‘겨울여행 페스타’ 개최",
+     "outlet": "한국금융경제신문",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zNG1XUnYyMUlJM0ZYbWlyX3l3RXc2eWxxbnQycFdDM1d1ZTJqM3dYUG44ai1hWmszMHRpUlZXcFhrLW4yS0lHVFdJUzlnbExqakx6R1ZIYmtZa3hKc0VvN0xtcU9ZUmxwdk5yT9IBcEFVX3lxTE4yOWxQTnhHODVkOHRyZ01oNE96NmQ4M1NKTUV1V3pVTnFZM2ozWVlXbmUzNkh1ZGk1ZVhiMG9zSDRMU1VRNGdPVXgzT3ByeG1zSnRkV2x4cmpyYjdrTG0taHlqZk9sLVZ1RnNJZTRtUW0?oc=5",
+     "published": "2026-10-31"
     }
    ],
    "status": "undated"
