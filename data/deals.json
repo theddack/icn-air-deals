@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T02:20:23+09:00",
+ "generated_at": "2026-11-04T09:14:12+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2084,
+  "rss_items": 2070,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1888,
+  "outlet_items": 2062,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 5,
   "mail_new_articles": 0,
   "articles_with_summary": 33,
-  "articles": 626,
-  "new_articles": 0,
+  "articles": 627,
+  "new_articles": 1,
   "deals": 94
  },
  "deals": [
@@ -1302,7 +1302,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "겨울 동해 여행 숙박비 낮춘다…여기어때, 경북 5개 지역 최대 3만원 할인",
+   "headline": "여기어때, 경북 동해안 5개 지역 숙박 할인 페스타 진행",
    "sale_start": null,
    "sale_end": "2026-11-06",
    "travel_start": null,
@@ -1331,8 +1331,14 @@
    "first_published": "2026-10-28",
    "last_published": "2026-11-03",
    "first_seen": "2026-10-28T10:19:38+09:00",
-   "last_seen": "2026-11-03T22:17:33+09:00",
+   "last_seen": "2026-11-04T09:14:12+09:00",
    "articles": [
+    {
+     "title": "여기어때, 경북 동해안 5개 지역 숙박 할인 페스타 진행",
+     "outlet": "더퍼스트미디어",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ldFE5Njh3ZFdfeGd6N2pnQ29JdUNVcUJOZ3lZV056WkNLeGtveVdZWXNYUV9LNnlvRTVabnBxMnVCUU0yTUd5d25mNVowdVg0dGhDWVRROXEwRlUxQnFvdzIzd2dRcWxhTW0za3VkOW03UdIBdEFVX3lxTE94eXRLd001WVpDZzBDMUtWTFlTVWNKc1lDbjVHWmstc3E1ZUtQV204TlNDamdGWUZjZHRsSXRVSFU0NlRZbXlsS2ItN1RHSzlKQWY3OHRFQXR4S1BUMkhhd3pqSWxUSE5MWmdlUVFBMlFkSDhX?oc=5",
+     "published": "2026-11-03"
+    },
     {
      "title": "겨울 동해 여행 숙박비 낮춘다…여기어때, 경북 5개 지역 최대 3만원 할인",
      "outlet": "중앙이코노미뉴스",
