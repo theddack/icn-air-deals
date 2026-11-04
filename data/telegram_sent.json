@@ -1113,25 +1113,6 @@
     "new": "2026-10-27"
    }
   },
-  "h-paradise-aff283a0a8": {
-   "info": {
-    "airline": "h-paradise",
-    "name": "객실할인부터무료숙박권까지",
-    "sale_start": null,
-    "sale_end": null,
-    "dests": [],
-    "last": "2026-10-28",
-    "urls": [
-     "1c632b5133",
-     "62879e67e3",
-     "aff283a0a8",
-     "b849649dab"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-28"
-   }
-  },
   "h-paradise-7cb70947cd": {
    "info": {
     "airline": "h-paradise",
@@ -2088,6 +2069,24 @@
    "kinds": {
     "new": "2026-11-04"
    }
+  },
+  "h-paradise-b849649dab": {
+   "info": {
+    "airline": "h-paradise",
+    "name": "객실할인에숙박권까지",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-04",
+    "urls": [
+     "7cb70947cd",
+     "a3e5a7c8ce",
+     "b849649dab"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-28"
+   }
   }
  },
  "slots": {
@@ -2131,7 +2130,7 @@
    "afternoon": "sent"
   }
  },
- "saved_at": "2026-11-04T13:23:04+09:00",
+ "saved_at": "2026-11-04T16:04:35+09:00",
  "drops_day": "2026-11-04",
  "drops": {
   "BKK": {
