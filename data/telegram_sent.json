@@ -2040,14 +2040,41 @@
    "kinds": {
     "new": "2026-10-26"
    }
+  },
+  "h-hilton-6012143f61": {
+   "info": {
+    "airline": "h-hilton",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-31",
+    "urls": [
+     "6012143f61"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-04"
+   }
+  },
+  "h-clubmed-561b8f7f14": {
+   "info": {
+    "airline": "h-clubmed",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-03",
+    "urls": [
+     "561b8f7f14"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-04"
+   }
   }
  },
  "slots": {
-  "2026-10-27": {
-   "morning": "sent",
-   "afternoon": "sent",
-   "evening": "sent"
-  },
   "2026-10-28": {
    "morning": "sent",
    "afternoon": "empty",
@@ -2082,10 +2109,13 @@
    "morning": "sent",
    "afternoon": "sent",
    "evening": "sent"
+  },
+  "2026-11-04": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-11-04T02:25:28+09:00",
- "drops_day": "2026-11-03",
+ "saved_at": "2026-11-04T09:18:58+09:00",
+ "drops_day": "2026-11-04",
  "drops": {
   "BKK": {
    "price": 411600,
