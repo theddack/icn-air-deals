@@ -61,7 +61,9 @@ class TestSlots(Base):
         later = [deal(3, first_seen="2026-10-27T09:20:00+09:00"), deal(4, first_seen="2026-10-27T11:00:00+09:00")]
         st, out, _ = self.go(later, st, "2026-10-27T12:00")      # 같은 오전 시간대 → 보내지 않음
         self.assertEqual(out, [])
-        st, out, _ = self.go(later, st, "2026-10-27T14:10")      # 오후 → d4만
+        st, out, _ = self.go(later, st, "2026-10-27T14:10")      # 오후 알림 없음 (오전 시간대가 18시까지)
+        self.assertEqual(out, [])
+        st, out, _ = self.go(later, st, "2026-10-27T18:40")      # 저녁 → d4만
         self.assertEqual(len(out), 1)
         self.assertIn("행사 4", out[0])
         self.assertNotIn("행사 3", out[0])
@@ -74,7 +76,7 @@ class TestSlots(Base):
     def test_evening_closing_and_tomorrow_start(self):
         deals = [deal(1, sale_end="2026-10-27"), deal(2, sale_end="2026-10-28"),
                  deal(3, sale_start="2026-10-28", sale_end="2026-11-02")]
-        st = {**STARTED, "slots": {"2026-10-27": {"morning": "sent", "afternoon": "sent"}}}
+        st = {**STARTED, "slots": {"2026-10-27": {"morning": "sent"}}}
         _, out, _ = self.go(deals, st, "2026-10-27T20:15")
         m = out[0]
         self.assertIn("오늘의 마감 임박 특가", m)
@@ -101,9 +103,16 @@ class TestQuietHours(Base):
 
 
 class TestDelay(Base):
-    def test_missed_morning_kinds_come_in_afternoon(self):
-        # 오전 예약이 실행되지 않음 → 오후 실행이 D-3 안내도 함께 보낸다
-        _, out, _ = self.go([deal(2, sale_start="2026-10-30", sale_end="2026-11-05")], STARTED, "2026-10-27T15:30")
+    def test_missed_9am_run_sends_morning_brief_after_13_collect(self):
+        # 9시대 실행이 빠짐 → 13시대 수집 뒤 실행이 오전 브리핑을 보낸다 (오후 알림은 따로 없음)
+        _, out, _ = self.go([deal(2, sale_start="2026-10-30", sale_end="2026-11-05")], STARTED, "2026-10-27T13:25")
+        self.assertEqual(len(out), 1)
+        self.assertIn("오늘의 여행 할인 브리핑", out[0])
+        self.assertIn("곧 시작하는 행사", out[0])
+
+    def test_missed_morning_kinds_come_in_evening(self):
+        # 오전 시간대에 한 번도 못 보냄 → 저녁 실행이 D-3 안내도 함께 보낸다
+        _, out, _ = self.go([deal(2, sale_start="2026-10-30", sale_end="2026-11-05")], STARTED, "2026-10-27T18:40")
         self.assertEqual(len(out), 1)
         self.assertIn("곧 시작하는 행사", out[0])
         self.assertIn("앞 시간대 알림이 늦어", out[0])
@@ -116,7 +125,7 @@ class TestDelay(Base):
         d = deal(1, sale_start="2026-10-27", sale_end="2026-10-31")
         st, out, _ = self.go([d], STARTED, "2026-10-27T09:40")
         self.assertEqual(len(out), 1)
-        st, out, _ = self.go([d], st, "2026-10-27T15:00")
+        st, out, _ = self.go([d], st, "2026-10-27T18:40")
         self.assertEqual(out, [])
 
 
@@ -141,7 +150,7 @@ class TestDedupe(Base):
         st, _, _ = self.go([d], STARTED, "2026-10-27T09:40")
         # 앞선 기사가 묶여 id가 바뀜 (판매 기간·노선·행사명·기사 겹침 그대로)
         moved = {**d, "id": "d7-new", "articles": [{"url": "https://news.example/older"}] + d["articles"]}
-        st, out, _ = self.go([moved], st, "2026-10-27T14:20")
+        st, out, _ = self.go([moved], st, "2026-10-27T18:40")
         self.assertEqual(out, [])
         self.assertIn("d7-new", st["events"])
         self.assertNotIn("d7", st["events"])
@@ -152,7 +161,7 @@ class TestDedupe(Base):
         # 같은 이름·노선, 판매 기간만 다른 다음 회차
         nxt = {**d, "id": "d8-2", "sale_start": "2026-11-20", "sale_end": "2026-11-26",
                "first_seen": "2026-10-27T13:00:00+09:00", "articles": [{"url": "https://news.example/8b"}]}
-        _, out, _ = self.go([nxt], st, "2026-10-27T14:20")
+        _, out, _ = self.go([nxt], st, "2026-10-27T18:40")  # 저녁 시간대
         self.assertEqual(len(out), 1)
 
     def test_same_name_only_is_not_same_event(self):
