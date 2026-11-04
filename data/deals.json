@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T18:16:04+09:00",
+ "generated_at": "2026-11-04T22:03:44+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,21 +10,77 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 2094,
+  "rss_items": 2188,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2205,
+  "outlet_items": 2061,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 5,
   "mail_new_articles": 0,
   "articles_with_summary": 33,
-  "articles": 630,
-  "new_articles": 0,
-  "deals": 95
+  "articles": 631,
+  "new_articles": 1,
+  "deals": 96
  },
  "deals": [
+  {
+   "id": "h-marriott-a06b6b2c0a",
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "airlines_mentioned": [
+    "메리어트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Marriott Worldwide 20% Off Escapes For Stays November 14 – 29, 2026 (Book By Sunday)",
+   "sale_start": "2026-11-14",
+   "sale_end": "2026-11-29",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "Marriott Worldwide 20% Off Escapes For Stays November 14 – 29, 2026 (Book By Sunday)",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1k4ZDhIY29LYUEzYkJ1akg3SXc0VVhpWXBSbjdoT3oxZnBSOVhLUDl5OWdfY1FFUFRnbjBiU3ZHN01paUZHVFRQVkdkZU4wbHZjN1ZvcVR2ODlKU2JJeDFKNGV4ZDZLejlYUmhLSzVGSElSN016d2wtUmJWb1h5YjRTQWVxVlRGdFgtQVNJSV9BR1I1Q2NqVWpfMXdFaVdEeTJyNmJ1Zm4ycUpJeWx5UEFWd28zUQ?oc=5"
+    },
+    "discount": {
+     "title": "Marriott Worldwide 20% Off Escapes For Stays November 14 – 29, 2026 (Book By Sunday)",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1k4ZDhIY29LYUEzYkJ1akg3SXc0VVhpWXBSbjdoT3oxZnBSOVhLUDl5OWdfY1FFUFRnbjBiU3ZHN01paUZHVFRQVkdkZU4wbHZjN1ZvcVR2ODlKU2JJeDFKNGV4ZDZLejlYUmhLSzVGSElSN016d2wtUmJWb1h5YjRTQWVxVlRGdFgtQVNJSV9BR1I1Q2NqVWpfMXdFaVdEeTJyNmJ1Zm4ycUpJeWx5UEFWd28zUQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "20% 할인",
+   "verification": "news",
+   "first_published": "2026-11-04",
+   "last_published": "2026-11-04",
+   "first_seen": "2026-11-04T22:03:44+09:00",
+   "last_seen": "2026-11-04T22:03:44+09:00",
+   "articles": [
+    {
+     "title": "Marriott Worldwide 20% Off Escapes For Stays November 14 – 29, 2026 (Book By Sunday)",
+     "outlet": "LoyaltyLobby",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1k4ZDhIY29LYUEzYkJ1akg3SXc0VVhpWXBSbjdoT3oxZnBSOVhLUDl5OWdfY1FFUFRnbjBiU3ZHN01paUZHVFRQVkdkZU4wbHZjN1ZvcVR2ODlKU2JJeDFKNGV4ZDZLejlYUmhLSzVGSElSN016d2wtUmJWb1h5YjRTQWVxVlRGdFgtQVNJSV9BR1I1Q2NqVWpfMXdFaVdEeTJyNmJ1Zm4ycUpJeWx5UEFWd28zUQ?oc=5",
+     "published": "2026-11-04"
+    }
+   ],
+   "status": "upcoming"
+  },
   {
    "id": "h-stayfesta-4f09bb2651",
    "airline_id": "h-stayfesta",

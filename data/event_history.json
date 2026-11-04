@@ -60,6 +60,13 @@
    "sale_start": "2026-10-30",
    "sale_end": "2026-11-15"
   },
+  "h-marriott|2026-11-14|marriottworldwide20offes": {
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "name": "Marriott Worldwide 20% Off Escapes For Stays November 14 – 2",
+   "sale_start": "2026-11-14",
+   "sale_end": "2026-11-29"
+  },
   "h-skyscanner|2026-11-01|1111쇼핑데이": {
    "airline_id": "h-skyscanner",
    "airline": "스카이스캐너",
