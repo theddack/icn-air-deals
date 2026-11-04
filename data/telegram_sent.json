@@ -2072,6 +2072,22 @@
    "kinds": {
     "new": "2026-11-04"
    }
+  },
+  "h-other-f74b0a76c9": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-04",
+    "urls": [
+     "f74b0a76c9"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-04"
+   }
   }
  },
  "slots": {
@@ -2111,10 +2127,11 @@
    "evening": "sent"
   },
   "2026-11-04": {
-   "morning": "sent"
+   "morning": "sent",
+   "afternoon": "sent"
   }
  },
- "saved_at": "2026-11-04T09:18:58+09:00",
+ "saved_at": "2026-11-04T13:23:04+09:00",
  "drops_day": "2026-11-04",
  "drops": {
   "BKK": {
