@@ -2127,10 +2127,11 @@
   },
   "2026-11-04": {
    "morning": "sent",
-   "afternoon": "sent"
+   "afternoon": "sent",
+   "evening": "empty"
   }
  },
- "saved_at": "2026-11-04T16:04:35+09:00",
+ "saved_at": "2026-11-04T18:21:19+09:00",
  "drops_day": "2026-11-04",
  "drops": {
   "BKK": {
