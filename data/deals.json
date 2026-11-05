@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T13:18:31+09:00",
+ "generated_at": "2026-11-05T14:37:45+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -8,21 +8,23 @@
  },
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
-  "queries": 114,
+  "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1568,
+  "rss_items": 1608,
   "outlet_feeds": 29,
-  "outlet_failed": 0,
-  "outlet_failed_feeds": [],
-  "outlet_items": 2231,
+  "outlet_failed": 1,
+  "outlet_failed_feeds": [
+   "스트레이트뉴스: ParseError 3"
+  ],
+  "outlet_items": 2205,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 34,
-  "articles": 637,
+  "articles": 641,
   "new_articles": 4,
-  "deals": 101
+  "deals": 104
  },
  "deals": [
   {
@@ -2873,6 +2875,65 @@
    "status": "undated"
   },
   {
+   "id": "hkexpress-204a49848b",
+   "airline_id": "hkexpress",
+   "airline": "홍콩익스프레스",
+   "airlines_mentioned": [
+    "홍콩익스프레스"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.hkexpress.com/ko-kr/",
+   "iata": [
+    "UO"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "홍콩익스프레스, 창립 13주년 맞이 ‘11만원대’ 홍콩행 특가 진행",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "홍콩(HKG)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "route": {
+     "title": "홍콩익스프레스, 창립 13주년 맞이 ‘11만원대’ 홍콩행 특가 진행",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DOVdxNk9rbEJ1bWFJb2dBV2tZMTl1NzkzNWQ0WTl1X1VpTFhKR1NnelZFZEdFdDd0THFQR295aGJsME5Xbnh5bHVuOUlVSXcwRlgwYXVIdDRqQzQ1ZW5YZEhoUGloeGtpM0Iw?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-27",
+   "last_published": "2026-10-27",
+   "first_seen": "2026-11-05T14:37:45+09:00",
+   "last_seen": "2026-11-05T14:37:45+09:00",
+   "articles": [
+    {
+     "title": "홍콩익스프레스, 창립 13주년 맞이 ‘11만원대’ 홍콩행 특가 진행",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DOVdxNk9rbEJ1bWFJb2dBV2tZMTl1NzkzNWQ0WTl1X1VpTFhKR1NnelZFZEdFdDd0THFQR295aGJsME5Xbnh5bHVuOUlVSXcwRlgwYXVIdDRqQzQ1ZW5YZEhoUGloeGtpM0Iw?oc=5",
+     "published": "2026-10-27"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "jejuair-6c8e4f068c",
    "airline_id": "jejuair",
    "airline": "제주항공",
@@ -5167,6 +5228,75 @@
    "status": "undated"
   },
   {
+   "id": "sunphuquoc-1882151f23",
+   "airline_id": "sunphuquoc",
+   "airline": "썬푸꾸옥항공",
+   "airlines_mentioned": [
+    "썬푸꾸옥항공"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.sunphuquocairways.com/kr/ko",
+   "iata": [
+    "9G"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "썬푸꾸옥항공 프로모션.. '인천–푸꾸옥 비즈니스석 30% 할인, 키스 브리지 입장권부터 라운지까지'",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "인천(ICN)",
+     "destination": "푸꾸옥(PQC)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "썬푸꾸옥항공 프로모션.. '인천–푸꾸옥 비즈니스석 30% 할인, 키스 브리지 입장권부터 라운지까지'",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44LUhlQ0t0U0xhc1E5X0xLbFRGRVRDdGtlYkxpM1VKNFhjQlUzSzVEajh0Q0oxNDN2Q20tLWE1WF9VQm4xMURJQXRPX0xVcWdxcDhiMGRyc3plYmdsMWxhRFppSzAtdmM?oc=5"
+    },
+    "route": {
+     "title": "썬푸꾸옥항공 프로모션.. '인천–푸꾸옥 비즈니스석 30% 할인, 키스 브리지 입장권부터 라운지까지'",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44LUhlQ0t0U0xhc1E5X0xLbFRGRVRDdGtlYkxpM1VKNFhjQlUzSzVEajh0Q0oxNDN2Q20tLWE1WF9VQm4xMURJQXRPX0xVcWdxcDhiMGRyc3plYmdsMWxhRFppSzAtdmM?oc=5"
+    }
+   },
+   "from_icn": "yes",
+   "discount": "30% 할인",
+   "verification": "news",
+   "first_published": "2026-11-04",
+   "last_published": "2026-11-04",
+   "first_seen": "2026-11-05T14:37:45+09:00",
+   "last_seen": "2026-11-05T14:37:45+09:00",
+   "articles": [
+    {
+     "title": "썬푸꾸옥항공 프로모션.. '인천–푸꾸옥 비즈니스석 30% 할인, 키스 브리지 입장권부터 라운지까지'",
+     "outlet": "이로운뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44LUhlQ0t0U0xhc1E5X0xLbFRGRVRDdGtlYkxpM1VKNFhjQlUzSzVEajh0Q0oxNDN2Q20tLWE1WF9VQm4xMURJQXRPX0xVcWdxcDhiMGRyc3plYmdsMWxhRFppSzAtdmM?oc=5",
+     "published": "2026-11-04"
+    },
+    {
+     "title": "[여행소식] 썬푸꾸옥항공, 취항 1주년 항공권 할인 등 이벤트",
+     "outlet": "연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwcWxuSHBxRVpBVzNPa2pVNjh5YUVYWG14VllpUzhRTG1UazY4RTc1REh4Z2tObTBseDB3bTUxRUJxRm9iVU5JSFFyWUJiMzE5V04wSV9NYWxWckR6Yk5WNdIBYEFVX3lxTFBwcWxuSHBxRVpBVzNPa2pVNjh5YUVYWG14VllpUzhRTG1UazY4RTc1REh4Z2tObTBseDB3bTUxRUJxRm9iVU5JSFFyWUJiMzE5V04wSV9NYWxWckR6Yk5WNQ?oc=5",
+     "published": "2026-11-04"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-other-f74b0a76c9",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -5325,6 +5455,53 @@
      "title": "제주항공 💌부산 출발 신규 노선과 일본 프로모션 소식 도착💌",
      "outlet": "제주항공 메일",
      "url": "https://www.jejuair.net/#mail-a20b8067fd6a88a6",
+     "published": "2026-11-05"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-modetour-47c8693e54",
+   "airline_id": "h-modetour",
+   "airline": "모두투어",
+   "airlines_mentioned": [
+    "모두투어"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.modetour.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "겨울방학 여행객 공략 나선 모두투어, 조기 예약 할인 기획전 선보여",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-05",
+   "last_published": "2026-11-05",
+   "first_seen": "2026-11-05T14:37:45+09:00",
+   "last_seen": "2026-11-05T14:37:45+09:00",
+   "articles": [
+    {
+     "title": "겨울방학 여행객 공략 나선 모두투어, 조기 예약 할인 기획전 선보여",
+     "outlet": "스포츠조선",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBkcXpEcWUtbUlYM21SUTdMX2Y0ZFNlQkx1TE5OcWRGTjFVZUUtMDk1Z3VJUFJhSzdocUNHa1dqU3BfQk91MjJ5U05vQkJ2dkNZdEtsSUQyeXdKVEdSNTNFRmViSTA4dE90eHljZVpUUVZnOThTVzBROQ?oc=5",
      "published": "2026-11-05"
     }
    ],
@@ -6890,7 +7067,8 @@
    "baseline": "flight",
    "official_url": "https://www.vietjetair.com/ko",
    "iata": [
-    "VJ"
+    "VJ",
+    "VZ"
    ],
    "agencies": [],
    "event_name": null,
