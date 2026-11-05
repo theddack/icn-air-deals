@@ -327,6 +327,8 @@ table.sch mark { background: var(--orange-bg); color: var(--orange); border-radi
 .notice { background: var(--notice-bg); border-left: 4px solid var(--notice-bar); padding: 16px 20px; border-radius: 8px; color: var(--notice-ink); line-height: 1.7; font-size: 14px; }
 .notice.warn { margin-top: 16px; border-left-color: var(--red); background: var(--red-bg); color: var(--red); }
 .notice.warn p { margin: 0; }
+.notice .lcc-note { margin: 10px 0 0; }
+.more dd.lcc-warn { color: var(--orange); }
 .site-foot { padding: 24px; text-align: center; color: var(--faint); font-size: 13px; border-top: 1px solid var(--line); background: var(--surface); }
 
 /* 진행 여부 미확인 (접힘) */

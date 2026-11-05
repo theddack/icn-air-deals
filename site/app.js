@@ -302,6 +302,13 @@
     return row("지난 행사 가격", won(p.price) + "부터 · " + esc(p.name) + " (" + md(p.sale_start) + " 판매) · 기사 기준 참고");
   }
 
+  // 저가항공(LCC) 카드의 결항 주의 (2026-11-05 요청). 결항·지연 때 대체편이 적고 보상이 좁을 수 있어 일정 여유를 권한다
+  var LCC = { jejuair: 1, jinair: 1, trinity: 1, airbusan: 1, airseoul: 1, eastarjet: 1, aerok: 1, parataair: 1,
+              peach: 1, zipair: 1, tigertw: 1, vietjet: 1, airasia: 1, cebu: 1, scoot: 1, jetstar: 1, hkexpress: 1, spring: 1, batik: 1 };
+  function lccRow(d) {
+    return LCC[d.airline_id] ? row("결항 주의", "저가항공은 결항·지연 때 대체편이 적고 보상이 좁을 수 있어요. 일정이 빠듯하면 여유를 두세요", "lcc-warn") : "";
+  }
+
   function card(d, today, compact) {
     var st = d._status;
     var title = d.event_name ? d.event_name : d.headline;
@@ -371,7 +378,7 @@
       (compact ? "" :
       '<details class="more"><summary>상세 정보 · 관련 기사 ' + d.articles.length + "건</summary>" +
         "<dl>" + row(SECTIONS[sec].who, airline) + rows +
-          (st === "undated" || st === "stale" ? row("최근 기사", md(d.last_published)) : "") + prevPriceRow(d) + "</dl>" +
+          (st === "undated" || st === "stale" ? row("최근 기사", md(d.last_published)) : "") + prevPriceRow(d) + lccRow(d) + "</dl>" +
         '<div class="foot">' +
           ((d.agencies || []).length ? '<div class="foot-row"><span>기사에 나온 판매처</span><span>' + d.agencies.map(function (g) {
             return '<a href="' + href(g.url) + '" target="_blank" rel="noopener">' + esc(g.name) + " ↗</a>";
