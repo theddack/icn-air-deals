@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T22:17:37+09:00",
+ "generated_at": "2026-11-06T02:38:58+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1531,
+  "rss_items": 1508,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2050,
+  "outlet_items": 1929,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 34,
-  "articles": 644,
-  "new_articles": 2,
-  "deals": 104
+  "articles": 621,
+  "new_articles": 0,
+  "deals": 102
  },
  "deals": [
   {
@@ -168,7 +168,7 @@
    "status": "upcoming"
   },
   {
-   "id": "h-stayfesta-e81b4d54f7",
+   "id": "h-stayfesta-6177623c6d",
    "airline_id": "h-stayfesta",
    "airline": "숙박세일 페스타",
    "airlines_mentioned": [
@@ -195,9 +195,9 @@
    "routes": [],
    "regions": [
     "전남광주",
-    "강원",
     "경남",
-    "비수도권"
+    "강원",
+    "가평"
    ],
    "conditions": [
     "연박",
@@ -595,81 +595,15 @@
      "published": "2026-09-22"
     },
     {
-     "title": "웹투어, 숙박세일 페스타 행사 참여... 9월 22일부터 비수도권 최대 3만원 쿠폰",
-     "outlet": "로이슈",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aSHY3NnZEQWljVGdVZXM3Q2lwNldHOXJ6Wkpsc3NTZVMzcTBCbEtIZW9qY1B6QlMwclJBT3NleTdPU3MyZGJ1b2drRVpWT1lhbnNmZ1piT3RIcFIzZXFyOFIzYnZiMF9fTkRoSUZiSTdwckhnU1dmTg?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "강원도, 숙박세일페스타 가을편…최대 7만원 할인",
-     "outlet": "신아일보",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1sZUVKQUdVbDlqNWlGSGVCVG9ZZWZ6VTdhc19CckZXQXBsOUNMWXpnVE5IU1FRR2xOQS03a1I3WXZGa3NjOS1XTmwwdU5lNTJ0ZnJWd2FPQXNyTjE1cmgxVUM1ZHczVDd2MU84WWo0Ylo?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "강원도 22일부터 ‘숙박세일페스타’…연박시 최대 7만원 할인",
-     "outlet": "동방일보",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xUUo4aHd5R1c1U3JoNmlFWFpaaUREVzZqc0xOTFgxeVpleEthTlhPT19tQ2xxQllXY2pjc3J4bGtOcU80ck5kYzItRW91Vk1FRlozNWxvSkdmTDJlWXpfcllycFdYVFRXSGI0YUoxa2JScFE?oc=5",
-     "published": "2026-09-21"
-    },
-    {
      "title": "강원도 숙박 최대 7만원 할인…9월22일~11월8일 '숙박세일페스타' 개최",
      "outlet": "국제뉴스",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oNDZZYXRmZS03U2Rya3BjZUNxSDUyUzVycGt0NHFZZ3BQRGx4bi1oMmtnQXBGZGtPSkxGemRvc1FNQ1F1YTV4OHFLYkdZck1UNllHdkJlOGlpTEpqODJfTS1yM0swb2pTbWoxaWZB?oc=5",
      "published": "2026-09-21"
     },
     {
-     "title": "강원도 가을 여행, 숙박비 최대 7만원 할인…9월 22일부터 숙박세일페스타",
-     "outlet": "한국사회복지저널",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54cWY5QmNpSWhvNlN3WmV1eG9zQ21CVDd0LVU5ckw1dHVHQXNvamk4T0tfNW1ZbUphQXJmanJQWURMbkVPaGpwYmZOVDhRYjJ3eXcyZXJkNEpjWklpWVVkQ3pXb0E1Z095Tlc0VQ?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "여행 부담 덜고 머무는 도시로···부산 숙박세일 페스타 개막",
-     "outlet": "데일리한국",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGMkFrT3FMTGU0VFRhYUlEQ3RVWDc5Q1lZakZMTjVUOVRwLTMxRXhzMEhqRWk3R28zRjZ2VWFKNTdMWWdKak85MkxFTjJEU2VhRF9zVDlXLUo3R3l6dG5EZmlucG5aOUV5RnVxSXdKZ9IBc0FVX3lxTFB4dGVKMXo0TkFRQk1VYmN0eVdtdTNZeFdQelVmYU9oMGRSLWU5ZUJSdG9YeFlzZERXeF83emp6dGY0b005bElHUjRyRWtsMDRuUkxTU25aY0NoSWE2ZnlCYVUxYnBwVjA3aVA1X0NmR0lVR0k?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "웹투어, 정부 주관 '2026 숙박세일 페스타' 공식 참여…가을 지역 여행 할인 집중",
-     "outlet": "공감신문",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zWHljUTd5QVJBOVJ0d0Q1NDU1eC14S3NQaGlaRExTR0E4N0tBbTBKWmpHaFpjOUEyT3g1MVdwVmNWRlc5WWtqV1N6ZXhxdlFMemZId2F1TDNMb1ZkRU5ESk83YUlFZ21R?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "부산관광공사 ‘대한민국 숙박세일 페스타’로 가을 여행객 초대",
-     "outlet": "가야일보",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43ZE9VQ0RKUWdTU0Y3TFEwMDhmamZzeURzc19oNmN0cFctMm1sQzY2WU80ODhPNzNFeDA3T0Fvb1k5VmxURzRpbFpNSjFGQlBtbi00bXlGNzJiLW1nV2t6QjJDUy1zUm9X?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "강원 가을여행 ‘2박에 7만원 할인’…숙박세일페스타 22일 개막",
-     "outlet": "서울경제TV",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LM2FWcFZwWEEwTEZNVkk3Y0Q3cWpvbjVmRXBFYUdzVU95cWNJQ2JvODlUX2NXZVhDQlBlVi1zS0pyZU1JZ2hPdWpSV1M2VFpqZnJJd0xuMHRDbFhzbjVoN2JKYng?oc=5",
-     "published": "2026-09-21"
-    },
-    {
      "title": "강원도에 머물면 최대 7만원 할인…9월22일~11월8일 ‘숙박세일페스타’ 놓치지 마세요",
      "outlet": "경향신문",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMVWlsdXFsdWxNaE9CeE5DZVA1SzlNQjNtRENFVW5MX2RhUjJHV2lsY0FQMUV0TkkxRDZaSzV3ZmJzYUNCTGdmYnh3YVBnN1BmbHdwUkptNHFMd9IBX0FVX3lxTE1CQ1hjQjFRTzA5dTExT3NoeElpMF9kRGM4d1Rza2F4RW5CdnAza0c5VnctbWQ3a1E5aTZNWVo2Yks5MmxTSC13WVNVTlFsOGkta3RjVW9uS1VkaXBCTk00?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "부산 숙박 최대 7만원 할인…‘숙박세일 페스타’ 22일 시작",
-     "outlet": "브릿지경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DZzhla3R3cWs4ZGllcWFLRm03TU9tS2dzYjlCUkUzRHdsWDFqUEFEcXdPLVR3cm1tSmpuV1BhN0loTGFtd3FYNWh1R0x0NEJ0aHJPWEd1N3BrUQ?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "강원 숙박상품 최대 7만원 할인…22일부터 '숙박세일페스타'",
-     "outlet": "연합뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Eb0xWTW12dS1xdnE1V3VGZ1VWRE5WaFZmckI4WVhpOGVoY1ZvcVE2Q2FSTnVsNnNsWFdsb1Q3Tk1tSDlVWDYyUlBzYy1yYjVzU05Jcjk0U09IYjDSAWBBVV95cUxNMVRUQkNZUk94dXJRNWlzblFoc1FmTkg3cHVmSS1aYzdBZ3VJOXVLeVFlRnJybFJlUTZpenkxN1BuZ0RtY2FEN0pZRkZYVFpNUldNc1Bjc3Zhc2FJaUFJVW4?oc=5",
-     "published": "2026-09-21"
-    },
-    {
-     "title": "강원자치도, ‘대한민국 숙박세일페스타 가을편’ 시작",
-     "outlet": "이코노믹포스트",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9XNWZuQUQ0TmF6ejA0dEw1dldweXRhYlFUTlJ1bmc3VXZYbFNROUx0YzJGS1FLR0twbnRPWXVsRVEtUU1NSGF1Q0VnbEY?oc=5",
      "published": "2026-09-21"
     }
    ],
@@ -2260,176 +2194,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "trinity-763bb245f3",
-   "airline_id": "trinity",
-   "airline": "트리니티항공",
-   "airlines_mentioned": [
-    "트리니티항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.twayair.com/",
-   "iata": [
-    "TW"
-   ],
-   "agencies": [
-    {
-     "name": "모두투어",
-     "url": "https://www.modetour.com/"
-    }
-   ],
-   "event_name": null,
-   "headline": "모두투어X트리니티항공, 해외여행 특별전...최대 100만원 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "모두투어X트리니티항공, 해외여행 특별전...최대 100만원 할인",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53MFBENkUxaHlPVENPLXRraVluaUZVVTVnU2ZYellhSHJUNW9QdFZsSVVoOXdJVXVkWVRyOFpGMTAxclZpZWs5M1lrTjk2OUUyWVhhNDdFenk3STlCeWVxN0pMd2M3UQ?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 100만원 할인",
-   "verification": "news",
-   "first_published": "2026-10-22",
-   "last_published": "2026-10-22",
-   "first_seen": "2026-10-25T16:25:30+09:00",
-   "last_seen": "2026-10-25T16:25:30+09:00",
-   "articles": [
-    {
-     "title": "모두투어X트리니티항공, 해외여행 특별전...최대 100만원 할인",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53MFBENkUxaHlPVENPLXRraVluaUZVVTVnU2ZYellhSHJUNW9QdFZsSVVoOXdJVXVkWVRyOFpGMTAxclZpZWs5M1lrTjk2OUUyWVhhNDdFenk3STlCeWVxN0pMd2M3UQ?oc=5",
-     "published": "2026-10-22"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "koreanair-975d3255b9",
-   "airline_id": "koreanair",
-   "airline": "대한항공",
-   "airlines_mentioned": [
-    "대한항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.koreanair.com/",
-   "iata": [
-    "KE"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "[항공 프로모션] 대한항공 괌 항공권 특가! 겨울 해외여행 추천, 괌 직항 스케줄 & 여행 명소 BEST 4",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": null,
-     "destination": "괌(GUM)"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "route": {
-     "title": "[항공 프로모션] 대한항공 괌 항공권 특가! 겨울 해외여행 추천, 괌 직항 스케줄 & 여행 명소 BEST 4",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SU3ZGejJuZ3I2VTc3Nm9uUjVwMHRkUXFyYmxSbnZKWGU3QUFEcGY4Zkt5Z0N3MjQwMXJSbjFmLUMwMThib092WDNDWUVmSTRPWlB1WW5KNFbSAVhBVV95cUxPUlN2RnoybmdyNlU3NzZvblI1cDB0ZFFxcmJsUm52SlhlN0FBRHBmOGZLeWdDdzI0MDFyUm4xZi1DMDE4Ym9PdlgzQ1lFZkk0T1pQdVluSjRW?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-22",
-   "last_published": "2026-10-22",
-   "first_seen": "2026-10-23T09:39:22+09:00",
-   "last_seen": "2026-10-23T09:39:22+09:00",
-   "articles": [
-    {
-     "title": "[항공 프로모션] 대한항공 괌 항공권 특가! 겨울 해외여행 추천, 괌 직항 스케줄 & 여행 명소 BEST 4",
-     "outlet": "네이트뷰",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SU3ZGejJuZ3I2VTc3Nm9uUjVwMHRkUXFyYmxSbnZKWGU3QUFEcGY4Zkt5Z0N3MjQwMXJSbjFmLUMwMThib092WDNDWUVmSTRPWlB1WW5KNFbSAVhBVV95cUxPUlN2RnoybmdyNlU3NzZvblI1cDB0ZFFxcmJsUm52SlhlN0FBRHBmOGZLeWdDdzI0MDFyUm4xZi1DMDE4Ym9PdlgzQ1lFZkk0T1pQdVluSjRW?oc=5",
-     "published": "2026-10-22"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-175f6079f1",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Le Graal Cortina Offers 20% Off Ahead of Luxury Dolomites Hotel Opening",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Le Graal Cortina Offers 20% Off Ahead of Luxury Dolomites Hotel Opening",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZS1aTHh0YXpqaTQ1LUYza3VxWkV0WXoyYVdDLXgzM1VaemZIa2ZyMC10WTdtdktBWU9adUNsSTVwQlRNcTRkTmh0a3AzcmZEc0c2ejZyeXpQSnVtV3VFeDA2amIxU3JxVXV2Q042dVBVdlptQ3JrbTBvX1dNdmNvNUNPajl6RW5LMlZoS0RsMkI1RElhRTVxWGlnWGRGRUtYWlB5MmtSWVlfYnBBTTdxLUw0cw?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "20% 할인",
-   "verification": "news",
-   "first_published": "2026-10-22",
-   "last_published": "2026-10-22",
-   "first_seen": "2026-10-22T23:30:51+09:00",
-   "last_seen": "2026-10-22T23:30:51+09:00",
-   "articles": [
-    {
-     "title": "Le Graal Cortina Offers 20% Off Ahead of Luxury Dolomites Hotel Opening",
-     "outlet": "Rus Tourism News",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZS1aTHh0YXpqaTQ1LUYza3VxWkV0WXoyYVdDLXgzM1VaemZIa2ZyMC10WTdtdktBWU9adUNsSTVwQlRNcTRkTmh0a3AzcmZEc0c2ejZyeXpQSnVtV3VFeDA2amIxU3JxVXV2Q042dVBVdlptQ3JrbTBvX1dNdmNvNUNPajl6RW5LMlZoS0RsMkI1RElhRTVxWGlnWGRGRUtYWlB5MmtSWVlfYnBBTTdxLUw0cw?oc=5",
-     "published": "2026-10-22"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "h-myrealtrip-e1eedfd71b",
@@ -5684,59 +5448,6 @@
    "status": "stale"
   },
   {
-   "id": "multi-64f21625b7",
-   "airline_id": "multi",
-   "airline": "여러 항공사",
-   "airlines_mentioned": [
-    "진에어",
-    "트리니티항공"
-   ],
-   "kind": "mixed",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "[플라이Hi] 가을 빈 좌석 없앤다..진에어 수하물 쿠폰vs트리니티 22% 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "[플라이Hi] 가을 빈 좌석 없앤다..진에어 수하물 쿠폰vs트리니티 22% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93OS13WGc2cUg5YklsMGROMEZzaWdyZEtMRFo3bnhJeFdtQjJvdEh2dndLdUZBNllyODVtM1RlMXF3b2doekFkZ2k2dkhxb3RtLVE?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "22% 할인",
-   "verification": "news",
-   "first_published": "2026-10-06",
-   "last_published": "2026-10-06",
-   "first_seen": "2026-10-18T21:49:43+09:00",
-   "last_seen": "2026-10-18T21:49:43+09:00",
-   "articles": [
-    {
-     "title": "[플라이Hi] 가을 빈 좌석 없앤다..진에어 수하물 쿠폰vs트리니티 22% 할인",
-     "outlet": "한국정경신문",
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93OS13WGc2cUg5YklsMGROMEZzaWdyZEtMRFo3bnhJeFdtQjJvdEh2dndLdUZBNllyODVtM1RlMXF3b2doekFkZ2k2dkhxb3RtLVE?oc=5",
-     "published": "2026-10-06"
-    }
-   ],
-   "status": "stale"
-  },
-  {
    "id": "h-inspire-b0a8a4cad6",
    "airline_id": "h-inspire",
    "airline": "인스파이어",
@@ -6973,6 +6684,117 @@
      "outlet": "중앙일보",
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRQnJtZWNaMUktTlpDemV1Z210QjhkSzhsbVdJV3FQTG1sYjR4RF9mRTh5ZGNMNkNWVmljQi1haXZaMVdCNEczNElqeEFuZnQ1YVpUTThn?oc=5",
      "published": "2026-10-19"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "trinity-763bb245f3",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [
+    {
+     "name": "모두투어",
+     "url": "https://www.modetour.com/"
+    }
+   ],
+   "event_name": null,
+   "headline": "모두투어X트리니티항공, 해외여행 특별전...최대 100만원 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "모두투어X트리니티항공, 해외여행 특별전...최대 100만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53MFBENkUxaHlPVENPLXRraVluaUZVVTVnU2ZYellhSHJUNW9QdFZsSVVoOXdJVXVkWVRyOFpGMTAxclZpZWs5M1lrTjk2OUUyWVhhNDdFenk3STlCeWVxN0pMd2M3UQ?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 100만원 할인",
+   "verification": "news",
+   "first_published": "2026-10-22",
+   "last_published": "2026-10-22",
+   "first_seen": "2026-10-25T16:25:30+09:00",
+   "last_seen": "2026-10-25T16:25:30+09:00",
+   "articles": [
+    {
+     "title": "모두투어X트리니티항공, 해외여행 특별전...최대 100만원 할인",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53MFBENkUxaHlPVENPLXRraVluaUZVVTVnU2ZYellhSHJUNW9QdFZsSVVoOXdJVXVkWVRyOFpGMTAxclZpZWs5M1lrTjk2OUUyWVhhNDdFenk3STlCeWVxN0pMd2M3UQ?oc=5",
+     "published": "2026-10-22"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-other-175f6079f1",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Le Graal Cortina Offers 20% Off Ahead of Luxury Dolomites Hotel Opening",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Le Graal Cortina Offers 20% Off Ahead of Luxury Dolomites Hotel Opening",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZS1aTHh0YXpqaTQ1LUYza3VxWkV0WXoyYVdDLXgzM1VaemZIa2ZyMC10WTdtdktBWU9adUNsSTVwQlRNcTRkTmh0a3AzcmZEc0c2ejZyeXpQSnVtV3VFeDA2amIxU3JxVXV2Q042dVBVdlptQ3JrbTBvX1dNdmNvNUNPajl6RW5LMlZoS0RsMkI1RElhRTVxWGlnWGRGRUtYWlB5MmtSWVlfYnBBTTdxLUw0cw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "20% 할인",
+   "verification": "news",
+   "first_published": "2026-10-22",
+   "last_published": "2026-10-22",
+   "first_seen": "2026-10-22T23:30:51+09:00",
+   "last_seen": "2026-10-22T23:30:51+09:00",
+   "articles": [
+    {
+     "title": "Le Graal Cortina Offers 20% Off Ahead of Luxury Dolomites Hotel Opening",
+     "outlet": "Rus Tourism News",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZS1aTHh0YXpqaTQ1LUYza3VxWkV0WXoyYVdDLXgzM1VaemZIa2ZyMC10WTdtdktBWU9adUNsSTVwQlRNcTRkTmh0a3AzcmZEc0c2ejZyeXpQSnVtV3VFeDA2amIxU3JxVXV2Q042dVBVdlptQ3JrbTBvX1dNdmNvNUNPajl6RW5LMlZoS0RsMkI1RElhRTVxWGlnWGRGRUtYWlB5MmtSWVlfYnBBTTdxLUw0cw?oc=5",
+     "published": "2026-10-22"
     }
    ],
    "status": "stale"
