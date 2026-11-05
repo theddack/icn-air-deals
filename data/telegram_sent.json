@@ -1161,26 +1161,6 @@
     "new": "2026-10-28"
    }
   },
-  "h-yeogi-e795a43d64": {
-   "info": {
-    "airline": "h-yeogi",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-06",
-    "dests": [],
-    "last": "2026-10-28",
-    "urls": [
-     "09487b6834",
-     "39aeffb860",
-     "6cf83c4168",
-     "94b30c0bb4",
-     "e795a43d64"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-28"
-   }
-  },
   "jejuair-6c8e4f068c": {
    "info": {
     "airline": "jejuair",
@@ -2137,6 +2117,117 @@
    "kinds": {
     "new": "2026-11-05"
    }
+  },
+  "h-yeogi-e795a43d64": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-06",
+    "dests": [],
+    "last": "2026-11-03",
+    "urls": [
+     "09487b6834",
+     "1b91c26494",
+     "3581952e81",
+     "39aeffb860",
+     "3febb81e01",
+     "6cf83c4168",
+     "94b30c0bb4",
+     "aa9ac8899c",
+     "e4e432f682",
+     "e795a43d64"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-28",
+    "closing_tomorrow": "2026-11-05"
+   }
+  },
+  "hkexpress-204a49848b": {
+   "info": {
+    "airline": "hkexpress",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "홍콩"
+    ],
+    "last": "2026-10-27",
+    "urls": [
+     "204a49848b"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-05"
+   }
+  },
+  "koreanair-1ef035a2c1": {
+   "info": {
+    "airline": "koreanair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-02",
+    "urls": [
+     "1ef035a2c1"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-05"
+   }
+  },
+  "sunphuquoc-1882151f23": {
+   "info": {
+    "airline": "sunphuquoc",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "푸꾸옥"
+    ],
+    "last": "2026-11-04",
+    "urls": [
+     "1882151f23",
+     "de229db35e"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-05"
+   }
+  },
+  "h-modetour-47c8693e54": {
+   "info": {
+    "airline": "h-modetour",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-05",
+    "urls": [
+     "47c8693e54"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-05"
+   }
+  },
+  "h-other-44d599feb8": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-05",
+    "urls": [
+     "44d599feb8"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-05"
+   }
   }
  },
  "slots": {
@@ -2176,10 +2267,11 @@
    "evening": "empty"
   },
   "2026-11-05": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-05T09:19:11+09:00",
+ "saved_at": "2026-11-05T18:20:45+09:00",
  "drops_day": "2026-11-05",
  "drops": {
   "BKK": {
