@@ -67,6 +67,13 @@
    "sale_start": "2026-10-30",
    "sale_end": "2026-11-15"
   },
+  "h-marriott|2026-11-14|marriottweekendsale20off": {
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "name": "Marriott Weekend Sale: 20% Off Stays Through Nov. 29",
+   "sale_start": "2026-11-14",
+   "sale_end": "2026-11-29"
+  },
   "h-marriott|2026-11-14|marriottworldwide20offes": {
    "airline_id": "h-marriott",
    "airline": "메리어트",

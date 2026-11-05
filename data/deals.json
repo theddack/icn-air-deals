@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T19:55:56+09:00",
+ "generated_at": "2026-11-05T22:17:37+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1530,
+  "rss_items": 1531,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2165,
+  "outlet_items": 2050,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 34,
-  "articles": 642,
-  "new_articles": 0,
+  "articles": 644,
+  "new_articles": 2,
   "deals": 104
  },
  "deals": [
@@ -125,7 +125,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "Marriott Worldwide 20% Off Escapes For Stays November 14 – 29, 2026 (Book By Sunday)",
+   "headline": "Marriott Weekend Sale: 20% Off Stays Through Nov. 29",
    "sale_start": "2026-11-14",
    "sale_end": "2026-11-29",
    "travel_start": null,
@@ -136,22 +136,28 @@
    "conflicts": [],
    "evidence": {
     "sale": {
-     "title": "Marriott Worldwide 20% Off Escapes For Stays November 14 – 29, 2026 (Book By Sunday)",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1k4ZDhIY29LYUEzYkJ1akg3SXc0VVhpWXBSbjdoT3oxZnBSOVhLUDl5OWdfY1FFUFRnbjBiU3ZHN01paUZHVFRQVkdkZU4wbHZjN1ZvcVR2ODlKU2JJeDFKNGV4ZDZLejlYUmhLSzVGSElSN016d2wtUmJWb1h5YjRTQWVxVlRGdFgtQVNJSV9BR1I1Q2NqVWpfMXdFaVdEeTJyNmJ1Zm4ycUpJeWx5UEFWd28zUQ?oc=5"
+     "title": "Marriott Weekend Sale: 20% Off Stays Through Nov. 29",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRXlzVGtINFlab3NXVmNSZm80TzNmWll1T0ZoNVVCMmZPeFItTzZGcEkyNlJPZ21MLXR1M2JaY0JXYkk4UmVoVlZ5T2hrVlBHbkQ0VUhXbnktc3prU0ZZQnVNVjlrckZrdVIwWFJoRWhuQkw3Y3dHTE13RGNYRWpkc2JxNm1mWEU?oc=5"
     },
     "discount": {
-     "title": "Marriott Worldwide 20% Off Escapes For Stays November 14 – 29, 2026 (Book By Sunday)",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1k4ZDhIY29LYUEzYkJ1akg3SXc0VVhpWXBSbjdoT3oxZnBSOVhLUDl5OWdfY1FFUFRnbjBiU3ZHN01paUZHVFRQVkdkZU4wbHZjN1ZvcVR2ODlKU2JJeDFKNGV4ZDZLejlYUmhLSzVGSElSN016d2wtUmJWb1h5YjRTQWVxVlRGdFgtQVNJSV9BR1I1Q2NqVWpfMXdFaVdEeTJyNmJ1Zm4ycUpJeWx5UEFWd28zUQ?oc=5"
+     "title": "Marriott Weekend Sale: 20% Off Stays Through Nov. 29",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRXlzVGtINFlab3NXVmNSZm80TzNmWll1T0ZoNVVCMmZPeFItTzZGcEkyNlJPZ21MLXR1M2JaY0JXYkk4UmVoVlZ5T2hrVlBHbkQ0VUhXbnktc3prU0ZZQnVNVjlrckZrdVIwWFJoRWhuQkw3Y3dHTE13RGNYRWpkc2JxNm1mWEU?oc=5"
     }
    },
    "from_icn": null,
    "discount": "20% 할인",
    "verification": "news",
    "first_published": "2026-11-04",
-   "last_published": "2026-11-04",
+   "last_published": "2026-11-05",
    "first_seen": "2026-11-04T22:03:44+09:00",
-   "last_seen": "2026-11-04T22:03:44+09:00",
+   "last_seen": "2026-11-05T22:17:37+09:00",
    "articles": [
+    {
+     "title": "Marriott Weekend Sale: 20% Off Stays Through Nov. 29",
+     "outlet": "Milesopedia",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRXlzVGtINFlab3NXVmNSZm80TzNmWll1T0ZoNVVCMmZPeFItTzZGcEkyNlJPZ21MLXR1M2JaY0JXYkk4UmVoVlZ5T2hrVlBHbkQ0VUhXbnktc3prU0ZZQnVNVjlrckZrdVIwWFJoRWhuQkw3Y3dHTE13RGNYRWpkc2JxNm1mWEU?oc=5",
+     "published": "2026-11-05"
+    },
     {
      "title": "Marriott Worldwide 20% Off Escapes For Stays November 14 – 29, 2026 (Book By Sunday)",
      "outlet": "LoyaltyLobby",
@@ -4241,7 +4247,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "소노페스타 ON",
-   "headline": "롯데온, 소노호텔앤리조트 통합 기획전…겨울 여행 얼리버드 수요 공략",
+   "headline": "롯데온, 소노호텔앤리조트 통합 기획전 '소노페스타 ON' 개최",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -4257,8 +4263,14 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-02",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-02T18:16:10+09:00",
+   "last_seen": "2026-11-05T22:17:37+09:00",
    "articles": [
+    {
+     "title": "롯데온, 소노호텔앤리조트 통합 기획전 '소노페스타 ON' 개최",
+     "outlet": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNdXJrVElHc3BwV2NrVmFNMF9sWWZwanBvVGw2Q29hcFpPbWc3eUdPUEJvY192eGtkdHo3dDRVVEpEUFlWbWZZenpvLWNXcjdCOHpUSk5fMXJMQ0lxcGJnNEFPRzRJTWFlNVJ6cDh1cTdZWEE4VnVHLWVlSjVleklDTlVzbEIxbG5EdzZRUnhjQnRYLUc2S0xTdmlXSUQ2OEZWdEk5VnVueDR4VjNqWi1DU2hocnU2anFvWmxWNUFTLVUwSldnWEw3Q1EzZDJEUV9icS1NMGU4ODJveXZkM0ZTLVZRTGR1ODVfajdxVkJyeUJJSTBoNVpRUXRBYTJtUUU2YkpGZ2J3bWZ1QW1hcGp3bERNQXVVYmFuZ3J1X3JBRG96UQ?oc=5",
+     "published": "2026-11-02"
+    },
     {
      "title": "롯데온, 소노호텔앤리조트 통합 기획전…겨울 여행 얼리버드 수요 공략",
      "outlet": "더퍼스트미디어",
