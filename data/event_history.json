@@ -46,6 +46,13 @@
    "sale_start": "2026-10-16",
    "sale_end": "2026-12-13"
   },
+  "h-booking|2026-11-09|1111슈퍼세일": {
+   "airline_id": "h-booking",
+   "airline": "부킹닷컴",
+   "name": "11.11 슈퍼세일",
+   "sale_start": "2026-11-09",
+   "sale_end": "2026-11-16"
+  },
   "h-hilton|2026-10-05|hiltonforbusiness25offsa": {
    "airline_id": "h-hilton",
    "airline": "힐튼",

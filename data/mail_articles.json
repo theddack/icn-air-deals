@@ -1,5 +1,31 @@
 [
  {
+  "title": "제주항공 💌부산 출발 신규 노선과 일본 프로모션 소식 도착💌",
+  "outlet": "제주항공 메일",
+  "url": "https://www.jejuair.net/#mail-a20b8067fd6a88a6",
+  "published": "2026-11-05",
+  "first_seen": "2026-11-05T09:14:02+09:00",
+  "source": "mail",
+  "mail_id": "a20b8067fd6a88a6",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.jejuair.net/#mail-a20b8067fd6a88a6",
+   "outlet": "제주항공 메일",
+   "label": "본문",
+   "fields": {
+    "origin": "부산(PUS)",
+    "destination": "마닐라(MNL)",
+    "discount": "최대 5%"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
+ },
+ {
   "title": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
   "outlet": "에어부산 메일",
   "url": "https://www.airbusan.com/#mail-149658625d65af90",

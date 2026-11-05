@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T02:31:54+09:00",
+ "generated_at": "2026-11-05T09:14:06+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,21 +10,89 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 1573,
+  "rss_items": 1550,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1904,
+  "outlet_items": 2062,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
-  "mail_articles": 5,
-  "mail_new_articles": 0,
-  "articles_with_summary": 33,
-  "articles": 629,
-  "new_articles": 1,
-  "deals": 97
+  "mail_articles": 6,
+  "mail_new_articles": 1,
+  "articles_with_summary": 34,
+  "articles": 633,
+  "new_articles": 4,
+  "deals": 99
  },
  "deals": [
+  {
+   "id": "h-booking-6dff27a361",
+   "airline_id": "h-booking",
+   "airline": "부킹닷컴",
+   "airlines_mentioned": [
+    "부킹닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.booking.com/index.ko.html",
+   "iata": [],
+   "agencies": [],
+   "event_name": "11.11 슈퍼세일",
+   "headline": "부킹닷컴 11.11 슈퍼 세일, 9~16일 예약 숙소 최소 30% 할인",
+   "sale_start": "2026-11-09",
+   "sale_end": "2026-11-16",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "부킹닷컴 11.11 슈퍼 세일, 9~16일 예약 숙소 최소 30% 할인",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0b1Y2X0lKT0hLcmRlalpDZ2taNHpabF9MZFNfZXJ2RVB6SmtGSTVrcF9YOWg0V0FoRUwzVG5vZm40WFh0MENjcURwNUxKY0RpSkNDbXBjOTZCYXBrQUppYnFNYTFVRlhXdnlsUC1pWmZ1ZG1Ud2Rleg?oc=5"
+    },
+    "discount": {
+     "title": "부킹닷컴 11.11 슈퍼 세일, 9~16일 예약 숙소 최소 30% 할인",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0b1Y2X0lKT0hLcmRlalpDZ2taNHpabF9MZFNfZXJ2RVB6SmtGSTVrcF9YOWg0V0FoRUwzVG5vZm40WFh0MENjcURwNUxKY0RpSkNDbXBjOTZCYXBrQUppYnFNYTFVRlhXdnlsUC1pWmZ1ZG1Ud2Rleg?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "30% 할인",
+   "verification": "news",
+   "first_published": "2026-11-05",
+   "last_published": "2026-11-05",
+   "first_seen": "2026-11-05T09:14:06+09:00",
+   "last_seen": "2026-11-05T09:14:06+09:00",
+   "articles": [
+    {
+     "title": "부킹닷컴 11.11 슈퍼 세일, 9~16일 예약 숙소 최소 30% 할인",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0b1Y2X0lKT0hLcmRlalpDZ2taNHpabF9MZFNfZXJ2RVB6SmtGSTVrcF9YOWg0V0FoRUwzVG5vZm40WFh0MENjcURwNUxKY0RpSkNDbXBjOTZCYXBrQUppYnFNYTFVRlhXdnlsUC1pWmZ1ZG1Ud2Rleg?oc=5",
+     "published": "2026-11-05"
+    },
+    {
+     "title": "부킹닷컴, ‘11.11 슈퍼세일’…숙소 예약시 30% 이상 할인",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1CV2NqRWdBRktUaEVsNmxLcDRMN1R6anJTZHppQVQwdUdvSjBTUHRCNjZaSUI5Q045eHpFakdDbkRBYnQ3aEZnWFdPazVNQ3RBTWIwX245MmJBSW1IcUVvRXNFMmF6UQ?oc=5",
+     "published": "2026-11-05"
+    },
+    {
+     "title": "\"'11.11' 표시 숙소 고르면 할인\"…부킹닷컴, 객실료 30% 이상 낮춘다",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HWlY3bWFObDVsRVZTd0FtenhKVU1Mc0p0Q2RTdUY5THVmY1ZYc1JGTjlERWc1X255a2VWOVQ1OUZpbW1hYkFQSWRBY3FMQ1N4WEFONVVobTRHNmY4SmlSSw?oc=5",
+     "published": "2026-11-05"
+    }
+   ],
+   "status": "upcoming"
+  },
   {
    "id": "h-marriott-a06b6b2c0a",
    "airline_id": "h-marriott",
@@ -5129,6 +5197,69 @@
      "outlet": "TravelPulse",
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR1FfOWhLOC01MVpYcFFuU0FKMDJwZDRic0JmLTg1N1liYkFWekxZZE03Vkt3TjhVRkpTZ2N4LXBqYlNXS0c0S2dpd0hvYVl6TGQ4SGgteXZLelRKZVNTRE9ZWEw5Qk5COUlVbnpUS2xVNjhhN0tpWHFpbFVSVUt6dDFqSTd1dGJWcVUxWU5vZkdiRU53TWJ1dDRheU9XYkJETlU4QzNTb2p6VmJWT1lFTGhPeXY?oc=5",
      "published": "2026-11-04"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "jejuair-90782140e1",
+   "airline_id": "jejuair",
+   "airline": "제주항공",
+   "airlines_mentioned": [
+    "제주항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.jejuair.net/",
+   "iata": [
+    "7C"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "제주항공 💌부산 출발 신규 노선과 일본 프로모션 소식 도착💌",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "부산(PUS)",
+     "destination": "마닐라(MNL)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "제주항공 메일 본문",
+     "url": "https://www.jejuair.net/#mail-a20b8067fd6a88a6"
+    },
+    "route": {
+     "title": "제목 + 제주항공 메일 본문",
+     "url": "https://www.jejuair.net/#mail-a20b8067fd6a88a6"
+    }
+   },
+   "from_icn": "no",
+   "discount": "최대 5%",
+   "verification": "official",
+   "first_published": "2026-11-05",
+   "last_published": "2026-11-05",
+   "first_seen": "2026-11-05T09:14:02+09:00",
+   "last_seen": "2026-11-05T09:14:02+09:00",
+   "articles": [
+    {
+     "title": "제주항공 💌부산 출발 신규 노선과 일본 프로모션 소식 도착💌",
+     "outlet": "제주항공 메일",
+     "url": "https://www.jejuair.net/#mail-a20b8067fd6a88a6",
+     "published": "2026-11-05"
     }
    ],
    "status": "undated"
