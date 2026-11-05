@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T09:14:06+09:00",
+ "generated_at": "2026-11-05T13:18:31+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 114,
   "failed_queries": 0,
-  "rss_items": 1550,
+  "rss_items": 1568,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2062,
+  "outlet_items": 2231,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 6,
-  "mail_new_articles": 1,
+  "mail_new_articles": 0,
   "articles_with_summary": 34,
-  "articles": 633,
+  "articles": 637,
   "new_articles": 4,
-  "deals": 99
+  "deals": 101
  },
  "deals": [
   {
@@ -44,7 +44,7 @@
    "official_url": "https://www.booking.com/index.ko.html",
    "iata": [],
    "agencies": [],
-   "event_name": "11.11 슈퍼세일",
+   "event_name": "11.11 슈퍼 세일",
    "headline": "부킹닷컴 11.11 슈퍼 세일, 9~16일 예약 숙소 최소 30% 할인",
    "sale_start": "2026-11-09",
    "sale_end": "2026-11-16",
@@ -70,12 +70,24 @@
    "first_published": "2026-11-05",
    "last_published": "2026-11-05",
    "first_seen": "2026-11-05T09:14:06+09:00",
-   "last_seen": "2026-11-05T09:14:06+09:00",
+   "last_seen": "2026-11-05T13:18:31+09:00",
    "articles": [
     {
      "title": "부킹닷컴 11.11 슈퍼 세일, 9~16일 예약 숙소 최소 30% 할인",
      "outlet": "여행레저신문",
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0b1Y2X0lKT0hLcmRlalpDZ2taNHpabF9MZFNfZXJ2RVB6SmtGSTVrcF9YOWg0V0FoRUwzVG5vZm40WFh0MENjcURwNUxKY0RpSkNDbXBjOTZCYXBrQUppYnFNYTFVRlhXdnlsUC1pWmZ1ZG1Ud2Rleg?oc=5",
+     "published": "2026-11-05"
+    },
+    {
+     "title": "부킹닷컴, 11월 9일~16일 ‘11.11 슈퍼 세일’…숙소 최소 30% 할인",
+     "outlet": "스페셜타임스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE44eHdsUnV1YlBNQzFVQkFiejBRam14RnBwbGhVYnhiaERrUXJISkJkOWJEY1F5NF9RVUcwS1k4eXMtMWdfeDcwbW1tdlVEWC1YRXJ1OGtCZ1BYczZ2US1fdXFhZGJPemJKTVRpdElnTno5Zw?oc=5",
+     "published": "2026-11-05"
+    },
+    {
+     "title": "부킹닷컴, 첫 ‘11.11 슈퍼 세일’ 실시… 숙박료 최대 혜택 확대",
+     "outlet": "숙박매거진",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DYWFsQk80VTRKeHlzbDNxRlpNWkFSanh0VnJSUHdDS25YYXhZTkxBVk94SmVKS1VXalhXR0s5U0RNOWtiSlRUMjJGbVVBWFNDY0JLMVU2LVo1M25TZ19JTHhaSEZKWHZXU2FrNVNEQzg?oc=5",
      "published": "2026-11-05"
     },
     {
@@ -4222,6 +4234,60 @@
    "status": "undated"
   },
   {
+   "id": "koreanair-1ef035a2c1",
+   "airline_id": "koreanair",
+   "airline": "대한항공",
+   "airlines_mentioned": [
+    "대한항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.koreanair.com/",
+   "iata": [
+    "KE"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "대한항공C&D, ‘대통령 표창’ 영예...\"기내면세품 최대 80% 할인합니다\"",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "대한항공C&D, ‘대통령 표창’ 영예...\"기내면세품 최대 80% 할인합니다\"",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hNEI4Z1NNc19iWm1fVmtSTTZCQkRPQl82OV9vRVJIU2tnWGphR1R0LUF4bk1vbjE3alNKSDNiMkNNb1ZtY0ZkWXJnUmRnRFNfUjRTSTBpZk1Pdw?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 80%",
+   "verification": "news",
+   "first_published": "2026-11-02",
+   "last_published": "2026-11-02",
+   "first_seen": "2026-11-05T13:18:31+09:00",
+   "last_seen": "2026-11-05T13:18:31+09:00",
+   "articles": [
+    {
+     "title": "대한항공C&D, ‘대통령 표창’ 영예...\"기내면세품 최대 80% 할인합니다\"",
+     "outlet": "파이낸셜뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hNEI4Z1NNc19iWm1fVmtSTTZCQkRPQl82OV9vRVJIU2tnWGphR1R0LUF4bk1vbjE3alNKSDNiMkNNb1ZtY0ZkWXJnUmRnRFNfUjRTSTBpZk1Pdw?oc=5",
+     "published": "2026-11-02"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-ihg-05bfb34759",
    "airline_id": "h-ihg",
    "airline": "IHG",
@@ -5259,6 +5325,60 @@
      "title": "제주항공 💌부산 출발 신규 노선과 일본 프로모션 소식 도착💌",
      "outlet": "제주항공 메일",
      "url": "https://www.jejuair.net/#mail-a20b8067fd6a88a6",
+     "published": "2026-11-05"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-44d599feb8",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Insane 53% off 'next level' Vietnam stay",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "베트남"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Insane 53% off 'next level' Vietnam stay",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSDU1ZHZvLWhRYTdyZ1RraG82cnBfV1FjalVNNlRkWjFyUlA5WV9FY0cyaG9GajFUTC1UQVlwN0JyOFV4aWxTLVZFc2c0eVFyamc2c1hhZnZ6andkeTA1QU9mV2VlV1VmYi1RdUREUVJTVFFzd1JjVlFGMllVYkhiZlRBRV9sMjRFV0dSaDZoZFRXSWN0Q0RXUDM3NGpjdzBZTnBQY2doNjA1eFg3RTRKM0VmR0JZdzB1RkxwX0JBVjE3RHllR0VqYUNfbExQMDhwSlRHZzJWT3l0cDdoZ3E4?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "53% 할인",
+   "verification": "news",
+   "first_published": "2026-11-05",
+   "last_published": "2026-11-05",
+   "first_seen": "2026-11-05T13:18:31+09:00",
+   "last_seen": "2026-11-05T13:18:31+09:00",
+   "articles": [
+    {
+     "title": "Insane 53% off 'next level' Vietnam stay",
+     "outlet": "News.com.au",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSDU1ZHZvLWhRYTdyZ1RraG82cnBfV1FjalVNNlRkWjFyUlA5WV9FY0cyaG9GajFUTC1UQVlwN0JyOFV4aWxTLVZFc2c0eVFyamc2c1hhZnZ6andkeTA1QU9mV2VlV1VmYi1RdUREUVJTVFFzd1JjVlFGMllVYkhiZlRBRV9sMjRFV0dSaDZoZFRXSWN0Q0RXUDM3NGpjdzBZTnBQY2doNjA1eFg3RTRKM0VmR0JZdzB1RkxwX0JBVjE3RHllR0VqYUNfbExQMDhwSlRHZzJWT3l0cDdoZ3E4?oc=5",
      "published": "2026-11-05"
     }
    ],
