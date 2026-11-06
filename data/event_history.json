@@ -102,6 +102,13 @@
    "sale_start": "2026-09-22",
    "sale_end": null
   },
+  "h-yeogi|2026-11-06|여기어때대만숙소10만원쿠폰팩푼다항공권투어도할": {
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "name": "여기어때, 대만 숙소 10만원 쿠폰팩 푼다…항공권·투어도 할인",
+   "sale_start": "2026-11-06",
+   "sale_end": null
+  },
   "h-yeogi|2026-11-06|여기어때대만여행10만원쿠폰팩푼다대만관광청과숙": {
    "airline_id": "h-yeogi",
    "airline": "여기어때",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T09:14:11+09:00",
+ "generated_at": "2026-11-06T13:18:16+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1495,
+  "rss_items": 1545,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2046,
+  "outlet_items": 2130,
   "outlet_new_articles": 0,
   "outlet_enriched": 1,
   "mail_articles": 6,
   "mail_new_articles": 0,
-  "articles_with_summary": 35,
-  "articles": 627,
-  "new_articles": 6,
-  "deals": 104
+  "articles_with_summary": 36,
+  "articles": 653,
+  "new_articles": 26,
+  "deals": 108
  },
  "deals": [
   {
@@ -45,7 +45,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "11.11 슈퍼 세일",
-   "headline": "부킹닷컴 11.11 슈퍼 세일, 9~16일 예약 숙소 최소 30% 할인",
+   "headline": "부킹닷컴, 11.11 슈퍼 세일 첫 진행…전 세계 숙소 최소 30% 할인",
    "sale_start": "2026-11-09",
    "sale_end": "2026-11-16",
    "travel_start": null,
@@ -60,18 +60,24 @@
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0b1Y2X0lKT0hLcmRlalpDZ2taNHpabF9MZFNfZXJ2RVB6SmtGSTVrcF9YOWg0V0FoRUwzVG5vZm40WFh0MENjcURwNUxKY0RpSkNDbXBjOTZCYXBrQUppYnFNYTFVRlhXdnlsUC1pWmZ1ZG1Ud2Rleg?oc=5"
     },
     "discount": {
-     "title": "부킹닷컴 11.11 슈퍼 세일, 9~16일 예약 숙소 최소 30% 할인",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0b1Y2X0lKT0hLcmRlalpDZ2taNHpabF9MZFNfZXJ2RVB6SmtGSTVrcF9YOWg0V0FoRUwzVG5vZm40WFh0MENjcURwNUxKY0RpSkNDbXBjOTZCYXBrQUppYnFNYTFVRlhXdnlsUC1pWmZ1ZG1Ud2Rleg?oc=5"
+     "title": "부킹닷컴, 11.11 슈퍼 세일 첫 진행…전 세계 숙소 최소 30% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqNUV3SmNqN0NoVFFtRlpKRXVMV1B0VzFNWVlkdmVIcnpvdS1DbVF1S2ltcllabkt0RkFBTHVVQVhlS2EtN1ZBVklhMzFtZ080eEtTRkFCVVF3VHhmTFJj?oc=5"
     }
    },
    "from_icn": null,
    "discount": "30% 할인",
    "verification": "news",
    "first_published": "2026-11-05",
-   "last_published": "2026-11-05",
+   "last_published": "2026-11-06",
    "first_seen": "2026-11-05T09:14:06+09:00",
-   "last_seen": "2026-11-05T13:18:31+09:00",
+   "last_seen": "2026-11-06T13:18:16+09:00",
    "articles": [
+    {
+     "title": "부킹닷컴, 11.11 슈퍼 세일 첫 진행…전 세계 숙소 최소 30% 할인",
+     "outlet": "스타패션",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqNUV3SmNqN0NoVFFtRlpKRXVMV1B0VzFNWVlkdmVIcnpvdS1DbVF1S2ltcllabkt0RkFBTHVVQVhlS2EtN1ZBVklhMzFtZ080eEtTRkFCVVF3VHhmTFJj?oc=5",
+     "published": "2026-11-06"
+    },
     {
      "title": "부킹닷컴 11.11 슈퍼 세일, 9~16일 예약 숙소 최소 30% 할인",
      "outlet": "여행레저신문",
@@ -1355,7 +1361,7 @@
    "status": "live"
   },
   {
-   "id": "h-yeogi-c090c2ef0b",
+   "id": "h-yeogi-de96be567e",
    "airline_id": "h-yeogi",
    "airline": "여기어때",
    "airlines_mentioned": [
@@ -1374,7 +1380,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "\"여기어때 대만 여행 10만원 쿠폰팩 푼다\" 대만관광청과 숙소·항공·투어 총출동",
+   "headline": "여기어때, 대만 숙소 10만원 쿠폰팩 푼다…항공권·투어도 할인",
    "sale_start": "2026-11-06",
    "sale_end": null,
    "travel_start": null,
@@ -1403,12 +1409,48 @@
    "first_published": "2026-11-06",
    "last_published": "2026-11-06",
    "first_seen": "2026-11-06T09:14:11+09:00",
-   "last_seen": "2026-11-06T09:14:11+09:00",
+   "last_seen": "2026-11-06T13:18:16+09:00",
    "articles": [
+    {
+     "title": "여기어때, 대만 숙소 10만원 쿠폰팩 푼다…항공권·투어도 할인",
+     "outlet": "www.thepowernews.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JVll1NHpZcHp5OURtaWtSRkRHMC1KOTY1Y25GY3NoNE5BSkRDY0d1SWYzTVpUenNZendibTVBNlZqcHE1bG9iVklQN3hzM3pxcWc1YnNHaXdfazU0TlBMOEhZR3pkRmpUbUxXdUcwYmpZM0RLZVRXekJIMWxBZw?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "여기어때 대만 여행 할인, 숙소 10만원 쿠폰팩·항공권 2만원 혜택",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYTkg4bm9BNlRyd3FsRFN2dlpTWVh0eWNkOVc4QlNZVWYzdjVUdnh2Zk1yZ0Zrc1JyN1FTbC1ZVWhfUXN1bDdhVGVhdGhqN2N2UkdwOUxVVDh1aWxGaERBYkwyYWRMZm9JMktrUFpwOUJ6YkxtZ2VZcC1Eaw?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "여기어때, 대만관광청과 숙소·항공·투어 통합 할인 프로모션 진행",
+     "outlet": "숙박매거진",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tZ25EZkxUVmRTMldaVktSS0lyRDhwUlliQjlwTTJZZmZVU2xDZEFoSGdBVVdsLUFTSmtTOU5jclM2UUx2RzhVdnJ5bDE1aFlGU2xvNTdwRjZwVzlDVVM1bXUxczBmT1d1T1ZPeTZ5ajM?oc=5",
+     "published": "2026-11-06"
+    },
     {
      "title": "\"여기어때 대만 여행 10만원 쿠폰팩 푼다\" 대만관광청과 숙소·항공·투어 총출동",
      "outlet": "ER 이코노믹리뷰",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNaUV6TjBrdWNVc2UySHlsanlfX0FpZDBvWmp0bmpvR0tzOTVzUGdFSzZHb2FsSU84NnZTVEMzVXA1TE5RSWxTNDV3UnFWY3NwRmI2SXk1SU1ncHZSS0pQMEtfY2RJU1M5ZlVieA?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "대만 여행 지금이 찬스?…여기어때, 숙소 10만원 쿠폰·항공권 할인",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBacGpKQlB1bFdkQVU3YzNybmE1R0tQMGVtRmNWTE5YZ3UyNjl1b3BHYk5BRUpIanBiUkd4Tm5Tc0dWSUFRbmlVYUFoUjl4TVpaWnQ1bC1XU2lGMWp1X1ZTdEJfeVJ5RUFaR2000gFvQVVfeXFMTVhTUnoxNWp4dkx0aVNmV2puZjhjNzF1VGdSUzBEMVFYOUl2SFdEV3N1bVVjUVk4U1NOd1JFVkN1Uko0Um8xRU5GMGE1QVFQdjQwUXVtcS0wWUl1RVhRMEh1ZjF3WXFPdlJndEtNRXNv?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "여기어때, 대만 여행 준비 한 번에… 숙소·항공·투어 동시 할인",
+     "outlet": "www.dhns.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrZ1NfdkhfWmQ4UFhKSU5BUWlzalZQZkh4Y0pPQV8zeGFrUEVtcHVibFAzQWpVZGdTbkN1RFNlajdlNlM4c3hoTjBiOUczbVh0aDB6bWgwdEdMeUpOMkJhXzkwdnd2dDg?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "여기어때-대만관광청 맞손..대만 숙소·항공·투어 할인",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9xMGtMYlVvOVQ3NXh3VE5IdTRfTnI3dUNMVjU1THZycVUxQnJkQWJ0MjJlLXVZWnVXdHpnMFZhZDlmZw?oc=5",
      "published": "2026-11-06"
     }
    ],
@@ -2197,6 +2239,166 @@
      "outlet": "트래블데일리",
      "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72554",
      "published": "2026-11-03"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-shilla-7043d0430d",
+   "airline_id": "h-shilla",
+   "airline": "신라호텔",
+   "airlines_mentioned": [
+    "신라호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "블랙 프라이데이",
+   "headline": "신라호텔, 첫 블랙프라이데이 행사…객실 할인부터 전액 포인트백 추첨까지",
+   "sale_start": null,
+   "sale_end": "2026-11-19",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [
+    "포인트 적립"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "한국면세뉴스 요약문: …텔앤리조트는 오는 19일까지 신라리워즈 회원을 대상으로 '블랙 프라이데이' 프로모션을 실시한다고 6일 밝혔다…",
+     "url": "http://www.kdfnews.com/news/articleView.html?idxno=190528"
+    },
+    "discount": {
+     "title": "신라호텔앤리조트, 첫 블랙프라이데이 행사…최대 28% 할인",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rbXF2bEpOT0FIQ1hvSkI3OEkwMEZCZWJfdGhkTEhjem8zQzFUWGxFZFpPSWRXLWpUc3dPb21iOTVScktnYk1BR3o1dTlQZ19xVzdrUXNhUzZ5TEhoYTZLSHZfR3NtWkwzaUZNaVRGU0dYQmw5dF9v0gF3QVVfeXFMT2ttcXZsSk5PQUhDWG9KQjc4STAwRkJlYl90aGRMSGN6bzNDMVRYbEVkWk9JZFctalRzd09vbWI5NVJyS2diTUFHejV1OVBnX3FXN2tRc2FTNnlMSGhhNktIdl9Hc21aTDNpRk1pVEZTR1hCbDl0X28?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 28%",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T09:14:11+09:00",
+   "last_seen": "2026-11-06T13:18:16+09:00",
+   "articles": [
+    {
+     "title": "신라호텔, 첫 블랙프라이데이 행사…객실 할인부터 전액 포인트백 추첨까지",
+     "outlet": "m.thepowernews.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uMi12ZG9vTno1TzM5MC1RSjF5RzA2OXRRajB1dnlUV1M4SUlxNFBnXzExczFZTHV1NnJwSE1VM2Q4ajRiTVYwVGg3SWtSTm5JejR0WUlkOERHVG1pc3FybWp2dk5MejVoLXNhRnlMZ3daUVA2U1pHeFMxeXpWUQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 블랙프라이데이 행사…최대 28% 할인",
+     "outlet": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rbXF2bEpOT0FIQ1hvSkI3OEkwMEZCZWJfdGhkTEhjem8zQzFUWGxFZFpPSWRXLWpUc3dPb21iOTVScktnYk1BR3o1dTlQZ19xVzdrUXNhUzZ5TEhoYTZLSHZfR3NtWkwzaUZNaVRGU0dYQmw5dF9v0gF3QVVfeXFMT2ttcXZsSk5PQUhDWG9KQjc4STAwRkJlYl90aGRMSGN6bzNDMVRYbEVkWk9JZFctalRzd09vbWI5NVJyS2diTUFHejV1OVBnX3FXN2tRc2FTNnlMSGhhNktIdl9Hc21aTDNpRk1pVEZTR1hCbDl0X28?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 블랙 프라이데이 프로모션…2027년 상반기 객실 최대 28% 할인",
+     "outlet": "하이뉴스",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE82Tk44MlRCQ2RGRGNieGpyb1V4SDZNYmR1RVJfZGdsQm1XME1yRUhONVJMYUJlMHBiT21aaDRjT2lJdVdMSDExcVVjdDdPa3V2UUR1MlNjX1dNTXVHM2FpSkxqUFNVTDRURjZ5amNTeVhWRFA3UEFF?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 블랙프라이데이 프로모션 … 2027년 상반기 객실 최대 28% 할인",
+     "outlet": "워크투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVamVUZlVjRDI0c2NlOWJXaVp6OWNuUzdqME9YSkRmV0ZxMU1JTlI3bVJMcXlENFFqcWpSVGxlODVVc3lJT01LaGtsWDRudkVHZ0lkZGlGS09CMzZFSFBSNFBpZVJiYXJuQXdyVA?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 블랙프라이데이 첫 행사…내년 상반기 객실 최대 28% 할인",
+     "outlet": "스마트경제",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKOEpKVTRIV05qUmxQVEZITHI1ekZMc3BHVUg4ZDJVa082VzNDV0RUUHBNV0ozbGdmUlV5WnJjVUw4WnlsUkJ1Vmd5SkYxQXBqeEZxbkdsV0tDZE83UklNM29jNDd6Mm5qYTBwOHZGMA?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 블랙 프라이데이 맞아 최대 28% 객실 할인 프로모션",
+     "outlet": "뉴스퀘스트",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WVGRRV25mRHB3RnIzZ2p0RzhycjNOWWd0NXdLYUpOdkRpaEJ0ZFF2NHBNVmg4LVBfWlAwOU9zM3hlTVNraEl2Vk1pTFhWRjItSVV3eTE5OU41MnF2alV2ZFlWN09XY0ZKaDU4cUJHMA?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 블랙 프라이데이…내년 객실 최대 28% 할인",
+     "outlet": "한국면세뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAweEkxbmp5Wm81a19RNzVVVnBmYnktMUFiSlVNb1dOQlpwVjlTRk9ydnVleGNDRnRLbVQyajRhbWM4Ty1obk5nUi1CcUl0OUotSWIxc2FlV1hfcm9yUHZraXpab19HZ184OVE?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔, 첫 블랙프라이데이 최대 28% 할인",
+     "outlet": "trndf.com",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TUnFrQnBDNGVmejNKRnlpeTFBWlNSNm95dERuN04wbGVIMERrUVI5WTdYdl9nU3pTemFadnZGOWtEdll0ZllmYjc2Wm9WdjNTc2gySnRJOTFteDlKemtxS3d6OHkxS2FvX2c?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 ‘블랙 프라이데이’…최대 28% 할인에 객실요금 전액 포인트백까지",
+     "outlet": "뉴스로드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NbkhEdFI4MGw0XzFPdUN2SzAzd3lxRHhsRnVpVFc1LTNkSmczREZpcE9GbTVwSXhVdjlsTTNNS3FyaHNvOVZjZEhodktYRVV0SFJ3cHU5anhtOV8xbUw3SlU3bm1ZSzZGUkJB0gFvQVVfeXFMUFJSQ2tma2xJeUV0SlVVOVlCNVFxT1pUOU5WMnVyZmV4QXFUUkdyaENKcURrc01WUExvZTd0MFBsZUFpNjRoc0Z6Q21YMGdaTF9vME8zMW5MXzdSc3BHbkFrc281S1FjcTY5MDkxQnBJ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔, 첫 블랙프라이데이…객실 최대 28% 할인",
+     "outlet": "논객닷컴",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1McVQ1VXZZOFZvQVp5c0xnSXZiZ3R6SWVZbmE5WHhiR2lHRXVxR1hEZ3RqOUFBR3UxRFRzTHJEc1VOOUVnVDAwdnlzZXBPdllMZDBoUTBzZnFZQjgzVm5abUtqazRqSXpZUWVn0gFrQVVfeXFMTUxxVDVVdlk4Vm9BWnlzTGdJdmJndHpJZVluYTlYeGJHaUdFdXFHWERndGo5QUFHdTFEVHNMckRzVU45RWdUMDB2eXNlcE92WUxkMGhRMHNmcVlCODNWblptS2prNGpJellRZWc?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "2027년 상반기 객실 최대 28% 할인…신라호텔, 첫 '블랙 프라이데이' 개막",
+     "outlet": "열린뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Wb29qM0dNVmh4bFZsd2EtS0o0MUUwMjdxRlo5eUJCVmFwQ2dMR2JIUEVOVUtvMW5aeHExZlpUT3puZEp6bnMzWFVPOTBDTHZLa1Zla1lsV3BBZjhucTNiVlI2eDRyQQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, ‘블프’ 프로모션...객실 최대 28% 할인 外",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02T2FXYjB5bEQ1RC1tRXp5ZlpESlB6R0RZZ05ULUJ6OFBSYUcyX3U1cC02cUVvUHRTcktmdnJ2UlFuY2k3eVM3QkpIWjYyelpmaTJLLWNPWGpXbzVBcUlERzVVaFJlUQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔, 첫 블랙 프라이데이…내년 상반기 객실 최대 28% 할인",
+     "outlet": "연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsc1RzNnNJNEZoYkhxcUdkWWs3ZGhrRkN5dGppNWVsT21pTE1rdVAwYWZ5X2I1S3Z1VXJzUWU4VldIclYwbEdFRTFQM2VCVHh2LVdWZ0NyeGVBTHJ1clRaQdIBYEFVX3lxTFBsc1RzNnNJNEZoYkhxcUdkWWs3ZGhrRkN5dGppNWVsT21pTE1rdVAwYWZ5X2I1S3Z1VXJzUWU4VldIclYwbEdFRTFQM2VCVHh2LVdWZ0NyeGVBTHJ1clRaQQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔, 내년 상반기 객실 최대 28% 할인…블랙프라이데이 특가",
+     "outlet": "아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IeU5PNGVLZmlBVW95QTFVa1JTbHRzdGdjamkwd29vWXdkZUZQaHBwVGE4eFo4YkxtbkIzSk9WZEFZVHBERGRvMTZscGEtRmlmSExaMzFsUWR1TzVtbXBCVQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 '블랙 프라이데이'…내년 상반기 객실 최대 28% 할인",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0dGI3Skg3U1k0dEowMWpwbWpURTBHV1RhR1pDM1Y2X1hDZUw5SlRuYlRiVnZtcEpmZjk4TkNjaElja1VRREZOekswWVlEZUJYZlpiY2UwRlRYWHBVNEh3?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 블랙 프라이데이 행사…내년 객실 최대 28% 할인",
+     "outlet": "세계일보",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oa3VLUTZ6c2pwNHJDdERWYUxOTGJUMHl4OWRrTEFKdHNrS2E2RHdSLVZpQVZ4bG1aRWoxLTVINlU3MEVoSGFjQm9rczNWY2hBakota2FpeFDSAVRBVV95cUxON2RfcG5FSVM2elBLSVV5Y3FUOVpEczhFeG9CekRjbTFLMk9iZnp1U1VVVkxZQ21jQms4WUhiM01FT2ZjRDBoY0o1WjJnSDlJa29Xc1I?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 '블랙 프라이데이' 프로모션…최대 28% 할인",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5jY2VMaU1DZndyZzBOcDRCcktGNXBYLURYUTFEWFM4OEE3d3ZNcW1XdXZTME5JeTJVVkxSYXl5NTkwZw?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔, 블랙 프라이데이 기념…새해 객실 예약 최대 28% 할인",
+     "outlet": "중앙신문",
+     "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPeDBMVEVSMV80VENQdGs2WmtnMWwzUWplLWVHeXlobUt0TVdjQy04WXhqMTNUN1hFT0ZGZ2JTaDM4bFNBMHh6cXpMTll5NUZxU2F5Mkt5ZkFFZlNoOTh1QjZNMXlKQVpLa3JWb3dyN3BvQlBPM1lGOENFN1g1TzREZ0tJUVh0Q3Z4ZXlxRXItMnVCdHNpNmJOVHo5S1ZiOG42TUY1ZXhYSHVVTnFZOVpQNm1IYnUycVlDU0hJbk5tRGpJeFBIM0FtSVdDSkNKSnNGbXgtYnROX2U2Zm83eklnelFhQ1NDX0xPX2I2UnpsZ2JSYk1mQWpmdWZkaHFXTzE4blJsZE85Q2I2LVNYQkNReXRtb3gydWgzQWZ0NFBpLWo3SnJrTU1sdDMtR0d1M3FYbmJXNlEyUnFkOVBMdWZkSGgxbFF5RkxMZHY1eHRNWDVHNTlwcmE2OTBhVFJhVUtJSzJPQ19FdHAwUEJBUW9rLUtHVlF0ODFfelln?oc=5",
+     "published": "2026-11-06"
     }
    ],
    "status": "live"
@@ -3155,6 +3357,56 @@
      "title": "싱가포르항공·스쿠트, 125개 목적지 특가…한국·제주 노선 포함",
      "outlet": "뉴스트래블",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5HNWRiajdHYW9CUFYta0JVZFpmdjM0Z3FnemtlMmJseDZVQ1Ezc2Q2cklRMWFqUnhMU183LUt3R2tvRnp3V3RldlpnQkFXNzlLQlZ4aXVzOUppdkdPUzVBbXlpQUloQQ?oc=5",
+     "published": "2026-10-29"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "multi-4caf3ce663",
+   "airline_id": "multi",
+   "airline": "여러 항공사",
+   "airlines_mentioned": [
+    "에어마카오",
+    "터키항공",
+    "에미레이트항공",
+    "에어캐나다"
+   ],
+   "kind": "mixed",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "11월 블프 항공권, 에어마카오 터키항공 에미레이트 에어캐나다 특가 일정",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-29",
+   "last_published": "2026-10-29",
+   "first_seen": "2026-11-06T13:18:16+09:00",
+   "last_seen": "2026-11-06T13:18:16+09:00",
+   "articles": [
+    {
+     "title": "11월 블프 항공권, 에어마카오 터키항공 에미레이트 에어캐나다 특가 일정",
+     "outlet": "판다랭크",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBHVVN0RWREczg5UEJ0MW12WlFEeHE3Umo5LWs5cGlDWHdVajliVlBCNVVhZUZ5YkxQTmE2MlhCdjlqNlA3OS1j?oc=5",
      "published": "2026-10-29"
     }
    ],
@@ -5027,6 +5279,53 @@
    "status": "undated"
   },
   {
+   "id": "h-agoda-a043c0df05",
+   "airline_id": "h-agoda",
+   "airline": "아고다",
+   "airlines_mentioned": [
+    "아고다"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.agoda.com/ko-kr/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "아고다 \"한국 여행객 60%, 여행 계획에 AI 활용\" By EBN",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-04",
+   "last_published": "2026-11-04",
+   "first_seen": "2026-11-06T13:18:16+09:00",
+   "last_seen": "2026-11-06T13:18:16+09:00",
+   "articles": [
+    {
+     "title": "아고다 \"한국 여행객 60%, 여행 계획에 AI 활용\" By EBN",
+     "outlet": "Investing.com 한국어",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJMW96bXpNOHlVVE9mY2RtbDhFaFlkX3dSNjdzM1EtVUQzemo0R093XzYyOTlXQWlrMk03T1BQcW1fZFlMQzMzU1haR0lUNDFldGhCOXpuTUh0MHRFZXNqUmZsMmlJejhXMXJZZTJJT0Q?oc=5",
+     "published": "2026-11-04"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "sunphuquoc-1882151f23",
    "airline_id": "sunphuquoc",
    "airline": "썬푸꾸옥항공",
@@ -5361,7 +5660,7 @@
    "status": "undated"
   },
   {
-   "id": "h-shilla-03093ea52c",
+   "id": "h-shilla-d5267a69d2",
    "airline_id": "h-shilla",
    "airline": "신라호텔",
    "airlines_mentioned": [
@@ -5380,7 +5679,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "신라호텔, 첫 블랙프라이데이 최대 28% 할인",
+   "headline": "신라호텔 블랙프라이데이, 내년 상반기 객실 28% 할인",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -5391,34 +5690,22 @@
    "conflicts": [],
    "evidence": {
     "discount": {
-     "title": "신라호텔, 첫 블랙프라이데이 최대 28% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TUnFrQnBDNGVmejNKRnlpeTFBWlNSNm95dERuN04wbGVIMERrUVI5WTdYdl9nU3pTemFadnZGOWtEdll0ZllmYjc2Wm9WdjNTc2gySnRJOTFteDlKemtxS3d6OHkxS2FvX2c?oc=5"
+     "title": "신라호텔 블랙프라이데이, 내년 상반기 객실 28% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wZU9mMDYtd1QydDBPNFZSOUpxbUpnTkVKWkN0WDZhaEdNZld4OE9BSkgtMVZ6SmxaclNYWjdlRDZ2a0g0QkZwVFd5aTh0WHFRNHEyLWdJWkZCQlZjNDBDQmxPdjJ5RDBW?oc=5"
     }
    },
    "from_icn": null,
-   "discount": "최대 28%",
+   "discount": "28% 할인",
    "verification": "news",
    "first_published": "2026-11-06",
    "last_published": "2026-11-06",
-   "first_seen": "2026-11-06T09:14:11+09:00",
-   "last_seen": "2026-11-06T09:14:11+09:00",
+   "first_seen": "2026-11-06T13:18:16+09:00",
+   "last_seen": "2026-11-06T13:18:16+09:00",
    "articles": [
     {
-     "title": "신라호텔, 첫 블랙프라이데이 최대 28% 할인",
-     "outlet": "trndf.com",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TUnFrQnBDNGVmejNKRnlpeTFBWlNSNm95dERuN04wbGVIMERrUVI5WTdYdl9nU3pTemFadnZGOWtEdll0ZllmYjc2Wm9WdjNTc2gySnRJOTFteDlKemtxS3d6OHkxS2FvX2c?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, ‘블프’ 프로모션...객실 최대 28% 할인 外",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02T2FXYjB5bEQ1RC1tRXp5ZlpESlB6R0RZZ05ULUJ6OFBSYUcyX3U1cC02cUVvUHRTcktmdnJ2UlFuY2k3eVM3QkpIWjYyelpmaTJLLWNPWGpXbzVBcUlERzVVaFJlUQ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔, 내년 상반기 객실 최대 28% 할인…블랙프라이데이 특가",
-     "outlet": "아시아경제",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IeU5PNGVLZmlBVW95QTFVa1JTbHRzdGdjamkwd29vWXdkZUZQaHBwVGE4eFo4YkxtbkIzSk9WZEFZVHBERGRvMTZscGEtRmlmSExaMzFsUWR1TzVtbXBCVQ?oc=5",
+     "title": "신라호텔 블랙프라이데이, 내년 상반기 객실 28% 할인",
+     "outlet": "공감신문",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wZU9mMDYtd1QydDBPNFZSOUpxbUpnTkVKWkN0WDZhaEdNZld4OE9BSkgtMVZ6SmxaclNYWjdlRDZ2a0g0QkZwVFd5aTh0WHFRNHEyLWdJWkZCQlZjNDBDQmxPdjJ5RDBW?oc=5",
      "published": "2026-11-06"
     }
    ],
@@ -5466,6 +5753,58 @@
      "title": "Sandals and Beaches Resorts Launch Black Friday Sale",
      "outlet": "Recommend Magazine",
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZUJLR1VxZGYwSDYzbHkxY1I4Zk1PWVJKVVF5S1BTQ0luUkpiR1J4QktoTlJzWTFoS1kydXVoLURHOGJCRXpnbjMwYThNcUFWbnJuamFEUm5LNkd3cmtSc0hrVmFhcFRnNTk1RDFEemNPNEdTUjBZNE5fcnVKcWpBOFhmVGlVZy1mZDJkM1dmZFEzVk9Bb2pMYlNFU0FKeUc1YnVIMUl0SkJ5aDg?oc=5",
+     "published": "2026-11-06"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-f76399131e",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Macy’s ‘Very Soft’ Italian Cotton Duvet Set Makes Your Bed Feel Like a Hotel, Now 70% Off",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Macy’s ‘Very Soft’ Italian Cotton Duvet Set Makes Your Bed Feel Like a Hotel, Now 70% Off",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd2JEbVpwQnp3Y1VQUlRVZXFaOHZ0dk84UEo0N0lQbGV2SHg0RV9pWEpaQUVONDR5aUxsMDVUR1pKWTJWQWgxZWNCRmdES1MxSU11b2ZJYTZoWjJNRTRaTjh0Q3ptR2pqTGZmd1EycTJaNkpHbGw2azlabEw0ZGFLX1dhYktSSzJrR0tzVTZ4Y3U?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "70% 할인",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T13:18:16+09:00",
+   "last_seen": "2026-11-06T13:18:16+09:00",
+   "articles": [
+    {
+     "title": "Macy’s ‘Very Soft’ Italian Cotton Duvet Set Makes Your Bed Feel Like a Hotel, Now 70% Off",
+     "outlet": "Parade Magazine",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd2JEbVpwQnp3Y1VQUlRVZXFaOHZ0dk84UEo0N0lQbGV2SHg0RV9pWEpaQUVONDR5aUxsMDVUR1pKWTJWQWgxZWNCRmdES1MxSU11b2ZJYTZoWjJNRTRaTjh0Q3ptR2pqTGZmd1EycTJaNkpHbGw2azlabEw0ZGFLX1dhYktSSzJrR0tzVTZ4Y3U?oc=5",
      "published": "2026-11-06"
     }
    ],
