@@ -2023,24 +2023,6 @@
     "new": "2026-10-28"
    }
   },
-  "h-booking-6dff27a361": {
-   "info": {
-    "airline": "h-booking",
-    "name": "1111슈퍼세일",
-    "sale_start": "2026-11-09",
-    "sale_end": "2026-11-16",
-    "dests": [],
-    "last": "2026-11-05",
-    "urls": [
-     "10eac214ef",
-     "6dff27a361",
-     "9a085cf6a0"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-05"
-   }
-  },
   "h-marriott-a06b6b2c0a": {
    "info": {
     "airline": "h-marriott",
@@ -2071,32 +2053,6 @@
    },
    "kinds": {
     "new": "2026-11-05"
-   }
-  },
-  "h-yeogi-e795a43d64": {
-   "info": {
-    "airline": "h-yeogi",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-06",
-    "dests": [],
-    "last": "2026-11-03",
-    "urls": [
-     "09487b6834",
-     "1b91c26494",
-     "3581952e81",
-     "39aeffb860",
-     "3febb81e01",
-     "6cf83c4168",
-     "94b30c0bb4",
-     "aa9ac8899c",
-     "e4e432f682",
-     "e795a43d64"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-28",
-    "closing_tomorrow": "2026-11-05"
    }
   },
   "hkexpress-204a49848b": {
@@ -2228,14 +2184,110 @@
    "kinds": {
     "new": "2026-10-26"
    }
+  },
+  "h-yeogi-c090c2ef0b": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": "2026-11-06",
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-06",
+    "urls": [
+     "c090c2ef0b"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-06",
+    "new": "2026-11-06"
+   }
+  },
+  "h-yeogi-e795a43d64": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-06",
+    "dests": [],
+    "last": "2026-11-04",
+    "urls": [
+     "09487b6834",
+     "1b91c26494",
+     "3581952e81",
+     "39aeffb860",
+     "3febb81e01",
+     "6cf83c4168",
+     "94b30c0bb4",
+     "9b20f8f7c7",
+     "aa9ac8899c",
+     "ab4563033f",
+     "e4e432f682",
+     "e795a43d64"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-28",
+    "closing_tomorrow": "2026-11-05",
+    "closing_today": "2026-11-06"
+   }
+  },
+  "h-booking-6dff27a361": {
+   "info": {
+    "airline": "h-booking",
+    "name": "1111슈퍼세일",
+    "sale_start": "2026-11-09",
+    "sale_end": "2026-11-16",
+    "dests": [],
+    "last": "2026-11-05",
+    "urls": [
+     "10eac214ef",
+     "61359f6dd2",
+     "6dff27a361",
+     "9a085cf6a0",
+     "d77483a2af"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-05",
+    "upcoming_d3": "2026-11-06"
+   }
+  },
+  "h-shilla-03093ea52c": {
+   "info": {
+    "airline": "h-shilla",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-06",
+    "urls": [
+     "03093ea52c",
+     "3dabefc45f",
+     "7edb2bda9c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-06"
+   }
+  },
+  "h-other-e8b4fe2864": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-06",
+    "urls": [
+     "e8b4fe2864"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-06"
+   }
   }
  },
  "slots": {
-  "2026-10-29": {
-   "morning": "sent",
-   "afternoon": "sent",
-   "evening": "sent"
-  },
   "2026-10-30": {
    "morning": "sent",
    "afternoon": "sent",
@@ -2269,10 +2321,13 @@
   "2026-11-05": {
    "morning": "sent",
    "evening": "sent"
+  },
+  "2026-11-06": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-11-06T02:44:41+09:00",
- "drops_day": "2026-11-05",
+ "saved_at": "2026-11-06T09:18:51+09:00",
+ "drops_day": "2026-11-06",
  "drops": {
   "BKK": {
    "price": 411600,
