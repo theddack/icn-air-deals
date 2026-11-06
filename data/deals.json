@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T16:24:46+09:00",
+ "generated_at": "2026-11-06T18:16:02+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1583,
+  "rss_items": 1608,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2078,
+  "outlet_items": 2064,
   "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 37,
-  "articles": 662,
-  "new_articles": 9,
-  "deals": 110
+  "articles": 666,
+  "new_articles": 4,
+  "deals": 111
  },
  "deals": [
   {
@@ -1409,7 +1409,7 @@
    "first_published": "2026-11-06",
    "last_published": "2026-11-06",
    "first_seen": "2026-11-06T09:14:11+09:00",
-   "last_seen": "2026-11-06T16:24:46+09:00",
+   "last_seen": "2026-11-06T18:16:02+09:00",
    "articles": [
     {
      "title": "여기어때, 대만 숙소 10만원 쿠폰팩 푼다…항공권·투어도 할인",
@@ -1445,6 +1445,12 @@
      "title": "여기어때, 대만 여행 준비 한 번에… 숙소·항공·투어 동시 할인",
      "outlet": "www.dhns.co.kr",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrZ1NfdkhfWmQ4UFhKSU5BUWlzalZQZkh4Y0pPQV8zeGFrUEVtcHVibFAzQWpVZGdTbkN1RFNlajdlNlM4c3hoTjBiOUczbVh0aDB6bWgwdEdMeUpOMkJhXzkwdnd2dDg?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "여기어때, 대만 여행 숙소·항공·투어 할인⋯ 최대 10만원 쿠폰팩 제공",
+     "outlet": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MeTM2a0tiMFRfa21jODV4M1pTNjJ5ZzgwRjM4N01pUlppWlZ6aDljbmtmUGY4LXZ1U0xpZmFLblhuZWlJSTYxV1VHX1VMUHlmODVHeWt3aUM4dw?oc=5",
      "published": "2026-11-06"
     },
     {
@@ -1509,7 +1515,7 @@
    "first_published": "2026-11-06",
    "last_published": "2026-11-06",
    "first_seen": "2026-11-06T09:14:11+09:00",
-   "last_seen": "2026-11-06T16:24:46+09:00",
+   "last_seen": "2026-11-06T18:16:02+09:00",
    "articles": [
     {
      "title": "신라호텔, 첫 블랙프라이데이 행사…객실 할인부터 전액 포인트백 추첨까지",
@@ -1584,6 +1590,12 @@
      "published": "2026-11-06"
     },
     {
+     "title": "신라호텔앤리조트, 첫 블랙 프라이데이 행사…객실 최대 28% 할인",
+     "outlet": "서울타임즈뉴스",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHV3Q0VDlHWEE2N0EyTk5OZy1PQ09kZGJOUmtQLXFPRDhLcS1pT2lkOFdjM0NZVnpmeWtOdU52VzhOSUxqbUR3RlFHcEl0QU9oREFrdW1CcnU2RTAxM0hzSlJubmtNbGE1UFl3?oc=5",
+     "published": "2026-11-06"
+    },
+    {
      "title": "신라호텔앤리조트, 첫 ‘블랙 프라이데이’…최대 28% 할인에 객실요금 전액 포인트백까지",
      "outlet": "뉴스로드",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NbkhEdFI4MGw0XzFPdUN2SzAzd3lxRHhsRnVpVFc1LTNkSmczREZpcE9GbTVwSXhVdjlsTTNNS3FyaHNvOVZjZEhodktYRVV0SFJ3cHU5anhtOV8xbUw3SlU3bm1ZSzZGUkJB0gFvQVVfeXFMUFJSQ2tma2xJeUV0SlVVOVlCNVFxT1pUOU5WMnVyZmV4QXFUUkdyaENKcURrc01WUExvZTd0MFBsZUFpNjRoc0Z6Q21YMGdaTF9vME8zMW5MXzdSc3BHbkFrc281S1FjcTY5MDkxQnBJ?oc=5",
@@ -1629,6 +1641,12 @@
      "title": "신라호텔앤리조트, 첫 블랙 프라이데이 행사…내년 객실 최대 28% 할인",
      "outlet": "세계일보",
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oa3VLUTZ6c2pwNHJDdERWYUxOTGJUMHl4OWRrTEFKdHNrS2E2RHdSLVZpQVZ4bG1aRWoxLTVINlU3MEVoSGFjQm9rczNWY2hBakota2FpeFDSAVRBVV95cUxON2RfcG5FSVM2elBLSVV5Y3FUOVpEczhFeG9CekRjbTFLMk9iZnp1U1VVVkxZQ21jQms4WUhiM01FT2ZjRDBoY0o1WjJnSDlJa29Xc1I?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "“내년 여행, 지금 예약하세요”…신라호텔 첫 블랙 프라이데이 최대 28% 할인",
+     "outlet": "위메이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FTUVHWWNkZDZVSW1Xai1waURDR2tLMnNUY2hWb0VGSGVzektqVWZpUld6RFZvRGhqV0RvWWswbWR5Qk1VbjQ5Wnh6X2IydS1LSC1OSkhkeXFsNGc?oc=5",
      "published": "2026-11-06"
     },
     {
@@ -5951,6 +5969,58 @@
      "title": "Hotel group offers up to 70% discounts in Christmas stay vouchers MANILA – The Hotel Sales and Marketing Association (HSMA) has rolled out a pre-Christmas “book & buy voucher” program, offering up to 50 to 70 percent discounts on accommodation for to",
      "outlet": "Facebook",
      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX1pvbV9WYWxabnVxSnktMllEei14ZEwzUTJoS1Q2azk1dEozeFNMRE9hSXJyLWF1QlFhbDFRZHpCbWtJSTVGUWhxMzRSNVNwRlc5RldHczJLazhXeWtmUHJ3LUdONzNmX1dLQTVHY051bGhjYXFSc0ZrdUQzSFVUYXpBWURtdUVvcHNBNncwQ1k5YndWRDJnSERLVGdRbnRwYlZqTlBSdEtaWjZ5SnZaWGZPT1RqWlZHbnJsalhxUUtJRGVFS09mQk1Say1jSGRWVEgtcQ?oc=5",
+     "published": "2026-11-06"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-f5d9c58eb5",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "These ‘Hotel-Quality’ Pillows Are So Comfy, Your Overnight Guests Will Try to Sneak Them Home — They’re 65% Off",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "These ‘Hotel-Quality’ Pillows Are So Comfy, Your Overnight Guests Will Try to Sneak Them Home — They’re 65% Off",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhb040cHBGNVppOHFsSWNIaDg2UzJzQktSRmJsR3RlVEczM24zLUtwZGNubzNvTlhmTWJ2dHcyM1NLYmlLVHBsY3V1UnNaQ1I5M0QxakliWFJLZEc4dXpmd2Y1Tnl6ZF8wYWRJTG8zUGgteHpINVA5QQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "65% 할인",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T18:16:02+09:00",
+   "last_seen": "2026-11-06T18:16:02+09:00",
+   "articles": [
+    {
+     "title": "These ‘Hotel-Quality’ Pillows Are So Comfy, Your Overnight Guests Will Try to Sneak Them Home — They’re 65% Off",
+     "outlet": "People.com",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhb040cHBGNVppOHFsSWNIaDg2UzJzQktSRmJsR3RlVEczM24zLUtwZGNubzNvTlhmTWJ2dHcyM1NLYmlLVHBsY3V1UnNaQ1I5M0QxakliWFJLZEc4dXpmd2Y1Tnl6ZF8wYWRJTG8zUGgteHpINVA5QQ?oc=5",
      "published": "2026-11-06"
     }
    ],
