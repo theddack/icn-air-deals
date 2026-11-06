@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T18:16:02+09:00",
+ "generated_at": "2026-11-06T22:17:44+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1608,
+  "rss_items": 1612,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2064,
+  "outlet_items": 1963,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 37,
-  "articles": 666,
-  "new_articles": 4,
+  "articles": 668,
+  "new_articles": 2,
   "deals": 111
  },
  "deals": [
@@ -1515,7 +1515,7 @@
    "first_published": "2026-11-06",
    "last_published": "2026-11-06",
    "first_seen": "2026-11-06T09:14:11+09:00",
-   "last_seen": "2026-11-06T18:16:02+09:00",
+   "last_seen": "2026-11-06T22:17:44+09:00",
    "articles": [
     {
      "title": "신라호텔, 첫 블랙프라이데이 행사…객실 할인부터 전액 포인트백 추첨까지",
@@ -1554,9 +1554,21 @@
      "published": "2026-11-06"
     },
     {
+     "title": "신라호텔, 첫 블랙 프라이데이 열고 상반기 객실 최대 28% 할인",
+     "outlet": "스마트비즈",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rcVJFaXBFTUFGMVFSbXEySlQtVWpPZV9sd2VxNWhLMy11NnVDejY5dkw4NDd1b3hoWENJVTFnalFCUE1RQWl5YnNUTlVfaXhRRzNNY0dNMElSSzlfYnFaNTdPZVg4d3BrTktidQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
      "title": "신라호텔앤리조트, 첫 블랙프라이데이…2027년 상반기 객실 최대 28% 할인",
      "outlet": "미래경제",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RZjRVTXVTcXYyRkIxaVR5TnhOZGl1NFZsV1hpdUh4d0k4Ump6X0wzTzZMT1R4TFRnQWNHdkNsdWlPVjhZOUphR1Q3cDhrQmZlV1hCS3ZOV3JMY2NzU2RDbE1VdWJOUlVHeGJ4Vw?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 블프 프로모션 연다…객실 최대 28% 할인",
+     "outlet": "AP신문",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zZzBHRE43SFdkWkswaXVSSFRpNDVzNVhKVk80OE5GZ3RTeXFwVDZNa2tIdFc0ekFBSHJQZkF0bG4xa21Xd1loeFVueVlCdXdBSExTOWtlVnFfWnVhdEpuMlBsV05DMDEwZFVub9IBbEFVX3lxTE0zZzBHRE43SFdkWkswaXVSSFRpNDVzNVhKVk80OE5GZ3RTeXFwVDZNa2tIdFc0ekFBSHJQZkF0bG4xa21Xd1loeFVueVlCdXdBSExTOWtlVnFfWnVhdEpuMlBsV05DMDEwZFVubw?oc=5",
      "published": "2026-11-06"
     },
     {
