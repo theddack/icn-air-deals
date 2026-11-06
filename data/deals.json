@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T13:18:16+09:00",
+ "generated_at": "2026-11-06T16:24:46+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1545,
+  "rss_items": 1583,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2130,
+  "outlet_items": 2078,
   "outlet_new_articles": 0,
   "outlet_enriched": 1,
   "mail_articles": 6,
   "mail_new_articles": 0,
-  "articles_with_summary": 36,
-  "articles": 653,
-  "new_articles": 26,
-  "deals": 108
+  "articles_with_summary": 37,
+  "articles": 662,
+  "new_articles": 9,
+  "deals": 110
  },
  "deals": [
   {
@@ -1409,7 +1409,7 @@
    "first_published": "2026-11-06",
    "last_published": "2026-11-06",
    "first_seen": "2026-11-06T09:14:11+09:00",
-   "last_seen": "2026-11-06T13:18:16+09:00",
+   "last_seen": "2026-11-06T16:24:46+09:00",
    "articles": [
     {
      "title": "여기어때, 대만 숙소 10만원 쿠폰팩 푼다…항공권·투어도 할인",
@@ -1448,9 +1448,205 @@
      "published": "2026-11-06"
     },
     {
+     "title": "여기어때, 대만 여행 기획전…10만원 규모 숙소 쿠폰 지급",
+     "outlet": "지디넷코리아",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yZ3R1Wk5YbXFaUF9kNnRDbG1jcGgxUUxnSWlmbXdhSnJsTjA0UmU3VmswaExxelVHSUhuN09GaTY4N0IzLXp2eWFRcEJRemwzVXdTamR3?oc=5",
+     "published": "2026-11-06"
+    },
+    {
      "title": "여기어때-대만관광청 맞손..대만 숙소·항공·투어 할인",
      "outlet": "브레이크뉴스",
      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9xMGtMYlVvOVQ3NXh3VE5IdTRfTnI3dUNMVjU1THZycVUxQnJkQWJ0MjJlLXVZWnVXdHpnMFZhZDlmZw?oc=5",
+     "published": "2026-11-06"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-shilla-7043d0430d",
+   "airline_id": "h-shilla",
+   "airline": "신라호텔",
+   "airlines_mentioned": [
+    "신라호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "블랙 프라이데이",
+   "headline": "신라호텔, 첫 블랙프라이데이 행사…객실 할인부터 전액 포인트백 추첨까지",
+   "sale_start": "2026-11-06",
+   "sale_end": "2026-11-19",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [
+    "포인트 적립"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "한국면세뉴스 요약문: …텔앤리조트는 오는 19일까지 신라리워즈 회원을 대상으로 '블랙 프라이데이' 프로모션을 실시한다고 6일 밝혔다…",
+     "url": "http://www.kdfnews.com/news/articleView.html?idxno=190528"
+    },
+    "discount": {
+     "title": "신라호텔앤리조트, 블랙프라이데이 맞아 최대 28% 객실 할인",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54ZU11RzFUV2R4VFNSd0xjcmd0RExKRDVockhzSFlLOHl3Vzh1cmtXNWk0Um5TaTNlQkdZd2tIUG5KMEJQeXpadjNOaXdVbnRzdkhGaW9xNTdodnVPbmF1bXpDRXhrR2Qtc1ZsNkJIYWpmZ01r?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 28%",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T09:14:11+09:00",
+   "last_seen": "2026-11-06T16:24:46+09:00",
+   "articles": [
+    {
+     "title": "신라호텔, 첫 블랙프라이데이 행사…객실 할인부터 전액 포인트백 추첨까지",
+     "outlet": "m.thepowernews.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uMi12ZG9vTno1TzM5MC1RSjF5RzA2OXRRajB1dnlUV1M4SUlxNFBnXzExczFZTHV1NnJwSE1VM2Q4ajRiTVYwVGg3SWtSTm5JejR0WUlkOERHVG1pc3FybWp2dk5MejVoLXNhRnlMZ3daUVA2U1pHeFMxeXpWUQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 블랙프라이데이 맞아 최대 28% 객실 할인",
+     "outlet": "파이낸셜포스트",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54ZU11RzFUV2R4VFNSd0xjcmd0RExKRDVockhzSFlLOHl3Vzh1cmtXNWk0Um5TaTNlQkdZd2tIUG5KMEJQeXpadjNOaXdVbnRzdkhGaW9xNTdodnVPbmF1bXpDRXhrR2Qtc1ZsNkJIYWpmZ01r?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 블랙프라이데이 행사…최대 28% 할인",
+     "outlet": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rbXF2bEpOT0FIQ1hvSkI3OEkwMEZCZWJfdGhkTEhjem8zQzFUWGxFZFpPSWRXLWpUc3dPb21iOTVScktnYk1BR3o1dTlQZ19xVzdrUXNhUzZ5TEhoYTZLSHZfR3NtWkwzaUZNaVRGU0dYQmw5dF9v0gF3QVVfeXFMT2ttcXZsSk5PQUhDWG9KQjc4STAwRkJlYl90aGRMSGN6bzNDMVRYbEVkWk9JZFctalRzd09vbWI5NVJyS2diTUFHejV1OVBnX3FXN2tRc2FTNnlMSGhhNktIdl9Hc21aTDNpRk1pVEZTR1hCbDl0X28?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 블랙 프라이데이 프로모션…2027년 상반기 객실 최대 28% 할인",
+     "outlet": "하이뉴스",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE82Tk44MlRCQ2RGRGNieGpyb1V4SDZNYmR1RVJfZGdsQm1XME1yRUhONVJMYUJlMHBiT21aaDRjT2lJdVdMSDExcVVjdDdPa3V2UUR1MlNjX1dNTXVHM2FpSkxqUFNVTDRURjZ5amNTeVhWRFA3UEFF?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔, 블랙프라이데이 첫 도입…객실 할인에 경품 혜택까지",
+     "outlet": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Md1BLWHhEendHWmNjVHd6dmp4TWNoeXQzMnlBZFp3RlZ1aURDRVVaZ1RsQkMxMmJ4TFNfR0dsNlNiVHBuMXk0MXc1TkxaQjVFUFFxTHRvd1JrMlhtcGRmVmlfcjZVRVMwYWJVdWlpOHBvQQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 블랙프라이데이 프로모션 … 2027년 상반기 객실 최대 28% 할인",
+     "outlet": "워크투데이",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVamVUZlVjRDI0c2NlOWJXaVp6OWNuUzdqME9YSkRmV0ZxMU1JTlI3bVJMcXlENFFqcWpSVGxlODVVc3lJT01LaGtsWDRudkVHZ0lkZGlGS09CMzZFSFBSNFBpZVJiYXJuQXdyVA?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 블랙프라이데이…2027년 상반기 객실 최대 28% 할인",
+     "outlet": "미래경제",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RZjRVTXVTcXYyRkIxaVR5TnhOZGl1NFZsV1hpdUh4d0k4Ump6X0wzTzZMT1R4TFRnQWNHdkNsdWlPVjhZOUphR1Q3cDhrQmZlV1hCS3ZOV3JMY2NzU2RDbE1VdWJOUlVHeGJ4Vw?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 블랙프라이데이 첫 행사…내년 상반기 객실 최대 28% 할인",
+     "outlet": "스마트경제",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKOEpKVTRIV05qUmxQVEZITHI1ekZMc3BHVUg4ZDJVa082VzNDV0RUUHBNV0ozbGdmUlV5WnJjVUw4WnlsUkJ1Vmd5SkYxQXBqeEZxbkdsV0tDZE83UklNM29jNDd6Mm5qYTBwOHZGMA?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 블랙 프라이데이 맞아 최대 28% 객실 할인 프로모션",
+     "outlet": "뉴스퀘스트",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WVGRRV25mRHB3RnIzZ2p0RzhycjNOWWd0NXdLYUpOdkRpaEJ0ZFF2NHBNVmg4LVBfWlAwOU9zM3hlTVNraEl2Vk1pTFhWRjItSVV3eTE5OU41MnF2alV2ZFlWN09XY0ZKaDU4cUJHMA?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 블랙 프라이데이…내년 객실 최대 28% 할인",
+     "outlet": "한국면세뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAweEkxbmp5Wm81a19RNzVVVnBmYnktMUFiSlVNb1dOQlpwVjlTRk9ydnVleGNDRnRLbVQyajRhbWM4Ty1obk5nUi1CcUl0OUotSWIxc2FlV1hfcm9yUHZraXpab19HZ184OVE?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, '블랙 프라이데이' 맞아 내년 상반기 객실 최대 28% 할인",
+     "outlet": "컨슈머타임스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VcHZXREFqY05nMUxzSmNDb1hSaXQwOXRLLS01RlFsYkhTM0duOGI2WVVQSjhqZDB2ejQteG1KbTVhNVh5TTFLaEdlTzFfV0VmNVB1SXBGTEhmQmx2MXdubXhBZjlWTlBLLUE?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔, 첫 블랙프라이데이 최대 28% 할인",
+     "outlet": "trndf.com",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TUnFrQnBDNGVmejNKRnlpeTFBWlNSNm95dERuN04wbGVIMERrUVI5WTdYdl9nU3pTemFadnZGOWtEdll0ZllmYjc2Wm9WdjNTc2gySnRJOTFteDlKemtxS3d6OHkxS2FvX2c?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 ‘블랙 프라이데이’…최대 28% 할인에 객실요금 전액 포인트백까지",
+     "outlet": "뉴스로드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NbkhEdFI4MGw0XzFPdUN2SzAzd3lxRHhsRnVpVFc1LTNkSmczREZpcE9GbTVwSXhVdjlsTTNNS3FyaHNvOVZjZEhodktYRVV0SFJ3cHU5anhtOV8xbUw3SlU3bm1ZSzZGUkJB0gFvQVVfeXFMUFJSQ2tma2xJeUV0SlVVOVlCNVFxT1pUOU5WMnVyZmV4QXFUUkdyaENKcURrc01WUExvZTd0MFBsZUFpNjRoc0Z6Q21YMGdaTF9vME8zMW5MXzdSc3BHbkFrc281S1FjcTY5MDkxQnBJ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔, 첫 블랙프라이데이…객실 최대 28% 할인",
+     "outlet": "논객닷컴",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1McVQ1VXZZOFZvQVp5c0xnSXZiZ3R6SWVZbmE5WHhiR2lHRXVxR1hEZ3RqOUFBR3UxRFRzTHJEc1VOOUVnVDAwdnlzZXBPdllMZDBoUTBzZnFZQjgzVm5abUtqazRqSXpZUWVn0gFrQVVfeXFMTUxxVDVVdlk4Vm9BWnlzTGdJdmJndHpJZVluYTlYeGJHaUdFdXFHWERndGo5QUFHdTFEVHNMckRzVU45RWdUMDB2eXNlcE92WUxkMGhRMHNmcVlCODNWblptS2prNGpJellRZWc?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 블랙 프라이데이 프로모션…내년 상반기 객실 최대 28% 할인",
+     "outlet": "이로운넷",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xWURualg4aHBHekVIU1EtbEx4SjZ0MHJWYWx4Ym1rQXUyM2hLaVpGY2pmekdNc3V6WWhoRUoyM3F1M2FBN1VHbHFPbTJWWVh3cGlvYmNwb1BybEJUaW5KS21uM3FuZw?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "2027년 상반기 객실 최대 28% 할인…신라호텔, 첫 '블랙 프라이데이' 개막",
+     "outlet": "열린뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Wb29qM0dNVmh4bFZsd2EtS0o0MUUwMjdxRlo5eUJCVmFwQ2dMR2JIUEVOVUtvMW5aeHExZlpUT3puZEp6bnMzWFVPOTBDTHZLa1Zla1lsV3BBZjhucTNiVlI2eDRyQQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔, 첫 블랙 프라이데이…내년 상반기 객실 최대 28% 할인",
+     "outlet": "연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsc1RzNnNJNEZoYkhxcUdkWWs3ZGhrRkN5dGppNWVsT21pTE1rdVAwYWZ5X2I1S3Z1VXJzUWU4VldIclYwbEdFRTFQM2VCVHh2LVdWZ0NyeGVBTHJ1clRaQdIBYEFVX3lxTFBsc1RzNnNJNEZoYkhxcUdkWWs3ZGhrRkN5dGppNWVsT21pTE1rdVAwYWZ5X2I1S3Z1VXJzUWU4VldIclYwbEdFRTFQM2VCVHh2LVdWZ0NyeGVBTHJ1clRaQQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔, 내년 상반기 객실 최대 28% 할인…블랙프라이데이 특가",
+     "outlet": "아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IeU5PNGVLZmlBVW95QTFVa1JTbHRzdGdjamkwd29vWXdkZUZQaHBwVGE4eFo4YkxtbkIzSk9WZEFZVHBERGRvMTZscGEtRmlmSExaMzFsUWR1TzVtbXBCVQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 '블랙 프라이데이'…내년 상반기 객실 최대 28% 할인",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0dGI3Skg3U1k0dEowMWpwbWpURTBHV1RhR1pDM1Y2X1hDZUw5SlRuYlRiVnZtcEpmZjk4TkNjaElja1VRREZOekswWVlEZUJYZlpiY2UwRlRYWHBVNEh3?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 블랙 프라이데이 행사…내년 객실 최대 28% 할인",
+     "outlet": "세계일보",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oa3VLUTZ6c2pwNHJDdERWYUxOTGJUMHl4OWRrTEFKdHNrS2E2RHdSLVZpQVZ4bG1aRWoxLTVINlU3MEVoSGFjQm9rczNWY2hBakota2FpeFDSAVRBVV95cUxON2RfcG5FSVM2elBLSVV5Y3FUOVpEczhFeG9CekRjbTFLMk9iZnp1U1VVVkxZQ21jQms4WUhiM01FT2ZjRDBoY0o1WjJnSDlJa29Xc1I?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "\"내년 상반기 여행 지금 잡아라\"... 신라호텔, 블랙프라이데이 특가 쏟아진다",
+     "outlet": "인사이트",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9oVGJnMl9MWTJUMkwzVGw2TlU3ZGJ4aXRiNHBJTVdFNXZCa3hMWTEwNnJfZ1ZDdWpPRWdYdDNZNFo3LU9xM21tbnAzWVcyZw?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 '블랙 프라이데이' 프로모션…최대 28% 할인",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5jY2VMaU1DZndyZzBOcDRCcktGNXBYLURYUTFEWFM4OEE3d3ZNcW1XdXZTME5JeTJVVkxSYXl5NTkwZw?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔, 블랙 프라이데이 기념…새해 객실 예약 최대 28% 할인",
+     "outlet": "중앙신문",
+     "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPeDBMVEVSMV80VENQdGs2WmtnMWwzUWplLWVHeXlobUt0TVdjQy04WXhqMTNUN1hFT0ZGZ2JTaDM4bFNBMHh6cXpMTll5NUZxU2F5Mkt5ZkFFZlNoOTh1QjZNMXlKQVpLa3JWb3dyN3BvQlBPM1lGOENFN1g1TzREZ0tJUVh0Q3Z4ZXlxRXItMnVCdHNpNmJOVHo5S1ZiOG42TUY1ZXhYSHVVTnFZOVpQNm1IYnUycVlDU0hJbk5tRGpJeFBIM0FtSVdDSkNKSnNGbXgtYnROX2U2Zm83eklnelFhQ1NDX0xPX2I2UnpsZ2JSYk1mQWpmdWZkaHFXTzE4blJsZE85Q2I2LVNYQkNReXRtb3gydWgzQWZ0NFBpLWo3SnJrTU1sdDMtR0d1M3FYbmJXNlEyUnFkOVBMdWZkSGgxbFF5RkxMZHY1eHRNWDVHNTlwcmE2OTBhVFJhVUtJSzJPQ19FdHAwUEJBUW9rLUtHVlF0ODFfelln?oc=5",
      "published": "2026-11-06"
     }
    ],
@@ -2239,166 +2435,6 @@
      "outlet": "트래블데일리",
      "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72554",
      "published": "2026-11-03"
-    }
-   ],
-   "status": "live"
-  },
-  {
-   "id": "h-shilla-7043d0430d",
-   "airline_id": "h-shilla",
-   "airline": "신라호텔",
-   "airlines_mentioned": [
-    "신라호텔"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": "블랙 프라이데이",
-   "headline": "신라호텔, 첫 블랙프라이데이 행사…객실 할인부터 전액 포인트백 추첨까지",
-   "sale_start": null,
-   "sale_end": "2026-11-19",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [
-    "포인트 적립"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "한국면세뉴스 요약문: …텔앤리조트는 오는 19일까지 신라리워즈 회원을 대상으로 '블랙 프라이데이' 프로모션을 실시한다고 6일 밝혔다…",
-     "url": "http://www.kdfnews.com/news/articleView.html?idxno=190528"
-    },
-    "discount": {
-     "title": "신라호텔앤리조트, 첫 블랙프라이데이 행사…최대 28% 할인",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rbXF2bEpOT0FIQ1hvSkI3OEkwMEZCZWJfdGhkTEhjem8zQzFUWGxFZFpPSWRXLWpUc3dPb21iOTVScktnYk1BR3o1dTlQZ19xVzdrUXNhUzZ5TEhoYTZLSHZfR3NtWkwzaUZNaVRGU0dYQmw5dF9v0gF3QVVfeXFMT2ttcXZsSk5PQUhDWG9KQjc4STAwRkJlYl90aGRMSGN6bzNDMVRYbEVkWk9JZFctalRzd09vbWI5NVJyS2diTUFHejV1OVBnX3FXN2tRc2FTNnlMSGhhNktIdl9Hc21aTDNpRk1pVEZTR1hCbDl0X28?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 28%",
-   "verification": "news",
-   "first_published": "2026-11-06",
-   "last_published": "2026-11-06",
-   "first_seen": "2026-11-06T09:14:11+09:00",
-   "last_seen": "2026-11-06T13:18:16+09:00",
-   "articles": [
-    {
-     "title": "신라호텔, 첫 블랙프라이데이 행사…객실 할인부터 전액 포인트백 추첨까지",
-     "outlet": "m.thepowernews.co.kr",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uMi12ZG9vTno1TzM5MC1RSjF5RzA2OXRRajB1dnlUV1M4SUlxNFBnXzExczFZTHV1NnJwSE1VM2Q4ajRiTVYwVGg3SWtSTm5JejR0WUlkOERHVG1pc3FybWp2dk5MejVoLXNhRnlMZ3daUVA2U1pHeFMxeXpWUQ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 블랙프라이데이 행사…최대 28% 할인",
-     "outlet": "인사이트코리아",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rbXF2bEpOT0FIQ1hvSkI3OEkwMEZCZWJfdGhkTEhjem8zQzFUWGxFZFpPSWRXLWpUc3dPb21iOTVScktnYk1BR3o1dTlQZ19xVzdrUXNhUzZ5TEhoYTZLSHZfR3NtWkwzaUZNaVRGU0dYQmw5dF9v0gF3QVVfeXFMT2ttcXZsSk5PQUhDWG9KQjc4STAwRkJlYl90aGRMSGN6bzNDMVRYbEVkWk9JZFctalRzd09vbWI5NVJyS2diTUFHejV1OVBnX3FXN2tRc2FTNnlMSGhhNktIdl9Hc21aTDNpRk1pVEZTR1hCbDl0X28?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 블랙 프라이데이 프로모션…2027년 상반기 객실 최대 28% 할인",
-     "outlet": "하이뉴스",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE82Tk44MlRCQ2RGRGNieGpyb1V4SDZNYmR1RVJfZGdsQm1XME1yRUhONVJMYUJlMHBiT21aaDRjT2lJdVdMSDExcVVjdDdPa3V2UUR1MlNjX1dNTXVHM2FpSkxqUFNVTDRURjZ5amNTeVhWRFA3UEFF?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 블랙프라이데이 프로모션 … 2027년 상반기 객실 최대 28% 할인",
-     "outlet": "워크투데이",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVamVUZlVjRDI0c2NlOWJXaVp6OWNuUzdqME9YSkRmV0ZxMU1JTlI3bVJMcXlENFFqcWpSVGxlODVVc3lJT01LaGtsWDRudkVHZ0lkZGlGS09CMzZFSFBSNFBpZVJiYXJuQXdyVA?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 블랙프라이데이 첫 행사…내년 상반기 객실 최대 28% 할인",
-     "outlet": "스마트경제",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKOEpKVTRIV05qUmxQVEZITHI1ekZMc3BHVUg4ZDJVa082VzNDV0RUUHBNV0ozbGdmUlV5WnJjVUw4WnlsUkJ1Vmd5SkYxQXBqeEZxbkdsV0tDZE83UklNM29jNDd6Mm5qYTBwOHZGMA?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 블랙 프라이데이 맞아 최대 28% 객실 할인 프로모션",
-     "outlet": "뉴스퀘스트",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WVGRRV25mRHB3RnIzZ2p0RzhycjNOWWd0NXdLYUpOdkRpaEJ0ZFF2NHBNVmg4LVBfWlAwOU9zM3hlTVNraEl2Vk1pTFhWRjItSVV3eTE5OU41MnF2alV2ZFlWN09XY0ZKaDU4cUJHMA?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 블랙 프라이데이…내년 객실 최대 28% 할인",
-     "outlet": "한국면세뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAweEkxbmp5Wm81a19RNzVVVnBmYnktMUFiSlVNb1dOQlpwVjlTRk9ydnVleGNDRnRLbVQyajRhbWM4Ty1obk5nUi1CcUl0OUotSWIxc2FlV1hfcm9yUHZraXpab19HZ184OVE?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔, 첫 블랙프라이데이 최대 28% 할인",
-     "outlet": "trndf.com",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TUnFrQnBDNGVmejNKRnlpeTFBWlNSNm95dERuN04wbGVIMERrUVI5WTdYdl9nU3pTemFadnZGOWtEdll0ZllmYjc2Wm9WdjNTc2gySnRJOTFteDlKemtxS3d6OHkxS2FvX2c?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 ‘블랙 프라이데이’…최대 28% 할인에 객실요금 전액 포인트백까지",
-     "outlet": "뉴스로드",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NbkhEdFI4MGw0XzFPdUN2SzAzd3lxRHhsRnVpVFc1LTNkSmczREZpcE9GbTVwSXhVdjlsTTNNS3FyaHNvOVZjZEhodktYRVV0SFJ3cHU5anhtOV8xbUw3SlU3bm1ZSzZGUkJB0gFvQVVfeXFMUFJSQ2tma2xJeUV0SlVVOVlCNVFxT1pUOU5WMnVyZmV4QXFUUkdyaENKcURrc01WUExvZTd0MFBsZUFpNjRoc0Z6Q21YMGdaTF9vME8zMW5MXzdSc3BHbkFrc281S1FjcTY5MDkxQnBJ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔, 첫 블랙프라이데이…객실 최대 28% 할인",
-     "outlet": "논객닷컴",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1McVQ1VXZZOFZvQVp5c0xnSXZiZ3R6SWVZbmE5WHhiR2lHRXVxR1hEZ3RqOUFBR3UxRFRzTHJEc1VOOUVnVDAwdnlzZXBPdllMZDBoUTBzZnFZQjgzVm5abUtqazRqSXpZUWVn0gFrQVVfeXFMTUxxVDVVdlk4Vm9BWnlzTGdJdmJndHpJZVluYTlYeGJHaUdFdXFHWERndGo5QUFHdTFEVHNMckRzVU45RWdUMDB2eXNlcE92WUxkMGhRMHNmcVlCODNWblptS2prNGpJellRZWc?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "2027년 상반기 객실 최대 28% 할인…신라호텔, 첫 '블랙 프라이데이' 개막",
-     "outlet": "열린뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Wb29qM0dNVmh4bFZsd2EtS0o0MUUwMjdxRlo5eUJCVmFwQ2dMR2JIUEVOVUtvMW5aeHExZlpUT3puZEp6bnMzWFVPOTBDTHZLa1Zla1lsV3BBZjhucTNiVlI2eDRyQQ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, ‘블프’ 프로모션...객실 최대 28% 할인 外",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02T2FXYjB5bEQ1RC1tRXp5ZlpESlB6R0RZZ05ULUJ6OFBSYUcyX3U1cC02cUVvUHRTcktmdnJ2UlFuY2k3eVM3QkpIWjYyelpmaTJLLWNPWGpXbzVBcUlERzVVaFJlUQ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔, 첫 블랙 프라이데이…내년 상반기 객실 최대 28% 할인",
-     "outlet": "연합뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsc1RzNnNJNEZoYkhxcUdkWWs3ZGhrRkN5dGppNWVsT21pTE1rdVAwYWZ5X2I1S3Z1VXJzUWU4VldIclYwbEdFRTFQM2VCVHh2LVdWZ0NyeGVBTHJ1clRaQdIBYEFVX3lxTFBsc1RzNnNJNEZoYkhxcUdkWWs3ZGhrRkN5dGppNWVsT21pTE1rdVAwYWZ5X2I1S3Z1VXJzUWU4VldIclYwbEdFRTFQM2VCVHh2LVdWZ0NyeGVBTHJ1clRaQQ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔, 내년 상반기 객실 최대 28% 할인…블랙프라이데이 특가",
-     "outlet": "아시아경제",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IeU5PNGVLZmlBVW95QTFVa1JTbHRzdGdjamkwd29vWXdkZUZQaHBwVGE4eFo4YkxtbkIzSk9WZEFZVHBERGRvMTZscGEtRmlmSExaMzFsUWR1TzVtbXBCVQ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 '블랙 프라이데이'…내년 상반기 객실 최대 28% 할인",
-     "outlet": "뉴스1",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0dGI3Skg3U1k0dEowMWpwbWpURTBHV1RhR1pDM1Y2X1hDZUw5SlRuYlRiVnZtcEpmZjk4TkNjaElja1VRREZOekswWVlEZUJYZlpiY2UwRlRYWHBVNEh3?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 블랙 프라이데이 행사…내년 객실 최대 28% 할인",
-     "outlet": "세계일보",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oa3VLUTZ6c2pwNHJDdERWYUxOTGJUMHl4OWRrTEFKdHNrS2E2RHdSLVZpQVZ4bG1aRWoxLTVINlU3MEVoSGFjQm9rczNWY2hBakota2FpeFDSAVRBVV95cUxON2RfcG5FSVM2elBLSVV5Y3FUOVpEczhFeG9CekRjbTFLMk9iZnp1U1VVVkxZQ21jQms4WUhiM01FT2ZjRDBoY0o1WjJnSDlJa29Xc1I?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 '블랙 프라이데이' 프로모션…최대 28% 할인",
-     "outlet": "브레이크뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5jY2VMaU1DZndyZzBOcDRCcktGNXBYLURYUTFEWFM4OEE3d3ZNcW1XdXZTME5JeTJVVkxSYXl5NTkwZw?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔, 블랙 프라이데이 기념…새해 객실 예약 최대 28% 할인",
-     "outlet": "중앙신문",
-     "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPeDBMVEVSMV80VENQdGs2WmtnMWwzUWplLWVHeXlobUt0TVdjQy04WXhqMTNUN1hFT0ZGZ2JTaDM4bFNBMHh6cXpMTll5NUZxU2F5Mkt5ZkFFZlNoOTh1QjZNMXlKQVpLa3JWb3dyN3BvQlBPM1lGOENFN1g1TzREZ0tJUVh0Q3Z4ZXlxRXItMnVCdHNpNmJOVHo5S1ZiOG42TUY1ZXhYSHVVTnFZOVpQNm1IYnUycVlDU0hJbk5tRGpJeFBIM0FtSVdDSkNKSnNGbXgtYnROX2U2Zm83eklnelFhQ1NDX0xPX2I2UnpsZ2JSYk1mQWpmdWZkaHFXTzE4blJsZE85Q2I2LVNYQkNReXRtb3gydWgzQWZ0NFBpLWo3SnJrTU1sdDMtR0d1M3FYbmJXNlEyUnFkOVBMdWZkSGgxbFF5RkxMZHY1eHRNWDVHNTlwcmE2OTBhVFJhVUtJSzJPQ19FdHAwUEJBUW9rLUtHVlF0ODFfelln?oc=5",
-     "published": "2026-11-06"
     }
    ],
    "status": "live"
@@ -5660,6 +5696,64 @@
    "status": "undated"
   },
   {
+   "id": "h-shilla-ca730e82b9",
+   "airline_id": "h-shilla",
+   "airline": "신라호텔",
+   "airlines_mentioned": [
+    "신라호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "블프 프로모션",
+   "headline": "신라호텔앤리조트, ‘블프’ 프로모션...객실 최대 28% 할인 外",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "신라호텔앤리조트, ‘블프’ 프로모션...객실 최대 28% 할인 外",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02T2FXYjB5bEQ1RC1tRXp5ZlpESlB6R0RZZ05ULUJ6OFBSYUcyX3U1cC02cUVvUHRTcktmdnJ2UlFuY2k3eVM3QkpIWjYyelpmaTJLLWNPWGpXbzVBcUlERzVVaFJlUQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 28%",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T09:14:11+09:00",
+   "last_seen": "2026-11-06T16:24:46+09:00",
+   "articles": [
+    {
+     "title": "신라호텔앤리조트, ‘블프’ 프로모션...객실 최대 28% 할인 外",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02T2FXYjB5bEQ1RC1tRXp5ZlpESlB6R0RZZ05ULUJ6OFBSYUcyX3U1cC02cUVvUHRTcktmdnJ2UlFuY2k3eVM3QkpIWjYyelpmaTJLLWNPWGpXbzVBcUlERzVVaFJlUQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 ‘블프 프로모션’…객실 최대 28% 할인",
+     "outlet": "뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9tS3ZMRC1xVXh1aW8tdUExdEhsQnpoUFBoRUMybjBJdjFtS3g1b1l0OWNQSVdIaHUwMmctaFdaQU5tZjJQZFZydlYyUzJBQ01uNUFWRUFtQ0ZaTkZlelE?oc=5",
+     "published": "2026-11-06"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-shilla-d5267a69d2",
    "airline_id": "h-shilla",
    "airline": "신라호텔",
@@ -5805,6 +5899,58 @@
      "title": "Macy’s ‘Very Soft’ Italian Cotton Duvet Set Makes Your Bed Feel Like a Hotel, Now 70% Off",
      "outlet": "Parade Magazine",
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd2JEbVpwQnp3Y1VQUlRVZXFaOHZ0dk84UEo0N0lQbGV2SHg0RV9pWEpaQUVONDR5aUxsMDVUR1pKWTJWQWgxZWNCRmdES1MxSU11b2ZJYTZoWjJNRTRaTjh0Q3ptR2pqTGZmd1EycTJaNkpHbGw2azlabEw0ZGFLX1dhYktSSzJrR0tzVTZ4Y3U?oc=5",
+     "published": "2026-11-06"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-292601bd98",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Hotel group offers up to 70% discounts in Christmas stay vouchers MANILA – The Hotel Sales and Marketing Association (HSMA) has rolled out a pre-Christmas “book & buy voucher” program, offering up to 50 to 70 percent discounts on accommodation for to",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Hotel group offers up to 70% discounts in Christmas stay vouchers MANILA – The Hotel Sales and Marketing Association (HSMA) has rolled out a pre-Christmas “book & buy voucher” program, offering up to 50 to 70 percent discounts on accommodation for to",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX1pvbV9WYWxabnVxSnktMllEei14ZEwzUTJoS1Q2azk1dEozeFNMRE9hSXJyLWF1QlFhbDFRZHpCbWtJSTVGUWhxMzRSNVNwRlc5RldHczJLazhXeWtmUHJ3LUdONzNmX1dLQTVHY051bGhjYXFSc0ZrdUQzSFVUYXpBWURtdUVvcHNBNncwQ1k5YndWRDJnSERLVGdRbnRwYlZqTlBSdEtaWjZ5SnZaWGZPT1RqWlZHbnJsalhxUUtJRGVFS09mQk1Say1jSGRWVEgtcQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 70%",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T16:24:46+09:00",
+   "last_seen": "2026-11-06T16:24:46+09:00",
+   "articles": [
+    {
+     "title": "Hotel group offers up to 70% discounts in Christmas stay vouchers MANILA – The Hotel Sales and Marketing Association (HSMA) has rolled out a pre-Christmas “book & buy voucher” program, offering up to 50 to 70 percent discounts on accommodation for to",
+     "outlet": "Facebook",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX1pvbV9WYWxabnVxSnktMllEei14ZEwzUTJoS1Q2azk1dEozeFNMRE9hSXJyLWF1QlFhbDFRZHpCbWtJSTVGUWhxMzRSNVNwRlc5RldHczJLazhXeWtmUHJ3LUdONzNmX1dLQTVHY051bGhjYXFSc0ZrdUQzSFVUYXpBWURtdUVvcHNBNncwQ1k5YndWRDJnSERLVGdRbnRwYlZqTlBSdEtaWjZ5SnZaWGZPT1RqWlZHbnJsalhxUUtJRGVFS09mQk1Say1jSGRWVEgtcQ?oc=5",
      "published": "2026-11-06"
     }
    ],

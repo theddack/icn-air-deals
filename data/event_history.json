@@ -81,6 +81,13 @@
    "sale_start": "2026-11-14",
    "sale_end": "2026-11-29"
   },
+  "h-shilla|2026-11-06|블랙프라이데이": {
+   "airline_id": "h-shilla",
+   "airline": "신라호텔",
+   "name": "블랙 프라이데이",
+   "sale_start": "2026-11-06",
+   "sale_end": "2026-11-19"
+  },
   "h-skyscanner|2026-11-01|1111쇼핑데이": {
    "airline_id": "h-skyscanner",
    "airline": "스카이스캐너",
