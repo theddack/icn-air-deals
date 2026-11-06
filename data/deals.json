@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T02:38:58+09:00",
+ "generated_at": "2026-11-06T09:14:11+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1508,
+  "rss_items": 1495,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1929,
+  "outlet_items": 2046,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_enriched": 1,
   "mail_articles": 6,
   "mail_new_articles": 0,
-  "articles_with_summary": 34,
-  "articles": 621,
-  "new_articles": 0,
-  "deals": 102
+  "articles_with_summary": 35,
+  "articles": 627,
+  "new_articles": 6,
+  "deals": 104
  },
  "deals": [
   {
@@ -1248,7 +1248,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "여기어때, 경북 동해안 5개 지역 숙박 할인 페스타 진행",
+   "headline": "정명훈 여기어때 대표, 경북 동해안 숙소 최대 3만원 할인",
    "sale_start": null,
    "sale_end": "2026-11-06",
    "travel_start": null,
@@ -1267,18 +1267,30 @@
      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81bk9wXy1ZMnpMdkZ6N0diU1RKeUNBcW1Gcll5R29BNEF0RHd6ZVpjaTFrYUZkMFdja2lzbVJCV1ZsRGxsYWF4QkFrZmpGYnBlNnByT3ZQM1dTZ3JBNGZTa21QV0hjUDdocE9PZlExWWZhMjRBWldpdFVpWGF3dw?oc=5"
     },
     "discount": {
-     "title": "겨울 동해 여행 숙박비 낮춘다…여기어때, 경북 5개 지역 최대 3만원 할인",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZdC13bG9sNHg0cnJiWi0xbUdiTk5yNXdqWVFtdU5qZm5pS2dlV0l5WXdQWWhWVGhJV2RRcnBPNElpMVhwQlg0b0FsdHBwVFl6a2NfZHhIUFQ5dUNNMS1Ub2pYMjRkaWtIREo0VzdDNVA0Zw?oc=5"
+     "title": "정명훈 여기어때 대표, 경북 동해안 숙소 최대 3만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3LTNKNl9sMGE1X25GV0tsd2d4dlBCVVR6UGVnT2tZWWN5dTRyZ1BLdHdXQXVkbVBSQjZ2MDAtMVJGQjZrUExobmdRcW9YOEZ2X1Y4WFRjbjdvWktCN3paUERKakRacnfSAWtBVV95cUxOOE5RQUgzeHVDczFJbU5LY3loLVcyR2FMRlJOOVRrbG5xRUFWbndtcExGTm03U0pJLWJJX0VfUGYxeVlIaXNoNGJSbkt2d3JjZkxRY1lUR2pTd282NmhYdXotWGFCTW96Ym5vYw?oc=5"
     }
    },
    "from_icn": null,
    "discount": "최대 3만원 할인",
    "verification": "news",
    "first_published": "2026-10-28",
-   "last_published": "2026-11-03",
+   "last_published": "2026-11-04",
    "first_seen": "2026-10-28T10:19:38+09:00",
-   "last_seen": "2026-11-04T09:14:12+09:00",
+   "last_seen": "2026-11-06T09:14:11+09:00",
    "articles": [
+    {
+     "title": "정명훈 여기어때 대표, 경북 동해안 숙소 최대 3만원 할인",
+     "outlet": "CEO저널",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3LTNKNl9sMGE1X25GV0tsd2d4dlBCVVR6UGVnT2tZWWN5dTRyZ1BLdHdXQXVkbVBSQjZ2MDAtMVJGQjZrUExobmdRcW9YOEZ2X1Y4WFRjbjdvWktCN3paUERKakRacnfSAWtBVV95cUxOOE5RQUgzeHVDczFJbU5LY3loLVcyR2FMRlJOOVRrbG5xRUFWbndtcExGTm03U0pJLWJJX0VfUGYxeVlIaXNoNGJSbkt2d3JjZkxRY1lUR2pTd282NmhYdXotWGFCTW96Ym5vYw?oc=5",
+     "published": "2026-11-04"
+    },
+    {
+     "title": "[단독] 공정위 무시하는 CVC·정명훈 號 여기어때, 인기 추천 숙소 65%가 '유령 정가'",
+     "outlet": "로이슈",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9rWGVUalVYVlh5cVBkMk5vVDJxUXdsT0twb2FXeFRGWlNKZDNPMk1pdEFtR2lGbDhLNWNOb1NYWE1uM3NwQzhsRDZKMXNKMzRRZU1oMHFpOGxsRU1mTVlwN0RoNzN4bHlvWEtBbTZjN3ozQjdMR3Mwb25B?oc=5",
+     "published": "2026-11-03"
+    },
     {
      "title": "여기어때, 경북 동해안 5개 지역 숙박 할인 페스타 진행",
      "outlet": "더퍼스트미디어",
@@ -1338,6 +1350,66 @@
      "outlet": "소셜밸류",
      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3REtCcUhXMXY2ek03MHJYVkl1Q3lPUEl1WUN3VDJxUjA2aGtucmVoRmxDSy1pMVk2dUI4ZTFLaUNwSkZDVzBCVi16MF9vMWg3UjJuV2FJNHNqNll6NDZIV21nUdIBbEFVX3lxTE5BeUdxRGZZVTN4bm8xU29FekFFM2Exc3RCY1Jwc05sWWhpMkd3NGYwMC0zOXR6YUg0TkRGTGxHREF6OHg0OEFnelQ0dTZ1Z19aQXoxUUtqTFZsNm9MZzZJdDZJMUUycFd5b1JCSA?oc=5",
      "published": "2026-10-28"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-yeogi-c090c2ef0b",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "\"여기어때 대만 여행 10만원 쿠폰팩 푼다\" 대만관광청과 숙소·항공·투어 총출동",
+   "sale_start": "2026-11-06",
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "대만"
+   ],
+   "conditions": [
+    "쿠폰"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "ER 이코노믹리뷰 요약문: …)는 대만관광청과 함께 숙소와 항공권 해외투어를 아우르는 대만 여행 할인 프로모션을 6일 시작한다고 밝혔다.…",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=756248"
+    },
+    "discount": {
+     "title": "ER 이코노믹리뷰 요약문: …기어때가 자체 발급하는 해외 숙소 최대 10% 할인 쿠폰과 중복해서 쓸 수 있어 실제 할인 폭은 더 커진다.…",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=756248"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 10%",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T09:14:11+09:00",
+   "last_seen": "2026-11-06T09:14:11+09:00",
+   "articles": [
+    {
+     "title": "\"여기어때 대만 여행 10만원 쿠폰팩 푼다\" 대만관광청과 숙소·항공·투어 총출동",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNaUV6TjBrdWNVc2UySHlsanlfX0FpZDBvWmp0bmpvR0tzOTVzUGdFSzZHb2FsSU84NnZTVEMzVXA1TE5RSWxTNDV3UnFWY3NwRmI2SXk1SU1ncHZSS0pQMEtfY2RJU1M5ZlVieA?oc=5",
+     "published": "2026-11-06"
     }
    ],
    "status": "live"
@@ -4621,53 +4693,6 @@
    "status": "undated"
   },
   {
-   "id": "h-yeogi-ab4563033f",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "[단독] 공정위 무시하는 CVC·정명훈 號 여기어때, 인기 추천 숙소 65%가 '유령 정가'",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-03",
-   "last_published": "2026-11-03",
-   "first_seen": "2026-11-03T18:16:04+09:00",
-   "last_seen": "2026-11-03T18:16:04+09:00",
-   "articles": [
-    {
-     "title": "[단독] 공정위 무시하는 CVC·정명훈 號 여기어때, 인기 추천 숙소 65%가 '유령 정가'",
-     "outlet": "로이슈",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9rWGVUalVYVlh5cVBkMk5vVDJxUXdsT0twb2FXeFRGWlNKZDNPMk1pdEFtR2lGbDhLNWNOb1NYWE1uM3NwQzhsRDZKMXNKMzRRZU1oMHFpOGxsRU1mTVlwN0RoNzN4bHlvWEtBbTZjN3ozQjdMR3Mwb25B?oc=5",
-     "published": "2026-11-03"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-clubmed-561b8f7f14",
    "airline_id": "h-clubmed",
    "airline": "클럽메드",
@@ -5331,6 +5356,117 @@
      "outlet": "News.com.au",
      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSDU1ZHZvLWhRYTdyZ1RraG82cnBfV1FjalVNNlRkWjFyUlA5WV9FY0cyaG9GajFUTC1UQVlwN0JyOFV4aWxTLVZFc2c0eVFyamc2c1hhZnZ6andkeTA1QU9mV2VlV1VmYi1RdUREUVJTVFFzd1JjVlFGMllVYkhiZlRBRV9sMjRFV0dSaDZoZFRXSWN0Q0RXUDM3NGpjdzBZTnBQY2doNjA1eFg3RTRKM0VmR0JZdzB1RkxwX0JBVjE3RHllR0VqYUNfbExQMDhwSlRHZzJWT3l0cDdoZ3E4?oc=5",
      "published": "2026-11-05"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-shilla-03093ea52c",
+   "airline_id": "h-shilla",
+   "airline": "신라호텔",
+   "airlines_mentioned": [
+    "신라호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "신라호텔, 첫 블랙프라이데이 최대 28% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "신라호텔, 첫 블랙프라이데이 최대 28% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TUnFrQnBDNGVmejNKRnlpeTFBWlNSNm95dERuN04wbGVIMERrUVI5WTdYdl9nU3pTemFadnZGOWtEdll0ZllmYjc2Wm9WdjNTc2gySnRJOTFteDlKemtxS3d6OHkxS2FvX2c?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 28%",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T09:14:11+09:00",
+   "last_seen": "2026-11-06T09:14:11+09:00",
+   "articles": [
+    {
+     "title": "신라호텔, 첫 블랙프라이데이 최대 28% 할인",
+     "outlet": "trndf.com",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TUnFrQnBDNGVmejNKRnlpeTFBWlNSNm95dERuN04wbGVIMERrUVI5WTdYdl9nU3pTemFadnZGOWtEdll0ZllmYjc2Wm9WdjNTc2gySnRJOTFteDlKemtxS3d6OHkxS2FvX2c?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, ‘블프’ 프로모션...객실 최대 28% 할인 外",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02T2FXYjB5bEQ1RC1tRXp5ZlpESlB6R0RZZ05ULUJ6OFBSYUcyX3U1cC02cUVvUHRTcktmdnJ2UlFuY2k3eVM3QkpIWjYyelpmaTJLLWNPWGpXbzVBcUlERzVVaFJlUQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔, 내년 상반기 객실 최대 28% 할인…블랙프라이데이 특가",
+     "outlet": "아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IeU5PNGVLZmlBVW95QTFVa1JTbHRzdGdjamkwd29vWXdkZUZQaHBwVGE4eFo4YkxtbkIzSk9WZEFZVHBERGRvMTZscGEtRmlmSExaMzFsUWR1TzVtbXBCVQ?oc=5",
+     "published": "2026-11-06"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-e8b4fe2864",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Sandals and Beaches Resorts Launch Black Friday Sale",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T09:14:11+09:00",
+   "last_seen": "2026-11-06T09:14:11+09:00",
+   "articles": [
+    {
+     "title": "Sandals and Beaches Resorts Launch Black Friday Sale",
+     "outlet": "Recommend Magazine",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZUJLR1VxZGYwSDYzbHkxY1I4Zk1PWVJKVVF5S1BTQ0luUkpiR1J4QktoTlJzWTFoS1kydXVoLURHOGJCRXpnbjMwYThNcUFWbnJuamFEUm5LNkd3cmtSc0hrVmFhcFRnNTk1RDFEemNPNEdTUjBZNE5fcnVKcWpBOFhmVGlVZy1mZDJkM1dmZFEzVk9Bb2pMYlNFU0FKeUc1YnVIMUl0SkJ5aDg?oc=5",
+     "published": "2026-11-06"
     }
    ],
    "status": "undated"

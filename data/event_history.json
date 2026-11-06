@@ -102,6 +102,13 @@
    "sale_start": "2026-09-22",
    "sale_end": null
   },
+  "h-yeogi|2026-11-06|여기어때대만여행10만원쿠폰팩푼다대만관광청과숙": {
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "name": "\"여기어때 대만 여행 10만원 쿠폰팩 푼다\" 대만관광청과 숙소·항공·투어 총출동",
+   "sale_start": "2026-11-06",
+   "sale_end": null
+  },
   "trinity|2026-10-30|트리니티항공제주행왕복항공권최대2만원할인프로모": {
    "airline_id": "trinity",
    "airline": "트리니티항공",
