@@ -2274,33 +2274,17 @@
     "new": "2026-11-06"
    }
   },
-  "h-shilla-7043d0430d": {
+  "h-shilla-ca730e82b9": {
    "info": {
     "airline": "h-shilla",
-    "name": "블랙프라이데이",
+    "name": "블프프로모션",
     "sale_start": null,
-    "sale_end": "2026-11-19",
+    "sale_end": null,
     "dests": [],
     "last": "2026-11-06",
     "urls": [
-     "03093ea52c",
-     "218e67082e",
-     "227f99d686",
      "3dabefc45f",
-     "3f821dbb90",
-     "69cbd4963c",
-     "7043d0430d",
-     "75d86a9992",
-     "7edb2bda9c",
-     "93213ff998",
-     "99427ce633",
-     "a12fbbfd42",
-     "aeaeebacbb",
-     "aed410be0a",
-     "b6663ea06c",
-     "eb8a068fba",
-     "faaf1726ff",
-     "fd82b8a2f2"
+     "ca730e82b9"
     ]
    },
    "kinds": {
@@ -2347,7 +2331,7 @@
    "morning": "sent"
   }
  },
- "saved_at": "2026-11-06T13:23:14+09:00",
+ "saved_at": "2026-11-06T16:30:15+09:00",
  "drops_day": "2026-11-06",
  "drops": {
   "BKK": {
