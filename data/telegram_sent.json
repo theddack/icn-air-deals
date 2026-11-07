@@ -84,21 +84,6 @@
     "closing_tomorrow": "2026-10-26"
    }
   },
-  "jejuair-0c3cd04418": {
-   "info": {
-    "airline": "jejuair",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-08",
-    "dests": [],
-    "urls": [
-     "0c3cd04418"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26"
-   }
-  },
   "h-yeogi-5c8be00dba": {
    "info": {
     "airline": "h-yeogi",
@@ -1541,25 +1526,6 @@
     "closing_today": "2026-11-01"
    }
   },
-  "h-josun-1a4e1d1d9f": {
-   "info": {
-    "airline": "h-josun",
-    "name": "쓱데이",
-    "sale_start": null,
-    "sale_end": "2026-11-08",
-    "dests": [],
-    "last": "2026-11-01",
-    "urls": [
-     "1a4e1d1d9f",
-     "35ba73e2ef",
-     "86e4467622",
-     "cb75b7103f"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-01"
-   }
-  },
   "h-josun-2802988f3a": {
    "info": {
     "airline": "h-josun",
@@ -2122,51 +2088,6 @@
     "new": "2026-11-05"
    }
   },
-  "h-stayfesta-6177623c6d": {
-   "info": {
-    "airline": "h-stayfesta",
-    "name": "숙박세일페스타",
-    "sale_start": "2026-09-22",
-    "sale_end": "2026-11-08",
-    "dests": [],
-    "last": "2026-10-24",
-    "urls": [
-     "0164aef066",
-     "024cedd8b5",
-     "026af38bc2",
-     "0badc13143",
-     "0c51bf01cc",
-     "0cc26f64f4",
-     "107f1b3a98",
-     "12f663d1b4",
-     "1efdfc96ae",
-     "25d72a1817",
-     "276c379152",
-     "381955d876",
-     "38e62e271c",
-     "3bc9862aff",
-     "48daec1eb8",
-     "4bbf6fcb7a",
-     "52ec7f2bfd",
-     "5ad47d8cfa",
-     "6177623c6d",
-     "61d8ea006e",
-     "6370b8d9df",
-     "6906dea9c1",
-     "69397efdfc",
-     "6b9f8a0104",
-     "6f4dd558d7",
-     "75c88886d5",
-     "7c6b2863c1",
-     "815a41ffeb",
-     "818a0515ba",
-     "81bceaf06d"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26"
-   }
-  },
   "h-yeogi-e795a43d64": {
    "info": {
     "airline": "h-yeogi",
@@ -2444,6 +2365,93 @@
    "kinds": {
     "new": "2026-11-05"
    }
+  },
+  "h-stayfesta-6177623c6d": {
+   "info": {
+    "airline": "h-stayfesta",
+    "name": "숙박세일페스타",
+    "sale_start": "2026-09-22",
+    "sale_end": "2026-11-08",
+    "dests": [],
+    "last": "2026-10-24",
+    "urls": [
+     "0164aef066",
+     "024cedd8b5",
+     "0badc13143",
+     "0cc26f64f4",
+     "12f663d1b4",
+     "1efdfc96ae",
+     "25d72a1817",
+     "38e62e271c",
+     "4bbf6fcb7a",
+     "52ec7f2bfd",
+     "6177623c6d",
+     "61d8ea006e",
+     "6370b8d9df",
+     "69397efdfc",
+     "6f4dd558d7",
+     "75c88886d5",
+     "7c6b2863c1",
+     "815a41ffeb",
+     "818a0515ba",
+     "81bceaf06d",
+     "90f45594f7",
+     "9320ecd5d8",
+     "a75e4e8ed9",
+     "aa7cd9edcc",
+     "b2f36cdefd",
+     "bc3e12030d",
+     "beae54f530",
+     "bf10423d81",
+     "c2a2d2f1c5",
+     "c32bfad171"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26",
+    "closing_tomorrow": "2026-11-07"
+   }
+  },
+  "jejuair-0c3cd04418": {
+   "info": {
+    "airline": "jejuair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-08",
+    "dests": [],
+    "last": "2026-10-28",
+    "urls": [
+     "0c3cd04418",
+     "7776954d9a",
+     "aa735db999"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26",
+    "closing_tomorrow": "2026-11-07"
+   }
+  },
+  "h-josun-1a4e1d1d9f": {
+   "info": {
+    "airline": "h-josun",
+    "name": "쓱데이",
+    "sale_start": null,
+    "sale_end": "2026-11-08",
+    "dests": [],
+    "last": "2026-11-01",
+    "urls": [
+     "1a4e1d1d9f",
+     "35ba73e2ef",
+     "86e4467622",
+     "a530d224f4",
+     "cb75b7103f",
+     "f1d4bbf093"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-01",
+    "closing_tomorrow": "2026-11-07"
+   }
   }
  },
  "slots": {
@@ -2481,10 +2489,11 @@
    "evening": "sent"
   },
   "2026-11-07": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-07T13:23:01+09:00",
+ "saved_at": "2026-11-07T18:21:37+09:00",
  "drops_day": "2026-11-07",
  "drops": {
   "BKK": {
