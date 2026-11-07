@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T22:17:35+09:00",
+ "generated_at": "2026-11-08T00:55:10+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1549,
+  "rss_items": 1518,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1710,
+  "outlet_items": 1623,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 37,
-  "articles": 635,
+  "articles": 620,
   "new_articles": 0,
-  "deals": 107
+  "deals": 104
  },
  "deals": [
   {
@@ -192,7 +192,7 @@
    "official_url": null,
    "iata": [],
    "agencies": [],
-   "event_name": "숙박세일 페스타",
+   "event_name": "숙박세일페스타",
    "headline": "‘여름 숙박세일 페스타’로 지역관광 활성화 나선다",
    "sale_start": "2026-09-22",
    "sale_end": "2026-11-08",
@@ -202,8 +202,8 @@
    "regions": [
     "전남광주",
     "경남",
-    "가평",
-    "강원"
+    "강원",
+    "비수도권"
    ],
    "conditions": [
     "연박",
@@ -262,6 +262,12 @@
      "title": "여기어때, 가평 전 숙소 대상 ‘2026 가평군 숙박세일 페스타’ 전개",
      "outlet": "파이낸스투데이",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIdEVQTzczUVV5SDQ3VjVnamFFVktiY1JTVnp1eEtJM2RiT0RrSWN3MTZoUXVmSlEzenR4RlBNUVlYUGI5OEFGb2h6OW9ERktISVpaTzBhaWF2clNhYkpvWnI1R1Q3UUFNZGJyTg?oc=5",
+     "published": "2026-10-02"
+    },
+    {
+     "title": "\"교통비가 더 나온다?\" 단풍 시기·가을여행·숙박세일페스타",
+     "outlet": "판다랭크",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5xS25xT1Z2NmJWSlZldjdHdzRybkJMdVY4bnJpQWFGTjhJQm0zTmotOWNsYjNUMldPTmN1SHhTS19OM29WbWow?oc=5",
      "published": "2026-10-02"
     },
     {
@@ -409,63 +415,9 @@
      "published": "2026-09-24"
     },
     {
-     "title": "전진선 양평군수, 가을 관광객 잡는다…‘숙박세일 페스타’ 가동",
-     "outlet": "비욘드포스트",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1WSjVZTjhIYnpkYVMwaDRfVy05V2d1Qnh4SHVUYUhkbTlxaWpSdDhlOXh6emI1RnlnVHQwMDV6OXRZblBWbUlXNjZMT0l1NDc0eml1aWxjNC1zcU4wRHZCUE1mQjlBdy1adWRtNmY3MVF5TnlVRHR1ejZGVVA?oc=5",
-     "published": "2026-09-23"
-    },
-    {
-     "title": "가을 숙박세일페스타, 연박시 최대 7만원 할인",
-     "outlet": "숙박매거진",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYR29ldTREeC04N2hkSjE4Z3Y4bTFRZTh1QmpIX1dLVG4xa0lvNGhNSTNnNTRDbDNtbDYyQS1UU2hKRzVfTktXU1BQWU85VVhpYm1EWUcwWEI3OFpELS13bFR6ME5YQTJ5RlVKbUp2b0oyZw?oc=5",
-     "published": "2026-09-23"
-    },
-    {
-     "title": "양평군, 숙박세일 페스타로 체류형 관광 활성화 추진",
-     "outlet": "전국매일신문",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PUzFoYnQ0aldVRlZUckxiRzQwdDdzMzVuN3lKWng4WDlDTUg4M1cyemJ1aGFCQ1N5WTV6aU5uZGFyTnMwSXhnbXpLRnVwSjRHVURDVUVKUF83WjFoZHBlV0t3ZmZiaWJsM1dMdE13?oc=5",
-     "published": "2026-09-23"
-    },
-    {
      "title": "경남 가을여행 숙박비 최대 7만원 할인···11월8일까지 ‘숙박세일 페스타’",
      "outlet": "스마트비즈",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QWDhOWUFxMTI0b3JVaGs5V1JlMzBTZjBmX0N6b3k5d3F1c2pldjdpbmZ0aThtRjBfYURTV3lWWTdrWTljRUtVU0ZUSklCVGJ6MFdtclg3ekZXUm56Y3dNdFNxanJiTWtKczVfcA?oc=5",
-     "published": "2026-09-23"
-    },
-    {
-     "title": "양평군, '2026년 양평군 숙박세일 페스타'로 숙박·야영장 할인",
-     "outlet": "매일일보",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SWkxIaTV6TXNSSWtXQkY2V3RGWEhFd0dkTDhMX0NSYmJBRDVyN0E4ZFhxVVJlWFVUOGt2SDMtclRYdG5PbFh4bDViaUZHQ2toLXQ3b2ZHLVVpWVN6TktVYUpHN3k?oc=5",
-     "published": "2026-09-23"
-    },
-    {
-     "title": "\"경남에서 푹 쉬다 가세요!\" 숙박세일 페스타 개최",
-     "outlet": "매일신문",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81WEh5WmxVZDdQdG5PNDBUUVFBbXZ2bTNDY29nQURfX3ZUbHRpdlBTdWxCVVQzTXM4M1Fyd21sVHRWNzRYYklaZ3JjWnZmTlBFbVM4ekc2MzE2Zlg2UHpsMEhn?oc=5",
-     "published": "2026-09-23"
-    },
-    {
-     "title": "가평군, 하반기 숙박세일 페스타…\"2만~3만원 할인\"",
-     "outlet": "뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBuVU9wNEJTSlZJU0d6U0FJZzlwQUlyMTlnODAzZ2NuUk9ORUUtM1FESTl6RWtzWFZOZWl1bVZOeWVvM0FzNHE3NTlIc2VLUXI3YmNQSDRRRTdWVkF2bzZ5ONIBeEFVX3lxTE9YR3ExMEpwdXZOem13Ui1VM3VrYzhuYXpHVEZsUFJuNmptbmdjdFVOWldGQ1F5RGVDamk1X09PNjNMbFBpcDNRSVFNQ09FNUNFM3F1NExXd2FwQ3dLZFhQeElIYWhRcU9HcnkzSTlMMVVxRzhpQW13OQ?oc=5",
-     "published": "2026-09-23"
-    },
-    {
-     "title": "“경남에서 쉬어가는 가을”... 숙박세일 페스타 추진",
-     "outlet": "누리일보",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpcDV0ZENkZFJEX3RfMmZpOHMxUnBXdG9zZzNuSVlBOFUzbXFUMDhER1g3VUt5cVBRMVdWUERUXzFvb1RQa3B1amNDdUhZeTVkQUJHUFB4ckRaMlQ2?oc=5",
-     "published": "2026-09-23"
-    },
-    {
-     "title": "경남도,대한민국 숙박세일 페스타 추진…가을 여행객 유치",
-     "outlet": "뉴스핌",
-     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MX243T3ZPSnNIcF9wNmhWVUpaZzBhUE5lRWNCNEdCLW9EemhhMWx1UmJTQmFTMVN2OUVrVGh3US1leE9ZVW93UG9HcTRaX2xibzhKa1VVLThraDVC?oc=5",
-     "published": "2026-09-23"
-    },
-    {
-     "title": "[지역경제] 가평군, 하반기 숙박세일 페스타···숙박 예약 전년보다 8827건 증가",
-     "outlet": "브릿지경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kVXBZU3pqaTB1X3lRZU0tNFRNNEZ4d1FfY0FWd0JhMWF5c056Y0NDWjBoVDBrYUstUFZ4dll6ZWozNGYtM3czOWY0cmVoVEQtdkd1cmRoaU9FQQ?oc=5",
      "published": "2026-09-23"
     },
     {
@@ -2288,60 +2240,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "jejuair-778daf7c87",
-   "airline_id": "jejuair",
-   "airline": "제주항공",
-   "airlines_mentioned": [
-    "제주항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.jejuair.net/",
-   "iata": [
-    "7C"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "제주항공, 인천~센다이 내년 1월 취항...최대 20% 할인행사",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "제주항공, 인천~센다이 내년 1월 취항...최대 20% 할인행사",
-     "url": "https://www.slist.kr/news/articleView.html?idxno=776014"
-    }
-   },
-   "from_icn": "yes",
-   "discount": "최대 20%",
-   "verification": "news",
-   "first_published": "2026-10-24",
-   "last_published": "2026-10-24",
-   "first_seen": "2026-10-24T09:40:28+09:00",
-   "last_seen": "2026-10-24T09:40:28+09:00",
-   "articles": [
-    {
-     "title": "제주항공, 인천~센다이 내년 1월 취항...최대 20% 할인행사",
-     "outlet": "싱글리스트",
-     "url": "https://www.slist.kr/news/articleView.html?idxno=776014",
-     "published": "2026-10-24"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "h-tripcom-7bb2e85132",
@@ -5863,121 +5761,6 @@
    "status": "stale"
   },
   {
-   "id": "airpremia-353c91f823",
-   "airline_id": "airpremia",
-   "airline": "에어프레미아",
-   "airlines_mentioned": [
-    "에어프레미아"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airpremia.com/",
-   "iata": [
-    "YP"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": null,
-     "destination": "한국"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUnRZeDJtUEJkZXJLVzJMR2xWNUs3bm11ZzZQNDlnaXZwRmpmemo2c0FHUzdmVUxFa2NSck91dEJwdFJfelMxcTkxWEp3SmVvVjZsN1MtVmRWOUZJWW5YZzV1ZzNkTXV2RHRmM1EzcXJwbmxVeVhuNUxraC1td09mWGZlMTFoYTNqLWVzZm12anNpOEtvYWxHZFVLSXdYQQ?oc=5"
-    },
-    "route": {
-     "title": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUnRZeDJtUEJkZXJLVzJMR2xWNUs3bm11ZzZQNDlnaXZwRmpmemo2c0FHUzdmVUxFa2NSck91dEJwdFJfelMxcTkxWEp3SmVvVjZsN1MtVmRWOUZJWW5YZzV1ZzNkTXV2RHRmM1EzcXJwbmxVeVhuNUxraC1td09mWGZlMTFoYTNqLWVzZm12anNpOEtvYWxHZFVLSXdYQQ?oc=5"
-    }
-   },
-   "from_icn": "no",
-   "discount": "최대 80%",
-   "verification": "news",
-   "first_published": "2026-10-08",
-   "last_published": "2026-10-08",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-15T10:12:09+09:00",
-   "articles": [
-    {
-     "title": "에어프레미아, 추석맞이 한국행 항공권 최대 80% 할인",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUnRZeDJtUEJkZXJLVzJMR2xWNUs3bm11ZzZQNDlnaXZwRmpmemo2c0FHUzdmVUxFa2NSck91dEJwdFJfelMxcTkxWEp3SmVvVjZsN1MtVmRWOUZJWW5YZzV1ZzNkTXV2RHRmM1EzcXJwbmxVeVhuNUxraC1td09mWGZlMTFoYTNqLWVzZm12anNpOEtvYWxHZFVLSXdYQQ?oc=5",
-     "published": "2026-10-08"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "h-other-605ee56f95",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "EXPIRED: Catch Nelly Live at Muckleshoot Casino Resort and Save 30% on Tickets!",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "EXPIRED: Catch Nelly Live at Muckleshoot Casino Resort and Save 30% on Tickets!",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWkEySER6MlZqU1g5b29VYV8zbVFLczktdW9iUTRkLUdXU2JITUN3M0Jzc3V6eGloVF80RlRqbFhSeU5hTGVQWkxZLXBzV3pNWUdjOTctcjk3MEpKVzEyeWNneW9yVEFxTDE2UkhIdG13dHlhUkZiWXN4elZvbTBIZEdfcnMxLUd1TGl4NFNwc3FFdTZXUXdMUmVvU2ROZThwMS16aWZVVHlCb1otT2dCeWhVTkpmd0Vr?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "30% 할인",
-   "verification": "news",
-   "first_published": "2026-10-08",
-   "last_published": "2026-10-08",
-   "first_seen": "2026-10-30T01:25:27+09:00",
-   "last_seen": "2026-10-30T01:25:27+09:00",
-   "articles": [
-    {
-     "title": "EXPIRED: Catch Nelly Live at Muckleshoot Casino Resort and Save 30% on Tickets!",
-     "outlet": "MyNorthwest.com",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWkEySER6MlZqU1g5b29VYV8zbVFLczktdW9iUTRkLUdXU2JITUN3M0Jzc3V6eGloVF80RlRqbFhSeU5hTGVQWkxZLXBzV3pNWUdjOTctcjk3MEpKVzEyeWNneW9yVEFxTDE2UkhIdG13dHlhUkZiWXN4elZvbTBIZEdfcnMxLUd1TGl4NFNwc3FFdTZXUXdMUmVvU2ROZThwMS16aWZVVHlCb1otT2dCeWhVTkpmd0Vr?oc=5",
-     "published": "2026-10-08"
-    }
-   ],
-   "status": "stale"
-  },
-  {
    "id": "turkish-ed654b3dcf",
    "airline_id": "turkish",
    "airline": "터키항공",
@@ -7059,11 +6842,11 @@
    "status": "stale"
   },
   {
-   "id": "trinity-08820b7077",
-   "airline_id": "trinity",
-   "airline": "트리니티항공",
+   "id": "jejuair-778daf7c87",
+   "airline_id": "jejuair",
+   "airline": "제주항공",
    "airlines_mentioned": [
-    "트리니티항공"
+    "제주항공"
    ],
    "kind": "domestic",
    "category": "flight",
@@ -7074,15 +6857,15 @@
    "lang": "ko",
    "trial": false,
    "baseline": "flight",
-   "official_url": "https://www.twayair.com/",
+   "official_url": "https://www.jejuair.net/",
    "iata": [
-    "TW"
+    "7C"
    ],
    "agencies": [],
-   "event_name": "가을·겨울 시즌 국제선 할인",
-   "headline": "트리니티항공, 항공의 날 기념 국제선 할인 프로모션…오는 31일까지 사전예매",
+   "event_name": null,
+   "headline": "제주항공, 인천~센다이 내년 1월 취항...최대 20% 할인행사",
    "sale_start": null,
-   "sale_end": "2026-10-31",
+   "sale_end": null,
    "travel_start": null,
    "travel_end": null,
    "routes": [],
@@ -7090,55 +6873,27 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {
-    "sale": {
-     "title": "트리니티항공, 항공의 날 기념 국제선 할인 프로모션…오는 31일까지 사전예매",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9WWGhmX3ZfdHQyZVBvSkRaLUlzWFN6MzlvaklQYkRmWERIbXpYYWtfQmtMcWg2UHZlSkZFMzdid0Myc1g1Sk1qeHJJYjVLQnpMMVoyeFVORlNteWdOTm9DUkpnelNzbkxQbEpJdXQzZlNtbzRYTDhj0gF3QVVfeXFMT1ZYaGZfdl90dDJlUG9KRFotSXNYU3ozOW9qSVBiRGZYREhtelhha19Ca0xxaDZQdmVKRkUzN2J3QzJzWDVKTWp4ckliNUtCekwxWjJ4VU5GU215Z05Ob0NSSmd6U3NuTFBsSkl1dDNmU21vNFhMOGM?oc=5"
-    },
     "discount": {
-     "title": "트리니티항공, 항공의 날 맞아 국제선 최대 22% 할인...31일까지",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZM3dLd2c0Mk5qdnVZZWota1ZCSHdSdWpkbFRaQmdHNUFuOGY2NFBVb051Vm80Ujg4Ui1IbTJBWkdiVUFtZFQxUXd3blNYM0FESFZGaWVwTzd6MXdUQ2NzcURVTG9Na2dHM25fMW5DSFVzdw?oc=5"
+     "title": "제주항공, 인천~센다이 내년 1월 취항...최대 20% 할인행사",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=776014"
     }
    },
-   "from_icn": "unknown",
-   "discount": "최대 22%",
+   "from_icn": "yes",
+   "discount": "최대 20%",
    "verification": "news",
-   "first_published": "2026-10-21",
-   "last_published": "2026-10-21",
-   "first_seen": "2026-10-21T09:36:47+09:00",
-   "last_seen": "2026-10-21T23:28:51+09:00",
+   "first_published": "2026-10-24",
+   "last_published": "2026-10-24",
+   "first_seen": "2026-10-24T09:40:28+09:00",
+   "last_seen": "2026-10-24T09:40:28+09:00",
    "articles": [
     {
-     "title": "트리니티항공, 항공의 날 기념 국제선 할인 프로모션…오는 31일까지 사전예매",
-     "outlet": "핀포인트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9WWGhmX3ZfdHQyZVBvSkRaLUlzWFN6MzlvaklQYkRmWERIbXpYYWtfQmtMcWg2UHZlSkZFMzdid0Myc1g1Sk1qeHJJYjVLQnpMMVoyeFVORlNteWdOTm9DUkpnelNzbkxQbEpJdXQzZlNtbzRYTDhj0gF3QVVfeXFMT1ZYaGZfdl90dDJlUG9KRFotSXNYU3ozOW9qSVBiRGZYREhtelhha19Ca0xxaDZQdmVKRkUzN2J3QzJzWDVKTWp4ckliNUtCekwxWjJ4VU5GU215Z05Ob0NSSmd6U3NuTFBsSkl1dDNmU21vNFhMOGM?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "트리니티항공, 항공의 날 맞아 국제선 최대 22% 할인...31일까지",
-     "outlet": "중앙이코노미뉴스",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZM3dLd2c0Mk5qdnVZZWota1ZCSHdSdWpkbFRaQmdHNUFuOGY2NFBVb051Vm80Ujg4Ui1IbTJBWkdiVUFtZFQxUXd3blNYM0FESFZGaWVwTzd6MXdUQ2NzcURVTG9Na2dHM25fMW5DSFVzdw?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "트리니티항공, 31일까지 ‘가을·겨울 시즌 국제선 할인 프로모션’",
-     "outlet": "경북도민일보",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkdHMxbGcxTnJMWEJMR3BLZnh1S2hRXzktWFltRXB6Z2pkNUFScDVDejZCbkttMUxxZV8wSU9aWHFiY2I5bk91WV9jWkZvN0hNY3UyMXVGWVk0a1BvTVpoSUtfMnFCRXZCT2c?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "트리니티항공 '가을·겨울 시즌 국제선 할인' 프로모션",
-     "outlet": "뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUdzRKbzlkdUM1QUpJZTFiU2tBVzMxNjNzVExUOE1fLTh5QW9BejNUYWlLMHV0OHBZZDFhR3VmemF5QUh2SEI4czljVGhHRVJXU29EeHMtdVlicmE5dUtpetIBeEFVX3lxTE03Vm54bEs2SjhmSHUtWmFWUmI0V1NjYnZDWGloMlpjbnZqWjdMMVNSbDFZQjNZQjU5X0hJQzhldzF2MlhpS0U4RXd1bVkxcEtwOWstM0p5OU5URjBPRDZUQ2U0VXN2Nzd2Y1VHVUpadmdaa1pmQ2I5bA?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "트리니티항공, 항공의 날 맞아 국제선 최대 22% 할인",
-     "outlet": "메트로신문",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tS0NHY05oN2c2cXBoWGRjUjJtS3duREdRY1JROFdrRHVuNkVZakpYdlZXdEhNc3R1YUVqVVNsNDM2V1prNmVLQmFORUp2enZndFhSOFBQYlhFaEJCYjFVdA?oc=5",
-     "published": "2026-10-21"
+     "title": "제주항공, 인천~센다이 내년 1월 취항...최대 20% 할인행사",
+     "outlet": "싱글리스트",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=776014",
+     "published": "2026-10-24"
     }
    ],
-   "status": "ended"
+   "status": "stale"
   },
   {
    "id": "vietjet-247b5c7050",
