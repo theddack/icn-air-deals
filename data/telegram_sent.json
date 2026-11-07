@@ -2427,14 +2427,25 @@
    "kinds": {
     "new": "2026-11-06"
    }
+  },
+  "h-other-09764650ad": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-07",
+    "urls": [
+     "09764650ad"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-07"
+   }
   }
  },
  "slots": {
-  "2026-10-30": {
-   "morning": "sent",
-   "afternoon": "sent",
-   "evening": "sent"
-  },
   "2026-10-31": {
    "morning": "sent",
    "afternoon": "empty",
@@ -2467,10 +2478,13 @@
   "2026-11-06": {
    "morning": "sent",
    "evening": "sent"
+  },
+  "2026-11-07": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-11-06T18:21:34+09:00",
- "drops_day": "2026-11-06",
+ "saved_at": "2026-11-07T09:18:42+09:00",
+ "drops_day": "2026-11-07",
  "drops": {
   "BKK": {
    "price": 411600,
@@ -2479,6 +2493,10 @@
   "SIN": {
    "price": 397300,
    "date": "2026-11-01"
+  },
+  "RMQ": {
+   "price": 365100,
+   "date": "2026-11-07"
   }
  },
  "weekly": "2026-11-01"
