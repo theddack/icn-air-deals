@@ -2055,24 +2055,6 @@
     "new": "2026-11-05"
    }
   },
-  "hkexpress-204a49848b": {
-   "info": {
-    "airline": "hkexpress",
-    "name": "",
-    "sale_start": null,
-    "sale_end": null,
-    "dests": [
-     "홍콩"
-    ],
-    "last": "2026-10-27",
-    "urls": [
-     "204a49848b"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-05"
-   }
-  },
   "koreanair-1ef035a2c1": {
    "info": {
     "airline": "koreanair",
@@ -2443,6 +2425,25 @@
    "kinds": {
     "new": "2026-11-07"
    }
+  },
+  "hkexpress-03b6786289": {
+   "info": {
+    "airline": "hkexpress",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "홍콩"
+    ],
+    "last": "2026-10-27",
+    "urls": [
+     "03b6786289",
+     "204a49848b"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-05"
+   }
   }
  },
  "slots": {
@@ -2483,7 +2484,7 @@
    "morning": "sent"
   }
  },
- "saved_at": "2026-11-07T09:18:42+09:00",
+ "saved_at": "2026-11-07T13:23:01+09:00",
  "drops_day": "2026-11-07",
  "drops": {
   "BKK": {
