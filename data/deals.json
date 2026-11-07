@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T09:14:15+09:00",
+ "generated_at": "2026-11-07T13:18:20+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1575,
+  "rss_items": 1569,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1919,
+  "outlet_items": 1873,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 37,
-  "articles": 633,
-  "new_articles": 2,
+  "articles": 634,
+  "new_articles": 1,
   "deals": 107
  },
  "deals": [
@@ -2636,7 +2636,7 @@
    "status": "undated"
   },
   {
-   "id": "hkexpress-204a49848b",
+   "id": "hkexpress-03b6786289",
    "airline_id": "hkexpress",
    "airline": "홍콩익스프레스",
    "airlines_mentioned": [
@@ -2680,16 +2680,22 @@
    "from_icn": "unknown",
    "discount": null,
    "verification": "news",
-   "first_published": "2026-10-27",
+   "first_published": "2026-10-26",
    "last_published": "2026-10-27",
    "first_seen": "2026-11-05T14:37:45+09:00",
-   "last_seen": "2026-11-05T14:37:45+09:00",
+   "last_seen": "2026-11-07T13:18:20+09:00",
    "articles": [
     {
      "title": "홍콩익스프레스, 창립 13주년 맞이 ‘11만원대’ 홍콩행 특가 진행",
      "outlet": "비즈월드",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DOVdxNk9rbEJ1bWFJb2dBV2tZMTl1NzkzNWQ0WTl1X1VpTFhKR1NnelZFZEdFdDd0THFQR295aGJsME5Xbnh5bHVuOUlVSXcwRlgwYXVIdDRqQzQ1ZW5YZEhoUGloeGtpM0Iw?oc=5",
      "published": "2026-10-27"
+    },
+    {
+     "title": "홍콩익스프레스(HK), 창립 13주년 기념 항공 운임 프로모션 운용",
+     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9VVE1yTVByMDBKdnc3ZmRVWFdnZ1U3YlhXR3dPOFF3QzU5UmNkQWgwN0w2OGZ4aWRTNUhwQ1dWUElPOUpUclk3VjMwUmI2U0VfZlhJM2M4dUZNTmJwcDdhdVRHTnBiRGVLbmtfZVpReEtGZw?oc=5",
+     "published": "2026-10-26"
     }
    ],
    "status": "undated"
