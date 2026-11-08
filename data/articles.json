@@ -4992,5 +4992,31 @@
   "published": "2026-11-08",
   "first_seen": "2026-11-08T18:16:07+09:00",
   "lang": "en"
+ },
+ {
+  "title": "세부퍼시픽항공, 11.11 특가",
+  "outlet": "트래블데일리",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2ay1rX1RwNUdFdFN2VUhPWlRvTG5OVjFwb0hTZlViTXZUMEJ6RE1XYld4d05fbE1ybV9OS2ZXaS1ERVNfOTRyNDVNZVlKWHNwZTBiei1fS2dXa0NBR2ZjLUFSNWtMdktrUl9JZW5aLWw?oc=5",
+  "published": "2026-11-08",
+  "first_seen": "2026-11-08T22:17:34+09:00",
+  "summary_facts": {
+   "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72610",
+   "outlet": "트래블데일리",
+   "fields": {
+    "sale_start": "2026-11-08",
+    "sale_end": "2026-11-12",
+    "discount": "11만7000원부터",
+    "origin": "한국",
+    "destination": "필리핀",
+    "travel_start": "2027-02-01",
+    "travel_end": "2027-07-31"
+   },
+   "evidence": {
+    "sale": "이번 프로모션은 11월 8일부터 12일까지 진행되며 한국 출발 필리핀행 항공권을 편도 총액 최저 11만 70…",
+    "discount": "…부터 12일까지 진행되며 한국 출발 필리핀행 항공권을 편도 총액 최저 11만 7000원부터 구매할 수 있다.…",
+    "route": "…부터 12일까지 진행되며 한국 출발 필리핀행 항공권을 편도 총액 최저 11만 7000원부터 구매할 수 있다.…",
+    "travel": "탑승 기간은 2027년 2월 1일부터 7월 31일까지로 내년 필리핀 여행을 미리 계획하는 여행객들에게 합리적…"
+   }
+  }
  }
 ]
