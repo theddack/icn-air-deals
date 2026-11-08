@@ -2117,27 +2117,6 @@
     "closing_today": "2026-11-06"
    }
   },
-  "h-booking-6dff27a361": {
-   "info": {
-    "airline": "h-booking",
-    "name": "1111슈퍼세일",
-    "sale_start": "2026-11-09",
-    "sale_end": "2026-11-16",
-    "dests": [],
-    "last": "2026-11-05",
-    "urls": [
-     "10eac214ef",
-     "61359f6dd2",
-     "6dff27a361",
-     "9a085cf6a0",
-     "d77483a2af"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-05",
-    "upcoming_d3": "2026-11-06"
-   }
-  },
   "h-other-e8b4fe2864": {
    "info": {
     "airline": "h-other",
@@ -2471,6 +2450,82 @@
    "kinds": {
     "new": "2026-11-08"
    }
+  },
+  "cebu-1fecb1cf39": {
+   "info": {
+    "airline": "cebu",
+    "name": "1111특가",
+    "sale_start": "2026-11-08",
+    "sale_end": "2026-11-12",
+    "dests": [
+     "필리핀"
+    ],
+    "last": "2026-11-08",
+    "urls": [
+     "1fecb1cf39",
+     "22d6aa1f34",
+     "37ad79803b"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-08",
+    "new": "2026-11-08"
+   }
+  },
+  "h-booking-6dff27a361": {
+   "info": {
+    "airline": "h-booking",
+    "name": "1111슈퍼세일",
+    "sale_start": "2026-11-09",
+    "sale_end": "2026-11-16",
+    "dests": [],
+    "last": "2026-11-06",
+    "urls": [
+     "10c6ff8552",
+     "10eac214ef",
+     "61359f6dd2",
+     "6dff27a361",
+     "9a085cf6a0",
+     "d77483a2af"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-05",
+    "upcoming_d3": "2026-11-06",
+    "upcoming_d1": "2026-11-08"
+   }
+  },
+  "h-other-69c7f1a6e8": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-05",
+    "urls": [
+     "69c7f1a6e8"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-08"
+   }
+  },
+  "h-other-ed8f8130ad": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-08",
+    "urls": [
+     "ed8f8130ad"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-08"
+   }
   }
  },
  "slots": {
@@ -2507,10 +2562,11 @@
    "evening": "sent"
   },
   "2026-11-08": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-08T09:18:52+09:00",
+ "saved_at": "2026-11-08T18:22:20+09:00",
  "drops_day": "2026-11-08",
  "drops": {
   "BKK": {
@@ -2526,5 +2582,5 @@
    "date": "2026-11-07"
   }
  },
- "weekly": "2026-11-01"
+ "weekly": "2026-11-08"
 }
