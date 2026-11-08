@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T13:18:17+09:00",
+ "generated_at": "2026-11-08T15:42:25+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1536,
+  "rss_items": 1525,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1712,
+  "outlet_items": 1685,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 37,
-  "articles": 622,
-  "new_articles": 0,
-  "deals": 105
+  "articles": 625,
+  "new_articles": 3,
+  "deals": 107
  },
  "deals": [
   {
@@ -5299,6 +5299,58 @@
    "status": "undated"
   },
   {
+   "id": "h-other-69c7f1a6e8",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Select stays will drop to 75% off in three flash deals, each starting at 9 a.m. EST.",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Select stays will drop to 75% off in three flash deals, each starting at 9 a.m. EST.",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWmVlaHBkVlpIbGZLVzBWdFNUa1pTU2wwQjdRMWRCRE5rbjFoM2xHYmhwbW1lSVBOcFR0LWVDZkRodFNncElIQzVDUG16ZVF6dzAzTFlvRVEzNHlIRWFMeVJ4TnJrNHVtV3N3SkNERHVGNllYeDdzUlg1a0hGdWJHcklYWklEZXlzODlEd0V0VFBMd3AySFRnLXYzbnN6OHI4b3NPM1Fsd05fXzRRelE0VExkS3FHMS1Xd1dz?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "75% 할인",
+   "verification": "news",
+   "first_published": "2026-11-05",
+   "last_published": "2026-11-05",
+   "first_seen": "2026-11-08T15:42:25+09:00",
+   "last_seen": "2026-11-08T15:42:25+09:00",
+   "articles": [
+    {
+     "title": "Select stays will drop to 75% off in three flash deals, each starting at 9 a.m. EST.",
+     "outlet": "Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWmVlaHBkVlpIbGZLVzBWdFNUa1pTU2wwQjdRMWRCRE5rbjFoM2xHYmhwbW1lSVBOcFR0LWVDZkRodFNncElIQzVDUG16ZVF6dzAzTFlvRVEzNHlIRWFMeVJ4TnJrNHVtV3N3SkNERHVGNllYeDdzUlg1a0hGdWJHcklYWklEZXlzODlEd0V0VFBMd3AySFRnLXYzbnN6OHI4b3NPM1Fsd05fXzRRelE0VExkS3FHMS1Xd1dz?oc=5",
+     "published": "2026-11-05"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-shilla-ca730e82b9",
    "airline_id": "h-shilla",
    "airline": "신라호텔",
@@ -5654,6 +5706,61 @@
      "outlet": "Yahoo",
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZUl2V1J0RUVDQXV5bU1hUWxwU1VFVEQ5VWVFVXI5ZjBJN1A0NXZrVG8wRThiSlk0bXRuSEpJU29maG5lMmRXVnpSeGd5WXJfODNRWU95V1hSOGhCMWtZMk11eUU1WlZ4S1VYQnpia0RTLVA1aHJPZnh2MWlEQ0tGSEJmSk5UbTlvSUNPb05IczhYbjVYUi1LYjI5dTI0VlBX?oc=5",
      "published": "2026-11-07"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "cebu-1fecb1cf39",
+   "airline_id": "cebu",
+   "airline": "세부퍼시픽",
+   "airlines_mentioned": [
+    "세부퍼시픽"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.cebupacificair.com/ko-KR",
+   "iata": [
+    "5J"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "세부퍼시픽항공, 11.11 특가 항공권 프로모션 런칭",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-08",
+   "last_published": "2026-11-08",
+   "first_seen": "2026-11-08T15:42:25+09:00",
+   "last_seen": "2026-11-08T15:42:25+09:00",
+   "articles": [
+    {
+     "title": "세부퍼시픽항공, 11.11 특가 항공권 프로모션 런칭",
+     "outlet": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3MkJYdmZNRFA2SjRJZ254MC1zVWdqQTBCY0ZkRTFkM1Q0b2Z6THoyWUxydGo3UWJPTkc4Y2VObmdIU3VwZmRCcmwtX1BsVzVXTDc5ZVAwaXlqRnlLeU1BdDJHWWdEYy1QS255S1lR?oc=5",
+     "published": "2026-11-08"
+    },
+    {
+     "title": "필리핀 항공권이 편도 11만원대…세부퍼시픽, 5일간 특가",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52czBOUnA2Wnp2U0xuVXc3eGRfNzVFdFA1anRZM1ljejlaYkNJX3lpYnk5VmpMa1c3cWwyeUVudGxERkdGNmQ3cXROLUNnM3M0eE1xRUV3?oc=5",
+     "published": "2026-11-08"
     }
    ],
    "status": "undated"
