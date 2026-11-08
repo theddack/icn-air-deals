@@ -2345,53 +2345,6 @@
     "new": "2026-11-05"
    }
   },
-  "h-stayfesta-6177623c6d": {
-   "info": {
-    "airline": "h-stayfesta",
-    "name": "숙박세일페스타",
-    "sale_start": "2026-09-22",
-    "sale_end": "2026-11-08",
-    "dests": [],
-    "last": "2026-10-24",
-    "urls": [
-     "0164aef066",
-     "024cedd8b5",
-     "0badc13143",
-     "0cc26f64f4",
-     "12f663d1b4",
-     "25d72a1817",
-     "381955d876",
-     "52ec7f2bfd",
-     "6177623c6d",
-     "61d8ea006e",
-     "6370b8d9df",
-     "69397efdfc",
-     "6f4dd558d7",
-     "815a41ffeb",
-     "818a0515ba",
-     "81bceaf06d",
-     "90f45594f7",
-     "9320ecd5d8",
-     "aa7cd9edcc",
-     "b2f36cdefd",
-     "beae54f530",
-     "bf10423d81",
-     "c2a2d2f1c5",
-     "c32bfad171",
-     "c9d70489d9",
-     "da2256b0d7",
-     "dbb5775c40",
-     "dd66db11aa",
-     "e09efb5ce3",
-     "e1c9a01839"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26",
-    "closing_tomorrow": "2026-11-07",
-    "closing_today": "2026-11-08"
-   }
-  },
   "jejuair-0c3cd04418": {
    "info": {
     "airline": "jejuair",
@@ -2526,6 +2479,51 @@
    "kinds": {
     "new": "2026-11-08"
    }
+  },
+  "h-stayfesta-bf10423d81": {
+   "info": {
+    "airline": "h-stayfesta",
+    "name": "숙박세일페스타",
+    "sale_start": "2026-09-22",
+    "sale_end": "2026-11-08",
+    "dests": [],
+    "last": "2026-10-24",
+    "urls": [
+     "0164aef066",
+     "024cedd8b5",
+     "0badc13143",
+     "0cc26f64f4",
+     "12f663d1b4",
+     "381955d876",
+     "52ec7f2bfd",
+     "6370b8d9df",
+     "69397efdfc",
+     "6f4dd558d7",
+     "815a41ffeb",
+     "818a0515ba",
+     "81bceaf06d",
+     "90f45594f7",
+     "9320ecd5d8",
+     "aa7cd9edcc",
+     "b2f36cdefd",
+     "beae54f530",
+     "bf10423d81",
+     "c2a2d2f1c5",
+     "c9d70489d9",
+     "da2256b0d7",
+     "dbb5775c40",
+     "e09efb5ce3",
+     "e92f31b2a0",
+     "e9a5089010",
+     "eb1bae473c",
+     "f4e69f6895"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26",
+    "closing_tomorrow": "2026-11-07",
+    "closing_today": "2026-11-08"
+   }
   }
  },
  "slots": {
@@ -2566,7 +2564,7 @@
    "evening": "sent"
   }
  },
- "saved_at": "2026-11-08T18:22:20+09:00",
+ "saved_at": "2026-11-09T01:24:48+09:00",
  "drops_day": "2026-11-08",
  "drops": {
   "BKK": {
