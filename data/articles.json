@@ -4958,5 +4958,39 @@
   "published": "2026-11-05",
   "first_seen": "2026-11-08T15:42:25+09:00",
   "lang": "en"
+ },
+ {
+  "title": "세부퍼시픽항공, '11.11 특가'서 필리핀 편도 11만원대부터",
+  "outlet": "싱글리스트",
+  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UT3dPV3N0Y3RzWnVwMG93VE1abGtodTR0STlabEZEVTRHWng1ckI5RkxXYjR0a21VbUdRTXJCOUxrcDBRcjFGWmxJc3NKcXBweTFaZHJ1MGY4NUU5NmlWQngxbTdidw?oc=5",
+  "published": "2026-11-08",
+  "first_seen": "2026-11-08T18:16:07+09:00",
+  "summary_facts": {
+   "url": "https://www.slist.kr/news/articleView.html?idxno=779929",
+   "outlet": "싱글리스트",
+   "fields": {
+    "sale_start": "2026-11-08",
+    "sale_end": "2026-11-12",
+    "discount": "117,000원부터",
+    "origin": "한국",
+    "destination": "필리핀",
+    "travel_start": "2027-02-01",
+    "travel_end": "2027-07-31"
+   },
+   "evidence": {
+    "sale": "…번 프로모션은 8~12일 진행되며 한국 출발 필리핀행 항공권을 편도 총액 최저 117,000원부터 구매할 수…",
+    "discount": "…모션은 8~12일 진행되며 한국 출발 필리핀행 항공권을 편도 총액 최저 117,000원부터 구매할 수 있다.…",
+    "route": "…모션은 8~12일 진행되며 한국 출발 필리핀행 항공권을 편도 총액 최저 117,000원부터 구매할 수 있다.…",
+    "travel": "탑승 기간은 2027년 2월 1일부터 7월 31일까지로, 내년 필리핀 여행을 미리 계획하는 여행객들에게 합리…"
+   }
+  }
+ },
+ {
+  "title": "Four Star Slashes Prices by Up to 90% at its Warehouse Clearance Sale, with sofa sets from $199 and 5-Star hotel series mattress from $299!",
+  "outlet": "MoneyDigest",
+  "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZ0tIMy14MXNmaHNOa2FJY1I1c0RWeEFFcUQtY0Faam1fRGt1NExPQk9UT3N2dVVEcVRNZlJOUXBSa0Z4bDhoWXpMZXZfdlBFc19hdXp0UXNfRk8ya1dmZEFtanhqT0o2SG9MWEw2MXVKTkdnRlowTlBqRjRmTVIzS3k2YnZFNDgzZGlJLTdlT05JTzNGTXdsSWlIVzBzcDBPMlpDYUxBNF94SkI2Y1ZRX1VhRFZiSjdPVDkwLUNsaTBmTThYQVl2akJCUEJUME9yRDRaaW82TjI5dDdtc2dzT29wejlVRE96ckY3ODJmOG5jWHRq?oc=5",
+  "published": "2026-11-08",
+  "first_seen": "2026-11-08T18:16:07+09:00",
+  "lang": "en"
  }
 ]

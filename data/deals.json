@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T15:42:25+09:00",
+ "generated_at": "2026-11-08T18:16:07+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1525,
+  "rss_items": 1520,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1685,
+  "outlet_items": 1625,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_enriched": 1,
   "mail_articles": 6,
   "mail_new_articles": 0,
-  "articles_with_summary": 37,
-  "articles": 625,
-  "new_articles": 3,
-  "deals": 107
+  "articles_with_summary": 38,
+  "articles": 627,
+  "new_articles": 2,
+  "deals": 108
  },
  "deals": [
   {
@@ -1544,6 +1544,89 @@
      "outlet": "전자신문",
      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1tenktVXprWm92YWpxMTB2Q0FsblNJM3d3dmhqQ1BaOS1vbjNNTXY2MmhOUnJFQXVSb1ltTF9MTEtVMk1mY1pEaW5veW92UQ?oc=5",
      "published": "2026-11-01"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "cebu-1fecb1cf39",
+   "airline_id": "cebu",
+   "airline": "세부퍼시픽",
+   "airlines_mentioned": [
+    "세부퍼시픽"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.cebupacificair.com/ko-KR",
+   "iata": [
+    "5J"
+   ],
+   "agencies": [],
+   "event_name": "11.11 특가",
+   "headline": "세부퍼시픽항공, 11.11 특가 항공권 프로모션 런칭",
+   "sale_start": "2026-11-08",
+   "sale_end": "2026-11-12",
+   "travel_start": "2027-02-01",
+   "travel_end": "2027-07-31",
+   "routes": [
+    {
+     "origin": "한국",
+     "destination": "필리핀"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "싱글리스트 요약문: …번 프로모션은 8~12일 진행되며 한국 출발 필리핀행 항공권을 편도 총액 최저 117,000원부터 구매할 수…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=779929"
+    },
+    "travel": {
+     "title": "싱글리스트 요약문: 탑승 기간은 2027년 2월 1일부터 7월 31일까지로, 내년 필리핀 여행을 미리 계획하는 여행객들에게 합리…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=779929"
+    },
+    "discount": {
+     "title": "세부퍼시픽항공, '11.11 특가'서 필리핀 편도 11만원대부터",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UT3dPV3N0Y3RzWnVwMG93VE1abGtodTR0STlabEZEVTRHWng1ckI5RkxXYjR0a21VbUdRTXJCOUxrcDBRcjFGWmxJc3NKcXBweTFaZHJ1MGY4NUU5NmlWQngxbTdidw?oc=5"
+    },
+    "route": {
+     "title": "싱글리스트 요약문: …모션은 8~12일 진행되며 한국 출발 필리핀행 항공권을 편도 총액 최저 117,000원부터 구매할 수 있다.…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=779929"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "11만원대부터",
+   "verification": "news",
+   "first_published": "2026-11-08",
+   "last_published": "2026-11-08",
+   "first_seen": "2026-11-08T15:42:25+09:00",
+   "last_seen": "2026-11-08T18:16:07+09:00",
+   "articles": [
+    {
+     "title": "세부퍼시픽항공, 11.11 특가 항공권 프로모션 런칭",
+     "outlet": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3MkJYdmZNRFA2SjRJZ254MC1zVWdqQTBCY0ZkRTFkM1Q0b2Z6THoyWUxydGo3UWJPTkc4Y2VObmdIU3VwZmRCcmwtX1BsVzVXTDc5ZVAwaXlqRnlLeU1BdDJHWWdEYy1QS255S1lR?oc=5",
+     "published": "2026-11-08"
+    },
+    {
+     "title": "세부퍼시픽항공, '11.11 특가'서 필리핀 편도 11만원대부터",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UT3dPV3N0Y3RzWnVwMG93VE1abGtodTR0STlabEZEVTRHWng1ckI5RkxXYjR0a21VbUdRTXJCOUxrcDBRcjFGWmxJc3NKcXBweTFaZHJ1MGY4NUU5NmlWQngxbTdidw?oc=5",
+     "published": "2026-11-08"
+    },
+    {
+     "title": "필리핀 항공권이 편도 11만원대…세부퍼시픽, 5일간 특가",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52czBOUnA2Wnp2U0xuVXc3eGRfNzVFdFA1anRZM1ljejlaYkNJX3lpYnk5VmpMa1c3cWwyeUVudGxERkdGNmQ3cXROLUNnM3M0eE1xRUV3?oc=5",
+     "published": "2026-11-08"
     }
    ],
    "status": "live"
@@ -5711,61 +5794,6 @@
    "status": "undated"
   },
   {
-   "id": "cebu-1fecb1cf39",
-   "airline_id": "cebu",
-   "airline": "세부퍼시픽",
-   "airlines_mentioned": [
-    "세부퍼시픽"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.cebupacificair.com/ko-KR",
-   "iata": [
-    "5J"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "세부퍼시픽항공, 11.11 특가 항공권 프로모션 런칭",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-08",
-   "last_published": "2026-11-08",
-   "first_seen": "2026-11-08T15:42:25+09:00",
-   "last_seen": "2026-11-08T15:42:25+09:00",
-   "articles": [
-    {
-     "title": "세부퍼시픽항공, 11.11 특가 항공권 프로모션 런칭",
-     "outlet": "국제뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3MkJYdmZNRFA2SjRJZ254MC1zVWdqQTBCY0ZkRTFkM1Q0b2Z6THoyWUxydGo3UWJPTkc4Y2VObmdIU3VwZmRCcmwtX1BsVzVXTDc5ZVAwaXlqRnlLeU1BdDJHWWdEYy1QS255S1lR?oc=5",
-     "published": "2026-11-08"
-    },
-    {
-     "title": "필리핀 항공권이 편도 11만원대…세부퍼시픽, 5일간 특가",
-     "outlet": "헤럴드경제",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52czBOUnA2Wnp2U0xuVXc3eGRfNzVFdFA1anRZM1ljejlaYkNJX3lpYnk5VmpMa1c3cWwyeUVudGxERkdGNmQ3cXROLUNnM3M0eE1xRUV3?oc=5",
-     "published": "2026-11-08"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "pal-c8a5bce941",
    "airline_id": "pal",
    "airline": "필리핀항공",
@@ -5814,6 +5842,58 @@
      "title": "필리핀항공, 연말 맞아 항공권 최대 40% 할인…특별 프로모션 실시",
      "outlet": "아시아경제",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YVUpUdlVnSHlZb3FQNHdEdVFMSFdZUFhsa0pJOVlsQjFsWVRuWS05a0s1TFZHZkJ1ZlgwQ2NvR1ZWT1VhMmxnLXdncVhDWkpjNXFUeEpLWjE1Q0ZUMTBReQ?oc=5",
+     "published": "2026-11-08"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-ed8f8130ad",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Four Star Slashes Prices by Up to 90% at its Warehouse Clearance Sale, with sofa sets from $199 and 5-Star hotel series mattress from $299!",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Four Star Slashes Prices by Up to 90% at its Warehouse Clearance Sale, with sofa sets from $199 and 5-Star hotel series mattress from $299!",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZ0tIMy14MXNmaHNOa2FJY1I1c0RWeEFFcUQtY0Faam1fRGt1NExPQk9UT3N2dVVEcVRNZlJOUXBSa0Z4bDhoWXpMZXZfdlBFc19hdXp0UXNfRk8ya1dmZEFtanhqT0o2SG9MWEw2MXVKTkdnRlowTlBqRjRmTVIzS3k2YnZFNDgzZGlJLTdlT05JTzNGTXdsSWlIVzBzcDBPMlpDYUxBNF94SkI2Y1ZRX1VhRFZiSjdPVDkwLUNsaTBmTThYQVl2akJCUEJUME9yRDRaaW82TjI5dDdtc2dzT29wejlVRE96ckY3ODJmOG5jWHRq?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 90%",
+   "verification": "news",
+   "first_published": "2026-11-08",
+   "last_published": "2026-11-08",
+   "first_seen": "2026-11-08T18:16:07+09:00",
+   "last_seen": "2026-11-08T18:16:07+09:00",
+   "articles": [
+    {
+     "title": "Four Star Slashes Prices by Up to 90% at its Warehouse Clearance Sale, with sofa sets from $199 and 5-Star hotel series mattress from $299!",
+     "outlet": "MoneyDigest",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZ0tIMy14MXNmaHNOa2FJY1I1c0RWeEFFcUQtY0Faam1fRGt1NExPQk9UT3N2dVVEcVRNZlJOUXBSa0Z4bDhoWXpMZXZfdlBFc19hdXp0UXNfRk8ya1dmZEFtanhqT0o2SG9MWEw2MXVKTkdnRlowTlBqRjRmTVIzS3k2YnZFNDgzZGlJLTdlT05JTzNGTXdsSWlIVzBzcDBPMlpDYUxBNF94SkI2Y1ZRX1VhRFZiSjdPVDkwLUNsaTBmTThYQVl2akJCUEJUME9yRDRaaW82TjI5dDdtc2dzT29wejlVRE96ckY3ODJmOG5jWHRq?oc=5",
      "published": "2026-11-08"
     }
    ],

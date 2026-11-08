@@ -39,6 +39,17 @@
    "sale_end": "2026-11-15",
    "price_from": 1537800
   },
+  "cebu|2026-11-08|1111특가": {
+   "airline_id": "cebu",
+   "airline": "세부퍼시픽",
+   "name": "11.11 특가",
+   "sale_start": "2026-11-08",
+   "sale_end": "2026-11-12",
+   "price_from": 110000,
+   "dests": [
+    "필리핀"
+   ]
+  },
   "h-accor|2026-10-16|allaccor20offappbookingo": {
    "airline_id": "h-accor",
    "airline": "아코르",
