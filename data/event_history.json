@@ -124,6 +124,14 @@
    "sale_start": "2026-09-22",
    "sale_end": "2026-11-08"
   },
+  "h-tripcom|2026-11-11|1111메가세일": {
+   "airline_id": "h-tripcom",
+   "airline": "트립닷컴",
+   "name": "11.11 메가세일",
+   "sale_start": "2026-11-11",
+   "sale_end": null,
+   "price_from": 19000
+  },
   "h-yeogi|2026-09-22|홀리데이in포항": {
    "airline_id": "h-yeogi",
    "airline": "여기어때",

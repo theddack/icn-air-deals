@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T09:14:08+09:00",
+ "generated_at": "2026-11-09T13:18:13+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,21 +10,98 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1544,
+  "rss_items": 1553,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1672,
+  "outlet_items": 1890,
   "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 40,
-  "articles": 626,
-  "new_articles": 5,
-  "deals": 110
+  "articles": 647,
+  "new_articles": 21,
+  "deals": 117
  },
  "deals": [
+  {
+   "id": "h-tripcom-97d71f7e15",
+   "airline_id": "h-tripcom",
+   "airline": "트립닷컴",
+   "airlines_mentioned": [
+    "트립닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://kr.trip.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "11.11 메가세일",
+   "headline": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
+   "sale_start": "2026-11-11",
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "제주",
+    "도쿄"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hNWc0TG9nWUdCTUhtenpQS1FyX0J2Y2w3bWlHR0NWS3A5VzZfaEZqTDh5akJraXdaRldIZi1DQU5hY0lvNGlnRDZPVmZyVW5CdjIydUVubTcza1d0QjlJUVMtWkZWZk5hX3NRYw?oc=5"
+    },
+    "discount": {
+     "title": "트립닷컴, '11.11 메가세일'…항공권 1100원·호텔 1만9000원부터",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HSFNjVDlxUURYbzRPU0YweXZqMlVsTUJJaTBmRDdfekVYNGZPXzNDQldLVFhvSU5DcUZfZHdZbGstbHU5OEFacE52YlAzWmp3WVI5d1p3VW5nYzhhRm42VmNFSmRGZw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "1만9000원부터",
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-09",
+   "first_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-09T13:18:13+09:00",
+   "articles": [
+    {
+     "title": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hNWc0TG9nWUdCTUhtenpQS1FyX0J2Y2w3bWlHR0NWS3A5VzZfaEZqTDh5akJraXdaRldIZi1DQU5hY0lvNGlnRDZPVmZyVW5CdjIydUVubTcza1d0QjlJUVMtWkZWZk5hX3NRYw?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "트립닷컴, 11.11 메가세일 시작…제주·도쿄 항공권 1,100원 특가",
+     "outlet": "스타트업엔(StartupN)",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mSklRZWw5Z25nUklGeFoxQW5mbWJfLUhzYUVmODV3UkpnU0w5aWtOUWFoSVVOcHJlQXBzM05FR21ubjhoejRMLXdYWEIwcExOQ2t6b19BbHpldHZIdWpxWEpmM25vakJX0gFsQVVfeXFMTm5fUWlENlREckxvUUZUcDZjc1FMZy1lbVREX0kybXNTeV9fVWZzbktPYVB0ZEdFRjF6aTVENFdvNGVIRFIwaXd6STNpNWNpakI3Znk2WDBrR3EyaUhJVUh3SFNMcHo2QVJYeFFO?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "트립닷컴, '11.11 메가세일'…항공권 1100원·호텔 1만9000원부터",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HSFNjVDlxUURYbzRPU0YweXZqMlVsTUJJaTBmRDdfekVYNGZPXzNDQldLVFhvSU5DcUZfZHdZbGstbHU5OEFacE52YlAzWmp3WVI5d1p3VW5nYzhhRm42VmNFSmRGZw?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "트립닷컴, '11.11 메가세일'…1100원 특가 항공권 깜짝딜",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBmb0lTMlFSTEV6UnBqUW1OdWxTNkloQjBiX1Z1YzlORVNOVDk1TWVpZHpqOGl0QmZWUl9YamFuODE2Zw?oc=5",
+     "published": "2026-11-09"
+    }
+   ],
+   "status": "upcoming"
+  },
   {
    "id": "h-marriott-a06b6b2c0a",
    "airline_id": "h-marriott",
@@ -1206,15 +1283,15 @@
    "section": "hotel",
    "route": null,
    "route_text": null,
-   "scope": null,
+   "scope": "overseas",
    "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
+   "trial": true,
+   "baseline": "hotel_trial",
    "official_url": "https://www.booking.com/index.ko.html",
    "iata": [],
    "agencies": [],
    "event_name": "11.11 슈퍼 세일",
-   "headline": "부킹닷컴, 11.11 슈퍼 세일 첫 진행…전 세계 숙소 최소 30% 할인",
+   "headline": "Booking.com’s First 11.11 Super Sale: At Least 30% off Stays Into 2027",
    "sale_start": "2026-11-09",
    "sale_end": "2026-11-16",
    "travel_start": null,
@@ -1229,18 +1306,24 @@
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0b1Y2X0lKT0hLcmRlalpDZ2taNHpabF9MZFNfZXJ2RVB6SmtGSTVrcF9YOWg0V0FoRUwzVG5vZm40WFh0MENjcURwNUxKY0RpSkNDbXBjOTZCYXBrQUppYnFNYTFVRlhXdnlsUC1pWmZ1ZG1Ud2Rleg?oc=5"
     },
     "discount": {
-     "title": "부킹닷컴, 11.11 슈퍼 세일 첫 진행…전 세계 숙소 최소 30% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqNUV3SmNqN0NoVFFtRlpKRXVMV1B0VzFNWVlkdmVIcnpvdS1DbVF1S2ltcllabkt0RkFBTHVVQVhlS2EtN1ZBVklhMzFtZ080eEtTRkFCVVF3VHhmTFJj?oc=5"
+     "title": "Booking.com’s First 11.11 Super Sale: At Least 30% off Stays Into 2027",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWRxdDNBODNqTTVVc256a09haW9JR1VybUR0bFZsWHBPNngtMTFwZzUwdWg1UEVKUkdsQVFKMDBwV0FBampScEFaaDU2VkdXRVk3S0FZUHY5UkVXMGxyTnIyTVBub2ZnTGpoX2MxNXpPLTJsZENORlZzZlUwcUhUejVScDVWY2RsM0tTVU1nelRGRnZZVHdVQm0xZWQtdlVl?oc=5"
     }
    },
    "from_icn": null,
    "discount": "30% 할인",
    "verification": "news",
    "first_published": "2026-11-05",
-   "last_published": "2026-11-06",
+   "last_published": "2026-11-08",
    "first_seen": "2026-11-05T09:14:06+09:00",
-   "last_seen": "2026-11-06T13:18:16+09:00",
+   "last_seen": "2026-11-09T13:18:13+09:00",
    "articles": [
+    {
+     "title": "Booking.com’s First 11.11 Super Sale: At Least 30% off Stays Into 2027",
+     "outlet": "DANAMIC",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWRxdDNBODNqTTVVc256a09haW9JR1VybUR0bFZsWHBPNngtMTFwZzUwdWg1UEVKUkdsQVFKMDBwV0FBampScEFaaDU2VkdXRVk3S0FZUHY5UkVXMGxyTnIyTVBub2ZnTGpoX2MxNXpPLTJsZENORlZzZlUwcUhUejVScDVWY2RsM0tTVU1nelRGRnZZVHdVQm0xZWQtdlVl?oc=5",
+     "published": "2026-11-08"
+    },
     {
      "title": "부킹닷컴, 11.11 슈퍼 세일 첫 진행…전 세계 숙소 최소 30% 할인",
      "outlet": "스타패션",
@@ -1556,7 +1639,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "롯데호텔도 '블프'…국내외 체인 큰 폭 할인",
+   "headline": "[뉴스워커_롯데호텔앤리조트] 연말 호캉스 계획 있다면?…시그니엘 등 31곳 최대 38% 할인",
    "sale_start": null,
    "sale_end": "2026-11-13",
    "travel_start": "2026-11-23",
@@ -1577,8 +1660,8 @@
      "url": "https://www.econovill.com/news/articleView.html?idxno=756443"
     },
     "discount": {
-     "title": "ER 이코노믹리뷰 요약문: …s)’ 프로모션을 전개하고 국내외 호텔·리조트 체인 31곳을 최대 38% 타임세일을 전개한다고 9일 밝혔다.…",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=756443"
+     "title": "[뉴스워커_롯데호텔앤리조트] 연말 호캉스 계획 있다면?…시그니엘 등 31곳 최대 38% 할인",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YR1htVGczQVEzNGFtSnY0XzNfTERLb3RORWU2X2pVaEFVaXdqRDRsa29PbHRBUTJLc2wyU0drbDFyNFVsZ2VUaXZNcndWTDBzRHJkNm1RMU9vaUdfeW5XVnJEN2dlVFQyNGtzSnpzUERuckQ20gF0QVVfeXFMTlhHWG1UZzNBUTM0YW1KdjRfM19MREtvdE5FZTZfalVoQVVpd2pENGxrb09sdEFRMktzbDJTR2tsMXI0VWxnZVRpdk1yd1ZMMHNEcmQ2bVExT29pR195bldWckQ3Z2VUVDI0a3NKenNQRG5yRDY?oc=5"
     }
    },
    "from_icn": null,
@@ -1587,8 +1670,14 @@
    "first_published": "2026-11-09",
    "last_published": "2026-11-09",
    "first_seen": "2026-11-09T09:14:08+09:00",
-   "last_seen": "2026-11-09T09:14:08+09:00",
+   "last_seen": "2026-11-09T13:18:13+09:00",
    "articles": [
+    {
+     "title": "[뉴스워커_롯데호텔앤리조트] 연말 호캉스 계획 있다면?…시그니엘 등 31곳 최대 38% 할인",
+     "outlet": "뉴스워커",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YR1htVGczQVEzNGFtSnY0XzNfTERLb3RORWU2X2pVaEFVaXdqRDRsa29PbHRBUTJLc2wyU0drbDFyNFVsZ2VUaXZNcndWTDBzRHJkNm1RMU9vaUdfeW5XVnJEN2dlVFQyNGtzSnpzUERuckQ20gF0QVVfeXFMTlhHWG1UZzNBUTM0YW1KdjRfM19MREtvdE5FZTZfalVoQVVpd2pENGxrb09sdEFRMktzbDJTR2tsMXI0VWxnZVRpdk1yd1ZMMHNEcmQ2bVExT29pR195bldWckQ3Z2VUVDI0a3NKenNQRG5yRDY?oc=5",
+     "published": "2026-11-09"
+    },
     {
      "title": "롯데호텔도 '블프'…국내외 체인 큰 폭 할인",
      "outlet": "ER 이코노믹리뷰",
@@ -5462,60 +5551,6 @@
    "status": "undated"
   },
   {
-   "id": "pal-c8a5bce941",
-   "airline_id": "pal",
-   "airline": "필리핀항공",
-   "airlines_mentioned": [
-    "필리핀항공"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.philippineairlines.com/",
-   "iata": [
-    "PR"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "필리핀항공, 연말 맞아 항공권 최대 40% 할인…특별 프로모션 실시",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "필리핀항공, 연말 맞아 항공권 최대 40% 할인…특별 프로모션 실시",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YVUpUdlVnSHlZb3FQNHdEdVFMSFdZUFhsa0pJOVlsQjFsWVRuWS05a0s1TFZHZkJ1ZlgwQ2NvR1ZWT1VhMmxnLXdncVhDWkpjNXFUeEpLWjE1Q0ZUMTBReQ?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 40%",
-   "verification": "news",
-   "first_published": "2026-11-08",
-   "last_published": "2026-11-08",
-   "first_seen": "2026-11-08T09:14:08+09:00",
-   "last_seen": "2026-11-08T09:14:08+09:00",
-   "articles": [
-    {
-     "title": "필리핀항공, 연말 맞아 항공권 최대 40% 할인…특별 프로모션 실시",
-     "outlet": "아시아경제",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YVUpUdlVnSHlZb3FQNHdEdVFMSFdZUFhsa0pJOVlsQjFsWVRuWS05a0s1TFZHZkJ1ZlgwQ2NvR1ZWT1VhMmxnLXdncVhDWkpjNXFUeEpLWjE1Q0ZUMTBReQ?oc=5",
-     "published": "2026-11-08"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-other-ed8f8130ad",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -5562,6 +5597,424 @@
      "title": "Four Star Slashes Prices by Up to 90% at its Warehouse Clearance Sale, with sofa sets from $199 and 5-Star hotel series mattress from $299!",
      "outlet": "MoneyDigest",
      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZ0tIMy14MXNmaHNOa2FJY1I1c0RWeEFFcUQtY0Faam1fRGt1NExPQk9UT3N2dVVEcVRNZlJOUXBSa0Z4bDhoWXpMZXZfdlBFc19hdXp0UXNfRk8ya1dmZEFtanhqT0o2SG9MWEw2MXVKTkdnRlowTlBqRjRmTVIzS3k2YnZFNDgzZGlJLTdlT05JTzNGTXdsSWlIVzBzcDBPMlpDYUxBNF94SkI2Y1ZRX1VhRFZiSjdPVDkwLUNsaTBmTThYQVl2akJCUEJUME9yRDRaaW82TjI5dDdtc2dzT29wejlVRE96ckY3ODJmOG5jWHRq?oc=5",
+     "published": "2026-11-08"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "jejuair-ada23d6f44",
+   "airline_id": "jejuair",
+   "airline": "제주항공",
+   "airlines_mentioned": [
+    "제주항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.jejuair.net/",
+   "iata": [
+    "7C"
+   ],
+   "agencies": [],
+   "event_name": "가고 싶은 곳 특가 알려준다",
+   "headline": "“가고 싶은 곳 특가 알려준다”…제주항공, 맞춤형 여행 정보 제공",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-09",
+   "first_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-09T13:18:13+09:00",
+   "articles": [
+    {
+     "title": "“가고 싶은 곳 특가 알려준다”…제주항공, 맞춤형 여행 정보 제공",
+     "outlet": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNY21QSXZ5cXRVQXJ0MWt1T0d6aUVJMncxNlR2bjR5OG1LODV6ZHpSYUhfU0x6amZyRVp4RENMQ0diQzF3V2sweHZYdTNRN2FEUE5zX3c1bzhodTdVZnlLV0N0UEpIcnNyWnRESWZfTWdJQmY5dklMaGtubmJqOEROSkhZM2cwSVRKRkRLNjJ3NVR0RWdDeVNTMldRZmJEekREMHJYQ0ZrRFpCTXR0X0ZnRm1YUm55SlVWdm0xRUpoclp3ay1MTzdkaVJoaUJ5Wm9ZZEk0SDZEVXlJMVhhMHh3VVEtRkdWeXJTbTlrVHRrUnJsNjkxZkJPckRrUWR4SF9EVWE4NzJQTmE5cjhKdTl2b2R6YmljT0FuTU9IQV9US0padnc?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주항공, 맞춤형 특가 알림 '내 여행 취향' 호응… 누적 6만건 돌파",
+     "outlet": "아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1zWE0tTTZrWnU1VWdLZURYams0OVpmRzRBNVA4THRFQVotTXZxWjV0TU1TWXQ3MTdneFZyVnNDTWxjVDRGWXZSLWQwbXN3UTlZV251SF91bS00dUNEemdmZWMwcWNkNGJvbGxSX2Y3bTA0dw?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주항공, 맞춤형 항공권 특가 서비스 출시 3개월여 만에 6만건 등록",
+     "outlet": "스포츠한국",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aNkN0TXUyc1pWY25yVy1ZZW1uUnZhRThrSEZsNEsxSXRvMlVRZ01VbTJsMDM1c1NrUnQ3ejRWR2xXdWVaM3pvYW5ldlBMZkhhb3piR0VCWUswdVNMQW1RLXJEVHJzXy04VzJtQ1d3YXjSAXRBVV95cUxNbEI0ejFUbEZOX2lLYVg1aVUtLW1DdXU2bjRDTWdCSGZZd2pnRGlsN0Uwb3JNblh4eG9wbGFHVDhXM1ZMdG1pSUViNVdtTUdYVEp1NFlWQ25abkNKSGprRkpNc1ozUjg4WmNkVnVHX1RYcThnaQ?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "\"내가 원하는 여행지만 쏙쏙\"…제주항공, 맞춤 특가 안내",
+     "outlet": "남도일보",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uSWZJSGRUek1wNVJwWlJUNS01UFhUZnRGUEpscnphd20yTzhMVURSYWtuSk5RV2FWSFdiSnV6c0o2cmNTdXFrZThwTkVZaS15TF8zS3NWRXFCeUtYSkEyeEJ3MDVXMnlfQ2hzONIBcEFVX3lxTE5aVzNqd2lrWHYya2hwUldXTXItNXA3LURqNFpXbzI2Si1wTWNtcDJKSmp4dllSRS1JREc0clU1TGVoZ0ZxLUhXV21GMjlleHRFMTlMV0s0U2xSUmJJTFY1dWFER0l5eXpNd19zOU9KYWk?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주항공, '내 여행 취향' 등록 6만여 건...맞춤형 항공권 특가 메일 제공",
+     "outlet": "이코노미사이언스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CbktWay05clAyT3A2LXoyTllQZFRmcmM0ODhzZlE5a2I5S19lSEJZTk83TGNCTENUbXBFLS00NFhqZ0JoQjA4dlFlWEd2Z3N3MHVtb3E0SWl1SUJpM1d5ZXh5Q1RFOXdsaGNBZ1BTaw?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주항공, 고객 맞춤형 항공권 특가 정보 제공",
+     "outlet": "뉴스핌",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1URTk2bFlfaHZXNTJWMVBWS2pKVUlGYmlnVVJwVkloWXNhTURxMmxLZDliZzB0SkdVdnluVHdUZmgydEhTaUVPeUFIWHlfSWZnM3RYSTRaaFk0OGVP?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주항공, 취향 맞춰 특가 알려주는 ‘내 여행 취향’…3개월 만에 6만건 등록",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45WlZQa051QmJoLW5YUVlkUGtPR2ExYWN2bzZhZnFKendQWmhxVFNpWktKaV9xM0NsblU2amhtUlZjWlBDNHMySmFUN2dtSTIxTmZWSDN3?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주항공, 여행 취향 따라 항공권 특가 안내…맞춤형 서비스 강화",
+     "outlet": "이투데이",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xZ1cwaC1ycGdRdTRraTNjTEJmckE3aVBGLVdHd1pqd3BaUXowUS1BdE9MYWVhTE52YklMdklTbUNoSzdqbDREV3hsZHRyZ2RuVjNhbw?oc=5",
+     "published": "2026-11-09"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "cebu-dea52b103c",
+   "airline_id": "cebu",
+   "airline": "세부퍼시픽",
+   "airlines_mentioned": [
+    "세부퍼시픽"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.cebupacificair.com/ko-KR",
+   "iata": [
+    "5J"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "세부퍼시픽항공 11.11 특가, 필리핀 편도 총액 11만7,000원부터",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "세부퍼시픽항공 11.11 특가, 필리핀 편도 총액 11만7,000원부터",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObGtsbWM4R294c0ZWb0JwYVVyc01KMUpwaTdEVjhsZmdqRGlTV0pVWUxDUURfMk45bWJqVXM0SnBPTXBMbWc1T0hwc3Fkd2Rrb3dTR1JfTy1ka0oyRkktM2NueTlrNlpCMmFlaHZCblB1UWpFanRqQ1hwOVM5eVd0V05B?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "11만7,000원부터",
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-09",
+   "first_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-09T13:18:13+09:00",
+   "articles": [
+    {
+     "title": "세부퍼시픽항공 11.11 특가, 필리핀 편도 총액 11만7,000원부터",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObGtsbWM4R294c0ZWb0JwYVVyc01KMUpwaTdEVjhsZmdqRGlTV0pVWUxDUURfMk45bWJqVXM0SnBPTXBMbWc1T0hwc3Fkd2Rrb3dTR1JfTy1ka0oyRkktM2NueTlrNlpCMmFlaHZCblB1UWpFanRqQ1hwOVM5eVd0V05B?oc=5",
+     "published": "2026-11-09"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-lotte-84266976d0",
+   "airline_id": "h-lotte",
+   "airline": "롯데호텔",
+   "airlines_mentioned": [
+    "롯데호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "롯데호텔앤리조트, 블프 맞아 31개 호텔 타임세일…호텔 김치도 최대 30% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "롯데호텔앤리조트, 블프 맞아 31개 호텔 타임세일…호텔 김치도 최대 30% 할인",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpRWlkVlF6WlV6ZGU2Ykl1cVFrdlhnNmNaS2xLUUJVZWowMHAxMDBhTlBOdS14dWVpU3UtQlZ2cmt3M2RORDNUSHVKeXJieUFIZXhnbzlVN2lQREFmZGNyY3cwX05CQzljbTJOQXVaWmhaMFVhZGNkSlBXS2Q?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 30%",
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-09",
+   "first_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-09T13:18:13+09:00",
+   "articles": [
+    {
+     "title": "롯데호텔앤리조트, 블프 맞아 31개 호텔 타임세일…호텔 김치도 최대 30% 할인",
+     "outlet": "글로벌에픽",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpRWlkVlF6WlV6ZGU2Ykl1cVFrdlhnNmNaS2xLUUJVZWowMHAxMDBhTlBOdS14dWVpU3UtQlZ2cmt3M2RORDNUSHVKeXJieUFIZXhnbzlVN2lQREFmZGNyY3cwX05CQzljbTJOQXVaWmhaMFVhZGNkSlBXS2Q?oc=5",
+     "published": "2026-11-09"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-lotte-87ca3cdbbc",
+   "airline_id": "h-lotte",
+   "airline": "롯데호텔",
+   "airlines_mentioned": [
+    "롯데호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "연말 숙박·김치 특가 잡자",
+   "headline": "“연말 숙박·김치 특가 잡자”…롯데호텔앤리조트, 블랙프라이데이 프로모션",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "호텔 김치 30% 할인…롯데호텔앤리조트, ‘플래시 딜’ 행사",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Ob1VfMTMwY3JvVDRmbDUybDF4S2g1WVdtRENjNjVNc191OGdDaE5TcHF1dzNLM0VJekgwLU5ickh6aGdmNW5rMHp6Q0dzMFBHTzZtbF9wYw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "30% 할인",
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-09",
+   "first_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-09T13:18:13+09:00",
+   "articles": [
+    {
+     "title": "“연말 숙박·김치 특가 잡자”…롯데호텔앤리조트, 블랙프라이데이 프로모션",
+     "outlet": "스포츠서울",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9GSDhwX1VsZWNGZmFvWUdvbFhmbzFON0I2YmRoeXlaX2lVYl9FaGZYQ3NFdlc4QzB6TUFpeVFGMEhtcFB0dVdEWUhnVktsVUZaQnhld2NaUW8?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "호텔 김치 30% 할인…롯데호텔앤리조트, ‘플래시 딜’ 행사",
+     "outlet": "리얼푸드",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Ob1VfMTMwY3JvVDRmbDUybDF4S2g1WVdtRENjNjVNc191OGdDaE5TcHF1dzNLM0VJekgwLU5ickh6aGdmNW5rMHp6Q0dzMFBHTzZtbF9wYw?oc=5",
+     "published": "2026-11-09"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-yeogi-2238eeece6",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "여기어때, 홍콩 여행 기획전 진행…숙소 최대 8만5000원 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "홍콩"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-09",
+   "first_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-09T13:18:13+09:00",
+   "articles": [
+    {
+     "title": "여기어때, 홍콩 여행 기획전 진행…숙소 최대 8만5000원 할인",
+     "outlet": "파이낸셜투데이",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zSXBZWTVFbE9Xd1JRbWFkdXNkUkQ5cllydmV3R2ExVzQzTG1GNDN0TDJFY3NWZG9WU3g2aTNwQnJXTjJuVWF3dXVoNGRVa2g1bEFiSmc2UGw5RDZqV09qd0dQc3NrcjZXS1HSAW5BVV95cUxQb0txbkI0SUN4NkpWdHZWeDlHeTl5ZFNCbUJDQVR6Y2pmNU5MSWFjSVZ4NHUtLXEzNnY0UDN5YjNYdXZ2eUVLb3RQNHRkeVVUSlVPOVdMS1JhVEIweFdBX2M3TVA0Mlpmb2lValo4QQ?oc=5",
+     "published": "2026-11-09"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-tripcom-91a861cd73",
+   "airline_id": "h-tripcom",
+   "airline": "트립닷컴",
+   "airlines_mentioned": [
+    "트립닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://kr.trip.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "트립닷컴, 나흘간 연중 최대 할인 행사…항공·호텔 최대 80% 쿠폰 제공",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [
+    "쿠폰"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "트립닷컴, 나흘간 연중 최대 할인 행사…항공·호텔 최대 80% 쿠폰 제공",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5T0IwekVnU3JIX3FXejZldXd2eEFLMFowN1B0d2ZYNHdlUnNjSjdobzhoQmRBdlZqcnVaem5ZaVJEMnZLZkp3TGQ1UTJYVy1MR2Y5WTVHcDZzSzFpNzJKWnpPZm9Na3c2OEVaUHg1cUU?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 80%",
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-09",
+   "first_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-09T13:18:13+09:00",
+   "articles": [
+    {
+     "title": "트립닷컴, 나흘간 연중 최대 할인 행사…항공·호텔 최대 80% 쿠폰 제공",
+     "outlet": "스마트경제",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5T0IwekVnU3JIX3FXejZldXd2eEFLMFowN1B0d2ZYNHdlUnNjSjdobzhoQmRBdlZqcnVaem5ZaVJEMnZLZkp3TGQ1UTJYVy1MR2Y5WTVHcDZzSzFpNzJKWnpPZm9Na3c2OEVaUHg1cUU?oc=5",
+     "published": "2026-11-09"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "pal-c8a5bce941",
+   "airline_id": "pal",
+   "airline": "필리핀항공",
+   "airlines_mentioned": [
+    "필리핀항공"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.philippineairlines.com/",
+   "iata": [
+    "PR"
+   ],
+   "agencies": [],
+   "event_name": "2026 Year End Seat Sale",
+   "headline": "필리핀항공, 연말 맞아 항공권 특가…‘2026 Year End Seat Sale’ 프로모션 실시",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "필리핀항공, 연말 맞아 항공권 최대 40% 할인…특별 프로모션 실시",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YVUpUdlVnSHlZb3FQNHdEdVFMSFdZUFhsa0pJOVlsQjFsWVRuWS05a0s1TFZHZkJ1ZlgwQ2NvR1ZWT1VhMmxnLXdncVhDWkpjNXFUeEpLWjE1Q0ZUMTBReQ?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 40%",
+   "verification": "news",
+   "first_published": "2026-11-08",
+   "last_published": "2026-11-09",
+   "first_seen": "2026-11-08T09:14:08+09:00",
+   "last_seen": "2026-11-09T13:18:13+09:00",
+   "articles": [
+    {
+     "title": "필리핀항공, 연말 맞아 항공권 특가…‘2026 Year End Seat Sale’ 프로모션 실시",
+     "outlet": "한국일보",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqdjFVSElJWnRhYURaWUdib3NjbEo4aXRuYVdaemR3MXpQZGw4S1JweHRiWEU2ekQ2OWhsYkpjbzZWNzhkUVA3R3l5ZlFFLXVwZ1RkeEZCN2VhTXNZcHdzbV9Jc3gySXFQV0o5c2l2Z2JQSzDSAXNBVV95cUxQanYxVUhJSVp0YWFEWllHYm9zY2xKOGl0bmFXWnpkdzF6UGRsOEtScHh0YlhFNnpENjlobGJKY282Vjc4ZFFQN0d5eWZRRS11cGdUZHhGQjdlYU1zWXB3c21fSXN4MklxUFdKOXNpdmdiUEsw?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "필리핀항공, 연말 맞아 항공권 최대 40% 할인…특별 프로모션 실시",
+     "outlet": "아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YVUpUdlVnSHlZb3FQNHdEdVFMSFdZUFhsa0pJOVlsQjFsWVRuWS05a0s1TFZHZkJ1ZlgwQ2NvR1ZWT1VhMmxnLXdncVhDWkpjNXFUeEpLWjE1Q0ZUMTBReQ?oc=5",
      "published": "2026-11-08"
     }
    ],
