@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T16:12:16+09:00",
+ "generated_at": "2026-11-09T18:16:03+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1584,
+  "rss_items": 1569,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1933,
+  "outlet_items": 1939,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 40,
-  "articles": 654,
-  "new_articles": 7,
+  "articles": 658,
+  "new_articles": 4,
   "deals": 117
  },
  "deals": [
@@ -73,7 +73,7 @@
    "first_published": "2026-11-09",
    "last_published": "2026-11-09",
    "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-09T16:12:16+09:00",
+   "last_seen": "2026-11-09T18:16:03+09:00",
    "articles": [
     {
      "title": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
@@ -97,6 +97,12 @@
      "title": "제주 왕복 항공권이 1000원대?…트립닷컴, 11일부터 나흘간 특가 판매",
      "outlet": "아주경제",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11N3dIWFZKNXpGcXJmY3pCaW9qY0lrRXd6Nkd5VG94ZGdjMXY1TnYwcFNLR3dBNTIzWlVsVTYxdVJhaWdFUHJVSGNxYUlvSkw0bVNGazFlbVJ2Z9IBWEFVX3lxTE1UVjVBcWk5TmZHTHhBMjNaeDUzZ0pxZThYVGhxRFBOdzF1NFh5Uk5BWnJSTWY0czJybW10cDZOMkpwN0ZYWVdlbmEtZkNpcFdlNWtVZ3BQM0E?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주 왕복 항공권을 1100원에…트립닷컴 ‘11.11 메가세일’",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2dDB2Y3lOQW5DWHlJRGpBQnpnMW13NVVZWWpZYTE5aEtuYkcyek11NkVKZjVxN25odGxhLURFTXJFb2pXeDNEMW5zWTBsbWVpcjY2MURB?oc=5",
      "published": "2026-11-09"
     },
     {
@@ -1228,7 +1234,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "세부퍼시픽항공, 11.11 특가",
+   "headline": "세부퍼시픽항공, 11.11 맞아 필리핀행 특가 항공권 판매",
    "sale_start": "2026-11-08",
    "sale_end": "2026-11-12",
    "travel_start": "2027-02-01",
@@ -1236,6 +1242,10 @@
    "routes": [
     {
      "origin": "한국",
+     "destination": "필리핀"
+    },
+    {
+     "origin": null,
      "destination": "필리핀"
     }
    ],
@@ -1256,18 +1266,24 @@
      "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72610"
     },
     "route": {
-     "title": "트래블데일리 요약문: …부터 12일까지 진행되며 한국 출발 필리핀행 항공권을 편도 총액 최저 11만 7000원부터 구매할 수 있다.…",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72610"
+     "title": "세부퍼시픽항공, 11.11 맞아 필리핀행 특가 항공권 판매",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE85cGpGbHhoYmxCalNMckxIZW0xWFYyM3VFM05sUFJ3QTg5SFNGZkVMLVRrTGtGNHRUd2tLcU1vY1czSk5SN01B?oc=5"
     }
    },
    "from_icn": "unknown",
    "discount": "11만7000원부터",
    "verification": "news",
    "first_published": "2026-11-08",
-   "last_published": "2026-11-08",
+   "last_published": "2026-11-09",
    "first_seen": "2026-11-08T22:17:34+09:00",
-   "last_seen": "2026-11-08T22:17:34+09:00",
+   "last_seen": "2026-11-09T18:16:03+09:00",
    "articles": [
+    {
+     "title": "세부퍼시픽항공, 11.11 맞아 필리핀행 특가 항공권 판매",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE85cGpGbHhoYmxCalNMckxIZW0xWFYyM3VFM05sUFJ3QTg5SFNGZkVMLVRrTGtGNHRUd2tLcU1vY1czSk5SN01B?oc=5",
+     "published": "2026-11-09"
+    },
     {
      "title": "세부퍼시픽항공, 11.11 특가",
      "outlet": "트래블데일리",
@@ -5652,7 +5668,7 @@
    "first_published": "2026-11-09",
    "last_published": "2026-11-09",
    "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-09T16:12:16+09:00",
+   "last_seen": "2026-11-09T18:16:03+09:00",
    "articles": [
     {
      "title": "“가고 싶은 곳 특가 알려준다”…제주항공, 맞춤형 여행 정보 제공",
@@ -5670,6 +5686,12 @@
      "title": "제주항공, 취향 기반 특가 알림 ‘내 여행 취향’ 운영",
      "outlet": "로이슈",
      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvQ21HLXVWdUM1M3lWbWhEREUzRjFqb2FWVTZOeV9WUy1obmIxRk1abzI3Zmh4N1pxcWp5RHRGMkg2MmZmSjZ3MU44dXFaWEtwSzBvOU40SWxGMTdNMEJTOTNJSHN2azgwYU1LQThUS1phWFF2V01US3RB?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주항공, 맞춤형 특가 안내 서비스 ‘내 여행 취향’ 운영",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxMFVoUUk3dFFRX250TFhWQTNaTVVvUC02SS1kb0Z6MHF4VWx1RFM4R3JnUWdocFpxVGR6aVdJa0lGVnZpOHVaUUFXM1VBNUhjOHhYOWszR2JmNWtJRnV0bl8tTW1zbXFRSmdrTENxQWZ0ZWFucHh30gF3QVVfeXFMUDEwVWhRSTd0UVFfbnRMWFZBM1pNVW9QLTZJLWRvRnowcXhVbHVEUzhHcmdRZ2hwWnFUZHppV0lrSUZWdmk4dVpRQVczVUE1SGM4eFg5azNHYmY1a0lGdXRuXy1NbXNtcVFKZ2tMQ3FBZnRlYW5weHc?oc=5",
      "published": "2026-11-09"
     },
     {
@@ -5919,7 +5941,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "여기어때, 홍콩 여행 기획전 진행…숙소 최대 8만5000원 할인",
+   "headline": "연차 없이 홍콩 여행 떠나볼까…여기어때, 숙소·항공권 할인 혜택",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -5937,8 +5959,14 @@
    "first_published": "2026-11-09",
    "last_published": "2026-11-09",
    "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-09T18:16:03+09:00",
    "articles": [
+    {
+     "title": "연차 없이 홍콩 여행 떠나볼까…여기어때, 숙소·항공권 할인 혜택",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sU2JqTTljSll3YV9OUktVaWJtdXhNMVphbGs3b2NsSVpwV0ZjSVlONzF3RTFoTHhZYnhfYzh4UEJJYllkRXc1Q1FWZjhZd1NVTC13STBxU1NaQjBxWlJIVVRrRU9fVzdCRTBkU9IBb0FVX3lxTE83Z1k2djJRTXR1Y1A0eUxLd0xLSlhSU0ZUcE10MmdNMTJqU2ZIU3dOQktpMTZNS3VIQnRzSDMyUFNQQ0tjOTFVODJzOWc1MWZhWDVyQVBMNXRvTEFmUGZDQVNWMGswLWJwUmUyeTNzMA?oc=5",
+     "published": "2026-11-09"
+    },
     {
      "title": "여기어때, 홍콩 여행 기획전 진행…숙소 최대 8만5000원 할인",
      "outlet": "파이낸셜투데이",
