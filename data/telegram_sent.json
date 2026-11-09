@@ -2425,29 +2425,6 @@
     "new": "2026-11-08"
    }
   },
-  "h-booking-6dff27a361": {
-   "info": {
-    "airline": "h-booking",
-    "name": "1111슈퍼세일",
-    "sale_start": "2026-11-09",
-    "sale_end": "2026-11-16",
-    "dests": [],
-    "last": "2026-11-06",
-    "urls": [
-     "10c6ff8552",
-     "10eac214ef",
-     "61359f6dd2",
-     "6dff27a361",
-     "9a085cf6a0",
-     "d77483a2af"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-05",
-    "upcoming_d3": "2026-11-06",
-    "upcoming_d1": "2026-11-08"
-   }
-  },
   "h-other-69c7f1a6e8": {
    "info": {
     "airline": "h-other",
@@ -2524,14 +2501,86 @@
     "closing_tomorrow": "2026-11-07",
     "closing_today": "2026-11-08"
    }
+  },
+  "h-booking-6dff27a361": {
+   "info": {
+    "airline": "h-booking",
+    "name": "1111슈퍼세일",
+    "sale_start": "2026-11-09",
+    "sale_end": "2026-11-16",
+    "dests": [],
+    "last": "2026-11-06",
+    "urls": [
+     "10c6ff8552",
+     "10eac214ef",
+     "61359f6dd2",
+     "6dff27a361",
+     "9a085cf6a0",
+     "d77483a2af"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-05",
+    "upcoming_d3": "2026-11-06",
+    "upcoming_d1": "2026-11-08",
+    "start_today": "2026-11-09"
+   }
+  },
+  "cebu-e47dfd035f": {
+   "info": {
+    "airline": "cebu",
+    "name": "",
+    "sale_start": "2026-11-08",
+    "sale_end": "2026-11-12",
+    "dests": [
+     "필리핀"
+    ],
+    "last": "2026-11-08",
+    "urls": [
+     "e47dfd035f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09"
+   }
+  },
+  "h-lotte-5b4b00fecb": {
+   "info": {
+    "airline": "h-lotte",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-13",
+    "dests": [],
+    "last": "2026-11-09",
+    "urls": [
+     "3a38f7849a",
+     "5b4b00fecb",
+     "dbe9c82630",
+     "e63d24d465"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09"
+   }
+  },
+  "h-other-bfd1649ad3": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-06",
+    "urls": [
+     "bfd1649ad3"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09"
+   }
   }
  },
  "slots": {
-  "2026-11-01": {
-   "morning": "sent",
-   "afternoon": "sent",
-   "evening": "sent"
-  },
   "2026-11-02": {
    "morning": "sent",
    "afternoon": "sent",
@@ -2562,9 +2611,12 @@
   "2026-11-08": {
    "morning": "sent",
    "evening": "sent"
+  },
+  "2026-11-09": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-11-09T01:24:48+09:00",
+ "saved_at": "2026-11-09T09:18:38+09:00",
  "drops_day": "2026-11-08",
  "drops": {
   "BKK": {
