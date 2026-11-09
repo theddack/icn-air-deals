@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T18:16:03+09:00",
+ "generated_at": "2026-11-09T22:17:33+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1569,
+  "rss_items": 1568,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1939,
+  "outlet_items": 1818,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 40,
-  "articles": 658,
-  "new_articles": 4,
+  "articles": 659,
+  "new_articles": 1,
   "deals": 117
  },
  "deals": [
@@ -5941,7 +5941,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "연차 없이 홍콩 여행 떠나볼까…여기어때, 숙소·항공권 할인 혜택",
+   "headline": "연차 없이 홍콩 한 바퀴…여기어때, 곽범 여행 따라 할인 혜택",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -5959,8 +5959,14 @@
    "first_published": "2026-11-09",
    "last_published": "2026-11-09",
    "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-09T18:16:03+09:00",
+   "last_seen": "2026-11-09T22:17:33+09:00",
    "articles": [
+    {
+     "title": "연차 없이 홍콩 한 바퀴…여기어때, 곽범 여행 따라 할인 혜택",
+     "outlet": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1CTlpBQ2VFZWRybnVsUzh4NU43T0hTaEtYWHJxQWJ1UGdubG9ZVDVFaHpyQ3A2OGVrWUhiTXFfNnV4ZFdJTlRWMDRCWV9EYlc0YzBfQXE3YVpRRXN4OTBJek13N3lvRWJjV2FVMVdIbnZUUQ?oc=5",
+     "published": "2026-11-09"
+    },
     {
      "title": "연차 없이 홍콩 여행 떠나볼까…여기어때, 숙소·항공권 할인 혜택",
      "outlet": "한스경제",
