@@ -2578,6 +2578,138 @@
    "kinds": {
     "new": "2026-11-09"
    }
+  },
+  "h-tripcom-97d71f7e15": {
+   "info": {
+    "airline": "h-tripcom",
+    "name": "1111메가세일",
+    "sale_start": "2026-11-11",
+    "sale_end": "2026-11-14",
+    "dests": [],
+    "last": "2026-11-09",
+    "urls": [
+     "79249f497a",
+     "9136641909",
+     "97d71f7e15",
+     "c29350487f",
+     "cd26e972a9",
+     "f8004940c1"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09"
+   }
+  },
+  "jejuair-ada23d6f44": {
+   "info": {
+    "airline": "jejuair",
+    "name": "가고싶은곳특가알려준다",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-09",
+    "urls": [
+     "051244d01e",
+     "13f2c25ee7",
+     "2683066519",
+     "30a3268615",
+     "38be8eef82",
+     "41841da628",
+     "61d7cebc29",
+     "6e20986913",
+     "78f29ec9d4",
+     "7a1198e8e1",
+     "8943b89f10",
+     "ad4c7153b2",
+     "ada23d6f44",
+     "dacf48b5fe"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09"
+   }
+  },
+  "cebu-dea52b103c": {
+   "info": {
+    "airline": "cebu",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-09",
+    "urls": [
+     "dea52b103c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09"
+   }
+  },
+  "h-lotte-84266976d0": {
+   "info": {
+    "airline": "h-lotte",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-09",
+    "urls": [
+     "84266976d0"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09"
+   }
+  },
+  "h-lotte-87ca3cdbbc": {
+   "info": {
+    "airline": "h-lotte",
+    "name": "연말숙박김치특가잡자",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-09",
+    "urls": [
+     "18e9645c14",
+     "87ca3cdbbc"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09"
+   }
+  },
+  "h-yeogi-2238eeece6": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-09",
+    "urls": [
+     "01be57773a",
+     "2238eeece6"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09"
+   }
+  },
+  "h-tripcom-91a861cd73": {
+   "info": {
+    "airline": "h-tripcom",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-09",
+    "urls": [
+     "91a861cd73"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09"
+   }
   }
  },
  "slots": {
@@ -2613,10 +2745,11 @@
    "evening": "sent"
   },
   "2026-11-09": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-09T13:23:06+09:00",
+ "saved_at": "2026-11-09T18:21:11+09:00",
  "drops_day": "2026-11-09",
  "drops": {
   "BKK": {
