@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T13:18:13+09:00",
+ "generated_at": "2026-11-09T16:12:16+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1553,
+  "rss_items": 1584,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1890,
+  "outlet_items": 1933,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 40,
-  "articles": 647,
-  "new_articles": 21,
+  "articles": 654,
+  "new_articles": 7,
   "deals": 117
  },
  "deals": [
@@ -47,7 +47,7 @@
    "event_name": "11.11 메가세일",
    "headline": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
    "sale_start": "2026-11-11",
-   "sale_end": null,
+   "sale_end": "2026-11-14",
    "travel_start": null,
    "travel_end": null,
    "routes": [],
@@ -73,7 +73,7 @@
    "first_published": "2026-11-09",
    "last_published": "2026-11-09",
    "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-09T16:12:16+09:00",
    "articles": [
     {
      "title": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
@@ -91,6 +91,12 @@
      "title": "트립닷컴, '11.11 메가세일'…항공권 1100원·호텔 1만9000원부터",
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HSFNjVDlxUURYbzRPU0YweXZqMlVsTUJJaTBmRDdfekVYNGZPXzNDQldLVFhvSU5DcUZfZHdZbGstbHU5OEFacE52YlAzWmp3WVI5d1p3VW5nYzhhRm42VmNFSmRGZw?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주 왕복 항공권이 1000원대?…트립닷컴, 11일부터 나흘간 특가 판매",
+     "outlet": "아주경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11N3dIWFZKNXpGcXJmY3pCaW9qY0lrRXd6Nkd5VG94ZGdjMXY1TnYwcFNLR3dBNTIzWlVsVTYxdVJhaWdFUHJVSGNxYUlvSkw0bVNGazFlbVJ2Z9IBWEFVX3lxTE1UVjVBcWk5TmZHTHhBMjNaeDUzZ0pxZThYVGhxRFBOdzF1NFh5Uk5BWnJSTWY0czJybW10cDZOMkpwN0ZYWVdlbmEtZkNpcFdlNWtVZ3BQM0E?oc=5",
      "published": "2026-11-09"
     },
     {
@@ -1316,7 +1322,7 @@
    "first_published": "2026-11-05",
    "last_published": "2026-11-08",
    "first_seen": "2026-11-05T09:14:06+09:00",
-   "last_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-09T16:12:16+09:00",
    "articles": [
     {
      "title": "Booking.com’s First 11.11 Super Sale: At Least 30% off Stays Into 2027",
@@ -1329,6 +1335,12 @@
      "outlet": "스타패션",
      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqNUV3SmNqN0NoVFFtRlpKRXVMV1B0VzFNWVlkdmVIcnpvdS1DbVF1S2ltcllabkt0RkFBTHVVQVhlS2EtN1ZBVklhMzFtZ080eEtTRkFCVVF3VHhmTFJj?oc=5",
      "published": "2026-11-06"
+    },
+    {
+     "title": "부킹닷컴, 첫 ‘11.11 슈퍼 세일’ 진행…숙소 예약 시 최소 30% 할인 혜택 제공",
+     "outlet": "Booking.com",
+     "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxNNmFfdEtwRVNXVlJUQjVLUXJWZTJZR1RNeG9kMWFIZ1Y3S3ZaSl92OC1NUWROdXpodUVXLThqUm9ZWGlPSUV4aF9VbjFHb3A4eHdfQVkwV2pONXNZLTllMzVIUWlscFhZR3lxTm9SYVpZa0Z5YU92cDBjN3h1ek0ycE93dFdJRnFoSm5GNTE0Xzl0ZElxWVNTM3ZSb095VV9fYVdIMTg1V01rbmJXZlQwbDRGSzkzeEtyX283dHR4WGpGYnpwMEd5cDR1bkd0MzRrWkw3dXNxSjdBVU1OVlN2dExtd013dHhBRVdraXRSdlFnTUMzRW04TFc1cFp4amtoeHB4NFNralJ5bFBfY0pJMTFJQUpySzJRN0FqMmZNTkx2dmtaUnNMaXo5UVYzdHdhdlltY1k4cTR2dktPaUVsX3RfUXRGc0Z5R1EwTzhaSGpmWmxtZ0JBdnoyMWxfbzhpR0NhZ1JoT3dYajZ5cndibzE1SmJiTzZpTDE1RTBBUXd0Ql9SVlhHV1RrU084QkMwRHlJUHN2VEI?oc=5",
+     "published": "2026-11-05"
     },
     {
      "title": "부킹닷컴 11.11 슈퍼 세일, 9~16일 예약 숙소 최소 30% 할인",
@@ -5640,12 +5652,30 @@
    "first_published": "2026-11-09",
    "last_published": "2026-11-09",
    "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-09T16:12:16+09:00",
    "articles": [
     {
      "title": "“가고 싶은 곳 특가 알려준다”…제주항공, 맞춤형 여행 정보 제공",
      "outlet": "데일리안",
      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNY21QSXZ5cXRVQXJ0MWt1T0d6aUVJMncxNlR2bjR5OG1LODV6ZHpSYUhfU0x6amZyRVp4RENMQ0diQzF3V2sweHZYdTNRN2FEUE5zX3c1bzhodTdVZnlLV0N0UEpIcnNyWnRESWZfTWdJQmY5dklMaGtubmJqOEROSkhZM2cwSVRKRkRLNjJ3NVR0RWdDeVNTMldRZmJEekREMHJYQ0ZrRFpCTXR0X0ZnRm1YUm55SlVWdm0xRUpoclp3ay1MTzdkaVJoaUJ5Wm9ZZEk0SDZEVXlJMVhhMHh3VVEtRkdWeXJTbTlrVHRrUnJsNjkxZkJPckRrUWR4SF9EVWE4NzJQTmE5cjhKdTl2b2R6YmljT0FuTU9IQV9US0padnc?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주항공, ‘내 여행 취향’ 따라 항공권 특가 안내…누적 등록 6만여 건",
+     "outlet": "글로벌이코노믹",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTVY1T0E2dTBMUFhBY0FjYkVUZk5XNzNtRlA2aXp0UkJJV2JnQUZaaEhVaVFnTHU4TGJLZUVaSllUaVQ0Vk91dHdpWnJCQ3JILTlQa2JmOG9wZjc5ZUM0Q01LWUJQSVF3RkVXQlZhY0VHclZ4X1MzcFoxX1VERFFsa0NybGstZw?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주항공, 취향 기반 특가 알림 ‘내 여행 취향’ 운영",
+     "outlet": "로이슈",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvQ21HLXVWdUM1M3lWbWhEREUzRjFqb2FWVTZOeV9WUy1obmIxRk1abzI3Zmh4N1pxcWp5RHRGMkg2MmZmSjZ3MU44dXFaWEtwSzBvOU40SWxGMTdNMEJTOTNJSHN2azgwYU1LQThUS1phWFF2V01US3RB?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "“원하는 특가 노선만 콕 집어준다” 제주항공, 맞춤형 큐레이션 서비스 호평",
+     "outlet": "인더스트리뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Yd1hkLWcydFhuNE0ybWNqTDV2OHktQ1ZVN2dRc29zSzBxR3pQalV2QmFBZy1vUHVOM3NwcUdRdFN3eTlaa3NEUlFQcHFMTVNRZmpNTnJoME1jVkxLOWpNeDh4bGVlQ1I2ZmV3ZGZRZTU4UQ?oc=5",
      "published": "2026-11-09"
     },
     {
@@ -5670,6 +5700,18 @@
      "title": "제주항공, '내 여행 취향' 등록 6만여 건...맞춤형 항공권 특가 메일 제공",
      "outlet": "이코노미사이언스",
      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CbktWay05clAyT3A2LXoyTllQZFRmcmM0ODhzZlE5a2I5S19lSEJZTk83TGNCTENUbXBFLS00NFhqZ0JoQjA4dlFlWEd2Z3N3MHVtb3E0SWl1SUJpM1d5ZXh5Q1RFOXdsaGNBZ1BTaw?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "항공권 특가도 `취향껏`…제주항공, 맞춤형 정보로 탑승률 높인다",
+     "outlet": "디지털데일리",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE53bk5RQnpCTzN6TUlPMXVKUk9ucVoxbFpRVGYyNzFhcDlYN2FSX04tQjExU2RKV2t5Tm1DeDZfaUlQUlVTX1hWakp4TjBCVFYyWDlGRmpUNHgxdk4zZ2Fqc2pB?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주항공, '내 여행 취향' 누적 등록 6만건 돌파…특가 서비스 확대",
+     "outlet": "아시아타임즈",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoM0wxSUtXZEFleFM4M1VGX3dCNGpMcTh1UWZzLTZWUFp5UmtIMXFSUG5lbm9XTU1WbEhsTVRkS2JyX0kxTnNramkyYmQyYWpyRlFhMHBoc1R2OTdLX0E?oc=5",
      "published": "2026-11-09"
     },
     {
