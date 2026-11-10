@@ -5549,5 +5549,48 @@
   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsVVZKZmpDN2hqdDZLUmtFUng5cDhJLUpiNXlwVUpEekJONmZDY2JYSDQyZ2t6M0pHdTlRYTFjN2Y1QnBKdVFLZjk3YTAzN2ZKcUR1VkxtbmpaX3BnWXlkVlhyaW15aFdfemFKZnU0NExobknSAXdBVV95cUxNeVlaV1NFbEJHM1hLNHRNbEhkblZYeDhBekNnUzFicWRFcGZaNEJ2ajRoWllVRnBOSHYyWlp1VGpxOUpLQjUyU0EzRlpQcGlraS1GeWUxVWhvU25uNVBDUjVUZ3dSakZrQVFvYzdzVTBOR3V5U1JPbw?oc=5",
   "published": "2026-11-10",
   "first_seen": "2026-11-10T18:16:09+09:00"
+ },
+ {
+  "title": "트리니티항공, 지방 공항 출발 노선 전용 '우리 동네 할인' 프로모션 진행",
+  "outlet": "비즈니스플러스",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXWU1vVDU0VXFSdTA5V1NuTXJfYXE0LWRya21ERm53eXlNbEhoWnBPU1hlU1psTEZaMDQxbDNWSlB4dUN6NGlzWVJKQ0NMYjNJQ19OUnlFMG1sOFcyampwRnlYbGluNnVsc1g0YWN6NA?oc=5",
+  "published": "2026-11-10",
+  "first_seen": "2026-11-10T22:17:34+09:00"
+ },
+ {
+  "title": "신라호텔·면세점, 블랙프라이데이 할인 확대",
+  "outlet": "한국금융경제신문",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12MEtRWGlwYXgwNUxVU0plRFItdmRwQU5Jcmt1ekdZRWg2ZWIwUzB2eE1VUzhLTkVLaFhJRXNIR192TFFIYmU3Wlk1MjBHdHU4TnZXd3VBOUVfSzk3UUdoSWtBdWNhc1hfS040adIBcEFVX3lxTE15ODlPVUxMcFpVLWZ5YUxieUxJSHhTUElPUk0zMEtvZUZiSUZmYy1CQVJKQWZEV1JuOUlZcXR3Sjd4MkNaWTJxNUsyV290VDYtcFVWUHpZUTdtSk9GRUN0c2JOZm1BeVJnVUxTNndPU2o?oc=5",
+  "published": "2026-11-10",
+  "first_seen": "2026-11-10T22:17:34+09:00"
+ },
+ {
+  "title": "놀유니버스, 부산관광공사와 협력해 외국인 관광객 숙박 할인",
+  "outlet": "BBS불교방송",
+  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ITHZrNWVmOEhNYzNOeENONnpjMTlkQ18xLWtrWXBrMkl3NUh4V2k2ODd0QVQ1MHk2WWt5eTR3UkJ0MkRyNXg3bXZfdzR6dnE0aHlDREptZ09NeDJkcVFqNnIwR003TDJra3ZB?oc=5",
+  "published": "2026-11-10",
+  "first_seen": "2026-11-10T22:17:34+09:00"
+ },
+ {
+  "title": "트리니티항공, ‘우리 동네 할인’ 프로모션",
+  "outlet": "트래블데일리",
+  "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72633",
+  "published": "2026-11-10",
+  "first_seen": "2026-11-10T22:17:34+09:00",
+  "source": "outlet_rss",
+  "summary_facts": {
+   "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72633",
+   "outlet": "트래블데일리",
+   "fields": {
+    "sale_start": null,
+    "sale_end": "2026-11-23",
+    "travel_start": "2026-11-10",
+    "travel_end": "2027-01-31"
+   },
+   "evidence": {
+    "sale": "이번 프로모션은 이달 23일까지 트리니티항공 공식 홈페이지와 모바일 앱(웹)을 통해 진행된다.",
+    "travel": "…내선 및 국제선 전 노선이며 탑승 기간은 이달 10일부터 2027년 1월 31일까지로 일부 기간은 제외된다.…"
+   }
+  }
  }
 ]

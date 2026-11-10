@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T18:16:09+09:00",
+ "generated_at": "2026-11-10T22:17:34+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1631,
+  "rss_items": 1669,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2088,
-  "outlet_new_articles": 0,
+  "outlet_items": 1945,
+  "outlet_new_articles": 1,
   "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
-  "articles_with_summary": 44,
-  "articles": 694,
-  "new_articles": 5,
+  "articles_with_summary": 45,
+  "articles": 698,
+  "new_articles": 4,
   "deals": 122
  },
  "deals": [
@@ -776,7 +776,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "블랙 프라이데이",
-   "headline": "신라호텔 최대 28%·조선호텔 최대 77% 할인…호텔가 연말 특가 경쟁",
+   "headline": "신라호텔·면세점, 블랙프라이데이 할인 확대",
    "sale_start": "2026-11-06",
    "sale_end": "2026-11-19",
    "travel_start": null,
@@ -801,10 +801,16 @@
    "discount": "최대 28%",
    "verification": "news",
    "first_published": "2026-11-06",
-   "last_published": "2026-11-07",
+   "last_published": "2026-11-10",
    "first_seen": "2026-11-06T09:14:11+09:00",
-   "last_seen": "2026-11-07T09:14:15+09:00",
+   "last_seen": "2026-11-10T22:17:34+09:00",
    "articles": [
+    {
+     "title": "신라호텔·면세점, 블랙프라이데이 할인 확대",
+     "outlet": "한국금융경제신문",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12MEtRWGlwYXgwNUxVU0plRFItdmRwQU5Jcmt1ekdZRWg2ZWIwUzB2eE1VUzhLTkVLaFhJRXNIR192TFFIYmU3Wlk1MjBHdHU4TnZXd3VBOUVfSzk3UUdoSWtBdWNhc1hfS040adIBcEFVX3lxTE15ODlPVUxMcFpVLWZ5YUxieUxJSHhTUElPUk0zMEtvZUZiSUZmYy1CQVJKQWZEV1JuOUlZcXR3Sjd4MkNaWTJxNUsyV290VDYtcFVWUHpZUTdtSk9GRUN0c2JOZm1BeVJnVUxTNndPU2o?oc=5",
+     "published": "2026-11-10"
+    },
     {
      "title": "신라호텔 최대 28%·조선호텔 최대 77% 할인…호텔가 연말 특가 경쟁",
      "outlet": "세계일보",
@@ -2029,11 +2035,11 @@
    ],
    "agencies": [],
    "event_name": "우리 동네 할인",
-   "headline": "트리니티항공, 부산·대구·청주·제주 출발 항공권 최대 2만원 할인",
+   "headline": "트리니티항공, ‘우리 동네 할인’ 프로모션",
    "sale_start": null,
    "sale_end": "2026-11-23",
-   "travel_start": null,
-   "travel_end": null,
+   "travel_start": "2026-11-10",
+   "travel_end": "2027-01-31",
    "routes": [
     {
      "origin": "제주(CJU)",
@@ -2045,8 +2051,12 @@
    "conflicts": [],
    "evidence": {
     "sale": {
-     "title": "ER 이코노믹리뷰 요약문: 이번 행사는 10일 오전 10시부터 23일까지 트리니티항공 공식 홈페이지와 모바일 앱(웹)에서 진행된다.",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=756642"
+     "title": "트래블데일리 요약문: 이번 프로모션은 이달 23일까지 트리니티항공 공식 홈페이지와 모바일 앱(웹)을 통해 진행된다.",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72633"
+    },
+    "travel": {
+     "title": "트래블데일리 요약문: …내선 및 국제선 전 노선이며 탑승 기간은 이달 10일부터 2027년 1월 31일까지로 일부 기간은 제외된다.…",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72633"
     },
     "discount": {
      "title": "트리니티항공, 부산·대구·청주·제주 출발 항공권 최대 2만원 할인",
@@ -2063,8 +2073,14 @@
    "first_published": "2026-11-10",
    "last_published": "2026-11-10",
    "first_seen": "2026-11-10T13:18:19+09:00",
-   "last_seen": "2026-11-10T16:44:38+09:00",
+   "last_seen": "2026-11-10T22:17:34+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, ‘우리 동네 할인’ 프로모션",
+     "outlet": "트래블데일리",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72633",
+     "published": "2026-11-10"
+    },
     {
      "title": "트리니티항공, 부산·대구·청주·제주 출발 항공권 최대 2만원 할인",
      "outlet": "ER 이코노믹리뷰",
@@ -2193,7 +2209,7 @@
    "first_published": "2026-11-10",
    "last_published": "2026-11-10",
    "first_seen": "2026-11-10T09:14:15+09:00",
-   "last_seen": "2026-11-10T18:16:09+09:00",
+   "last_seen": "2026-11-10T22:17:34+09:00",
    "articles": [
     {
      "title": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
@@ -2217,6 +2233,12 @@
      "title": "놀유니버스, 부산관광공사와 '맞손' 해외관광객 숙박 10% 할인 제공",
      "outlet": "마일드경제",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnLWpFajkySXgzdmpoUGI5MTEtOWpGVFFIU1AwdVhFcG1ZZFpLb0YwOHNvZ1pDbUQzVGlFZ1VtVEl3MEtrZzFpYklkMlQ0ZURhU052a3ZCdEFHV05KYTdqY09Ybk9ISW5FRS13?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스, 부산관광공사와 협력해 외국인 관광객 숙박 할인",
+     "outlet": "BBS불교방송",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ITHZrNWVmOEhNYzNOeENONnpjMTlkQ18xLWtrWXBrMkl3NUh4V2k2ODd0QVQ1MHk2WWt5eTR3UkJ0MkRyNXg3bXZfdzR6dnE0aHlDREptZ09NeDJkcVFqNnIwR003TDJra3ZB?oc=5",
      "published": "2026-11-10"
     },
     {
