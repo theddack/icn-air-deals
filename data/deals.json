@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T09:14:15+09:00",
+ "generated_at": "2026-11-10T13:18:19+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1529,
+  "rss_items": 1612,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1889,
+  "outlet_items": 2061,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_enriched": 3,
   "mail_articles": 6,
   "mail_new_articles": 0,
-  "articles_with_summary": 40,
-  "articles": 658,
-  "new_articles": 3,
-  "deals": 116
+  "articles_with_summary": 43,
+  "articles": 681,
+  "new_articles": 23,
+  "deals": 121
  },
  "deals": [
   {
@@ -368,9 +368,9 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "트리니티항공, 제주행 항공권 최대 2만원 할인…제주도·제주관광공사와 관광 활성화 맞손 ‘지금, 제주를 만나다’ 프로모션",
+   "headline": "트리니티항공, 부산·제주 등 지역 출발 항공권 최대 2만원 할인",
    "sale_start": "2026-10-30",
-   "sale_end": null,
+   "sale_end": "2026-11-23",
    "travel_start": null,
    "travel_end": "2027-01-31",
    "routes": [
@@ -381,6 +381,10 @@
     {
      "origin": null,
      "destination": "제주(CJU)"
+    },
+    {
+     "origin": "제주(CJU)",
+     "destination": null
     }
    ],
    "regions": [],
@@ -388,30 +392,66 @@
    "conflicts": [],
    "evidence": {
     "sale": {
-     "title": "한국면세뉴스 요약문: 트리니티항공은 30일부터 내륙~제주 노선 이용객을 대상으로 '지금, 제주를 만나다' 프로모션을 진행한다고 밝…",
-     "url": "http://www.kdfnews.com/news/articleView.html?idxno=190168"
+     "title": "ER 이코노믹리뷰 요약문: 이번 행사는 10일 오전 10시부터 23일까지 트리니티항공 공식 홈페이지와 모바일 앱(웹)에서 진행된다.",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=756642"
     },
     "travel": {
      "title": "한국면세뉴스 요약문: 할인 대상 항공권의 탑승 기간은 내년 1월 31일까지다.",
      "url": "http://www.kdfnews.com/news/articleView.html?idxno=190168"
     },
     "discount": {
-     "title": "트리니티항공, 제주행 항공권 최대 2만원 할인…제주도·제주관광공사와 관광 활성화 맞손 ‘지금, 제주를 만나다’ 프로모션",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Ub1JxTk1xS0lBZlhWT1RyLU8yVFdzNGpEUEMyQkN6Yzd3aUl1eXduT3VCU3lEa0xCZFFfdW1GakdKOVJVNHFJRlUyTkRsYWdLTVZGdnlKS3lNOWhXT29QanRNcVhqdkdDeVE?oc=5"
+     "title": "트리니티항공, 부산·제주 등 지역 출발 항공권 최대 2만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQaTdFcVJiNThJMk02WlhNWDV5emtZQ2k1R1Ywb29BSFR5RjFNck9BS3VKclNCUU5oMmQ0QzU2VlJXdFNpdGhNUkZ5N1A2X25XSC1OREk1M1AyUXQxTjdIMFZ5eHZJaFlQQVBEZTRtcmJsSWtPQmZYaFVSRmwyLXVnbXNOTVdBUVVTRGRMYWxLVUM2bE04SkJvaEtwdWsyV2gyZGpubXo0cS1MaUxNTVo2Nl9NcFJpNXk5UnR3RlRNaXZpOTJLUkx6Wl8tc1ZraDFOa3ZCcDlfa1JCSE8tVkVkVFIzcjdhYl90NjJaOHp5M1hIM1R5OVFsOHowaDFhdWZkNEdRbnFadzEzeUtCM0hOQlRkQ3E2a2s?oc=5"
     },
     "route": {
-     "title": "트리니티항공, 제주행 항공권 최대 2만원 할인…제주도·제주관광공사와 관광 활성화 맞손 ‘지금, 제주를 만나다’ 프로모션",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Ub1JxTk1xS0lBZlhWT1RyLU8yVFdzNGpEUEMyQkN6Yzd3aUl1eXduT3VCU3lEa0xCZFFfdW1GakdKOVJVNHFJRlUyTkRsYWdLTVZGdnlKS3lNOWhXT29QanRNcVhqdkdDeVE?oc=5"
+     "title": "트리니티항공, 부산·대구·청주·제주 출발 항공권 최대 2만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lQ1VDdElIaXBBQXh0Mm1tX3JtaVQ2X1d3enFBem9TNGxjQkVTaUwzMERNS3BTNXAwWHlSOVE1dU11UjdOYzl6YnJ6SWxOWHZPRTBwZHZNcGlBV25LeHpnX3FnSTFYUmVPa0hFMw?oc=5"
     }
    },
    "from_icn": "no",
    "discount": "최대 2만원 할인",
    "verification": "news",
    "first_published": "2026-10-30",
-   "last_published": "2026-11-02",
+   "last_published": "2026-11-10",
    "first_seen": "2026-10-30T09:14:18+09:00",
-   "last_seen": "2026-11-02T15:50:37+09:00",
+   "last_seen": "2026-11-10T13:18:19+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 부산·제주 등 지역 출발 항공권 최대 2만원 할인",
+     "outlet": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQaTdFcVJiNThJMk02WlhNWDV5emtZQ2k1R1Ywb29BSFR5RjFNck9BS3VKclNCUU5oMmQ0QzU2VlJXdFNpdGhNUkZ5N1A2X25XSC1OREk1M1AyUXQxTjdIMFZ5eHZJaFlQQVBEZTRtcmJsSWtPQmZYaFVSRmwyLXVnbXNOTVdBUVVTRGRMYWxLVUM2bE04SkJvaEtwdWsyV2gyZGpubXo0cS1MaUxNTVo2Nl9NcFJpNXk5UnR3RlRNaXZpOTJLUkx6Wl8tc1ZraDFOa3ZCcDlfa1JCSE8tVkVkVFIzcjdhYl90NjJaOHp5M1hIM1R5OVFsOHowaDFhdWZkNEdRbnFadzEzeUtCM0hOQlRkQ3E2a2s?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "트리니티항공, 지역 출발 항공권 최대 2만원 할인",
+     "outlet": "뉴스프리존",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHYVZXdDZVS2tPSXNNaC01X3dwbEt6MlJya3pQV0k3WENuLVJ4ZEwwTGxpRWthbmFkSWpTaU9Ob2xtSnZMVU02RmgtRkZQNW5KMURuQWZpMEdfYXZBUi0yOGVoclNzMVk5X1RpY0ZvemdvMXg1MTdV0gF3QVVfeXFMUEdhVld0NlVLa09Jc01oLTVfd3BsS3oyUnJrelBXSTdYQ24tUnhkTDBMbGlFa2FuYWRJalNpT05vbG1KdkxVTTZGaC1GRlA1bkoxRG5BZmkwR19hdkFSLTI4ZWhyU3MxWTlfVGljRm96Z28xeDUxN1U?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "트리니티항공, 부산·대구·청주·제주 출발 항공권 최대 2만원 할인",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lQ1VDdElIaXBBQXh0Mm1tX3JtaVQ2X1d3enFBem9TNGxjQkVTaUwzMERNS3BTNXAwWHlSOVE1dU11UjdOYzl6YnJ6SWxOWHZPRTBwZHZNcGlBV25LeHpnX3FnSTFYUmVPa0hFMw?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "트리니티항공, 지역 공항 출발 항공권 최대 2만원 할인",
+     "outlet": "월요신문",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TT0JNemhsT0xuSnlmVjR0dE9BamdrQmNiS2RBdUJmcnpvS2FIUlFIOW1UQnJQT1FrUGVSUXRXSElYOVZUMnpzTzFVVUlkaVhucFlIbFdPU0Q5S3hTcHFqeVVZcEJnUk1RTEE?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "트리니티항공, 부산·대구·청주·제주발 항공권 최대 2만원 할인 프로모션",
+     "outlet": "충북뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQQy1xRUJzeUF3VDlicm8tRWZ0dG81QmNNS3JZZzlpMWFJcmE1T1B6eE8wYldObFhjZmFGSXpRS3NXZ1VHNm5fNHJ6WFFoelNtX1pyRUk0ZThNRzVzWGN1ckJYSnVTdw?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "트리니티항공, 부산·대구·청주·제주발 항공권 최대 2만 원 할인",
+     "outlet": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwanRyeGFSb0RzX1I1dHJfaG1MNG5GYXItYW4wcDFTb1dVRnRnTlFZSjBrRElUS2Y2ekVxX1pESVlIaVJVUGl2Tmc2czF4dEpGRE8wZXpnVUl3ZVdaRF9pdFZVNVQ?oc=5",
+     "published": "2026-11-10"
+    },
     {
      "title": "트리니티항공, 제주행 항공권 최대 2만원 할인…제주도·제주관광공사와 관광 활성화 맞손 ‘지금, 제주를 만나다’ 프로모션",
      "outlet": "www.hidomin.com",
@@ -1963,6 +2003,62 @@
    "status": "live"
   },
   {
+   "id": "h-hanatour-889dd9d340",
+   "airline_id": "h-hanatour",
+   "airline": "하나투어",
+   "airlines_mentioned": [
+    "하나투어"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.hanatour.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "하나투어 자유여행 올인위크 15일까지…항공 최대 4만 원·호텔 13% 할인",
+   "sale_start": null,
+   "sale_end": "2026-11-15",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "하나투어 자유여행 올인위크 15일까지…항공 최대 4만 원·호텔 13% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVkxFVk5waThFS2tKeFlXQ2VYcWkycmgzbGgyZmsxTVI4VlM5WmxtNVRfaXVYUThBLWJVWXFKWEJFQVRSNVFRZ2l2X041T3JSUzFrd1JOZzBqdjlaN3BwOWZNM0FlcG81QmNRaU9ralM0bzIxQWZ4cEctbkZ1OHRLVTRvMGtjQWFj?oc=5"
+    },
+    "discount": {
+     "title": "하나투어 자유여행 올인위크 15일까지…항공 최대 4만 원·호텔 13% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVkxFVk5waThFS2tKeFlXQ2VYcWkycmgzbGgyZmsxTVI4VlM5WmxtNVRfaXVYUThBLWJVWXFKWEJFQVRSNVFRZ2l2X041T3JSUzFrd1JOZzBqdjlaN3BwOWZNM0FlcG81QmNRaU9ralM0bzIxQWZ4cEctbkZ1OHRLVTRvMGtjQWFj?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "13% 할인",
+   "verification": "news",
+   "first_published": "2026-11-10",
+   "last_published": "2026-11-10",
+   "first_seen": "2026-11-10T13:18:19+09:00",
+   "last_seen": "2026-11-10T13:18:19+09:00",
+   "articles": [
+    {
+     "title": "하나투어 자유여행 올인위크 15일까지…항공 최대 4만 원·호텔 13% 할인",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVkxFVk5waThFS2tKeFlXQ2VYcWkycmgzbGgyZmsxTVI4VlM5WmxtNVRfaXVYUThBLWJVWXFKWEJFQVRSNVFRZ2l2X041T3JSUzFrd1JOZzBqdjlaN3BwOWZNM0FlcG81QmNRaU9ralM0bzIxQWZ4cEctbkZ1OHRLVTRvMGtjQWFj?oc=5",
+     "published": "2026-11-10"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "airbusan-e50759c268",
    "airline_id": "airbusan",
    "airline": "에어부산",
@@ -2166,6 +2262,100 @@
      "outlet": "핀포인트뉴스",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IbmVfUlN4RXR6ellnRW83WGg1d3FjWjdYVXJReHpmZ2xKWlpMSlRPX1g5R2NONjBUYlNTZGpuMTVYZ29ZQnhjQmJpMWZFNlFpN3Zmc3RobzA3M1NrYlY0UVJaY3ZiX1p6bjFHTFE1ZElIczTSAXdBVV95cUxNdFRXckZDbU5JaXBmWmdoSGNjbjUyTmlmcWhKeUgxaGNrWHFDcXByOEE3MUpySm5ma0F3QzNHZWlXMy1RYUdmY1dLc3pOcHY3SHJDQkx0d1pPYng1bzFEeWhQUE5uNE9WRlNDeXJYeG5IOGtKMGw2OA?oc=5",
      "published": "2026-11-03"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-nol-1e9fe6f8f0",
+   "airline_id": "h-nol",
+   "airline": "놀(야놀자)",
+   "airlines_mentioned": [
+    "놀(야놀자)"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://nol.yanolja.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
+   "sale_start": null,
+   "sale_end": "2026-11-30",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "부산"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "싱글리스트 요약문: … 위한 ‘Your Perfect Busan Autumn Getaway’ 프로모션을 오는 30일까지 전개한다.…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=780428"
+    },
+    "discount": {
+     "title": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VbFk1cm5rQVhHNGpHSEpqdy1yUWhqWHgxTnQyM1cwUG8zQ3VxMWNCQ3NydGczTUxPaUJ3VXZELWthWGpsX2tuVkxxT25oNUtyeFhhSjhYZUVSX29sRjJJUWlaU2NYYzdtbTRCMjJOQVhPSGxm?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "10% 할인",
+   "verification": "news",
+   "first_published": "2026-11-10",
+   "last_published": "2026-11-10",
+   "first_seen": "2026-11-10T09:14:15+09:00",
+   "last_seen": "2026-11-10T13:18:19+09:00",
+   "articles": [
+    {
+     "title": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
+     "outlet": "연합뉴스 한민족센터",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VbFk1cm5rQVhHNGpHSEpqdy1yUWhqWHgxTnQyM1cwUG8zQ3VxMWNCQ3NydGczTUxPaUJ3VXZELWthWGpsX2tuVkxxT25oNUtyeFhhSjhYZUVSX29sRjJJUWlaU2NYYzdtbTRCMjJOQVhPSGxm?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스, 부산 숙소 1800곳 10% 할인…외국인 관광객 유치 지원사격",
+     "outlet": "파이낸셜투데이",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kcmtxbDlWV0RJcldhWFI0Z2pGZG9kVUViU0dVOWpMczVtZk0tdjhIcHBQWTR6eUJKRWMwSkhUX05YZG1heFdQMXJwQmZZU2NUNUxhczAtR1ZnNV9BR2MyNVFFZkE2Y053MEHSAW5BVV95cUxPdW5GaG04azd3ekc4VGQzNW1INU04QTdYWjdXajhSV2gzTDQ4Slg3Qk5JSGVQdkJTNXI5QnN1dmlQaGR6WmRQOF91Y2ZGdF9VTlB2Ul9OSmhUNlhNLTNrNkw0NHJ0c0hYQm5PdDNvZw?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스, 부산 숙박 1800곳 10% 할인…외국인 관광객 유치 확대",
+     "outlet": "충청시사신문",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xMUtScjdhdG9nNE83LUI4SjFDMGJPUDJBVDIwMGEyZlhITmxJbWc0M01QMVM2ZUVyZE40aXZjMFhqcW5jbzBDU2JlNy1MbmJSTEdDcEVlWE1Ca0tmbFVvZEY0WHlEX3hFMEdr?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "NOL 월드, 부산관광공사와 해외관광객에 숙박 10% 할인",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1NV0RpQm9DWmx6c2N5VGREYndTRzJyeUlkSGY0YXlBV3ctVTVDMHZkaXctUGozdnEtTm11SDM0YS1WTUtvak9UaU5fSWZsSndLa1c5Qi1kdGhXSTRqS1kxaV95YkJPUQ?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스, 부산관광공사와 맞손…해외관광객에 숙박 10% 할인 제공",
+     "outlet": "일간대한뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qMS1KX1E5QXZld00wZzgxZ01aWTZ3X2Y0UGpLa29WbGRBN1E4WDBjcjRHVnF0OEdManhUTkhDRXRVV0NRdUl5RFdHUzFGUExIOW9HSl9VTGZUVXZPTUEwM2N4Ym5aZ1k?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스·부산관광공사, 외국인 관광객 숙박 할인…부산 숙소 1800곳",
+     "outlet": "매일신문",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1najczZFQxaGJYWFYzYWdRRjhOck9zZGc5Uy1DNEtGdVBEeTk3MTM2VkE1a29POEIwaG4tZkNSclY0VzAzMWNxeDAtU09aS1lPRkpmMUpuRWdWc01tUTd2Ujln?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "\"해외 관광객 숙박 10% 할인\"…놀유니버스, 부산관광공사와 협력",
+     "outlet": "아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNejdfb25iYlZEVTBTX3A2UlY3Vnh6S3l4ajZPMXVha2wyM3VRdGp6VHZuRUYtOTNVZ2kxaGFzZ21pYm9FbzdONjRYS0Y1WGh5YmI5S3QtU25VekJ3NHhvVg?oc=5",
+     "published": "2026-11-10"
     }
    ],
    "status": "live"
@@ -5858,6 +6048,87 @@
    "status": "undated"
   },
   {
+   "id": "airseoul-54dc806c4a",
+   "airline_id": "airseoul",
+   "airline": "에어서울",
+   "airlines_mentioned": [
+    "에어서울"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "domestic",
+   "route": "domestic",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "domestic",
+   "official_url": "https://flyairseoul.com/",
+   "iata": [
+    "RS"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어서울, 겨울 제주여행 교통비 확 낮춘다…항공권·렌터카 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "김포(GMP)",
+     "destination": "제주(CJU)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "ER 이코노믹리뷰 요약문: …선 왕복 항공권을 최대 2만원 할인하고 제주 현지 렌터카 이용료도 제휴 업체에 따라 할인해 여행 경비 부담을…",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=756603"
+    },
+    "route": {
+     "title": "ER 이코노믹리뷰 요약문: 김포-제주 노선 왕복 항공권을 최대 2만원 할인하고 제주 현지 렌터카 이용료도 제휴 업체에 따라 할인해 여행…",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=756603"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 2만원 할인",
+   "verification": "news",
+   "first_published": "2026-11-10",
+   "last_published": "2026-11-10",
+   "first_seen": "2026-11-10T13:18:19+09:00",
+   "last_seen": "2026-11-10T13:18:19+09:00",
+   "articles": [
+    {
+     "title": "에어서울, 겨울 제주여행 교통비 확 낮춘다…항공권·렌터카 할인",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yWUtldkJnekdxcU9EaFZDckc2V1IxbmE2bmh1dFl3WTVtMG95RjBUcUtkNFJiYzJzcDdzQ1diemRKRGgzMzY0algzd1dtS3U3WlhOWlJIYnByZGtYTVVIYzlrVDhpMU9BUkJCRg?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "“제주 왕복 최대 2만원 할인”…에어서울, 겨울 여행 프로모션",
+     "outlet": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IYTd4QTg5d0hyVDRUMk80aEtyYUtGMVRRNjdyV2NyQmZLQUJrS2dXSGJEa3RPeGNrMUN0eUY3SWpjSWRYOXFuUElxR0pueDdEb2phVW5lSU1fWFlnRVVMMnREaG8?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "에어서울, 제주관광공사와 겨울 여행 프로모션…항공권 최대 2만원 할인",
+     "outlet": "파이낸셜뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56a0lRNy15U2l0RDU2bFk5Wmx6UTJkc0IwVVhpSmtZUG9sOVJNN2VJQWxuT2VPVExvQ3R0Z2VQdmNfWFk0WUp0MmFQNmM3RWNiWVZ1enA4TmZfdw?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "에어서울, 겨울 시즌 제주 항공권 및 렌터카 프로모션",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5wUGhxSnRlczlNXzM3ajkwcGhpQ2hFRjA3SzZkeEpWTmlkV3dHMjVMb0V0UnlJUU56d294cm45dzN0UQ?oc=5",
+     "published": "2026-11-10"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "pal-c8a5bce941",
    "airline_id": "pal",
    "airline": "필리핀항공",
@@ -5933,60 +6204,178 @@
    "status": "undated"
   },
   {
-   "id": "h-nol-1e9fe6f8f0",
-   "airline_id": "h-nol",
-   "airline": "놀(야놀자)",
+   "id": "h-hanatour-35946a2e18",
+   "airline_id": "h-hanatour",
+   "airline": "하나투어",
    "airlines_mentioned": [
-    "놀(야놀자)"
+    "하나투어"
    ],
    "kind": "platform",
    "category": "hotel",
    "section": "hotel",
    "route": null,
    "route_text": null,
-   "scope": "overseas",
+   "scope": null,
    "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://nol.yanolja.com/",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.hanatour.com/",
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
+   "headline": "현지투어 최대 50% 할인…하나투어, 겨울 여행 특가전",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
    "routes": [],
-   "regions": [
-    "부산"
-   ],
+   "regions": [],
    "conditions": [],
    "conflicts": [],
    "evidence": {
     "discount": {
-     "title": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VbFk1cm5rQVhHNGpHSEpqdy1yUWhqWHgxTnQyM1cwUG8zQ3VxMWNCQ3NydGczTUxPaUJ3VXZELWthWGpsX2tuVkxxT25oNUtyeFhhSjhYZUVSX29sRjJJUWlaU2NYYzdtbTRCMjJOQVhPSGxm?oc=5"
+     "title": "현지투어 최대 50% 할인…하나투어, 겨울 여행 특가전",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE53dkoyMUhCdWNHa3F4VDhxbkcxVXhpbm1PU2lZbDNMRkV3UWZHajJtLWRCQWFMQ2hMa0hYeWFxRVoyVzEtMjlUR3hKNzVoNFlTd3NZUEFFZw?oc=5"
     }
    },
    "from_icn": null,
-   "discount": "10% 할인",
+   "discount": "최대 50%",
    "verification": "news",
    "first_published": "2026-11-10",
    "last_published": "2026-11-10",
-   "first_seen": "2026-11-10T09:14:15+09:00",
-   "last_seen": "2026-11-10T09:14:15+09:00",
+   "first_seen": "2026-11-10T13:18:19+09:00",
+   "last_seen": "2026-11-10T13:18:19+09:00",
    "articles": [
     {
-     "title": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
-     "outlet": "연합뉴스 한민족센터",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VbFk1cm5rQVhHNGpHSEpqdy1yUWhqWHgxTnQyM1cwUG8zQ3VxMWNCQ3NydGczTUxPaUJ3VXZELWthWGpsX2tuVkxxT25oNUtyeFhhSjhYZUVSX29sRjJJUWlaU2NYYzdtbTRCMjJOQVhPSGxm?oc=5",
+     "title": "현지투어 최대 50% 할인…하나투어, 겨울 여행 특가전",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE53dkoyMUhCdWNHa3F4VDhxbkcxVXhpbm1PU2lZbDNMRkV3UWZHajJtLWRCQWFMQ2hMa0hYeWFxRVoyVzEtMjlUR3hKNzVoNFlTd3NZUEFFZw?oc=5",
+     "published": "2026-11-10"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "cathay-cb6cb9b76c",
+   "airline_id": "cathay",
+   "airline": "캐세이퍼시픽",
+   "airlines_mentioned": [
+    "캐세이퍼시픽"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.cathaypacific.com/cx/ko_KR.html",
+   "iata": [
+    "CX"
+   ],
+   "agencies": [],
+   "event_name": "블랙 프라이데이",
+   "headline": "캐세이퍼시픽항공, 블랙프라이데이 맞아 전 노선 항공권 7% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "캐세이퍼시픽항공, 블랙프라이데이 맞아 전 노선 항공권 7% 할인",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRWpnZ3F1cVlhMUE2dWNwSWNJWmtxb0FJRVQ3djRIdVA3RnlFNVVuYnJnOXJTT1B6Z1RJbXFJTDc1YVpDOUFVSnlOS1hLTWZIUVZQT09fTXBkRTF6WFFTVGwtSmJ2cGlxZU9ILVFsd3VxcDBoeHctRTFPVk9MaHJxOTltRk9rUQ?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "7% 할인",
+   "verification": "news",
+   "first_published": "2026-11-10",
+   "last_published": "2026-11-10",
+   "first_seen": "2026-11-10T13:18:19+09:00",
+   "last_seen": "2026-11-10T13:18:19+09:00",
+   "articles": [
+    {
+     "title": "캐세이퍼시픽항공, 블랙프라이데이 맞아 전 노선 항공권 7% 할인",
+     "outlet": "뷰티트래블뉴스",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRWpnZ3F1cVlhMUE2dWNwSWNJWmtxb0FJRVQ3djRIdVA3RnlFNVVuYnJnOXJTT1B6Z1RJbXFJTDc1YVpDOUFVSnlOS1hLTWZIUVZQT09fTXBkRTF6WFFTVGwtSmJ2cGlxZU9ILVFsd3VxcDBoeHctRTFPVk9MaHJxOTltRk9rUQ?oc=5",
      "published": "2026-11-10"
     },
     {
-     "title": "\"해외 관광객 숙박 10% 할인\"…놀유니버스, 부산관광공사와 협력",
-     "outlet": "아시아경제",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNejdfb25iYlZEVTBTX3A2UlY3Vnh6S3l4ajZPMXVha2wyM3VRdGp6VHZuRUYtOTNVZ2kxaGFzZ21pYm9FbzdONjRYS0Y1WGh5YmI5S3QtU25VekJ3NHhvVg?oc=5",
+     "title": "\"연말부터 2027년 여름 여행까지\"…캐세이퍼시픽, 전 노선 '블랙 프라이데이' 프로모션",
+     "outlet": "열린뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04c3ZiaEJzenZDOVBZdmlNbk9YdngyNDg3dlN0NUdmQXRpTUlSc1M3T1ZtSnVfZjFkQlZxUUMyTG9LbndDeGIxZXM0T0VnZ0JUWDNQanR3TXA3U21kZEY0VGdDdWd6QQ?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "내년 여름 항공권까지…캐세이퍼시픽, 전 노선 7% 할인",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LUmF1M1BmSEdNT0JXZ29LeGQtcmh2TUtpN3ZqVjhKZWEtS2R4SG83WmVoVDBEVG1HZ2ZtVWxGY3VlUXpwbDFpNTBJX29JTGEtSktKLURBT1hKV3hYaGRlVQ?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "캐세이퍼시픽항공, 블랙프라이데이 특가 프로모션 전개",
+     "outlet": "비즈엔터",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RUkJQZjBzb0czLWVObUZOalZMNWcyb0pxQXduSmxiRDdET1RqZ3BtX25YTU43MU5UUEI5QWJfanJaRHdUNmt0d1Y4aUNTQWlRN0tibHJR?oc=5",
+     "published": "2026-11-10"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "cathay-66310d64b2",
+   "airline_id": "cathay",
+   "airline": "캐세이퍼시픽",
+   "airlines_mentioned": [
+    "캐세이퍼시픽"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.cathaypacific.com/cx/ko_KR.html",
+   "iata": [
+    "CX"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "캐세이퍼시픽 블랙프라이데이, 전 노선 7% 할인…아시아 일반석 최대 10% 추가",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "캐세이퍼시픽 블랙프라이데이, 전 노선 7% 할인…아시아 일반석 최대 10% 추가",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaFJZaWtDUDJTWlBTSmltNGFqRTNEOG8zTFZvZDBRNG5TTklsamxQcThHdzdGZ2xpY3BCYXZXdjFNRGk1RDF3bmZ1ZldwSGNqS3otRTNUdmtBTFpXT0sybUVUNmEyR3RNWjRiMy1xaUJ3QzBxV3ZNNWp3OVVPckRNLWhYSHcxVnBKekI4eGFR?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 10%",
+   "verification": "news",
+   "first_published": "2026-11-10",
+   "last_published": "2026-11-10",
+   "first_seen": "2026-11-10T13:18:19+09:00",
+   "last_seen": "2026-11-10T13:18:19+09:00",
+   "articles": [
+    {
+     "title": "캐세이퍼시픽 블랙프라이데이, 전 노선 7% 할인…아시아 일반석 최대 10% 추가",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaFJZaWtDUDJTWlBTSmltNGFqRTNEOG8zTFZvZDBRNG5TTklsamxQcThHdzdGZ2xpY3BCYXZXdjFNRGk1RDF3bmZ1ZldwSGNqS3otRTNUdmtBTFpXT0sybUVUNmEyR3RNWjRiMy1xaUJ3QzBxV3ZNNWp3OVVPckRNLWhYSHcxVnBKekI4eGFR?oc=5",
      "published": "2026-11-10"
     }
    ],
