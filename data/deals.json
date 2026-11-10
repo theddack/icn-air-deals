@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T16:44:38+09:00",
+ "generated_at": "2026-11-10T18:16:09+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1635,
+  "rss_items": 1631,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2080,
+  "outlet_items": 2088,
   "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 44,
-  "articles": 689,
-  "new_articles": 8,
+  "articles": 694,
+  "new_articles": 5,
   "deals": 122
  },
  "deals": [
@@ -2193,7 +2193,7 @@
    "first_published": "2026-11-10",
    "last_published": "2026-11-10",
    "first_seen": "2026-11-10T09:14:15+09:00",
-   "last_seen": "2026-11-10T13:18:19+09:00",
+   "last_seen": "2026-11-10T18:16:09+09:00",
    "articles": [
     {
      "title": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
@@ -2208,6 +2208,18 @@
      "published": "2026-11-10"
     },
     {
+     "title": "놀유니버스, 방한 외국인 부산 유치 프로모션…숙소 1800곳 10% 할인",
+     "outlet": "IT타임스",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ycUlfQ0FmelZXNlZOZ3Jsc1JxYy1MVWhpY2FaN1ZUZzZDN0VWRDVKYW1XNnJjX2w5eUoxdVdDQmxzQ1AyTmVuUjkxYlNnLW9vTTNTR2xzeExVdXRRd2pHTDNnWmNRek90?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스, 부산관광공사와 '맞손' 해외관광객 숙박 10% 할인 제공",
+     "outlet": "마일드경제",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnLWpFajkySXgzdmpoUGI5MTEtOWpGVFFIU1AwdVhFcG1ZZFpLb0YwOHNvZ1pDbUQzVGlFZ1VtVEl3MEtrZzFpYklkMlQ0ZURhU052a3ZCdEFHV05KYTdqY09Ybk9ISW5FRS13?oc=5",
+     "published": "2026-11-10"
+    },
+    {
      "title": "놀유니버스, 부산 숙박 1800곳 10% 할인…외국인 관광객 유치 확대",
      "outlet": "충청시사신문",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xMUtScjdhdG9nNE83LUI4SjFDMGJPUDJBVDIwMGEyZlhITmxJbWc0M01QMVM2ZUVyZE40aXZjMFhqcW5jbzBDU2JlNy1MbmJSTEdDcEVlWE1Ca0tmbFVvZEY0WHlEX3hFMEdr?oc=5",
@@ -2217,6 +2229,12 @@
      "title": "NOL 월드, 부산관광공사와 해외관광객에 숙박 10% 할인",
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1NV0RpQm9DWmx6c2N5VGREYndTRzJyeUlkSGY0YXlBV3ctVTVDMHZkaXctUGozdnEtTm11SDM0YS1WTUtvak9UaU5fSWZsSndLa1c5Qi1kdGhXSTRqS1kxaV95YkJPUQ?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스 X 부산관광공사, 관광 활성화 행사...숙소 10% 할인",
+     "outlet": "www.ppss.kr",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1uX1UxcGZidWdqQXA5NGtBNlhsN0NSTUhVMmVEREJBTDhHcWJ2b2hUczg4bFRNOGhwX0VsRW5xd18taFVKcFhFTFp1UEFxWThfQUFlc0NmeEdFNjRCbGhTLU8ybnQ?oc=5",
      "published": "2026-11-10"
     },
     {
@@ -5962,60 +5980,6 @@
    "status": "undated"
   },
   {
-   "id": "h-tripcom-91a861cd73",
-   "airline_id": "h-tripcom",
-   "airline": "트립닷컴",
-   "airlines_mentioned": [
-    "트립닷컴"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://kr.trip.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "트립닷컴, 나흘간 연중 최대 할인 행사…항공·호텔 최대 80% 쿠폰 제공",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [
-    "쿠폰"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "트립닷컴, 나흘간 연중 최대 할인 행사…항공·호텔 최대 80% 쿠폰 제공",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5T0IwekVnU3JIX3FXejZldXd2eEFLMFowN1B0d2ZYNHdlUnNjSjdobzhoQmRBdlZqcnVaem5ZaVJEMnZLZkp3TGQ1UTJYVy1MR2Y5WTVHcDZzSzFpNzJKWnpPZm9Na3c2OEVaUHg1cUU?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 80%",
-   "verification": "news",
-   "first_published": "2026-11-09",
-   "last_published": "2026-11-09",
-   "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-09T13:18:13+09:00",
-   "articles": [
-    {
-     "title": "트립닷컴, 나흘간 연중 최대 할인 행사…항공·호텔 최대 80% 쿠폰 제공",
-     "outlet": "스마트경제",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5T0IwekVnU3JIX3FXejZldXd2eEFLMFowN1B0d2ZYNHdlUnNjSjdobzhoQmRBdlZqcnVaem5ZaVJEMnZLZkp3TGQ1UTJYVy1MR2Y5WTVHcDZzSzFpNzJKWnpPZm9Na3c2OEVaUHg1cUU?oc=5",
-     "published": "2026-11-09"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "airseoul-54dc806c4a",
    "airline_id": "airseoul",
    "airline": "에어서울",
@@ -6153,6 +6117,67 @@
    "status": "undated"
   },
   {
+   "id": "h-tripcom-91a861cd73",
+   "airline_id": "h-tripcom",
+   "airline": "트립닷컴",
+   "airlines_mentioned": [
+    "트립닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://kr.trip.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "11.11 세일",
+   "headline": "트립닷컴, 연중 최대 ‘11.11 세일’ 진행… 항공·호텔 최대 80% 선착순 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [
+    "쿠폰",
+    "선착순"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "트립닷컴, 연중 최대 ‘11.11 세일’ 진행… 항공·호텔 최대 80% 선착순 할인",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lOHZyeklQcEFrTFlEWjFadGR1TmhDOVh0eGtCdTM0d3BrR0pwWnQzT1BiaXJ3Z2FlcnIxWDh1anhTLXBiT2k1MXJWZ3FsOEdzRkM0bEZubnVJRkxiZ3ZWY0diVVhHNURXejFB?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 80%",
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-10",
+   "first_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-10T18:16:09+09:00",
+   "articles": [
+    {
+     "title": "트립닷컴, 연중 최대 ‘11.11 세일’ 진행… 항공·호텔 최대 80% 선착순 할인",
+     "outlet": "통신일보",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lOHZyeklQcEFrTFlEWjFadGR1TmhDOVh0eGtCdTM0d3BrR0pwWnQzT1BiaXJ3Z2FlcnIxWDh1anhTLXBiT2k1MXJWZ3FsOEdzRkM0bEZubnVJRkxiZ3ZWY0diVVhHNURXejFB?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "트립닷컴, 나흘간 연중 최대 할인 행사…항공·호텔 최대 80% 쿠폰 제공",
+     "outlet": "스마트경제",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5T0IwekVnU3JIX3FXejZldXd2eEFLMFowN1B0d2ZYNHdlUnNjSjdobzhoQmRBdlZqcnVaem5ZaVJEMnZLZkp3TGQ1UTJYVy1MR2Y5WTVHcDZzSzFpNzJKWnpPZm9Na3c2OEVaUHg1cUU?oc=5",
+     "published": "2026-11-09"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "pal-c8a5bce941",
    "airline_id": "pal",
    "airline": "필리핀항공",
@@ -6247,7 +6272,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "하나투어, 겨울 자유여행 기획전…최대 50% 할인",
+   "headline": "하나투어, 오는 15일까지 자유여행 상품 할인 기획전",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -6268,8 +6293,14 @@
    "first_published": "2026-11-10",
    "last_published": "2026-11-10",
    "first_seen": "2026-11-10T13:18:19+09:00",
-   "last_seen": "2026-11-10T16:44:38+09:00",
+   "last_seen": "2026-11-10T18:16:09+09:00",
    "articles": [
+    {
+     "title": "하나투어, 오는 15일까지 자유여행 상품 할인 기획전",
+     "outlet": "뉴스프리존",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsVVZKZmpDN2hqdDZLUmtFUng5cDhJLUpiNXlwVUpEekJONmZDY2JYSDQyZ2t6M0pHdTlRYTFjN2Y1QnBKdVFLZjk3YTAzN2ZKcUR1VkxtbmpaX3BnWXlkVlhyaW15aFdfemFKZnU0NExobknSAXdBVV95cUxNeVlaV1NFbEJHM1hLNHRNbEhkblZYeDhBekNnUzFicWRFcGZaNEJ2ajRoWllVRnBOSHYyWlp1VGpxOUpLQjUyU0EzRlpQcGlraS1GeWUxVWhvU25uNVBDUjVUZ3dSakZrQVFvYzdzVTBOR3V5U1JPbw?oc=5",
+     "published": "2026-11-10"
+    },
     {
      "title": "하나투어, 겨울 자유여행 기획전…최대 50% 할인",
      "outlet": "인더뉴스",
