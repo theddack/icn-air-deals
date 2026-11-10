@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T22:17:34+09:00",
+ "generated_at": "2026-11-11T02:17:44+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,110 +10,21 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1669,
+  "rss_items": 1672,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1945,
-  "outlet_new_articles": 1,
+  "outlet_items": 1856,
+  "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 45,
   "articles": 698,
-  "new_articles": 4,
-  "deals": 122
+  "new_articles": 2,
+  "deals": 123
  },
  "deals": [
-  {
-   "id": "h-tripcom-97d71f7e15",
-   "airline_id": "h-tripcom",
-   "airline": "트립닷컴",
-   "airlines_mentioned": [
-    "트립닷컴"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://kr.trip.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "11.11 메가세일",
-   "headline": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
-   "sale_start": "2026-11-11",
-   "sale_end": "2026-11-14",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "제주",
-    "도쿄"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hNWc0TG9nWUdCTUhtenpQS1FyX0J2Y2w3bWlHR0NWS3A5VzZfaEZqTDh5akJraXdaRldIZi1DQU5hY0lvNGlnRDZPVmZyVW5CdjIydUVubTcza1d0QjlJUVMtWkZWZk5hX3NRYw?oc=5"
-    },
-    "discount": {
-     "title": "트립닷컴, '11.11 메가세일'…항공권 1100원·호텔 1만9000원부터",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HSFNjVDlxUURYbzRPU0YweXZqMlVsTUJJaTBmRDdfekVYNGZPXzNDQldLVFhvSU5DcUZfZHdZbGstbHU5OEFacE52YlAzWmp3WVI5d1p3VW5nYzhhRm42VmNFSmRGZw?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "1만9000원부터",
-   "verification": "news",
-   "first_published": "2026-11-09",
-   "last_published": "2026-11-09",
-   "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-09T18:16:03+09:00",
-   "articles": [
-    {
-     "title": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
-     "outlet": "뉴스탭",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hNWc0TG9nWUdCTUhtenpQS1FyX0J2Y2w3bWlHR0NWS3A5VzZfaEZqTDh5akJraXdaRldIZi1DQU5hY0lvNGlnRDZPVmZyVW5CdjIydUVubTcza1d0QjlJUVMtWkZWZk5hX3NRYw?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "트립닷컴, 11.11 메가세일 시작…제주·도쿄 항공권 1,100원 특가",
-     "outlet": "스타트업엔(StartupN)",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mSklRZWw5Z25nUklGeFoxQW5mbWJfLUhzYUVmODV3UkpnU0w5aWtOUWFoSVVOcHJlQXBzM05FR21ubjhoejRMLXdYWEIwcExOQ2t6b19BbHpldHZIdWpxWEpmM25vakJX0gFsQVVfeXFMTm5fUWlENlREckxvUUZUcDZjc1FMZy1lbVREX0kybXNTeV9fVWZzbktPYVB0ZEdFRjF6aTVENFdvNGVIRFIwaXd6STNpNWNpakI3Znk2WDBrR3EyaUhJVUh3SFNMcHo2QVJYeFFO?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "트립닷컴, '11.11 메가세일'…항공권 1100원·호텔 1만9000원부터",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HSFNjVDlxUURYbzRPU0YweXZqMlVsTUJJaTBmRDdfekVYNGZPXzNDQldLVFhvSU5DcUZfZHdZbGstbHU5OEFacE52YlAzWmp3WVI5d1p3VW5nYzhhRm42VmNFSmRGZw?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "제주 왕복 항공권이 1000원대?…트립닷컴, 11일부터 나흘간 특가 판매",
-     "outlet": "아주경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11N3dIWFZKNXpGcXJmY3pCaW9qY0lrRXd6Nkd5VG94ZGdjMXY1TnYwcFNLR3dBNTIzWlVsVTYxdVJhaWdFUHJVSGNxYUlvSkw0bVNGazFlbVJ2Z9IBWEFVX3lxTE1UVjVBcWk5TmZHTHhBMjNaeDUzZ0pxZThYVGhxRFBOdzF1NFh5Uk5BWnJSTWY0czJybW10cDZOMkpwN0ZYWVdlbmEtZkNpcFdlNWtVZ3BQM0E?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "제주 왕복 항공권을 1100원에…트립닷컴 ‘11.11 메가세일’",
-     "outlet": "헤럴드경제",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2dDB2Y3lOQW5DWHlJRGpBQnpnMW13NVVZWWpZYTE5aEtuYkcyek11NkVKZjVxN25odGxhLURFTXJFb2pXeDNEMW5zWTBsbWVpcjY2MURB?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "트립닷컴, '11.11 메가세일'…1100원 특가 항공권 깜짝딜",
-     "outlet": "브레이크뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBmb0lTMlFSTEV6UnBqUW1OdWxTNkloQjBiX1Z1YzlORVNOVDk1TWVpZHpqOGl0QmZWUl9YamFuODE2Zw?oc=5",
-     "published": "2026-11-09"
-    }
-   ],
-   "status": "upcoming"
-  },
   {
    "id": "h-marriott-a06b6b2c0a",
    "airline_id": "h-marriott",
@@ -1240,6 +1151,95 @@
      "outlet": "뉴스1",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HWlY3bWFObDVsRVZTd0FtenhKVU1Mc0p0Q2RTdUY5THVmY1ZYc1JGTjlERWc1X255a2VWOVQ1OUZpbW1hYkFQSWRBY3FMQ1N4WEFONVVobTRHNmY4SmlSSw?oc=5",
      "published": "2026-11-05"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-tripcom-97d71f7e15",
+   "airline_id": "h-tripcom",
+   "airline": "트립닷컴",
+   "airlines_mentioned": [
+    "트립닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://kr.trip.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "11.11 메가세일",
+   "headline": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
+   "sale_start": "2026-11-11",
+   "sale_end": "2026-11-14",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "제주",
+    "도쿄"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hNWc0TG9nWUdCTUhtenpQS1FyX0J2Y2w3bWlHR0NWS3A5VzZfaEZqTDh5akJraXdaRldIZi1DQU5hY0lvNGlnRDZPVmZyVW5CdjIydUVubTcza1d0QjlJUVMtWkZWZk5hX3NRYw?oc=5"
+    },
+    "discount": {
+     "title": "트립닷컴, '11.11 메가세일'…항공권 1100원·호텔 1만9000원부터",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HSFNjVDlxUURYbzRPU0YweXZqMlVsTUJJaTBmRDdfekVYNGZPXzNDQldLVFhvSU5DcUZfZHdZbGstbHU5OEFacE52YlAzWmp3WVI5d1p3VW5nYzhhRm42VmNFSmRGZw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "1만9000원부터",
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-09",
+   "first_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-09T18:16:03+09:00",
+   "articles": [
+    {
+     "title": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hNWc0TG9nWUdCTUhtenpQS1FyX0J2Y2w3bWlHR0NWS3A5VzZfaEZqTDh5akJraXdaRldIZi1DQU5hY0lvNGlnRDZPVmZyVW5CdjIydUVubTcza1d0QjlJUVMtWkZWZk5hX3NRYw?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "트립닷컴, 11.11 메가세일 시작…제주·도쿄 항공권 1,100원 특가",
+     "outlet": "스타트업엔(StartupN)",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mSklRZWw5Z25nUklGeFoxQW5mbWJfLUhzYUVmODV3UkpnU0w5aWtOUWFoSVVOcHJlQXBzM05FR21ubjhoejRMLXdYWEIwcExOQ2t6b19BbHpldHZIdWpxWEpmM25vakJX0gFsQVVfeXFMTm5fUWlENlREckxvUUZUcDZjc1FMZy1lbVREX0kybXNTeV9fVWZzbktPYVB0ZEdFRjF6aTVENFdvNGVIRFIwaXd6STNpNWNpakI3Znk2WDBrR3EyaUhJVUh3SFNMcHo2QVJYeFFO?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "트립닷컴, '11.11 메가세일'…항공권 1100원·호텔 1만9000원부터",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HSFNjVDlxUURYbzRPU0YweXZqMlVsTUJJaTBmRDdfekVYNGZPXzNDQldLVFhvSU5DcUZfZHdZbGstbHU5OEFacE52YlAzWmp3WVI5d1p3VW5nYzhhRm42VmNFSmRGZw?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주 왕복 항공권이 1000원대?…트립닷컴, 11일부터 나흘간 특가 판매",
+     "outlet": "아주경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11N3dIWFZKNXpGcXJmY3pCaW9qY0lrRXd6Nkd5VG94ZGdjMXY1TnYwcFNLR3dBNTIzWlVsVTYxdVJhaWdFUHJVSGNxYUlvSkw0bVNGazFlbVJ2Z9IBWEFVX3lxTE1UVjVBcWk5TmZHTHhBMjNaeDUzZ0pxZThYVGhxRFBOdzF1NFh5Uk5BWnJSTWY0czJybW10cDZOMkpwN0ZYWVdlbmEtZkNpcFdlNWtVZ3BQM0E?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주 왕복 항공권을 1100원에…트립닷컴 ‘11.11 메가세일’",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2dDB2Y3lOQW5DWHlJRGpBQnpnMW13NVVZWWpZYTE5aEtuYkcyek11NkVKZjVxN25odGxhLURFTXJFb2pXeDNEMW5zWTBsbWVpcjY2MURB?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "트립닷컴, '11.11 메가세일'…1100원 특가 항공권 깜짝딜",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBmb0lTMlFSTEV6UnBqUW1OdWxTNkloQjBiX1Z1YzlORVNOVDk1TWVpZHpqOGl0QmZWUl9YamFuODE2Zw?oc=5",
+     "published": "2026-11-09"
     }
    ],
    "status": "live"
@@ -6023,7 +6023,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "에어서울, 겨울 제주여행 교통비 확 낮춘다…항공권·렌터카 할인",
+   "headline": "에어서울, 제주 겨울여행 수요 잡는다…항공권·렌터카 할인 혜택 확대",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -6053,8 +6053,14 @@
    "first_published": "2026-11-10",
    "last_published": "2026-11-10",
    "first_seen": "2026-11-10T13:18:19+09:00",
-   "last_seen": "2026-11-10T16:44:38+09:00",
+   "last_seen": "2026-11-11T02:17:44+09:00",
    "articles": [
+    {
+     "title": "에어서울, 제주 겨울여행 수요 잡는다…항공권·렌터카 할인 혜택 확대",
+     "outlet": "메가경제",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zcV9MbTh3V21pcGdVeGhMSGpOM3lpblZEN3A3YldIZzVDUDk2TkhXdlpqYVJlN28zMHplSVk5OFRIQzNmX3A1dDBKbjFkR1FLQ3pvMnh5NG40RjNoRGZOWUJFTlhiSy01em5DY0d1NVhUZmUz0gFyQVVfeXFMT2s1V0tYUFpzTmJXcXRpS2M2TVlFdUdYT04tS25UbEhFQ3hFbWxpOW05R3Jrek5SWFNGbUlmSUp6cXU5MktvUUszb0x4V3VFUWlBVXZpaXQxUHJhNXVWYThiSE5pZlZBZ1FmUEZ6Ykg1cGVB?oc=5",
+     "published": "2026-11-10"
+    },
     {
      "title": "에어서울, 겨울 제주여행 교통비 확 낮춘다…항공권·렌터카 할인",
      "outlet": "ER 이코노믹리뷰",
@@ -6333,6 +6339,58 @@
      "title": "현지투어 최대 50% 할인…하나투어, 겨울 여행 특가전",
      "outlet": "헤럴드경제",
      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE53dkoyMUhCdWNHa3F4VDhxbkcxVXhpbm1PU2lZbDNMRkV3UWZHajJtLWRCQWFMQ2hMa0hYeWFxRVoyVzEtMjlUR3hKNzVoNFlTd3NZUEFFZw?oc=5",
+     "published": "2026-11-10"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-agoda-3469523440",
+   "airline_id": "h-agoda",
+   "airline": "아고다",
+   "airlines_mentioned": [
+    "아고다"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.agoda.com/ko-kr/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Agoda to offer hotel offers of up to 60% off at upcoming mega sale campaign, Lifestyle News",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Agoda to offer hotel offers of up to 60% off at upcoming mega sale campaign, Lifestyle News",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xZ29DX2pIRWxHekdWVUMxM0ZHY2UxYU5Ud3B6YmNNeTNNYzVSS3dKMVJtNk9NOFpXRXJaUlI5WlpFNjJFLVZzSTZ1MWxXYVlnbkoxenJBS05RTDZTRTFOOTFFUXRPQldkSGc?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 60%",
+   "verification": "news",
+   "first_published": "2026-11-10",
+   "last_published": "2026-11-10",
+   "first_seen": "2026-11-11T02:17:44+09:00",
+   "last_seen": "2026-11-11T02:17:44+09:00",
+   "articles": [
+    {
+     "title": "Agoda to offer hotel offers of up to 60% off at upcoming mega sale campaign, Lifestyle News",
+     "outlet": "AsiaOne.com",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xZ29DX2pIRWxHekdWVUMxM0ZHY2UxYU5Ud3B6YmNNeTNNYzVSS3dKMVJtNk9NOFpXRXJaUlI5WlpFNjJFLVZzSTZ1MWxXYVlnbkoxenJBS05RTDZTRTFOOTFFUXRPQldkSGc?oc=5",
      "published": "2026-11-10"
     }
    ],
