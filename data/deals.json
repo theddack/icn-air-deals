@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T05:06:12+09:00",
+ "generated_at": "2026-11-10T09:14:15+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1567,
+  "rss_items": 1529,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1753,
+  "outlet_items": 1889,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 40,
-  "articles": 655,
-  "new_articles": 0,
-  "deals": 115
+  "articles": 658,
+  "new_articles": 3,
+  "deals": 116
  },
  "deals": [
   {
@@ -5879,12 +5879,17 @@
    ],
    "agencies": [],
    "event_name": "2026 Year End Seat Sale",
-   "headline": "필리핀항공, 연말 맞아 항공권 특가…‘2026 Year End Seat Sale’ 프로모션 실시",
+   "headline": "필리핀항공, '2026 Year End Seat Sale'…인천·부산 출발편 할인",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
-   "routes": [],
+   "routes": [
+    {
+     "origin": "부산(PUS)",
+     "destination": null
+    }
+   ],
    "regions": [],
    "conditions": [],
    "conflicts": [],
@@ -5892,16 +5897,26 @@
     "discount": {
      "title": "필리핀항공, 연말 맞아 항공권 최대 40% 할인…특별 프로모션 실시",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YVUpUdlVnSHlZb3FQNHdEdVFMSFdZUFhsa0pJOVlsQjFsWVRuWS05a0s1TFZHZkJ1ZlgwQ2NvR1ZWT1VhMmxnLXdncVhDWkpjNXFUeEpLWjE1Q0ZUMTBReQ?oc=5"
+    },
+    "route": {
+     "title": "필리핀항공, '2026 Year End Seat Sale'…인천·부산 출발편 할인",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55S2FCbTFudWFNNHlaTlZSclotNkRQRkhVNWstNmRsZDFtZnRWcWJxQ2UxU2xtY0QzVjNiWElUa2pHRXNtTXZxanEyT09pV0lpWklRekttSjIxcm9nTkVORmdhbEJtcTJ1V2xz0gFUQVVfeXFMT29sYnRzeVJ0UzlSN2pXeURKOUJHNnV1N1JjdUdUT1dZUjdsT0g5UGFOVmhiaVVJZm1rN1BtOVd3Z3JxN25BOG5jXzVxN1NGVE9TV2Fm?oc=5"
     }
    },
-   "from_icn": "unknown",
+   "from_icn": "no",
    "discount": "최대 40%",
    "verification": "news",
    "first_published": "2026-11-08",
-   "last_published": "2026-11-09",
+   "last_published": "2026-11-10",
    "first_seen": "2026-11-08T09:14:08+09:00",
-   "last_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-10T09:14:15+09:00",
    "articles": [
+    {
+     "title": "필리핀항공, '2026 Year End Seat Sale'…인천·부산 출발편 할인",
+     "outlet": "세계일보",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55S2FCbTFudWFNNHlaTlZSclotNkRQRkhVNWstNmRsZDFtZnRWcWJxQ2UxU2xtY0QzVjNiWElUa2pHRXNtTXZxanEyT09pV0lpWklRekttSjIxcm9nTkVORmdhbEJtcTJ1V2xz0gFUQVVfeXFMT29sYnRzeVJ0UzlSN2pXeURKOUJHNnV1N1JjdUdUT1dZUjdsT0g5UGFOVmhiaVVJZm1rN1BtOVd3Z3JxN25BOG5jXzVxN1NGVE9TV2Fm?oc=5",
+     "published": "2026-11-10"
+    },
     {
      "title": "필리핀항공, 연말 맞아 항공권 특가…‘2026 Year End Seat Sale’ 프로모션 실시",
      "outlet": "한국일보",
@@ -5913,6 +5928,66 @@
      "outlet": "아시아경제",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YVUpUdlVnSHlZb3FQNHdEdVFMSFdZUFhsa0pJOVlsQjFsWVRuWS05a0s1TFZHZkJ1ZlgwQ2NvR1ZWT1VhMmxnLXdncVhDWkpjNXFUeEpLWjE1Q0ZUMTBReQ?oc=5",
      "published": "2026-11-08"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-nol-1e9fe6f8f0",
+   "airline_id": "h-nol",
+   "airline": "놀(야놀자)",
+   "airlines_mentioned": [
+    "놀(야놀자)"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://nol.yanolja.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "부산"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VbFk1cm5rQVhHNGpHSEpqdy1yUWhqWHgxTnQyM1cwUG8zQ3VxMWNCQ3NydGczTUxPaUJ3VXZELWthWGpsX2tuVkxxT25oNUtyeFhhSjhYZUVSX29sRjJJUWlaU2NYYzdtbTRCMjJOQVhPSGxm?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "10% 할인",
+   "verification": "news",
+   "first_published": "2026-11-10",
+   "last_published": "2026-11-10",
+   "first_seen": "2026-11-10T09:14:15+09:00",
+   "last_seen": "2026-11-10T09:14:15+09:00",
+   "articles": [
+    {
+     "title": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
+     "outlet": "연합뉴스 한민족센터",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VbFk1cm5rQVhHNGpHSEpqdy1yUWhqWHgxTnQyM1cwUG8zQ3VxMWNCQ3NydGczTUxPaUJ3VXZELWthWGpsX2tuVkxxT25oNUtyeFhhSjhYZUVSX29sRjJJUWlaU2NYYzdtbTRCMjJOQVhPSGxm?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "\"해외 관광객 숙박 10% 할인\"…놀유니버스, 부산관광공사와 협력",
+     "outlet": "아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNejdfb25iYlZEVTBTX3A2UlY3Vnh6S3l4ajZPMXVha2wyM3VRdGp6VHZuRUYtOTNVZ2kxaGFzZ21pYm9FbzdONjRYS0Y1WGh5YmI5S3QtU25VekJ3NHhvVg?oc=5",
+     "published": "2026-11-10"
     }
    ],
    "status": "undated"
