@@ -1481,26 +1481,6 @@
     "new": "2026-10-26"
    }
   },
-  "h-skyscanner-30e6478f61": {
-   "info": {
-    "airline": "h-skyscanner",
-    "name": "1111쇼핑데이",
-    "sale_start": "2026-11-01",
-    "sale_end": "2026-11-11",
-    "dests": [],
-    "last": "2026-11-01",
-    "urls": [
-     "30e6478f61",
-     "730352f259"
-    ]
-   },
-   "kinds": {
-    "upcoming_d3": "2026-10-29",
-    "new": "2026-10-29",
-    "upcoming_d1": "2026-10-31",
-    "start_today": "2026-11-01"
-   }
-  },
   "vietjet-247b5c7050": {
    "info": {
     "airline": "vietjet",
@@ -2534,27 +2514,6 @@
     "new": "2026-11-09"
    }
   },
-  "h-tripcom-97d71f7e15": {
-   "info": {
-    "airline": "h-tripcom",
-    "name": "1111메가세일",
-    "sale_start": "2026-11-11",
-    "sale_end": "2026-11-14",
-    "dests": [],
-    "last": "2026-11-09",
-    "urls": [
-     "79249f497a",
-     "9136641909",
-     "97d71f7e15",
-     "c29350487f",
-     "cd26e972a9",
-     "f8004940c1"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-09"
-   }
-  },
   "jejuair-ada23d6f44": {
    "info": {
     "airline": "jejuair",
@@ -2725,6 +2684,158 @@
    "kinds": {
     "new": "2026-11-10"
    }
+  },
+  "h-skyscanner-30e6478f61": {
+   "info": {
+    "airline": "h-skyscanner",
+    "name": "1111쇼핑데이",
+    "sale_start": "2026-11-01",
+    "sale_end": "2026-11-11",
+    "dests": [],
+    "last": "2026-11-01",
+    "urls": [
+     "30e6478f61",
+     "730352f259"
+    ]
+   },
+   "kinds": {
+    "upcoming_d3": "2026-10-29",
+    "new": "2026-10-29",
+    "upcoming_d1": "2026-10-31",
+    "start_today": "2026-11-01",
+    "closing_tomorrow": "2026-11-10"
+   }
+  },
+  "h-tripcom-97d71f7e15": {
+   "info": {
+    "airline": "h-tripcom",
+    "name": "1111메가세일",
+    "sale_start": "2026-11-11",
+    "sale_end": "2026-11-14",
+    "dests": [],
+    "last": "2026-11-09",
+    "urls": [
+     "79249f497a",
+     "9136641909",
+     "97d71f7e15",
+     "c29350487f",
+     "cd26e972a9",
+     "f8004940c1"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09",
+    "upcoming_d1": "2026-11-10"
+   }
+  },
+  "h-hanatour-889dd9d340": {
+   "info": {
+    "airline": "h-hanatour",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-15",
+    "dests": [],
+    "last": "2026-11-10",
+    "urls": [
+     "889dd9d340"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-10"
+   }
+  },
+  "cathay-cb6cb9b76c": {
+   "info": {
+    "airline": "cathay",
+    "name": "블랙프라이데이",
+    "sale_start": null,
+    "sale_end": "2026-11-30",
+    "dests": [],
+    "last": "2026-11-10",
+    "urls": [
+     "134633fae8",
+     "4e84737c96",
+     "af746d709d",
+     "cb6cb9b76c",
+     "d33be5ec86",
+     "ef8f6c1886"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-10"
+   }
+  },
+  "airseoul-54dc806c4a": {
+   "info": {
+    "airline": "airseoul",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "제주"
+    ],
+    "last": "2026-11-10",
+    "urls": [
+     "3e2897d4f3",
+     "54dc806c4a",
+     "86b2719029",
+     "bdbe20cdbd",
+     "e320e079f0"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-10"
+   }
+  },
+  "vietjet-e2a95f25e8": {
+   "info": {
+    "airline": "vietjet",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-10",
+    "urls": [
+     "e2a95f25e8"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-10"
+   }
+  },
+  "h-hanatour-35946a2e18": {
+   "info": {
+    "airline": "h-hanatour",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-10",
+    "urls": [
+     "2c7ff368d3",
+     "35946a2e18",
+     "9a5ba2a134"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-10"
+   }
+  },
+  "cathay-66310d64b2": {
+   "info": {
+    "airline": "cathay",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-10",
+    "urls": [
+     "66310d64b2"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-10"
+   }
   }
  },
  "slots": {
@@ -2759,10 +2870,11 @@
    "evening": "sent"
   },
   "2026-11-10": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-10T09:18:54+09:00",
+ "saved_at": "2026-11-10T18:22:15+09:00",
  "drops_day": "2026-11-10",
  "drops": {
   "BKK": {
