@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T13:18:13+09:00",
+ "generated_at": "2026-11-11T16:08:39+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1678,
+  "rss_items": 1668,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2206,
+  "outlet_items": 2147,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_enriched": 1,
   "mail_articles": 6,
   "mail_new_articles": 0,
-  "articles_with_summary": 46,
-  "articles": 706,
+  "articles_with_summary": 47,
+  "articles": 710,
   "new_articles": 4,
-  "deals": 125
+  "deals": 127
  },
  "deals": [
   {
@@ -687,7 +687,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "블랙 프라이데이",
-   "headline": "신라호텔·면세점, 블랙프라이데이 할인 확대",
+   "headline": "신라호텔앤리조트, 첫 블랙 프라이데이 프로모션 진행… 2027년 객실 28%↓",
    "sale_start": "2026-11-06",
    "sale_end": "2026-11-19",
    "travel_start": null,
@@ -712,10 +712,16 @@
    "discount": "최대 28%",
    "verification": "news",
    "first_published": "2026-11-06",
-   "last_published": "2026-11-10",
+   "last_published": "2026-11-11",
    "first_seen": "2026-11-06T09:14:11+09:00",
-   "last_seen": "2026-11-10T22:17:34+09:00",
+   "last_seen": "2026-11-11T16:08:39+09:00",
    "articles": [
+    {
+     "title": "신라호텔앤리조트, 첫 블랙 프라이데이 프로모션 진행… 2027년 객실 28%↓",
+     "outlet": "S저널",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jXzhmaGh4NHVPMlZUX0tJVE82TmtDTzBNNmVWelh1MjQtcmJpOXBmbUROSDFIWG5vZE5rMkR0VUo3VVdoUEZ6ZVV6MTlUOEwzZXJWUmxjNjhHT1VvQ3FkM1JTUE5MMEh6enJVbjNB?oc=5",
+     "published": "2026-11-11"
+    },
     {
      "title": "신라호텔·면세점, 블랙프라이데이 할인 확대",
      "outlet": "한국금융경제신문",
@@ -6186,56 +6192,6 @@
    "status": "undated"
   },
   {
-   "id": "vietjet-e2a95f25e8",
-   "airline_id": "vietjet",
-   "airline": "비엣젯항공",
-   "airlines_mentioned": [
-    "비엣젯항공"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.vietjetair.com/ko",
-   "iata": [
-    "VJ",
-    "VZ"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "비엣젯항공, ‘11월 11일’ 국내외 특가항공권 프로모션…최대 무료",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-10",
-   "last_published": "2026-11-10",
-   "first_seen": "2026-11-10T16:44:38+09:00",
-   "last_seen": "2026-11-10T16:44:38+09:00",
-   "articles": [
-    {
-     "title": "비엣젯항공, ‘11월 11일’ 국내외 특가항공권 프로모션…최대 무료",
-     "outlet": "인사이드비나",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12bVNfVFdXeFVEOGU0TlFsLWVfNlp6SnliUmFmU1lyVzN4Njk4VkpFMDB1Ukt1ZDBlbjJSUVJubmZSNU4yeFJESEJIdS1XVzdza3c1UFNqbHllR2ZOUlZCWk4zTWFjWjE1ZTJKQg?oc=5",
-     "published": "2026-11-10"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-tripcom-91a861cd73",
    "airline_id": "h-tripcom",
    "airline": "트립닷컴",
@@ -6584,6 +6540,175 @@
      "outlet": "Las Vegas Review-Journal",
      "url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxOam8zSlJCS2o3NUYwVUdfMER6V0sxRzduZF9zX3M5TjRpTXNHb18tMy1kMzZ0NkR0U2dNd05vSW9fQ3c0NzhBamZpUUdzZjFzbU1BaGxCb2hkUkJtVmFCc192c1lBSWlMMmlTRFBYeFZ4Y19RbHRzV0p2Q3lublQ1Wl85NE1hUFotRGs0VWJzVDdjTnhlM040bE5NOVE0ajdXX3pHSm53WGZXb1A0bG1NbFoxSk9FUE1NUFh2RHZDd3pzeGFOR05aU1htdWpGcHA2WHN2dUM4ZW1GZmRyWjV4aEIzbk8xNGtRWEFNSDRwTUZBM3N0bTFVYkVCTkhDbFlVZGZTR1l5NERBbUZnWF9rdFdTM2RUanZmdEd1VTFaMml1dUd0dTFXTmgwSVZxdTNySjVhM1FyeXJoWnpaSktWN0VoZC1yZFVnckdzTkpPUkczSEN0dlRSLXZKNWZKZy1xd3JjLXNLTmJvaUgyWnQ4ODFDSGpyeFotVHAtWjd2U09jdmdqUkpHYWF5UERWQVVPYXVsS0RaN2NvN2tHUnFWNGlnYnlXdWotVUttcmstZGNscHk3TEc4UVFGbU5wZGdFNUNrc2JEYnUtVzIzV1hZdGZtRXZiZHBf?oc=5",
      "published": "2026-11-10"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "vietjet-e2a95f25e8",
+   "airline_id": "vietjet",
+   "airline": "비엣젯항공",
+   "airlines_mentioned": [
+    "비엣젯항공"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.vietjetair.com/ko",
+   "iata": [
+    "VJ",
+    "VZ"
+   ],
+   "agencies": [],
+   "event_name": "더블데이",
+   "headline": "비엣젯항공, 11.11 '더블데이' 맞아 항공권 특가판매",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": "2026-12-01",
+   "travel_end": "2027-05-31",
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "travel": {
+     "title": "싱글리스트 요약문: 한국과 베트남을 잇는 전 노선에 적용되며 탑승 기간은 12월 1일부터 2027년 5월 31일까지다.",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=780847"
+    },
+    "discount": {
+     "title": "싱글리스트 요약문: …권을 세금 및 수수료 포함 편도 12만 9천원부터 판매하고, 전 노선의 디럭스 운임을 최대 25% 할인한다.…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=780847"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-11-10",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-10T16:44:38+09:00",
+   "last_seen": "2026-11-11T16:08:39+09:00",
+   "articles": [
+    {
+     "title": "비엣젯항공, 11.11 '더블데이' 맞아 항공권 특가판매",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPWDZDeng5dm9SNE5nWjQ4SVV3WGlocnZNTTVHQ1dGdmJyUjBqbExIb3JSMjJpa1oybnk1UWFleWhncXlWcnJzS2JMaXl2ZTltcS1tcHY1cGVwOHZLVVc1dnhxdWE0UQ?oc=5",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "비엣젯항공, ‘11월 11일’ 국내외 특가항공권 프로모션…최대 무료",
+     "outlet": "인사이드비나",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12bVNfVFdXeFVEOGU0TlFsLWVfNlp6SnliUmFmU1lyVzN4Njk4VkpFMDB1Ukt1ZDBlbjJSUVJubmZSNU4yeFJESEJIdS1XVzdza3c1UFNqbHllR2ZOUlZCWk4zTWFjWjE1ZTJKQg?oc=5",
+     "published": "2026-11-10"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-4fa58ef802",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Discovery Hotels offers up to 48% off in Black Friday sale",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Discovery Hotels offers up to 48% off in Black Friday sale",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMHVIeEFhbDREYkoyU1k2b2ljdzBSZlpFREJQbVVrSXVmRms5TjFYcEtTNTdkZlhYRDBKdFpzWkRFNl9FY1RJVWdGWmY0WHBvd2J6YkNlSWN1QWZfSEZDVWdHNk9YZEgydXJIUmFLd3owaGxqZ2lTdmhMUmx5aXZkOGFhWFNDRFJhV0ZxQmNIODVobV93N2c?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 48%",
+   "verification": "news",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-11T16:08:39+09:00",
+   "last_seen": "2026-11-11T16:08:39+09:00",
+   "articles": [
+    {
+     "title": "Discovery Hotels offers up to 48% off in Black Friday sale",
+     "outlet": "Daily Tribune",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMHVIeEFhbDREYkoyU1k2b2ljdzBSZlpFREJQbVVrSXVmRms5TjFYcEtTNTdkZlhYRDBKdFpzWkRFNl9FY1RJVWdGWmY0WHBvd2J6YkNlSWN1QWZfSEZDVWdHNk9YZEgydXJIUmFLd3owaGxqZ2lTdmhMUmx5aXZkOGFhWFNDRFJhV0ZxQmNIODVobV93N2c?oc=5",
+     "published": "2026-11-11"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-4862885d76",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Save Up to 48% on Stays with Discovery Hotels' Black Friday Sale",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Save Up to 48% on Stays with Discovery Hotels' Black Friday Sale",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPalFYVEljSTB5VEhuMDdsT3NZUWN6LWFaRlN3U2RHQWo0NXdMeFplSzNlSHdOZFFJM19QVkdJZGRiSVI3SWNHanJELV91Z0FZeXZoTDNLNTN3bEdmcmotRWtuVDAyV09IU01xYWdQN2NwSExuM3NFMHE5enJ5enViUFNvTzdWUFkwQ3pDV3pwM0o1MEVXV3dDUGRDdDJfMUxOYVY0?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 48%",
+   "verification": "news",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-11T16:08:39+09:00",
+   "last_seen": "2026-11-11T16:08:39+09:00",
+   "articles": [
+    {
+     "title": "Save Up to 48% on Stays with Discovery Hotels' Black Friday Sale",
+     "outlet": "Daily Tribune",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPalFYVEljSTB5VEhuMDdsT3NZUWN6LWFaRlN3U2RHQWo0NXdMeFplSzNlSHdOZFFJM19QVkdJZGRiSVI3SWNHanJELV91Z0FZeXZoTDNLNTN3bEdmcmotRWtuVDAyV09IU01xYWdQN2NwSExuM3NFMHE5enJ5enViUFNvTzdWUFkwQ3pDV3pwM0o1MEVXV3dDUGRDdDJfMUxOYVY0?oc=5",
+     "published": "2026-11-11"
     }
    ],
    "status": "undated"
