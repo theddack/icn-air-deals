@@ -1969,22 +1969,6 @@
     "new": "2026-10-28"
    }
   },
-  "h-marriott-a06b6b2c0a": {
-   "info": {
-    "airline": "h-marriott",
-    "name": "",
-    "sale_start": "2026-11-14",
-    "sale_end": "2026-11-29",
-    "dests": [],
-    "last": "2026-11-04",
-    "urls": [
-     "a06b6b2c0a"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-05"
-   }
-  },
   "h-other-7e7f681d97": {
    "info": {
     "airline": "h-other",
@@ -2685,49 +2669,6 @@
     "new": "2026-11-10"
    }
   },
-  "h-skyscanner-30e6478f61": {
-   "info": {
-    "airline": "h-skyscanner",
-    "name": "1111쇼핑데이",
-    "sale_start": "2026-11-01",
-    "sale_end": "2026-11-11",
-    "dests": [],
-    "last": "2026-11-01",
-    "urls": [
-     "30e6478f61",
-     "730352f259"
-    ]
-   },
-   "kinds": {
-    "upcoming_d3": "2026-10-29",
-    "new": "2026-10-29",
-    "upcoming_d1": "2026-10-31",
-    "start_today": "2026-11-01",
-    "closing_tomorrow": "2026-11-10"
-   }
-  },
-  "h-tripcom-97d71f7e15": {
-   "info": {
-    "airline": "h-tripcom",
-    "name": "1111메가세일",
-    "sale_start": "2026-11-11",
-    "sale_end": "2026-11-14",
-    "dests": [],
-    "last": "2026-11-09",
-    "urls": [
-     "79249f497a",
-     "9136641909",
-     "97d71f7e15",
-     "c29350487f",
-     "cd26e972a9",
-     "f8004940c1"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-09",
-    "upcoming_d1": "2026-11-10"
-   }
-  },
   "h-hanatour-889dd9d340": {
    "info": {
     "airline": "h-hanatour",
@@ -2836,14 +2777,121 @@
    "kinds": {
     "new": "2026-11-10"
    }
+  },
+  "h-tripcom-97d71f7e15": {
+   "info": {
+    "airline": "h-tripcom",
+    "name": "1111메가세일",
+    "sale_start": "2026-11-11",
+    "sale_end": "2026-11-14",
+    "dests": [],
+    "last": "2026-11-11",
+    "urls": [
+     "79249f497a",
+     "9136641909",
+     "97d71f7e15",
+     "c29350487f",
+     "cd26e972a9",
+     "d1c545caa2",
+     "f8004940c1"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09",
+    "upcoming_d1": "2026-11-10",
+    "start_today": "2026-11-11"
+   }
+  },
+  "h-skyscanner-30e6478f61": {
+   "info": {
+    "airline": "h-skyscanner",
+    "name": "1111쇼핑데이",
+    "sale_start": "2026-11-01",
+    "sale_end": "2026-11-11",
+    "dests": [],
+    "last": "2026-11-01",
+    "urls": [
+     "30e6478f61",
+     "730352f259"
+    ]
+   },
+   "kinds": {
+    "upcoming_d3": "2026-10-29",
+    "new": "2026-10-29",
+    "upcoming_d1": "2026-10-31",
+    "start_today": "2026-11-01",
+    "closing_tomorrow": "2026-11-10",
+    "closing_today": "2026-11-11"
+   }
+  },
+  "h-marriott-a06b6b2c0a": {
+   "info": {
+    "airline": "h-marriott",
+    "name": "",
+    "sale_start": "2026-11-14",
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-05",
+    "urls": [
+     "2e3d2368d3",
+     "a06b6b2c0a"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-05",
+    "upcoming_d3": "2026-11-11"
+   }
+  },
+  "h-yeogi-2d7fc6029b": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-12-13",
+    "dests": [],
+    "last": "2026-11-11",
+    "urls": [
+     "2d7fc6029b"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-11"
+   }
+  },
+  "h-agoda-3469523440": {
+   "info": {
+    "airline": "h-agoda",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-10",
+    "urls": [
+     "3469523440"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-11"
+   }
+  },
+  "h-other-be86892879": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-10",
+    "urls": [
+     "be86892879"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-11"
+   }
   }
  },
  "slots": {
-  "2026-11-03": {
-   "morning": "sent",
-   "afternoon": "sent",
-   "evening": "sent"
-  },
   "2026-11-04": {
    "morning": "sent",
    "afternoon": "sent",
@@ -2872,10 +2920,13 @@
   "2026-11-10": {
    "morning": "sent",
    "evening": "sent"
+  },
+  "2026-11-11": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-11-10T18:22:15+09:00",
- "drops_day": "2026-11-10",
+ "saved_at": "2026-11-11T09:19:05+09:00",
+ "drops_day": "2026-11-11",
  "drops": {
   "BKK": {
    "price": 411600,
