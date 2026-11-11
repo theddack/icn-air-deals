@@ -2842,22 +2842,6 @@
     "upcoming_d3": "2026-11-11"
    }
   },
-  "h-yeogi-2d7fc6029b": {
-   "info": {
-    "airline": "h-yeogi",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-12-13",
-    "dests": [],
-    "last": "2026-11-11",
-    "urls": [
-     "2d7fc6029b"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-11"
-   }
-  },
   "h-agoda-3469523440": {
    "info": {
     "airline": "h-agoda",
@@ -2884,6 +2868,24 @@
     "last": "2026-11-10",
     "urls": [
      "be86892879"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-11"
+   }
+  },
+  "h-yeogi-278f9cee2a": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-12-13",
+    "dests": [],
+    "last": "2026-11-11",
+    "urls": [
+     "278f9cee2a",
+     "2d7fc6029b",
+     "a5b847b782"
     ]
    },
    "kinds": {
@@ -2925,7 +2927,7 @@
    "morning": "sent"
   }
  },
- "saved_at": "2026-11-11T09:19:05+09:00",
+ "saved_at": "2026-11-11T13:23:37+09:00",
  "drops_day": "2026-11-11",
  "drops": {
   "BKK": {
