@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T09:14:04+09:00",
+ "generated_at": "2026-11-11T13:18:13+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,17 +10,17 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1676,
+  "rss_items": 1678,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2047,
+  "outlet_items": 2206,
   "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_enriched": 0,
   "mail_articles": 6,
   "mail_new_articles": 0,
   "articles_with_summary": 46,
-  "articles": 702,
+  "articles": 706,
   "new_articles": 4,
   "deals": 125
  },
@@ -1183,9 +1183,12 @@
    "routes": [],
    "regions": [
     "제주",
-    "도쿄"
+    "도쿄",
+    "일본"
    ],
-   "conditions": [],
+   "conditions": [
+    "앱 예약"
+   ],
    "conflicts": [],
    "evidence": {
     "sale": {
@@ -1203,13 +1206,19 @@
    "first_published": "2026-11-09",
    "last_published": "2026-11-11",
    "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-11T09:14:04+09:00",
+   "last_seen": "2026-11-11T13:18:13+09:00",
    "articles": [
     {
      "title": "트립닷컴 11.11 메가세일, 1100원 항공권 오전 11시 시작",
      "outlet": "www.diarypoint.com",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MQmJZOFBTQy1oMDlRUm5qcF9WeFRsR3VaNHF6X3NPbkFPdHBQaUJjakN2aFNBNjN6WFQtdHF4N3BnRGZSVnJEamxTdnV0OUdlN0JWMEZNNk1NUkpXT2ppOHZDZzNIclF4X25n?oc=5",
      "published": "2026-11-11"
+    },
+    {
+     "title": "[속보] \"제주 일본 항공권 1만 원대\"… 트립닷컴 '메가세일' 첫날부터 앱 먹통",
+     "outlet": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqYXlUQXMwRXd4dHJqYlJjbkttYS1NZzk5RGRaQXNKMDBZY1NaMWFkMHpCM3pua21ZdGJKbTJnd29ZOWhUTU93TVM5MWxxZk1VaVJDbi1wVGtIRnl6SEYxRUphVFlUazZWY1prZjNB?oc=5",
+     "published": "2026-11-09"
     },
     {
      "title": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
@@ -2169,124 +2178,6 @@
    "status": "live"
   },
   {
-   "id": "h-nol-1e9fe6f8f0",
-   "airline_id": "h-nol",
-   "airline": "놀(야놀자)",
-   "airlines_mentioned": [
-    "놀(야놀자)"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://nol.yanolja.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
-   "sale_start": null,
-   "sale_end": "2026-11-30",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "부산"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "싱글리스트 요약문: … 위한 ‘Your Perfect Busan Autumn Getaway’ 프로모션을 오는 30일까지 전개한다.…",
-     "url": "https://www.slist.kr/news/articleView.html?idxno=780428"
-    },
-    "discount": {
-     "title": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VbFk1cm5rQVhHNGpHSEpqdy1yUWhqWHgxTnQyM1cwUG8zQ3VxMWNCQ3NydGczTUxPaUJ3VXZELWthWGpsX2tuVkxxT25oNUtyeFhhSjhYZUVSX29sRjJJUWlaU2NYYzdtbTRCMjJOQVhPSGxm?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "10% 할인",
-   "verification": "news",
-   "first_published": "2026-11-10",
-   "last_published": "2026-11-10",
-   "first_seen": "2026-11-10T09:14:15+09:00",
-   "last_seen": "2026-11-10T22:17:34+09:00",
-   "articles": [
-    {
-     "title": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
-     "outlet": "연합뉴스 한민족센터",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VbFk1cm5rQVhHNGpHSEpqdy1yUWhqWHgxTnQyM1cwUG8zQ3VxMWNCQ3NydGczTUxPaUJ3VXZELWthWGpsX2tuVkxxT25oNUtyeFhhSjhYZUVSX29sRjJJUWlaU2NYYzdtbTRCMjJOQVhPSGxm?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "놀유니버스, 부산 숙소 1800곳 10% 할인…외국인 관광객 유치 지원사격",
-     "outlet": "파이낸셜투데이",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kcmtxbDlWV0RJcldhWFI0Z2pGZG9kVUViU0dVOWpMczVtZk0tdjhIcHBQWTR6eUJKRWMwSkhUX05YZG1heFdQMXJwQmZZU2NUNUxhczAtR1ZnNV9BR2MyNVFFZkE2Y053MEHSAW5BVV95cUxPdW5GaG04azd3ekc4VGQzNW1INU04QTdYWjdXajhSV2gzTDQ4Slg3Qk5JSGVQdkJTNXI5QnN1dmlQaGR6WmRQOF91Y2ZGdF9VTlB2Ul9OSmhUNlhNLTNrNkw0NHJ0c0hYQm5PdDNvZw?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "놀유니버스, 방한 외국인 부산 유치 프로모션…숙소 1800곳 10% 할인",
-     "outlet": "IT타임스",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ycUlfQ0FmelZXNlZOZ3Jsc1JxYy1MVWhpY2FaN1ZUZzZDN0VWRDVKYW1XNnJjX2w5eUoxdVdDQmxzQ1AyTmVuUjkxYlNnLW9vTTNTR2xzeExVdXRRd2pHTDNnWmNRek90?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "놀유니버스, 부산관광공사와 '맞손' 해외관광객 숙박 10% 할인 제공",
-     "outlet": "마일드경제",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnLWpFajkySXgzdmpoUGI5MTEtOWpGVFFIU1AwdVhFcG1ZZFpLb0YwOHNvZ1pDbUQzVGlFZ1VtVEl3MEtrZzFpYklkMlQ0ZURhU052a3ZCdEFHV05KYTdqY09Ybk9ISW5FRS13?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "놀유니버스, 부산관광공사와 협력해 외국인 관광객 숙박 할인",
-     "outlet": "BBS불교방송",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ITHZrNWVmOEhNYzNOeENONnpjMTlkQ18xLWtrWXBrMkl3NUh4V2k2ODd0QVQ1MHk2WWt5eTR3UkJ0MkRyNXg3bXZfdzR6dnE0aHlDREptZ09NeDJkcVFqNnIwR003TDJra3ZB?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "놀유니버스, 부산 숙박 1800곳 10% 할인…외국인 관광객 유치 확대",
-     "outlet": "충청시사신문",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xMUtScjdhdG9nNE83LUI4SjFDMGJPUDJBVDIwMGEyZlhITmxJbWc0M01QMVM2ZUVyZE40aXZjMFhqcW5jbzBDU2JlNy1MbmJSTEdDcEVlWE1Ca0tmbFVvZEY0WHlEX3hFMEdr?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "NOL 월드, 부산관광공사와 해외관광객에 숙박 10% 할인",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1NV0RpQm9DWmx6c2N5VGREYndTRzJyeUlkSGY0YXlBV3ctVTVDMHZkaXctUGozdnEtTm11SDM0YS1WTUtvak9UaU5fSWZsSndLa1c5Qi1kdGhXSTRqS1kxaV95YkJPUQ?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "놀유니버스 X 부산관광공사, 관광 활성화 행사...숙소 10% 할인",
-     "outlet": "www.ppss.kr",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1uX1UxcGZidWdqQXA5NGtBNlhsN0NSTUhVMmVEREJBTDhHcWJ2b2hUczg4bFRNOGhwX0VsRW5xd18taFVKcFhFTFp1UEFxWThfQUFlc0NmeEdFNjRCbGhTLU8ybnQ?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "놀유니버스, 부산관광공사와 맞손…해외관광객에 숙박 10% 할인 제공",
-     "outlet": "일간대한뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qMS1KX1E5QXZld00wZzgxZ01aWTZ3X2Y0UGpLa29WbGRBN1E4WDBjcjRHVnF0OEdManhUTkhDRXRVV0NRdUl5RFdHUzFGUExIOW9HSl9VTGZUVXZPTUEwM2N4Ym5aZ1k?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "놀유니버스·부산관광공사, 외국인 관광객 숙박 할인…부산 숙소 1800곳",
-     "outlet": "매일신문",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1najczZFQxaGJYWFYzYWdRRjhOck9zZGc5Uy1DNEtGdVBEeTk3MTM2VkE1a29POEIwaG4tZkNSclY0VzAzMWNxeDAtU09aS1lPRkpmMUpuRWdWc01tUTd2Ujln?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "\"해외 관광객 숙박 10% 할인\"…놀유니버스, 부산관광공사와 협력",
-     "outlet": "아시아경제",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNejdfb25iYlZEVTBTX3A2UlY3Vnh6S3l4ajZPMXVha2wyM3VRdGp6VHZuRUYtOTNVZ2kxaGFzZ21pYm9FbzdONjRYS0Y1WGh5YmI5S3QtU25VekJ3NHhvVg?oc=5",
-     "published": "2026-11-10"
-    }
-   ],
-   "status": "live"
-  },
-  {
    "id": "cathay-cb6cb9b76c",
    "airline_id": "cathay",
    "airline": "캐세이퍼시픽",
@@ -2375,7 +2266,131 @@
    "status": "live"
   },
   {
-   "id": "h-yeogi-2d7fc6029b",
+   "id": "h-nol-1e9fe6f8f0",
+   "airline_id": "h-nol",
+   "airline": "놀(야놀자)",
+   "airlines_mentioned": [
+    "놀(야놀자)"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://nol.yanolja.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "놀유니버스, 부산관광공사와 협력…“외국인 관광객에 숙소 10% 할인”",
+   "sale_start": null,
+   "sale_end": "2026-11-30",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "부산"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "싱글리스트 요약문: … 위한 ‘Your Perfect Busan Autumn Getaway’ 프로모션을 오는 30일까지 전개한다.…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=780428"
+    },
+    "discount": {
+     "title": "놀유니버스, 부산관광공사와 협력…“외국인 관광객에 숙소 10% 할인”",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1RXdUVVdVcEdsVlRzM0pfRFJCVHRha19FRVVQUkZkRDNCbXR4aEpvbktqaG9qRXJVTzgwRW0wdGU5Y01MZm02RVhLejNhb3VpRjNpWUNwWFNyQkN5bWFzc0xPeXNfY254c3c?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "10% 할인",
+   "verification": "news",
+   "first_published": "2026-11-10",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-10T09:14:15+09:00",
+   "last_seen": "2026-11-11T13:18:13+09:00",
+   "articles": [
+    {
+     "title": "놀유니버스, 부산관광공사와 협력…“외국인 관광객에 숙소 10% 할인”",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1RXdUVVdVcEdsVlRzM0pfRFJCVHRha19FRVVQUkZkRDNCbXR4aEpvbktqaG9qRXJVTzgwRW0wdGU5Y01MZm02RVhLejNhb3VpRjNpWUNwWFNyQkN5bWFzc0xPeXNfY254c3c?oc=5",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "놀유니버스, 부산관광공사와 관광 활성화 행사…숙소 10% 할인",
+     "outlet": "연합뉴스 한민족센터",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VbFk1cm5rQVhHNGpHSEpqdy1yUWhqWHgxTnQyM1cwUG8zQ3VxMWNCQ3NydGczTUxPaUJ3VXZELWthWGpsX2tuVkxxT25oNUtyeFhhSjhYZUVSX29sRjJJUWlaU2NYYzdtbTRCMjJOQVhPSGxm?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스, 부산 숙소 1800곳 10% 할인…외국인 관광객 유치 지원사격",
+     "outlet": "파이낸셜투데이",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kcmtxbDlWV0RJcldhWFI0Z2pGZG9kVUViU0dVOWpMczVtZk0tdjhIcHBQWTR6eUJKRWMwSkhUX05YZG1heFdQMXJwQmZZU2NUNUxhczAtR1ZnNV9BR2MyNVFFZkE2Y053MEHSAW5BVV95cUxPdW5GaG04azd3ekc4VGQzNW1INU04QTdYWjdXajhSV2gzTDQ4Slg3Qk5JSGVQdkJTNXI5QnN1dmlQaGR6WmRQOF91Y2ZGdF9VTlB2Ul9OSmhUNlhNLTNrNkw0NHJ0c0hYQm5PdDNvZw?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스, 방한 외국인 부산 유치 프로모션…숙소 1800곳 10% 할인",
+     "outlet": "IT타임스",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ycUlfQ0FmelZXNlZOZ3Jsc1JxYy1MVWhpY2FaN1ZUZzZDN0VWRDVKYW1XNnJjX2w5eUoxdVdDQmxzQ1AyTmVuUjkxYlNnLW9vTTNTR2xzeExVdXRRd2pHTDNnWmNRek90?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스, 부산관광공사와 '맞손' 해외관광객 숙박 10% 할인 제공",
+     "outlet": "마일드경제",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnLWpFajkySXgzdmpoUGI5MTEtOWpGVFFIU1AwdVhFcG1ZZFpLb0YwOHNvZ1pDbUQzVGlFZ1VtVEl3MEtrZzFpYklkMlQ0ZURhU052a3ZCdEFHV05KYTdqY09Ybk9ISW5FRS13?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스, 부산관광공사와 협력해 외국인 관광객 숙박 할인",
+     "outlet": "BBS불교방송",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ITHZrNWVmOEhNYzNOeENONnpjMTlkQ18xLWtrWXBrMkl3NUh4V2k2ODd0QVQ1MHk2WWt5eTR3UkJ0MkRyNXg3bXZfdzR6dnE0aHlDREptZ09NeDJkcVFqNnIwR003TDJra3ZB?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스, 부산 숙박 1800곳 10% 할인…외국인 관광객 유치 확대",
+     "outlet": "충청시사신문",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xMUtScjdhdG9nNE83LUI4SjFDMGJPUDJBVDIwMGEyZlhITmxJbWc0M01QMVM2ZUVyZE40aXZjMFhqcW5jbzBDU2JlNy1MbmJSTEdDcEVlWE1Ca0tmbFVvZEY0WHlEX3hFMEdr?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "NOL 월드, 부산관광공사와 해외관광객에 숙박 10% 할인",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1NV0RpQm9DWmx6c2N5VGREYndTRzJyeUlkSGY0YXlBV3ctVTVDMHZkaXctUGozdnEtTm11SDM0YS1WTUtvak9UaU5fSWZsSndLa1c5Qi1kdGhXSTRqS1kxaV95YkJPUQ?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스 X 부산관광공사, 관광 활성화 행사...숙소 10% 할인",
+     "outlet": "www.ppss.kr",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1uX1UxcGZidWdqQXA5NGtBNlhsN0NSTUhVMmVEREJBTDhHcWJ2b2hUczg4bFRNOGhwX0VsRW5xd18taFVKcFhFTFp1UEFxWThfQUFlc0NmeEdFNjRCbGhTLU8ybnQ?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스, 부산관광공사와 맞손…해외관광객에 숙박 10% 할인 제공",
+     "outlet": "일간대한뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qMS1KX1E5QXZld00wZzgxZ01aWTZ3X2Y0UGpLa29WbGRBN1E4WDBjcjRHVnF0OEdManhUTkhDRXRVV0NRdUl5RFdHUzFGUExIOW9HSl9VTGZUVXZPTUEwM2N4Ym5aZ1k?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "놀유니버스·부산관광공사, 외국인 관광객 숙박 할인…부산 숙소 1800곳",
+     "outlet": "매일신문",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1najczZFQxaGJYWFYzYWdRRjhOck9zZGc5Uy1DNEtGdVBEeTk3MTM2VkE1a29POEIwaG4tZkNSclY0VzAzMWNxeDAtU09aS1lPRkpmMUpuRWdWc01tUTd2Ujln?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "\"해외 관광객 숙박 10% 할인\"…놀유니버스, 부산관광공사와 협력",
+     "outlet": "아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNejdfb25iYlZEVTBTX3A2UlY3Vnh6S3l4ajZPMXVha2wyM3VRdGp6VHZuRUYtOTNVZ2kxaGFzZ21pYm9FbzdONjRYS0Y1WGh5YmI5S3QtU25VekJ3NHhvVg?oc=5",
+     "published": "2026-11-10"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-yeogi-278f9cee2a",
    "airline_id": "h-yeogi",
    "airline": "여기어때",
    "airlines_mentioned": [
@@ -2394,7 +2409,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "여기어때 거제·통영 숙박 최대 9만원 할인 쿠폰 푼다",
+   "headline": "여기어때 거제·통영 숙박 최대 9만원 할인…12월 13일까지 특별재난지역 여행 지원",
    "sale_start": null,
    "sale_end": "2026-12-13",
    "travel_start": null,
@@ -2411,8 +2426,8 @@
      "url": "https://www.econovill.com/news/articleView.html?idxno=756750"
     },
     "discount": {
-     "title": "여기어때 거제·통영 숙박 최대 9만원 할인 쿠폰 푼다",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84ZWdadDE2SmUySWlXM2FLWl9KMGtoMDh1eTk1WVRVMC03OWU0NlptcHpfTzI1UEdKQ2hZVkV3TkJOOE95bTdYLWRrbXQyY3A3dGtMTV9GTVFIazBOWUt5LUlVM3JVNkJsWnZ5Qg?oc=5"
+     "title": "여기어때 거제·통영 숙박 최대 9만원 할인…12월 13일까지 특별재난지역 여행 지원",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeUpGMWtDUzBMYUhqZmNOVjdxVTZqcVM3c2FNdjNJVENNck5EQ3doYll2ZGNOQS1xT0M2U2hvUGlRS2ZpS21OVDdYSnpWa3JFY3E4cFBJUGhwNzhHTTBpRW11U1NsRzJtZFhTUmVrLUFiZUNnMmJ0YWZaY1U1MTMzMU00cnJTdk5aeGtR?oc=5"
     }
    },
    "from_icn": null,
@@ -2421,12 +2436,24 @@
    "first_published": "2026-11-11",
    "last_published": "2026-11-11",
    "first_seen": "2026-11-11T09:14:04+09:00",
-   "last_seen": "2026-11-11T09:14:04+09:00",
+   "last_seen": "2026-11-11T13:18:13+09:00",
    "articles": [
+    {
+     "title": "여기어때 거제·통영 숙박 최대 9만원 할인…12월 13일까지 특별재난지역 여행 지원",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeUpGMWtDUzBMYUhqZmNOVjdxVTZqcVM3c2FNdjNJVENNck5EQ3doYll2ZGNOQS1xT0M2U2hvUGlRS2ZpS21OVDdYSnpWa3JFY3E4cFBJUGhwNzhHTTBpRW11U1NsRzJtZFhTUmVrLUFiZUNnMmJ0YWZaY1U1MTMzMU00cnJTdk5aeGtR?oc=5",
+     "published": "2026-11-11"
+    },
     {
      "title": "여기어때 거제·통영 숙박 최대 9만원 할인 쿠폰 푼다",
      "outlet": "ER 이코노믹리뷰",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84ZWdadDE2SmUySWlXM2FLWl9KMGtoMDh1eTk1WVRVMC03OWU0NlptcHpfTzI1UEdKQ2hZVkV3TkJOOE95bTdYLWRrbXQyY3A3dGtMTV9GTVFIazBOWUt5LUlVM3JVNkJsWnZ5Qg?oc=5",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "여기어때, 거제·통영 숙소 최대 9만원 할인",
+     "outlet": "공감신문",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LWjA0ZEVWdmRkYTNwcEN5ajloU2g1M1VKVHVuU2FLM0tkbnlCWldKTnY5N0N3RUxNRkEwdGlVcjNaNU96RldmdE4tNkZ4UHVlQldHSVN1Rm5ad2NTbXJLMmgwNUo0TU0?oc=5",
      "published": "2026-11-11"
     }
    ],
