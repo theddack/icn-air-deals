@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T22:17:38+09:00",
+ "generated_at": "2026-11-12T02:27:41+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1601,
+  "rss_items": 1602,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2033,
+  "outlet_items": 1887,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 7,
   "mail_new_articles": 0,
   "articles_with_summary": 48,
-  "articles": 719,
-  "new_articles": 5,
-  "deals": 131
+  "articles": 718,
+  "new_articles": 0,
+  "deals": 127
  },
  "deals": [
   {
@@ -253,68 +253,6 @@
      "outlet": "LoyaltyLobby",
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM2FjZ1NYdVBSZFg5YUdWdVl2dFJ5eFJSVF80YkMyMkJoQXhhVGR5ZnAzUnZtRm1qaERPZmlPajVucGVJZ2xGLTl2LXA1SmcxeGF1QzlYbXhBdEZXRk9EQ2IwY2hOcVo1aTVaSFJjWlZ0RWg4ZTJpUzBReDZQOFVsUDRZa01YS25yamw2MGktSS1hUVJpSFZiMXRpazZsdlJObHYtSHh4VmVHV0JsY0VFQnFoNExwbmRsc18xZHEyYWM?oc=5",
      "published": "2026-10-22"
-    }
-   ],
-   "status": "live"
-  },
-  {
-   "id": "h-skyscanner-30e6478f61",
-   "airline_id": "h-skyscanner",
-   "airline": "스카이스캐너",
-   "airlines_mentioned": [
-    "스카이스캐너"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://www.skyscanner.co.kr/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "11.11 쇼핑데이",
-   "headline": "연말 해외여행 준비한다면 주목… 스카이스캐너, 항공권 최대 15% 할인",
-   "sale_start": "2026-11-01",
-   "sale_end": "2026-11-11",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "싱글리스트 요약문: …이스캐너가 다가오는 연말을 맞아 11월 1~11일 ‘11.11 쇼핑 데이’ 항공권 할인 프로모션을 진행한다.…",
-     "url": "https://www.slist.kr/news/articleView.html?idxno=777337"
-    },
-    "discount": {
-     "title": "연말 해외여행 준비한다면 주목… 스카이스캐너, 항공권 최대 15% 할인",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xQ3dic1Y3Q2dMb096MjYwdXh0ODFRSE43eFI2V1E5QWxCNkhMYnE3VTlmOWE4dF9OY0JuSFJMZEhLYmY5MzFLR21wLXJTQjNhR2w5b3NZN2xsTGszVHlpZnFOTzl6RVlRWkJOTQ?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 15%",
-   "verification": "news",
-   "first_published": "2026-10-29",
-   "last_published": "2026-11-01",
-   "first_seen": "2026-10-29T10:47:32+09:00",
-   "last_seen": "2026-11-01T09:14:06+09:00",
-   "articles": [
-    {
-     "title": "연말 해외여행 준비한다면 주목… 스카이스캐너, 항공권 최대 15% 할인",
-     "outlet": "뉴스탭",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xQ3dic1Y3Q2dMb096MjYwdXh0ODFRSE43eFI2V1E5QWxCNkhMYnE3VTlmOWE4dF9OY0JuSFJMZEhLYmY5MzFLR21wLXJTQjNhR2w5b3NZN2xsTGszVHlpZnFOTzl6RVlRWkJOTQ?oc=5",
-     "published": "2026-11-01"
-    },
-    {
-     "title": "스카이스캐너, ‘11.11 쇼핑데이’ 항공권 할인 프로모션",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wcG1weVU5cmhVV2V2eFJwaUFBdEMtUngxb1c3ZEdJWklCdkw5dWp4S2VRNmFtQkFySFFPMmdGUktVZXN1NmdWUmoyZ3NrVy1CT2kxeXBGdVVHTWw0WDlRcF9YVWNLQQ?oc=5",
-     "published": "2026-10-29"
     }
    ],
    "status": "live"
@@ -2488,416 +2426,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "jejuair-6c8e4f068c",
-   "airline_id": "jejuair",
-   "airline": "제주항공",
-   "airlines_mentioned": [
-    "제주항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.jejuair.net/",
-   "iata": [
-    "7C"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "제주항공 최대 33만원 혜택과 항공권 특가 소식 도착!💌",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "제주항공 메일 본문",
-     "url": "https://www.jejuair.net/#mail-cdf4d3f90731ae33"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 3만원 할인",
-   "verification": "official",
-   "first_published": "2026-10-28",
-   "last_published": "2026-10-28",
-   "first_seen": "2026-10-28T18:37:28+09:00",
-   "last_seen": "2026-10-28T18:37:28+09:00",
-   "articles": [
-    {
-     "title": "제주항공 최대 33만원 혜택과 항공권 특가 소식 도착!💌",
-     "outlet": "제주항공 메일",
-     "url": "https://www.jejuair.net/#mail-cdf4d3f90731ae33",
-     "published": "2026-10-28"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "airbusan-d18f1756ce",
-   "airline_id": "airbusan",
-   "airline": "에어부산",
-   "airlines_mentioned": [
-    "에어부산"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airbusan.com/",
-   "iata": [
-    "BX"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어부산 발길 닿는 모든 곳이 완벽한 지금, 치앙마이 부산-치앙마이 최대 8만원 할인!",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": "부산(PUS)",
-     "destination": "치앙마이(CNX)"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "에어부산 발길 닿는 모든 곳이 완벽한 지금, 치앙마이 부산-치앙마이 최대 8만원 할인!",
-     "url": "https://www.airbusan.com/#mail-2de6c7968ed94cf1"
-    },
-    "route": {
-     "title": "에어부산 발길 닿는 모든 곳이 완벽한 지금, 치앙마이 부산-치앙마이 최대 8만원 할인!",
-     "url": "https://www.airbusan.com/#mail-2de6c7968ed94cf1"
-    }
-   },
-   "from_icn": "no",
-   "discount": "최대 8만원 할인",
-   "verification": "official",
-   "first_published": "2026-10-28",
-   "last_published": "2026-10-28",
-   "first_seen": "2026-10-28T18:37:28+09:00",
-   "last_seen": "2026-10-28T18:37:28+09:00",
-   "articles": [
-    {
-     "title": "에어부산 발길 닿는 모든 곳이 완벽한 지금, 치앙마이 부산-치앙마이 최대 8만원 할인!",
-     "outlet": "에어부산 메일",
-     "url": "https://www.airbusan.com/#mail-2de6c7968ed94cf1",
-     "published": "2026-10-28"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-paradise-aff283a0a8",
-   "airline_id": "h-paradise",
-   "airline": "파라다이스",
-   "airlines_mentioned": [
-    "파라다이스"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "domestic",
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": "객실 할인부터 무료 숙박권까지",
-   "headline": "파라다이스 호텔 부산, 45주년 객실 할인…폐페트병 재활용 토트백도",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "부산"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-28",
-   "last_published": "2026-10-28",
-   "first_seen": "2026-10-28T10:19:38+09:00",
-   "last_seen": "2026-10-28T18:37:34+09:00",
-   "articles": [
-    {
-     "title": "파라다이스 호텔 부산, 45주년 객실 할인…폐페트병 재활용 토트백도",
-     "outlet": "여행레저신문",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeDBVVkpfdC1RRjdJQUtwZU9aYllwV0ZvZE45YTF2UlJJUm1sMU1WcVQwUl9pY19XOFkxY0YtZ2JmbUJpVUI3NHVPQk0tbDh0SGh0QTMyVFhfRVNaNS1kejkwZVlucm1XU0loTVk0SDZibnJpc2dPdEgzUEx4OEhST1ExaVQxUTdERXZJdw?oc=5",
-     "published": "2026-10-28"
-    },
-    {
-     "title": "파라다이스 호텔 부산, 창립 45주년…객실 할인·한정판 기념품 - 머니투데이",
-     "outlet": "머니투데이",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45dDNfblhidWpxQktMZElJOXliZlFJNzFLRDlfQzY1R2tlMzVoRkVqTmxTTXR3dXd2ZVBvOHk1akhqV1dZSjUtcC1CUWdPY2dJZGZfbWNDblN6dEtHRTJoOUFoWjJ4S2g2UHIw0gFwQVVfeXFMTUJtM2xndVQxM0s0VVQ4NXJWdHZzeXdNNkRuWllBd0JfX1RFRkZoMjM5TDJ6dktWa2plOFprUnN0QnFyQ1hXTHl4VkhsQmJ6bHpmT0dYUkdVSTRwSTlRaXRNUXczeXRxcHZ1SkI5ZzBDSg?oc=5",
-     "published": "2026-10-28"
-    },
-    {
-     "title": "파라다이스 호텔 부산, 45주년 프로모션...객실 할인·럭키드로우",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14YmV5Ul9PeVMtdTFidXZSM1JKRnRjMTJrMUxrQU1LMFh2RU01cm1haTdaYmVfaXk0UGlHakJfOFMzbEFMNENvbXl1MUxfMG5HNU5BYXBmSC0wenlzZkE4dWY4RkJLdw?oc=5",
-     "published": "2026-10-28"
-    },
-    {
-     "title": "\"객실 할인부터 무료 숙박권까지\"…파라다이스 부산, 45주년 기념",
-     "outlet": "뉴스1",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rSFlDUEZYeWNhcDZpN0xBVlhZTUk1QmNFQ1BEWE9QMVJmMl9pN1UtTlhNdl9Tb2hocmdpbjZPQTBqd3pqaGp3azl1aXNJZjFiRG9ocXhMcUF4eHdVM1JaNg?oc=5",
-     "published": "2026-10-28"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-hanatour-4986472c7d",
-   "airline_id": "h-hanatour",
-   "airline": "하나투어",
-   "airlines_mentioned": [
-    "하나투어"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://www.hanatour.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "“기업 출장에도 AI 바람”…하나투어·세일즈포스, 여행 비즈니스 확장 맞손",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-28",
-   "last_published": "2026-10-28",
-   "first_seen": "2026-10-28T10:19:38+09:00",
-   "last_seen": "2026-10-28T10:19:38+09:00",
-   "articles": [
-    {
-     "title": "“기업 출장에도 AI 바람”…하나투어·세일즈포스, 여행 비즈니스 확장 맞손",
-     "outlet": "투어코리아",
-     "url": "https://www.tournews21.com/news/articleView.html?idxno=146841",
-     "published": "2026-10-28"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "hkexpress-03b6786289",
-   "airline_id": "hkexpress",
-   "airline": "홍콩익스프레스",
-   "airlines_mentioned": [
-    "홍콩익스프레스"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.hkexpress.com/ko-kr/",
-   "iata": [
-    "UO"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "“홍콩 항공권 11만3000원부터”…홍콩익스프레스, 창립 13주년 초특가 쏜다",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": null,
-     "destination": "홍콩(HKG)"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "“홍콩 항공권 11만3000원부터”…홍콩익스프레스, 창립 13주년 초특가 쏜다",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lc1ZUREt4UDI1Y2FITFFsVldtUWlEbEpFSEVtdUttTk10Q3kyZXQ4MFJVcG9rRUJYazZ3ckFBaWhBb2xFM2JrUW1KSjlUMUV3X1J2OE5DYW5yeFVFaWJKNEVLVUtOMERWRnlfS2ln?oc=5"
-    },
-    "route": {
-     "title": "홍콩익스프레스, 창립 13주년 맞이 ‘11만원대’ 홍콩행 특가 진행",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DOVdxNk9rbEJ1bWFJb2dBV2tZMTl1NzkzNWQ0WTl1X1VpTFhKR1NnelZFZEdFdDd0THFQR295aGJsME5Xbnh5bHVuOUlVSXcwRlgwYXVIdDRqQzQ1ZW5YZEhoUGloeGtpM0Iw?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "11만3000원부터",
-   "verification": "news",
-   "first_published": "2026-10-26",
-   "last_published": "2026-10-28",
-   "first_seen": "2026-11-05T14:37:45+09:00",
-   "last_seen": "2026-11-08T09:14:08+09:00",
-   "articles": [
-    {
-     "title": "“홍콩 항공권 11만3000원부터”…홍콩익스프레스, 창립 13주년 초특가 쏜다",
-     "outlet": "투어코리아",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lc1ZUREt4UDI1Y2FITFFsVldtUWlEbEpFSEVtdUttTk10Q3kyZXQ4MFJVcG9rRUJYazZ3ckFBaWhBb2xFM2JrUW1KSjlUMUV3X1J2OE5DYW5yeFVFaWJKNEVLVUtOMERWRnlfS2ln?oc=5",
-     "published": "2026-10-28"
-    },
-    {
-     "title": "홍콩익스프레스, 초특가 프로모션 실시",
-     "outlet": "트래블데일리",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CNFBxUHQ3R1N3WWpjbkx5N1lLOS1admtKTUdmMVQ5ZjMxMjh1cHRCY1pESkMzUXRUeXkwR2tWUEJJeklCYWxOQkxEUVBRSllBbTlJRDAtTi1NS3JXSlF6S1k2Wk04WjhxRVhoSktoQks?oc=5",
-     "published": "2026-10-27"
-    },
-    {
-     "title": "홍콩익스프레스, 창립 13주년 맞이 ‘11만원대’ 홍콩행 특가 진행",
-     "outlet": "비즈월드",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DOVdxNk9rbEJ1bWFJb2dBV2tZMTl1NzkzNWQ0WTl1X1VpTFhKR1NnelZFZEdFdDd0THFQR295aGJsME5Xbnh5bHVuOUlVSXcwRlgwYXVIdDRqQzQ1ZW5YZEhoUGloeGtpM0Iw?oc=5",
-     "published": "2026-10-27"
-    },
-    {
-     "title": "홍콩익스프레스(HK), 창립 13주년 기념 항공 운임 프로모션 운용",
-     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9VVE1yTVByMDBKdnc3ZmRVWFdnZ1U3YlhXR3dPOFF3QzU5UmNkQWgwN0w2OGZ4aWRTNUhwQ1dWUElPOUpUclk3VjMwUmI2U0VfZlhJM2M4dUZNTmJwcDdhdVRHTnBiRGVLbmtfZVpReEtGZw?oc=5",
-     "published": "2026-10-26"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-358240f62b",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "필리핀 마닐라 여행, 숙박비 부담 낮춘다…시티오브드림 호텔 특가 프로모션 주목",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "필리핀"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-28",
-   "last_published": "2026-10-28",
-   "first_seen": "2026-10-28T10:19:38+09:00",
-   "last_seen": "2026-10-28T10:19:38+09:00",
-   "articles": [
-    {
-     "title": "필리핀 마닐라 여행, 숙박비 부담 낮춘다…시티오브드림 호텔 특가 프로모션 주목",
-     "outlet": "유스연합",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE95UHVIWVVCR2xqRG9Tekc1cDZKLXhqWjdSakNxS3BOMVFiZE9QTWlPTlB5R0ZrVFBxTVI4WnZkdEFRQlQ5aVVoVmdteE9VSTFTeEdn?oc=5",
-     "published": "2026-10-28"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-c47c29906a",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "블랙프라이데이 여행 특가 2026: 유럽에서 2027년 항공권과 호텔 예약하기 - 뉴스 및 통계",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "유럽"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-28",
-   "last_published": "2026-10-28",
-   "first_seen": "2026-10-29T03:51:32+09:00",
-   "last_seen": "2026-10-29T03:51:32+09:00",
-   "articles": [
-    {
-     "title": "블랙프라이데이 여행 특가 2026: 유럽에서 2027년 항공권과 호텔 예약하기 - 뉴스 및 통계",
-     "outlet": "IndexBox",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR1NUOWNkand2S2lRQWJndk8wV1QtZEhWYllMX3h2WmF2dUVQbXRjSUZrMU93bFY3UklvRDVoSHlCVTlfRXBibGNqOFZvZEZZck1GYjJnaldPZzFCMEhMMzFvSGMzcTcxOHItbzY0SjNMYU8yeGd4b0lLNHhyRlJhX3ZuWUdtRlk2aElXMDdEeEl4MkJPdnFPeWx6SWQxZFhJU1h2dVJfeHBrUQ?oc=5",
-     "published": "2026-10-28"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "multi-e142fdb009",
@@ -7066,85 +6594,6 @@
    "status": "stale"
   },
   {
-   "id": "asiana-238325139d",
-   "airline_id": "asiana",
-   "airline": "아시아나항공",
-   "airlines_mentioned": [
-    "아시아나항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://flyasiana.com/C/KR/KO/event/list",
-   "iata": [
-    "OZ"
-   ],
-   "agencies": [],
-   "event_name": "한국행 여름 특가 이벤트",
-   "headline": "아시아나항공 '한국행 여름 특가 이벤트'",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": null,
-     "destination": "인천(ICN)"
-    },
-    {
-     "origin": null,
-     "destination": "한국"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "아시아나, 미주~인천행 비즈니스석 7% 할인 특가",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTk5jM3VlNEgyNThvTWVhSnoyVzdMX3ZQUmFoV25Od1ZxNm44UDRVRnljazZ2QVB1Z1M5MHd4ekNHNVF4WGlZV05hWl84WjFKS2FJUWhKMzFzMWZnYWpGQUhWaHlMZDQ5ZlNpb0FNT0JKanlsVzltd1l4blYtbFZrZHliUllXZ0pqSUdlNDQ4QXdzN285QjZWOEYxMFA4RjhMYXNjR0RORGlrSnI1TGQxc2VvWXd0MmZ2WFdsWVpFT2VFMTAwTjRfWWpjUXl4Z1VzQ2c?oc=5"
-    },
-    "route": {
-     "title": "아시아나항공 '한국행 여름 특가 이벤트'",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzhDUERZcF9wRFpJNHkxRWNVdmY2R3d6cUU3b2dXNmZ6OFRtUEwzSFJheEFUc09ud3lWaFlLMy1oZVI3dU5laXNYYWs4aTRFb3d6RkRIajRyRnpZX0d0dTJqNmFON0RDN0VLcEJoWVRmQ2ljbXFRLUxDNlBUVVdqU200QzdrbFdEbWtZNjZ4QVB2Y0xmYi1FVHZLMmx6R0NhZFBvQ0JEZ09EYmVCOG5Ya3YxYlVaNUF3Tnc?oc=5"
-    }
-   },
-   "from_icn": "no",
-   "discount": "7% 할인",
-   "verification": "news",
-   "first_published": "2026-10-12",
-   "last_published": "2026-10-12",
-   "first_seen": "2026-10-15T10:12:09+09:00",
-   "last_seen": "2026-10-17T08:59:56+09:00",
-   "articles": [
-    {
-     "title": "아시아나항공 '한국행 여름 특가 이벤트'",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzhDUERZcF9wRFpJNHkxRWNVdmY2R3d6cUU3b2dXNmZ6OFRtUEwzSFJheEFUc09ud3lWaFlLMy1oZVI3dU5laXNYYWs4aTRFb3d6RkRIajRyRnpZX0d0dTJqNmFON0RDN0VLcEJoWVRmQ2ljbXFRLUxDNlBUVVdqU200QzdrbFdEbWtZNjZ4QVB2Y0xmYi1FVHZLMmx6R0NhZFBvQ0JEZ09EYmVCOG5Ya3YxYlVaNUF3Tnc?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "아시아나, 미주~인천행 비즈니스석 7% 할인 특가",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTk5jM3VlNEgyNThvTWVhSnoyVzdMX3ZQUmFoV25Od1ZxNm44UDRVRnljazZ2QVB1Z1M5MHd4ekNHNVF4WGlZV05hWl84WjFKS2FJUWhKMzFzMWZnYWpGQUhWaHlMZDQ5ZlNpb0FNT0JKanlsVzltd1l4blYtbFZrZHliUllXZ0pqSUdlNDQ4QXdzN285QjZWOEYxMFA4RjhMYXNjR0RORGlrSnI1TGQxc2VvWXd0MmZ2WFdsWVpFT2VFMTAwTjRfWWpjUXl4Z1VzQ2c?oc=5",
-     "published": "2026-10-12"
-    },
-    {
-     "title": "아시아나, A380 재운항 및 미주노선 증편 기념 이벤트",
-     "outlet": "미주조선일보",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY2hGUjBNOUY1Y3JCRzN6bWdCM0hEeVJPeEhhUG9lUXgyZE5OZzBoUTQ5cDVqNGxhOEpEMndwV1ByeFZVdDI4X1pTTkt3N181WGtvVnREd3hwdWYwWTlTUkVvX2dqaFZ1RjFfcVhFOURwNUdXYkx6LUZnQ1d1Y1MyVTB1UnJDR3ZvWnotTXRQUGtWYWRjRjlWQ0FXT2RFMHJZd2VqVXljMmVtcHZEeWN3VE04aDhNQnJLWXJHSVhjbnU1WDR2WUxVV2IwOWYyTDhB?oc=5",
-     "published": "2026-10-12"
-    }
-   ],
-   "status": "stale"
-  },
-  {
    "id": "jejuair-2b0d1ccd34",
    "airline_id": "jejuair",
    "airline": "제주항공",
@@ -8390,6 +7839,271 @@
    "status": "stale"
   },
   {
+   "id": "jejuair-6c8e4f068c",
+   "airline_id": "jejuair",
+   "airline": "제주항공",
+   "airlines_mentioned": [
+    "제주항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.jejuair.net/",
+   "iata": [
+    "7C"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "제주항공 최대 33만원 혜택과 항공권 특가 소식 도착!💌",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "제주항공 메일 본문",
+     "url": "https://www.jejuair.net/#mail-cdf4d3f90731ae33"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 3만원 할인",
+   "verification": "official",
+   "first_published": "2026-10-28",
+   "last_published": "2026-10-28",
+   "first_seen": "2026-10-28T18:37:28+09:00",
+   "last_seen": "2026-10-28T18:37:28+09:00",
+   "articles": [
+    {
+     "title": "제주항공 최대 33만원 혜택과 항공권 특가 소식 도착!💌",
+     "outlet": "제주항공 메일",
+     "url": "https://www.jejuair.net/#mail-cdf4d3f90731ae33",
+     "published": "2026-10-28"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "airbusan-d18f1756ce",
+   "airline_id": "airbusan",
+   "airline": "에어부산",
+   "airlines_mentioned": [
+    "에어부산"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airbusan.com/",
+   "iata": [
+    "BX"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어부산 발길 닿는 모든 곳이 완벽한 지금, 치앙마이 부산-치앙마이 최대 8만원 할인!",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "부산(PUS)",
+     "destination": "치앙마이(CNX)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "에어부산 발길 닿는 모든 곳이 완벽한 지금, 치앙마이 부산-치앙마이 최대 8만원 할인!",
+     "url": "https://www.airbusan.com/#mail-2de6c7968ed94cf1"
+    },
+    "route": {
+     "title": "에어부산 발길 닿는 모든 곳이 완벽한 지금, 치앙마이 부산-치앙마이 최대 8만원 할인!",
+     "url": "https://www.airbusan.com/#mail-2de6c7968ed94cf1"
+    }
+   },
+   "from_icn": "no",
+   "discount": "최대 8만원 할인",
+   "verification": "official",
+   "first_published": "2026-10-28",
+   "last_published": "2026-10-28",
+   "first_seen": "2026-10-28T18:37:28+09:00",
+   "last_seen": "2026-10-28T18:37:28+09:00",
+   "articles": [
+    {
+     "title": "에어부산 발길 닿는 모든 곳이 완벽한 지금, 치앙마이 부산-치앙마이 최대 8만원 할인!",
+     "outlet": "에어부산 메일",
+     "url": "https://www.airbusan.com/#mail-2de6c7968ed94cf1",
+     "published": "2026-10-28"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-paradise-aff283a0a8",
+   "airline_id": "h-paradise",
+   "airline": "파라다이스",
+   "airlines_mentioned": [
+    "파라다이스"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "객실 할인부터 무료 숙박권까지",
+   "headline": "파라다이스 호텔 부산, 45주년 객실 할인…폐페트병 재활용 토트백도",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "부산"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-10-28",
+   "last_published": "2026-10-28",
+   "first_seen": "2026-10-28T10:19:38+09:00",
+   "last_seen": "2026-10-28T18:37:34+09:00",
+   "articles": [
+    {
+     "title": "파라다이스 호텔 부산, 45주년 객실 할인…폐페트병 재활용 토트백도",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeDBVVkpfdC1RRjdJQUtwZU9aYllwV0ZvZE45YTF2UlJJUm1sMU1WcVQwUl9pY19XOFkxY0YtZ2JmbUJpVUI3NHVPQk0tbDh0SGh0QTMyVFhfRVNaNS1kejkwZVlucm1XU0loTVk0SDZibnJpc2dPdEgzUEx4OEhST1ExaVQxUTdERXZJdw?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "파라다이스 호텔 부산, 창립 45주년…객실 할인·한정판 기념품 - 머니투데이",
+     "outlet": "머니투데이",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45dDNfblhidWpxQktMZElJOXliZlFJNzFLRDlfQzY1R2tlMzVoRkVqTmxTTXR3dXd2ZVBvOHk1akhqV1dZSjUtcC1CUWdPY2dJZGZfbWNDblN6dEtHRTJoOUFoWjJ4S2g2UHIw0gFwQVVfeXFMTUJtM2xndVQxM0s0VVQ4NXJWdHZzeXdNNkRuWllBd0JfX1RFRkZoMjM5TDJ6dktWa2plOFprUnN0QnFyQ1hXTHl4VkhsQmJ6bHpmT0dYUkdVSTRwSTlRaXRNUXczeXRxcHZ1SkI5ZzBDSg?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "파라다이스 호텔 부산, 45주년 프로모션...객실 할인·럭키드로우",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14YmV5Ul9PeVMtdTFidXZSM1JKRnRjMTJrMUxrQU1LMFh2RU01cm1haTdaYmVfaXk0UGlHakJfOFMzbEFMNENvbXl1MUxfMG5HNU5BYXBmSC0wenlzZkE4dWY4RkJLdw?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "\"객실 할인부터 무료 숙박권까지\"…파라다이스 부산, 45주년 기념",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rSFlDUEZYeWNhcDZpN0xBVlhZTUk1QmNFQ1BEWE9QMVJmMl9pN1UtTlhNdl9Tb2hocmdpbjZPQTBqd3pqaGp3azl1aXNJZjFiRG9ocXhMcUF4eHdVM1JaNg?oc=5",
+     "published": "2026-10-28"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "hkexpress-03b6786289",
+   "airline_id": "hkexpress",
+   "airline": "홍콩익스프레스",
+   "airlines_mentioned": [
+    "홍콩익스프레스"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.hkexpress.com/ko-kr/",
+   "iata": [
+    "UO"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "“홍콩 항공권 11만3000원부터”…홍콩익스프레스, 창립 13주년 초특가 쏜다",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "홍콩(HKG)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "“홍콩 항공권 11만3000원부터”…홍콩익스프레스, 창립 13주년 초특가 쏜다",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lc1ZUREt4UDI1Y2FITFFsVldtUWlEbEpFSEVtdUttTk10Q3kyZXQ4MFJVcG9rRUJYazZ3ckFBaWhBb2xFM2JrUW1KSjlUMUV3X1J2OE5DYW5yeFVFaWJKNEVLVUtOMERWRnlfS2ln?oc=5"
+    },
+    "route": {
+     "title": "홍콩익스프레스, 창립 13주년 맞이 ‘11만원대’ 홍콩행 특가 진행",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DOVdxNk9rbEJ1bWFJb2dBV2tZMTl1NzkzNWQ0WTl1X1VpTFhKR1NnelZFZEdFdDd0THFQR295aGJsME5Xbnh5bHVuOUlVSXcwRlgwYXVIdDRqQzQ1ZW5YZEhoUGloeGtpM0Iw?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "11만3000원부터",
+   "verification": "news",
+   "first_published": "2026-10-26",
+   "last_published": "2026-10-28",
+   "first_seen": "2026-11-05T14:37:45+09:00",
+   "last_seen": "2026-11-08T09:14:08+09:00",
+   "articles": [
+    {
+     "title": "“홍콩 항공권 11만3000원부터”…홍콩익스프레스, 창립 13주년 초특가 쏜다",
+     "outlet": "투어코리아",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lc1ZUREt4UDI1Y2FITFFsVldtUWlEbEpFSEVtdUttTk10Q3kyZXQ4MFJVcG9rRUJYazZ3ckFBaWhBb2xFM2JrUW1KSjlUMUV3X1J2OE5DYW5yeFVFaWJKNEVLVUtOMERWRnlfS2ln?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "홍콩익스프레스, 초특가 프로모션 실시",
+     "outlet": "트래블데일리",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CNFBxUHQ3R1N3WWpjbkx5N1lLOS1admtKTUdmMVQ5ZjMxMjh1cHRCY1pESkMzUXRUeXkwR2tWUEJJeklCYWxOQkxEUVBRSllBbTlJRDAtTi1NS3JXSlF6S1k2Wk04WjhxRVhoSktoQks?oc=5",
+     "published": "2026-10-27"
+    },
+    {
+     "title": "홍콩익스프레스, 창립 13주년 맞이 ‘11만원대’ 홍콩행 특가 진행",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DOVdxNk9rbEJ1bWFJb2dBV2tZMTl1NzkzNWQ0WTl1X1VpTFhKR1NnelZFZEdFdDd0THFQR295aGJsME5Xbnh5bHVuOUlVSXcwRlgwYXVIdDRqQzQ1ZW5YZEhoUGloeGtpM0Iw?oc=5",
+     "published": "2026-10-27"
+    },
+    {
+     "title": "홍콩익스프레스(HK), 창립 13주년 기념 항공 운임 프로모션 운용",
+     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9VVE1yTVByMDBKdnc3ZmRVWFdnZ1U3YlhXR3dPOFF3QzU5UmNkQWgwN0w2OGZ4aWRTNUhwQ1dWUElPOUpUclk3VjMwUmI2U0VfZlhJM2M4dUZNTmJwcDdhdVRHTnBiRGVLbmtfZVpReEtGZw?oc=5",
+     "published": "2026-10-26"
+    }
+   ],
+   "status": "stale"
+  },
+  {
    "id": "h-stayfesta-9320ecd5d8",
    "airline_id": "h-stayfesta",
    "airline": "숙박세일 페스타",
@@ -8598,6 +8312,68 @@
      "outlet": "문화일보",
      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Jcy1uM28xWGt4R3BrT2FIb0NPMkFjcl93T2tMQkNNZ05IRjNNQnRmeFZsWG9LQnBmajR4cy11UzF2bjB5eHlvT1hjdWhXSV93?oc=5",
      "published": "2026-09-28"
+    }
+   ],
+   "status": "ended"
+  },
+  {
+   "id": "h-skyscanner-30e6478f61",
+   "airline_id": "h-skyscanner",
+   "airline": "스카이스캐너",
+   "airlines_mentioned": [
+    "스카이스캐너"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.skyscanner.co.kr/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "11.11 쇼핑데이",
+   "headline": "연말 해외여행 준비한다면 주목… 스카이스캐너, 항공권 최대 15% 할인",
+   "sale_start": "2026-11-01",
+   "sale_end": "2026-11-11",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "싱글리스트 요약문: …이스캐너가 다가오는 연말을 맞아 11월 1~11일 ‘11.11 쇼핑 데이’ 항공권 할인 프로모션을 진행한다.…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=777337"
+    },
+    "discount": {
+     "title": "연말 해외여행 준비한다면 주목… 스카이스캐너, 항공권 최대 15% 할인",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xQ3dic1Y3Q2dMb096MjYwdXh0ODFRSE43eFI2V1E5QWxCNkhMYnE3VTlmOWE4dF9OY0JuSFJMZEhLYmY5MzFLR21wLXJTQjNhR2w5b3NZN2xsTGszVHlpZnFOTzl6RVlRWkJOTQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 15%",
+   "verification": "news",
+   "first_published": "2026-10-29",
+   "last_published": "2026-11-01",
+   "first_seen": "2026-10-29T10:47:32+09:00",
+   "last_seen": "2026-11-01T09:14:06+09:00",
+   "articles": [
+    {
+     "title": "연말 해외여행 준비한다면 주목… 스카이스캐너, 항공권 최대 15% 할인",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xQ3dic1Y3Q2dMb096MjYwdXh0ODFRSE43eFI2V1E5QWxCNkhMYnE3VTlmOWE4dF9OY0JuSFJMZEhLYmY5MzFLR21wLXJTQjNhR2w5b3NZN2xsTGszVHlpZnFOTzl6RVlRWkJOTQ?oc=5",
+     "published": "2026-11-01"
+    },
+    {
+     "title": "스카이스캐너, ‘11.11 쇼핑데이’ 항공권 할인 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wcG1weVU5cmhVV2V2eFJwaUFBdEMtUngxb1c3ZEdJWklCdkw5dWp4S2VRNmFtQkFySFFPMmdGUktVZXN1NmdWUmoyZ3NrVy1CT2kxeXBGdVVHTWw0WDlRcF9YVWNLQQ?oc=5",
+     "published": "2026-10-29"
     }
    ],
    "status": "ended"
