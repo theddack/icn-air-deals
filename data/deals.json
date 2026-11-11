@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T02:17:44+09:00",
+ "generated_at": "2026-11-11T09:14:04+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1672,
+  "rss_items": 1676,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1856,
+  "outlet_items": 2047,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_enriched": 1,
   "mail_articles": 6,
   "mail_new_articles": 0,
-  "articles_with_summary": 45,
-  "articles": 698,
-  "new_articles": 2,
-  "deals": 123
+  "articles_with_summary": 46,
+  "articles": 702,
+  "new_articles": 4,
+  "deals": 125
  },
  "deals": [
   {
@@ -1175,7 +1175,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "11.11 메가세일",
-   "headline": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
+   "headline": "트립닷컴 11.11 메가세일, 1100원 항공권 오전 11시 시작",
    "sale_start": "2026-11-11",
    "sale_end": "2026-11-14",
    "travel_start": null,
@@ -1201,10 +1201,16 @@
    "discount": "1만9000원부터",
    "verification": "news",
    "first_published": "2026-11-09",
-   "last_published": "2026-11-09",
+   "last_published": "2026-11-11",
    "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-09T18:16:03+09:00",
+   "last_seen": "2026-11-11T09:14:04+09:00",
    "articles": [
+    {
+     "title": "트립닷컴 11.11 메가세일, 1100원 항공권 오전 11시 시작",
+     "outlet": "www.diarypoint.com",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MQmJZOFBTQy1oMDlRUm5qcF9WeFRsR3VaNHF6X3NPbkFPdHBQaUJjakN2aFNBNjN6WFQtdHF4N3BnRGZSVnJEamxTdnV0OUdlN0JWMEZNNk1NUkpXT2ppOHZDZzNIclF4X25n?oc=5",
+     "published": "2026-11-11"
+    },
     {
      "title": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
      "outlet": "뉴스탭",
@@ -2364,6 +2370,64 @@
      "outlet": "비즈엔터",
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RUkJQZjBzb0czLWVObUZOalZMNWcyb0pxQXduSmxiRDdET1RqZ3BtX25YTU43MU5UUEI5QWJfanJaRHdUNmt0d1Y4aUNTQWlRN0tibHJR?oc=5",
      "published": "2026-11-10"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-yeogi-2d7fc6029b",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "여기어때 거제·통영 숙박 최대 9만원 할인 쿠폰 푼다",
+   "sale_start": null,
+   "sale_end": "2026-12-13",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [
+    "쿠폰"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "ER 이코노믹리뷰 요약문: 다음달 13일까지 두 지역 숙소를 예약하는 고객에게 최대 9만원 할인 쿠폰을 지급한다.",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=756750"
+    },
+    "discount": {
+     "title": "여기어때 거제·통영 숙박 최대 9만원 할인 쿠폰 푼다",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84ZWdadDE2SmUySWlXM2FLWl9KMGtoMDh1eTk1WVRVMC03OWU0NlptcHpfTzI1UEdKQ2hZVkV3TkJOOE95bTdYLWRrbXQyY3A3dGtMTV9GTVFIazBOWUt5LUlVM3JVNkJsWnZ5Qg?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 9만원 할인",
+   "verification": "news",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-11T09:14:04+09:00",
+   "last_seen": "2026-11-11T09:14:04+09:00",
+   "articles": [
+    {
+     "title": "여기어때 거제·통영 숙박 최대 9만원 할인 쿠폰 푼다",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84ZWdadDE2SmUySWlXM2FLWl9KMGtoMDh1eTk1WVRVMC03OWU0NlptcHpfTzI1UEdKQ2hZVkV3TkJOOE95bTdYLWRrbXQyY3A3dGtMTV9GTVFIazBOWUt5LUlVM3JVNkJsWnZ5Qg?oc=5",
+     "published": "2026-11-11"
     }
    ],
    "status": "live"
@@ -6445,6 +6509,53 @@
      "title": "캐세이퍼시픽 블랙프라이데이, 전 노선 7% 할인…아시아 일반석 최대 10% 추가",
      "outlet": "여행레저신문",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaFJZaWtDUDJTWlBTSmltNGFqRTNEOG8zTFZvZDBRNG5TTklsamxQcThHdzdGZ2xpY3BCYXZXdjFNRGk1RDF3bmZ1ZldwSGNqS3otRTNUdmtBTFpXT0sybUVUNmEyR3RNWjRiMy1xaUJ3QzBxV3ZNNWp3OVVPckRNLWhYSHcxVnBKekI4eGFR?oc=5",
+     "published": "2026-11-10"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-be86892879",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Inside Gaming: Strip hotel-casino offers deep discounts on rooms for Black Friday",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-10",
+   "last_published": "2026-11-10",
+   "first_seen": "2026-11-11T09:14:04+09:00",
+   "last_seen": "2026-11-11T09:14:04+09:00",
+   "articles": [
+    {
+     "title": "Inside Gaming: Strip hotel-casino offers deep discounts on rooms for Black Friday",
+     "outlet": "Las Vegas Review-Journal",
+     "url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxOam8zSlJCS2o3NUYwVUdfMER6V0sxRzduZF9zX3M5TjRpTXNHb18tMy1kMzZ0NkR0U2dNd05vSW9fQ3c0NzhBamZpUUdzZjFzbU1BaGxCb2hkUkJtVmFCc192c1lBSWlMMmlTRFBYeFZ4Y19RbHRzV0p2Q3lublQ1Wl85NE1hUFotRGs0VWJzVDdjTnhlM040bE5NOVE0ajdXX3pHSm53WGZXb1A0bG1NbFoxSk9FUE1NUFh2RHZDd3pzeGFOR05aU1htdWpGcHA2WHN2dUM4ZW1GZmRyWjV4aEIzbk8xNGtRWEFNSDRwTUZBM3N0bTFVYkVCTkhDbFlVZGZTR1l5NERBbUZnWF9rdFdTM2RUanZmdEd1VTFaMml1dUd0dTFXTmgwSVZxdTNySjVhM1FyeXJoWnpaSktWN0VoZC1yZFVnckdzTkpPUkczSEN0dlRSLXZKNWZKZy1xd3JjLXNLTmJvaUgyWnQ4ODFDSGpyeFotVHAtWjd2U09jdmdqUkpHYWF5UERWQVVPYXVsS0RaN2NvN2tHUnFWNGlnYnlXdWotVUttcmstZGNscHk3TEc4UVFGbU5wZGdFNUNrc2JEYnUtVzIzV1hZdGZtRXZiZHBf?oc=5",
      "published": "2026-11-10"
     }
    ],
