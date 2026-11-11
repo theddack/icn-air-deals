@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T18:16:14+09:00",
+ "generated_at": "2026-11-11T22:17:38+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1616,
+  "rss_items": 1601,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2168,
+  "outlet_items": 2033,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 7,
-  "mail_new_articles": 1,
+  "mail_new_articles": 0,
   "articles_with_summary": 48,
-  "articles": 714,
-  "new_articles": 4,
-  "deals": 128
+  "articles": 719,
+  "new_articles": 5,
+  "deals": 131
  },
  "deals": [
   {
@@ -1198,8 +1198,8 @@
    "conflicts": [],
    "evidence": {
     "sale": {
-     "title": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hNWc0TG9nWUdCTUhtenpQS1FyX0J2Y2w3bWlHR0NWS3A5VzZfaEZqTDh5akJraXdaRldIZi1DQU5hY0lvNGlnRDZPVmZyVW5CdjIydUVubTcza1d0QjlJUVMtWkZWZk5hX3NRYw?oc=5"
+     "title": "트립닷컴 할인코드 메가세일11월 14일까지 해외 항공권 호텔 특가 정리",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9KWThVNkxQSW9CSzI3bzhWV2F3VFpaQWs5am91NEkyYlR0UU9FTVYxYmJMVTNXNWV0c0wyNFU1NDFfenRsTVpV?oc=5"
     },
     "discount": {
      "title": "트립닷컴, '11.11 메가세일'…항공권 1100원·호텔 1만9000원부터",
@@ -1212,12 +1212,18 @@
    "first_published": "2026-11-09",
    "last_published": "2026-11-11",
    "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-11T13:18:13+09:00",
+   "last_seen": "2026-11-11T22:17:38+09:00",
    "articles": [
     {
      "title": "트립닷컴 11.11 메가세일, 1100원 항공권 오전 11시 시작",
      "outlet": "www.diarypoint.com",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MQmJZOFBTQy1oMDlRUm5qcF9WeFRsR3VaNHF6X3NPbkFPdHBQaUJjakN2aFNBNjN6WFQtdHF4N3BnRGZSVnJEamxTdnV0OUdlN0JWMEZNNk1NUkpXT2ppOHZDZzNIclF4X25n?oc=5",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "트립닷컴 할인코드 메가세일11월 14일까지 해외 항공권 호텔 특가 정리",
+     "outlet": "판다랭크",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9KWThVNkxQSW9CSzI3bzhWV2F3VFpaQWs5am91NEkyYlR0UU9FTVYxYmJMVTNXNWV0c0wyNFU1NDFfenRsTVpV?oc=5",
      "published": "2026-11-11"
     },
     {
@@ -6648,7 +6654,7 @@
    ],
    "agencies": [],
    "event_name": "더블데이",
-   "headline": "비엣젯항공, 11.11 '더블데이' 맞아 항공권 특가판매",
+   "headline": "비엣젯항공, 더블데이 맞아 항공권 특가 프로모션 돌입",
    "sale_start": null,
    "sale_end": null,
    "travel_start": "2026-12-01",
@@ -6673,8 +6679,14 @@
    "first_published": "2026-11-10",
    "last_published": "2026-11-11",
    "first_seen": "2026-11-10T16:44:38+09:00",
-   "last_seen": "2026-11-11T16:08:39+09:00",
+   "last_seen": "2026-11-11T22:17:38+09:00",
    "articles": [
+    {
+     "title": "비엣젯항공, 더블데이 맞아 항공권 특가 프로모션 돌입",
+     "outlet": "스페셜타임스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mWmQ3WjlPTE5lam4xOW5zcjNLdkhrMHRscG9GLThhOGRFSVNUQkxuVVRLQ2F6MmE0cGN4UHBJcE9BT3dHdFU5SnhIUXlZRzBsYkpxSENoeEU2NGhWQVJHSHdCbmJXTFQ5X2NUTWw1TXJPa00?oc=5",
+     "published": "2026-11-11"
+    },
     {
      "title": "비엣젯항공, 11.11 '더블데이' 맞아 항공권 특가판매",
      "outlet": "싱글리스트",
@@ -6686,6 +6698,57 @@
      "outlet": "인사이드비나",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12bVNfVFdXeFVEOGU0TlFsLWVfNlp6SnliUmFmU1lyVzN4Njk4VkpFMDB1Ukt1ZDBlbjJSUVJubmZSNU4yeFJESEJIdS1XVzdza3c1UFNqbHllR2ZOUlZCWk4zTWFjWjE1ZTJKQg?oc=5",
      "published": "2026-11-10"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-agoda-d580881ede",
+   "airline_id": "h-agoda",
+   "airline": "아고다",
+   "airlines_mentioned": [
+    "아고다"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.agoda.com/ko-kr/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "아고다 쿠폰 11월 마감, 도쿄 호텔 178,754원이 142,047원 된 후기",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "도쿄"
+   ],
+   "conditions": [
+    "쿠폰"
+   ],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-11T22:17:38+09:00",
+   "last_seen": "2026-11-11T22:17:38+09:00",
+   "articles": [
+    {
+     "title": "아고다 쿠폰 11월 마감, 도쿄 호텔 178,754원이 142,047원 된 후기",
+     "outlet": "판다랭크",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1lUnVtcXdZbTJTUFBDVFpDLUJTYnVxVmM3ZWxMS0EwVWl1aTJLZkJxSHB5eVVEM3RTZzB0Ny1QZVQ5RGw3anhj?oc=5",
+     "published": "2026-11-11"
     }
    ],
    "status": "undated"
@@ -6789,6 +6852,102 @@
      "title": "Save Up to 48% on Stays with Discovery Hotels' Black Friday Sale",
      "outlet": "Daily Tribune",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPalFYVEljSTB5VEhuMDdsT3NZUWN6LWFaRlN3U2RHQWo0NXdMeFplSzNlSHdOZFFJM19QVkdJZGRiSVI3SWNHanJELV91Z0FZeXZoTDNLNTN3bEdmcmotRWtuVDAyV09IU01xYWdQN2NwSExuM3NFMHE5enJ5enViUFNvTzdWUFkwQ3pDV3pwM0o1MEVXV3dDUGRDdDJfMUxOYVY0?oc=5",
+     "published": "2026-11-11"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-ed14148caa",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "해외 호텔 예약 필수 할인 쿠폰",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [
+    "쿠폰"
+   ],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-11T22:17:38+09:00",
+   "last_seen": "2026-11-11T22:17:38+09:00",
+   "articles": [
+    {
+     "title": "해외 호텔 예약 필수 할인 쿠폰",
+     "outlet": "판다랭크",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE45VG9NOU1zX0pZbEJnVHdNN0llVVV6UG1vd0hIZk02V3JSa2Y2N21keDhKMmkxck55U3JrcUpITlJmS3FQOEJr?oc=5",
+     "published": "2026-11-11"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-3308839e9b",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Luxury cruises to island resorts: the best Black Friday travel discounts",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-11T22:17:38+09:00",
+   "last_seen": "2026-11-11T22:17:38+09:00",
+   "articles": [
+    {
+     "title": "Luxury cruises to island resorts: the best Black Friday travel discounts",
+     "outlet": "The Canberra Times",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb0NNSU9SXzc0U29BS3FwWlIxZl9KeXF2Q0VNR0pfbVV0TUhRWU9idFZyQ1Z2Vi1sVC0ycTNhVmFFVjhxaVdYYmhOS3A3UmYwWmIwUkVoVlVjUUFJalVkUHBTOWxxcG9XRkZGM3dkOTczZDRVbnZOaTlxaExWOGZINHRKMGFRT2c0YUVGWmlzMVM0WmNDTDU0dmdSWVdzNnNpeFVkVkpJdVZaUkUy?oc=5",
      "published": "2026-11-11"
     }
    ],
