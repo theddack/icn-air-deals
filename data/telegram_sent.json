@@ -2368,27 +2368,6 @@
     "new": "2026-11-08"
    }
   },
-  "cebu-1fecb1cf39": {
-   "info": {
-    "airline": "cebu",
-    "name": "1111특가",
-    "sale_start": "2026-11-08",
-    "sale_end": "2026-11-12",
-    "dests": [
-     "필리핀"
-    ],
-    "last": "2026-11-08",
-    "urls": [
-     "1fecb1cf39",
-     "22d6aa1f34",
-     "37ad79803b"
-    ]
-   },
-   "kinds": {
-    "start_today": "2026-11-08",
-    "new": "2026-11-08"
-   }
-  },
   "h-other-69c7f1a6e8": {
    "info": {
     "airline": "h-other",
@@ -2443,24 +2422,6 @@
     "upcoming_d3": "2026-11-06",
     "upcoming_d1": "2026-11-08",
     "start_today": "2026-11-09"
-   }
-  },
-  "cebu-e47dfd035f": {
-   "info": {
-    "airline": "cebu",
-    "name": "",
-    "sale_start": "2026-11-08",
-    "sale_end": "2026-11-12",
-    "dests": [
-     "필리핀"
-    ],
-    "last": "2026-11-08",
-    "urls": [
-     "e47dfd035f"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-09"
    }
   },
   "h-lotte-5b4b00fecb": {
@@ -2685,27 +2646,6 @@
     "new": "2026-11-10"
    }
   },
-  "cathay-cb6cb9b76c": {
-   "info": {
-    "airline": "cathay",
-    "name": "블랙프라이데이",
-    "sale_start": null,
-    "sale_end": "2026-11-30",
-    "dests": [],
-    "last": "2026-11-10",
-    "urls": [
-     "134633fae8",
-     "4e84737c96",
-     "af746d709d",
-     "cb6cb9b76c",
-     "d33be5ec86",
-     "ef8f6c1886"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-10"
-   }
-  },
   "airseoul-54dc806c4a": {
    "info": {
     "airline": "airseoul",
@@ -2891,6 +2831,102 @@
    "kinds": {
     "new": "2026-11-11"
    }
+  },
+  "cathay-dc2fff104a": {
+   "info": {
+    "airline": "cathay",
+    "name": "블랙프라이데이",
+    "sale_start": null,
+    "sale_end": "2026-11-30",
+    "dests": [],
+    "last": "2026-11-10",
+    "urls": [
+     "134633fae8",
+     "4e84737c96",
+     "af746d709d",
+     "cb6cb9b76c",
+     "d33be5ec86",
+     "dc2fff104a",
+     "ef8f6c1886"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-10"
+   }
+  },
+  "cebu-1fecb1cf39": {
+   "info": {
+    "airline": "cebu",
+    "name": "1111특가",
+    "sale_start": "2026-11-08",
+    "sale_end": "2026-11-12",
+    "dests": [
+     "필리핀"
+    ],
+    "last": "2026-11-08",
+    "urls": [
+     "1fecb1cf39",
+     "22d6aa1f34",
+     "37ad79803b"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-08",
+    "new": "2026-11-08",
+    "closing_tomorrow": "2026-11-11"
+   }
+  },
+  "cebu-e47dfd035f": {
+   "info": {
+    "airline": "cebu",
+    "name": "",
+    "sale_start": "2026-11-08",
+    "sale_end": "2026-11-12",
+    "dests": [
+     "필리핀"
+    ],
+    "last": "2026-11-09",
+    "urls": [
+     "45d30f50c7",
+     "e47dfd035f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09",
+    "closing_tomorrow": "2026-11-11"
+   }
+  },
+  "h-other-4fa58ef802": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-11",
+    "urls": [
+     "4fa58ef802"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-11"
+   }
+  },
+  "h-other-4862885d76": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-11",
+    "urls": [
+     "4862885d76"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-11"
+   }
   }
  },
  "slots": {
@@ -2924,10 +2960,11 @@
    "evening": "sent"
   },
   "2026-11-11": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-11T13:23:37+09:00",
+ "saved_at": "2026-11-11T18:21:01+09:00",
  "drops_day": "2026-11-11",
  "drops": {
   "BKK": {
