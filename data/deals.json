@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T16:08:39+09:00",
+ "generated_at": "2026-11-11T18:16:14+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1668,
+  "rss_items": 1616,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2147,
+  "outlet_items": 2168,
   "outlet_new_articles": 0,
-  "outlet_enriched": 1,
-  "mail_articles": 6,
-  "mail_new_articles": 0,
-  "articles_with_summary": 47,
-  "articles": 710,
+  "outlet_enriched": 0,
+  "mail_articles": 7,
+  "mail_new_articles": 1,
+  "articles_with_summary": 48,
+  "articles": 714,
   "new_articles": 4,
-  "deals": 127
+  "deals": 128
  },
  "deals": [
   {
@@ -2184,7 +2184,7 @@
    "status": "live"
   },
   {
-   "id": "cathay-cb6cb9b76c",
+   "id": "cathay-dc2fff104a",
    "airline_id": "cathay",
    "airline": "캐세이퍼시픽",
    "airlines_mentioned": [
@@ -2227,10 +2227,10 @@
    "from_icn": "unknown",
    "discount": "7% 할인",
    "verification": "news",
-   "first_published": "2026-11-10",
+   "first_published": "2026-11-09",
    "last_published": "2026-11-10",
    "first_seen": "2026-11-10T13:18:19+09:00",
-   "last_seen": "2026-11-10T16:44:38+09:00",
+   "last_seen": "2026-11-11T18:16:14+09:00",
    "articles": [
     {
      "title": "캐세이퍼시픽항공, 블랙프라이데이 맞아 전 노선 항공권 7% 할인",
@@ -2267,6 +2267,12 @@
      "outlet": "비즈엔터",
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RUkJQZjBzb0czLWVObUZOalZMNWcyb0pxQXduSmxiRDdET1RqZ3BtX25YTU43MU5UUEI5QWJfanJaRHdUNmt0d1Y4aUNTQWlRN0tibHJR?oc=5",
      "published": "2026-11-10"
+    },
+    {
+     "title": "캐세이퍼시픽항공, 전 노선 할인+보너스 마일 블랙프라이데이 프로모션 개시",
+     "outlet": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fYzZPSk5rUGtRcjdRNzg4N2dzcW0wWjAtT1pFdDkxSU5DdHhHX2k2aHRmOGRBODZVbTRuSllEQmx0R2hIN1FPSG9xN2JXMGJ6bWk1eks4TEtLSXc3VU05RFh1ZzM4QkY4WHFzM0hR?oc=5",
+     "published": "2026-11-09"
     }
    ],
    "status": "live"
@@ -2442,7 +2448,7 @@
    "first_published": "2026-11-11",
    "last_published": "2026-11-11",
    "first_seen": "2026-11-11T09:14:04+09:00",
-   "last_seen": "2026-11-11T13:18:13+09:00",
+   "last_seen": "2026-11-11T18:16:14+09:00",
    "articles": [
     {
      "title": "여기어때 거제·통영 숙박 최대 9만원 할인…12월 13일까지 특별재난지역 여행 지원",
@@ -2451,9 +2457,21 @@
      "published": "2026-11-11"
     },
     {
+     "title": "여기어때, 거제·통영 숙박 최대 9만원 할인···수해 지역 관광 활성화",
+     "outlet": "스마트비즈",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSb1hhWGhkaHNPOHQtUUNQNDBzVWpEaHVDZFl0U2FWNUZCU2RWb0FWMjZfLXMwSFdyaFJwNVBPNlVaXzJRZ3BmcU1aNEFqc2NUdUM1aG03RHJ6QWdUQ1JYYjNCWms2N3R6N0NEQg?oc=5",
+     "published": "2026-11-11"
+    },
+    {
      "title": "여기어때 거제·통영 숙박 최대 9만원 할인 쿠폰 푼다",
      "outlet": "ER 이코노믹리뷰",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84ZWdadDE2SmUySWlXM2FLWl9KMGtoMDh1eTk1WVRVMC03OWU0NlptcHpfTzI1UEdKQ2hZVkV3TkJOOE95bTdYLWRrbXQyY3A3dGtMTV9GTVFIazBOWUt5LUlVM3JVNkJsWnZ5Qg?oc=5",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "여기어때, 거제·통영 관광 회복 지원…숙박비 최대 9만원 할인",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5LUzZRVVRwNlZrbGtoWW83eEFGVDRlN09lQWVfbnU5Q0p5akxmQkRQUDdURnJBeUZ1U19XRkZlMG10ekpwdjlkYlNONUdLSEp0eUdmRHFUZGoxY0hmSUlRZkVJUkFyQ1M3VEFZ0gFvQVVfeXFMTUFGbUFMdkRIWXFwNHJGb2VneVMxVG44VUZTSG9CdmVwVFZDaHhxZ3F5T1lFdTF5S1RPQV9zWkVFdzZyQ0FuYlJNYzlfYTFuSWtMei05WDRxa3VZVzlLbHhCWVJkOUxtb1kzNXNYS2Rj?oc=5",
      "published": "2026-11-11"
     },
     {
@@ -6540,6 +6558,69 @@
      "outlet": "Las Vegas Review-Journal",
      "url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxOam8zSlJCS2o3NUYwVUdfMER6V0sxRzduZF9zX3M5TjRpTXNHb18tMy1kMzZ0NkR0U2dNd05vSW9fQ3c0NzhBamZpUUdzZjFzbU1BaGxCb2hkUkJtVmFCc192c1lBSWlMMmlTRFBYeFZ4Y19RbHRzV0p2Q3lublQ1Wl85NE1hUFotRGs0VWJzVDdjTnhlM040bE5NOVE0ajdXX3pHSm53WGZXb1A0bG1NbFoxSk9FUE1NUFh2RHZDd3pzeGFOR05aU1htdWpGcHA2WHN2dUM4ZW1GZmRyWjV4aEIzbk8xNGtRWEFNSDRwTUZBM3N0bTFVYkVCTkhDbFlVZGZTR1l5NERBbUZnWF9rdFdTM2RUanZmdEd1VTFaMml1dUd0dTFXTmgwSVZxdTNySjVhM1FyeXJoWnpaSktWN0VoZC1yZFVnckdzTkpPUkczSEN0dlRSLXZKNWZKZy1xd3JjLXNLTmJvaUgyWnQ4ODFDSGpyeFotVHAtWjd2U09jdmdqUkpHYWF5UERWQVVPYXVsS0RaN2NvN2tHUnFWNGlnYnlXdWotVUttcmstZGNscHk3TEc4UVFGbU5wZGdFNUNrc2JEYnUtVzIzV1hZdGZtRXZiZHBf?oc=5",
      "published": "2026-11-10"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "airbusan-051e225603",
+   "airline_id": "airbusan",
+   "airline": "에어부산",
+   "airlines_mentioned": [
+    "에어부산"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airbusan.com/",
+   "iata": [
+    "BX"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "부산(PUS)",
+     "destination": "괌(GUM)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
+     "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf"
+    },
+    "route": {
+     "title": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
+     "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf"
+    }
+   },
+   "from_icn": "no",
+   "discount": "최대 14만원 할인",
+   "verification": "official",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-11T18:16:08+09:00",
+   "last_seen": "2026-11-11T18:16:08+09:00",
+   "articles": [
+    {
+     "title": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
+     "outlet": "에어부산 메일",
+     "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf",
+     "published": "2026-11-11"
     }
    ],
    "status": "undated"

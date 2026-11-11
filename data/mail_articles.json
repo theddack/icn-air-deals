@@ -1,5 +1,31 @@
 [
  {
+  "title": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
+  "outlet": "에어부산 메일",
+  "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf",
+  "published": "2026-11-11",
+  "first_seen": "2026-11-11T18:16:08+09:00",
+  "source": "mail",
+  "mail_id": "46ca5b6dbea88bbf",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf",
+   "outlet": "에어부산 메일",
+   "label": "본문",
+   "fields": {
+    "discount": "최대 14만원 할인",
+    "origin": "부산(PUS)",
+    "destination": "괌(GUM)"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
+ },
+ {
   "title": "제주항공 💌부산 출발 신규 노선과 일본 프로모션 소식 도착💌",
   "outlet": "제주항공 메일",
   "url": "https://www.jejuair.net/#mail-a20b8067fd6a88a6",

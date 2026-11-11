@@ -5705,5 +5705,52 @@
   "published": "2026-11-11",
   "first_seen": "2026-11-11T16:08:39+09:00",
   "lang": "en"
+ },
+ {
+  "title": "캐세이퍼시픽항공, 전 노선 할인+보너스 마일 블랙프라이데이 프로모션 개시",
+  "outlet": "국제뉴스",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fYzZPSk5rUGtRcjdRNzg4N2dzcW0wWjAtT1pFdDkxSU5DdHhHX2k2aHRmOGRBODZVbTRuSllEQmx0R2hIN1FPSG9xN2JXMGJ6bWk1eks4TEtLSXc3VU05RFh1ZzM4QkY4WHFzM0hR?oc=5",
+  "published": "2026-11-09",
+  "first_seen": "2026-11-11T18:16:14+09:00"
+ },
+ {
+  "title": "여기어때, 거제·통영 숙박 최대 9만원 할인···수해 지역 관광 활성화",
+  "outlet": "스마트비즈",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSb1hhWGhkaHNPOHQtUUNQNDBzVWpEaHVDZFl0U2FWNUZCU2RWb0FWMjZfLXMwSFdyaFJwNVBPNlVaXzJRZ3BmcU1aNEFqc2NUdUM1aG03RHJ6QWdUQ1JYYjNCWms2N3R6N0NEQg?oc=5",
+  "published": "2026-11-11",
+  "first_seen": "2026-11-11T18:16:14+09:00"
+ },
+ {
+  "title": "여기어때, 거제·통영 관광 회복 지원…숙박비 최대 9만원 할인",
+  "outlet": "한스경제",
+  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5LUzZRVVRwNlZrbGtoWW83eEFGVDRlN09lQWVfbnU5Q0p5akxmQkRQUDdURnJBeUZ1U19XRkZlMG10ekpwdjlkYlNONUdLSEp0eUdmRHFUZGoxY0hmSUlRZkVJUkFyQ1M3VEFZ0gFvQVVfeXFMTUFGbUFMdkRIWXFwNHJGb2VneVMxVG44VUZTSG9CdmVwVFZDaHhxZ3F5T1lFdTF5S1RPQV9zWkVFdzZyQ0FuYlJNYzlfYTFuSWtMei05WDRxa3VZVzlLbHhCWVJkOUxtb1kzNXNYS2Rj?oc=5",
+  "published": "2026-11-11",
+  "first_seen": "2026-11-11T18:16:14+09:00"
+ },
+ {
+  "title": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
+  "outlet": "에어부산 메일",
+  "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf",
+  "published": "2026-11-11",
+  "first_seen": "2026-11-11T18:16:08+09:00",
+  "source": "mail",
+  "mail_id": "46ca5b6dbea88bbf",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf",
+   "outlet": "에어부산 메일",
+   "label": "본문",
+   "fields": {
+    "discount": "최대 14만원 할인",
+    "origin": "부산(PUS)",
+    "destination": "괌(GUM)"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
  }
 ]
