@@ -114,6 +114,13 @@
    "sale_start": "2026-11-14",
    "sale_end": "2026-11-29"
   },
+  "h-marriott|2026-11-29|marriottscyberweeksaleof": {
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "name": "Marriott’s Cyber Week Sale Offers 25% Off Stays Through May ",
+   "sale_start": "2026-11-29",
+   "sale_end": "2027-05-02"
+  },
   "h-shilla|2026-11-06|블랙프라이데이": {
    "airline_id": "h-shilla",
    "airline": "신라호텔",
@@ -127,6 +134,13 @@
    "name": "11.11 쇼핑데이",
    "sale_start": "2026-11-01",
    "sale_end": "2026-11-11"
+  },
+  "h-stayfesta|2026-09-22|대한민국숙박세일페스타가을편": {
+   "airline_id": "h-stayfesta",
+   "airline": "숙박세일 페스타",
+   "name": "대한민국 숙박세일 페스타 가을편",
+   "sale_start": "2026-09-22",
+   "sale_end": "2026-11-08"
   },
   "h-stayfesta|2026-09-22|숙박세일페스타": {
    "airline_id": "h-stayfesta",
@@ -205,6 +219,13 @@
    "airline_id": "trinity",
    "airline": "트리니티항공",
    "name": "트리니티항공, 수능 할인 프로모션..동반 1인까지 최대 25%",
+   "sale_start": "2026-11-12",
+   "sale_end": "2027-01-31"
+  },
+  "trinity|2026-11-12|할인프로모션": {
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "name": "할인 프로모션",
    "sale_start": "2026-11-12",
    "sale_end": "2027-01-31"
   }
