@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T02:27:41+09:00",
+ "generated_at": "2026-11-12T09:14:07+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1602,
+  "rss_items": 1616,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1887,
+  "outlet_items": 2044,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_enriched": 1,
   "mail_articles": 7,
   "mail_new_articles": 0,
-  "articles_with_summary": 48,
-  "articles": 718,
-  "new_articles": 0,
-  "deals": 127
+  "articles_with_summary": 49,
+  "articles": 719,
+  "new_articles": 1,
+  "deals": 128
  },
  "deals": [
   {
@@ -2423,6 +2423,66 @@
      "outlet": "공감신문",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LWjA0ZEVWdmRkYTNwcEN5ajloU2g1M1VKVHVuU2FLM0tkbnlCWldKTnY5N0N3RUxNRkEwdGlVcjNaNU96RldmdE4tNkZ4UHVlQldHSVN1Rm5ad2NTbXJLMmgwNUo0TU0?oc=5",
      "published": "2026-11-11"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-hoshino-de9a26ace6",
+   "airline_id": "h-hoshino",
+   "airline": "호시노리조트",
+   "airlines_mentioned": [
+    "호시노리조트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어서울, ‘호시노 리조트 리조나레 괌’ 연박시 50% 할인",
+   "sale_start": null,
+   "sale_end": "2027-03-27",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "괌"
+   ],
+   "conditions": [
+    "연박"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "싱글리스트 요약문: …호시노 리조트 리조나레 괌’과 단독 제휴를 맺고 탑승객 대상 특별 프로모션을 내년 3월 27일까지 진행한다.…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=781022"
+    },
+    "discount": {
+     "title": "에어서울, ‘호시노 리조트 리조나레 괌’ 연박시 50% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93VXdiQWlCbGVhNWtUVDl2M295Rmo0Y0I3VmltY2tQTlE2RHgzOXFQZHhUNW9DNnJTVjV2RkV2ZURLUDhEeTc3RVZCQnB3U2F4Vkd2WHhiUzNrb3FaZ2ttR1JENk1LUQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "50% 할인",
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-12T09:14:07+09:00",
+   "last_seen": "2026-11-12T09:14:07+09:00",
+   "articles": [
+    {
+     "title": "에어서울, ‘호시노 리조트 리조나레 괌’ 연박시 50% 할인",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93VXdiQWlCbGVhNWtUVDl2M295Rmo0Y0I3VmltY2tQTlE2RHgzOXFQZHhUNW9DNnJTVjV2RkV2ZURLUDhEeTc3RVZCQnB3U2F4Vkd2WHhiUzNrb3FaZ2ttR1JENk1LUQ?oc=5",
+     "published": "2026-11-12"
     }
    ],
    "status": "live"

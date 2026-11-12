@@ -5780,5 +5780,25 @@
   "published": "2026-11-11",
   "first_seen": "2026-11-11T22:17:38+09:00",
   "lang": "en"
+ },
+ {
+  "title": "에어서울, ‘호시노 리조트 리조나레 괌’ 연박시 50% 할인",
+  "outlet": "싱글리스트",
+  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93VXdiQWlCbGVhNWtUVDl2M295Rmo0Y0I3VmltY2tQTlE2RHgzOXFQZHhUNW9DNnJTVjV2RkV2ZURLUDhEeTc3RVZCQnB3U2F4Vkd2WHhiUzNrb3FaZ2ttR1JENk1LUQ?oc=5",
+  "published": "2026-11-12",
+  "first_seen": "2026-11-12T09:14:07+09:00",
+  "summary_facts": {
+   "url": "https://www.slist.kr/news/articleView.html?idxno=781022",
+   "outlet": "싱글리스트",
+   "fields": {
+    "sale_start": null,
+    "sale_end": "2027-03-27",
+    "discount": "50% 할인"
+   },
+   "evidence": {
+    "sale": "…호시노 리조트 리조나레 괌’과 단독 제휴를 맺고 탑승객 대상 특별 프로모션을 내년 3월 27일까지 진행한다.…",
+    "discount": "에어서울 탑승객은 프로모션 기간 동안 객실에 2박 이상 투숙 시 50% 할인된 가격에 이용할 수 있다."
+   }
+  }
  }
 ]
