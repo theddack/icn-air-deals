@@ -2510,49 +2510,6 @@
     "new": "2026-11-09"
    }
   },
-  "h-stayfesta-9320ecd5d8": {
-   "info": {
-    "airline": "h-stayfesta",
-    "name": "숙박세일페스타",
-    "sale_start": "2026-09-22",
-    "sale_end": "2026-11-08",
-    "dests": [],
-    "last": "2026-10-24",
-    "urls": [
-     "0164aef066",
-     "024cedd8b5",
-     "0badc13143",
-     "0cc26f64f4",
-     "12f663d1b4",
-     "381955d876",
-     "52ec7f2bfd",
-     "6370b8d9df",
-     "69397efdfc",
-     "6f4dd558d7",
-     "815a41ffeb",
-     "818a0515ba",
-     "81bceaf06d",
-     "90f45594f7",
-     "9320ecd5d8",
-     "aa7cd9edcc",
-     "b2f36cdefd",
-     "beae54f530",
-     "c2a2d2f1c5",
-     "c9d70489d9",
-     "da2256b0d7",
-     "dbb5775c40",
-     "e09efb5ce3",
-     "e92f31b2a0",
-     "eb1bae473c",
-     "f4e69f6895"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26",
-    "closing_tomorrow": "2026-11-07",
-    "closing_today": "2026-11-08"
-   }
-  },
   "h-nol-1e9fe6f8f0": {
    "info": {
     "airline": "h-nol",
@@ -3102,6 +3059,36 @@
    "kinds": {
     "new": "2026-11-12"
    }
+  },
+  "h-stayfesta-818a0515ba": {
+   "info": {
+    "airline": "h-stayfesta",
+    "name": "대한민국숙박세일페스타가을편",
+    "sale_start": "2026-09-22",
+    "sale_end": "2026-11-08",
+    "dests": [],
+    "last": "2026-10-24",
+    "urls": [
+     "024cedd8b5",
+     "0badc13143",
+     "0cc26f64f4",
+     "12f663d1b4",
+     "381955d876",
+     "815a41ffeb",
+     "818a0515ba",
+     "81bceaf06d",
+     "90f45594f7",
+     "beae54f530",
+     "c2a2d2f1c5",
+     "da2256b0d7",
+     "f4e69f6895"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26",
+    "closing_tomorrow": "2026-11-07",
+    "closing_today": "2026-11-08"
+   }
   }
  },
  "slots": {
@@ -3138,7 +3125,7 @@
    "evening": "sent"
   }
  },
- "saved_at": "2026-11-12T18:21:00+09:00",
+ "saved_at": "2026-11-13T02:50:12+09:00",
  "drops_day": "2026-11-12",
  "drops": {
   "BKK": {
