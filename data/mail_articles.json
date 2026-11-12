@@ -1,5 +1,30 @@
 [
  {
+  "title": "스쿠트항공 올빼미 여행자라면, 싱가포르의 밤이 기다려요. 항공권 145,000원*부터",
+  "outlet": "스쿠트항공 메일",
+  "url": "https://www.flyscoot.com/ko#mail-9a0379213794f101",
+  "published": "2026-11-12",
+  "first_seen": "2026-11-12T16:43:43+09:00",
+  "source": "mail",
+  "mail_id": "9a0379213794f101",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.flyscoot.com/ko#mail-9a0379213794f101",
+   "outlet": "스쿠트항공 메일",
+   "label": "본문",
+   "fields": {
+    "origin": null,
+    "destination": "싱가포르(SIN)"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
+ },
+ {
   "title": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
   "outlet": "에어부산 메일",
   "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf",

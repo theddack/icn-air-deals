@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T13:18:14+09:00",
+ "generated_at": "2026-11-12T16:43:47+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1644,
+  "rss_items": 1698,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2189,
+  "outlet_items": 2197,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
-  "mail_articles": 7,
-  "mail_new_articles": 0,
-  "articles_with_summary": 49,
-  "articles": 730,
-  "new_articles": 11,
-  "deals": 130
+  "outlet_enriched": 2,
+  "mail_articles": 8,
+  "mail_new_articles": 1,
+  "articles_with_summary": 52,
+  "articles": 738,
+  "new_articles": 8,
+  "deals": 135
  },
  "deals": [
   {
@@ -1205,6 +1205,138 @@
      "outlet": "브레이크뉴스",
      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBmb0lTMlFSTEV6UnBqUW1OdWxTNkloQjBiX1Z1YzlORVNOVDk1TWVpZHpqOGl0QmZWUl9YamFuODE2Zw?oc=5",
      "published": "2026-11-09"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "trinity-86641eb932",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "\"수능 끝나고 어디 갈까?\" 트리니티항공, 수험생 항공권 할인",
+   "sale_start": "2026-11-12",
+   "sale_end": "2027-01-31",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "ER 이코노믹리뷰 요약문: 예약은 11월 12일부터 2027년 1월 31일까지 트리니",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=757008"
+    },
+    "discount": {
+     "title": "ER 이코노믹리뷰 요약문: 국내선은 25% 할인되며 국제선도 목적지에 따라 최대 20%까지 할인 혜택을 받을 수 있다.",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=757008"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-12T16:43:47+09:00",
+   "last_seen": "2026-11-12T16:43:47+09:00",
+   "articles": [
+    {
+     "title": "\"수능 끝나고 어디 갈까?\" 트리니티항공, 수험생 항공권 할인",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2a2taUzMxc0xjNUM0R2QxbWRRNE9JU0YybmlKY0UwSWdKUkNfVVdNS21xaWxSUVBRVTFjR0o4NERDVjhHRDJaX1ozOFZ4dnJ6VDlRNmk3cVdMdkhDNEs5dGpfZkZndUdxaXVvMQ?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "트리니티항공, 수험생 항공권 할인…국내선 25%·국제선 최대 20%",
+     "outlet": "컨슈머타임스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54My1COWZRU2tEcDU3MnJLbDRMeG8td1F4MHBlYm9VR1BXczlOUVFPdzVfTzNPSVI4Q2lzTlhIVEF2NHZoRDREWllEaENmSl9zT2JhNVlfaWRRNng4anpvSUhvY2VkWjd5N1E?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "트리니티항공, 수능 프로모션…국제선 최대 20% 할인",
+     "outlet": "아이뉴스24",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1TWFYzVnI3THlOT2RIdzBaTWdGbEpUM29hVUUyNmFwQzZ5cE04Yml1ZEFVYUlaaEdvbER6SkJRTW9iM3JBSF9yeFphVTQ?oc=5",
+     "published": "2026-11-12"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "trinity-7d49ad0a5e",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "트리니티항공, 수능 할인 프로모션..동반 1인까지 최대 25%",
+   "sale_start": "2026-11-12",
+   "sale_end": "2027-01-31",
+   "travel_start": "2026-11-20",
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "싱글리스트 요약문: …험생을 위한 할인 프로모션을 12일부터 내년 1월 31일까지 트리니티항공 공식 홈페이지 및 앱에서 진행된다.…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=781153"
+    },
+    "travel": {
+     "title": "싱글리스트 요약문: 탑승 가능 기간은 11월 20일부터 2027년 2월",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=781153"
+    },
+    "discount": {
+     "title": "트리니티항공, 수능 할인 프로모션..동반 1인까지 최대 25%",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9YOEp0U3htalh5YXpuVUlOclB0dnBmZ1haZnNXNmFFanc1T0Z5SVpWVWdGcUQwaHVCYWpGZWx4SzlDZnI2aWl5RkppcEZLa3BZcW1PUmtNUlpQZ0p6U3lyNkZVcWhtQQ?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-12T16:43:47+09:00",
+   "last_seen": "2026-11-12T16:43:47+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공, 수능 할인 프로모션..동반 1인까지 최대 25%",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9YOEp0U3htalh5YXpuVUlOclB0dnBmZ1haZnNXNmFFanc1T0Z5SVpWVWdGcUQwaHVCYWpGZWx4SzlDZnI2aWl5RkppcEZLa3BZcW1PUmtNUlpQZ0p6U3lyNkZVcWhtQQ?oc=5",
+     "published": "2026-11-12"
     }
    ],
    "status": "live"
@@ -2459,7 +2591,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "2박 이상 반값 할인",
-   "headline": "에어서울, ‘호시노 리조트 리조나레 괌’ 연박시 50% 할인",
+   "headline": "에어서울, 호시노 리조트 리조나레 괌과 단독 제휴…객실 50% 할인",
    "sale_start": null,
    "sale_end": "2027-03-27",
    "travel_start": null,
@@ -2478,8 +2610,8 @@
      "url": "https://www.slist.kr/news/articleView.html?idxno=781022"
     },
     "discount": {
-     "title": "에어서울, ‘호시노 리조트 리조나레 괌’ 연박시 50% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93VXdiQWlCbGVhNWtUVDl2M295Rmo0Y0I3VmltY2tQTlE2RHgzOXFQZHhUNW9DNnJTVjV2RkV2ZURLUDhEeTc3RVZCQnB3U2F4Vkd2WHhiUzNrb3FaZ2ttR1JENk1LUQ?oc=5"
+     "title": "에어서울, 호시노 리조트 리조나레 괌과 단독 제휴…객실 50% 할인",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrU1c0VWpPaEtZRW00T0oyRWN1VlZXRTlKM2VaY1RwZVFyNTBJMUVZWUJVeEk4Q0ZHT1lHYVZlb3RtOWsyUFp5MUhkV21IeFdTOTYwNWROQkgxXzBoS0UzRGNuVHdIOVhhMXhUbA?oc=5"
     }
    },
    "from_icn": null,
@@ -2488,8 +2620,14 @@
    "first_published": "2026-11-12",
    "last_published": "2026-11-12",
    "first_seen": "2026-11-12T09:14:07+09:00",
-   "last_seen": "2026-11-12T13:18:14+09:00",
+   "last_seen": "2026-11-12T16:43:47+09:00",
    "articles": [
+    {
+     "title": "에어서울, 호시노 리조트 리조나레 괌과 단독 제휴…객실 50% 할인",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrU1c0VWpPaEtZRW00T0oyRWN1VlZXRTlKM2VaY1RwZVFyNTBJMUVZWUJVeEk4Q0ZHT1lHYVZlb3RtOWsyUFp5MUhkV21IeFdTOTYwNWROQkgxXzBoS0UzRGNuVHdIOVhhMXhUbA?oc=5",
+     "published": "2026-11-12"
+    },
     {
      "title": "에어서울, ‘호시노 리조트 리조나레 괌’ 연박시 50% 할인",
      "outlet": "싱글리스트",
@@ -6489,6 +6627,60 @@
    "status": "undated"
   },
   {
+   "id": "trinity-d7ad017391",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "domestic",
+   "route": "domestic",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "domestic",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[항공 뉴스브리핑] 트리니티항공, 수능 수험생 국내선 25% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "[항공 뉴스브리핑] 트리니티항공, 수능 수험생 국내선 25% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OUFJaaVh6VVhfcUFvZDM4ZDgzUUl0dHQzeXItdExQOWtyMWNTN191Y0ZZc0JpeVJKUFA3cUFtZjkyeGc4VndGdjlzRUQyUE5lQVdmZDJsTUk4NU9xSkE?oc=5"
+    }
+   },
+   "from_icn": "no",
+   "discount": "25% 할인",
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-12T16:43:47+09:00",
+   "last_seen": "2026-11-12T16:43:47+09:00",
+   "articles": [
+    {
+     "title": "[항공 뉴스브리핑] 트리니티항공, 수능 수험생 국내선 25% 할인",
+     "outlet": "아시아타임즈",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OUFJaaVh6VVhfcUFvZDM4ZDgzUUl0dHQzeXItdExQOWtyMWNTN191Y0ZZc0JpeVJKUFA3cUFtZjkyeGc4VndGdjlzRUQyUE5lQVdmZDJsTUk4NU9xSkE?oc=5",
+     "published": "2026-11-12"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "vietjet-e2a95f25e8",
    "airline_id": "vietjet",
    "airline": "비엣젯항공",
@@ -6647,6 +6839,128 @@
      "title": "호텔신라·대한항공, 국제선 승객에 최대 20% 호텔 할인…“차별화된 여행 경험 선사”",
      "outlet": "뉴스로드",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSZHRlUXdJZjFKaGk1Z1RubUZIQXRkTXVueXc1WHVQcUpKX0Zlb0w3NmRZaTdTU2RuNElPMktMbTh0bzY3S05LdjZfdDAzMEtjaV9INUhmQWJMZ1RVVS0tcmtKTEo5TWlqRnkw0gFvQVVfeXFMTlVLV0IxRFlOQWVQcGw3ZUw3MDdHSVM4a01VeUVPcXAtM2xTTlJKXzlhQW1tNGxQNzBDUmViLXRSYjIyZ0x1WWlWMUhKMWdWeVA1bTk0UVQ0bUVHbmFGRkFGZW5KdzBOcGNSNkNSTFBN?oc=5",
+     "published": "2026-11-12"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "hkexpress-1cad2b792c",
+   "airline_id": "hkexpress",
+   "airline": "홍콩익스프레스",
+   "airlines_mentioned": [
+    "홍콩익스프레스"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.hkexpress.com/ko-kr/",
+   "iata": [
+    "UO"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "홍콩익스프레스, 기간한정 특가…부산~홍콩 편도 8만 8600원부터",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "부산(PUS)",
+     "destination": "홍콩(HKG)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "홍콩익스프레스, 기간한정 특가…부산~홍콩 편도 8만 8600원부터",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aZGJPVHJTOHdEc3Z4QjFoQWtDWWd5S21pU2dSUG9SZlFIWWppZkVhdV9MNEZTQjdfMVJYbkdwb21OaVZDYmkyNEFaalRpMmZzcWpUdnl3TkJzUUZVZkcwYnFhWGJGb0R2Rmw2RE9fWnF6dG1n?oc=5"
+    },
+    "route": {
+     "title": "홍콩익스프레스, 기간한정 특가…부산~홍콩 편도 8만 8600원부터",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aZGJPVHJTOHdEc3Z4QjFoQWtDWWd5S21pU2dSUG9SZlFIWWppZkVhdV9MNEZTQjdfMVJYbkdwb21OaVZDYmkyNEFaalRpMmZzcWpUdnl3TkJzUUZVZkcwYnFhWGJGb0R2Rmw2RE9fWnF6dG1n?oc=5"
+    }
+   },
+   "from_icn": "no",
+   "discount": "8만8600원부터",
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-12T16:43:47+09:00",
+   "last_seen": "2026-11-12T16:43:47+09:00",
+   "articles": [
+    {
+     "title": "홍콩익스프레스, 기간한정 특가…부산~홍콩 편도 8만 8600원부터",
+     "outlet": "부산일보",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aZGJPVHJTOHdEc3Z4QjFoQWtDWWd5S21pU2dSUG9SZlFIWWppZkVhdV9MNEZTQjdfMVJYbkdwb21OaVZDYmkyNEFaalRpMmZzcWpUdnl3TkJzUUZVZkcwYnFhWGJGb0R2Rmw2RE9fWnF6dG1n?oc=5",
+     "published": "2026-11-12"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "scoot-11495b581d",
+   "airline_id": "scoot",
+   "airline": "스쿠트항공",
+   "airlines_mentioned": [
+    "스쿠트항공"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.flyscoot.com/ko",
+   "iata": [
+    "TR"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "스쿠트항공 올빼미 여행자라면, 싱가포르의 밤이 기다려요. 항공권 145,000원*부터",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "싱가포르(SIN)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "route": {
+     "title": "스쿠트항공 메일 본문",
+     "url": "https://www.flyscoot.com/ko#mail-9a0379213794f101"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "official",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-12T16:43:43+09:00",
+   "last_seen": "2026-11-12T16:43:43+09:00",
+   "articles": [
+    {
+     "title": "스쿠트항공 올빼미 여행자라면, 싱가포르의 밤이 기다려요. 항공권 145,000원*부터",
+     "outlet": "스쿠트항공 메일",
+     "url": "https://www.flyscoot.com/ko#mail-9a0379213794f101",
      "published": "2026-11-12"
     }
    ],

@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-11-12T13:18:11+09:00",
+ "checked_at": "2026-11-12T16:43:43+09:00",
  "days": 21,
- "searched": 30,
- "sender:스쿠트항공": 3,
- "checked": 30,
+ "searched": 31,
+ "sender:스쿠트항공": 4,
+ "checked": 31,
  "no_facts": 16,
  "no_facts:스쿠트항공": 2,
  "sender:카약": 3,
@@ -14,7 +14,7 @@
  "sender:트립닷컴": 4,
  "transactional_hit:본문:가입 완료:트립닷컴": 1,
  "transactional:트립닷컴": 2,
- "accepted": 7,
+ "accepted": 8,
  "accepted:트립닷컴": 1,
  "sender:하나투어": 1,
  "transactional_hit:제목:환영합니다:하나투어": 1,
@@ -43,5 +43,6 @@
  "not_sale:스쿠트항공": 1,
  "sender:핀에어": 1,
  "no_facts:핀에어": 1,
- "kept": 7
+ "accepted:스쿠트항공": 1,
+ "kept": 8
 }
