@@ -2854,48 +2854,6 @@
     "new": "2026-11-10"
    }
   },
-  "cebu-1fecb1cf39": {
-   "info": {
-    "airline": "cebu",
-    "name": "1111특가",
-    "sale_start": "2026-11-08",
-    "sale_end": "2026-11-12",
-    "dests": [
-     "필리핀"
-    ],
-    "last": "2026-11-08",
-    "urls": [
-     "1fecb1cf39",
-     "22d6aa1f34",
-     "37ad79803b"
-    ]
-   },
-   "kinds": {
-    "start_today": "2026-11-08",
-    "new": "2026-11-08",
-    "closing_tomorrow": "2026-11-11"
-   }
-  },
-  "cebu-e47dfd035f": {
-   "info": {
-    "airline": "cebu",
-    "name": "",
-    "sale_start": "2026-11-08",
-    "sale_end": "2026-11-12",
-    "dests": [
-     "필리핀"
-    ],
-    "last": "2026-11-09",
-    "urls": [
-     "45d30f50c7",
-     "e47dfd035f"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-09",
-    "closing_tomorrow": "2026-11-11"
-   }
-  },
   "h-other-4fa58ef802": {
    "info": {
     "airline": "h-other",
@@ -2927,14 +2885,117 @@
    "kinds": {
     "new": "2026-11-11"
    }
+  },
+  "cebu-1fecb1cf39": {
+   "info": {
+    "airline": "cebu",
+    "name": "1111특가",
+    "sale_start": "2026-11-08",
+    "sale_end": "2026-11-12",
+    "dests": [
+     "필리핀"
+    ],
+    "last": "2026-11-08",
+    "urls": [
+     "1fecb1cf39",
+     "22d6aa1f34",
+     "37ad79803b"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-08",
+    "new": "2026-11-08",
+    "closing_tomorrow": "2026-11-11",
+    "closing_today": "2026-11-12"
+   }
+  },
+  "cebu-e47dfd035f": {
+   "info": {
+    "airline": "cebu",
+    "name": "",
+    "sale_start": "2026-11-08",
+    "sale_end": "2026-11-12",
+    "dests": [
+     "필리핀"
+    ],
+    "last": "2026-11-09",
+    "urls": [
+     "45d30f50c7",
+     "e47dfd035f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09",
+    "closing_tomorrow": "2026-11-11",
+    "closing_today": "2026-11-12"
+   }
+  },
+  "h-hoshino-de9a26ace6": {
+   "info": {
+    "airline": "h-hoshino",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2027-03-27",
+    "dests": [],
+    "last": "2026-11-12",
+    "urls": [
+     "de9a26ace6"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-12"
+   }
+  },
+  "h-agoda-d580881ede": {
+   "info": {
+    "airline": "h-agoda",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-11",
+    "urls": [
+     "d580881ede"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-12"
+   }
+  },
+  "h-other-ed14148caa": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-11",
+    "urls": [
+     "ed14148caa"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-12"
+   }
+  },
+  "h-other-3308839e9b": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-11",
+    "urls": [
+     "3308839e9b"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-12"
+   }
   }
  },
  "slots": {
-  "2026-11-04": {
-   "morning": "sent",
-   "afternoon": "sent",
-   "evening": "empty"
-  },
   "2026-11-05": {
    "morning": "sent",
    "evening": "sent"
@@ -2962,10 +3023,13 @@
   "2026-11-11": {
    "morning": "sent",
    "evening": "sent"
+  },
+  "2026-11-12": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-11-11T18:21:01+09:00",
- "drops_day": "2026-11-11",
+ "saved_at": "2026-11-12T09:18:33+09:00",
+ "drops_day": "2026-11-12",
  "drops": {
   "BKK": {
    "price": 411600,
