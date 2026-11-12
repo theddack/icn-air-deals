@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:43:47+09:00",
+ "generated_at": "2026-11-12T18:16:03+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1698,
+  "rss_items": 1661,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2197,
+  "outlet_items": 2168,
   "outlet_new_articles": 0,
-  "outlet_enriched": 2,
+  "outlet_enriched": 0,
   "mail_articles": 8,
-  "mail_new_articles": 1,
+  "mail_new_articles": 0,
   "articles_with_summary": 52,
-  "articles": 738,
-  "new_articles": 8,
+  "articles": 741,
+  "new_articles": 3,
   "deals": 135
  },
  "deals": [
@@ -1546,12 +1546,24 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-12",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-12T13:18:14+09:00",
+   "last_seen": "2026-11-12T18:16:03+09:00",
    "articles": [
     {
      "title": "트리니티항공, 수능 수험생 항공권 최대 25% 할인...동반 1인도 혜택",
      "outlet": "중앙이코노미뉴스",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBadG1aRkJ1QUh2cERRaFZPTWVoQmZhWlRQRnpzWjhPNkswUmtwSlM5cTNkMGtiSERmZ0VseklZdFM5RkZqXzNucHVCNWotY3N6X0VWRFRHNGlnQWdJMWRqX2M4SE12dmxZWXZ4YWU4a3lWUQ?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "수학능력 치른 '수험생' 할인 혜택···트리니티항공, 전 노선 대상 진행",
+     "outlet": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfbjlScVVCVkd5UVIyY0FwOXlFdGptTVV0QlQyemk0bXpjQUtLckEyWnIycHl6WlBPYlFqalVJdFJ0RGMzai1ZMUQ0ODlaRTRpR19GTzg0aHdteEZPUDRLYjBGSW5oQndWWVFRUm5tNkfSAXRBVV95cUxONkhEemhlREoxRkpOUnBvRjJXMDJ2Zng3Q3Y0ejlQX0hRSXRFZDA0UVhZXzdCUl9KYWZZdy0xTkVKYjU4bkppZWVtemgzVDJ0eF9oSW4wREdzNENMTGRveEZiV3M0M05pZ0ZZcDhfYXUwXzFmeA?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "트리니티항공, 2027학년도 수능 수험생 할인 프로모션 진행",
+     "outlet": "충북뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQcGdhZldsSjVob0FrVllXTEpKZ3B3WHd3WHVRX0cwelRTeWNJUGdxM2FnSVpfM2FpWG42c0EzQ1c5bVdqQl9qYmd0a1o3dlo5Y0VoRUhabHB5Rk95M0VkSzV5bkV6QQ?oc=5",
      "published": "2026-11-12"
     },
     {
@@ -6703,7 +6715,7 @@
    ],
    "agencies": [],
    "event_name": "더블데이",
-   "headline": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
+   "headline": "비엣젯항공, 한-베트남 전 노선 12만 9천원부터 특가 판매",
    "sale_start": null,
    "sale_end": null,
    "travel_start": "2026-12-01",
@@ -6737,8 +6749,14 @@
    "first_published": "2026-11-10",
    "last_published": "2026-11-12",
    "first_seen": "2026-11-10T16:44:38+09:00",
-   "last_seen": "2026-11-12T13:18:14+09:00",
+   "last_seen": "2026-11-12T18:16:03+09:00",
    "articles": [
+    {
+     "title": "비엣젯항공, 한-베트남 전 노선 12만 9천원부터 특가 판매",
+     "outlet": "파이낸셜리뷰",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11ODk0SFVqYTl5X2xIMVRrMlhjYWR5dDdfOS0zWGo5eXRfMkFOZGdwZ1hVNXpZTVJCQ1JySkMzUERiNWxtcVdZVWJIRjMtMnFwcjVUS0hTOXY2ZUNfaXk5anJCajEtX3k0a1B5akJvdmtWbjY1?oc=5",
+     "published": "2026-11-12"
+    },
     {
      "title": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
      "outlet": "시선뉴스",
