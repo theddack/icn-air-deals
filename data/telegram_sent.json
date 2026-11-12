@@ -1645,47 +1645,6 @@
     "new": "2026-11-02"
    }
   },
-  "trinity-e94e178f89": {
-   "info": {
-    "airline": "trinity",
-    "name": "11월더블혜택프로모션",
-    "sale_start": null,
-    "sale_end": null,
-    "dests": [],
-    "last": "2026-11-02",
-    "urls": [
-     "2e73fd5525",
-     "3218284e11",
-     "5c923f6bca",
-     "7079183336",
-     "773a760c45",
-     "8358c3bd0d",
-     "89e98a3f61",
-     "bf58c50eab",
-     "dd8d6e62a1",
-     "e94e178f89"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-02"
-   }
-  },
-  "trinity-d5c147a777": {
-   "info": {
-    "airline": "trinity",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-13",
-    "dests": [],
-    "last": "2026-11-02",
-    "urls": [
-     "d5c147a777"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-02"
-   }
-  },
   "h-ihg-05bfb34759": {
    "info": {
     "airline": "h-ihg",
@@ -2424,25 +2383,6 @@
     "start_today": "2026-11-09"
    }
   },
-  "h-lotte-5b4b00fecb": {
-   "info": {
-    "airline": "h-lotte",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-13",
-    "dests": [],
-    "last": "2026-11-09",
-    "urls": [
-     "3a38f7849a",
-     "5b4b00fecb",
-     "dbe9c82630",
-     "e63d24d465"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-09"
-   }
-  },
   "h-other-bfd1649ad3": {
    "info": {
     "airline": "h-other",
@@ -2994,6 +2934,174 @@
    "kinds": {
     "new": "2026-11-12"
    }
+  },
+  "trinity-86641eb932": {
+   "info": {
+    "airline": "trinity",
+    "name": "",
+    "sale_start": "2026-11-12",
+    "sale_end": "2027-01-31",
+    "dests": [],
+    "last": "2026-11-12",
+    "urls": [
+     "86641eb932",
+     "a621300023",
+     "cf1f214a13"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-12",
+    "new": "2026-11-12"
+   }
+  },
+  "trinity-7d49ad0a5e": {
+   "info": {
+    "airline": "trinity",
+    "name": "",
+    "sale_start": "2026-11-12",
+    "sale_end": "2027-01-31",
+    "dests": [],
+    "last": "2026-11-12",
+    "urls": [
+     "7d49ad0a5e"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-12",
+    "new": "2026-11-12"
+   }
+  },
+  "trinity-d5c147a777": {
+   "info": {
+    "airline": "trinity",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-13",
+    "dests": [],
+    "last": "2026-11-02",
+    "urls": [
+     "157070f993",
+     "d5c147a777"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-02",
+    "closing_tomorrow": "2026-11-12"
+   }
+  },
+  "h-lotte-5b4b00fecb": {
+   "info": {
+    "airline": "h-lotte",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-13",
+    "dests": [],
+    "last": "2026-11-09",
+    "urls": [
+     "3a38f7849a",
+     "3dcd930d64",
+     "5b4b00fecb",
+     "dbe9c82630",
+     "e63d24d465"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09",
+    "closing_tomorrow": "2026-11-12"
+   }
+  },
+  "trinity-e94e178f89": {
+   "info": {
+    "airline": "trinity",
+    "name": "11월더블혜택프로모션",
+    "sale_start": null,
+    "sale_end": "2026-11-13",
+    "dests": [],
+    "last": "2026-11-12",
+    "urls": [
+     "0b23bfd043",
+     "2c54f3f706",
+     "2e73fd5525",
+     "3218284e11",
+     "46aaca36de",
+     "4c919280ca",
+     "4cb534a346",
+     "56eb1f1203",
+     "5c923f6bca",
+     "68ce2e279b",
+     "6d6cce3e73",
+     "7079183336",
+     "773a760c45",
+     "8358c3bd0d",
+     "89e98a3f61",
+     "a0770f5c82",
+     "aa53e75127",
+     "bf58c50eab",
+     "c31ca0eeab",
+     "c73c387320",
+     "c8ad2d40ec",
+     "d5e13551fa",
+     "dd8d6e62a1",
+     "e94e178f89",
+     "e99f819ea8",
+     "ef0228984c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-02",
+    "closing_tomorrow": "2026-11-12"
+   }
+  },
+  "scoot-11495b581d": {
+   "info": {
+    "airline": "scoot",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "싱가포르"
+    ],
+    "last": "2026-11-12",
+    "urls": [
+     "11495b581d"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-12"
+   }
+  },
+  "koreanair-0855daa689": {
+   "info": {
+    "airline": "koreanair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-12",
+    "urls": [
+     "0855daa689",
+     "7aac189177"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-12"
+   }
+  },
+  "h-other-04f750ae5b": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-12",
+    "urls": [
+     "04f750ae5b"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-12"
+   }
   }
  },
  "slots": {
@@ -3026,10 +3134,11 @@
    "evening": "sent"
   },
   "2026-11-12": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-12T13:23:04+09:00",
+ "saved_at": "2026-11-12T18:21:00+09:00",
  "drops_day": "2026-11-12",
  "drops": {
   "BKK": {
