@@ -2930,22 +2930,6 @@
     "closing_today": "2026-11-12"
    }
   },
-  "h-hoshino-de9a26ace6": {
-   "info": {
-    "airline": "h-hoshino",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2027-03-27",
-    "dests": [],
-    "last": "2026-11-12",
-    "urls": [
-     "de9a26ace6"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-12"
-   }
-  },
   "h-agoda-d580881ede": {
    "info": {
     "airline": "h-agoda",
@@ -2993,6 +2977,23 @@
    "kinds": {
     "new": "2026-11-12"
    }
+  },
+  "h-hoshino-92b487fd5d": {
+   "info": {
+    "airline": "h-hoshino",
+    "name": "2박이상반값할인",
+    "sale_start": null,
+    "sale_end": "2027-03-27",
+    "dests": [],
+    "last": "2026-11-12",
+    "urls": [
+     "92b487fd5d",
+     "de9a26ace6"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-12"
+   }
   }
  },
  "slots": {
@@ -3028,7 +3029,7 @@
    "morning": "sent"
   }
  },
- "saved_at": "2026-11-12T09:18:33+09:00",
+ "saved_at": "2026-11-12T13:23:04+09:00",
  "drops_day": "2026-11-12",
  "drops": {
   "BKK": {
