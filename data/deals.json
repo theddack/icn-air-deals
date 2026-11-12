@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T18:16:03+09:00",
+ "generated_at": "2026-11-12T22:17:33+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1661,
+  "rss_items": 1676,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2168,
+  "outlet_items": 2023,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 8,
   "mail_new_articles": 0,
   "articles_with_summary": 52,
-  "articles": 741,
-  "new_articles": 3,
+  "articles": 745,
+  "new_articles": 4,
   "deals": 135
  },
  "deals": [
@@ -1546,7 +1546,7 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-12",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-12T18:16:03+09:00",
+   "last_seen": "2026-11-12T22:17:33+09:00",
    "articles": [
     {
      "title": "트리니티항공, 수능 수험생 항공권 최대 25% 할인...동반 1인도 혜택",
@@ -1570,6 +1570,12 @@
      "title": "트리니티항공, 수능 수험생 항공권 최대 25% 할인",
      "outlet": "이코노미스트",
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EcERLQzQtc21wRFVHTjdQWjBvdXBYb29mdjlzS3hjbjJILVdUWUJUNUJFZG56bkF0aXBacS1EQTZhX0lZQUVHVC1WRHBUN2RlNnVsT3A0aHhnbDNmN2hvdGxB?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "트리니티항공, 2027학년도 수험생 항공권 할인 프로모션 실시",
+     "outlet": "경북매일",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wQUtyTXhUNkZpd2JQVWVqYUpSbUNVODdLc0g1dnhmQktNVG1Kc01sZi1sV01xTUxzR2xvUDUzTnVUMkNHM0FzX21FUFB6ZU1GTzdtWUctWlp4UQ?oc=5",
      "published": "2026-11-12"
     },
     {
@@ -4957,6 +4963,64 @@
    "status": "undated"
   },
   {
+   "id": "h-expedia-2b95937a17",
+   "airline_id": "h-expedia",
+   "airline": "익스피디아",
+   "airlines_mentioned": [
+    "익스피디아"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.expedia.co.kr/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Flash deals offering 75% off select stays during Black Friday and Travel Tuesday on Expedia and Hotels.com",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Flash deals offering 75% off select stays during Black Friday and Travel Tuesday on Expedia and Hotels.com",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeXZZR0g5bTdHb1VqT0pvSHc0ZTlwX1dybV9KSmJJVkxmejhPbVFNckJZWldJTG1MVWRvNUVaODYxOHRja1JTRVBTRFFEcG50ZGRXV0tub1hNTWZnemFaVjQwSE1nNHFkbDlYNnlzVEE1NVFHeHBoQnY5YV9McHBKdTR4MXFvQWNHMXRJTmNINkctNEk?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "75% 할인",
+   "verification": "news",
+   "first_published": "2026-11-05",
+   "last_published": "2026-11-05",
+   "first_seen": "2026-11-12T22:17:33+09:00",
+   "last_seen": "2026-11-12T22:17:33+09:00",
+   "articles": [
+    {
+     "title": "Flash deals offering 75% off select stays during Black Friday and Travel Tuesday on Expedia and Hotels.com",
+     "outlet": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeXZZR0g5bTdHb1VqT0pvSHc0ZTlwX1dybV9KSmJJVkxmejhPbVFNckJZWldJTG1MVWRvNUVaODYxOHRja1JTRVBTRFFEcG50ZGRXV0tub1hNTWZnemFaVjQwSE1nNHFkbDlYNnlzVEE1NVFHeHBoQnY5YV9McHBKdTR4MXFvQWNHMXRJTmNINkctNEk?oc=5",
+     "published": "2026-11-05"
+    },
+    {
+     "title": "Flash Deals Offering 75% Off Select Stays During Black Friday and Travel Tuesday on Expedia and Hotels.com",
+     "outlet": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSUctUnVUQTJFcTd2bnpMNl9pUV9TS0l1bGdpM3M5Z0hCWGpSa0FPMGl2dU1nSXo5WUR5aGh4dVp1VjRhYTFNb0Z3X2p5eGJZbjZkTzdoWDg3RG5lUkhuelAtZmM5MXJpRmV3MEpacmRtUjBQU2gwRUZYOXJHSG1tXzVBOE0tVHdGLTVINWl0TE5PWkk?oc=5",
+     "published": "2026-11-05"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-other-44d599feb8",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -7863,67 +7927,6 @@
      "outlet": "워크투데이",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnMUZ3b0FQYVpRazhvNC1Nb0J0WEdjNHNSU1pPUGVWb0hMX04tdVZUZXo0NVNMdFd5Z0xiQy1QLXFSM2lTbWxGeUttQVhRbkFENy1EdVk1ZjJ5dDB2TGx2ZUp6ZXBaazEtSTJDNg?oc=5",
      "published": "2026-10-20"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "pal-c440118efa",
-   "airline_id": "pal",
-   "airline": "필리핀항공",
-   "airlines_mentioned": [
-    "필리핀항공"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.philippineairlines.com/",
-   "iata": [
-    "PR"
-   ],
-   "agencies": [],
-   "event_name": "함께 떠날수록 항공권 할인",
-   "headline": "필리핀항공, 국제선 비즈니스·프리미엄 이코노미 할인 프로모션 진행 - 조선비즈",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-10-19",
-   "last_published": "2026-10-21",
-   "first_seen": "2026-10-19T17:08:36+09:00",
-   "last_seen": "2026-10-29T17:30:37+09:00",
-   "articles": [
-    {
-     "title": "필리핀항공, 국제선 비즈니스·프리미엄 이코노미 할인 프로모션 진행 - 조선비즈",
-     "outlet": "Chosunbiz",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdDBsZjNIX29mYjJWSTdPQkVwMnBMZ0tWYmdyUDczMFFlSXRia3B5UW5CbTJtRW92d3Z5cGhrX2w0SkNpRlRWLUFBQ2stcXcxUWpiNDFVYnpWNVNRcWg3RmlCb0lwMFo0bVc5bktfR2NZaVZOY2pWQ0ZOT0NMS29kZ3hlSWdTQzd1WlgwYV9UdjBkdmJQaGs5RnljNk5kanpx0gGgAUFVX3lxTE10MGxmM0hfb2ZiMlZJN09CRXAycExnS1ZiZ3JQNzMwUWVJdGJrcHlRbkJtMm1Fb3Z3dnlwaGtfbDRKQ2lGVFYtQUFDay1xdzFRamI0MVVielY1U1FxaDdGaUJvSXAwWjRtVzluS19HY1lpVk5jalZDRk5PQ0xLb2RneGVJZ1NDN3VaWDBhX1R2MGR2YlBoazlGeWM2TmRqenE?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "필리핀항공, 국제선 비즈니스·프리미엄 이코노미 할인 프로모션 진행",
-     "outlet": "Chosunbiz",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN0ZBTFN2Um1fcFdSU0d1YXZjeU5BT0VTQnVoaUhuSUV1eXdsTHZuTE9aaXRVbWxJX1ZSSmQxY19LbkllRGhWd09zVGs1R1ZhdHVlTXVLOEhoYS1pTGM5UlN3OVRQTkpOS05VNHozb0RPT3E4YWZJZTJTMjhUYVd6VHNzNTFNVGhseV9IaNIBoAFBVV95cUxNdDBsZjNIX29mYjJWSTdPQkVwMnBMZ0tWYmdyUDczMFFlSXRia3B5UW5CbTJtRW92d3Z5cGhrX2w0SkNpRlRWLUFBQ2stcXcxUWpiNDFVYnpWNVNRcWg3RmlCb0lwMFo0bVc5bktfR2NZaVZOY2pWQ0ZOT0NMS29kZ3hlSWdTQzd1WlgwYV9UdjBkdmJQaGs5RnljNk5kanpx?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "필리핀항공, ‘함께 떠날수록 항공권 할인’ 프로모션",
-     "outlet": "중앙일보",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRQnJtZWNaMUktTlpDemV1Z210QjhkSzhsbVdJV3FQTG1sYjR4RF9mRTh5ZGNMNkNWVmljQi1haXZaMVdCNEczNElqeEFuZnQ1YVpUTThn?oc=5",
-     "published": "2026-10-19"
     }
    ],
    "status": "stale"
