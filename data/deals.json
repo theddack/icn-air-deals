@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T09:14:07+09:00",
+ "generated_at": "2026-11-12T13:18:14+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1616,
+  "rss_items": 1644,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2044,
+  "outlet_items": 2189,
   "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_enriched": 0,
   "mail_articles": 7,
   "mail_new_articles": 0,
   "articles_with_summary": 49,
-  "articles": 719,
-  "new_articles": 1,
-  "deals": 128
+  "articles": 730,
+  "new_articles": 11,
+  "deals": 130
  },
  "deals": [
   {
@@ -1278,6 +1278,92 @@
    "status": "live"
   },
   {
+   "id": "h-lotte-5b4b00fecb",
+   "airline_id": "h-lotte",
+   "airline": "롯데호텔",
+   "airlines_mentioned": [
+    "롯데호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[뉴스워커_롯데호텔앤리조트] 연말 호캉스 계획 있다면?…시그니엘 등 31곳 최대 38% 할인",
+   "sale_start": null,
+   "sale_end": "2026-11-13",
+   "travel_start": "2026-11-23",
+   "travel_end": "2027-03-31",
+   "routes": [],
+   "regions": [],
+   "conditions": [
+    "회원 전용"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "ER 이코노믹리뷰 요약문: 예약은 롯데호텔 공식 홈페이지에서 이달 13일까지 가능하다.",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=756443"
+    },
+    "travel": {
+     "title": "ER 이코노믹리뷰 요약문: 투숙 기간은 11월 23일부터 2027년 3월 31일까지다",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=756443"
+    },
+    "discount": {
+     "title": "[뉴스워커_롯데호텔앤리조트] 연말 호캉스 계획 있다면?…시그니엘 등 31곳 최대 38% 할인",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YR1htVGczQVEzNGFtSnY0XzNfTERLb3RORWU2X2pVaEFVaXdqRDRsa29PbHRBUTJLc2wyU0drbDFyNFVsZ2VUaXZNcndWTDBzRHJkNm1RMU9vaUdfeW5XVnJEN2dlVFQyNGtzSnpzUERuckQ20gF0QVVfeXFMTlhHWG1UZzNBUTM0YW1KdjRfM19MREtvdE5FZTZfalVoQVVpd2pENGxrb09sdEFRMktzbDJTR2tsMXI0VWxnZVRpdk1yd1ZMMHNEcmQ2bVExT29pR195bldWckQ3Z2VUVDI0a3NKenNQRG5yRDY?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 38%",
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-09",
+   "first_seen": "2026-11-09T09:14:08+09:00",
+   "last_seen": "2026-11-09T13:18:13+09:00",
+   "articles": [
+    {
+     "title": "[뉴스워커_롯데호텔앤리조트] 연말 호캉스 계획 있다면?…시그니엘 등 31곳 최대 38% 할인",
+     "outlet": "뉴스워커",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YR1htVGczQVEzNGFtSnY0XzNfTERLb3RORWU2X2pVaEFVaXdqRDRsa29PbHRBUTJLc2wyU0drbDFyNFVsZ2VUaXZNcndWTDBzRHJkNm1RMU9vaUdfeW5XVnJEN2dlVFQyNGtzSnpzUERuckQ20gF0QVVfeXFMTlhHWG1UZzNBUTM0YW1KdjRfM19MREtvdE5FZTZfalVoQVVpd2pENGxrb09sdEFRMktzbDJTR2tsMXI0VWxnZVRpdk1yd1ZMMHNEcmQ2bVExT29pR195bldWckQ3Z2VUVDI0a3NKenNQRG5yRDY?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "롯데호텔도 '블프'…국내외 체인 큰 폭 할인",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lekx4WVJNV3Z3bHJXbkZ6SUFLdXdYMG5mWEI3WDM0aG1lSWRaX3RuQkJwY3Frb2gtdVlOeFJnUFRIaFcyWHVxN3ZwMG9DZVpEYVBZXzJlWnhfejB0NmpYcDRMb1VldU1lLXpzTQ?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "롯데호텔앤리조트, 회원전용 ‘플래시 딜’...최대 38% 할인",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sVmZwMWxaVi1iTFNsMkR4dEdZQnFOU250cjY5SmprY18xUUR1aFItMjE1Rk1BOHFpcUlmOFdYOTd3VTJMRk1PQi1YR0pFZ3BzODhHYmI5SzBwN2ZHaFIwY0dVbWNtUQ?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "\"연말 호텔 예약도 알뜰하게\" 롯데호텔앤리조트, 최대 38% 할인",
+     "outlet": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRVWs5d2lZWmtOVjJWeDlvWHl0UmFMTlVrRWxlTW0zenNZZW92YVVEMUhGUzJzcEZmZTVWUmNWSGpsWmZ6bjF3LW5tX1R5c093VHFTOFp6N0pONDFIMHhUTtIBeEFVX3lxTE9jMFRDamVZUU1NemNadzc2bkhnLVFUYmNCMUF0ZU9PUENfUHQ3RGVXWGdSaG1FUGgtaUFUbHlrY01oeUlmZHRfYWdoQmUxZjMwM1lHVEZaamp4cVh1bEFrNi15M1h0TkxHMzhOMEdaRjRGT2RPM0RxZQ?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "롯데호텔앤리조트, 블랙프라이데이 맞아 국내외 31개 호텔 최대 38% 할인",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rYXI3UjJCZko1X0h5dThIQXE0VnJRVVlBa0syVWVrQncwWXBvV2JING5SVnQ3eFVCVzcwUG9VTXRVb0FmQlpzSjU0N1BYSF81NWg0b1VNTmV6blVMSmtj?oc=5",
+     "published": "2026-11-09"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "trinity-e94e178f89",
    "airline_id": "trinity",
    "airline": "트리니티항공",
@@ -1299,7 +1385,7 @@
    ],
    "agencies": [],
    "event_name": "11월 더블 혜택 프로모션",
-   "headline": "트리니티항공, 국제선 최대 25% 할인…최대 3만원 추가 혜택까지",
+   "headline": "트리니티항공, 수능 수험생 항공권 최대 25% 할인...동반 1인도 혜택",
    "sale_start": null,
    "sale_end": "2026-11-13",
    "travel_start": "2026-11-01",
@@ -1318,18 +1404,30 @@
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzX3lLdHI0TWZZSWd6YlJuSTlzOEkzQlR3M054d3ZqcnFmYVFmSWZRaVd4WUdNeFllRTR6SWlhbXZYWHNBREdWMUNIOFVlejZyUWRpMWw4NjJZWTh4ZlcxdjRYdms?oc=5"
     },
     "discount": {
-     "title": "트리니티항공, 국제선 최대 25% 할인…최대 3만원 추가 혜택까지",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1USGpCM1YweG5ZWGtYTXpYRVd3OFJ6TWdKU3U1LWVhQVNSS1Z0MTBUQmdGYUlnd3Z3WXoxX2VkckhNZldFUU5MdzQ4ck0yczF4VjJfb2I1dXFCUVdVTlZ1Nm52Wmd3dzdibUE?oc=5"
+     "title": "트리니티항공, 수능 수험생 항공권 최대 25% 할인...동반 1인도 혜택",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBadG1aRkJ1QUh2cERRaFZPTWVoQmZhWlRQRnpzWjhPNkswUmtwSlM5cTNkMGtiSERmZ0VseklZdFM5RkZqXzNucHVCNWotY3N6X0VWRFRHNGlnQWdJMWRqX2M4SE12dmxZWXZ4YWU4a3lWUQ?oc=5"
     }
    },
    "from_icn": "unknown",
    "discount": "최대 25%",
    "verification": "news",
    "first_published": "2026-11-02",
-   "last_published": "2026-11-03",
+   "last_published": "2026-11-12",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-03T16:15:08+09:00",
+   "last_seen": "2026-11-12T13:18:14+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 수능 수험생 항공권 최대 25% 할인...동반 1인도 혜택",
+     "outlet": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBadG1aRkJ1QUh2cERRaFZPTWVoQmZhWlRQRnpzWjhPNkswUmtwSlM5cTNkMGtiSERmZ0VseklZdFM5RkZqXzNucHVCNWotY3N6X0VWRFRHNGlnQWdJMWRqX2M4SE12dmxZWXZ4YWU4a3lWUQ?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "트리니티항공, 수능 수험생 항공권 최대 25% 할인",
+     "outlet": "이코노미스트",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EcERLQzQtc21wRFVHTjdQWjBvdXBYb29mdjlzS3hjbjJILVdUWUJUNUJFZG56bkF0aXBacS1EQTZhX0lZQUVHVC1WRHBUN2RlNnVsT3A0aHhnbDNmN2hvdGxB?oc=5",
+     "published": "2026-11-12"
+    },
     {
      "title": "트리니티항공, 국제선 최대 25% 할인…최대 3만원 추가 혜택까지",
      "outlet": "경북도민일보",
@@ -1461,92 +1559,6 @@
      "outlet": "경북신문",
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQQjRpNUtNT3VPMm5IUGtYXy1xR3pWZHVKV3FDYnZBMW9fVlRva0tMekZvMWtFczhROEZjd1pVclFXYVU3WWZIRVNlSTFZaFRJejlVRFNRNnM?oc=5",
      "published": "2026-11-02"
-    }
-   ],
-   "status": "live"
-  },
-  {
-   "id": "h-lotte-5b4b00fecb",
-   "airline_id": "h-lotte",
-   "airline": "롯데호텔",
-   "airlines_mentioned": [
-    "롯데호텔"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "[뉴스워커_롯데호텔앤리조트] 연말 호캉스 계획 있다면?…시그니엘 등 31곳 최대 38% 할인",
-   "sale_start": null,
-   "sale_end": "2026-11-13",
-   "travel_start": "2026-11-23",
-   "travel_end": "2027-03-31",
-   "routes": [],
-   "regions": [],
-   "conditions": [
-    "회원 전용"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "ER 이코노믹리뷰 요약문: 예약은 롯데호텔 공식 홈페이지에서 이달 13일까지 가능하다.",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=756443"
-    },
-    "travel": {
-     "title": "ER 이코노믹리뷰 요약문: 투숙 기간은 11월 23일부터 2027년 3월 31일까지다",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=756443"
-    },
-    "discount": {
-     "title": "[뉴스워커_롯데호텔앤리조트] 연말 호캉스 계획 있다면?…시그니엘 등 31곳 최대 38% 할인",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YR1htVGczQVEzNGFtSnY0XzNfTERLb3RORWU2X2pVaEFVaXdqRDRsa29PbHRBUTJLc2wyU0drbDFyNFVsZ2VUaXZNcndWTDBzRHJkNm1RMU9vaUdfeW5XVnJEN2dlVFQyNGtzSnpzUERuckQ20gF0QVVfeXFMTlhHWG1UZzNBUTM0YW1KdjRfM19MREtvdE5FZTZfalVoQVVpd2pENGxrb09sdEFRMktzbDJTR2tsMXI0VWxnZVRpdk1yd1ZMMHNEcmQ2bVExT29pR195bldWckQ3Z2VUVDI0a3NKenNQRG5yRDY?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 38%",
-   "verification": "news",
-   "first_published": "2026-11-09",
-   "last_published": "2026-11-09",
-   "first_seen": "2026-11-09T09:14:08+09:00",
-   "last_seen": "2026-11-09T13:18:13+09:00",
-   "articles": [
-    {
-     "title": "[뉴스워커_롯데호텔앤리조트] 연말 호캉스 계획 있다면?…시그니엘 등 31곳 최대 38% 할인",
-     "outlet": "뉴스워커",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YR1htVGczQVEzNGFtSnY0XzNfTERLb3RORWU2X2pVaEFVaXdqRDRsa29PbHRBUTJLc2wyU0drbDFyNFVsZ2VUaXZNcndWTDBzRHJkNm1RMU9vaUdfeW5XVnJEN2dlVFQyNGtzSnpzUERuckQ20gF0QVVfeXFMTlhHWG1UZzNBUTM0YW1KdjRfM19MREtvdE5FZTZfalVoQVVpd2pENGxrb09sdEFRMktzbDJTR2tsMXI0VWxnZVRpdk1yd1ZMMHNEcmQ2bVExT29pR195bldWckQ3Z2VUVDI0a3NKenNQRG5yRDY?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "롯데호텔도 '블프'…국내외 체인 큰 폭 할인",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lekx4WVJNV3Z3bHJXbkZ6SUFLdXdYMG5mWEI3WDM0aG1lSWRaX3RuQkJwY3Frb2gtdVlOeFJnUFRIaFcyWHVxN3ZwMG9DZVpEYVBZXzJlWnhfejB0NmpYcDRMb1VldU1lLXpzTQ?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "롯데호텔앤리조트, 회원전용 ‘플래시 딜’...최대 38% 할인",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sVmZwMWxaVi1iTFNsMkR4dEdZQnFOU250cjY5SmprY18xUUR1aFItMjE1Rk1BOHFpcUlmOFdYOTd3VTJMRk1PQi1YR0pFZ3BzODhHYmI5SzBwN2ZHaFIwY0dVbWNtUQ?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "\"연말 호텔 예약도 알뜰하게\" 롯데호텔앤리조트, 최대 38% 할인",
-     "outlet": "뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRVWs5d2lZWmtOVjJWeDlvWHl0UmFMTlVrRWxlTW0zenNZZW92YVVEMUhGUzJzcEZmZTVWUmNWSGpsWmZ6bjF3LW5tX1R5c093VHFTOFp6N0pONDFIMHhUTtIBeEFVX3lxTE9jMFRDamVZUU1NemNadzc2bkhnLVFUYmNCMUF0ZU9PUENfUHQ3RGVXWGdSaG1FUGgtaUFUbHlrY01oeUlmZHRfYWdoQmUxZjMwM1lHVEZaamp4cVh1bEFrNi15M1h0TkxHMzhOMEdaRjRGT2RPM0RxZQ?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "롯데호텔앤리조트, 블랙프라이데이 맞아 국내외 31개 호텔 최대 38% 할인",
-     "outlet": "뉴스1",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rYXI3UjJCZko1X0h5dThIQXE0VnJRVVlBa0syVWVrQncwWXBvV2JING5SVnQ3eFVCVzcwUG9VTXRVb0FmQlpzSjU0N1BYSF81NWg0b1VNTmV6blVMSmtj?oc=5",
-     "published": "2026-11-09"
     }
    ],
    "status": "live"
@@ -2428,7 +2440,7 @@
    "status": "live"
   },
   {
-   "id": "h-hoshino-de9a26ace6",
+   "id": "h-hoshino-92b487fd5d",
    "airline_id": "h-hoshino",
    "airline": "호시노리조트",
    "airlines_mentioned": [
@@ -2446,7 +2458,7 @@
    "official_url": null,
    "iata": [],
    "agencies": [],
-   "event_name": null,
+   "event_name": "2박 이상 반값 할인",
    "headline": "에어서울, ‘호시노 리조트 리조나레 괌’ 연박시 50% 할인",
    "sale_start": null,
    "sale_end": "2027-03-27",
@@ -2476,12 +2488,18 @@
    "first_published": "2026-11-12",
    "last_published": "2026-11-12",
    "first_seen": "2026-11-12T09:14:07+09:00",
-   "last_seen": "2026-11-12T09:14:07+09:00",
+   "last_seen": "2026-11-12T13:18:14+09:00",
    "articles": [
     {
      "title": "에어서울, ‘호시노 리조트 리조나레 괌’ 연박시 50% 할인",
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93VXdiQWlCbGVhNWtUVDl2M295Rmo0Y0I3VmltY2tQTlE2RHgzOXFQZHhUNW9DNnJTVjV2RkV2ZURLUDhEeTc3RVZCQnB3U2F4Vkd2WHhiUzNrb3FaZ2ttR1JENk1LUQ?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "“2박 이상 반값 할인”…에어서울, 호시노 리조트 리조나레 괌과 제휴",
+     "outlet": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JWUVQWGEyaHlUUHVkaW5HUGduQnk4Zm1TdHhScFk1YjlIaHQ1VnNyaHlzcVJheW1ZdXRiMHQ2bGpDbW8xNGdQalZfaE9GRlNNRWp2TVM1QzdKNVdhR2JjYnBIOHg?oc=5",
      "published": "2026-11-12"
     }
    ],
@@ -6220,77 +6238,6 @@
    "status": "undated"
   },
   {
-   "id": "vietjet-e2a95f25e8",
-   "airline_id": "vietjet",
-   "airline": "비엣젯항공",
-   "airlines_mentioned": [
-    "비엣젯항공"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.vietjetair.com/ko",
-   "iata": [
-    "VJ",
-    "VZ"
-   ],
-   "agencies": [],
-   "event_name": "더블데이",
-   "headline": "비엣젯항공, 더블데이 맞아 항공권 특가 프로모션 돌입",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": "2026-12-01",
-   "travel_end": "2027-05-31",
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "travel": {
-     "title": "싱글리스트 요약문: 한국과 베트남을 잇는 전 노선에 적용되며 탑승 기간은 12월 1일부터 2027년 5월 31일까지다.",
-     "url": "https://www.slist.kr/news/articleView.html?idxno=780847"
-    },
-    "discount": {
-     "title": "싱글리스트 요약문: …권을 세금 및 수수료 포함 편도 12만 9천원부터 판매하고, 전 노선의 디럭스 운임을 최대 25% 할인한다.…",
-     "url": "https://www.slist.kr/news/articleView.html?idxno=780847"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 25%",
-   "verification": "news",
-   "first_published": "2026-11-10",
-   "last_published": "2026-11-11",
-   "first_seen": "2026-11-10T16:44:38+09:00",
-   "last_seen": "2026-11-11T22:17:38+09:00",
-   "articles": [
-    {
-     "title": "비엣젯항공, 더블데이 맞아 항공권 특가 프로모션 돌입",
-     "outlet": "스페셜타임스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mWmQ3WjlPTE5lam4xOW5zcjNLdkhrMHRscG9GLThhOGRFSVNUQkxuVVRLQ2F6MmE0cGN4UHBJcE9BT3dHdFU5SnhIUXlZRzBsYkpxSENoeEU2NGhWQVJHSHdCbmJXTFQ5X2NUTWw1TXJPa00?oc=5",
-     "published": "2026-11-11"
-    },
-    {
-     "title": "비엣젯항공, 11.11 '더블데이' 맞아 항공권 특가판매",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPWDZDeng5dm9SNE5nWjQ4SVV3WGlocnZNTTVHQ1dGdmJyUjBqbExIb3JSMjJpa1oybnk1UWFleWhncXlWcnJzS2JMaXl2ZTltcS1tcHY1cGVwOHZLVVc1dnhxdWE0UQ?oc=5",
-     "published": "2026-11-11"
-    },
-    {
-     "title": "비엣젯항공, ‘11월 11일’ 국내외 특가항공권 프로모션…최대 무료",
-     "outlet": "인사이드비나",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12bVNfVFdXeFVEOGU0TlFsLWVfNlp6SnliUmFmU1lyVzN4Njk4VkpFMDB1Ukt1ZDBlbjJSUVJubmZSNU4yeFJESEJIdS1XVzdza3c1UFNqbHllR2ZOUlZCWk4zTWFjWjE1ZTJKQg?oc=5",
-     "published": "2026-11-10"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-agoda-d580881ede",
    "airline_id": "h-agoda",
    "airline": "아고다",
@@ -6537,6 +6484,217 @@
      "outlet": "The Canberra Times",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb0NNSU9SXzc0U29BS3FwWlIxZl9KeXF2Q0VNR0pfbVV0TUhRWU9idFZyQ1Z2Vi1sVC0ycTNhVmFFVjhxaVdYYmhOS3A3UmYwWmIwUkVoVlVjUUFJalVkUHBTOWxxcG9XRkZGM3dkOTczZDRVbnZOaTlxaExWOGZINHRKMGFRT2c0YUVGWmlzMVM0WmNDTDU0dmdSWVdzNnNpeFVkVkpJdVZaUkUy?oc=5",
      "published": "2026-11-11"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "vietjet-e2a95f25e8",
+   "airline_id": "vietjet",
+   "airline": "비엣젯항공",
+   "airlines_mentioned": [
+    "비엣젯항공"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.vietjetair.com/ko",
+   "iata": [
+    "VJ",
+    "VZ"
+   ],
+   "agencies": [],
+   "event_name": "더블데이",
+   "headline": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": "2026-12-01",
+   "travel_end": "2027-05-31",
+   "routes": [
+    {
+     "origin": "한국",
+     "destination": "베트남"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "travel": {
+     "title": "싱글리스트 요약문: 한국과 베트남을 잇는 전 노선에 적용되며 탑승 기간은 12월 1일부터 2027년 5월 31일까지다.",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=780847"
+    },
+    "discount": {
+     "title": "싱글리스트 요약문: …권을 세금 및 수수료 포함 편도 12만 9천원부터 판매하고, 전 노선의 디럭스 운임을 최대 25% 할인한다.…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=780847"
+    },
+    "route": {
+     "title": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXdUw1Uk5odkl1ZklkRVpJLVZTekVQV3RGdjk1WEdXYWRGamdDS0VLUEU2d3JKWldySGZJN1RDa2JPaEJ6dHFYdHQyM3hwVUhIcmlHWXBYSGN6a2U3bmJaV2tXZDlWWmh4UGd6eHBR0gFyQVVfeXFMT0tVUkNUSU1RLWRqN2I5ZlRNZnNVRVVtdGNYWTJHUHp0c0RvZWdNaTlKNmNpRG5RaURPTENEYjlsUU5tM0tpZV9QZEFFeWJ2UVZCeENLeWZPbE9FSnpXRExRdkpDQzVXYThhSGQzaEc2Uk5R?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-11-10",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-10T16:44:38+09:00",
+   "last_seen": "2026-11-12T13:18:14+09:00",
+   "articles": [
+    {
+     "title": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
+     "outlet": "시선뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXdUw1Uk5odkl1ZklkRVpJLVZTekVQV3RGdjk1WEdXYWRGamdDS0VLUEU2d3JKWldySGZJN1RDa2JPaEJ6dHFYdHQyM3hwVUhIcmlHWXBYSGN6a2U3bmJaV2tXZDlWWmh4UGd6eHBR0gFyQVVfeXFMT0tVUkNUSU1RLWRqN2I5ZlRNZnNVRVVtdGNYWTJHUHp0c0RvZWdNaTlKNmNpRG5RaURPTENEYjlsUU5tM0tpZV9QZEFFeWJ2UVZCeENLeWZPbE9FSnpXRExRdkpDQzVXYThhSGQzaEc2Uk5R?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "비엣젯항공, 11월 11일 더블데이 맞아 항공권 특가 판매",
+     "outlet": "경상일보",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NTkZPNGxJM1owR1Y3TTR6WVVJOGZBQ1RaUGE4VWtiVFdta0cwZWFPVGRubUlTRWZQc0MxcGdLVlNxc0d5Z2dwZWZ5c1JfZWQwdFFjbUthR25UODdCQ3BCNUMydUNtbl9Vay1idA?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "홍콩익스프레스, 성수동 팝업 개최→비엣젯항공, '더블데이' 맞아 항공권 특가 판매",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fWE9XVEN3TWE4bllNSEQ4R19KOWlFcXdwNWdBVWxreWd1YzVPMEFBSGgxQWR2TUN5OUdqT25IcFVtWlJTVXJYcjZOdWk5UHdjY3k4UE5LVUFFTkJZMnd3SFlBUFZlQQ?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "비엣젯항공, 한국-베트남 전 노선 더블데이 특가 진행",
+     "outlet": "비건뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xNWlHSm1XRHRZQzlad0otZFdnNjd5LTFlemxjdm9qTHpnVTRJdmh3akNpZWxGZUpCZDZuQlVITGlMaU1NY3JmaElyZ0RWUzkxYUtYSG5vblZNejM5ci1sR1J5YkZKdw?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "비엣젯항공, 더블데이 맞아 항공권 특가 프로모션 돌입",
+     "outlet": "스페셜타임스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mWmQ3WjlPTE5lam4xOW5zcjNLdkhrMHRscG9GLThhOGRFSVNUQkxuVVRLQ2F6MmE0cGN4UHBJcE9BT3dHdFU5SnhIUXlZRzBsYkpxSENoeEU2NGhWQVJHSHdCbmJXTFQ5X2NUTWw1TXJPa00?oc=5",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "비엣젯항공, 11.11 '더블데이' 맞아 항공권 특가판매",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPWDZDeng5dm9SNE5nWjQ4SVV3WGlocnZNTTVHQ1dGdmJyUjBqbExIb3JSMjJpa1oybnk1UWFleWhncXlWcnJzS2JMaXl2ZTltcS1tcHY1cGVwOHZLVVc1dnhxdWE0UQ?oc=5",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "비엣젯항공, ‘11월 11일’ 국내외 특가항공권 프로모션…최대 무료",
+     "outlet": "인사이드비나",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12bVNfVFdXeFVEOGU0TlFsLWVfNlp6SnliUmFmU1lyVzN4Njk4VkpFMDB1Ukt1ZDBlbjJSUVJubmZSNU4yeFJESEJIdS1XVzdza3c1UFNqbHllR2ZOUlZCWk4zTWFjWjE1ZTJKQg?oc=5",
+     "published": "2026-11-10"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "koreanair-0855daa689",
+   "airline_id": "koreanair",
+   "airline": "대한항공",
+   "airlines_mentioned": [
+    "대한항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.koreanair.com/",
+   "iata": [
+    "KE"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "호텔신라-대한항공, 여행객 위한 특별 프로모션…국제선 고객 최대 20% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "호텔신라-대한항공, 여행객 위한 특별 프로모션…국제선 고객 최대 20% 할인",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxODRvS0xZSVZnYnZ6eDVYY3RyUEo3WFFzSjB4blRkNmgyLTAtYURfXzZFVUhxeFgyaGprU0FubkF2RnVKTElZWE9qMkFPcEFhOTZGcUdJSV8xbXR4cEZTY2RibE5IeFN0TTZMcUZnVQ?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-12T13:18:14+09:00",
+   "last_seen": "2026-11-12T13:18:14+09:00",
+   "articles": [
+    {
+     "title": "호텔신라-대한항공, 여행객 위한 특별 프로모션…국제선 고객 최대 20% 할인",
+     "outlet": "뉴스퀘스트",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxODRvS0xZSVZnYnZ6eDVYY3RyUEo3WFFzSjB4blRkNmgyLTAtYURfXzZFVUhxeFgyaGprU0FubkF2RnVKTElZWE9qMkFPcEFhOTZGcUdJSV8xbXR4cEZTY2RibE5IeFN0TTZMcUZnVQ?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "호텔신라·대한항공, 국제선 승객에 최대 20% 호텔 할인…“차별화된 여행 경험 선사”",
+     "outlet": "뉴스로드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSZHRlUXdJZjFKaGk1Z1RubUZIQXRkTXVueXc1WHVQcUpKX0Zlb0w3NmRZaTdTU2RuNElPMktMbTh0bzY3S05LdjZfdDAzMEtjaV9INUhmQWJMZ1RVVS0tcmtKTEo5TWlqRnkw0gFvQVVfeXFMTlVLV0IxRFlOQWVQcGw3ZUw3MDdHSVM4a01VeUVPcXAtM2xTTlJKXzlhQW1tNGxQNzBDUmViLXRSYjIyZ0x1WWlWMUhKMWdWeVA1bTk0UVQ0bUVHbmFGRkFGZW5KdzBOcGNSNkNSTFBN?oc=5",
+     "published": "2026-11-12"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-04f750ae5b",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Your ultimate guide to the best Black Friday 2026 travel deals for hotels and tours",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-12T13:18:14+09:00",
+   "last_seen": "2026-11-12T13:18:14+09:00",
+   "articles": [
+    {
+     "title": "Your ultimate guide to the best Black Friday 2026 travel deals for hotels and tours",
+     "outlet": "Time Out Worldwide",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa2hhVm5yTGduUDZfQnJRZllzdzc2R0h1ZERib1BUcmQzUkpjMlFhVGVxV3JMNFFuZ0lQaVZ2cl84ZUhNSmIxVVFYeHo0T0ZKYzluNXB1LUFZZEx3VjE5cjRnUXk4ZmNzUVFKUGpFalR2aTFzUmNXX1pYcHA5QXd4WXZXUzJ2eUNLc1loZ0xldU9Qd0ZPUUlnXzVra0UtMHpkY2dpcXFZQ2ZqTWlLYTRlNQ?oc=5",
+     "published": "2026-11-12"
     }
    ],
    "status": "undated"
