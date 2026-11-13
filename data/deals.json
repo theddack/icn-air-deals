@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T18:16:03+09:00",
+ "generated_at": "2026-11-13T22:17:35+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1683,
+  "rss_items": 1684,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2043,
+  "outlet_items": 1940,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 9,
   "mail_new_articles": 0,
   "articles_with_summary": 53,
-  "articles": 745,
-  "new_articles": 0,
+  "articles": 746,
+  "new_articles": 1,
   "deals": 145
  },
  "deals": [
@@ -132,12 +132,18 @@
    "first_published": "2026-11-13",
    "last_published": "2026-11-13",
    "first_seen": "2026-11-13T02:44:33+09:00",
-   "last_seen": "2026-11-13T02:44:33+09:00",
+   "last_seen": "2026-11-13T22:17:35+09:00",
    "articles": [
     {
      "title": "Marriott’s Cyber Week Sale Offers 25% Off Stays Through May 2027",
      "outlet": "Parade Magazine",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUVRiOHpibnRIcXpvSHdSUjZkWUthZHFvcXZ2clJvMkNsM0dJcDNVdlNtS0lTSHR6T29Ld2NZaEFDbmtQcFlnaGhHdFBBcVU4OV9iV1BkX2xQblBIR2F4QnUtNXdVZHhSdmYzMmhxS3FUcVZPUy1aT0ZpcnkzRTRZdUptTGdJVFVzZk16djVHaw?oc=5",
+     "published": "2026-11-13"
+    },
+    {
+     "title": "25% Off Marriott Stays? You Have Just One Week to Grab This Deal",
+     "outlet": "Canadian Travel News",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaak5jdmlCcE5SZVhrVnRDRDB6MjJrSXA2ZkRJTUl0Mk5qUHUtOE1MSGJfdGl5YldPdjNYczFhMldHaER2VUtaMFJoUDBjc2lJQ1lMNXJVNjFETjRyT0lGcXN1dTNmZw?oc=5",
      "published": "2026-11-13"
     },
     {
