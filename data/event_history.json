@@ -135,6 +135,13 @@
    "sale_start": "2026-11-01",
    "sale_end": "2026-11-11"
   },
+  "h-stayfesta|2026-09-22|2026가평군숙박세일페스타": {
+   "airline_id": "h-stayfesta",
+   "airline": "숙박세일 페스타",
+   "name": "2026 가평군 숙박세일 페스타",
+   "sale_start": "2026-09-22",
+   "sale_end": "2026-11-08"
+  },
   "h-stayfesta|2026-09-22|대한민국숙박세일페스타가을편": {
    "airline_id": "h-stayfesta",
    "airline": "숙박세일 페스타",

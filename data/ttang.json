@@ -1,6 +1,6 @@
 {
- "fetched_on": "2026-11-13",
- "fetched_at": "2026-11-13T02:49+09:00",
+ "fetched_on": "2026-11-14",
+ "fetched_at": "2026-11-14T02:27+09:00",
  "source": "https://www.ttang.com/ttangair/search/ttang/list.do?arr0=A2ALL&dep0=ICN&orderBy=LOW_COST",
  "items": [
   {
@@ -13,6 +13,28 @@
    "depart_from": "2026-11-23",
    "depart_to": "2026-11-23",
    "price": 239900
+  },
+  {
+   "destination": "다낭",
+   "dest_code": "DAD",
+   "airline": "트리니티항공",
+   "airline_code": "TW",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-11-27",
+   "depart_to": "2027-02-28",
+   "price": 240000
+  },
+  {
+   "destination": "마나도(인도네시아)",
+   "dest_code": "MDC",
+   "airline": "이스타항공",
+   "airline_code": "ZE",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-11-20",
+   "depart_to": "2027-03-26",
+   "price": 245000
   },
   {
    "destination": "나트랑(깜란)",
@@ -33,7 +55,7 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-12-01",
-   "depart_to": "2027-02-21",
+   "depart_to": "2027-02-22",
    "price": 283300
   },
   {
@@ -43,20 +65,9 @@
    "airline_code": "TW",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-11-23",
-   "depart_to": "2026-11-23",
-   "price": 300600
-  },
-  {
-   "destination": "다낭",
-   "dest_code": "DAD",
-   "airline": "트리니티항공",
-   "airline_code": "TW",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-11-30",
-   "depart_to": "2027-02-28",
-   "price": 310000
+   "depart_from": "2026-11-21",
+   "depart_to": "2026-12-15",
+   "price": 309000
   },
   {
    "destination": "나트랑(깜란)",
@@ -81,24 +92,13 @@
    "price": 329000
   },
   {
-   "destination": "푸꾸옥",
-   "dest_code": "PQC",
-   "airline": "트리니티항공",
-   "airline_code": "TW",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-11-24",
-   "depart_to": "2026-12-15",
-   "price": 329000
-  },
-  {
    "destination": "나트랑(깜란)",
    "dest_code": "CXR",
    "airline": "제주항공",
    "airline_code": "7C",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-11-29",
+   "depart_from": "2026-11-30",
    "depart_to": "2026-12-07",
    "price": 331200
   },
@@ -120,7 +120,7 @@
    "airline_code": "7C",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-11-29",
+   "depart_from": "2026-12-06",
    "depart_to": "2026-12-07",
    "price": 332640
   },
@@ -131,8 +131,8 @@
    "airline_code": "TW",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-05",
-   "depart_to": "2027-02-21",
+   "depart_from": "2026-12-02",
+   "depart_to": "2027-02-22",
    "price": 334000
   },
   {
@@ -143,7 +143,7 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-12-01",
-   "depart_to": "2027-02-21",
+   "depart_to": "2027-02-22",
    "price": 337500
   },
   {
@@ -158,17 +158,6 @@
    "price": 339900
   },
   {
-   "destination": "마나도(인도네시아)",
-   "dest_code": "MDC",
-   "airline": "이스타항공",
-   "airline_code": "ZE",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-11-20",
-   "depart_to": "2027-03-26",
-   "price": 345000
-  },
-  {
    "destination": "다낭",
    "dest_code": "DAD",
    "airline": "제주항공",
@@ -180,17 +169,6 @@
    "price": 349000
   },
   {
-   "destination": "홍콩",
-   "dest_code": "HKG",
-   "airline": "이스타항공",
-   "airline_code": "ZE",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-11-28",
-   "depart_to": "2027-02-21",
-   "price": 351000
-  },
-  {
    "destination": "다낭",
    "dest_code": "DAD",
    "airline": "이스타항공",
@@ -198,7 +176,7 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-12-01",
-   "depart_to": "2027-02-21",
+   "depart_to": "2027-02-22",
    "price": 354400
   },
   {
@@ -211,17 +189,6 @@
    "depart_from": "2026-12-12",
    "depart_to": "2026-12-13",
    "price": 354700
-  },
-  {
-   "destination": "마카오",
-   "dest_code": "MFM",
-   "airline": "제주항공",
-   "airline_code": "7C",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-11-27",
-   "depart_to": "2027-02-20",
-   "price": 354800
   },
   {
    "destination": "타이페이",
@@ -312,6 +279,17 @@
    "price": 370000
   },
   {
+   "destination": "홍콩",
+   "dest_code": "HKG",
+   "airline": "이스타항공",
+   "airline_code": "ZE",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-11-30",
+   "depart_to": "2027-02-22",
+   "price": 371000
+  },
+  {
    "destination": "다낭",
    "dest_code": "DAD",
    "airline": "파라타항공",
@@ -341,7 +319,7 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-11-30",
-   "depart_to": "2027-02-21",
+   "depart_to": "2027-02-22",
    "price": 372200
   },
   {
@@ -406,7 +384,7 @@
    "airline_code": "VJ",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-17",
+   "depart_from": "2026-12-19",
    "depart_to": "2027-03-24",
    "price": 380000
   },
@@ -418,7 +396,7 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-12-06",
-   "depart_to": "2027-02-21",
+   "depart_to": "2027-02-22",
    "price": 381200
   },
   {
@@ -431,17 +409,6 @@
    "depart_from": "2026-12-10",
    "depart_to": "2027-03-24",
    "price": 382640
-  },
-  {
-   "destination": "하노이",
-   "dest_code": "HAN",
-   "airline": "파라타항공",
-   "airline_code": "WE",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-11-28",
-   "depart_to": "2027-02-21",
-   "price": 385100
   },
   {
    "destination": "다낭",
@@ -472,7 +439,7 @@
    "airline_code": "VJ",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-11-26",
+   "depart_from": "2026-12-01",
    "depart_to": "2026-12-16",
    "price": 390000
   },
@@ -486,17 +453,6 @@
    "depart_from": "2026-12-02",
    "depart_to": "2027-03-24",
    "price": 390100
-  },
-  {
-   "destination": "타이중(대만)",
-   "dest_code": "RMQ",
-   "airline": "진에어",
-   "airline_code": "LJ",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-11-30",
-   "depart_to": "2027-02-21",
-   "price": 390800
   },
   {
    "destination": "나트랑(깜란)",
@@ -517,7 +473,7 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-12-06",
-   "depart_to": "2027-02-21",
+   "depart_to": "2027-02-22",
    "price": 394500
   },
   {
@@ -560,7 +516,7 @@
    "airline_code": "VJ",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-03",
+   "depart_from": "2026-12-08",
    "depart_to": "2026-12-27",
    "price": 400000
   },
@@ -572,7 +528,7 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-12-07",
-   "depart_to": "2027-01-09",
+   "depart_to": "2027-01-13",
    "price": 400000
   },
   {
@@ -582,8 +538,8 @@
    "airline_code": "TW",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-05",
-   "depart_to": "2027-02-21",
+   "depart_from": "2026-12-08",
+   "depart_to": "2027-02-22",
    "price": 400000
   },
   {
@@ -615,7 +571,7 @@
    "airline_code": "7C",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-01",
+   "depart_from": "2026-12-02",
    "depart_to": "2027-03-24",
    "price": 402040
   },
@@ -666,24 +622,24 @@
   {
    "destination": "푸꾸옥",
    "dest_code": "PQC",
-   "airline": "썬푸꾸옥 항공",
-   "airline_code": "9G",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-12-01",
-   "depart_to": "2027-03-23",
-   "price": 410000
-  },
-  {
-   "destination": "푸꾸옥",
-   "dest_code": "PQC",
    "airline": "비엣젯항공",
    "airline_code": "VJ",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-11-25",
+   "depart_from": "2026-12-05",
    "depart_to": "2026-12-15",
    "price": 410000
+  },
+  {
+   "destination": "마카오",
+   "dest_code": "MFM",
+   "airline": "제주항공",
+   "airline_code": "7C",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-12-01",
+   "depart_to": "2027-02-22",
+   "price": 414800
   },
   {
    "destination": "싱가포르",
@@ -758,8 +714,8 @@
    "airline_code": "RS",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-10",
-   "depart_to": "2027-02-21",
+   "depart_from": "2026-12-20",
+   "depart_to": "2027-02-22",
    "price": 428600
   },
   {
@@ -796,59 +752,15 @@
    "price": 432640
   },
   {
-   "destination": "나트랑(깜란)",
-   "dest_code": "CXR",
-   "airline": "제주항공",
-   "airline_code": "7C",
+   "destination": "하노이",
+   "dest_code": "HAN",
+   "airline": "파라타항공",
+   "airline_code": "WE",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-11",
-   "depart_to": "2027-02-21",
-   "price": 441200
-  },
-  {
-   "destination": "홍콩",
-   "dest_code": "HKG",
-   "airline": "에어부산",
-   "airline_code": "BX",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-12-18",
-   "depart_to": "2027-02-21",
-   "price": 442400
-  },
-  {
-   "destination": "타이페이",
-   "dest_code": "TPE",
-   "airline": "스쿠트항공",
-   "airline_code": "TR",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2027-01-02",
-   "depart_to": "2027-02-21",
-   "price": 444000
-  },
-  {
-   "destination": "타이페이",
-   "dest_code": "TPE",
-   "airline": "진에어",
-   "airline_code": "LJ",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-11-30",
-   "depart_to": "2027-02-21",
-   "price": 445800
-  },
-  {
-   "destination": "나트랑(깜란)",
-   "dest_code": "CXR",
-   "airline": "에어부산",
-   "airline_code": "BX",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-12-20",
-   "depart_to": "2027-02-21",
-   "price": 450500
+   "depart_from": "2027-01-03",
+   "depart_to": "2027-03-23",
+   "price": 432700
   },
   {
    "destination": "하노이",
@@ -859,7 +771,73 @@
    "trip": "roundtrip",
    "depart_from": "2026-12-04",
    "depart_to": "2026-12-31",
-   "price": 452700
+   "price": 432700
+  },
+  {
+   "destination": "타이중(대만)",
+   "dest_code": "RMQ",
+   "airline": "진에어",
+   "airline_code": "LJ",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-12-01",
+   "depart_to": "2027-02-22",
+   "price": 435800
+  },
+  {
+   "destination": "나트랑(깜란)",
+   "dest_code": "CXR",
+   "airline": "제주항공",
+   "airline_code": "7C",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-12-11",
+   "depart_to": "2027-02-22",
+   "price": 441200
+  },
+  {
+   "destination": "홍콩",
+   "dest_code": "HKG",
+   "airline": "에어부산",
+   "airline_code": "BX",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-12-18",
+   "depart_to": "2027-02-22",
+   "price": 442400
+  },
+  {
+   "destination": "타이페이",
+   "dest_code": "TPE",
+   "airline": "스쿠트항공",
+   "airline_code": "TR",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2027-01-02",
+   "depart_to": "2027-02-22",
+   "price": 444000
+  },
+  {
+   "destination": "푸꾸옥",
+   "dest_code": "PQC",
+   "airline": "썬푸꾸옥 항공",
+   "airline_code": "9G",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-12-03",
+   "depart_to": "2027-03-23",
+   "price": 450000
+  },
+  {
+   "destination": "나트랑(깜란)",
+   "dest_code": "CXR",
+   "airline": "에어부산",
+   "airline_code": "BX",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-12-20",
+   "depart_to": "2027-02-22",
+   "price": 450500
   },
   {
    "destination": "코타키나발루",
@@ -869,7 +847,7 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-12-02",
-   "depart_to": "2027-02-21",
+   "depart_to": "2027-02-22",
    "price": 455200
   },
   {
@@ -879,20 +857,9 @@
    "airline_code": "LJ",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-18",
-   "depart_to": "2027-02-21",
+   "depart_from": "2026-12-21",
+   "depart_to": "2027-02-22",
    "price": 459900
-  },
-  {
-   "destination": "푸꾸옥",
-   "dest_code": "PQC",
-   "airline": "비엣젯항공",
-   "airline_code": "VJ",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-12-11",
-   "depart_to": "2026-12-14",
-   "price": 460000
   },
   {
    "destination": "홍콩",
@@ -913,19 +880,19 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-12-07",
-   "depart_to": "2027-02-21",
+   "depart_to": "2027-02-22",
    "price": 462000
   },
   {
-   "destination": "푸꾸옥",
-   "dest_code": "PQC",
-   "airline": "썬푸꾸옥 항공",
-   "airline_code": "9G",
+   "destination": "하노이",
+   "dest_code": "HAN",
+   "airline": "파라타항공",
+   "airline_code": "WE",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-01",
-   "depart_to": "2026-12-15",
-   "price": 465000
+   "depart_from": "2026-12-02",
+   "depart_to": "2027-02-22",
+   "price": 465100
   },
   {
    "destination": "다낭",
@@ -950,6 +917,17 @@
    "price": 468400
   },
   {
+   "destination": "싱가포르",
+   "dest_code": "SIN",
+   "airline": "트리니티항공",
+   "airline_code": "TW",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-11-27",
+   "depart_to": "2026-11-27",
+   "price": 469000
+  },
+  {
    "destination": "호치민",
    "dest_code": "SGN",
    "airline": "에어프레미아",
@@ -957,7 +935,7 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-12-14",
-   "depart_to": "2027-02-21",
+   "depart_to": "2027-02-22",
    "price": 469300
   },
   {
@@ -985,6 +963,17 @@
   {
    "destination": "푸꾸옥",
    "dest_code": "PQC",
+   "airline": "비엣젯항공",
+   "airline_code": "VJ",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-12-11",
+   "depart_to": "2026-12-11",
+   "price": 470000
+  },
+  {
+   "destination": "푸꾸옥",
+   "dest_code": "PQC",
    "airline": "진에어",
    "airline_code": "LJ",
    "direct": true,
@@ -992,6 +981,17 @@
    "depart_from": "2026-12-06",
    "depart_to": "2027-03-31",
    "price": 471200
+  },
+  {
+   "destination": "하노이",
+   "dest_code": "HAN",
+   "airline": "파라타항공",
+   "airline_code": "WE",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2027-01-01",
+   "depart_to": "2027-03-24",
+   "price": 472700
   },
   {
    "destination": "카오슝(대만)",
@@ -1016,24 +1016,13 @@
    "price": 473000
   },
   {
-   "destination": "코타키나발루",
-   "dest_code": "BKI",
-   "airline": "제주항공",
-   "airline_code": "7C",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-11-28",
-   "depart_to": "2026-11-29",
-   "price": 479700
-  },
-  {
    "destination": "푸꾸옥",
    "dest_code": "PQC",
    "airline": "제주항공",
    "airline_code": "7C",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-11-28",
+   "depart_from": "2026-11-30",
    "depart_to": "2027-03-24",
    "price": 479700
   },
@@ -1056,7 +1045,7 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-11-25",
-   "depart_to": "2026-12-31",
+   "depart_to": "2027-02-09",
    "price": 480000
   },
   {
@@ -1067,19 +1056,8 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-12-21",
-   "depart_to": "2027-02-21",
+   "depart_to": "2027-02-22",
    "price": 481000
-  },
-  {
-   "destination": "코타키나발루",
-   "dest_code": "BKI",
-   "airline": "제주항공",
-   "airline_code": "7C",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-11-28",
-   "depart_to": "2026-11-29",
-   "price": 485200
   },
   {
    "destination": "푸꾸옥",
@@ -1104,6 +1082,17 @@
    "price": 489400
   },
   {
+   "destination": "푸꾸옥",
+   "dest_code": "PQC",
+   "airline": "비엣젯항공",
+   "airline_code": "VJ",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-11-19",
+   "depart_to": "2026-11-19",
+   "price": 490000
+  },
+  {
    "destination": "호치민",
    "dest_code": "SGN",
    "airline": "진에어",
@@ -1111,7 +1100,7 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-12-24",
-   "depart_to": "2027-02-21",
+   "depart_to": "2027-02-22",
    "price": 490000
   },
   {
@@ -1121,7 +1110,7 @@
    "airline_code": "7C",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-11-28",
+   "depart_from": "2026-11-30",
    "depart_to": "2027-03-11",
    "price": 490100
   },
@@ -1155,7 +1144,7 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-11-30",
-   "depart_to": "2027-02-21",
+   "depart_to": "2027-02-22",
    "price": 498500
   },
   {
@@ -1166,19 +1155,8 @@
    "direct": true,
    "trip": "roundtrip",
    "depart_from": "2026-11-30",
-   "depart_to": "2027-02-21",
+   "depart_to": "2027-02-22",
    "price": 498500
-  },
-  {
-   "destination": "싱가포르",
-   "dest_code": "SIN",
-   "airline": "트리니티항공",
-   "airline_code": "TW",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-11-27",
-   "depart_to": "2026-11-27",
-   "price": 499000
   },
   {
    "destination": "푸꾸옥",
@@ -1187,7 +1165,18 @@
    "airline_code": "9G",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-01",
+   "depart_from": "2026-12-06",
+   "depart_to": "2026-12-15",
+   "price": 500000
+  },
+  {
+   "destination": "푸꾸옥",
+   "dest_code": "PQC",
+   "airline": "썬푸꾸옥 항공",
+   "airline_code": "9G",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-12-03",
    "depart_to": "2027-03-23",
    "price": 500000
   },
@@ -1203,46 +1192,13 @@
    "price": 500280
   },
   {
-   "destination": "하노이",
-   "dest_code": "HAN",
-   "airline": "파라타항공",
-   "airline_code": "WE",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2027-01-03",
-   "depart_to": "2027-03-23",
-   "price": 502700
-  },
-  {
-   "destination": "하노이",
-   "dest_code": "HAN",
-   "airline": "파라타항공",
-   "airline_code": "WE",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2027-01-01",
-   "depart_to": "2027-03-24",
-   "price": 502700
-  },
-  {
-   "destination": "치앙마이",
-   "dest_code": "CNX",
-   "airline": "에어부산",
-   "airline_code": "BX",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-12-05",
-   "depart_to": "2027-02-21",
-   "price": 506900
-  },
-  {
    "destination": "발리(덴파사)",
    "dest_code": "DPS",
    "airline": "제주항공",
    "airline_code": "7C",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-11-27",
+   "depart_from": "2026-11-30",
    "depart_to": "2027-03-23",
    "price": 514300
   },
@@ -1253,9 +1209,20 @@
    "airline_code": "7C",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-11-27",
+   "depart_from": "2026-11-30",
    "depart_to": "2027-03-24",
    "price": 514300
+  },
+  {
+   "destination": "타이페이",
+   "dest_code": "TPE",
+   "airline": "진에어",
+   "airline_code": "LJ",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-12-01",
+   "depart_to": "2027-02-22",
+   "price": 515800
   },
   {
    "destination": "치앙마이",
@@ -1275,20 +1242,42 @@
    "airline_code": "VZ",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-11-27",
+   "depart_from": "2026-11-29",
    "depart_to": "2027-02-23",
    "price": 520000
   },
   {
-   "destination": "세부",
-   "dest_code": "CEB",
+   "destination": "치앙마이",
+   "dest_code": "CNX",
+   "airline": "에어부산",
+   "airline_code": "BX",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-12-05",
+   "depart_to": "2027-02-21",
+   "price": 526900
+  },
+  {
+   "destination": "클락(앙헬레스)",
+   "dest_code": "CRK",
    "airline": "제주항공",
    "airline_code": "7C",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-01",
+   "depart_from": "2026-11-30",
    "depart_to": "2027-03-24",
    "price": 530040
+  },
+  {
+   "destination": "나트랑(깜란)",
+   "dest_code": "CXR",
+   "airline": "파라타항공",
+   "airline_code": "WE",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-12-23",
+   "depart_to": "2027-02-18",
+   "price": 530400
   }
  ]
 }
