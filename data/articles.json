@@ -5992,5 +5992,66 @@
   "published": "2026-11-13",
   "first_seen": "2026-11-13T13:18:17+09:00",
   "source": "outlet_rss"
+ },
+ {
+  "title": "KB국민카드, 연말연시 해외여행 혜택…항공권·숙박 최대 20% 할인",
+  "outlet": "나눔경제뉴스",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NTW1WQlJ5WFgyU1VEQXhBcjI1VVh0S0xucGxOTWhZSGZRdldfb0tPYkVWd2pPV0M3ZDRyVE5CZG1OOUpzMEp4ZlF0Q0pDSFBHRW9zQkVFSEFaWGMwOXFoMTl1ZXhZM3ZWQUFtNg?oc=5",
+  "published": "2026-11-13",
+  "first_seen": "2026-11-13T16:18:19+09:00"
+ },
+ {
+  "title": "“공항 라운지 100원·호텔 최대 20% 할인”…KB국민카드, 연말 해외여행 혜택 확대",
+  "outlet": "더게이트",
+  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YWFZQanQ5azdJX0YyaHVXYXlfTWdubHR5UFVUSEM1Q085LWtTTWxLZWppOUhrUGRWcGJKbmlRZlg3dVZOdElCNy1EZzR6a0Nsd05zQ2NEcm5kZVp5LW4xaGtlQ05xSU1R0gFsQVVfeXFMUGQ4YkxDYU52WjU0UkpOa1RaY1c3c3hqUkVWMGJHSDJsRU5jTEgzWC1BbjU2UUtNQ3BrU1ZPaTlzZUR0UzFxdnlNcjRneGFiWFIyLWFETkpyYjNQZmpYNWVSX3lwcnBzUWphNkdK?oc=5",
+  "published": "2026-11-13",
+  "first_seen": "2026-11-13T16:18:19+09:00"
+ },
+ {
+  "title": "KB국민카드, 연말연시 해외여행 혜택…항공·숙박 할인",
+  "outlet": "스페셜경제",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZZDdpR25MRUpSQnptR1NPLUVOejc4bDFWbVVwaVE1UmFUVXdGN2RhUndTeDhXMHJGZUpQSTR4T1NRdWFyTmY0cnZFUnJvLU5UMVFLUEJwVW9Tcm9aQ215NFUtOERQNEJlVXBGVA?oc=5",
+  "published": "2026-11-13",
+  "first_seen": "2026-11-13T16:18:19+09:00"
+ },
+ {
+  "title": "호텔 1박 1만9천원부터?…트립닷컴 11월 13일 호텔데이, 최대 80% 쿠폰·11만원 할인받는 방법 총정리",
+  "outlet": "네이버 프리미엄콘텐츠",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYjI5bjhLTWRlWG5RcElFRldvYmxNRm9JVkhMVFN0cDhJV2pONmpiVHhMcGRWcmg4YURXbV9aNVZpbTFFU0hsb0RqcmxGUEtzcnl0NmZaMDVOeHdJR2lqRXZZbmtpOVNGUHBGNnhzY0w3SVhoSk5PUDFHQU13TXNXVl9lb0Fud3VuVHdV?oc=5",
+  "published": "2026-11-13",
+  "first_seen": "2026-11-13T16:18:19+09:00"
+ },
+ {
+  "title": "KB국민카드, 연말 해외여행 혜택 확대…호텔 최대 20% 할인",
+  "outlet": "신아일보",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kaHJyWGt1TmxKNDJyVjA2TzE2RjFqeUdBRzIzTVN5dVpRbkRnUXMwb1lROFI5R2xBTm81Q2pnVElXQW1pUE4xNXAySUFtcngwdEpqdkd4RXFINXdrTW51UExERE8xMFB1UTl2bFlNY3U?oc=5",
+  "published": "2026-11-13",
+  "first_seen": "2026-11-13T16:18:19+09:00"
+ },
+ {
+  "title": "홍콩익스프레스 홍콩행 편도총액 최저 89,600원부터",
+  "outlet": "홍콩익스프레스 메일",
+  "url": "https://www.hkexpress.com/ko-kr/#mail-fe5cac2087709bbc",
+  "published": "2026-11-13",
+  "first_seen": "2026-11-13T16:18:16+09:00",
+  "source": "mail",
+  "mail_id": "fe5cac2087709bbc",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.hkexpress.com/ko-kr/#mail-fe5cac2087709bbc",
+   "outlet": "홍콩익스프레스 메일",
+   "label": "본문",
+   "fields": {
+    "discount": "89,600원부터",
+    "origin": null,
+    "destination": "홍콩(HKG)"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
  }
 ]

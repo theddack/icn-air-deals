@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T13:18:17+09:00",
+ "generated_at": "2026-11-13T16:18:19+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1679,
+  "rss_items": 1693,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2102,
-  "outlet_new_articles": 1,
+  "outlet_items": 2072,
+  "outlet_new_articles": 0,
   "outlet_enriched": 0,
-  "mail_articles": 8,
-  "mail_new_articles": 0,
-  "articles_with_summary": 52,
-  "articles": 739,
-  "new_articles": 8,
-  "deals": 140
+  "mail_articles": 9,
+  "mail_new_articles": 1,
+  "articles_with_summary": 53,
+  "articles": 745,
+  "new_articles": 6,
+  "deals": 145
  },
  "deals": [
   {
@@ -5545,67 +5545,6 @@
    "status": "undated"
   },
   {
-   "id": "h-tripcom-91a861cd73",
-   "airline_id": "h-tripcom",
-   "airline": "트립닷컴",
-   "airlines_mentioned": [
-    "트립닷컴"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://kr.trip.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "11.11 세일",
-   "headline": "트립닷컴, 연중 최대 ‘11.11 세일’ 진행… 항공·호텔 최대 80% 선착순 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [
-    "쿠폰",
-    "선착순"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "트립닷컴, 연중 최대 ‘11.11 세일’ 진행… 항공·호텔 최대 80% 선착순 할인",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lOHZyeklQcEFrTFlEWjFadGR1TmhDOVh0eGtCdTM0d3BrR0pwWnQzT1BiaXJ3Z2FlcnIxWDh1anhTLXBiT2k1MXJWZ3FsOEdzRkM0bEZubnVJRkxiZ3ZWY0diVVhHNURXejFB?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 80%",
-   "verification": "news",
-   "first_published": "2026-11-09",
-   "last_published": "2026-11-10",
-   "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-10T18:16:09+09:00",
-   "articles": [
-    {
-     "title": "트립닷컴, 연중 최대 ‘11.11 세일’ 진행… 항공·호텔 최대 80% 선착순 할인",
-     "outlet": "통신일보",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lOHZyeklQcEFrTFlEWjFadGR1TmhDOVh0eGtCdTM0d3BrR0pwWnQzT1BiaXJ3Z2FlcnIxWDh1anhTLXBiT2k1MXJWZ3FsOEdzRkM0bEZubnVJRkxiZ3ZWY0diVVhHNURXejFB?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "트립닷컴, 나흘간 연중 최대 할인 행사…항공·호텔 최대 80% 쿠폰 제공",
-     "outlet": "스마트경제",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5T0IwekVnU3JIX3FXejZldXd2eEFLMFowN1B0d2ZYNHdlUnNjSjdobzhoQmRBdlZqcnVaem5ZaVJEMnZLZkp3TGQ1UTJYVy1MR2Y5WTVHcDZzSzFpNzJKWnpPZm9Na3c2OEVaUHg1cUU?oc=5",
-     "published": "2026-11-09"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "pal-c8a5bce941",
    "airline_id": "pal",
    "airline": "필리핀항공",
@@ -6654,6 +6593,136 @@
    "status": "undated"
   },
   {
+   "id": "h-tripcom-91a861cd73",
+   "airline_id": "h-tripcom",
+   "airline": "트립닷컴",
+   "airlines_mentioned": [
+    "트립닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://kr.trip.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "11.11 세일",
+   "headline": "호텔 1박 1만9천원부터?…트립닷컴 11월 13일 호텔데이, 최대 80% 쿠폰·11만원 할인받는 방법 총정리",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [
+    "쿠폰",
+    "선착순"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "호텔 1박 1만9천원부터?…트립닷컴 11월 13일 호텔데이, 최대 80% 쿠폰·11만원 할인받는 방법 총정리",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYjI5bjhLTWRlWG5RcElFRldvYmxNRm9JVkhMVFN0cDhJV2pONmpiVHhMcGRWcmg4YURXbV9aNVZpbTFFU0hsb0RqcmxGUEtzcnl0NmZaMDVOeHdJR2lqRXZZbmtpOVNGUHBGNnhzY0w3SVhoSk5PUDFHQU13TXNXVl9lb0Fud3VuVHdV?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 80%",
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-13",
+   "first_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-13T16:18:19+09:00",
+   "articles": [
+    {
+     "title": "호텔 1박 1만9천원부터?…트립닷컴 11월 13일 호텔데이, 최대 80% 쿠폰·11만원 할인받는 방법 총정리",
+     "outlet": "네이버 프리미엄콘텐츠",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYjI5bjhLTWRlWG5RcElFRldvYmxNRm9JVkhMVFN0cDhJV2pONmpiVHhMcGRWcmg4YURXbV9aNVZpbTFFU0hsb0RqcmxGUEtzcnl0NmZaMDVOeHdJR2lqRXZZbmtpOVNGUHBGNnhzY0w3SVhoSk5PUDFHQU13TXNXVl9lb0Fud3VuVHdV?oc=5",
+     "published": "2026-11-13"
+    },
+    {
+     "title": "트립닷컴, 연중 최대 ‘11.11 세일’ 진행… 항공·호텔 최대 80% 선착순 할인",
+     "outlet": "통신일보",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lOHZyeklQcEFrTFlEWjFadGR1TmhDOVh0eGtCdTM0d3BrR0pwWnQzT1BiaXJ3Z2FlcnIxWDh1anhTLXBiT2k1MXJWZ3FsOEdzRkM0bEZubnVJRkxiZ3ZWY0diVVhHNURXejFB?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "트립닷컴, 나흘간 연중 최대 할인 행사…항공·호텔 최대 80% 쿠폰 제공",
+     "outlet": "스마트경제",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5T0IwekVnU3JIX3FXejZldXd2eEFLMFowN1B0d2ZYNHdlUnNjSjdobzhoQmRBdlZqcnVaem5ZaVJEMnZLZkp3TGQ1UTJYVy1MR2Y5WTVHcDZzSzFpNzJKWnpPZm9Na3c2OEVaUHg1cUU?oc=5",
+     "published": "2026-11-09"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "hkexpress-e7365ad15a",
+   "airline_id": "hkexpress",
+   "airline": "홍콩익스프레스",
+   "airlines_mentioned": [
+    "홍콩익스프레스"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.hkexpress.com/ko-kr/",
+   "iata": [
+    "UO"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "홍콩익스프레스 홍콩행 편도총액 최저 89,600원부터",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "홍콩(HKG)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "홍콩익스프레스 홍콩행 편도총액 최저 89,600원부터",
+     "url": "https://www.hkexpress.com/ko-kr/#mail-fe5cac2087709bbc"
+    },
+    "route": {
+     "title": "홍콩익스프레스 홍콩행 편도총액 최저 89,600원부터",
+     "url": "https://www.hkexpress.com/ko-kr/#mail-fe5cac2087709bbc"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "89,600원부터",
+   "verification": "official",
+   "first_published": "2026-11-13",
+   "last_published": "2026-11-13",
+   "first_seen": "2026-11-13T16:18:16+09:00",
+   "last_seen": "2026-11-13T16:18:16+09:00",
+   "articles": [
+    {
+     "title": "홍콩익스프레스 홍콩행 편도총액 최저 89,600원부터",
+     "outlet": "홍콩익스프레스 메일",
+     "url": "https://www.hkexpress.com/ko-kr/#mail-fe5cac2087709bbc",
+     "published": "2026-11-13"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-other-c03053cf9a",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -6997,6 +7066,209 @@
      "title": "KB국민카드, 해외여행 항공권·숙박 할인 혜택 제공",
      "outlet": "포인트데일리",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lRmV5b3NDNHhJLS12WXJUdXJDdWE0UVpvMnpRLXA2ZHdBel9DUWJVU05XRmllNndzTk15Z3N0MmI4NGlNNFF2dEZYWV92TklwVVhWNko5RGEtbGJCZnpOVjJXeXlWSGtzUU0zRTZvU0PSAXRBVV95cUxQLU1IckNRd182Um80aW1tZVFaZWRnaFRzOW9tNXExV1dnQ1lSdUQwbUZVS0t1OFJoQUwtSFlIblB3bFBSWHpwN1dIM2FkUGZQS0ZqbUROOHFFZFNlZWZxc1JXWHh1OUVzT3hGYWlOTTRYVG1KeA?oc=5",
+     "published": "2026-11-13"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-5eb973878c",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "KB국민카드, 연말연시 해외여행 혜택…항공권·숙박 최대 20% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "KB국민카드, 연말연시 해외여행 혜택…항공권·숙박 최대 20% 할인",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NTW1WQlJ5WFgyU1VEQXhBcjI1VVh0S0xucGxOTWhZSGZRdldfb0tPYkVWd2pPV0M3ZDRyVE5CZG1OOUpzMEp4ZlF0Q0pDSFBHRW9zQkVFSEFaWGMwOXFoMTl1ZXhZM3ZWQUFtNg?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-11-13",
+   "last_published": "2026-11-13",
+   "first_seen": "2026-11-13T16:18:19+09:00",
+   "last_seen": "2026-11-13T16:18:19+09:00",
+   "articles": [
+    {
+     "title": "KB국민카드, 연말연시 해외여행 혜택…항공권·숙박 최대 20% 할인",
+     "outlet": "나눔경제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NTW1WQlJ5WFgyU1VEQXhBcjI1VVh0S0xucGxOTWhZSGZRdldfb0tPYkVWd2pPV0M3ZDRyVE5CZG1OOUpzMEp4ZlF0Q0pDSFBHRW9zQkVFSEFaWGMwOXFoMTl1ZXhZM3ZWQUFtNg?oc=5",
+     "published": "2026-11-13"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-41b38712cf",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "“공항 라운지 100원·호텔 최대 20% 할인”…KB국민카드, 연말 해외여행 혜택 확대",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "“공항 라운지 100원·호텔 최대 20% 할인”…KB국민카드, 연말 해외여행 혜택 확대",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YWFZQanQ5azdJX0YyaHVXYXlfTWdubHR5UFVUSEM1Q085LWtTTWxLZWppOUhrUGRWcGJKbmlRZlg3dVZOdElCNy1EZzR6a0Nsd05zQ2NEcm5kZVp5LW4xaGtlQ05xSU1R0gFsQVVfeXFMUGQ4YkxDYU52WjU0UkpOa1RaY1c3c3hqUkVWMGJHSDJsRU5jTEgzWC1BbjU2UUtNQ3BrU1ZPaTlzZUR0UzFxdnlNcjRneGFiWFIyLWFETkpyYjNQZmpYNWVSX3lwcnBzUWphNkdK?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-11-13",
+   "last_published": "2026-11-13",
+   "first_seen": "2026-11-13T16:18:19+09:00",
+   "last_seen": "2026-11-13T16:18:19+09:00",
+   "articles": [
+    {
+     "title": "“공항 라운지 100원·호텔 최대 20% 할인”…KB국민카드, 연말 해외여행 혜택 확대",
+     "outlet": "더게이트",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YWFZQanQ5azdJX0YyaHVXYXlfTWdubHR5UFVUSEM1Q085LWtTTWxLZWppOUhrUGRWcGJKbmlRZlg3dVZOdElCNy1EZzR6a0Nsd05zQ2NEcm5kZVp5LW4xaGtlQ05xSU1R0gFsQVVfeXFMUGQ4YkxDYU52WjU0UkpOa1RaY1c3c3hqUkVWMGJHSDJsRU5jTEgzWC1BbjU2UUtNQ3BrU1ZPaTlzZUR0UzFxdnlNcjRneGFiWFIyLWFETkpyYjNQZmpYNWVSX3lwcnBzUWphNkdK?oc=5",
+     "published": "2026-11-13"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-966d672ea5",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "KB국민카드, 연말연시 해외여행 혜택…항공·숙박 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-13",
+   "last_published": "2026-11-13",
+   "first_seen": "2026-11-13T16:18:19+09:00",
+   "last_seen": "2026-11-13T16:18:19+09:00",
+   "articles": [
+    {
+     "title": "KB국민카드, 연말연시 해외여행 혜택…항공·숙박 할인",
+     "outlet": "스페셜경제",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZZDdpR25MRUpSQnptR1NPLUVOejc4bDFWbVVwaVE1UmFUVXdGN2RhUndTeDhXMHJGZUpQSTR4T1NRdWFyTmY0cnZFUnJvLU5UMVFLUEJwVW9Tcm9aQ215NFUtOERQNEJlVXBGVA?oc=5",
+     "published": "2026-11-13"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-a2dcb0cf17",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "KB국민카드, 연말 해외여행 혜택 확대…호텔 최대 20% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "KB국민카드, 연말 해외여행 혜택 확대…호텔 최대 20% 할인",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kaHJyWGt1TmxKNDJyVjA2TzE2RjFqeUdBRzIzTVN5dVpRbkRnUXMwb1lROFI5R2xBTm81Q2pnVElXQW1pUE4xNXAySUFtcngwdEpqdkd4RXFINXdrTW51UExERE8xMFB1UTl2bFlNY3U?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-11-13",
+   "last_published": "2026-11-13",
+   "first_seen": "2026-11-13T16:18:19+09:00",
+   "last_seen": "2026-11-13T16:18:19+09:00",
+   "articles": [
+    {
+     "title": "KB국민카드, 연말 해외여행 혜택 확대…호텔 최대 20% 할인",
+     "outlet": "신아일보",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kaHJyWGt1TmxKNDJyVjA2TzE2RjFqeUdBRzIzTVN5dVpRbkRnUXMwb1lROFI5R2xBTm81Q2pnVElXQW1pUE4xNXAySUFtcngwdEpqdkd4RXFINXdrTW51UExERE8xMFB1UTl2bFlNY3U?oc=5",
      "published": "2026-11-13"
     }
    ],

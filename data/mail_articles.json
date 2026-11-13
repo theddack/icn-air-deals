@@ -1,5 +1,31 @@
 [
  {
+  "title": "홍콩익스프레스 홍콩행 편도총액 최저 89,600원부터",
+  "outlet": "홍콩익스프레스 메일",
+  "url": "https://www.hkexpress.com/ko-kr/#mail-fe5cac2087709bbc",
+  "published": "2026-11-13",
+  "first_seen": "2026-11-13T16:18:16+09:00",
+  "source": "mail",
+  "mail_id": "fe5cac2087709bbc",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.hkexpress.com/ko-kr/#mail-fe5cac2087709bbc",
+   "outlet": "홍콩익스프레스 메일",
+   "label": "본문",
+   "fields": {
+    "discount": "89,600원부터",
+    "origin": null,
+    "destination": "홍콩(HKG)"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
+ },
+ {
   "title": "스쿠트항공 올빼미 여행자라면, 싱가포르의 밤이 기다려요. 항공권 145,000원*부터",
   "outlet": "스쿠트항공 메일",
   "url": "https://www.flyscoot.com/ko#mail-9a0379213794f101",
