@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T02:44:33+09:00",
+ "generated_at": "2026-11-13T09:14:12+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1675,
+  "rss_items": 1664,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1903,
+  "outlet_items": 2019,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 8,
   "mail_new_articles": 0,
   "articles_with_summary": 52,
-  "articles": 729,
-  "new_articles": 4,
+  "articles": 731,
+  "new_articles": 2,
   "deals": 132
  },
  "deals": [
@@ -1421,7 +1421,7 @@
    ],
    "agencies": [],
    "event_name": "11월 더블 혜택 프로모션",
-   "headline": "트리니티항공, 수능 수험생 항공권 최대 25% 할인...동반 1인도 혜택",
+   "headline": "트리니티항공, 수능 수험생·동반 1인 항공권 최대 25% 할인",
    "sale_start": null,
    "sale_end": "2026-11-13",
    "travel_start": "2026-11-01",
@@ -1440,18 +1440,24 @@
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzX3lLdHI0TWZZSWd6YlJuSTlzOEkzQlR3M054d3ZqcnFmYVFmSWZRaVd4WUdNeFllRTR6SWlhbXZYWHNBREdWMUNIOFVlejZyUWRpMWw4NjJZWTh4ZlcxdjRYdms?oc=5"
     },
     "discount": {
-     "title": "트리니티항공, 수능 수험생 항공권 최대 25% 할인...동반 1인도 혜택",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBadG1aRkJ1QUh2cERRaFZPTWVoQmZhWlRQRnpzWjhPNkswUmtwSlM5cTNkMGtiSERmZ0VseklZdFM5RkZqXzNucHVCNWotY3N6X0VWRFRHNGlnQWdJMWRqX2M4SE12dmxZWXZ4YWU4a3lWUQ?oc=5"
+     "title": "트리니티항공, 수능 수험생·동반 1인 항공권 최대 25% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYQWRnNUh1dnItME1GcmVDM0JCZ2pHazNlMWcyLUJ0V21VLW82RnZVdEhRbXNmYlhrcDBGakdSOFJWZjZaTEl6cURzMnV5d3dMenZERjFTNW9nT0RESkE?oc=5"
     }
    },
    "from_icn": "unknown",
    "discount": "최대 25%",
    "verification": "news",
    "first_published": "2026-11-02",
-   "last_published": "2026-11-12",
+   "last_published": "2026-11-13",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-12T22:17:33+09:00",
+   "last_seen": "2026-11-13T09:14:12+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 수능 수험생·동반 1인 항공권 최대 25% 할인",
+     "outlet": "뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYQWRnNUh1dnItME1GcmVDM0JCZ2pHazNlMWcyLUJ0V21VLW82RnZVdEhRbXNmYlhrcDBGakdSOFJWZjZaTEl6cURzMnV5d3dMenZERjFTNW9nT0RESkE?oc=5",
+     "published": "2026-11-13"
+    },
     {
      "title": "트리니티항공, 수능 수험생 항공권 최대 25% 할인...동반 1인도 혜택",
      "outlet": "중앙이코노미뉴스",
