@@ -2615,30 +2615,6 @@
     "new": "2026-11-10"
    }
   },
-  "h-tripcom-97d71f7e15": {
-   "info": {
-    "airline": "h-tripcom",
-    "name": "1111메가세일",
-    "sale_start": "2026-11-11",
-    "sale_end": "2026-11-14",
-    "dests": [],
-    "last": "2026-11-11",
-    "urls": [
-     "79249f497a",
-     "9136641909",
-     "97d71f7e15",
-     "c29350487f",
-     "cd26e972a9",
-     "d1c545caa2",
-     "f8004940c1"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-09",
-    "upcoming_d1": "2026-11-10",
-    "start_today": "2026-11-11"
-   }
-  },
   "h-skyscanner-30e6478f61": {
    "info": {
     "airline": "h-skyscanner",
@@ -2659,24 +2635,6 @@
     "start_today": "2026-11-01",
     "closing_tomorrow": "2026-11-10",
     "closing_today": "2026-11-11"
-   }
-  },
-  "h-marriott-a06b6b2c0a": {
-   "info": {
-    "airline": "h-marriott",
-    "name": "",
-    "sale_start": "2026-11-14",
-    "sale_end": "2026-11-29",
-    "dests": [],
-    "last": "2026-11-05",
-    "urls": [
-     "2e3d2368d3",
-     "a06b6b2c0a"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-05",
-    "upcoming_d3": "2026-11-11"
    }
   },
   "h-agoda-3469523440": {
@@ -3144,6 +3102,262 @@
    "kinds": {
     "new": "2026-11-13"
    }
+  },
+  "h-tripcom-97d71f7e15": {
+   "info": {
+    "airline": "h-tripcom",
+    "name": "1111메가세일",
+    "sale_start": "2026-11-11",
+    "sale_end": "2026-11-14",
+    "dests": [],
+    "last": "2026-11-11",
+    "urls": [
+     "3fa43b8432",
+     "79249f497a",
+     "9136641909",
+     "97d71f7e15",
+     "c29350487f",
+     "cd26e972a9",
+     "cdbc02df52",
+     "d1c545caa2",
+     "f8004940c1"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09",
+    "upcoming_d1": "2026-11-10",
+    "start_today": "2026-11-11",
+    "closing_tomorrow": "2026-11-13"
+   }
+  },
+  "h-marriott-a06b6b2c0a": {
+   "info": {
+    "airline": "h-marriott",
+    "name": "",
+    "sale_start": "2026-11-14",
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-05",
+    "urls": [
+     "2e3d2368d3",
+     "a06b6b2c0a"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-05",
+    "upcoming_d3": "2026-11-11",
+    "upcoming_d1": "2026-11-13"
+   }
+  },
+  "hkexpress-e7365ad15a": {
+   "info": {
+    "airline": "hkexpress",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "홍콩"
+    ],
+    "last": "2026-11-13",
+    "urls": [
+     "e7365ad15a"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
+  },
+  "aerok-f5f38f8e73": {
+   "info": {
+    "airline": "aerok",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "f5f38f8e73"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
+  },
+  "h-other-c03053cf9a": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "c03053cf9a"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
+  },
+  "h-other-c9ed236899": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "c9ed236899"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
+  },
+  "h-other-59f5d68ef3": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "59f5d68ef3"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
+  },
+  "h-other-2d457e9243": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "2d457e9243"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
+  },
+  "h-other-16ac6d481e": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "16ac6d481e"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
+  },
+  "h-other-aa6f8afe5a": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "aa6f8afe5a"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
+  },
+  "h-other-24fd791df6": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "24fd791df6"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
+  },
+  "h-other-5eb973878c": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "5eb973878c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
+  },
+  "h-other-41b38712cf": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "41b38712cf"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
+  },
+  "h-other-966d672ea5": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "966d672ea5"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
+  },
+  "h-other-a2dcb0cf17": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "a2dcb0cf17"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
   }
  },
  "slots": {
@@ -3176,10 +3390,11 @@
    "evening": "sent"
   },
   "2026-11-13": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-13T09:18:52+09:00",
+ "saved_at": "2026-11-13T18:20:59+09:00",
  "drops_day": "2026-11-13",
  "drops": {
   "BKK": {
