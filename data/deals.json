@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T02:23:09+09:00",
+ "generated_at": "2026-11-14T09:14:04+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1688,
+  "rss_items": 1589,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1829,
+  "outlet_items": 1871,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 9,
   "mail_new_articles": 0,
   "articles_with_summary": 53,
-  "articles": 697,
-  "new_articles": 0,
-  "deals": 144
+  "articles": 700,
+  "new_articles": 3,
+  "deals": 147
  },
  "deals": [
   {
@@ -3832,6 +3832,58 @@
    "status": "undated"
   },
   {
+   "id": "h-other-71ce269568",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Save Up to 30% Off on Disneyland Resort Hotels in 2027",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Save Up to 30% Off on Disneyland Resort Hotels in 2027",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZUJCNmZTd3YyZ1FlSFJHYV9POElKX1BTSjVQMUk0aDd3aHoxMVdwQ2JUcWFpc2FlTFZkemhsUVFRV3hNOW1VdEtnTy1GcWIzSzlhVy1CWU9nVGlBUlFBZTVQUEp5MnJXRklUWmtGeUV2dUY1MzFDZnZxT2l0ejl0YnhvQXR1eVotdWl5VUhaNmZsZw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 30%",
+   "verification": "news",
+   "first_published": "2026-11-04",
+   "last_published": "2026-11-04",
+   "first_seen": "2026-11-14T09:14:04+09:00",
+   "last_seen": "2026-11-14T09:14:04+09:00",
+   "articles": [
+    {
+     "title": "Save Up to 30% Off on Disneyland Resort Hotels in 2027",
+     "outlet": "Disney Tourist Blog",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZUJCNmZTd3YyZ1FlSFJHYV9POElKX1BTSjVQMUk0aDd3aHoxMVdwQ2JUcWFpc2FlTFZkemhsUVFRV3hNOW1VdEtnTy1GcWIzSzlhVy1CWU9nVGlBUlFBZTVQUEp5MnJXRklUWmtGeUV2dUY1MzFDZnZxT2l0ejl0YnhvQXR1eVotdWl5VUhaNmZsZw?oc=5",
+     "published": "2026-11-04"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "jejuair-90782140e1",
    "airline_id": "jejuair",
    "airline": "제주항공",
@@ -6130,6 +6182,55 @@
    "status": "undated"
   },
   {
+   "id": "jinair-0bc57580f8",
+   "airline_id": "jinair",
+   "airline": "진에어",
+   "airlines_mentioned": [
+    "진에어"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.jinair.com/",
+   "iata": [
+    "LJ"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "진에어 블프 특가 지금 잡으세요",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-13",
+   "last_published": "2026-11-13",
+   "first_seen": "2026-11-14T09:14:04+09:00",
+   "last_seen": "2026-11-14T09:14:04+09:00",
+   "articles": [
+    {
+     "title": "진에어 블프 특가 지금 잡으세요",
+     "outlet": "판다랭크",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAycDVQUktkN0pLS3hBSEdpdFA3QllQanB3ckdjZV9Qb3ZjMlU2YkczQ2xrYktIdVZFdFBqV0dyY2J2Tm1kTmZB?oc=5",
+     "published": "2026-11-13"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "hkexpress-e7365ad15a",
    "airline_id": "hkexpress",
    "airline": "홍콩익스프레스",
@@ -6740,6 +6841,53 @@
      "outlet": "신아일보",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kaHJyWGt1TmxKNDJyVjA2TzE2RjFqeUdBRzIzTVN5dVpRbkRnUXMwb1lROFI5R2xBTm81Q2pnVElXQW1pUE4xNXAySUFtcngwdEpqdkd4RXFINXdrTW51UExERE8xMFB1UTl2bFlNY3U?oc=5",
      "published": "2026-11-13"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-5e31bd2946",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Black Friday and Cyber Monday travel deals at hotels and resorts across New England",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-14",
+   "last_published": "2026-11-14",
+   "first_seen": "2026-11-14T09:14:04+09:00",
+   "last_seen": "2026-11-14T09:14:04+09:00",
+   "articles": [
+    {
+     "title": "Black Friday and Cyber Monday travel deals at hotels and resorts across New England",
+     "outlet": "Boston.com",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNXlqMWRDRWtDdTU0UFFHTUo4eHlvakpMRHdDNDdldUFSQ2hxOHRwN3poMzctdzB2T2h3ZVVscDJWbktTQVhTZlV3Rmk4UEk0YUZYOV9KUW95T2pXaGVaaEdtcnNjM3VQN2UtRDU1RFIxNHFiMWdxQ0tsenB3RVJYVmFYdndSMk9DRWRodklneFpremg1TW52d0c4UGI3azNKSFUtczUwaWVDSXFKcHNPdzFrT3d6TjQ1QlY0MXJJX0FHZi1rcVQxRWh3WjlxYTJEUTlhVHQtNC1jVU5X?oc=5",
+     "published": "2026-11-14"
     }
    ],
    "status": "undated"
