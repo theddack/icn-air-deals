@@ -3073,52 +3073,6 @@
     "new": "2026-11-13"
    }
   },
-  "h-tripcom-97d71f7e15": {
-   "info": {
-    "airline": "h-tripcom",
-    "name": "1111메가세일",
-    "sale_start": "2026-11-11",
-    "sale_end": "2026-11-14",
-    "dests": [],
-    "last": "2026-11-11",
-    "urls": [
-     "3fa43b8432",
-     "79249f497a",
-     "9136641909",
-     "97d71f7e15",
-     "c29350487f",
-     "cd26e972a9",
-     "cdbc02df52",
-     "d1c545caa2",
-     "f8004940c1"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-09",
-    "upcoming_d1": "2026-11-10",
-    "start_today": "2026-11-11",
-    "closing_tomorrow": "2026-11-13"
-   }
-  },
-  "h-marriott-a06b6b2c0a": {
-   "info": {
-    "airline": "h-marriott",
-    "name": "",
-    "sale_start": "2026-11-14",
-    "sale_end": "2026-11-29",
-    "dests": [],
-    "last": "2026-11-05",
-    "urls": [
-     "2e3d2368d3",
-     "a06b6b2c0a"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-05",
-    "upcoming_d3": "2026-11-11",
-    "upcoming_d1": "2026-11-13"
-   }
-  },
   "hkexpress-e7365ad15a": {
    "info": {
     "airline": "hkexpress",
@@ -3353,13 +3307,105 @@
     "closing_tomorrow": "2026-11-07",
     "closing_today": "2026-11-08"
    }
+  },
+  "h-marriott-a06b6b2c0a": {
+   "info": {
+    "airline": "h-marriott",
+    "name": "",
+    "sale_start": "2026-11-14",
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-05",
+    "urls": [
+     "2e3d2368d3",
+     "a06b6b2c0a"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-05",
+    "upcoming_d3": "2026-11-11",
+    "upcoming_d1": "2026-11-13",
+    "start_today": "2026-11-14"
+   }
+  },
+  "h-tripcom-97d71f7e15": {
+   "info": {
+    "airline": "h-tripcom",
+    "name": "1111메가세일",
+    "sale_start": "2026-11-11",
+    "sale_end": "2026-11-14",
+    "dests": [],
+    "last": "2026-11-11",
+    "urls": [
+     "3fa43b8432",
+     "79249f497a",
+     "9136641909",
+     "97d71f7e15",
+     "c29350487f",
+     "cd26e972a9",
+     "cdbc02df52",
+     "d1c545caa2",
+     "f8004940c1"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-09",
+    "upcoming_d1": "2026-11-10",
+    "start_today": "2026-11-11",
+    "closing_tomorrow": "2026-11-13",
+    "closing_today": "2026-11-14"
+   }
+  },
+  "h-other-71ce269568": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-04",
+    "urls": [
+     "71ce269568"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-14"
+   }
+  },
+  "jinair-0bc57580f8": {
+   "info": {
+    "airline": "jinair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "0bc57580f8"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-14"
+   }
+  },
+  "h-other-5e31bd2946": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-14",
+    "urls": [
+     "5e31bd2946"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-14"
+   }
   }
  },
  "slots": {
-  "2026-11-06": {
-   "morning": "sent",
-   "evening": "sent"
-  },
   "2026-11-07": {
    "morning": "sent",
    "evening": "sent"
@@ -3387,10 +3433,13 @@
   "2026-11-13": {
    "morning": "sent",
    "evening": "sent"
+  },
+  "2026-11-14": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-11-14T02:28:04+09:00",
- "drops_day": "2026-11-13",
+ "saved_at": "2026-11-14T09:19:28+09:00",
+ "drops_day": "2026-11-14",
  "drops": {
   "BKK": {
    "price": 411600,
@@ -3403,6 +3452,10 @@
   "RMQ": {
    "price": 365100,
    "date": "2026-11-07"
+  },
+  "MDC": {
+   "price": 245000,
+   "date": "2026-11-14"
   }
  },
  "weekly": "2026-11-08"
