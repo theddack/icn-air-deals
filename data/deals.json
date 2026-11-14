@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T18:16:06+09:00",
+ "generated_at": "2026-11-14T22:17:31+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,17 +10,17 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1624,
+  "rss_items": 1621,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1717,
+  "outlet_items": 1706,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 9,
   "mail_new_articles": 0,
   "articles_with_summary": 53,
-  "articles": 703,
+  "articles": 704,
   "new_articles": 1,
   "deals": 149
  },
@@ -8927,7 +8927,7 @@
    "official_url": null,
    "iata": [],
    "agencies": [],
-   "event_name": "2026 가평군 숙박세일 페스타",
+   "event_name": "숙박세일페스타",
    "headline": "‘여름 숙박세일 페스타’로 지역관광 활성화 나선다",
    "sale_start": "2026-09-22",
    "sale_end": "2026-11-08",
@@ -8959,7 +8959,7 @@
    "first_published": "2026-10-01",
    "last_published": "2026-10-24",
    "first_seen": "2026-10-15T13:00:04+09:00",
-   "last_seen": "2026-10-26T09:21:46+09:00",
+   "last_seen": "2026-11-14T22:17:31+09:00",
    "articles": [
     {
      "title": "‘여름 숙박세일 페스타’로 지역관광 활성화 나선다",
@@ -8971,6 +8971,12 @@
      "title": "단풍을 눈에 가득 담을 수 있는 곳🍁 '숙박세일페스타'로 떠나자🍂 : 네이버 블로그",
      "outlet": "Naver Blog",
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbllKOGEwX3RITFE4N0tYSkFtMGhJTFA0cjNVd05KdDFBWFVSRDljdTZ0VHNRY3VoVFlleWZ4WVR0b0JIaVYxV1l4TWJ6OVBuWXd1QngwdlJmeTdIQmpQbTdoSl9sSDZjV25fUldLc2lJYUhBT0RUcm1QUlhZMlU1eA?oc=5",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "단풍을 눈에 가득 담을 수 있는 곳🍁 '숙박세일페스타'로 떠나자🍂",
+     "outlet": "블로그",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY09DbUhqSnhkb09UT2hkRTRzVjN1dU5TUy13dzBZX2ZxUGx2UEdaLTlRNktPYjlfSDR4TzFQdkhSUDdXQWdRajBPRS03dGVMTWdXcXpiTkREc3kyUW4ycl9uYkowTEsybk5FZ2hlVUNVMi0xanhhelhCZFJLdmY5Mg?oc=5",
      "published": "2026-10-21"
     },
     {
