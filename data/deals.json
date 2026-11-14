@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T09:14:04+09:00",
+ "generated_at": "2026-11-14T13:18:19+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1589,
+  "rss_items": 1579,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1871,
+  "outlet_items": 1834,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 9,
   "mail_new_articles": 0,
   "articles_with_summary": 53,
-  "articles": 700,
-  "new_articles": 3,
-  "deals": 147
+  "articles": 702,
+  "new_articles": 2,
+  "deals": 148
  },
  "deals": [
   {
@@ -5118,7 +5118,7 @@
    "first_published": "2026-11-08",
    "last_published": "2026-11-10",
    "first_seen": "2026-11-08T09:14:08+09:00",
-   "last_seen": "2026-11-10T09:14:15+09:00",
+   "last_seen": "2026-11-14T13:18:19+09:00",
    "articles": [
     {
      "title": "필리핀항공, '2026 Year End Seat Sale'…인천·부산 출발편 할인",
@@ -5130,6 +5130,12 @@
      "title": "필리핀항공, 연말 맞아 항공권 특가…‘2026 Year End Seat Sale’ 프로모션 실시",
      "outlet": "한국일보",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqdjFVSElJWnRhYURaWUdib3NjbEo4aXRuYVdaemR3MXpQZGw4S1JweHRiWEU2ekQ2OWhsYkpjbzZWNzhkUVA3R3l5ZlFFLXVwZ1RkeEZCN2VhTXNZcHdzbV9Jc3gySXFQV0o5c2l2Z2JQSzDSAXNBVV95cUxQanYxVUhJSVp0YWFEWllHYm9zY2xKOGl0bmFXWnpkdzF6UGRsOEtScHh0YlhFNnpENjlobGJKY282Vjc4ZFFQN0d5eWZRRS11cGdUZHhGQjdlYU1zWXB3c21fSXN4MklxUFdKOXNpdmdiUEsw?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "필리핀항공, 연말 맞아 항공권 특가",
+     "outlet": "한국일보",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TZjRpYkZYREFBN3JseHZ2MUtkWEdKRFEzMHY5azRmdHF6SUJnM21IdmtaQnNBNnI3TDkza3p1eUlLR2dJT0NyWXJmaHhEVm1jdDZQakJTVnY1dUxGYXZoM3pFcW54M0RLZG1UM1ln0gFzQVVfeXFMUGp2MVVISUladGFhRFpZR2Jvc2NsSjhpdG5hV1p6ZHcxelBkbDhLUnB4dGJYRTZ6RDY5aGxiSmNvNlY3OGRRUDdHeXlmUUUtdXBnVGR4RkI3ZWFNc1lwd3NtX0lzeDJJcVBXSjlzaXZnYlBLMA?oc=5",
      "published": "2026-11-09"
     },
     {
@@ -6887,6 +6893,58 @@
      "title": "Black Friday and Cyber Monday travel deals at hotels and resorts across New England",
      "outlet": "Boston.com",
      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNXlqMWRDRWtDdTU0UFFHTUo4eHlvakpMRHdDNDdldUFSQ2hxOHRwN3poMzctdzB2T2h3ZVVscDJWbktTQVhTZlV3Rmk4UEk0YUZYOV9KUW95T2pXaGVaaEdtcnNjM3VQN2UtRDU1RFIxNHFiMWdxQ0tsenB3RVJYVmFYdndSMk9DRWRodklneFpremg1TW52d0c4UGI3azNKSFUtczUwaWVDSXFKcHNPdzFrT3d6TjQ1QlY0MXJJX0FHZi1rcVQxRWh3WjlxYTJEUTlhVHQtNC1jVU5X?oc=5",
+     "published": "2026-11-14"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-d8b9df9084",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "KB국민카드, 연말연시 해외여행 혜택…호텔 최대 20% 할인·공항 라운지 100원",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "KB국민카드, 연말연시 해외여행 혜택…호텔 최대 20% 할인·공항 라운지 100원",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rc3FYWUtXaFktanVFaWFLaWFMN0pqNHFwZE4tLUtCNUNvRUhlV2dHUk1mY2FGa0hSQTlVS1N1b25pWVoxaDdKOXR1VWtmS05wSldMOTNNLUUxRVNwQmpJbGUxaTRKd0XSAWtBVV95cUxNNVg5RlRoMHpFa2dZdTZqRjBJQ2JYLXZnNnpwa3pISmhJNHFZbHZhWEZBVzlFNC0zdjFZSkRFbnpOMk9aT1l6cm5nbWNDM3NJNThTZVdyQldsNXF6TlBYVzlQVmpmTEJIeEF5SQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-11-14",
+   "last_published": "2026-11-14",
+   "first_seen": "2026-11-14T13:18:19+09:00",
+   "last_seen": "2026-11-14T13:18:19+09:00",
+   "articles": [
+    {
+     "title": "KB국민카드, 연말연시 해외여행 혜택…호텔 최대 20% 할인·공항 라운지 100원",
+     "outlet": "금융계",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rc3FYWUtXaFktanVFaWFLaWFMN0pqNHFwZE4tLUtCNUNvRUhlV2dHUk1mY2FGa0hSQTlVS1N1b25pWVoxaDdKOXR1VWtmS05wSldMOTNNLUUxRVNwQmpJbGUxaTRKd0XSAWtBVV95cUxNNVg5RlRoMHpFa2dZdTZqRjBJQ2JYLXZnNnpwa3pISmhJNHFZbHZhWEZBVzlFNC0zdjFZSkRFbnpOMk9aT1l6cm5nbWNDM3NJNThTZVdyQldsNXF6TlBYVzlQVmpmTEJIeEF5SQ?oc=5",
      "published": "2026-11-14"
     }
    ],
