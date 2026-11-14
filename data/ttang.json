@@ -1,6 +1,6 @@
 {
- "fetched_on": "2026-11-14",
- "fetched_at": "2026-11-14T02:27+09:00",
+ "fetched_on": "2026-11-15",
+ "fetched_at": "2026-11-15T01:11+09:00",
  "source": "https://www.ttang.com/ttangair/search/ttang/list.do?arr0=A2ALL&dep0=ICN&orderBy=LOW_COST",
  "items": [
   {
@@ -21,20 +21,9 @@
    "airline_code": "TW",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-11-27",
+   "depart_from": "2026-11-29",
    "depart_to": "2027-02-28",
    "price": 240000
-  },
-  {
-   "destination": "마나도(인도네시아)",
-   "dest_code": "MDC",
-   "airline": "이스타항공",
-   "airline_code": "ZE",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-11-20",
-   "depart_to": "2027-03-26",
-   "price": 245000
   },
   {
    "destination": "나트랑(깜란)",
@@ -45,7 +34,7 @@
    "trip": "roundtrip",
    "depart_from": "2026-11-23",
    "depart_to": "2027-02-28",
-   "price": 259000
+   "price": 279000
   },
   {
    "destination": "다낭",
@@ -54,7 +43,7 @@
    "airline_code": "TW",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-01",
+   "depart_from": "2026-12-03",
    "depart_to": "2027-02-22",
    "price": 283300
   },
@@ -142,7 +131,7 @@
    "airline_code": "TW",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-01",
+   "depart_from": "2026-12-04",
    "depart_to": "2027-02-22",
    "price": 337500
   },
@@ -307,7 +296,7 @@
    "airline_code": "TW",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-04",
+   "depart_from": "2026-12-06",
    "depart_to": "2027-03-24",
    "price": 372000
   },
@@ -332,6 +321,17 @@
    "depart_from": "2026-12-05",
    "depart_to": "2026-12-20",
    "price": 374500
+  },
+  {
+   "destination": "마나도(인도네시아)",
+   "dest_code": "MDC",
+   "airline": "이스타항공",
+   "airline_code": "ZE",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-11-21",
+   "depart_to": "2027-03-26",
+   "price": 375000
   },
   {
    "destination": "나트랑(깜란)",

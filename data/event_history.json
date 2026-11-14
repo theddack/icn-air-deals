@@ -100,6 +100,13 @@
    "sale_start": "2026-10-30",
    "sale_end": "2026-11-15"
   },
+  "h-marriott|2026-11-13|marriottbonvoyupto35offm": {
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "name": "Marriott Bonvoy Up To 35% Off Mexico “El Buen Fin” Sale For ",
+   "sale_start": "2026-11-13",
+   "sale_end": "2027-03-31"
+  },
   "h-marriott|2026-11-14|marriottweekendsale20off": {
    "airline_id": "h-marriott",
    "airline": "메리어트",

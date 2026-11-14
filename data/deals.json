@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T22:17:31+09:00",
+ "generated_at": "2026-11-15T01:07:00+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1621,
+  "rss_items": 1617,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1706,
+  "outlet_items": 1594,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 9,
   "mail_new_articles": 0,
   "articles_with_summary": 53,
-  "articles": 704,
+  "articles": 699,
   "new_articles": 1,
-  "deals": 149
+  "deals": 150
  },
  "deals": [
   {
@@ -942,116 +942,6 @@
    "status": "live"
   },
   {
-   "id": "h-tripcom-97d71f7e15",
-   "airline_id": "h-tripcom",
-   "airline": "트립닷컴",
-   "airlines_mentioned": [
-    "트립닷컴"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://kr.trip.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "11.11 메가세일",
-   "headline": "트립닷컴 11.11 메가세일, 1100원 항공권 오전 11시 시작",
-   "sale_start": "2026-11-11",
-   "sale_end": "2026-11-14",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "제주",
-    "도쿄",
-    "일본"
-   ],
-   "conditions": [
-    "앱 예약"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "트립닷컴 할인코드 메가세일11월 14일까지 해외 항공권 호텔 특가 정리",
-     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9KWThVNkxQSW9CSzI3bzhWV2F3VFpaQWs5am91NEkyYlR0UU9FTVYxYmJMVTNXNWV0c0wyNFU1NDFfenRsTVpV?oc=5"
-    },
-    "discount": {
-     "title": "트립닷컴, '11.11 메가세일'…항공권 1100원·호텔 1만9000원부터",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HSFNjVDlxUURYbzRPU0YweXZqMlVsTUJJaTBmRDdfekVYNGZPXzNDQldLVFhvSU5DcUZfZHdZbGstbHU5OEFacE52YlAzWmp3WVI5d1p3VW5nYzhhRm42VmNFSmRGZw?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "1만9000원부터",
-   "verification": "news",
-   "first_published": "2026-11-09",
-   "last_published": "2026-11-11",
-   "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-11T22:17:38+09:00",
-   "articles": [
-    {
-     "title": "트립닷컴 11.11 메가세일, 1100원 항공권 오전 11시 시작",
-     "outlet": "www.diarypoint.com",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MQmJZOFBTQy1oMDlRUm5qcF9WeFRsR3VaNHF6X3NPbkFPdHBQaUJjakN2aFNBNjN6WFQtdHF4N3BnRGZSVnJEamxTdnV0OUdlN0JWMEZNNk1NUkpXT2ppOHZDZzNIclF4X25n?oc=5",
-     "published": "2026-11-11"
-    },
-    {
-     "title": "트립닷컴 할인코드 메가세일11월 14일까지 해외 항공권 호텔 특가 정리",
-     "outlet": "판다랭크",
-     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9KWThVNkxQSW9CSzI3bzhWV2F3VFpaQWs5am91NEkyYlR0UU9FTVYxYmJMVTNXNWV0c0wyNFU1NDFfenRsTVpV?oc=5",
-     "published": "2026-11-11"
-    },
-    {
-     "title": "[속보] \"제주 일본 항공권 1만 원대\"… 트립닷컴 '메가세일' 첫날부터 앱 먹통",
-     "outlet": "국제뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqYXlUQXMwRXd4dHJqYlJjbkttYS1NZzk5RGRaQXNKMDBZY1NaMWFkMHpCM3pua21ZdGJKbTJnd29ZOWhUTU93TVM5MWxxZk1VaVJDbi1wVGtIRnl6SEYxRUphVFlUazZWY1prZjNB?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
-     "outlet": "뉴스탭",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hNWc0TG9nWUdCTUhtenpQS1FyX0J2Y2w3bWlHR0NWS3A5VzZfaEZqTDh5akJraXdaRldIZi1DQU5hY0lvNGlnRDZPVmZyVW5CdjIydUVubTcza1d0QjlJUVMtWkZWZk5hX3NRYw?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "트립닷컴, 11.11 메가세일 시작…제주·도쿄 항공권 1,100원 특가",
-     "outlet": "스타트업엔(StartupN)",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mSklRZWw5Z25nUklGeFoxQW5mbWJfLUhzYUVmODV3UkpnU0w5aWtOUWFoSVVOcHJlQXBzM05FR21ubjhoejRMLXdYWEIwcExOQ2t6b19BbHpldHZIdWpxWEpmM25vakJX0gFsQVVfeXFMTm5fUWlENlREckxvUUZUcDZjc1FMZy1lbVREX0kybXNTeV9fVWZzbktPYVB0ZEdFRjF6aTVENFdvNGVIRFIwaXd6STNpNWNpakI3Znk2WDBrR3EyaUhJVUh3SFNMcHo2QVJYeFFO?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "트립닷컴, '11.11 메가세일'…항공권 1100원·호텔 1만9000원부터",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HSFNjVDlxUURYbzRPU0YweXZqMlVsTUJJaTBmRDdfekVYNGZPXzNDQldLVFhvSU5DcUZfZHdZbGstbHU5OEFacE52YlAzWmp3WVI5d1p3VW5nYzhhRm42VmNFSmRGZw?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "제주 왕복 항공권이 1000원대?…트립닷컴, 11일부터 나흘간 특가 판매",
-     "outlet": "아주경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11N3dIWFZKNXpGcXJmY3pCaW9qY0lrRXd6Nkd5VG94ZGdjMXY1TnYwcFNLR3dBNTIzWlVsVTYxdVJhaWdFUHJVSGNxYUlvSkw0bVNGazFlbVJ2Z9IBWEFVX3lxTE1UVjVBcWk5TmZHTHhBMjNaeDUzZ0pxZThYVGhxRFBOdzF1NFh5Uk5BWnJSTWY0czJybW10cDZOMkpwN0ZYWVdlbmEtZkNpcFdlNWtVZ3BQM0E?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "제주 왕복 항공권을 1100원에…트립닷컴 ‘11.11 메가세일’",
-     "outlet": "헤럴드경제",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2dDB2Y3lOQW5DWHlJRGpBQnpnMW13NVVZWWpZYTE5aEtuYkcyek11NkVKZjVxN25odGxhLURFTXJFb2pXeDNEMW5zWTBsbWVpcjY2MURB?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "트립닷컴, '11.11 메가세일'…1100원 특가 항공권 깜짝딜",
-     "outlet": "브레이크뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBmb0lTMlFSTEV6UnBqUW1OdWxTNkloQjBiX1Z1YzlORVNOVDk1TWVpZHpqOGl0QmZWUl9YamFuODE2Zw?oc=5",
-     "published": "2026-11-09"
-    }
-   ],
-   "status": "live"
-  },
-  {
    "id": "trinity-86641eb932",
    "airline_id": "trinity",
    "airline": "트리니티항공",
@@ -1185,6 +1075,64 @@
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9YOEp0U3htalh5YXpuVUlOclB0dnBmZ1haZnNXNmFFanc1T0Z5SVpWVWdGcUQwaHVCYWpGZWx4SzlDZnI2aWl5RkppcEZLa3BZcW1PUmtNUlpQZ0p6U3lyNkZVcWhtQQ?oc=5",
      "published": "2026-11-12"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-marriott-9a3432359a",
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "airlines_mentioned": [
+    "메리어트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Marriott Bonvoy Up To 35% Off Mexico “El Buen Fin” Sale For Stays November 13 – March 31, 2027 (Book By November 17)",
+   "sale_start": "2026-11-13",
+   "sale_end": "2027-03-31",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "멕시코"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "Marriott Bonvoy Up To 35% Off Mexico “El Buen Fin” Sale For Stays November 13 – March 31, 2027 (Book By November 17)",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeDNzV1BmRTN0WDlkN0c5M182N3BjQ3BQVlVLdUxCVnVUWHBHVlRtVTA4N0ZTZkw0VW5tX0l6YzVjUWh0R1VLdTJxRmQtZ2JJcmdmMWNNbm55UHJuejYyc2hFUU5LNVBOUDIxZG5SS2V1bjlBa0JvSjFaZkhVai01VmkxcWJ0Y18xT3NhNzFBdlMyYzk4b01oQm8zdXB5ejhidXd6Z0tfeDRkdmU2YkdsaVVQaGFmUXdPay1TbVdVZ3hSSVJqYjBianNWRm5NbmxkeER2ZDZmX29oM3pQcXc?oc=5"
+    },
+    "discount": {
+     "title": "Marriott Bonvoy Up To 35% Off Mexico “El Buen Fin” Sale For Stays November 13 – March 31, 2027 (Book By November 17)",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeDNzV1BmRTN0WDlkN0c5M182N3BjQ3BQVlVLdUxCVnVUWHBHVlRtVTA4N0ZTZkw0VW5tX0l6YzVjUWh0R1VLdTJxRmQtZ2JJcmdmMWNNbm55UHJuejYyc2hFUU5LNVBOUDIxZG5SS2V1bjlBa0JvSjFaZkhVai01VmkxcWJ0Y18xT3NhNzFBdlMyYzk4b01oQm8zdXB5ejhidXd6Z0tfeDRkdmU2YkdsaVVQaGFmUXdPay1TbVdVZ3hSSVJqYjBianNWRm5NbmxkeER2ZDZmX29oM3pQcXc?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 35%",
+   "verification": "news",
+   "first_published": "2026-11-14",
+   "last_published": "2026-11-14",
+   "first_seen": "2026-11-15T01:07:00+09:00",
+   "last_seen": "2026-11-15T01:07:00+09:00",
+   "articles": [
+    {
+     "title": "Marriott Bonvoy Up To 35% Off Mexico “El Buen Fin” Sale For Stays November 13 – March 31, 2027 (Book By November 17)",
+     "outlet": "LoyaltyLobby",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeDNzV1BmRTN0WDlkN0c5M182N3BjQ3BQVlVLdUxCVnVUWHBHVlRtVTA4N0ZTZkw0VW5tX0l6YzVjUWh0R1VLdTJxRmQtZ2JJcmdmMWNNbm55UHJuejYyc2hFUU5LNVBOUDIxZG5SS2V1bjlBa0JvSjFaZkhVai01VmkxcWJ0Y18xT3NhNzFBdlMyYzk4b01oQm8zdXB5ejhidXd6Z0tfeDRkdmU2YkdsaVVQaGFmUXdPay1TbVdVZ3hSSVJqYjBianNWRm5NbmxkeER2ZDZmX29oM3pQcXc?oc=5",
+     "published": "2026-11-14"
     }
    ],
    "status": "live"
@@ -2254,110 +2202,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "h-hilton-6012143f61",
-   "airline_id": "h-hilton",
-   "airline": "힐튼",
-   "airlines_mentioned": [
-    "힐튼"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Hilton's Stay Longer discount is perfect for holiday travel: save 10% on your next extended stay",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Hilton's Stay Longer discount is perfect for holiday travel: save 10% on your next extended stay",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcndyWmdIdUh3SlZEZGhVR20xWGF3djlqa1RTbHhjZHNySXNTYjJlMjFDbjdwV0ZNOVhQSHd4R1Q3SEV1Y2VOVF83UzFteHJwNTVvRkNUMDBYcDlkM05pUzRTNkpZSkpxRUE1cF9wLUg5TERuZzZFWnRkZnN3TllmREpZNVdnRk9xU25JNE4xbTc5NjNaR2tQZGVwTHY3bzczNEZ5QV9Uc3pRNDlBbzgyeVRWMzNLZmhrY1RuMWo0N3hxYUg5cU42bXFCc3JSc0ktc0VRWkhMdw?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "10% 할인",
-   "verification": "news",
-   "first_published": "2026-10-31",
-   "last_published": "2026-10-31",
-   "first_seen": "2026-11-03T22:17:33+09:00",
-   "last_seen": "2026-11-03T22:17:33+09:00",
-   "articles": [
-    {
-     "title": "Hilton's Stay Longer discount is perfect for holiday travel: save 10% on your next extended stay",
-     "outlet": "Tom's Guide",
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcndyWmdIdUh3SlZEZGhVR20xWGF3djlqa1RTbHhjZHNySXNTYjJlMjFDbjdwV0ZNOVhQSHd4R1Q3SEV1Y2VOVF83UzFteHJwNTVvRkNUMDBYcDlkM05pUzRTNkpZSkpxRUE1cF9wLUg5TERuZzZFWnRkZnN3TllmREpZNVdnRk9xU25JNE4xbTc5NjNaR2tQZGVwTHY3bzczNEZ5QV9Uc3pRNDlBbzgyeVRWMzNLZmhrY1RuMWo0N3hxYUg5cU42bXFCc3JSc0ktc0VRWkhMdw?oc=5",
-     "published": "2026-10-31"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-hyatt-51c07de753",
-   "airline_id": "h-hyatt",
-   "airline": "하얏트",
-   "airlines_mentioned": [
-    "하얏트"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "World of Hyatt Promo: Save up to 25% on paid stays at properties worldwide",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "World of Hyatt Promo: Save up to 25% on paid stays at properties worldwide",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTUlzYTRTb3Y2RHp3Qm83X0dFR0tTa3JPaWM0cWJKOVdJd0x2V0xZbEVxZWtJTUR1N21qRzRNcEQ2T3J1YmRRTy1aZGpUZkN5MHY5ZFJaRnFQM0VBN3BVbkktWmg0UUl4UnZFUlFmb09YX28yMF9PZzh2NFpRdDdRVkVfdHVzUFc5WWZKY1M3SjV3Q3F6dk9JTmF2UUdicTlh?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 25%",
-   "verification": "news",
-   "first_published": "2026-10-31",
-   "last_published": "2026-10-31",
-   "first_seen": "2026-10-31T09:14:05+09:00",
-   "last_seen": "2026-10-31T09:14:05+09:00",
-   "articles": [
-    {
-     "title": "World of Hyatt Promo: Save up to 25% on paid stays at properties worldwide",
-     "outlet": "Frequent Miler",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTUlzYTRTb3Y2RHp3Qm83X0dFR0tTa3JPaWM0cWJKOVdJd0x2V0xZbEVxZWtJTUR1N21qRzRNcEQ2T3J1YmRRTy1aZGpUZkN5MHY5ZFJaRnFQM0VBN3BVbkktWmg0UUl4UnZFUlFmb09YX28yMF9PZzh2NFpRdDdRVkVfdHVzUFc5WWZKY1M3SjV3Q3F6dk9JTmF2UUdicTlh?oc=5",
-     "published": "2026-10-31"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "airpremia-b1d6c87d91",
@@ -6188,55 +6032,6 @@
    "status": "undated"
   },
   {
-   "id": "jinair-0bc57580f8",
-   "airline_id": "jinair",
-   "airline": "진에어",
-   "airlines_mentioned": [
-    "진에어"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.jinair.com/",
-   "iata": [
-    "LJ"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "진에어 블프 특가 지금 잡으세요",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-13",
-   "last_published": "2026-11-13",
-   "first_seen": "2026-11-14T09:14:04+09:00",
-   "last_seen": "2026-11-14T09:14:04+09:00",
-   "articles": [
-    {
-     "title": "진에어 블프 특가 지금 잡으세요",
-     "outlet": "판다랭크",
-     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAycDVQUktkN0pLS3hBSEdpdFA3QllQanB3ckdjZV9Qb3ZjMlU2YkczQ2xrYktIdVZFdFBqV0dyY2J2Tm1kTmZB?oc=5",
-     "published": "2026-11-13"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "hkexpress-e7365ad15a",
    "airline_id": "hkexpress",
    "airline": "홍콩익스프레스",
@@ -6294,6 +6089,55 @@
      "title": "홍콩익스프레스 홍콩행 편도총액 최저 89,600원부터",
      "outlet": "홍콩익스프레스 메일",
      "url": "https://www.hkexpress.com/ko-kr/#mail-fe5cac2087709bbc",
+     "published": "2026-11-13"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "jinair-0bc57580f8",
+   "airline_id": "jinair",
+   "airline": "진에어",
+   "airlines_mentioned": [
+    "진에어"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.jinair.com/",
+   "iata": [
+    "LJ"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "진에어 블프 특가 지금 잡으세요",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-13",
+   "last_published": "2026-11-13",
+   "first_seen": "2026-11-14T09:14:04+09:00",
+   "last_seen": "2026-11-14T09:14:04+09:00",
+   "articles": [
+    {
+     "title": "진에어 블프 특가 지금 잡으세요",
+     "outlet": "판다랭크",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAycDVQUktkN0pLS3hBSEdpdFA3QllQanB3ckdjZV9Qb3ZjMlU2YkczQ2xrYktIdVZFdFBqV0dyY2J2Tm1kTmZB?oc=5",
      "published": "2026-11-13"
     }
    ],
@@ -7894,58 +7738,6 @@
    "status": "stale"
   },
   {
-   "id": "h-tripcom-7bb2e85132",
-   "airline_id": "h-tripcom",
-   "airline": "트립닷컴",
-   "airlines_mentioned": [
-    "트립닷컴"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://kr.trip.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "트립닷컴 - 올인원 여행 동반자",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "트립닷컴 메일 본문",
-     "url": "https://kr.trip.com/#mail-0c0c3edf72a2c799"
-    }
-   },
-   "from_icn": null,
-   "discount": "10% 할인",
-   "verification": "official",
-   "first_published": "2026-10-25",
-   "last_published": "2026-10-25",
-   "first_seen": "2026-10-27T10:47:00+09:00",
-   "last_seen": "2026-10-27T10:47:00+09:00",
-   "articles": [
-    {
-     "title": "트립닷컴 - 올인원 여행 동반자",
-     "outlet": "트립닷컴 메일",
-     "url": "https://kr.trip.com/#mail-0c0c3edf72a2c799",
-     "published": "2026-10-25"
-    }
-   ],
-   "status": "stale"
-  },
-  {
    "id": "h-kayak-3e90d9f371",
    "airline_id": "h-kayak",
    "airline": "카약",
@@ -8001,6 +7793,58 @@
      "title": "카약 인천발 오사카행 이동하는 항공편, 224,867원부터 시작합니다.",
      "outlet": "카약 메일",
      "url": "https://www.kayak.co.kr/#mail-8a53ffb151c5a58a",
+     "published": "2026-10-25"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-tripcom-7bb2e85132",
+   "airline_id": "h-tripcom",
+   "airline": "트립닷컴",
+   "airlines_mentioned": [
+    "트립닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://kr.trip.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "트립닷컴 - 올인원 여행 동반자",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "트립닷컴 메일 본문",
+     "url": "https://kr.trip.com/#mail-0c0c3edf72a2c799"
+    }
+   },
+   "from_icn": null,
+   "discount": "10% 할인",
+   "verification": "official",
+   "first_published": "2026-10-25",
+   "last_published": "2026-10-25",
+   "first_seen": "2026-10-27T10:47:00+09:00",
+   "last_seen": "2026-10-27T10:47:00+09:00",
+   "articles": [
+    {
+     "title": "트립닷컴 - 올인원 여행 동반자",
+     "outlet": "트립닷컴 메일",
+     "url": "https://kr.trip.com/#mail-0c0c3edf72a2c799",
      "published": "2026-10-25"
     }
    ],
@@ -8909,6 +8753,110 @@
    "status": "stale"
   },
   {
+   "id": "h-hilton-6012143f61",
+   "airline_id": "h-hilton",
+   "airline": "힐튼",
+   "airlines_mentioned": [
+    "힐튼"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Hilton's Stay Longer discount is perfect for holiday travel: save 10% on your next extended stay",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Hilton's Stay Longer discount is perfect for holiday travel: save 10% on your next extended stay",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcndyWmdIdUh3SlZEZGhVR20xWGF3djlqa1RTbHhjZHNySXNTYjJlMjFDbjdwV0ZNOVhQSHd4R1Q3SEV1Y2VOVF83UzFteHJwNTVvRkNUMDBYcDlkM05pUzRTNkpZSkpxRUE1cF9wLUg5TERuZzZFWnRkZnN3TllmREpZNVdnRk9xU25JNE4xbTc5NjNaR2tQZGVwTHY3bzczNEZ5QV9Uc3pRNDlBbzgyeVRWMzNLZmhrY1RuMWo0N3hxYUg5cU42bXFCc3JSc0ktc0VRWkhMdw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "10% 할인",
+   "verification": "news",
+   "first_published": "2026-10-31",
+   "last_published": "2026-10-31",
+   "first_seen": "2026-11-03T22:17:33+09:00",
+   "last_seen": "2026-11-03T22:17:33+09:00",
+   "articles": [
+    {
+     "title": "Hilton's Stay Longer discount is perfect for holiday travel: save 10% on your next extended stay",
+     "outlet": "Tom's Guide",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcndyWmdIdUh3SlZEZGhVR20xWGF3djlqa1RTbHhjZHNySXNTYjJlMjFDbjdwV0ZNOVhQSHd4R1Q3SEV1Y2VOVF83UzFteHJwNTVvRkNUMDBYcDlkM05pUzRTNkpZSkpxRUE1cF9wLUg5TERuZzZFWnRkZnN3TllmREpZNVdnRk9xU25JNE4xbTc5NjNaR2tQZGVwTHY3bzczNEZ5QV9Uc3pRNDlBbzgyeVRWMzNLZmhrY1RuMWo0N3hxYUg5cU42bXFCc3JSc0ktc0VRWkhMdw?oc=5",
+     "published": "2026-10-31"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-hyatt-51c07de753",
+   "airline_id": "h-hyatt",
+   "airline": "하얏트",
+   "airlines_mentioned": [
+    "하얏트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "World of Hyatt Promo: Save up to 25% on paid stays at properties worldwide",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "World of Hyatt Promo: Save up to 25% on paid stays at properties worldwide",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTUlzYTRTb3Y2RHp3Qm83X0dFR0tTa3JPaWM0cWJKOVdJd0x2V0xZbEVxZWtJTUR1N21qRzRNcEQ2T3J1YmRRTy1aZGpUZkN5MHY5ZFJaRnFQM0VBN3BVbkktWmg0UUl4UnZFUlFmb09YX28yMF9PZzh2NFpRdDdRVkVfdHVzUFc5WWZKY1M3SjV3Q3F6dk9JTmF2UUdicTlh?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-10-31",
+   "last_published": "2026-10-31",
+   "first_seen": "2026-10-31T09:14:05+09:00",
+   "last_seen": "2026-10-31T09:14:05+09:00",
+   "articles": [
+    {
+     "title": "World of Hyatt Promo: Save up to 25% on paid stays at properties worldwide",
+     "outlet": "Frequent Miler",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTUlzYTRTb3Y2RHp3Qm83X0dFR0tTa3JPaWM0cWJKOVdJd0x2V0xZbEVxZWtJTUR1N21qRzRNcEQ2T3J1YmRRTy1aZGpUZkN5MHY5ZFJaRnFQM0VBN3BVbkktWmg0UUl4UnZFUlFmb09YX28yMF9PZzh2NFpRdDdRVkVfdHVzUFc5WWZKY1M3SjV3Q3F6dk9JTmF2UUdicTlh?oc=5",
+     "published": "2026-10-31"
+    }
+   ],
+   "status": "stale"
+  },
+  {
    "id": "h-stayfesta-90f45594f7",
    "airline_id": "h-stayfesta",
    "airline": "숙박세일 페스타",
@@ -9400,6 +9348,116 @@
      "outlet": "트래블데일리",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2ay1rX1RwNUdFdFN2VUhPWlRvTG5OVjFwb0hTZlViTXZUMEJ6RE1XYld4d05fbE1ybV9OS2ZXaS1ERVNfOTRyNDVNZVlKWHNwZTBiei1fS2dXa0NBR2ZjLUFSNWtMdktrUl9JZW5aLWw?oc=5",
      "published": "2026-11-08"
+    }
+   ],
+   "status": "ended"
+  },
+  {
+   "id": "h-tripcom-97d71f7e15",
+   "airline_id": "h-tripcom",
+   "airline": "트립닷컴",
+   "airlines_mentioned": [
+    "트립닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://kr.trip.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "11.11 메가세일",
+   "headline": "트립닷컴 11.11 메가세일, 1100원 항공권 오전 11시 시작",
+   "sale_start": "2026-11-11",
+   "sale_end": "2026-11-14",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "제주",
+    "도쿄",
+    "일본"
+   ],
+   "conditions": [
+    "앱 예약"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트립닷컴 할인코드 메가세일11월 14일까지 해외 항공권 호텔 특가 정리",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9KWThVNkxQSW9CSzI3bzhWV2F3VFpaQWs5am91NEkyYlR0UU9FTVYxYmJMVTNXNWV0c0wyNFU1NDFfenRsTVpV?oc=5"
+    },
+    "discount": {
+     "title": "트립닷컴, '11.11 메가세일'…항공권 1100원·호텔 1만9000원부터",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HSFNjVDlxUURYbzRPU0YweXZqMlVsTUJJaTBmRDdfekVYNGZPXzNDQldLVFhvSU5DcUZfZHdZbGstbHU5OEFacE52YlAzWmp3WVI5d1p3VW5nYzhhRm42VmNFSmRGZw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "1만9000원부터",
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-11T22:17:38+09:00",
+   "articles": [
+    {
+     "title": "트립닷컴 11.11 메가세일, 1100원 항공권 오전 11시 시작",
+     "outlet": "www.diarypoint.com",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MQmJZOFBTQy1oMDlRUm5qcF9WeFRsR3VaNHF6X3NPbkFPdHBQaUJjakN2aFNBNjN6WFQtdHF4N3BnRGZSVnJEamxTdnV0OUdlN0JWMEZNNk1NUkpXT2ppOHZDZzNIclF4X25n?oc=5",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "트립닷컴 할인코드 메가세일11월 14일까지 해외 항공권 호텔 특가 정리",
+     "outlet": "판다랭크",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9KWThVNkxQSW9CSzI3bzhWV2F3VFpaQWs5am91NEkyYlR0UU9FTVYxYmJMVTNXNWV0c0wyNFU1NDFfenRsTVpV?oc=5",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "[속보] \"제주 일본 항공권 1만 원대\"… 트립닷컴 '메가세일' 첫날부터 앱 먹통",
+     "outlet": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqYXlUQXMwRXd4dHJqYlJjbkttYS1NZzk5RGRaQXNKMDBZY1NaMWFkMHpCM3pua21ZdGJKbTJnd29ZOWhUTU93TVM5MWxxZk1VaVJDbi1wVGtIRnl6SEYxRUphVFlUazZWY1prZjNB?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주 왕복·도쿄 편도 항공권이 1,100원…트립닷컴, 11일부터 역대급 특가전",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hNWc0TG9nWUdCTUhtenpQS1FyX0J2Y2w3bWlHR0NWS3A5VzZfaEZqTDh5akJraXdaRldIZi1DQU5hY0lvNGlnRDZPVmZyVW5CdjIydUVubTcza1d0QjlJUVMtWkZWZk5hX3NRYw?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "트립닷컴, 11.11 메가세일 시작…제주·도쿄 항공권 1,100원 특가",
+     "outlet": "스타트업엔(StartupN)",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mSklRZWw5Z25nUklGeFoxQW5mbWJfLUhzYUVmODV3UkpnU0w5aWtOUWFoSVVOcHJlQXBzM05FR21ubjhoejRMLXdYWEIwcExOQ2t6b19BbHpldHZIdWpxWEpmM25vakJX0gFsQVVfeXFMTm5fUWlENlREckxvUUZUcDZjc1FMZy1lbVREX0kybXNTeV9fVWZzbktPYVB0ZEdFRjF6aTVENFdvNGVIRFIwaXd6STNpNWNpakI3Znk2WDBrR3EyaUhJVUh3SFNMcHo2QVJYeFFO?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "트립닷컴, '11.11 메가세일'…항공권 1100원·호텔 1만9000원부터",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HSFNjVDlxUURYbzRPU0YweXZqMlVsTUJJaTBmRDdfekVYNGZPXzNDQldLVFhvSU5DcUZfZHdZbGstbHU5OEFacE52YlAzWmp3WVI5d1p3VW5nYzhhRm42VmNFSmRGZw?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주 왕복 항공권이 1000원대?…트립닷컴, 11일부터 나흘간 특가 판매",
+     "outlet": "아주경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11N3dIWFZKNXpGcXJmY3pCaW9qY0lrRXd6Nkd5VG94ZGdjMXY1TnYwcFNLR3dBNTIzWlVsVTYxdVJhaWdFUHJVSGNxYUlvSkw0bVNGazFlbVJ2Z9IBWEFVX3lxTE1UVjVBcWk5TmZHTHhBMjNaeDUzZ0pxZThYVGhxRFBOdzF1NFh5Uk5BWnJSTWY0czJybW10cDZOMkpwN0ZYWVdlbmEtZkNpcFdlNWtVZ3BQM0E?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "제주 왕복 항공권을 1100원에…트립닷컴 ‘11.11 메가세일’",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2dDB2Y3lOQW5DWHlJRGpBQnpnMW13NVVZWWpZYTE5aEtuYkcyek11NkVKZjVxN25odGxhLURFTXJFb2pXeDNEMW5zWTBsbWVpcjY2MURB?oc=5",
+     "published": "2026-11-09"
+    },
+    {
+     "title": "트립닷컴, '11.11 메가세일'…1100원 특가 항공권 깜짝딜",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBmb0lTMlFSTEV6UnBqUW1OdWxTNkloQjBiX1Z1YzlORVNOVDk1TWVpZHpqOGl0QmZWUl9YamFuODE2Zw?oc=5",
+     "published": "2026-11-09"
     }
    ],
    "status": "ended"
