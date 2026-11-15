@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T09:14:09+09:00",
+ "generated_at": "2026-11-15T13:18:19+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1580,
+  "rss_items": 1575,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1608,
+  "outlet_items": 1729,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 9,
   "mail_new_articles": 0,
   "articles_with_summary": 53,
-  "articles": 703,
-  "new_articles": 4,
-  "deals": 152
+  "articles": 706,
+  "new_articles": 3,
+  "deals": 155
  },
  "deals": [
   {
@@ -5529,6 +5529,58 @@
    "status": "undated"
   },
   {
+   "id": "h-other-cba0a5ace6",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[Expired] Priceline Announces Cyber Week Deals: Save up to 99% Hotels, Rental Cars, and More",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "[Expired] Priceline Announces Cyber Week Deals: Save up to 99% Hotels, Rental Cars, and More",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uWnpmdFhEdjYwSi1OZmI5SzBHd0lnZGxxRTRpcUs4VXpJS0ZIakJoa0dvQnZ5bDlscWtUeG1MNjVySHRkbjZZTGktMV9kZzRRQm5DMlNUcW96M2RCd2ctSWs1MnotMzBGei1Mbg?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 99%",
+   "verification": "news",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-15T13:18:19+09:00",
+   "last_seen": "2026-11-15T13:18:19+09:00",
+   "articles": [
+    {
+     "title": "[Expired] Priceline Announces Cyber Week Deals: Save up to 99% Hotels, Rental Cars, and More",
+     "outlet": "Upgraded Points",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uWnpmdFhEdjYwSi1OZmI5SzBHd0lnZGxxRTRpcUs4VXpJS0ZIakJoa0dvQnZ5bDlscWtUeG1MNjVySHRkbjZZTGktMV9kZzRRQm5DMlNUcW96M2RCd2ctSWs1MnotMzBGei1Mbg?oc=5",
+     "published": "2026-11-11"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "vietjet-e2a95f25e8",
    "airline_id": "vietjet",
    "airline": "비엣젯항공",
@@ -6866,6 +6918,105 @@
      "outlet": "경북매일",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wQUtyTXhUNkZpd2JQVWVqYUpSbUNVODdLc0g1dnhmQktNVG1Kc01sZi1sV01xTUxzR2xvUDUzTnVUMkNHM0FzX21FUFB6ZU1GTzdtWUctWlp4UQ?oc=5",
      "published": "2026-11-12"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-f91db77494",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Disney World Just Released Unprecedented 50% Off Room Discount",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Disney World Just Released Unprecedented 50% Off Room Discount",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTl82R09mTW94eHVQdTFqWGRPYlllZ055WEp5RUhBeWFVc2lEbHp0dkdBd3BYRk5kbDhLeUNzVGZzMVh6cFBSR212SUwwOXRiWEgtVFQ4WllBLVoweE9peWVjYXZOVkNLbTR4Vzhnck42SjRHWXljZlJBQlo4QVp6OFc1LUhoNXhobXFrcTFyTXdFVXRmSjA4bzgxalptZWF1MWV6cA?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "50% 할인",
+   "verification": "news",
+   "first_published": "2026-11-15",
+   "last_published": "2026-11-15",
+   "first_seen": "2026-11-15T13:18:19+09:00",
+   "last_seen": "2026-11-15T13:18:19+09:00",
+   "articles": [
+    {
+     "title": "Disney World Just Released Unprecedented 50% Off Room Discount",
+     "outlet": "Yahoo",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTl82R09mTW94eHVQdTFqWGRPYlllZ055WEp5RUhBeWFVc2lEbHp0dkdBd3BYRk5kbDhLeUNzVGZzMVh6cFBSR212SUwwOXRiWEgtVFQ4WllBLVoweE9peWVjYXZOVkNLbTR4Vzhnck42SjRHWXljZlJBQlo4QVp6OFc1LUhoNXhobXFrcTFyTXdFVXRmSjA4bzgxalptZWF1MWV6cA?oc=5",
+     "published": "2026-11-15"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-99856eeee2",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Muy’Ono Resorts Cuts Belize Room Rates in Half for Black Friday, With Stays Through 2027",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-15",
+   "last_published": "2026-11-15",
+   "first_seen": "2026-11-15T13:18:19+09:00",
+   "last_seen": "2026-11-15T13:18:19+09:00",
+   "articles": [
+    {
+     "title": "Muy’Ono Resorts Cuts Belize Room Rates in Half for Black Friday, With Stays Through 2027",
+     "outlet": "stupidDOPE",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbkE4VHZjUnVvbTRzb1lXRUw3LUIzSTFYcVV5V1NoQmswcXJzTW9ZdWpNVHkydGo0Z1hzb0pZLTdRYUQzOHhhaW9OemI5dEpzaV9ldElNZEVBMlBEeXV6QmkxaDhoeno5MUt6amZScTZQeU1GNG9ReFU0WDRNYVNiU1VSSk4?oc=5",
+     "published": "2026-11-15"
     }
    ],
    "status": "undated"
