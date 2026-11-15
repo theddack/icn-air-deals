@@ -3082,31 +3082,6 @@
     "new": "2026-11-13"
    }
   },
-  "h-stayfesta-90f45594f7": {
-   "info": {
-    "airline": "h-stayfesta",
-    "name": "2026가평군숙박세일페스타",
-    "sale_start": "2026-09-22",
-    "sale_end": "2026-11-08",
-    "dests": [],
-    "last": "2026-10-24",
-    "urls": [
-     "024cedd8b5",
-     "0badc13143",
-     "12f663d1b4",
-     "381955d876",
-     "81bceaf06d",
-     "90f45594f7",
-     "da2256b0d7",
-     "f4e69f6895"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26",
-    "closing_tomorrow": "2026-11-07",
-    "closing_today": "2026-11-08"
-   }
-  },
   "h-marriott-a06b6b2c0a": {
    "info": {
     "airline": "h-marriott",
@@ -3510,6 +3485,30 @@
    "kinds": {
     "new": "2026-11-15"
    }
+  },
+  "h-stayfesta-381955d876": {
+   "info": {
+    "airline": "h-stayfesta",
+    "name": "숙박세일페스타",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-24",
+    "urls": [
+     "024cedd8b5",
+     "0badc13143",
+     "381955d876",
+     "81bceaf06d",
+     "da2256b0d7",
+     "f4e69f6895",
+     "f7b8e0e156"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26",
+    "closing_tomorrow": "2026-11-07",
+    "closing_today": "2026-11-08"
+   }
   }
  },
  "slots": {
@@ -3546,7 +3545,7 @@
    "evening": "sent"
   }
  },
- "saved_at": "2026-11-15T18:20:52+09:00",
+ "saved_at": "2026-11-16T01:41:01+09:00",
  "drops_day": "2026-11-15",
  "drops": {
   "BKK": {
