@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T01:07:00+09:00",
+ "generated_at": "2026-11-15T09:14:09+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1617,
+  "rss_items": 1580,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1594,
+  "outlet_items": 1608,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 9,
   "mail_new_articles": 0,
   "articles_with_summary": 53,
-  "articles": 699,
-  "new_articles": 1,
-  "deals": 150
+  "articles": 703,
+  "new_articles": 4,
+  "deals": 152
  },
  "deals": [
   {
@@ -1776,100 +1776,6 @@
    "status": "live"
   },
   {
-   "id": "cathay-dc2fff104a",
-   "airline_id": "cathay",
-   "airline": "캐세이퍼시픽",
-   "airlines_mentioned": [
-    "캐세이퍼시픽"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.cathaypacific.com/cx/ko_KR.html",
-   "iata": [
-    "CX"
-   ],
-   "agencies": [],
-   "event_name": "블랙 프라이데이",
-   "headline": "캐세이퍼시픽항공, 블랙프라이데이 맞아 전 노선 항공권 7% 할인",
-   "sale_start": null,
-   "sale_end": "2026-11-30",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "매일일보 요약문: …데이를 맞아 오는 30일까지 항공권 할인과 보너스 마일 혜택을 제공하는 \\'플라이 라이크 잇츠 프라이데이(F…",
-     "url": "https://www.m-i.kr/news/articleView.html?idxno=2016814"
-    },
-    "discount": {
-     "title": "캐세이퍼시픽항공, 블랙프라이데이 맞아 전 노선 항공권 7% 할인",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRWpnZ3F1cVlhMUE2dWNwSWNJWmtxb0FJRVQ3djRIdVA3RnlFNVVuYnJnOXJTT1B6Z1RJbXFJTDc1YVpDOUFVSnlOS1hLTWZIUVZQT09fTXBkRTF6WFFTVGwtSmJ2cGlxZU9ILVFsd3VxcDBoeHctRTFPVk9MaHJxOTltRk9rUQ?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "7% 할인",
-   "verification": "news",
-   "first_published": "2026-11-09",
-   "last_published": "2026-11-10",
-   "first_seen": "2026-11-10T13:18:19+09:00",
-   "last_seen": "2026-11-11T18:16:14+09:00",
-   "articles": [
-    {
-     "title": "캐세이퍼시픽항공, 블랙프라이데이 맞아 전 노선 항공권 7% 할인",
-     "outlet": "뷰티트래블뉴스",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRWpnZ3F1cVlhMUE2dWNwSWNJWmtxb0FJRVQ3djRIdVA3RnlFNVVuYnJnOXJTT1B6Z1RJbXFJTDc1YVpDOUFVSnlOS1hLTWZIUVZQT09fTXBkRTF6WFFTVGwtSmJ2cGlxZU9ILVFsd3VxcDBoeHctRTFPVk9MaHJxOTltRk9rUQ?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "캐세이퍼시픽항공, 블랙 프라이데이 맞아 전 노선 항공권 7% 할인",
-     "outlet": "퍼블릭뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53Y2Z4S2tBZE5NVUN3NkQ4ZW1ON0hzaUJtVnlUWUp2T3E0WlhtX09jd0JrTFhvRjhQa2RYOEF6bVZTNm1lb3FxcHQ1WXlqdWt6MWlSMmtBWGlpQzFaRFlaSHg1NFFUaThLc0Nn?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "\"연말부터 2027년 여름 여행까지\"…캐세이퍼시픽, 전 노선 '블랙 프라이데이' 프로모션",
-     "outlet": "열린뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04c3ZiaEJzenZDOVBZdmlNbk9YdngyNDg3dlN0NUdmQXRpTUlSc1M3T1ZtSnVfZjFkQlZxUUMyTG9LbndDeGIxZXM0T0VnZ0JUWDNQanR3TXA3U21kZEY0VGdDdWd6QQ?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "캐세이퍼시픽항공, 블랙 프라이데이 맞아 전 노선 항공권 할인",
-     "outlet": "매일일보",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wRHBCWEVHZkRmRnBpRTVIX0lJUkFTal9kRHctRWYzbVYyU3dOdk80UU1Ndk5qREQ2cGtEbVU5Z0VUbmh5d3hjT1BCNk1OVGRGYjVUSURucVZHV2l0cHM1dVdnaV8?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "내년 여름 항공권까지…캐세이퍼시픽, 전 노선 7% 할인",
-     "outlet": "뉴스1",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LUmF1M1BmSEdNT0JXZ29LeGQtcmh2TUtpN3ZqVjhKZWEtS2R4SG83WmVoVDBEVG1HZ2ZtVWxGY3VlUXpwbDFpNTBJX29JTGEtSktKLURBT1hKV3hYaGRlVQ?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "캐세이퍼시픽항공, 블랙프라이데이 특가 프로모션 전개",
-     "outlet": "비즈엔터",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RUkJQZjBzb0czLWVObUZOalZMNWcyb0pxQXduSmxiRDdET1RqZ3BtX25YTU43MU5UUEI5QWJfanJaRHdUNmt0d1Y4aUNTQWlRN0tibHJR?oc=5",
-     "published": "2026-11-10"
-    },
-    {
-     "title": "캐세이퍼시픽항공, 전 노선 할인+보너스 마일 블랙프라이데이 프로모션 개시",
-     "outlet": "국제뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fYzZPSk5rUGtRcjdRNzg4N2dzcW0wWjAtT1pFdDkxSU5DdHhHX2k2aHRmOGRBODZVbTRuSllEQmx0R2hIN1FPSG9xN2JXMGJ6bWk1eks4TEtLSXc3VU05RFh1ZzM4QkY4WHFzM0hR?oc=5",
-     "published": "2026-11-09"
-    }
-   ],
-   "status": "live"
-  },
-  {
    "id": "h-nol-1e9fe6f8f0",
    "airline_id": "h-nol",
    "airline": "놀(야놀자)",
@@ -1989,6 +1895,106 @@
      "outlet": "아시아경제",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNejdfb25iYlZEVTBTX3A2UlY3Vnh6S3l4ajZPMXVha2wyM3VRdGp6VHZuRUYtOTNVZ2kxaGFzZ21pYm9FbzdONjRYS0Y1WGh5YmI5S3QtU25VekJ3NHhvVg?oc=5",
      "published": "2026-11-10"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "cathay-dc2fff104a",
+   "airline_id": "cathay",
+   "airline": "캐세이퍼시픽",
+   "airlines_mentioned": [
+    "캐세이퍼시픽"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.cathaypacific.com/cx/ko_KR.html",
+   "iata": [
+    "CX"
+   ],
+   "agencies": [],
+   "event_name": "블랙 프라이데이",
+   "headline": "캐세이퍼시픽항공, 블랙 프라이데이 맞아 전 노선·전 좌석 7% 할인에 최대 3,000마일 제공",
+   "sale_start": null,
+   "sale_end": "2026-11-30",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "매일일보 요약문: …데이를 맞아 오는 30일까지 항공권 할인과 보너스 마일 혜택을 제공하는 \\'플라이 라이크 잇츠 프라이데이(F…",
+     "url": "https://www.m-i.kr/news/articleView.html?idxno=2016814"
+    },
+    "discount": {
+     "title": "캐세이퍼시픽항공, 블랙 프라이데이 맞아 전 노선·전 좌석 7% 할인에 최대 3,000마일 제공",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFZUtWRW0xM2h0N0hBZXFNV1p2U3FzZ3QwLXNBd1prMTFaOUFfdW9zaHp3Wno4X09zVnNuZzVJSnQ5RF9VQnJKSXhEQldZeXNFOFlKcm14aXJmQ0NjNXVHUlJHMFVYM1d4S3pfaA?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "7% 할인",
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-15",
+   "first_seen": "2026-11-10T13:18:19+09:00",
+   "last_seen": "2026-11-15T09:14:09+09:00",
+   "articles": [
+    {
+     "title": "캐세이퍼시픽항공, 블랙 프라이데이 맞아 전 노선·전 좌석 7% 할인에 최대 3,000마일 제공",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFZUtWRW0xM2h0N0hBZXFNV1p2U3FzZ3QwLXNBd1prMTFaOUFfdW9zaHp3Wno4X09zVnNuZzVJSnQ5RF9VQnJKSXhEQldZeXNFOFlKcm14aXJmQ0NjNXVHUlJHMFVYM1d4S3pfaA?oc=5",
+     "published": "2026-11-15"
+    },
+    {
+     "title": "캐세이퍼시픽항공, 블랙프라이데이 맞아 전 노선 항공권 7% 할인",
+     "outlet": "뷰티트래블뉴스",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRWpnZ3F1cVlhMUE2dWNwSWNJWmtxb0FJRVQ3djRIdVA3RnlFNVVuYnJnOXJTT1B6Z1RJbXFJTDc1YVpDOUFVSnlOS1hLTWZIUVZQT09fTXBkRTF6WFFTVGwtSmJ2cGlxZU9ILVFsd3VxcDBoeHctRTFPVk9MaHJxOTltRk9rUQ?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "캐세이퍼시픽항공, 블랙 프라이데이 맞아 전 노선 항공권 7% 할인",
+     "outlet": "퍼블릭뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53Y2Z4S2tBZE5NVUN3NkQ4ZW1ON0hzaUJtVnlUWUp2T3E0WlhtX09jd0JrTFhvRjhQa2RYOEF6bVZTNm1lb3FxcHQ1WXlqdWt6MWlSMmtBWGlpQzFaRFlaSHg1NFFUaThLc0Nn?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "\"연말부터 2027년 여름 여행까지\"…캐세이퍼시픽, 전 노선 '블랙 프라이데이' 프로모션",
+     "outlet": "열린뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04c3ZiaEJzenZDOVBZdmlNbk9YdngyNDg3dlN0NUdmQXRpTUlSc1M3T1ZtSnVfZjFkQlZxUUMyTG9LbndDeGIxZXM0T0VnZ0JUWDNQanR3TXA3U21kZEY0VGdDdWd6QQ?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "캐세이퍼시픽항공, 블랙 프라이데이 맞아 전 노선 항공권 할인",
+     "outlet": "매일일보",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wRHBCWEVHZkRmRnBpRTVIX0lJUkFTal9kRHctRWYzbVYyU3dOdk80UU1Ndk5qREQ2cGtEbVU5Z0VUbmh5d3hjT1BCNk1OVGRGYjVUSURucVZHV2l0cHM1dVdnaV8?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "내년 여름 항공권까지…캐세이퍼시픽, 전 노선 7% 할인",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LUmF1M1BmSEdNT0JXZ29LeGQtcmh2TUtpN3ZqVjhKZWEtS2R4SG83WmVoVDBEVG1HZ2ZtVWxGY3VlUXpwbDFpNTBJX29JTGEtSktKLURBT1hKV3hYaGRlVQ?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "캐세이퍼시픽항공, 블랙프라이데이 특가 프로모션 전개",
+     "outlet": "비즈엔터",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RUkJQZjBzb0czLWVObUZOalZMNWcyb0pxQXduSmxiRDdET1RqZ3BtX25YTU43MU5UUEI5QWJfanJaRHdUNmt0d1Y4aUNTQWlRN0tibHJR?oc=5",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "캐세이퍼시픽항공, 전 노선 할인+보너스 마일 블랙프라이데이 프로모션 개시",
+     "outlet": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fYzZPSk5rUGtRcjdRNzg4N2dzcW0wWjAtT1pFdDkxSU5DdHhHX2k2aHRmOGRBODZVbTRuSllEQmx0R2hIN1FPSG9xN2JXMGJ6bWk1eks4TEtLSXc3VU05RFh1ZzM4QkY4WHFzM0hR?oc=5",
+     "published": "2026-11-09"
     }
    ],
    "status": "live"
@@ -5523,60 +5529,6 @@
    "status": "undated"
   },
   {
-   "id": "trinity-d7ad017391",
-   "airline_id": "trinity",
-   "airline": "트리니티항공",
-   "airlines_mentioned": [
-    "트리니티항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "domestic",
-   "route": "domestic",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "domestic",
-   "official_url": "https://www.twayair.com/",
-   "iata": [
-    "TW"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "[항공 뉴스브리핑] 트리니티항공, 수능 수험생 국내선 25% 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "[항공 뉴스브리핑] 트리니티항공, 수능 수험생 국내선 25% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OUFJaaVh6VVhfcUFvZDM4ZDgzUUl0dHQzeXItdExQOWtyMWNTN191Y0ZZc0JpeVJKUFA3cUFtZjkyeGc4VndGdjlzRUQyUE5lQVdmZDJsTUk4NU9xSkE?oc=5"
-    }
-   },
-   "from_icn": "no",
-   "discount": "25% 할인",
-   "verification": "news",
-   "first_published": "2026-11-12",
-   "last_published": "2026-11-12",
-   "first_seen": "2026-11-12T16:43:47+09:00",
-   "last_seen": "2026-11-12T16:43:47+09:00",
-   "articles": [
-    {
-     "title": "[항공 뉴스브리핑] 트리니티항공, 수능 수험생 국내선 25% 할인",
-     "outlet": "아시아타임즈",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OUFJaaVh6VVhfcUFvZDM4ZDgzUUl0dHQzeXItdExQOWtyMWNTN191Y0ZZc0JpeVJKUFA3cUFtZjkyeGc4VndGdjlzRUQyUE5lQVdmZDJsTUk4NU9xSkE?oc=5",
-     "published": "2026-11-12"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "vietjet-e2a95f25e8",
    "airline_id": "vietjet",
    "airline": "비엣젯항공",
@@ -5599,7 +5551,7 @@
    ],
    "agencies": [],
    "event_name": "더블데이",
-   "headline": "비엣젯항공, 한-베트남 전 노선 12만 9천원부터 특가 판매",
+   "headline": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
    "sale_start": null,
    "sale_end": null,
    "travel_start": "2026-12-01",
@@ -5633,14 +5585,8 @@
    "first_published": "2026-11-10",
    "last_published": "2026-11-12",
    "first_seen": "2026-11-10T16:44:38+09:00",
-   "last_seen": "2026-11-12T18:16:03+09:00",
+   "last_seen": "2026-11-12T13:18:14+09:00",
    "articles": [
-    {
-     "title": "비엣젯항공, 한-베트남 전 노선 12만 9천원부터 특가 판매",
-     "outlet": "파이낸셜리뷰",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11ODk0SFVqYTl5X2xIMVRrMlhjYWR5dDdfOS0zWGo5eXRfMkFOZGdwZ1hVNXpZTVJCQ1JySkMzUERiNWxtcVdZVWJIRjMtMnFwcjVUS0hTOXY2ZUNfaXk5anJCajEtX3k0a1B5akJvdmtWbjY1?oc=5",
-     "published": "2026-11-12"
-    },
     {
      "title": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
      "outlet": "시선뉴스",
@@ -6847,6 +6793,84 @@
    "status": "undated"
   },
   {
+   "id": "trinity-4a810ea9e6",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "domestic",
+   "route": "domestic",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "domestic",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[하늘길] 11월 3주, '수험생' 항공권 25% 할인…트리니티 외 3가지 항공",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "[하늘길] 11월 3주, '수험생' 항공권 25% 할인…트리니티 외 3가지 항공",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40ZHhqcDNfUmZuYXlVVjJFTTItS21GZ3JrT2xjTmREc3ROazVzMVc1SFcwSEhOTlNvRm95SkdWcWhhLWlDeXA3VWlrZ0s0YnVILWhzZXNvNzdwd0dFVHlWSXpYeU9kb05BRzFtclFOR1o?oc=5"
+    }
+   },
+   "from_icn": "no",
+   "discount": "25% 할인",
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-15",
+   "first_seen": "2026-11-12T16:43:47+09:00",
+   "last_seen": "2026-11-15T09:14:09+09:00",
+   "articles": [
+    {
+     "title": "[하늘길] 11월 3주, '수험생' 항공권 25% 할인…트리니티 외 3가지 항공",
+     "outlet": "신아일보",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40ZHhqcDNfUmZuYXlVVjJFTTItS21GZ3JrT2xjTmREc3ROazVzMVc1SFcwSEhOTlNvRm95SkdWcWhhLWlDeXA3VWlrZ0s0YnVILWhzZXNvNzdwd0dFVHlWSXpYeU9kb05BRzFtclFOR1o?oc=5",
+     "published": "2026-11-15"
+    },
+    {
+     "title": "수학능력 치른 '수험생' 할인 혜택···트리니티항공, 전 노선 대상 진행",
+     "outlet": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfbjlScVVCVkd5UVIyY0FwOXlFdGptTVV0QlQyemk0bXpjQUtLckEyWnIycHl6WlBPYlFqalVJdFJ0RGMzai1ZMUQ0ODlaRTRpR19GTzg0aHdteEZPUDRLYjBGSW5oQndWWVFRUm5tNkfSAXRBVV95cUxONkhEemhlREoxRkpOUnBvRjJXMDJ2Zng3Q3Y0ejlQX0hRSXRFZDA0UVhZXzdCUl9KYWZZdy0xTkVKYjU4bkppZWVtemgzVDJ0eF9oSW4wREdzNENMTGRveEZiV3M0M05pZ0ZZcDhfYXUwXzFmeA?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "트리니티항공, 2027학년도 수능 수험생 할인 프로모션 진행",
+     "outlet": "충북뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQcGdhZldsSjVob0FrVllXTEpKZ3B3WHd3WHVRX0cwelRTeWNJUGdxM2FnSVpfM2FpWG42c0EzQ1c5bVdqQl9qYmd0a1o3dlo5Y0VoRUhabHB5Rk95M0VkSzV5bkV6QQ?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "[항공 뉴스브리핑] 트리니티항공, 수능 수험생 국내선 25% 할인",
+     "outlet": "아시아타임즈",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OUFJaaVh6VVhfcUFvZDM4ZDgzUUl0dHQzeXItdExQOWtyMWNTN191Y0ZZc0JpeVJKUFA3cUFtZjkyeGc4VndGdjlzRUQyUE5lQVdmZDJsTUk4NU9xSkE?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "트리니티항공, 2027학년도 수험생 항공권 할인 프로모션 실시",
+     "outlet": "경북매일",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wQUtyTXhUNkZpd2JQVWVqYUpSbUNVODdLc0g1dnhmQktNVG1Kc01sZi1sV01xTUxzR2xvUDUzTnVUMkNHM0FzX21FUFB6ZU1GTzdtWUctWlp4UQ?oc=5",
+     "published": "2026-11-12"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "aerok-76374c6ec0",
    "airline_id": "aerok",
    "airline": "에어로케이",
@@ -7975,6 +7999,58 @@
      "title": "여기어때, 日 고급 숙소까지 `블랙` 확대…\"최대 20% 할인\"",
      "outlet": "디지털데일리",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fX1VrVGRBTzBRekZMSUM0Y0lxdU5sMUlsV19sM0xHbGhRUW52OXpTVjg1QmlQTVRpMVg0UVJIUHYxVmhIS3Z1Y1hDaHk0UkJBQjdOSWUzY042QU0ya0lFYmJjMDc?oc=5",
+     "published": "2026-10-26"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-other-497702ac08",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Charlotte hotel investor buys downtown Minneapolis Royal Sonesta for 93% discount",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Charlotte hotel investor buys downtown Minneapolis Royal Sonesta for 93% discount",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdXNaaUJiWEdnWDVTRTBSc0dTQzlFdW9DRmRoOGRzclBBc1MxRmwxX1g1NDNxVlM2LVVubFNZZzF1aVFveXlrOVZXZUR4N2xyRG5xMW1lRU43MHRQYXNHMEpsVUJmSUdabU5WeURZUFlSRmlBTWNLbTNjRHRpV19DRnhWTDBIT0RuYm1QbFlRcDBVeWd3dTZoal9QTG9BVEhuWkFxWmJHMk85WjZO?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "93% 할인",
+   "verification": "news",
+   "first_published": "2026-10-26",
+   "last_published": "2026-10-26",
+   "first_seen": "2026-11-15T09:14:09+09:00",
+   "last_seen": "2026-11-15T09:14:09+09:00",
+   "articles": [
+    {
+     "title": "Charlotte hotel investor buys downtown Minneapolis Royal Sonesta for 93% discount",
+     "outlet": "The Business Journals",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdXNaaUJiWEdnWDVTRTBSc0dTQzlFdW9DRmRoOGRzclBBc1MxRmwxX1g1NDNxVlM2LVVubFNZZzF1aVFveXlrOVZXZUR4N2xyRG5xMW1lRU43MHRQYXNHMEpsVUJmSUdabU5WeURZUFlSRmlBTWNLbTNjRHRpV19DRnhWTDBIT0RuYm1QbFlRcDBVeWd3dTZoal9QTG9BVEhuWkFxWmJHMk85WjZO?oc=5",
      "published": "2026-10-26"
     }
    ],
@@ -9353,6 +9429,71 @@
    "status": "ended"
   },
   {
+   "id": "vietjet-76298774e0",
+   "airline_id": "vietjet",
+   "airline": "비엣젯항공",
+   "airlines_mentioned": [
+    "비엣젯항공"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.vietjetair.com/ko",
+   "iata": [
+    "VJ",
+    "VZ"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "비엣젯항공, 한-베트남 전 노선 12만 9천원부터 특가 판매",
+   "sale_start": "2026-11-10",
+   "sale_end": "2026-11-12",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "비엣젯 항공은 11월 10일부터 12일까지 3일간 특별 프로모션을 진행하며, 디럭스석 티켓 25% 할인 및 기타 다양한 매력적인 혜택을 제공합니다.",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPejNKUTJOMEFLS0pwX1JJNzNBaGpINUwwNkdZTFZIUEFQMWEzZ3dtQWFYN0tkVTlPdnY4eTg3czllYmR4SlpPUU9hSTZXU3ZaZUxoTmRLaVNSa191Tm95cXN1azYwVHEtNUlxYTc5WjNna201YVlrbFI1SkJYVjFramRpWGl5Sm1Eam1TcHA2cl9PNTczbXY2dzhUNFcxdW9BNDZEWWVRd0xxc2ZldmhSOVJ3?oc=5"
+    },
+    "discount": {
+     "title": "비엣젯 항공은 11월 10일부터 12일까지 3일간 특별 프로모션을 진행하며, 디럭스석 티켓 25% 할인 및 기타 다양한 매력적인 혜택을 제공합니다.",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPejNKUTJOMEFLS0pwX1JJNzNBaGpINUwwNkdZTFZIUEFQMWEzZ3dtQWFYN0tkVTlPdnY4eTg3czllYmR4SlpPUU9hSTZXU3ZaZUxoTmRLaVNSa191Tm95cXN1azYwVHEtNUlxYTc5WjNna201YVlrbFI1SkJYVjFramRpWGl5Sm1Eam1TcHA2cl9PNTczbXY2dzhUNFcxdW9BNDZEWWVRd0xxc2ZldmhSOVJ3?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "25% 할인",
+   "verification": "news",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-12T18:16:03+09:00",
+   "last_seen": "2026-11-15T09:14:09+09:00",
+   "articles": [
+    {
+     "title": "비엣젯항공, 한-베트남 전 노선 12만 9천원부터 특가 판매",
+     "outlet": "파이낸셜리뷰",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11ODk0SFVqYTl5X2xIMVRrMlhjYWR5dDdfOS0zWGo5eXRfMkFOZGdwZ1hVNXpZTVJCQ1JySkMzUERiNWxtcVdZVWJIRjMtMnFwcjVUS0hTOXY2ZUNfaXk5anJCajEtX3k0a1B5akJvdmtWbjY1?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "비엣젯 항공은 11월 10일부터 12일까지 3일간 특별 프로모션을 진행하며, 디럭스석 티켓 25% 할인 및 기타 다양한 매력적인 혜택을 제공합니다.",
+     "outlet": "Vietnam.vn",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPejNKUTJOMEFLS0pwX1JJNzNBaGpINUwwNkdZTFZIUEFQMWEzZ3dtQWFYN0tkVTlPdnY4eTg3czllYmR4SlpPUU9hSTZXU3ZaZUxoTmRLaVNSa191Tm95cXN1azYwVHEtNUlxYTc5WjNna201YVlrbFI1SkJYVjFramRpWGl5Sm1Eam1TcHA2cl9PNTczbXY2dzhUNFcxdW9BNDZEWWVRd0xxc2ZldmhSOVJ3?oc=5",
+     "published": "2026-11-11"
+    }
+   ],
+   "status": "ended"
+  },
+  {
    "id": "h-tripcom-97d71f7e15",
    "airline_id": "h-tripcom",
    "airline": "트립닷컴",
@@ -9682,27 +9823,9 @@
      "published": "2026-11-12"
     },
     {
-     "title": "수학능력 치른 '수험생' 할인 혜택···트리니티항공, 전 노선 대상 진행",
-     "outlet": "이뉴스투데이",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfbjlScVVCVkd5UVIyY0FwOXlFdGptTVV0QlQyemk0bXpjQUtLckEyWnIycHl6WlBPYlFqalVJdFJ0RGMzai1ZMUQ0ODlaRTRpR19GTzg0aHdteEZPUDRLYjBGSW5oQndWWVFRUm5tNkfSAXRBVV95cUxONkhEemhlREoxRkpOUnBvRjJXMDJ2Zng3Q3Y0ejlQX0hRSXRFZDA0UVhZXzdCUl9KYWZZdy0xTkVKYjU4bkppZWVtemgzVDJ0eF9oSW4wREdzNENMTGRveEZiV3M0M05pZ0ZZcDhfYXUwXzFmeA?oc=5",
-     "published": "2026-11-12"
-    },
-    {
-     "title": "트리니티항공, 2027학년도 수능 수험생 할인 프로모션 진행",
-     "outlet": "충북뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQcGdhZldsSjVob0FrVllXTEpKZ3B3WHd3WHVRX0cwelRTeWNJUGdxM2FnSVpfM2FpWG42c0EzQ1c5bVdqQl9qYmd0a1o3dlo5Y0VoRUhabHB5Rk95M0VkSzV5bkV6QQ?oc=5",
-     "published": "2026-11-12"
-    },
-    {
      "title": "트리니티항공, 수능 수험생 항공권 최대 25% 할인",
      "outlet": "이코노미스트",
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EcERLQzQtc21wRFVHTjdQWjBvdXBYb29mdjlzS3hjbjJILVdUWUJUNUJFZG56bkF0aXBacS1EQTZhX0lZQUVHVC1WRHBUN2RlNnVsT3A0aHhnbDNmN2hvdGxB?oc=5",
-     "published": "2026-11-12"
-    },
-    {
-     "title": "트리니티항공, 2027학년도 수험생 항공권 할인 프로모션 실시",
-     "outlet": "경북매일",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wQUtyTXhUNkZpd2JQVWVqYUpSbUNVODdLc0g1dnhmQktNVG1Kc01sZi1sV01xTUxzR2xvUDUzTnVUMkNHM0FzX21FUFB6ZU1GTzdtWUctWlp4UQ?oc=5",
      "published": "2026-11-12"
     },
     {
