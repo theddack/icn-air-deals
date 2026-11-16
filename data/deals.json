@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T18:16:10+09:00",
+ "generated_at": "2026-11-16T22:17:33+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1747,
+  "rss_items": 1687,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2059,
+  "outlet_items": 1912,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 9,
   "mail_new_articles": 0,
   "articles_with_summary": 59,
-  "articles": 777,
-  "new_articles": 7,
-  "deals": 170
+  "articles": 786,
+  "new_articles": 9,
+  "deals": 174
  },
  "deals": [
   {
@@ -70,12 +70,18 @@
    "first_published": "2026-11-16",
    "last_published": "2026-11-16",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-16T18:16:10+09:00",
+   "last_seen": "2026-11-16T22:17:33+09:00",
    "articles": [
     {
      "title": "[여행] 호텔스닷컴, 블랙 프라이데이 세일 진행…숙소 최대 50% 할인",
      "outlet": "리뷰타임스",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vV3BDLVFqWC15d0hZUXgwVFVTT29NeEJWZUFCa0k3UVZzcVFNOTl4VHYtd0NlUURuZ1VzdFJNY28xbElBcFdqNDVuN004VkRlWWlGY2dNZHhBWHpVVmhPSHJFYzJ4T0JvMTdiOE5NZ0E?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "호텔스닷컴, 블프 맞이 숙소 세일",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RU2tyTXMwTDRFTEpTbFFJaFVnb0czMWJHQTBYS3Z2cVcyTU9RQWNISGVGal9FNzZvcWowQkFvUnpEUVBKVHRvRXVzdC1BNGxQQWVZcUI1NGVMdGhZRFpqblk0alNtOWpfZ0R6S0c5VdIBb0FVX3lxTE9RU2tyTXMwTDRFTEpTbFFJaFVnb0czMWJHQTBYS3Z2cVcyTU9RQWNISGVGal9FNzZvcWowQkFvUnpEUVBKVHRvRXVzdC1BNGxQQWVZcUI1NGVMdGhZRFpqblk0alNtOWpfZ0R6S0c5VQ?oc=5",
      "published": "2026-11-16"
     },
     {
@@ -1232,6 +1238,61 @@
    "status": "live"
   },
   {
+   "id": "multi-e20e60f3c9",
+   "airline_id": "multi",
+   "airline": "여러 브랜드",
+   "airlines_mentioned": [
+    "놀(야놀자)",
+    "모두투어"
+   ],
+   "kind": "mixed",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "NOL 항공 70% vs 모두투어 유럽 52%, 겨울 여행 할인 16일 개막",
+   "sale_start": "2026-11-16",
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "유럽"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "NOL 항공 70% vs 모두투어 유럽 52%, 겨울 여행 할인 16일 개막",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nbFBSeGxnd1Fhd2RQU0JFc185S3J1bmhrSUtGN0lpT09rT0dfMXpuZVBzZUZoRnNrRkdaM3I3SlNnMUtZUi1wYkdPek01MWZIYW1oODJIWVFGajZnU3RDWF9jcm4yd1F3Mmpz?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-16",
+   "first_seen": "2026-11-16T22:17:33+09:00",
+   "last_seen": "2026-11-16T22:17:33+09:00",
+   "articles": [
+    {
+     "title": "NOL 항공 70% vs 모두투어 유럽 52%, 겨울 여행 할인 16일 개막",
+     "outlet": "https://www.diarypoint.com/",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nbFBSeGxnd1Fhd2RQU0JFc185S3J1bmhrSUtGN0lpT09rT0dfMXpuZVBzZUZoRnNrRkdaM3I3SlNnMUtZUi1wYkdPek01MWZIYW1oODJIWVFGajZnU3RDWF9jcm4yd1F3Mmpz?oc=5",
+     "published": "2026-11-16"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "trinity-63d5e32836",
    "airline_id": "trinity",
    "airline": "트리니티항공",
@@ -1280,7 +1341,7 @@
    "first_published": "2026-11-16",
    "last_published": "2026-11-16",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-16T18:16:10+09:00",
+   "last_seen": "2026-11-16T22:17:33+09:00",
    "articles": [
     {
      "title": "트리니티항공, 국제선 블랙프라이데이 할인…최대 4만원 쿠폰도 제공",
@@ -1361,6 +1422,12 @@
      "published": "2026-11-16"
     },
     {
+     "title": "트리니티항공, 국제선 블랙프라이데이 할인 행사",
+     "outlet": "경북매일",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFX3cxWlF1UnVUNGVkbm9KLUxFM3BJMTlLUkJITy1XQjlsX3BRbFk1Y1poajk4V3JhYk0xMjJ5VzZEWnV3V2VZaHRsSkxJSkhFbFF6R1RWOEsxUQ?oc=5",
+     "published": "2026-11-16"
+    },
+    {
      "title": "트리니티항공, 국제선 블랙프라이데이 특가… 최대 4만원 할인 쿠폰",
      "outlet": "브릿지경제",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SQmxIVkx6Y1dwV3M1MlFhSFZQTkxOcEpFWHlXbmNud0l4T2FyYlNXbmpyRHJvUnJBMmhNV3kwcGZwTWpQbGVWTF9xR21mZndhY2w2YkY2cTU0dw?oc=5",
@@ -1377,6 +1444,76 @@
      "outlet": "브레이크뉴스",
      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5xa3JzRU9CU2lzODJIUWtxM3hjTng3aElVV1JwX2ZiRU8tUmNCajFXQ3cwVFNXcGVOSVR3QUl4eVg1QQ?oc=5",
      "published": "2026-11-16"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "aerok-c07f8884c8",
+   "airline_id": "aerok",
+   "airline": "에어로케이",
+   "airlines_mentioned": [
+    "에어로케이"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.aerok.com/",
+   "iata": [
+    "RF"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어로케이 블프 특가, 16일부터 17개 노선 최대 98% 할인",
+   "sale_start": "2026-11-16",
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "에어로케이 블프 특가, 16일부터 17개 노선 최대 98% 할인",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pS1AwX0hYOWdKQTFEUU43OEtYWURTbktOMlB0MWlnN0xYYlh1UXgzeUhyT25NQlFfNU5jbEw4X0JhM19xZnRIdUlEMEl6REhoRWxTemR4Mm56N3l5TzA5aER1SDkxSWhzekhz?oc=5"
+    },
+    "discount": {
+     "title": "에어로케이 블프 특가, 16일부터 17개 노선 최대 98% 할인",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pS1AwX0hYOWdKQTFEUU43OEtYWURTbktOMlB0MWlnN0xYYlh1UXgzeUhyT25NQlFfNU5jbEw4X0JhM19xZnRIdUlEMEl6REhoRWxTemR4Mm56N3l5TzA5aER1SDkxSWhzekhz?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 98%",
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-16",
+   "first_seen": "2026-11-13T13:18:17+09:00",
+   "last_seen": "2026-11-16T22:17:33+09:00",
+   "articles": [
+    {
+     "title": "에어로케이 블프 특가, 16일부터 17개 노선 최대 98% 할인",
+     "outlet": "https://www.diarypoint.com/",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pS1AwX0hYOWdKQTFEUU43OEtYWURTbktOMlB0MWlnN0xYYlh1UXgzeUhyT25NQlFfNU5jbEw4X0JhM19xZnRIdUlEMEl6REhoRWxTemR4Mm56N3l5TzA5aER1SDkxSWhzekhz?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "에어로케이, 일본 왕복항공권 1+1 쏜다…후지드림항공과 공동 이벤트",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=757170",
+     "published": "2026-11-13"
+    },
+    {
+     "title": "[속보] \"최대 98% 항공권 할인\"...에어로케이 블프 특가로 홈페이지 접속 마비",
+     "outlet": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uYm5WWXN4ZTl5UGIwc18zVXpBNmJlYlE4Mm1hSUVvamg3T2stRFU4NE5XVkY5Y0VqNUQxdExBZ2U0cjctdk1rVFVNM3FGcUVTc0dDY2tIamJYcmZXTTQwVmZ0WkkwZ0RSdFhCUGhB?oc=5",
+     "published": "2026-11-12"
     }
    ],
    "status": "live"
@@ -5624,66 +5761,6 @@
    "status": "undated"
   },
   {
-   "id": "aerok-c07f8884c8",
-   "airline_id": "aerok",
-   "airline": "에어로케이",
-   "airlines_mentioned": [
-    "에어로케이"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.aerok.com/",
-   "iata": [
-    "RF"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어로케이, 일본 왕복항공권 1+1 쏜다…후지드림항공과 공동 이벤트",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "[속보] \"최대 98% 항공권 할인\"...에어로케이 블프 특가로 홈페이지 접속 마비",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uYm5WWXN4ZTl5UGIwc18zVXpBNmJlYlE4Mm1hSUVvamg3T2stRFU4NE5XVkY5Y0VqNUQxdExBZ2U0cjctdk1rVFVNM3FGcUVTc0dDY2tIamJYcmZXTTQwVmZ0WkkwZ0RSdFhCUGhB?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 98%",
-   "verification": "news",
-   "first_published": "2026-11-12",
-   "last_published": "2026-11-13",
-   "first_seen": "2026-11-13T13:18:17+09:00",
-   "last_seen": "2026-11-16T13:18:21+09:00",
-   "articles": [
-    {
-     "title": "에어로케이, 일본 왕복항공권 1+1 쏜다…후지드림항공과 공동 이벤트",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=757170",
-     "published": "2026-11-13"
-    },
-    {
-     "title": "[속보] \"최대 98% 항공권 할인\"...에어로케이 블프 특가로 홈페이지 접속 마비",
-     "outlet": "국제뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uYm5WWXN4ZTl5UGIwc18zVXpBNmJlYlE4Mm1hSUVvamg3T2stRFU4NE5XVkY5Y0VqNUQxdExBZ2U0cjctdk1rVFVNM3FGcUVTc0dDY2tIamJYcmZXTTQwVmZ0WkkwZ0RSdFhCUGhB?oc=5",
-     "published": "2026-11-12"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-tripcom-91a861cd73",
    "airline_id": "h-tripcom",
    "airline": "트립닷컴",
@@ -7169,6 +7246,58 @@
    "status": "undated"
   },
   {
+   "id": "h-nol-474fc7ac9a",
+   "airline_id": "h-nol",
+   "airline": "놀(야놀자)",
+   "airlines_mentioned": [
+    "놀(야놀자)"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://nol.yanolja.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "해외항공 70%·공연 55% 할인…NOL, 겨울 여행 특가전",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "해외항공 70%·공연 55% 할인…NOL, 겨울 여행 특가전",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PZjlyUEJjTllEYWs1Rkx4WmJ4Vkc0RVJnQ0ZDTEZycGg0eVZmNi1QQUZGUDliWkVHOWJXUmtJNl9WOEd3MXVacFBJMXBMUmFjUEdvMkt0aXJaZ184Rk96MEtZRkd1WTQyZmc?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "55% 할인",
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-16",
+   "first_seen": "2026-11-16T22:17:33+09:00",
+   "last_seen": "2026-11-16T22:17:33+09:00",
+   "articles": [
+    {
+     "title": "해외항공 70%·공연 55% 할인…NOL, 겨울 여행 특가전",
+     "outlet": "트래블아이",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PZjlyUEJjTllEYWs1Rkx4WmJ4Vkc0RVJnQ0ZDTEZycGg0eVZmNi1QQUZGUDliWkVHOWJXUmtJNl9WOEd3MXVacFBJMXBMUmFjUEdvMkt0aXJaZ184Rk96MEtZRkd1WTQyZmc?oc=5",
+     "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-modetour-c70bc26650",
    "airline_id": "h-modetour",
    "airline": "모두투어",
@@ -7524,7 +7653,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "호텔스닷컴, 블랙프라이데이 숙박 할인 행사…최대 75% 특가 제공",
+   "headline": "호텔 숙박비 최대 75% 할인…호텔스닷컴, 블랙 프라이데이 특가 쏟아낸다",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -7535,8 +7664,8 @@
    "conflicts": [],
    "evidence": {
     "discount": {
-     "title": "호텔스닷컴, 블랙프라이데이 숙박 할인 행사…최대 75% 특가 제공",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11MG9ndjhSUHJ6MEl1S05jTndKeDZpcnFBYTRFSVdEN244TFFHeFRJdXRQNjdMMXpVdzlrQk1FS2JITVVNbURWUG9PT2c0NVN4U2tqQmd0ek1NR0tZTkh0SklWSHB4dFdhMFBOTQ?oc=5"
+     "title": "호텔 숙박비 최대 75% 할인…호텔스닷컴, 블랙 프라이데이 특가 쏟아낸다",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTV0lOT1dSUTRFRmFxbEVmUGFPZ2pzQ2pPVlZRTjcwVThUWWxxcmduc2FwUkZ6NmFmblFrajU0bHFWazExckx2YTlXMGNnaFJvVnJqTVkzWm5iOWd2Q3p4QTdTaVh3T0MtRlEwcw?oc=5"
     }
    },
    "from_icn": null,
@@ -7545,12 +7674,122 @@
    "first_published": "2026-11-16",
    "last_published": "2026-11-16",
    "first_seen": "2026-11-16T16:17:28+09:00",
-   "last_seen": "2026-11-16T16:17:28+09:00",
+   "last_seen": "2026-11-16T22:17:33+09:00",
    "articles": [
+    {
+     "title": "호텔 숙박비 최대 75% 할인…호텔스닷컴, 블랙 프라이데이 특가 쏟아낸다",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTV0lOT1dSUTRFRmFxbEVmUGFPZ2pzQ2pPVlZRTjcwVThUWWxxcmduc2FwUkZ6NmFmblFrajU0bHFWazExckx2YTlXMGNnaFJvVnJqTVkzWm5iOWd2Q3p4QTdTaVh3T0MtRlEwcw?oc=5",
+     "published": "2026-11-16"
+    },
     {
      "title": "호텔스닷컴, 블랙프라이데이 숙박 할인 행사…최대 75% 특가 제공",
      "outlet": "뉴스플릭스",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11MG9ndjhSUHJ6MEl1S05jTndKeDZpcnFBYTRFSVdEN244TFFHeFRJdXRQNjdMMXpVdzlrQk1FS2JITVVNbURWUG9PT2c0NVN4U2tqQmd0ek1NR0tZTkh0SklWSHB4dFdhMFBOTQ?oc=5",
+     "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-78da6c9531",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Priceline's Biggest Sale of the Year Returns for Cyber Week 2026 with Up to 40% Off Hotels, $500 Coupons, and Flash Sales",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Priceline's Biggest Sale of the Year Returns for Cyber Week 2026 with Up to 40% Off Hotels, $500 Coupons, and Flash Sales",
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQOGxlcmxuZzdYSnhYeEVZbmQyMl9FeHpWTGFrM2tZNHhtRGRfRVZ3RzRraVlrR2VYN3VtWnlSV2M0dHJaLU9yNWpsNnVaQTAxNnpLYy1PMjh1ektEdm1DS3FpRWdtVzJ0X2ZJVy1uV21nVE9vb0pHWF9qRnozQUNITnlLR1dmNDlDYTBEQ0lDSzl0LUFkYmR5VXp0NW9fNndkelhiQkhOd2R2a2VmcUxvbkRQX2tmQnBRMVVUdjFIYXFWa08tZjZzaEgyeW5qanFQaFViSDV5eElNaFIyQVdKYU1YR2tlMlRpcTkwMjFUWHAzNDZfWGVkd1ZuQTNYeUlRb0E?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 40%",
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-16",
+   "first_seen": "2026-11-16T22:17:33+09:00",
+   "last_seen": "2026-11-16T22:17:33+09:00",
+   "articles": [
+    {
+     "title": "Priceline's Biggest Sale of the Year Returns for Cyber Week 2026 with Up to 40% Off Hotels, $500 Coupons, and Flash Sales",
+     "outlet": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQOGxlcmxuZzdYSnhYeEVZbmQyMl9FeHpWTGFrM2tZNHhtRGRfRVZ3RzRraVlrR2VYN3VtWnlSV2M0dHJaLU9yNWpsNnVaQTAxNnpLYy1PMjh1ektEdm1DS3FpRWdtVzJ0X2ZJVy1uV21nVE9vb0pHWF9qRnozQUNITnlLR1dmNDlDYTBEQ0lDSzl0LUFkYmR5VXp0NW9fNndkelhiQkhOd2R2a2VmcUxvbkRQX2tmQnBRMVVUdjFIYXFWa08tZjZzaEgyeW5qanFQaFViSDV5eElNaFIyQVdKYU1YR2tlMlRpcTkwMjFUWHAzNDZfWGVkd1ZuQTNYeUlRb0E?oc=5",
+     "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-60137dbf1c",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Save up to 40% on Hotels, Flights, and More During Priceline’s Cyber Week Sale",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Save up to 40% on Hotels, Flights, and More During Priceline’s Cyber Week Sale",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BN2NUeVlEd0xZMjlXZm9RMFhOZ2wwX2N3ZHo0QXpiVExYMFhRTTJTZFJTczUzYXVoOXVnZEVldXR2bkdNX0dpNU5hZEk5OFliclc3Q2FVQk9EY3R0cFR2T1Y5Y2k0MTNpSGc1SFFOUVk?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 40%",
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-16",
+   "first_seen": "2026-11-16T22:17:33+09:00",
+   "last_seen": "2026-11-16T22:17:33+09:00",
+   "articles": [
+    {
+     "title": "Save up to 40% on Hotels, Flights, and More During Priceline’s Cyber Week Sale",
+     "outlet": "Upgraded Points",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BN2NUeVlEd0xZMjlXZm9RMFhOZ2wwX2N3ZHo0QXpiVExYMFhRTTJTZFJTczUzYXVoOXVnZEVldXR2bkdNX0dpNU5hZEk5OFliclc3Q2FVQk9EY3R0cFR2T1Y5Y2k0MTNpSGc1SFFOUVk?oc=5",
      "published": "2026-11-16"
     }
    ],
@@ -10906,64 +11145,6 @@
    "status": "ended"
   },
   {
-   "id": "h-yeogi-5c8be00dba",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "블랙위크",
-   "headline": "여기어때, 겨울 ‘블랙위크’…일본 프리미엄 숙소 할인",
-   "sale_start": null,
-   "sale_end": "2026-11-15",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "일본"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "핀포인트뉴스 요약문: …‘일본 블랙’ 오픈을 기념해 다음 달 15일까지 해외숙소 할인 행사 ‘블랙위크’를 진행한다고 26일 밝혔다.…",
-     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498311"
-    },
-    "discount": {
-     "title": "핀포인트뉴스 요약문: 행사 기간 매일 오전 10시 선착순으로 해외숙소 20% 할인 쿠폰을 지급한다.",
-     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498311"
-    }
-   },
-   "from_icn": null,
-   "discount": "20% 할인",
-   "verification": "news",
-   "first_published": "2026-10-26",
-   "last_published": "2026-10-26",
-   "first_seen": "2026-10-26T09:21:46+09:00",
-   "last_seen": "2026-10-26T09:21:46+09:00",
-   "articles": [
-    {
-     "title": "여기어때, 겨울 ‘블랙위크’…일본 프리미엄 숙소 할인",
-     "outlet": "핀포인트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fQW5pZmVhaXlCa0xoUURJbDNBZkVvLUVtOG9NRDRYRGFOOTRNWXBnYmlCRHdJYk5qbGRjMEYyelU2QWZwcWxUaGlFbldmR0p1Wlg5QWZhbi1yVFhxak1GYUdsN1BEbVZrb0oyU3lacWtCbjTSAXdBVV95cUxNWnE1SXNlTXdOTXIxenZqUWtkbkh6cUg5MENpTHkwWjA5a013aFRMbEpBOHdkdkhETDdYbXF2WV9MY1pJV09pLXpUSEU1S3JSLUh6clNaMGx3SkYydU9YVkZ1SDVERXU4ZGY0TTBINFAwbDRueDU3MA?oc=5",
-     "published": "2026-10-26"
-    }
-   ],
-   "status": "ended"
-  },
-  {
    "id": "h-hanatour-889dd9d340",
    "airline_id": "h-hanatour",
    "airline": "하나투어",
@@ -11075,6 +11256,70 @@
      "outlet": "캐나다 한국일보",
      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fczZ5Qk5oVDJvVWhDRWR3LVlVdzQteEtnZlUyelVOc2hBRFREcTdkM19JaXFDQWhvQndFaGVRbDBPU3plLWhySks2eTh3RmhMdmRLUEtrLXF1bm4xdXc?oc=5",
      "published": "2026-11-15"
+    }
+   ],
+   "status": "ended"
+  },
+  {
+   "id": "h-yeogi-5c8be00dba",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "블랙위크",
+   "headline": "여기어때, '블랙위크' 진행…국내 숙소 할인",
+   "sale_start": null,
+   "sale_end": "2026-11-15",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "일본"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "핀포인트뉴스 요약문: …‘일본 블랙’ 오픈을 기념해 다음 달 15일까지 해외숙소 할인 행사 ‘블랙위크’를 진행한다고 26일 밝혔다.…",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498311"
+    },
+    "discount": {
+     "title": "핀포인트뉴스 요약문: 행사 기간 매일 오전 10시 선착순으로 해외숙소 20% 할인 쿠폰을 지급한다.",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498311"
+    }
+   },
+   "from_icn": null,
+   "discount": "20% 할인",
+   "verification": "news",
+   "first_published": "2026-10-26",
+   "last_published": "2026-11-16",
+   "first_seen": "2026-10-26T09:21:46+09:00",
+   "last_seen": "2026-11-16T22:17:33+09:00",
+   "articles": [
+    {
+     "title": "여기어때, '블랙위크' 진행…국내 숙소 할인",
+     "outlet": "주간한국",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8xLXlRZGd5VVdmazJuWkFITmhsS2htel9vUllSOWFCOWxiUTBsZzlFQUNBMmtkWWl4R1FvbmZTNC04WjZoWEtteHdubGwyRXp6UktMMDhVN2w1bWMxN1g5RFhJVGZiQUVORmZUbTQtVDlxT3ZT0gF0QVVfeXFMTzEteVFkZ3lVV2ZrMm5aQUhOaGxLaG16X29SWVI5YUI5bGJRMGxnOUVBQ0Eya2RZaXhHUW9uZlM0LThaNmhYS214d25sbDJFenpSS0wwOFU3bDVtYzE3WDlEWElUZmJBRU5GZlRtNC1UOXFPdlM?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "여기어때, 겨울 ‘블랙위크’…일본 프리미엄 숙소 할인",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fQW5pZmVhaXlCa0xoUURJbDNBZkVvLUVtOG9NRDRYRGFOOTRNWXBnYmlCRHdJYk5qbGRjMEYyelU2QWZwcWxUaGlFbldmR0p1Wlg5QWZhbi1yVFhxak1GYUdsN1BEbVZrb0oyU3lacWtCbjTSAXdBVV95cUxNWnE1SXNlTXdOTXIxenZqUWtkbkh6cUg5MENpTHkwWjA5a013aFRMbEpBOHdkdkhETDdYbXF2WV9MY1pJV09pLXpUSEU1S3JSLUh6clNaMGx3SkYydU9YVkZ1SDVERXU4ZGY0TTBINFAwbDRueDU3MA?oc=5",
+     "published": "2026-10-26"
     }
    ],
    "status": "ended"
