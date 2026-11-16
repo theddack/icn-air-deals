@@ -2890,22 +2890,6 @@
     "new": "2026-11-13"
    }
   },
-  "aerok-f5f38f8e73": {
-   "info": {
-    "airline": "aerok",
-    "name": "",
-    "sale_start": null,
-    "sale_end": null,
-    "dests": [],
-    "last": "2026-11-13",
-    "urls": [
-     "f5f38f8e73"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-13"
-   }
-  },
   "h-other-c03053cf9a": {
    "info": {
     "airline": "h-other",
@@ -3558,6 +3542,23 @@
    "kinds": {
     "new": "2026-11-16"
    }
+  },
+  "aerok-c07f8884c8": {
+   "info": {
+    "airline": "aerok",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "c07f8884c8",
+     "f5f38f8e73"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13"
+   }
   }
  },
  "slots": {
@@ -3593,7 +3594,7 @@
    "morning": "sent"
   }
  },
- "saved_at": "2026-11-16T09:19:20+09:00",
+ "saved_at": "2026-11-16T13:23:02+09:00",
  "drops_day": "2026-11-16",
  "drops": {
   "BKK": {
