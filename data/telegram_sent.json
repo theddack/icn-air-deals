@@ -3443,30 +3443,6 @@
     "new": "2026-11-15"
    }
   },
-  "h-stayfesta-381955d876": {
-   "info": {
-    "airline": "h-stayfesta",
-    "name": "숙박세일페스타",
-    "sale_start": null,
-    "sale_end": null,
-    "dests": [],
-    "last": "2026-10-24",
-    "urls": [
-     "024cedd8b5",
-     "0badc13143",
-     "381955d876",
-     "81bceaf06d",
-     "da2256b0d7",
-     "f4e69f6895",
-     "f7b8e0e156"
-    ]
-   },
-   "kinds": {
-    "new": "2026-10-26",
-    "closing_tomorrow": "2026-11-07",
-    "closing_today": "2026-11-08"
-   }
-  },
   "h-booking-6dff27a361": {
    "info": {
     "airline": "h-booking",
@@ -3774,6 +3750,27 @@
    "kinds": {
     "new": "2026-11-16"
    }
+  },
+  "h-stayfesta-f4e69f6895": {
+   "info": {
+    "airline": "h-stayfesta",
+    "name": "숙박세일페스타",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-10-24",
+    "urls": [
+     "0badc13143",
+     "81bceaf06d",
+     "f4e69f6895",
+     "f7b8e0e156"
+    ]
+   },
+   "kinds": {
+    "new": "2026-10-26",
+    "closing_tomorrow": "2026-11-07",
+    "closing_today": "2026-11-08"
+   }
   }
  },
  "slots": {
@@ -3810,7 +3807,7 @@
    "evening": "sent"
   }
  },
- "saved_at": "2026-11-16T18:21:12+09:00",
+ "saved_at": "2026-11-17T04:57:12+09:00",
  "drops_day": "2026-11-16",
  "drops": {
   "BKK": {
@@ -3830,5 +3827,6 @@
    "date": "2026-11-14"
   }
  },
- "weekly": "2026-11-15"
+ "weekly": "2026-11-15",
+ "admin_failed": "2026-11-17"
 }
