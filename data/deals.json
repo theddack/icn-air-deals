@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T01:35:55+09:00",
+ "generated_at": "2026-11-16T09:14:16+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1569,
+  "rss_items": 1618,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1552,
+  "outlet_items": 1744,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 9,
   "mail_new_articles": 0,
   "articles_with_summary": 53,
-  "articles": 708,
-  "new_articles": 2,
-  "deals": 154
+  "articles": 713,
+  "new_articles": 5,
+  "deals": 157
  },
  "deals": [
   {
@@ -4106,6 +4106,58 @@
    "status": "undated"
   },
   {
+   "id": "h-clubmed-3e347de208",
+   "airline_id": "h-clubmed",
+   "airline": "클럽메드",
+   "airlines_mentioned": [
+    "클럽메드"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Save 15% on luxury resorts, with this Club Med discount code",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Save 15% on luxury resorts, with this Club Med discount code",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZNGZ3N0JrQmxwRUtxcGpRcHRFYnVOR0U1Nl9Za1Z0d0dHcVRpN3hnLXc4OF91cmIxcWVWVGpKSmU2Rk1Yemd2Rjk4bmZjQTU1LUZvX1VCcDYtRHZCWjJxSzlJbTluRU1mUmoxemxDdGFibTFwN1pMOWVUeEo?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "15% 할인",
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-09",
+   "first_seen": "2026-11-16T09:14:16+09:00",
+   "last_seen": "2026-11-16T09:14:16+09:00",
+   "articles": [
+    {
+     "title": "Save 15% on luxury resorts, with this Club Med discount code",
+     "outlet": "The Independent",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZNGZ3N0JrQmxwRUtxcGpRcHRFYnVOR0U1Nl9Za1Z0d0dHcVRpN3hnLXc4OF91cmIxcWVWVGpKSmU2Rk1Yemd2Rjk4bmZjQTU1LUZvX1VCcDYtRHZCWjJxSzlJbTluRU1mUmoxemxDdGFibTFwN1pMOWVUeEo?oc=5",
+     "published": "2026-11-09"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "airseoul-54dc806c4a",
    "airline_id": "airseoul",
    "airline": "에어서울",
@@ -4905,8 +4957,8 @@
      "url": "https://www.slist.kr/news/articleView.html?idxno=780847"
     },
     "discount": {
-     "title": "싱글리스트 요약문: …권을 세금 및 수수료 포함 편도 12만 9천원부터 판매하고, 전 노선의 디럭스 운임을 최대 25% 할인한다.…",
-     "url": "https://www.slist.kr/news/articleView.html?idxno=780847"
+     "title": "비엣젯항공, 11월 11일 더블데이 항공권 특가 판매...최대 25% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Zb2pqMUNJWW03QTVpWjlMN2E1VFNXSTI4TlRFOXdZekZUdGNxTVlOa1F4WmtJVnUxOGJnY0NxX2JGa1NxeWpNNE91V2pnNEtBbjB4MnhaeVNWVnFQdDl3RjNR?oc=5"
     },
     "route": {
      "title": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
@@ -4919,7 +4971,7 @@
    "first_published": "2026-11-10",
    "last_published": "2026-11-12",
    "first_seen": "2026-11-10T16:44:38+09:00",
-   "last_seen": "2026-11-12T13:18:14+09:00",
+   "last_seen": "2026-11-16T09:14:16+09:00",
    "articles": [
     {
      "title": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
@@ -4943,6 +4995,12 @@
      "title": "비엣젯항공, 한국-베트남 전 노선 더블데이 특가 진행",
      "outlet": "비건뉴스",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xNWlHSm1XRHRZQzlad0otZFdnNjd5LTFlemxjdm9qTHpnVTRJdmh3akNpZWxGZUpCZDZuQlVITGlMaU1NY3JmaElyZ0RWUzkxYUtYSG5vblZNejM5ci1sR1J5YkZKdw?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "비엣젯항공, 11월 11일 더블데이 항공권 특가 판매...최대 25% 할인",
+     "outlet": "livesnews.com",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Zb2pqMUNJWW03QTVpWjlMN2E1VFNXSTI4TlRFOXdZekZUdGNxTVlOa1F4WmtJVnUxOGJnY0NxX2JGa1NxeWpNNE91V2pnNEtBbjB4MnhaeVNWVnFQdDl3RjNR?oc=5",
      "published": "2026-11-12"
     },
     {
@@ -6446,6 +6504,53 @@
      "title": "KB국민카드, 연말연시 해외여행 혜택…호텔 최대 20% 할인",
      "outlet": "스포츠서울",
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrUjlUMVFXYURjcTRsYWdsSzVPd19pSWdGZ0cwT29qS3B6X3lmdnB4eXQ1NWFuVFBqZE5PLWgtcnVSZG92N1FQcmlLeUNpTVlwaEZiRnpkVXI?oc=5",
+     "published": "2026-11-15"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-fe1e428294",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Luxury bedding brand 'trusted by five-star hotels' slashes everything to half price until Sunday",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-15",
+   "last_published": "2026-11-15",
+   "first_seen": "2026-11-16T09:14:16+09:00",
+   "last_seen": "2026-11-16T09:14:16+09:00",
+   "articles": [
+    {
+     "title": "Luxury bedding brand 'trusted by five-star hotels' slashes everything to half price until Sunday",
+     "outlet": "Manchester Evening News",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMHJ1d2RzRW9LNnRVZFdId19oSmpxTmFia2NYUkt3dWlmUVlTZV9oWDE3WGU2WVZzeDFLSkx6QktvekwwRDRZbFRfb1ZPYVU3QjVPWm1jWi1EcEZmY3F0ZHNrMXE4ek8teTlLNTRJbWktWnhUV2dRNWVxTUNMZHpSRkNRSzFTdlZkSk1hXzJ0b0hnckpWendlLUlrQnVtM2d5a3fSAacBQVVfeXFMTnUtSEFMbTBYRmE4Ri02dTVmVFE0eVNsWDVpemhLUkxVeWZvSUxmSFdmY0JVMjlnbk9Kc1hVeVN1Zm4wdjl5T0lSY2gwN1NrcllZUHJvYUNaX2FMOWVPbGJQaUIwcHkwV1ZXQnhkWHBsOW5SdDdCSS1Fa0sxeTVpT0dJN2NhTFJ6RFZaTFBXblpVUzhPdEl5Ni0yc052dUdoN01zN1ZXakU?oc=5",
      "published": "2026-11-15"
     }
    ],
@@ -9034,6 +9139,62 @@
      "outlet": "트래블데일리",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2ay1rX1RwNUdFdFN2VUhPWlRvTG5OVjFwb0hTZlViTXZUMEJ6RE1XYld4d05fbE1ybV9OS2ZXaS1ERVNfOTRyNDVNZVlKWHNwZTBiei1fS2dXa0NBR2ZjLUFSNWtMdktrUl9JZW5aLWw?oc=5",
      "published": "2026-11-08"
+    }
+   ],
+   "status": "ended"
+  },
+  {
+   "id": "h-other-d262f0c6b6",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Rosewood Takes 30% Off Stays Booked by Nov. 10: Who Can Book It?",
+   "sale_start": null,
+   "sale_end": "2026-11-10",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "Rosewood Takes 30% Off Stays Booked by Nov. 10: Who Can Book It?",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdlQwMEZncGhRRlh6VU1GR3lYWTFucnd4QUt1bE1oRG5rdGh2MEVRVmdGVWQyM21iY1ZEZDdEZkRUQ0xWWHRoaGxYOGhYRXFSZUl4dDctSVZhczVuWHVfaXhLZmtKQjlQX0M0cHktc2NEUThjdDdweEtZcXBZamNrYlhBbW1aS2JLZjMyc1JBVm5GcmV3?oc=5"
+    },
+    "discount": {
+     "title": "Rosewood Takes 30% Off Stays Booked by Nov. 10: Who Can Book It?",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdlQwMEZncGhRRlh6VU1GR3lYWTFucnd4QUt1bE1oRG5rdGh2MEVRVmdGVWQyM21iY1ZEZDdEZkRUQ0xWWHRoaGxYOGhYRXFSZUl4dDctSVZhczVuWHVfaXhLZmtKQjlQX0M0cHktc2NEUThjdDdweEtZcXBZamNrYlhBbW1aS2JLZjMyc1JBVm5GcmV3?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "30% 할인",
+   "verification": "news",
+   "first_published": "2026-11-03",
+   "last_published": "2026-11-03",
+   "first_seen": "2026-11-16T09:14:16+09:00",
+   "last_seen": "2026-11-16T09:14:16+09:00",
+   "articles": [
+    {
+     "title": "Rosewood Takes 30% Off Stays Booked by Nov. 10: Who Can Book It?",
+     "outlet": "deeparrival.com",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdlQwMEZncGhRRlh6VU1GR3lYWTFucnd4QUt1bE1oRG5rdGh2MEVRVmdGVWQyM21iY1ZEZDdEZkRUQ0xWWHRoaGxYOGhYRXFSZUl4dDctSVZhczVuWHVfaXhLZmtKQjlQX0M0cHktc2NEUThjdDdweEtZcXBZamNrYlhBbW1aS2JLZjMyc1JBVm5GcmV3?oc=5",
+     "published": "2026-11-03"
     }
    ],
    "status": "ended"
