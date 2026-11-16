@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T16:17:28+09:00",
+ "generated_at": "2026-11-16T18:16:10+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1738,
+  "rss_items": 1747,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1997,
+  "outlet_items": 2059,
   "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_enriched": 0,
   "mail_articles": 9,
   "mail_new_articles": 0,
   "articles_with_summary": 59,
-  "articles": 770,
-  "new_articles": 14,
+  "articles": 777,
+  "new_articles": 7,
   "deals": 170
  },
  "deals": [
@@ -70,12 +70,18 @@
    "first_published": "2026-11-16",
    "last_published": "2026-11-16",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-16T13:18:21+09:00",
+   "last_seen": "2026-11-16T18:16:10+09:00",
    "articles": [
     {
      "title": "[여행] 호텔스닷컴, 블랙 프라이데이 세일 진행…숙소 최대 50% 할인",
      "outlet": "리뷰타임스",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vV3BDLVFqWC15d0hZUXgwVFVTT29NeEJWZUFCa0k3UVZzcVFNOTl4VHYtd0NlUURuZ1VzdFJNY28xbElBcFdqNDVuN004VkRlWWlGY2dNZHhBWHpVVmhPSHJFYzJ4T0JvMTdiOE5NZ0E?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "호텔스닷컴, 블랙 프라이데이 세일…국내외 숙소 최대 50% 할인",
+     "outlet": "더퍼블릭",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QWDNyRUxMT1JEaXZqSndsb2VVS2RQLXZhc2EwQ3JKVGIyZS1naUhwb3g3OWp4b2prTWMwUUJULTZMY1QwTFdhUk45bm9MTUFqRVhkY1FiOTVuWktEYnZsVnRaV0dSdzV1Q1hlY1BBTdIBb0FVX3lxTE9QWDNyRUxMT1JEaXZqSndsb2VVS2RQLXZhc2EwQ3JKVGIyZS1naUhwb3g3OWp4b2prTWMwUUJULTZMY1QwTFdhUk45bm9MTUFqRVhkY1FiOTVuWktEYnZsVnRaV0dSdzV1Q1hlY1BBTQ?oc=5",
      "published": "2026-11-16"
     },
     {
@@ -1274,7 +1280,7 @@
    "first_published": "2026-11-16",
    "last_published": "2026-11-16",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-16T16:17:28+09:00",
+   "last_seen": "2026-11-16T18:16:10+09:00",
    "articles": [
     {
      "title": "트리니티항공, 국제선 블랙프라이데이 할인…최대 4만원 쿠폰도 제공",
@@ -1352,6 +1358,18 @@
      "title": "트리니티항공, 국제선 블프 프로모션...최대 4만원 쿠폰 外",
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aNUdjalVVVy0zMUpuTHRUWEdwZV9HTDJSLUtUSEdna0FwSlJqcE02QnJMVFRmYm5OSXVBY3htLVU5Z045ejZRWC1JLWtWOVhXM1d5NmExLXhzaW1OVnNPVTcxWHlpdw?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "트리니티항공, 국제선 블랙프라이데이 특가… 최대 4만원 할인 쿠폰",
+     "outlet": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SQmxIVkx6Y1dwV3M1MlFhSFZQTkxOcEpFWHlXbmNud0l4T2FyYlNXbmpyRHJvUnJBMmhNV3kwcGZwTWpQbGVWTF9xR21mZndhY2w2YkY2cTU0dw?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "트리니티항공, 국제선 블랙프라이데이 프로모션",
+     "outlet": "아이뉴스24",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9NVXZhczRmUmFBUkVlMGQxUXpieUUzckhnNk9xSE5yVGpZQ1dpYVF5dEd0aFNUZHlOR192aE9GNFhCS0RLUjlEaGo0OGc?oc=5",
      "published": "2026-11-16"
     },
     {
@@ -7008,7 +7026,7 @@
    "first_published": "2026-11-16",
    "last_published": "2026-11-16",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-16T13:18:21+09:00",
+   "last_seen": "2026-11-16T18:16:10+09:00",
    "articles": [
     {
      "title": "\"올 연말 호캉스는 이 가격에\"···여기어때, 최대 86% 특가 '블랙위크' 돌입",
@@ -7020,6 +7038,12 @@
      "title": "여기어때, 연말 ‘블랙위크’…국내 숙소 최대 86% 할인",
      "outlet": "핀포인트뉴스",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ORS1EZ0k0azZ3UERCZ3BmYWtzSTlwaXROU1Y4RHgwVzQ3SFJoS2xITjRxX1pQR0JPeE9iblFUWVh1R2JqNlZvYUVLc29HMFFucTAzNjhHM3RfZlVGOWJRTG15MV93R2NKb3E2RGFiZ2RERmNfcUsw0gF3QVVfeXFMTk5FLURnSTRrNndQREJncGZha3NJOXBpdE5TVjhEeDBXNDdIUmhLbEhONHFfWlBHQk94T2JuUVRZWHVHYmo2Vm9hRUtzb0cwUW5xMDM2OEczdF9mVUY5YlFMbXkxX3dHY0pvcTZEYWJnZERGY19xSzA?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "여기어때, 블랙 숙소 최대 86% 할인…연말 ‘블랙위크’ 진행",
+     "outlet": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HUVQzWVhrM2VkZjFzVGQ2RE1VNEdrV3JLZUstZlB4S2FqR0VQVW85Vy00dF9adm1vYXFMcURadm4zTnFXakVQdWt3MnkydmVyRkFnWEtBSC1VTFUwWlhidFl6STRCdnRDUC1pZGV6NGdTdw?oc=5",
      "published": "2026-11-16"
     },
     {
@@ -7297,7 +7321,7 @@
    "first_published": "2026-11-16",
    "last_published": "2026-11-16",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-16T16:17:28+09:00",
+   "last_seen": "2026-11-16T18:16:10+09:00",
    "articles": [
     {
      "title": "이스타항공, 수능 수험생 항공권 최대 25% 할인",
@@ -7315,6 +7339,12 @@
      "title": "수능 마치고 여행도 싸게 가자…이스타항공, 수험생 할인 이벤트 - 머니투데이",
      "outlet": "머니투데이",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvVERvdjc0cFJXYldHRGFEbzZueGxXa2l1OF9TVkFob0J6SExtMjQtbHNqMHY2Z2RhaXdfckl0MkZLeEtabFpTWXJRZFViX0xsN01kNENQcE5FbUNsR3lRTWFDcFg4X1hkZy13Nm96UTlYd9IBckFVX3lxTFBvVERvdjc0cFJXYldHRGFEbzZueGxXa2l1OF9TVkFob0J6SExtMjQtbHNqMHY2Z2RhaXdfckl0MkZLeEtabFpTWXJRZFViX0xsN01kNENQcE5FbUNsR3lRTWFDcFg4X1hkZy13Nm96UTlYdw?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "수능 마친 ‘수험생’ 여행길 돕는다···이스타항공, 최대 25% 할인",
+     "outlet": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XYWxTSjBQWkY3UHk1RGNHWUFxdTdsVGp5MFhkOG8zcXpOUWd5MkxzblA3QjdTSjk1WTFnSzdCT1JxM2pNdnBSUVUyQmh3cXkyV2ZrVWJLc2p2MVpZQXJFSUwxRndOQnh3SVF0ZjdTLU_SAXRBVV95cUxNRUNVeU5PS3R0Y082czcyYmtHcjgyTFdtTkJzS2NUdFJQX3JXWGJlVFpYVGpxT1ZPTlZLZHJ0XzI2RTVPdEVGMHA2Z2lrYUxDOEFEa3dGRzMwYktnSzV6N2w4bmtJQUJtUGhfYlpwcHIteFV5dg?oc=5",
      "published": "2026-11-16"
     },
     {
