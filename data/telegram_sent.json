@@ -3559,6 +3559,221 @@
    "kinds": {
     "new": "2026-11-13"
    }
+  },
+  "trinity-63d5e32836": {
+   "info": {
+    "airline": "trinity",
+    "name": "블랙프라이데이",
+    "sale_start": "2026-11-16",
+    "sale_end": "2026-11-30",
+    "dests": [],
+    "last": "2026-11-16",
+    "urls": [
+     "012ddb59e3",
+     "032a8b65cb",
+     "09c12f377f",
+     "17f0f0c006",
+     "536556c726",
+     "5a581f3862",
+     "5c1316ea32",
+     "5da99619a2",
+     "63d5e32836",
+     "723bafb75b",
+     "8347fe24db",
+     "a2ddfaf4ab",
+     "a627b48c61",
+     "e7fc958a9c",
+     "f4bcbccbfb",
+     "f58aaa0074"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-16",
+    "new": "2026-11-16"
+   }
+  },
+  "h-modetour-3d19fada33": {
+   "info": {
+    "airline": "h-modetour",
+    "name": "메가세일",
+    "sale_start": "2026-11-16",
+    "sale_end": "2026-12-24",
+    "dests": [],
+    "last": "2026-11-16",
+    "urls": [
+     "2d8b6ec25b",
+     "31533db364",
+     "3af7fdeed4",
+     "3d19fada33",
+     "cc5c9b7246",
+     "f6ed50fb16"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-16",
+    "new": "2026-11-16"
+   }
+  },
+  "h-hotelscom-d44500b120": {
+   "info": {
+    "airline": "h-hotelscom",
+    "name": "블랙프라이데이",
+    "sale_start": "2026-11-18",
+    "sale_end": "2026-12-03",
+    "dests": [],
+    "last": "2026-11-16",
+    "urls": [
+     "268935a376",
+     "552e9995de",
+     "5d2b04602c",
+     "a33fdcf8bf",
+     "d44500b120"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-16"
+   }
+  },
+  "h-nol-f1a48abbf0": {
+   "info": {
+    "airline": "h-nol",
+    "name": "놀데이",
+    "sale_start": null,
+    "sale_end": "2027-01-03",
+    "dests": [],
+    "last": "2026-11-16",
+    "urls": [
+     "0093e82dd6",
+     "2162621532",
+     "7667668c6e",
+     "9bb0303358",
+     "cc62737a1e",
+     "d74d5ab6b2",
+     "db0652fc4b",
+     "e4d9f72ecf",
+     "f1a48abbf0"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-16"
+   }
+  },
+  "multi-066dcee448": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-15",
+    "urls": [
+     "066dcee448"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-16"
+   }
+  },
+  "h-yeogi-37d9356c67": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "블랙위크",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-16",
+    "urls": [
+     "115b8ac935",
+     "37d9356c67",
+     "76f7bec442",
+     "96fe40574d",
+     "c1fbb562b5",
+     "ee11cff849"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-16"
+   }
+  },
+  "koreanair-bf205d468e": {
+   "info": {
+    "airline": "koreanair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-16",
+    "urls": [
+     "bf205d468e"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-16"
+   }
+  },
+  "h-nol-a68669eed4": {
+   "info": {
+    "airline": "h-nol",
+    "name": "놀데이",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-16",
+    "urls": [
+     "a68669eed4"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-16"
+   }
+  },
+  "h-modetour-c70bc26650": {
+   "info": {
+    "airline": "h-modetour",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-16",
+    "urls": [
+     "c70bc26650"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-16"
+   }
+  },
+  "eastarjet-00e7c5d7ef": {
+   "info": {
+    "airline": "eastarjet",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-16",
+    "urls": [
+     "00e7c5d7ef"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-16"
+   }
+  },
+  "h-hotelscom-dd4bc8d9a5": {
+   "info": {
+    "airline": "h-hotelscom",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-16",
+    "urls": [
+     "dd4bc8d9a5"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-16"
+   }
   }
  },
  "slots": {
@@ -3591,10 +3806,11 @@
    "evening": "sent"
   },
   "2026-11-16": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-16T13:23:02+09:00",
+ "saved_at": "2026-11-16T18:21:12+09:00",
  "drops_day": "2026-11-16",
  "drops": {
   "BKK": {
