@@ -107,6 +107,13 @@
    "sale_start": "2026-11-18",
    "sale_end": "2026-12-03"
   },
+  "h-ihg|2026-11-21|ihgworldwide25to30offcyb": {
+   "airline_id": "h-ihg",
+   "airline": "IHG",
+   "name": "IHG Worldwide 25% To 30% Off Cyber Sale For Stays November 2",
+   "sale_start": "2026-11-21",
+   "sale_end": "2027-04-30"
+  },
   "h-marriott|2026-10-30|marriottworldwide20offes": {
    "airline_id": "h-marriott",
    "airline": "메리어트",
