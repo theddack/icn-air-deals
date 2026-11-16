@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T13:18:21+09:00",
+ "generated_at": "2026-11-16T16:17:28+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1704,
+  "rss_items": 1738,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1957,
-  "outlet_new_articles": 1,
-  "outlet_enriched": 4,
+  "outlet_items": 1997,
+  "outlet_new_articles": 0,
+  "outlet_enriched": 1,
   "mail_articles": 9,
   "mail_new_articles": 0,
-  "articles_with_summary": 58,
-  "articles": 756,
-  "new_articles": 43,
-  "deals": 167
+  "articles_with_summary": 59,
+  "articles": 770,
+  "new_articles": 14,
+  "deals": 170
  },
  "deals": [
   {
@@ -1226,7 +1226,7 @@
    "status": "live"
   },
   {
-   "id": "trinity-8347fe24db",
+   "id": "trinity-63d5e32836",
    "airline_id": "trinity",
    "airline": "트리니티항공",
    "airlines_mentioned": [
@@ -1247,7 +1247,7 @@
    ],
    "agencies": [],
    "event_name": "블랙프라이데이",
-   "headline": "트리니티항공, 국제선 블랙프라이데이…내년 2~10월 탑승권 할인",
+   "headline": "트리니티항공, 국제선 블랙프라이데이 할인…최대 4만원 쿠폰도 제공",
    "sale_start": "2026-11-16",
    "sale_end": "2026-11-30",
    "travel_start": null,
@@ -1274,8 +1274,20 @@
    "first_published": "2026-11-16",
    "last_published": "2026-11-16",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-16T13:18:21+09:00",
+   "last_seen": "2026-11-16T16:17:28+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 국제선 블랙프라이데이 할인…최대 4만원 쿠폰도 제공",
+     "outlet": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOX0RxX2YydzRoRE5zVlAzLVRxOEY2dFI1eV9Mb1pwX0JMaEFQaURwZi1CT2o0dVBKVlBCd290LVpoNXpPVDlrWHh0cFpra0N5dnljTkZ5VTRDZi1mc0lRQ3I5TEJSNHBJZVFwdGdJdFVKXzA4NDVMalZWZFVVdEpIVGxoZklZVUEyYjg0czA1aWdNRFBOWDdQOExYUldwRlNoeXdoaGJPVy0tWG1XczFJVEl1Y0Q0M0FxY0NxWnd6YV9SUk4xa0lYbEhoUkZfaTF2ekNmMENHdnIzNkF6Y25VbHRWSEEzY25aMUlxT2dqNy1JLXBKVG9zT1AxVmJhYmI3alpWQXdyc0JnZmlPUUFTSVdRdzFLbWxlRXJhY2NoMWw5RHk0TXJyX2VUN3V1UQ?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "[대구소식]트리니티항공, 국제선 블랙프라이데이 프로모션 등",
+     "outlet": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02aDV1eWRqYUJnaVBzQnZhTVpWWk5MTXlRRGtPSHVXMUFUUVU1cG1LeFZ3VnFoMEJMSUF6eVEtREIzZ3pVSmg2SFNGWXpFdTdVWXBaMkI2a2VseElURTNLUy1zNEZSVzJDZ2lWRjhIc3I4NlJOZEs5dNIBeEFVX3lxTE02aDV1eWRqYUJnaVBzQnZhTVpWWk5MTXlRRGtPSHVXMUFUUVU1cG1LeFZ3VnFoMEJMSUF6eVEtREIzZ3pVSmg2SFNGWXpFdTdVWXBaMkI2a2VseElURTNLUy1zNEZSVzJDZ2lWRjhIc3I4NlJOZEs5dA?oc=5",
+     "published": "2026-11-16"
+    },
     {
      "title": "트리니티항공, 국제선 블랙프라이데이…내년 2~10월 탑승권 할인",
      "outlet": "디지틀조선일보",
@@ -1301,6 +1313,12 @@
      "published": "2026-11-16"
     },
     {
+     "title": "트리니티항공, 국제선 블랙프라이데이 프로모션 진행",
+     "outlet": "오늘경제",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fYk1EajVBR2lLcUtxam0yZUFjV3gzUTJZUU0zQUE4c1NGVjZsa2RCMVZvT2NYOEZtam1UQ0Fick1Venc3TlNRNkNlOGxvMXdBR3h4YmM5WEFqenJ3WXRMdUwwOWo4c2xTa0xxT0F4V2M2b2M?oc=5",
+     "published": "2026-11-16"
+    },
+    {
      "title": "트리니티항공, 16~30일 ‘국제선 블랙프라이데이’ 프로모션 진행",
      "outlet": "핀포인트뉴스",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HZDdoOElCZzdWdk9Sd2Z3QWFIWi1IMVVTYlpJZ2FrTTk3bzBhZHJPMi1JdTN2OFN3N3hoQzV3azFwZ0ZWRGNpY1BLaFg3azVKSVVqQm1hY3Z1azAxZkxpelZvYWhzeFB4cTI4eGtncGxYaGfSAXdBVV95cUxOY0pvaklnemw1OElGZUlGNV9LbFdSYWRCdUpsaUpPSktiamYtMHpvR1F4RHlNV3NWRGRzRk1TQkMxZW45NHkyRlVQdXV2M054MUUtbmhuc1k2TnBRSVlleDdKclJRNmo3Yk42S2lYWmxEWHA0TFJiOA?oc=5",
@@ -1313,9 +1331,33 @@
      "published": "2026-11-16"
     },
     {
+     "title": "트리니티항공, 국제선 블랙프라이데이 할인…최대 4만원 쿠폰 제공",
+     "outlet": "비즈니스플러스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90bkdtV3hBejdXVVppUGVHOFlMeWtseXNaeWZKMkVPdkNDRXAyZjhNMnFKUTdyY3FqV2RrTUJId0dYcTdwRFBXTmQzTy1QenYyY0ctTjdHUFNHZkRjM1pSNXAzQXpVWlRJaWcxdDdJZw?oc=5",
+     "published": "2026-11-16"
+    },
+    {
      "title": "최대 4만원 할인부터 선착순 특가까지…트리니티항공 '블랙프라이데이' 행사",
      "outlet": "컨슈머타임스",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mS210aGRyR2NmamFWeC0zRTVRVTFDeFZScXpwWWNPMFhob0VmWTl0RXZUS0VfVjExS005TmtPOXhJVlNsWlVoaXRQeXpndklpY2NoaTZCMkpJSDFXLWFuaDVUa29RTkRxNWc?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "트리니티항공, 16~30일 ‘국제선 블랙프라이데이 프로모션’",
+     "outlet": "www.hidomin.com",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16UkZaOUFDdUVxTlJmNHhMaEFxb2htR2s5by1tZTlJZVBsYmkxdWt5SzUzOUp0LTNsTUNNTGE4dlcybG9Ia3JvdGI3dHZ5YWY0Njc3bDJ5VHg5RHBuUnZDdnRueWRJUEhYc2c?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "트리니티항공, 국제선 블프 프로모션...최대 4만원 쿠폰 外",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aNUdjalVVVy0zMUpuTHRUWEdwZV9HTDJSLUtUSEdna0FwSlJqcE02QnJMVFRmYm5OSXVBY3htLVU5Z045ejZRWC1JLWtWOVhXM1d5NmExLXhzaW1OVnNPVTcxWHlpdw?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "트리니티항공, 30일까지 국제선 특가 항공권 판매",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5xa3JzRU9CU2lzODJIUWtxM3hjTng3aElVV1JwX2ZiRU8tUmNCajFXQ3cwVFNXcGVOSVR3QUl4eVg1QQ?oc=5",
      "published": "2026-11-16"
     }
    ],
@@ -1940,7 +1982,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "놀데이",
-   "headline": "NOL, 겨울 여행·공연 할인전…해외항공 최대 70% 할인",
+   "headline": "NOL, 겨울 놀거리도 제철에 즐긴다… NOLDAY서 여행ㆍ공연ㆍ전시 최대 70% 할인",
    "sale_start": null,
    "sale_end": "2027-01-03",
    "travel_start": null,
@@ -1955,8 +1997,8 @@
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1neUNuV2dQVnBnbUZzUTQtNHZrRUpDRzI1Ykp4aktKb3UtYzVEb0pCdmZ5ejR6MFo5Z2NIZXdqUWJZWGFVMkZNOTRtSGJXY21kM19ucGFUdVVjNDZaQkZmQ9IBYEFVX3lxTE1neUNuV2dQVnBnbUZzUTQtNHZrRUpDRzI1Ykp4aktKb3UtYzVEb0pCdmZ5ejR6MFo5Z2NIZXdqUWJZWGFVMkZNOTRtSGJXY21kM19ucGFUdVVjNDZaQkZmQw?oc=5"
     },
     "discount": {
-     "title": "NOL, 겨울 여행·공연 할인전…해외항공 최대 70% 할인",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5saDREaDZaQXg0WXRKU1RxMVRpYkx5c19UR2VGOVZ4ek1aRUxlYXlqRjNseFAyd19fdXd0bmV3V09IUFFUS3IyOS0zUnJxdkNVR1lfOFk2bWpLejVhWlh2UE1XNGhNNHBXeTFsRFplRExGLTdzRF9n0gF3QVVfeXFMTmxoNERoNlpBeDRZdEpTVHExVGliTHlzX1RHZUY5Vnh6TVpFTGVheWpGM2x4UDJ3X191d3RuZXdXT0hQUVRLcjI5LTNScnF2Q1VHWV84WTZtakt6NWFaWHZQTVc0aE00cFd5MWxEWmVETEYtN3NEX2c?oc=5"
+     "title": "NOL, 겨울 놀거리도 제철에 즐긴다… NOLDAY서 여행ㆍ공연ㆍ전시 최대 70% 할인",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSYi1rcVpZVmVzZkRJTm9MX3R4aHFlZEd5THBhd191UDZsOUZQMHFDREpiLTd4VnpuTUpGRWxkVW9tUW1VSF9FZTI5NjZtS3UyZW5DSDYtOS1MZUhLTDcxcnMtSDlPY2dFLWJsT2tiRlBsbFFm?oc=5"
     }
    },
    "from_icn": null,
@@ -1965,8 +2007,14 @@
    "first_published": "2026-11-16",
    "last_published": "2026-11-16",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-16T13:18:21+09:00",
+   "last_seen": "2026-11-16T16:17:28+09:00",
    "articles": [
+    {
+     "title": "NOL, 겨울 놀거리도 제철에 즐긴다… NOLDAY서 여행ㆍ공연ㆍ전시 최대 70% 할인",
+     "outlet": "놀유니버스",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSYi1rcVpZVmVzZkRJTm9MX3R4aHFlZEd5THBhd191UDZsOUZQMHFDREpiLTd4VnpuTUpGRWxkVW9tUW1VSF9FZTI5NjZtS3UyZW5DSDYtOS1MZUhLTDcxcnMtSDlPY2dFLWJsT2tiRlBsbFFm?oc=5",
+     "published": "2026-11-16"
+    },
     {
      "title": "NOL, 겨울 여행·공연 할인전…해외항공 최대 70% 할인",
      "outlet": "인사이트코리아",
@@ -1983,6 +2031,18 @@
      "title": "놀유니버스, 겨울 프로모션 ‘놀데이’ 진행...여행·공연 최대 70% 할인",
      "outlet": "파이낸셜투데이",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BdjFUYUplS05RQTBtYkNpMXg2TUcwNFY2YXJzLVM4aXJXVUhTVTJGMHJrUjVLYW5XWG5BQTRaMElaZGVxZkstbzd0T2FkX1d3VnFONl9SQ1lKOTJDeVJBemhfU0s2LU1POXfSAW5BVV95cUxNbVVGakVtRFdpNkNxcllhWElNblhBS0NXdnZVYWxmZThLM0NkbFFGVWN0WV9KTlZnQTdVV3hJejVqejFIdGkzV1hDR3g0T091TVZpa3lnYndfNk1nOXRET1pLa2wxRU9oUkZEdG1CQQ?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "NOL, 겨울 여가 '놀데이' 특가전… 항공·숙소 최대 70% 할인",
+     "outlet": "뉴스드림",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53SHh3NElXelJFd1VTOTlLcHR3aEJuVjJhamR4SjJoUU9hdGJVS09KZ2N2YzJ4My1iX2l5TGFnVVZXSG1qTHZtUndPNVBZTDJsMG1mdEhYT3VfNmE3NEhXc2hWelRheXc2TDhv0gFuQVVfeXFMTjJMX0JvVndhY1ZZUkNWWWRhbVpoeHNZSDYwNWo4dDhzbXJBT2czQkl4Y2E3dlJCaFlQVTBleDh4M1A5dFQyM0w5R3lCUWJPMzEwckZ4UEp0ZUlzUnM2S2ZtcEZ2d0xiRENnc1loR0E?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "NOL, 겨울 여행·공연·전시 특가전 ‘NOLDAY’ 진행",
+     "outlet": "BBS불교방송",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xWTdudXoxdjRTdlc0UnNsZmZNblJzbGs0WjZMMXE2SHRoSjB6N1lPcmliUmdKYzRodjdoQndkRV80V29QMGpSRHFtbVhMQVJuVG12RS1EemJYbVJFc0FJTXZyaWpITkRSc1Yw?oc=5",
      "published": "2026-11-16"
     },
     {
@@ -6984,6 +7044,107 @@
    "status": "undated"
   },
   {
+   "id": "koreanair-bf205d468e",
+   "airline_id": "koreanair",
+   "airline": "대한항공",
+   "airlines_mentioned": [
+    "대한항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.koreanair.com/",
+   "iata": [
+    "KE"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "한진트래블, 대한항공 직항 전세기 이용한 이집트 9일 특가 여행 상품 출시",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-16",
+   "first_seen": "2026-11-16T16:17:28+09:00",
+   "last_seen": "2026-11-16T16:17:28+09:00",
+   "articles": [
+    {
+     "title": "한진트래블, 대한항공 직항 전세기 이용한 이집트 9일 특가 여행 상품 출시",
+     "outlet": "비욘드포스트",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uX3FQaG1GUHpnWkFPbWhmZUFPMGdKQ2VCNkl3aFRGNVg5Q25feU9va0FjcXltMXpjdlVYdVZScGo3b0FhQ2Y3LXNndl96UUg5UUhPMkRtU1dXMi1obkR0S0lxTjd1cjdXbGxzbjFvejVvX1dENnkyZWpQS2w?oc=5",
+     "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-nol-a68669eed4",
+   "airline_id": "h-nol",
+   "airline": "놀(야놀자)",
+   "airlines_mentioned": [
+    "놀(야놀자)"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://nol.yanolja.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "놀데이",
+   "headline": "해외항공 70%·숙소 15% 할인…NOL, 겨울 여행족 위한 '놀데이' 시작",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "해외항공 70%·숙소 15% 할인…NOL, 겨울 여행족 위한 '놀데이' 시작",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0cnNKQ2hZTXZtMWE1MUJrcUh4ZzZ2eXQzUmhXR0lqbFgwWDRfdlZCVUNNLTJ2NjVockFLam9Za3FGVXFBMGtZMGtKSVlISWlFVFU0RlVNdXlfS0J3aVRzZzhtUEhVVTNTdHRKeg?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "15% 할인",
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-16",
+   "first_seen": "2026-11-16T16:17:28+09:00",
+   "last_seen": "2026-11-16T16:17:28+09:00",
+   "articles": [
+    {
+     "title": "해외항공 70%·숙소 15% 할인…NOL, 겨울 여행족 위한 '놀데이' 시작",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0cnNKQ2hZTXZtMWE1MUJrcUh4ZzZ2eXQzUmhXR0lqbFgwWDRfdlZCVUNNLTJ2NjVockFLam9Za3FGVXFBMGtZMGtKSVlISWlFVFU0RlVNdXlfS0J3aVRzZzhtUEhVVTNTdHRKeg?oc=5",
+     "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-modetour-c70bc26650",
    "airline_id": "h-modetour",
    "airline": "모두투어",
@@ -7136,7 +7297,7 @@
    "first_published": "2026-11-16",
    "last_published": "2026-11-16",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-16T13:18:21+09:00",
+   "last_seen": "2026-11-16T16:17:28+09:00",
    "articles": [
     {
      "title": "이스타항공, 수능 수험생 항공권 최대 25% 할인",
@@ -7172,6 +7333,12 @@
      "title": "[게시판] 이스타항공, 수능 수험생 대상 항공권 최대 25% 할인",
      "outlet": "연합뉴스",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oRVZTNnZvbnk4OVd4QVNEcDBCTWlBTFVoMm1SMHZySzFfV2ZKdFRCVzBaN3RYVUk5aU8za216cnYwbjRUSERReXl4b3c0QkVHdWZDZjdnTVpuWVYtZHBuRdIBYEFVX3lxTE5oRVZTNnZvbnk4OVd4QVNEcDBCTWlBTFVoMm1SMHZySzFfV2ZKdFRCVzBaN3RYVUk5aU8za216cnYwbjRUSERReXl4b3c0QkVHdWZDZjdnTVpuWVYtZHBuRQ?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "이스타항공, 수능 수험생·동반 1인 항공권 최대 25% 할인",
+     "outlet": "메트로신문",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE10aHRobEJndFBLRVJWcW5vZzlxdWN1VDRReGdVd1pZSm9RaC1vZ0JBVE9VLUhQRXB4WWxTQkZIOGV5YmJaUTZjVGpUYjE1V3ZQMDczd29uMFRrbVBPRXJfSQ?oc=5",
      "published": "2026-11-16"
     },
     {
@@ -7302,6 +7469,58 @@
      "title": "이스타항공, 수능 수험생에 항공권 할인…국제선 최대 10%",
      "outlet": "이투데이",
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1JampnREFwLUlVWFB3TVhlLU5jVVowNmt3N3NaeTF1OWNBN3FaRUtFalBHaXRfNS1fSzlCNzRXWXkzZFBZT0dPVFRDcUhBXzgyTmhrNA?oc=5",
+     "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-hotelscom-dd4bc8d9a5",
+   "airline_id": "h-hotelscom",
+   "airline": "호텔스닷컴",
+   "airlines_mentioned": [
+    "호텔스닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://kr.hotels.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "호텔스닷컴, 블랙프라이데이 숙박 할인 행사…최대 75% 특가 제공",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "호텔스닷컴, 블랙프라이데이 숙박 할인 행사…최대 75% 특가 제공",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11MG9ndjhSUHJ6MEl1S05jTndKeDZpcnFBYTRFSVdEN244TFFHeFRJdXRQNjdMMXpVdzlrQk1FS2JITVVNbURWUG9PT2c0NVN4U2tqQmd0ek1NR0tZTkh0SklWSHB4dFdhMFBOTQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 75%",
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-16",
+   "first_seen": "2026-11-16T16:17:28+09:00",
+   "last_seen": "2026-11-16T16:17:28+09:00",
+   "articles": [
+    {
+     "title": "호텔스닷컴, 블랙프라이데이 숙박 할인 행사…최대 75% 특가 제공",
+     "outlet": "뉴스플릭스",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11MG9ndjhSUHJ6MEl1S05jTndKeDZpcnFBYTRFSVdEN244TFFHeFRJdXRQNjdMMXpVdzlrQk1FS2JITVVNbURWUG9PT2c0NVN4U2tqQmd0ek1NR0tZTkh0SklWSHB4dFdhMFBOTQ?oc=5",
      "published": "2026-11-16"
     }
    ],

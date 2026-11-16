@@ -1,16 +1,14 @@
 {
- "checked_at": "2026-11-16T13:18:19+09:00",
+ "checked_at": "2026-11-16T16:17:17+09:00",
  "days": 21,
- "searched": 21,
- "sender:홍콩익스프레스": 2,
- "checked": 21,
- "no_facts": 12,
- "no_facts:홍콩익스프레스": 1,
+ "searched": 20,
  "sender:트립닷컴": 2,
+ "checked": 20,
  "transactional": 1,
  "transactional_hit:제목:인증번호:트립닷컴": 1,
  "transactional:트립닷컴": 1,
  "sender:스카이스캐너": 5,
+ "no_facts": 11,
  "no_facts:스카이스캐너": 5,
  "sender:에어부산": 6,
  "accepted": 7,
@@ -26,6 +24,7 @@
  "no_facts:핀에어": 1,
  "no_facts:스쿠트항공": 1,
  "accepted:스쿠트항공": 1,
+ "sender:홍콩익스프레스": 1,
  "accepted:홍콩익스프레스": 1,
  "kept": 9
 }
