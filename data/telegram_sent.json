@@ -3989,31 +3989,6 @@
     "new": "2026-11-17"
    }
   },
-  "finnair-609c4c1728": {
-   "info": {
-    "airline": "finnair",
-    "name": "",
-    "sale_start": null,
-    "sale_end": null,
-    "dests": [
-     "유럽"
-    ],
-    "last": "2026-11-17",
-    "urls": [
-     "3878ff4369",
-     "3a0b134794",
-     "46b5f89417",
-     "609c4c1728",
-     "8242aec618",
-     "ad8c7336dc",
-     "bbb8c0bf1d",
-     "be22b179aa"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-17"
-   }
-  },
   "finnair-07d858ea84": {
    "info": {
     "airline": "finnair",
@@ -4064,6 +4039,35 @@
    "kinds": {
     "new": "2026-11-17"
    }
+  },
+  "finnair-a18aae07dc": {
+   "info": {
+    "airline": "finnair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "유럽"
+    ],
+    "last": "2026-11-17",
+    "urls": [
+     "3878ff4369",
+     "3a0b134794",
+     "40ef152217",
+     "46b5f89417",
+     "609c4c1728",
+     "752ae65333",
+     "8242aec618",
+     "a15b58de4b",
+     "a18aae07dc",
+     "ad8c7336dc",
+     "bbb8c0bf1d",
+     "be22b179aa"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17"
+   }
   }
  },
  "slots": {
@@ -4100,7 +4104,7 @@
    "evening": "sent"
   }
  },
- "saved_at": "2026-11-17T18:21:10+09:00",
+ "saved_at": "2026-11-17T22:22:15+09:00",
  "drops_day": "2026-11-17",
  "drops": {
   "BKK": {
