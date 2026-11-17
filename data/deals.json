@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T13:18:19+09:00",
+ "generated_at": "2026-11-17T17:29:48+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 17,
-  "rss_items": 1684,
+  "failed_queries": 6,
+  "rss_items": 1642,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2106,
+  "outlet_items": 2175,
   "outlet_new_articles": 0,
   "outlet_enriched": 2,
   "mail_articles": 9,
   "mail_new_articles": 0,
-  "articles_with_summary": 61,
-  "articles": 794,
-  "new_articles": 21,
-  "deals": 171
+  "articles_with_summary": 63,
+  "articles": 827,
+  "new_articles": 33,
+  "deals": 178
  },
  "deals": [
   {
@@ -45,7 +45,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "블랙프라이 데이",
-   "headline": "[여행] 호텔스닷컴, 블랙 프라이데이 세일 진행…숙소 최대 50% 할인",
+   "headline": "호텔스닷컴 블랙프라이데이, 숙소 최대 50% 할인…27일·12월 1일엔 최대 75%",
    "sale_start": "2026-11-18",
    "sale_end": "2026-12-03",
    "travel_start": null,
@@ -60,18 +60,24 @@
      "url": "http://www.ttlnews.com/news/articleView.html?idxno=3162661"
     },
     "discount": {
-     "title": "[여행] 호텔스닷컴, 블랙 프라이데이 세일 진행…숙소 최대 50% 할인",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vV3BDLVFqWC15d0hZUXgwVFVTT29NeEJWZUFCa0k3UVZzcVFNOTl4VHYtd0NlUURuZ1VzdFJNY28xbElBcFdqNDVuN004VkRlWWlGY2dNZHhBWHpVVmhPSHJFYzJ4T0JvMTdiOE5NZ0E?oc=5"
+     "title": "호텔스닷컴 블랙프라이데이, 숙소 최대 50% 할인…27일·12월 1일엔 최대 75%",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ2hrbUNtYjZxY0g5WktZRllmWGd3UDNOZVMzbjNpNXQ3MjJZMlRSbzNpSXFNam9CT0Z1VGpKNE9sTDcwSzhVa0RmSjZQOXpjeW9jaEdTN0JuWDdFN09feTBhSXJvUUdfR2NCYjkxa0VWUHdMU0FRQk9XbWh0cGo3c2dvVQ?oc=5"
     }
    },
    "from_icn": null,
    "discount": "최대 50%",
    "verification": "news",
    "first_published": "2026-11-16",
-   "last_published": "2026-11-16",
+   "last_published": "2026-11-17",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-16T22:17:33+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
    "articles": [
+    {
+     "title": "호텔스닷컴 블랙프라이데이, 숙소 최대 50% 할인…27일·12월 1일엔 최대 75%",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ2hrbUNtYjZxY0g5WktZRllmWGd3UDNOZVMzbjNpNXQ3MjJZMlRSbzNpSXFNam9CT0Z1VGpKNE9sTDcwSzhVa0RmSjZQOXpjeW9jaEdTN0JuWDdFN09feTBhSXJvUUdfR2NCYjkxa0VWUHdMU0FRQk9XbWh0cGo3c2dvVQ?oc=5",
+     "published": "2026-11-17"
+    },
     {
      "title": "[여행] 호텔스닷컴, 블랙 프라이데이 세일 진행…숙소 최대 50% 할인",
      "outlet": "리뷰타임스",
@@ -696,82 +702,6 @@
    "status": "live"
   },
   {
-   "id": "trinity-86641eb932",
-   "airline_id": "trinity",
-   "airline": "트리니티항공",
-   "airlines_mentioned": [
-    "트리니티항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.twayair.com/",
-   "iata": [
-    "TW"
-   ],
-   "agencies": [],
-   "event_name": "할인 프로모션",
-   "headline": "트리니티항공, 수험생 ‘할인 프로모션’…국내선 25%·국제선 최대 20%",
-   "sale_start": "2026-11-12",
-   "sale_end": "2027-01-31",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "ER 이코노믹리뷰 요약문: 예약은 11월 12일부터 2027년 1월 31일까지 트리니",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=757008"
-    },
-    "discount": {
-     "title": "트리니티항공, 수험생 ‘할인 프로모션’…국내선 25%·국제선 최대 20%",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qYW81bnUwZnBwdC1ZNC1sQ2xZMVB5TTViLTI2Rk10OTNrUW1tMVdGZEY2Q3pIc1J1RDg1TWxUMWhOUnZQRnViTTdGbm80V1dfcWp0MF9ybTVwMGVvZnBfNUhIRDNYOGh5bjE5Q2RwVzBIb3Q3NjVuQmxR?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 20%",
-   "verification": "news",
-   "first_published": "2026-11-12",
-   "last_published": "2026-11-12",
-   "first_seen": "2026-11-12T16:43:47+09:00",
-   "last_seen": "2026-11-13T02:44:33+09:00",
-   "articles": [
-    {
-     "title": "트리니티항공, 수험생 ‘할인 프로모션’…국내선 25%·국제선 최대 20%",
-     "outlet": "로이슈",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qYW81bnUwZnBwdC1ZNC1sQ2xZMVB5TTViLTI2Rk10OTNrUW1tMVdGZEY2Q3pIc1J1RDg1TWxUMWhOUnZQRnViTTdGbm80V1dfcWp0MF9ybTVwMGVvZnBfNUhIRDNYOGh5bjE5Q2RwVzBIb3Q3NjVuQmxR?oc=5",
-     "published": "2026-11-12"
-    },
-    {
-     "title": "\"수능 끝나고 어디 갈까?\" 트리니티항공, 수험생 항공권 할인",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2a2taUzMxc0xjNUM0R2QxbWRRNE9JU0YybmlKY0UwSWdKUkNfVVdNS21xaWxSUVBRVTFjR0o4NERDVjhHRDJaX1ozOFZ4dnJ6VDlRNmk3cVdMdkhDNEs5dGpfZkZndUdxaXVvMQ?oc=5",
-     "published": "2026-11-12"
-    },
-    {
-     "title": "트리니티항공, 수험생 항공권 할인…국내선 25%·국제선 최대 20%",
-     "outlet": "컨슈머타임스",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54My1COWZRU2tEcDU3MnJLbDRMeG8td1F4MHBlYm9VR1BXczlOUVFPdzVfTzNPSVI4Q2lzTlhIVEF2NHZoRDREWllEaENmSl9zT2JhNVlfaWRRNng4anpvSUhvY2VkWjd5N1E?oc=5",
-     "published": "2026-11-12"
-    },
-    {
-     "title": "트리니티항공, 수능 프로모션…국제선 최대 20% 할인",
-     "outlet": "아이뉴스24",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1TWFYzVnI3THlOT2RIdzBaTWdGbEpUM29hVUUyNmFwQzZ5cE04Yml1ZEFVYUlaaEdvbER6SkJRTW9iM3JBSF9yeFphVTQ?oc=5",
-     "published": "2026-11-12"
-    }
-   ],
-   "status": "live"
-  },
-  {
    "id": "trinity-7d49ad0a5e",
    "airline_id": "trinity",
    "airline": "트리니티항공",
@@ -828,6 +758,143 @@
      "title": "트리니티항공, 수능 할인 프로모션..동반 1인까지 최대 25%",
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9YOEp0U3htalh5YXpuVUlOclB0dnBmZ1haZnNXNmFFanc1T0Z5SVpWVWdGcUQwaHVCYWpGZWx4SzlDZnI2aWl5RkppcEZLa3BZcW1PUmtNUlpQZ0p6U3lyNkZVcWhtQQ?oc=5",
+     "published": "2026-11-12"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "trinity-86641eb932",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": "할인 프로모션",
+   "headline": "트리니티항공, 태국관광청과 손잡고 겨울 여행객 공략…항공권 할인 프로모션",
+   "sale_start": "2026-11-12",
+   "sale_end": "2027-01-31",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "태국"
+    },
+    {
+     "origin": null,
+     "destination": "치앙마이(CNX)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "ER 이코노믹리뷰 요약문: 예약은 11월 12일부터 2027년 1월 31일까지 트리니",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=757008"
+    },
+    "discount": {
+     "title": "\"태국여행은 트리니티항공으로\"…항공권 최대 20% 할인",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zWGU0Zm9KdTQwa1hsXzlIWTkzelNBMldJR0hJdGYzbUhTZXZXQXpmVXVNaDNsbHpNR0hZaV9tVzVyWnpURFhKaTd3c2JUOWZBbUdURXhKQlFzS2lSelFLZVI3UFJsV3h1aVJVOF9LTm9pZ21jSXBiS9IBeEFVX3lxTE1zWGU0Zm9KdTQwa1hsXzlIWTkzelNBMldJR0hJdGYzbUhTZXZXQXpmVXVNaDNsbHpNR0hZaV9tVzVyWnpURFhKaTd3c2JUOWZBbUdURXhKQlFzS2lSelFLZVI3UFJsV3h1aVJVOF9LTm9pZ21jSXBiSw?oc=5"
+    },
+    "route": {
+     "title": "트리니티항공, 태국 관광청과 방콕·치앙마이 노선 공동 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wLU1UNzZzMXlrNFFIQlAxRGo2U0JqYW05bVNvU1lrZjA2ZXZZeWZkMXg5QVJpY1dKMTFDS2tLVWtZMk9KemNqWV9UOHltamVfVVQ1cWh5c0RWTlV3QXItWVZuV04?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-12T16:43:47+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공, 태국관광청과 손잡고 겨울 여행객 공략…항공권 할인 프로모션",
+     "outlet": "글로벌이코노믹",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUFpQMnF4OFdCTGlVRnZqR1VxSmh3eloxQVFUZ2NORDhLQkI2MXVtb1JYX3gxSERtWnVKNHJtQlQ0V2lFMkRPTlpjS1lrc0NoQ0R0b0toOUdLWlpGUmZQbGQ1RkV0WU1FX1E3b1BXZmh6TWw2UC1iVkhzZG1lU0RKUlVNYXYwZw?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "\"태국여행은 트리니티항공으로\"…항공권 최대 20% 할인",
+     "outlet": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zWGU0Zm9KdTQwa1hsXzlIWTkzelNBMldJR0hJdGYzbUhTZXZXQXpmVXVNaDNsbHpNR0hZaV9tVzVyWnpURFhKaTd3c2JUOWZBbUdURXhKQlFzS2lSelFLZVI3UFJsV3h1aVJVOF9LTm9pZ21jSXBiS9IBeEFVX3lxTE1zWGU0Zm9KdTQwa1hsXzlIWTkzelNBMldJR0hJdGYzbUhTZXZXQXpmVXVNaDNsbHpNR0hZaV9tVzVyWnpURFhKaTd3c2JUOWZBbUdURXhKQlFzS2lSelFLZVI3UFJsV3h1aVJVOF9LTm9pZ21jSXBiSw?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "트리니티항공, 태국정부관광청과 공동 프로모션…겨울 관광 수요 공략",
+     "outlet": "이코노미트리뷴",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBENnlTS1FFODRqMWJucDc4ZEFSOWg1Q2ZmMURpTThBREZLbXROUFZmT1ZlMVFvQXNBTjRrV3gzX2JHRE9QbGN0Zllya0EtVElHUXRKTjBEU0dYSkROZVFsY3ZTcHBjRWpfNzhISnhJX2cwVXFqTmk0?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "트리니티항공, 태국정부관광청과 공동 프로모션...항공권 최대 20% 할인",
+     "outlet": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HU3ZOV1kya2lqS0ZQYlNrdW1WX2VQX2FZdkNjVGRrZk1jQV82YW5zeWFoTno4Q3c0TkFNY2RWbGFZS0dEWGgwSjBKMThyWVNjdmdwZW43ZXV0R1IxSkNGU3BMNFVQZjgzM1A0NFJaei1vUQ?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "트리니티항공, 태국정부관광청과 공동 프로모션···항공권 최대 20% 할인",
+     "outlet": "뉴스프리존",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Qbmg2Wld6UWo3WnlNcGpVejdiZ0hQMFRYQmw1NVRFVm5LckdGWk01LWhDb3dYQlh1cmpseFdnX0R6a3RHNGREWVZCVU03a2JqOUpmOVliRk1FOGFsX3d2TFlNeWIxV0tGdUh0QkxCaFNUN2PSAXdBVV95cUxPOVZPR3B3OXkwbmhRUk9CbXc1NDh3cHVBbG5zRzJaRXI0VUJmd1VyRUwzOHFjcWloN05TaFFvcU1RbExpZmNIRnk3OTBsN1dZdm5UQUlhQk1Bb2lRNWxUdWNvM3h1dzlOY0ZZRnR1aWhjamF6aTRQMA?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "트리니티항공, 태국 관광청과 방콕·치앙마이 노선 공동 프로모션",
+     "outlet": "매일일보",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wLU1UNzZzMXlrNFFIQlAxRGo2U0JqYW05bVNvU1lrZjA2ZXZZeWZkMXg5QVJpY1dKMTFDS2tLVWtZMk9KemNqWV9UOHltamVfVVQ1cWh5c0RWTlV3QXItWVZuV04?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "트리니티항공, 태국 노선 최대 20% 할인…3만원 쿠폰도",
+     "outlet": "뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kREt3R1RvWGkwWlRkUDhic0QtanQ4LWI1Y0wwUDJ3VWI3SmxIT2JPejh4Ykt2NXNrWXFSUnRhX0F5SzFYbjFucEVJQkhuRVRyQ3BvREZQeGhTU0dfWEE?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "트리니티항공, 태국 방콕·치앙마이 특가 항공권 프로모션",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9XZW1fU25xNEp5YnQwaGlUYXBXaGhhRExZU1d6VlZYVDdSUS0xdzJBbGlnVnY0QllRR0oxQ2RJcHFiQQ?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "트리니티항공, 수험생 ‘할인 프로모션’…국내선 25%·국제선 최대 20%",
+     "outlet": "로이슈",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qYW81bnUwZnBwdC1ZNC1sQ2xZMVB5TTViLTI2Rk10OTNrUW1tMVdGZEY2Q3pIc1J1RDg1TWxUMWhOUnZQRnViTTdGbm80V1dfcWp0MF9ybTVwMGVvZnBfNUhIRDNYOGh5bjE5Q2RwVzBIb3Q3NjVuQmxR?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "\"수능 끝나고 어디 갈까?\" 트리니티항공, 수험생 항공권 할인",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2a2taUzMxc0xjNUM0R2QxbWRRNE9JU0YybmlKY0UwSWdKUkNfVVdNS21xaWxSUVBRVTFjR0o4NERDVjhHRDJaX1ozOFZ4dnJ6VDlRNmk3cVdMdkhDNEs5dGpfZkZndUdxaXVvMQ?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "트리니티항공, 수험생 항공권 할인…국내선 25%·국제선 최대 20%",
+     "outlet": "컨슈머타임스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54My1COWZRU2tEcDU3MnJLbDRMeG8td1F4MHBlYm9VR1BXczlOUVFPdzVfTzNPSVI4Q2lzTlhIVEF2NHZoRDREWllEaENmSl9zT2JhNVlfaWRRNng4anpvSUhvY2VkWjd5N1E?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "트리니티항공, 수능 프로모션…국제선 최대 20% 할인",
+     "outlet": "아이뉴스24",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1TWFYzVnI3THlOT2RIdzBaTWdGbEpUM29hVUUyNmFwQzZ5cE04Yml1ZEFVYUlaaEdvbER6SkJRTW9iM3JBSF9yeFphVTQ?oc=5",
      "published": "2026-11-12"
     }
    ],
@@ -1884,7 +1951,7 @@
    "first_published": "2026-11-16",
    "last_published": "2026-11-16",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-16T16:17:28+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
    "articles": [
     {
      "title": "NOL, 겨울 놀거리도 제철에 즐긴다… NOLDAY서 여행ㆍ공연ㆍ전시 최대 70% 할인",
@@ -1908,6 +1975,12 @@
      "title": "놀유니버스, 겨울 프로모션 ‘놀데이’ 진행...여행·공연 최대 70% 할인",
      "outlet": "파이낸셜투데이",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BdjFUYUplS05RQTBtYkNpMXg2TUcwNFY2YXJzLVM4aXJXVUhTVTJGMHJrUjVLYW5XWG5BQTRaMElaZGVxZkstbzd0T2FkX1d3VnFONl9SQ1lKOTJDeVJBemhfU0s2LU1POXfSAW5BVV95cUxNbVVGakVtRFdpNkNxcllhWElNblhBS0NXdnZVYWxmZThLM0NkbFFGVWN0WV9KTlZnQTdVV3hJejVqejFIdGkzV1hDR3g0T091TVZpa3lnYndfNk1nOXRET1pLa2wxRU9oUkZEdG1CQQ?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "NOL, NOLDAY 여행·공연·전시 겨울 특가전 선봬 \"최대 70% 할인\"",
+     "outlet": "마일드경제",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvYzQ4T2lXTWdKQmc3TDZJWHpiRVR2Y29pUHYyWjRoSW5hRTFYYXptU2FtWnBSeDhBMGg3MERqZFBrNUw5c3pQNTV6Wk1XbzlncjdRa1NqaURjZlF4dXVnUzhGY3o2TzBXQk5n?oc=5",
      "published": "2026-11-16"
     },
     {
@@ -1939,6 +2012,205 @@
      "outlet": "재경일보",
      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByTTJyTDJHdkRkaUZCZ0VxZzZPQ01oNllXUkNNSnkwYU1LTDdnbjlSNFVxTUtxaDdMUmRjblF4Zkk1OUk3UjFvMkQxSQ?oc=5",
      "published": "2026-11-16"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "jejuair-18dd67dd03",
+   "airline_id": "jejuair",
+   "airline": "제주항공",
+   "airlines_mentioned": [
+    "제주항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "domestic",
+   "route": "domestic",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "domestic",
+   "official_url": "https://www.jejuair.net/",
+   "iata": [
+    "7C"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "제주항공, 수능 수험생·동반자 국내선 항공권 20% 할인",
+   "sale_start": null,
+   "sale_end": "2027-02-25",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "김포(GMP)",
+     "destination": "부산(PUS)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "국민일보 요약문: …<p>할인 이벤트는 탑승일을 기준으로 내년 2월 25일까지이며, 예매는 오는 12월 16일까지 마쳐야 한다.…",
+     "url": "https://www.kmib.co.kr/article/20261117500759"
+    },
+    "discount": {
+     "title": "제주항공, 수능 수험생·동반자 국내선 항공권 20% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOeS1jYXVMVG5hRkFGSEY3Nkk3alFJRms2U1RwUkoxVUJSUmJ3ZkN5NnJwVlRMNkZIQjhWOUtIVWQ2ZjlkcmI2dzQ2SkRia0RIUnhxRUxUTUxnd0IwZVd1TmtRZTM0RXFORXpTS0xwMzBEMzdjQzFuRi0taTNpZnJmZzBMbUY2b0hiTXJKZk0yazVOU2RoSU13bXg3RFZ6UWkyNnktNzV6ZjNweHJ6RmNLMV8tQzZsR1dVUXl5Njg0U3hvRWo4d1p1TGlic3NFSTFjMkgzYmtQa0pYLWRvZVhsQVJuVEZlRWh5d2I5dzZlN0h4MUFtZG16OWJQa28wYTYtTVB0c1V1YjlQV2dqODg2QWdhWDkxbC1kdlc1TXFYbmloaGs?oc=5"
+    },
+    "route": {
+     "title": "ER 이코노믹리뷰 요약문: 제주를 오가는 항공편은 물론 김포-부산 노선까지 국내선 전 노선에서 혜택을 받을 수 있다.",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=757523"
+    }
+   },
+   "from_icn": "no",
+   "discount": "20% 할인",
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-17T13:18:19+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
+   "articles": [
+    {
+     "title": "제주항공, 수능 수험생·동반자 국내선 항공권 20% 할인",
+     "outlet": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOeS1jYXVMVG5hRkFGSEY3Nkk3alFJRms2U1RwUkoxVUJSUmJ3ZkN5NnJwVlRMNkZIQjhWOUtIVWQ2ZjlkcmI2dzQ2SkRia0RIUnhxRUxUTUxnd0IwZVd1TmtRZTM0RXFORXpTS0xwMzBEMzdjQzFuRi0taTNpZnJmZzBMbUY2b0hiTXJKZk0yazVOU2RoSU13bXg3RFZ6UWkyNnktNzV6ZjNweHJ6RmNLMV8tQzZsR1dVUXl5Njg0U3hvRWo4d1p1TGlic3NFSTFjMkgzYmtQa0pYLWRvZVhsQVJuVEZlRWh5d2I5dzZlN0h4MUFtZG16OWJQa28wYTYtTVB0c1V1YjlQV2dqODg2QWdhWDkxbC1kdlc1TXFYbmloaGs?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 수험생·동반자 국내선 항공권 20% 할인",
+     "outlet": "Chosunbiz",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcDVPOXgxcFNYR2tYNFVUVWxHS2Z0SzVHTWM1NGlITklFSmljeVdUaTRma3R2ZE51Rlh1Xy1jUXFBLWlTUTdhcXZEUkNjUVNUWmpQU2NJdmFxeE1XTE9jcFJCSHNjVmY4bmpkNV96aFNDc0l5S0YyckFyS0xYVEg4OEs4NzI2Q0Fod0Y3UUhVeUhRY0tDT3FYTdIBmAFBVV95cUxPcDVPOXgxcFNYR2tYNFVUVWxHS2Z0SzVHTWM1NGlITklFSmljeVdUaTRma3R2ZE51Rlh1Xy1jUXFBLWlTUTdhcXZEUkNjUVNUWmpQU2NJdmFxeE1XTE9jcFJCSHNjVmY4bmpkNV96aFNDc0l5S0YyckFyS0xYVEg4OEs4NzI2Q0Fod0Y3UUhVeUhRY0tDT3FYTQ?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 2027 대입 수험생 할인 이벤트",
+     "outlet": "스타뉴스",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SOWduV1NoaG9hTzhoRHdZQlRTV1ZfeWNwaDdZZTRqakR0Sk9TZEZCZVdiX19yYy1KSGw3NkNoMzBuT3FUNmJ0OENrTE9sTjdScVo1S0tSVGpWQ0NuUHgzcUhwZXB6RzVVeXFzLVVxck5VT1czeWFtTVN2RmRjN2c?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 수험생·가족 국내선 항공권 20% 할인",
+     "outlet": "스포츠한국",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMX25CUi01MWRLZ0xTQnZUb29YNlR2UGxzaDV0NjZjWGRkakpKNjhTUlFWQXBKTzN5LXFGcW1WNExqQmFaSXhmSVJpQUJtMnNjQmhBQkc2UWkwYlZsaW9iWnl0Z083eXlaZU55TmFpVnRCRkFD0gF0QVVfeXFMUExfbkJSLTUxZEtnTFNCdlRvb1g2VHZQbHNoNXQ2NmNYZGRqSko2OFNSUVZBcEpPM3ktcUZxbVY0TGpCYVpJeGZJUmlBQm0yc2NCaEFCRzZRaTBiVmxpb2JaeXRnTzd5eVplTnlOYWlWdEJGQUM?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 수능 수험생 응원 이벤트...국내선 항공권 20% 할인",
+     "outlet": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMa2ZHS0FsTElSSG1MdTE1QjMwdmJDZ0FQanh6RHNCWHpoTXVvVGc0S29EaW5oVUFNX1lRUmxCTFBmS3ItT0N4NWNGNE5Bbm9TcFhaSDg1YnEzRDBpMXJaRDJUaFdxcGh6VFVEN0k1T2w2Zw?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "\"수능 끝나면 여행 가자\"…제주항공, 항공료 20% 할인",
+     "outlet": "남도일보",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tWmNzVW5CYjMtQ2lnV0ctRDhrQ2Q3SVVNSWJBSVQzUmlIOEhoLWszUjhKeV9fRzBaSEJpc3hBMWJpUkxWRnhkZF9aS0lZOVlFN1VwN1BUVm95a3ZiaG1YY1VWMFg5ZHJVWlBVWHZnS2zSAXBBVV95cUxPLVpjc1VuQmIzLUNpZ1dHLUQ4a0NkN0lVTUliQUlUM1JpSDhIaC1rM1I4SnlfX0cwWkhCaXN4QTFiaVJMVkZ4ZGRfWktJWTlZRTdVcDdQVFZveWt2YmhtWGNVVjBYOWRyVVpQVVh2Z0ts?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 2027 대입 수험생 대상 국내선 할인",
+     "outlet": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qZkNmcVMyczdKT2pSWFIzeEE5aU5MRERRTmFldnQ1SmdvMGYwOTczUVBKdzIxdHFUbVByTEJ1dFZrNUl1clpLT0xHdVhDQXFHOTNFRkxWRlMydXEyNXRmT2M0NlVPVHE5UWF0QUN2M3JqQXPSAXdBVV95cUxONXY3cWUyOG1sdS1GMXB1SWdZd0NhNDk0ZVQ2czRsRFlLLXhkcVh3V3pGaE0tOExSQzRlQU91VkJ2Tk5hTGppQjFncGtoMld1Z0tyWWM5ajJhR2I3U0dmR1pOTlBSaUdVM2g1Ukh1TzR2MTBqLVFzMA?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 대입 수험생·동반자 국내선 항공권 20% 할인",
+     "outlet": "헤드라인제주",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sTUh4eDBoZ3EyUUdrVTVVbTNhRDJMT0tlSEhKQVZvNFhNdUEyaW1US1BSN0tXYWc2alhabFlPUVU0SWdUNTRYV0E0SHM0NGFfeGk5ZmRBb3Y0eC0wNk1VTl9TVmtQMWpXLVZRN2tBWjBjTU0?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 수험생 대상 국내선 항공권 20% 할인",
+     "outlet": "뉴스락",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBabUI0MHd1ZHJEZ3Qxc2doeDF2M0taYUxKampFNDBieVg3ZWVwOU5UZXFCSEYxN1ZlX0JVWmNrNEMzT2NudWRnR0ZmMUtZZUtROG9RUTdCb1NrN3JKbmwyaWNTUXphUy0wVW16dg?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "수능 끝, 하늘길 활짝…제주항공, 수험생 국내선 할인",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CcDRyaU1rNTJLa3ZUYXM0R2pkVVFvTVBVekNuLUZxM2pSVVpTUDNhWHFDRkkxdzFkWUVGUU9ydllETDE4VjNncW5ZOWZXWjJ6d3VRNGgwM0tGVERLeWQzUnhxOUp1VkVOeWdMUw?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 수험생과 동반자 1인에 국내선 정규운임 20% 할인 제공",
+     "outlet": "이코노미사이언스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBORVJTYlpxMjNFYmxCY0l1dXl5aXp5UTM5M1p5T0cwRmljRXpIdEhaa3JLYjZaTHg1UjVZYzlyZUEtWmtqd0FyclJiMkoySkV5Njl1UWhkNTNqREpSRF9YVmJlS01UN29FQlc5NjlMYw?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 대입 수험생 할인 이벤트",
+     "outlet": "한라일보",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43UFdpV0N0N21ZMHhvNmp1bEFxc0F6Y294QWN5dUM2c09uUlh1am9RMF9jeS1SQVRwa1RMbkFtXzNuZm84QnQ5Rzd4Q1RqektRT0luQ213akoyVW1XcGJlSHpOYU9pUXhKNVE?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 수험생과 동반자 국내선 항공권 20% 할인",
+     "outlet": "BBS불교방송",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5aUGhfQkhySnNBamhKNXR4bnVZSTNQR2hvNjRieFZ0YjBCazNaOGktWWRwQmxYeFVsdmRTNTYzQUY0bF9YTTJNcnczclFaNGhYdHRLLU9ORk5xZ082U1ZkNW5UdUFVbGx1M3l3?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 수험생 국내선 항공권 20% 할인…동반 1인도 혜택",
+     "outlet": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82cGRCNkJndzFqdkpwY0hLNWJyZml1VnAzUkxURXR5THdMUlRFTjhWQ3R1bF8wQkJFbUdUY3o0Vkg3SzM0NWkxblhERTdGUmxQQ082S0lDS29XSVpSWms4cTNRTjk?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 수능 수험생 항공권 20% 할인",
+     "outlet": "제민일보",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHeUNCeUJ6cjNjc3Z6Sl9uVk13dU9XR0pKX0dmb0lyWWhjZUhyQ3pUb1Y5ZWVGSndtMkJxTHc4eHZhb21ZQnBDTWxmRjdzTktqTEN4bEhfVHJUUkJmQnFjUXhkN2VTVGs?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 수험생·동반 1인 국내선 항공권 20% 할인",
+     "outlet": "메트로신문",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92LTI5M0dXenRZbW5hbFNEOWJHX1paNG9DeVhJbFhjT3ZDalc3MHhVUVQ0U3M1dE1lTmpkZFFKeUNpNlhka21CYlozZjdHXy1xY0ZCWk12NXJ1a0I4YS14VA?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 2027학년도 수험생·동반자 국내선 20% 할인",
+     "outlet": "아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PNVZqS3VURlF2UTBFbWY5eGZfd2NpeVdVaGRJUFBINGF3cGJuaVFnY2NXRG42eXJRRzU1Q2E3cndCbUt3MlM3OEJubDRUT3Zzb0VjQkhPWnJTWlo2V2tBRw?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 수험생·동반자 국내선 20% 할인…내년 2월까지",
+     "outlet": "뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1NQjVFY2JBbG1XMlkyTXF0cmRVV0ZQWFkzWTlrallHdjFmNnAyVGFnYzFZR29jUE9fei1MZERONFlYY29aUXRWRUtBWFZNM3NDNzl5X0VnNW1PWHJ6ZUE?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 2027학년도 대입 수험생 국내선 항공권 20% 할인",
+     "outlet": "경북매일",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBETFdTMGFkQl9wR0NPYWozU3p3eTRMSHVNcEJLOWxBM0l2aFhfYXc5d1NjZkswVldIMXVqU1BqSXVnQ095dHVzR2VRblRweDM5R3lXOW9aeG5Udw?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 수능 수험생 대상 국내선 항공권 20% 할인",
+     "outlet": "파이낸셜뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LdlppSzBBZ2E4MXhWMW94TEVOSGpaZTl1ZFRwX3ZXcUN5LVE4eEFLSVVMVWdjREFad0lGandzY0p1U2pKTlFWMU1aQ2lkTGFDTlZwc3VrNThUdw?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 대입 수험생 국내선 할인",
+     "outlet": "국민일보",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5XT0l5THJtSzJnNFlKdUJxZXRiNFVzZGktaW5tazJTRnlON2ExdkI5bkxKWTNsTUg3ZXgzeGZyYW9XUlg2Rk5hdGFNYzdhbjVkU2tsNkhyV0s?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "수험생·동반 1명 항공권 20% 할인…제주항공, 내년 2월까지 혜택",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5BSmtxR3FnMVp1OFk3cTZlOWc4SW93Z2xFZk9zMU1Vbk5DOXRJTlhZcnVmbFAwdmJmUlA1OEw2NnZrYU80SlZMTnYxakl3VG1wX3MxNTNLYw?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 수능 수험생·동반자 국내선 20% 할인",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1FQnNnRFJ2SUt2M1RESU80UmpPbmllOV9PR1RoNWZSYjJ0NDFLN1FmSTNia1pyU0RNU2NoeWNNajBuZw?oc=5",
+     "published": "2026-11-17"
     }
    ],
    "status": "live"
@@ -7008,141 +7280,154 @@
    "status": "undated"
   },
   {
-   "id": "jejuair-0f70e0cc80",
-   "airline_id": "jejuair",
-   "airline": "제주항공",
+   "id": "multi-f223b45279",
+   "airline_id": "multi",
+   "airline": "여러 항공사",
    "airlines_mentioned": [
-    "제주항공"
+    "파라타항공",
+    "트리니티항공"
    ],
-   "kind": "domestic",
+   "kind": "mixed",
    "category": "flight",
-   "section": "domestic",
-   "route": "domestic",
+   "section": "flight",
+   "route": null,
    "route_text": null,
    "scope": null,
    "lang": "ko",
    "trial": false,
-   "baseline": "domestic",
-   "official_url": "https://www.jejuair.net/",
-   "iata": [
-    "7C"
-   ],
+   "baseline": "flight",
+   "official_url": null,
+   "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "제주항공, 수능 수험생·동반자 국내선 항공권 20% 할인",
+   "headline": "파라타항공·트리니티항공, 일본·태국 노선 프로모션 및 LA노선 예매 돌입",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
    "routes": [
     {
-     "origin": "김포(GMP)",
-     "destination": "부산(PUS)"
+     "origin": null,
+     "destination": "태국"
     }
    ],
    "regions": [],
    "conditions": [],
    "conflicts": [],
    "evidence": {
-    "discount": {
-     "title": "제주항공, 수능 수험생·동반자 국내선 항공권 20% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOeS1jYXVMVG5hRkFGSEY3Nkk3alFJRms2U1RwUkoxVUJSUmJ3ZkN5NnJwVlRMNkZIQjhWOUtIVWQ2ZjlkcmI2dzQ2SkRia0RIUnhxRUxUTUxnd0IwZVd1TmtRZTM0RXFORXpTS0xwMzBEMzdjQzFuRi0taTNpZnJmZzBMbUY2b0hiTXJKZk0yazVOU2RoSU13bXg3RFZ6UWkyNnktNzV6ZjNweHJ6RmNLMV8tQzZsR1dVUXl5Njg0U3hvRWo4d1p1TGlic3NFSTFjMkgzYmtQa0pYLWRvZVhsQVJuVEZlRWh5d2I5dzZlN0h4MUFtZG16OWJQa28wYTYtTVB0c1V1YjlQV2dqODg2QWdhWDkxbC1kdlc1TXFYbmloaGs?oc=5"
-    },
     "route": {
-     "title": "ER 이코노믹리뷰 요약문: 제주를 오가는 항공편은 물론 김포-부산 노선까지 국내선 전 노선에서 혜택을 받을 수 있다.",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=757523"
+     "title": "파라타항공·트리니티항공, 일본·태국 노선 프로모션 및 LA노선 예매 돌입",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PU1lCaXgtaHhQb0JoOThCTWM1dFR4czMtRTI0R0tKSVdTbFZPMFg3MzNFQUJiektvdFFpR0hPUFZWMEtfS29CV1NUaGpuNTJURXQ1ZUc5NE5fU3dNeVQ1dVRkeUxqQ3NkU1VN?oc=5"
     }
    },
-   "from_icn": "no",
-   "discount": "20% 할인",
+   "from_icn": "unknown",
+   "discount": null,
    "verification": "news",
    "first_published": "2026-11-17",
    "last_published": "2026-11-17",
-   "first_seen": "2026-11-17T13:18:19+09:00",
-   "last_seen": "2026-11-17T13:18:19+09:00",
+   "first_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
    "articles": [
     {
-     "title": "제주항공, 수능 수험생·동반자 국내선 항공권 20% 할인",
-     "outlet": "데일리안",
-     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOeS1jYXVMVG5hRkFGSEY3Nkk3alFJRms2U1RwUkoxVUJSUmJ3ZkN5NnJwVlRMNkZIQjhWOUtIVWQ2ZjlkcmI2dzQ2SkRia0RIUnhxRUxUTUxnd0IwZVd1TmtRZTM0RXFORXpTS0xwMzBEMzdjQzFuRi0taTNpZnJmZzBMbUY2b0hiTXJKZk0yazVOU2RoSU13bXg3RFZ6UWkyNnktNzV6ZjNweHJ6RmNLMV8tQzZsR1dVUXl5Njg0U3hvRWo4d1p1TGlic3NFSTFjMkgzYmtQa0pYLWRvZVhsQVJuVEZlRWh5d2I5dzZlN0h4MUFtZG16OWJQa28wYTYtTVB0c1V1YjlQV2dqODg2QWdhWDkxbC1kdlc1TXFYbmloaGs?oc=5",
+     "title": "파라타항공·트리니티항공, 일본·태국 노선 프로모션 및 LA노선 예매 돌입",
+     "outlet": "라이센스뉴스",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PU1lCaXgtaHhQb0JoOThCTWM1dFR4czMtRTI0R0tKSVdTbFZPMFg3MzNFQUJiektvdFFpR0hPUFZWMEtfS29CV1NUaGpuNTJURXQ1ZUc5NE5fU3dNeVQ1dVRkeUxqQ3NkU1VN?oc=5",
      "published": "2026-11-17"
-    },
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "multi-263d40a5f0",
+   "airline_id": "multi",
+   "airline": "여러 항공사",
+   "airlines_mentioned": [
+    "파라타항공",
+    "트리니티항공"
+   ],
+   "kind": "mixed",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[플라이H!] 블프 특가로 내년 항공권 미리 끊는다..파라타항공·트리니티항공 할인전",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
+   "articles": [
     {
-     "title": "제주항공, 수험생·동반자 국내선 항공권 20% 할인",
-     "outlet": "Chosunbiz",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcDVPOXgxcFNYR2tYNFVUVWxHS2Z0SzVHTWM1NGlITklFSmljeVdUaTRma3R2ZE51Rlh1Xy1jUXFBLWlTUTdhcXZEUkNjUVNUWmpQU2NJdmFxeE1XTE9jcFJCSHNjVmY4bmpkNV96aFNDc0l5S0YyckFyS0xYVEg4OEs4NzI2Q0Fod0Y3UUhVeUhRY0tDT3FYTdIBmAFBVV95cUxPcDVPOXgxcFNYR2tYNFVUVWxHS2Z0SzVHTWM1NGlITklFSmljeVdUaTRma3R2ZE51Rlh1Xy1jUXFBLWlTUTdhcXZEUkNjUVNUWmpQU2NJdmFxeE1XTE9jcFJCSHNjVmY4bmpkNV96aFNDc0l5S0YyckFyS0xYVEg4OEs4NzI2Q0Fod0Y3UUhVeUhRY0tDT3FYTQ?oc=5",
+     "title": "[플라이H!] 블프 특가로 내년 항공권 미리 끊는다..파라타항공·트리니티항공 할인전",
+     "outlet": "한국정경신문",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzcHpCSVRlS0QtcUhJRnBhUW4zZjdFOXUzNVZGdmxOZy1Iai0xdGNKdWt0cmx5bThhck54dVk1UjhIQTB4VG9DQmVxNDdNZTBpRHc?oc=5",
      "published": "2026-11-17"
-    },
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "multi-7c07f76664",
+   "airline_id": "multi",
+   "airline": "여러 브랜드",
+   "airlines_mentioned": [
+    "호텔스닷컴",
+    "여기어때"
+   ],
+   "kind": "mixed",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "호텔스닷컴부터 여기어때까지…블랙프라이데이 맞은 여행 플랫폼 할인 경쟁",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
+   "articles": [
     {
-     "title": "제주항공, 2027 대입 수험생 할인 이벤트",
-     "outlet": "스타뉴스",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SOWduV1NoaG9hTzhoRHdZQlRTV1ZfeWNwaDdZZTRqakR0Sk9TZEZCZVdiX19yYy1KSGw3NkNoMzBuT3FUNmJ0OENrTE9sTjdScVo1S0tSVGpWQ0NuUHgzcUhwZXB6RzVVeXFzLVVxck5VT1czeWFtTVN2RmRjN2c?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "제주항공, 수험생·가족 국내선 항공권 20% 할인",
-     "outlet": "스포츠한국",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMX25CUi01MWRLZ0xTQnZUb29YNlR2UGxzaDV0NjZjWGRkakpKNjhTUlFWQXBKTzN5LXFGcW1WNExqQmFaSXhmSVJpQUJtMnNjQmhBQkc2UWkwYlZsaW9iWnl0Z083eXlaZU55TmFpVnRCRkFD0gF0QVVfeXFMUExfbkJSLTUxZEtnTFNCdlRvb1g2VHZQbHNoNXQ2NmNYZGRqSko2OFNSUVZBcEpPM3ktcUZxbVY0TGpCYVpJeGZJUmlBQm0yc2NCaEFCRzZRaTBiVmxpb2JaeXRnTzd5eVplTnlOYWlWdEJGQUM?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "제주항공, 수능 수험생 응원 이벤트...국내선 항공권 20% 할인",
-     "outlet": "중앙이코노미뉴스",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMa2ZHS0FsTElSSG1MdTE1QjMwdmJDZ0FQanh6RHNCWHpoTXVvVGc0S29EaW5oVUFNX1lRUmxCTFBmS3ItT0N4NWNGNE5Bbm9TcFhaSDg1YnEzRDBpMXJaRDJUaFdxcGh6VFVEN0k1T2w2Zw?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "\"수능 끝나면 여행 가자\"…제주항공, 항공료 20% 할인",
-     "outlet": "남도일보",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tWmNzVW5CYjMtQ2lnV0ctRDhrQ2Q3SVVNSWJBSVQzUmlIOEhoLWszUjhKeV9fRzBaSEJpc3hBMWJpUkxWRnhkZF9aS0lZOVlFN1VwN1BUVm95a3ZiaG1YY1VWMFg5ZHJVWlBVWHZnS2zSAXBBVV95cUxPLVpjc1VuQmIzLUNpZ1dHLUQ4a0NkN0lVTUliQUlUM1JpSDhIaC1rM1I4SnlfX0cwWkhCaXN4QTFiaVJMVkZ4ZGRfWktJWTlZRTdVcDdQVFZveWt2YmhtWGNVVjBYOWRyVVpQVVh2Z0ts?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "제주항공, 수험생 대상 국내선 항공권 20% 할인",
-     "outlet": "뉴스락",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBabUI0MHd1ZHJEZ3Qxc2doeDF2M0taYUxKampFNDBieVg3ZWVwOU5UZXFCSEYxN1ZlX0JVWmNrNEMzT2NudWRnR0ZmMUtZZUtROG9RUTdCb1NrN3JKbmwyaWNTUXphUy0wVW16dg?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "수능 끝, 하늘길 활짝…제주항공, 수험생 국내선 할인",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CcDRyaU1rNTJLa3ZUYXM0R2pkVVFvTVBVekNuLUZxM2pSVVpTUDNhWHFDRkkxdzFkWUVGUU9ydllETDE4VjNncW5ZOWZXWjJ6d3VRNGgwM0tGVERLeWQzUnhxOUp1VkVOeWdMUw?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "제주항공, 수험생과 동반자 1인에 국내선 정규운임 20% 할인 제공",
-     "outlet": "이코노미사이언스",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBORVJTYlpxMjNFYmxCY0l1dXl5aXp5UTM5M1p5T0cwRmljRXpIdEhaa3JLYjZaTHg1UjVZYzlyZUEtWmtqd0FyclJiMkoySkV5Njl1UWhkNTNqREpSRF9YVmJlS01UN29FQlc5NjlMYw?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "제주항공, 대입 수험생 할인 이벤트",
-     "outlet": "한라일보",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43UFdpV0N0N21ZMHhvNmp1bEFxc0F6Y294QWN5dUM2c09uUlh1am9RMF9jeS1SQVRwa1RMbkFtXzNuZm84QnQ5Rzd4Q1RqektRT0luQ213akoyVW1XcGJlSHpOYU9pUXhKNVE?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "제주항공, 수험생 국내선 항공권 20% 할인…동반 1인도 혜택",
-     "outlet": "서울경제TV",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82cGRCNkJndzFqdkpwY0hLNWJyZml1VnAzUkxURXR5THdMUlRFTjhWQ3R1bF8wQkJFbUdUY3o0Vkg3SzM0NWkxblhERTdGUmxQQ082S0lDS29XSVpSWms4cTNRTjk?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "제주항공, 2027학년도 수험생·동반자 국내선 20% 할인",
-     "outlet": "아시아경제",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PNVZqS3VURlF2UTBFbWY5eGZfd2NpeVdVaGRJUFBINGF3cGJuaVFnY2NXRG42eXJRRzU1Q2E3cndCbUt3MlM3OEJubDRUT3Zzb0VjQkhPWnJTWlo2V2tBRw?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "제주항공, 수능 수험생 대상 국내선 항공권 20% 할인",
-     "outlet": "파이낸셜뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LdlppSzBBZ2E4MXhWMW94TEVOSGpaZTl1ZFRwX3ZXcUN5LVE4eEFLSVVMVWdjREFad0lGandzY0p1U2pKTlFWMU1aQ2lkTGFDTlZwc3VrNThUdw?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "수험생·동반 1명 항공권 20% 할인…제주항공, 내년 2월까지 혜택",
-     "outlet": "헤럴드경제",
-     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5BSmtxR3FnMVp1OFk3cTZlOWc4SW93Z2xFZk9zMU1Vbk5DOXRJTlhZcnVmbFAwdmJmUlA1OEw2NnZrYU80SlZMTnYxakl3VG1wX3MxNTNLYw?oc=5",
+     "title": "호텔스닷컴부터 여기어때까지…블랙프라이데이 맞은 여행 플랫폼 할인 경쟁",
+     "outlet": "스타패션",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE10ZGR4S0s3X2RhRWhadndxRWxxRGNQY05aWnYxUEc5ZUVTcVh5bEplMGNSTGIwSzlabjBzUnZoOHoyV3hlSWVSWXcxT2FWcmlGQ1E0NENfV3Zwa3oydUR3?oc=5",
      "published": "2026-11-17"
     }
    ],
@@ -7184,7 +7469,7 @@
    "first_published": "2026-11-17",
    "last_published": "2026-11-17",
    "first_seen": "2026-11-17T09:14:05+09:00",
-   "last_seen": "2026-11-17T13:18:19+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
    "articles": [
     {
      "title": "소노인터내셔널, 수능 수험생 대상 워터파크·리조트 할인",
@@ -7199,6 +7484,18 @@
      "published": "2026-11-17"
     },
     {
+     "title": "소노인터내셔널, 수험생 대상 워터파크·리조트 반값 할인",
+     "outlet": "컨슈머타임스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlZ3FxOGIxd1VsXzE4aTY4LVBhLWlRdHRVbUhJYXBPRXdueGZxMkVtZHI5V3JERlRkZ2FzSkczb0hvOC1HdHMxQmJOOXZIVDFLeWJhUURiN1hIVnB2R2diQXhkVFY3VFNtakE?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "소노인터내셔널, 수능 수험생 대상 '워터파크·리조트' 할인 나선다",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9hS0VsTGpOb2pLRjhEay1Pb3QyLWxVVkE1VGdIdnZCb3VON1REY3VtV2t1SXpTZW1vbUdPTkZPUDBqMllvTGpnVlJqMlV3ZmZpQzFPUHprelRJVGk3OS1SVk56NVFVLWY3bS1V?oc=5",
+     "published": "2026-11-17"
+    },
+    {
      "title": "소노인터내셔널, 수능 수험생 대상 워터파크·리조트 할인 프로모션",
      "outlet": "뉴스드림",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1NU3pLN2c1UExRTWp2OUE4NmJ4MW9IWmMtNDFvb1c2cGNWaUlHbzlJSUpnc3Y0bTJ0MkNjbHlnTGRSTTdORlBjS19pQndiLUlEZ2FSd3NoNFF1LWpBZEpFc05JdGM5cUFjTXZj0gFuQVVfeXFMTlpYZlNXUnZqZHJKTWZmUzFXUEpCVFBZbkJ4NXEtTmU1NlUxMjVaOFFEekZtUENoa2hOQW55dlZRbjg3N1h0bUpsQkptQmtzOEEzYjYwNUxtRm1lVHVVcEY4NUtTSkNqYTN4aEJPQmc?oc=5",
@@ -7208,7 +7505,61 @@
    "status": "undated"
   },
   {
-   "id": "finnair-bbb8c0bf1d",
+   "id": "h-lotte-fc9af6465d",
+   "airline_id": "h-lotte",
+   "airline": "롯데호텔",
+   "airlines_mentioned": [
+    "롯데호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "롯데호텔 제주, 수험생 대상 라세느 40% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "제주"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "롯데호텔 제주, 수험생 대상 라세느 40% 할인",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uZzgtMzRfN1plcUpvZ00xYWUtampST1RlTjdZanlRV1NVUjc5T1VtYV8xTzJuV3hjX1J6QzJrS2xqb0U5ZTR6clpzMGxuNndfUmNZR1d1X0RlR2tkbkFoZkoxS1lZaXhCNlV0MA?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "40% 할인",
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
+   "articles": [
+    {
+     "title": "롯데호텔 제주, 수험생 대상 라세느 40% 할인",
+     "outlet": "제주매일",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uZzgtMzRfN1plcUpvZ00xYWUtampST1RlTjdZanlRV1NVUjc5T1VtYV8xTzJuV3hjX1J6QzJrS2xqb0U5ZTR6clpzMGxuNndfUmNZR1d1X0RlR2tkbkFoZkoxS1lZaXhCNlV0MA?oc=5",
+     "published": "2026-11-17"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "finnair-609c4c1728",
    "airline_id": "finnair",
    "airline": "핀에어",
    "airlines_mentioned": [
@@ -7229,11 +7580,11 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "비엔나에선 왈츠를, 코펜하겐에선 크리스마스를…핀에어, 유럽행 최대 25% 할인",
+   "headline": "핀에어, 블랙프라이데이 맞아 유럽 항공권 할인",
    "sale_start": null,
    "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
+   "travel_start": "2026-11-30",
+   "travel_end": "2027-03-31",
    "routes": [
     {
      "origin": null,
@@ -7244,6 +7595,10 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {
+    "travel": {
+     "title": "TTL뉴스 요약문: 핀에어는 11월 30일까지 항공권을 판매하고, 여행 기간은 2027년 3월 31일까지라고 밝혔다.",
+     "url": "http://www.ttlnews.com/news/articleView.html?idxno=3163115"
+    },
     "discount": {
      "title": "비엔나에선 왈츠를, 코펜하겐에선 크리스마스를…핀에어, 유럽행 최대 25% 할인",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fVElheWJ5TGlvM2t5OHpONHFGc09MbDRFdDRnOTI2ZmtwNUk0LXVWN0hTYUdqeHdnYmhKWkNPWE1rV0E5Q1NGakp5ZXNmNGRieHNiVGs4bmcxdjM0aV9lOHRvOGFldGRXaUZESA?oc=5"
@@ -7259,8 +7614,14 @@
    "first_published": "2026-11-17",
    "last_published": "2026-11-17",
    "first_seen": "2026-11-17T13:18:19+09:00",
-   "last_seen": "2026-11-17T13:18:19+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
    "articles": [
+    {
+     "title": "핀에어, 블랙프라이데이 맞아 유럽 항공권 할인",
+     "outlet": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yYUZOazJNS1FrUVRfYmRQcVhVQk9leW9zMHdobzk0Vjl1QUNSYU1kWElhSUxiVE5wUVIzOWF6NUhHTWt5VzBncUdCN1VLRmY3T2xTVkowNzRubS1vQ3FPeDdvb01ROTZLc2pqSUp0LWVndW_SAXdBVV95cUxONHJuMUIwdUNxOEtjUEM0ZnFjVjVVMmtyYS1OUXdGR2w4dDFkU0Z1X0lGTUxGaWJ2RFIwUFFiTG1HU09RSDdzbzBScEphc0g3LTJOZHdEdk5WMXBPMVZ0RU00OHNINEtROEsyRWdkREpnU2hIelNWOA?oc=5",
+     "published": "2026-11-17"
+    },
     {
      "title": "비엔나에선 왈츠를, 코펜하겐에선 크리스마스를…핀에어, 유럽행 최대 25% 할인",
      "outlet": "ER 이코노믹리뷰",
@@ -7274,6 +7635,12 @@
      "published": "2026-11-17"
     },
     {
+     "title": "겨울 유럽여행 준비한다면⋯핀에어, 항공권 최대 25% 할인",
+     "outlet": "엠투데이",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ORDkxWTFQZFZWeGVsSEY2Q1BveFA1a1RINTRNR1d2NC1FUDRZY1UwN0lPRkhXZk9ZTkQxYkdDMTVLeFdCcXY5VjliNzgwRXFCQVdPdER3YVBYaUk4UkZ5eUxkNWdacGRQSF9QejZ0TQ?oc=5",
+     "published": "2026-11-17"
+    },
+    {
      "title": "핀에어, 블랙프라이데이 맞아 유럽 항공권 최대 25% 할인",
      "outlet": "월요신문",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVWnpPRUFtcE1PVmdHX291cFFhMDRNRFZBU2FQOWVsX3RjUnBEeV9SR3dHTEhYQWFnR2FYLVQ2WnpvVGxaNG5jZTVPYmFkNHlIQlIwRWJkdVJFQ1RocDZrUmFRWElJVFhKRmc?oc=5",
@@ -7283,6 +7650,190 @@
      "title": "핀에어, 블프 맞아 유럽 16개 노선… 최대 25% 할인",
      "outlet": "통신일보",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QTms5WkJnd293WDhMcXBEZnc3dlBRSlc4QVBoRU5NTVFKRGtVdkVjc1Q1MjgwRmRMZnJKdEFJSkNZc2I3ZnNfNFN3UTRqbkp3NkVRS1hZYTltUXZyVV9tQkxJbnpfVXpyNUE?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "핀에어, 유럽 16개 노선 항공권 최대 25% 할인 프로모션",
+     "outlet": "퍼블릭뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBucnpQSnRPZHRjTVg0eFU4ZGR5dlJ2UGJ4N1ktQTBvaTFGT2l2c2dBYlBfeXZlUFhFaUVadUlvRE9aalh2N0FEVlZId2d6ZWRtUk1ZTWZTQ2hLcl84MFVFS0UtRW9UaWctNi0w?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "핀에어, 블랙프라이데이 특가 항공권 판매… 유럽 노선 최대 25% 할인",
+     "outlet": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Jb2xvSGNrdGsyZmRUNlFGM3RweWxUS0hSYmlobjNRWmtPemFCUXhraTJjV2lybnIyRUQxd3FNeEtUOEhybTZsSVpLMm1abzJobDNRSEVwd1dkUQ?oc=5",
+     "published": "2026-11-17"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "finnair-07d858ea84",
+   "airline_id": "finnair",
+   "airline": "핀에어",
+   "airlines_mentioned": [
+    "핀에어"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.finnair.com/kr-ko",
+   "iata": [
+    "AY"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "헬싱키·코펜하겐·로마·비엔나 등 유럽 노선 25% 할인 혜택..핀에어, 특가 프로모션 실시",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "유럽"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "헬싱키·코펜하겐·로마·비엔나 등 유럽 노선 25% 할인 혜택..핀에어, 특가 프로모션 실시",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QV2FRZDQ2bTZHSXZrdEQzUWZEcExsT0RiV3pEWTFGRGtaa2pVLTRsWWRZU2hGZTI2d3ZVWUpPVGwzM29mbkpCeWFGcW1JdE45TVBvTmZ3eExfMjFxcGItbXRjTWU5Y2d1aFBYaEJBYnFpc2FuNkE?oc=5"
+    },
+    "route": {
+     "title": "헬싱키·코펜하겐·로마·비엔나 등 유럽 노선 25% 할인 혜택..핀에어, 특가 프로모션 실시",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QV2FRZDQ2bTZHSXZrdEQzUWZEcExsT0RiV3pEWTFGRGtaa2pVLTRsWWRZU2hGZTI2d3ZVWUpPVGwzM29mbkpCeWFGcW1JdE45TVBvTmZ3eExfMjFxcGItbXRjTWU5Y2d1aFBYaEJBYnFpc2FuNkE?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "25% 할인",
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
+   "articles": [
+    {
+     "title": "헬싱키·코펜하겐·로마·비엔나 등 유럽 노선 25% 할인 혜택..핀에어, 특가 프로모션 실시",
+     "outlet": "데일리카",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QV2FRZDQ2bTZHSXZrdEQzUWZEcExsT0RiV3pEWTFGRGtaa2pVLTRsWWRZU2hGZTI2d3ZVWUpPVGwzM29mbkpCeWFGcW1JdE45TVBvTmZ3eExfMjFxcGItbXRjTWU5Y2d1aFBYaEJBYnFpc2FuNkE?oc=5",
+     "published": "2026-11-17"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "parataair-54c0cace3b",
+   "airline_id": "parataair",
+   "airline": "파라타항공",
+   "airlines_mentioned": [
+    "파라타항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.parataair.com/",
+   "iata": [
+    "WE"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "인천~LA 취항 앞둔 파라타항공..항공권 예매 돌입, 국제선 특가 실시",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": "yes",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
+   "articles": [
+    {
+     "title": "인천~LA 취항 앞둔 파라타항공..항공권 예매 돌입, 국제선 특가 실시",
+     "outlet": "데일리카",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOUlVjbEtkRy1paVdZZjdmTVNzSlNXcW9VVDJ3NE1HNlE3dkVXVDRNZkFjaHFrOUg3d1FPUl9mcGgxY19CaXRXN0ZHMWxlb0NWVHN5WW9iMnd5Tkczd0tub1hXeHAxV2VSQ3FyMFo2WUNJc0lIZWc?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "파라타항공 미주 노선 LA 항공권 판매…블랙프라이데이 특가 프로모션",
+     "outlet": "프레시안",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Ua1hCbXdUaVk4Y2t0amM0SUJSZXRkbG9FYjNYbU9RdV9FWklFRHZpNTk4a05GNmRWcER0MlpNS3FqeDEyNjlDZU01SVM2bHVlQUdCMmVBZnFwb0JwZVJ5cEtFY01ScDEtMHpv?oc=5",
+     "published": "2026-11-17"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-883493bb75",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "클룩 긴급연차여행, 홍석천과 당일 일본행 미션…호텔 최대 50만원 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "일본"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "클룩 긴급연차여행, 홍석천과 당일 일본행 미션…호텔 최대 50만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ISFdfOVRkSDRGY3QzTUZxQkNRMVUtbEdDVjJhMFZ2b05WY2pCa0N0WmE5RTRRLTQ5MnBaTExrZUtGTV9oaENoSjA0TzQ0TWRpeVFYbl9qWWs1ZTl0UjJyRVR2bGhsTVR3bUFNcmdkRTRoLXlEYXJPWHJHRXo?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 50만원 할인",
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
+   "articles": [
+    {
+     "title": "클룩 긴급연차여행, 홍석천과 당일 일본행 미션…호텔 최대 50만원 할인",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ISFdfOVRkSDRGY3QzTUZxQkNRMVUtbEdDVjJhMFZ2b05WY2pCa0N0WmE5RTRRLTQ5MnBaTExrZUtGTV9oaENoSjA0TzQ0TWRpeVFYbl9qWWs1ZTl0UjJyRVR2bGhsTVR3bUFNcmdkRTRoLXlEYXJPWHJHRXo?oc=5",
      "published": "2026-11-17"
     }
    ],
