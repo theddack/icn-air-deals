@@ -3590,26 +3590,6 @@
     "new": "2026-11-16"
    }
   },
-  "h-hotelscom-d44500b120": {
-   "info": {
-    "airline": "h-hotelscom",
-    "name": "블랙프라이데이",
-    "sale_start": "2026-11-18",
-    "sale_end": "2026-12-03",
-    "dests": [],
-    "last": "2026-11-16",
-    "urls": [
-     "268935a376",
-     "552e9995de",
-     "5d2b04602c",
-     "a33fdcf8bf",
-     "d44500b120"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-16"
-   }
-  },
   "h-nol-f1a48abbf0": {
    "info": {
     "airline": "h-nol",
@@ -3900,6 +3880,190 @@
    "kinds": {
     "new": "2026-11-17"
    }
+  },
+  "h-hotelscom-d44500b120": {
+   "info": {
+    "airline": "h-hotelscom",
+    "name": "블랙프라이데이",
+    "sale_start": "2026-11-18",
+    "sale_end": "2026-12-03",
+    "dests": [],
+    "last": "2026-11-17",
+    "urls": [
+     "268935a376",
+     "552e9995de",
+     "5d2b04602c",
+     "8799111e71",
+     "a33fdcf8bf",
+     "d44500b120",
+     "e639c88592"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-16",
+    "upcoming_d1": "2026-11-17"
+   }
+  },
+  "trinity-55bc7a3c97": {
+   "info": {
+    "airline": "trinity",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-12-13",
+    "dests": [
+     "치앙마이"
+    ],
+    "last": "2026-11-17",
+    "urls": [
+     "178b034e55",
+     "55bc7a3c97"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17"
+   }
+  },
+  "multi-f223b45279": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "태국"
+    ],
+    "last": "2026-11-17",
+    "urls": [
+     "f223b45279"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17"
+   }
+  },
+  "multi-263d40a5f0": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-17",
+    "urls": [
+     "263d40a5f0"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17"
+   }
+  },
+  "multi-7c07f76664": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-17",
+    "urls": [
+     "7c07f76664"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17"
+   }
+  },
+  "h-lotte-fc9af6465d": {
+   "info": {
+    "airline": "h-lotte",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-17",
+    "urls": [
+     "fc9af6465d"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17"
+   }
+  },
+  "finnair-609c4c1728": {
+   "info": {
+    "airline": "finnair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "유럽"
+    ],
+    "last": "2026-11-17",
+    "urls": [
+     "3878ff4369",
+     "3a0b134794",
+     "46b5f89417",
+     "609c4c1728",
+     "8242aec618",
+     "ad8c7336dc",
+     "bbb8c0bf1d",
+     "be22b179aa"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17"
+   }
+  },
+  "finnair-07d858ea84": {
+   "info": {
+    "airline": "finnair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "유럽"
+    ],
+    "last": "2026-11-17",
+    "urls": [
+     "07d858ea84"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17"
+   }
+  },
+  "parataair-54c0cace3b": {
+   "info": {
+    "airline": "parataair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-17",
+    "urls": [
+     "54c0cace3b",
+     "a3b60eba40"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17"
+   }
+  },
+  "h-other-883493bb75": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-17",
+    "urls": [
+     "883493bb75"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17"
+   }
   }
  },
  "slots": {
@@ -3932,10 +4096,11 @@
    "evening": "sent"
   },
   "2026-11-17": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-17T09:19:10+09:00",
+ "saved_at": "2026-11-17T18:21:10+09:00",
  "drops_day": "2026-11-17",
  "drops": {
   "BKK": {
