@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T18:16:03+09:00",
+ "generated_at": "2026-11-17T22:17:35+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 2,
-  "rss_items": 1849,
+  "failed_queries": 0,
+  "rss_items": 1889,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2204,
-  "outlet_new_articles": 0,
+  "outlet_items": 2041,
+  "outlet_new_articles": 1,
   "outlet_enriched": 1,
-  "mail_articles": 9,
-  "mail_new_articles": 0,
-  "articles_with_summary": 64,
-  "articles": 828,
-  "new_articles": 1,
-  "deals": 179
+  "mail_articles": 11,
+  "mail_new_articles": 2,
+  "articles_with_summary": 67,
+  "articles": 836,
+  "new_articles": 8,
+  "deals": 180
  },
  "deals": [
   {
@@ -6509,55 +6509,6 @@
    "status": "undated"
   },
   {
-   "id": "koreanair-bf205d468e",
-   "airline_id": "koreanair",
-   "airline": "대한항공",
-   "airlines_mentioned": [
-    "대한항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.koreanair.com/",
-   "iata": [
-    "KE"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "한진트래블, 대한항공 직항 전세기 이용한 이집트 9일 특가 여행 상품 출시",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-16",
-   "last_published": "2026-11-16",
-   "first_seen": "2026-11-16T16:17:28+09:00",
-   "last_seen": "2026-11-16T16:17:28+09:00",
-   "articles": [
-    {
-     "title": "한진트래블, 대한항공 직항 전세기 이용한 이집트 9일 특가 여행 상품 출시",
-     "outlet": "비욘드포스트",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uX3FQaG1GUHpnWkFPbWhmZUFPMGdKQ2VCNkl3aFRGNVg5Q25feU9va0FjcXltMXpjdlVYdVZScGo3b0FhQ2Y3LXNndl96UUg5UUhPMkRtU1dXMi1obkR0S0lxTjd1cjdXbGxzbjFvejVvX1dENnkyZWpQS2w?oc=5",
-     "published": "2026-11-16"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-yeogi-37d9356c67",
    "airline_id": "h-yeogi",
    "airline": "여기어때",
@@ -7501,6 +7452,69 @@
    "status": "undated"
   },
   {
+   "id": "airbusan-a178d2ed85",
+   "airline_id": "airbusan",
+   "airline": "에어부산",
+   "airlines_mentioned": [
+    "에어부산"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airbusan.com/",
+   "iata": [
+    "BX"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어부산 퇴근길 피로 싹 녹여줄 귀여움🍊♨️ 부산 출발 시즈오카 최대 8만원 선착순 할인!",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "부산(PUS)",
+     "destination": null
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "에어부산 퇴근길 피로 싹 녹여줄 귀여움🍊♨️ 부산 출발 시즈오카 최대 8만원 선착순 할인!",
+     "url": "https://www.airbusan.com/#mail-bc4e9e228b91941c"
+    },
+    "route": {
+     "title": "에어부산 퇴근길 피로 싹 녹여줄 귀여움🍊♨️ 부산 출발 시즈오카 최대 8만원 선착순 할인!",
+     "url": "https://www.airbusan.com/#mail-bc4e9e228b91941c"
+    }
+   },
+   "from_icn": "no",
+   "discount": "최대 8만원 할인",
+   "verification": "official",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-17T22:17:31+09:00",
+   "last_seen": "2026-11-17T22:17:31+09:00",
+   "articles": [
+    {
+     "title": "에어부산 퇴근길 피로 싹 녹여줄 귀여움🍊♨️ 부산 출발 시즈오카 최대 8만원 선착순 할인!",
+     "outlet": "에어부산 메일",
+     "url": "https://www.airbusan.com/#mail-bc4e9e228b91941c",
+     "published": "2026-11-17"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-sono-76e6ace938",
    "airline_id": "h-sono",
    "airline": "소노",
@@ -7572,6 +7586,61 @@
    "status": "undated"
   },
   {
+   "id": "koreanair-bf205d468e",
+   "airline_id": "koreanair",
+   "airline": "대한항공",
+   "airlines_mentioned": [
+    "대한항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.koreanair.com/",
+   "iata": [
+    "KE"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "한진트래블, 대한항공 전세기 초특가 여행 출시",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-16T16:17:28+09:00",
+   "last_seen": "2026-11-17T22:17:35+09:00",
+   "articles": [
+    {
+     "title": "한진트래블, 대한항공 전세기 초특가 여행 출시",
+     "outlet": "트래블데일리",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72710",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "한진트래블, 대한항공 직항 전세기 이용한 이집트 9일 특가 여행 상품 출시",
+     "outlet": "비욘드포스트",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uX3FQaG1GUHpnWkFPbWhmZUFPMGdKQ2VCNkl3aFRGNVg5Q25feU9va0FjcXltMXpjdlVYdVZScGo3b0FhQ2Y3LXNndl96UUg5UUhPMkRtU1dXMi1obkR0S0lxTjd1cjdXbGxzbjFvejVvX1dENnkyZWpQS2w?oc=5",
+     "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-lotte-fc9af6465d",
    "airline_id": "h-lotte",
    "airline": "롯데호텔",
@@ -7626,7 +7695,7 @@
    "status": "undated"
   },
   {
-   "id": "finnair-609c4c1728",
+   "id": "finnair-a18aae07dc",
    "airline_id": "finnair",
    "airline": "핀에어",
    "airlines_mentioned": [
@@ -7647,7 +7716,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "핀에어, 블랙프라이데이 맞아 유럽 항공권 할인",
+   "headline": "핀에어, 유럽 노선 최대 25% 할인",
    "sale_start": null,
    "sale_end": null,
    "travel_start": "2026-11-30",
@@ -7663,16 +7732,16 @@
    "conflicts": [],
    "evidence": {
     "travel": {
-     "title": "TTL뉴스 요약문: 핀에어는 11월 30일까지 항공권을 판매하고, 여행 기간은 2027년 3월 31일까지라고 밝혔다.",
-     "url": "http://www.ttlnews.com/news/articleView.html?idxno=3163115"
+     "title": "트래블데일리 요약문: 판매 기간은 11월 30일까지며 여행 기간은 2027년 3월 31일까지다.",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72713"
     },
     "discount": {
-     "title": "비엔나에선 왈츠를, 코펜하겐에선 크리스마스를…핀에어, 유럽행 최대 25% 할인",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fVElheWJ5TGlvM2t5OHpONHFGc09MbDRFdDRnOTI2ZmtwNUk0LXVWN0hTYUdqeHdnYmhKWkNPWE1rV0E5Q1NGakp5ZXNmNGRieHNiVGs4bmcxdjM0aV9lOHRvOGFldGRXaUZESA?oc=5"
+     "title": "핀에어, 유럽 노선 최대 25% 할인",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QMGo1akxDS28yTXlyN013dmx1UjVNWXpmYkd6dWtCZlVnUm01d3Y3Z01fN0tZRXk1NDlDeFc2eGdGTF9WeGEzYzdNUGwyQndpRXZxUnNFTUJqR2JQdzktTEpVeUxPVm02Y3Y2RFZjbXU?oc=5"
     },
     "route": {
-     "title": "비엔나에선 왈츠를, 코펜하겐에선 크리스마스를…핀에어, 유럽행 최대 25% 할인",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fVElheWJ5TGlvM2t5OHpONHFGc09MbDRFdDRnOTI2ZmtwNUk0LXVWN0hTYUdqeHdnYmhKWkNPWE1rV0E5Q1NGakp5ZXNmNGRieHNiVGs4bmcxdjM0aV9lOHRvOGFldGRXaUZESA?oc=5"
+     "title": "핀에어, 유럽 노선 최대 25% 할인",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QMGo1akxDS28yTXlyN013dmx1UjVNWXpmYkd6dWtCZlVnUm01d3Y3Z01fN0tZRXk1NDlDeFc2eGdGTF9WeGEzYzdNUGwyQndpRXZxUnNFTUJqR2JQdzktTEpVeUxPVm02Y3Y2RFZjbXU?oc=5"
     }
    },
    "from_icn": "unknown",
@@ -7681,12 +7750,30 @@
    "first_published": "2026-11-17",
    "last_published": "2026-11-17",
    "first_seen": "2026-11-17T13:18:19+09:00",
-   "last_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-17T22:17:35+09:00",
    "articles": [
+    {
+     "title": "핀에어, 유럽 노선 최대 25% 할인",
+     "outlet": "트래블데일리",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QMGo1akxDS28yTXlyN013dmx1UjVNWXpmYkd6dWtCZlVnUm01d3Y3Z01fN0tZRXk1NDlDeFc2eGdGTF9WeGEzYzdNUGwyQndpRXZxUnNFTUJqR2JQdzktTEpVeUxPVm02Y3Y2RFZjbXU?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "‘겨울 유럽’ 여행 운임 낮춘다···핀에어, 특가 프로모션 진행",
+     "outlet": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xWkVOWWRsVjJHVWxtMGFnaWxPVC1JX0JoTW8zNl9EenUySHdZaFE3RGoxU2dTS2dLRU9JN1cyb3BrZFlaUDFHMGVjYTBNeHNzYmFHOFJOeXdCLUJwdnpYZkdpZTl0N3dlbDM5OWlYME7SAXRBVV95cUxPMjIzQkg0ZGN3R0s4bWo1bkl1N1gtZ0wxcUZvRmZ1ZzdUOVUtVkg2bmxfUTdaZE8tZVVqRW1Cdy0xak1jZVNGZ0RZQ1RRbUZzbnhqaXRTc2I1aUFPdlYtazBhYktlTVp2Y0pyYmVsYm9DVXExdg?oc=5",
+     "published": "2026-11-17"
+    },
     {
      "title": "핀에어, 블랙프라이데이 맞아 유럽 항공권 할인",
      "outlet": "인사이트코리아",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yYUZOazJNS1FrUVRfYmRQcVhVQk9leW9zMHdobzk0Vjl1QUNSYU1kWElhSUxiVE5wUVIzOWF6NUhHTWt5VzBncUdCN1VLRmY3T2xTVkowNzRubS1vQ3FPeDdvb01ROTZLc2pqSUp0LWVndW_SAXdBVV95cUxONHJuMUIwdUNxOEtjUEM0ZnFjVjVVMmtyYS1OUXdGR2w4dDFkU0Z1X0lGTUxGaWJ2RFIwUFFiTG1HU09RSDdzbzBScEphc0g3LTJOZHdEdk5WMXBPMVZ0RU00OHNINEtROEsyRWdkREpnU2hIelNWOA?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "핀에어, 블랙프라이데이 맞아 유럽 16개 노선 항공권 최대 25% 할인",
+     "outlet": "뉴스플릭스",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyR3JyMC15M1gzMGI1ZWpTX1R1RnlYemdKSU5mV3ZVZVhXVkZvR2FpTGREZV9ZY29KOEZQLXpRWXAxMWpRWEtTbGM2cjN1eENnREtpVXJVamJpQ1dvUm14RktmaEFlelRLRmNJNQ?oc=5",
      "published": "2026-11-17"
     },
     {
@@ -7730,6 +7817,12 @@
      "outlet": "브릿지경제",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Jb2xvSGNrdGsyZmRUNlFGM3RweWxUS0hSYmlobjNRWmtPemFCUXhraTJjV2lybnIyRUQxd3FNeEtUOEhybTZsSVpLMm1abzJobDNRSEVwd1dkUQ?oc=5",
      "published": "2026-11-17"
+    },
+    {
+     "title": "겨울 유럽 여행, 특가로 준비하세요! 핀에어, 블랙프라이데이 맞아 유럽 노선 최대 25% 할인",
+     "outlet": "인디포커스",
+     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5HUF93c2hLMDV6OWZRMEZ4VUpKdE03X3QzU2hJQk9KcHY0b3oxR2lEeHhLRWFMMFZpMmZUSUFzWDFVQ1U?oc=5",
+     "published": "2026-11-17"
     }
    ],
    "status": "undated"
@@ -7756,11 +7849,11 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "헬싱키·코펜하겐·로마·비엔나 등 유럽 노선 25% 할인 혜택..핀에어, 특가 프로모션 실시",
+   "headline": "핀에어 세일 시작 – 유럽행 항공편 예약",
    "sale_start": null,
    "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
+   "travel_start": "2026-11-17",
+   "travel_end": "2026-11-30",
    "routes": [
     {
      "origin": null,
@@ -7771,23 +7864,33 @@
    "conditions": [],
    "conflicts": [],
    "evidence": {
+    "travel": {
+     "title": "핀에어 메일 본문",
+     "url": "https://www.finnair.com/kr-ko#mail-276517dba6a60a5c"
+    },
     "discount": {
      "title": "헬싱키·코펜하겐·로마·비엔나 등 유럽 노선 25% 할인 혜택..핀에어, 특가 프로모션 실시",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QV2FRZDQ2bTZHSXZrdEQzUWZEcExsT0RiV3pEWTFGRGtaa2pVLTRsWWRZU2hGZTI2d3ZVWUpPVGwzM29mbkpCeWFGcW1JdE45TVBvTmZ3eExfMjFxcGItbXRjTWU5Y2d1aFBYaEJBYnFpc2FuNkE?oc=5"
     },
     "route": {
-     "title": "헬싱키·코펜하겐·로마·비엔나 등 유럽 노선 25% 할인 혜택..핀에어, 특가 프로모션 실시",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QV2FRZDQ2bTZHSXZrdEQzUWZEcExsT0RiV3pEWTFGRGtaa2pVLTRsWWRZU2hGZTI2d3ZVWUpPVGwzM29mbkpCeWFGcW1JdE45TVBvTmZ3eExfMjFxcGItbXRjTWU5Y2d1aFBYaEJBYnFpc2FuNkE?oc=5"
+     "title": "핀에어 세일 시작 – 유럽행 항공편 예약",
+     "url": "https://www.finnair.com/kr-ko#mail-276517dba6a60a5c"
     }
    },
    "from_icn": "unknown",
    "discount": "25% 할인",
-   "verification": "news",
+   "verification": "official",
    "first_published": "2026-11-17",
    "last_published": "2026-11-17",
    "first_seen": "2026-11-17T17:29:48+09:00",
-   "last_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-17T22:17:31+09:00",
    "articles": [
+    {
+     "title": "핀에어 세일 시작 – 유럽행 항공편 예약",
+     "outlet": "핀에어 메일",
+     "url": "https://www.finnair.com/kr-ko#mail-276517dba6a60a5c",
+     "published": "2026-11-17"
+    },
     {
      "title": "헬싱키·코펜하겐·로마·비엔나 등 유럽 노선 25% 할인 혜택..핀에어, 특가 프로모션 실시",
      "outlet": "데일리카",
@@ -7835,12 +7938,18 @@
    "first_published": "2026-11-17",
    "last_published": "2026-11-17",
    "first_seen": "2026-11-17T17:29:48+09:00",
-   "last_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-17T22:17:35+09:00",
    "articles": [
     {
      "title": "인천~LA 취항 앞둔 파라타항공..항공권 예매 돌입, 국제선 특가 실시",
      "outlet": "데일리카",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOUlVjbEtkRy1paVdZZjdmTVNzSlNXcW9VVDJ3NE1HNlE3dkVXVDRNZkFjaHFrOUg3d1FPUl9mcGgxY19CaXRXN0ZHMWxlb0NWVHN5WW9iMnd5Tkczd0tub1hXeHAxV2VSQ3FyMFo2WUNJc0lIZWc?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "파라타항공 ‘인천~LA’ 첫 미주 노선 판매 개시···블랙프라이데이 특가 진행",
+     "outlet": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUbjBtQUh3bEY0UHRtd2lsbTZiLTNqQ2xTQzYxV3JxQXk1SEpXOUdJTzllcjFNcVRUcTFzREtwc0E5eXZ3cUk0SDM5aEJ4MlhIT19rNksxbk9MYjl1UGRDY2g1NmRwNmJZNGk5RHRSZknSAXRBVV95cUxNNU9EUkVyWTBJSEh6VlhhZlphZHVnMzZnZllHRElOZFJtV1VNOFlCS2RENkZHb2ZhMm5ScHlvZ242UFFaRTZlZ0xfUmNoM21iWkRadjZ0b0Fmb0s1bkQtekNHSWQxQUhnbmxmSFJEOE8zX2lPQQ?oc=5",
      "published": "2026-11-17"
     },
     {

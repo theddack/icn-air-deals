@@ -1,5 +1,56 @@
 [
  {
+  "title": "핀에어 세일 시작 – 유럽행 항공편 예약",
+  "outlet": "핀에어 메일",
+  "url": "https://www.finnair.com/kr-ko#mail-276517dba6a60a5c",
+  "published": "2026-11-17",
+  "first_seen": "2026-11-17T22:17:31+09:00",
+  "source": "mail",
+  "mail_id": "276517dba6a60a5c",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.finnair.com/kr-ko#mail-276517dba6a60a5c",
+   "outlet": "핀에어 메일",
+   "label": "본문",
+   "fields": {
+    "origin": null,
+    "destination": "유럽",
+    "travel_start": "2026-11-17",
+    "travel_end": "2026-11-30"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
+ },
+ {
+  "title": "에어부산 퇴근길 피로 싹 녹여줄 귀여움🍊♨️ 부산 출발 시즈오카 최대 8만원 선착순 할인!",
+  "outlet": "에어부산 메일",
+  "url": "https://www.airbusan.com/#mail-bc4e9e228b91941c",
+  "published": "2026-11-17",
+  "first_seen": "2026-11-17T22:17:31+09:00",
+  "source": "mail",
+  "mail_id": "bc4e9e228b91941c",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.airbusan.com/#mail-bc4e9e228b91941c",
+   "outlet": "에어부산 메일",
+   "label": "본문",
+   "fields": {
+    "discount": "최대 8만원 할인"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
+ },
+ {
   "title": "홍콩익스프레스 홍콩행 편도총액 최저 89,600원부터",
   "outlet": "홍콩익스프레스 메일",
   "url": "https://www.hkexpress.com/ko-kr/#mail-fe5cac2087709bbc",
