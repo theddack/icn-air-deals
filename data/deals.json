@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T04:51:37+09:00",
+ "generated_at": "2026-11-17T09:14:05+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 40,
-  "rss_items": 1144,
+  "failed_queries": 36,
+  "rss_items": 1299,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1779,
+  "outlet_items": 1944,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 9,
   "mail_new_articles": 0,
   "articles_with_summary": 59,
-  "articles": 771,
-  "new_articles": 4,
-  "deals": 168
+  "articles": 773,
+  "new_articles": 2,
+  "deals": 169
  },
  "deals": [
   {
@@ -6997,6 +6997,59 @@
      "outlet": "Breaking Travel News",
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYS1ndFJwbTVEdm5UMEFLM3ZncU9iYWtibTNYUzd3THNiSGRyd1pZY2xEQk5FNUZFQWNWcGY4V1V3VVNhOUtzNENaaDF1NkNTX3c2TVFMRk1GemlrdE1WdGpRbEp4ZVkxdlhEakRlM0lvTlYwc1FabEtjbXAwSjJXZ0I2VS1iT0g1bzY1MDdCbUNUY09MYXNIT2hJcGszQ280bXJ0ZktOTTAtU1pDdENqcFQ5ak5UNW8?oc=5",
      "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-sono-76e6ace938",
+   "airline_id": "h-sono",
+   "airline": "소노",
+   "airlines_mentioned": [
+    "소노"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "소노인터내셔널, 수능 수험생 대상 워터파크·리조트 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-17T09:14:05+09:00",
+   "last_seen": "2026-11-17T09:14:05+09:00",
+   "articles": [
+    {
+     "title": "소노인터내셔널, 수능 수험생 대상 워터파크·리조트 할인",
+     "outlet": "뉴스프리존",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xRjFLQ3F0MUh5X3oySXpfc1NQZlBtcldkOTNIcDFtMnJnNy1lYlZ6MXFKVFRGVnBDcVk4TGVicHNPUGRsMWk4b193NEVrVWtUU2kwX2RWV0V5XzFvRGFZZXVKeXFuY1lLd2JieGVmRzZZU2PSAXdBVV95cUxPaTk1UmlmYVoxWEg3X0RzY0RSMkNELTVVV0F2RnhSTGRGVkxvY2w1UXpYN1R5OW1kdjZHU2tXckFaQndHT0F6eGRRQ0hMMDV4d2w1eFJEVUhlT1lRTHdSU2hkU3c2NGFxU2NrcXh1QnU2aXlJVEJ0dw?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "소노인터내셔널, 수능 수험생 대상 워터파크·리조트 할인 프로모션",
+     "outlet": "뉴스드림",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1NU3pLN2c1UExRTWp2OUE4NmJ4MW9IWmMtNDFvb1c2cGNWaUlHbzlJSUpnc3Y0bTJ0MkNjbHlnTGRSTTdORlBjS19pQndiLUlEZ2FSd3NoNFF1LWpBZEpFc05JdGM5cUFjTXZj0gFuQVVfeXFMTlpYZlNXUnZqZHJKTWZmUzFXUEpCVFBZbkJ4NXEtTmU1NlUxMjVaOFFEekZtUENoa2hOQW55dlZRbjg3N1h0bUpsQkptQmtzOEEzYjYwNUxtRm1lVHVVcEY4NUtTSkNqYTN4aEJPQmc?oc=5",
+     "published": "2026-11-17"
     }
    ],
    "status": "undated"
