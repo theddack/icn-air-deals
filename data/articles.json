@@ -6616,7 +6616,26 @@
   "outlet": "매일일보",
   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wLU1UNzZzMXlrNFFIQlAxRGo2U0JqYW05bVNvU1lrZjA2ZXZZeWZkMXg5QVJpY1dKMTFDS2tLVWtZMk9KemNqWV9UOHltamVfVVQ1cWh5c0RWTlV3QXItWVZuV04?oc=5",
   "published": "2026-11-17",
-  "first_seen": "2026-11-17T17:29:48+09:00"
+  "first_seen": "2026-11-17T17:29:48+09:00",
+  "summary_facts": {
+   "url": "https://www.m-i.kr/news/articleView.html?idxno=2019809",
+   "outlet": "매일일보",
+   "fields": {
+    "sale_start": null,
+    "sale_end": "2026-12-13",
+    "origin": null,
+    "destination": "태국",
+    "travel_start": null,
+    "travel_end": "2027-03-27",
+    "discount": "최대 20%"
+   },
+   "evidence": {
+    "sale": "…리니티항공은 오는 12월 13일까지 태국정부관광청과 함께 태국 노선 공동 프로모션을 진행한다고 17일 밝혔다…",
+    "route": "…니티항공은 오는 12월 13일까지 태국정부관광청과 함께 태국 노선 공동 프로모션을 진행한다고 17일 밝혔다.…",
+    "travel": "…~방콕, 인천~치앙마이 등 3개 노선이며, 프로모션 항공권의 탑승 기간은 오는 2027년 3월 27일까지다.…",
+    "discount": "…가 항공권을 판매하고, 프로모션 기간 중 항공권 예매 시 최대 20% 할인을 받을 수 있는 할인코드를 제공한…"
+   }
+  }
  },
  {
   "title": "트리니티항공, 태국 노선 최대 20% 할인…3만원 쿠폰도",
@@ -6770,5 +6789,12 @@
   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ2hrbUNtYjZxY0g5WktZRllmWGd3UDNOZVMzbjNpNXQ3MjJZMlRSbzNpSXFNam9CT0Z1VGpKNE9sTDcwSzhVa0RmSjZQOXpjeW9jaEdTN0JuWDdFN09feTBhSXJvUUdfR2NCYjkxa0VWUHdMU0FRQk9XbWh0cGo3c2dvVQ?oc=5",
   "published": "2026-11-17",
   "first_seen": "2026-11-17T17:29:48+09:00"
+ },
+ {
+  "title": "동계 건기 맞은 ‘태국’···트리니티항공, 방콕·치앙마이 특가 진행",
+  "outlet": "이뉴스투데이",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SNkpRWkVMYW5YY0VRNUZwTmx3c0JGNjl6bmNzVUpuMGpDUnhteDF6UjlrbktJMEFTVWRQVWRGUHVlTUFsa0lnYU43NFY3UTFLTUp4NnFDcGt0ZW1neVdEQTBCX0hqcEllVGlzVjJSaXHSAXRBVV95cUxPLXFueFVqQ181cXFlUlplZGg2OTRDeFVRZU16WlA0MHg4UXZMZGJnaXRCdDA1WWdXSzJnVWJDbWxrTnpYNjlOSjNrQWh3eWJuWWRhZjF4Z0hBVUk5elljYlI2SmhfRWM3S0FYQ0hfcmtuNHNUbw?oc=5",
+  "published": "2026-11-17",
+  "first_seen": "2026-11-17T18:16:03+09:00"
  }
 ]

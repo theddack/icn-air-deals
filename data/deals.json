@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T17:29:48+09:00",
+ "generated_at": "2026-11-17T18:16:03+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 6,
-  "rss_items": 1642,
+  "failed_queries": 2,
+  "rss_items": 1849,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2175,
+  "outlet_items": 2204,
   "outlet_new_articles": 0,
-  "outlet_enriched": 2,
+  "outlet_enriched": 1,
   "mail_articles": 9,
   "mail_new_articles": 0,
-  "articles_with_summary": 63,
-  "articles": 827,
-  "new_articles": 33,
-  "deals": 178
+  "articles_with_summary": 64,
+  "articles": 828,
+  "new_articles": 1,
+  "deals": 179
  },
  "deals": [
   {
@@ -794,10 +794,6 @@
     {
      "origin": null,
      "destination": "태국"
-    },
-    {
-     "origin": null,
-     "destination": "치앙마이(CNX)"
     }
    ],
    "regions": [],
@@ -813,8 +809,8 @@
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zWGU0Zm9KdTQwa1hsXzlIWTkzelNBMldJR0hJdGYzbUhTZXZXQXpmVXVNaDNsbHpNR0hZaV9tVzVyWnpURFhKaTd3c2JUOWZBbUdURXhKQlFzS2lSelFLZVI3UFJsV3h1aVJVOF9LTm9pZ21jSXBiS9IBeEFVX3lxTE1zWGU0Zm9KdTQwa1hsXzlIWTkzelNBMldJR0hJdGYzbUhTZXZXQXpmVXVNaDNsbHpNR0hZaV9tVzVyWnpURFhKaTd3c2JUOWZBbUdURXhKQlFzS2lSelFLZVI3UFJsV3h1aVJVOF9LTm9pZ21jSXBiSw?oc=5"
     },
     "route": {
-     "title": "트리니티항공, 태국 관광청과 방콕·치앙마이 노선 공동 프로모션",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wLU1UNzZzMXlrNFFIQlAxRGo2U0JqYW05bVNvU1lrZjA2ZXZZeWZkMXg5QVJpY1dKMTFDS2tLVWtZMk9KemNqWV9UOHltamVfVVQ1cWh5c0RWTlV3QXItWVZuV04?oc=5"
+     "title": "트리니티항공, 태국 노선 최대 20% 할인…3만원 쿠폰도",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kREt3R1RvWGkwWlRkUDhic0QtanQ4LWI1Y0wwUDJ3VWI3SmxIT2JPejh4Ykt2NXNrWXFSUnRhX0F5SzFYbjFucEVJQkhuRVRyQ3BvREZQeGhTU0dfWEE?oc=5"
     }
    },
    "from_icn": "unknown",
@@ -823,7 +819,7 @@
    "first_published": "2026-11-12",
    "last_published": "2026-11-17",
    "first_seen": "2026-11-12T16:43:47+09:00",
-   "last_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-17T18:16:03+09:00",
    "articles": [
     {
      "title": "트리니티항공, 태국관광청과 손잡고 겨울 여행객 공략…항공권 할인 프로모션",
@@ -850,27 +846,21 @@
      "published": "2026-11-17"
     },
     {
+     "title": "동계 건기 맞은 ‘태국’···트리니티항공, 방콕·치앙마이 특가 진행",
+     "outlet": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SNkpRWkVMYW5YY0VRNUZwTmx3c0JGNjl6bmNzVUpuMGpDUnhteDF6UjlrbktJMEFTVWRQVWRGUHVlTUFsa0lnYU43NFY3UTFLTUp4NnFDcGt0ZW1neVdEQTBCX0hqcEllVGlzVjJSaXHSAXRBVV95cUxPLXFueFVqQ181cXFlUlplZGg2OTRDeFVRZU16WlA0MHg4UXZMZGJnaXRCdDA1WWdXSzJnVWJDbWxrTnpYNjlOSjNrQWh3eWJuWWRhZjF4Z0hBVUk5elljYlI2SmhfRWM3S0FYQ0hfcmtuNHNUbw?oc=5",
+     "published": "2026-11-17"
+    },
+    {
      "title": "트리니티항공, 태국정부관광청과 공동 프로모션···항공권 최대 20% 할인",
      "outlet": "뉴스프리존",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Qbmg2Wld6UWo3WnlNcGpVejdiZ0hQMFRYQmw1NVRFVm5LckdGWk01LWhDb3dYQlh1cmpseFdnX0R6a3RHNGREWVZCVU03a2JqOUpmOVliRk1FOGFsX3d2TFlNeWIxV0tGdUh0QkxCaFNUN2PSAXdBVV95cUxPOVZPR3B3OXkwbmhRUk9CbXc1NDh3cHVBbG5zRzJaRXI0VUJmd1VyRUwzOHFjcWloN05TaFFvcU1RbExpZmNIRnk3OTBsN1dZdm5UQUlhQk1Bb2lRNWxUdWNvM3h1dzlOY0ZZRnR1aWhjamF6aTRQMA?oc=5",
      "published": "2026-11-17"
     },
     {
-     "title": "트리니티항공, 태국 관광청과 방콕·치앙마이 노선 공동 프로모션",
-     "outlet": "매일일보",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wLU1UNzZzMXlrNFFIQlAxRGo2U0JqYW05bVNvU1lrZjA2ZXZZeWZkMXg5QVJpY1dKMTFDS2tLVWtZMk9KemNqWV9UOHltamVfVVQ1cWh5c0RWTlV3QXItWVZuV04?oc=5",
-     "published": "2026-11-17"
-    },
-    {
      "title": "트리니티항공, 태국 노선 최대 20% 할인…3만원 쿠폰도",
      "outlet": "뉴스투데이",
      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kREt3R1RvWGkwWlRkUDhic0QtanQ4LWI1Y0wwUDJ3VWI3SmxIT2JPejh4Ykt2NXNrWXFSUnRhX0F5SzFYbjFucEVJQkhuRVRyQ3BvREZQeGhTU0dfWEE?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "트리니티항공, 태국 방콕·치앙마이 특가 항공권 프로모션",
-     "outlet": "브레이크뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9XZW1fU25xNEp5YnQwaGlUYXBXaGhhRExZU1d6VlZYVDdSUS0xdzJBbGlnVnY0QllRR0oxQ2RJcHFiQQ?oc=5",
      "published": "2026-11-17"
     },
     {
@@ -1846,6 +1836,83 @@
      "outlet": "공감신문",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LWjA0ZEVWdmRkYTNwcEN5ajloU2g1M1VKVHVuU2FLM0tkbnlCWldKTnY5N0N3RUxNRkEwdGlVcjNaNU96RldmdE4tNkZ4UHVlQldHSVN1Rm5ad2NTbXJLMmgwNUo0TU0?oc=5",
      "published": "2026-11-11"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "trinity-55bc7a3c97",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "트리니티항공, 태국 관광청과 방콕·치앙마이 노선 공동 프로모션",
+   "sale_start": null,
+   "sale_end": "2026-12-13",
+   "travel_start": null,
+   "travel_end": "2027-03-27",
+   "routes": [
+    {
+     "origin": null,
+     "destination": "치앙마이(CNX)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "매일일보 요약문: …리니티항공은 오는 12월 13일까지 태국정부관광청과 함께 태국 노선 공동 프로모션을 진행한다고 17일 밝혔다…",
+     "url": "https://www.m-i.kr/news/articleView.html?idxno=2019809"
+    },
+    "travel": {
+     "title": "매일일보 요약문: …~방콕, 인천~치앙마이 등 3개 노선이며, 프로모션 항공권의 탑승 기간은 오는 2027년 3월 27일까지다.…",
+     "url": "https://www.m-i.kr/news/articleView.html?idxno=2019809"
+    },
+    "discount": {
+     "title": "매일일보 요약문: …가 항공권을 판매하고, 프로모션 기간 중 항공권 예매 시 최대 20% 할인을 받을 수 있는 할인코드를 제공한…",
+     "url": "https://www.m-i.kr/news/articleView.html?idxno=2019809"
+    },
+    "route": {
+     "title": "트리니티항공, 태국 관광청과 방콕·치앙마이 노선 공동 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wLU1UNzZzMXlrNFFIQlAxRGo2U0JqYW05bVNvU1lrZjA2ZXZZeWZkMXg5QVJpY1dKMTFDS2tLVWtZMk9KemNqWV9UOHltamVfVVQ1cWh5c0RWTlV3QXItWVZuV04?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공, 태국 관광청과 방콕·치앙마이 노선 공동 프로모션",
+     "outlet": "매일일보",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wLU1UNzZzMXlrNFFIQlAxRGo2U0JqYW05bVNvU1lrZjA2ZXZZeWZkMXg5QVJpY1dKMTFDS2tLVWtZMk9KemNqWV9UOHltamVfVVQ1cWh5c0RWTlV3QXItWVZuV04?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "트리니티항공, 태국 방콕·치앙마이 특가 항공권 프로모션",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9XZW1fU25xNEp5YnQwaGlUYXBXaGhhRExZU1d6VlZYVDdSUS0xdzJBbGlnVnY0QllRR0oxQ2RJcHFiQQ?oc=5",
+     "published": "2026-11-17"
     }
    ],
    "status": "live"
