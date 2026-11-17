@@ -410,13 +410,6 @@
   "first_seen": "2026-10-15T10:12:09+09:00"
  },
  {
-  "title": "에어서울, '임박 특가' 프로모션→비엣젯항공, '亞대표 항공사' 선정",
-  "outlet": "싱글리스트",
-  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81SXF6Y2lFZXdrQTVvZFFxcVh6NW82NURld1hBWEVTZmM4ZnN3WHBxUV9lYlpjV1M1b28yYS1JM1gtYkxYeE9NeDFQYmhMVG5vek5RaG1ONEttM1FmYzhIaDFMNTZ4Zw?oc=5",
-  "published": "2026-10-03",
-  "first_seen": "2026-10-15T10:12:09+09:00"
- },
- {
   "title": "에어서울, 인스파이어와 맞손…탑승객 투숙하면 최대 15% 할인",
   "outlet": "뉴스1",
   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LZFlVTWdSTHhZZF9GRkpVOUtXN0xwR0JiZHAxR1paY1BHY0daOG1abUQ2T25MWWNjNGV3bmgxblNNVWtCZFN0VkZRQVFyWDRqam9YcUxEMkp3U1ZVdS1aMFA0WWM?oc=5",
@@ -6906,5 +6899,33 @@
     "route": ""
    }
   }
+ },
+ {
+  "title": "제주항공, 대입 수험생 항공료 부담 낮춘다…국내선 20% 할인",
+  "outlet": "매일일보",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFWW9Vb1g0bi1jdDFGTGxMN09TSWtBR3BfWUo1NjJjaVlKSlRkNDUzdklxLWZxOTg0NUZROFA1X183VnAzeGYyWi1Kb1E0eGZJa3hVQ3FTQUdCNk9ETkJhMXJ5ak4?oc=5",
+  "published": "2026-11-17",
+  "first_seen": "2026-11-18T03:44:58+09:00",
+  "summary_facts": {
+   "url": "https://www.m-i.kr/news/articleView.html?idxno=2019851",
+   "outlet": "매일일보",
+   "fields": {
+    "discount": "20% 할인",
+    "origin": "제주(CJU)",
+    "destination": "김포(GMP)"
+   },
+   "evidence": {
+    "discount": "… 허지선 기자 | 2027학년도 대학수학능력시험을 앞두고 수험생과 동반자 1명이 제주항공 국내선 항공권을 2…",
+    "route": "대상 노선은 제주~김포·인천·부산·청주·광주·대구, 김포~부산 등 국내선 전 노선이다."
+   }
+  }
+ },
+ {
+  "title": "Expedia, Hotels.com, Vrbo’s Black Friday Sale: Save up to 75%",
+  "outlet": "Upgraded Points",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYTEzLUxJWFpXcjJ6QlljLVJ4R3hNRHc4NkRkRHlZcEhNUmQ3TFp2N2RGb2dzd0RGSzdILWlUME5HenZJZzJ0a3BybDFZVnUxYjZKVFNIc2hrUTRhbVpBQUVfYldkWkpoNmNacUJsXzVWWHVXLU5QZVFkcTV3aTdLemxFRng?oc=5",
+  "published": "2026-11-17",
+  "first_seen": "2026-11-18T03:44:58+09:00",
+  "lang": "en"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T22:17:35+09:00",
+ "generated_at": "2026-11-18T03:44:58+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,113 +10,21 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1889,
+  "rss_items": 1861,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2041,
-  "outlet_new_articles": 1,
+  "outlet_items": 1920,
+  "outlet_new_articles": 0,
   "outlet_enriched": 1,
   "mail_articles": 11,
-  "mail_new_articles": 2,
-  "articles_with_summary": 67,
-  "articles": 836,
-  "new_articles": 8,
-  "deals": 180
+  "mail_new_articles": 0,
+  "articles_with_summary": 68,
+  "articles": 837,
+  "new_articles": 2,
+  "deals": 177
  },
  "deals": [
-  {
-   "id": "h-hotelscom-d44500b120",
-   "airline_id": "h-hotelscom",
-   "airline": "호텔스닷컴",
-   "airlines_mentioned": [
-    "호텔스닷컴"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": "https://kr.hotels.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "블랙프라이 데이",
-   "headline": "호텔스닷컴 블랙프라이데이, 숙소 최대 50% 할인…27일·12월 1일엔 최대 75%",
-   "sale_start": "2026-11-18",
-   "sale_end": "2026-12-03",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "TTL뉴스 요약문: …기간은 2026년 11월 18일부터 12월 3일까지이며, 숙박 기간은 2026년 11월 18일부터 2027년…",
-     "url": "http://www.ttlnews.com/news/articleView.html?idxno=3162661"
-    },
-    "discount": {
-     "title": "호텔스닷컴 블랙프라이데이, 숙소 최대 50% 할인…27일·12월 1일엔 최대 75%",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ2hrbUNtYjZxY0g5WktZRllmWGd3UDNOZVMzbjNpNXQ3MjJZMlRSbzNpSXFNam9CT0Z1VGpKNE9sTDcwSzhVa0RmSjZQOXpjeW9jaEdTN0JuWDdFN09feTBhSXJvUUdfR2NCYjkxa0VWUHdMU0FRQk9XbWh0cGo3c2dvVQ?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 50%",
-   "verification": "news",
-   "first_published": "2026-11-16",
-   "last_published": "2026-11-17",
-   "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-17T17:29:48+09:00",
-   "articles": [
-    {
-     "title": "호텔스닷컴 블랙프라이데이, 숙소 최대 50% 할인…27일·12월 1일엔 최대 75%",
-     "outlet": "여행레저신문",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ2hrbUNtYjZxY0g5WktZRllmWGd3UDNOZVMzbjNpNXQ3MjJZMlRSbzNpSXFNam9CT0Z1VGpKNE9sTDcwSzhVa0RmSjZQOXpjeW9jaEdTN0JuWDdFN09feTBhSXJvUUdfR2NCYjkxa0VWUHdMU0FRQk9XbWh0cGo3c2dvVQ?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "[여행] 호텔스닷컴, 블랙 프라이데이 세일 진행…숙소 최대 50% 할인",
-     "outlet": "리뷰타임스",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vV3BDLVFqWC15d0hZUXgwVFVTT29NeEJWZUFCa0k3UVZzcVFNOTl4VHYtd0NlUURuZ1VzdFJNY28xbElBcFdqNDVuN004VkRlWWlGY2dNZHhBWHpVVmhPSHJFYzJ4T0JvMTdiOE5NZ0E?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "호텔스닷컴, 블프 맞이 숙소 세일",
-     "outlet": "한스경제",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RU2tyTXMwTDRFTEpTbFFJaFVnb0czMWJHQTBYS3Z2cVcyTU9RQWNISGVGal9FNzZvcWowQkFvUnpEUVBKVHRvRXVzdC1BNGxQQWVZcUI1NGVMdGhZRFpqblk0alNtOWpfZ0R6S0c5VdIBb0FVX3lxTE9RU2tyTXMwTDRFTEpTbFFJaFVnb0czMWJHQTBYS3Z2cVcyTU9RQWNISGVGal9FNzZvcWowQkFvUnpEUVBKVHRvRXVzdC1BNGxQQWVZcUI1NGVMdGhZRFpqblk0alNtOWpfZ0R6S0c5VQ?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "호텔스닷컴, 블랙 프라이데이 세일…국내외 숙소 최대 50% 할인",
-     "outlet": "더퍼블릭",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QWDNyRUxMT1JEaXZqSndsb2VVS2RQLXZhc2EwQ3JKVGIyZS1naUhwb3g3OWp4b2prTWMwUUJULTZMY1QwTFdhUk45bm9MTUFqRVhkY1FiOTVuWktEYnZsVnRaV0dSdzV1Q1hlY1BBTdIBb0FVX3lxTE9QWDNyRUxMT1JEaXZqSndsb2VVS2RQLXZhc2EwQ3JKVGIyZS1naUhwb3g3OWp4b2prTWMwUUJULTZMY1QwTFdhUk45bm9MTUFqRVhkY1FiOTVuWktEYnZsVnRaV0dSdzV1Q1hlY1BBTQ?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "내년 연휴 숙소 미리 잡는다…호텔스닷컴, '블랙프라이 데이' 할인 돌입",
-     "outlet": "열린뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oc2I1TWVZRmltcENxVUZCX01PbE5qZTMzVWx4VXNHdmhnTmZKUUZPak9STlZCT19CR05kRU5OejA5Q1ctRllIWVVlOGY0WTUtUzk1MmRydUNpVi1STUV1Ym5CS1BFdw?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "호텔스닷컴, 블프 맞아 수천개 숙소 최대 50% 할인",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aNkY2NzRYQkRjbDRnMkN6ZFRNWUQ2alhGSW1mU1dnTldXSkdQOWtfVzBZV0g3SU9FR0drRmZXenR5ZXJyenhPTklWMW01aWc5dmFrTTRzZGxDa1VRYXhVd0hfZTRiQQ?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "호텔스닷컴, 블랙 프라이데이 세일 진행… 수천 개 숙소 최대 50% 할인",
-     "outlet": "TTL뉴스",
-     "url": "http://www.ttlnews.com/news/articleView.html?idxno=3162661",
-     "published": "2026-11-16"
-    }
-   ],
-   "status": "upcoming"
-  },
   {
    "id": "h-ihg-7d127a9c15",
    "airline_id": "h-ihg",
@@ -1386,6 +1294,98 @@
    "status": "live"
   },
   {
+   "id": "h-hotelscom-d44500b120",
+   "airline_id": "h-hotelscom",
+   "airline": "호텔스닷컴",
+   "airlines_mentioned": [
+    "호텔스닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://kr.hotels.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "블랙프라이 데이",
+   "headline": "호텔스닷컴 블랙프라이데이, 숙소 최대 50% 할인…27일·12월 1일엔 최대 75%",
+   "sale_start": "2026-11-18",
+   "sale_end": "2026-12-03",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "TTL뉴스 요약문: …기간은 2026년 11월 18일부터 12월 3일까지이며, 숙박 기간은 2026년 11월 18일부터 2027년…",
+     "url": "http://www.ttlnews.com/news/articleView.html?idxno=3162661"
+    },
+    "discount": {
+     "title": "호텔스닷컴 블랙프라이데이, 숙소 최대 50% 할인…27일·12월 1일엔 최대 75%",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ2hrbUNtYjZxY0g5WktZRllmWGd3UDNOZVMzbjNpNXQ3MjJZMlRSbzNpSXFNam9CT0Z1VGpKNE9sTDcwSzhVa0RmSjZQOXpjeW9jaEdTN0JuWDdFN09feTBhSXJvUUdfR2NCYjkxa0VWUHdMU0FRQk9XbWh0cGo3c2dvVQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 50%",
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-16T13:18:21+09:00",
+   "last_seen": "2026-11-17T17:29:48+09:00",
+   "articles": [
+    {
+     "title": "호텔스닷컴 블랙프라이데이, 숙소 최대 50% 할인…27일·12월 1일엔 최대 75%",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ2hrbUNtYjZxY0g5WktZRllmWGd3UDNOZVMzbjNpNXQ3MjJZMlRSbzNpSXFNam9CT0Z1VGpKNE9sTDcwSzhVa0RmSjZQOXpjeW9jaEdTN0JuWDdFN09feTBhSXJvUUdfR2NCYjkxa0VWUHdMU0FRQk9XbWh0cGo3c2dvVQ?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "[여행] 호텔스닷컴, 블랙 프라이데이 세일 진행…숙소 최대 50% 할인",
+     "outlet": "리뷰타임스",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vV3BDLVFqWC15d0hZUXgwVFVTT29NeEJWZUFCa0k3UVZzcVFNOTl4VHYtd0NlUURuZ1VzdFJNY28xbElBcFdqNDVuN004VkRlWWlGY2dNZHhBWHpVVmhPSHJFYzJ4T0JvMTdiOE5NZ0E?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "호텔스닷컴, 블프 맞이 숙소 세일",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RU2tyTXMwTDRFTEpTbFFJaFVnb0czMWJHQTBYS3Z2cVcyTU9RQWNISGVGal9FNzZvcWowQkFvUnpEUVBKVHRvRXVzdC1BNGxQQWVZcUI1NGVMdGhZRFpqblk0alNtOWpfZ0R6S0c5VdIBb0FVX3lxTE9RU2tyTXMwTDRFTEpTbFFJaFVnb0czMWJHQTBYS3Z2cVcyTU9RQWNISGVGal9FNzZvcWowQkFvUnpEUVBKVHRvRXVzdC1BNGxQQWVZcUI1NGVMdGhZRFpqblk0alNtOWpfZ0R6S0c5VQ?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "호텔스닷컴, 블랙 프라이데이 세일…국내외 숙소 최대 50% 할인",
+     "outlet": "더퍼블릭",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QWDNyRUxMT1JEaXZqSndsb2VVS2RQLXZhc2EwQ3JKVGIyZS1naUhwb3g3OWp4b2prTWMwUUJULTZMY1QwTFdhUk45bm9MTUFqRVhkY1FiOTVuWktEYnZsVnRaV0dSdzV1Q1hlY1BBTdIBb0FVX3lxTE9QWDNyRUxMT1JEaXZqSndsb2VVS2RQLXZhc2EwQ3JKVGIyZS1naUhwb3g3OWp4b2prTWMwUUJULTZMY1QwTFdhUk45bm9MTUFqRVhkY1FiOTVuWktEYnZsVnRaV0dSdzV1Q1hlY1BBTQ?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "내년 연휴 숙소 미리 잡는다…호텔스닷컴, '블랙프라이 데이' 할인 돌입",
+     "outlet": "열린뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9oc2I1TWVZRmltcENxVUZCX01PbE5qZTMzVWx4VXNHdmhnTmZKUUZPak9STlZCT19CR05kRU5OejA5Q1ctRllIWVVlOGY0WTUtUzk1MmRydUNpVi1STUV1Ym5CS1BFdw?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "호텔스닷컴, 블프 맞아 수천개 숙소 최대 50% 할인",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aNkY2NzRYQkRjbDRnMkN6ZFRNWUQ2alhGSW1mU1dnTldXSkdQOWtfVzBZV0g3SU9FR0drRmZXenR5ZXJyenhPTklWMW01aWc5dmFrTTRzZGxDa1VRYXhVd0hfZTRiQQ?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "호텔스닷컴, 블랙 프라이데이 세일 진행… 수천 개 숙소 최대 50% 할인",
+     "outlet": "TTL뉴스",
+     "url": "http://www.ttlnews.com/news/articleView.html?idxno=3162661",
+     "published": "2026-11-16"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "trinity-f7a40e227f",
    "airline_id": "trinity",
    "airline": "트리니티항공",
@@ -2112,6 +2112,10 @@
    "travel_end": null,
    "routes": [
     {
+     "origin": "제주(CJU)",
+     "destination": "김포(GMP)"
+    },
+    {
      "origin": "김포(GMP)",
      "destination": "부산(PUS)"
     }
@@ -2139,7 +2143,7 @@
    "first_published": "2026-11-17",
    "last_published": "2026-11-17",
    "first_seen": "2026-11-17T13:18:19+09:00",
-   "last_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-18T03:44:58+09:00",
    "articles": [
     {
      "title": "제주항공, 수능 수험생·동반자 국내선 항공권 20% 할인",
@@ -2217,6 +2221,12 @@
      "title": "제주항공, 수험생과 동반자 국내선 항공권 20% 할인",
      "outlet": "BBS불교방송",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5aUGhfQkhySnNBamhKNXR4bnVZSTNQR2hvNjRieFZ0YjBCazNaOGktWWRwQmxYeFVsdmRTNTYzQUY0bF9YTTJNcnczclFaNGhYdHRLLU9ORk5xZ082U1ZkNW5UdUFVbGx1M3l3?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 대입 수험생 항공료 부담 낮춘다…국내선 20% 할인",
+     "outlet": "매일일보",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFWW9Vb1g0bi1jdDFGTGxMN09TSWtBR3BfWUo1NjJjaVlKSlRkNDUzdklxLWZxOTg0NUZROFA1X183VnAzeGYyWi1Kb1E0eGZJa3hVQ3FTQUdCNk9ETkJhMXJ5ak4?oc=5",
      "published": "2026-11-17"
     },
     {
@@ -2353,221 +2363,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "airbusan-b8c86413b9",
-   "airline_id": "airbusan",
-   "airline": "에어부산",
-   "airlines_mentioned": [
-    "에어부산"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airbusan.com/",
-   "iata": [
-    "BX"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": "부산(PUS)",
-     "destination": null
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
-     "url": "https://www.airbusan.com/#mail-149658625d65af90"
-    },
-    "route": {
-     "title": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
-     "url": "https://www.airbusan.com/#mail-149658625d65af90"
-    }
-   },
-   "from_icn": "no",
-   "discount": "149,900원부터",
-   "verification": "official",
-   "first_published": "2026-11-03",
-   "last_published": "2026-11-03",
-   "first_seen": "2026-11-03T16:15:01+09:00",
-   "last_seen": "2026-11-03T16:15:01+09:00",
-   "articles": [
-    {
-     "title": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
-     "outlet": "에어부산 메일",
-     "url": "https://www.airbusan.com/#mail-149658625d65af90",
-     "published": "2026-11-03"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-hilton-b48393e0ef",
-   "airline_id": "h-hilton",
-   "airline": "힐튼",
-   "airlines_mentioned": [
-    "힐튼"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "한국인 90% 여행 다녀왔지만 로열티 가입은 25%… 힐튼 “일상 소비를 숙박 혜택으로”",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-03",
-   "last_published": "2026-11-03",
-   "first_seen": "2026-11-03T18:16:04+09:00",
-   "last_seen": "2026-11-03T18:16:04+09:00",
-   "articles": [
-    {
-     "title": "한국인 90% 여행 다녀왔지만 로열티 가입은 25%… 힐튼 “일상 소비를 숙박 혜택으로”",
-     "outlet": "디지틀조선일보",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wZE9uNWI4M3U0d0daZE5mX0I2N0NaQjNmMm9qWjdPMnZ4SnVPajBXUHRpcmVIVVBVMnNaczBSdWcwYjlCVmtfRkpjSU9zMDJuQ3AyX0FyUlQyamFWcGN1QTRyVjE4QnNSb1VCQmdZTGVxckpjcUNHMnNzZ9IBe0FVX3lxTE0wZE9uNWI4M3U0d0daZE5mX0I2N0NaQjNmMm9qWjdPMnZ4SnVPajBXUHRpcmVIVVBVMnNaczBSdWcwYjlCVmtfRkpjSU9zMDJuQ3AyX0FyUlQyamFWcGN1QTRyVjE4QnNSb1VCQmdZTGVxckpjcUNHMnNzZw?oc=5",
-     "published": "2026-11-03"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-clubmed-561b8f7f14",
-   "airline_id": "h-clubmed",
-   "airline": "클럽메드",
-   "airlines_mentioned": [
-    "클럽메드"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Club Med Launches Up to 30% Off Resorts in Maldives, Thailand and Asia",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "몰디브",
-    "태국",
-    "아시아"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Club Med Launches Up to 30% Off Resorts in Maldives, Thailand and Asia",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbEtadDZzaC1xaG5NekVJZjI5eURWQUNZbDB0R2V0dlhIbExzR2N3bFhWSV9hZGVuM3YwRXcyNlNidUg1SFlBTjBjc2QzVU53U25TOTlDV3laM1BtYmVidW9jRDkzaHp4SWZvaVlaRUxEWDJJNk01NUxWYTZ0UzZKSmZ6OGhlYjNZbXhqSmxxSDJQOGZhUUp6eERQUHFUb0twXy1kaGNVVWF2M2g3dzlhWg?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 30%",
-   "verification": "news",
-   "first_published": "2026-11-03",
-   "last_published": "2026-11-03",
-   "first_seen": "2026-11-03T22:17:33+09:00",
-   "last_seen": "2026-11-03T22:17:33+09:00",
-   "articles": [
-    {
-     "title": "Club Med Launches Up to 30% Off Resorts in Maldives, Thailand and Asia",
-     "outlet": "Rus Tourism News",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbEtadDZzaC1xaG5NekVJZjI5eURWQUNZbDB0R2V0dlhIbExzR2N3bFhWSV9hZGVuM3YwRXcyNlNidUg1SFlBTjBjc2QzVU53U25TOTlDV3laM1BtYmVidW9jRDkzaHp4SWZvaVlaRUxEWDJJNk01NUxWYTZ0UzZKSmZ6OGhlYjNZbXhqSmxxSDJQOGZhUUp6eERQUHFUb0twXy1kaGNVVWF2M2g3dzlhWg?oc=5",
-     "published": "2026-11-03"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-51580b2b1e",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "한국 단풍 관광객 늘자 일본 호텔비 올랐다…9% 가까이 급등",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "일본"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-03",
-   "last_published": "2026-11-03",
-   "first_seen": "2026-11-03T13:18:16+09:00",
-   "last_seen": "2026-11-03T13:18:16+09:00",
-   "articles": [
-    {
-     "title": "한국 단풍 관광객 늘자 일본 호텔비 올랐다…9% 가까이 급등",
-     "outlet": "연합뉴스 문화",
-     "url": "https://www.yna.co.kr/view/AKR20261103088100009",
-     "published": "2026-11-03"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "h-paradise-b849649dab",
@@ -7695,6 +7490,58 @@
    "status": "undated"
   },
   {
+   "id": "h-expedia-7410eb0781",
+   "airline_id": "h-expedia",
+   "airline": "익스피디아",
+   "airlines_mentioned": [
+    "익스피디아"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.expedia.co.kr/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Expedia, Hotels.com, Vrbo’s Black Friday Sale: Save up to 75%",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Expedia, Hotels.com, Vrbo’s Black Friday Sale: Save up to 75%",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYTEzLUxJWFpXcjJ6QlljLVJ4R3hNRHc4NkRkRHlZcEhNUmQ3TFp2N2RGb2dzd0RGSzdILWlUME5HenZJZzJ0a3BybDFZVnUxYjZKVFNIc2hrUTRhbVpBQUVfYldkWkpoNmNacUJsXzVWWHVXLU5QZVFkcTV3aTdLemxFRng?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 75%",
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-18T03:44:58+09:00",
+   "last_seen": "2026-11-18T03:44:58+09:00",
+   "articles": [
+    {
+     "title": "Expedia, Hotels.com, Vrbo’s Black Friday Sale: Save up to 75%",
+     "outlet": "Upgraded Points",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYTEzLUxJWFpXcjJ6QlljLVJ4R3hNRHc4NkRkRHlZcEhNUmQ3TFp2N2RGb2dzd0RGSzdILWlUME5HenZJZzJ0a3BybDFZVnUxYjZKVFNIc2hrUTRhbVpBQUVfYldkWkpoNmNacUJsXzVWWHVXLU5QZVFkcTV3aTdLemxFRng?oc=5",
+     "published": "2026-11-17"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "finnair-a18aae07dc",
    "airline_id": "finnair",
    "airline": "핀에어",
@@ -8223,66 +8070,6 @@
      "outlet": "서울경제",
      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mWmNtZXZybjQxUnB5WjlMZUl2V1U3X3dsczd1UEdRN1NZWkgzdXBVd0VCdTVlWkk1SVdrX2Z5Ump5STNyS2RsbjJpdWlQRndEdnZv0gFTQVVfeXFMTmZaY21ldnJuNDFScHlaOUxlSXZXVTdfd2xzN3VQR1E3U1laSDN1cFV3RUJ1NWVaSTVJV2tfZnlSanlJM3JLZGxuMml1aVBGd0R2dm8?oc=5",
      "published": "2026-11-02"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "aerok-39e7acbffb",
-   "airline_id": "aerok",
-   "airline": "에어로케이",
-   "airlines_mentioned": [
-    "에어로케이"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.aerok.com/",
-   "iata": [
-    "RF"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어로케이, 동계 항공권 특가 판매…국제선 편도 7만원대부터",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "에어로케이, 동계 항공권 특가 판매…국제선 편도 7만원대부터",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VajBJczNyVmt3b2ltMElGQXdRZ2pjSGJjRjd0V3dod2I3OTRrc2Jtb0VFOTdROV9kalNmZFdza1lsUW41QXdSMHBsd2lWd3cxSThGQzhKbjJ4VmdKZFEyU2hrMmNvbnQyMnpLYQ?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "7만원대부터",
-   "verification": "news",
-   "first_published": "2026-10-18",
-   "last_published": "2026-10-18",
-   "first_seen": "2026-10-18T16:27:51+09:00",
-   "last_seen": "2026-10-19T01:10:56+09:00",
-   "articles": [
-    {
-     "title": "에어로케이, 동계 항공권 특가 판매…국제선 편도 7만원대부터",
-     "outlet": "충청도민일보",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VajBJczNyVmt3b2ltMElGQXdRZ2pjSGJjRjd0V3dod2I3OTRrc2Jtb0VFOTdROV9kalNmZFdza1lsUW41QXdSMHBsd2lWd3cxSThGQzhKbjJ4VmdKZFEyU2hrMmNvbnQyMnpLYQ?oc=5",
-     "published": "2026-10-18"
-    },
-    {
-     "title": "에어로케이, 동계 시즌 항공권 특가 프로모션",
-     "outlet": "아이뉴스24",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1PSjZmd0FJMXV4WVBLRWNCZG9VUU5GLW1ONEhEbDIxUkVDcEFYSjlma2NMSnZqZG1zYy1iY05BdTJHVVdHLUlWU3F4V3k?oc=5",
-     "published": "2026-10-18"
     }
    ],
    "status": "stale"
@@ -10445,6 +10232,125 @@
    "status": "stale"
   },
   {
+   "id": "airbusan-b8c86413b9",
+   "airline_id": "airbusan",
+   "airline": "에어부산",
+   "airlines_mentioned": [
+    "에어부산"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airbusan.com/",
+   "iata": [
+    "BX"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "부산(PUS)",
+     "destination": null
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
+     "url": "https://www.airbusan.com/#mail-149658625d65af90"
+    },
+    "route": {
+     "title": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
+     "url": "https://www.airbusan.com/#mail-149658625d65af90"
+    }
+   },
+   "from_icn": "no",
+   "discount": "149,900원부터",
+   "verification": "official",
+   "first_published": "2026-11-03",
+   "last_published": "2026-11-03",
+   "first_seen": "2026-11-03T16:15:01+09:00",
+   "last_seen": "2026-11-03T16:15:01+09:00",
+   "articles": [
+    {
+     "title": "에어부산 연차 딱 하루 내고, 3박5일 중국 광저우 여행! 부산 출발 편도 총액 149,900원부터🎈",
+     "outlet": "에어부산 메일",
+     "url": "https://www.airbusan.com/#mail-149658625d65af90",
+     "published": "2026-11-03"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-clubmed-561b8f7f14",
+   "airline_id": "h-clubmed",
+   "airline": "클럽메드",
+   "airlines_mentioned": [
+    "클럽메드"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Club Med Launches Up to 30% Off Resorts in Maldives, Thailand and Asia",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "몰디브",
+    "태국",
+    "아시아"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Club Med Launches Up to 30% Off Resorts in Maldives, Thailand and Asia",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbEtadDZzaC1xaG5NekVJZjI5eURWQUNZbDB0R2V0dlhIbExzR2N3bFhWSV9hZGVuM3YwRXcyNlNidUg1SFlBTjBjc2QzVU53U25TOTlDV3laM1BtYmVidW9jRDkzaHp4SWZvaVlaRUxEWDJJNk01NUxWYTZ0UzZKSmZ6OGhlYjNZbXhqSmxxSDJQOGZhUUp6eERQUHFUb0twXy1kaGNVVWF2M2g3dzlhWg?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 30%",
+   "verification": "news",
+   "first_published": "2026-11-03",
+   "last_published": "2026-11-03",
+   "first_seen": "2026-11-03T22:17:33+09:00",
+   "last_seen": "2026-11-03T22:17:33+09:00",
+   "articles": [
+    {
+     "title": "Club Med Launches Up to 30% Off Resorts in Maldives, Thailand and Asia",
+     "outlet": "Rus Tourism News",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbEtadDZzaC1xaG5NekVJZjI5eURWQUNZbDB0R2V0dlhIbExzR2N3bFhWSV9hZGVuM3YwRXcyNlNidUg1SFlBTjBjc2QzVU53U25TOTlDV3laM1BtYmVidW9jRDkzaHp4SWZvaVlaRUxEWDJJNk01NUxWYTZ0UzZKSmZ6OGhlYjNZbXhqSmxxSDJQOGZhUUp6eERQUHFUb0twXy1kaGNVVWF2M2g3dzlhWg?oc=5",
+     "published": "2026-11-03"
+    }
+   ],
+   "status": "stale"
+  },
+  {
    "id": "h-marriott-c2e930026f",
    "airline_id": "h-marriott",
    "airline": "메리어트",
@@ -10954,62 +10860,6 @@
      "outlet": "뉴스1",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HWlY3bWFObDVsRVZTd0FtenhKVU1Mc0p0Q2RTdUY5THVmY1ZYc1JGTjlERWc1X255a2VWOVQ1OUZpbW1hYkFQSWRBY3FMQ1N4WEFONVVobTRHNmY4SmlSSw?oc=5",
      "published": "2026-11-05"
-    }
-   ],
-   "status": "ended"
-  },
-  {
-   "id": "h-other-d262f0c6b6",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Rosewood Takes 30% Off Stays Booked by Nov. 10: Who Can Book It?",
-   "sale_start": null,
-   "sale_end": "2026-11-10",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "Rosewood Takes 30% Off Stays Booked by Nov. 10: Who Can Book It?",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdlQwMEZncGhRRlh6VU1GR3lYWTFucnd4QUt1bE1oRG5rdGh2MEVRVmdGVWQyM21iY1ZEZDdEZkRUQ0xWWHRoaGxYOGhYRXFSZUl4dDctSVZhczVuWHVfaXhLZmtKQjlQX0M0cHktc2NEUThjdDdweEtZcXBZamNrYlhBbW1aS2JLZjMyc1JBVm5GcmV3?oc=5"
-    },
-    "discount": {
-     "title": "Rosewood Takes 30% Off Stays Booked by Nov. 10: Who Can Book It?",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdlQwMEZncGhRRlh6VU1GR3lYWTFucnd4QUt1bE1oRG5rdGh2MEVRVmdGVWQyM21iY1ZEZDdEZkRUQ0xWWHRoaGxYOGhYRXFSZUl4dDctSVZhczVuWHVfaXhLZmtKQjlQX0M0cHktc2NEUThjdDdweEtZcXBZamNrYlhBbW1aS2JLZjMyc1JBVm5GcmV3?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "30% 할인",
-   "verification": "news",
-   "first_published": "2026-11-03",
-   "last_published": "2026-11-03",
-   "first_seen": "2026-11-16T09:14:16+09:00",
-   "last_seen": "2026-11-16T09:14:16+09:00",
-   "articles": [
-    {
-     "title": "Rosewood Takes 30% Off Stays Booked by Nov. 10: Who Can Book It?",
-     "outlet": "deeparrival.com",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdlQwMEZncGhRRlh6VU1GR3lYWTFucnd4QUt1bE1oRG5rdGh2MEVRVmdGVWQyM21iY1ZEZDdEZkRUQ0xWWHRoaGxYOGhYRXFSZUl4dDctSVZhczVuWHVfaXhLZmtKQjlQX0M0cHktc2NEUThjdDdweEtZcXBZamNrYlhBbW1aS2JLZjMyc1JBVm5GcmV3?oc=5",
-     "published": "2026-11-03"
     }
    ],
    "status": "ended"
