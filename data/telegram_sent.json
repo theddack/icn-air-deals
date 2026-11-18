@@ -4073,22 +4073,6 @@
     "upcoming_d3": "2026-11-18"
    }
   },
-  "h-yeogi-5c51e6b8d7": {
-   "info": {
-    "airline": "h-yeogi",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-29",
-    "dests": [],
-    "last": "2026-11-18",
-    "urls": [
-     "5c51e6b8d7"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-18"
-   }
-  },
   "h-other-4c94d3f9df": {
    "info": {
     "airline": "h-other",
@@ -4152,6 +4136,24 @@
    "kinds": {
     "new": "2026-11-18"
    }
+  },
+  "h-yeogi-15252ce8de": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-18",
+    "urls": [
+     "15252ce8de",
+     "5c51e6b8d7",
+     "d23a4eb0b4"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-18"
+   }
   }
  },
  "slots": {
@@ -4187,7 +4189,7 @@
    "morning": "sent"
   }
  },
- "saved_at": "2026-11-18T09:18:47+09:00",
+ "saved_at": "2026-11-18T13:23:08+09:00",
  "drops_day": "2026-11-18",
  "drops": {
   "BKK": {
