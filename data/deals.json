@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T03:44:58+09:00",
+ "generated_at": "2026-11-18T09:14:17+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 0,
-  "rss_items": 1861,
+  "failed_queries": 3,
+  "rss_items": 1828,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1920,
-  "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_items": 2073,
+  "outlet_new_articles": 1,
+  "outlet_enriched": 0,
   "mail_articles": 11,
   "mail_new_articles": 0,
-  "articles_with_summary": 68,
-  "articles": 837,
-  "new_articles": 2,
-  "deals": 177
+  "articles_with_summary": 69,
+  "articles": 845,
+  "new_articles": 8,
+  "deals": 181
  },
  "deals": [
   {
@@ -45,7 +45,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "IHG Worldwide 25% To 30% Off Cyber Sale For Stays November 21 – April 30, 2027 (Book By December 3)",
+   "headline": "IHG Launches Global Cyber Sale With Up To 30% Off Stays Through April 2027",
    "sale_start": "2026-11-21",
    "sale_end": "2027-04-30",
    "travel_start": null,
@@ -60,18 +60,30 @@
      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUTZQdTBuYzl2Y0tucUhFdFotUk9HZ1YtSURmOUNIQS00cE0ybjNJcWZxSWt2cjhCQzdkNTJZN051cG5mUU51Tl9sZnlISjk0UVNZTFc0dkNpekhjczBqVmg3d3FxTFFJUHFmQzc1ODdMRE5pYW1OMTctT0V0LTBtbmFuSXhpZnhVRTJxam4tVHZ1OXE4YW93aG1KbjVtTElkNWhIdjBKZ3Rfdm5mWU56WDhYd0JtejdseGtzOE5vR1FFcC13alZGMQ?oc=5"
     },
     "discount": {
-     "title": "IHG Worldwide 25% To 30% Off Cyber Sale For Stays November 21 – April 30, 2027 (Book By December 3)",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUTZQdTBuYzl2Y0tucUhFdFotUk9HZ1YtSURmOUNIQS00cE0ybjNJcWZxSWt2cjhCQzdkNTJZN051cG5mUU51Tl9sZnlISjk0UVNZTFc0dkNpekhjczBqVmg3d3FxTFFJUHFmQzc1ODdMRE5pYW1OMTctT0V0LTBtbmFuSXhpZnhVRTJxam4tVHZ1OXE4YW93aG1KbjVtTElkNWhIdjBKZ3Rfdm5mWU56WDhYd0JtejdseGtzOE5vR1FFcC13alZGMQ?oc=5"
+     "title": "IHG Launches Global Cyber Sale With Up To 30% Off Stays Through April 2027",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYWRyMTc0ZzUxRE1XMFFKa2VoMHM5aXFqM1lvQUVHSWhnTU03YlZtQ3dkTTlxS2Rhc0REX3VHVC1IYm9mOVlwWmFIaTFwLVI1OXk3Z19IUnpXLVBLamRBOUxUSW9NY1ktdW5vXzZIR1NoZFpvLVN1N0xVd1FUbmhxS2VoMUE3eldRZFFFdFB6Ym5IcENzanJicWIyQm41VF9scE9JbQ?oc=5"
     }
    },
    "from_icn": null,
    "discount": "최대 30%",
    "verification": "news",
    "first_published": "2026-11-17",
-   "last_published": "2026-11-17",
+   "last_published": "2026-11-18",
    "first_seen": "2026-11-17T04:51:37+09:00",
-   "last_seen": "2026-11-17T04:51:37+09:00",
+   "last_seen": "2026-11-18T09:14:17+09:00",
    "articles": [
+    {
+     "title": "IHG Launches Global Cyber Sale With Up To 30% Off Stays Through April 2027",
+     "outlet": "https://www.thetraveler.org/",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYWRyMTc0ZzUxRE1XMFFKa2VoMHM5aXFqM1lvQUVHSWhnTU03YlZtQ3dkTTlxS2Rhc0REX3VHVC1IYm9mOVlwWmFIaTFwLVI1OXk3Z19IUnpXLVBLamRBOUxUSW9NY1ktdW5vXzZIR1NoZFpvLVN1N0xVd1FUbmhxS2VoMUE3eldRZFFFdFB6Ym5IcENzanJicWIyQm41VF9scE9JbQ?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "IHG launches 2026 Global Cyber Sale with up to 30% off stays",
+     "outlet": "https://www.thetraveler.org/",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ2ZUSXVZaExScFh4WGNmRE5SMXQ1dHpDZldlUFZva0hvRXFUMG1Zb1ZfaGZCLUVxMlk0ODNQN3hlZkNPckpWMlVsZGVxVjdXbkp5X3Z0cHZfMnJueDlCcGMzNlVPTDFaMTVYUHlHbHMxV2JGSzdzXzRMS0dXc1FiRnVER0J2UWV4czNvSWxsZWVzdw?oc=5",
+     "published": "2026-11-18"
+    },
     {
      "title": "IHG Worldwide 25% To 30% Off Cyber Sale For Stays November 21 – April 30, 2027 (Book By December 3)",
      "outlet": "LoyaltyLobby",
@@ -1469,6 +1481,67 @@
    "status": "live"
   },
   {
+   "id": "h-yeogi-5c51e6b8d7",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "domestic",
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "부산부터 전남까지 숙소 할인…여기어때, 최대 10만원 쿠폰",
+   "sale_start": null,
+   "sale_end": "2026-11-29",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "부산",
+    "전남"
+   ],
+   "conditions": [
+    "쿠폰"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "핀포인트뉴스 요약문: …예약에 사용할 수 있는 최대 10만원 할인 쿠폰을 이달 29일까지 매일 오전 10시부터 선착순으로 지급한다.…",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505252"
+    },
+    "discount": {
+     "title": "핀포인트뉴스 요약문: 여기어때가 부산부터 전남까지 남부지역 숙소에 최대 10만원 할인 쿠폰을 제공한다.",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505252"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 10만원 할인",
+   "verification": "news",
+   "first_published": "2026-11-18",
+   "last_published": "2026-11-18",
+   "first_seen": "2026-11-18T09:14:17+09:00",
+   "last_seen": "2026-11-18T09:14:17+09:00",
+   "articles": [
+    {
+     "title": "부산부터 전남까지 숙소 할인…여기어때, 최대 10만원 쿠폰",
+     "outlet": "핀포인트뉴스",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505252",
+     "published": "2026-11-18"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "h-yeogi-204900ee5a",
    "airline_id": "h-yeogi",
    "airline": "여기어때",
@@ -2105,7 +2178,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "제주항공, 수능 수험생·동반자 국내선 항공권 20% 할인",
+   "headline": "제주항공, 수험생 할인...최대 ‘20%’ 할인",
    "sale_start": null,
    "sale_end": "2027-02-25",
    "travel_start": null,
@@ -2141,10 +2214,16 @@
    "discount": "20% 할인",
    "verification": "news",
    "first_published": "2026-11-17",
-   "last_published": "2026-11-17",
+   "last_published": "2026-11-18",
    "first_seen": "2026-11-17T13:18:19+09:00",
-   "last_seen": "2026-11-18T03:44:58+09:00",
+   "last_seen": "2026-11-18T09:14:17+09:00",
    "articles": [
+    {
+     "title": "제주항공, 수험생 할인...최대 ‘20%’ 할인",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NWlZURkhYZ3pzQ3NsTnVrX0FudGFncXRvM0dJN0R5SjVXRjJJb1QwZklseTRIOVZzRXNIVVczU0xySXgxWU5LOUgwVkFsekIxYUhyUXVETWdYQzJjWU9ZZG9yUzQ3aTVlSzQ5RNIBb0FVX3lxTE42QWU5bF9JMjQyd25XakV6bGdPdXNBeEtJNXNoMVhjdjFxdm9rNXowejRoWENMZ2hpZDZyN1dTOTl1RE1TRWE2dkFNZlFEY3J2QTVKUU1YUFBoLWtlUkRua3lmT19NRDZpTEZseFJHZw?oc=5",
+     "published": "2026-11-18"
+    },
     {
      "title": "제주항공, 수능 수험생·동반자 국내선 항공권 20% 할인",
      "outlet": "데일리안",
@@ -5733,6 +5812,53 @@
    "status": "undated"
   },
   {
+   "id": "h-other-4c94d3f9df",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "항공·숙박·라운지 할인",
+   "headline": "KB국민카드, 연말연시 해외여행 프로모션 실시…\"항공·숙박·라운지 할인\"",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-13",
+   "last_published": "2026-11-13",
+   "first_seen": "2026-11-18T09:14:17+09:00",
+   "last_seen": "2026-11-18T09:14:17+09:00",
+   "articles": [
+    {
+     "title": "KB국민카드, 연말연시 해외여행 프로모션 실시…\"항공·숙박·라운지 할인\"",
+     "outlet": "뉴스드림",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zcWhvY2UydnJlU1hjM0xXdjBfV1h5dms1MUE2TzFfVno3WWNOb1VYcTBMQUtoRU9zQXZTZXBnN25VYS1fNWVOVVF6YzRybXpxczFTZlhjWHhyS1puLXFBRm9qWV9OWTdBSkNR?oc=5",
+     "published": "2026-11-13"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-other-5e31bd2946",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -7858,6 +7984,105 @@
      "outlet": "여행레저신문",
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ISFdfOVRkSDRGY3QzTUZxQkNRMVUtbEdDVjJhMFZ2b05WY2pCa0N0WmE5RTRRLTQ5MnBaTExrZUtGTV9oaENoSjA0TzQ0TWRpeVFYbl9qWWs1ZTl0UjJyRVR2bGhsTVR3bUFNcmdkRTRoLXlEYXJPWHJHRXo?oc=5",
      "published": "2026-11-17"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-ihg-2a973a858a",
+   "airline_id": "h-ihg",
+   "airline": "IHG",
+   "airlines_mentioned": [
+    "IHG"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "IHG Black Friday Sale 2026 Offers Up to 60% Off Resorts and 30% Off Hotels",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "IHG Black Friday Sale 2026 Offers Up to 60% Off Resorts and 30% Off Hotels",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTE4wUDdPMjJNRVlDZHFHSE9SLVlNX3N5MEo5MUdSNEptN3pPTmVHT1psTU9QVVhVZ1A1Z2pxd3JOV01kaGpSVXdVekRCUFRzYzFRQWVzWXRnYlprc01jWG1yLUFHaGVhVzlLcFplMVlaRmFVVlExV0hKa3ladHh4bFBOQnhkZ3JfR3BWaE5icWxVMW5ub0dXTWtCNXhBY09CQm9MTDN2OVhldDV1emR1WEpKZE92dw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 60%",
+   "verification": "news",
+   "first_published": "2026-11-18",
+   "last_published": "2026-11-18",
+   "first_seen": "2026-11-18T09:14:17+09:00",
+   "last_seen": "2026-11-18T09:14:17+09:00",
+   "articles": [
+    {
+     "title": "IHG Black Friday Sale 2026 Offers Up to 60% Off Resorts and 30% Off Hotels",
+     "outlet": "Rus Tourism News",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTE4wUDdPMjJNRVlDZHFHSE9SLVlNX3N5MEo5MUdSNEptN3pPTmVHT1psTU9QVVhVZ1A1Z2pxd3JOV01kaGpSVXdVekRCUFRzYzFRQWVzWXRnYlprc01jWG1yLUFHaGVhVzlLcFplMVlaRmFVVlExV0hKa3ladHh4bFBOQnhkZ3JfR3BWaE5icWxVMW5ub0dXTWtCNXhBY09CQm9MTDN2OVhldDV1emR1WEpKZE92dw?oc=5",
+     "published": "2026-11-18"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-390a686925",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Best 2026 Black Friday and Cyber Monday Hotel Deals Around the World",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-18",
+   "last_published": "2026-11-18",
+   "first_seen": "2026-11-18T09:14:17+09:00",
+   "last_seen": "2026-11-18T09:14:17+09:00",
+   "articles": [
+    {
+     "title": "Best 2026 Black Friday and Cyber Monday Hotel Deals Around the World",
+     "outlet": "Travel Pulse",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeHZ4Q3JBa053OTZDVDQzenNSbHZpX0ZoQUZqMnR6QmpUWG9QWDhfWXdpZ0xrWF82all5RVMwSGZmX0ZxR0JYSmZfN2xINndMbGVzeDA3amlSam9WanZUOXV3VENDdVdJcm1oT0d2aGRuUmF3dzVuRVhQakxHTmlXOW5oY2pzM204M05uZHBRT2ZDakFmZWVmeldseHFZV2ZrOC1PSHE4OTZDUGxnR0l2R2Z6TWJsd1llRUhJMA?oc=5",
+     "published": "2026-11-18"
     }
    ],
    "status": "undated"
