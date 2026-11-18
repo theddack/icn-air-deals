@@ -7001,5 +7001,109 @@
     "sale": "…예약에 사용할 수 있는 최대 10만원 할인 쿠폰을 이달 29일까지 매일 오전 10시부터 선착순으로 지급한다.…"
    }
   }
+ },
+ {
+  "title": "제주항공, 일본 노선 역대 최대 여객→대입 수험생·동반자 국내선 20% 할인 실시",
+  "outlet": "싱글리스트",
+  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pdFVMdDRFQVpVZHZad0Rob1Q5SVZvS2pBdkhWaXpPaEMya1BXRkwwSzR2UkhvcXBQekdVR2dxSzczYzdJS0ZrNGFMZ2RBeWh5N2JNajFwbmdROEEzTW9wdGFILTNldw?oc=5",
+  "published": "2026-11-18",
+  "first_seen": "2026-11-18T13:18:19+09:00"
+ },
+ {
+  "title": "트리니티항공, 페이팔과 제휴…해외 고객 항공권 최대 9% 할인",
+  "outlet": "서울경제TV",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tRUk5ZUdfSFQzc1NaWnlpenZleklqcFItOVJ2ZGhuVlpRUnl5UC1EOHVpY2FISTJVV2JMOHFrNEwwSkpEQzYyeXNtVVFBWlZCX3lOeVBiT0x6UzhfSnhkejlsTmw?oc=5",
+  "published": "2026-11-18",
+  "first_seen": "2026-11-18T13:18:19+09:00"
+ },
+ {
+  "title": "한국 오는 외국인 항공권 최대 9% 할인…트리니티항공, 페이팔과 제휴",
+  "outlet": "헤럴드경제",
+  "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xNktyNEZZdjJyOUxscmQ3a1BabXhfOXFKYTQ1OERBR0ktc240VEloMEhma2xqQ2tJSmgzTUJfY3VyeE84X2lLMGZvd0V3NjlsZVFlM2dR?oc=5",
+  "published": "2026-11-18",
+  "first_seen": "2026-11-18T13:18:19+09:00"
+ },
+ {
+  "title": "트리니티항공, 해외 고객 결제 장벽 낮춘다…페이팔로 7~9% 할인",
+  "outlet": "ER 이코노믹리뷰",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XSGNfaUtvZlJkR1lPQkpDUmJaZHRxSXF2a2lDVk4wY1hkQWxIVDhUZkRkbFRScHRjMTNYZ19oTjVxRHlELVZiV2tJT3pMbDk3bDMzOTYxNVFTZlhaWHF1c2g4Q2Q4aEl6SU1RWQ?oc=5",
+  "published": "2026-11-18",
+  "first_seen": "2026-11-18T13:18:19+09:00",
+  "summary_facts": {
+   "url": "https://www.econovill.com/news/articleView.html?idxno=757657",
+   "outlet": "ER 이코노믹리뷰",
+   "fields": {
+    "discount": "최대 9%"
+   },
+   "evidence": {
+    "discount": "…페이팔(PayPal)과 손잡고 일본과 대만, 홍콩 등 해외 고객을 대상으로 최대 9% 할인 혜택을 제공한다.…"
+   }
+  }
+ },
+ {
+  "title": "트리니티항공, 페이팔 결제 시 항공권 최대 9% 할인",
+  "outlet": "이코노미스트",
+  "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvcmRIOU1XVDg3LUh6amp0SmJZWFZVSVB4VUFxZGlhbkdrQTZZR2piV1hFNlNyZWZMRVlVYWhSNDBQS3dqbTRzMEdpQ0lHdHh4Yzh3Q0NyVjRmZ29MVThmbXB3?oc=5",
+  "published": "2026-11-18",
+  "first_seen": "2026-11-18T13:18:19+09:00"
+ },
+ {
+  "title": "트리니티항공, 페이팔 손잡고 해외 고객 유치...\"항공권 할인 제공\"",
+  "outlet": "팍스경제TV",
+  "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GdlI1MjlQd1hSZ0Nta0wydkt0WVZyZGhRWWVqbk5Telk5eFRyTlZrNENpaEpreHdKVS1XSmhkVC1uTmpLVDBYZVhRUHE1UG93T01xTU50NEZiYXVQa1JjeV9jVWU2dVE?oc=5",
+  "published": "2026-11-18",
+  "first_seen": "2026-11-18T13:18:19+09:00"
+ },
+ {
+  "title": "트리니티항공, 페이팔과 손잡고 ‘인바운드 여객’ 잡는다…항공권 최대 9% 할인",
+  "outlet": "인더스트리뉴스",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKMDNDZTlTbGxyOVBvTVJQN09kVDZOTzY1dFNXNzBIcFR3VTdwaE9BYkpNV2lnX29KYVpTUGRXZWFWOTZ6VWtmZVktLXBZR3ZzVk5DWGZMUXI0LVh0Q2pkNGFBa2M3YnE2aEkyQXBQN2h0QQ?oc=5",
+  "published": "2026-11-18",
+  "first_seen": "2026-11-18T13:18:19+09:00"
+ },
+ {
+  "title": "트리니티항공, 페이팔 손잡고 해외 고객 항공권 할인",
+  "outlet": "위메이크뉴스",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZdkJEaUUxR2taWGdOWFlwR2UzdXVUTkJ0S0dQUndWQmJTdUswTG9TZUlrUlMyZ3FjUTB2STluc2hCQ29fVkpzQldWbXUxam5RVnc0MXNmTFRBU3M?oc=5",
+  "published": "2026-11-18",
+  "first_seen": "2026-11-18T13:18:19+09:00"
+ },
+ {
+  "title": "트리니티항공, 페이팔 결제 시 항공권 최대 9% 할인...해외 고객 공략",
+  "outlet": "중앙이코노미뉴스",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1mallDSFNGaFl5Qmd5VzNucnRjRVVMT2VnQUI1OWl5RUZjZkR0OUVDQzRvTUtzOEplbEpUZUc2XzMwcS1neXp0Um1Yb1FpaTBwR01VZENlOUVDRTBmbVZGNjhtVW56c3NJR3I5cU16N1hNQQ?oc=5",
+  "published": "2026-11-18",
+  "first_seen": "2026-11-18T13:18:19+09:00"
+ },
+ {
+  "title": "KB국민카드, 해외여행 혜택 확대…숙박 최대 20% 할인·라운지 100원",
+  "outlet": "더퍼블릭",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5QRTFHdEpWZkF2bjBwVFIwRFpsQnhmYm05RDdNb2VCVFFyUWYtNlFvbTdZOVNoWjdCN0pXVW1yNTlRcHdxUGc4c0FTcmNsYnNLUk9IUDduOGFiTjdvNkRMcjRTaER5bHpPY2lmNWpZVdIBb0FVX3lxTE5QRTFHdEpWZkF2bjBwVFIwRFpsQnhmYm05RDdNb2VCVFFyUWYtNlFvbTdZOVNoWjdCN0pXVW1yNTlRcHdxUGc4c0FTcmNsYnNLUk9IUDduOGFiTjdvNkRMcjRTaER5bHpPY2lmNWpZVQ?oc=5",
+  "published": "2026-11-15",
+  "first_seen": "2026-11-18T13:18:19+09:00"
+ },
+ {
+  "title": "여기어때, 남부 야간관광 숙소 쿠폰 최대 10만원 할인",
+  "outlet": "숙박매거진",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XQmJmbXZ6RlJWeGVmMkpTS2FlbEpoRGZTS2dPYUtIUGZjejdMVld6ajF5NkY2TDN6UjJ3UlkwcVM5TlJXcVNDTC1saXdVR2hxNWE2Vl9Ga2J2MFZOS19RNHdUSVVwMUJNdGMtd2ZpemI?oc=5",
+  "published": "2026-11-18",
+  "first_seen": "2026-11-18T13:18:19+09:00"
+ },
+ {
+  "title": "\"부산에서 전남까지, 밤 여행 떠나볼까\"…여기어때, 남부권 숙소 최대 10만 원 할인",
+  "outlet": "www.gukjenews.com",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ySkh3bFpodnE0QUhrRUVZN0FHVUxMZmZNRkpJQTkzdFp3cjVCM2xXMHhicFoydE1SRWwzdHktbTJxeTlra2NLc2Y3TVBhTC05TG5EQnBJaEJnLV81VzBRTWdrY2tKWk1oNjBocHV3?oc=5",
+  "published": "2026-11-18",
+  "first_seen": "2026-11-18T13:18:19+09:00",
+  "summary_facts": {
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3755718",
+   "outlet": "국제뉴스",
+   "fields": {
+    "discount": "최대 10만원 할인"
+   },
+   "evidence": {
+    "discount": "여기어때는 해당 지역을 방문하는 여행객에게 최대 10만 원의 숙소 할인 쿠폰을 제공한다."
+   }
+  }
  }
 ]
