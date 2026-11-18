@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T18:16:05+09:00",
+ "generated_at": "2026-11-18T22:17:48+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 0,
-  "rss_items": 1829,
+  "failed_queries": 2,
+  "rss_items": 1778,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2213,
+  "outlet_items": 2080,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 11,
   "mail_new_articles": 0,
   "articles_with_summary": 71,
-  "articles": 862,
-  "new_articles": 0,
-  "deals": 185
+  "articles": 868,
+  "new_articles": 6,
+  "deals": 187
  },
  "deals": [
   {
@@ -6824,120 +6824,6 @@
    "status": "undated"
   },
   {
-   "id": "eastarjet-27c7819997",
-   "airline_id": "eastarjet",
-   "airline": "이스타항공",
-   "airlines_mentioned": [
-    "이스타항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "domestic",
-   "route": "domestic",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "domestic",
-   "official_url": "https://www.eastarjet.com/newstar/PGWTA00001",
-   "iata": [
-    "ZE"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "이스타항공, 수능 수험생 항공권 최대 25% 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "이스타항공, 수능 수험생 항공권 최대 25% 할인",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVVBxS19xR3FiaWFBM3FFa3VwX0ctQWNYT0VlWlBrSkxISnlqa2dJeHFlX2dhdGZKNDRiQWVwLTZZY2ttdXU0THlTQXBCSkhNbkhiXzVJUFFYeXVlZFBCbVlwZUNSeEdaUnVvRTJjRlRfZnp1amYzVlVuM2pxb1VNczdMX29yWUdfckRpd0NXSjlmZWVYY3FPa9IBmAFBVV95cUxPVVBxS19xR3FiaWFBM3FFa3VwX0ctQWNYT0VlWlBrSkxISnlqa2dJeHFlX2dhdGZKNDRiQWVwLTZZY2ttdXU0THlTQXBCSkhNbkhiXzVJUFFYeXVlZFBCbVlwZUNSeEdaUnVvRTJjRlRfZnp1amYzVlVuM2pxb1VNczdMX29yWUdfckRpd0NXSjlmZWVYY3FPaw?oc=5"
-    }
-   },
-   "from_icn": "no",
-   "discount": "최대 25%",
-   "verification": "news",
-   "first_published": "2026-11-16",
-   "last_published": "2026-11-16",
-   "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-17T13:18:19+09:00",
-   "articles": [
-    {
-     "title": "이스타항공, 수능 수험생 항공권 최대 25% 할인",
-     "outlet": "Chosunbiz",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVVBxS19xR3FiaWFBM3FFa3VwX0ctQWNYT0VlWlBrSkxISnlqa2dJeHFlX2dhdGZKNDRiQWVwLTZZY2ttdXU0THlTQXBCSkhNbkhiXzVJUFFYeXVlZFBCbVlwZUNSeEdaUnVvRTJjRlRfZnp1amYzVlVuM2pxb1VNczdMX29yWUdfckRpd0NXSjlmZWVYY3FPa9IBmAFBVV95cUxPVVBxS19xR3FiaWFBM3FFa3VwX0ctQWNYT0VlWlBrSkxISnlqa2dJeHFlX2dhdGZKNDRiQWVwLTZZY2ttdXU0THlTQXBCSkhNbkhiXzVJUFFYeXVlZFBCbVlwZUNSeEdaUnVvRTJjRlRfZnp1amYzVlVuM2pxb1VNczdMX29yWUdfckRpd0NXSjlmZWVYY3FPaw?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "이스타항공, 수능 수험생 항공권 최대 25% 할인…동반 1인도 혜택",
-     "outlet": "데일리안",
-     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPMElOY2J0OGQzOXFwUTJqbWctR1I4X3J2akJmRFUtV1M1Y2p0eTRKc3JrTDVuNVAwRjZ1bDByeGxsbTlPc1RrNzlTc3VMMzJoSXczV2ZiQkI0U1U5eDQ0MUV0TnpHRGtpUGFFMWtxd3pjNnU5d1AtakRydHNHR1pUWjJaQ2ozRWdtSXpfam5SSGV2ZDVzdmp4d1l1SXlWczB0eE4xWENJc1duRVhrTGdDdHpLVDNtS0xhVnVzNGY1dzhQTFZYR29La3hkWDNxY0p4U0xCUy03MFZ2Vmx3YWZUZlVoQkhtTDFYUTVrYTVadHhiLWZ3S2xYY0xfbVV5akQ1YllMOWhad0cyNTJ6d0tFWDZabnNVcWs?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "이스타항공, 수능 수험생 항공권 할인…동반 1인까지 혜택",
-     "outlet": "메가경제",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5fNnJscDBxV1d4M1Q4UlZ4Qk5OWnZlYzI0M3Q1S0pvbmhwejFDUU5nOEhrdmpkQzRNdEY3Nzc3Z19YUy1KajBPUFMwM2wyRm9jN1hBTGd0WmhGLV9qSlFWaW9ZaFkydTFQUWVSY1JHeTI0VHVt0gFyQVVfeXFMUFNrNjlDZkY3cy1HUENOUGk2WVY1dGdKUlVtdHBBWTFkWTRvQTZTWE1xLVNveC1qSGREY0s4QVZNVFlSbms2dk9sQ0RJSHRKbGUzNGlYUVRod3VWN3VjYTFwR0xGSml5QWNBd25NVExhUkRB?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "수능 마치고 여행도 싸게 가자…이스타항공, 수험생 할인 이벤트 - 머니투데이",
-     "outlet": "머니투데이",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvVERvdjc0cFJXYldHRGFEbzZueGxXa2l1OF9TVkFob0J6SExtMjQtbHNqMHY2Z2RhaXdfckl0MkZLeEtabFpTWXJRZFViX0xsN01kNENQcE5FbUNsR3lRTWFDcFg4X1hkZy13Nm96UTlYd9IBckFVX3lxTFBvVERvdjc0cFJXYldHRGFEbzZueGxXa2l1OF9TVkFob0J6SExtMjQtbHNqMHY2Z2RhaXdfckl0MkZLeEtabFpTWXJRZFViX0xsN01kNENQcE5FbUNsR3lRTWFDcFg4X1hkZy13Nm96UTlYdw?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "수능 마친 ‘수험생’ 여행길 돕는다···이스타항공, 최대 25% 할인",
-     "outlet": "이뉴스투데이",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XYWxTSjBQWkY3UHk1RGNHWUFxdTdsVGp5MFhkOG8zcXpOUWd5MkxzblA3QjdTSjk1WTFnSzdCT1JxM2pNdnBSUVUyQmh3cXkyV2ZrVWJLc2p2MVpZQXJFSUwxRndOQnh3SVF0ZjdTLU_SAXRBVV95cUxNRUNVeU5PS3R0Y082czcyYmtHcjgyTFdtTkJzS2NUdFJQX3JXWGJlVFpYVGpxT1ZPTlZLZHJ0XzI2RTVPdEVGMHA2Z2lrYUxDOEFEa3dGRzMwYktnSzV6N2w4bmtJQUJtUGhfYlpwcHIteFV5dg?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "이스타항공, 수능 수험생 대상 항공권 할인…국내선 최대 25%",
-     "outlet": "컨슈머타임스",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBteWdaRTF6X0hLaHRtNTFTODFadVJJYlhOaDAtNzZVZkM5Y0x6YWhtR2l6dkFVOHhoRGRMVFpfZE9sQktTSGFCOVA0WnJSWVNwRWJld2hJN3lhVWhUc3Y3dFdvOElUellJN0E?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "이스타항공, 수능 수험생 대상 항공권 최대 25% 할인",
-     "outlet": "뉴스1",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KRk9vM0pxT0NVZWQ2UEpZN2dUT2NIaTZIV0ZDcDhvLWNvWmo2QUQtVjA5ZU9ZaHpqb1NqTGFnMk9sSnJxZ2s5ejB2TGpFSTAtUUxFS0ZsSlU2cWJOQkxFUFpCWFc?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "[게시판] 이스타항공, 수능 수험생 대상 항공권 최대 25% 할인",
-     "outlet": "연합뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oRVZTNnZvbnk4OVd4QVNEcDBCTWlBTFVoMm1SMHZySzFfV2ZKdFRCVzBaN3RYVUk5aU8za216cnYwbjRUSERReXl4b3c0QkVHdWZDZjdnTVpuWVYtZHBuRdIBYEFVX3lxTE5oRVZTNnZvbnk4OVd4QVNEcDBCTWlBTFVoMm1SMHZySzFfV2ZKdFRCVzBaN3RYVUk5aU8za216cnYwbjRUSERReXl4b3c0QkVHdWZDZjdnTVpuWVYtZHBuRQ?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "이스타항공, 수능 수험생·동반 1인 항공권 최대 25% 할인",
-     "outlet": "메트로신문",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE10aHRobEJndFBLRVJWcW5vZzlxdWN1VDRReGdVd1pZSm9RaC1vZ0JBVE9VLUhQRXB4WWxTQkZIOGV5YmJaUTZjVGpUYjE1V3ZQMDczd29uMFRrbVBPRXJfSQ?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "이스타항공, 수능 수험생 최대 25% 할인",
-     "outlet": "파이낸셜뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52U3BjYkpoZHAzTUd6a09pOHFyMF9NUWtrR0NrMmliZmEwOUk5UU5fSnItc1RNRHgwSDI0TkRZcHFHMm5YaU5oOEJRRUpzXzNfcDRSVU5fbDFpdw?oc=5",
-     "published": "2026-11-16"
-    },
-    {
-     "title": "수능 끝나면 여행도 할인…이스타항공, 동반 1인까지 최대 25%",
-     "outlet": "헤럴드경제",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4yUWhvUWZFdUJQejFBV1U1RTdKSzg1OVdHb085WVdzR0h0Z0ZiVG51dzZObHZzSWZYUTNTamtzbzhoa1RuZ3pqTUlfMDJ6ZmR5Ukt1M01B?oc=5",
-     "published": "2026-11-16"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "eastarjet-4feb49508f",
    "airline_id": "eastarjet",
    "airline": "이스타항공",
@@ -8204,7 +8090,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "트리니티항공, 해외 고객 결제 장벽 낮춘다…페이팔로 7~9% 할인",
+   "headline": "’트리니티-태국관광청‘ 공동 프로모션 실시",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -8225,8 +8111,14 @@
    "first_published": "2026-11-18",
    "last_published": "2026-11-18",
    "first_seen": "2026-11-18T13:18:19+09:00",
-   "last_seen": "2026-11-18T13:18:19+09:00",
+   "last_seen": "2026-11-18T22:17:48+09:00",
    "articles": [
+    {
+     "title": "’트리니티-태국관광청‘ 공동 프로모션 실시",
+     "outlet": "트래블데일리",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iWXZuRUJUaEZmekFwclRrSjhRWF9JcVV4VHdvanpoSW1fN2g2V3lHbXZVRmZUalFUNE5NOE1WdXZjMnpQOEMzVFZxdk9BbFJIUnZXVmxWYTNucEJoTE04ZkJrZmpGcmVrQXpaZGN4ZHI?oc=5",
+     "published": "2026-11-18"
+    },
     {
      "title": "트리니티항공, 해외 고객 결제 장벽 낮춘다…페이팔로 7~9% 할인",
      "outlet": "ER 이코노믹리뷰",
@@ -8237,7 +8129,7 @@
    "status": "undated"
   },
   {
-   "id": "h-hilton-944a9d5634",
+   "id": "h-hilton-49e236e04f",
    "airline_id": "h-hilton",
    "airline": "힐튼",
    "airlines_mentioned": [
@@ -8256,7 +8148,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "Hilton launches early Black Friday hotel deals perfect for festive getaways",
+   "headline": "Hilton’s hotel sale is the Black Friday alternative savvy travellers need to know about",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -8265,19 +8157,36 @@
    "regions": [],
    "conditions": [],
    "conflicts": [],
-   "evidence": {},
+   "evidence": {
+    "discount": {
+     "title": "Save up to 20% on HUNDREDS of hotels in the Hilton Sale with gorgeous UK stays",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTFEtYmlxOXI0ZXQ3NThmWlRZRFdqTlNwX3R5eFFBTU9nS3I4U2tBSG9ialNDNXN1bFZINW15ZnYyVVZmbVVkUTA1Sy05T0NkdXAtMXJIeEtRODEtMHluRHBuQTMyMGNNRkVfM25HQkZJZTI5ZXdYUzJNT0YydGNLV0N3?oc=5"
+    }
+   },
    "from_icn": null,
-   "discount": null,
+   "discount": "최대 20%",
    "verification": "news",
    "first_published": "2026-11-18",
    "last_published": "2026-11-18",
    "first_seen": "2026-11-18T16:56:35+09:00",
-   "last_seen": "2026-11-18T16:56:35+09:00",
+   "last_seen": "2026-11-18T22:17:48+09:00",
    "articles": [
+    {
+     "title": "Hilton’s hotel sale is the Black Friday alternative savvy travellers need to know about",
+     "outlet": "London Evening Standard",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS0t5bTYwaG5BbTVZNURqd0hxZ1BOOFJYVHp0X2dwemZWYkRCdzVHUlNBenB6WmZ0NFVhcUxJM2VXX2NLSUpaamtYS1ltbkNfU1AxLTc1dEdmSVRGY0NBNm9odzdIMW5iU3hzSGwxWFRUdkJGNDBJZWdBaFFBa2puVkRJZldQWEI3N3VDSUJSUFVYaGRobVJ3LU0zZjhrQ0JkTVVJ?oc=5",
+     "published": "2026-11-18"
+    },
     {
      "title": "Hilton launches early Black Friday hotel deals perfect for festive getaways",
      "outlet": "AOL.co.uk",
      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNnhvN21STjYzajJEZXdWMWczSkJOT3dfRGFLTWpaT1pSb19zS0tVeHkyWE9GZ3VxWUxaeGs0NG1xc1hEZHh3WkFKX2VaUF9mWTlmVFFGZkhBeEFMODhoLXFYMWRDd2hlX1Q1NEdfdlNTaWNqMWNXQ2V5NzZ2LVVxYlQtYnJZM1E?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "Save up to 20% on HUNDREDS of hotels in the Hilton Sale with gorgeous UK stays",
+     "outlet": "The Sun",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTFEtYmlxOXI0ZXQ3NThmWlRZRFdqTlNwX3R5eFFBTU9nS3I4U2tBSG9ialNDNXN1bFZINW15ZnYyVVZmbVVkUTA1Sy05T0NkdXAtMXJIeEtRODEtMHluRHBuQTMyMGNNRkVfM25HQkZJZTI5ZXdYUzJNT0YydGNLV0N3?oc=5",
      "published": "2026-11-18"
     }
    ],
@@ -8336,6 +8245,126 @@
    "status": "undated"
   },
   {
+   "id": "eastarjet-27c7819997",
+   "airline_id": "eastarjet",
+   "airline": "이스타항공",
+   "airlines_mentioned": [
+    "이스타항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "domestic",
+   "route": "domestic",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "domestic",
+   "official_url": "https://www.eastarjet.com/newstar/PGWTA00001",
+   "iata": [
+    "ZE"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "이스타항공, 수능 수험생 항공권 최대 25% 할인 이벤트 진행",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "이스타항공, 수능 수험생 항공권 최대 25% 할인 이벤트 진행",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yZ0w0Z0o5alVmenVTYjM1M1p2dFc2UjBPanMyVExKR2RMeWp1eEFqQ2E5UDJvdDU2OFlYV3NEbkVNRGdYa1Fzay1aWkt4R19BcHRaSGNOa3VxMVB3TVFITHIwVGYxTlZ6RUJr0gFrQVVfeXFMTTJnTDRnSjlqVWZ6dVNiMzUzWnZ0VzZSME9qczJUTEpHZEx5anV4QWpDYTlQMm90NTY4WVhXc0RuRU1EZ1hrUXNrLVpaS3hHX0FwdFpIY05rdXExUHdNUUhMcjBUZjFOVnpFQms?oc=5"
+    }
+   },
+   "from_icn": "no",
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-18",
+   "first_seen": "2026-11-16T13:18:21+09:00",
+   "last_seen": "2026-11-18T22:17:48+09:00",
+   "articles": [
+    {
+     "title": "이스타항공, 수능 수험생 항공권 최대 25% 할인 이벤트 진행",
+     "outlet": "현대경제신문",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yZ0w0Z0o5alVmenVTYjM1M1p2dFc2UjBPanMyVExKR2RMeWp1eEFqQ2E5UDJvdDU2OFlYV3NEbkVNRGdYa1Fzay1aWkt4R19BcHRaSGNOa3VxMVB3TVFITHIwVGYxTlZ6RUJr0gFrQVVfeXFMTTJnTDRnSjlqVWZ6dVNiMzUzWnZ0VzZSME9qczJUTEpHZEx5anV4QWpDYTlQMm90NTY4WVhXc0RuRU1EZ1hrUXNrLVpaS3hHX0FwdFpIY05rdXExUHdNUUhMcjBUZjFOVnpFQms?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "이스타항공, 수능 수험생 항공권 최대 25% 할인",
+     "outlet": "Chosunbiz",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVVBxS19xR3FiaWFBM3FFa3VwX0ctQWNYT0VlWlBrSkxISnlqa2dJeHFlX2dhdGZKNDRiQWVwLTZZY2ttdXU0THlTQXBCSkhNbkhiXzVJUFFYeXVlZFBCbVlwZUNSeEdaUnVvRTJjRlRfZnp1amYzVlVuM2pxb1VNczdMX29yWUdfckRpd0NXSjlmZWVYY3FPa9IBmAFBVV95cUxPVVBxS19xR3FiaWFBM3FFa3VwX0ctQWNYT0VlWlBrSkxISnlqa2dJeHFlX2dhdGZKNDRiQWVwLTZZY2ttdXU0THlTQXBCSkhNbkhiXzVJUFFYeXVlZFBCbVlwZUNSeEdaUnVvRTJjRlRfZnp1amYzVlVuM2pxb1VNczdMX29yWUdfckRpd0NXSjlmZWVYY3FPaw?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "이스타항공, 수능 수험생 항공권 최대 25% 할인…동반 1인도 혜택",
+     "outlet": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPMElOY2J0OGQzOXFwUTJqbWctR1I4X3J2akJmRFUtV1M1Y2p0eTRKc3JrTDVuNVAwRjZ1bDByeGxsbTlPc1RrNzlTc3VMMzJoSXczV2ZiQkI0U1U5eDQ0MUV0TnpHRGtpUGFFMWtxd3pjNnU5d1AtakRydHNHR1pUWjJaQ2ozRWdtSXpfam5SSGV2ZDVzdmp4d1l1SXlWczB0eE4xWENJc1duRVhrTGdDdHpLVDNtS0xhVnVzNGY1dzhQTFZYR29La3hkWDNxY0p4U0xCUy03MFZ2Vmx3YWZUZlVoQkhtTDFYUTVrYTVadHhiLWZ3S2xYY0xfbVV5akQ1YllMOWhad0cyNTJ6d0tFWDZabnNVcWs?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "이스타항공, 수능 수험생 항공권 할인…동반 1인까지 혜택",
+     "outlet": "메가경제",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5fNnJscDBxV1d4M1Q4UlZ4Qk5OWnZlYzI0M3Q1S0pvbmhwejFDUU5nOEhrdmpkQzRNdEY3Nzc3Z19YUy1KajBPUFMwM2wyRm9jN1hBTGd0WmhGLV9qSlFWaW9ZaFkydTFQUWVSY1JHeTI0VHVt0gFyQVVfeXFMUFNrNjlDZkY3cy1HUENOUGk2WVY1dGdKUlVtdHBBWTFkWTRvQTZTWE1xLVNveC1qSGREY0s4QVZNVFlSbms2dk9sQ0RJSHRKbGUzNGlYUVRod3VWN3VjYTFwR0xGSml5QWNBd25NVExhUkRB?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "수능 마치고 여행도 싸게 가자…이스타항공, 수험생 할인 이벤트 - 머니투데이",
+     "outlet": "머니투데이",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvVERvdjc0cFJXYldHRGFEbzZueGxXa2l1OF9TVkFob0J6SExtMjQtbHNqMHY2Z2RhaXdfckl0MkZLeEtabFpTWXJRZFViX0xsN01kNENQcE5FbUNsR3lRTWFDcFg4X1hkZy13Nm96UTlYd9IBckFVX3lxTFBvVERvdjc0cFJXYldHRGFEbzZueGxXa2l1OF9TVkFob0J6SExtMjQtbHNqMHY2Z2RhaXdfckl0MkZLeEtabFpTWXJRZFViX0xsN01kNENQcE5FbUNsR3lRTWFDcFg4X1hkZy13Nm96UTlYdw?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "수능 마친 ‘수험생’ 여행길 돕는다···이스타항공, 최대 25% 할인",
+     "outlet": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XYWxTSjBQWkY3UHk1RGNHWUFxdTdsVGp5MFhkOG8zcXpOUWd5MkxzblA3QjdTSjk1WTFnSzdCT1JxM2pNdnBSUVUyQmh3cXkyV2ZrVWJLc2p2MVpZQXJFSUwxRndOQnh3SVF0ZjdTLU_SAXRBVV95cUxNRUNVeU5PS3R0Y082czcyYmtHcjgyTFdtTkJzS2NUdFJQX3JXWGJlVFpYVGpxT1ZPTlZLZHJ0XzI2RTVPdEVGMHA2Z2lrYUxDOEFEa3dGRzMwYktnSzV6N2w4bmtJQUJtUGhfYlpwcHIteFV5dg?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "이스타항공, 수능 수험생 대상 항공권 할인…국내선 최대 25%",
+     "outlet": "컨슈머타임스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBteWdaRTF6X0hLaHRtNTFTODFadVJJYlhOaDAtNzZVZkM5Y0x6YWhtR2l6dkFVOHhoRGRMVFpfZE9sQktTSGFCOVA0WnJSWVNwRWJld2hJN3lhVWhUc3Y3dFdvOElUellJN0E?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "이스타항공, 수능 수험생 대상 항공권 최대 25% 할인",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KRk9vM0pxT0NVZWQ2UEpZN2dUT2NIaTZIV0ZDcDhvLWNvWmo2QUQtVjA5ZU9ZaHpqb1NqTGFnMk9sSnJxZ2s5ejB2TGpFSTAtUUxFS0ZsSlU2cWJOQkxFUFpCWFc?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "[게시판] 이스타항공, 수능 수험생 대상 항공권 최대 25% 할인",
+     "outlet": "연합뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oRVZTNnZvbnk4OVd4QVNEcDBCTWlBTFVoMm1SMHZySzFfV2ZKdFRCVzBaN3RYVUk5aU8za216cnYwbjRUSERReXl4b3c0QkVHdWZDZjdnTVpuWVYtZHBuRdIBYEFVX3lxTE5oRVZTNnZvbnk4OVd4QVNEcDBCTWlBTFVoMm1SMHZySzFfV2ZKdFRCVzBaN3RYVUk5aU8za216cnYwbjRUSERReXl4b3c0QkVHdWZDZjdnTVpuWVYtZHBuRQ?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "이스타항공, 수능 수험생·동반 1인 항공권 최대 25% 할인",
+     "outlet": "메트로신문",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE10aHRobEJndFBLRVJWcW5vZzlxdWN1VDRReGdVd1pZSm9RaC1vZ0JBVE9VLUhQRXB4WWxTQkZIOGV5YmJaUTZjVGpUYjE1V3ZQMDczd29uMFRrbVBPRXJfSQ?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "이스타항공, 수능 수험생 최대 25% 할인",
+     "outlet": "파이낸셜뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52U3BjYkpoZHAzTUd6a09pOHFyMF9NUWtrR0NrMmliZmEwOUk5UU5fSnItc1RNRHgwSDI0TkRZcHFHMm5YaU5oOEJRRUpzXzNfcDRSVU5fbDFpdw?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "수능 끝나면 여행도 할인…이스타항공, 동반 1인까지 최대 25%",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4yUWhvUWZFdUJQejFBV1U1RTdKSzg1OVdHb085WVdzR0h0Z0ZiVG51dzZObHZzSWZYUTNTamtzbzhoa1RuZ3pqTUlfMDJ6ZmR5Ukt1M01B?oc=5",
+     "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-other-390a686925",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -8377,6 +8406,110 @@
      "title": "Best 2026 Black Friday and Cyber Monday Hotel Deals Around the World",
      "outlet": "Travel Pulse",
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeHZ4Q3JBa053OTZDVDQzenNSbHZpX0ZoQUZqMnR6QmpUWG9QWDhfWXdpZ0xrWF82all5RVMwSGZmX0ZxR0JYSmZfN2xINndMbGVzeDA3amlSam9WanZUOXV3VENDdVdJcm1oT0d2aGRuUmF3dzVuRVhQakxHTmlXOW5oY2pzM204M05uZHBRT2ZDakFmZWVmeldseHFZV2ZrOC1PSHE4OTZDUGxnR0l2R2Z6TWJsd1llRUhJMA?oc=5",
+     "published": "2026-11-18"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-243c112e17",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "NYC Hotel Week 2027 Offers 25% Off Stays at 148 New York Hotels",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "NYC Hotel Week 2027 Offers 25% Off Stays at 148 New York Hotels",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5IRkFvUVZpR2MxS2dleXhaeTJUM2JPY25Ya2t6eWxySUxZSGZLOWdIV0NqbDRmTlotTTZtWElFSzhWdTRWaWN2WDVBZGVydkJrbHZFN0NqajF3Z0pKRlltUEUzUEJXNnVmWlVj?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "25% 할인",
+   "verification": "news",
+   "first_published": "2026-11-18",
+   "last_published": "2026-11-18",
+   "first_seen": "2026-11-18T22:17:48+09:00",
+   "last_seen": "2026-11-18T22:17:48+09:00",
+   "articles": [
+    {
+     "title": "NYC Hotel Week 2027 Offers 25% Off Stays at 148 New York Hotels",
+     "outlet": "Canadian Travel News",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5IRkFvUVZpR2MxS2dleXhaeTJUM2JPY25Ya2t6eWxySUxZSGZLOWdIV0NqbDRmTlotTTZtWElFSzhWdTRWaWN2WDVBZGVydkJrbHZFN0NqajF3Z0pKRlltUEUzUEJXNnVmWlVj?oc=5",
+     "published": "2026-11-18"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-6f5c4f06bd",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Luxury Hotel Black Friday 2026: up to 30% off, and how to evaluate an offer",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Luxury Hotel Black Friday 2026: up to 30% off, and how to evaluate an offer",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRejBaRF9jMC1JWHdKbzdLUm5OQ3pHZlFpd0JrQ1BUTEdXZ0ZPRFBXbzlSRzNBU21tcE5uX1pSM0pERjNCN3lXWFBpc3N4WFVFQm9uZEFvSFRkN0IyaC1DTHJBZGtIdkZmR2p3cTVqTnN2LUFjR2Zj?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 30%",
+   "verification": "news",
+   "first_published": "2026-11-18",
+   "last_published": "2026-11-18",
+   "first_seen": "2026-11-18T22:17:48+09:00",
+   "last_seen": "2026-11-18T22:17:48+09:00",
+   "articles": [
+    {
+     "title": "Luxury Hotel Black Friday 2026: up to 30% off, and how to evaluate an offer",
+     "outlet": "La Revue des Hôtels",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRejBaRF9jMC1JWHdKbzdLUm5OQ3pHZlFpd0JrQ1BUTEdXZ0ZPRFBXbzlSRzNBU21tcE5uX1pSM0pERjNCN3lXWFBpc3N4WFVFQm9uZEFvSFRkN0IyaC1DTHJBZGtIdkZmR2p3cTVqTnN2LUFjR2Zj?oc=5",
      "published": "2026-11-18"
     }
    ],
