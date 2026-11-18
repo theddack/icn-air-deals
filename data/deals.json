@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T13:18:19+09:00",
+ "generated_at": "2026-11-18T16:56:35+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1842,
+  "rss_items": 1845,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2216,
+  "outlet_items": 2241,
   "outlet_new_articles": 0,
-  "outlet_enriched": 2,
+  "outlet_enriched": 0,
   "mail_articles": 11,
   "mail_new_articles": 0,
   "articles_with_summary": 71,
-  "articles": 857,
-  "new_articles": 12,
-  "deals": 184
+  "articles": 862,
+  "new_articles": 5,
+  "deals": 185
  },
  "deals": [
   {
@@ -705,7 +705,7 @@
    ],
    "agencies": [],
    "event_name": "할인 프로모션",
-   "headline": "트리니티항공, 태국관광청과 손잡고 겨울 여행객 공략…항공권 할인 프로모션",
+   "headline": "트리니티항공, 태국 노선 최대 20% 할인…방콕·치앙마이 특가 공략",
    "sale_start": "2026-11-12",
    "sale_end": "2027-01-31",
    "travel_start": null,
@@ -725,22 +725,28 @@
      "url": "https://www.econovill.com/news/articleView.html?idxno=757008"
     },
     "discount": {
-     "title": "\"태국여행은 트리니티항공으로\"…항공권 최대 20% 할인",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zWGU0Zm9KdTQwa1hsXzlIWTkzelNBMldJR0hJdGYzbUhTZXZXQXpmVXVNaDNsbHpNR0hZaV9tVzVyWnpURFhKaTd3c2JUOWZBbUdURXhKQlFzS2lSelFLZVI3UFJsV3h1aVJVOF9LTm9pZ21jSXBiS9IBeEFVX3lxTE1zWGU0Zm9KdTQwa1hsXzlIWTkzelNBMldJR0hJdGYzbUhTZXZXQXpmVXVNaDNsbHpNR0hZaV9tVzVyWnpURFhKaTd3c2JUOWZBbUdURXhKQlFzS2lSelFLZVI3UFJsV3h1aVJVOF9LTm9pZ21jSXBiSw?oc=5"
+     "title": "트리니티항공, 태국 노선 최대 20% 할인…방콕·치앙마이 특가 공략",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wWkRLbXZ6R3ZXdnUwSnY1dF9KR2pXWjFmRDhwekhrVXBJZGV6Wk5xNVlJc0ZwTm5nSWJjM3FBQ0tBS1VSTDctSmFsNlJvUnd5ZDhiYXFIWlY2b0hVcHNuQlFFOTk1TURXRVE?oc=5"
     },
     "route": {
-     "title": "트리니티항공, 태국 노선 최대 20% 할인…3만원 쿠폰도",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kREt3R1RvWGkwWlRkUDhic0QtanQ4LWI1Y0wwUDJ3VWI3SmxIT2JPejh4Ykt2NXNrWXFSUnRhX0F5SzFYbjFucEVJQkhuRVRyQ3BvREZQeGhTU0dfWEE?oc=5"
+     "title": "트리니티항공, 태국 노선 최대 20% 할인…방콕·치앙마이 특가 공략",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wWkRLbXZ6R3ZXdnUwSnY1dF9KR2pXWjFmRDhwekhrVXBJZGV6Wk5xNVlJc0ZwTm5nSWJjM3FBQ0tBS1VSTDctSmFsNlJvUnd5ZDhiYXFIWlY2b0hVcHNuQlFFOTk1TURXRVE?oc=5"
     }
    },
    "from_icn": "unknown",
    "discount": "최대 20%",
    "verification": "news",
    "first_published": "2026-11-12",
-   "last_published": "2026-11-17",
+   "last_published": "2026-11-18",
    "first_seen": "2026-11-12T16:43:47+09:00",
-   "last_seen": "2026-11-17T18:16:03+09:00",
+   "last_seen": "2026-11-18T16:56:35+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 태국 노선 최대 20% 할인…방콕·치앙마이 특가 공략",
+     "outlet": "www.hidomin.com",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wWkRLbXZ6R3ZXdnUwSnY1dF9KR2pXWjFmRDhwekhrVXBJZGV6Wk5xNVlJc0ZwTm5nSWJjM3FBQ0tBS1VSTDctSmFsNlJvUnd5ZDhiYXFIWlY2b0hVcHNuQlFFOTk1TURXRVE?oc=5",
+     "published": "2026-11-18"
+    },
     {
      "title": "트리니티항공, 태국관광청과 손잡고 겨울 여행객 공략…항공권 할인 프로모션",
      "outlet": "글로벌이코노믹",
@@ -1481,7 +1487,7 @@
    "status": "live"
   },
   {
-   "id": "h-yeogi-15252ce8de",
+   "id": "h-yeogi-c0b9a35db5",
    "airline_id": "h-yeogi",
    "airline": "여기어때",
    "airlines_mentioned": [
@@ -1530,12 +1536,18 @@
    "first_published": "2026-11-18",
    "last_published": "2026-11-18",
    "first_seen": "2026-11-18T09:14:17+09:00",
-   "last_seen": "2026-11-18T13:18:19+09:00",
+   "last_seen": "2026-11-18T16:56:35+09:00",
    "articles": [
     {
      "title": "부산부터 전남까지 숙소 할인…여기어때, 최대 10만원 쿠폰",
      "outlet": "핀포인트뉴스",
      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505252",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "여기어때, 남부 야간관광 숙박 최대 10만원 할인…11월 29일까지 쿠폰 지급",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMm9rQ0ptVmtxM1RFemZqWkNRdlJpYXlCajFpN3dLdXJ4RUhzSFV2VDhvWTRZWjIwY3dzOWI5R1R1VmNMM1IxXzAzWVhvYXJzd3I1amZySHFYeWthUW1ydGJvLTlpdXFhdmdaUm1ET2JJNjJTbTZrRTFvMEpIekp3NmN0cXI3RGNVV3Z0S091Vkw?oc=5",
      "published": "2026-11-18"
     },
     {
@@ -1548,6 +1560,12 @@
      "title": "\"부산에서 전남까지, 밤 여행 떠나볼까\"…여기어때, 남부권 숙소 최대 10만 원 할인",
      "outlet": "www.gukjenews.com",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ySkh3bFpodnE0QUhrRUVZN0FHVUxMZmZNRkpJQTkzdFp3cjVCM2xXMHhicFoydE1SRWwzdHktbTJxeTlra2NLc2Y3TVBhTC05TG5EQnBJaEJnLV81VzBRTWdrY2tKWk1oNjBocHV3?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "여기어때, 남부 야경 여행객 잡는다…숙소 최대 10만원 할인",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvN3cxd1Y2eXVmT0Y5NGJvUUxERVBMRG4zREsxRGRDSkNOQ0NheU9xS09RVENHcF9Camd1YWczdEQtTVFyZ0RFbEE3YXEtWEZLTERBY25wWXo3NlBMb1NlajhLWVZJTjZiN29v?oc=5",
      "published": "2026-11-18"
     }
    ],
@@ -2003,7 +2021,7 @@
    "status": "live"
   },
   {
-   "id": "h-hilton-c6f7900de8",
+   "id": "h-hilton-76f38819c8",
    "airline_id": "h-hilton",
    "airline": "힐튼",
    "airlines_mentioned": [
@@ -2047,12 +2065,18 @@
    "first_published": "2026-11-13",
    "last_published": "2026-11-13",
    "first_seen": "2026-11-13T02:44:33+09:00",
-   "last_seen": "2026-11-13T02:44:33+09:00",
+   "last_seen": "2026-11-18T16:56:35+09:00",
    "articles": [
     {
      "title": "Hilton 25% To 30% Off Worldwide Sale For Stays Through Late 2027 (Book By December 22)",
      "outlet": "LoyaltyLobby",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVW9Sa2RubGFOd0I0OGd0elVmSmRTaWFkUDE3U0J2eUFjWWtST09UdW81MlhYYndtTVBHY2Ricm9oOE9tYjFSdlg4WnQ0QW4zZWhHOG9TanRUYUwwVV8yUW1XYXZtWnVLNHpWRVV1aHNIQ0U1dVJiNkxnZHZ1OTNWUmJ0VnNkcjQ2T2Z4QkRpSnNZT24xYkZJMEktekwxYTdHZzJjM2l2X3lXWW11SjdGcWtubk9TMklEdERZ?oc=5",
+     "published": "2026-11-13"
+    },
+    {
+     "title": "New Hilton Promotions: Save up to 30% on Stays With 6 Sales",
+     "outlet": "Upgraded Points",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE50V3pPX3hyNk1vT0xYTHNLSUlCVnlmQWNhRlR2VWFpQ0otY0Fqdi1GQ21OalFBZ0o5WWVESnE0bGtlbk52V2xnMXZES0FpWWlIQWxtNHVJUTJjX3pXMF9v?oc=5",
      "published": "2026-11-13"
     }
    ],
@@ -8207,6 +8231,53 @@
      "title": "트리니티항공, 해외 고객 결제 장벽 낮춘다…페이팔로 7~9% 할인",
      "outlet": "ER 이코노믹리뷰",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XSGNfaUtvZlJkR1lPQkpDUmJaZHRxSXF2a2lDVk4wY1hkQWxIVDhUZkRkbFRScHRjMTNYZ19oTjVxRHlELVZiV2tJT3pMbDk3bDMzOTYxNVFTZlhaWHF1c2g4Q2Q4aEl6SU1RWQ?oc=5",
+     "published": "2026-11-18"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-hilton-944a9d5634",
+   "airline_id": "h-hilton",
+   "airline": "힐튼",
+   "airlines_mentioned": [
+    "힐튼"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Hilton launches early Black Friday hotel deals perfect for festive getaways",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-18",
+   "last_published": "2026-11-18",
+   "first_seen": "2026-11-18T16:56:35+09:00",
+   "last_seen": "2026-11-18T16:56:35+09:00",
+   "articles": [
+    {
+     "title": "Hilton launches early Black Friday hotel deals perfect for festive getaways",
+     "outlet": "AOL.co.uk",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNnhvN21STjYzajJEZXdWMWczSkJOT3dfRGFLTWpaT1pSb19zS0tVeHkyWE9GZ3VxWUxaeGs0NG1xc1hEZHh3WkFKX2VaUF9mWTlmVFFGZkhBeEFMODhoLXFYMWRDd2hlX1Q1NEdfdlNTaWNqMWNXQ2V5NzZ2LVVxYlQtYnJZM1E?oc=5",
      "published": "2026-11-18"
     }
    ],
