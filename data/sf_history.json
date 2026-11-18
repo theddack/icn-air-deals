@@ -8,6 +8,13 @@
    "price": 153,
    "first_seen": "2026-10-19"
   },
+  "https://www.secretflying.com/posts/seoul-south-korea-to-hanoi-vietnam-for-only-185-usd-roundtrip/": {
+   "destination": "Hanoi, Vietnam",
+   "trip": "roundtrip",
+   "currency": "USD",
+   "price": 185,
+   "first_seen": "2026-11-19"
+  },
   "https://www.secretflying.com/posts/seoul-south-korea-to-kuala-lumpur-malaysia-for-only-237-usd-roundtrip/": {
    "destination": "Kuala Lumpur, Malaysia",
    "trip": "roundtrip",
