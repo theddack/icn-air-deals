@@ -3752,22 +3752,6 @@
     "closing_today": "2026-11-08"
    }
   },
-  "h-ihg-7d127a9c15": {
-   "info": {
-    "airline": "h-ihg",
-    "name": "",
-    "sale_start": "2026-11-21",
-    "sale_end": "2027-04-30",
-    "dests": [],
-    "last": "2026-11-17",
-    "urls": [
-     "7d127a9c15"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-17"
-   }
-  },
   "multi-e20e60f3c9": {
    "info": {
     "airline": "multi",
@@ -3879,29 +3863,6 @@
    },
    "kinds": {
     "new": "2026-11-17"
-   }
-  },
-  "h-hotelscom-d44500b120": {
-   "info": {
-    "airline": "h-hotelscom",
-    "name": "블랙프라이데이",
-    "sale_start": "2026-11-18",
-    "sale_end": "2026-12-03",
-    "dests": [],
-    "last": "2026-11-17",
-    "urls": [
-     "268935a376",
-     "552e9995de",
-     "5d2b04602c",
-     "8799111e71",
-     "a33fdcf8bf",
-     "d44500b120",
-     "e639c88592"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-16",
-    "upcoming_d1": "2026-11-17"
    }
   },
   "trinity-55bc7a3c97": {
@@ -4068,13 +4029,132 @@
    "kinds": {
     "new": "2026-11-17"
    }
+  },
+  "h-hotelscom-d44500b120": {
+   "info": {
+    "airline": "h-hotelscom",
+    "name": "블랙프라이데이",
+    "sale_start": "2026-11-18",
+    "sale_end": "2026-12-03",
+    "dests": [],
+    "last": "2026-11-17",
+    "urls": [
+     "268935a376",
+     "552e9995de",
+     "5d2b04602c",
+     "8799111e71",
+     "a33fdcf8bf",
+     "d44500b120",
+     "e639c88592"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-16",
+    "upcoming_d1": "2026-11-17",
+    "start_today": "2026-11-18"
+   }
+  },
+  "h-ihg-7d127a9c15": {
+   "info": {
+    "airline": "h-ihg",
+    "name": "",
+    "sale_start": "2026-11-21",
+    "sale_end": "2027-04-30",
+    "dests": [],
+    "last": "2026-11-18",
+    "urls": [
+     "0ebf3b73b9",
+     "3a10575a15",
+     "7d127a9c15"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17",
+    "upcoming_d3": "2026-11-18"
+   }
+  },
+  "h-yeogi-5c51e6b8d7": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-18",
+    "urls": [
+     "5c51e6b8d7"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-18"
+   }
+  },
+  "h-other-4c94d3f9df": {
+   "info": {
+    "airline": "h-other",
+    "name": "항공숙박라운지할인",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-13",
+    "urls": [
+     "4c94d3f9df"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-18"
+   }
+  },
+  "h-expedia-7410eb0781": {
+   "info": {
+    "airline": "h-expedia",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-17",
+    "urls": [
+     "7410eb0781"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-18"
+   }
+  },
+  "h-ihg-2a973a858a": {
+   "info": {
+    "airline": "h-ihg",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-18",
+    "urls": [
+     "2a973a858a"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-18"
+   }
+  },
+  "h-other-390a686925": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-18",
+    "urls": [
+     "390a686925"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-18"
+   }
   }
  },
  "slots": {
-  "2026-11-10": {
-   "morning": "sent",
-   "evening": "sent"
-  },
   "2026-11-11": {
    "morning": "sent",
    "evening": "sent"
@@ -4102,10 +4182,13 @@
   "2026-11-17": {
    "morning": "sent",
    "evening": "sent"
+  },
+  "2026-11-18": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-11-17T22:22:15+09:00",
- "drops_day": "2026-11-17",
+ "saved_at": "2026-11-18T09:18:47+09:00",
+ "drops_day": "2026-11-18",
  "drops": {
   "BKK": {
    "price": 411600,
@@ -4125,5 +4208,5 @@
   }
  },
  "weekly": "2026-11-15",
- "admin_failed": "2026-11-17"
+ "admin_failed": "2026-11-18"
 }
