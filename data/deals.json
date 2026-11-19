@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T13:18:23+09:00",
+ "generated_at": "2026-11-19T16:56:53+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,21 +9,19 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 0,
-  "rss_items": 1850,
+  "failed_queries": 1,
+  "rss_items": 1823,
   "outlet_feeds": 29,
-  "outlet_failed": 1,
-  "outlet_failed_feeds": [
-   "아주경제 사회: TimeoutError"
-  ],
-  "outlet_items": 1895,
+  "outlet_failed": 0,
+  "outlet_failed_feeds": [],
+  "outlet_items": 2290,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 11,
   "mail_new_articles": 0,
   "articles_with_summary": 72,
   "articles": 861,
-  "new_articles": 2,
+  "new_articles": 0,
   "deals": 186
  },
  "deals": [
