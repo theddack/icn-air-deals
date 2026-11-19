@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T09:14:04+09:00",
+ "generated_at": "2026-11-19T13:18:23+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,19 +9,21 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 4,
-  "rss_items": 1721,
+  "failed_queries": 0,
+  "rss_items": 1850,
   "outlet_feeds": 29,
-  "outlet_failed": 0,
-  "outlet_failed_feeds": [],
-  "outlet_items": 2087,
+  "outlet_failed": 1,
+  "outlet_failed_feeds": [
+   "아주경제 사회: TimeoutError"
+  ],
+  "outlet_items": 1895,
   "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_enriched": 0,
   "mail_articles": 11,
   "mail_new_articles": 0,
   "articles_with_summary": 72,
-  "articles": 859,
-  "new_articles": 5,
+  "articles": 861,
+  "new_articles": 2,
   "deals": 186
  },
  "deals": [
@@ -94,6 +96,78 @@
      "title": "IHG Worldwide 25% To 30% Off Cyber Sale For Stays November 21 – April 30, 2027 (Book By December 3)",
      "outlet": "LoyaltyLobby",
      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUTZQdTBuYzl2Y0tucUhFdFotUk9HZ1YtSURmOUNIQS00cE0ybjNJcWZxSWt2cjhCQzdkNTJZN051cG5mUU51Tl9sZnlISjk0UVNZTFc0dkNpekhjczBqVmg3d3FxTFFJUHFmQzc1ODdMRE5pYW1OMTctT0V0LTBtbmFuSXhpZnhVRTJxam4tVHZ1OXE4YW93aG1KbjVtTElkNWhIdjBKZ3Rfdm5mWU56WDhYd0JtejdseGtzOE5vR1FFcC13alZGMQ?oc=5",
+     "published": "2026-11-17"
+    }
+   ],
+   "status": "upcoming"
+  },
+  {
+   "id": "parataair-54c0cace3b",
+   "airline_id": "parataair",
+   "airline": "파라타항공",
+   "airlines_mentioned": [
+    "파라타항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.parataair.com/",
+   "iata": [
+    "WE"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "파라타항공, LA노선 예매 시작…24일부터 특가 프로모션",
+   "sale_start": "2026-11-24",
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "파라타항공, LA노선 예매 시작…24일부터 특가 프로모션",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1Z29ORUI1bmtOTVFpSXJZajJCcldnR1l1dm5BMkpoejh4anhFaUgwdEpfVFItSi1sLWU2YktZVVhkUWs2bGgxLTMzeXgzYVRZUGJRQ1BXYUd4TGRyclRtZFlB?oc=5"
+    }
+   },
+   "from_icn": "yes",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-19",
+   "first_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-19T13:18:23+09:00",
+   "articles": [
+    {
+     "title": "파라타항공, LA노선 예매 시작…24일부터 특가 프로모션",
+     "outlet": "미주중앙일보",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1Z29ORUI1bmtOTVFpSXJZajJCcldnR1l1dm5BMkpoejh4anhFaUgwdEpfVFItSi1sLWU2YktZVVhkUWs2bGgxLTMzeXgzYVRZUGJRQ1BXYUd4TGRyclRtZFlB?oc=5",
+     "published": "2026-11-19"
+    },
+    {
+     "title": "인천~LA 취항 앞둔 파라타항공..항공권 예매 돌입, 국제선 특가 실시",
+     "outlet": "데일리카",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOUlVjbEtkRy1paVdZZjdmTVNzSlNXcW9VVDJ3NE1HNlE3dkVXVDRNZkFjaHFrOUg3d1FPUl9mcGgxY19CaXRXN0ZHMWxlb0NWVHN5WW9iMnd5Tkczd0tub1hXeHAxV2VSQ3FyMFo2WUNJc0lIZWc?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "파라타항공 ‘인천~LA’ 첫 미주 노선 판매 개시···블랙프라이데이 특가 진행",
+     "outlet": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUbjBtQUh3bEY0UHRtd2lsbTZiLTNqQ2xTQzYxV3JxQXk1SEpXOUdJTzllcjFNcVRUcTFzREtwc0E5eXZ3cUk0SDM5aEJ4MlhIT19rNksxbk9MYjl1UGRDY2g1NmRwNmJZNGk5RHRSZknSAXRBVV95cUxNNU9EUkVyWTBJSEh6VlhhZlphZHVnMzZnZllHRElOZFJtV1VNOFlCS2RENkZHb2ZhMm5ScHlvZ242UFFaRTZlZ0xfUmNoM21iWkRadjZ0b0Fmb0s1bkQtekNHSWQxQUhnbmxmSFJEOE8zX2lPQQ?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "파라타항공 미주 노선 LA 항공권 판매…블랙프라이데이 특가 프로모션",
+     "outlet": "프레시안",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Ua1hCbXdUaVk4Y2t0amM0SUJSZXRkbG9FYjNYbU9RdV9FWklFRHZpNTk4a05GNmRWcER0MlpNS3FqeDEyNjlDZU01SVM2bHVlQUdCMmVBZnFwb0JwZVJ5cEtFY01ScDEtMHpv?oc=5",
      "published": "2026-11-17"
     }
    ],
@@ -2328,7 +2402,7 @@
    "first_published": "2026-11-17",
    "last_published": "2026-11-18",
    "first_seen": "2026-11-17T13:18:19+09:00",
-   "last_seen": "2026-11-18T13:18:19+09:00",
+   "last_seen": "2026-11-19T13:18:23+09:00",
    "articles": [
     {
      "title": "제주항공, 수험생 할인...최대 ‘20%’ 할인",
@@ -2448,6 +2522,12 @@
      "title": "제주항공, 2027학년도 수험생·동반자 국내선 20% 할인",
      "outlet": "아시아경제",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PNVZqS3VURlF2UTBFbWY5eGZfd2NpeVdVaGRJUFBINGF3cGJuaVFnY2NXRG42eXJRRzU1Q2E3cndCbUt3MlM3OEJubDRUT3Zzb0VjQkhPWnJTWlo2V2tBRw?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "제주항공, 대입 수험생·동반 1인 국내선 운임 20% 할인",
+     "outlet": "아시아타임즈",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBibm5SS1VQUGZyTzhvVkd5S3NFM1lqQ2Noc0h4OWN5WlZXZ0tSM2VhZ3k3LTRYcl9Qem9Oakg2X1lYRVR1LTVIajA5LXdWNmxncWJpMTBUWXhqUnBuR2c?oc=5",
      "published": "2026-11-17"
     },
     {
@@ -7418,67 +7498,6 @@
      "title": "헬싱키·코펜하겐·로마·비엔나 등 유럽 노선 25% 할인 혜택..핀에어, 특가 프로모션 실시",
      "outlet": "데일리카",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QV2FRZDQ2bTZHSXZrdEQzUWZEcExsT0RiV3pEWTFGRGtaa2pVLTRsWWRZU2hGZTI2d3ZVWUpPVGwzM29mbkpCeWFGcW1JdE45TVBvTmZ3eExfMjFxcGItbXRjTWU5Y2d1aFBYaEJBYnFpc2FuNkE?oc=5",
-     "published": "2026-11-17"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "parataair-54c0cace3b",
-   "airline_id": "parataair",
-   "airline": "파라타항공",
-   "airlines_mentioned": [
-    "파라타항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.parataair.com/",
-   "iata": [
-    "WE"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "인천~LA 취항 앞둔 파라타항공..항공권 예매 돌입, 국제선 특가 실시",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": "yes",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-17",
-   "last_published": "2026-11-17",
-   "first_seen": "2026-11-17T17:29:48+09:00",
-   "last_seen": "2026-11-17T22:17:35+09:00",
-   "articles": [
-    {
-     "title": "인천~LA 취항 앞둔 파라타항공..항공권 예매 돌입, 국제선 특가 실시",
-     "outlet": "데일리카",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOUlVjbEtkRy1paVdZZjdmTVNzSlNXcW9VVDJ3NE1HNlE3dkVXVDRNZkFjaHFrOUg3d1FPUl9mcGgxY19CaXRXN0ZHMWxlb0NWVHN5WW9iMnd5Tkczd0tub1hXeHAxV2VSQ3FyMFo2WUNJc0lIZWc?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "파라타항공 ‘인천~LA’ 첫 미주 노선 판매 개시···블랙프라이데이 특가 진행",
-     "outlet": "이뉴스투데이",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUbjBtQUh3bEY0UHRtd2lsbTZiLTNqQ2xTQzYxV3JxQXk1SEpXOUdJTzllcjFNcVRUcTFzREtwc0E5eXZ3cUk0SDM5aEJ4MlhIT19rNksxbk9MYjl1UGRDY2g1NmRwNmJZNGk5RHRSZknSAXRBVV95cUxNNU9EUkVyWTBJSEh6VlhhZlphZHVnMzZnZllHRElOZFJtV1VNOFlCS2RENkZHb2ZhMm5ScHlvZ242UFFaRTZlZ0xfUmNoM21iWkRadjZ0b0Fmb0s1bkQtekNHSWQxQUhnbmxmSFJEOE8zX2lPQQ?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "파라타항공 미주 노선 LA 항공권 판매…블랙프라이데이 특가 프로모션",
-     "outlet": "프레시안",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Ua1hCbXdUaVk4Y2t0amM0SUJSZXRkbG9FYjNYbU9RdV9FWklFRHZpNTk4a05GNmRWcER0MlpNS3FqeDEyNjlDZU01SVM2bHVlQUdCMmVBZnFwb0JwZVJ5cEtFY01ScDEtMHpv?oc=5",
      "published": "2026-11-17"
     }
    ],
