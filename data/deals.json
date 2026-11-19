@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T18:16:03+09:00",
+ "generated_at": "2026-11-19T22:17:39+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,18 +9,18 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 1,
-  "rss_items": 1818,
+  "failed_queries": 2,
+  "rss_items": 1731,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2269,
+  "outlet_items": 2118,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 11,
   "mail_new_articles": 0,
   "articles_with_summary": 72,
-  "articles": 862,
+  "articles": 863,
   "new_articles": 1,
   "deals": 187
  },
@@ -7577,7 +7577,7 @@
    ],
    "agencies": [],
    "event_name": "항공권 할인 제공",
-   "headline": "트리니티항공, 페이팔과 손잡고 ‘인바운드 여객’ 잡는다…항공권 최대 9% 할인",
+   "headline": "트리니티항공, 페이팔 손잡고 해외 고객 항공권 할인…“한국 여행 더 편리하게”",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -7598,8 +7598,14 @@
    "first_published": "2026-11-18",
    "last_published": "2026-11-18",
    "first_seen": "2026-11-18T09:14:17+09:00",
-   "last_seen": "2026-11-19T09:14:04+09:00",
+   "last_seen": "2026-11-19T22:17:39+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 페이팔 손잡고 해외 고객 항공권 할인…“한국 여행 더 편리하게”",
+     "outlet": "데일리스포츠한국",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQc1huUWtmUTFYdjFPM1dKMHQtQmtZUVcxOGh3TTJBYklCNHJNZW5Ca0VzZGROMUFkR01GUFR1UU9wVDVQLTN2SG5Jajc0NDNDOGJPOWxTT3VlMFZqeFJweVNPMDM2bzdDOVh0bDlZbV9BcGpNLWI0QVpsc9IBf0FVX3lxTE1uRnhKd0h1Zl9ydGFKWTV2dTVWQ2loS1p4dVF0WGI3dThzTmwwREVjRTZzaEJKX0UwNHdjT2Q1S2gxTXloTlNJNjBYZWZCTkdoSU5xQjNncWIxaFlTak5KWGNOa0xQakZCbF9LcVgxbGJNZGlNMHRsMnpwd21KczQ?oc=5",
+     "published": "2026-11-18"
+    },
     {
      "title": "트리니티항공, 페이팔과 손잡고 ‘인바운드 여객’ 잡는다…항공권 최대 9% 할인",
      "outlet": "인더스트리뉴스",
