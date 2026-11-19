@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T16:56:53+09:00",
+ "generated_at": "2026-11-19T18:16:03+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 1,
-  "rss_items": 1823,
+  "rss_items": 1818,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2290,
+  "outlet_items": 2269,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 11,
   "mail_new_articles": 0,
   "articles_with_summary": 72,
-  "articles": 861,
-  "new_articles": 0,
-  "deals": 186
+  "articles": 862,
+  "new_articles": 1,
+  "deals": 187
  },
  "deals": [
   {
@@ -8201,6 +8201,58 @@
      "title": "NEWS & OFFERS: Aer Lingus Reveals First-Ever Premium Economy and More, Avios Hotels 50% Devaluation & Radisson Black Friday Sale",
      "outlet": "Turning Left For Less -",
      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbHpYelllNUJHbWd1ak1Td3g4UWRrc1FTSEk4RVJCSWNJV3FQSnpjck1nczUwV3RfLTZKb2h0bFR3T0FKT2RjOWFYa0doVmpIWXdHa1VsMHRkLUhNLTFEZVZFSWZHN0RnMkZkQjNLd0JDb291MXVkczZzak9DVkVpM0k0dzJqSEJDS05BY0pxeGw0U3k4d2N3ZmRDZDExX290ci1UQ0RtUl9rbmVjcDBLTzhnQ05CWTN3MGtPM1BvX3U5LVowWWI3ekRoREwzbGJvTXVIR2FyTzhVcS1SeUcyYmg5MTNhYXFCdGpFY2J3?oc=5",
+     "published": "2026-11-19"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-06be4f880e",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "The UK breaks with free breakfast, dinner AND spa treatments – and new 30% off room sale",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "The UK breaks with free breakfast, dinner AND spa treatments – and new 30% off room sale",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRFFMTnZJZDExMDdORlVuZDZLT1NZX2ZiRENSVkROR3J4cG5vT0I4ZnFmdDIwbG9UcXZ5SDJ1cWV5aTZOQWxFZlhWSHdpWk1QSFkyY2poSmlIZmFrMkJoQm9SeXpYUXFjVm5JVVY4ZDdNWVVBenpaVGpFOEhWdk5KME5LVXRLa1ZYc3Zfb3lRUzl1Yzg?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "30% 할인",
+   "verification": "news",
+   "first_published": "2026-11-19",
+   "last_published": "2026-11-19",
+   "first_seen": "2026-11-19T18:16:03+09:00",
+   "last_seen": "2026-11-19T18:16:03+09:00",
+   "articles": [
+    {
+     "title": "The UK breaks with free breakfast, dinner AND spa treatments – and new 30% off room sale",
+     "outlet": "The Sun",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRFFMTnZJZDExMDdORlVuZDZLT1NZX2ZiRENSVkROR3J4cG5vT0I4ZnFmdDIwbG9UcXZ5SDJ1cWV5aTZOQWxFZlhWSHdpWk1QSFkyY2poSmlIZmFrMkJoQm9SeXpYUXFjVm5JVVY4ZDdNWVVBenpaVGpFOEhWdk5KME5LVXRLa1ZYc3Zfb3lRUzl1Yzg?oc=5",
      "published": "2026-11-19"
     }
    ],
