@@ -4117,53 +4117,6 @@
     "new": "2026-11-13"
    }
   },
-  "h-shilla-7043d0430d": {
-   "info": {
-    "airline": "h-shilla",
-    "name": "블랙프라이데이",
-    "sale_start": "2026-11-06",
-    "sale_end": "2026-11-19",
-    "dests": [],
-    "last": "2026-11-11",
-    "urls": [
-     "03093ea52c",
-     "12e8f2a055",
-     "1b6ca39fba",
-     "1e2aaf3d03",
-     "218e67082e",
-     "227f99d686",
-     "2a59083b8d",
-     "2e5f183f34",
-     "3f821dbb90",
-     "4bb6d35a88",
-     "4d575eb93d",
-     "69cbd4963c",
-     "7043d0430d",
-     "75d86a9992",
-     "7edb2bda9c",
-     "93213ff998",
-     "99427ce633",
-     "9fc06fe68f",
-     "a12fbbfd42",
-     "a2c90521f8",
-     "ad53721fde",
-     "aeaeebacbb",
-     "aed410be0a",
-     "b464a704b5",
-     "b6663ea06c",
-     "be9e85a9a0",
-     "eb8a068fba",
-     "faaf1726ff",
-     "fd234f7ca4",
-     "fd82b8a2f2"
-    ]
-   },
-   "kinds": {
-    "start_today": "2026-11-06",
-    "new": "2026-11-06",
-    "closing_tomorrow": "2026-11-18"
-   }
-  },
   "h-other-c4088bf9e9": {
    "info": {
     "airline": "h-other",
@@ -4236,13 +4189,121 @@
    "kinds": {
     "new": "2026-11-18"
    }
+  },
+  "h-shilla-7043d0430d": {
+   "info": {
+    "airline": "h-shilla",
+    "name": "블랙프라이데이",
+    "sale_start": "2026-11-06",
+    "sale_end": "2026-11-19",
+    "dests": [],
+    "last": "2026-11-11",
+    "urls": [
+     "03093ea52c",
+     "12e8f2a055",
+     "1b6ca39fba",
+     "1e2aaf3d03",
+     "218e67082e",
+     "227f99d686",
+     "2a59083b8d",
+     "2e5f183f34",
+     "3f821dbb90",
+     "4bb6d35a88",
+     "4d575eb93d",
+     "69cbd4963c",
+     "7043d0430d",
+     "75d86a9992",
+     "7edb2bda9c",
+     "93213ff998",
+     "99427ce633",
+     "9fc06fe68f",
+     "a12fbbfd42",
+     "a2c90521f8",
+     "ad53721fde",
+     "aeaeebacbb",
+     "aed410be0a",
+     "b464a704b5",
+     "b6663ea06c",
+     "be9e85a9a0",
+     "eb8a068fba",
+     "faaf1726ff",
+     "fd234f7ca4",
+     "fd82b8a2f2"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-06",
+    "new": "2026-11-06",
+    "closing_tomorrow": "2026-11-18",
+    "closing_today": "2026-11-19"
+   }
+  },
+  "h-other-b419f023c1": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-12-02",
+    "dests": [],
+    "last": "2026-11-19",
+    "urls": [
+     "b419f023c1"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-19"
+   }
+  },
+  "h-other-243c112e17": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-18",
+    "urls": [
+     "243c112e17"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-19"
+   }
+  },
+  "h-other-6f5c4f06bd": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-18",
+    "urls": [
+     "6f5c4f06bd"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-19"
+   }
+  },
+  "h-other-9567c4d8b6": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-19",
+    "urls": [
+     "9567c4d8b6"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-19"
+   }
   }
  },
  "slots": {
-  "2026-11-11": {
-   "morning": "sent",
-   "evening": "sent"
-  },
   "2026-11-12": {
    "morning": "sent",
    "evening": "sent"
@@ -4270,10 +4331,13 @@
   "2026-11-18": {
    "morning": "sent",
    "evening": "sent"
+  },
+  "2026-11-19": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-11-19T03:20:32+09:00",
- "drops_day": "2026-11-18",
+ "saved_at": "2026-11-19T09:19:08+09:00",
+ "drops_day": "2026-11-19",
  "drops": {
   "BKK": {
    "price": 411600,
