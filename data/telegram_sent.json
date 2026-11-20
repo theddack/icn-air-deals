@@ -3997,25 +3997,6 @@
     "start_today": "2026-11-18"
    }
   },
-  "h-ihg-7d127a9c15": {
-   "info": {
-    "airline": "h-ihg",
-    "name": "",
-    "sale_start": "2026-11-21",
-    "sale_end": "2027-04-30",
-    "dests": [],
-    "last": "2026-11-18",
-    "urls": [
-     "0ebf3b73b9",
-     "3a10575a15",
-     "7d127a9c15"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-17",
-    "upcoming_d3": "2026-11-18"
-   }
-  },
   "h-other-4c94d3f9df": {
    "info": {
     "airline": "h-other",
@@ -4415,6 +4396,62 @@
    "kinds": {
     "new": "2026-11-20"
    }
+  },
+  "h-ihg-7d127a9c15": {
+   "info": {
+    "airline": "h-ihg",
+    "name": "",
+    "sale_start": "2026-11-21",
+    "sale_end": "2027-04-30",
+    "dests": [],
+    "last": "2026-11-18",
+    "urls": [
+     "0ebf3b73b9",
+     "3a10575a15",
+     "7d127a9c15",
+     "e525222331"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17",
+    "upcoming_d3": "2026-11-18",
+    "upcoming_d1": "2026-11-20"
+   }
+  },
+  "trinity-34a66745c3": {
+   "info": {
+    "airline": "trinity",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-30",
+    "dests": [],
+    "last": "2026-11-20",
+    "urls": [
+     "1184d1c58e",
+     "184411d4d9",
+     "34a66745c3",
+     "61f311ef43"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-20"
+   }
+  },
+  "multi-e3b754bb09": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-20",
+    "urls": [
+     "e3b754bb09"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-20"
+   }
   }
  },
  "slots": {
@@ -4447,10 +4484,11 @@
    "evening": "sent"
   },
   "2026-11-20": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-20T13:23:01+09:00",
+ "saved_at": "2026-11-20T18:21:12+09:00",
  "drops_day": "2026-11-20",
  "drops": {
   "BKK": {
