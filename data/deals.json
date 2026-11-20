@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T03:40:04+09:00",
+ "generated_at": "2026-11-20T09:14:05+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 0,
-  "rss_items": 1776,
+  "failed_queries": 3,
+  "rss_items": 1977,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1950,
-  "outlet_new_articles": 0,
+  "outlet_items": 2097,
+  "outlet_new_articles": 1,
   "outlet_enriched": 0,
   "mail_articles": 11,
   "mail_new_articles": 0,
-  "articles_with_summary": 72,
-  "articles": 861,
-  "new_articles": 5,
-  "deals": 182
+  "articles_with_summary": 73,
+  "articles": 868,
+  "new_articles": 7,
+  "deals": 186
  },
  "deals": [
   {
@@ -191,7 +191,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "Marriott’s Cyber Week Sale Offers 25% Off Stays Through May 2027",
+   "headline": "Marriott drops 25% off hotel stays for loyal members, but there’s a catch",
    "sale_start": "2026-11-29",
    "sale_end": "2027-05-02",
    "travel_start": null,
@@ -206,18 +206,24 @@
      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaU9lRG9USXQxdlVfbWlPR0Z0WU1ud2F0a0IwdHZBUWFFU3FFaWlqai1wLVE4dTZYOExoMVRkM19TMUlQNFN4SlM1MDNkTGxSV0JvOGN1bFBnQjA4d1VPeURLYmNSQkpNUmozbjljUUR2NkZ0LWkxbzRJblhXWk5CMUt4WExNeGlRSVBINW1BRlJKc1RQbHl6ZW9LUWJrWlVWZnYtTUI5cXdRVU5rdHpRM0R6SGJSUVNpOHo3QWlabDlVa1ZreWp1aVJzRGJrR1pOU3JkYU41LXZENUgyLThIWS1hSQ?oc=5"
     },
     "discount": {
-     "title": "Marriott’s Cyber Week Sale Offers 25% Off Stays Through May 2027",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUVRiOHpibnRIcXpvSHdSUjZkWUthZHFvcXZ2clJvMkNsM0dJcDNVdlNtS0lTSHR6T29Ld2NZaEFDbmtQcFlnaGhHdFBBcVU4OV9iV1BkX2xQblBIR2F4QnUtNXdVZHhSdmYzMmhxS3FUcVZPUy1aT0ZpcnkzRTRZdUptTGdJVFVzZk16djVHaw?oc=5"
+     "title": "Marriott drops 25% off hotel stays for loyal members, but there’s a catch",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMFVHM0hyWU8ydW13bi1NTGMxZzZ0bWZPRUgwdkcyQjR0QjVfUXBjWk1ncmRYZmZXdDA2ZTFmdWYwQlBNb2VIaUU0Q1hfZVBUWElxVVdrZlBUdHZscldDSU84S3hKNGd2Z0l3akRlQ29EZXFpUmxmQUU3cmRHalRPVDhCUmRIMG9tZzBrWHNxNkdqSElWeUU1NzZMUWZzZjRIY1E?oc=5"
     }
    },
    "from_icn": null,
    "discount": "25% 할인",
    "verification": "news",
    "first_published": "2026-11-13",
-   "last_published": "2026-11-13",
+   "last_published": "2026-11-20",
    "first_seen": "2026-11-13T02:44:33+09:00",
-   "last_seen": "2026-11-13T22:17:35+09:00",
+   "last_seen": "2026-11-20T09:14:05+09:00",
    "articles": [
+    {
+     "title": "Marriott drops 25% off hotel stays for loyal members, but there’s a catch",
+     "outlet": "TheStreet",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMFVHM0hyWU8ydW13bi1NTGMxZzZ0bWZPRUgwdkcyQjR0QjVfUXBjWk1ncmRYZmZXdDA2ZTFmdWYwQlBNb2VIaUU0Q1hfZVBUWElxVVdrZlBUdHZscldDSU84S3hKNGd2Z0l3akRlQ29EZXFpUmxmQUU3cmRHalRPVDhCUmRIMG9tZzBrWHNxNkdqSElWeUU1NzZMUWZzZjRIY1E?oc=5",
+     "published": "2026-11-20"
+    },
     {
      "title": "Marriott’s Cyber Week Sale Offers 25% Off Stays Through May 2027",
      "outlet": "Parade Magazine",
@@ -1775,6 +1781,66 @@
      "outlet": "LoyaltyLobby",
      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNkw3cUlIbTNFUmVQaHBQclpCdk93em1wa0lLa3docDAyaXN5WVhVbmdWVFJ4bnB6Y2toMUw2MkFtcE9ZcVNWLVBSczdIdTVobnIxTEMzNUFNd1Z4emZocmg2WnhaODBfVU8zWHhWR2R2Q2p2ZTB0czNkemhHYUMzUlBqSnpEd0RUcnVDZTVJSkkxRlRxT1lvb0hSZWNBMUdyaF80QklWZHdNUnh0NXlzZXpwakU0NW0yMXBEai1Xa2diVXlhSjFNOGgyZ2tkZ2xDeE9rWkV5Y3R1OHNWZkpRR09HUlB3YkJoYTVPWUEyd1VGTUQyRmRFV3VFYw?oc=5",
      "published": "2026-11-19"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-nol-633179abfa",
+   "airline_id": "h-nol",
+   "airline": "놀(야놀자)",
+   "airlines_mentioned": [
+    "놀(야놀자)"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://nol.yanolja.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "NOL, 오카야마현과 여행 기획전…항공권 최대 5만원 할인",
+   "sale_start": null,
+   "sale_end": "2026-12-09",
+   "travel_start": null,
+   "travel_end": "2027-03-10",
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "핀포인트뉴스 요약문: 이번 기획전은 대한항공 인천~오카야마 직항 노선 취항 35주년을 맞아 마련됐으며 다음달 9일까지 진행된다.",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506148"
+    },
+    "travel": {
+     "title": "핀포인트뉴스 요약문: 탑승 기간은 내년 3월10일까지다.",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506148"
+    },
+    "discount": {
+     "title": "NOL, 오카야마현과 여행 기획전…항공권 최대 5만원 할인",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506148"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 5만원 할인",
+   "verification": "news",
+   "first_published": "2026-11-20",
+   "last_published": "2026-11-20",
+   "first_seen": "2026-11-20T09:14:05+09:00",
+   "last_seen": "2026-11-20T09:14:05+09:00",
+   "articles": [
+    {
+     "title": "NOL, 오카야마현과 여행 기획전…항공권 최대 5만원 할인",
+     "outlet": "핀포인트뉴스",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506148",
+     "published": "2026-11-20"
     }
    ],
    "status": "live"
@@ -5977,6 +6043,53 @@
    "status": "undated"
   },
   {
+   "id": "h-lotte-cd7e1876b6",
+   "airline_id": "h-lotte",
+   "airline": "롯데호텔",
+   "airlines_mentioned": [
+    "롯데호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "롯데호텔앤리조트, 3Q 영업익 813억원…전년比 21.1%↑(1보)",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-16",
+   "first_seen": "2026-11-20T09:14:05+09:00",
+   "last_seen": "2026-11-20T09:14:05+09:00",
+   "articles": [
+    {
+     "title": "롯데호텔앤리조트, 3Q 영업익 813억원…전년比 21.1%↑(1보)",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE50Z21HbU1qVE5TV2dhazgtaDdPb2hVTk4tbUxNcWRKem5XOVJ6M2ZrT0kwX0RIQmJwcWpYLWhKcTViYmlNVHlwRDFGcEVzVGFobmpjRVZ5VWdhMmdkTDZ3?oc=5",
+     "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-agoda-3469523440",
    "airline_id": "h-agoda",
    "airline": "아고다",
@@ -7068,6 +7181,103 @@
    "status": "undated"
   },
   {
+   "id": "h-other-59332d8130",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "The best Black Friday, Cyber Monday and Travel Tuesday hotel deals in 2026",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-20T09:14:05+09:00",
+   "last_seen": "2026-11-20T09:14:05+09:00",
+   "articles": [
+    {
+     "title": "The best Black Friday, Cyber Monday and Travel Tuesday hotel deals in 2026",
+     "outlet": "The Points Guy",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SOTRHeEEwdm8tNXZFY0stb2c0SE91bWxVZEZmdnMtYVF4S005YmhUNW9kYXRxRkNxZWhNc3BTeVNHVjJmeGNJU1JPa0lVenlwY1p0cm1ZWXZOSGxFVlBmRzJnYy1yTWhtbW40NXNteVFuLWpuaTlLZ2lOTjF4NUU?oc=5",
+     "published": "2026-11-17"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-09c3b617c2",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Black Friday Hotel Deals 2025: Caribbean and Mexico Travel",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "카리브",
+    "멕시코"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-17",
+   "first_seen": "2026-11-20T09:14:05+09:00",
+   "last_seen": "2026-11-20T09:14:05+09:00",
+   "articles": [
+    {
+     "title": "Black Friday Hotel Deals 2025: Caribbean and Mexico Travel",
+     "outlet": "Upgraded Points",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZWhZTDFObWlGalRDYzZ2R2NWTzE5Tjk2ZDNIdEFoc2d4RURTRDIySlVUSndRNEFqQVNJVGEyVHBGRWZSNU9IcldodHNBZjNBUjVrczVrS3Z0bjhGOV9hVEY5UE9weHU2SFEtZG01Z3I5SkRjOF8zTkNBZ0dXN251bUpWZUtCQQ?oc=5",
+     "published": "2026-11-17"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "trinity-99e3752e03",
    "airline_id": "trinity",
    "airline": "트리니티항공",
@@ -7617,67 +7827,6 @@
    "status": "undated"
   },
   {
-   "id": "koreanair-bf205d468e",
-   "airline_id": "koreanair",
-   "airline": "대한항공",
-   "airlines_mentioned": [
-    "대한항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.koreanair.com/",
-   "iata": [
-    "KE"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "한진트래블, 겨울 전세기 특가 운영…대한항공 직항으로 이집트 9일",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-16",
-   "last_published": "2026-11-19",
-   "first_seen": "2026-11-16T16:17:28+09:00",
-   "last_seen": "2026-11-19T09:14:04+09:00",
-   "articles": [
-    {
-     "title": "한진트래블, 겨울 전세기 특가 운영…대한항공 직항으로 이집트 9일",
-     "outlet": "비즈월드",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBdTQ3X0VIRkZwdHFSWW5tR0NwQ2c4bExWZzFFanM4aGYwanVhSVg1Y3VWYVVHMC1YZllnUWxKRkw4LXRJdmw3SXpvUXNPcU9KbDZmQmFVMk5wU19yanctQ2RjM1RGMFl6dEpj?oc=5",
-     "published": "2026-11-19"
-    },
-    {
-     "title": "한진트래블, 대한항공 전세기 초특가 여행 출시",
-     "outlet": "트래블데일리",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72710",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "한진트래블, 대한항공 직항 전세기 이용한 이집트 9일 특가 여행 상품 출시",
-     "outlet": "비욘드포스트",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uX3FQaG1GUHpnWkFPbWhmZUFPMGdKQ2VCNkl3aFRGNVg5Q25feU9va0FjcXltMXpjdlVYdVZScGo3b0FhQ2Y3LXNndl96UUg5UUhPMkRtU1dXMi1obkR0S0lxTjd1cjdXbGxzbjFvejVvX1dENnkyZWpQS2w?oc=5",
-     "published": "2026-11-16"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-other-9567c4d8b6",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -7824,6 +7973,83 @@
      "outlet": "View from the Wing",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWjRHX3FHVVZFM3Zhd3Zyd054Mnp5bE4zREdWVlRqQlJhN1JLZ3MzMWFZUkJKUnNKeUZDYUNDWWl6NFEzWXBHSmY3NWNaWnJRcWNOZDF1dDB1bzFrbkNSdjFCbHRZWFI4NWhtRVVyWHZLNGhaeFhPTjhZNG5mOHBHaUVQZkhvLUxhblNPdjNiaHNYbkxlMjVsRWhQWWRJekpKR3d0b3JOZHZrNHlleVlXdXVR?oc=5",
      "published": "2026-11-20"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "koreanair-bf205d468e",
+   "airline_id": "koreanair",
+   "airline": "대한항공",
+   "airlines_mentioned": [
+    "대한항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.koreanair.com/",
+   "iata": [
+    "KE"
+   ],
+   "agencies": [
+    {
+     "name": "놀(야놀자)",
+     "url": "https://nol.yanolja.com/"
+    }
+   ],
+   "event_name": null,
+   "headline": "일본 오카야마 여행 부담 낮춘다…NOL, 대한항공 직항 항공권 최대 5만원 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "일본 오카야마 여행 부담 낮춘다…NOL, 대한항공 직항 항공권 최대 5만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FYjREQlZwZ3k1OW04eXI1a3dLRnVQVUZFNlZJellQNTR3S2p6bV9wNmJwMjAyUkoxNWEzakQzQWhqQzI5SDVPdk9pLWh4REtjWGdoX2pUb2ZSa1p4MllIVVVmc2FLN0hZUjVveg?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 5만원 할인",
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-20",
+   "first_seen": "2026-11-16T16:17:28+09:00",
+   "last_seen": "2026-11-20T09:14:05+09:00",
+   "articles": [
+    {
+     "title": "일본 오카야마 여행 부담 낮춘다…NOL, 대한항공 직항 항공권 최대 5만원 할인",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FYjREQlZwZ3k1OW04eXI1a3dLRnVQVUZFNlZJellQNTR3S2p6bV9wNmJwMjAyUkoxNWEzakQzQWhqQzI5SDVPdk9pLWh4REtjWGdoX2pUb2ZSa1p4MllIVVVmc2FLN0hZUjVveg?oc=5",
+     "published": "2026-11-20"
+    },
+    {
+     "title": "한진트래블, 겨울 전세기 특가 운영…대한항공 직항으로 이집트 9일",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBdTQ3X0VIRkZwdHFSWW5tR0NwQ2c4bExWZzFFanM4aGYwanVhSVg1Y3VWYVVHMC1YZllnUWxKRkw4LXRJdmw3SXpvUXNPcU9KbDZmQmFVMk5wU19yanctQ2RjM1RGMFl6dEpj?oc=5",
+     "published": "2026-11-19"
+    },
+    {
+     "title": "한진트래블, 대한항공 전세기 초특가 여행 출시",
+     "outlet": "트래블데일리",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72710",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "한진트래블, 대한항공 직항 전세기 이용한 이집트 9일 특가 여행 상품 출시",
+     "outlet": "비욘드포스트",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uX3FQaG1GUHpnWkFPbWhmZUFPMGdKQ2VCNkl3aFRGNVg5Q25feU9va0FjcXltMXpjdlVYdVZScGo3b0FhQ2Y3LXNndl96UUg5UUhPMkRtU1dXMi1obkR0S0lxTjd1cjdXbGxzbjFvejVvX1dENnkyZWpQS2w?oc=5",
+     "published": "2026-11-16"
     }
    ],
    "status": "undated"
@@ -9732,13 +9958,19 @@
    "first_published": "2026-10-30",
    "last_published": "2026-11-01",
    "first_seen": "2026-10-30T13:18:25+09:00",
-   "last_seen": "2026-11-01T09:14:06+09:00",
+   "last_seen": "2026-11-20T09:14:05+09:00",
    "articles": [
     {
      "title": "[하늘길] 11월 1주, 블랙프라이데이 항공권 특가…에어프레미아 외 2가지 항공",
      "outlet": "신아일보",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16eGVlZGhfdjFrS2hEa3NsbmhPUFlKZmVkZTNwamMzRW1adFI2MEV0N0hsMmR5TWp3cnI5eG14NEk2S1ZLS19JZnR3SUs1QjNCVjJrUDd0U1gxN2RfWkVydExpZV9Fc21jSGtUR0hPcWM?oc=5",
      "published": "2026-11-01"
+    },
+    {
+     "title": "에어프레미아, 블랙프라이데이 할인 공세…미주·아시아 전 노선 대상",
+     "outlet": "메가경제",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jcldZODRGRU9RNzNqaFo3dXRVc3B1U2ROWEx3LVpzcEdLdHMxTnJwbV9EQ3MyWDNoemM2cFJaaUsyMzJOSUxka2YxRWswSW1nclNvM1VHZ01LcmRMS2g1TEtJUUJZejIyUU5xUEZVVlBiSktl0gFyQVVfeXFMTW84LVRrbmliNnpuVGFWM0RuRlRTYXJTVjMtMlpPT3FoN0JxZUwzakFOOWhOaGNUVURFd0duMDRSRTQ5dkpHYU1FVzBJLXhLMTBRcFhtQWdGeHJrekhUWHlvOU1lSGw3dU1aNm1xMW9Ya3ZB?oc=5",
+     "published": "2026-10-30"
     },
     {
      "title": "에어프레미아, 인천 출발 전 노선 대상 ‘블랙프라이데이’ 프로모션 진행",

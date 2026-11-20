@@ -149,6 +149,13 @@
    "sale_start": "2026-11-14",
    "sale_end": "2026-11-29"
   },
+  "h-marriott|2026-11-29|marriottdrops25offhotels": {
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "name": "Marriott drops 25% off hotel stays for loyal members, but th",
+   "sale_start": "2026-11-29",
+   "sale_end": "2027-05-02"
+  },
   "h-marriott|2026-11-29|marriottscyberweeksaleof": {
    "airline_id": "h-marriott",
    "airline": "메리어트",
