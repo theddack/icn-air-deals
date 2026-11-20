@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T18:16:06+09:00",
+ "generated_at": "2026-11-20T22:17:31+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 2,
-  "rss_items": 1847,
+  "failed_queries": 1,
+  "rss_items": 1880,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2083,
+  "outlet_items": 1968,
   "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_enriched": 0,
   "mail_articles": 11,
   "mail_new_articles": 0,
   "articles_with_summary": 76,
-  "articles": 883,
-  "new_articles": 3,
-  "deals": 188
+  "articles": 892,
+  "new_articles": 9,
+  "deals": 191
  },
  "deals": [
   {
@@ -241,6 +241,64 @@
      "outlet": "LoyaltyLobby",
      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaU9lRG9USXQxdlVfbWlPR0Z0WU1ud2F0a0IwdHZBUWFFU3FFaWlqai1wLVE4dTZYOExoMVRkM19TMUlQNFN4SlM1MDNkTGxSV0JvOGN1bFBnQjA4d1VPeURLYmNSQkpNUmozbjljUUR2NkZ0LWkxbzRJblhXWk5CMUt4WExNeGlRSVBINW1BRlJKc1RQbHl6ZW9LUWJrWlVWZnYtTUI5cXdRVU5rdHpRM0R6SGJSUVNpOHo3QWlabDlVa1ZreWp1aVJzRGJrR1pOU3JkYU41LXZENUgyLThIWS1hSQ?oc=5",
      "published": "2026-11-13"
+    }
+   ],
+   "status": "upcoming"
+  },
+  {
+   "id": "h-accor-e2cd00233b",
+   "airline_id": "h-accor",
+   "airline": "아코르",
+   "airlines_mentioned": [
+    "아코르"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "PREVIEW: ALL Accor Europe+ 30% Off Black Friday Sale For Stays December 9 – March 28, 2027 (Book Nov 26 – Dec 1)",
+   "sale_start": "2026-12-09",
+   "sale_end": "2027-03-28",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "유럽"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "PREVIEW: ALL Accor Europe+ 30% Off Black Friday Sale For Stays December 9 – March 28, 2027 (Book Nov 26 – Dec 1)",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNU2llTWVqa1lGMHFTM21xQS1FcDNGSkwtbm1aVHpDMm1FRVJvUnp0M1NUekhXNGQ2TTlUUERPQ1dvZTRCOTZLTmxGeWtwa3pST0d5bzZaYmY3UFhsRjlkbDdaS3RyQnRUZV9hTHJ2eUw5QkRMZkZqTXlsSFliTDFqR0VtRS1sZHdFa0NvUUtzeHNIRWFrTDBXUmJkMDFWVzJVMVJjUjlzQjlGakUzTTM0d0lSOVZGTDUyeVZudzhqMWg4US1vRFZPV0E3SUJXcmdtVlVpbnB3?oc=5"
+    },
+    "discount": {
+     "title": "PREVIEW: ALL Accor Europe+ 30% Off Black Friday Sale For Stays December 9 – March 28, 2027 (Book Nov 26 – Dec 1)",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNU2llTWVqa1lGMHFTM21xQS1FcDNGSkwtbm1aVHpDMm1FRVJvUnp0M1NUekhXNGQ2TTlUUERPQ1dvZTRCOTZLTmxGeWtwa3pST0d5bzZaYmY3UFhsRjlkbDdaS3RyQnRUZV9hTHJ2eUw5QkRMZkZqTXlsSFliTDFqR0VtRS1sZHdFa0NvUUtzeHNIRWFrTDBXUmJkMDFWVzJVMVJjUjlzQjlGakUzTTM0d0lSOVZGTDUyeVZudzhqMWg4US1vRFZPV0E3SUJXcmdtVlVpbnB3?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "30% 할인",
+   "verification": "news",
+   "first_published": "2026-11-20",
+   "last_published": "2026-11-20",
+   "first_seen": "2026-11-20T22:17:31+09:00",
+   "last_seen": "2026-11-20T22:17:31+09:00",
+   "articles": [
+    {
+     "title": "PREVIEW: ALL Accor Europe+ 30% Off Black Friday Sale For Stays December 9 – March 28, 2027 (Book Nov 26 – Dec 1)",
+     "outlet": "LoyaltyLobby",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNU2llTWVqa1lGMHFTM21xQS1FcDNGSkwtbm1aVHpDMm1FRVJvUnp0M1NUekhXNGQ2TTlUUERPQ1dvZTRCOTZLTmxGeWtwa3pST0d5bzZaYmY3UFhsRjlkbDdaS3RyQnRUZV9hTHJ2eUw5QkRMZkZqTXlsSFliTDFqR0VtRS1sZHdFa0NvUUtzeHNIRWFrTDBXUmJkMDFWVzJVMVJjUjlzQjlGakUzTTM0d0lSOVZGTDUyeVZudzhqMWg4US1vRFZPV0E3SUJXcmdtVlVpbnB3?oc=5",
+     "published": "2026-11-20"
     }
    ],
    "status": "upcoming"
@@ -2055,7 +2113,7 @@
    "kind": "domestic",
    "category": "flight",
    "section": "flight",
-   "route": null,
+   "route": "international",
    "route_text": null,
    "scope": null,
    "lang": "ko",
@@ -2067,7 +2125,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "트리니티항공, 태국 관광청과 방콕·치앙마이 노선 공동 프로모션",
+   "headline": "트리니티항공, 태국관광청 공동 프로모션…인천·대구~방콕·인천~치앙마이 대상",
    "sale_start": null,
    "sale_end": "2026-12-13",
    "travel_start": null,
@@ -2076,6 +2134,10 @@
     {
      "origin": null,
      "destination": "치앙마이(CNX)"
+    },
+    {
+     "origin": "대구(TAE)",
+     "destination": "방콕"
     }
    ],
    "regions": [],
@@ -2095,18 +2157,24 @@
      "url": "https://www.m-i.kr/news/articleView.html?idxno=2019809"
     },
     "route": {
-     "title": "트리니티항공, 태국 관광청과 방콕·치앙마이 노선 공동 프로모션",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wLU1UNzZzMXlrNFFIQlAxRGo2U0JqYW05bVNvU1lrZjA2ZXZZeWZkMXg5QVJpY1dKMTFDS2tLVWtZMk9KemNqWV9UOHltamVfVVQ1cWh5c0RWTlV3QXItWVZuV04?oc=5"
+     "title": "트리니티항공, 태국관광청 공동 프로모션…인천·대구~방콕·인천~치앙마이 대상",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Fcmh5cmRkS1RpQ2JwTnNhNFNLUGZxRHdSOHJESkNDVFJnbnVrQXhxdUtFU2hsczJUbDRMc3YwX2RmazZWUmY1cWhVT0VGOG8wM1RwT0M1TW5nWGRWbk5OeHNvbV9jTDVkWXdZd00teDRqNUk5Rndv0gF3QVVfeXFMTUVyaHlyZGRLVGlDYnBOc2E0U0tQZnFEd1I4ckRKQ0NUUmdudWtBeHF1S0VTaGxzMlRsNExzdjBfZGZrNlZSZjVxaFVPRUY4bzAzVHBPQzVNbmdYZFZuTk54c29tX2NMNWRZd1l3TS14NGo1STlGd28?oc=5"
     }
    },
-   "from_icn": "unknown",
+   "from_icn": "yes",
    "discount": "최대 20%",
    "verification": "news",
    "first_published": "2026-11-17",
    "last_published": "2026-11-17",
    "first_seen": "2026-11-17T17:29:48+09:00",
-   "last_seen": "2026-11-17T17:29:48+09:00",
+   "last_seen": "2026-11-20T22:17:31+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 태국관광청 공동 프로모션…인천·대구~방콕·인천~치앙마이 대상",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Fcmh5cmRkS1RpQ2JwTnNhNFNLUGZxRHdSOHJESkNDVFJnbnVrQXhxdUtFU2hsczJUbDRMc3YwX2RmazZWUmY1cWhVT0VGOG8wM1RwT0M1TW5nWGRWbk5OeHNvbV9jTDVkWXdZd00teDRqNUk5Rndv0gF3QVVfeXFMTUVyaHlyZGRLVGlDYnBOc2E0U0tQZnFEd1I4ckRKQ0NUUmdudWtBeHF1S0VTaGxzMlRsNExzdjBfZGZrNlZSZjVxaFVPRUY4bzAzVHBPQzVNbmdYZFZuTk54c29tX2NMNWRZd1l3TS14NGo1STlGd28?oc=5",
+     "published": "2026-11-17"
+    },
     {
      "title": "트리니티항공, 태국 관광청과 방콕·치앙마이 노선 공동 프로모션",
      "outlet": "매일일보",
@@ -8279,6 +8347,100 @@
    "status": "undated"
   },
   {
+   "id": "h-other-26ad92e713",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Hotel Black Friday got longer every year. AI might never let it end.",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-20",
+   "last_published": "2026-11-20",
+   "first_seen": "2026-11-20T22:17:31+09:00",
+   "last_seen": "2026-11-20T22:17:31+09:00",
+   "articles": [
+    {
+     "title": "Hotel Black Friday got longer every year. AI might never let it end.",
+     "outlet": "Hospitality Net",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOM3loS1lwV2tscmV4NlFTUnJxRjd0MjJyaS1XSTkydU9lVzVJbEZ0b1JSU3VWMXBsZlFuS2FEU1NfSXNaYWdCdTZxaGpnczlLVTUxQmR5OHdFSWR3NDJMVk9WWEFYaHU3UTl5djZkd09OSjBzUDQxMXMzdWNkdWFudXp6Sng5VnNIaHRaNm9fOWpBV1VhaXBCdTIzRTVhRHJpbUJ0RlVKeC1PeEpnbXhpNHBBQQ?oc=5",
+     "published": "2026-11-20"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-c391215f95",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Priceline Black Friday code DISNEYBF100 takes $100 off Disney hotels",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-20",
+   "last_published": "2026-11-20",
+   "first_seen": "2026-11-20T22:17:31+09:00",
+   "last_seen": "2026-11-20T22:17:31+09:00",
+   "articles": [
+    {
+     "title": "Priceline Black Friday code DISNEYBF100 takes $100 off Disney hotels",
+     "outlet": "Pirates and Princesses",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNU44VVNfdDVJWFMzbkhRLVRtTzB6emVpaURtejlrNVNfSG9BUXJfM0dZSFA2LXJIRDJxbUc5dk1aNDRNSy1sa2hpYndYUEZ6WWF2WjZ5REVnZ2I1QktVMExJTEFSUVJYcDREcHBveV9hRFVQSEdQWTZpcmM5UjBrV0tFWUJXOUhIa0VVdlhzc1Y3enlvRDVKZjh0a1FheEF5Wmxv?oc=5",
+     "published": "2026-11-20"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "aerok-76374c6ec0",
    "airline_id": "aerok",
    "airline": "에어로케이",
@@ -11980,7 +12142,7 @@
    ],
    "agencies": [],
    "event_name": "11월 더블 혜택 프로모션",
-   "headline": "트리니티항공, 국제선 최대 25% 할인…3만원 쿠폰 추가 제공",
+   "headline": "트리니티항공, 겨울철 해외여행 프로모션...국제선 항공권 최대 25% 할인",
    "sale_start": null,
    "sale_end": "2026-11-13",
    "travel_start": "2026-11-01",
@@ -11999,8 +12161,8 @@
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzX3lLdHI0TWZZSWd6YlJuSTlzOEkzQlR3M054d3ZqcnFmYVFmSWZRaVd4WUdNeFllRTR6SWlhbXZYWHNBREdWMUNIOFVlejZyUWRpMWw4NjJZWTh4ZlcxdjRYdms?oc=5"
     },
     "discount": {
-     "title": "트리니티항공, 국제선 최대 25% 할인…3만원 쿠폰 추가 제공",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBEZTg4ZzFaRTJYZUJaYUpGUGQwemtKYk9XX0JNYVdTMFJfdGc1QlFFN0NZQ2hQbVZ0MGhaY1NjM0NEV3BwNkZrWGNMc3lBZVFJV0VOTWxJM3AxNVhXUEE?oc=5"
+     "title": "트리니티항공, 겨울철 해외여행 프로모션...국제선 항공권 최대 25% 할인",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fd1ZXdVJidkNUVEllMjF4R3dQWXpSeFgzRFQ0VUF5eElCbU1qTGNUd0FsYkcwV3RJVkZWRGJHMDk3QWxWRWdTemNjQThkdEFIeXFhd2F1QXBLX1ZHbkctd2hkNG1zbEFYN3FRSWNTRWlDQQ?oc=5"
     }
    },
    "from_icn": "unknown",
@@ -12009,8 +12171,20 @@
    "first_published": "2026-11-02",
    "last_published": "2026-11-20",
    "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-20T18:16:06+09:00",
+   "last_seen": "2026-11-20T22:17:31+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 겨울철 해외여행 프로모션...국제선 항공권 최대 25% 할인",
+     "outlet": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fd1ZXdVJidkNUVEllMjF4R3dQWXpSeFgzRFQ0VUF5eElCbU1qTGNUd0FsYkcwV3RJVkZWRGJHMDk3QWxWRWdTemNjQThkdEFIeXFhd2F1QXBLX1ZHbkctd2hkNG1zbEFYN3FRSWNTRWlDQQ?oc=5",
+     "published": "2026-11-20"
+    },
+    {
+     "title": "국제선 최대 25% 할인…트리니티항공, 겨울 여행 프로모션 펼",
+     "outlet": "컨슈머타임스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsNTFDQWJoTzNVc2lpVGhSc0ZnbkI3LWFnNVpMYnZBY3RqY0U3MVNvQ3dOMnZ1QmNjb2FNX25kVXRhZHctaGhXdU9CS0VhcmhNODFsNEJGeW9RaHlCcjU0VWRhYWV0ZVZrdmc?oc=5",
+     "published": "2026-11-20"
+    },
     {
      "title": "트리니티항공, 국제선 최대 25% 할인…3만원 쿠폰 추가 제공",
      "outlet": "뉴스투데이",
