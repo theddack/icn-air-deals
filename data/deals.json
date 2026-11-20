@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T22:17:31+09:00",
+ "generated_at": "2026-11-21T03:00:33+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,96 +9,22 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 1,
-  "rss_items": 1880,
+  "failed_queries": 13,
+  "rss_items": 1864,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1968,
+  "outlet_items": 1876,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 11,
   "mail_new_articles": 0,
   "articles_with_summary": 76,
-  "articles": 892,
-  "new_articles": 9,
-  "deals": 191
+  "articles": 888,
+  "new_articles": 2,
+  "deals": 184
  },
  "deals": [
-  {
-   "id": "h-ihg-7d127a9c15",
-   "airline_id": "h-ihg",
-   "airline": "IHG",
-   "airlines_mentioned": [
-    "IHG"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "IHG Launches Global Cyber Sale With Up To 30% Off Stays Through April 2027",
-   "sale_start": "2026-11-21",
-   "sale_end": "2027-04-30",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "IHG Worldwide 25% To 30% Off Cyber Sale For Stays November 21 – April 30, 2027 (Book By December 3)",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUTZQdTBuYzl2Y0tucUhFdFotUk9HZ1YtSURmOUNIQS00cE0ybjNJcWZxSWt2cjhCQzdkNTJZN051cG5mUU51Tl9sZnlISjk0UVNZTFc0dkNpekhjczBqVmg3d3FxTFFJUHFmQzc1ODdMRE5pYW1OMTctT0V0LTBtbmFuSXhpZnhVRTJxam4tVHZ1OXE4YW93aG1KbjVtTElkNWhIdjBKZ3Rfdm5mWU56WDhYd0JtejdseGtzOE5vR1FFcC13alZGMQ?oc=5"
-    },
-    "discount": {
-     "title": "IHG Launches Global Cyber Sale With Up To 30% Off Stays Through April 2027",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYWRyMTc0ZzUxRE1XMFFKa2VoMHM5aXFqM1lvQUVHSWhnTU03YlZtQ3dkTTlxS2Rhc0REX3VHVC1IYm9mOVlwWmFIaTFwLVI1OXk3Z19IUnpXLVBLamRBOUxUSW9NY1ktdW5vXzZIR1NoZFpvLVN1N0xVd1FUbmhxS2VoMUE3eldRZFFFdFB6Ym5IcENzanJicWIyQm41VF9scE9JbQ?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 30%",
-   "verification": "news",
-   "first_published": "2026-11-17",
-   "last_published": "2026-11-18",
-   "first_seen": "2026-11-17T04:51:37+09:00",
-   "last_seen": "2026-11-19T09:14:04+09:00",
-   "articles": [
-    {
-     "title": "IHG Launches Global Cyber Sale With Up To 30% Off Stays Through April 2027",
-     "outlet": "https://www.thetraveler.org/",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYWRyMTc0ZzUxRE1XMFFKa2VoMHM5aXFqM1lvQUVHSWhnTU03YlZtQ3dkTTlxS2Rhc0REX3VHVC1IYm9mOVlwWmFIaTFwLVI1OXk3Z19IUnpXLVBLamRBOUxUSW9NY1ktdW5vXzZIR1NoZFpvLVN1N0xVd1FUbmhxS2VoMUE3eldRZFFFdFB6Ym5IcENzanJicWIyQm41VF9scE9JbQ?oc=5",
-     "published": "2026-11-18"
-    },
-    {
-     "title": "IHG launches 2026 Global Cyber Sale with up to 30% off stays",
-     "outlet": "https://www.thetraveler.org/",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ2ZUSXVZaExScFh4WGNmRE5SMXQ1dHpDZldlUFZva0hvRXFUMG1Zb1ZfaGZCLUVxMlk0ODNQN3hlZkNPckpWMlVsZGVxVjdXbkp5X3Z0cHZfMnJueDlCcGMzNlVPTDFaMTVYUHlHbHMxV2JGSzdzXzRMS0dXc1FiRnVER0J2UWV4czNvSWxsZWVzdw?oc=5",
-     "published": "2026-11-18"
-    },
-    {
-     "title": "IHG Hotels & Resorts' Cyber Sale Returns: Save Up to 30% on Hotel Stays Worldwide",
-     "outlet": "InterContinental Hotels Group PLC",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMXBVYmQ0eG9vdGVFTG5fZWtVWS1zWlUyX3FjX0YtTEJDZEU1SVJheDBHckhwQWZRVjFZLS1YUHJwMU9pVmt5QjdyUzBMZDFaYjRlcTdfc2Q1Wi1WZ2xJUWozM2VNY3E4VWE3UDdfZmdySnRFN19Bc3ZEa0hmZkpnRHJXNThaT3BOcG5wcFVnQXF3Q1ZxUm94RTlWRlYyOHZudXdqM1daYVFfeUtvX3otWGltS1pBRy1NdnBGVHNuWXVqRzdEcUZqak5GSnZOaTI0RmRqTVR6M21QRGNRemlhYWdn?oc=5",
-     "published": "2026-11-18"
-    },
-    {
-     "title": "IHG Worldwide 25% To 30% Off Cyber Sale For Stays November 21 – April 30, 2027 (Book By December 3)",
-     "outlet": "LoyaltyLobby",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUTZQdTBuYzl2Y0tucUhFdFotUk9HZ1YtSURmOUNIQS00cE0ybjNJcWZxSWt2cjhCQzdkNTJZN051cG5mUU51Tl9sZnlISjk0UVNZTFc0dkNpekhjczBqVmg3d3FxTFFJUHFmQzc1ODdMRE5pYW1OMTctT0V0LTBtbmFuSXhpZnhVRTJxam4tVHZ1OXE4YW93aG1KbjVtTElkNWhIdjBKZ3Rfdm5mWU56WDhYd0JtejdseGtzOE5vR1FFcC13alZGMQ?oc=5",
-     "published": "2026-11-17"
-    }
-   ],
-   "status": "upcoming"
-  },
   {
    "id": "parataair-54c0cace3b",
    "airline_id": "parataair",
@@ -265,7 +191,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "PREVIEW: ALL Accor Europe+ 30% Off Black Friday Sale For Stays December 9 – March 28, 2027 (Book Nov 26 – Dec 1)",
+   "headline": "Accor Announces Black Friday Sale With 30% Off Hotels Across Europe",
    "sale_start": "2026-12-09",
    "sale_end": "2027-03-28",
    "travel_start": null,
@@ -282,8 +208,8 @@
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNU2llTWVqa1lGMHFTM21xQS1FcDNGSkwtbm1aVHpDMm1FRVJvUnp0M1NUekhXNGQ2TTlUUERPQ1dvZTRCOTZLTmxGeWtwa3pST0d5bzZaYmY3UFhsRjlkbDdaS3RyQnRUZV9hTHJ2eUw5QkRMZkZqTXlsSFliTDFqR0VtRS1sZHdFa0NvUUtzeHNIRWFrTDBXUmJkMDFWVzJVMVJjUjlzQjlGakUzTTM0d0lSOVZGTDUyeVZudzhqMWg4US1vRFZPV0E3SUJXcmdtVlVpbnB3?oc=5"
     },
     "discount": {
-     "title": "PREVIEW: ALL Accor Europe+ 30% Off Black Friday Sale For Stays December 9 – March 28, 2027 (Book Nov 26 – Dec 1)",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNU2llTWVqa1lGMHFTM21xQS1FcDNGSkwtbm1aVHpDMm1FRVJvUnp0M1NUekhXNGQ2TTlUUERPQ1dvZTRCOTZLTmxGeWtwa3pST0d5bzZaYmY3UFhsRjlkbDdaS3RyQnRUZV9hTHJ2eUw5QkRMZkZqTXlsSFliTDFqR0VtRS1sZHdFa0NvUUtzeHNIRWFrTDBXUmJkMDFWVzJVMVJjUjlzQjlGakUzTTM0d0lSOVZGTDUyeVZudzhqMWg4US1vRFZPV0E3SUJXcmdtVlVpbnB3?oc=5"
+     "title": "Accor Announces Black Friday Sale With 30% Off Hotels Across Europe",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX2xLY3lCYmp0Y1U4SkliLVAtMl9GUHdPRHNaMkZTaDY2bzVsRFhRM1B5cHZVZlA2U0hWLXQ2ZzZia1l4RlVEWU9UVjV6d2dlUnZYMm5EZ2tLeTFKcmNZSTZydkRFWlpPUkFlVGJBdmZ1aERJOWFfM1UzSjJMWEJRY1pncFpEdzBreTN1bU53NVA5MVgyT2QyczMyOUVQanRqdmFYc3ZNSjlBcVJtZ3c?oc=5"
     }
    },
    "from_icn": null,
@@ -292,8 +218,14 @@
    "first_published": "2026-11-20",
    "last_published": "2026-11-20",
    "first_seen": "2026-11-20T22:17:31+09:00",
-   "last_seen": "2026-11-20T22:17:31+09:00",
+   "last_seen": "2026-11-21T03:00:33+09:00",
    "articles": [
+    {
+     "title": "Accor Announces Black Friday Sale With 30% Off Hotels Across Europe",
+     "outlet": "Rus Tourism News",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX2xLY3lCYmp0Y1U4SkliLVAtMl9GUHdPRHNaMkZTaDY2bzVsRFhRM1B5cHZVZlA2U0hWLXQ2ZzZia1l4RlVEWU9UVjV6d2dlUnZYMm5EZ2tLeTFKcmNZSTZydkRFWlpPUkFlVGJBdmZ1aERJOWFfM1UzSjJMWEJRY1pncFpEdzBreTN1bU53NVA5MVgyT2QyczMyOUVQanRqdmFYc3ZNSjlBcVJtZ3c?oc=5",
+     "published": "2026-11-20"
+    },
     {
      "title": "PREVIEW: ALL Accor Europe+ 30% Off Black Friday Sale For Stays December 9 – March 28, 2027 (Book Nov 26 – Dec 1)",
      "outlet": "LoyaltyLobby",
@@ -413,120 +345,6 @@
      "outlet": "LoyaltyLobby",
      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOWRDUXk4dHFja1gzdWpsOWZBQUFQZlZhdi1SRFhWdy1lQnc3anNXRlNTLUdmcHV0d3hQQkZibzFPczlsR2wyeWFFaVpXQ1p6Z29iNk9LTnlaa1UtZ3NMY1hiaGc1Z1ZpcHZLam5FbEs3eF9kYWR3b0dJYmgtSTh3cmpIaml4Z3c0alhCM0ZVRHBuelJpX0dPQmRHQ3lvU3QzVVM5VFpzTG5tdWRDYVgtdkthenladm9GRlRJRC12NGtkNmRVamRNVzY0QmZDTEhEX09Ka0Y3UkFoVHJtUmRNbnJzNA?oc=5",
      "published": "2026-09-22"
-    }
-   ],
-   "status": "live"
-  },
-  {
-   "id": "h-yeogi-de96be567e",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "여기어때, 대만 숙소 10만원 쿠폰팩 푼다…항공권·투어도 할인",
-   "sale_start": "2026-11-06",
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "대만"
-   ],
-   "conditions": [
-    "쿠폰"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "ER 이코노믹리뷰 요약문: …)는 대만관광청과 함께 숙소와 항공권 해외투어를 아우르는 대만 여행 할인 프로모션을 6일 시작한다고 밝혔다.…",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=756248"
-    },
-    "discount": {
-     "title": "ER 이코노믹리뷰 요약문: …기어때가 자체 발급하는 해외 숙소 최대 10% 할인 쿠폰과 중복해서 쓸 수 있어 실제 할인 폭은 더 커진다.…",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=756248"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 10%",
-   "verification": "news",
-   "first_published": "2026-11-06",
-   "last_published": "2026-11-06",
-   "first_seen": "2026-11-06T09:14:11+09:00",
-   "last_seen": "2026-11-07T01:55:57+09:00",
-   "articles": [
-    {
-     "title": "여기어때, 대만 숙소 10만원 쿠폰팩 푼다…항공권·투어도 할인",
-     "outlet": "www.thepowernews.co.kr",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JVll1NHpZcHp5OURtaWtSRkRHMC1KOTY1Y25GY3NoNE5BSkRDY0d1SWYzTVpUenNZendibTVBNlZqcHE1bG9iVklQN3hzM3pxcWc1YnNHaXdfazU0TlBMOEhZR3pkRmpUbUxXdUcwYmpZM0RLZVRXekJIMWxBZw?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "여기어때 대만 여행 할인, 숙소 10만원 쿠폰팩·항공권 2만원 혜택",
-     "outlet": "여행레저신문",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYTkg4bm9BNlRyd3FsRFN2dlpTWVh0eWNkOVc4QlNZVWYzdjVUdnh2Zk1yZ0Zrc1JyN1FTbC1ZVWhfUXN1bDdhVGVhdGhqN2N2UkdwOUxVVDh1aWxGaERBYkwyYWRMZm9JMktrUFpwOUJ6YkxtZ2VZcC1Eaw?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "여기어때, 대만관광청과 여행 할인 프로모션…숙소·항공·투어 혜택 확대",
-     "outlet": "메가경제",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE85bDNkcVg5R3Z6enhBVVNXakFRUzZ6YjE4dFkxOFlwS0p2Mjkyc3JmRTlRbUpiSFN1UHFtYjd3cmVPWkZVN2hHV2FlamhuR09reUc0dTVIcFc2Nlh3OGstRU84cHg3d0FuNVJvV2NvR0tMd9IBckFVX3lxTE85bDNkcVg5R3Z6enhBVVNXakFRUzZ6YjE4dFkxOFlwS0p2Mjkyc3JmRTlRbUpiSFN1UHFtYjd3cmVPWkZVN2hHV2FlamhuR09reUc0dTVIcFc2Nlh3OGstRU84cHg3d0FuNVJvV2NvR0tMdw?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "여기어때, 대만관광청과 숙소·항공·투어 통합 할인 프로모션 진행",
-     "outlet": "숙박매거진",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tZ25EZkxUVmRTMldaVktSS0lyRDhwUlliQjlwTTJZZmZVU2xDZEFoSGdBVVdsLUFTSmtTOU5jclM2UUx2RzhVdnJ5bDE1aFlGU2xvNTdwRjZwVzlDVVM1bXUxczBmT1d1T1ZPeTZ5ajM?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "\"여기어때 대만 여행 10만원 쿠폰팩 푼다\" 대만관광청과 숙소·항공·투어 총출동",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNaUV6TjBrdWNVc2UySHlsanlfX0FpZDBvWmp0bmpvR0tzOTVzUGdFSzZHb2FsSU84NnZTVEMzVXA1TE5RSWxTNDV3UnFWY3NwRmI2SXk1SU1ncHZSS0pQMEtfY2RJU1M5ZlVieA?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "대만 여행 지금이 찬스?…여기어때, 숙소 10만원 쿠폰·항공권 할인",
-     "outlet": "한스경제",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBacGpKQlB1bFdkQVU3YzNybmE1R0tQMGVtRmNWTE5YZ3UyNjl1b3BHYk5BRUpIanBiUkd4Tm5Tc0dWSUFRbmlVYUFoUjl4TVpaWnQ1bC1XU2lGMWp1X1ZTdEJfeVJ5RUFaR2000gFvQVVfeXFMTVhTUnoxNWp4dkx0aVNmV2puZjhjNzF1VGdSUzBEMVFYOUl2SFdEV3N1bVVjUVk4U1NOd1JFVkN1Uko0Um8xRU5GMGE1QVFQdjQwUXVtcS0wWUl1RVhRMEh1ZjF3WXFPdlJndEtNRXNv?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "여기어때, 대만 여행 준비 한 번에… 숙소·항공·투어 동시 할인",
-     "outlet": "www.dhns.co.kr",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrZ1NfdkhfWmQ4UFhKSU5BUWlzalZQZkh4Y0pPQV8zeGFrUEVtcHVibFAzQWpVZGdTbkN1RFNlajdlNlM4c3hoTjBiOUczbVh0aDB6bWgwdEdMeUpOMkJhXzkwdnd2dDg?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "여기어때, 대만 여행 숙소·항공·투어 할인⋯ 최대 10만원 쿠폰팩 제공",
-     "outlet": "브릿지경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MeTM2a0tiMFRfa21jODV4M1pTNjJ5ZzgwRjM4N01pUlppWlZ6aDljbmtmUGY4LXZ1U0xpZmFLblhuZWlJSTYxV1VHX1VMUHlmODVHeWt3aUM4dw?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "여기어때, 대만 여행 기획전…10만원 규모 숙소 쿠폰 지급",
-     "outlet": "지디넷코리아",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yZ3R1Wk5YbXFaUF9kNnRDbG1jcGgxUUxnSWlmbXdhSnJsTjA0UmU3VmswaExxelVHSUhuN09GaTY4N0IzLXp2eWFRcEJRemwzVXdTamR3?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "여기어때-대만관광청 맞손..대만 숙소·항공·투어 할인",
-     "outlet": "브레이크뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9xMGtMYlVvOVQ3NXh3VE5IdTRfTnI3dUNMVjU1THZycVUxQnJkQWJ0MjJlLXVZWnVXdHpnMFZhZDlmZw?oc=5",
-     "published": "2026-11-06"
     }
    ],
    "status": "live"
@@ -1348,6 +1166,80 @@
    "status": "live"
   },
   {
+   "id": "h-ihg-7d127a9c15",
+   "airline_id": "h-ihg",
+   "airline": "IHG",
+   "airlines_mentioned": [
+    "IHG"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "IHG Launches Global Cyber Sale With Up To 30% Off Stays Through April 2027",
+   "sale_start": "2026-11-21",
+   "sale_end": "2027-04-30",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "IHG Worldwide 25% To 30% Off Cyber Sale For Stays November 21 – April 30, 2027 (Book By December 3)",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUTZQdTBuYzl2Y0tucUhFdFotUk9HZ1YtSURmOUNIQS00cE0ybjNJcWZxSWt2cjhCQzdkNTJZN051cG5mUU51Tl9sZnlISjk0UVNZTFc0dkNpekhjczBqVmg3d3FxTFFJUHFmQzc1ODdMRE5pYW1OMTctT0V0LTBtbmFuSXhpZnhVRTJxam4tVHZ1OXE4YW93aG1KbjVtTElkNWhIdjBKZ3Rfdm5mWU56WDhYd0JtejdseGtzOE5vR1FFcC13alZGMQ?oc=5"
+    },
+    "discount": {
+     "title": "IHG Launches Global Cyber Sale With Up To 30% Off Stays Through April 2027",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYWRyMTc0ZzUxRE1XMFFKa2VoMHM5aXFqM1lvQUVHSWhnTU03YlZtQ3dkTTlxS2Rhc0REX3VHVC1IYm9mOVlwWmFIaTFwLVI1OXk3Z19IUnpXLVBLamRBOUxUSW9NY1ktdW5vXzZIR1NoZFpvLVN1N0xVd1FUbmhxS2VoMUE3eldRZFFFdFB6Ym5IcENzanJicWIyQm41VF9scE9JbQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 30%",
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-18",
+   "first_seen": "2026-11-17T04:51:37+09:00",
+   "last_seen": "2026-11-19T09:14:04+09:00",
+   "articles": [
+    {
+     "title": "IHG Launches Global Cyber Sale With Up To 30% Off Stays Through April 2027",
+     "outlet": "https://www.thetraveler.org/",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYWRyMTc0ZzUxRE1XMFFKa2VoMHM5aXFqM1lvQUVHSWhnTU03YlZtQ3dkTTlxS2Rhc0REX3VHVC1IYm9mOVlwWmFIaTFwLVI1OXk3Z19IUnpXLVBLamRBOUxUSW9NY1ktdW5vXzZIR1NoZFpvLVN1N0xVd1FUbmhxS2VoMUE3eldRZFFFdFB6Ym5IcENzanJicWIyQm41VF9scE9JbQ?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "IHG launches 2026 Global Cyber Sale with up to 30% off stays",
+     "outlet": "https://www.thetraveler.org/",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ2ZUSXVZaExScFh4WGNmRE5SMXQ1dHpDZldlUFZva0hvRXFUMG1Zb1ZfaGZCLUVxMlk0ODNQN3hlZkNPckpWMlVsZGVxVjdXbkp5X3Z0cHZfMnJueDlCcGMzNlVPTDFaMTVYUHlHbHMxV2JGSzdzXzRMS0dXc1FiRnVER0J2UWV4czNvSWxsZWVzdw?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "IHG Hotels & Resorts' Cyber Sale Returns: Save Up to 30% on Hotel Stays Worldwide",
+     "outlet": "InterContinental Hotels Group PLC",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMXBVYmQ0eG9vdGVFTG5fZWtVWS1zWlUyX3FjX0YtTEJDZEU1SVJheDBHckhwQWZRVjFZLS1YUHJwMU9pVmt5QjdyUzBMZDFaYjRlcTdfc2Q1Wi1WZ2xJUWozM2VNY3E4VWE3UDdfZmdySnRFN19Bc3ZEa0hmZkpnRHJXNThaT3BOcG5wcFVnQXF3Q1ZxUm94RTlWRlYyOHZudXdqM1daYVFfeUtvX3otWGltS1pBRy1NdnBGVHNuWXVqRzdEcUZqak5GSnZOaTI0RmRqTVR6M21QRGNRemlhYWdn?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "IHG Worldwide 25% To 30% Off Cyber Sale For Stays November 21 – April 30, 2027 (Book By December 3)",
+     "outlet": "LoyaltyLobby",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUTZQdTBuYzl2Y0tucUhFdFotUk9HZ1YtSURmOUNIQS00cE0ybjNJcWZxSWt2cjhCQzdkNTJZN051cG5mUU51Tl9sZnlISjk0UVNZTFc0dkNpekhjczBqVmg3d3FxTFFJUHFmQzc1ODdMRE5pYW1OMTctT0V0LTBtbmFuSXhpZnhVRTJxam4tVHZ1OXE4YW93aG1KbjVtTElkNWhIdjBKZ3Rfdm5mWU56WDhYd0JtejdseGtzOE5vR1FFcC13alZGMQ?oc=5",
+     "published": "2026-11-17"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "trinity-f7a40e227f",
    "airline_id": "trinity",
    "airline": "트리니티항공",
@@ -1942,7 +1834,7 @@
    "status": "live"
   },
   {
-   "id": "h-nol-d3ee24981d",
+   "id": "h-nol-f2585efd6f",
    "airline_id": "h-nol",
    "airline": "놀(야놀자)",
    "airlines_mentioned": [
@@ -1992,7 +1884,7 @@
    "first_published": "2026-11-20",
    "last_published": "2026-11-20",
    "first_seen": "2026-11-20T09:14:05+09:00",
-   "last_seen": "2026-11-20T16:45:34+09:00",
+   "last_seen": "2026-11-21T03:00:33+09:00",
    "articles": [
     {
      "title": "NOL, 오카야마현과 여행 기획전…항공권 최대 5만원 할인",
@@ -2016,6 +1908,12 @@
      "title": "'일본 온천 여행 떠나볼까'…놀유니버스, 오카야마 항공권 최대 5만원 할인",
      "outlet": "테크M",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RakY1QV8yWU1xdWlyWG5wRy1uWnEyV2c2NVU4SzJOeGlHTElzRHVKTVpkWndrTlh4cnZPRUJSLXpCQllnZTB0TTVSOHJCcXBsaHFqTndTbThubkozT1pPVmlRLU9fd9IBakFVX3lxTE4wcGhZbjhTRzA4dklVenREcHFwaVg1bXJvOEJSV3FLQUswMFZOVTZXQ3h0NktUYWRGeUxzWkRsZU82UXpjVExyLXc1Ym83SkhKcmJ2TDNmZl9xY0RTdkV5ZUg4d0t5QXVuTmc?oc=5",
+     "published": "2026-11-20"
+    },
+    {
+     "title": "[여행 뉴스브리핑] 오카야마 직항 35주년…놀유니버스, 왕복 항공권 최대 5만원 할인",
+     "outlet": "아시아타임즈",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DT1ZvNzJxMmJCV2dnN0NKYXJncUxCcHRHbUVMemtsUzVQbVE4dk1ScnotN3VPWm1vRnJmLUxITFp5NGI4azdzMTZsUHlYVFBCaUZIZ2J1NDMtTEJtMWc?oc=5",
      "published": "2026-11-20"
     }
    ],
@@ -2676,371 +2574,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "h-shilla-ca730e82b9",
-   "airline_id": "h-shilla",
-   "airline": "신라호텔",
-   "airlines_mentioned": [
-    "신라호텔"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": "블프 프로모션",
-   "headline": "신라호텔앤리조트, ‘블프’ 프로모션...객실 최대 28% 할인 外",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "신라호텔앤리조트, ‘블프’ 프로모션...객실 최대 28% 할인 外",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02T2FXYjB5bEQ1RC1tRXp5ZlpESlB6R0RZZ05ULUJ6OFBSYUcyX3U1cC02cUVvUHRTcktmdnJ2UlFuY2k3eVM3QkpIWjYyelpmaTJLLWNPWGpXbzVBcUlERzVVaFJlUQ?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 28%",
-   "verification": "news",
-   "first_published": "2026-11-06",
-   "last_published": "2026-11-06",
-   "first_seen": "2026-11-06T09:14:11+09:00",
-   "last_seen": "2026-11-06T16:24:46+09:00",
-   "articles": [
-    {
-     "title": "신라호텔앤리조트, ‘블프’ 프로모션...객실 최대 28% 할인 外",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02T2FXYjB5bEQ1RC1tRXp5ZlpESlB6R0RZZ05ULUJ6OFBSYUcyX3U1cC02cUVvUHRTcktmdnJ2UlFuY2k3eVM3QkpIWjYyelpmaTJLLWNPWGpXbzVBcUlERzVVaFJlUQ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 ‘블프 프로모션’…객실 최대 28% 할인",
-     "outlet": "뉴스투데이",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9tS3ZMRC1xVXh1aW8tdUExdEhsQnpoUFBoRUMybjBJdjFtS3g1b1l0OWNQSVdIaHUwMmctaFdaQU5tZjJQZFZydlYyUzJBQ01uNUFWRUFtQ0ZaTkZlelE?oc=5",
-     "published": "2026-11-06"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-shilla-d5267a69d2",
-   "airline_id": "h-shilla",
-   "airline": "신라호텔",
-   "airlines_mentioned": [
-    "신라호텔"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "신라호텔 블랙프라이데이, 내년 상반기 객실 28% 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "신라호텔 블랙프라이데이, 내년 상반기 객실 28% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wZU9mMDYtd1QydDBPNFZSOUpxbUpnTkVKWkN0WDZhaEdNZld4OE9BSkgtMVZ6SmxaclNYWjdlRDZ2a0g0QkZwVFd5aTh0WHFRNHEyLWdJWkZCQlZjNDBDQmxPdjJ5RDBW?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "28% 할인",
-   "verification": "news",
-   "first_published": "2026-11-06",
-   "last_published": "2026-11-06",
-   "first_seen": "2026-11-06T13:18:16+09:00",
-   "last_seen": "2026-11-06T13:18:16+09:00",
-   "articles": [
-    {
-     "title": "신라호텔 블랙프라이데이, 내년 상반기 객실 28% 할인",
-     "outlet": "공감신문",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wZU9mMDYtd1QydDBPNFZSOUpxbUpnTkVKWkN0WDZhaEdNZld4OE9BSkgtMVZ6SmxaclNYWjdlRDZ2a0g0QkZwVFd5aTh0WHFRNHEyLWdJWkZCQlZjNDBDQmxPdjJ5RDBW?oc=5",
-     "published": "2026-11-06"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-e8b4fe2864",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Sandals and Beaches Resorts Launch Black Friday Sale",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-06",
-   "last_published": "2026-11-06",
-   "first_seen": "2026-11-06T09:14:11+09:00",
-   "last_seen": "2026-11-06T09:14:11+09:00",
-   "articles": [
-    {
-     "title": "Sandals and Beaches Resorts Launch Black Friday Sale",
-     "outlet": "Recommend Magazine",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZUJLR1VxZGYwSDYzbHkxY1I4Zk1PWVJKVVF5S1BTQ0luUkpiR1J4QktoTlJzWTFoS1kydXVoLURHOGJCRXpnbjMwYThNcUFWbnJuamFEUm5LNkd3cmtSc0hrVmFhcFRnNTk1RDFEemNPNEdTUjBZNE5fcnVKcWpBOFhmVGlVZy1mZDJkM1dmZFEzVk9Bb2pMYlNFU0FKeUc1YnVIMUl0SkJ5aDg?oc=5",
-     "published": "2026-11-06"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-f76399131e",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Macy’s ‘Very Soft’ Italian Cotton Duvet Set Makes Your Bed Feel Like a Hotel, Now 70% Off",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Macy’s ‘Very Soft’ Italian Cotton Duvet Set Makes Your Bed Feel Like a Hotel, Now 70% Off",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd2JEbVpwQnp3Y1VQUlRVZXFaOHZ0dk84UEo0N0lQbGV2SHg0RV9pWEpaQUVONDR5aUxsMDVUR1pKWTJWQWgxZWNCRmdES1MxSU11b2ZJYTZoWjJNRTRaTjh0Q3ptR2pqTGZmd1EycTJaNkpHbGw2azlabEw0ZGFLX1dhYktSSzJrR0tzVTZ4Y3U?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "70% 할인",
-   "verification": "news",
-   "first_published": "2026-11-06",
-   "last_published": "2026-11-06",
-   "first_seen": "2026-11-06T13:18:16+09:00",
-   "last_seen": "2026-11-06T13:18:16+09:00",
-   "articles": [
-    {
-     "title": "Macy’s ‘Very Soft’ Italian Cotton Duvet Set Makes Your Bed Feel Like a Hotel, Now 70% Off",
-     "outlet": "Parade Magazine",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd2JEbVpwQnp3Y1VQUlRVZXFaOHZ0dk84UEo0N0lQbGV2SHg0RV9pWEpaQUVONDR5aUxsMDVUR1pKWTJWQWgxZWNCRmdES1MxSU11b2ZJYTZoWjJNRTRaTjh0Q3ptR2pqTGZmd1EycTJaNkpHbGw2azlabEw0ZGFLX1dhYktSSzJrR0tzVTZ4Y3U?oc=5",
-     "published": "2026-11-06"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-292601bd98",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Hotel group offers up to 70% discounts in Christmas stay vouchers MANILA – The Hotel Sales and Marketing Association (HSMA) has rolled out a pre-Christmas “book & buy voucher” program, offering up to 50 to 70 percent discounts on accommodation for to",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Hotel group offers up to 70% discounts in Christmas stay vouchers MANILA – The Hotel Sales and Marketing Association (HSMA) has rolled out a pre-Christmas “book & buy voucher” program, offering up to 50 to 70 percent discounts on accommodation for to",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX1pvbV9WYWxabnVxSnktMllEei14ZEwzUTJoS1Q2azk1dEozeFNMRE9hSXJyLWF1QlFhbDFRZHpCbWtJSTVGUWhxMzRSNVNwRlc5RldHczJLazhXeWtmUHJ3LUdONzNmX1dLQTVHY051bGhjYXFSc0ZrdUQzSFVUYXpBWURtdUVvcHNBNncwQ1k5YndWRDJnSERLVGdRbnRwYlZqTlBSdEtaWjZ5SnZaWGZPT1RqWlZHbnJsalhxUUtJRGVFS09mQk1Say1jSGRWVEgtcQ?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 70%",
-   "verification": "news",
-   "first_published": "2026-11-06",
-   "last_published": "2026-11-06",
-   "first_seen": "2026-11-06T16:24:46+09:00",
-   "last_seen": "2026-11-06T16:24:46+09:00",
-   "articles": [
-    {
-     "title": "Hotel group offers up to 70% discounts in Christmas stay vouchers MANILA – The Hotel Sales and Marketing Association (HSMA) has rolled out a pre-Christmas “book & buy voucher” program, offering up to 50 to 70 percent discounts on accommodation for to",
-     "outlet": "Facebook",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX1pvbV9WYWxabnVxSnktMllEei14ZEwzUTJoS1Q2azk1dEozeFNMRE9hSXJyLWF1QlFhbDFRZHpCbWtJSTVGUWhxMzRSNVNwRlc5RldHczJLazhXeWtmUHJ3LUdONzNmX1dLQTVHY051bGhjYXFSc0ZrdUQzSFVUYXpBWURtdUVvcHNBNncwQ1k5YndWRDJnSERLVGdRbnRwYlZqTlBSdEtaWjZ5SnZaWGZPT1RqWlZHbnJsalhxUUtJRGVFS09mQk1Say1jSGRWVEgtcQ?oc=5",
-     "published": "2026-11-06"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-f5d9c58eb5",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "These ‘Hotel-Quality’ Pillows Are So Comfy, Your Overnight Guests Will Try to Sneak Them Home — They’re 65% Off",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "These ‘Hotel-Quality’ Pillows Are So Comfy, Your Overnight Guests Will Try to Sneak Them Home — They’re 65% Off",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhb040cHBGNVppOHFsSWNIaDg2UzJzQktSRmJsR3RlVEczM24zLUtwZGNubzNvTlhmTWJ2dHcyM1NLYmlLVHBsY3V1UnNaQ1I5M0QxakliWFJLZEc4dXpmd2Y1Tnl6ZF8wYWRJTG8zUGgteHpINVA5QQ?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "65% 할인",
-   "verification": "news",
-   "first_published": "2026-11-06",
-   "last_published": "2026-11-06",
-   "first_seen": "2026-11-06T18:16:02+09:00",
-   "last_seen": "2026-11-06T18:16:02+09:00",
-   "articles": [
-    {
-     "title": "These ‘Hotel-Quality’ Pillows Are So Comfy, Your Overnight Guests Will Try to Sneak Them Home — They’re 65% Off",
-     "outlet": "People.com",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhb040cHBGNVppOHFsSWNIaDg2UzJzQktSRmJsR3RlVEczM24zLUtwZGNubzNvTlhmTWJ2dHcyM1NLYmlLVHBsY3V1UnNaQ1I5M0QxakliWFJLZEc4dXpmd2Y1Tnl6ZF8wYWRJTG8zUGgteHpINVA5QQ?oc=5",
-     "published": "2026-11-06"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-bfd1649ad3",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Disney World and Disneyland Just Released New 2027 Hotel Deals: Here's How to Save Up to 35%",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Disney World and Disneyland Just Released New 2027 Hotel Deals: Here's How to Save Up to 35%",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hOWRwb29XNm43dXRBRTA4dmxtX2lpSUpxOEFIZE1wbW1DZkZHckdIUGNlWGU2UE54cFBhcnBkeHc2amowTGI5NHdUWGwxcG43b0trV292Y0FPVWFZcmVHMkg4b3lTN3preUtWamdhdHMxZUl4b0NqQVhEdjhLZw?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 35%",
-   "verification": "news",
-   "first_published": "2026-11-06",
-   "last_published": "2026-11-06",
-   "first_seen": "2026-11-09T09:14:08+09:00",
-   "last_seen": "2026-11-09T09:14:08+09:00",
-   "articles": [
-    {
-     "title": "Disney World and Disneyland Just Released New 2027 Hotel Deals: Here's How to Save Up to 35%",
-     "outlet": "The Main Street Mouse",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hOWRwb29XNm43dXRBRTA4dmxtX2lpSUpxOEFIZE1wbW1DZkZHckdIUGNlWGU2UE54cFBhcnBkeHc2amowTGI5NHdUWGwxcG43b0trV292Y0FPVWFZcmVHMkg4b3lTN3preUtWamdhdHMxZUl4b0NqQVhEdjhLZw?oc=5",
-     "published": "2026-11-06"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "h-other-09764650ad",
@@ -8171,58 +7704,6 @@
    "status": "undated"
   },
   {
-   "id": "h-accor-91fa952ec3",
-   "airline_id": "h-accor",
-   "airline": "아코르",
-   "airlines_mentioned": [
-    "아코르"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "A Trick To Buy Accor Hotel Stays At 40% Off — And Black Friday May Make It Even Better",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "A Trick To Buy Accor Hotel Stays At 40% Off — And Black Friday May Make It Even Better",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWjRHX3FHVVZFM3Zhd3Zyd054Mnp5bE4zREdWVlRqQlJhN1JLZ3MzMWFZUkJKUnNKeUZDYUNDWWl6NFEzWXBHSmY3NWNaWnJRcWNOZDF1dDB1bzFrbkNSdjFCbHRZWFI4NWhtRVVyWHZLNGhaeFhPTjhZNG5mOHBHaUVQZkhvLUxhblNPdjNiaHNYbkxlMjVsRWhQWWRJekpKR3d0b3JOZHZrNHlleVlXdXVR?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "40% 할인",
-   "verification": "news",
-   "first_published": "2026-11-20",
-   "last_published": "2026-11-20",
-   "first_seen": "2026-11-20T03:40:04+09:00",
-   "last_seen": "2026-11-20T03:40:04+09:00",
-   "articles": [
-    {
-     "title": "A Trick To Buy Accor Hotel Stays At 40% Off — And Black Friday May Make It Even Better",
-     "outlet": "View from the Wing",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWjRHX3FHVVZFM3Zhd3Zyd054Mnp5bE4zREdWVlRqQlJhN1JLZ3MzMWFZUkJKUnNKeUZDYUNDWWl6NFEzWXBHSmY3NWNaWnJRcWNOZDF1dDB1bzFrbkNSdjFCbHRZWFI4NWhtRVVyWHZLNGhaeFhPTjhZNG5mOHBHaUVQZkhvLUxhblNPdjNiaHNYbkxlMjVsRWhQWWRJekpKR3d0b3JOZHZrNHlleVlXdXVR?oc=5",
-     "published": "2026-11-20"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "koreanair-bf205d468e",
    "airline_id": "koreanair",
    "airline": "대한항공",
@@ -8295,6 +7776,58 @@
      "outlet": "비욘드포스트",
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uX3FQaG1GUHpnWkFPbWhmZUFPMGdKQ2VCNkl3aFRGNVg5Q25feU9va0FjcXltMXpjdlVYdVZScGo3b0FhQ2Y3LXNndl96UUg5UUhPMkRtU1dXMi1obkR0S0lxTjd1cjdXbGxzbjFvejVvX1dENnkyZWpQS2w?oc=5",
      "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-accor-91fa952ec3",
+   "airline_id": "h-accor",
+   "airline": "아코르",
+   "airlines_mentioned": [
+    "아코르"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "A Trick To Buy Accor Hotel Stays At 40% Off — And Black Friday May Make It Even Better",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "A Trick To Buy Accor Hotel Stays At 40% Off — And Black Friday May Make It Even Better",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWjRHX3FHVVZFM3Zhd3Zyd054Mnp5bE4zREdWVlRqQlJhN1JLZ3MzMWFZUkJKUnNKeUZDYUNDWWl6NFEzWXBHSmY3NWNaWnJRcWNOZDF1dDB1bzFrbkNSdjFCbHRZWFI4NWhtRVVyWHZLNGhaeFhPTjhZNG5mOHBHaUVQZkhvLUxhblNPdjNiaHNYbkxlMjVsRWhQWWRJekpKR3d0b3JOZHZrNHlleVlXdXVR?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "40% 할인",
+   "verification": "news",
+   "first_published": "2026-11-20",
+   "last_published": "2026-11-20",
+   "first_seen": "2026-11-20T03:40:04+09:00",
+   "last_seen": "2026-11-20T03:40:04+09:00",
+   "articles": [
+    {
+     "title": "A Trick To Buy Accor Hotel Stays At 40% Off — And Black Friday May Make It Even Better",
+     "outlet": "View from the Wing",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWjRHX3FHVVZFM3Zhd3Zyd054Mnp5bE4zREdWVlRqQlJhN1JLZ3MzMWFZUkJKUnNKeUZDYUNDWWl6NFEzWXBHSmY3NWNaWnJRcWNOZDF1dDB1bzFrbkNSdjFCbHRZWFI4NWhtRVVyWHZLNGhaeFhPTjhZNG5mOHBHaUVQZkhvLUxhblNPdjNiaHNYbkxlMjVsRWhQWWRJekpKR3d0b3JOZHZrNHlleVlXdXVR?oc=5",
+     "published": "2026-11-20"
     }
    ],
    "status": "undated"
@@ -8441,118 +7974,6 @@
    "status": "undated"
   },
   {
-   "id": "aerok-76374c6ec0",
-   "airline_id": "aerok",
-   "airline": "에어로케이",
-   "airlines_mentioned": [
-    "에어로케이"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.aerok.com/",
-   "iata": [
-    "RF"
-   ],
-   "agencies": [],
-   "event_name": "앵콜 에케세일",
-   "headline": "에어로케이항공, 충북청주FC 홈경기서 항공권 증정 이벤트",
-   "sale_start": "2026-10-19",
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "에어로케이, 동계 항공권 최대 98% 할인…19일부터 ‘앵콜 에케세일’...편도 7만원대 부터... : 기업·산업",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBoUGR4TzRoNmRGU0o2TGl2SXYyRVp0OWwxZFk2WWl0MDJYb0ZENXFKZldCeUlWOElfWkRXWlVKTDlzdW40TXQxakVXbw?oc=5"
-    },
-    "discount": {
-     "title": "에어로케이, 동계 항공권 최대 98% 할인…19일부터 ‘앵콜 에케세일’...편도 7만원대 부터... : 기업·산업",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBoUGR4TzRoNmRGU0o2TGl2SXYyRVp0OWwxZFk2WWl0MDJYb0ZENXFKZldCeUlWOElfWkRXWlVKTDlzdW40TXQxakVXbw?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 98%",
-   "verification": "news",
-   "first_published": "2026-10-16",
-   "last_published": "2026-10-21",
-   "first_seen": "2026-10-16T16:34:30+09:00",
-   "last_seen": "2026-10-21T14:18:44+09:00",
-   "articles": [
-    {
-     "title": "에어로케이항공, 충북청주FC 홈경기서 항공권 증정 이벤트",
-     "outlet": "중부매일",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1MXB0RDVJbHhabkgtTWhNWjY3enNzdEpFazVTVUxSQ2dmYXNoNmY4ZXozLUdQZTQzbHJ2SjlLYlRxdlB2aHV4ejBVb1VZdXJlaDhJcVBGUUtlVlhnZERyR2cwMm80eU9rU1HSAW5BVV95cUxPV3h0SFAzdnp6aGF3MVJ4SEJNdDZ2QzFfMVNTQXlzWG1yWHM5TGNnX0FJcUdGSUtwd1NJMG5RajBONGN4dTJKazBkR3ZmZVlHZnRsMkFyN0NtZ2FCajJpMS1ZdEh2OFU1UVE1UzRoZw?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "에어로케이, 동계 항공권 최대 98% 할인…19일부터 ‘앵콜 에케세일’...편도 7만원대 부터... : 기업·산업",
-     "outlet": "재경일보",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBoUGR4TzRoNmRGU0o2TGl2SXYyRVp0OWwxZFk2WWl0MDJYb0ZENXFKZldCeUlWOElfWkRXWlVKTDlzdW40TXQxakVXbw?oc=5",
-     "published": "2026-10-19"
-    },
-    {
-     "title": "에어로케이항공권, 최대 98%까지 특가 세일한다",
-     "outlet": "뉴데일리 충청세종",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MUHIydEVBd3d3TnFKNVpWNVRJUjZZMl9FVnNQb29VUmlUR25zNUlaR0Vwd19Ta0JDY2hCYlE2Y3JsTkFtVjlrVWplQ20xcm5rdXRhcnFBRDExUjl1YmtwWllrNjFrTXZGV3ZBR0dDNnNCVzJUYmFKUHB30gF_QVVfeXFMUC1QRWZreE1USHYtYUplUVBUalVkYzFVX25FX0JnRFRIMEk0UGtSVUdMajByMTE1VF84Vk1kSGc5OC1hQjcwS2tjVHplMnVWRmJKYlFjOEdyMWh4Q3NWc0laM05zSjczeDZUOHBLbVJZdHl3enJjcGF4bFlfRGFhQQ?oc=5",
-     "published": "2026-10-18"
-    },
-    {
-     "title": "에어로케이, 동계 항공권 ‘앵콜 에케세일’",
-     "outlet": "충청매일",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZMDBYM0pBYkU1VTRTM1RsX1VyX0dUWFhrd0o4bXhhMHhOUGd1OU41aHZUS1R2T3luSjFhVFFsTGJobWxWNW5NMU9jUHZmYmdBQllGX0xuWjV1TVN4VU92cklYcGJTcGtYbkE?oc=5",
-     "published": "2026-10-18"
-    },
-    {
-     "title": "에어로케이항공, 동계 항공권 ‘앵콜 에케세일’…국제선 15개 노선 최대 98% 할인",
-     "outlet": "동양일보",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JVHFmQmpQTE1XbmlMR0NaQ1RyMnFGUExBbjdjeWV6dTcyYUg3bnNpM21zdm12Q0Q4c1gyVThNMHZ5TlJqWlNRWkh2ZE5rMjhIYzJWNHdFSmxMX2NydWNvMEQyanRtamF1b2o0?oc=5",
-     "published": "2026-10-18"
-    },
-    {
-     "title": "에어로케이항공, 동계 항공권 '앵콜 에케세일'⋯ 오는 19일부터",
-     "outlet": "충북일보",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xNDQyQVR5TFhORGp1TW9FTTI0UGhpVlVpUlVsTzY3YUU2NmZxTjE2OVluRHZ6ZzhoNDFXTVI0ZFVkcWQzTTYwVzhQNFpBT0xpbF93OWVidzVDa0t4X0I0ZjZ3?oc=5",
-     "published": "2026-10-18"
-    },
-    {
-     "title": "\"국제선 최대 98% 할인\" 에어로케이, '앵콜 에케세일' 진행",
-     "outlet": "M포스트",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nMUstUjN0bVlfQU14STZzMGx5QllsZWtBeExDaDlJb3VuWTNNMzhBMVczRjBFVUE1YUNHWDBCbmtLWWFsT01pVmhaOXVEWnhvTG5YczV4OERtN3pOeFBYdUlpTFNEMmM3N0txWDBsT2c?oc=5",
-     "published": "2026-10-17"
-    },
-    {
-     "title": "에어로케이, 동계 항공권 최대 98% 할인…‘앵콜 에케세일’ 19일 시작",
-     "outlet": "세종충청뉴스",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5VQXB4T1BYbnhxMWtvTTB0TVRDSmZKUGhjVE5FanRYZEh3VlRBZ09iRmpZUkE0bTVJdHlHbDdZcHRHNUVrU0ZTZUFtZndWR3dGMU5TMHpNc3Y2WmdRV0RyWTJMd3VwbHpLb29kZXBqc9IBb0FVX3lxTE5VQXB4T1BYbnhxMWtvTTB0TVRDSmZKUGhjVE5FanRYZEh3VlRBZ09iRmpZUkE0bTVJdHlHbDdZcHRHNUVrU0ZTZUFtZndWR3dGMU5TMHpNc3Y2WmdRV0RyWTJMd3VwbHpLb29kZXBqcw?oc=5",
-     "published": "2026-10-17"
-    },
-    {
-     "title": "에어로케이, ‘앵콜 에케세일’ 19일 시작…국제선 15개 노선 특가 판매",
-     "outlet": "뉴스홈(newshome)",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SYnRmN3MwVUFNdVhkd3BhWHRxcXZQbHRtdFNpWFF6M3l1SWxrbXVDMXMtZU1IT0M4VWt5dGEzVjM0cXBJQ3pvM1NmSFF3Rl80REFXSGFZWTh4b0tFQ3pqY3hEWTFieXQxbXVmZHN3?oc=5",
-     "published": "2026-10-16"
-    },
-    {
-     "title": "에어로케이, 19일부터 동계 항공권 최대 98% 할인",
-     "outlet": "중부매일",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uS0pZam5iVm5Kdmo2b3lYS0RxV1NYcVZxSF9YV2oyUDdnUm5IaWo3YThMMGpIM0VTdVVXMnRuaTBGUmstUFRtZjFqeTZMamIwaGpEbnNldHNFcWFrR3VkdGZxZ3lFclZIN2Y3ZktB0gFuQVVfeXFMTW5LSllqbmJWbkp2ajZveVhLRHFXU1hxVnFIX1hXajJQN2dSbkhpajdhOEwwakgzRVN1VVcydG5pMEZSay1QVG1mMWp5NkxqYjBoakRuc2V0c0VxYWtHdWR0ZnFneUVyVkg3ZjdmS0E?oc=5",
-     "published": "2026-10-16"
-    }
-   ],
-   "status": "stale"
-  },
-  {
    "id": "airbusan-d5895a8209",
    "airline_id": "airbusan",
    "airline": "에어부산",
@@ -8653,134 +8074,115 @@
    "status": "stale"
   },
   {
-   "id": "h-inspire-376b5c2d7e",
-   "airline_id": "h-inspire",
-   "airline": "인스파이어",
+   "id": "h-yeogi-de96be567e",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
    "airlines_mentioned": [
-    "인스파이어"
+    "여기어때"
    ],
-   "kind": "hotel",
+   "kind": "platform",
    "category": "hotel",
    "section": "hotel",
    "route": null,
    "route_text": null,
-   "scope": null,
+   "scope": "overseas",
    "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.yeogi.com/",
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "쇼핑 최대 50%·객실 25% 할인…인스파이어, '원더 페스타' 개최",
-   "sale_start": null,
+   "headline": "여기어때, 대만 숙소 10만원 쿠폰팩 푼다…항공권·투어도 할인",
+   "sale_start": "2026-11-06",
    "sale_end": null,
    "travel_start": null,
    "travel_end": null,
    "routes": [],
-   "regions": [],
-   "conditions": [],
+   "regions": [
+    "대만"
+   ],
+   "conditions": [
+    "쿠폰"
+   ],
    "conflicts": [],
    "evidence": {
+    "sale": {
+     "title": "ER 이코노믹리뷰 요약문: …)는 대만관광청과 함께 숙소와 항공권 해외투어를 아우르는 대만 여행 할인 프로모션을 6일 시작한다고 밝혔다.…",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=756248"
+    },
     "discount": {
-     "title": "쇼핑 최대 50%·객실 25% 할인…인스파이어, '원더 페스타' 개최",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcTQybndGYXFpbkljYkZZdFlVb2pzSnoyNWx6YW1yQWtwRmNGaWk3d0l0OTdXSjRmSndOMUVIZlR1YmRVb2N3ZEdLaF9HT2ZoNnVaYWVodjQzbnJRWHllQ3dkOFd6OVhZRFdwdFQwSkdvV3NFeVlKR0RIVWlWbW9WbE93WlhYYmxjbFpZ?oc=5"
+     "title": "ER 이코노믹리뷰 요약문: …기어때가 자체 발급하는 해외 숙소 최대 10% 할인 쿠폰과 중복해서 쓸 수 있어 실제 할인 폭은 더 커진다.…",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=756248"
     }
    },
    "from_icn": null,
-   "discount": "최대 50%",
+   "discount": "최대 10%",
    "verification": "news",
-   "first_published": "2026-10-21",
-   "last_published": "2026-10-21",
-   "first_seen": "2026-10-21T09:36:47+09:00",
-   "last_seen": "2026-10-21T14:18:44+09:00",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T09:14:11+09:00",
+   "last_seen": "2026-11-07T01:55:57+09:00",
    "articles": [
     {
-     "title": "쇼핑 최대 50%·객실 25% 할인…인스파이어, '원더 페스타' 개최",
-     "outlet": "글로벌이코노믹",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcTQybndGYXFpbkljYkZZdFlVb2pzSnoyNWx6YW1yQWtwRmNGaWk3d0l0OTdXSjRmSndOMUVIZlR1YmRVb2N3ZEdLaF9HT2ZoNnVaYWVodjQzbnJRWHllQ3dkOFd6OVhZRFdwdFQwSkdvV3NFeVlKR0RIVWlWbW9WbE93WlhYYmxjbFpZ?oc=5",
-     "published": "2026-10-21"
+     "title": "여기어때, 대만 숙소 10만원 쿠폰팩 푼다…항공권·투어도 할인",
+     "outlet": "www.thepowernews.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JVll1NHpZcHp5OURtaWtSRkRHMC1KOTY1Y25GY3NoNE5BSkRDY0d1SWYzTVpUenNZendibTVBNlZqcHE1bG9iVklQN3hzM3pxcWc1YnNHaXdfazU0TlBMOEhZR3pkRmpUbUxXdUcwYmpZM0RLZVRXekJIMWxBZw?oc=5",
+     "published": "2026-11-06"
     },
     {
-     "title": "숙박에 쇼핑까지 인스파이어 '원더 페스타'…최대 50% 할인",
-     "outlet": "아시아경제",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PTDJScmgxSVdRa1l4M0RUSnFaTXRkdzIxWEZTWklLWkxzblZ4dHRTd3JKRDZJcW5VUUxBM2hsREVfWDlkUWx4d1hRdFhhcThpbXFiU0d1UmRUVHBGTVNVaQ?oc=5",
-     "published": "2026-10-21"
+     "title": "여기어때 대만 여행 할인, 숙소 10만원 쿠폰팩·항공권 2만원 혜택",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYTkg4bm9BNlRyd3FsRFN2dlpTWVh0eWNkOVc4QlNZVWYzdjVUdnh2Zk1yZ0Zrc1JyN1FTbC1ZVWhfUXN1bDdhVGVhdGhqN2N2UkdwOUxVVDh1aWxGaERBYkwyYWRMZm9JMktrUFpwOUJ6YkxtZ2VZcC1Eaw?oc=5",
+     "published": "2026-11-06"
     },
     {
-     "title": "쇼핑은 최대 50%, 호텔 조식 패키지는 25%…인스파이어 할인 축제",
-     "outlet": "아주경제",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wV092SzZtV3J6SjZjMUxjX3hfSk12QW43Vmw1SUdNU01MakpkaW1WODU0Ujc2VzlFSWg2blBkR3J1Mk5vQzZVRDlXRGJxRm1rOTNYZUxFSkjSAVhBVV95cUxNcFdPdks2bVdyeko2YzFMY194X0pNdkFuN1ZsNUlHTVNNTGpKZGltVjg1NFI3Nlc5RUloNm5QZEdydTJOb0M2VUQ5V0RicUZtazkzWGVMRUpI?oc=5",
-     "published": "2026-10-21"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "airpremia-291366713a",
-   "airline_id": "airpremia",
-   "airline": "에어프레미아",
-   "airlines_mentioned": [
-    "에어프레미아"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airpremia.com/",
-   "iata": [
-    "YP"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "에어프레미아, 12월 취항 삿포로·호치민 노선 특가…이코노미 왕복 40만원대부터",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": null,
-     "destination": "호찌민(SGN)"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "에어프레미아, 12월 취항 삿포로·호치민 노선 특가…이코노미 왕복 40만원대부터",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZcTJ0dVhlNVh0Y1hZb3dVMkN6RC1EcXE3VVptQ1ZzSDItaEtDci1HTUdxOTJnVzhVQWhUdTY5Q0UzSElXQWFuQlRhVlZ0cEVyYjlESElmTU5nek03Q2x5N19tWDY1WVJrVEFXTjVGejFvSU01dTZ5Wnd4MNIBe0FVX3lxTE5ZcTJ0dVhlNVh0Y1hZb3dVMkN6RC1EcXE3VVptQ1ZzSDItaEtDci1HTUdxOTJnVzhVQWhUdTY5Q0UzSElXQWFuQlRhVlZ0cEVyYjlESElmTU5nek03Q2x5N19tWDY1WVJrVEFXTjVGejFvSU01dTZ5Wnd4MA?oc=5"
-    },
-    "route": {
-     "title": "에어프레미아, 12월 취항 삿포로·호치민 노선 특가…이코노미 왕복 40만원대부터",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZcTJ0dVhlNVh0Y1hZb3dVMkN6RC1EcXE3VVptQ1ZzSDItaEtDci1HTUdxOTJnVzhVQWhUdTY5Q0UzSElXQWFuQlRhVlZ0cEVyYjlESElmTU5nek03Q2x5N19tWDY1WVJrVEFXTjVGejFvSU01dTZ5Wnd4MNIBe0FVX3lxTE5ZcTJ0dVhlNVh0Y1hZb3dVMkN6RC1EcXE3VVptQ1ZzSDItaEtDci1HTUdxOTJnVzhVQWhUdTY5Q0UzSElXQWFuQlRhVlZ0cEVyYjlESElmTU5nek03Q2x5N19tWDY1WVJrVEFXTjVGejFvSU01dTZ5Wnd4MA?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "40만원대부터",
-   "verification": "news",
-   "first_published": "2026-10-20",
-   "last_published": "2026-10-21",
-   "first_seen": "2026-10-20T23:18:02+09:00",
-   "last_seen": "2026-10-21T14:18:44+09:00",
-   "articles": [
-    {
-     "title": "에어프레미아, 12월 취항 삿포로·호치민 노선 특가…이코노미 왕복 40만원대부터",
-     "outlet": "디지틀조선일보",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZcTJ0dVhlNVh0Y1hZb3dVMkN6RC1EcXE3VVptQ1ZzSDItaEtDci1HTUdxOTJnVzhVQWhUdTY5Q0UzSElXQWFuQlRhVlZ0cEVyYjlESElmTU5nek03Q2x5N19tWDY1WVJrVEFXTjVGejFvSU01dTZ5Wnd4MNIBe0FVX3lxTE5ZcTJ0dVhlNVh0Y1hZb3dVMkN6RC1EcXE3VVptQ1ZzSDItaEtDci1HTUdxOTJnVzhVQWhUdTY5Q0UzSElXQWFuQlRhVlZ0cEVyYjlESElmTU5nek03Q2x5N19tWDY1WVJrVEFXTjVGejFvSU01dTZ5Wnd4MA?oc=5",
-     "published": "2026-10-21"
+     "title": "여기어때, 대만관광청과 여행 할인 프로모션…숙소·항공·투어 혜택 확대",
+     "outlet": "메가경제",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE85bDNkcVg5R3Z6enhBVVNXakFRUzZ6YjE4dFkxOFlwS0p2Mjkyc3JmRTlRbUpiSFN1UHFtYjd3cmVPWkZVN2hHV2FlamhuR09reUc0dTVIcFc2Nlh3OGstRU84cHg3d0FuNVJvV2NvR0tMd9IBckFVX3lxTE85bDNkcVg5R3Z6enhBVVNXakFRUzZ6YjE4dFkxOFlwS0p2Mjkyc3JmRTlRbUpiSFN1UHFtYjd3cmVPWkZVN2hHV2FlamhuR09reUc0dTVIcFc2Nlh3OGstRU84cHg3d0FuNVJvV2NvR0tMdw?oc=5",
+     "published": "2026-11-06"
     },
     {
-     "title": "에어프레미아, 삿포로·호치민 신규 취항 기념 할인 … 왕복 40만원대부터",
-     "outlet": "워크투데이",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnMUZ3b0FQYVpRazhvNC1Nb0J0WEdjNHNSU1pPUGVWb0hMX04tdVZUZXo0NVNMdFd5Z0xiQy1QLXFSM2lTbWxGeUttQVhRbkFENy1EdVk1ZjJ5dDB2TGx2ZUp6ZXBaazEtSTJDNg?oc=5",
-     "published": "2026-10-20"
+     "title": "여기어때, 대만관광청과 숙소·항공·투어 통합 할인 프로모션 진행",
+     "outlet": "숙박매거진",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tZ25EZkxUVmRTMldaVktSS0lyRDhwUlliQjlwTTJZZmZVU2xDZEFoSGdBVVdsLUFTSmtTOU5jclM2UUx2RzhVdnJ5bDE1aFlGU2xvNTdwRjZwVzlDVVM1bXUxczBmT1d1T1ZPeTZ5ajM?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "\"여기어때 대만 여행 10만원 쿠폰팩 푼다\" 대만관광청과 숙소·항공·투어 총출동",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNaUV6TjBrdWNVc2UySHlsanlfX0FpZDBvWmp0bmpvR0tzOTVzUGdFSzZHb2FsSU84NnZTVEMzVXA1TE5RSWxTNDV3UnFWY3NwRmI2SXk1SU1ncHZSS0pQMEtfY2RJU1M5ZlVieA?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "대만 여행 지금이 찬스?…여기어때, 숙소 10만원 쿠폰·항공권 할인",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBacGpKQlB1bFdkQVU3YzNybmE1R0tQMGVtRmNWTE5YZ3UyNjl1b3BHYk5BRUpIanBiUkd4Tm5Tc0dWSUFRbmlVYUFoUjl4TVpaWnQ1bC1XU2lGMWp1X1ZTdEJfeVJ5RUFaR2000gFvQVVfeXFMTVhTUnoxNWp4dkx0aVNmV2puZjhjNzF1VGdSUzBEMVFYOUl2SFdEV3N1bVVjUVk4U1NOd1JFVkN1Uko0Um8xRU5GMGE1QVFQdjQwUXVtcS0wWUl1RVhRMEh1ZjF3WXFPdlJndEtNRXNv?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "여기어때, 대만 여행 준비 한 번에… 숙소·항공·투어 동시 할인",
+     "outlet": "www.dhns.co.kr",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrZ1NfdkhfWmQ4UFhKSU5BUWlzalZQZkh4Y0pPQV8zeGFrUEVtcHVibFAzQWpVZGdTbkN1RFNlajdlNlM4c3hoTjBiOUczbVh0aDB6bWgwdEdMeUpOMkJhXzkwdnd2dDg?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "여기어때, 대만 여행 숙소·항공·투어 할인⋯ 최대 10만원 쿠폰팩 제공",
+     "outlet": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MeTM2a0tiMFRfa21jODV4M1pTNjJ5ZzgwRjM4N01pUlppWlZ6aDljbmtmUGY4LXZ1U0xpZmFLblhuZWlJSTYxV1VHX1VMUHlmODVHeWt3aUM4dw?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "여기어때, 대만 여행 기획전…10만원 규모 숙소 쿠폰 지급",
+     "outlet": "지디넷코리아",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yZ3R1Wk5YbXFaUF9kNnRDbG1jcGgxUUxnSWlmbXdhSnJsTjA0UmU3VmswaExxelVHSUhuN09GaTY4N0IzLXp2eWFRcEJRemwzVXdTamR3?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "여기어때-대만관광청 맞손..대만 숙소·항공·투어 할인",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9xMGtMYlVvOVQ3NXh3VE5IdTRfTnI3dUNMVjU1THZycVUxQnJkQWJ0MjJlLXVZWnVXdHpnMFZhZDlmZw?oc=5",
+     "published": "2026-11-06"
     }
    ],
    "status": "stale"
@@ -11337,6 +10739,324 @@
    "status": "stale"
   },
   {
+   "id": "h-shilla-ca730e82b9",
+   "airline_id": "h-shilla",
+   "airline": "신라호텔",
+   "airlines_mentioned": [
+    "신라호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": "블프 프로모션",
+   "headline": "신라호텔앤리조트, ‘블프’ 프로모션...객실 최대 28% 할인 外",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "신라호텔앤리조트, ‘블프’ 프로모션...객실 최대 28% 할인 外",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02T2FXYjB5bEQ1RC1tRXp5ZlpESlB6R0RZZ05ULUJ6OFBSYUcyX3U1cC02cUVvUHRTcktmdnJ2UlFuY2k3eVM3QkpIWjYyelpmaTJLLWNPWGpXbzVBcUlERzVVaFJlUQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 28%",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T09:14:11+09:00",
+   "last_seen": "2026-11-06T16:24:46+09:00",
+   "articles": [
+    {
+     "title": "신라호텔앤리조트, ‘블프’ 프로모션...객실 최대 28% 할인 外",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02T2FXYjB5bEQ1RC1tRXp5ZlpESlB6R0RZZ05ULUJ6OFBSYUcyX3U1cC02cUVvUHRTcktmdnJ2UlFuY2k3eVM3QkpIWjYyelpmaTJLLWNPWGpXbzVBcUlERzVVaFJlUQ?oc=5",
+     "published": "2026-11-06"
+    },
+    {
+     "title": "신라호텔앤리조트, 첫 ‘블프 프로모션’…객실 최대 28% 할인",
+     "outlet": "뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9tS3ZMRC1xVXh1aW8tdUExdEhsQnpoUFBoRUMybjBJdjFtS3g1b1l0OWNQSVdIaHUwMmctaFdaQU5tZjJQZFZydlYyUzJBQ01uNUFWRUFtQ0ZaTkZlelE?oc=5",
+     "published": "2026-11-06"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-shilla-d5267a69d2",
+   "airline_id": "h-shilla",
+   "airline": "신라호텔",
+   "airlines_mentioned": [
+    "신라호텔"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "신라호텔 블랙프라이데이, 내년 상반기 객실 28% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "신라호텔 블랙프라이데이, 내년 상반기 객실 28% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wZU9mMDYtd1QydDBPNFZSOUpxbUpnTkVKWkN0WDZhaEdNZld4OE9BSkgtMVZ6SmxaclNYWjdlRDZ2a0g0QkZwVFd5aTh0WHFRNHEyLWdJWkZCQlZjNDBDQmxPdjJ5RDBW?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "28% 할인",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T13:18:16+09:00",
+   "last_seen": "2026-11-06T13:18:16+09:00",
+   "articles": [
+    {
+     "title": "신라호텔 블랙프라이데이, 내년 상반기 객실 28% 할인",
+     "outlet": "공감신문",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wZU9mMDYtd1QydDBPNFZSOUpxbUpnTkVKWkN0WDZhaEdNZld4OE9BSkgtMVZ6SmxaclNYWjdlRDZ2a0g0QkZwVFd5aTh0WHFRNHEyLWdJWkZCQlZjNDBDQmxPdjJ5RDBW?oc=5",
+     "published": "2026-11-06"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-other-f76399131e",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Macy’s ‘Very Soft’ Italian Cotton Duvet Set Makes Your Bed Feel Like a Hotel, Now 70% Off",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Macy’s ‘Very Soft’ Italian Cotton Duvet Set Makes Your Bed Feel Like a Hotel, Now 70% Off",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd2JEbVpwQnp3Y1VQUlRVZXFaOHZ0dk84UEo0N0lQbGV2SHg0RV9pWEpaQUVONDR5aUxsMDVUR1pKWTJWQWgxZWNCRmdES1MxSU11b2ZJYTZoWjJNRTRaTjh0Q3ptR2pqTGZmd1EycTJaNkpHbGw2azlabEw0ZGFLX1dhYktSSzJrR0tzVTZ4Y3U?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "70% 할인",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T13:18:16+09:00",
+   "last_seen": "2026-11-06T13:18:16+09:00",
+   "articles": [
+    {
+     "title": "Macy’s ‘Very Soft’ Italian Cotton Duvet Set Makes Your Bed Feel Like a Hotel, Now 70% Off",
+     "outlet": "Parade Magazine",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd2JEbVpwQnp3Y1VQUlRVZXFaOHZ0dk84UEo0N0lQbGV2SHg0RV9pWEpaQUVONDR5aUxsMDVUR1pKWTJWQWgxZWNCRmdES1MxSU11b2ZJYTZoWjJNRTRaTjh0Q3ptR2pqTGZmd1EycTJaNkpHbGw2azlabEw0ZGFLX1dhYktSSzJrR0tzVTZ4Y3U?oc=5",
+     "published": "2026-11-06"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-other-292601bd98",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Hotel group offers up to 70% discounts in Christmas stay vouchers MANILA – The Hotel Sales and Marketing Association (HSMA) has rolled out a pre-Christmas “book & buy voucher” program, offering up to 50 to 70 percent discounts on accommodation for to",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Hotel group offers up to 70% discounts in Christmas stay vouchers MANILA – The Hotel Sales and Marketing Association (HSMA) has rolled out a pre-Christmas “book & buy voucher” program, offering up to 50 to 70 percent discounts on accommodation for to",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX1pvbV9WYWxabnVxSnktMllEei14ZEwzUTJoS1Q2azk1dEozeFNMRE9hSXJyLWF1QlFhbDFRZHpCbWtJSTVGUWhxMzRSNVNwRlc5RldHczJLazhXeWtmUHJ3LUdONzNmX1dLQTVHY051bGhjYXFSc0ZrdUQzSFVUYXpBWURtdUVvcHNBNncwQ1k5YndWRDJnSERLVGdRbnRwYlZqTlBSdEtaWjZ5SnZaWGZPT1RqWlZHbnJsalhxUUtJRGVFS09mQk1Say1jSGRWVEgtcQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 70%",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T16:24:46+09:00",
+   "last_seen": "2026-11-06T16:24:46+09:00",
+   "articles": [
+    {
+     "title": "Hotel group offers up to 70% discounts in Christmas stay vouchers MANILA – The Hotel Sales and Marketing Association (HSMA) has rolled out a pre-Christmas “book & buy voucher” program, offering up to 50 to 70 percent discounts on accommodation for to",
+     "outlet": "Facebook",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX1pvbV9WYWxabnVxSnktMllEei14ZEwzUTJoS1Q2azk1dEozeFNMRE9hSXJyLWF1QlFhbDFRZHpCbWtJSTVGUWhxMzRSNVNwRlc5RldHczJLazhXeWtmUHJ3LUdONzNmX1dLQTVHY051bGhjYXFSc0ZrdUQzSFVUYXpBWURtdUVvcHNBNncwQ1k5YndWRDJnSERLVGdRbnRwYlZqTlBSdEtaWjZ5SnZaWGZPT1RqWlZHbnJsalhxUUtJRGVFS09mQk1Say1jSGRWVEgtcQ?oc=5",
+     "published": "2026-11-06"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-other-f5d9c58eb5",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "These ‘Hotel-Quality’ Pillows Are So Comfy, Your Overnight Guests Will Try to Sneak Them Home — They’re 65% Off",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "These ‘Hotel-Quality’ Pillows Are So Comfy, Your Overnight Guests Will Try to Sneak Them Home — They’re 65% Off",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhb040cHBGNVppOHFsSWNIaDg2UzJzQktSRmJsR3RlVEczM24zLUtwZGNubzNvTlhmTWJ2dHcyM1NLYmlLVHBsY3V1UnNaQ1I5M0QxakliWFJLZEc4dXpmd2Y1Tnl6ZF8wYWRJTG8zUGgteHpINVA5QQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "65% 할인",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-06T18:16:02+09:00",
+   "last_seen": "2026-11-06T18:16:02+09:00",
+   "articles": [
+    {
+     "title": "These ‘Hotel-Quality’ Pillows Are So Comfy, Your Overnight Guests Will Try to Sneak Them Home — They’re 65% Off",
+     "outlet": "People.com",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhb040cHBGNVppOHFsSWNIaDg2UzJzQktSRmJsR3RlVEczM24zLUtwZGNubzNvTlhmTWJ2dHcyM1NLYmlLVHBsY3V1UnNaQ1I5M0QxakliWFJLZEc4dXpmd2Y1Tnl6ZF8wYWRJTG8zUGgteHpINVA5QQ?oc=5",
+     "published": "2026-11-06"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-other-bfd1649ad3",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Disney World and Disneyland Just Released New 2027 Hotel Deals: Here's How to Save Up to 35%",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Disney World and Disneyland Just Released New 2027 Hotel Deals: Here's How to Save Up to 35%",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hOWRwb29XNm43dXRBRTA4dmxtX2lpSUpxOEFIZE1wbW1DZkZHckdIUGNlWGU2UE54cFBhcnBkeHc2amowTGI5NHdUWGwxcG43b0trV292Y0FPVWFZcmVHMkg4b3lTN3preUtWamdhdHMxZUl4b0NqQVhEdjhLZw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 35%",
+   "verification": "news",
+   "first_published": "2026-11-06",
+   "last_published": "2026-11-06",
+   "first_seen": "2026-11-09T09:14:08+09:00",
+   "last_seen": "2026-11-09T09:14:08+09:00",
+   "articles": [
+    {
+     "title": "Disney World and Disneyland Just Released New 2027 Hotel Deals: Here's How to Save Up to 35%",
+     "outlet": "The Main Street Mouse",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hOWRwb29XNm43dXRBRTA4dmxtX2lpSUpxOEFIZE1wbW1DZkZHckdIUGNlWGU2UE54cFBhcnBkeHc2amowTGI5NHdUWGwxcG43b0trV292Y0FPVWFZcmVHMkg4b3lTN3preUtWamdhdHMxZUl4b0NqQVhEdjhLZw?oc=5",
+     "published": "2026-11-06"
+    }
+   ],
+   "status": "stale"
+  },
+  {
    "id": "h-marriott-c2e930026f",
    "airline_id": "h-marriott",
    "airline": "메리어트",
@@ -11962,384 +11682,6 @@
      "outlet": "브레이크뉴스",
      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBmb0lTMlFSTEV6UnBqUW1OdWxTNkloQjBiX1Z1YzlORVNOVDk1TWVpZHpqOGl0QmZWUl9YamFuODE2Zw?oc=5",
      "published": "2026-11-09"
-    }
-   ],
-   "status": "ended"
-  },
-  {
-   "id": "trinity-d5c147a777",
-   "airline_id": "trinity",
-   "airline": "트리니티항공",
-   "airlines_mentioned": [
-    "트리니티항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.twayair.com/",
-   "iata": [
-    "TW"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "트리니티항공, 국제선 예약 프로모션…현지 여행 혜택도 제공",
-   "sale_start": null,
-   "sale_end": "2026-11-13",
-   "travel_start": null,
-   "travel_end": "2027-01-31",
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "한국면세뉴스 요약문: …리니티항공은 오는 13일까지 공식 홈페이지와 모바일 앱·웹에서 '11월 더블 혜택 프로모션'을 운영한다고 2…",
-     "url": "http://www.kdfnews.com/news/articleView.html?idxno=190298"
-    },
-    "travel": {
-     "title": "한국면세뉴스 요약문: 국제선 노선으로, 탑승 기간은 일부 제외 기간을 빼고 2027년 1월 31일까지다.",
-     "url": "http://www.kdfnews.com/news/articleView.html?idxno=190298"
-    },
-    "discount": {
-     "title": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jRWlmZ0RTTzJxQkptMHhlQTUzbl9hM2ZCSDRyc2xJWVB1TWRYZFZHcXBLRnd5eGdKMTg5UXhjdzVrdUlWbGJoZkhVbw?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "25% 할인",
-   "verification": "news",
-   "first_published": "2026-11-02",
-   "last_published": "2026-11-02",
-   "first_seen": "2026-11-02T13:18:14+09:00",
-   "last_seen": "2026-11-02T15:50:37+09:00",
-   "articles": [
-    {
-     "title": "트리니티항공, 국제선 예약 프로모션…현지 여행 혜택도 제공",
-     "outlet": "한국면세뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OQnFDWnFJdmxOYnBlbHYyNVhSMXVDZFB2blQxNzR0Sm5Icmp5QmhrOGt3TDV3Qk01YmU0MC11SDdVT1lEV2o1M3J6MHk1MUJ4LXlTbTZSaHhYemdObENTSHhPbUZwRV80aVE?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공 국제선 25% 할인…13일까지 진행 : 기업·산업",
-     "outlet": "재경일보",
-     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5jRWlmZ0RTTzJxQkptMHhlQTUzbl9hM2ZCSDRyc2xJWVB1TWRYZFZHcXBLRnd5eGdKMTg5UXhjdzVrdUlWbGJoZkhVbw?oc=5",
-     "published": "2026-11-02"
-    }
-   ],
-   "status": "ended"
-  },
-  {
-   "id": "h-lotte-5b4b00fecb",
-   "airline_id": "h-lotte",
-   "airline": "롯데호텔",
-   "airlines_mentioned": [
-    "롯데호텔"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "[뉴스워커_롯데호텔앤리조트] 연말 호캉스 계획 있다면?…시그니엘 등 31곳 최대 38% 할인",
-   "sale_start": null,
-   "sale_end": "2026-11-13",
-   "travel_start": "2026-11-23",
-   "travel_end": "2027-03-31",
-   "routes": [],
-   "regions": [],
-   "conditions": [
-    "회원 전용"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "ER 이코노믹리뷰 요약문: 예약은 롯데호텔 공식 홈페이지에서 이달 13일까지 가능하다.",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=756443"
-    },
-    "travel": {
-     "title": "ER 이코노믹리뷰 요약문: 투숙 기간은 11월 23일부터 2027년 3월 31일까지다",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=756443"
-    },
-    "discount": {
-     "title": "[뉴스워커_롯데호텔앤리조트] 연말 호캉스 계획 있다면?…시그니엘 등 31곳 최대 38% 할인",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YR1htVGczQVEzNGFtSnY0XzNfTERLb3RORWU2X2pVaEFVaXdqRDRsa29PbHRBUTJLc2wyU0drbDFyNFVsZ2VUaXZNcndWTDBzRHJkNm1RMU9vaUdfeW5XVnJEN2dlVFQyNGtzSnpzUERuckQ20gF0QVVfeXFMTlhHWG1UZzNBUTM0YW1KdjRfM19MREtvdE5FZTZfalVoQVVpd2pENGxrb09sdEFRMktzbDJTR2tsMXI0VWxnZVRpdk1yd1ZMMHNEcmQ2bVExT29pR195bldWckQ3Z2VUVDI0a3NKenNQRG5yRDY?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 38%",
-   "verification": "news",
-   "first_published": "2026-11-09",
-   "last_published": "2026-11-09",
-   "first_seen": "2026-11-09T09:14:08+09:00",
-   "last_seen": "2026-11-09T13:18:13+09:00",
-   "articles": [
-    {
-     "title": "[뉴스워커_롯데호텔앤리조트] 연말 호캉스 계획 있다면?…시그니엘 등 31곳 최대 38% 할인",
-     "outlet": "뉴스워커",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YR1htVGczQVEzNGFtSnY0XzNfTERLb3RORWU2X2pVaEFVaXdqRDRsa29PbHRBUTJLc2wyU0drbDFyNFVsZ2VUaXZNcndWTDBzRHJkNm1RMU9vaUdfeW5XVnJEN2dlVFQyNGtzSnpzUERuckQ20gF0QVVfeXFMTlhHWG1UZzNBUTM0YW1KdjRfM19MREtvdE5FZTZfalVoQVVpd2pENGxrb09sdEFRMktzbDJTR2tsMXI0VWxnZVRpdk1yd1ZMMHNEcmQ2bVExT29pR195bldWckQ3Z2VUVDI0a3NKenNQRG5yRDY?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "롯데호텔도 '블프'…국내외 체인 큰 폭 할인",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lekx4WVJNV3Z3bHJXbkZ6SUFLdXdYMG5mWEI3WDM0aG1lSWRaX3RuQkJwY3Frb2gtdVlOeFJnUFRIaFcyWHVxN3ZwMG9DZVpEYVBZXzJlWnhfejB0NmpYcDRMb1VldU1lLXpzTQ?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "롯데호텔앤리조트, 회원전용 ‘플래시 딜’...최대 38% 할인",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sVmZwMWxaVi1iTFNsMkR4dEdZQnFOU250cjY5SmprY18xUUR1aFItMjE1Rk1BOHFpcUlmOFdYOTd3VTJMRk1PQi1YR0pFZ3BzODhHYmI5SzBwN2ZHaFIwY0dVbWNtUQ?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "\"연말 호텔 예약도 알뜰하게\" 롯데호텔앤리조트, 최대 38% 할인",
-     "outlet": "뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRVWs5d2lZWmtOVjJWeDlvWHl0UmFMTlVrRWxlTW0zenNZZW92YVVEMUhGUzJzcEZmZTVWUmNWSGpsWmZ6bjF3LW5tX1R5c093VHFTOFp6N0pONDFIMHhUTtIBeEFVX3lxTE9jMFRDamVZUU1NemNadzc2bkhnLVFUYmNCMUF0ZU9PUENfUHQ3RGVXWGdSaG1FUGgtaUFUbHlrY01oeUlmZHRfYWdoQmUxZjMwM1lHVEZaamp4cVh1bEFrNi15M1h0TkxHMzhOMEdaRjRGT2RPM0RxZQ?oc=5",
-     "published": "2026-11-09"
-    },
-    {
-     "title": "롯데호텔앤리조트, 블랙프라이데이 맞아 국내외 31개 호텔 최대 38% 할인",
-     "outlet": "뉴스1",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rYXI3UjJCZko1X0h5dThIQXE0VnJRVVlBa0syVWVrQncwWXBvV2JING5SVnQ3eFVCVzcwUG9VTXRVb0FmQlpzSjU0N1BYSF81NWg0b1VNTmV6blVMSmtj?oc=5",
-     "published": "2026-11-09"
-    }
-   ],
-   "status": "ended"
-  },
-  {
-   "id": "trinity-e94e178f89",
-   "airline_id": "trinity",
-   "airline": "트리니티항공",
-   "airlines_mentioned": [
-    "트리니티항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.twayair.com/",
-   "iata": [
-    "TW"
-   ],
-   "agencies": [],
-   "event_name": "11월 더블 혜택 프로모션",
-   "headline": "트리니티항공, 겨울철 해외여행 프로모션...국제선 항공권 최대 25% 할인",
-   "sale_start": null,
-   "sale_end": "2026-11-13",
-   "travel_start": "2026-11-01",
-   "travel_end": "2026-11-30",
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "트리니티항공, 13일까지 11월 항공권 할인 프로모션… 최대 25% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5iZTIxQW1OanptdjVlcFBkRy1qc010VE5WWFV6djBzUXFOM3hmWDNtZnNLLThEeHFEc0l3R3FjMWM4bWpkUEN0MDV0cmZPS3A2dzNueWlPOGhtX3pxaDVGZklmMlpLbXc?oc=5"
-    },
-    "travel": {
-     "title": "“항공권 최대 25% 할인”…트리니티항공, 11월 여행 특가",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzX3lLdHI0TWZZSWd6YlJuSTlzOEkzQlR3M054d3ZqcnFmYVFmSWZRaVd4WUdNeFllRTR6SWlhbXZYWHNBREdWMUNIOFVlejZyUWRpMWw4NjJZWTh4ZlcxdjRYdms?oc=5"
-    },
-    "discount": {
-     "title": "트리니티항공, 겨울철 해외여행 프로모션...국제선 항공권 최대 25% 할인",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fd1ZXdVJidkNUVEllMjF4R3dQWXpSeFgzRFQ0VUF5eElCbU1qTGNUd0FsYkcwV3RJVkZWRGJHMDk3QWxWRWdTemNjQThkdEFIeXFhd2F1QXBLX1ZHbkctd2hkNG1zbEFYN3FRSWNTRWlDQQ?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 25%",
-   "verification": "news",
-   "first_published": "2026-11-02",
-   "last_published": "2026-11-20",
-   "first_seen": "2026-11-02T09:14:06+09:00",
-   "last_seen": "2026-11-20T22:17:31+09:00",
-   "articles": [
-    {
-     "title": "트리니티항공, 겨울철 해외여행 프로모션...국제선 항공권 최대 25% 할인",
-     "outlet": "중앙이코노미뉴스",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fd1ZXdVJidkNUVEllMjF4R3dQWXpSeFgzRFQ0VUF5eElCbU1qTGNUd0FsYkcwV3RJVkZWRGJHMDk3QWxWRWdTemNjQThkdEFIeXFhd2F1QXBLX1ZHbkctd2hkNG1zbEFYN3FRSWNTRWlDQQ?oc=5",
-     "published": "2026-11-20"
-    },
-    {
-     "title": "국제선 최대 25% 할인…트리니티항공, 겨울 여행 프로모션 펼",
-     "outlet": "컨슈머타임스",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsNTFDQWJoTzNVc2lpVGhSc0ZnbkI3LWFnNVpMYnZBY3RqY0U3MVNvQ3dOMnZ1QmNjb2FNX25kVXRhZHctaGhXdU9CS0VhcmhNODFsNEJGeW9RaHlCcjU0VWRhYWV0ZVZrdmc?oc=5",
-     "published": "2026-11-20"
-    },
-    {
-     "title": "트리니티항공, 국제선 최대 25% 할인…3만원 쿠폰 추가 제공",
-     "outlet": "뉴스투데이",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBEZTg4ZzFaRTJYZUJaYUpGUGQwemtKYk9XX0JNYVdTMFJfdGc1QlFFN0NZQ2hQbVZ0MGhaY1NjM0NEV3BwNkZrWGNMc3lBZVFJV0VOTWxJM3AxNVhXUEE?oc=5",
-     "published": "2026-11-20"
-    },
-    {
-     "title": "트리니티항공, 수능 수험생·동반 1인 항공권 최대 25% 할인",
-     "outlet": "뉴스투데이",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYQWRnNUh1dnItME1GcmVDM0JCZ2pHazNlMWcyLUJ0V21VLW82RnZVdEhRbXNmYlhrcDBGakdSOFJWZjZaTEl6cURzMnV5d3dMenZERjFTNW9nT0RESkE?oc=5",
-     "published": "2026-11-13"
-    },
-    {
-     "title": "트리니티항공, 수능 수험생 항공권 최대 25% 할인...동반 1인도 혜택",
-     "outlet": "중앙이코노미뉴스",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBadG1aRkJ1QUh2cERRaFZPTWVoQmZhWlRQRnpzWjhPNkswUmtwSlM5cTNkMGtiSERmZ0VseklZdFM5RkZqXzNucHVCNWotY3N6X0VWRFRHNGlnQWdJMWRqX2M4SE12dmxZWXZ4YWU4a3lWUQ?oc=5",
-     "published": "2026-11-12"
-    },
-    {
-     "title": "트리니티항공, 수능 수험생 항공권 최대 25% 할인",
-     "outlet": "이코노미스트",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EcERLQzQtc21wRFVHTjdQWjBvdXBYb29mdjlzS3hjbjJILVdUWUJUNUJFZG56bkF0aXBacS1EQTZhX0lZQUVHVC1WRHBUN2RlNnVsT3A0aHhnbDNmN2hvdGxB?oc=5",
-     "published": "2026-11-12"
-    },
-    {
-     "title": "트리니티항공, 국제선 최대 25% 할인…최대 3만원 추가 혜택까지",
-     "outlet": "경북도민일보",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1USGpCM1YweG5ZWGtYTXpYRVd3OFJ6TWdKU3U1LWVhQVNSS1Z0MTBUQmdGYUlnd3Z3WXoxX2VkckhNZldFUU5MdzQ4ck0yczF4VjJfb2I1dXFCUVdVTlZ1Nm52Wmd3dzdibUE?oc=5",
-     "published": "2026-11-03"
-    },
-    {
-     "title": "트리니티항공, 11월 항공권 최대 25% 할인",
-     "outlet": "Chosunbiz",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd3NrQkh6U1BZREtVVnNUYWNfWGE5ZmhkMFlXTVAwcTNWb3laRzRIQWlucy1DSi1Ncy01bzllWjE5SkFhYUhPeVQ4WDZUbi1OUGVDaUxfRXlmM3g2TDNuRGtGQUJacHdieExibW1UZVE4TWRRMVZUenUzV3d5bk1fcENJem1XSWF2dHJCYWhPaWpqbGdFNHp0X9IBmAFBVV95cUxOd3NrQkh6U1BZREtVVnNUYWNfWGE5ZmhkMFlXTVAwcTNWb3laRzRIQWlucy1DSi1Ncy01bzllWjE5SkFhYUhPeVQ4WDZUbi1OUGVDaUxfRXlmM3g2TDNuRGtGQUJacHdieExibW1UZVE4TWRRMVZUenUzV3d5bk1fcENJem1XSWF2dHJCYWhPaWpqbGdFNHp0Xw?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 11월 가을 맞이 더블 혜택 프로모션…최대 25% 할인",
-     "outlet": "로이슈",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EdjBUaHl2SWU4NFI3QVBBYldBWEFIcGRJVkpWaG0yU0c3RENUUE5QbF9pUjlMZ082bDNGTEtwNkZMOTZsbkFYcXJyR1ZDTHNfcWN1SnZHRm5qb2daeHBNUl95UWxGYUlfY1pqV1pUMXhsaEEtWGVDR01n?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "“노선별 최대 25% 할인 혜택”..트리니티항공, 국제선 항공권 ‘더블 혜택’ 프로모션 실시",
-     "outlet": "데일리카",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHQUxOM1BXc19ELXNocTlHY1BaMGF0ZTFQZGJEbG5GN3EtSWtKZzFfMTBoU2M5MXIwV0tWSXlESWR3MGdUdGRCbldDcGxuempoRWRxd1ZmYmFmT3hnbS1BMDMtY1pmVnc4YnE2N0x5OVJnb0gwU3c?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 11월 국제선 노선 대상 프로모션 진행",
-     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lelExWnZMZTBBMEYyaUVLTXRqMVhsTThTcFJDSFFQSUlDdG5IWXpyU21Hak5ianpRV1ZWX1BSZC1oT3ljQkVLMkRPUDBuSmUwLXJZVGlsb0V0NnhMeE40VGVHMG1BTUZuTFB6ZjlDOHpoZw?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 11월 맞이 국제선 할인 행사...내년 1월까지 탑승 가능",
-     "outlet": "중앙이코노미뉴스",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55bVBiSUpmOUxzaEJEcWotM1owbWVuVzBlRV85QkRzVEtJbHlXM0FaNC1XLTM2UUV5SzcxTEpmTll1TmxIVGQyQWVJbVV5cnU4X1d3bm14WlVkS3k5a0lmanBtYlZIb2RoV2dwME9Za003Zw?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 국제선 할인 프로모션 펼쳐",
-     "outlet": "메가경제",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wck4tT2ZuZUtNTVlyT1J1Rk9MRk1JTzNROVp4aG1IeVpuTENlbGRNbzFoQ2lHVnZBNTJfbnZseGZWdTZ3X3BkdEpjcmxvQlJCUWhxWGZjLTZuNUNzWmhVbHlRVUs0eUxMallxVGdtLUhsZ9IBckFVX3lxTE1wck4tT2ZuZUtNTVlyT1J1Rk9MRk1JTzNROVp4aG1IeVpuTENlbGRNbzFoQ2lHVnZBNTJfbnZseGZWdTZ3X3BkdEpjcmxvQlJCUWhxWGZjLTZuNUNzWmhVbHlRVUs0eUxMallxVGdtLUhsZw?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 국제선 최대 25% 할인…3만원 중복 쿠폰 제공",
-     "outlet": "포인트데일리",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53N2FsQ0hjYTEtQXBoR3pGaWhJLUYyNXJPYXBfODRIYlpPVFBWU01lYzlXbHY3M1V5NnhQd2ZUelZFUnNnVkZLUUM1V3YxTk8tWHpXQy1VV3Y4MnptNFVYWkUzcUI2OElTQmlDbWMtUWXSAXRBVV95cUxNMU5mR3VPUVRZWjlJSzVub1NZcV9rLWRWZVNjUzBRRFhfa2hvVG14a1BxSnJ1RGlHcWFjYkJ2STNhdUFJSEtva2s3MkppQVZFallrWEstR19NZHhoZ1ZyTlAtVXNGei1qZEtmZUtNTUZ6MUpHVw?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 11월 국제선 프로모션…최대 25% 할인",
-     "outlet": "인사이트코리아",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LbTdoLURjTl9VZnR0eWRZSkxuVjZMRjlqTlBDRnRBVk9LYTRTREh6T1QydFBnOHAzOFQ2NWZnYUg0QkpoYi1lVlE5TjBKYzZBa1lGNHQyUWw4SF9nN0FvV2RvSkdic3FpR29CbldLTHBOOGPSAXdBVV95cUxPM3dXdllkOUJPLV9OVmNDbUZaODNBQzFuUXQyRktvaDlRVDdhdjJLVzMtZF9Zel9qN2NoRG5DSEhoRTUwck9ISFN1MnVUa0t3enROY1NmR1YzOVlHbnZHb1ZyOHZPQzFsdUZYZ3N4N293cjNFRnVxMA?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 국제선 항공권 최대 25% 할인···추가 쿠폰 3만원 제공",
-     "outlet": "뉴스프리존",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44eGZvQW1XMk1kYmN6WnRaeGtkWV8zS1loTFdsanA3RTB3Zjg2UlhQeWZiR1VRUnZ2aG92ZFlya1R2NXpWbHR0dFNrTmY1RURqR0hFU1BFZndUWGpJX3kzNXFZaHJVRFV0VnBhcjU2SWNOME3SAXdBVV95cUxNUXYwR0lWc0R4Q3NHNUZNbTlNZElMRTlhWGVBU0ZmVlU2Y1FzQ0FNaVY4ckE4SjdqbDdxdDFaXzhaSkZFdjEwREExNS1Mc2lhbnF6R3o1LWZVQzBqNW9rSHBVNzdQWm5Ocmo4cEF0U1hEYUxicHphNA?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "해외여행 망설였다면 지금…트리니티항공, 항공권 할인에 쿠폰까지",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQdktZSnZzWXNRa3ZLclF6ZC1YZUNWSktzc0hMV2d5RDgwTnZqM2hwT3RtWmtTY1BCRlBTQlJpanVUVTlmNi1iVXNyaXBLSDVEMFVZVzlkOUdyU00zUHg0WG1YUDdfX3hkOFZwbg?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 가을 프로모션 진행... 국제선 최대 25% 할인",
-     "outlet": "뉴스락",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jQWkyaWFNQ1lVenRaMUlxNUI0dE9aUW9XOGYxdEoyT1BkdUZ3VWxuWGRwbUpJZzJ6M1FQRFlJUGs1NGlFNE8zbkZueTZGN2ZkWmxUblNhVUFpRTFENmFPNVA3eFJqU1hYUDVqLQ?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 국제선 최대 25% 할인···최대 3만원 쿠폰 중복 적용",
-     "outlet": "스마트비즈",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YTXJwZ0FoN21ReEx0X0ozTHdrcWc2Z1NEbWtFNHZuWVFrWVdsWHRRUTcwWnItcTZiZU1ydmZYVGd6akdTc2FPNnV6T1A3WXhvMXl6QWp6OTctaENLQWxyVHpHOS0tQk0wX0lBZw?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 11월 '더블 혜택' 행사 '최대 25% 할인'",
-     "outlet": "컨슈머타임스",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84TXMzM2t3TTdPdExEbDFTNzl2cmFnNnFTcW1hUHdBTXYxVG91WUdjLWpJWXBIUWxQOVdpV1JmRUJMWVNEQjY3RTZLRmdmbTBKTEZ2TU03bHZ5ZkE3OW9QYl91cTAtUUFnbVE?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, ‘더블 혜택 프로모션’…국제선 최대 25% 할인",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JYXhVSTFDSldYWGdERDJzNk1OemFvWjFKbk8xTlpDTWNCSU5UMkVzemtYekVTNTJ6VnkyeTZKd2FvTGF0Y0FkX2tZVzFJdXVTYTFNMXJmWXlmX2dRZWVZbFNwRFktdw?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "“항공권 최대 25% 할인”…트리니티항공, 11월 여행 특가",
-     "outlet": "서울경제TV",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzX3lLdHI0TWZZSWd6YlJuSTlzOEkzQlR3M054d3ZqcnFmYVFmSWZRaVd4WUdNeFllRTR6SWlhbXZYWHNBREdWMUNIOFVlejZyUWRpMWw4NjJZWTh4ZlcxdjRYdms?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 13일까지 11월 항공권 할인 프로모션… 최대 25% 할인",
-     "outlet": "충북뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5iZTIxQW1OanptdjVlcFBkRy1qc010VE5WWFV6djBzUXFOM3hmWDNtZnNLLThEeHFEc0l3R3FjMWM4bWpkUEN0MDV0cmZPS3A2dzNueWlPOGhtX3pxaDVGZklmMlpLbXc?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 가을 맞이 '더블 혜택' 프로모션…”최대 25% 할인\"",
-     "outlet": "팍스경제TV",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40RDF6TVRPUjNGQW5HNHRLd293OUV5a3VsZVAtVmFaWE9fVUk3R25IR1BDWGxsZTR3dWduVWhiOF9pNHBnYm53UTdMbTNpNExWcUwybGtvNEpQXzJhcTJhYl9LNDJudjQ?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공 '11월 더블 혜택 프로모션'…최대 25%↓",
-     "outlet": "뉴시스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nUldVUFlXOFlFLXZBT1Z6QzlnMzVqWURBN2Jua21FeUtMNTZUeU44MldfXzR1NlhSeDBNNXFMd2prbE5XaV9wcHBWUmU4M0FZeVg5RDYzaTBiZkN3elNnMtIBeEFVX3lxTE5OaFUwNkFQWVp0anVoRVhGTEt1eVNIS1NoaDlaUzM0ZTlyQ2ZxcUxLa0FEQzNkUHZoRy0zU0dvdTdrU282Q1hhZWlneVVkdXZCV1hqTmVxMUhRNHhKVFNKWThQemE2QWJxX1NKVDJFTHdITUNvWVFpWA?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 국제선 항공권 최대 25% 할인 행사",
-     "outlet": "경상매일신문",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iWVB3M0Z6aVgtYm53WU5YUmhETUZHVXZYeWhzeEFzRWJCUmpLeUJzVW14d0huN25xLUJ6R0poNmVqbWFuSG9uTzNGSllUMkw1N0t5TlI1OEhVeXFpMEJv?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 11월 맞이 국제선 최대 25% 할인 프로모션",
-     "outlet": "경북매일",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiZzUzd2hQMUxxWlNVeXFwQmMwWDRnZjhxMTFxOVhzV3YzeW9qc283ajFJdHc4eFVyUnVwb1pzeW1HYlp3dy1oVnIxNmF0NGpyS1RvemI5bWt1dw?oc=5",
-     "published": "2026-11-02"
-    },
-    {
-     "title": "트리니티항공, 11월 국제선 항공권 최대 25% 할인 프로모션",
-     "outlet": "경북신문",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQQjRpNUtNT3VPMm5IUGtYXy1xR3pWZHVKV3FDYnZBMW9fVlRva0tMekZvMWtFczhROEZjd1pVclFXYVU3WWZIRVNlSTFZaFRJejlVRFNRNnM?oc=5",
-     "published": "2026-11-02"
     }
    ],
    "status": "ended"
