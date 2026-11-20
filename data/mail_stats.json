@@ -1,10 +1,10 @@
 {
- "checked_at": "2026-11-20T13:18:13+09:00",
+ "checked_at": "2026-11-20T16:45:31+09:00",
  "days": 21,
- "searched": 18,
+ "searched": 19,
  "sender:스카이스캐너": 3,
- "checked": 18,
- "no_facts": 10,
+ "checked": 19,
+ "no_facts": 11,
  "no_facts:스카이스캐너": 3,
  "sender:에어부산": 7,
  "no_facts:에어부산": 4,
@@ -23,5 +23,7 @@
  "accepted:홍콩익스프레스": 1,
  "accepted:핀에어": 1,
  "no_facts:홍콩익스프레스": 1,
+ "sender:피치항공": 1,
+ "no_facts:피치항공": 1,
  "kept": 11
 }

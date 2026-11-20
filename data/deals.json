@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T13:18:17+09:00",
+ "generated_at": "2026-11-20T16:45:34+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 0,
-  "rss_items": 1957,
+  "failed_queries": 3,
+  "rss_items": 2061,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2175,
-  "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_items": 2087,
+  "outlet_new_articles": 1,
+  "outlet_enriched": 1,
   "mail_articles": 11,
   "mail_new_articles": 0,
-  "articles_with_summary": 73,
-  "articles": 870,
-  "new_articles": 2,
-  "deals": 186
+  "articles_with_summary": 75,
+  "articles": 880,
+  "new_articles": 10,
+  "deals": 188
  },
  "deals": [
   {
@@ -875,9 +875,9 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "에어로케이 블프 특가, 16일부터 17개 노선 최대 98% 할인",
+   "headline": "에어로케이 항공권 1+1 이벤트, 일본 왕복항공권 무료 응모 방법·11월 27일 마감 확인하세요 > 뉴스",
    "sale_start": "2026-11-16",
-   "sale_end": null,
+   "sale_end": "2026-11-27",
    "travel_start": null,
    "travel_end": null,
    "routes": [],
@@ -886,8 +886,8 @@
    "conflicts": [],
    "evidence": {
     "sale": {
-     "title": "에어로케이 블프 특가, 16일부터 17개 노선 최대 98% 할인",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pS1AwX0hYOWdKQTFEUU43OEtYWURTbktOMlB0MWlnN0xYYlh1UXgzeUhyT25NQlFfNU5jbEw4X0JhM19xZnRIdUlEMEl6REhoRWxTemR4Mm56N3l5TzA5aER1SDkxSWhzekhz?oc=5"
+     "title": "에어로케이 항공권 1+1 이벤트, 일본 왕복항공권 무료 응모 방법·11월 27일 마감 확인하세요 > 뉴스",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1icV9ralBpV2JUNk93ZFd0V2RQQUNqMWNfMmpnclFPTi05bE5rZ1dvN2RPRkdqcjM4R244Z1dfWVN4dHdsS2p6RWtfNDdYT281WkVRbU83TzRpMVpnclMyeDdmajBXdDJSNmNwQVc4S0trbkVlNHQtWW9RWFg?oc=5"
     },
     "discount": {
      "title": "에어로케이 블프 특가, 16일부터 17개 노선 최대 98% 할인",
@@ -900,8 +900,14 @@
    "first_published": "2026-11-12",
    "last_published": "2026-11-16",
    "first_seen": "2026-11-13T13:18:17+09:00",
-   "last_seen": "2026-11-16T22:17:33+09:00",
+   "last_seen": "2026-11-20T16:45:34+09:00",
    "articles": [
+    {
+     "title": "에어로케이 항공권 1+1 이벤트, 일본 왕복항공권 무료 응모 방법·11월 27일 마감 확인하세요 > 뉴스",
+     "outlet": "진해신문",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1icV9ralBpV2JUNk93ZFd0V2RQQUNqMWNfMmpnclFPTi05bE5rZ1dvN2RPRkdqcjM4R244Z1dfWVN4dHdsS2p6RWtfNDdYT281WkVRbU83TzRpMVpnclMyeDdmajBXdDJSNmNwQVc4S0trbkVlNHQtWW9RWFg?oc=5",
+     "published": "2026-11-16"
+    },
     {
      "title": "에어로케이 블프 특가, 16일부터 17개 노선 최대 98% 할인",
      "outlet": "https://www.diarypoint.com/",
@@ -1033,7 +1039,7 @@
    ],
    "agencies": [],
    "event_name": "블랙프라이데이",
-   "headline": "트리니티항공, 국제선 블랙프라이데이 특가…최대 4만원 쿠폰",
+   "headline": "겨울철 여행 부담 줄인다···트리니티항공, 30일까지 특가 진행",
    "sale_start": "2026-11-16",
    "sale_end": "2026-11-30",
    "travel_start": null,
@@ -1046,8 +1052,8 @@
    ],
    "evidence": {
     "sale": {
-     "title": "트리니티항공, 16~30일 ‘국제선 블랙프라이데이’ 프로모션 진행",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HZDdoOElCZzdWdk9Sd2Z3QWFIWi1IMVVTYlpJZ2FrTTk3bzBhZHJPMi1JdTN2OFN3N3hoQzV3azFwZ0ZWRGNpY1BLaFg3azVKSVVqQm1hY3Z1azAxZkxpelZvYWhzeFB4cTI4eGtncGxYaGfSAXdBVV95cUxOY0pvaklnemw1OElGZUlGNV9LbFdSYWRCdUpsaUpPSktiamYtMHpvR1F4RHlNV3NWRGRzRk1TQkMxZW45NHkyRlVQdXV2M054MUUtbmhuc1k2TnBRSVlleDdKclJRNmo3Yk42S2lYWmxEWHA0TFJiOA?oc=5"
+     "title": "겨울철 여행 부담 줄인다···트리니티항공, 30일까지 특가 진행",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GOU5ucVkwRUF4dHVzNE9ybnpmYV96OGtITW8tZjdPbWN5Y0REVmIwUlppWGVrRE12cEFZTEtSWWtRRUxlS0NzRW4wUllCaWpUamdSSE5NMk0xTkE3V1lSZEp5Y1c4amtyLVBnc1h2QlDSAXRBVV95cUxPNS01WGZ1UTkyTUlwWHdIenBDVGwyS2lObC1SSFNhZ05PbDJUZkFEeUUwYUs4UG40UGpHSzU0NF9mRjAtbzJwTDJDVXhJNEoxUmJPaEJmR1EzRmM2Mlp5M1Ffb2FaZWFDOFJveGJNVWsyZ3pITw?oc=5"
     },
     "discount": {
      "title": "ER 이코노믹리뷰 요약문: 노선에서는 추가 할인 이벤트도 진행하고 결제 금액별로 최대 4만원 할인 쿠폰도 제공한다.",
@@ -1058,10 +1064,22 @@
    "discount": "최대 4만원 할인",
    "verification": "news",
    "first_published": "2026-11-16",
-   "last_published": "2026-11-17",
+   "last_published": "2026-11-20",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-17T04:51:37+09:00",
+   "last_seen": "2026-11-20T16:45:34+09:00",
    "articles": [
+    {
+     "title": "겨울철 여행 부담 줄인다···트리니티항공, 30일까지 특가 진행",
+     "outlet": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GOU5ucVkwRUF4dHVzNE9ybnpmYV96OGtITW8tZjdPbWN5Y0REVmIwUlppWGVrRE12cEFZTEtSWWtRRUxlS0NzRW4wUllCaWpUamdSSE5NMk0xTkE3V1lSZEp5Y1c4amtyLVBnc1h2QlDSAXRBVV95cUxPNS01WGZ1UTkyTUlwWHdIenBDVGwyS2lObC1SSFNhZ05PbDJUZkFEeUUwYUs4UG40UGpHSzU0NF9mRjAtbzJwTDJDVXhJNEoxUmJPaEJmR1EzRmM2Mlp5M1Ffb2FaZWFDOFJveGJNVWsyZ3pITw?oc=5",
+     "published": "2026-11-20"
+    },
+    {
+     "title": "트리니티항공, 11~1월 출발 국제선 할인 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DdFRoT3FSc091MEhUTXlncllQbHJ1MlpoWlJBczU4NzVJVVRPUWZZMWg1TmZXTlpFRl9LS3lGd01DOFZpNF8zN1R3RzhBVTZtSjItaGsxc29oQVVpNlQtQ25PNzFyUQ?oc=5",
+     "published": "2026-11-20"
+    },
     {
      "title": "트리니티항공, 국제선 블랙프라이데이 특가…최대 4만원 쿠폰",
      "outlet": "뉴스투데이",
@@ -1730,6 +1748,74 @@
    "status": "live"
   },
   {
+   "id": "trinity-61f311ef43",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "트리니티항공, 국제선 항공권 최대 25% 할인···오는 30일까지 판매",
+   "sale_start": null,
+   "sale_end": "2026-11-30",
+   "travel_start": null,
+   "travel_end": "2027-01-31",
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트리니티항공, 국제선 항공권 최대 25% 할인···오는 30일까지 판매",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vZVIxU0tHMGVZVWZzLXJ1SUF5VjNpRDRHc0VSUXJFc0RXd2hDQXpJa3VDN0ZBSzNaZmZoazNBM2hMZjR1Mi1wQ3piVy1Wd3ZIYkFiT21mLUZoNnAySDNfZmNqamx3MUUzY2xYSnhYRlZ3UzTSAXdBVV95cUxPSzBzd2w1WlQ1MUJvd19qNVEza3E5d2tHTEdtWGZEemd3Q2pvb1ptX0VCdzZydUo3aGc1bGlYblAxRDNLTlBRTGZPLUF5M3VPUWFkdnIwZzBpMGpvSElCdV90T25YVTIybFFOU3JxTHlON3B3al9hbw?oc=5"
+    },
+    "travel": {
+     "title": "한국면세뉴스 요약문: 할인 대상 항공편의 탑승 기간은 일부 기간을 제외한 2027년 1월 31일까지다.",
+     "url": "http://www.kdfnews.com/news/articleView.html?idxno=191195"
+    },
+    "discount": {
+     "title": "트리니티항공, 국제선 항공권 최대 25% 할인···오는 30일까지 판매",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vZVIxU0tHMGVZVWZzLXJ1SUF5VjNpRDRHc0VSUXJFc0RXd2hDQXpJa3VDN0ZBSzNaZmZoazNBM2hMZjR1Mi1wQ3piVy1Wd3ZIYkFiT21mLUZoNnAySDNfZmNqamx3MUUzY2xYSnhYRlZ3UzTSAXdBVV95cUxPSzBzd2w1WlQ1MUJvd19qNVEza3E5d2tHTEdtWGZEemd3Q2pvb1ptX0VCdzZydUo3aGc1bGlYblAxRDNLTlBRTGZPLUF5M3VPUWFkdnIwZzBpMGpvSElCdV90T25YVTIybFFOU3JxTHlON3B3al9hbw?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-11-20",
+   "last_published": "2026-11-20",
+   "first_seen": "2026-11-20T16:45:34+09:00",
+   "last_seen": "2026-11-20T16:45:34+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공, 국제선 항공권 최대 25% 할인···오는 30일까지 판매",
+     "outlet": "뉴스프리존",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vZVIxU0tHMGVZVWZzLXJ1SUF5VjNpRDRHc0VSUXJFc0RXd2hDQXpJa3VDN0ZBSzNaZmZoazNBM2hMZjR1Mi1wQ3piVy1Wd3ZIYkFiT21mLUZoNnAySDNfZmNqamx3MUUzY2xYSnhYRlZ3UzTSAXdBVV95cUxPSzBzd2w1WlQ1MUJvd19qNVEza3E5d2tHTEdtWGZEemd3Q2pvb1ptX0VCdzZydUo3aGc1bGlYblAxRDNLTlBRTGZPLUF5M3VPUWFkdnIwZzBpMGpvSElCdV90T25YVTIybFFOU3JxTHlON3B3al9hbw?oc=5",
+     "published": "2026-11-20"
+    },
+    {
+     "title": "트리니티항공, 겨울 여행 수요 겨냥…국제선 할인 프로모션",
+     "outlet": "한국면세뉴스",
+     "url": "http://www.kdfnews.com/news/articleView.html?idxno=191195",
+     "published": "2026-11-20"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "h-other-b419f023c1",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -1804,7 +1890,7 @@
    "official_url": "https://nol.yanolja.com/",
    "iata": [],
    "agencies": [],
-   "event_name": null,
+   "event_name": "항공·숙박·액티비티 할인",
    "headline": "NOL, 오카야마현과 여행 기획전…항공권 최대 5만원 할인",
    "sale_start": null,
    "sale_end": "2026-12-09",
@@ -1836,7 +1922,7 @@
    "first_published": "2026-11-20",
    "last_published": "2026-11-20",
    "first_seen": "2026-11-20T09:14:05+09:00",
-   "last_seen": "2026-11-20T13:18:17+09:00",
+   "last_seen": "2026-11-20T16:45:34+09:00",
    "articles": [
     {
      "title": "NOL, 오카야마현과 여행 기획전…항공권 최대 5만원 할인",
@@ -1848,6 +1934,12 @@
      "title": "NOL, 일본 오카야마 여행 기획전...항공권 최대 5만원 할인",
      "outlet": "우먼타임스",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLTVhCemgtTzJSaEhPX2NUV2x5WUZ4NFZfSk1ZWHJUWXZpcjFyZkg0VEhBcmdDR0N6V0hyZGFPOEF2TEQxSHF3Nm1tWUxjYXFFUGxhemRqY1pFaEJWYVZlTVU4Q2p2VnlWTjU2d1RJVmrSAXRBVV95cUxOSktFZzFHdFlCY09JVDkzOHk0WGp5azN2ekR4ZUNHOWhFdkVsd3NPVFlYLXFQVDZ5OVVaQi16NVA3a2FsMFFORjdYUlM2cGZKMDh2VWJ6R2g4ZVBiV2c4V2NfcUQtSko4bzZkTkp5c2loNXRMbQ?oc=5",
+     "published": "2026-11-20"
+    },
+    {
+     "title": "NOL, 日 오카야마 여행 기획전…\"항공·숙박·액티비티 할인\"",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9EYTdpUFl5X28wSURVdktiY3JGUnR0dDlRdUhCaGVwbDR1M3BCR3o4RzBYcklHSGhKcjJhUUR5Ty1YbmxBeTVweU9nTE9wSGxxNkw3MnI5YXV5N2pCd09VLUE4VGt1QWZ3dkFN?oc=5",
      "published": "2026-11-20"
     },
     {
@@ -5437,7 +5529,7 @@
    "first_published": "2026-11-12",
    "last_published": "2026-11-15",
    "first_seen": "2026-11-12T16:43:47+09:00",
-   "last_seen": "2026-11-15T09:14:09+09:00",
+   "last_seen": "2026-11-20T16:45:34+09:00",
    "articles": [
     {
      "title": "[하늘길] 11월 3주, '수험생' 항공권 25% 할인…트리니티 외 3가지 항공",
@@ -5449,6 +5541,12 @@
      "title": "수학능력 치른 '수험생' 할인 혜택···트리니티항공, 전 노선 대상 진행",
      "outlet": "이뉴스투데이",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfbjlScVVCVkd5UVIyY0FwOXlFdGptTVV0QlQyemk0bXpjQUtLckEyWnIycHl6WlBPYlFqalVJdFJ0RGMzai1ZMUQ0ODlaRTRpR19GTzg0aHdteEZPUDRLYjBGSW5oQndWWVFRUm5tNkfSAXRBVV95cUxONkhEemhlREoxRkpOUnBvRjJXMDJ2Zng3Q3Y0ejlQX0hRSXRFZDA0UVhZXzdCUl9KYWZZdy0xTkVKYjU4bkppZWVtemgzVDJ0eF9oSW4wREdzNENMTGRveEZiV3M0M05pZ0ZZcDhfYXUwXzFmeA?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "트리니티항공, 2027학년도 수능 할인 프로모션 실시",
+     "outlet": "뉴스드림",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1EXzR6b2RLeUZWTVlpUk85Rl9nTTVDSGVlS3IzZjJ3bzNselVyUXk5NTJ4V1hERnpTTEd3dU9NdUdzVFctbGR3M3dLVlU5aXhDeE5wOXFSYTNscnhQNzFQcXhZRE1ic0htdVHSAW5BVV95cUxNWmRsdDlsSTk1Ml82LXNnNlNTaTMxM2dYdURWN2NFZHYwU2EzQS1qZktFelJsX2x4TkQwdlBzZlYtbkVJT1YyWDNxaGRyeTRYWmE3X2NmcXNrcFJCWENPZ1RTbzdrQXFPLTlydENLQQ?oc=5",
      "published": "2026-11-12"
     },
     {
@@ -7935,6 +8033,59 @@
      "outlet": "The Sun",
      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRFFMTnZJZDExMDdORlVuZDZLT1NZX2ZiRENSVkROR3J4cG5vT0I4ZnFmdDIwbG9UcXZ5SDJ1cWV5aTZOQWxFZlhWSHdpWk1QSFkyY2poSmlIZmFrMkJoQm9SeXpYUXFjVm5JVVY4ZDdNWVVBenpaVGpFOEhWdk5KME5LVXRLa1ZYc3Zfb3lRUzl1Yzg?oc=5",
      "published": "2026-11-19"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "multi-e3b754bb09",
+   "airline_id": "multi",
+   "airline": "여러 항공사",
+   "airlines_mentioned": [
+    "이스타항공",
+    "트리니티항공"
+   ],
+   "kind": "mixed",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "“수험표 한 장으로 항공권 25% 할인”…제주·이스타·트리니티항공 비교",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "“수험표 한 장으로 항공권 25% 할인”…제주·이스타·트리니티항공 비교",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vMTV6WXJaVC1vbzJVdVd6Z1JacGFER091aG5oRkpGeE1qUDJhOWJITkZwempLTVhNb1RqaFBRMmhzOXJBMy0yTlBTVlZ1VUdHb1dDRUxNbzRQV2lfbExOYktmUjhkMWdwQm5SWmRxVFVzNTVkeEpUSF95NU85N2s?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "25% 할인",
+   "verification": "news",
+   "first_published": "2026-11-20",
+   "last_published": "2026-11-20",
+   "first_seen": "2026-11-20T16:45:34+09:00",
+   "last_seen": "2026-11-20T16:45:34+09:00",
+   "articles": [
+    {
+     "title": "“수험표 한 장으로 항공권 25% 할인”…제주·이스타·트리니티항공 비교",
+     "outlet": "뉴스와",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vMTV6WXJaVC1vbzJVdVd6Z1JacGFER091aG5oRkpGeE1qUDJhOWJITkZwempLTVhNb1RqaFBRMmhzOXJBMy0yTlBTVlZ1VUdHb1dDRUxNbzRQV2lfbExOYktmUjhkMWdwQm5SWmRxVFVzNTVkeEpUSF95NU85N2s?oc=5",
+     "published": "2026-11-20"
     }
    ],
    "status": "undated"
