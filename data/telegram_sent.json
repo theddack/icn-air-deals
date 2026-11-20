@@ -4317,13 +4317,105 @@
    "kinds": {
     "new": "2026-11-19"
    }
+  },
+  "h-nol-633179abfa": {
+   "info": {
+    "airline": "h-nol",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-12-09",
+    "dests": [],
+    "last": "2026-11-20",
+    "urls": [
+     "633179abfa"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-20"
+   }
+  },
+  "h-lotte-cd7e1876b6": {
+   "info": {
+    "airline": "h-lotte",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-16",
+    "urls": [
+     "cd7e1876b6"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-20"
+   }
+  },
+  "h-other-59332d8130": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-17",
+    "urls": [
+     "59332d8130"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-20"
+   }
+  },
+  "h-other-09c3b617c2": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-17",
+    "urls": [
+     "09c3b617c2"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-20"
+   }
+  },
+  "h-accor-91fa952ec3": {
+   "info": {
+    "airline": "h-accor",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-20",
+    "urls": [
+     "91fa952ec3"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-20"
+   }
+  },
+  "h-other-a5bfb84dbe": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-20",
+    "urls": [
+     "a5bfb84dbe"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-20"
+   }
   }
  },
  "slots": {
-  "2026-11-12": {
-   "morning": "sent",
-   "evening": "sent"
-  },
   "2026-11-13": {
    "morning": "sent",
    "evening": "sent"
@@ -4351,10 +4443,13 @@
   "2026-11-19": {
    "morning": "sent",
    "evening": "sent"
+  },
+  "2026-11-20": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-11-20T03:36:50+09:00",
- "drops_day": "2026-11-19",
+ "saved_at": "2026-11-20T09:18:58+09:00",
+ "drops_day": "2026-11-20",
  "drops": {
   "BKK": {
    "price": 411600,
