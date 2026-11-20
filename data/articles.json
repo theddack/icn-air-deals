@@ -7339,5 +7339,42 @@
     "travel": "할인 대상 항공편의 탑승 기간은 일부 기간을 제외한 2027년 1월 31일까지다."
    }
   }
+ },
+ {
+  "title": "트리니티항공, 국제선 최대 25% 할인…3만원 쿠폰 추가 제공",
+  "outlet": "뉴스투데이",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBEZTg4ZzFaRTJYZUJaYUpGUGQwemtKYk9XX0JNYVdTMFJfdGc1QlFFN0NZQ2hQbVZ0MGhaY1NjM0NEV3BwNkZrWGNMc3lBZVFJV0VOTWxJM3AxNVhXUEE?oc=5",
+  "published": "2026-11-20",
+  "first_seen": "2026-11-20T18:16:06+09:00"
+ },
+ {
+  "title": "트리니티항공, 국제선 최대 25% 할인…겨울 여행객 공략",
+  "outlet": "신아일보",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9INVQ5SkttSm16cl93QUFJUVh4ZWtOOFVrSE5MMmlZSEEycFFHZUh2TnZabnNiQ3Fvcmx5NHBBSVo2MU5jNmdXY25HbXhjTUw1NlBLYlFoYzRacWxDZHpWODRCU2N5S1U5R0pFLXhqTHk?oc=5",
+  "published": "2026-11-20",
+  "first_seen": "2026-11-20T18:16:06+09:00",
+  "summary_facts": {
+   "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5085968",
+   "outlet": "신아일보",
+   "fields": {
+    "discount": "최대 25%",
+    "sale_start": null,
+    "sale_end": "2026-11-30",
+    "travel_start": null,
+    "travel_end": "2027-01-31"
+   },
+   "evidence": {
+    "discount": "…11월부터 내년 1월까지 출발하는 국제선 항공권을 최대 25% 할인하는 프로모션을 진행한다고 20일 밝혔다.…",
+    "sale": "이번 프로모션은 30일까지 트리니티항공 공식 홈페이지와 모바일 앱(웹)에서 진행된다.",
+    "travel": "탑승 기간은 일부 기간을 제외한 내년 1월31일까지다."
+   }
+  }
+ },
+ {
+  "title": "트리니티항공, 태국 주요 노선 할인 프로모션 진행",
+  "outlet": "메가경제",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PQmljRS1YU3ZvMHpKd3hYVklQWnBBckNudDZOV0ZZQTRZMFEyVV9VN1pFaTFZSlBIMHl3bnpvY3BqVEtiVHFpWWdYOGZaWGRxdlpzYjM4ZW93VzZHbDdQNE1IZjllVmhTd2Q5THkzWVEtQdIBckFVX3lxTE9PQmljRS1YU3ZvMHpKd3hYVklQWnBBckNudDZOV0ZZQTRZMFEyVV9VN1pFaTFZSlBIMHl3bnpvY3BqVEtiVHFpWWdYOGZaWGRxdlpzYjM4ZW93VzZHbDdQNE1IZjllVmhTd2Q5THkzWVEtQQ?oc=5",
+  "published": "2026-11-17",
+  "first_seen": "2026-11-20T18:16:06+09:00"
  }
 ]
