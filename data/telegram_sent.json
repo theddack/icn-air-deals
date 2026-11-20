@@ -4379,24 +4379,6 @@
     "new": "2026-11-20"
    }
   },
-  "h-nol-d3ee24981d": {
-   "info": {
-    "airline": "h-nol",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-12-09",
-    "dests": [],
-    "last": "2026-11-20",
-    "urls": [
-     "633179abfa",
-     "b10b511cfa",
-     "d3ee24981d"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-20"
-   }
-  },
   "h-ihg-7d127a9c15": {
    "info": {
     "airline": "h-ihg",
@@ -4452,6 +4434,26 @@
    "kinds": {
     "new": "2026-11-20"
    }
+  },
+  "h-nol-f2585efd6f": {
+   "info": {
+    "airline": "h-nol",
+    "name": "항공숙박액티비티할인",
+    "sale_start": null,
+    "sale_end": "2026-12-09",
+    "dests": [],
+    "last": "2026-11-20",
+    "urls": [
+     "10d54d1af5",
+     "633179abfa",
+     "b10b511cfa",
+     "d3ee24981d",
+     "f2585efd6f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-20"
+   }
   }
  },
  "slots": {
@@ -4488,7 +4490,7 @@
    "evening": "sent"
   }
  },
- "saved_at": "2026-11-21T02:58:07+09:00",
+ "saved_at": "2026-11-21T03:05:21+09:00",
  "drops_day": "2026-11-20",
  "drops": {
   "BKK": {
