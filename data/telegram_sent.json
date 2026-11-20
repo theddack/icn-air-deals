@@ -4318,22 +4318,6 @@
     "new": "2026-11-19"
    }
   },
-  "h-nol-633179abfa": {
-   "info": {
-    "airline": "h-nol",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-12-09",
-    "dests": [],
-    "last": "2026-11-20",
-    "urls": [
-     "633179abfa"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-20"
-   }
-  },
   "h-lotte-cd7e1876b6": {
    "info": {
     "airline": "h-lotte",
@@ -4413,6 +4397,24 @@
    "kinds": {
     "new": "2026-11-20"
    }
+  },
+  "h-nol-d3ee24981d": {
+   "info": {
+    "airline": "h-nol",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-12-09",
+    "dests": [],
+    "last": "2026-11-20",
+    "urls": [
+     "633179abfa",
+     "b10b511cfa",
+     "d3ee24981d"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-20"
+   }
   }
  },
  "slots": {
@@ -4448,7 +4450,7 @@
    "morning": "sent"
   }
  },
- "saved_at": "2026-11-20T09:18:58+09:00",
+ "saved_at": "2026-11-20T13:23:01+09:00",
  "drops_day": "2026-11-20",
  "drops": {
   "BKK": {
