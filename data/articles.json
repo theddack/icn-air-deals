@@ -7421,5 +7421,59 @@
   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xUUo4aHd5R1c1U3JoNmlFWFpaaUREVzZqc0xOTFgxeVpleEthTlhPT19tQ2xxQllXY2pjc3J4bGtOcU80ck5kYzItRW91Vk1FRlozNWxvSkdmTDJlWXpfcllycFdYVFRXSGI0YUoxa2JScFE?oc=5",
   "published": "2026-11-08",
   "first_seen": "2026-11-21T09:14:13+09:00"
+ },
+ {
+  "title": "NOL, 대한항공 인천-오카야마 왕복 항공권 최대 5만원 할인…내년 3월까지 탑승",
+  "outlet": "IT타임스",
+  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQSU5aQk4wX2o4T1Z2SkZwVlFmVlQtekdUZkY2cFczdGJrNHZ0akpja3pxYlRDVlBYaFhnZkVvd1F5Y3J1VGRocnY2dnY4dzM4Zi1TM0F0ODd3Szl2MTJBd0psUVJIVDAz?oc=5",
+  "published": "2026-11-21",
+  "first_seen": "2026-11-21T13:18:22+09:00"
+ },
+ {
+  "title": "트리니티항공, 겨울 국제선 할인 행사…30일까지 진행",
+  "outlet": "FETV",
+  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sbUlHV1R3WUloUnlzQ21uQlNqaEZCVk5LRFhXR2RUQ0RuNFNidWo4dWxqTk8tNTFQVVk3eU9uUHhtMlpkdU5kYnc3Zlp3dGZTazZYbFRsV0I4WU9oMlNiMUlCSDljUTAt?oc=5",
+  "published": "2026-11-21",
+  "first_seen": "2026-11-21T13:18:22+09:00"
+ },
+ {
+  "title": "항공권 할인에 네이버페이 적립까지...트리니티항공, 고객 확보 경쟁 확대",
+  "outlet": "월요신문",
+  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1iNjlPT2R1RlE4Y3Zxay1LTFdBRzFMTTk1MGdwY0NOQmFTY3dIaGhfeEYzZF9wTDA0TVBHX3pDdGh6S1RtT2d4MEZRMjY5LXdPdjk3N3U0ZXJ2RF9QS2I3STh1NXl0MlpqSVE?oc=5",
+  "published": "2026-11-21",
+  "first_seen": "2026-11-21T13:18:22+09:00"
+ },
+ {
+  "title": "트리니티항공, 페이팔 결제 항공권 최대 9% 할인… 해외 7개 지역 대상",
+  "outlet": "여행레저신문",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQanZWU0hwckVJOVVDOXE1djFRMlhOYWRrcDczcllqa1JOMnF4ZnI3LVpWQ0VZbVhfaHdJNGZ3XzB2NC1RelViVTUtbjFWV1Vhak85bXRUNUMwaFZPZEk3MFlHbFp5OHFrNVFWY1I3U0Uyd2F0YThwdzdtb3FlNEs1UVY1T3BNWVE?oc=5",
+  "published": "2026-11-21",
+  "first_seen": "2026-11-21T13:18:22+09:00"
+ },
+ {
+  "title": "제주항공 💌항공권 특가 소식 도착💌",
+  "outlet": "제주항공 메일",
+  "url": "https://www.jejuair.net/#mail-6e3a2255894752a5",
+  "published": "2026-11-21",
+  "first_seen": "2026-11-21T13:18:20+09:00",
+  "source": "mail",
+  "mail_id": "6e3a2255894752a5",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.jejuair.net/#mail-6e3a2255894752a5",
+   "outlet": "제주항공 메일",
+   "label": "본문",
+   "fields": {
+    "discount": "최대 72%",
+    "origin": "인천(ICN)",
+    "destination": "홍콩(HKG)"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
  }
 ]

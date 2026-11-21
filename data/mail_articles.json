@@ -1,5 +1,31 @@
 [
  {
+  "title": "제주항공 💌항공권 특가 소식 도착💌",
+  "outlet": "제주항공 메일",
+  "url": "https://www.jejuair.net/#mail-6e3a2255894752a5",
+  "published": "2026-11-21",
+  "first_seen": "2026-11-21T13:18:20+09:00",
+  "source": "mail",
+  "mail_id": "6e3a2255894752a5",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.jejuair.net/#mail-6e3a2255894752a5",
+   "outlet": "제주항공 메일",
+   "label": "본문",
+   "fields": {
+    "discount": "최대 72%",
+    "origin": "인천(ICN)",
+    "destination": "홍콩(HKG)"
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
+ },
+ {
   "title": "핀에어 세일 시작 – 유럽행 항공편 예약",
   "outlet": "핀에어 메일",
   "url": "https://www.finnair.com/kr-ko#mail-276517dba6a60a5c",

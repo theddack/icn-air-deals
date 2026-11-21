@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T09:14:13+09:00",
+ "generated_at": "2026-11-21T13:18:22+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 1,
-  "rss_items": 1882,
+  "failed_queries": 0,
+  "rss_items": 1938,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1917,
+  "outlet_items": 1875,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
-  "mail_articles": 11,
-  "mail_new_articles": 0,
-  "articles_with_summary": 76,
-  "articles": 889,
-  "new_articles": 1,
-  "deals": 184
+  "mail_articles": 12,
+  "mail_new_articles": 1,
+  "articles_with_summary": 77,
+  "articles": 894,
+  "new_articles": 5,
+  "deals": 185
  },
  "deals": [
   {
@@ -1000,7 +1000,7 @@
    ],
    "agencies": [],
    "event_name": "블랙프라이데이",
-   "headline": "겨울철 여행 부담 줄인다···트리니티항공, 30일까지 특가 진행",
+   "headline": "트리니티항공, 겨울 국제선 할인 행사…30일까지 진행",
    "sale_start": "2026-11-16",
    "sale_end": "2026-11-30",
    "travel_start": null,
@@ -1013,8 +1013,8 @@
    ],
    "evidence": {
     "sale": {
-     "title": "겨울철 여행 부담 줄인다···트리니티항공, 30일까지 특가 진행",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GOU5ucVkwRUF4dHVzNE9ybnpmYV96OGtITW8tZjdPbWN5Y0REVmIwUlppWGVrRE12cEFZTEtSWWtRRUxlS0NzRW4wUllCaWpUamdSSE5NMk0xTkE3V1lSZEp5Y1c4amtyLVBnc1h2QlDSAXRBVV95cUxPNS01WGZ1UTkyTUlwWHdIenBDVGwyS2lObC1SSFNhZ05PbDJUZkFEeUUwYUs4UG40UGpHSzU0NF9mRjAtbzJwTDJDVXhJNEoxUmJPaEJmR1EzRmM2Mlp5M1Ffb2FaZWFDOFJveGJNVWsyZ3pITw?oc=5"
+     "title": "트리니티항공, 겨울 국제선 할인 행사…30일까지 진행",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sbUlHV1R3WUloUnlzQ21uQlNqaEZCVk5LRFhXR2RUQ0RuNFNidWo4dWxqTk8tNTFQVVk3eU9uUHhtMlpkdU5kYnc3Zlp3dGZTazZYbFRsV0I4WU9oMlNiMUlCSDljUTAt?oc=5"
     },
     "discount": {
      "title": "ER 이코노믹리뷰 요약문: 노선에서는 추가 할인 이벤트도 진행하고 결제 금액별로 최대 4만원 할인 쿠폰도 제공한다.",
@@ -1025,10 +1025,16 @@
    "discount": "최대 4만원 할인",
    "verification": "news",
    "first_published": "2026-11-16",
-   "last_published": "2026-11-20",
+   "last_published": "2026-11-21",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-20T16:45:34+09:00",
+   "last_seen": "2026-11-21T13:18:22+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 겨울 국제선 할인 행사…30일까지 진행",
+     "outlet": "FETV",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sbUlHV1R3WUloUnlzQ21uQlNqaEZCVk5LRFhXR2RUQ0RuNFNidWo4dWxqTk8tNTFQVVk3eU9uUHhtMlpkdU5kYnc3Zlp3dGZTazZYbFRsV0I4WU9oMlNiMUlCSDljUTAt?oc=5",
+     "published": "2026-11-21"
+    },
     {
      "title": "겨울철 여행 부담 줄인다···트리니티항공, 30일까지 특가 진행",
      "outlet": "이뉴스투데이",
@@ -7088,114 +7094,6 @@
    "status": "undated"
   },
   {
-   "id": "trinity-99e3752e03",
-   "airline_id": "trinity",
-   "airline": "트리니티항공",
-   "airlines_mentioned": [
-    "트리니티항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.twayair.com/",
-   "iata": [
-    "TW"
-   ],
-   "agencies": [],
-   "event_name": "항공권 할인 제공",
-   "headline": "트리니티항공, 페이팔 손잡고 해외 고객 항공권 할인…“한국 여행 더 편리하게”",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "트리니티항공, 페이팔과 손잡고 ‘인바운드 여객’ 잡는다…항공권 최대 9% 할인",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKMDNDZTlTbGxyOVBvTVJQN09kVDZOTzY1dFNXNzBIcFR3VTdwaE9BYkpNV2lnX29KYVpTUGRXZWFWOTZ6VWtmZVktLXBZR3ZzVk5DWGZMUXI0LVh0Q2pkNGFBa2M3YnE2aEkyQXBQN2h0QQ?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 9%",
-   "verification": "news",
-   "first_published": "2026-11-18",
-   "last_published": "2026-11-18",
-   "first_seen": "2026-11-18T09:14:17+09:00",
-   "last_seen": "2026-11-19T22:17:39+09:00",
-   "articles": [
-    {
-     "title": "트리니티항공, 페이팔 손잡고 해외 고객 항공권 할인…“한국 여행 더 편리하게”",
-     "outlet": "데일리스포츠한국",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQc1huUWtmUTFYdjFPM1dKMHQtQmtZUVcxOGh3TTJBYklCNHJNZW5Ca0VzZGROMUFkR01GUFR1UU9wVDVQLTN2SG5Jajc0NDNDOGJPOWxTT3VlMFZqeFJweVNPMDM2bzdDOVh0bDlZbV9BcGpNLWI0QVpsc9IBf0FVX3lxTE1uRnhKd0h1Zl9ydGFKWTV2dTVWQ2loS1p4dVF0WGI3dThzTmwwREVjRTZzaEJKX0UwNHdjT2Q1S2gxTXloTlNJNjBYZWZCTkdoSU5xQjNncWIxaFlTak5KWGNOa0xQakZCbF9LcVgxbGJNZGlNMHRsMnpwd21KczQ?oc=5",
-     "published": "2026-11-18"
-    },
-    {
-     "title": "트리니티항공, 페이팔과 손잡고 ‘인바운드 여객’ 잡는다…항공권 최대 9% 할인",
-     "outlet": "인더스트리뉴스",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKMDNDZTlTbGxyOVBvTVJQN09kVDZOTzY1dFNXNzBIcFR3VTdwaE9BYkpNV2lnX29KYVpTUGRXZWFWOTZ6VWtmZVktLXBZR3ZzVk5DWGZMUXI0LVh0Q2pkNGFBa2M3YnE2aEkyQXBQN2h0QQ?oc=5",
-     "published": "2026-11-18"
-    },
-    {
-     "title": "트리니티항공, 페이팔 결제 시 항공권 최대 9% 할인...해외 고객 공략",
-     "outlet": "중앙이코노미뉴스",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1mallDSFNGaFl5Qmd5VzNucnRjRVVMT2VnQUI1OWl5RUZjZkR0OUVDQzRvTUtzOEplbEpUZUc2XzMwcS1neXp0Um1Yb1FpaTBwR01VZENlOUVDRTBmbVZGNjhtVW56c3NJR3I5cU16N1hNQQ?oc=5",
-     "published": "2026-11-18"
-    },
-    {
-     "title": "트리니티항공, 간편결제 '페이팔'과 맞손…방한객 항공권 할인",
-     "outlet": "뉴스1",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ZTW1JWmJlZm91VkU5Z0NERDhKRHV6VVJzNnpXTWRQbUFMSGNMQWhMSVZWOFl5WkN3Z0JZX1pWR1htVTUzbzdLRW1fWnZnVGVxcktZOHVqTTVoX2cwUHBaMGU3eVY?oc=5",
-     "published": "2026-11-18"
-    },
-    {
-     "title": "트리니티항공, 페이팔과 제휴…해외 고객 항공권 최대 9% 할인",
-     "outlet": "서울경제TV",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tRUk5ZUdfSFQzc1NaWnlpenZleklqcFItOVJ2ZGhuVlpRUnl5UC1EOHVpY2FISTJVV2JMOHFrNEwwSkpEQzYyeXNtVVFBWlZCX3lOeVBiT0x6UzhfSnhkejlsTmw?oc=5",
-     "published": "2026-11-18"
-    },
-    {
-     "title": "트리니티항공, 페이팔 손잡고 해외 고객 유치...\"항공권 할인 제공\"",
-     "outlet": "팍스경제TV",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GdlI1MjlQd1hSZ0Nta0wydkt0WVZyZGhRWWVqbk5Telk5eFRyTlZrNENpaEpreHdKVS1XSmhkVC1uTmpLVDBYZVhRUHE1UG93T01xTU50NEZiYXVQa1JjeV9jVWU2dVE?oc=5",
-     "published": "2026-11-18"
-    },
-    {
-     "title": "트리니티항공, 페이팔 결제 시 항공권 최대 9% 할인",
-     "outlet": "이코노미스트",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvcmRIOU1XVDg3LUh6amp0SmJZWFZVSVB4VUFxZGlhbkdrQTZZR2piV1hFNlNyZWZMRVlVYWhSNDBQS3dqbTRzMEdpQ0lHdHh4Yzh3Q0NyVjRmZ29MVThmbXB3?oc=5",
-     "published": "2026-11-18"
-    },
-    {
-     "title": "트리니티항공, 페이팔 결제 시 항공권 최대 9% 할인…해외 고객 대상",
-     "outlet": "뉴스투데이",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QTldFejJlbmtJRVBFNldaOEJPQlM2T3o4MTRoanBRMDdSdXZyVkxQLVBjTy1WMk9wbjVtckR5WFU1WEZ2WDRycDlpNGczeWJLS3ZzeU00cE12d3ppS0E?oc=5",
-     "published": "2026-11-18"
-    },
-    {
-     "title": "트리니티항공, 페이팔 손잡고 해외 고객 항공권 할인",
-     "outlet": "위메이크뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZdkJEaUUxR2taWGdOWFlwR2UzdXVUTkJ0S0dQUndWQmJTdUswTG9TZUlrUlMyZ3FjUTB2STluc2hCQ29fVkpzQldWbXUxam5RVnc0MXNmTFRBU3M?oc=5",
-     "published": "2026-11-18"
-    },
-    {
-     "title": "한국 오는 외국인 항공권 최대 9% 할인…트리니티항공, 페이팔과 제휴",
-     "outlet": "헤럴드경제",
-     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xNktyNEZZdjJyOUxscmQ3a1BabXhfOXFKYTQ1OERBR0ktc240VEloMEhma2xqQ2tJSmgzTUJfY3VyeE84X2lLMGZvd0V3NjlsZVFlM2dR?oc=5",
-     "published": "2026-11-18"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "trinity-08e0c7415f",
    "airline_id": "trinity",
    "airline": "트리니티항공",
@@ -7789,83 +7687,6 @@
    "status": "undated"
   },
   {
-   "id": "koreanair-bf205d468e",
-   "airline_id": "koreanair",
-   "airline": "대한항공",
-   "airlines_mentioned": [
-    "대한항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.koreanair.com/",
-   "iata": [
-    "KE"
-   ],
-   "agencies": [
-    {
-     "name": "놀(야놀자)",
-     "url": "https://nol.yanolja.com/"
-    }
-   ],
-   "event_name": null,
-   "headline": "일본 오카야마 여행 부담 낮춘다…NOL, 대한항공 직항 항공권 최대 5만원 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "일본 오카야마 여행 부담 낮춘다…NOL, 대한항공 직항 항공권 최대 5만원 할인",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FYjREQlZwZ3k1OW04eXI1a3dLRnVQVUZFNlZJellQNTR3S2p6bV9wNmJwMjAyUkoxNWEzakQzQWhqQzI5SDVPdk9pLWh4REtjWGdoX2pUb2ZSa1p4MllIVVVmc2FLN0hZUjVveg?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 5만원 할인",
-   "verification": "news",
-   "first_published": "2026-11-16",
-   "last_published": "2026-11-20",
-   "first_seen": "2026-11-16T16:17:28+09:00",
-   "last_seen": "2026-11-20T09:14:05+09:00",
-   "articles": [
-    {
-     "title": "일본 오카야마 여행 부담 낮춘다…NOL, 대한항공 직항 항공권 최대 5만원 할인",
-     "outlet": "뉴스탭",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FYjREQlZwZ3k1OW04eXI1a3dLRnVQVUZFNlZJellQNTR3S2p6bV9wNmJwMjAyUkoxNWEzakQzQWhqQzI5SDVPdk9pLWh4REtjWGdoX2pUb2ZSa1p4MllIVVVmc2FLN0hZUjVveg?oc=5",
-     "published": "2026-11-20"
-    },
-    {
-     "title": "한진트래블, 겨울 전세기 특가 운영…대한항공 직항으로 이집트 9일",
-     "outlet": "비즈월드",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBdTQ3X0VIRkZwdHFSWW5tR0NwQ2c4bExWZzFFanM4aGYwanVhSVg1Y3VWYVVHMC1YZllnUWxKRkw4LXRJdmw3SXpvUXNPcU9KbDZmQmFVMk5wU19yanctQ2RjM1RGMFl6dEpj?oc=5",
-     "published": "2026-11-19"
-    },
-    {
-     "title": "한진트래블, 대한항공 전세기 초특가 여행 출시",
-     "outlet": "트래블데일리",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72710",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "한진트래블, 대한항공 직항 전세기 이용한 이집트 9일 특가 여행 상품 출시",
-     "outlet": "비욘드포스트",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uX3FQaG1GUHpnWkFPbWhmZUFPMGdKQ2VCNkl3aFRGNVg5Q25feU9va0FjcXltMXpjdlVYdVZScGo3b0FhQ2Y3LXNndl96UUg5UUhPMkRtU1dXMi1obkR0S0lxTjd1cjdXbGxzbjFvejVvX1dENnkyZWpQS2w?oc=5",
-     "published": "2026-11-16"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-accor-91fa952ec3",
    "airline_id": "h-accor",
    "airline": "아코르",
@@ -8054,6 +7875,266 @@
      "outlet": "Pirates and Princesses",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNU44VVNfdDVJWFMzbkhRLVRtTzB6emVpaURtejlrNVNfSG9BUXJfM0dZSFA2LXJIRDJxbUc5dk1aNDRNSy1sa2hpYndYUEZ6WWF2WjZ5REVnZ2I1QktVMExJTEFSUVJYcDREcHBveV9hRFVQSEdQWTZpcmM5UjBrV0tFWUJXOUhIa0VVdlhzc1Y3enlvRDVKZjh0a1FheEF5Wmxv?oc=5",
      "published": "2026-11-20"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "jejuair-5d776c1e1e",
+   "airline_id": "jejuair",
+   "airline": "제주항공",
+   "airlines_mentioned": [
+    "제주항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.jejuair.net/",
+   "iata": [
+    "7C"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "제주항공 💌항공권 특가 소식 도착💌",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "인천(ICN)",
+     "destination": "홍콩(HKG)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "제주항공 메일 본문",
+     "url": "https://www.jejuair.net/#mail-6e3a2255894752a5"
+    },
+    "route": {
+     "title": "제주항공 메일 본문",
+     "url": "https://www.jejuair.net/#mail-6e3a2255894752a5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 72%",
+   "verification": "official",
+   "first_published": "2026-11-21",
+   "last_published": "2026-11-21",
+   "first_seen": "2026-11-21T13:18:20+09:00",
+   "last_seen": "2026-11-21T13:18:20+09:00",
+   "articles": [
+    {
+     "title": "제주항공 💌항공권 특가 소식 도착💌",
+     "outlet": "제주항공 메일",
+     "url": "https://www.jejuair.net/#mail-6e3a2255894752a5",
+     "published": "2026-11-21"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "trinity-99e3752e03",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": "항공권 할인 제공",
+   "headline": "트리니티항공, 페이팔 결제 항공권 최대 9% 할인… 해외 7개 지역 대상",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "트리니티항공, 페이팔 결제 항공권 최대 9% 할인… 해외 7개 지역 대상",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQanZWU0hwckVJOVVDOXE1djFRMlhOYWRrcDczcllqa1JOMnF4ZnI3LVpWQ0VZbVhfaHdJNGZ3XzB2NC1RelViVTUtbjFWV1Vhak85bXRUNUMwaFZPZEk3MFlHbFp5OHFrNVFWY1I3U0Uyd2F0YThwdzdtb3FlNEs1UVY1T3BNWVE?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 9%",
+   "verification": "news",
+   "first_published": "2026-11-18",
+   "last_published": "2026-11-21",
+   "first_seen": "2026-11-18T09:14:17+09:00",
+   "last_seen": "2026-11-21T13:18:22+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공, 페이팔 결제 항공권 최대 9% 할인… 해외 7개 지역 대상",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQanZWU0hwckVJOVVDOXE1djFRMlhOYWRrcDczcllqa1JOMnF4ZnI3LVpWQ0VZbVhfaHdJNGZ3XzB2NC1RelViVTUtbjFWV1Vhak85bXRUNUMwaFZPZEk3MFlHbFp5OHFrNVFWY1I3U0Uyd2F0YThwdzdtb3FlNEs1UVY1T3BNWVE?oc=5",
+     "published": "2026-11-21"
+    },
+    {
+     "title": "트리니티항공, 페이팔 손잡고 해외 고객 항공권 할인…“한국 여행 더 편리하게”",
+     "outlet": "데일리스포츠한국",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQc1huUWtmUTFYdjFPM1dKMHQtQmtZUVcxOGh3TTJBYklCNHJNZW5Ca0VzZGROMUFkR01GUFR1UU9wVDVQLTN2SG5Jajc0NDNDOGJPOWxTT3VlMFZqeFJweVNPMDM2bzdDOVh0bDlZbV9BcGpNLWI0QVpsc9IBf0FVX3lxTE1uRnhKd0h1Zl9ydGFKWTV2dTVWQ2loS1p4dVF0WGI3dThzTmwwREVjRTZzaEJKX0UwNHdjT2Q1S2gxTXloTlNJNjBYZWZCTkdoSU5xQjNncWIxaFlTak5KWGNOa0xQakZCbF9LcVgxbGJNZGlNMHRsMnpwd21KczQ?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "트리니티항공, 페이팔과 손잡고 ‘인바운드 여객’ 잡는다…항공권 최대 9% 할인",
+     "outlet": "인더스트리뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKMDNDZTlTbGxyOVBvTVJQN09kVDZOTzY1dFNXNzBIcFR3VTdwaE9BYkpNV2lnX29KYVpTUGRXZWFWOTZ6VWtmZVktLXBZR3ZzVk5DWGZMUXI0LVh0Q2pkNGFBa2M3YnE2aEkyQXBQN2h0QQ?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "트리니티항공, 페이팔 결제 시 항공권 최대 9% 할인...해외 고객 공략",
+     "outlet": "중앙이코노미뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1mallDSFNGaFl5Qmd5VzNucnRjRVVMT2VnQUI1OWl5RUZjZkR0OUVDQzRvTUtzOEplbEpUZUc2XzMwcS1neXp0Um1Yb1FpaTBwR01VZENlOUVDRTBmbVZGNjhtVW56c3NJR3I5cU16N1hNQQ?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "트리니티항공, 간편결제 '페이팔'과 맞손…방한객 항공권 할인",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ZTW1JWmJlZm91VkU5Z0NERDhKRHV6VVJzNnpXTWRQbUFMSGNMQWhMSVZWOFl5WkN3Z0JZX1pWR1htVTUzbzdLRW1fWnZnVGVxcktZOHVqTTVoX2cwUHBaMGU3eVY?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "트리니티항공, 페이팔과 제휴…해외 고객 항공권 최대 9% 할인",
+     "outlet": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tRUk5ZUdfSFQzc1NaWnlpenZleklqcFItOVJ2ZGhuVlpRUnl5UC1EOHVpY2FISTJVV2JMOHFrNEwwSkpEQzYyeXNtVVFBWlZCX3lOeVBiT0x6UzhfSnhkejlsTmw?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "트리니티항공, 페이팔 손잡고 해외 고객 유치...\"항공권 할인 제공\"",
+     "outlet": "팍스경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GdlI1MjlQd1hSZ0Nta0wydkt0WVZyZGhRWWVqbk5Telk5eFRyTlZrNENpaEpreHdKVS1XSmhkVC1uTmpLVDBYZVhRUHE1UG93T01xTU50NEZiYXVQa1JjeV9jVWU2dVE?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "트리니티항공, 페이팔 결제 시 항공권 최대 9% 할인",
+     "outlet": "이코노미스트",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvcmRIOU1XVDg3LUh6amp0SmJZWFZVSVB4VUFxZGlhbkdrQTZZR2piV1hFNlNyZWZMRVlVYWhSNDBQS3dqbTRzMEdpQ0lHdHh4Yzh3Q0NyVjRmZ29MVThmbXB3?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "트리니티항공, 페이팔 결제 시 항공권 최대 9% 할인…해외 고객 대상",
+     "outlet": "뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QTldFejJlbmtJRVBFNldaOEJPQlM2T3o4MTRoanBRMDdSdXZyVkxQLVBjTy1WMk9wbjVtckR5WFU1WEZ2WDRycDlpNGczeWJLS3ZzeU00cE12d3ppS0E?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "트리니티항공, 페이팔 손잡고 해외 고객 항공권 할인",
+     "outlet": "위메이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZdkJEaUUxR2taWGdOWFlwR2UzdXVUTkJ0S0dQUndWQmJTdUswTG9TZUlrUlMyZ3FjUTB2STluc2hCQ29fVkpzQldWbXUxam5RVnc0MXNmTFRBU3M?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "한국 오는 외국인 항공권 최대 9% 할인…트리니티항공, 페이팔과 제휴",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xNktyNEZZdjJyOUxscmQ3a1BabXhfOXFKYTQ1OERBR0ktc240VEloMEhma2xqQ2tJSmgzTUJfY3VyeE84X2lLMGZvd0V3NjlsZVFlM2dR?oc=5",
+     "published": "2026-11-18"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "koreanair-bf205d468e",
+   "airline_id": "koreanair",
+   "airline": "대한항공",
+   "airlines_mentioned": [
+    "대한항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.koreanair.com/",
+   "iata": [
+    "KE"
+   ],
+   "agencies": [
+    {
+     "name": "놀(야놀자)",
+     "url": "https://nol.yanolja.com/"
+    }
+   ],
+   "event_name": null,
+   "headline": "NOL, 대한항공 인천-오카야마 왕복 항공권 최대 5만원 할인…내년 3월까지 탑승",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "NOL, 대한항공 인천-오카야마 왕복 항공권 최대 5만원 할인…내년 3월까지 탑승",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQSU5aQk4wX2o4T1Z2SkZwVlFmVlQtekdUZkY2cFczdGJrNHZ0akpja3pxYlRDVlBYaFhnZkVvd1F5Y3J1VGRocnY2dnY4dzM4Zi1TM0F0ODd3Szl2MTJBd0psUVJIVDAz?oc=5"
+    }
+   },
+   "from_icn": "yes",
+   "discount": "최대 5만원 할인",
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-21",
+   "first_seen": "2026-11-16T16:17:28+09:00",
+   "last_seen": "2026-11-21T13:18:22+09:00",
+   "articles": [
+    {
+     "title": "NOL, 대한항공 인천-오카야마 왕복 항공권 최대 5만원 할인…내년 3월까지 탑승",
+     "outlet": "IT타임스",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQSU5aQk4wX2o4T1Z2SkZwVlFmVlQtekdUZkY2cFczdGJrNHZ0akpja3pxYlRDVlBYaFhnZkVvd1F5Y3J1VGRocnY2dnY4dzM4Zi1TM0F0ODd3Szl2MTJBd0psUVJIVDAz?oc=5",
+     "published": "2026-11-21"
+    },
+    {
+     "title": "일본 오카야마 여행 부담 낮춘다…NOL, 대한항공 직항 항공권 최대 5만원 할인",
+     "outlet": "뉴스탭",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FYjREQlZwZ3k1OW04eXI1a3dLRnVQVUZFNlZJellQNTR3S2p6bV9wNmJwMjAyUkoxNWEzakQzQWhqQzI5SDVPdk9pLWh4REtjWGdoX2pUb2ZSa1p4MllIVVVmc2FLN0hZUjVveg?oc=5",
+     "published": "2026-11-20"
+    },
+    {
+     "title": "한진트래블, 겨울 전세기 특가 운영…대한항공 직항으로 이집트 9일",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBdTQ3X0VIRkZwdHFSWW5tR0NwQ2c4bExWZzFFanM4aGYwanVhSVg1Y3VWYVVHMC1YZllnUWxKRkw4LXRJdmw3SXpvUXNPcU9KbDZmQmFVMk5wU19yanctQ2RjM1RGMFl6dEpj?oc=5",
+     "published": "2026-11-19"
+    },
+    {
+     "title": "한진트래블, 대한항공 전세기 초특가 여행 출시",
+     "outlet": "트래블데일리",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72710",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "한진트래블, 대한항공 직항 전세기 이용한 이집트 9일 특가 여행 상품 출시",
+     "outlet": "비욘드포스트",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uX3FQaG1GUHpnWkFPbWhmZUFPMGdKQ2VCNkl3aFRGNVg5Q25feU9va0FjcXltMXpjdlVYdVZScGo3b0FhQ2Y3LXNndl96UUg5UUhPMkRtU1dXMi1obkR0S0lxTjd1cjdXbGxzbjFvejVvX1dENnkyZWpQS2w?oc=5",
+     "published": "2026-11-16"
     }
    ],
    "status": "undated"
