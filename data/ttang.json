@@ -1,6 +1,6 @@
 {
- "fetched_on": "2026-11-21",
- "fetched_at": "2026-11-21T03:04+09:00",
+ "fetched_on": "2026-11-22",
+ "fetched_at": "2026-11-22T02:01+09:00",
  "source": "https://www.ttang.com/ttangair/search/ttang/list.do?arr0=A2ALL&dep0=ICN&orderBy=LOW_COST",
  "items": [
   {
@@ -10,7 +10,7 @@
    "airline_code": "TW",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-07",
+   "depart_from": "2026-12-14",
    "depart_to": "2027-02-28",
    "price": 259000
   },
@@ -35,28 +35,6 @@
    "depart_from": "2026-12-01",
    "depart_to": "2026-12-30",
    "price": 300000
-  },
-  {
-   "destination": "나트랑(깜란)",
-   "dest_code": "CXR",
-   "airline": "트리니티항공",
-   "airline_code": "TW",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-12-01",
-   "depart_to": "2027-02-28",
-   "price": 304000
-  },
-  {
-   "destination": "나트랑(깜란)",
-   "dest_code": "CXR",
-   "airline": "파라타항공",
-   "airline_code": "WE",
-   "direct": true,
-   "trip": "roundtrip",
-   "depart_from": "2026-12-12",
-   "depart_to": "2027-02-14",
-   "price": 320400
   },
   {
    "destination": "다낭",
@@ -450,7 +428,7 @@
    "airline_code": "ZE",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-11-26",
+   "depart_from": "2026-11-27",
    "depart_to": "2027-03-26",
    "price": 415000
   },
@@ -703,7 +681,7 @@
    "airline_code": "WE",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-07",
+   "depart_from": "2026-12-08",
    "depart_to": "2027-03-01",
    "price": 445100
   },
@@ -840,13 +818,24 @@
    "price": 472700
   },
   {
+   "destination": "나트랑(깜란)",
+   "dest_code": "CXR",
+   "airline": "트리니티항공",
+   "airline_code": "TW",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2027-01-05",
+   "depart_to": "2027-02-28",
+   "price": 474000
+  },
+  {
    "destination": "보라카이(깔리보)",
    "dest_code": "KLO",
    "airline": "트리니티항공",
    "airline_code": "TW",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-22",
+   "depart_from": "2026-12-28",
    "depart_to": "2027-03-01",
    "price": 478000
   },
@@ -857,7 +846,7 @@
    "airline_code": "TW",
    "direct": true,
    "trip": "roundtrip",
-   "depart_from": "2026-12-02",
+   "depart_from": "2026-12-07",
    "depart_to": "2027-03-01",
    "price": 479000
   },
@@ -926,6 +915,17 @@
    "depart_from": "2026-12-08",
    "depart_to": "2027-03-11",
    "price": 490100
+  },
+  {
+   "destination": "나트랑(깜란)",
+   "dest_code": "CXR",
+   "airline": "파라타항공",
+   "airline_code": "WE",
+   "direct": true,
+   "trip": "roundtrip",
+   "depart_from": "2026-12-26",
+   "depart_to": "2027-02-14",
+   "price": 490400
   },
   {
    "destination": "다낭",
