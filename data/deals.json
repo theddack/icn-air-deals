@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T13:18:22+09:00",
+ "generated_at": "2026-11-21T16:42:04+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 1938,
+  "rss_items": 2006,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1875,
+  "outlet_items": 1770,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 12,
-  "mail_new_articles": 1,
+  "mail_new_articles": 0,
   "articles_with_summary": 77,
-  "articles": 894,
-  "new_articles": 5,
-  "deals": 185
+  "articles": 901,
+  "new_articles": 7,
+  "deals": 190
  },
  "deals": [
   {
@@ -1944,7 +1944,7 @@
    "iata": [],
    "agencies": [],
    "event_name": "항공·숙박·액티비티 할인",
-   "headline": "NOL, 오카야마현과 여행 기획전…항공권 최대 5만원 할인",
+   "headline": "놀유니버스 NOL, 일본 오카야마 여행 기획전…항공권 최대 5만원 할인",
    "sale_start": null,
    "sale_end": "2026-12-09",
    "travel_start": null,
@@ -1965,18 +1965,24 @@
      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506148"
     },
     "discount": {
-     "title": "NOL, 오카야마현과 여행 기획전…항공권 최대 5만원 할인",
-     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506148"
+     "title": "놀유니버스 NOL, 일본 오카야마 여행 기획전…항공권 최대 5만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nMVIta2dzZlFuQ0JPT1diLUw1SnJ6MnFjb0ppWkFzUXIxLUt2YmhENmpuRnZZZ0ttVWZqanMyTkxhdkFxTVE1SGF5UF9JOXc0V1RqWHpRT3NzT1ZiSHFKR2RaU0tiNXBSdFHSAW5BVV95cUxNYmlueFBtblphQkRCNmp6bi01ZDVfR1htbGhHbHQzdThzQU5uaTlENWpUMlRSVVJiQUNMcmZoV2kyZ1ZUaDNFOTFWTkY0U2dsMnR1SnpHX1NzR29jR3NGMDliblo3c0NlUlhiTTZBQQ?oc=5"
     }
    },
    "from_icn": null,
    "discount": "최대 5만원 할인",
    "verification": "news",
    "first_published": "2026-11-20",
-   "last_published": "2026-11-20",
+   "last_published": "2026-11-21",
    "first_seen": "2026-11-20T09:14:05+09:00",
-   "last_seen": "2026-11-21T03:00:33+09:00",
+   "last_seen": "2026-11-21T16:42:04+09:00",
    "articles": [
+    {
+     "title": "놀유니버스 NOL, 일본 오카야마 여행 기획전…항공권 최대 5만원 할인",
+     "outlet": "파이낸셜투데이",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nMVIta2dzZlFuQ0JPT1diLUw1SnJ6MnFjb0ppWkFzUXIxLUt2YmhENmpuRnZZZ0ttVWZqanMyTkxhdkFxTVE1SGF5UF9JOXc0V1RqWHpRT3NzT1ZiSHFKR2RaU0tiNXBSdFHSAW5BVV95cUxNYmlueFBtblphQkRCNmp6bi01ZDVfR1htbGhHbHQzdThzQU5uaTlENWpUMlRSVVJiQUNMcmZoV2kyZ1ZUaDNFOTFWTkY0U2dsMnR1SnpHX1NzR29jR3NGMDliblo3c0NlUlhiTTZBQQ?oc=5",
+     "published": "2026-11-21"
+    },
     {
      "title": "NOL, 오카야마현과 여행 기획전…항공권 최대 5만원 할인",
      "outlet": "핀포인트뉴스",
@@ -4045,6 +4051,53 @@
    "status": "undated"
   },
   {
+   "id": "h-booking-33fd080c3c",
+   "airline_id": "h-booking",
+   "airline": "부킹닷컴",
+   "airlines_mentioned": [
+    "부킹닷컴"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.booking.com/index.ko.html",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Booking.com's Black Friday hotel deals 2026: The best sale picks",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-21T16:42:04+09:00",
+   "last_seen": "2026-11-21T16:42:04+09:00",
+   "articles": [
+    {
+     "title": "Booking.com's Black Friday hotel deals 2026: The best sale picks",
+     "outlet": "Red magazine",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM09lNFM1ZDZWZXpmdkJWVG5fOE5MYVJEZ25nbVp1cll0eWVSUlJRQ1hfN18yTjVUcXg5QjNCeUNHaVlnRmFxVUxLaGRaT3RlUi1uTjNMaHpGbnI0V18wQjg3X0xoeVJEXzVXS252RlVWOHVZaks0aVVRMUlkZ08tZA?oc=5",
+     "published": "2026-11-12"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "hkexpress-1cad2b792c",
    "airline_id": "hkexpress",
    "airline": "홍콩익스프레스",
@@ -5137,6 +5190,53 @@
      "title": "국민카드, KB Pay 연계 해외여행 맞춤 혜택 확대...숙박·통신 최대 20% 할인",
      "outlet": "아시아에이",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBya2hIUzdtM3JTSXRIdVc0VGlhSkRFbnB2Vjhtd1hsQmZxSTlRLTRCbnlSZjVYOGNobmNNcUEzNVh5RlYzT0xoUFhabElWTF9YTFRVYS1iNjR3a2ZqVEpNUG9XUHc4dFBwX3VpZHBR0gFuQVVfeXFMUHJraEhTN20zclNJdEh1VzRUaWFKREVucHZWOG13WGxCZnFJOVEtNEJueVJmNVg4Y2huY01xQTM1WHlGVjNPTGhQWFpsSVZMX1hMVFVhLWI2NHdrZmpUSk1Qb1dQdzh0UHBfdWlkcFE?oc=5",
+     "published": "2026-11-14"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-9dc09c6a46",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "The best early Black Friday travel deals: Save on hotels, flights, and luggage",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-14",
+   "last_published": "2026-11-14",
+   "first_seen": "2026-11-21T16:42:04+09:00",
+   "last_seen": "2026-11-21T16:42:04+09:00",
+   "articles": [
+    {
+     "title": "The best early Black Friday travel deals: Save on hotels, flights, and luggage",
+     "outlet": "Mashable",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE41bmJwVmxVVzJlbHc2RWhicVRGYWQ4T3g4cDNfSUFMMVNvY3N6Q3cwUnB4NV9fNG5ZZm1UcC1PcTUwRWxCWkRGMjloNTd6M0VvVGFTak9DcHhSVHBFNlZNSU5ldHJUMEZwS2xkZDF0WkFWQWMxQWRHeg?oc=5",
      "published": "2026-11-14"
     }
    ],
@@ -6337,6 +6437,55 @@
      "title": "Muy’Ono Resorts Announces Black Friday Sale with 50% Off Belize Stays",
      "outlet": "Breaking Travel News",
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYS1ndFJwbTVEdm5UMEFLM3ZncU9iYWtibTNYUzd3THNiSGRyd1pZY2xEQk5FNUZFQWNWcGY4V1V3VVNhOUtzNENaaDF1NkNTX3c2TVFMRk1GemlrdE1WdGpRbEp4ZVkxdlhEakRlM0lvTlYwc1FabEtjbXAwSjJXZ0I2VS1iT0g1bzY1MDdCbUNUY09MYXNIT2hJcGszQ280bXJ0ZktOTTAtU1pDdENqcFQ5ak5UNW8?oc=5",
+     "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-f4a3e31f80",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "다종 호텔 조합 퍼즐 맞추면, 공짜·할인 쏟아져…틈새 시간 지배하면 가성비 하와이 여행 완성",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "하와이"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-16",
+   "last_published": "2026-11-16",
+   "first_seen": "2026-11-21T16:42:04+09:00",
+   "last_seen": "2026-11-21T16:42:04+09:00",
+   "articles": [
+    {
+     "title": "다종 호텔 조합 퍼즐 맞추면, 공짜·할인 쏟아져…틈새 시간 지배하면 가성비 하와이 여행 완성",
+     "outlet": "스포츠경향",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qZndldzVYTVBFUG41c2dfUnJkZGFEMDRYWnZwMWFtcVROUVJvb1lta0pOWGtrQWtQQ1VUS3BjakVUcnlHNUl5aDdXTklPYUJhaHZvYTBkT2hsMU1QeUHSAWNBVV95cUxON1d6dU5JLWNnLUcycXBBaThIUmktQXZReHhXcGV2RVFXUF9fQzJEcmlWQm5aSHIzU2tZbUpjNXp1b2ZNTW1MdHQtU3BmTjMxdjA3SlhZSk41WXlIWGJxRGF2WjA?oc=5",
      "published": "2026-11-16"
     }
    ],
@@ -7880,6 +8029,60 @@
    "status": "undated"
   },
   {
+   "id": "h-other-df20cea0cb",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "후쿠오카 평일 숙박 20% 할인, 한국인도 된다…하카타 호텔은 제외",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "후쿠오카"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "후쿠오카 평일 숙박 20% 할인, 한국인도 된다…하카타 호텔은 제외",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92U3VGRW5wZmxDaVhIWXV2cThmZzRFc0xTdk5PVG1WU3FKTExIVFJSMWJGeGxjUUk5eUg5eFFXd2g4SXdhS21EVFFzWE1pakQwZEp1THNGT1Bkbm1FMmE5aUpMazVERTItRzdKWg?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "20% 할인",
+   "verification": "news",
+   "first_published": "2026-11-20",
+   "last_published": "2026-11-20",
+   "first_seen": "2026-11-21T16:42:04+09:00",
+   "last_seen": "2026-11-21T16:42:04+09:00",
+   "articles": [
+    {
+     "title": "후쿠오카 평일 숙박 20% 할인, 한국인도 된다…하카타 호텔은 제외",
+     "outlet": "여행픽",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92U3VGRW5wZmxDaVhIWXV2cThmZzRFc0xTdk5PVG1WU3FKTExIVFJSMWJGeGxjUUk5eUg5eFFXd2g4SXdhS21EVFFzWE1pakQwZEp1THNGT1Bkbm1FMmE5aUpMazVERTItRzdKWg?oc=5",
+     "published": "2026-11-20"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "jejuair-5d776c1e1e",
    "airline_id": "jejuair",
    "airline": "제주항공",
@@ -8135,6 +8338,53 @@
      "outlet": "비욘드포스트",
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uX3FQaG1GUHpnWkFPbWhmZUFPMGdKQ2VCNkl3aFRGNVg5Q25feU9va0FjcXltMXpjdlVYdVZScGo3b0FhQ2Y3LXNndl96UUg5UUhPMkRtU1dXMi1obkR0S0lxTjd1cjdXbGxzbjFvejVvX1dENnkyZWpQS2w?oc=5",
      "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-797f30647a",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "LIST: 100+ Las Vegas resort, show, and restaurant deals for Black Friday",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-21",
+   "last_published": "2026-11-21",
+   "first_seen": "2026-11-21T16:42:04+09:00",
+   "last_seen": "2026-11-21T16:42:04+09:00",
+   "articles": [
+    {
+     "title": "LIST: 100+ Las Vegas resort, show, and restaurant deals for Black Friday",
+     "outlet": "KLAS 8 News Now",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMnItVGNNc1EtV21meTNVbVJnU2xSVWV4LU9SUzd0aUpTQ01yU0F6eUdVcjg1a0N6bGdBb3N0MHFzYjBScnlHQmFpc2h1cTFxRUxSMERRS29XZUZMUXFfRmR2bFpYYnBsTVA3M2RYTnVsaTVVcWI5cHR2bDJrUDNMSkNaakpZR0xaQTRjX0JUdk9aNUdaelpBYWdnVFlieTVSUEd0UXVFdTgtaUpQVEN0NjdDNNIBuAFBVV95cUxQYmdIMWxVamwtQ0VscDllWlhvUVRkbmJ2U202OTAxa1BtMnByNmpicHRibXJzVG5kcE1abWpUZUNBRHNscEt0TVAwaXZvd041dWRHMjZPV3FGTmRkNGR5T0hVZHJ3VHBzVC10eFpxT1ZfMGtvenVuOHFlTDVnLWx6eHk2bWRfV011LWZ6UW9YUDhLaEN1Z25qV0VYRzJPYXpwRm9ab2NIUFlGemhwM2p2XzRYTjREX24w?oc=5",
+     "published": "2026-11-21"
     }
    ],
    "status": "undated"
