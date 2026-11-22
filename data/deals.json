@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T01:57:05+09:00",
+ "generated_at": "2026-11-22T09:14:05+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 0,
-  "rss_items": 1872,
+  "failed_queries": 2,
+  "rss_items": 1893,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1614,
+  "outlet_items": 1630,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 77,
-  "articles": 904,
-  "new_articles": 1,
-  "deals": 189
+  "articles": 906,
+  "new_articles": 2,
+  "deals": 190
  },
  "deals": [
   {
@@ -8568,6 +8568,55 @@
      "outlet": "Travel + Leisure",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVW8zU2FhYTRvLVg2X1hyYWRUTHpQdmRoQnByQ2M1SFZleEM0cEhtNmNUYnZWXzdjeHY2S29nbm9vcU5vZDVWM0k5Z0JKTVhndXdSc1JzYmM2M1hsUVRTckhNSVA2SE9ZWGxrRjNDUElBb2NqMk1zbDBTbWtDR3NJQWhWTHkyaEc4QXZmWU91QnNsZXVMQnN4N0t1M2NCSThHTlVDUHdVODFuUQ?oc=5",
      "published": "2026-11-21"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "pal-34184a27f3",
+   "airline_id": "pal",
+   "airline": "필리핀항공",
+   "airlines_mentioned": [
+    "필리핀항공"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.philippineairlines.com/",
+   "iata": [
+    "PR"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "필리핀항공, 필리핀관광진흥청과 항공권 프로모션 진행",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-22",
+   "last_published": "2026-11-22",
+   "first_seen": "2026-11-22T09:14:05+09:00",
+   "last_seen": "2026-11-22T09:14:05+09:00",
+   "articles": [
+    {
+     "title": "필리핀항공, 필리핀관광진흥청과 항공권 프로모션 진행",
+     "outlet": "Chosunbiz",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONDlaSS1OMjVtdzZIZ2VMRm1MNGtZN3Q5VjgyZmU4MWFXc1oyN2M0c1RHYXQ0cnJsWlN6Q05LSWdvb0cwTXo4aHZNN0JnenJiaktwUDZUMkhVSHNZRXRCUTd5ODZteHBEM0xqaVdabWJDNmEwek11WUFuYUo4V1NqOENyZHNoVVVhYk9GStIBoAFBVV95cUxQVEs1U2xYaHBIazFUNk14dHRFak9jdFJRNlRkS0tOcUVsajRDMUxDQ3hEQWgzU1lncmljZWRXd1dSUHFmWlJ4Ylg1eVBLc3RLVk9pOHBoTVQtNnBpNk1UMWpBa2M3MTdLVVlMTUtHTTU3d2N5cDJfb19RbG8xTVZyalNWMXBKS040YVdZM2xaaEtrTU1JOG1SR2RHSldLOHFP?oc=5",
+     "published": "2026-11-22"
     }
    ],
    "status": "undated"
