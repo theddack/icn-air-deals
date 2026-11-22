@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T13:18:13+09:00",
+ "generated_at": "2026-11-22T16:27:23+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2076,
+  "rss_items": 1955,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1702,
+  "outlet_items": 1689,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 77,
-  "articles": 907,
-  "new_articles": 1,
-  "deals": 190
+  "articles": 910,
+  "new_articles": 3,
+  "deals": 191
  },
  "deals": [
   {
@@ -1815,38 +1815,42 @@
     "TW"
    ],
    "agencies": [],
-   "event_name": null,
-   "headline": "트리니티항공, 국제선 최대 25% 할인…겨울 여행객 공략",
+   "event_name": "11월~1월 출발 한정 국제선 할인 프로모션",
+   "headline": "트리니티항공, ‘11월~1월 출발 한정 국제선 할인 프로모션’…30일까지 국제선 최대 25% 할인 등",
    "sale_start": null,
    "sale_end": "2026-11-30",
    "travel_start": null,
-   "travel_end": "2027-01-31",
+   "travel_end": null,
    "routes": [],
    "regions": [],
    "conditions": [],
-   "conflicts": [],
+   "conflicts": [
+    "travel"
+   ],
    "evidence": {
     "sale": {
-     "title": "신아일보 요약문: 이번 프로모션은 30일까지 트리니티항공 공식 홈페이지와 모바일 앱(웹)에서 진행된다.",
-     "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5085968"
-    },
-    "travel": {
-     "title": "신아일보 요약문: 탑승 기간은 일부 기간을 제외한 내년 1월31일까지다.",
-     "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5085968"
+     "title": "트리니티항공, ‘11월~1월 출발 한정 국제선 할인 프로모션’…30일까지 국제선 최대 25% 할인 등",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BS29OWTJCOE5XYWU3NUxHN2RsQjFGdm9xeTdUdWVpZHNDV010RW9wWllHbVFETTZZUkVzOHNqSFBFLXptQ2g5TDFqMk91a3JCWFJ1S25HMUNId0RacHBrVkpMdnJoQXZOVFE?oc=5"
     },
     "discount": {
-     "title": "트리니티항공, 국제선 최대 25% 할인…겨울 여행객 공략",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9INVQ5SkttSm16cl93QUFJUVh4ZWtOOFVrSE5MMmlZSEEycFFHZUh2TnZabnNiQ3Fvcmx5NHBBSVo2MU5jNmdXY25HbXhjTUw1NlBLYlFoYzRacWxDZHpWODRCU2N5S1U5R0pFLXhqTHk?oc=5"
+     "title": "트리니티항공, ‘11월~1월 출발 한정 국제선 할인 프로모션’…30일까지 국제선 최대 25% 할인 등",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BS29OWTJCOE5XYWU3NUxHN2RsQjFGdm9xeTdUdWVpZHNDV010RW9wWllHbVFETTZZUkVzOHNqSFBFLXptQ2g5TDFqMk91a3JCWFJ1S25HMUNId0RacHBrVkpMdnJoQXZOVFE?oc=5"
     }
    },
    "from_icn": "unknown",
    "discount": "최대 25%",
    "verification": "news",
    "first_published": "2026-11-17",
-   "last_published": "2026-11-20",
+   "last_published": "2026-11-22",
    "first_seen": "2026-11-17T17:29:48+09:00",
-   "last_seen": "2026-11-20T18:16:06+09:00",
+   "last_seen": "2026-11-22T16:27:23+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, ‘11월~1월 출발 한정 국제선 할인 프로모션’…30일까지 국제선 최대 25% 할인 등",
+     "outlet": "www.hidomin.com",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BS29OWTJCOE5XYWU3NUxHN2RsQjFGdm9xeTdUdWVpZHNDV010RW9wWllHbVFETTZZUkVzOHNqSFBFLXptQ2g5TDFqMk91a3JCWFJ1S25HMUNId0RacHBrVkpMdnJoQXZOVFE?oc=5",
+     "published": "2026-11-22"
+    },
     {
      "title": "트리니티항공, 국제선 최대 25% 할인…겨울 여행객 공략",
      "outlet": "신아일보",
@@ -8573,6 +8577,55 @@
      "title": "50 Unbelievable Early Black Friday Travel Deals You Don’t Want to Miss—Up to 90% Off Flights, Hotels, and More",
      "outlet": "Travel + Leisure",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVW8zU2FhYTRvLVg2X1hyYWRUTHpQdmRoQnByQ2M1SFZleEM0cEhtNmNUYnZWXzdjeHY2S29nbm9vcU5vZDVWM0k5Z0JKTVhndXdSc1JzYmM2M1hsUVRTckhNSVA2SE9ZWGxrRjNDUElBb2NqMk1zbDBTbWtDR3NJQWhWTHkyaEc4QXZmWU91QnNsZXVMQnN4N0t1M2NCSThHTlVDUHdVODFuUQ?oc=5",
+     "published": "2026-11-21"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-ae47f53d4d",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "오사카 자유여행 준비물 항공권 호텔 USJ 할인 호프고(HopeGoo) 크리스마스 여행",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "오사카"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-21",
+   "last_published": "2026-11-21",
+   "first_seen": "2026-11-22T16:27:23+09:00",
+   "last_seen": "2026-11-22T16:27:23+09:00",
+   "articles": [
+    {
+     "title": "오사카 자유여행 준비물 항공권 호텔 USJ 할인 호프고(HopeGoo) 크리스마스 여행",
+     "outlet": "네이트뷰",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51QkQyNlNXRzFlR29JTGlpbi1vLVowR2pxZTNEVDlKcUVWdGFBd0Z4RGQwM2lVdVMybWxhWnRpTzlocG5QMFhyNXhpeUY5eGVyQXVB0gFYQVVfeXFMTjhvbkZjVGVRclFBMXZ3Xy1kb3J5TDh6R3Axc2NFME4tWnpUb1VlLVpDVzZyMmFvNVFRc3l1M3N3c0VMTnJHQUlSazd5eWlRUlR3bkNwczA2RA?oc=5",
      "published": "2026-11-21"
     }
    ],
