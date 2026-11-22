@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T09:14:05+09:00",
+ "generated_at": "2026-11-22T13:18:13+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,19 +9,19 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 2,
-  "rss_items": 1893,
+  "failed_queries": 0,
+  "rss_items": 2076,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1630,
+  "outlet_items": 1702,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 77,
-  "articles": 906,
-  "new_articles": 2,
+  "articles": 907,
+  "new_articles": 1,
   "deals": 190
  },
  "deals": [
@@ -142,13 +142,19 @@
    "first_published": "2026-11-13",
    "last_published": "2026-11-20",
    "first_seen": "2026-11-13T02:44:33+09:00",
-   "last_seen": "2026-11-20T09:14:05+09:00",
+   "last_seen": "2026-11-22T13:18:13+09:00",
    "articles": [
     {
      "title": "Marriott drops 25% off hotel stays for loyal members, but there’s a catch",
      "outlet": "TheStreet",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMFVHM0hyWU8ydW13bi1NTGMxZzZ0bWZPRUgwdkcyQjR0QjVfUXBjWk1ncmRYZmZXdDA2ZTFmdWYwQlBNb2VIaUU0Q1hfZVBUWElxVVdrZlBUdHZscldDSU84S3hKNGd2Z0l3akRlQ29EZXFpUmxmQUU3cmRHalRPVDhCUmRIMG9tZzBrWHNxNkdqSElWeUU1NzZMUWZzZjRIY1E?oc=5",
      "published": "2026-11-20"
+    },
+    {
+     "title": "Marriott Bonvoy Cyber Week sale: 25% off stays through May 2027",
+     "outlet": "piratesandprincesses.net",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbks3MWlPYV9YekRXVG50QnQ1cnJUcEE2Y3JWNHlscFpaYW00TnRjMFFWcFV5U0RVMWhXVjA1MEp5ZUtTWHNIcENtVWxYLXpfQWZLX3hjQkJwM2JhSURoWEFxWDFGeVJFcWtkNWNyX0FkbHdKTWJRQU16OHRmNXBDN0ZPSlpWNmx0LVlpWlFiT3F4bmtucFlybmhGZw?oc=5",
+     "published": "2026-11-14"
     },
     {
      "title": "Marriott’s Cyber Week Sale Offers 25% Off Stays Through May 2027",
