@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T18:16:02+09:00",
+ "generated_at": "2026-11-23T22:17:32+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 1,
-  "rss_items": 1959,
+  "rss_items": 1957,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2034,
-  "outlet_new_articles": 0,
+  "outlet_items": 1912,
+  "outlet_new_articles": 1,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
-  "articles_with_summary": 79,
-  "articles": 923,
-  "new_articles": 2,
+  "articles_with_summary": 80,
+  "articles": 928,
+  "new_articles": 5,
   "deals": 193
  },
  "deals": [
@@ -1614,11 +1614,11 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "카타르항공 블랙프라이데이 항공권 최대 20% 할인…노선별 적용률·제외 날짜 확인",
+   "headline": "카타르항공, 항공권 최대 20% 할인",
    "sale_start": null,
    "sale_end": "2026-11-29",
-   "travel_start": null,
-   "travel_end": null,
+   "travel_start": "2026-11-23",
+   "travel_end": "2026-11-29",
    "routes": [],
    "regions": [],
    "conditions": [],
@@ -1628,9 +1628,13 @@
      "title": "카타르항공, 블랙프라이데이 항공권 최대 20% 할인…29일까지",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XbDFWS2lnSjFvUDRKUlRsNEhjYkpCVTN4NU16Y1lUaDFfUjFhRXBJY2RlZDhYbUY4VWFEZXNMMk5GWC1fSURIU1Z6bEJWM184bXdQUVBJQ1U2ZUxlX0lGOA?oc=5"
     },
+    "travel": {
+     "title": "트래블데일리 요약문: …23일부터 29일까지 프로모션 운임으로 항공권을 예약할 수 있으며 탑승 기간은 2027년 6월 30일까지다.…",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72775"
+    },
     "discount": {
-     "title": "카타르항공 블랙프라이데이 항공권 최대 20% 할인…노선별 적용률·제외 날짜 확인",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcFJJQ2hyQXRhLTJ0d3ZmS0lXSC15R2FLZzlqOXRkUVFKNU85Ui0zTTdzMjBPWmtzcDNva05nb0NPQmwwcmFmbnpVNGJhQWxXT3lpRHp2VG05MDlmZHZUS1JHY1ZvcnNBekRrNHdmcWtyenFzM3hqZUxoLVg3ZUota1FnNUZJVWxxdkhLUWJyWHZkbFB1VHVDUjR2dnlUdw?oc=5"
+     "title": "카타르항공, 항공권 최대 20% 할인",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72775"
     }
    },
    "from_icn": "unknown",
@@ -1639,8 +1643,14 @@
    "first_published": "2026-11-23",
    "last_published": "2026-11-23",
    "first_seen": "2026-11-23T13:18:16+09:00",
-   "last_seen": "2026-11-23T18:16:02+09:00",
+   "last_seen": "2026-11-23T22:17:32+09:00",
    "articles": [
+    {
+     "title": "카타르항공, 항공권 최대 20% 할인",
+     "outlet": "트래블데일리",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72775",
+     "published": "2026-11-23"
+    },
     {
      "title": "카타르항공 블랙프라이데이 항공권 최대 20% 할인…노선별 적용률·제외 날짜 확인",
      "outlet": "여행레저신문",
@@ -2191,7 +2201,7 @@
    "first_published": "2026-11-23",
    "last_published": "2026-11-23",
    "first_seen": "2026-11-23T09:14:03+09:00",
-   "last_seen": "2026-11-23T17:14:35+09:00",
+   "last_seen": "2026-11-23T22:17:32+09:00",
    "articles": [
     {
      "title": "여기어때, 연말 섬진강 여행객에 숙박 할인쿠폰 지급",
@@ -2203,6 +2213,12 @@
      "title": "여기어때, 섬진강 권역 4개 시·군 숙소 최대 2만원 할인",
      "outlet": "숙박매거진",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOUlg1dmU1UVJtRU1fTjZScHNsbHBDTU5QX1hQMS1kZU5qaExjUzlLX0UzSHlJQUdfdEJNejFwNjdnZlV5YUhUMERDR3ZKeFpqSU9fTElwclVKTTJsbloyYmNuZWhpeGtTak9oNFptM3I?oc=5",
+     "published": "2026-11-23"
+    },
+    {
+     "title": "여기어때, 섬진강 권역 4개 시군 숙소 최대 2만원 할인",
+     "outlet": "주간한국",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LeHRPSUJKSjFtZFlzLVBxSjJZTWFQTlhPUWh1TDZQR2sxdzhnRUFWYkowOFYta0RQalcyWkt6Q0VTS0dndm1DOTVRTWlxTlFDN0NyTUdkWkFIazB4TjB5RkNwSE10SW5tNFdZSmdEZ0zSAXRBVV95cUxOY1dkRF90U0I2Q0oxbWtzS0VKR1NrV3FNMlRtcXpzQjc5bGtER2VjV1JqczJuV1I5YTBxSmdJdlR5em9PNk9MMXdWbFZXWldaT25Ock1HbVcwMXgyc0p0eFY4aWY2LVZSZ0VRRElKSHljRE5MVA?oc=5",
      "published": "2026-11-23"
     },
     {
@@ -2221,6 +2237,12 @@
      "title": "여기어때, 섬진강 권역 숙소 최대 2만원 할인…12월 2일까지",
      "outlet": "파이낸셜투데이",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rZDlxUlR6azNWM0JvSmFFTy1sRFZkTUxVQ3ZoSFJrc1RhamlPSjdzbFhRWHBaN0U5blZ2YUpmSUtneDdTd3FJczc4Yms1NEQxa0paRjRYOVlyaUtLSkRENDRQY0FXNm9ZS2fSAW5BVV95cUxONGpKMGxHVk9ObldwUU9PMlpHempBemQydWNVUTE1VEtPX0xaOHZwc28xYm1BZzltdlgwWi1fZDcwaXgzVElwME1IVjRES0FJZmF5bHVMNkVMSGZBTm15NmFzUGdEb0w4U2prTEZSUQ?oc=5",
+     "published": "2026-11-23"
+    },
+    {
+     "title": "여기어때, 섬진강 4개 지역 숙박 할인…체류형 관광 활성화",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96M2ZtR3pZQlpjUFJ2OFdSaU5XYzZDZGhKSk1CM2trRERTY1pleEZLeFVNYWxxX2w4VGhOa2xONEVnTjlBTDQwTC1DMUZBcGhnMUlrc2FaRzNZYjFpQUxfNGtmWlJNUjlQTFNB0gFvQVVfeXFMTjYtbVNsN0RVWjk0MzVHRUxlMzhyUmdzbmRNbnVsZTZVcXpPLTIwXzEwRUxOTkVCVlk1SkY5ZWpfQXZtTHpBTzlkMGVqMTVYU1YyVFpEU1FPZ3ZvV2tyZjgyUkZWR1BXaHNCM2tWQ3Br?oc=5",
      "published": "2026-11-23"
     },
     {
@@ -2674,7 +2696,7 @@
    "first_published": "2026-11-16",
    "last_published": "2026-11-16",
    "first_seen": "2026-11-16T13:18:21+09:00",
-   "last_seen": "2026-11-20T03:40:04+09:00",
+   "last_seen": "2026-11-23T22:17:32+09:00",
    "articles": [
     {
      "title": "NOL, 겨울 놀거리도 제철에 즐긴다… NOLDAY서 여행ㆍ공연ㆍ전시 최대 70% 할인",
@@ -2698,6 +2720,12 @@
      "title": "NOL, 7주간 겨울 ‘NOLDAY’…여행·공연·전시 할인",
      "outlet": "핀포인트뉴스",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ueEszUDJVazVtVGxVdDUyQjFWbV9XQU9TcExreVotY1dWbHNBa1NWcVg1MGVoN3AxelVBRVM0MWlMUUFRNFBPN1ViaThOcU9PbzVIeW1ZSDJMU014eGo2VkF6Y05qNnFBc3ZmbkEzTUZBMDDSAXdBVV95cUxOODBUYW9OOUZpYlc3dFA5T253U2N5QkhMV1BabEU4VGJZcTh4MDlRa0k2OUxqN05lZkE3Sm13cEZOZWJmRjl5RHVOTXRmZ1pBaDJocmQ2cEVLcG5wRm9uMFNLUHZvdWhXeUJwZV83T3BfWTRGOTBQWQ?oc=5",
+     "published": "2026-11-16"
+    },
+    {
+     "title": "NOL, 겨울철 여가 특가전 ‘NOLDAY’ 실시…여행·공연·전시 최대 70% 할인",
+     "outlet": "데일리포스트",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90cjR4cGRMcVg3S1VzcmltLWMxbnczMDBsRS1LUFNUdnVpZmJyVkp4dVAxVHc1Wmx0ZWJZb051ZXRRak9jNFBBU3lYWGJhYkNVcXlKbnJuS2RCdV8zc2J4aTRBbUFGX3VNNUhWMk9WRdIBc0FVX3lxTE9fX1NvNGd2N2ZFTkwxYTBUXzV4WHE2MGNWcFp1TVktV2N1U1ZDU0ZBODdrb0hLYU4tQmNJb2d5bE5fMTlVMmNMdWhJdFA5YW9OR2JSanh0cWFYLVJvSWRFcWZ1WEFhUWpNbmtjclFDQWNRVnM?oc=5",
      "published": "2026-11-16"
     },
     {
@@ -7221,139 +7249,6 @@
    "status": "undated"
   },
   {
-   "id": "finnair-a18aae07dc",
-   "airline_id": "finnair",
-   "airline": "핀에어",
-   "airlines_mentioned": [
-    "핀에어"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.finnair.com/kr-ko",
-   "iata": [
-    "AY"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "핀에어, 유럽 노선 최대 25% 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": "2026-11-30",
-   "travel_end": "2027-03-31",
-   "routes": [
-    {
-     "origin": null,
-     "destination": "유럽"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "travel": {
-     "title": "트래블데일리 요약문: 판매 기간은 11월 30일까지며 여행 기간은 2027년 3월 31일까지다.",
-     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72713"
-    },
-    "discount": {
-     "title": "핀에어, 유럽 노선 최대 25% 할인",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QMGo1akxDS28yTXlyN013dmx1UjVNWXpmYkd6dWtCZlVnUm01d3Y3Z01fN0tZRXk1NDlDeFc2eGdGTF9WeGEzYzdNUGwyQndpRXZxUnNFTUJqR2JQdzktTEpVeUxPVm02Y3Y2RFZjbXU?oc=5"
-    },
-    "route": {
-     "title": "핀에어, 유럽 노선 최대 25% 할인",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QMGo1akxDS28yTXlyN013dmx1UjVNWXpmYkd6dWtCZlVnUm01d3Y3Z01fN0tZRXk1NDlDeFc2eGdGTF9WeGEzYzdNUGwyQndpRXZxUnNFTUJqR2JQdzktTEpVeUxPVm02Y3Y2RFZjbXU?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 25%",
-   "verification": "news",
-   "first_published": "2026-11-17",
-   "last_published": "2026-11-17",
-   "first_seen": "2026-11-17T13:18:19+09:00",
-   "last_seen": "2026-11-17T22:17:35+09:00",
-   "articles": [
-    {
-     "title": "핀에어, 유럽 노선 최대 25% 할인",
-     "outlet": "트래블데일리",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QMGo1akxDS28yTXlyN013dmx1UjVNWXpmYkd6dWtCZlVnUm01d3Y3Z01fN0tZRXk1NDlDeFc2eGdGTF9WeGEzYzdNUGwyQndpRXZxUnNFTUJqR2JQdzktTEpVeUxPVm02Y3Y2RFZjbXU?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "‘겨울 유럽’ 여행 운임 낮춘다···핀에어, 특가 프로모션 진행",
-     "outlet": "이뉴스투데이",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xWkVOWWRsVjJHVWxtMGFnaWxPVC1JX0JoTW8zNl9EenUySHdZaFE3RGoxU2dTS2dLRU9JN1cyb3BrZFlaUDFHMGVjYTBNeHNzYmFHOFJOeXdCLUJwdnpYZkdpZTl0N3dlbDM5OWlYME7SAXRBVV95cUxPMjIzQkg0ZGN3R0s4bWo1bkl1N1gtZ0wxcUZvRmZ1ZzdUOVUtVkg2bmxfUTdaZE8tZVVqRW1Cdy0xak1jZVNGZ0RZQ1RRbUZzbnhqaXRTc2I1aUFPdlYtazBhYktlTVp2Y0pyYmVsYm9DVXExdg?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "핀에어, 블랙프라이데이 맞아 유럽 항공권 할인",
-     "outlet": "인사이트코리아",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yYUZOazJNS1FrUVRfYmRQcVhVQk9leW9zMHdobzk0Vjl1QUNSYU1kWElhSUxiVE5wUVIzOWF6NUhHTWt5VzBncUdCN1VLRmY3T2xTVkowNzRubS1vQ3FPeDdvb01ROTZLc2pqSUp0LWVndW_SAXdBVV95cUxONHJuMUIwdUNxOEtjUEM0ZnFjVjVVMmtyYS1OUXdGR2w4dDFkU0Z1X0lGTUxGaWJ2RFIwUFFiTG1HU09RSDdzbzBScEphc0g3LTJOZHdEdk5WMXBPMVZ0RU00OHNINEtROEsyRWdkREpnU2hIelNWOA?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "핀에어, 블랙프라이데이 맞아 유럽 16개 노선 항공권 최대 25% 할인",
-     "outlet": "뉴스플릭스",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyR3JyMC15M1gzMGI1ZWpTX1R1RnlYemdKSU5mV3ZVZVhXVkZvR2FpTGREZV9ZY29KOEZQLXpRWXAxMWpRWEtTbGM2cjN1eENnREtpVXJVamJpQ1dvUm14RktmaEFlelRLRmNJNQ?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "비엔나에선 왈츠를, 코펜하겐에선 크리스마스를…핀에어, 유럽행 최대 25% 할인",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fVElheWJ5TGlvM2t5OHpONHFGc09MbDRFdDRnOTI2ZmtwNUk0LXVWN0hTYUdqeHdnYmhKWkNPWE1rV0E5Q1NGakp5ZXNmNGRieHNiVGs4bmcxdjM0aV9lOHRvOGFldGRXaUZESA?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "핀에어, 유럽 노선 할인...‘겨울 유럽’ 최대 25% 싸게 간다",
-     "outlet": "한스경제",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02LWtzMHppNzVibkpYY3NFSU84OWZHZjYtUFB1Z3pZOTZiajdlNzZZS3dWOXhOQUVuTl9jREcxSjdEX3pKazNPLWVMSW12UHVXR0NrZkdGWjJZc3lPWW43UHM5VnZETWxlV2NsVw?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "겨울 유럽여행 준비한다면⋯핀에어, 항공권 최대 25% 할인",
-     "outlet": "엠투데이",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ORDkxWTFQZFZWeGVsSEY2Q1BveFA1a1RINTRNR1d2NC1FUDRZY1UwN0lPRkhXZk9ZTkQxYkdDMTVLeFdCcXY5VjliNzgwRXFCQVdPdER3YVBYaUk4UkZ5eUxkNWdacGRQSF9QejZ0TQ?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "핀에어, 블랙프라이데이 맞아 유럽 항공권 최대 25% 할인",
-     "outlet": "월요신문",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVWnpPRUFtcE1PVmdHX291cFFhMDRNRFZBU2FQOWVsX3RjUnBEeV9SR3dHTEhYQWFnR2FYLVQ2WnpvVGxaNG5jZTVPYmFkNHlIQlIwRWJkdVJFQ1RocDZrUmFRWElJVFhKRmc?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "핀에어, 블프 맞아 유럽 16개 노선… 최대 25% 할인",
-     "outlet": "통신일보",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QTms5WkJnd293WDhMcXBEZnc3dlBRSlc4QVBoRU5NTVFKRGtVdkVjc1Q1MjgwRmRMZnJKdEFJSkNZc2I3ZnNfNFN3UTRqbkp3NkVRS1hZYTltUXZyVV9tQkxJbnpfVXpyNUE?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "핀에어, 유럽 16개 노선 항공권 최대 25% 할인 프로모션",
-     "outlet": "퍼블릭뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBucnpQSnRPZHRjTVg0eFU4ZGR5dlJ2UGJ4N1ktQTBvaTFGT2l2c2dBYlBfeXZlUFhFaUVadUlvRE9aalh2N0FEVlZId2d6ZWRtUk1ZTWZTQ2hLcl84MFVFS0UtRW9UaWctNi0w?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "핀에어, 블랙프라이데이 특가 항공권 판매… 유럽 노선 최대 25% 할인",
-     "outlet": "브릿지경제",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Jb2xvSGNrdGsyZmRUNlFGM3RweWxUS0hSYmlobjNRWmtPemFCUXhraTJjV2lybnIyRUQxd3FNeEtUOEhybTZsSVpLMm1abzJobDNRSEVwd1dkUQ?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "겨울 유럽 여행, 특가로 준비하세요! 핀에어, 블랙프라이데이 맞아 유럽 노선 최대 25% 할인",
-     "outlet": "인디포커스",
-     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5HUF93c2hLMDV6OWZRMEZ4VUpKdE03X3QzU2hJQk9KcHY0b3oxR2lEeHhLRWFMMFZpMmZUSUFzWDFVQ1U?oc=5",
-     "published": "2026-11-17"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "finnair-07d858ea84",
    "airline_id": "finnair",
    "airline": "핀에어",
@@ -7863,6 +7758,145 @@
      "outlet": "헤럴드경제",
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4yUWhvUWZFdUJQejFBV1U1RTdKSzg1OVdHb085WVdzR0h0Z0ZiVG51dzZObHZzSWZYUTNTamtzbzhoa1RuZ3pqTUlfMDJ6ZmR5Ukt1M01B?oc=5",
      "published": "2026-11-16"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "finnair-a18aae07dc",
+   "airline_id": "finnair",
+   "airline": "핀에어",
+   "airlines_mentioned": [
+    "핀에어"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.finnair.com/kr-ko",
+   "iata": [
+    "AY"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "핀에어 한국지사, 블랙프라이데이 맞아 유럽 노선 최대 25% 할인 행사 단행",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": "2026-11-30",
+   "travel_end": "2027-03-31",
+   "routes": [
+    {
+     "origin": null,
+     "destination": "유럽"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "travel": {
+     "title": "트래블데일리 요약문: 판매 기간은 11월 30일까지며 여행 기간은 2027년 3월 31일까지다.",
+     "url": "https://www.traveldaily.co.kr/news/articleView.html?idxno=72713"
+    },
+    "discount": {
+     "title": "핀에어 한국지사, 블랙프라이데이 맞아 유럽 노선 최대 25% 할인 행사 단행",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55Rlp1bU4yT2RWRVhrM0RUVmd5cEc2S2pJcmQ4M3FhcnBjdGU2NVJScEZvWFJOQkFlTVRYalJKUFpaaUFOLVBzbnZtTHdwak1RTGJJQ1F5a0R4M19VVUFNTGNsUlo?oc=5"
+    },
+    "route": {
+     "title": "핀에어 한국지사, 블랙프라이데이 맞아 유럽 노선 최대 25% 할인 행사 단행",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55Rlp1bU4yT2RWRVhrM0RUVmd5cEc2S2pJcmQ4M3FhcnBjdGU2NVJScEZvWFJOQkFlTVRYalJKUFpaaUFOLVBzbnZtTHdwak1RTGJJQ1F5a0R4M19VVUFNTGNsUlo?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-11-17",
+   "last_published": "2026-11-18",
+   "first_seen": "2026-11-17T13:18:19+09:00",
+   "last_seen": "2026-11-23T22:17:32+09:00",
+   "articles": [
+    {
+     "title": "핀에어 한국지사, 블랙프라이데이 맞아 유럽 노선 최대 25% 할인 행사 단행",
+     "outlet": "KNS뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55Rlp1bU4yT2RWRVhrM0RUVmd5cEc2S2pJcmQ4M3FhcnBjdGU2NVJScEZvWFJOQkFlTVRYalJKUFpaaUFOLVBzbnZtTHdwak1RTGJJQ1F5a0R4M19VVUFNTGNsUlo?oc=5",
+     "published": "2026-11-18"
+    },
+    {
+     "title": "핀에어, 유럽 노선 최대 25% 할인",
+     "outlet": "트래블데일리",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QMGo1akxDS28yTXlyN013dmx1UjVNWXpmYkd6dWtCZlVnUm01d3Y3Z01fN0tZRXk1NDlDeFc2eGdGTF9WeGEzYzdNUGwyQndpRXZxUnNFTUJqR2JQdzktTEpVeUxPVm02Y3Y2RFZjbXU?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "‘겨울 유럽’ 여행 운임 낮춘다···핀에어, 특가 프로모션 진행",
+     "outlet": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xWkVOWWRsVjJHVWxtMGFnaWxPVC1JX0JoTW8zNl9EenUySHdZaFE3RGoxU2dTS2dLRU9JN1cyb3BrZFlaUDFHMGVjYTBNeHNzYmFHOFJOeXdCLUJwdnpYZkdpZTl0N3dlbDM5OWlYME7SAXRBVV95cUxPMjIzQkg0ZGN3R0s4bWo1bkl1N1gtZ0wxcUZvRmZ1ZzdUOVUtVkg2bmxfUTdaZE8tZVVqRW1Cdy0xak1jZVNGZ0RZQ1RRbUZzbnhqaXRTc2I1aUFPdlYtazBhYktlTVp2Y0pyYmVsYm9DVXExdg?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "핀에어, 블랙프라이데이 맞아 유럽 항공권 할인",
+     "outlet": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yYUZOazJNS1FrUVRfYmRQcVhVQk9leW9zMHdobzk0Vjl1QUNSYU1kWElhSUxiVE5wUVIzOWF6NUhHTWt5VzBncUdCN1VLRmY3T2xTVkowNzRubS1vQ3FPeDdvb01ROTZLc2pqSUp0LWVndW_SAXdBVV95cUxONHJuMUIwdUNxOEtjUEM0ZnFjVjVVMmtyYS1OUXdGR2w4dDFkU0Z1X0lGTUxGaWJ2RFIwUFFiTG1HU09RSDdzbzBScEphc0g3LTJOZHdEdk5WMXBPMVZ0RU00OHNINEtROEsyRWdkREpnU2hIelNWOA?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "핀에어, 블랙프라이데이 맞아 유럽 16개 노선 항공권 최대 25% 할인",
+     "outlet": "뉴스플릭스",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyR3JyMC15M1gzMGI1ZWpTX1R1RnlYemdKSU5mV3ZVZVhXVkZvR2FpTGREZV9ZY29KOEZQLXpRWXAxMWpRWEtTbGM2cjN1eENnREtpVXJVamJpQ1dvUm14RktmaEFlelRLRmNJNQ?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "비엔나에선 왈츠를, 코펜하겐에선 크리스마스를…핀에어, 유럽행 최대 25% 할인",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fVElheWJ5TGlvM2t5OHpONHFGc09MbDRFdDRnOTI2ZmtwNUk0LXVWN0hTYUdqeHdnYmhKWkNPWE1rV0E5Q1NGakp5ZXNmNGRieHNiVGs4bmcxdjM0aV9lOHRvOGFldGRXaUZESA?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "핀에어, 유럽 노선 할인...‘겨울 유럽’ 최대 25% 싸게 간다",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02LWtzMHppNzVibkpYY3NFSU84OWZHZjYtUFB1Z3pZOTZiajdlNzZZS3dWOXhOQUVuTl9jREcxSjdEX3pKazNPLWVMSW12UHVXR0NrZkdGWjJZc3lPWW43UHM5VnZETWxlV2NsVw?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "겨울 유럽여행 준비한다면⋯핀에어, 항공권 최대 25% 할인",
+     "outlet": "엠투데이",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ORDkxWTFQZFZWeGVsSEY2Q1BveFA1a1RINTRNR1d2NC1FUDRZY1UwN0lPRkhXZk9ZTkQxYkdDMTVLeFdCcXY5VjliNzgwRXFCQVdPdER3YVBYaUk4UkZ5eUxkNWdacGRQSF9QejZ0TQ?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "핀에어, 블랙프라이데이 맞아 유럽 항공권 최대 25% 할인",
+     "outlet": "월요신문",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVWnpPRUFtcE1PVmdHX291cFFhMDRNRFZBU2FQOWVsX3RjUnBEeV9SR3dHTEhYQWFnR2FYLVQ2WnpvVGxaNG5jZTVPYmFkNHlIQlIwRWJkdVJFQ1RocDZrUmFRWElJVFhKRmc?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "핀에어, 블프 맞아 유럽 16개 노선… 최대 25% 할인",
+     "outlet": "통신일보",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QTms5WkJnd293WDhMcXBEZnc3dlBRSlc4QVBoRU5NTVFKRGtVdkVjc1Q1MjgwRmRMZnJKdEFJSkNZc2I3ZnNfNFN3UTRqbkp3NkVRS1hZYTltUXZyVV9tQkxJbnpfVXpyNUE?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "핀에어, 유럽 16개 노선 항공권 최대 25% 할인 프로모션",
+     "outlet": "퍼블릭뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBucnpQSnRPZHRjTVg0eFU4ZGR5dlJ2UGJ4N1ktQTBvaTFGT2l2c2dBYlBfeXZlUFhFaUVadUlvRE9aalh2N0FEVlZId2d6ZWRtUk1ZTWZTQ2hLcl84MFVFS0UtRW9UaWctNi0w?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "핀에어, 블랙프라이데이 특가 항공권 판매… 유럽 노선 최대 25% 할인",
+     "outlet": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Jb2xvSGNrdGsyZmRUNlFGM3RweWxUS0hSYmlobjNRWmtPemFCUXhraTJjV2lybnIyRUQxd3FNeEtUOEhybTZsSVpLMm1abzJobDNRSEVwd1dkUQ?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "겨울 유럽 여행, 특가로 준비하세요! 핀에어, 블랙프라이데이 맞아 유럽 노선 최대 25% 할인",
+     "outlet": "인디포커스",
+     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5HUF93c2hLMDV6OWZRMEZ4VUpKdE03X3QzU2hJQk9KcHY0b3oxR2lEeHhLRWFMMFZpMmZUSUFzWDFVQ1U?oc=5",
+     "published": "2026-11-17"
     }
    ],
    "status": "undated"
