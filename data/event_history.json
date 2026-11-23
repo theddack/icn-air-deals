@@ -114,6 +114,13 @@
    "sale_start": "2026-11-09",
    "sale_end": "2026-11-16"
   },
+  "h-hanatour|2026-11-23|연말연시할인받아마카오여행가볼까하나투어x멜코하": {
+   "airline_id": "h-hanatour",
+   "airline": "하나투어",
+   "name": "“연말연시, 할인받아 마카오 여행 가볼까?”…하나투어x멜코, ‘하우스 오브 댄싱 워터’ 특가",
+   "sale_start": "2026-11-23",
+   "sale_end": null
+  },
   "h-hilton|2026-10-05|hiltonforbusiness25offsa": {
    "airline_id": "h-hilton",
    "airline": "힐튼",
