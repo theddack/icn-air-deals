@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T17:14:35+09:00",
+ "generated_at": "2026-11-23T18:16:02+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,19 +9,19 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 0,
-  "rss_items": 1939,
+  "failed_queries": 1,
+  "rss_items": 1959,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2022,
+  "outlet_items": 2034,
   "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 79,
-  "articles": 921,
-  "new_articles": 13,
+  "articles": 923,
+  "new_articles": 2,
   "deals": 193
  },
  "deals": [
@@ -1639,7 +1639,7 @@
    "first_published": "2026-11-23",
    "last_published": "2026-11-23",
    "first_seen": "2026-11-23T13:18:16+09:00",
-   "last_seen": "2026-11-23T17:14:35+09:00",
+   "last_seen": "2026-11-23T18:16:02+09:00",
    "articles": [
     {
      "title": "카타르항공 블랙프라이데이 항공권 최대 20% 할인…노선별 적용률·제외 날짜 확인",
@@ -1663,6 +1663,18 @@
      "title": "170개 이상 목적지 최대 20% 할인···카타르항공, 블랙프라이데이 특가 돌입",
      "outlet": "이뉴스투데이",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tenJNNF9LRUZtUVhFazNJWmdHdUVwRWdaOU9yLUwzQ2V3REJQM0RpclFCWklMb2NPR3pPLVl2aWw3VXZVU2dOT3V1UGNzM0VnNFJGbFJsN3FLMmdrUElramxLQU9VWDVFZG00S05OOHPSAXRBVV95cUxQbUVRNm9JTHd5OWxWbGJxS0duZExEMmQ2VnRtRHVZaVhXVXlwMEpsNkI2WlRFc19JOXBFZk9USjY0V2FpYVBOQTZ0b2J6U21qVlN2TmtUWW5zbG5YaDdtTHctR29aUFVHRVFaUENmT1kzLWVWVQ?oc=5",
+     "published": "2026-11-23"
+    },
+    {
+     "title": "카타르항공, 블랙프라이데이 최대 20% 할인",
+     "outlet": "잡포스트",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3WE9YaU41ME5kZk1ZM2FlS1pMNzlNM28wczBKSXpRZkpQU2d4RWRLczVfMzVrUXplbjR0WEZKV3YzVlBBUDJOZUp1M0xoWWVrblFRUzdjN3ZLbFRKTTZ6cUwxNTVKVkdDNldORzZn0gFyQVVfeXFMTXNTRDZmMUR0ZjRqVmRGNHNPLTNJTm1ubndybDdxTTNaam1wS3FrTUdWM0JMQ0xONW1MOVdxalNzU2tIRVY3MGlpQjd4N2U2bFpNQS02Q19oaUxyRnQ4RVRlWDNob1cwNFhhMWpCZmc5bGNB?oc=5",
+     "published": "2026-11-23"
+    },
+    {
+     "title": "카타르항공, 항공권 프로모션...주요 목적지 ‘최대 20%’ 할인",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TanI1NDgwY1NxVlpWanIwZGpoVVQ3UUdONGc1dThYTzBnZnBsVnA5cmlDTkhybENJRDlHUl9iX2pDaldlYlkzSVdISW9lSmZvLU05bHdYdk5yRTcwS1FrSU5jYmlGS2ZiNmRoWg?oc=5",
      "published": "2026-11-23"
     },
     {
