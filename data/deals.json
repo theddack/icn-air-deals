@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T02:23:38+09:00",
+ "generated_at": "2026-11-23T09:14:03+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 0,
-  "rss_items": 1864,
+  "failed_queries": 2,
+  "rss_items": 1856,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1555,
-  "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_items": 1765,
+  "outlet_new_articles": 1,
+  "outlet_enriched": 1,
   "mail_articles": 12,
   "mail_new_articles": 0,
-  "articles_with_summary": 75,
-  "articles": 891,
-  "new_articles": 2,
-  "deals": 184
+  "articles_with_summary": 76,
+  "articles": 897,
+  "new_articles": 6,
+  "deals": 188
  },
  "deals": [
   {
@@ -1845,6 +1845,78 @@
      "outlet": "LoyaltyLobby",
      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNkw3cUlIbTNFUmVQaHBQclpCdk93em1wa0lLa3docDAyaXN5WVhVbmdWVFJ4bnB6Y2toMUw2MkFtcE9ZcVNWLVBSczdIdTVobnIxTEMzNUFNd1Z4emZocmg2WnhaODBfVU8zWHhWR2R2Q2p2ZTB0czNkemhHYUMzUlBqSnpEd0RUcnVDZTVJSkkxRlRxT1lvb0hSZWNBMUdyaF80QklWZHdNUnh0NXlzZXpwakU0NW0yMXBEai1Xa2diVXlhSjFNOGgyZ2tkZ2xDeE9rWkV5Y3R1OHNWZkpRR09HUlB3YkJoYTVPWUEyd1VGTUQyRmRFV3VFYw?oc=5",
      "published": "2026-11-19"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-yeogi-6f0cd1a610",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "여기어때, 섬진강 4개 시·군 숙소 2만원 할인",
+   "sale_start": null,
+   "sale_end": "2026-12-02",
+   "travel_start": "2026-12-31",
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "여기어때, 섬진강 권역 숙소 최대 2만원 할인…12월 2일까지",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rZDlxUlR6azNWM0JvSmFFTy1sRFZkTUxVQ3ZoSFJrc1RhamlPSjdzbFhRWHBaN0U5blZ2YUpmSUtneDdTd3FJczc4Yms1NEQxa0paRjRYOVlyaUtLSkRENDRQY0FXNm9ZS2fSAW5BVV95cUxONGpKMGxHVk9ObldwUU9PMlpHempBemQydWNVUTE1VEtPX0xaOHZwc28xYm1BZzltdlgwWi1fZDcwaXgzVElwME1IVjRES0FJZmF5bHVMNkVMSGZBTm15NmFzUGdEb0w4U2prTEZSUQ?oc=5"
+    },
+    "travel": {
+     "title": "핀포인트뉴스 요약문: 쿠폰을 적용한 숙박상품은 12월31일 체크인 일정까지 이용할 수 있다.",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506811"
+    },
+    "discount": {
+     "title": "핀포인트뉴스 요약문: …가 광양·곡성·구례·하동 등 섬진강 권역 4개 시·군 숙소를 대상으로 최대 2만원 할인 프로모션을 진행한다.…",
+     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506811"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 2만원 할인",
+   "verification": "news",
+   "first_published": "2026-11-23",
+   "last_published": "2026-11-23",
+   "first_seen": "2026-11-23T09:14:03+09:00",
+   "last_seen": "2026-11-23T09:14:03+09:00",
+   "articles": [
+    {
+     "title": "여기어때, 섬진강 4개 시·군 숙소 2만원 할인",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWWHo1OHBCX190RHVwSm9mZmhLdXMzOTJ3V3lXanpabk1Od29SSzRGT0ljRDlDMkhvUjhJR3VIVEtVUWNVUUNtUXZTYkVsUUZIY00ySXhHUWljMnA1N0N1b25BNEVQZUo2UGlYQmZxY0lxaGPSAXdBVV95cUxPWndadFBIUHZONEZ0aUtoWWpzMXdxc1RhX2J4TEd6VUxLaGZYMFBJUEF5YmI4MVZ4ZzNleV9TekRHd1dON2hoZFE5ZzRkVHlkTEY4emw4OXVLUXl1YWp6UFBiWjgtX0JzMVlVeVJBTVZFWEE5UDJxYw?oc=5",
+     "published": "2026-11-23"
+    },
+    {
+     "title": "여기어때, 섬진강 권역 숙박 할인···최대 2만원 혜택",
+     "outlet": "뉴스프리존",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qWWVSUC00dGJVSWFFMFpLVUdjeHk3a3d6bWJaQzQxWlhZM2Jaa08zcUxURXlCdzRaMEFld21JTlphb0pCMmZNVXJQY2R5UFVrNFpTMDZwVTV0aEZtaWVkS3F3WWtlZ0RIc1p4aTZGRWg0VFHSAXdBVV95cUxPLWNmRHBkaG9ranRRQUJyZ1dIaTRJZ1N2N2NkU3FIbTdkUGRIMnhXM3pOT21JT0xEdFdralJyUl9uSVNTZ3JyZkVlQ2t4Nzd3V3Jwd1ZyR2lLWm5XdUpIcmwwNzlaUzd2djRNZ1N1OG1aVmJINlZQTQ?oc=5",
+     "published": "2026-11-23"
+    },
+    {
+     "title": "여기어때, 섬진강 권역 숙소 최대 2만원 할인…12월 2일까지",
+     "outlet": "파이낸셜투데이",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rZDlxUlR6azNWM0JvSmFFTy1sRFZkTUxVQ3ZoSFJrc1RhamlPSjdzbFhRWHBaN0U5blZ2YUpmSUtneDdTd3FJczc4Yms1NEQxa0paRjRYOVlyaUtLSkRENDRQY0FXNm9ZS2fSAW5BVV95cUxONGpKMGxHVk9ObldwUU9PMlpHempBemQydWNVUTE1VEtPX0xaOHZwc28xYm1BZzltdlgwWi1fZDcwaXgzVElwME1IVjRES0FJZmF5bHVMNkVMSGZBTm15NmFzUGdEb0w4U2prTEZSUQ?oc=5",
+     "published": "2026-11-23"
     }
    ],
    "status": "live"
@@ -8035,6 +8107,102 @@
    "status": "undated"
   },
   {
+   "id": "h-other-40467737b6",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Best Black Friday and Cyber Monday Hotel Deals 2026",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-20",
+   "last_published": "2026-11-20",
+   "first_seen": "2026-11-23T09:14:03+09:00",
+   "last_seen": "2026-11-23T09:14:03+09:00",
+   "articles": [
+    {
+     "title": "Best Black Friday and Cyber Monday Hotel Deals 2026",
+     "outlet": "BlackFriday.com",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rU0lSQ0tFU0prbVhFTjJ0S3NMMWpKeHdiQ3NNVllQTG4zNmc3TFlGSExhMDJObFUxUlF6YnRmX2R2TE1kWlpjQkludGZyaEwzSzc4bnA4cE9VNTdackRWWk5fOUdKUUhxYkE?oc=5",
+     "published": "2026-11-20"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-9079da0328",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[Expired] 71 Black Friday Hotel Deals in the U.S. and Canada",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "캐나다"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-20",
+   "last_published": "2026-11-20",
+   "first_seen": "2026-11-23T09:14:03+09:00",
+   "last_seen": "2026-11-23T09:14:03+09:00",
+   "articles": [
+    {
+     "title": "[Expired] 71 Black Friday Hotel Deals in the U.S. and Canada",
+     "outlet": "Upgraded Points",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2ZXVCMllwaENCa1BRTmhtaGpJNUNONkVUcEpIdHRJWGw0NjA0SzktUnZNM2ItYVdDQl9xQzdaYWNyRWJNbGxadUpjRFRudFU5OVZjQ3hYTGZxNElobFZRSm5FZDVfS2ZzY3MtU04xSGdodEFhT1E?oc=5",
+     "published": "2026-11-20"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "jejuair-5d776c1e1e",
    "airline_id": "jejuair",
    "airline": "제주항공",
@@ -8640,6 +8808,55 @@
      "outlet": "Disney Tourist Blog",
      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdGRRQnJuTFdqWXMwTkFhdGR6aW1lNG1fSzFHQTNVcUR5ZERvMTJGYWtiMHcwNlBCbE45a01lcl8wVDV4UWItZE9jb2lsczljRWs0LTc1bklkOGlRVG9iLVpiZkQ0M1pRemJmVWVKeUdFd0F4N0RzdkowenZFNTVENGpiV0ZtNS1PYklRQktweVNTdjNickt1b01GbjQxMHp4UHlNb3o2X1d2NVZYZWJ2R2pLQ05QNDRsZXJCRkpBck1KTHlKQUItM1F6R04?oc=5",
      "published": "2026-11-22"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "parataair-245993a346",
+   "airline_id": "parataair",
+   "airline": "파라타항공",
+   "airlines_mentioned": [
+    "파라타항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.parataair.com/",
+   "iata": [
+    "WE"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "파라타항공, 첫 미주 노선 취항 앞두고 특가 프로모션",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-23",
+   "last_published": "2026-11-23",
+   "first_seen": "2026-11-23T09:14:03+09:00",
+   "last_seen": "2026-11-23T09:14:03+09:00",
+   "articles": [
+    {
+     "title": "파라타항공, 첫 미주 노선 취항 앞두고 특가 프로모션",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=758123",
+     "published": "2026-11-23"
     }
    ],
    "status": "undated"
