@@ -7255,7 +7255,23 @@
   "outlet": "트래비 매거진",
   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tZF9Ta0xMOU1fenp6c2xESFFUWTRvWWFORTF5c0NvcFR2Nl9QTkRQdGx6dVQyWEN1VkJGb0tDV0lTaDFtZi1EcTRZam5NTFcwVDVnTm8xMXVVeFBZQWtjNFlJZmFrWmPSAWtBVV95cUxOVUc0b004TzZSWmZqOEVfRjRZRnpSVmxYRERjTWE2TUMxOWJseGR3OU85Wk5aQjZIWlJfVDZlMWRwYTdWb1lmVk9WQzNqUXp4di0yLXF4YWZ5aWhuRTI4X1NZaUpFR25kVDdBOA?oc=5",
   "published": "2026-11-21",
-  "first_seen": "2026-11-21T16:42:04+09:00"
+  "first_seen": "2026-11-21T16:42:04+09:00",
+  "summary_facts": {
+   "url": "https://www.travie.com/news/articleView.html?idxno=56229",
+   "outlet": "트래비",
+   "fields": {
+    "discount": "최대 25%",
+    "sale_start": null,
+    "sale_end": "2026-11-30",
+    "travel_start": null,
+    "travel_end": "2027-01-31"
+   },
+   "evidence": {
+    "discount": "… 국제선 항공권은 최대 25% 할인하고, 11월 말까지 네이버페이로 결제하면 금액에 따라 포인트도 적립해준다…",
+    "sale": "트리니티항공은 11월 30일까지 공식 홈페이지와 모바일 앱, 웹에서 ‘11월~1월 출발 한정 국제선 할인 프…",
+    "travel": "탑승 기간은 일부 기간을 제외한 2027년 1월 31일까지다."
+   }
+  }
  },
  {
   "title": "놀유니버스 NOL, 일본 오카야마 여행 기획전…항공권 최대 5만원 할인",
@@ -7478,5 +7494,93 @@
   "published": "2026-11-23",
   "first_seen": "2026-11-23T09:14:03+09:00",
   "source": "outlet_rss"
+ },
+ {
+  "title": "NOL, 오카야마 여행 할인전…항공권 최대 5만원 할인",
+  "outlet": "인사이트코리아",
+  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFal9fdHZHU19OOVlZbVVscUZ4bWIwOHlOdGxKQ0ZDdHhUMlVhWEE5cnVmLTllNXZGMVk0RDRVS0UwRlh4eGU0bnIzRmpkcndDbWRPZ2NKYnNsVF9LV205dzRkdE5DNGZNaDlZZlRLbS1Rbm_SAXdBVV95cUxOaTdhS1pjZk5xZnpDeVhwNFJySlBuakRLQTUwdmZ2dlBUV3JJQ216b1k0LXpoWkkxNFJUSnNmNEMzR2tpNFhBamt5TW1UcUxnRXNBeVJSYzZZTmljNkg3QUtRdnliUHNXb3gxWnd5TFlHaWI0Wl9law?oc=5",
+  "published": "2026-11-20",
+  "first_seen": "2026-11-23T13:18:16+09:00"
+ },
+ {
+  "title": "[항공 라운지] 제주∙파라타∙카타르∙진에어∙트리니티…새 하늘길에 특가, 지상에선 나눔",
+  "outlet": "한국면세뉴스",
+  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JOWdrU084X0lIakJCSVhaaGZ2dlRXaDRyRXBPa2Fic0FBYVowZzVSbmNrTXBMVHBMRnpGbG83WHhGbThiNHh0b2hVempxNF9mZk1QYkp1NTZRRVJvd21OSmc2ZFg3Z0FCSHc?oc=5",
+  "published": "2026-11-23",
+  "first_seen": "2026-11-23T13:18:16+09:00",
+  "summary_facts": {
+   "url": "http://www.kdfnews.com/news/articleView.html?idxno=191274",
+   "outlet": "한국면세뉴스",
+   "fields": {
+    "origin": "인천(ICN)",
+    "destination": "일본"
+   },
+   "evidence": {
+    "route": "제주항공은 2027년 1월 8일부터 인천~일본 센다이 노선에 주 3회(수·금·일요일) 신규 취항한다."
+   }
+  }
+ },
+ {
+  "title": "파라타항공, 인천-LA 신규 취항 기념 특가… 왕복 99만원대부터",
+  "outlet": "브릿지경제",
+  "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9adE8yZ2lvN2VDR2U2WTVxQ0luUWRnZFBPRExiVEpaTXB0VkJLQ1FkRmdxZldPTUhZWGE0a2JRXzlqTGh4TVhyMVlOX0ZJTGJsS3MzeXRYZ3BMdw?oc=5",
+  "published": "2026-11-23",
+  "first_seen": "2026-11-23T13:18:16+09:00"
+ },
+ {
+  "title": "파라타항공, LA 노선 취항 기념 특가 프로모션 실시",
+  "outlet": "핀포인트뉴스",
+  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fQXlNME9OQnFDRnJTaHpZRGFvazM2OThORkpZRGxIZERoSnhubV9PTGh3YzNEVU5CWVpleDh6UUJsN0hNbjJtVGYzc3A4QmhQclVOLVloZ0dSUUItR3EzQ1ZvVF92SjQyanVYYlQ5aktPU1HSAXdBVV95cUxQTmRxX1Y2TW5KdGR1NUp0WjVMTW5OaXpmbmpJY05STUpiLTI4TW10QmxBdk5fdGFJRm1Pbk1Fdm9mT3ZkcFNmRFVpeGltakYzb3hTb0huVUJDOUExb3hLSXp6YWJfTnFCSDAySTdkYjlzZXB1T0NPNA?oc=5",
+  "published": "2026-11-23",
+  "first_seen": "2026-11-23T13:18:16+09:00"
+ },
+ {
+  "title": "첫 미주 노선 시동 걸었다···파라타항공 ‘인천~LA’ 취항 기념 특가",
+  "outlet": "이뉴스투데이",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tR05PS3paQXFwZ0tmMzcxQThMQlBpUFJEcEhwZE0waWgtal9hUF80SndCa3hIcU8tV0NXNV96dTVVc3ktRzZIQlRZY0tFRHRpNVIzYjhnRkRKYlBlUnQzTkZwX1cxY2ptSG9WUlFvVC3SAXRBVV95cUxOaTQyN2tLeG1MY1B1eExBNzJBNFg3bnBWV09XRWJRM09yb0tOcjFaR2pXTEdGMlQxT182aURIekx2ek9rcWhkXzdhT2s5YTdMODdhOHVJR2FXZktBc1l3YW9VOTBMZ1A1dWNwanhLR0hxUXZXaw?oc=5",
+  "published": "2026-11-23",
+  "first_seen": "2026-11-23T13:18:16+09:00"
+ },
+ {
+  "title": "필리핀항공, 필리핀관광진흥청과 공동 프로모션 실시...3인 예약 시 항공권 50% 할인",
+  "outlet": "스포츠서울",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YZERnQ3Y3RlFoNlQwdUdlUkpfemN3TjVDenpTa1doVzc5OVB6RWE3UUduaDFaU0hjVmNZX2NqbDBRTFFPejljQjlDTm9Sc1J0ekc3X2NkdFU?oc=5",
+  "published": "2026-11-23",
+  "first_seen": "2026-11-23T13:18:16+09:00"
+ },
+ {
+  "title": "카타르항공, 블랙프라이데이 항공권 최대 20% 할인…29일까지",
+  "outlet": "뉴스1",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XbDFWS2lnSjFvUDRKUlRsNEhjYkpCVTN4NU16Y1lUaDFfUjFhRXBJY2RlZDhYbUY4VWFEZXNMMk5GWC1fSURIU1Z6bEJWM184bXdQUVBJQ1U2ZUxlX0lGOA?oc=5",
+  "published": "2026-11-23",
+  "first_seen": "2026-11-23T13:18:16+09:00"
+ },
+ {
+  "title": "카타르항공, 오늘부터 7일간 항공권 20% 할인",
+  "outlet": "데일리로그",
+  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94Y1ZUZnB2WFpUa2hSd1lzN0dBVmlzT0dGSjF4aXBwSnhWRlA2bDUzNkNoQVJheHBiZWFFRXdVUHNZYkZrYTRqTERRUHdmQndZOFE4dmpsZ29vazBPQ3NwY2llel9FZUJOcFBv?oc=5",
+  "published": "2026-11-23",
+  "first_seen": "2026-11-23T13:18:16+09:00"
+ },
+ {
+  "title": "트리니티항공, 태국 노선 할인 프로모션…방콕·치앙마이 최대 20% 할인",
+  "outlet": "비즈니스플러스",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OTFpTUmlCbjIwMy14N1VSRm8yc0xoc2RMMDVIdnljcUdnUnZPbjZqcmxRNXlQeDBhVEFWSDJPV1h4YWlnTTRYWTVrT3UwbW12SmNSc2xIbHRscGFRUGRjTmsxNXVKMXJfTGY3SFJkNA?oc=5",
+  "published": "2026-11-15",
+  "first_seen": "2026-11-23T13:18:16+09:00"
+ },
+ {
+  "title": "여기어때, 연말 섬진강 여행객에 숙박 할인쿠폰 지급",
+  "outlet": "데일리안",
+  "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPbUkzcGJZMVZWS3YzTXRzTy16ZWFwMGlJUEJhTkpIQjhrdFZlYzNPYTVUa3R1b0ZIcmswV2dfZDltelVzZ3J6UnczM1lNNVJrRWM3SjRfQkhVR2lwY0U2enoteG1MWnZtMFZEdVc4bFlERzFXSzBaUUNQUkFWV3FpQjNzaUs4Z0NDNVJFRVQ1cE1RenhiM0l6M29PbjlocGNqMEFheWtQUkJjOHktel9tVUNkT0h3cVFja1dxWGZRLVNDMUJaZjQtdkJQd09JMG9NdG1YcElGc2hITjkxNHpXdllYZ2RNMU1qOTFtZ2RVZ05jbS03dlJmaXByN005UlZHcXNwLUF4bGZrcmpDaVBpMk52Q3dEcTlU?oc=5",
+  "published": "2026-11-23",
+  "first_seen": "2026-11-23T13:18:16+09:00"
+ },
+ {
+  "title": "여기어때, 섬진강 권역 4개 시·군 숙소 최대 2만원 할인",
+  "outlet": "숙박매거진",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOUlg1dmU1UVJtRU1fTjZScHNsbHBDTU5QX1hQMS1kZU5qaExjUzlLX0UzSHlJQUdfdEJNejFwNjdnZlV5YUhUMERDR3ZKeFpqSU9fTElwclVKTTJsbloyYmNuZWhpeGtTak9oNFptM3I?oc=5",
+  "published": "2026-11-23",
+  "first_seen": "2026-11-23T13:18:16+09:00"
  }
 ]

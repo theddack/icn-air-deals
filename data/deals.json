@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T09:14:03+09:00",
+ "generated_at": "2026-11-23T13:18:16+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 2,
-  "rss_items": 1856,
+  "failed_queries": 1,
+  "rss_items": 1954,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1765,
-  "outlet_new_articles": 1,
-  "outlet_enriched": 1,
+  "outlet_items": 1961,
+  "outlet_new_articles": 0,
+  "outlet_enriched": 2,
   "mail_articles": 12,
   "mail_new_articles": 0,
-  "articles_with_summary": 76,
-  "articles": 897,
-  "new_articles": 6,
-  "deals": 188
+  "articles_with_summary": 78,
+  "articles": 908,
+  "new_articles": 11,
+  "deals": 190
  },
  "deals": [
   {
@@ -47,7 +47,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "파라타항공, LA노선 예매 시작…24일부터 특가 프로모션",
+   "headline": "파라타항공, 첫 미주 노선 취항 앞두고 특가 프로모션",
    "sale_start": "2026-11-24",
    "sale_end": null,
    "travel_start": null,
@@ -60,16 +60,44 @@
     "sale": {
      "title": "파라타항공, LA노선 예매 시작…24일부터 특가 프로모션",
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1Z29ORUI1bmtOTVFpSXJZajJCcldnR1l1dm5BMkpoejh4anhFaUgwdEpfVFItSi1sLWU2YktZVVhkUWs2bGgxLTMzeXgzYVRZUGJRQ1BXYUd4TGRyclRtZFlB?oc=5"
+    },
+    "discount": {
+     "title": "파라타항공, 인천-LA 신규 취항 기념 특가… 왕복 99만원대부터",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9adE8yZ2lvN2VDR2U2WTVxQ0luUWRnZFBPRExiVEpaTXB0VkJLQ1FkRmdxZldPTUhZWGE0a2JRXzlqTGh4TVhyMVlOX0ZJTGJsS3MzeXRYZ3BMdw?oc=5"
     }
    },
    "from_icn": "yes",
-   "discount": null,
+   "discount": "99만원대부터",
    "verification": "news",
    "first_published": "2026-11-17",
-   "last_published": "2026-11-19",
+   "last_published": "2026-11-23",
    "first_seen": "2026-11-17T17:29:48+09:00",
-   "last_seen": "2026-11-19T13:18:23+09:00",
+   "last_seen": "2026-11-23T13:18:16+09:00",
    "articles": [
+    {
+     "title": "파라타항공, 첫 미주 노선 취항 앞두고 특가 프로모션",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=758123",
+     "published": "2026-11-23"
+    },
+    {
+     "title": "첫 미주 노선 시동 걸었다···파라타항공 ‘인천~LA’ 취항 기념 특가",
+     "outlet": "이뉴스투데이",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tR05PS3paQXFwZ0tmMzcxQThMQlBpUFJEcEhwZE0waWgtal9hUF80SndCa3hIcU8tV0NXNV96dTVVc3ktRzZIQlRZY0tFRHRpNVIzYjhnRkRKYlBlUnQzTkZwX1cxY2ptSG9WUlFvVC3SAXRBVV95cUxOaTQyN2tLeG1MY1B1eExBNzJBNFg3bnBWV09XRWJRM09yb0tOcjFaR2pXTEdGMlQxT182aURIekx2ek9rcWhkXzdhT2s5YTdMODdhOHVJR2FXZktBc1l3YW9VOTBMZ1A1dWNwanhLR0hxUXZXaw?oc=5",
+     "published": "2026-11-23"
+    },
+    {
+     "title": "파라타항공, LA 노선 취항 기념 특가 프로모션 실시",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fQXlNME9OQnFDRnJTaHpZRGFvazM2OThORkpZRGxIZERoSnhubV9PTGh3YzNEVU5CWVpleDh6UUJsN0hNbjJtVGYzc3A4QmhQclVOLVloZ0dSUUItR3EzQ1ZvVF92SjQyanVYYlQ5aktPU1HSAXdBVV95cUxQTmRxX1Y2TW5KdGR1NUp0WjVMTW5OaXpmbmpJY05STUpiLTI4TW10QmxBdk5fdGFJRm1Pbk1Fdm9mT3ZkcFNmRFVpeGltakYzb3hTb0huVUJDOUExb3hLSXp6YWJfTnFCSDAySTdkYjlzZXB1T0NPNA?oc=5",
+     "published": "2026-11-23"
+    },
+    {
+     "title": "파라타항공, 인천-LA 신규 취항 기념 특가… 왕복 99만원대부터",
+     "outlet": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9adE8yZ2lvN2VDR2U2WTVxQ0luUWRnZFBPRExiVEpaTXB0VkJLQ1FkRmdxZldPTUhZWGE0a2JRXzlqTGh4TVhyMVlOX0ZJTGJsS3MzeXRYZ3BMdw?oc=5",
+     "published": "2026-11-23"
+    },
     {
      "title": "파라타항공, LA노선 예매 시작…24일부터 특가 프로모션",
      "outlet": "미주중앙일보",
@@ -477,7 +505,7 @@
    "first_published": "2026-11-12",
    "last_published": "2026-11-18",
    "first_seen": "2026-11-12T16:43:47+09:00",
-   "last_seen": "2026-11-20T18:16:06+09:00",
+   "last_seen": "2026-11-23T13:18:16+09:00",
    "articles": [
     {
      "title": "’트리니티-태국관광청‘ 공동 프로모션 실시",
@@ -532,6 +560,18 @@
      "outlet": "뉴스투데이",
      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kREt3R1RvWGkwWlRkUDhic0QtanQ4LWI1Y0wwUDJ3VWI3SmxIT2JPejh4Ykt2NXNrWXFSUnRhX0F5SzFYbjFucEVJQkhuRVRyQ3BvREZQeGhTU0dfWEE?oc=5",
      "published": "2026-11-17"
+    },
+    {
+     "title": "트리니티항공, 태국 방콕·치앙마이 특가 항공권 프로모션",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9XZW1fU25xNEp5YnQwaGlUYXBXaGhhRExZU1d6VlZYVDdSUS0xdzJBbGlnVnY0QllRR0oxQ2RJcHFiQQ?oc=5",
+     "published": "2026-11-17"
+    },
+    {
+     "title": "트리니티항공, 태국 노선 할인 프로모션…방콕·치앙마이 최대 20% 할인",
+     "outlet": "비즈니스플러스",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OTFpTUmlCbjIwMy14N1VSRm8yc0xoc2RMMDVIdnljcUdnUnZPbjZqcmxRNXlQeDBhVEFWSDJPV1h4YWlnTTRYWTVrT3UwbW12SmNSc2xIbHRscGFRUGRjTmsxNXVKMXJfTGY3SFJkNA?oc=5",
+     "published": "2026-11-15"
     },
     {
      "title": "트리니티항공, 수험생 ‘할인 프로모션’…국내선 25%·국제선 최대 20%",
@@ -1335,6 +1375,64 @@
    "status": "live"
   },
   {
+   "id": "qatar-678eadc399",
+   "airline_id": "qatar",
+   "airline": "카타르항공",
+   "airlines_mentioned": [
+    "카타르항공"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.qatarairways.com/ko-kr/homepage.html",
+   "iata": [
+    "QR"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "카타르항공, 오늘부터 7일간 항공권 20% 할인",
+   "sale_start": "2026-11-23",
+   "sale_end": "2026-11-29",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "카타르항공, 오늘부터 7일간 항공권 20% 할인",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94Y1ZUZnB2WFpUa2hSd1lzN0dBVmlzT0dGSjF4aXBwSnhWRlA2bDUzNkNoQVJheHBiZWFFRXdVUHNZYkZrYTRqTERRUHdmQndZOFE4dmpsZ29vazBPQ3NwY2llel9FZUJOcFBv?oc=5"
+    },
+    "discount": {
+     "title": "카타르항공, 오늘부터 7일간 항공권 20% 할인",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94Y1ZUZnB2WFpUa2hSd1lzN0dBVmlzT0dGSjF4aXBwSnhWRlA2bDUzNkNoQVJheHBiZWFFRXdVUHNZYkZrYTRqTERRUHdmQndZOFE4dmpsZ29vazBPQ3NwY2llel9FZUJOcFBv?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "20% 할인",
+   "verification": "news",
+   "first_published": "2026-11-23",
+   "last_published": "2026-11-23",
+   "first_seen": "2026-11-23T13:18:16+09:00",
+   "last_seen": "2026-11-23T13:18:16+09:00",
+   "articles": [
+    {
+     "title": "카타르항공, 오늘부터 7일간 항공권 20% 할인",
+     "outlet": "데일리로그",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94Y1ZUZnB2WFpUa2hSd1lzN0dBVmlzT0dGSjF4aXBwSnhWRlA2bDUzNkNoQVJheHBiZWFFRXdVUHNZYkZrYTRqTERRUHdmQndZOFE4dmpsZ29vazBPQ3NwY2llel9FZUJOcFBv?oc=5",
+     "published": "2026-11-23"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "h-yeogi-c0b9a35db5",
    "airline_id": "h-yeogi",
    "airline": "여기어때",
@@ -1415,6 +1513,64 @@
      "outlet": "한스경제",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvN3cxd1Y2eXVmT0Y5NGJvUUxERVBMRG4zREsxRGRDSkNOQ0NheU9xS09RVENHcF9Camd1YWczdEQtTVFyZ0RFbEE3YXEtWEZLTERBY25wWXo3NlBMb1NlajhLWVZJTjZiN29v?oc=5",
      "published": "2026-11-18"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "qatar-807ab9b522",
+   "airline_id": "qatar",
+   "airline": "카타르항공",
+   "airlines_mentioned": [
+    "카타르항공"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.qatarairways.com/ko-kr/homepage.html",
+   "iata": [
+    "QR"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "카타르항공, 블랙프라이데이 항공권 최대 20% 할인…29일까지",
+   "sale_start": null,
+   "sale_end": "2026-11-29",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "카타르항공, 블랙프라이데이 항공권 최대 20% 할인…29일까지",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XbDFWS2lnSjFvUDRKUlRsNEhjYkpCVTN4NU16Y1lUaDFfUjFhRXBJY2RlZDhYbUY4VWFEZXNMMk5GWC1fSURIU1Z6bEJWM184bXdQUVBJQ1U2ZUxlX0lGOA?oc=5"
+    },
+    "discount": {
+     "title": "카타르항공, 블랙프라이데이 항공권 최대 20% 할인…29일까지",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XbDFWS2lnSjFvUDRKUlRsNEhjYkpCVTN4NU16Y1lUaDFfUjFhRXBJY2RlZDhYbUY4VWFEZXNMMk5GWC1fSURIU1Z6bEJWM184bXdQUVBJQ1U2ZUxlX0lGOA?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-11-23",
+   "last_published": "2026-11-23",
+   "first_seen": "2026-11-23T13:18:16+09:00",
+   "last_seen": "2026-11-23T13:18:16+09:00",
+   "articles": [
+    {
+     "title": "카타르항공, 블랙프라이데이 항공권 최대 20% 할인…29일까지",
+     "outlet": "뉴스1",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XbDFWS2lnSjFvUDRKUlRsNEhjYkpCVTN4NU16Y1lUaDFfUjFhRXBJY2RlZDhYbUY4VWFEZXNMMk5GWC1fSURIU1Z6bEJWM184bXdQUVBJQ1U2ZUxlX0lGOA?oc=5",
+     "published": "2026-11-23"
     }
    ],
    "status": "live"
@@ -1767,6 +1923,12 @@
      "published": "2026-11-22"
     },
     {
+     "title": "트리니티항공, 국제선 최대 25% 할인 & 네이버페이 혜택으로 여행 물가 내린다",
+     "outlet": "트래비 매거진",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tZF9Ta0xMOU1fenp6c2xESFFUWTRvWWFORTF5c0NvcFR2Nl9QTkRQdGx6dVQyWEN1VkJGb0tDV0lTaDFtZi1EcTRZam5NTFcwVDVnTm8xMXVVeFBZQWtjNFlJZmFrWmPSAWtBVV95cUxOVUc0b004TzZSWmZqOEVfRjRZRnpSVmxYRERjTWE2TUMxOWJseGR3OU85Wk5aQjZIWlJfVDZlMWRwYTdWb1lmVk9WQzNqUXp4di0yLXF4YWZ5aWhuRTI4X1NZaUpFR25kVDdBOA?oc=5",
+     "published": "2026-11-21"
+    },
+    {
      "title": "트리니티항공, 국제선 최대 25% 할인…겨울 여행객 공략",
      "outlet": "신아일보",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9INVQ5SkttSm16cl93QUFJUVh4ZWtOOFVrSE5MMmlZSEEycFFHZUh2TnZabnNiQ3Fvcmx5NHBBSVo2MU5jNmdXY25HbXhjTUw1NlBLYlFoYzRacWxDZHpWODRCU2N5S1U5R0pFLXhqTHk?oc=5",
@@ -1869,14 +2031,16 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "여기어때, 섬진강 4개 시·군 숙소 2만원 할인",
+   "headline": "여기어때, 연말 섬진강 여행객에 숙박 할인쿠폰 지급",
    "sale_start": null,
    "sale_end": "2026-12-02",
    "travel_start": "2026-12-31",
    "travel_end": null,
    "routes": [],
    "regions": [],
-   "conditions": [],
+   "conditions": [
+    "쿠폰"
+   ],
    "conflicts": [],
    "evidence": {
     "sale": {
@@ -1888,8 +2052,8 @@
      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506811"
     },
     "discount": {
-     "title": "핀포인트뉴스 요약문: …가 광양·곡성·구례·하동 등 섬진강 권역 4개 시·군 숙소를 대상으로 최대 2만원 할인 프로모션을 진행한다.…",
-     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=506811"
+     "title": "여기어때, 섬진강 권역 4개 시·군 숙소 최대 2만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOUlg1dmU1UVJtRU1fTjZScHNsbHBDTU5QX1hQMS1kZU5qaExjUzlLX0UzSHlJQUdfdEJNejFwNjdnZlV5YUhUMERDR3ZKeFpqSU9fTElwclVKTTJsbloyYmNuZWhpeGtTak9oNFptM3I?oc=5"
     }
    },
    "from_icn": null,
@@ -1898,8 +2062,20 @@
    "first_published": "2026-11-23",
    "last_published": "2026-11-23",
    "first_seen": "2026-11-23T09:14:03+09:00",
-   "last_seen": "2026-11-23T09:14:03+09:00",
+   "last_seen": "2026-11-23T13:18:16+09:00",
    "articles": [
+    {
+     "title": "여기어때, 연말 섬진강 여행객에 숙박 할인쿠폰 지급",
+     "outlet": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPbUkzcGJZMVZWS3YzTXRzTy16ZWFwMGlJUEJhTkpIQjhrdFZlYzNPYTVUa3R1b0ZIcmswV2dfZDltelVzZ3J6UnczM1lNNVJrRWM3SjRfQkhVR2lwY0U2enoteG1MWnZtMFZEdVc4bFlERzFXSzBaUUNQUkFWV3FpQjNzaUs4Z0NDNVJFRVQ1cE1RenhiM0l6M29PbjlocGNqMEFheWtQUkJjOHktel9tVUNkT0h3cVFja1dxWGZRLVNDMUJaZjQtdkJQd09JMG9NdG1YcElGc2hITjkxNHpXdllYZ2RNMU1qOTFtZ2RVZ05jbS03dlJmaXByN005UlZHcXNwLUF4bGZrcmpDaVBpMk52Q3dEcTlU?oc=5",
+     "published": "2026-11-23"
+    },
+    {
+     "title": "여기어때, 섬진강 권역 4개 시·군 숙소 최대 2만원 할인",
+     "outlet": "숙박매거진",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOUlg1dmU1UVJtRU1fTjZScHNsbHBDTU5QX1hQMS1kZU5qaExjUzlLX0UzSHlJQUdfdEJNejFwNjdnZlV5YUhUMERDR3ZKeFpqSU9fTElwclVKTTJsbloyYmNuZWhpeGtTak9oNFptM3I?oc=5",
+     "published": "2026-11-23"
+    },
     {
      "title": "여기어때, 섬진강 4개 시·군 숙소 2만원 할인",
      "outlet": "핀포인트뉴스",
@@ -2034,7 +2210,7 @@
    "first_published": "2026-11-20",
    "last_published": "2026-11-21",
    "first_seen": "2026-11-20T09:14:05+09:00",
-   "last_seen": "2026-11-21T18:16:05+09:00",
+   "last_seen": "2026-11-23T13:18:16+09:00",
    "articles": [
     {
      "title": "놀유니버스 NOL, 일본 오카야마 여행 기획전…항공권 최대 5만원 할인",
@@ -2052,6 +2228,12 @@
      "title": "NOL, 일본 오카야마 여행 기획전...항공권 최대 5만원 할인",
      "outlet": "우먼타임스",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLTVhCemgtTzJSaEhPX2NUV2x5WUZ4NFZfSk1ZWHJUWXZpcjFyZkg0VEhBcmdDR0N6V0hyZGFPOEF2TEQxSHF3Nm1tWUxjYXFFUGxhemRqY1pFaEJWYVZlTVU4Q2p2VnlWTjU2d1RJVmrSAXRBVV95cUxOSktFZzFHdFlCY09JVDkzOHk0WGp5azN2ekR4ZUNHOWhFdkVsd3NPVFlYLXFQVDZ5OVVaQi16NVA3a2FsMFFORjdYUlM2cGZKMDh2VWJ6R2g4ZVBiV2c4V2NfcUQtSko4bzZkTkp5c2loNXRMbQ?oc=5",
+     "published": "2026-11-20"
+    },
+    {
+     "title": "NOL, 오카야마 여행 할인전…항공권 최대 5만원 할인",
+     "outlet": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFal9fdHZHU19OOVlZbVVscUZ4bWIwOHlOdGxKQ0ZDdHhUMlVhWEE5cnVmLTllNXZGMVk0RDRVS0UwRlh4eGU0bnIzRmpkcndDbWRPZ2NKYnNsVF9LV205dzRkdE5DNGZNaDlZZlRLbS1Rbm_SAXdBVV95cUxOaTdhS1pjZk5xZnpDeVhwNFJySlBuakRLQTUwdmZ2dlBUV3JJQ216b1k0LXpoWkkxNFJUSnNmNEMzR2tpNFhBamt5TW1UcUxnRXNBeVJSYzZZTmljNkg3QUtRdnliUHNXb3gxWnd5TFlHaWI0Wl9law?oc=5",
      "published": "2026-11-20"
     },
     {
@@ -2164,7 +2346,7 @@
    "status": "live"
   },
   {
-   "id": "trinity-55bc7a3c97",
+   "id": "trinity-178b034e55",
    "airline_id": "trinity",
    "airline": "트리니티항공",
    "airlines_mentioned": [
@@ -2239,12 +2421,6 @@
      "title": "트리니티항공, 태국 관광청과 방콕·치앙마이 노선 공동 프로모션",
      "outlet": "매일일보",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wLU1UNzZzMXlrNFFIQlAxRGo2U0JqYW05bVNvU1lrZjA2ZXZZeWZkMXg5QVJpY1dKMTFDS2tLVWtZMk9KemNqWV9UOHltamVfVVQ1cWh5c0RWTlV3QXItWVZuV04?oc=5",
-     "published": "2026-11-17"
-    },
-    {
-     "title": "트리니티항공, 태국 방콕·치앙마이 특가 항공권 프로모션",
-     "outlet": "브레이크뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9XZW1fU25xNEp5YnQwaGlUYXBXaGhhRExZU1d6VlZYVDdSUS0xdzJBbGlnVnY0QllRR0oxQ2RJcHFiQQ?oc=5",
      "published": "2026-11-17"
     }
    ],
@@ -8663,55 +8839,6 @@
    "status": "undated"
   },
   {
-   "id": "pal-34184a27f3",
-   "airline_id": "pal",
-   "airline": "필리핀항공",
-   "airlines_mentioned": [
-    "필리핀항공"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.philippineairlines.com/",
-   "iata": [
-    "PR"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "필리핀항공, 필리핀관광진흥청과 항공권 프로모션 진행",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-22",
-   "last_published": "2026-11-22",
-   "first_seen": "2026-11-22T09:14:05+09:00",
-   "last_seen": "2026-11-22T09:14:05+09:00",
-   "articles": [
-    {
-     "title": "필리핀항공, 필리핀관광진흥청과 항공권 프로모션 진행",
-     "outlet": "Chosunbiz",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONDlaSS1OMjVtdzZIZ2VMRm1MNGtZN3Q5VjgyZmU4MWFXc1oyN2M0c1RHYXQ0cnJsWlN6Q05LSWdvb0cwTXo4aHZNN0JnenJiaktwUDZUMkhVSHNZRXRCUTd5ODZteHBEM0xqaVdabWJDNmEwek11WUFuYUo4V1NqOENyZHNoVVVhYk9GStIBoAFBVV95cUxQVEs1U2xYaHBIazFUNk14dHRFak9jdFJRNlRkS0tOcUVsajRDMUxDQ3hEQWgzU1lncmljZWRXd1dSUHFmWlJ4Ylg1eVBLc3RLVk9pOHBoTVQtNnBpNk1UMWpBa2M3MTdLVVlMTUtHTTU3d2N5cDJfb19RbG8xTVZyalNWMXBKS040YVdZM2xaaEtrTU1JOG1SR2RHSldLOHFP?oc=5",
-     "published": "2026-11-22"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-other-b70e99accd",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -8813,13 +8940,15 @@
    "status": "undated"
   },
   {
-   "id": "parataair-245993a346",
-   "airline_id": "parataair",
-   "airline": "파라타항공",
+   "id": "multi-cb22f51a38",
+   "airline_id": "multi",
+   "airline": "여러 항공사",
    "airlines_mentioned": [
-    "파라타항공"
+    "파라타항공",
+    "진에어",
+    "트리니티항공"
    ],
-   "kind": "domestic",
+   "kind": "mixed",
    "category": "flight",
    "section": "flight",
    "route": null,
@@ -8828,13 +8957,70 @@
    "lang": "ko",
    "trial": false,
    "baseline": "flight",
-   "official_url": "https://www.parataair.com/",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[항공 라운지] 제주∙파라타∙카타르∙진에어∙트리니티…새 하늘길에 특가, 지상에선 나눔",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "인천(ICN)",
+     "destination": "일본"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "route": {
+     "title": "한국면세뉴스 요약문: 제주항공은 2027년 1월 8일부터 인천~일본 센다이 노선에 주 3회(수·금·일요일) 신규 취항한다.",
+     "url": "http://www.kdfnews.com/news/articleView.html?idxno=191274"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-23",
+   "last_published": "2026-11-23",
+   "first_seen": "2026-11-23T13:18:16+09:00",
+   "last_seen": "2026-11-23T13:18:16+09:00",
+   "articles": [
+    {
+     "title": "[항공 라운지] 제주∙파라타∙카타르∙진에어∙트리니티…새 하늘길에 특가, 지상에선 나눔",
+     "outlet": "한국면세뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JOWdrU084X0lIakJCSVhaaGZ2dlRXaDRyRXBPa2Fic0FBYVowZzVSbmNrTXBMVHBMRnpGbG83WHhGbThiNHh0b2hVempxNF9mZk1QYkp1NTZRRVJvd21OSmc2ZFg3Z0FCSHc?oc=5",
+     "published": "2026-11-23"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "pal-34184a27f3",
+   "airline_id": "pal",
+   "airline": "필리핀항공",
+   "airlines_mentioned": [
+    "필리핀항공"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.philippineairlines.com/",
    "iata": [
-    "WE"
+    "PR"
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "파라타항공, 첫 미주 노선 취항 앞두고 특가 프로모션",
+   "headline": "필리핀항공, 필리핀관광진흥청과 공동 프로모션 실시...3인 예약 시 항공권 50% 할인",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -8843,20 +9029,31 @@
    "regions": [],
    "conditions": [],
    "conflicts": [],
-   "evidence": {},
+   "evidence": {
+    "discount": {
+     "title": "필리핀항공, 필리핀관광진흥청과 공동 프로모션 실시...3인 예약 시 항공권 50% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YZERnQ3Y3RlFoNlQwdUdlUkpfemN3TjVDenpTa1doVzc5OVB6RWE3UUduaDFaU0hjVmNZX2NqbDBRTFFPejljQjlDTm9Sc1J0ekc3X2NkdFU?oc=5"
+    }
+   },
    "from_icn": "unknown",
-   "discount": null,
+   "discount": "50% 할인",
    "verification": "news",
-   "first_published": "2026-11-23",
+   "first_published": "2026-11-22",
    "last_published": "2026-11-23",
-   "first_seen": "2026-11-23T09:14:03+09:00",
-   "last_seen": "2026-11-23T09:14:03+09:00",
+   "first_seen": "2026-11-22T09:14:05+09:00",
+   "last_seen": "2026-11-23T13:18:16+09:00",
    "articles": [
     {
-     "title": "파라타항공, 첫 미주 노선 취항 앞두고 특가 프로모션",
-     "outlet": "ER 이코노믹리뷰",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=758123",
+     "title": "필리핀항공, 필리핀관광진흥청과 공동 프로모션 실시...3인 예약 시 항공권 50% 할인",
+     "outlet": "스포츠서울",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YZERnQ3Y3RlFoNlQwdUdlUkpfemN3TjVDenpTa1doVzc5OVB6RWE3UUduaDFaU0hjVmNZX2NqbDBRTFFPejljQjlDTm9Sc1J0ekc3X2NkdFU?oc=5",
      "published": "2026-11-23"
+    },
+    {
+     "title": "필리핀항공, 필리핀관광진흥청과 항공권 프로모션 진행",
+     "outlet": "Chosunbiz",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONDlaSS1OMjVtdzZIZ2VMRm1MNGtZN3Q5VjgyZmU4MWFXc1oyN2M0c1RHYXQ0cnJsWlN6Q05LSWdvb0cwTXo4aHZNN0JnenJiaktwUDZUMkhVSHNZRXRCUTd5ODZteHBEM0xqaVdabWJDNmEwek11WUFuYUo4V1NqOENyZHNoVVVhYk9GStIBoAFBVV95cUxQVEs1U2xYaHBIazFUNk14dHRFak9jdFJRNlRkS0tOcUVsajRDMUxDQ3hEQWgzU1lncmljZWRXd1dSUHFmWlJ4Ylg1eVBLc3RLVk9pOHBoTVQtNnBpNk1UMWpBa2M3MTdLVVlMTUtHTTU3d2N5cDJfb19RbG8xTVZyalNWMXBKS040YVdZM2xaaEtrTU1JOG1SR2RHSldLOHFP?oc=5",
+     "published": "2026-11-22"
     }
    ],
    "status": "undated"
