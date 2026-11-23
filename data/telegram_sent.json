@@ -4383,26 +4383,6 @@
     "start_today": "2026-11-21"
    }
   },
-  "parataair-54c0cace3b": {
-   "info": {
-    "airline": "parataair",
-    "name": "",
-    "sale_start": "2026-11-24",
-    "sale_end": null,
-    "dests": [],
-    "last": "2026-11-19",
-    "urls": [
-     "54c0cace3b",
-     "735a5c5fec",
-     "944bde73be",
-     "a3b60eba40"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-17",
-    "upcoming_d3": "2026-11-21"
-   }
-  },
   "h-accor-e2cd00233b": {
    "info": {
     "airline": "h-accor",
@@ -4791,6 +4771,142 @@
    "kinds": {
     "new": "2026-11-23"
    }
+  },
+  "qatar-ebab528ee3": {
+   "info": {
+    "airline": "qatar",
+    "name": "",
+    "sale_start": "2026-11-23",
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-23",
+    "urls": [
+     "678eadc399",
+     "ebab528ee3"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-23",
+    "new": "2026-11-23"
+   }
+  },
+  "h-hanatour-037de37291": {
+   "info": {
+    "airline": "h-hanatour",
+    "name": "",
+    "sale_start": "2026-11-23",
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-23",
+    "urls": [
+     "037de37291"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-23",
+    "new": "2026-11-23"
+   }
+  },
+  "parataair-54c0cace3b": {
+   "info": {
+    "airline": "parataair",
+    "name": "",
+    "sale_start": "2026-11-24",
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-23",
+    "urls": [
+     "07732eff45",
+     "245993a346",
+     "54c0cace3b",
+     "6e3f362cff",
+     "6fab5d9033",
+     "735a5c5fec",
+     "944bde73be",
+     "a3b60eba40",
+     "a7b2a32122"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17",
+    "upcoming_d3": "2026-11-21",
+    "upcoming_d1": "2026-11-23"
+   }
+  },
+  "qatar-0c2458bdf7": {
+   "info": {
+    "airline": "qatar",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-23",
+    "urls": [
+     "0c2458bdf7",
+     "1de167cbc3",
+     "2f56c833ef",
+     "3623796f37",
+     "4e58061c6f",
+     "807ab9b522",
+     "924bf20c15",
+     "adf36f7090",
+     "bb4d33b175",
+     "e90b6cc6ea"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-23"
+   }
+  },
+  "multi-cb22f51a38": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "일본"
+    ],
+    "last": "2026-11-23",
+    "urls": [
+     "cb22f51a38"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-23"
+   }
+  },
+  "multi-66bb0c8a54": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-23",
+    "urls": [
+     "66bb0c8a54"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-23"
+   }
+  },
+  "h-other-db9c1063b7": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-23",
+    "urls": [
+     "db9c1063b7"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-23"
+   }
   }
  },
  "slots": {
@@ -4823,10 +4939,11 @@
    "evening": "sent"
   },
   "2026-11-23": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-23T17:19:09+09:00",
+ "saved_at": "2026-11-23T18:21:17+09:00",
  "drops_day": "2026-11-23",
  "drops": {
   "BKK": {
