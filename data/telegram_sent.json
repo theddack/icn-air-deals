@@ -3771,25 +3771,6 @@
     "new": "2026-11-17"
    }
   },
-  "trinity-55bc7a3c97": {
-   "info": {
-    "airline": "trinity",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-12-13",
-    "dests": [
-     "치앙마이"
-    ],
-    "last": "2026-11-17",
-    "urls": [
-     "178b034e55",
-     "55bc7a3c97"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-17"
-   }
-  },
   "multi-f223b45279": {
    "info": {
     "airline": "multi",
@@ -4787,6 +4768,26 @@
    "kinds": {
     "new": "2026-11-23"
    }
+  },
+  "trinity-178b034e55": {
+   "info": {
+    "airline": "trinity",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-12-13",
+    "dests": [
+     "방콕",
+     "치앙마이"
+    ],
+    "last": "2026-11-17",
+    "urls": [
+     "178b034e55",
+     "a97487e202"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-17"
+   }
   }
  },
  "slots": {
@@ -4822,7 +4823,7 @@
    "morning": "sent"
   }
  },
- "saved_at": "2026-11-23T09:18:52+09:00",
+ "saved_at": "2026-11-23T13:23:28+09:00",
  "drops_day": "2026-11-23",
  "drops": {
   "BKK": {
