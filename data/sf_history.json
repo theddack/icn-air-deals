@@ -1,6 +1,13 @@
 {
  "about": "Secret Flying 서울 출발 게시물 가격 기록 (collector/secretflying.py)",
  "posts": {
+  "https://www.secretflying.com/posts/seoul-south-korea-to-angeles-philippines-for-only-184-usd-roundtrip/": {
+   "destination": "Angeles, Philippines",
+   "trip": "roundtrip",
+   "currency": "USD",
+   "price": 184,
+   "first_seen": "2026-11-24"
+  },
   "https://www.secretflying.com/posts/seoul-south-korea-to-da-nang-vietnam-for-only-153-usd-roundtrip/": {
    "destination": "Da Nang, Vietnam",
    "trip": "roundtrip",
