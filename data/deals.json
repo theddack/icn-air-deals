@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T09:14:07+09:00",
+ "generated_at": "2026-11-24T11:05:16+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 3,
-  "rss_items": 2283,
+  "failed_queries": 0,
+  "rss_items": 2608,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1986,
-  "outlet_new_articles": 1,
+  "outlet_items": 2134,
+  "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 81,
-  "articles": 933,
+  "articles": 938,
   "new_articles": 5,
-  "deals": 195
+  "deals": 198
  },
  "deals": [
   {
@@ -2249,6 +2249,62 @@
    "status": "live"
   },
   {
+   "id": "h-other-e8f2e26a93",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Boston Harbor Hotel Offers Up to 40% Off Through Dec. 3",
+   "sale_start": null,
+   "sale_end": "2026-12-03",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "Boston Harbor Hotel Offers Up to 40% Off Through Dec. 3",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSUNEdTJZZTJuSjNzSWZrUXNYYUxfM1o0aVFPajZVczNaLW1HOTAwNFFraVZPc3E1RFhRYkJreE9KdjVyMWo1T2MzM0VFWGQzRGNwLTJXeUNVMExkLWtuZ1ZKM1FWWUUtZk9pdHdCQXJrNkZTVzg4SWs3d0U3NGNEYUdIYWlFS0xid3Rqck00TFk?oc=5"
+    },
+    "discount": {
+     "title": "Boston Harbor Hotel Offers Up to 40% Off Through Dec. 3",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSUNEdTJZZTJuSjNzSWZrUXNYYUxfM1o0aVFPajZVczNaLW1HOTAwNFFraVZPc3E1RFhRYkJreE9KdjVyMWo1T2MzM0VFWGQzRGNwLTJXeUNVMExkLWtuZ1ZKM1FWWUUtZk9pdHdCQXJrNkZTVzg4SWs3d0U3NGNEYUdIYWlFS0xid3Rqck00TFk?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 40%",
+   "verification": "news",
+   "first_published": "2026-11-24",
+   "last_published": "2026-11-24",
+   "first_seen": "2026-11-24T11:05:16+09:00",
+   "last_seen": "2026-11-24T11:05:16+09:00",
+   "articles": [
+    {
+     "title": "Boston Harbor Hotel Offers Up to 40% Off Through Dec. 3",
+     "outlet": "deeparrival.com",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSUNEdTJZZTJuSjNzSWZrUXNYYUxfM1o0aVFPajZVczNaLW1HOTAwNFFraVZPc3E1RFhRYkJreE9KdjVyMWo1T2MzM0VFWGQzRGNwLTJXeUNVMExkLWtuZ1ZKM1FWWUUtZk9pdHdCQXJrNkZTVzg4SWs3d0U3NGNEYUdIYWlFS0xid3Rqck00TFk?oc=5",
+     "published": "2026-11-24"
+    }
+   ],
+   "status": "live"
+  },
+  {
    "id": "h-hyatt-a4d3a7d91d",
    "airline_id": "h-hyatt",
    "airline": "하얏트",
@@ -3776,6 +3832,58 @@
      "title": "[Expired] Priceline Announces Cyber Week Deals: Save up to 99% Hotels, Rental Cars, and More",
      "outlet": "Upgraded Points",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uWnpmdFhEdjYwSi1OZmI5SzBHd0lnZGxxRTRpcUs4VXpJS0ZIakJoa0dvQnZ5bDlscWtUeG1MNjVySHRkbjZZTGktMV9kZzRRQm5DMlNUcW96M2RCd2ctSWs1MnotMzBGei1Mbg?oc=5",
+     "published": "2026-11-11"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-44d5589cc8",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Omni Hotels 30% Off Sale Opens Nov. 12 for Members: Book Early?",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Omni Hotels 30% Off Sale Opens Nov. 12 for Members: Book Early?",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRkdtRVRFZV8xMFZXcnNfRTV5NEJFTVJkakdKQnF4ZkhpMXU5eFZsaWZNX2Eyb1h1TUZndDJWSVhhcGpYbTJFRWp1SlliZnVMUDVZZ2QtTUxUQWVIRGVGNTE4VVk1RWhUTkhYRlU4Y2NBOHZrZEx4Qnc2VXNSWDJLWXpyYVhRREJmM3Q4dmY0Qnc?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "30% 할인",
+   "verification": "news",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-24T11:05:16+09:00",
+   "last_seen": "2026-11-24T11:05:16+09:00",
+   "articles": [
+    {
+     "title": "Omni Hotels 30% Off Sale Opens Nov. 12 for Members: Book Early?",
+     "outlet": "deeparrival.com",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRkdtRVRFZV8xMFZXcnNfRTV5NEJFTVJkakdKQnF4ZkhpMXU5eFZsaWZNX2Eyb1h1TUZndDJWSVhhcGpYbTJFRWp1SlliZnVMUDVZZ2QtTUxUQWVIRGVGNTE4VVk1RWhUTkhYRlU4Y2NBOHZrZEx4Qnc2VXNSWDJLWXpyYVhRREJmM3Q4dmY0Qnc?oc=5",
      "published": "2026-11-11"
     }
    ],
@@ -9028,6 +9136,53 @@
    "status": "undated"
   },
   {
+   "id": "h-hanatour-6531cf53fe",
+   "airline_id": "h-hanatour",
+   "airline": "하나투어",
+   "airlines_mentioned": [
+    "하나투어"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": "https://www.hanatour.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "하나투어, 목표가 34% 하향…여행업 본업 회복·주주환원 주목-SK",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-24",
+   "last_published": "2026-11-24",
+   "first_seen": "2026-11-24T11:05:16+09:00",
+   "last_seen": "2026-11-24T11:05:16+09:00",
+   "articles": [
+    {
+     "title": "하나투어, 목표가 34% 하향…여행업 본업 회복·주주환원 주목-SK",
+     "outlet": "이데일리",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZGlpeW1FTGFUMEI4SThjMmV6akRVSDZOeEdRSE1TMS10RU5vX1VDNWtVV3V6Wm1vQmFoRWhxVTAzLUVpWjVOSUtBNkkzV3Vtb0VYZGQxTXF0Nm8wbE8zREdoc0VZZjd3LVF2RE5iMlVSNFRRVW9INFdGdGMzbmg0Nw?oc=5",
+     "published": "2026-11-24"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-booking-5d9e92c01d",
    "airline_id": "h-booking",
    "airline": "부킹닷컴",
@@ -9117,12 +9272,18 @@
    "first_published": "2026-11-24",
    "last_published": "2026-11-24",
    "first_seen": "2026-11-24T09:14:07+09:00",
-   "last_seen": "2026-11-24T09:14:07+09:00",
+   "last_seen": "2026-11-24T11:05:16+09:00",
    "articles": [
     {
      "title": "진에어, 국내선 1만원·국제선 3만원 운임 할인…2006~2008년생 대상 프로모션",
      "outlet": "컨슈머타임스",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZZ090V3NGWlVlR0EtM25yWm53azZvMGN4RGdMOHJyUmpieFZ4andqdnVMZFBTUWxEQXhJNElDdGRBcEtZeWI3eFhvS25WcHFoZzNhYjVxWURsWXFCaHlJRFNUajVWUnlWVHc?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "진에어, 2006~2008년생 신규 회원에 항공권 할인 쿠폰 제공",
+     "outlet": "인더뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xZjZFWXBHQ0hsQWhhQUF0ekpCOXBTeHFqVzVSeHY3a0ZJT2V6QlJURkh0MjhzSHBIdFpaNERibmxlczc3RFh3bmJuQUwtbW16ZDBPeDlSNE1QOERYZmg0emZyMWM?oc=5",
      "published": "2026-11-24"
     },
     {
