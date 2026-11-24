@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T18:16:05+09:00",
+ "generated_at": "2026-11-24T19:25:44+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2584,
+  "rss_items": 2401,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2234,
+  "outlet_items": 2215,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 82,
-  "articles": 959,
-  "new_articles": 12,
-  "deals": 199
+  "articles": 961,
+  "new_articles": 2,
+  "deals": 200
  },
  "deals": [
   {
@@ -9541,7 +9541,7 @@
    "first_published": "2026-11-24",
    "last_published": "2026-11-24",
    "first_seen": "2026-11-24T09:14:07+09:00",
-   "last_seen": "2026-11-24T18:16:05+09:00",
+   "last_seen": "2026-11-24T19:25:44+09:00",
    "articles": [
     {
      "title": "진에어, 2006~2008년생 신규 회원에 항공권 할인",
@@ -9559,6 +9559,12 @@
      "title": "진에어, 국내선 1만원·국제선 3만원 운임 할인…2006~2008년생 대상 프로모션",
      "outlet": "컨슈머타임스",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZZ090V3NGWlVlR0EtM25yWm53azZvMGN4RGdMOHJyUmpieFZ4andqdnVMZFBTUWxEQXhJNElDdGRBcEtZeWI3eFhvS25WcHFoZzNhYjVxWURsWXFCaHlJRFNUajVWUnlWVHc?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "“국제선 3만원 할인·수하물팩 1천원”…진에어, 2006~2008년생 여행 혜택",
+     "outlet": "더게이트",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Zdm9ZN0RkZU9WaWh3bFlKUW5odjFEV28zUWVKa19iUWxxODVUQi1qbFQwMHBJazNWZmZrNXF2bWE3WmhRdFpNSEJyTFlSM0tFN3BrVW1mNmFMVEI3N3ZkTmJKa09NX0ZG0gFsQVVfeXFMTzd2ZE8zRGJCVjhPMjF5QW9ocDhHb0djem9SR3QxNDdKXzVKVzZGa2hSRzlqNEh6dC03XzUzaUVKSVBWdkFma21yOFY2SlQ5ZFM1NGdyR0p3amVKZVpxZUpvQklfZ0ZSdTZWbXdX?oc=5",
      "published": "2026-11-24"
     },
     {
@@ -9635,6 +9641,58 @@
      "title": "Up to 50% off hotels: Israel's Black Friday travel deals for 2027",
      "outlet": "Ynetnews",
      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11VXpZUW9GMUxmV0ZBY0wzMEFoaUQ4YloyRTVvM0toZU84Mk1IVmo0Ynd3aFREbEI2TG1EVHA1SEVaQkJ4UFFTNGxqSVp0dWFlLXFFOG5haU5ES01LbGtF?oc=5",
+     "published": "2026-11-24"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-d04b1507e9",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "These Los Cabos Resorts Just Dropped Massive Black Friday Discounts Up To 50% Off",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "These Los Cabos Resorts Just Dropped Massive Black Friday Discounts Up To 50% Off",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUlllNkpuc3FUN0pPaU5xM3FGRVNqUHBmRS1sV19MWFJFOHd5TExTVFBEU0NqbUxyTE4zcFJwdFVVYWpvVnZRQlFmdDBVbzYzWmNLWXVLVWNwYVI5N2poZnBXakktWnc2MFRuZ0RueTNmMDVrM1pkRGNSV28tSWRPTE1MLVpCUU5qVlRVSkQzS1Y2Mkw1S0Y1U01kR1NQRU9ERmhpaDRyWQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 50%",
+   "verification": "news",
+   "first_published": "2026-11-24",
+   "last_published": "2026-11-24",
+   "first_seen": "2026-11-24T19:25:44+09:00",
+   "last_seen": "2026-11-24T19:25:44+09:00",
+   "articles": [
+    {
+     "title": "These Los Cabos Resorts Just Dropped Massive Black Friday Discounts Up To 50% Off",
+     "outlet": "Cabo Sun",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUlllNkpuc3FUN0pPaU5xM3FGRVNqUHBmRS1sV19MWFJFOHd5TExTVFBEU0NqbUxyTE4zcFJwdFVVYWpvVnZRQlFmdDBVbzYzWmNLWXVLVWNwYVI5N2poZnBXakktWnc2MFRuZ0RueTNmMDVrM1pkRGNSV28tSWRPTE1MLVpCUU5qVlRVSkQzS1Y2Mkw1S0Y1U01kR1NQRU9ERmhpaDRyWQ?oc=5",
      "published": "2026-11-24"
     }
    ],
