@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T11:05:16+09:00",
+ "generated_at": "2026-11-24T13:18:17+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2608,
+  "rss_items": 2548,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2134,
+  "outlet_items": 2163,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_enriched": 1,
   "mail_articles": 12,
   "mail_new_articles": 0,
-  "articles_with_summary": 81,
-  "articles": 938,
-  "new_articles": 5,
+  "articles_with_summary": 82,
+  "articles": 947,
+  "new_articles": 9,
   "deals": 198
  },
  "deals": [
@@ -1314,7 +1314,7 @@
    "status": "live"
   },
   {
-   "id": "trinity-f2fc15d8cb",
+   "id": "trinity-97cf966dd0",
    "airline_id": "trinity",
    "airline": "트리니티항공",
    "airlines_mentioned": [
@@ -1323,7 +1323,7 @@
    "kind": "domestic",
    "category": "flight",
    "section": "flight",
-   "route": null,
+   "route": "international",
    "route_text": null,
    "scope": null,
    "lang": "ko",
@@ -1343,6 +1343,10 @@
    "routes": [
     {
      "origin": "인천(ICN)",
+     "destination": "나고야(NGO)"
+    },
+    {
+     "origin": null,
      "destination": "나고야(NGO)"
     }
    ],
@@ -1367,13 +1371,13 @@
      "url": "https://www.slist.kr/news/articleView.html?idxno=784261"
     }
    },
-   "from_icn": "unknown",
+   "from_icn": "yes",
    "discount": "8% 할인",
    "verification": "news",
    "first_published": "2026-11-24",
    "last_published": "2026-11-24",
    "first_seen": "2026-11-24T09:14:07+09:00",
-   "last_seen": "2026-11-24T09:14:07+09:00",
+   "last_seen": "2026-11-24T13:18:17+09:00",
    "articles": [
     {
      "title": "트리니티항공, 나고야 주부 국제공항과 공동 프로모션",
@@ -1382,9 +1386,57 @@
      "published": "2026-11-24"
     },
     {
+     "title": "트리니티항공-나고야 주부 국제공항, 인천-나고야 신규 취항 기념 공동 프로모션 운영",
+     "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE94Q2x3RUtRYTlSYnpycnpVRlAySGZsY1JrVHZld0dHN2c5NkRJS1ZLaGFjbGxPSzBPS1VxSWJGY1hsZTRETWU4SXBPMEw3SHZoTEQzNDZ3anlpT2RES1U1dGRkelFHZ1UzUkVvdl95Xzg4UQ?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "트리니티항공, 인천~나고야 신규 취항 앞둬 항공권 할인",
+     "outlet": "뉴스프리존",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAxbHRkb0xvZkhSdzNWb3U0WUJqcHFCcnItNm43dVY4UjgtNnAweTVia1FrVmNnS2RDSlc1U21hQ3ZlNFB0bFlIbnluUmo4cWFsYzZuS0RzZzNQRXVkbkk2Zml3OHlQM0dFSmZRdlhJV2xMT0XSAXdBVV95cUxNWklHSTFPZDIyQ0JpVERkVzF6RjZVcWtJNHMzTDBYQm5SYXRNV29sLUhqYU9WMDAxWWt5SjFITGxsZ3gxS2QtTkU3Y1pmbGk3OFJqVHBXa19oR2xSVldYMXVpVjRyR0tmblFvZmdQVWowbTVzTkxzUQ?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "트리니티항공, 나고야 주부 국제공항과 공동 프로모션 실시",
+     "outlet": "오늘경제",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jdTVDWUJhQnJhbm1RZlJnUDlnSGdxT2RpWkE5VlFQWkl3YWtLaU82VVk3T0tNeEdMbnI5Q2JZSW5nV0thdDFCRkNJblRibTFlckZ5Y0ZyQUQzMUZFRUEza3FDZFcybjRVM3JzZVpCZkJKQ0E?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "트리니티항공, 인천~나고야 신규 취항 앞두고 할인 프로모션",
+     "outlet": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xR1otS0xPRG9tSFMxRnFPYkNNRTJTbHpaUGMzMWRQU0pIcGNudDhhLV9sOFVKaXl2eGlfdS1STGtuSG5BdHhVZ1JPLWdYVGpwUlF6cUhTSk9reG01dWt6aWF0S1BWeFFnOGx4Z3dJSFZ2TnfSAXdBVV95cUxOczFCT1VTdzhWd3ctdE1SVnhQU21JbUYwdTNHd250bjRHT2FueFZpMktMUUg2dV9pS1YzRFFaNWdHR3Z3c2NkSk5abF9zWFBFbHZfdm5JZ0MxQUU4UThCZkFfV3paR2ttZjZUaHN5ZHlDN19iNzdwYw?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "온천·미식의 도시로 떠나는 겨울…트리니티항공, 나고야행 항공권 할인",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yTmI1VDZiT2wzajN1MnFhWWFjZjVKTmJkOXpOd3ZLdjl1ZXIzc1daVktPTXlFVzlYbWt4ZWFLcTIwM0FlYy1WejRNOE5qTnZBeV9HN1hxUEx6Rng4SHg1Vk1lNlpWVFBPZ1pjWg?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "인천~나고야 항공권 8% 할인…트리니티항공, 주부 국제공항과 공동 프로모션",
+     "outlet": "컨슈머타임스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYcGpTMUJYM0laZW4yS2hWMTR2Zk5PbjZQLW9VNU9GZDQyYkJtQ1pQYWNVXzU2QXR4TWZ1a214bnFzTTdVMEVzbGdwd2FCTEtuWE85SVFKUjBuTTVFZ2FpLXRNTW51bjhuTFE?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "트리니티항공, 인천~나고야 신규 취항 기념 항공권 할인",
+     "outlet": "이코노미스트",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE96bjlXVkhsZHE5dml6dnV0MnMtaW1WMHEwZERfNWpMdnlJN041YTFyTnNoQ0VCWXk2OHFsT1hEcXFBTldtYThyT3dSeFo4Y2tKenlRMmtnWjZLNGNTV3g1TS13?oc=5",
+     "published": "2026-11-24"
+    },
+    {
      "title": "[대구소식]트리니티항공, 日 나고야공항과 공동 프로모션 등",
      "outlet": "뉴시스",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwdTV4MnZLdUwyNDIydGNBb0k5dG13UURHRzR6ZzdGWjVESEI4aGstMDN6QVVrWHFlODF4OVktdEM0dHNlUjY2bTJxZU4wU3FJVTdKd2NrcGczSVdTU2ZOZtIBeEFVX3lxTE8teUgxT3JMeEpZemFVeHdvcmhUMW9VRWpva1RLMTJBMk5XVmVGNVJsU2xPdDVyYW5HdUpEbWtQWncyaTlWVnkxYTZ2dGFTcTd3WmpqYkFlVlhNOVNRUlV3ejVBU3RteXBQQWxvUlBvUy1mWW51SHJfag?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "트리니티항공, 인천-나고야 신규 취항 기념 항공권 할인",
+     "outlet": "브릿지경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DU0JOam8zRkNaTHUxU2h4NFcwTmxaZENxMzJGbU1RU3lNdWVhdDhESEpid3N2MG12NTVaMjdUbFhtbE1nSTI5T2dieFQ2ekNqMlNqYTNXVmRFUQ?oc=5",
      "published": "2026-11-24"
     }
    ],
@@ -9256,7 +9308,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "진에어, 국내선 1만원·국제선 3만원 운임 할인…2006~2008년생 대상 프로모션",
+   "headline": "진에어, 2006~2008년생 신규 회원에 항공권 할인",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -9272,8 +9324,14 @@
    "first_published": "2026-11-24",
    "last_published": "2026-11-24",
    "first_seen": "2026-11-24T09:14:07+09:00",
-   "last_seen": "2026-11-24T11:05:16+09:00",
+   "last_seen": "2026-11-24T13:18:17+09:00",
    "articles": [
+    {
+     "title": "진에어, 2006~2008년생 신규 회원에 항공권 할인",
+     "outlet": "인사이트코리아",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBqY0Q1WDc2M1hGbzVpTjZGMFRmcE5CUjVHSU1aYUlaWDVVR0lOVzdJSnNWMENfaFlianRxLVI5WDg4WjlwSDRqQ05vbk9fXzh1SXRpYmZOMXFyYTRXMzVDUll1NS13ano1eV9lc0E5emdhTF9mX0Zv0gF3QVVfeXFMUGpjRDVYNzYzWEZvNWlONkYwVGZwTkJSNUdJTVphSVpYNVVHSU5XN0lKc1YwQ19oWWJqdHEtUjlYODhaOXBINGpDTm9uT19fOHVJdGliZk4xcXJhNFczNUNSWXU1LXdqejV5X2VzQTl6Z2FMX2ZfRm8?oc=5",
+     "published": "2026-11-24"
+    },
     {
      "title": "진에어, 국내선 1만원·국제선 3만원 운임 할인…2006~2008년생 대상 프로모션",
      "outlet": "컨슈머타임스",
@@ -9284,6 +9342,12 @@
      "title": "진에어, 2006~2008년생 신규 회원에 항공권 할인 쿠폰 제공",
      "outlet": "인더뉴스",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xZjZFWXBHQ0hsQWhhQUF0ekpCOXBTeHFqVzVSeHY3a0ZJT2V6QlJURkh0MjhzSHBIdFpaNERibmxlczc3RFh3bmJuQUwtbW16ZDBPeDlSNE1QOERYZmg0emZyMWM?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "진에어, 2006~2008년생 대상 항공권 할인 ‘스페셜 쿠폰팩’ 제공",
+     "outlet": "https://www.ppss.kr/",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5scG1PSWZhZzBlQmd4SDdZRHRYdmNPdEdMQ0xyOFd2dW5sdlVrNXc2YjBma0V0SUV2cnFacEFyanQyNndWOFhVU1pOaHBXYmQ5OXVzb0Z5c0RYQVpBTmhkNFZlbGg?oc=5",
      "published": "2026-11-24"
     },
     {
