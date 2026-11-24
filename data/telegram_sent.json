@@ -4341,26 +4341,6 @@
     "new": "2026-11-20"
    }
   },
-  "h-nol-f2585efd6f": {
-   "info": {
-    "airline": "h-nol",
-    "name": "항공숙박액티비티할인",
-    "sale_start": null,
-    "sale_end": "2026-12-09",
-    "dests": [],
-    "last": "2026-11-20",
-    "urls": [
-     "10d54d1af5",
-     "633179abfa",
-     "b10b511cfa",
-     "d3ee24981d",
-     "f2585efd6f"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-20"
-   }
-  },
   "h-ihg-7d127a9c15": {
    "info": {
     "airline": "h-ihg",
@@ -5032,6 +5012,96 @@
    "kinds": {
     "new": "2026-11-24"
    }
+  },
+  "h-nol-e1f452b0b4": {
+   "info": {
+    "airline": "h-nol",
+    "name": "항공숙박액티비티할인",
+    "sale_start": null,
+    "sale_end": "2026-12-09",
+    "dests": [],
+    "last": "2026-11-21",
+    "urls": [
+     "10d54d1af5",
+     "633179abfa",
+     "9c3d8ccc34",
+     "b10b511cfa",
+     "cb6a3893ee",
+     "d3ee24981d",
+     "e1f452b0b4",
+     "e68434edf0",
+     "f2585efd6f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-20"
+   }
+  },
+  "h-other-e8f2e26a93": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-12-03",
+    "dests": [],
+    "last": "2026-11-24",
+    "urls": [
+     "e8f2e26a93"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-24"
+   }
+  },
+  "h-other-44d5589cc8": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-11",
+    "urls": [
+     "44d5589cc8"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-24"
+   }
+  },
+  "multi-c40ee266d7": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "나고야"
+    ],
+    "last": "2026-11-24",
+    "urls": [
+     "c40ee266d7"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-24"
+   }
+  },
+  "h-hanatour-6531cf53fe": {
+   "info": {
+    "airline": "h-hanatour",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-24",
+    "urls": [
+     "6531cf53fe"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-24"
+   }
   }
  },
  "slots": {
@@ -5064,10 +5134,11 @@
    "evening": "sent"
   },
   "2026-11-24": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-24T13:23:12+09:00",
+ "saved_at": "2026-11-24T18:23:20+09:00",
  "drops_day": "2026-11-24",
  "drops": {
   "BKK": {
