@@ -7752,5 +7752,61 @@
   "published": "2026-11-20",
   "first_seen": "2026-11-24T06:40:05+09:00",
   "lang": "en"
+ },
+ {
+  "title": "진에어, 2006~2008년생 대상 항공권 할인 쿠폰팩 제공",
+  "outlet": "데일리안",
+  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONlBaLW1xZDlQckVCek82M2pxdVlTWlF6NkNKTUVGZExYcG52LVNYWnpOcEZ5Q2drbllRUmZXY1FCRlJEd2JjeDdpbV84OXhDVENaUzRDYkk2dnZ2ZFg3dEt0aW5pMnJJZDVZakJNYm9kMmlKLTBocnVadnpZTExwTUxJVlRIYlRIWjcyR1lwSF9CdjdTRTRuMVc0RXNFMXc5bnNGN2FscklFeTdWSUNfUnZSUzAtT3BPdEFmLXlkV0VfNDNzZlVwRFJ3ZExLMWdkbERMU0pSbVQ?oc=5",
+  "published": "2026-11-24",
+  "first_seen": "2026-11-24T09:14:07+09:00"
+ },
+ {
+  "title": "진에어, 국내선 1만원·국제선 3만원 운임 할인…2006~2008년생 대상 프로모션",
+  "outlet": "컨슈머타임스",
+  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZZ090V3NGWlVlR0EtM25yWm53azZvMGN4RGdMOHJyUmpieFZ4andqdnVMZFBTUWxEQXhJNElDdGRBcEtZeWI3eFhvS25WcHFoZzNhYjVxWURsWXFCaHlJRFNUajVWUnlWVHc?oc=5",
+  "published": "2026-11-24",
+  "first_seen": "2026-11-24T09:14:07+09:00"
+ },
+ {
+  "title": "[대구소식]트리니티항공, 日 나고야공항과 공동 프로모션 등",
+  "outlet": "뉴시스",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwdTV4MnZLdUwyNDIydGNBb0k5dG13UURHRzR6ZzdGWjVESEI4aGstMDN6QVVrWHFlODF4OVktdEM0dHNlUjY2bTJxZU4wU3FJVTdKd2NrcGczSVdTU2ZOZtIBeEFVX3lxTE8teUgxT3JMeEpZemFVeHdvcmhUMW9VRWpva1RLMTJBMk5XVmVGNVJsU2xPdDVyYW5HdUpEbWtQWncyaTlWVnkxYTZ2dGFTcTd3WmpqYkFlVlhNOVNRUlV3ejVBU3RteXBQQWxvUlBvUy1mWW51SHJfag?oc=5",
+  "published": "2026-11-24",
+  "first_seen": "2026-11-24T09:14:07+09:00"
+ },
+ {
+  "title": "ALL Accor Black Friday: Up to 35% Off Hotels in Canada",
+  "outlet": "Milesopedia",
+  "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVHFyX0JwUW9JRHJ3MHl3ckdycjdyeUh4S1kwRHRrclI4QnhsbTBac29fRGpnOG42Rjg5Q3ZJYW1hMjRWR1NUOUZkRmw4V2dnR1E4RzQyNi1ZVkVVM2hsN0locE13ZjBUcXVDZHdtelAzeVQxTEFDckZ0NHJwUTcxeU13?oc=5",
+  "published": "2026-11-23",
+  "first_seen": "2026-11-24T09:14:07+09:00",
+  "lang": "en"
+ },
+ {
+  "title": "트리니티항공, 나고야 주부 국제공항과 공동 프로모션",
+  "outlet": "싱글리스트",
+  "url": "https://www.slist.kr/news/articleView.html?idxno=784261",
+  "published": "2026-11-24",
+  "first_seen": "2026-11-24T09:14:07+09:00",
+  "source": "outlet_rss",
+  "summary_facts": {
+   "url": "https://www.slist.kr/news/articleView.html?idxno=784261",
+   "outlet": "싱글리스트",
+   "fields": {
+    "sale_start": "2026-11-23",
+    "sale_end": "2026-12-06",
+    "origin": "인천(ICN)",
+    "destination": "나고야(NGO)",
+    "travel_start": "2026-12-18",
+    "travel_end": "2027-03-27",
+    "discount": "8% 할인"
+   },
+   "evidence": {
+    "sale": "…부 국제공항과 함께 신규 취항을 앞둔 인천-나고야 노선 공동 프로모션을 23일부터 12월 6일까지 진행한다.…",
+    "route": "트리니티항공이 나고야 주부 국제공항과 함께 신규 취항을 앞둔 인천-나고야 노선 공동 프로모션을 23일부터 1…",
+    "travel": "탑승 기간은 12월 18일부터 2027년 3월 27일까지다.",
+    "discount": "먼저 프로모션 기간 동안 지정된 할인코드를 입력하면 항공권을 8% 할인된 가격에 구매할 수 있다."
+   }
+  }
  }
 ]

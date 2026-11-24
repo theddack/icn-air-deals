@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T06:40:05+09:00",
+ "generated_at": "2026-11-24T09:14:07+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -9,20 +9,20 @@
  "baseline_first_seen": "2026-10-15T10:12:09+09:00",
  "stats": {
   "queries": 120,
-  "failed_queries": 4,
-  "rss_items": 1959,
+  "failed_queries": 3,
+  "rss_items": 2283,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1864,
-  "outlet_new_articles": 0,
+  "outlet_items": 1986,
+  "outlet_new_articles": 1,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
-  "articles_with_summary": 80,
-  "articles": 928,
-  "new_articles": 4,
-  "deals": 192
+  "articles_with_summary": 81,
+  "articles": 933,
+  "new_articles": 5,
+  "deals": 195
  },
  "deals": [
   {
@@ -1309,6 +1309,83 @@
      "outlet": "비즈엔터",
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JVmR6VklabmFsTTRmbG9ZNWJPbGU1S0Z6cXhwOWNSajJJREpXLTRJVFFGRk0wbEtzTEhZUno4aTdncS1RdU9PMEJnbUVkMG1JQk1pdGtR?oc=5",
      "published": "2026-11-23"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "trinity-f2fc15d8cb",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "트리니티항공, 나고야 주부 국제공항과 공동 프로모션",
+   "sale_start": "2026-11-23",
+   "sale_end": "2026-12-06",
+   "travel_start": "2026-12-18",
+   "travel_end": "2027-03-27",
+   "routes": [
+    {
+     "origin": "인천(ICN)",
+     "destination": "나고야(NGO)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "싱글리스트 요약문: …부 국제공항과 함께 신규 취항을 앞둔 인천-나고야 노선 공동 프로모션을 23일부터 12월 6일까지 진행한다.…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=784261"
+    },
+    "travel": {
+     "title": "싱글리스트 요약문: 탑승 기간은 12월 18일부터 2027년 3월 27일까지다.",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=784261"
+    },
+    "discount": {
+     "title": "싱글리스트 요약문: 먼저 프로모션 기간 동안 지정된 할인코드를 입력하면 항공권을 8% 할인된 가격에 구매할 수 있다.",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=784261"
+    },
+    "route": {
+     "title": "싱글리스트 요약문: 트리니티항공이 나고야 주부 국제공항과 함께 신규 취항을 앞둔 인천-나고야 노선 공동 프로모션을 23일부터 1…",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=784261"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "8% 할인",
+   "verification": "news",
+   "first_published": "2026-11-24",
+   "last_published": "2026-11-24",
+   "first_seen": "2026-11-24T09:14:07+09:00",
+   "last_seen": "2026-11-24T09:14:07+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공, 나고야 주부 국제공항과 공동 프로모션",
+     "outlet": "싱글리스트",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=784261",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "[대구소식]트리니티항공, 日 나고야공항과 공동 프로모션 등",
+     "outlet": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwdTV4MnZLdUwyNDIydGNBb0k5dG13UURHRzR6ZzdGWjVESEI4aGstMDN6QVVrWHFlODF4OVktdEM0dHNlUjY2bTJxZU4wU3FJVTdKd2NrcGczSVdTU2ZOZtIBeEFVX3lxTE8teUgxT3JMeEpZemFVeHdvcmhUMW9VRWpva1RLMTJBMk5XVmVGNVJsU2xPdDVyYW5HdUpEbWtQWncyaTlWVnkxYTZ2dGFTcTd3WmpqYkFlVlhNOVNRUlV3ejVBU3RteXBQQWxvUlBvUy1mWW51SHJfag?oc=5",
+     "published": "2026-11-24"
     }
    ],
    "status": "live"
@@ -8843,6 +8920,60 @@
    "status": "undated"
   },
   {
+   "id": "h-accor-bd4e00ceff",
+   "airline_id": "h-accor",
+   "airline": "아코르",
+   "airlines_mentioned": [
+    "아코르"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "ALL Accor Black Friday: Up to 35% Off Hotels in Canada",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "캐나다"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "ALL Accor Black Friday: Up to 35% Off Hotels in Canada",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVHFyX0JwUW9JRHJ3MHl3ckdycjdyeUh4S1kwRHRrclI4QnhsbTBac29fRGpnOG42Rjg5Q3ZJYW1hMjRWR1NUOUZkRmw4V2dnR1E4RzQyNi1ZVkVVM2hsN0locE13ZjBUcXVDZHdtelAzeVQxTEFDckZ0NHJwUTcxeU13?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 35%",
+   "verification": "news",
+   "first_published": "2026-11-23",
+   "last_published": "2026-11-23",
+   "first_seen": "2026-11-24T09:14:07+09:00",
+   "last_seen": "2026-11-24T09:14:07+09:00",
+   "articles": [
+    {
+     "title": "ALL Accor Black Friday: Up to 35% Off Hotels in Canada",
+     "outlet": "Milesopedia",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVHFyX0JwUW9JRHJ3MHl3ckdycjdyeUh4S1kwRHRrclI4QnhsbTBac29fRGpnOG42Rjg5Q3ZJYW1hMjRWR1NUOUZkRmw4V2dnR1E4RzQyNi1ZVkVVM2hsN0locE13ZjBUcXVDZHdtelAzeVQxTEFDckZ0NHJwUTcxeU13?oc=5",
+     "published": "2026-11-23"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-other-db9c1063b7",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -8943,6 +9074,61 @@
      "title": "Booking.com Black Friday 2026: Up to 40% Off Hotels",
      "outlet": "TravelPirates",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRno1QlozTWtXV0xaczZoXzdCa2hseTJTVkhBQVR3eUhqQ0IzdE9FV09udmFSZzB3bXU0andsVS05SnVNcGxobEZqbnN4dVJ2bzRNczZpZFI5ZHkxOHplMFIzT0VMZUR3NU80Yzhvc0I4X1gxWjBVRVBrZWZPSUlOWmhJNGtvMG9XOVE?oc=5",
+     "published": "2026-11-24"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "jinair-0f1ab979cb",
+   "airline_id": "jinair",
+   "airline": "진에어",
+   "airlines_mentioned": [
+    "진에어"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.jinair.com/",
+   "iata": [
+    "LJ"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "진에어, 국내선 1만원·국제선 3만원 운임 할인…2006~2008년생 대상 프로모션",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-24",
+   "last_published": "2026-11-24",
+   "first_seen": "2026-11-24T09:14:07+09:00",
+   "last_seen": "2026-11-24T09:14:07+09:00",
+   "articles": [
+    {
+     "title": "진에어, 국내선 1만원·국제선 3만원 운임 할인…2006~2008년생 대상 프로모션",
+     "outlet": "컨슈머타임스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZZ090V3NGWlVlR0EtM25yWm53azZvMGN4RGdMOHJyUmpieFZ4andqdnVMZFBTUWxEQXhJNElDdGRBcEtZeWI3eFhvS25WcHFoZzNhYjVxWURsWXFCaHlJRFNUajVWUnlWVHc?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "진에어, 2006~2008년생 대상 항공권 할인 쿠폰팩 제공",
+     "outlet": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONlBaLW1xZDlQckVCek82M2pxdVlTWlF6NkNKTUVGZExYcG52LVNYWnpOcEZ5Q2drbllRUmZXY1FCRlJEd2JjeDdpbV84OXhDVENaUzRDYkk2dnZ2ZFg3dEt0aW5pMnJJZDVZakJNYm9kMmlKLTBocnVadnpZTExwTUxJVlRIYlRIWjcyR1lwSF9CdjdTRTRuMVc0RXNFMXc5bnNGN2FscklFeTdWSUNfUnZSUzAtT3BPdEFmLXlkV0VfNDNzZlVwRFJ3ZExLMWdkbERMU0pSbVQ?oc=5",
      "published": "2026-11-24"
     }
    ],
