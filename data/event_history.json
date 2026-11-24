@@ -177,6 +177,13 @@
    "sale_start": "2026-11-14",
    "sale_end": "2026-11-29"
   },
+  "h-marriott|2026-11-29|marriott25off2026cybersa": {
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "name": "Marriott 25% Off 2026 Cyber Sale For Weekend Stays November ",
+   "sale_start": "2026-11-29",
+   "sale_end": "2027-05-02"
+  },
   "h-marriott|2026-11-29|marriottdrops25offhotels": {
    "airline_id": "h-marriott",
    "airline": "메리어트",
