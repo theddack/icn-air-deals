@@ -5103,23 +5103,6 @@
     "new": "2026-11-24"
    }
   },
-  "trinity-3b0da6c719": {
-   "info": {
-    "airline": "trinity",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-29",
-    "dests": [],
-    "last": "2026-11-25",
-    "urls": [
-     "3b0da6c719",
-     "645f6162cd"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-25"
-   }
-  },
   "h-other-d04b1507e9": {
    "info": {
     "airline": "h-other",
@@ -5364,6 +5347,26 @@
    "kinds": {
     "new": "2026-11-25"
    }
+  },
+  "trinity-8fc6269b3a": {
+   "info": {
+    "airline": "trinity",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-25",
+    "urls": [
+     "3b0da6c719",
+     "645f6162cd",
+     "6ee254a677",
+     "8fc6269b3a",
+     "99c90dc270"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-25"
+   }
   }
  },
  "slots": {
@@ -5400,7 +5403,7 @@
    "evening": "sent"
   }
  },
- "saved_at": "2026-11-25T18:14:58+09:00",
+ "saved_at": "2026-11-25T18:23:20+09:00",
  "drops_day": "2026-11-25",
  "drops": {
   "BKK": {
