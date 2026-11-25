@@ -5220,6 +5220,150 @@
    "kinds": {
     "new": "2026-11-25"
    }
+  },
+  "vietjet-fe0ecd1eda": {
+   "info": {
+    "airline": "vietjet",
+    "name": "",
+    "sale_start": "2026-11-25",
+    "sale_end": "2026-11-27",
+    "dests": [],
+    "last": "2026-11-25",
+    "urls": [
+     "4e0dacd555",
+     "fe0ecd1eda"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-25",
+    "new": "2026-11-25"
+   }
+  },
+  "airpremia-0040e87e89": {
+   "info": {
+    "airline": "airpremia",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-12-01",
+    "dests": [
+     "중국"
+    ],
+    "last": "2026-11-25",
+    "urls": [
+     "0040e87e89",
+     "00a4e555b5",
+     "20ebbe0c80",
+     "4596f6506c",
+     "68868ec255",
+     "98e435f981"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-25"
+   }
+  },
+  "h-other-09305b4913": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-12-15",
+    "dests": [],
+    "last": "2026-11-25",
+    "urls": [
+     "09305b4913"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-25"
+   }
+  },
+  "h-marriott-dea109af50": {
+   "info": {
+    "airline": "h-marriott",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-20",
+    "urls": [
+     "dea109af50"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-25"
+   }
+  },
+  "h-other-eb70b2bba6": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-24",
+    "urls": [
+     "eb70b2bba6"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-25"
+   }
+  },
+  "multi-47252f0936": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-25",
+    "urls": [
+     "47252f0936"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-25"
+   }
+  },
+  "jejuair-dc05ce8a65": {
+   "info": {
+    "airline": "jejuair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-25",
+    "urls": [
+     "dc05ce8a65"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-25"
+   }
+  },
+  "vietjet-db5080ceaf": {
+   "info": {
+    "airline": "vietjet",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "베트남"
+    ],
+    "last": "2026-11-25",
+    "urls": [
+     "1026f4600b",
+     "45b6b0d79d",
+     "7bd7eddd94",
+     "c1b823e5f1",
+     "db5080ceaf",
+     "f44fae390f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-25"
+   }
   }
  },
  "slots": {
@@ -5252,10 +5396,11 @@
    "evening": "sent"
   },
   "2026-11-25": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-25T13:23:04+09:00",
+ "saved_at": "2026-11-25T18:14:58+09:00",
  "drops_day": "2026-11-25",
  "drops": {
   "BKK": {
