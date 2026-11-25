@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T18:16:01+09:00",
+ "generated_at": "2026-11-25T22:17:32+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2577,
+  "rss_items": 2551,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2185,
-  "outlet_new_articles": 1,
+  "outlet_items": 2067,
+  "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 86,
-  "articles": 997,
-  "new_articles": 2,
-  "deals": 212
+  "articles": 1001,
+  "new_articles": 4,
+  "deals": 213
  },
  "deals": [
   {
@@ -131,7 +131,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "Accor Announces Black Friday Sale With 30% Off Hotels Across Europe",
+   "headline": "Fairmont Black Friday Sale Opens With 30% Off Stays Through May 2027",
    "sale_start": "2026-12-09",
    "sale_end": "2027-03-28",
    "travel_start": null,
@@ -148,18 +148,24 @@
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNU2llTWVqa1lGMHFTM21xQS1FcDNGSkwtbm1aVHpDMm1FRVJvUnp0M1NUekhXNGQ2TTlUUERPQ1dvZTRCOTZLTmxGeWtwa3pST0d5bzZaYmY3UFhsRjlkbDdaS3RyQnRUZV9hTHJ2eUw5QkRMZkZqTXlsSFliTDFqR0VtRS1sZHdFa0NvUUtzeHNIRWFrTDBXUmJkMDFWVzJVMVJjUjlzQjlGakUzTTM0d0lSOVZGTDUyeVZudzhqMWg4US1vRFZPV0E3SUJXcmdtVlVpbnB3?oc=5"
     },
     "discount": {
-     "title": "Accor Announces Black Friday Sale With 30% Off Hotels Across Europe",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX2xLY3lCYmp0Y1U4SkliLVAtMl9GUHdPRHNaMkZTaDY2bzVsRFhRM1B5cHZVZlA2U0hWLXQ2ZzZia1l4RlVEWU9UVjV6d2dlUnZYMm5EZ2tLeTFKcmNZSTZydkRFWlpPUkFlVGJBdmZ1aERJOWFfM1UzSjJMWEJRY1pncFpEdzBreTN1bU53NVA5MVgyT2QyczMyOUVQanRqdmFYc3ZNSjlBcVJtZ3c?oc=5"
+     "title": "Fairmont Black Friday Sale Opens With 30% Off Stays Through May 2027",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRGtxNVVNekxTY0VLTVFkYmxCQXBOTXpVWG9teGRxV251RUdkajRjbDRnOEJuakprbTNieDVFWkJLaHNHTzRxYVFsajRSNnFMcXJYSWhQSlZTUVo0eVBQWnhWMDZZZmtrSzVDVXhKcnpSTXNZRTdUdndGalYtTFhjd21qMXhseTBUNUxNMFk1WXZuTGhZdFJMYmhHTXlna3JVeGsxTWd2b3E1RGRzeTRj?oc=5"
     }
    },
    "from_icn": null,
    "discount": "30% 할인",
    "verification": "news",
    "first_published": "2026-11-20",
-   "last_published": "2026-11-20",
+   "last_published": "2026-11-25",
    "first_seen": "2026-11-20T22:17:31+09:00",
-   "last_seen": "2026-11-21T03:00:33+09:00",
+   "last_seen": "2026-11-25T22:17:32+09:00",
    "articles": [
+    {
+     "title": "Fairmont Black Friday Sale Opens With 30% Off Stays Through May 2027",
+     "outlet": "Rus Tourism News",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRGtxNVVNekxTY0VLTVFkYmxCQXBOTXpVWG9teGRxV251RUdkajRjbDRnOEJuakprbTNieDVFWkJLaHNHTzRxYVFsajRSNnFMcXJYSWhQSlZTUVo0eVBQWnhWMDZZZmtrSzVDVXhKcnpSTXNZRTdUdndGalYtTFhjd21qMXhseTBUNUxNMFk1WXZuTGhZdFJMYmhHTXlna3JVeGsxTWd2b3E1RGRzeTRj?oc=5",
+     "published": "2026-11-25"
+    },
     {
      "title": "Accor Announces Black Friday Sale With 30% Off Hotels Across Europe",
      "outlet": "Rus Tourism News",
@@ -2336,7 +2342,7 @@
    "status": "live"
   },
   {
-   "id": "airbusan-5d8214333f",
+   "id": "airbusan-ef78e7c83b",
    "airline_id": "airbusan",
    "airline": "에어부산",
    "airlines_mentioned": [
@@ -2386,7 +2392,7 @@
    "first_published": "2026-11-25",
    "last_published": "2026-11-25",
    "first_seen": "2026-11-25T08:16:22+09:00",
-   "last_seen": "2026-11-25T18:10:08+09:00",
+   "last_seen": "2026-11-25T22:17:32+09:00",
    "articles": [
     {
      "title": "에어부산, 겨울맞이 국제선 특가… 일본 편도 8만6900원부터",
@@ -2428,6 +2434,12 @@
      "title": "에어부산, 동계 여행객 겨냥 국제선 항공권 특가",
      "outlet": "아시아경제",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wX2V3eG5Hb0FNcUExNlBIMHR4ajhEMlUwRnZFR0xOUXFiTVI0Qk5pTy1EMFdqX0lucTJuU19SMWFaWV9fUlJ1N1FCRjNYcXhUa2RpWHU5VC1mNVliMVNvWQ?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "에어부산, 국제선 28개 노선 겨울 특가",
+     "outlet": "서울경제",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oWHhlU1dxVmNUNEZ3M2N0RnJwZ1Q0ZGp1c2VjeG1NcnpjLV9KeHRHTFVzV1hPU2h0aGhkYWhUMlNxOUNLejVUTFR6V3FodUNxN0HSAVNBVV95cUxPajdWNEc5d1VBR0JuSk14VjhFSDJOZHQwSS1SVnpzQzRMN0YzME5ZRnJKZWRfbVlWWjNCZzJfZGp0czJZdC1EdVFLcnE5MlNsMTlRdw?oc=5",
      "published": "2026-11-25"
     }
    ],
@@ -10096,7 +10108,7 @@
    "first_published": "2026-11-25",
    "last_published": "2026-11-25",
    "first_seen": "2026-11-25T18:10:08+09:00",
-   "last_seen": "2026-11-25T18:10:08+09:00",
+   "last_seen": "2026-11-25T22:17:32+09:00",
    "articles": [
     {
      "title": "비엣젯항공, 블랙프라이데이 맞아 베트남 노선 할인 프로모션 실시",
@@ -10120,6 +10132,12 @@
      "title": "비엣젯항공, 블랙프라이데이 맞아 한국-베트남 노선 특가 판매",
      "outlet": "비건뉴스",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45ZHJibHFtX3hLRHE5OG5WSnQzZEMyNWQwV3lxZl9yQWYwOE5hUFBWenBIem5GV1pGYnRhZmVZdUQ4X2stZmJZTVYyWTdWMy10VTEwOHpJZ3N6cDA3Q0pTckFYalJtQQ?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "비엣젯항공, 블랙프라이데이 특가로 한국·베트남 여행 선택지 넓혀",
+     "outlet": "데일리메이커",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JNWRfRl9vV05PaUtEVnJZN0dIS2s4RVVUdXhMb043akMzaFB4Nm41SmxCVVJOSmctdjYyU3lZM0xkSlI4NXRGbzdHOWVVczkzWjlma1hwVkJqMTBQNkNKa2ZrcmUwaWc?oc=5",
      "published": "2026-11-25"
     },
     {
@@ -10392,6 +10410,53 @@
      "title": "10 Cozy Gifts That Will Make Your Home Feel Like a Hotel Stay (All on Black Friday Sale!)",
      "outlet": "Apartment Therapy",
      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNN3BaN2loR1VJbXExelF3bVpfQ0ZqQkFEUkEyX0xQbXJNbmdsdkRHWWkyRXJCQXJVZGZsQWxtV2YyVWNRVzVtZWZsUlo1UWFUTmRvV3phSmdtdlpfbjFLNlRMdzAzT3VsS3VDbmVPa2QxM0k1U01vSlppbk54dmlVbXo4U2w?oc=5",
+     "published": "2026-11-25"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-6f177775ba",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Last-Minute 2026 Black Friday and Cyber Monday Deals on Flights, Hotels and Cruises",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-25",
+   "last_published": "2026-11-25",
+   "first_seen": "2026-11-25T22:17:32+09:00",
+   "last_seen": "2026-11-25T22:17:32+09:00",
+   "articles": [
+    {
+     "title": "Last-Minute 2026 Black Friday and Cyber Monday Deals on Flights, Hotels and Cruises",
+     "outlet": "Travel Pulse",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN19QdlFWQ3Zoa2lXS2FTQmtQSUFpZTZ0V200b3dRUnQ5ZmdvUjZqQlI5UjUwZ0pFZTM5UUpKWnZiQTd3aXNrOVl3V3BpVHRfRG1pOFE2MWRabGJaN1pBQ09rT0NqWW5lbXZiWW90VFFUNzRTWHNRbTBHb3JlMUFfek9fdXlSdTdGSkNLR3R0QkkzdWswbDhHY2VNRE0ya3ltZ1EtRlhSWWY0QldhOFczQXRHU1RhNGdSdFllWDZuZWtSY2wy?oc=5",
      "published": "2026-11-25"
     }
    ],
