@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T09:14:02+09:00",
+ "generated_at": "2026-11-25T13:18:15+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2626,
+  "rss_items": 2470,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2097,
+  "outlet_items": 2262,
   "outlet_new_articles": 0,
-  "outlet_enriched": 0,
+  "outlet_enriched": 2,
   "mail_articles": 12,
   "mail_new_articles": 0,
-  "articles_with_summary": 83,
-  "articles": 963,
-  "new_articles": 5,
-  "deals": 203
+  "articles_with_summary": 85,
+  "articles": 980,
+  "new_articles": 17,
+  "deals": 206
  },
  "deals": [
   {
@@ -1696,7 +1696,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "트리니티항공, SNS 팔로워 확대 나서···국제선 최대 10만원 할인",
+   "headline": "트리니티항공, 고객 참여형 SNS 이벤트… 국제선 항공권 최대 10만원 할인",
    "sale_start": null,
    "sale_end": "2026-11-29",
    "travel_start": null,
@@ -1711,8 +1711,8 @@
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1abGpQVzcwWVV6cTBSVHNLLVZnUHJmRF93UWZqNkk5YlltVEJfemYxNW1yanYzR01EYWhoWVNlOFMwUjM2YmxDU01xTENOTUg2TnpBb1lNcHlvRWV5ektabnp0YldEQ3k5bmc?oc=5"
     },
     "discount": {
-     "title": "트리니티항공, SNS 팔로워 확대 나서···국제선 최대 10만원 할인",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96MU5SaTlTTzNaUHVkLWFKa0hjcW5STTllLXJPUms3QnJjY0FnSDdzcllzZGczT0JVTU8xZGNmMnUyOW5OdWdKWFUwMFVrbzdzdC1fTGx2cTlEd1hnRkNUQmhKOURNYlR3eFMtR1U0cVo2S2fSAXdBVV95cUxNLU84Q0p6NEprQmduUk1CNkRMRmE3R2ZpM0R2V0ZJT1VvaXlUak10cEdCbW1PNU8zWW5JTERmdE5mNExqbXh1VndtanVjRGlQMzZpX01nTzlmeVpCeFFvSEdvZ085M0cxenhZNWg2aWVmT1ZjQXdFaw?oc=5"
+     "title": "트리니티항공, 고객 참여형 SNS 이벤트… 국제선 항공권 최대 10만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd05VMEtwOGRHaUZpU0QyaTBwcWpHb2ZYaUs4Um1oSkphV2FtSkgxZ0ZuZklUWkMtT3dyQ01fUjJIUDZvNE84SWdFRlZyajN0UVlMN3laLXpabElFb0YxZjZqblpqMlRMTW5mcV9uVm1GUjFycXh6clFZMTdSRWxVTWxMd1I1QQ?oc=5"
     }
    },
    "from_icn": "unknown",
@@ -1721,8 +1721,14 @@
    "first_published": "2026-11-25",
    "last_published": "2026-11-25",
    "first_seen": "2026-11-25T09:14:02+09:00",
-   "last_seen": "2026-11-25T09:14:02+09:00",
+   "last_seen": "2026-11-25T13:18:15+09:00",
    "articles": [
+    {
+     "title": "트리니티항공, 고객 참여형 SNS 이벤트… 국제선 항공권 최대 10만원 할인",
+     "outlet": "뷰티트래블뉴스",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd05VMEtwOGRHaUZpU0QyaTBwcWpHb2ZYaUs4Um1oSkphV2FtSkgxZ0ZuZklUWkMtT3dyQ01fUjJIUDZvNE84SWdFRlZyajN0UVlMN3laLXpabElFb0YxZjZqblpqMlRMTW5mcV9uVm1GUjFycXh6clFZMTdSRWxVTWxMd1I1QQ?oc=5",
+     "published": "2026-11-25"
+    },
     {
      "title": "트리니티항공, SNS 팔로워 확대 나서···국제선 최대 10만원 할인",
      "outlet": "뉴스프리존",
@@ -2253,7 +2259,7 @@
    "status": "live"
   },
   {
-   "id": "airbusan-dd15e5ba0e",
+   "id": "airbusan-5d8214333f",
    "airline_id": "airbusan",
    "airline": "에어부산",
    "airlines_mentioned": [
@@ -2274,7 +2280,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "에어부산, 동계 시즌 국제선 28개 노선 특가 프로모션",
+   "headline": "에어부산, 겨울맞이 국제선 특가… 일본 편도 8만6900원부터",
    "sale_start": null,
    "sale_end": "2026-11-30",
    "travel_start": "2026-11-26",
@@ -2291,16 +2297,26 @@
     "travel": {
      "title": "싱글리스트 요약문: … 인천 출발은 ▲일본 109,900원 ▲동남아 179,900원부터 판매되며 탑승 기간은 오는 26일부터 내년…",
      "url": "https://www.slist.kr/news/articleView.html?idxno=784489"
+    },
+    "discount": {
+     "title": "에어부산, 겨울맞이 국제선 특가… 일본 편도 8만6900원부터",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbDRKNXBJUVdYYkh3Y3JkU3NDc0xweTFUckxvbnJTU2NVV192U2NVMGhCTkRqNDRoV09OYzBwMmF2MXNkN1MxUHJ4dTNTZXhNVWhoaHdSM3I2M1h6UUstVXIwdFNEVFJxbkxSMmxMUl9Mald6dF81SHIwdWVJcFk1T1RHSU1uUEs4LTljS3h3?oc=5"
     }
    },
    "from_icn": "unknown",
-   "discount": null,
+   "discount": "8만6900원부터",
    "verification": "news",
    "first_published": "2026-11-25",
    "last_published": "2026-11-25",
    "first_seen": "2026-11-25T08:16:22+09:00",
-   "last_seen": "2026-11-25T09:14:02+09:00",
+   "last_seen": "2026-11-25T13:18:15+09:00",
    "articles": [
+    {
+     "title": "에어부산, 겨울맞이 국제선 특가… 일본 편도 8만6900원부터",
+     "outlet": "국제신문",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbDRKNXBJUVdYYkh3Y3JkU3NDc0xweTFUckxvbnJTU2NVV192U2NVMGhCTkRqNDRoV09OYzBwMmF2MXNkN1MxUHJ4dTNTZXhNVWhoaHdSM3I2M1h6UUstVXIwdFNEVFJxbkxSMmxMUl9Mald6dF81SHIwdWVJcFk1T1RHSU1uUEs4LTljS3h3?oc=5",
+     "published": "2026-11-25"
+    },
     {
      "title": "에어부산, 동계 시즌 국제선 28개 노선 특가 프로모션",
      "outlet": "국제뉴스",
@@ -2308,9 +2324,118 @@
      "published": "2026-11-25"
     },
     {
+     "title": "에어부산, 겨울맞이 국제선 특가 프로모션 진행",
+     "outlet": "BBS 불교방송",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE00TzdKTkVvVzRRQk1HYm5KXzRIaU9FSDZwYWFZejFtWWZJY0FXcTJxczNZQUxzZlVIQ1pMNkpES3Fub0tERkVFRGV1ZFUyOXl3U294c2wwSFJ1WGh3ZXY5SkFWV0NFWGV1YTR3?oc=5",
+     "published": "2026-11-25"
+    },
+    {
      "title": "에어부산, 겨울맞이 국제선 특가 프로모션",
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkWnpGaEJQMmhWODRXaGZrYVNOcFNyZHNWQXVodU5ZMlFNNVp6TUZnWEY4M3l0UzE5bmxwZGZ5OHd1cllGV0tmNU5pNUd1ZEVOQ0JrNUZEdUlxNmpKZG94NGZNQldYZw?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "에어부산, 겨울맞이 국제선 특가…日편도 8만6900원부터",
+     "outlet": "뉴시스",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4cFJZQmw0NkZ2ZXZqbXBURTFXUkF6ZVpfVVh0SnNpcjVFdWxHYkFmcG4xemotaEJHOU1oV3JUVFpzd3N6em5BOXZZU1pBeURoYTgxWnRQZk01cHliUDN2eA?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "에어부산, 동계 여행객 겨냥 국제선 항공권 특가",
+     "outlet": "아시아경제",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wX2V3eG5Hb0FNcUExNlBIMHR4ajhEMlUwRnZFR0xOUXFiTVI0Qk5pTy1EMFdqX0lucTJuU19SMWFaWV9fUlJ1N1FCRjNYcXhUa2RpWHU5VC1mNVliMVNvWQ?oc=5",
+     "published": "2026-11-25"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "airpremia-0040e87e89",
+   "airline_id": "airpremia",
+   "airline": "에어프레미아",
+   "airlines_mentioned": [
+    "에어프레미아"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airpremia.com/",
+   "iata": [
+    "YP"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "에어프레미아, 첫 중국 노선 닝보 취항…최대 20% 할인",
+   "sale_start": null,
+   "sale_end": "2026-12-01",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": null,
+     "destination": "중국"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "ER 이코노믹리뷰 요약문: 할인 행사는 25일 오전 10시부터 12월 1일까지 7일간 열린다.",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=758438"
+    },
+    "discount": {
+     "title": "에어프레미아, 첫 중국 노선 닝보 취항…최대 20% 할인",
+     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPTmtpTVhMWjVuTGZocG5PRzJCNEthS3NId2c4YmMyUHBsWWFLVF9iei1PX3d3Y21GdFhld0M4MkJkS3Q2djk4TWNaS0wyUTlTbmtVMzBPaVpXeWVHekRkZHd4dGhSdUFMS2VIRm8wMnBEamhUbWFIaTVhd0tlVEZGb2tBeklKOGhNT3o2dFR0MjBkQlNPc0x5dWxzSzVsX2Zyd1pwenAzeHlmdUJtdXFERDJaT3RnQ3ZGaXdtZk05Sl92QzdpaVZIUGx5dXd3aGlfV0U5M2t6WDdCRjVtWlRxV1BsZVRiUzZGUnJ6M05xWHZvTlZKakFtLW1BTHpyOHRlMEVNMXZCa1RrTzhRLW8tYlU5SXQwWDRX?oc=5"
+    },
+    "route": {
+     "title": "에어프레미아, 첫 중국 노선 닝보 취항…최대 20% 할인",
+     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPTmtpTVhMWjVuTGZocG5PRzJCNEthS3NId2c4YmMyUHBsWWFLVF9iei1PX3d3Y21GdFhld0M4MkJkS3Q2djk4TWNaS0wyUTlTbmtVMzBPaVpXeWVHekRkZHd4dGhSdUFMS2VIRm8wMnBEamhUbWFIaTVhd0tlVEZGb2tBeklKOGhNT3o2dFR0MjBkQlNPc0x5dWxzSzVsX2Zyd1pwenAzeHlmdUJtdXFERDJaT3RnQ3ZGaXdtZk05Sl92QzdpaVZIUGx5dXd3aGlfV0U5M2t6WDdCRjVtWlRxV1BsZVRiUzZGUnJ6M05xWHZvTlZKakFtLW1BTHpyOHRlMEVNMXZCa1RrTzhRLW8tYlU5SXQwWDRX?oc=5"
+    }
+   },
+   "from_icn": "yes",
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-11-25",
+   "last_published": "2026-11-25",
+   "first_seen": "2026-11-25T13:18:15+09:00",
+   "last_seen": "2026-11-25T13:18:15+09:00",
+   "articles": [
+    {
+     "title": "에어프레미아, 첫 중국 노선 닝보 취항…최대 20% 할인",
+     "outlet": "데일리안",
+     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPTmtpTVhMWjVuTGZocG5PRzJCNEthS3NId2c4YmMyUHBsWWFLVF9iei1PX3d3Y21GdFhld0M4MkJkS3Q2djk4TWNaS0wyUTlTbmtVMzBPaVpXeWVHekRkZHd4dGhSdUFMS2VIRm8wMnBEamhUbWFIaTVhd0tlVEZGb2tBeklKOGhNT3o2dFR0MjBkQlNPc0x5dWxzSzVsX2Zyd1pwenAzeHlmdUJtdXFERDJaT3RnQ3ZGaXdtZk05Sl92QzdpaVZIUGx5dXd3aGlfV0U5M2t6WDdCRjVtWlRxV1BsZVRiUzZGUnJ6M05xWHZvTlZKakFtLW1BTHpyOHRlMEVNMXZCa1RrTzhRLW8tYlU5SXQwWDRX?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "에어프레미아, 첫 중국행은 닝보…항공권 최대 20% 할인",
+     "outlet": "ER 이코노믹리뷰",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QcldvWTJON1czVE1hMW90NDJOM1VKelFvVlJBVXBWWnlxM3BqWTRtSkVfTmU3bGZCT2JETi1RXzZSWmY3VlZLVzMzVDE5TzVzVER2TTJoMW9NRFhSTTltZzVxZUZiRGdrR0xGSw?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "에어프레미아, 인천~닝보 신규 취항 기념 최대 20% 할인",
+     "outlet": "BBS 불교방송",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTnJkM0tPQXE4dnVCZHcya3JEeHp4bFJNcGNOcnJ2aVN4MWp0SG9HQUlwQ0ZqOURrR1JXWGppRGNRTjdPRDduRGUxUHQ1WS1kbVlxSmVMWF9vQkxvMF9SVTZzd2MxYy02dWpz?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "에어프레미아, 인천~닝보 신규 취항 기념 항공권 프로모션",
+     "outlet": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5KZ2RfaFR0OVdwQTJ5TG04eTNod1lxTXhTWGJiSlVpcXNQbG5femY3cUZRX29jVjNSSlJOUHpiNHQzUkVMamNrZmY0RWhsNVNoQWMwTkhfYXJkSW9BR0Z6RHc2VW8?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "에어프레미아, 닝보 노선 주 3회 운항…취항 기념 할인",
+     "outlet": "아시아타임즈",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02c092LVNBYTZYRGk0SEdSTF9EeTBnSHI5VXd6dWZVMjVwc09LRXg5SU9OUHhjemFDSmk5d1k3OFc3R0ZuX1pGdTNUUGU3TGMxbFBGYjdCVlUtNmZ3ZUE?oc=5",
      "published": "2026-11-25"
     }
    ],
@@ -7800,6 +7925,58 @@
    "status": "undated"
   },
   {
+   "id": "h-marriott-dea109af50",
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "airlines_mentioned": [
+    "메리어트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Marriott Bonvoy Cyber ​​Week 2026: Up to 25% off hotels until May 2027",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Marriott Bonvoy Cyber ​​Week 2026: Up to 25% off hotels until May 2027",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMG9OdXBqUlZrWmhNQ0tLcmhYcnlVaTNZQ29KWFNqM011eDNXa1VHX3hXNEtlT1U0aWhNVG1YRmFwNmcycEE5S2dWMlJGQnJsVTBZYThEZk5xajMyUU9rbHpnVERybXV4WFQ1bEZqeXlHOG5CLXNIZGlXTHNyT3JHRW5GUngzcEtYTmZTTjFVMG5mSnVFT2o0SjY1cjlSbVFvUk0yX2dLRllqWFk?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-11-20",
+   "last_published": "2026-11-20",
+   "first_seen": "2026-11-25T13:18:15+09:00",
+   "last_seen": "2026-11-25T13:18:15+09:00",
+   "articles": [
+    {
+     "title": "Marriott Bonvoy Cyber ​​Week 2026: Up to 25% off hotels until May 2027",
+     "outlet": "infostourisme.com",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMG9OdXBqUlZrWmhNQ0tLcmhYcnlVaTNZQ29KWFNqM011eDNXa1VHX3hXNEtlT1U0aWhNVG1YRmFwNmcycEE5S2dWMlJGQnJsVTBZYThEZk5xajMyUU9rbHpnVERybXV4WFQ1bEZqeXlHOG5CLXNIZGlXTHNyT3JHRW5GUngzcEtYTmZTTjFVMG5mSnVFT2o0SjY1cjlSbVFvUk0yX2dLRllqWFk?oc=5",
+     "published": "2026-11-20"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-accor-91fa952ec3",
    "airline_id": "h-accor",
    "airline": "아코르",
@@ -9089,141 +9266,6 @@
    "status": "undated"
   },
   {
-   "id": "h-yeogi-28510b370c",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": "패키지 여행에 할인 혜택 쏟아진다",
-   "headline": "광양시, 섬진강권 4개 시·군 숙박 할인 ‘섬진강여행 여기어때’",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "경기"
-   ],
-   "conditions": [
-    "쿠폰",
-    "선착순"
-   ],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "여기어때, 경기 웰니스 숙박·레저 상품 최대 5만원 할인",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2pjZGhWcWRfcGNQcEhpZkNGakRqZVd0cXZsaEJEMi1JU2c3c25IN191RHF3emhmTThOMGp3Y0ZmWi1Hal9sckk2akQzUmR1YlpBVUZGekFIN0NCV2J2QWtSaktPYmlBM0NfSFMxYWpmNEpFbGR4cTEyOGlMYTc4VzFERzNBUFNzTGNR?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 5만원 할인",
-   "verification": "news",
-   "first_published": "2026-10-15",
-   "last_published": "2026-11-24",
-   "first_seen": "2026-10-19T13:48:24+09:00",
-   "last_seen": "2026-11-24T18:16:05+09:00",
-   "articles": [
-    {
-     "title": "광양시, 섬진강권 4개 시·군 숙박 할인 ‘섬진강여행 여기어때’",
-     "outlet": "https://www.kmaeilsinbo.kr/",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XZGJib19YMno5RVhta0dLM1NQSl90dlV6Q29yU0gxUWRDMzliY2tSNmFsUFVJdnBORVFsUWNaWDZKT1NveW9LbU93NUpkb0NMOXNtSEQtb2k5ZXRFeU40cjhrdmpxaXdudjZxSFZ3?oc=5",
-     "published": "2026-11-24"
-    },
-    {
-     "title": "광양시, 섬진강권 4개 시·군 숙박 할인 ‘섬진강여행 여기어때’ 행사 운영",
-     "outlet": "호남타임즈",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aTGxwMFBoZUZweHJVMno1UXU4M08wMi1nQWRwM2lTbUk1amJzdHJaclNrX2RGb3FqX0Y4WjNSU09PbTNyMmkxaG91SFlTOVZxTTVwTjJ2dUZMMUFVNm5Ea2lYLVJtVWEybWw3OVBB?oc=5",
-     "published": "2026-11-24"
-    },
-    {
-     "title": "광양·구례·곡성·하동 숙박 2만 원 할인… ‘섬진강여행 여기어때’ 선착순 모집",
-     "outlet": "녹색경제신문",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yYVVvMTU3Y19LZFRKcEJWQWlhb180WnZEYWRoY1VpSERqVEdlSVJRR0xNUXg4NDFQQ05IUUpvb2R5anRQQy1Dd1c3M2Y4R3lKbGhmeFQxWktBb2ZwbkNCNGhfeDBzVHhk?oc=5",
-     "published": "2026-11-24"
-    },
-    {
-     "title": "'섬진강여행 여기어때'...광양시, 섬진강권 숙박시설 이용객 2만원 할인 혜택 제공",
-     "outlet": "파이낸셜뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hQWJVNFZuMVhZRWFUSkFFR3lQLXJUbEt6Q0hiN2d6YVBCUFJEbzQxRlA1U0FkaGpaUEcxdW1Fdy1RdXJGU1FudzRoNENtS0oyb1J2SHRxNzFrdw?oc=5",
-     "published": "2026-11-24"
-    },
-    {
-     "title": "광양시 '섬진강여행 여기어때' 숙박 할인",
-     "outlet": "브레이크뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBnX0M5ZVRISEpVVTltU1MzTXNJbEZ6b1BnVk4tbHFteldRd0ZONkFIaXV4S2dsN1ZPcGFNSTlUWmREQQ?oc=5",
-     "published": "2026-11-24"
-    },
-    {
-     "title": "여기어때, 춘천시와 늦가을 숙박 할인 행사…최대 3만원 혜택",
-     "outlet": "한스경제",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02NG9JRUo3REJUbktfYTdQWkRGTk0xTXFYZWJYT1MxSXZ5eFJzbzVrTmw2SUU2dWdrZ3laX01lcFV5cHlIMTdlWC1HSHBCZzVlOXJ6V2FXLXBkbV9JUU00b3BsRlpHWXhWdlV3T9IBb0FVX3lxTFBpbjZzSHpqX0VHZWFCRjIzNGJ1bWFQSXJ6NktwRDJYRmNKSmd6Y0dJR2FfQVQzVnhOMGRvSDFhai1DaEhnc25kb1dRVnlqdUl4aFJWbi1pX3ZZMS1pTWp1QXNOSzhMQ3RyTjJzR29FRQ?oc=5",
-     "published": "2026-10-29"
-    },
-    {
-     "title": "여기어때·춘천시, 가을 숙박 할인전…최대 3만원 쿠폰",
-     "outlet": "핀포인트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5UE5XUmE2ajczT2Z1MnNsRENCYXpaX2s5T1k5WllVUVFqNGVrMTUxM2dxNHh1THlhUHZCenR2amhlTE5VWUVCNHZMT0Q5Y1ViRnJWb05FZHVSUlN4ekVENUpONlFEeHQ5WkxrVjNMeDJ2QnPSAXdBVV95cUxQWWpLUm5wMXlERmU3TUFUTU0tLURfMGNraWN2OHNLWmo0MDRGMXdqTjJTOEQ0U0FvbzF2NFVKUHl6REJ0X1E0aG1EM3NhNUduRGh6TEpVOFdiQTMzMHVVTm1FeWNDWkQtMjhzTWlHSWFCOW9HV1gzVQ?oc=5",
-     "published": "2026-10-28"
-    },
-    {
-     "title": "여기어때, 춘천 가을 여행 지원…숙박 할인전 진행",
-     "outlet": "일간대한뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kdkx4aVMwcXAtWHZ1UFlsUmVtT2hZUjdnTi1ROVp5M1RTX1dUajg2TDZIYThHam5VbTVVQlhmSWtuZndGbTdfYzdKYUV1T3pTZnBza0d2cldsd0RINEE0YTlHWXBOTVE?oc=5",
-     "published": "2026-10-28"
-    },
-    {
-     "title": "여기어때, 경기 웰니스 숙박·레저 상품 최대 5만원 할인",
-     "outlet": "글로벌이코노믹",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2pjZGhWcWRfcGNQcEhpZkNGakRqZVd0cXZsaEJEMi1JU2c3c25IN191RHF3emhmTThOMGp3Y0ZmWi1Hal9sckk2akQzUmR1YlpBVUZGekFIN0NCV2J2QWtSaktPYmlBM0NfSFMxYWpmNEpFbGR4cTEyOGlMYTc4VzFERzNBUFNzTGNR?oc=5",
-     "published": "2026-10-19"
-    },
-    {
-     "title": "경기관광공사, 도내 웰니스 여행 '여기어때'서 최대 5만원 할인",
-     "outlet": "비욘드포스트",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wdm5NWHlBTkpPLXBTU0NwR3R1Qi1VVy1yb0laOWc3N2FIaW1Za21WaXFzSlQ0MkJrSzc3RmM2YTRBUmYzTEJSU1p4aE1ndWZjWnpud1lhY0RpOXpOWm4zeGJubGNheGFhR2x0UW9IY2gzN0puclp2bFVGNA?oc=5",
-     "published": "2026-10-19"
-    },
-    {
-     "title": "여기어때, 경기도 웰니스 여행 할인…숙박·레저 수요 공략",
-     "outlet": "메가경제",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TZ00wMFM5cW5HR2hGbmtnbGY2eGVxbzVwcjBoekxaS05kcUEyNzl6VmpDSno0V2hZNVIyWTJCcDNKbEVQMC0wenF5bF82UGJ4ZVN5YUlYU3ZILWdnV1lFVGxrRmV0M1NuVWJva3A1RVVnVkdz0gFyQVVfeXFMTmplSTJsR1VBSTlsdGJ5S0hTa3gzajdxeVBJT1Jfa0NDMThlVGFOYmYtLWVPcnlyaGgybzI3SGhPM1A1bDdJY01SMEZtRHRRQ05fVDJNUnRFX2xCVnhGYnZTTGhJRlM0YUx5MkpFYkh3a0NB?oc=5",
-     "published": "2026-10-19"
-    },
-    {
-     "title": "여기어때, 경기도 웰니스 여행 떠나면 ‘5만원’ 할인",
-     "outlet": "일간대한뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmaTY0M3hSazhVSUFWN2Z0UmI0MXEyUEJWUE4wdFh4TW44elFGdkRrV1VqakJ0Ry1XSldSVF9lT0RLOUdMdzNmZ2VzT3JCbjB0b3lubXRYY0VRaEtobzZzUWJaWjA1VjQ?oc=5",
-     "published": "2026-10-19"
-    },
-    {
-     "title": "여기어때, 해외여행 상품 할인 확대…매주 지역별 특가 공개",
-     "outlet": "핀포인트뉴스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NTGlPNUxkdE5ZOUZvMlFUcXdDdkpMOGxfUWdIQVNuWGdyXzNmQjRTN0haZ09wZjNlRng0TFRuSHVIckxnU0dtOVkwQXVaa1JMV0JKWlJDUWw0d0ZHTURSYzdQRG1icEs3ZFlvTERlTHR1OEHSAXdBVV95cUxNS3U0NDJnN09uNTdRdHlBVm01bmJrRG41dTBVbVE1UnR4cXVheldxakdWSWl3WW1oZ3ZFbDFQVjZpMXlhUVlWamw0R0duOHRiaVZ0VDR6bzhhTnRsRk9ZcDlGeU9kR29UNGpvRzRLQ0Y5UHZWYllRZw?oc=5",
-     "published": "2026-10-15"
-    },
-    {
-     "title": "‘패키지 여행에 할인 혜택 쏟아진다’...여기어때, 해외 패키지 특가 위크",
-     "outlet": "일간대한뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jbFNBWG9UUkZNZFFQTUNSOG91S0ZxT2lKUVktUU52S1FfbVYtTEUzWTdTRVdvQjVxMVBsN3RtdEIzWHZqMkJSMkpUaHVPMHE4MEdNTWlXaVFQRUt1bVBxcEZDMDNaSFE?oc=5",
-     "published": "2026-10-15"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-hanatour-6531cf53fe",
    "airline_id": "h-hanatour",
    "airline": "하나투어",
@@ -9469,6 +9511,206 @@
      "outlet": "CNN",
      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaG5pVEo3dGttZFo0SmtkUVJwR0E3X3dvUHZxVXJRZTBYeGJkMVRUZS1KcHhFWmlDckNVRFJLd0tEOFFQZXItdmdZMFFkRHA5N2Z4TVRTQXhPelBmYVB3ZS1zamczdnNnazA1VG1JRGJreTR5ZkVwVDBJRGNsSVNrdlJ3WUJXenVLX2FKaXRfUHdEajQ?oc=5",
      "published": "2026-11-24"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "multi-47252f0936",
+   "airline_id": "multi",
+   "airline": "여러 항공사",
+   "airlines_mentioned": [
+    "트리니티항공",
+    "에어프레미아"
+   ],
+   "kind": "mixed",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "트리니티항공, 팔로우 쿠폰 제공→에어프레미아, 닝보 취항 최대 20% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "트리니티항공, 팔로우 쿠폰 제공→에어프레미아, 닝보 취항 최대 20% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44TjIyNUM3a29aeWJaTFFJbmdveS1BbUVZdFdVYXJ1djhhZTR0MENRdVpGMUFDWGM2R0czRTFoVEtOTzRQM05JMDhrVkhMZUZQWUtQNjQ5VU9YWG55NzgxS0dGUDZXQQ?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-11-25",
+   "last_published": "2026-11-25",
+   "first_seen": "2026-11-25T13:18:15+09:00",
+   "last_seen": "2026-11-25T13:18:15+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공, 팔로우 쿠폰 제공→에어프레미아, 닝보 취항 최대 20% 할인",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44TjIyNUM3a29aeWJaTFFJbmdveS1BbUVZdFdVYXJ1djhhZTR0MENRdVpGMUFDWGM2R0czRTFoVEtOTzRQM05JMDhrVkhMZUZQWUtQNjQ5VU9YWG55NzgxS0dGUDZXQQ?oc=5",
+     "published": "2026-11-25"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-yeogi-28510b370c",
+   "airline_id": "h-yeogi",
+   "airline": "여기어때",
+   "airlines_mentioned": [
+    "여기어때"
+   ],
+   "kind": "platform",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": "https://www.yeogi.com/",
+   "iata": [],
+   "agencies": [],
+   "event_name": "패키지 여행에 할인 혜택 쏟아진다",
+   "headline": "광양시, 섬진강권 4개 시·군 숙박 할인 ‘섬진강여행 여기어때’ > 뉴스",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "경기"
+   ],
+   "conditions": [
+    "쿠폰",
+    "선착순"
+   ],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "여기어때, 경기 웰니스 숙박·레저 상품 최대 5만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2pjZGhWcWRfcGNQcEhpZkNGakRqZVd0cXZsaEJEMi1JU2c3c25IN191RHF3emhmTThOMGp3Y0ZmWi1Hal9sckk2akQzUmR1YlpBVUZGekFIN0NCV2J2QWtSaktPYmlBM0NfSFMxYWpmNEpFbGR4cTEyOGlMYTc4VzFERzNBUFNzTGNR?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 5만원 할인",
+   "verification": "news",
+   "first_published": "2026-10-15",
+   "last_published": "2026-11-25",
+   "first_seen": "2026-10-19T13:48:24+09:00",
+   "last_seen": "2026-11-25T13:18:15+09:00",
+   "articles": [
+    {
+     "title": "광양시, 섬진강권 4개 시·군 숙박 할인 ‘섬진강여행 여기어때’ > 뉴스",
+     "outlet": "더코리아",
+     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5wbGtIY0owX3Y5aDZKdnVxQmN3Vm5WUk1GUDE0VnIyMVlScmVIU2dhTFVBZ1ZnNnVSZWZSakJQZ2pLQTZM?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "광양·구례·곡성·하동 뭉쳤다, ‘섬진강여행 여기어때’ 숙박 2만 원 할인 혜택 제공",
+     "outlet": "이트레블뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE5WUkNhSjh3cktJa2hCRExPaGtpV29WcVQzT2R4dWlkSDBTV2IyWnRFWldaYVEzM3l6TDAyc1dn?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "광양시, 섬진강권 4개 시·군 숙박 할인 ‘섬진강여행 여기어때’",
+     "outlet": "https://www.kmaeilsinbo.kr/",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XZGJib19YMno5RVhta0dLM1NQSl90dlV6Q29yU0gxUWRDMzliY2tSNmFsUFVJdnBORVFsUWNaWDZKT1NveW9LbU93NUpkb0NMOXNtSEQtb2k5ZXRFeU40cjhrdmpxaXdudjZxSFZ3?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "광양시, 섬진강권 4개 시·군 숙박 할인 ‘섬진강여행 여기어때’ 행사 운영",
+     "outlet": "호남타임즈",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aTGxwMFBoZUZweHJVMno1UXU4M08wMi1nQWRwM2lTbUk1amJzdHJaclNrX2RGb3FqX0Y4WjNSU09PbTNyMmkxaG91SFlTOVZxTTVwTjJ2dUZMMUFVNm5Ea2lYLVJtVWEybWw3OVBB?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "광양·구례·곡성·하동 숙박 2만 원 할인… ‘섬진강여행 여기어때’ 선착순 모집",
+     "outlet": "녹색경제신문",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yYVVvMTU3Y19LZFRKcEJWQWlhb180WnZEYWRoY1VpSERqVEdlSVJRR0xNUXg4NDFQQ05IUUpvb2R5anRQQy1Dd1c3M2Y4R3lKbGhmeFQxWktBb2ZwbkNCNGhfeDBzVHhk?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "'섬진강여행 여기어때'...광양시, 섬진강권 숙박시설 이용객 2만원 할인 혜택 제공",
+     "outlet": "파이낸셜뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hQWJVNFZuMVhZRWFUSkFFR3lQLXJUbEt6Q0hiN2d6YVBCUFJEbzQxRlA1U0FkaGpaUEcxdW1Fdy1RdXJGU1FudzRoNENtS0oyb1J2SHRxNzFrdw?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "광양시 '섬진강여행 여기어때' 숙박 할인",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBnX0M5ZVRISEpVVTltU1MzTXNJbEZ6b1BnVk4tbHFteldRd0ZONkFIaXV4S2dsN1ZPcGFNSTlUWmREQQ?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "여기어때, 춘천시와 늦가을 숙박 할인 행사…최대 3만원 혜택",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02NG9JRUo3REJUbktfYTdQWkRGTk0xTXFYZWJYT1MxSXZ5eFJzbzVrTmw2SUU2dWdrZ3laX01lcFV5cHlIMTdlWC1HSHBCZzVlOXJ6V2FXLXBkbV9JUU00b3BsRlpHWXhWdlV3T9IBb0FVX3lxTFBpbjZzSHpqX0VHZWFCRjIzNGJ1bWFQSXJ6NktwRDJYRmNKSmd6Y0dJR2FfQVQzVnhOMGRvSDFhai1DaEhnc25kb1dRVnlqdUl4aFJWbi1pX3ZZMS1pTWp1QXNOSzhMQ3RyTjJzR29FRQ?oc=5",
+     "published": "2026-10-29"
+    },
+    {
+     "title": "여기어때·춘천시, 가을 숙박 할인전…최대 3만원 쿠폰",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5UE5XUmE2ajczT2Z1MnNsRENCYXpaX2s5T1k5WllVUVFqNGVrMTUxM2dxNHh1THlhUHZCenR2amhlTE5VWUVCNHZMT0Q5Y1ViRnJWb05FZHVSUlN4ekVENUpONlFEeHQ5WkxrVjNMeDJ2QnPSAXdBVV95cUxQWWpLUm5wMXlERmU3TUFUTU0tLURfMGNraWN2OHNLWmo0MDRGMXdqTjJTOEQ0U0FvbzF2NFVKUHl6REJ0X1E0aG1EM3NhNUduRGh6TEpVOFdiQTMzMHVVTm1FeWNDWkQtMjhzTWlHSWFCOW9HV1gzVQ?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "여기어때, 춘천 가을 여행 지원…숙박 할인전 진행",
+     "outlet": "일간대한뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kdkx4aVMwcXAtWHZ1UFlsUmVtT2hZUjdnTi1ROVp5M1RTX1dUajg2TDZIYThHam5VbTVVQlhmSWtuZndGbTdfYzdKYUV1T3pTZnBza0d2cldsd0RINEE0YTlHWXBOTVE?oc=5",
+     "published": "2026-10-28"
+    },
+    {
+     "title": "여기어때, 경기 웰니스 숙박·레저 상품 최대 5만원 할인",
+     "outlet": "글로벌이코노믹",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ2pjZGhWcWRfcGNQcEhpZkNGakRqZVd0cXZsaEJEMi1JU2c3c25IN191RHF3emhmTThOMGp3Y0ZmWi1Hal9sckk2akQzUmR1YlpBVUZGekFIN0NCV2J2QWtSaktPYmlBM0NfSFMxYWpmNEpFbGR4cTEyOGlMYTc4VzFERzNBUFNzTGNR?oc=5",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "경기관광공사, 도내 웰니스 여행 '여기어때'서 최대 5만원 할인",
+     "outlet": "비욘드포스트",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wdm5NWHlBTkpPLXBTU0NwR3R1Qi1VVy1yb0laOWc3N2FIaW1Za21WaXFzSlQ0MkJrSzc3RmM2YTRBUmYzTEJSU1p4aE1ndWZjWnpud1lhY0RpOXpOWm4zeGJubGNheGFhR2x0UW9IY2gzN0puclp2bFVGNA?oc=5",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "여기어때, 경기도 웰니스 여행 할인…숙박·레저 수요 공략",
+     "outlet": "메가경제",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TZ00wMFM5cW5HR2hGbmtnbGY2eGVxbzVwcjBoekxaS05kcUEyNzl6VmpDSno0V2hZNVIyWTJCcDNKbEVQMC0wenF5bF82UGJ4ZVN5YUlYU3ZILWdnV1lFVGxrRmV0M1NuVWJva3A1RVVnVkdz0gFyQVVfeXFMTmplSTJsR1VBSTlsdGJ5S0hTa3gzajdxeVBJT1Jfa0NDMThlVGFOYmYtLWVPcnlyaGgybzI3SGhPM1A1bDdJY01SMEZtRHRRQ05fVDJNUnRFX2xCVnhGYnZTTGhJRlM0YUx5MkpFYkh3a0NB?oc=5",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "여기어때, 경기도 웰니스 여행 떠나면 ‘5만원’ 할인",
+     "outlet": "일간대한뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmaTY0M3hSazhVSUFWN2Z0UmI0MXEyUEJWUE4wdFh4TW44elFGdkRrV1VqakJ0Ry1XSldSVF9lT0RLOUdMdzNmZ2VzT3JCbjB0b3lubXRYY0VRaEtobzZzUWJaWjA1VjQ?oc=5",
+     "published": "2026-10-19"
+    },
+    {
+     "title": "여기어때, 해외여행 상품 할인 확대…매주 지역별 특가 공개",
+     "outlet": "핀포인트뉴스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NTGlPNUxkdE5ZOUZvMlFUcXdDdkpMOGxfUWdIQVNuWGdyXzNmQjRTN0haZ09wZjNlRng0TFRuSHVIckxnU0dtOVkwQXVaa1JMV0JKWlJDUWw0d0ZHTURSYzdQRG1icEs3ZFlvTERlTHR1OEHSAXdBVV95cUxNS3U0NDJnN09uNTdRdHlBVm01bmJrRG41dTBVbVE1UnR4cXVheldxakdWSWl3WW1oZ3ZFbDFQVjZpMXlhUVlWamw0R0duOHRiaVZ0VDR6bzhhTnRsRk9ZcDlGeU9kR29UNGpvRzRLQ0Y5UHZWYllRZw?oc=5",
+     "published": "2026-10-15"
+    },
+    {
+     "title": "‘패키지 여행에 할인 혜택 쏟아진다’...여기어때, 해외 패키지 특가 위크",
+     "outlet": "일간대한뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jbFNBWG9UUkZNZFFQTUNSOG91S0ZxT2lKUVktUU52S1FfbVYtTEUzWTdTRVdvQjVxMVBsN3RtdEIzWHZqMkJSMkpUaHVPMHE4MEdNTWlXaVFQRUt1bVBxcEZDMDNaSFE?oc=5",
+     "published": "2026-10-15"
     }
    ],
    "status": "undated"

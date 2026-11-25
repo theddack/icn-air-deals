@@ -8030,7 +8030,26 @@
   "outlet": "시장경제신문",
   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UZUNNWnhOcFFIdTBsRlVISmlRenRlYVJqdVMtN2phdzA3N3JaOGxfbmpXQWhFS3lpT09PYm1aODBiX0xtT051Q29lLVVlcXVmUFZKVFFzbG9XN2M3bjVQb1JoTDViSkZsd29rZW9SZDQ?oc=5",
   "published": "2026-11-24",
-  "first_seen": "2026-11-25T09:14:02+09:00"
+  "first_seen": "2026-11-25T09:14:02+09:00",
+  "summary_facts": {
+   "url": "https://www.meconomynews.com/news/articleView.html?idxno=204087",
+   "outlet": "시장경제신문",
+   "fields": {
+    "sale_start": null,
+    "sale_end": "2026-12-06",
+    "origin": "인천(ICN)",
+    "destination": "나고야(NGO)",
+    "travel_start": "2026-12-18",
+    "travel_end": "2027-03-27",
+    "discount": "8% 할인"
+   },
+   "evidence": {
+    "sale": "…항과 공동 프로모션12월 6일까지 할인 행사12월 18일 노선 운항 시작트리니티항공은 나고야 주부 국제공항과…",
+    "route": "…자]트리니티항공, 나고야 공항과 공동 프로모션12월 6일까지 할인 행사12월 18일 노선 운항 시작트리니티항…",
+    "travel": "탑승 기간은 다음 달 18일부터 내년 3월 27일까지다.",
+    "discount": "지정 할인 코드를 입력하면 항공권을 8% 할인받을 수 있다."
+   }
+  }
  },
  {
   "title": "트리니티항공, 국제선 최대 10만원 할인…29일까지 인스타그램 팔로우 이벤트",
@@ -8052,6 +8071,139 @@
   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNN3BaN2loR1VJbXExelF3bVpfQ0ZqQkFEUkEyX0xQbXJNbmdsdkRHWWkyRXJCQXJVZGZsQWxtV2YyVWNRVzVtZWZsUlo1UWFUTmRvV3phSmdtdlpfbjFLNlRMdzAzT3VsS3VDbmVPa2QxM0k1U01vSlppbk54dmlVbXo4U2w?oc=5",
   "published": "2026-11-25",
   "first_seen": "2026-11-25T09:14:02+09:00",
+  "lang": "en"
+ },
+ {
+  "title": "에어프레미아, 첫 중국 노선 닝보 취항…최대 20% 할인",
+  "outlet": "데일리안",
+  "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPTmtpTVhMWjVuTGZocG5PRzJCNEthS3NId2c4YmMyUHBsWWFLVF9iei1PX3d3Y21GdFhld0M4MkJkS3Q2djk4TWNaS0wyUTlTbmtVMzBPaVpXeWVHekRkZHd4dGhSdUFMS2VIRm8wMnBEamhUbWFIaTVhd0tlVEZGb2tBeklKOGhNT3o2dFR0MjBkQlNPc0x5dWxzSzVsX2Zyd1pwenAzeHlmdUJtdXFERDJaT3RnQ3ZGaXdtZk05Sl92QzdpaVZIUGx5dXd3aGlfV0U5M2t6WDdCRjVtWlRxV1BsZVRiUzZGUnJ6M05xWHZvTlZKakFtLW1BTHpyOHRlMEVNMXZCa1RrTzhRLW8tYlU5SXQwWDRX?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "트리니티항공, 고객 참여형 국제선 할인 이벤트 진행",
+  "outlet": "이코노미스트",
+  "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9GcGZwUERYM2ZDbDFNT3JKRUVRYWpZN1IxZUh2aGVGMFdnb21xVVM0aHZ1U2ZHZ0tsM2lrUjdKSlRDLWF6WlpiSjNaZUoyT2dIYzU5ODM5YjdIT29kRHhONXdR?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "[대구소식]트리니티항공, 국제선 할인 인스타 팔로우 이벤트 등",
+  "outlet": "뉴시스",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KenUwTldGZGNzc0R4YU1raC1LMWExQlpEU0Y3WUZXcURwSGpzLWZSdXBHTjJqQ2tlWW0zVlA2WG1nbGEzQUZDcURIcnRYZmhWR2lHWmlsUDBvaEFlM2UxZtIBeEFVX3lxTE5LelA1U0ZPN2ZCVGdwS0QxTGd0VU1xd3pfRWpzMHRtWVVBTXNaS3dmTmdBeWI5UTBHRlJjamZhR2ZTaTlSd3YzQlZqWmN1RGVBUXEtbHF5X2x6aGlrcmdISkh2cEJNVGU4OE1YSWpKa3VUSF8yLXNneA?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "에어부산, 겨울맞이 국제선 특가 프로모션 진행",
+  "outlet": "BBS 불교방송",
+  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE00TzdKTkVvVzRRQk1HYm5KXzRIaU9FSDZwYWFZejFtWWZJY0FXcTJxczNZQUxzZlVIQ1pMNkpES3Fub0tERkVFRGV1ZFUyOXl3U294c2wwSFJ1WGh3ZXY5SkFWV0NFWGV1YTR3?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "에어부산, 겨울맞이 국제선 특가… 일본 편도 8만6900원부터",
+  "outlet": "국제신문",
+  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbDRKNXBJUVdYYkh3Y3JkU3NDc0xweTFUckxvbnJTU2NVV192U2NVMGhCTkRqNDRoV09OYzBwMmF2MXNkN1MxUHJ4dTNTZXhNVWhoaHdSM3I2M1h6UUstVXIwdFNEVFJxbkxSMmxMUl9Mald6dF81SHIwdWVJcFk1T1RHSU1uUEs4LTljS3h3?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "에어부산, 동계 여행객 겨냥 국제선 항공권 특가",
+  "outlet": "아시아경제",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wX2V3eG5Hb0FNcUExNlBIMHR4ajhEMlUwRnZFR0xOUXFiTVI0Qk5pTy1EMFdqX0lucTJuU19SMWFaWV9fUlJ1N1FCRjNYcXhUa2RpWHU5VC1mNVliMVNvWQ?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "에어부산, 겨울맞이 국제선 특가…日편도 8만6900원부터",
+  "outlet": "뉴시스",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4cFJZQmw0NkZ2ZXZqbXBURTFXUkF6ZVpfVVh0SnNpcjVFdWxHYkFmcG4xemotaEJHOU1oV3JUVFpzd3N6em5BOXZZU1pBeURoYTgxWnRQZk01cHliUDN2eA?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "에어프레미아, 첫 중국행은 닝보…항공권 최대 20% 할인",
+  "outlet": "ER 이코노믹리뷰",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QcldvWTJON1czVE1hMW90NDJOM1VKelFvVlJBVXBWWnlxM3BqWTRtSkVfTmU3bGZCT2JETi1RXzZSWmY3VlZLVzMzVDE5TzVzVER2TTJoMW9NRFhSTTltZzVxZUZiRGdrR0xGSw?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00",
+  "summary_facts": {
+   "url": "https://www.econovill.com/news/articleView.html?idxno=758438",
+   "outlet": "ER 이코노믹리뷰",
+   "fields": {
+    "discount": "최대 20%",
+    "sale_start": null,
+    "sale_end": "2026-12-01"
+   },
+   "evidence": {
+    "discount": "이코노미와 와이드 프리미엄 전 좌석을 대상으로 최대 20% 할인 혜택을 제공한다.",
+    "sale": "할인 행사는 25일 오전 10시부터 12월 1일까지 7일간 열린다."
+   }
+  }
+ },
+ {
+  "title": "트리니티항공, 팔로우 쿠폰 제공→에어프레미아, 닝보 취항 최대 20% 할인",
+  "outlet": "싱글리스트",
+  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44TjIyNUM3a29aeWJaTFFJbmdveS1BbUVZdFdVYXJ1djhhZTR0MENRdVpGMUFDWGM2R0czRTFoVEtOTzRQM05JMDhrVkhMZUZQWUtQNjQ5VU9YWG55NzgxS0dGUDZXQQ?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "에어프레미아, 닝보 노선 주 3회 운항…취항 기념 할인",
+  "outlet": "아시아타임즈",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02c092LVNBYTZYRGk0SEdSTF9EeTBnSHI5VXd6dWZVMjVwc09LRXg5SU9OUHhjemFDSmk5d1k3OFc3R0ZuX1pGdTNUUGU3TGMxbFBGYjdCVlUtNmZ3ZUE?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "에어프레미아, 인천~닝보 신규 취항 기념 최대 20% 할인",
+  "outlet": "BBS 불교방송",
+  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTnJkM0tPQXE4dnVCZHcya3JEeHp4bFJNcGNOcnJ2aVN4MWp0SG9HQUlwQ0ZqOURrR1JXWGppRGNRTjdPRDduRGUxUHQ1WS1kbVlxSmVMWF9vQkxvMF9SVTZzd2MxYy02dWpz?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "에어프레미아, 인천~닝보 신규 취항 기념 항공권 프로모션",
+  "outlet": "서울경제TV",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5KZ2RfaFR0OVdwQTJ5TG04eTNod1lxTXhTWGJiSlVpcXNQbG5femY3cUZRX29jVjNSSlJOUHpiNHQzUkVMamNrZmY0RWhsNVNoQWMwTkhfYXJkSW9BR0Z6RHc2VW8?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "트리니티항공, 고객 참여형 SNS 이벤트… 국제선 항공권 최대 10만원 할인",
+  "outlet": "뷰티트래블뉴스",
+  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd05VMEtwOGRHaUZpU0QyaTBwcWpHb2ZYaUs4Um1oSkphV2FtSkgxZ0ZuZklUWkMtT3dyQ01fUjJIUDZvNE84SWdFRlZyajN0UVlMN3laLXpabElFb0YxZjZqblpqMlRMTW5mcV9uVm1GUjFycXh6clFZMTdSRWxVTWxMd1I1QQ?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "트리니티항공, 국제선 항공권 할인 쿠폰 단계별 오픈 이벤트",
+  "outlet": "브레이크뉴스",
+  "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4tUk5UZkpiQmVINURrcm5PTmp2MDl2Y2hNOWozYTVSOGF0NGJpR3N6X0ktX2wxdFoydkZrb3pBODg3bzk1UHRN?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "광양시, 섬진강권 4개 시·군 숙박 할인 ‘섬진강여행 여기어때’ > 뉴스",
+  "outlet": "더코리아",
+  "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5wbGtIY0owX3Y5aDZKdnVxQmN3Vm5WUk1GUDE0VnIyMVlScmVIU2dhTFVBZ1ZnNnVSZWZSakJQZ2pLQTZM?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "광양·구례·곡성·하동 뭉쳤다, ‘섬진강여행 여기어때’ 숙박 2만 원 할인 혜택 제공",
+  "outlet": "이트레블뉴스",
+  "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE5WUkNhSjh3cktJa2hCRExPaGtpV29WcVQzT2R4dWlkSDBTV2IyWnRFWldaYVEzM3l6TDAyc1dn?oc=5",
+  "published": "2026-11-25",
+  "first_seen": "2026-11-25T13:18:15+09:00"
+ },
+ {
+  "title": "Marriott Bonvoy Cyber ​​Week 2026: Up to 25% off hotels until May 2027",
+  "outlet": "infostourisme.com",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMG9OdXBqUlZrWmhNQ0tLcmhYcnlVaTNZQ29KWFNqM011eDNXa1VHX3hXNEtlT1U0aWhNVG1YRmFwNmcycEE5S2dWMlJGQnJsVTBZYThEZk5xajMyUU9rbHpnVERybXV4WFQ1bEZqeXlHOG5CLXNIZGlXTHNyT3JHRW5GUngzcEtYTmZTTjFVMG5mSnVFT2o0SjY1cjlSbVFvUk0yX2dLRllqWFk?oc=5",
+  "published": "2026-11-20",
+  "first_seen": "2026-11-25T13:18:15+09:00",
   "lang": "en"
  }
 ]
