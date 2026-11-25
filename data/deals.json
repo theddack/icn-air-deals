@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T22:17:32+09:00",
+ "generated_at": "2026-11-26T04:35:38+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2551,
+  "rss_items": 2543,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2067,
+  "outlet_items": 1903,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 86,
-  "articles": 1001,
-  "new_articles": 4,
-  "deals": 213
+  "articles": 988,
+  "new_articles": 1,
+  "deals": 207
  },
  "deals": [
   {
@@ -158,12 +158,18 @@
    "first_published": "2026-11-20",
    "last_published": "2026-11-25",
    "first_seen": "2026-11-20T22:17:31+09:00",
-   "last_seen": "2026-11-25T22:17:32+09:00",
+   "last_seen": "2026-11-26T04:35:38+09:00",
    "articles": [
     {
      "title": "Fairmont Black Friday Sale Opens With 30% Off Stays Through May 2027",
      "outlet": "Rus Tourism News",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRGtxNVVNekxTY0VLTVFkYmxCQXBOTXpVWG9teGRxV251RUdkajRjbDRnOEJuakprbTNieDVFWkJLaHNHTzRxYVFsajRSNnFMcXJYSWhQSlZTUVo0eVBQWnhWMDZZZmtrSzVDVXhKcnpSTXNZRTdUdndGalYtTFhjd21qMXhseTBUNUxNMFk1WXZuTGhZdFJMYmhHTXlna3JVeGsxTWd2b3E1RGRzeTRj?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "Fairmont San Francisco Takes 30% Off, but the $45 Nightly Fee Stays",
+     "outlet": "deeparrival.com",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMC1pMlctNGM3SGF0RzZTLUtXX0c0MDR6SXJVUnNYaUZRTWhPX2lHQ1N6TG13cUg3Tm9LclpZM3hIeldZS3pHQklhX3M2LTdVUzVFUDd1YzdZeGI1LWZBREczY0tPUUpvaS1SM1Nza21TWkdaWXFqdU5DbkZ3bFp1YVlJMEdlcC1QRWtTdUk4UktDblNIdXFDZA?oc=5",
      "published": "2026-11-25"
     },
     {
@@ -3649,424 +3655,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "airbusan-051e225603",
-   "airline_id": "airbusan",
-   "airline": "에어부산",
-   "airlines_mentioned": [
-    "에어부산"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.airbusan.com/",
-   "iata": [
-    "BX"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": "부산(PUS)",
-     "destination": "괌(GUM)"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
-     "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf"
-    },
-    "route": {
-     "title": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
-     "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf"
-    }
-   },
-   "from_icn": "no",
-   "discount": "최대 14만원 할인",
-   "verification": "official",
-   "first_published": "2026-11-11",
-   "last_published": "2026-11-11",
-   "first_seen": "2026-11-11T18:16:08+09:00",
-   "last_seen": "2026-11-11T18:16:08+09:00",
-   "articles": [
-    {
-     "title": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
-     "outlet": "에어부산 메일",
-     "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf",
-     "published": "2026-11-11"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-agoda-d580881ede",
-   "airline_id": "h-agoda",
-   "airline": "아고다",
-   "airlines_mentioned": [
-    "아고다"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://www.agoda.com/ko-kr/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "아고다 쿠폰 11월 마감, 도쿄 호텔 178,754원이 142,047원 된 후기",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "도쿄"
-   ],
-   "conditions": [
-    "쿠폰"
-   ],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-11",
-   "last_published": "2026-11-11",
-   "first_seen": "2026-11-11T22:17:38+09:00",
-   "last_seen": "2026-11-11T22:17:38+09:00",
-   "articles": [
-    {
-     "title": "아고다 쿠폰 11월 마감, 도쿄 호텔 178,754원이 142,047원 된 후기",
-     "outlet": "판다랭크",
-     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1lUnVtcXdZbTJTUFBDVFpDLUJTYnVxVmM3ZWxMS0EwVWl1aTJLZkJxSHB5eVVEM3RTZzB0Ny1QZVQ5RGw3anhj?oc=5",
-     "published": "2026-11-11"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-4fa58ef802",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Discovery Hotels offers up to 48% off in Black Friday sale",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Discovery Hotels offers up to 48% off in Black Friday sale",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMHVIeEFhbDREYkoyU1k2b2ljdzBSZlpFREJQbVVrSXVmRms5TjFYcEtTNTdkZlhYRDBKdFpzWkRFNl9FY1RJVWdGWmY0WHBvd2J6YkNlSWN1QWZfSEZDVWdHNk9YZEgydXJIUmFLd3owaGxqZ2lTdmhMUmx5aXZkOGFhWFNDRFJhV0ZxQmNIODVobV93N2c?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 48%",
-   "verification": "news",
-   "first_published": "2026-11-11",
-   "last_published": "2026-11-11",
-   "first_seen": "2026-11-11T16:08:39+09:00",
-   "last_seen": "2026-11-11T16:08:39+09:00",
-   "articles": [
-    {
-     "title": "Discovery Hotels offers up to 48% off in Black Friday sale",
-     "outlet": "Daily Tribune",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMHVIeEFhbDREYkoyU1k2b2ljdzBSZlpFREJQbVVrSXVmRms5TjFYcEtTNTdkZlhYRDBKdFpzWkRFNl9FY1RJVWdGWmY0WHBvd2J6YkNlSWN1QWZfSEZDVWdHNk9YZEgydXJIUmFLd3owaGxqZ2lTdmhMUmx5aXZkOGFhWFNDRFJhV0ZxQmNIODVobV93N2c?oc=5",
-     "published": "2026-11-11"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-4862885d76",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Save Up to 48% on Stays with Discovery Hotels' Black Friday Sale",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Save Up to 48% on Stays with Discovery Hotels' Black Friday Sale",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPalFYVEljSTB5VEhuMDdsT3NZUWN6LWFaRlN3U2RHQWo0NXdMeFplSzNlSHdOZFFJM19QVkdJZGRiSVI3SWNHanJELV91Z0FZeXZoTDNLNTN3bEdmcmotRWtuVDAyV09IU01xYWdQN2NwSExuM3NFMHE5enJ5enViUFNvTzdWUFkwQ3pDV3pwM0o1MEVXV3dDUGRDdDJfMUxOYVY0?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 48%",
-   "verification": "news",
-   "first_published": "2026-11-11",
-   "last_published": "2026-11-11",
-   "first_seen": "2026-11-11T16:08:39+09:00",
-   "last_seen": "2026-11-11T16:08:39+09:00",
-   "articles": [
-    {
-     "title": "Save Up to 48% on Stays with Discovery Hotels' Black Friday Sale",
-     "outlet": "Daily Tribune",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPalFYVEljSTB5VEhuMDdsT3NZUWN6LWFaRlN3U2RHQWo0NXdMeFplSzNlSHdOZFFJM19QVkdJZGRiSVI3SWNHanJELV91Z0FZeXZoTDNLNTN3bEdmcmotRWtuVDAyV09IU01xYWdQN2NwSExuM3NFMHE5enJ5enViUFNvTzdWUFkwQ3pDV3pwM0o1MEVXV3dDUGRDdDJfMUxOYVY0?oc=5",
-     "published": "2026-11-11"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-ed14148caa",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "해외 호텔 예약 필수 할인 쿠폰",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [
-    "쿠폰"
-   ],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-11",
-   "last_published": "2026-11-11",
-   "first_seen": "2026-11-11T22:17:38+09:00",
-   "last_seen": "2026-11-11T22:17:38+09:00",
-   "articles": [
-    {
-     "title": "해외 호텔 예약 필수 할인 쿠폰",
-     "outlet": "판다랭크",
-     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE45VG9NOU1zX0pZbEJnVHdNN0llVVV6UG1vd0hIZk02V3JSa2Y2N21keDhKMmkxck55U3JrcUpITlJmS3FQOEJr?oc=5",
-     "published": "2026-11-11"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-3308839e9b",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Luxury cruises to island resorts: the best Black Friday travel discounts",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-11",
-   "last_published": "2026-11-11",
-   "first_seen": "2026-11-11T22:17:38+09:00",
-   "last_seen": "2026-11-11T22:17:38+09:00",
-   "articles": [
-    {
-     "title": "Luxury cruises to island resorts: the best Black Friday travel discounts",
-     "outlet": "The Canberra Times",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb0NNSU9SXzc0U29BS3FwWlIxZl9KeXF2Q0VNR0pfbVV0TUhRWU9idFZyQ1Z2Vi1sVC0ycTNhVmFFVjhxaVdYYmhOS3A3UmYwWmIwUkVoVlVjUUFJalVkUHBTOWxxcG9XRkZGM3dkOTczZDRVbnZOaTlxaExWOGZINHRKMGFRT2c0YUVGWmlzMVM0WmNDTDU0dmdSWVdzNnNpeFVkVkpJdVZaUkUy?oc=5",
-     "published": "2026-11-11"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-cba0a5ace6",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "[Expired] Priceline Announces Cyber Week Deals: Save up to 99% Hotels, Rental Cars, and More",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "[Expired] Priceline Announces Cyber Week Deals: Save up to 99% Hotels, Rental Cars, and More",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uWnpmdFhEdjYwSi1OZmI5SzBHd0lnZGxxRTRpcUs4VXpJS0ZIakJoa0dvQnZ5bDlscWtUeG1MNjVySHRkbjZZTGktMV9kZzRRQm5DMlNUcW96M2RCd2ctSWs1MnotMzBGei1Mbg?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 99%",
-   "verification": "news",
-   "first_published": "2026-11-11",
-   "last_published": "2026-11-11",
-   "first_seen": "2026-11-15T13:18:19+09:00",
-   "last_seen": "2026-11-15T13:18:19+09:00",
-   "articles": [
-    {
-     "title": "[Expired] Priceline Announces Cyber Week Deals: Save up to 99% Hotels, Rental Cars, and More",
-     "outlet": "Upgraded Points",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uWnpmdFhEdjYwSi1OZmI5SzBHd0lnZGxxRTRpcUs4VXpJS0ZIakJoa0dvQnZ5bDlscWtUeG1MNjVySHRkbjZZTGktMV9kZzRRQm5DMlNUcW96M2RCd2ctSWs1MnotMzBGei1Mbg?oc=5",
-     "published": "2026-11-11"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-44d5589cc8",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Omni Hotels 30% Off Sale Opens Nov. 12 for Members: Book Early?",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Omni Hotels 30% Off Sale Opens Nov. 12 for Members: Book Early?",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRkdtRVRFZV8xMFZXcnNfRTV5NEJFTVJkakdKQnF4ZkhpMXU5eFZsaWZNX2Eyb1h1TUZndDJWSVhhcGpYbTJFRWp1SlliZnVMUDVZZ2QtTUxUQWVIRGVGNTE4VVk1RWhUTkhYRlU4Y2NBOHZrZEx4Qnc2VXNSWDJLWXpyYVhRREJmM3Q4dmY0Qnc?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "30% 할인",
-   "verification": "news",
-   "first_published": "2026-11-11",
-   "last_published": "2026-11-11",
-   "first_seen": "2026-11-24T11:05:16+09:00",
-   "last_seen": "2026-11-24T11:05:16+09:00",
-   "articles": [
-    {
-     "title": "Omni Hotels 30% Off Sale Opens Nov. 12 for Members: Book Early?",
-     "outlet": "deeparrival.com",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRkdtRVRFZV8xMFZXcnNfRTV5NEJFTVJkakdKQnF4ZkhpMXU5eFZsaWZNX2Eyb1h1TUZndDJWSVhhcGpYbTJFRWp1SlliZnVMUDVZZ2QtTUxUQWVIRGVGNTE4VVk1RWhUTkhYRlU4Y2NBOHZrZEx4Qnc2VXNSWDJLWXpyYVhRREJmM3Q4dmY0Qnc?oc=5",
-     "published": "2026-11-11"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "koreanair-0855daa689",
@@ -10762,188 +10350,6 @@
    "status": "stale"
   },
   {
-   "id": "h-yeogi-e90c0ad919",
-   "airline_id": "h-yeogi",
-   "airline": "여기어때",
-   "airlines_mentioned": [
-    "여기어때"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "ko",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://www.yeogi.com/",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "여기어때, 일본 프리미엄 숙소 최대 20% 할인 프로모션",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [
-    "일본"
-   ],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "여기어때, 일본 프리미엄 숙소 최대 20% 할인 프로모션",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE03RElFbXFlYWNFZlpaVlAxLXFNNWVQX0Y3RF9VOG5sR0ZFX3d3U0JINnZfS0NMTElUOENVaW5vLWp0eHRQODVraWxYYzd6N2FEQnUtSHZIWmxXNWdlTEJoMHo0VXpzaU5GWmV2eTNnNjZvUQ?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 20%",
-   "verification": "news",
-   "first_published": "2026-10-26",
-   "last_published": "2026-10-26",
-   "first_seen": "2026-10-26T17:52:11+09:00",
-   "last_seen": "2026-10-26T17:52:11+09:00",
-   "articles": [
-    {
-     "title": "여기어때, 일본 프리미엄 숙소 최대 20% 할인 프로모션",
-     "outlet": "숙박매거진",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE03RElFbXFlYWNFZlpaVlAxLXFNNWVQX0Y3RF9VOG5sR0ZFX3d3U0JINnZfS0NMTElUOENVaW5vLWp0eHRQODVraWxYYzd6N2FEQnUtSHZIWmxXNWdlTEJoMHo0VXpzaU5GWmV2eTNnNjZvUQ?oc=5",
-     "published": "2026-10-26"
-    },
-    {
-     "title": "여기어때, 日 고급 숙소까지 `블랙` 확대…\"최대 20% 할인\"",
-     "outlet": "디지털데일리",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fX1VrVGRBTzBRekZMSUM0Y0lxdU5sMUlsV19sM0xHbGhRUW52OXpTVjg1QmlQTVRpMVg0UVJIUHYxVmhIS3Z1Y1hDaHk0UkJBQjdOSWUzY042QU0ya0lFYmJjMDc?oc=5",
-     "published": "2026-10-26"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "h-inspire-0201864b79",
-   "airline_id": "h-inspire",
-   "airline": "인스파이어",
-   "airlines_mentioned": [
-    "인스파이어"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "쇼핑·숙박·미식·전시를 한 손에… 인스파이어, ‘인스파이어 원더 페스타’ 첫 개최",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "인스파이어 '원더 페스타' 개최…쇼핑·미식에 객실 패키지 25% 할인까지",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMNIBe0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMA?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "25% 할인",
-   "verification": "news",
-   "first_published": "2026-10-21",
-   "last_published": "2026-10-26",
-   "first_seen": "2026-10-21T09:36:47+09:00",
-   "last_seen": "2026-10-26T17:52:11+09:00",
-   "articles": [
-    {
-     "title": "쇼핑·숙박·미식·전시를 한 손에… 인스파이어, ‘인스파이어 원더 페스타’ 첫 개최",
-     "outlet": "한경매거진",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NcjlwaUdoaDhoeGdlVWlhdnlXV0c0anZUVGt0cjBBM3RQVWZQZkhORk40S0U0bV9RR0dTcjZZSTZUS2llekpndFVlbVB2d1dUbTBQYUtrWE9DNnY5R1dkYzNPazcxa0tQ?oc=5",
-     "published": "2026-10-26"
-    },
-    {
-     "title": "인스파이어 '원더 페스타' 개최…쇼핑·미식에 객실 패키지 25% 할인까지",
-     "outlet": "디지틀조선일보",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMNIBe0FVX3lxTE5oNWRMTkdXeUs0eks3WW1UZm93QkRLbkI4OGdMUTBQZVRVZEZ6R3NYU3BmNDFJcG9VWGctT2lsZGtRY1dNMDNTajNBNXJYbE1TX2NjZ1FCX1I2UUxYbkxYT1lFTU9XVlo5MUxQcExGUHhwclMzVVFDQmZKMA?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "인스파이어, ‘원더 페스타’ 개최...쇼핑·숙박·미식·엔터테인먼트 혜택 한자리에",
-     "outlet": "중부일보",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHQVMtQlI3THItWXoyUUk4azk1N2x5VVlFOWNScXlEUnlVdkpmaXJSeFhMTVd4UnpqYzZGNElCZkxRcU5qcE55Q2RzelBTS29OSXRNMFpkT2RBWjVQM01xWmRPQjFkYS1kaXM4ZkJ3?oc=5",
-     "published": "2026-10-21"
-    },
-    {
-     "title": "인스파이어, 쇼핑·숙박·미식·엔터 망라 '원더 페스타'",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fNURwdEJNc2pHd082dFh5NGItaE1mQTU2VUNxTF8tNnZRM3h6X2ZXNHB0Q1pnTHQxc2ZuSnJQcmRqMmxWM29meDRSQ1l4SDZhLWJodUxLUGRDbnJBUW5VUnNyUnpGUQ?oc=5",
-     "published": "2026-10-21"
-    }
-   ],
-   "status": "stale"
-  },
-  {
-   "id": "h-other-497702ac08",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Charlotte hotel investor buys downtown Minneapolis Royal Sonesta for 93% discount",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Charlotte hotel investor buys downtown Minneapolis Royal Sonesta for 93% discount",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdXNaaUJiWEdnWDVTRTBSc0dTQzlFdW9DRmRoOGRzclBBc1MxRmwxX1g1NDNxVlM2LVVubFNZZzF1aVFveXlrOVZXZUR4N2xyRG5xMW1lRU43MHRQYXNHMEpsVUJmSUdabU5WeURZUFlSRmlBTWNLbTNjRHRpV19DRnhWTDBIT0RuYm1QbFlRcDBVeWd3dTZoal9QTG9BVEhuWkFxWmJHMk85WjZO?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "93% 할인",
-   "verification": "news",
-   "first_published": "2026-10-26",
-   "last_published": "2026-10-26",
-   "first_seen": "2026-11-15T09:14:09+09:00",
-   "last_seen": "2026-11-15T09:14:09+09:00",
-   "articles": [
-    {
-     "title": "Charlotte hotel investor buys downtown Minneapolis Royal Sonesta for 93% discount",
-     "outlet": "The Business Journals",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdXNaaUJiWEdnWDVTRTBSc0dTQzlFdW9DRmRoOGRzclBBc1MxRmwxX1g1NDNxVlM2LVVubFNZZzF1aVFveXlrOVZXZUR4N2xyRG5xMW1lRU43MHRQYXNHMEpsVUJmSUdabU5WeURZUFlSRmlBTWNLbTNjRHRpV19DRnhWTDBIT0RuYm1QbFlRcDBVeWd3dTZoal9QTG9BVEhuWkFxWmJHMk85WjZO?oc=5",
-     "published": "2026-10-26"
-    }
-   ],
-   "status": "stale"
-  },
-  {
    "id": "jejuair-6c8e4f068c",
    "airline_id": "jejuair",
    "airline": "제주항공",
@@ -13252,60 +12658,6 @@
    "status": "stale"
   },
   {
-   "id": "cebu-dea52b103c",
-   "airline_id": "cebu",
-   "airline": "세부퍼시픽",
-   "airlines_mentioned": [
-    "세부퍼시픽"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.cebupacificair.com/ko-KR",
-   "iata": [
-    "5J"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "세부퍼시픽항공 11.11 특가, 필리핀 편도 총액 11만7,000원부터",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "세부퍼시픽항공 11.11 특가, 필리핀 편도 총액 11만7,000원부터",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObGtsbWM4R294c0ZWb0JwYVVyc01KMUpwaTdEVjhsZmdqRGlTV0pVWUxDUURfMk45bWJqVXM0SnBPTXBMbWc1T0hwc3Fkd2Rrb3dTR1JfTy1ka0oyRkktM2NueTlrNlpCMmFlaHZCblB1UWpFanRqQ1hwOVM5eVd0V05B?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "11만7,000원부터",
-   "verification": "news",
-   "first_published": "2026-11-09",
-   "last_published": "2026-11-09",
-   "first_seen": "2026-11-09T13:18:13+09:00",
-   "last_seen": "2026-11-09T13:18:13+09:00",
-   "articles": [
-    {
-     "title": "세부퍼시픽항공 11.11 특가, 필리핀 편도 총액 11만7,000원부터",
-     "outlet": "여행레저신문",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObGtsbWM4R294c0ZWb0JwYVVyc01KMUpwaTdEVjhsZmdqRGlTV0pVWUxDUURfMk45bWJqVXM0SnBPTXBMbWc1T0hwc3Fkd2Rrb3dTR1JfTy1ka0oyRkktM2NueTlrNlpCMmFlaHZCblB1UWpFanRqQ1hwOVM5eVd0V05B?oc=5",
-     "published": "2026-11-09"
-    }
-   ],
-   "status": "stale"
-  },
-  {
    "id": "h-tripcom-47d24f1f15",
    "airline_id": "h-tripcom",
    "airline": "트립닷컴",
@@ -13514,6 +12866,60 @@
      "title": "Save 15% on luxury resorts, with this Club Med discount code",
      "outlet": "The Independent",
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZNGZ3N0JrQmxwRUtxcGpRcHRFYnVOR0U1Nl9Za1Z0d0dHcVRpN3hnLXc4OF91cmIxcWVWVGpKSmU2Rk1Yemd2Rjk4bmZjQTU1LUZvX1VCcDYtRHZCWjJxSzlJbTluRU1mUmoxemxDdGFibTFwN1pMOWVUeEo?oc=5",
+     "published": "2026-11-09"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "cebu-dea52b103c",
+   "airline_id": "cebu",
+   "airline": "세부퍼시픽",
+   "airlines_mentioned": [
+    "세부퍼시픽"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.cebupacificair.com/ko-KR",
+   "iata": [
+    "5J"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "세부퍼시픽항공 11.11 특가, 필리핀 편도 총액 11만7,000원부터",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "세부퍼시픽항공 11.11 특가, 필리핀 편도 총액 11만7,000원부터",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObGtsbWM4R294c0ZWb0JwYVVyc01KMUpwaTdEVjhsZmdqRGlTV0pVWUxDUURfMk45bWJqVXM0SnBPTXBMbWc1T0hwc3Fkd2Rrb3dTR1JfTy1ka0oyRkktM2NueTlrNlpCMmFlaHZCblB1UWpFanRqQ1hwOVM5eVd0V05B?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "11만7,000원부터",
+   "verification": "news",
+   "first_published": "2026-11-09",
+   "last_published": "2026-11-09",
+   "first_seen": "2026-11-09T13:18:13+09:00",
+   "last_seen": "2026-11-09T13:18:13+09:00",
+   "articles": [
+    {
+     "title": "세부퍼시픽항공 11.11 특가, 필리핀 편도 총액 11만7,000원부터",
+     "outlet": "여행레저신문",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObGtsbWM4R294c0ZWb0JwYVVyc01KMUpwaTdEVjhsZmdqRGlTV0pVWUxDUURfMk45bWJqVXM0SnBPTXBMbWc1T0hwc3Fkd2Rrb3dTR1JfTy1ka0oyRkktM2NueTlrNlpCMmFlaHZCblB1UWpFanRqQ1hwOVM5eVd0V05B?oc=5",
      "published": "2026-11-09"
     }
    ],
@@ -13807,6 +13213,277 @@
      "outlet": "여행레저신문",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaFJZaWtDUDJTWlBTSmltNGFqRTNEOG8zTFZvZDBRNG5TTklsamxQcThHdzdGZ2xpY3BCYXZXdjFNRGk1RDF3bmZ1ZldwSGNqS3otRTNUdmtBTFpXT0sybUVUNmEyR3RNWjRiMy1xaUJ3QzBxV3ZNNWp3OVVPckRNLWhYSHcxVnBKekI4eGFR?oc=5",
      "published": "2026-11-10"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "airbusan-051e225603",
+   "airline_id": "airbusan",
+   "airline": "에어부산",
+   "airlines_mentioned": [
+    "에어부산"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.airbusan.com/",
+   "iata": [
+    "BX"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "부산(PUS)",
+     "destination": "괌(GUM)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
+     "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf"
+    },
+    "route": {
+     "title": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
+     "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf"
+    }
+   },
+   "from_icn": "no",
+   "discount": "최대 14만원 할인",
+   "verification": "official",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-11T18:16:08+09:00",
+   "last_seen": "2026-11-11T18:16:08+09:00",
+   "articles": [
+    {
+     "title": "[에어부산]혜택으로 꽉 채운 괌! 부산 - 괌 최대 14만원 할인",
+     "outlet": "에어부산 메일",
+     "url": "https://www.airbusan.com/#mail-46ca5b6dbea88bbf",
+     "published": "2026-11-11"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-other-4fa58ef802",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Discovery Hotels offers up to 48% off in Black Friday sale",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Discovery Hotels offers up to 48% off in Black Friday sale",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMHVIeEFhbDREYkoyU1k2b2ljdzBSZlpFREJQbVVrSXVmRms5TjFYcEtTNTdkZlhYRDBKdFpzWkRFNl9FY1RJVWdGWmY0WHBvd2J6YkNlSWN1QWZfSEZDVWdHNk9YZEgydXJIUmFLd3owaGxqZ2lTdmhMUmx5aXZkOGFhWFNDRFJhV0ZxQmNIODVobV93N2c?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 48%",
+   "verification": "news",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-11T16:08:39+09:00",
+   "last_seen": "2026-11-11T16:08:39+09:00",
+   "articles": [
+    {
+     "title": "Discovery Hotels offers up to 48% off in Black Friday sale",
+     "outlet": "Daily Tribune",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMHVIeEFhbDREYkoyU1k2b2ljdzBSZlpFREJQbVVrSXVmRms5TjFYcEtTNTdkZlhYRDBKdFpzWkRFNl9FY1RJVWdGWmY0WHBvd2J6YkNlSWN1QWZfSEZDVWdHNk9YZEgydXJIUmFLd3owaGxqZ2lTdmhMUmx5aXZkOGFhWFNDRFJhV0ZxQmNIODVobV93N2c?oc=5",
+     "published": "2026-11-11"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-other-4862885d76",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Save Up to 48% on Stays with Discovery Hotels' Black Friday Sale",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Save Up to 48% on Stays with Discovery Hotels' Black Friday Sale",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPalFYVEljSTB5VEhuMDdsT3NZUWN6LWFaRlN3U2RHQWo0NXdMeFplSzNlSHdOZFFJM19QVkdJZGRiSVI3SWNHanJELV91Z0FZeXZoTDNLNTN3bEdmcmotRWtuVDAyV09IU01xYWdQN2NwSExuM3NFMHE5enJ5enViUFNvTzdWUFkwQ3pDV3pwM0o1MEVXV3dDUGRDdDJfMUxOYVY0?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 48%",
+   "verification": "news",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-11T16:08:39+09:00",
+   "last_seen": "2026-11-11T16:08:39+09:00",
+   "articles": [
+    {
+     "title": "Save Up to 48% on Stays with Discovery Hotels' Black Friday Sale",
+     "outlet": "Daily Tribune",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPalFYVEljSTB5VEhuMDdsT3NZUWN6LWFaRlN3U2RHQWo0NXdMeFplSzNlSHdOZFFJM19QVkdJZGRiSVI3SWNHanJELV91Z0FZeXZoTDNLNTN3bEdmcmotRWtuVDAyV09IU01xYWdQN2NwSExuM3NFMHE5enJ5enViUFNvTzdWUFkwQ3pDV3pwM0o1MEVXV3dDUGRDdDJfMUxOYVY0?oc=5",
+     "published": "2026-11-11"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-other-cba0a5ace6",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[Expired] Priceline Announces Cyber Week Deals: Save up to 99% Hotels, Rental Cars, and More",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "[Expired] Priceline Announces Cyber Week Deals: Save up to 99% Hotels, Rental Cars, and More",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uWnpmdFhEdjYwSi1OZmI5SzBHd0lnZGxxRTRpcUs4VXpJS0ZIakJoa0dvQnZ5bDlscWtUeG1MNjVySHRkbjZZTGktMV9kZzRRQm5DMlNUcW96M2RCd2ctSWs1MnotMzBGei1Mbg?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 99%",
+   "verification": "news",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-15T13:18:19+09:00",
+   "last_seen": "2026-11-15T13:18:19+09:00",
+   "articles": [
+    {
+     "title": "[Expired] Priceline Announces Cyber Week Deals: Save up to 99% Hotels, Rental Cars, and More",
+     "outlet": "Upgraded Points",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uWnpmdFhEdjYwSi1OZmI5SzBHd0lnZGxxRTRpcUs4VXpJS0ZIakJoa0dvQnZ5bDlscWtUeG1MNjVySHRkbjZZTGktMV9kZzRRQm5DMlNUcW96M2RCd2ctSWs1MnotMzBGei1Mbg?oc=5",
+     "published": "2026-11-11"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-other-44d5589cc8",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Omni Hotels 30% Off Sale Opens Nov. 12 for Members: Book Early?",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Omni Hotels 30% Off Sale Opens Nov. 12 for Members: Book Early?",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRkdtRVRFZV8xMFZXcnNfRTV5NEJFTVJkakdKQnF4ZkhpMXU5eFZsaWZNX2Eyb1h1TUZndDJWSVhhcGpYbTJFRWp1SlliZnVMUDVZZ2QtTUxUQWVIRGVGNTE4VVk1RWhUTkhYRlU4Y2NBOHZrZEx4Qnc2VXNSWDJLWXpyYVhRREJmM3Q4dmY0Qnc?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "30% 할인",
+   "verification": "news",
+   "first_published": "2026-11-11",
+   "last_published": "2026-11-11",
+   "first_seen": "2026-11-24T11:05:16+09:00",
+   "last_seen": "2026-11-24T11:05:16+09:00",
+   "articles": [
+    {
+     "title": "Omni Hotels 30% Off Sale Opens Nov. 12 for Members: Book Early?",
+     "outlet": "deeparrival.com",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRkdtRVRFZV8xMFZXcnNfRTV5NEJFTVJkakdKQnF4ZkhpMXU5eFZsaWZNX2Eyb1h1TUZndDJWSVhhcGpYbTJFRWp1SlliZnVMUDVZZ2QtTUxUQWVIRGVGNTE4VVk1RWhUTkhYRlU4Y2NBOHZrZEx4Qnc2VXNSWDJLWXpyYVhRREJmM3Q4dmY0Qnc?oc=5",
+     "published": "2026-11-11"
     }
    ],
    "status": "stale"
