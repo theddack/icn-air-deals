@@ -5183,27 +5183,6 @@
     "new": "2026-11-25"
    }
   },
-  "airbusan-5d8214333f": {
-   "info": {
-    "airline": "airbusan",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-30",
-    "dests": [],
-    "last": "2026-11-25",
-    "urls": [
-     "5d8214333f",
-     "6f0c6ed072",
-     "8bff1913ca",
-     "b4acee5719",
-     "bf39ecba1f",
-     "dd15e5ba0e"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-25"
-   }
-  },
   "vietjet-fe0ecd1eda": {
    "info": {
     "airline": "vietjet",
@@ -5367,6 +5346,29 @@
    "kinds": {
     "new": "2026-11-25"
    }
+  },
+  "airbusan-ef78e7c83b": {
+   "info": {
+    "airline": "airbusan",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-30",
+    "dests": [],
+    "last": "2026-11-25",
+    "urls": [
+     "5d8214333f",
+     "6f0c6ed072",
+     "8bff1913ca",
+     "b4acee5719",
+     "bf39ecba1f",
+     "d4f03ae026",
+     "dd15e5ba0e",
+     "ef78e7c83b"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-25"
+   }
   }
  },
  "slots": {
@@ -5403,7 +5405,7 @@
    "evening": "sent"
   }
  },
- "saved_at": "2026-11-25T18:23:20+09:00",
+ "saved_at": "2026-11-25T22:22:28+09:00",
  "drops_day": "2026-11-25",
  "drops": {
   "BKK": {
