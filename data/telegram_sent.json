@@ -5120,23 +5120,6 @@
     "new": "2026-11-25"
    }
   },
-  "airbusan-dd15e5ba0e": {
-   "info": {
-    "airline": "airbusan",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-30",
-    "dests": [],
-    "last": "2026-11-25",
-    "urls": [
-     "bf39ecba1f",
-     "dd15e5ba0e"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-25"
-   }
-  },
   "h-other-d04b1507e9": {
    "info": {
     "airline": "h-other",
@@ -5216,6 +5199,27 @@
    "kinds": {
     "new": "2026-11-25"
    }
+  },
+  "airbusan-5d8214333f": {
+   "info": {
+    "airline": "airbusan",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-30",
+    "dests": [],
+    "last": "2026-11-25",
+    "urls": [
+     "5d8214333f",
+     "6f0c6ed072",
+     "8bff1913ca",
+     "b4acee5719",
+     "bf39ecba1f",
+     "dd15e5ba0e"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-25"
+   }
   }
  },
  "slots": {
@@ -5251,7 +5255,7 @@
    "morning": "sent"
   }
  },
- "saved_at": "2026-11-25T09:20:58+09:00",
+ "saved_at": "2026-11-25T13:23:04+09:00",
  "drops_day": "2026-11-25",
  "drops": {
   "BKK": {
