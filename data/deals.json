@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T08:16:22+09:00",
+ "generated_at": "2026-11-25T09:14:02+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2453,
+  "rss_items": 2626,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2031,
+  "outlet_items": 2097,
   "outlet_new_articles": 0,
-  "outlet_enriched": 1,
+  "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 83,
-  "articles": 958,
-  "new_articles": 8,
-  "deals": 201
+  "articles": 963,
+  "new_articles": 5,
+  "deals": 203
  },
  "deals": [
   {
@@ -1389,7 +1389,7 @@
    "first_published": "2026-11-24",
    "last_published": "2026-11-24",
    "first_seen": "2026-11-24T09:14:07+09:00",
-   "last_seen": "2026-11-25T08:16:22+09:00",
+   "last_seen": "2026-11-25T09:14:02+09:00",
    "articles": [
     {
      "title": "트리니티항공, 나고야 주부 국제공항과 공동 프로모션",
@@ -1401,6 +1401,12 @@
      "title": "트리니티항공-나고야 주부 국제공항, 인천-나고야 신규 취항 기념 공동 프로모션 운영",
      "outlet": "디스커버리뉴스(DISCOVERYNEWS)",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE94Q2x3RUtRYTlSYnpycnpVRlAySGZsY1JrVHZld0dHN2c5NkRJS1ZLaGFjbGxPSzBPS1VxSWJGY1hsZTRETWU4SXBPMEw3SHZoTEQzNDZ3anlpT2RES1U1dGRkelFHZ1UzUkVvdl95Xzg4UQ?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "트리니티항공, 인천~나고야 항공권 할인... 철강협회, STS 산업발전세미나 개최 외 [시경Today-항공·소재·화학·배터리]",
+     "outlet": "시장경제신문",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UZUNNWnhOcFFIdTBsRlVISmlRenRlYVJqdVMtN2phdzA3N3JaOGxfbmpXQWhFS3lpT09PYm1aODBiX0xtT051Q29lLVVlcXVmUFZKVFFzbG9XN2M3bjVQb1JoTDViSkZsd29rZW9SZDQ?oc=5",
      "published": "2026-11-24"
     },
     {
@@ -1664,6 +1670,70 @@
      "outlet": "한스경제",
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvN3cxd1Y2eXVmT0Y5NGJvUUxERVBMRG4zREsxRGRDSkNOQ0NheU9xS09RVENHcF9Camd1YWczdEQtTVFyZ0RFbEE3YXEtWEZLTERBY25wWXo3NlBMb1NlajhLWVZJTjZiN29v?oc=5",
      "published": "2026-11-18"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "trinity-3b0da6c719",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "트리니티항공, SNS 팔로워 확대 나서···국제선 최대 10만원 할인",
+   "sale_start": null,
+   "sale_end": "2026-11-29",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트리니티항공, 국제선 최대 10만원 할인…29일까지 인스타그램 팔로우 이벤트",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1abGpQVzcwWVV6cTBSVHNLLVZnUHJmRF93UWZqNkk5YlltVEJfemYxNW1yanYzR01EYWhoWVNlOFMwUjM2YmxDU01xTENOTUg2TnpBb1lNcHlvRWV5ektabnp0YldEQ3k5bmc?oc=5"
+    },
+    "discount": {
+     "title": "트리니티항공, SNS 팔로워 확대 나서···국제선 최대 10만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96MU5SaTlTTzNaUHVkLWFKa0hjcW5STTllLXJPUms3QnJjY0FnSDdzcllzZGczT0JVTU8xZGNmMnUyOW5OdWdKWFUwMFVrbzdzdC1fTGx2cTlEd1hnRkNUQmhKOURNYlR3eFMtR1U0cVo2S2fSAXdBVV95cUxNLU84Q0p6NEprQmduUk1CNkRMRmE3R2ZpM0R2V0ZJT1VvaXlUak10cEdCbW1PNU8zWW5JTERmdE5mNExqbXh1VndtanVjRGlQMzZpX01nTzlmeVpCeFFvSEdvZ085M0cxenhZNWg2aWVmT1ZjQXdFaw?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 10만원 할인",
+   "verification": "news",
+   "first_published": "2026-11-25",
+   "last_published": "2026-11-25",
+   "first_seen": "2026-11-25T09:14:02+09:00",
+   "last_seen": "2026-11-25T09:14:02+09:00",
+   "articles": [
+    {
+     "title": "트리니티항공, SNS 팔로워 확대 나서···국제선 최대 10만원 할인",
+     "outlet": "뉴스프리존",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96MU5SaTlTTzNaUHVkLWFKa0hjcW5STTllLXJPUms3QnJjY0FnSDdzcllzZGczT0JVTU8xZGNmMnUyOW5OdWdKWFUwMFVrbzdzdC1fTGx2cTlEd1hnRkNUQmhKOURNYlR3eFMtR1U0cVo2S2fSAXdBVV95cUxNLU84Q0p6NEprQmduUk1CNkRMRmE3R2ZpM0R2V0ZJT1VvaXlUak10cEdCbW1PNU8zWW5JTERmdE5mNExqbXh1VndtanVjRGlQMzZpX01nTzlmeVpCeFFvSEdvZ085M0cxenhZNWg2aWVmT1ZjQXdFaw?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "트리니티항공, 국제선 최대 10만원 할인…29일까지 인스타그램 팔로우 이벤트",
+     "outlet": "컨슈머타임스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1abGpQVzcwWVV6cTBSVHNLLVZnUHJmRF93UWZqNkk5YlltVEJfemYxNW1yanYzR01EYWhoWVNlOFMwUjM2YmxDU01xTENOTUg2TnpBb1lNcHlvRWV5ektabnp0YldEQ3k5bmc?oc=5",
+     "published": "2026-11-25"
     }
    ],
    "status": "live"
@@ -2204,7 +2274,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "에어부산, 겨울맞이 국제선 특가 프로모션",
+   "headline": "에어부산, 동계 시즌 국제선 28개 노선 특가 프로모션",
    "sale_start": null,
    "sale_end": "2026-11-30",
    "travel_start": "2026-11-26",
@@ -2229,8 +2299,14 @@
    "first_published": "2026-11-25",
    "last_published": "2026-11-25",
    "first_seen": "2026-11-25T08:16:22+09:00",
-   "last_seen": "2026-11-25T08:16:22+09:00",
+   "last_seen": "2026-11-25T09:14:02+09:00",
    "articles": [
+    {
+     "title": "에어부산, 동계 시즌 국제선 28개 노선 특가 프로모션",
+     "outlet": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SclFmeGdWa0ZqM09Bak9aWml1TlQyV19vWl9Ecm5LOGlUbEhnOERQRmp0VGVVQnpMTnlDd3E2d04yR205TzdpUFVYQVBtRGk5c0VSWC1IYllaOC1VTmpXVVBseFAyZEdZcTRId1p3?oc=5",
+     "published": "2026-11-25"
+    },
     {
      "title": "에어부산, 겨울맞이 국제선 특가 프로모션",
      "outlet": "싱글리스트",
@@ -9612,6 +9688,53 @@
      "title": "Black Friday Travel Deals 2026: Save up to 50% on Hotels, Cruises, and More",
      "outlet": "Upgraded Points",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkb3VqM0tNcDVMZG5TT01FVXlxUW5NaGEtMV8wN0lFaFV1Vk1IMDJnaFN0ZWc0bV94dVFlb1ZCM2h6YmVCcDJPRy03WXhFYi1PaFZGdmF6R3l2em1GTjhFZk1VVEdwNThvbWVLRk9ER2g?oc=5",
+     "published": "2026-11-25"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-c8bb2da653",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "10 Cozy Gifts That Will Make Your Home Feel Like a Hotel Stay (All on Black Friday Sale!)",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-25",
+   "last_published": "2026-11-25",
+   "first_seen": "2026-11-25T09:14:02+09:00",
+   "last_seen": "2026-11-25T09:14:02+09:00",
+   "articles": [
+    {
+     "title": "10 Cozy Gifts That Will Make Your Home Feel Like a Hotel Stay (All on Black Friday Sale!)",
+     "outlet": "Apartment Therapy",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNN3BaN2loR1VJbXExelF3bVpfQ0ZqQkFEUkEyX0xQbXJNbmdsdkRHWWkyRXJCQXJVZGZsQWxtV2YyVWNRVzVtZWZsUlo1UWFUTmRvV3phSmdtdlpfbjFLNlRMdzAzT3VsS3VDbmVPa2QxM0k1U01vSlppbk54dmlVbXo4U2w?oc=5",
      "published": "2026-11-25"
     }
    ],
