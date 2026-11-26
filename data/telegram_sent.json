@@ -5252,29 +5252,6 @@
     "new": "2026-11-25"
    }
   },
-  "vietjet-db5080ceaf": {
-   "info": {
-    "airline": "vietjet",
-    "name": "",
-    "sale_start": null,
-    "sale_end": null,
-    "dests": [
-     "베트남"
-    ],
-    "last": "2026-11-25",
-    "urls": [
-     "1026f4600b",
-     "45b6b0d79d",
-     "7bd7eddd94",
-     "c1b823e5f1",
-     "db5080ceaf",
-     "f44fae390f"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-25"
-   }
-  },
   "trinity-8fc6269b3a": {
    "info": {
     "airline": "trinity",
@@ -5499,6 +5476,25 @@
    "kinds": {
     "new": "2026-11-26"
    }
+  },
+  "vietjet-7bd7eddd94": {
+   "info": {
+    "airline": "vietjet",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "베트남"
+    ],
+    "last": "2026-11-25",
+    "urls": [
+     "1026f4600b",
+     "7bd7eddd94"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-25"
+   }
   }
  },
  "slots": {
@@ -5535,7 +5531,7 @@
    "evening": "sent"
   }
  },
- "saved_at": "2026-11-26T18:20:42+09:00",
+ "saved_at": "2026-11-27T04:24:34+09:00",
  "drops_day": "2026-11-26",
  "drops": {
   "BKK": {
