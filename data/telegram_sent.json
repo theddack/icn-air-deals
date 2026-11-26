@@ -5386,25 +5386,6 @@
     "closing_tomorrow": "2026-11-26"
    }
   },
-  "vietjet-fe0ecd1eda": {
-   "info": {
-    "airline": "vietjet",
-    "name": "",
-    "sale_start": "2026-11-25",
-    "sale_end": "2026-11-27",
-    "dests": [],
-    "last": "2026-11-25",
-    "urls": [
-     "4e0dacd555",
-     "fe0ecd1eda"
-    ]
-   },
-   "kinds": {
-    "start_today": "2026-11-25",
-    "new": "2026-11-25",
-    "closing_tomorrow": "2026-11-26"
-   }
-  },
   "h-other-6eb3899597": {
    "info": {
     "airline": "h-other",
@@ -5495,6 +5476,33 @@
    "kinds": {
     "new": "2026-11-25"
    }
+  },
+  "vietjet-db5080ceaf": {
+   "info": {
+    "airline": "vietjet",
+    "name": "블랙프라이데이",
+    "sale_start": "2026-11-25",
+    "sale_end": "2026-11-27",
+    "dests": [
+     "베트남"
+    ],
+    "last": "2026-11-25",
+    "urls": [
+     "3483222b83",
+     "45b6b0d79d",
+     "4e0dacd555",
+     "c1b823e5f1",
+     "db5080ceaf",
+     "e96e4bbfeb",
+     "f44fae390f",
+     "fe0ecd1eda"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-25",
+    "new": "2026-11-25",
+    "closing_tomorrow": "2026-11-26"
+   }
   }
  },
  "slots": {
@@ -5531,7 +5539,7 @@
    "evening": "sent"
   }
  },
- "saved_at": "2026-11-27T04:24:34+09:00",
+ "saved_at": "2026-11-27T05:07:07+09:00",
  "drops_day": "2026-11-26",
  "drops": {
   "BKK": {
