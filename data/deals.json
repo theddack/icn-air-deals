@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T17:53:51+09:00",
+ "generated_at": "2026-11-26T18:16:06+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,18 +10,18 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2405,
+  "rss_items": 2491,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2236,
-  "outlet_new_articles": 1,
-  "outlet_enriched": 1,
+  "outlet_items": 2233,
+  "outlet_new_articles": 0,
+  "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 87,
-  "articles": 1004,
-  "new_articles": 9,
+  "articles": 1005,
+  "new_articles": 1,
   "deals": 212
  },
  "deals": [
@@ -10258,7 +10258,7 @@
    "status": "undated"
   },
   {
-   "id": "koreanair-8cd58848d0",
+   "id": "koreanair-bb78b2ee78",
    "airline_id": "koreanair",
    "airline": "대한항공",
    "airlines_mentioned": [
@@ -10305,7 +10305,7 @@
    "first_published": "2026-11-26",
    "last_published": "2026-11-26",
    "first_seen": "2026-11-26T17:53:51+09:00",
-   "last_seen": "2026-11-26T17:53:51+09:00",
+   "last_seen": "2026-11-26T18:16:06+09:00",
    "articles": [
     {
      "title": "괌정부관광청, 대한항공·여행사 10곳과 겨울 공동 프로모션",
@@ -10335,6 +10335,12 @@
      "title": "연말·겨울방학 휴양객 잡는다…괌정부관광청, 대한항공·여행사 10곳과 공동 프로모션",
      "outlet": "열린뉴스통신",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE00RE9FbzNPR2xuaWhCbkMxSUdKbDdmTXJZWmdsM2RsczVsUzdmTzZkVThNd1dfYVZ1bUFOOXl2cVBKMkNnN0ZVSE5rMUkxOEJwLW5qRkdHVEJnMERqRmxDOGJfMl9vdw?oc=5",
+     "published": "2026-11-26"
+    },
+    {
+     "title": "괌정부관광청, 대한항공과 겨울 시즌 특가 항공권 프로모션",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1JUXNieXQ5dEd4NGhTa3k5TUFSWWllTDJrZFFSN3ctcnpKUWRxX0FWamxRNi12S3I5eXR2Z1pDRS1zdw?oc=5",
      "published": "2026-11-26"
     }
    ],
