@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T09:14:05+09:00",
+ "generated_at": "2026-11-26T13:18:14+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2449,
+  "rss_items": 2625,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2069,
+  "outlet_items": 2240,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 86,
-  "articles": 992,
-  "new_articles": 4,
-  "deals": 208
+  "articles": 995,
+  "new_articles": 3,
+  "deals": 209
  },
  "deals": [
   {
@@ -2375,7 +2375,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "에어부산, 겨울맞이 국제선 특가… 일본 편도 8만6900원부터",
+   "headline": "에어부산, 국제선 특가 행사... “시즌 여행 준비하는 고객 위해 마련”",
    "sale_start": null,
    "sale_end": "2026-11-30",
    "travel_start": "2026-11-26",
@@ -2402,10 +2402,16 @@
    "discount": "8만6900원부터",
    "verification": "news",
    "first_published": "2026-11-25",
-   "last_published": "2026-11-25",
+   "last_published": "2026-11-26",
    "first_seen": "2026-11-25T08:16:22+09:00",
-   "last_seen": "2026-11-25T22:17:32+09:00",
+   "last_seen": "2026-11-26T13:18:14+09:00",
    "articles": [
+    {
+     "title": "에어부산, 국제선 특가 행사... “시즌 여행 준비하는 고객 위해 마련”",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95OXVPNlhSa3BfOTFNcExUYjFTX2d3OEVLX2lKNUVLdVVxM1U3cEZKRS1YX0VXd0xNMUZBY2d0UXhqNUdsMGRlMjhWY0ljQU1USnhyVThKVWswd3JFZElOU2RDVV9xai1OQ1RB0gFvQVVfeXFMTUpSVEtlV2VYc29taUNkX0E1S1cxR1U2SFpPUzBuMlZyMFVLazZVQ29BWEJCdnF5OVE1Z1FIUkxfSHhTUkJ1M3pWcUV4TnIyOTZoMm5DdlZRczdScC1PLXFNWlpIQ3l3N3MtZjhwZVI0?oc=5",
+     "published": "2026-11-26"
+    },
     {
      "title": "에어부산, 겨울맞이 국제선 특가… 일본 편도 8만6900원부터",
      "outlet": "국제신문",
@@ -2479,7 +2485,7 @@
    ],
    "agencies": [],
    "event_name": "닝보 신규 취항 기념할인",
-   "headline": "에어프레미아, '닝보 신규 취항 기념할인' 돌입…아시아 노선 전격 확대",
+   "headline": "에어프레미아, 닝보 취항 할인...“중국 노선 경쟁력 키워 나갈 것”",
    "sale_start": null,
    "sale_end": "2026-12-01",
    "travel_start": null,
@@ -2503,8 +2509,8 @@
      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPTmtpTVhMWjVuTGZocG5PRzJCNEthS3NId2c4YmMyUHBsWWFLVF9iei1PX3d3Y21GdFhld0M4MkJkS3Q2djk4TWNaS0wyUTlTbmtVMzBPaVpXeWVHekRkZHd4dGhSdUFMS2VIRm8wMnBEamhUbWFIaTVhd0tlVEZGb2tBeklKOGhNT3o2dFR0MjBkQlNPc0x5dWxzSzVsX2Zyd1pwenAzeHlmdUJtdXFERDJaT3RnQ3ZGaXdtZk05Sl92QzdpaVZIUGx5dXd3aGlfV0U5M2t6WDdCRjVtWlRxV1BsZVRiUzZGUnJ6M05xWHZvTlZKakFtLW1BTHpyOHRlMEVNMXZCa1RrTzhRLW8tYlU5SXQwWDRX?oc=5"
     },
     "route": {
-     "title": "에어프레미아, 첫 중국 노선 닝보 취항…최대 20% 할인",
-     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPTmtpTVhMWjVuTGZocG5PRzJCNEthS3NId2c4YmMyUHBsWWFLVF9iei1PX3d3Y21GdFhld0M4MkJkS3Q2djk4TWNaS0wyUTlTbmtVMzBPaVpXeWVHekRkZHd4dGhSdUFMS2VIRm8wMnBEamhUbWFIaTVhd0tlVEZGb2tBeklKOGhNT3o2dFR0MjBkQlNPc0x5dWxzSzVsX2Zyd1pwenAzeHlmdUJtdXFERDJaT3RnQ3ZGaXdtZk05Sl92QzdpaVZIUGx5dXd3aGlfV0U5M2t6WDdCRjVtWlRxV1BsZVRiUzZGUnJ6M05xWHZvTlZKakFtLW1BTHpyOHRlMEVNMXZCa1RrTzhRLW8tYlU5SXQwWDRX?oc=5"
+     "title": "에어프레미아, 닝보 취항 할인...“중국 노선 경쟁력 키워 나갈 것”",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sdGE5UElBX3lWNUUzQkhkTm5Ib1Q5WDBXVFd5bWliU0xTaXJtNE16cnBVbTBSdVVzam1Cd0hWLV9wQ1pveldjakYxRGhqSGIwY1N6RjltYkFXZ1pVTzlZbGlDOGk4YWRLT2ZF?oc=5"
     }
    },
    "from_icn": "yes",
@@ -2513,8 +2519,14 @@
    "first_published": "2026-11-25",
    "last_published": "2026-11-26",
    "first_seen": "2026-11-25T13:18:15+09:00",
-   "last_seen": "2026-11-26T09:14:05+09:00",
+   "last_seen": "2026-11-26T13:18:14+09:00",
    "articles": [
+    {
+     "title": "에어프레미아, 닝보 취항 할인...“중국 노선 경쟁력 키워 나갈 것”",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sdGE5UElBX3lWNUUzQkhkTm5Ib1Q5WDBXVFd5bWliU0xTaXJtNE16cnBVbTBSdVVzam1Cd0hWLV9wQ1pveldjakYxRGhqSGIwY1N6RjltYkFXZ1pVTzlZbGlDOGk4YWRLT2ZF?oc=5",
+     "published": "2026-11-26"
+    },
     {
      "title": "에어프레미아, '닝보 신규 취항 기념할인' 돌입…아시아 노선 전격 확대",
      "outlet": "비즈월드",
@@ -10116,6 +10128,54 @@
      "outlet": "Travel Pulse",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN19QdlFWQ3Zoa2lXS2FTQmtQSUFpZTZ0V200b3dRUnQ5ZmdvUjZqQlI5UjUwZ0pFZTM5UUpKWnZiQTd3aXNrOVl3V3BpVHRfRG1pOFE2MWRabGJaN1pBQ09rT0NqWW5lbXZiWW90VFFUNzRTWHNRbTBHb3JlMUFfek9fdXlSdTdGSkNLR3R0QkkzdWswbDhHY2VNRE0ya3ltZ1EtRlhSWWY0QldhOFczQXRHU1RhNGdSdFllWDZuZWtSY2wy?oc=5",
      "published": "2026-11-25"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "multi-35fb50ecca",
+   "airline_id": "multi",
+   "airline": "여러 항공사",
+   "airlines_mentioned": [
+    "에어부산",
+    "트리니티항공"
+   ],
+   "kind": "mixed",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "[항공 레이더] 에어부산·트리니티항공, 고객 혜택 확대…겨울 국제선 특가·인스타 쿠폰",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-26",
+   "last_published": "2026-11-26",
+   "first_seen": "2026-11-26T13:18:14+09:00",
+   "last_seen": "2026-11-26T13:18:14+09:00",
+   "articles": [
+    {
+     "title": "[항공 레이더] 에어부산·트리니티항공, 고객 혜택 확대…겨울 국제선 특가·인스타 쿠폰",
+     "outlet": "더밸류뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WNmhIR3VtNEpqbzRSTnZ5YWg2Ni1lU1BFRGxYY2ZqU3U4MXVVVGpqZkNlWUVfalQwNkhIN1ZiaXNpRU91TkdJZVhaMjZrR0RZcVoxZw?oc=5",
+     "published": "2026-11-26"
     }
    ],
    "status": "undated"
