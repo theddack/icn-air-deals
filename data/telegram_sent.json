@@ -3429,23 +3429,6 @@
     "new": "2026-11-16"
    }
   },
-  "aerok-c07f8884c8": {
-   "info": {
-    "airline": "aerok",
-    "name": "",
-    "sale_start": null,
-    "sale_end": null,
-    "dests": [],
-    "last": "2026-11-13",
-    "urls": [
-     "c07f8884c8",
-     "f5f38f8e73"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-13"
-   }
-  },
   "trinity-63d5e32836": {
    "info": {
     "airline": "trinity",
@@ -5166,24 +5149,6 @@
     "new": "2026-11-25"
    }
   },
-  "vietjet-fe0ecd1eda": {
-   "info": {
-    "airline": "vietjet",
-    "name": "",
-    "sale_start": "2026-11-25",
-    "sale_end": "2026-11-27",
-    "dests": [],
-    "last": "2026-11-25",
-    "urls": [
-     "4e0dacd555",
-     "fe0ecd1eda"
-    ]
-   },
-   "kinds": {
-    "start_today": "2026-11-25",
-    "new": "2026-11-25"
-   }
-  },
   "airpremia-0040e87e89": {
    "info": {
     "airline": "airpremia",
@@ -5423,6 +5388,117 @@
    "kinds": {
     "new": "2026-11-26"
    }
+  },
+  "aerok-c07f8884c8": {
+   "info": {
+    "airline": "aerok",
+    "name": "",
+    "sale_start": "2026-11-16",
+    "sale_end": "2026-11-27",
+    "dests": [],
+    "last": "2026-11-16",
+    "urls": [
+     "c07f8884c8",
+     "c4ef5a1e56",
+     "e7d1f9402b",
+     "f5f38f8e73"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13",
+    "closing_tomorrow": "2026-11-26"
+   }
+  },
+  "vietjet-fe0ecd1eda": {
+   "info": {
+    "airline": "vietjet",
+    "name": "",
+    "sale_start": "2026-11-25",
+    "sale_end": "2026-11-27",
+    "dests": [],
+    "last": "2026-11-25",
+    "urls": [
+     "4e0dacd555",
+     "fe0ecd1eda"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-25",
+    "new": "2026-11-25",
+    "closing_tomorrow": "2026-11-26"
+   }
+  },
+  "h-other-6eb3899597": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": "2026-11-27",
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-25",
+    "urls": [
+     "6eb3899597"
+    ]
+   },
+   "kinds": {
+    "upcoming_d1": "2026-11-26",
+    "new": "2026-11-26"
+   }
+  },
+  "multi-35fb50ecca": {
+   "info": {
+    "airline": "multi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-26",
+    "urls": [
+     "35fb50ecca"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-26"
+   }
+  },
+  "koreanair-bb78b2ee78": {
+   "info": {
+    "airline": "koreanair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [
+     "괌"
+    ],
+    "last": "2026-11-26",
+    "urls": [
+     "06254abfdb",
+     "3bb6f40c96",
+     "828133b093",
+     "8cd58848d0",
+     "bb78b2ee78",
+     "c58a05f9b9"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-26"
+   }
+  },
+  "h-other-971cda2b96": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-26",
+    "urls": [
+     "971cda2b96"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-26"
+   }
   }
  },
  "slots": {
@@ -5455,10 +5531,11 @@
    "evening": "sent"
   },
   "2026-11-26": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-26T09:19:23+09:00",
+ "saved_at": "2026-11-26T18:20:42+09:00",
  "drops_day": "2026-11-26",
  "drops": {
   "BKK": {
