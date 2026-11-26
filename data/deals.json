@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T18:16:06+09:00",
+ "generated_at": "2026-11-26T22:17:34+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2491,
+  "rss_items": 2558,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2233,
+  "outlet_items": 2083,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 87,
-  "articles": 1005,
+  "articles": 1006,
   "new_articles": 1,
-  "deals": 212
+  "deals": 213
  },
  "deals": [
   {
@@ -169,6 +169,64 @@
      "outlet": "LoyaltyLobby",
      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaU9lRG9USXQxdlVfbWlPR0Z0WU1ud2F0a0IwdHZBUWFFU3FFaWlqai1wLVE4dTZYOExoMVRkM19TMUlQNFN4SlM1MDNkTGxSV0JvOGN1bFBnQjA4d1VPeURLYmNSQkpNUmozbjljUUR2NkZ0LWkxbzRJblhXWk5CMUt4WExNeGlRSVBINW1BRlJKc1RQbHl6ZW9LUWJrWlVWZnYtTUI5cXdRVU5rdHpRM0R6SGJSUVNpOHo3QWlabDlVa1ZreWp1aVJzRGJrR1pOU3JkYU41LXZENUgyLThIWS1hSQ?oc=5",
      "published": "2026-11-13"
+    }
+   ],
+   "status": "upcoming"
+  },
+  {
+   "id": "h-accor-db61177ccc",
+   "airline_id": "h-accor",
+   "airline": "아코르",
+   "airlines_mentioned": [
+    "아코르"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "ALL Accor Black Friday Up To 40% Off Europe+ Sale For Stays December 8 – March 28, 2027 (Book Nov 26 – Dec 1)",
+   "sale_start": "2026-12-08",
+   "sale_end": "2027-03-28",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "유럽"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "ALL Accor Black Friday Up To 40% Off Europe+ Sale For Stays December 8 – March 28, 2027 (Book Nov 26 – Dec 1)",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYmtkdEJGWmV2VHMzMkNrNzAzZW5DVkIyNEtkODR4UXNBVnNka25WVjd6OVRxcUgtRVN0MjdKdHJqdm10SzdJM1NCYUlKQ3RuMV84c0Z3bmNhbUwteXNPcVdudVZUY3h0d1pDVUNMeEthOGlZWGduRWdUdjVJZzZBcGc1eXhsZi03VnYyRk9JeHdLNXJuOTBBZ1Z3c1N1ZkJMSzhReU0zSlhQMnZHU09SQXNZVi0zTzdmVkg1QU9zTHFzTVE4WU4wUkg0eEdxcjEzMTY4?oc=5"
+    },
+    "discount": {
+     "title": "ALL Accor Black Friday Up To 40% Off Europe+ Sale For Stays December 8 – March 28, 2027 (Book Nov 26 – Dec 1)",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYmtkdEJGWmV2VHMzMkNrNzAzZW5DVkIyNEtkODR4UXNBVnNka25WVjd6OVRxcUgtRVN0MjdKdHJqdm10SzdJM1NCYUlKQ3RuMV84c0Z3bmNhbUwteXNPcVdudVZUY3h0d1pDVUNMeEthOGlZWGduRWdUdjVJZzZBcGc1eXhsZi03VnYyRk9JeHdLNXJuOTBBZ1Z3c1N1ZkJMSzhReU0zSlhQMnZHU09SQXNZVi0zTzdmVkg1QU9zTHFzTVE4WU4wUkg0eEdxcjEzMTY4?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 40%",
+   "verification": "news",
+   "first_published": "2026-11-26",
+   "last_published": "2026-11-26",
+   "first_seen": "2026-11-26T22:17:34+09:00",
+   "last_seen": "2026-11-26T22:17:34+09:00",
+   "articles": [
+    {
+     "title": "ALL Accor Black Friday Up To 40% Off Europe+ Sale For Stays December 8 – March 28, 2027 (Book Nov 26 – Dec 1)",
+     "outlet": "LoyaltyLobby",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYmtkdEJGWmV2VHMzMkNrNzAzZW5DVkIyNEtkODR4UXNBVnNka25WVjd6OVRxcUgtRVN0MjdKdHJqdm10SzdJM1NCYUlKQ3RuMV84c0Z3bmNhbUwteXNPcVdudVZUY3h0d1pDVUNMeEthOGlZWGduRWdUdjVJZzZBcGc1eXhsZi03VnYyRk9JeHdLNXJuOTBBZ1Z3c1N1ZkJMSzhReU0zSlhQMnZHU09SQXNZVi0zTzdmVkg1QU9zTHFzTVE4WU4wUkg0eEdxcjEzMTY4?oc=5",
+     "published": "2026-11-26"
     }
    ],
    "status": "upcoming"
