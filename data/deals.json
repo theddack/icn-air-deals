@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T22:17:34+09:00",
+ "generated_at": "2026-11-27T04:16:43+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,77 +10,21 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2558,
+  "rss_items": 2450,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2083,
+  "outlet_items": 1927,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 87,
-  "articles": 1006,
-  "new_articles": 1,
-  "deals": 213
+  "articles": 969,
+  "new_articles": 4,
+  "deals": 211
  },
  "deals": [
-  {
-   "id": "h-other-6eb3899597",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "ISLAND ESCAPES, EXCLUSIVE DEALS! 🌴☀️\n\nYour dream holiday getaway just got more exciting! Jpark Island Resort & Waterpark is bringing its Nationwide Year-End Sale to Ayala Malls Abreeza, Davao City, from November 27 to 29, 2026, with discounts of up to 45% and other exclusive offers.\n\nExperience the best of Mactan, Cebu, with thrilling waterpark adventures, luxurious stays, exceptional dining, and relaxing beachfront escapes at this five-star resort.\n\nWhether you’re planning a family vacation, a romantic retreat, or an adventure with friends, now is the perfect time to book your next island escape.\n\nVisit the Jpark booth at Ayala Malls Abreeza and make your holiday plans happen!\n\nFor more information, visit www.jparkislandresorts.com.\n\n#SunStarSPECIALS #AllYouNeedToKnow",
-   "sale_start": "2026-11-27",
-   "sale_end": "2026-11-29",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "ISLAND ESCAPES, EXCLUSIVE DEALS! 🌴☀️\n\nYour dream holiday getaway just got more exciting! Jpark Island Resort & Waterpark is bringing its Nationwide Year-End Sale to Ayala Malls Abreeza, Davao City, from November 27 to 29, 2026, with discounts of up to 45% and other exclusive offers.\n\nExperience the best of Mactan, Cebu, with thrilling waterpark adventures, luxurious stays, exceptional dining, and relaxing beachfront escapes at this five-star resort.\n\nWhether you’re planning a family vacation, a romantic retreat, or an adventure with friends, now is the perfect time to book your next island escape.\n\nVisit the Jpark booth at Ayala Malls Abreeza and make your holiday plans happen!\n\nFor more information, visit www.jparkislandresorts.com.\n\n#SunStarSPECIALS #AllYouNeedToKnow",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdGUxMzh6YUVEbV9teWpCSXBqaE1sMWhhSjVGcGxnWllxY19sU2Nldzd2b0xWaTFvNjZTejJtUGVCUFlOQnVLS2JVVXRaalh6RUc1cEhZM09FS0c5T2YySUZPVHFONy11Tjdmdkwzd0Y0TVpkT2daZ3psTUFRcWlTWFNiMWk3T25qZ1ptd0NLTy1uYlA2bHRGOUtEd0VRX0lyVVF2REJRbThYNExqb2hiM2lORlVsLU9iQ0c0TkUtRG9icmQybjdmeGw1cVNER2loYVVwZ3R4aER4YWRqRjZ1eQ?oc=5"
-    },
-    "discount": {
-     "title": "ISLAND ESCAPES, EXCLUSIVE DEALS! 🌴☀️\n\nYour dream holiday getaway just got more exciting! Jpark Island Resort & Waterpark is bringing its Nationwide Year-End Sale to Ayala Malls Abreeza, Davao City, from November 27 to 29, 2026, with discounts of up to 45% and other exclusive offers.\n\nExperience the best of Mactan, Cebu, with thrilling waterpark adventures, luxurious stays, exceptional dining, and relaxing beachfront escapes at this five-star resort.\n\nWhether you’re planning a family vacation, a romantic retreat, or an adventure with friends, now is the perfect time to book your next island escape.\n\nVisit the Jpark booth at Ayala Malls Abreeza and make your holiday plans happen!\n\nFor more information, visit www.jparkislandresorts.com.\n\n#SunStarSPECIALS #AllYouNeedToKnow",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdGUxMzh6YUVEbV9teWpCSXBqaE1sMWhhSjVGcGxnWllxY19sU2Nldzd2b0xWaTFvNjZTejJtUGVCUFlOQnVLS2JVVXRaalh6RUc1cEhZM09FS0c5T2YySUZPVHFONy11Tjdmdkwzd0Y0TVpkT2daZ3psTUFRcWlTWFNiMWk3T25qZ1ptd0NLTy1uYlA2bHRGOUtEd0VRX0lyVVF2REJRbThYNExqb2hiM2lORlVsLU9iQ0c0TkUtRG9icmQybjdmeGw1cVNER2loYVVwZ3R4aER4YWRqRjZ1eQ?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 45%",
-   "verification": "news",
-   "first_published": "2026-11-25",
-   "last_published": "2026-11-25",
-   "first_seen": "2026-11-26T17:53:51+09:00",
-   "last_seen": "2026-11-26T17:53:51+09:00",
-   "articles": [
-    {
-     "title": "ISLAND ESCAPES, EXCLUSIVE DEALS! 🌴☀️\n\nYour dream holiday getaway just got more exciting! Jpark Island Resort & Waterpark is bringing its Nationwide Year-End Sale to Ayala Malls Abreeza, Davao City, from November 27 to 29, 2026, with discounts of up to 45% and other exclusive offers.\n\nExperience the best of Mactan, Cebu, with thrilling waterpark adventures, luxurious stays, exceptional dining, and relaxing beachfront escapes at this five-star resort.\n\nWhether you’re planning a family vacation, a romantic retreat, or an adventure with friends, now is the perfect time to book your next island escape.\n\nVisit the Jpark booth at Ayala Malls Abreeza and make your holiday plans happen!\n\nFor more information, visit www.jparkislandresorts.com.\n\n#SunStarSPECIALS #AllYouNeedToKnow",
-     "outlet": "Facebook",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdGUxMzh6YUVEbV9teWpCSXBqaE1sMWhhSjVGcGxnWllxY19sU2Nldzd2b0xWaTFvNjZTejJtUGVCUFlOQnVLS2JVVXRaalh6RUc1cEhZM09FS0c5T2YySUZPVHFONy11Tjdmdkwzd0Y0TVpkT2daZ3psTUFRcWlTWFNiMWk3T25qZ1ptd0NLTy1uYlA2bHRGOUtEd0VRX0lyVVF2REJRbThYNExqb2hiM2lORlVsLU9iQ0c0TkUtRG9icmQybjdmeGw1cVNER2loYVVwZ3R4aER4YWRqRjZ1eQ?oc=5",
-     "published": "2026-11-25"
-    }
-   ],
-   "status": "upcoming"
-  },
   {
    "id": "h-marriott-94c63880be",
    "airline_id": "h-marriott",
@@ -1722,7 +1666,7 @@
    "status": "live"
   },
   {
-   "id": "vietjet-fe0ecd1eda",
+   "id": "vietjet-db5080ceaf",
    "airline_id": "vietjet",
    "airline": "비엣젯항공",
    "airlines_mentioned": [
@@ -1743,13 +1687,22 @@
     "VZ"
    ],
    "agencies": [],
-   "event_name": null,
+   "event_name": "블랙프라이데이",
    "headline": "비엣젯 항공의 3일간 황금 프로모션: 11월 25일부터 27일까지 수백만 장의 항공권을 0 VND에, 디럭스석 항공권을 최대 20% 할인된 가격으로 만나보세요.",
    "sale_start": "2026-11-25",
    "sale_end": "2026-11-27",
    "travel_start": null,
    "travel_end": null,
-   "routes": [],
+   "routes": [
+    {
+     "origin": "한국",
+     "destination": "베트남"
+    },
+    {
+     "origin": null,
+     "destination": "베트남"
+    }
+   ],
    "regions": [],
    "conditions": [],
    "conflicts": [],
@@ -1761,6 +1714,10 @@
     "discount": {
      "title": "비엣젯 항공의 3일간 황금 프로모션: 11월 25일부터 27일까지 수백만 장의 항공권을 0 VND에, 디럭스석 항공권을 최대 20% 할인된 가격으로 만나보세요.",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRE5JcUl0U1hCdkc4NEY0VDdLYjU5NlZkTTQxQzdaMVhId2QyckEzUC1BNlRwXzFJb015a252VWdLaG5mYXdDMW9Nd1ozTnIyOE5Fb1VtMlV1bEkydHR2VVRON0VCd1dEbWprSHRUbldOVXpfX05HT3h3R2pmam0tMVp0YW4xazJGM21Mcm1BTjF1TmViZEpLNHBwYTczMkpBOHF0c0ZfNXBEX1NoZzlfYg?oc=5"
+    },
+    "route": {
+     "title": "비엣젯항공, 블랙프라이데이 맞아 베트남 노선 할인 프로모션 실시",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01ekJTVVpMaWttRzFSVXE3UFIyZ2NfeUJDa09lUzZzM2hyQWlfSTh6RGIzekhzX3RtbVdzc0UtSUxuTDJoQTk4V0dycVNkclJVYU85LVF6UmVZSVEwZ2VkRDRkRjBORVVRUTBpZWt2VkRsbUk?oc=5"
     }
    },
    "from_icn": "unknown",
@@ -1769,7 +1726,7 @@
    "first_published": "2026-11-25",
    "last_published": "2026-11-25",
    "first_seen": "2026-11-25T18:10:08+09:00",
-   "last_seen": "2026-11-25T18:10:08+09:00",
+   "last_seen": "2026-11-27T04:16:43+09:00",
    "articles": [
     {
      "title": "비엣젯 항공의 3일간 황금 프로모션: 11월 25일부터 27일까지 수백만 장의 항공권을 0 VND에, 디럭스석 항공권을 최대 20% 할인된 가격으로 만나보세요.",
@@ -1778,9 +1735,101 @@
      "published": "2026-11-25"
     },
     {
+     "title": "비엣젯항공, 블랙프라이데이 맞아 베트남 노선 할인 프로모션 실시",
+     "outlet": "스페셜타임스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01ekJTVVpMaWttRzFSVXE3UFIyZ2NfeUJDa09lUzZzM2hyQWlfSTh6RGIzekhzX3RtbVdzc0UtSUxuTDJoQTk4V0dycVNkclJVYU85LVF6UmVZSVEwZ2VkRDRkRjBORVVRUTBpZWt2VkRsbUk?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "비엣젯항공, 블랙프라이데이 특가 항공권 출시···28일 오전 1시까지 판매",
+     "outlet": "이넷뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45Y19oREpKdVFybnVjb044M1VSUC1LNC13RWFHZFpOazVuaUZjTG1fRXZWRFpCR3dFRlVNTDhWSGl6VUNZS1pxRUUzNVBybnlQOUkyaVZFS29GUGtLbWtvUEdZY2tlR3ZLbDliQ9IBcEFVX3lxTE45LUIyeXQyWU5rNDd6TmRXeXJjZjhZOU5NblNXdEhTelZmZFdvRlRpTWY4WHdMZkUxNG5nbTFHa2tBdm9KdlN6eG8tdFFXTkdOUWk2NFZvOUd4WG41OTVTR0xLaGtpR2llQU1EMUVndG0?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "비엣젯항공, ‘블랙프라이데이’ 특가항공권 프로모션…27일까지",
+     "outlet": "인사이드비나",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rZ2RmdHRDVTBPbktidlIwb21fZy0zQU1lVXhTVXNZMWhhT1pHT0RqMjFZTGpRazVmbTNvLXROWlhsQTdkTWsyc3YzbFVJaUJsRmlaM0lvREFIZWVVc1ZyN2RYczFQemFNQmxlMg?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "비엣젯항공, 블랙프라이데이 맞아 한국-베트남 노선 특가 판매",
+     "outlet": "비건뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45ZHJibHFtX3hLRHE5OG5WSnQzZEMyNWQwV3lxZl9yQWYwOE5hUFBWenBIem5GV1pGYnRhZmVZdUQ4X2stZmJZTVYyWTdWMy10VTEwOHpJZ3N6cDA3Q0pTckFYalJtQQ?oc=5",
+     "published": "2026-11-25"
+    },
+    {
      "title": "비엣젯항공, 블프 맞아 韓여행객 대상 특가 항공권 선봬",
      "outlet": "싱글리스트",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tVVYya2V5MzVKSl90TWl1YjVaZ3kyU1AyTVdRM21QR00xRExndzlSM2Y3Wm9sYmt1QjZSbk9TUTJIVXNHbHJCWmU0S3E2aUMxeVdJaEdkcWQtRGRJQnc5MnN6MjZRQQ?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "비엣젯항공, 블랙프라이데이 특가로 한국·베트남 여행 선택지 넓혀",
+     "outlet": "데일리메이커",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JNWRfRl9vV05PaUtEVnJZN0dIS2s4RVVUdXhMb043akMzaFB4Nm41SmxCVVJOSmctdjYyU3lZM0xkSlI4NXRGbzdHOWVVczkzWjlma1hwVkJqMTBQNkNKa2ZrcmUwaWc?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "비엣젯항공, 블프 특가 항공권 판매…베트남 편도 12만9000원",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9oaEp4WWtBbm9neEJEZU1KNkpRQld1Y1dUbkNrT19DbnJPckN1Rjk0c3l0WTFTWkVzUjdzbWtHaTJrbFM0bVdr?oc=5",
+     "published": "2026-11-25"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "h-other-6eb3899597",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "ISLAND ESCAPES, EXCLUSIVE DEALS! 🌴☀️\n\nYour dream holiday getaway just got more exciting! Jpark Island Resort & Waterpark is bringing its Nationwide Year-End Sale to Ayala Malls Abreeza, Davao City, from November 27 to 29, 2026, with discounts of up to 45% and other exclusive offers.\n\nExperience the best of Mactan, Cebu, with thrilling waterpark adventures, luxurious stays, exceptional dining, and relaxing beachfront escapes at this five-star resort.\n\nWhether you’re planning a family vacation, a romantic retreat, or an adventure with friends, now is the perfect time to book your next island escape.\n\nVisit the Jpark booth at Ayala Malls Abreeza and make your holiday plans happen!\n\nFor more information, visit www.jparkislandresorts.com.\n\n#SunStarSPECIALS #AllYouNeedToKnow",
+   "sale_start": "2026-11-27",
+   "sale_end": "2026-11-29",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "ISLAND ESCAPES, EXCLUSIVE DEALS! 🌴☀️\n\nYour dream holiday getaway just got more exciting! Jpark Island Resort & Waterpark is bringing its Nationwide Year-End Sale to Ayala Malls Abreeza, Davao City, from November 27 to 29, 2026, with discounts of up to 45% and other exclusive offers.\n\nExperience the best of Mactan, Cebu, with thrilling waterpark adventures, luxurious stays, exceptional dining, and relaxing beachfront escapes at this five-star resort.\n\nWhether you’re planning a family vacation, a romantic retreat, or an adventure with friends, now is the perfect time to book your next island escape.\n\nVisit the Jpark booth at Ayala Malls Abreeza and make your holiday plans happen!\n\nFor more information, visit www.jparkislandresorts.com.\n\n#SunStarSPECIALS #AllYouNeedToKnow",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdGUxMzh6YUVEbV9teWpCSXBqaE1sMWhhSjVGcGxnWllxY19sU2Nldzd2b0xWaTFvNjZTejJtUGVCUFlOQnVLS2JVVXRaalh6RUc1cEhZM09FS0c5T2YySUZPVHFONy11Tjdmdkwzd0Y0TVpkT2daZ3psTUFRcWlTWFNiMWk3T25qZ1ptd0NLTy1uYlA2bHRGOUtEd0VRX0lyVVF2REJRbThYNExqb2hiM2lORlVsLU9iQ0c0TkUtRG9icmQybjdmeGw1cVNER2loYVVwZ3R4aER4YWRqRjZ1eQ?oc=5"
+    },
+    "discount": {
+     "title": "ISLAND ESCAPES, EXCLUSIVE DEALS! 🌴☀️\n\nYour dream holiday getaway just got more exciting! Jpark Island Resort & Waterpark is bringing its Nationwide Year-End Sale to Ayala Malls Abreeza, Davao City, from November 27 to 29, 2026, with discounts of up to 45% and other exclusive offers.\n\nExperience the best of Mactan, Cebu, with thrilling waterpark adventures, luxurious stays, exceptional dining, and relaxing beachfront escapes at this five-star resort.\n\nWhether you’re planning a family vacation, a romantic retreat, or an adventure with friends, now is the perfect time to book your next island escape.\n\nVisit the Jpark booth at Ayala Malls Abreeza and make your holiday plans happen!\n\nFor more information, visit www.jparkislandresorts.com.\n\n#SunStarSPECIALS #AllYouNeedToKnow",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdGUxMzh6YUVEbV9teWpCSXBqaE1sMWhhSjVGcGxnWllxY19sU2Nldzd2b0xWaTFvNjZTejJtUGVCUFlOQnVLS2JVVXRaalh6RUc1cEhZM09FS0c5T2YySUZPVHFONy11Tjdmdkwzd0Y0TVpkT2daZ3psTUFRcWlTWFNiMWk3T25qZ1ptd0NLTy1uYlA2bHRGOUtEd0VRX0lyVVF2REJRbThYNExqb2hiM2lORlVsLU9iQ0c0TkUtRG9icmQybjdmeGw1cVNER2loYVVwZ3R4aER4YWRqRjZ1eQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 45%",
+   "verification": "news",
+   "first_published": "2026-11-25",
+   "last_published": "2026-11-25",
+   "first_seen": "2026-11-26T17:53:51+09:00",
+   "last_seen": "2026-11-26T17:53:51+09:00",
+   "articles": [
+    {
+     "title": "ISLAND ESCAPES, EXCLUSIVE DEALS! 🌴☀️\n\nYour dream holiday getaway just got more exciting! Jpark Island Resort & Waterpark is bringing its Nationwide Year-End Sale to Ayala Malls Abreeza, Davao City, from November 27 to 29, 2026, with discounts of up to 45% and other exclusive offers.\n\nExperience the best of Mactan, Cebu, with thrilling waterpark adventures, luxurious stays, exceptional dining, and relaxing beachfront escapes at this five-star resort.\n\nWhether you’re planning a family vacation, a romantic retreat, or an adventure with friends, now is the perfect time to book your next island escape.\n\nVisit the Jpark booth at Ayala Malls Abreeza and make your holiday plans happen!\n\nFor more information, visit www.jparkislandresorts.com.\n\n#SunStarSPECIALS #AllYouNeedToKnow",
+     "outlet": "Facebook",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdGUxMzh6YUVEbV9teWpCSXBqaE1sMWhhSjVGcGxnWllxY19sU2Nldzd2b0xWaTFvNjZTejJtUGVCUFlOQnVLS2JVVXRaalh6RUc1cEhZM09FS0c5T2YySUZPVHFONy11Tjdmdkwzd0Y0TVpkT2daZ3psTUFRcWlTWFNiMWk3T25qZ1ptd0NLTy1uYlA2bHRGOUtEd0VRX0lyVVF2REJRbThYNExqb2hiM2lORlVsLU9iQ0c0TkUtRG9icmQybjdmeGw1cVNER2loYVVwZ3R4aER4YWRqRjZ1eQ?oc=5",
      "published": "2026-11-25"
     }
    ],
@@ -3814,392 +3863,6 @@
     }
    ],
    "status": "live"
-  },
-  {
-   "id": "koreanair-0855daa689",
-   "airline_id": "koreanair",
-   "airline": "대한항공",
-   "airlines_mentioned": [
-    "대한항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.koreanair.com/",
-   "iata": [
-    "KE"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "호텔신라-대한항공, 여행객 위한 특별 프로모션…국제선 고객 최대 20% 할인",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "호텔신라-대한항공, 여행객 위한 특별 프로모션…국제선 고객 최대 20% 할인",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxODRvS0xZSVZnYnZ6eDVYY3RyUEo3WFFzSjB4blRkNmgyLTAtYURfXzZFVUhxeFgyaGprU0FubkF2RnVKTElZWE9qMkFPcEFhOTZGcUdJSV8xbXR4cEZTY2RibE5IeFN0TTZMcUZnVQ?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 20%",
-   "verification": "news",
-   "first_published": "2026-11-12",
-   "last_published": "2026-11-12",
-   "first_seen": "2026-11-12T13:18:14+09:00",
-   "last_seen": "2026-11-12T13:18:14+09:00",
-   "articles": [
-    {
-     "title": "호텔신라-대한항공, 여행객 위한 특별 프로모션…국제선 고객 최대 20% 할인",
-     "outlet": "뉴스퀘스트",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxODRvS0xZSVZnYnZ6eDVYY3RyUEo3WFFzSjB4blRkNmgyLTAtYURfXzZFVUhxeFgyaGprU0FubkF2RnVKTElZWE9qMkFPcEFhOTZGcUdJSV8xbXR4cEZTY2RibE5IeFN0TTZMcUZnVQ?oc=5",
-     "published": "2026-11-12"
-    },
-    {
-     "title": "호텔신라·대한항공, 국제선 승객에 최대 20% 호텔 할인…“차별화된 여행 경험 선사”",
-     "outlet": "뉴스로드",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSZHRlUXdJZjFKaGk1Z1RubUZIQXRkTXVueXc1WHVQcUpKX0Zlb0w3NmRZaTdTU2RuNElPMktMbTh0bzY3S05LdjZfdDAzMEtjaV9INUhmQWJMZ1RVVS0tcmtKTEo5TWlqRnkw0gFvQVVfeXFMTlVLV0IxRFlOQWVQcGw3ZUw3MDdHSVM4a01VeUVPcXAtM2xTTlJKXzlhQW1tNGxQNzBDUmViLXRSYjIyZ0x1WWlWMUhKMWdWeVA1bTk0UVQ0bUVHbmFGRkFGZW5KdzBOcGNSNkNSTFBN?oc=5",
-     "published": "2026-11-12"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "vietjet-e2a95f25e8",
-   "airline_id": "vietjet",
-   "airline": "비엣젯항공",
-   "airlines_mentioned": [
-    "비엣젯항공"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.vietjetair.com/ko",
-   "iata": [
-    "VJ",
-    "VZ"
-   ],
-   "agencies": [],
-   "event_name": "더블데이",
-   "headline": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": "2026-12-01",
-   "travel_end": "2027-05-31",
-   "routes": [
-    {
-     "origin": "한국",
-     "destination": "베트남"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "travel": {
-     "title": "싱글리스트 요약문: 한국과 베트남을 잇는 전 노선에 적용되며 탑승 기간은 12월 1일부터 2027년 5월 31일까지다.",
-     "url": "https://www.slist.kr/news/articleView.html?idxno=780847"
-    },
-    "discount": {
-     "title": "비엣젯항공, 11월 11일 더블데이 항공권 특가 판매...최대 25% 할인",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Zb2pqMUNJWW03QTVpWjlMN2E1VFNXSTI4TlRFOXdZekZUdGNxTVlOa1F4WmtJVnUxOGJnY0NxX2JGa1NxeWpNNE91V2pnNEtBbjB4MnhaeVNWVnFQdDl3RjNR?oc=5"
-    },
-    "route": {
-     "title": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXdUw1Uk5odkl1ZklkRVpJLVZTekVQV3RGdjk1WEdXYWRGamdDS0VLUEU2d3JKWldySGZJN1RDa2JPaEJ6dHFYdHQyM3hwVUhIcmlHWXBYSGN6a2U3bmJaV2tXZDlWWmh4UGd6eHBR0gFyQVVfeXFMT0tVUkNUSU1RLWRqN2I5ZlRNZnNVRVVtdGNYWTJHUHp0c0RvZWdNaTlKNmNpRG5RaURPTENEYjlsUU5tM0tpZV9QZEFFeWJ2UVZCeENLeWZPbE9FSnpXRExRdkpDQzVXYThhSGQzaEc2Uk5R?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 25%",
-   "verification": "news",
-   "first_published": "2026-11-10",
-   "last_published": "2026-11-12",
-   "first_seen": "2026-11-10T16:44:38+09:00",
-   "last_seen": "2026-11-16T09:14:16+09:00",
-   "articles": [
-    {
-     "title": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
-     "outlet": "시선뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXdUw1Uk5odkl1ZklkRVpJLVZTekVQV3RGdjk1WEdXYWRGamdDS0VLUEU2d3JKWldySGZJN1RDa2JPaEJ6dHFYdHQyM3hwVUhIcmlHWXBYSGN6a2U3bmJaV2tXZDlWWmh4UGd6eHBR0gFyQVVfeXFMT0tVUkNUSU1RLWRqN2I5ZlRNZnNVRVVtdGNYWTJHUHp0c0RvZWdNaTlKNmNpRG5RaURPTENEYjlsUU5tM0tpZV9QZEFFeWJ2UVZCeENLeWZPbE9FSnpXRExRdkpDQzVXYThhSGQzaEc2Uk5R?oc=5",
-     "published": "2026-11-12"
-    },
-    {
-     "title": "비엣젯항공, 11월 11일 더블데이 맞아 항공권 특가 판매",
-     "outlet": "경상일보",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NTkZPNGxJM1owR1Y3TTR6WVVJOGZBQ1RaUGE4VWtiVFdta0cwZWFPVGRubUlTRWZQc0MxcGdLVlNxc0d5Z2dwZWZ5c1JfZWQwdFFjbUthR25UODdCQ3BCNUMydUNtbl9Vay1idA?oc=5",
-     "published": "2026-11-12"
-    },
-    {
-     "title": "홍콩익스프레스, 성수동 팝업 개최→비엣젯항공, '더블데이' 맞아 항공권 특가 판매",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fWE9XVEN3TWE4bllNSEQ4R19KOWlFcXdwNWdBVWxreWd1YzVPMEFBSGgxQWR2TUN5OUdqT25IcFVtWlJTVXJYcjZOdWk5UHdjY3k4UE5LVUFFTkJZMnd3SFlBUFZlQQ?oc=5",
-     "published": "2026-11-12"
-    },
-    {
-     "title": "비엣젯항공, 한국-베트남 전 노선 더블데이 특가 진행",
-     "outlet": "비건뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xNWlHSm1XRHRZQzlad0otZFdnNjd5LTFlemxjdm9qTHpnVTRJdmh3akNpZWxGZUpCZDZuQlVITGlMaU1NY3JmaElyZ0RWUzkxYUtYSG5vblZNejM5ci1sR1J5YkZKdw?oc=5",
-     "published": "2026-11-12"
-    },
-    {
-     "title": "비엣젯항공, 11월 11일 더블데이 항공권 특가 판매...최대 25% 할인",
-     "outlet": "livesnews.com",
-     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Zb2pqMUNJWW03QTVpWjlMN2E1VFNXSTI4TlRFOXdZekZUdGNxTVlOa1F4WmtJVnUxOGJnY0NxX2JGa1NxeWpNNE91V2pnNEtBbjB4MnhaeVNWVnFQdDl3RjNR?oc=5",
-     "published": "2026-11-12"
-    },
-    {
-     "title": "비엣젯항공, 더블데이 맞아 항공권 특가 프로모션 돌입",
-     "outlet": "스페셜타임스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mWmQ3WjlPTE5lam4xOW5zcjNLdkhrMHRscG9GLThhOGRFSVNUQkxuVVRLQ2F6MmE0cGN4UHBJcE9BT3dHdFU5SnhIUXlZRzBsYkpxSENoeEU2NGhWQVJHSHdCbmJXTFQ5X2NUTWw1TXJPa00?oc=5",
-     "published": "2026-11-11"
-    },
-    {
-     "title": "비엣젯항공, 11.11 '더블데이' 맞아 항공권 특가판매",
-     "outlet": "싱글리스트",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPWDZDeng5dm9SNE5nWjQ4SVV3WGlocnZNTTVHQ1dGdmJyUjBqbExIb3JSMjJpa1oybnk1UWFleWhncXlWcnJzS2JMaXl2ZTltcS1tcHY1cGVwOHZLVVc1dnhxdWE0UQ?oc=5",
-     "published": "2026-11-11"
-    },
-    {
-     "title": "비엣젯항공, ‘11월 11일’ 국내외 특가항공권 프로모션…최대 무료",
-     "outlet": "인사이드비나",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12bVNfVFdXeFVEOGU0TlFsLWVfNlp6SnliUmFmU1lyVzN4Njk4VkpFMDB1Ukt1ZDBlbjJSUVJubmZSNU4yeFJESEJIdS1XVzdza3c1UFNqbHllR2ZOUlZCWk4zTWFjWjE1ZTJKQg?oc=5",
-     "published": "2026-11-10"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-booking-33fd080c3c",
-   "airline_id": "h-booking",
-   "airline": "부킹닷컴",
-   "airlines_mentioned": [
-    "부킹닷컴"
-   ],
-   "kind": "platform",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": "https://www.booking.com/index.ko.html",
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Booking.com's Black Friday hotel deals 2026: The best sale picks",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-12",
-   "last_published": "2026-11-12",
-   "first_seen": "2026-11-21T16:42:04+09:00",
-   "last_seen": "2026-11-21T16:42:04+09:00",
-   "articles": [
-    {
-     "title": "Booking.com's Black Friday hotel deals 2026: The best sale picks",
-     "outlet": "Red magazine",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM09lNFM1ZDZWZXpmdkJWVG5fOE5MYVJEZ25nbVp1cll0eWVSUlJRQ1hfN18yTjVUcXg5QjNCeUNHaVlnRmFxVUxLaGRaT3RlUi1uTjNMaHpGbnI0V18wQjg3X0xoeVJEXzVXS252RlVWOHVZaks0aVVRMUlkZ08tZA?oc=5",
-     "published": "2026-11-12"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "hkexpress-1cad2b792c",
-   "airline_id": "hkexpress",
-   "airline": "홍콩익스프레스",
-   "airlines_mentioned": [
-    "홍콩익스프레스"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.hkexpress.com/ko-kr/",
-   "iata": [
-    "UO"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "홍콩익스프레스, 기간한정 특가…부산~홍콩 편도 8만 8600원부터",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": "부산(PUS)",
-     "destination": "홍콩(HKG)"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "홍콩익스프레스, 기간한정 특가…부산~홍콩 편도 8만 8600원부터",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aZGJPVHJTOHdEc3Z4QjFoQWtDWWd5S21pU2dSUG9SZlFIWWppZkVhdV9MNEZTQjdfMVJYbkdwb21OaVZDYmkyNEFaalRpMmZzcWpUdnl3TkJzUUZVZkcwYnFhWGJGb0R2Rmw2RE9fWnF6dG1n?oc=5"
-    },
-    "route": {
-     "title": "홍콩익스프레스, 기간한정 특가…부산~홍콩 편도 8만 8600원부터",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aZGJPVHJTOHdEc3Z4QjFoQWtDWWd5S21pU2dSUG9SZlFIWWppZkVhdV9MNEZTQjdfMVJYbkdwb21OaVZDYmkyNEFaalRpMmZzcWpUdnl3TkJzUUZVZkcwYnFhWGJGb0R2Rmw2RE9fWnF6dG1n?oc=5"
-    }
-   },
-   "from_icn": "no",
-   "discount": "8만8600원부터",
-   "verification": "news",
-   "first_published": "2026-11-12",
-   "last_published": "2026-11-12",
-   "first_seen": "2026-11-12T16:43:47+09:00",
-   "last_seen": "2026-11-12T16:43:47+09:00",
-   "articles": [
-    {
-     "title": "홍콩익스프레스, 기간한정 특가…부산~홍콩 편도 8만 8600원부터",
-     "outlet": "부산일보",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aZGJPVHJTOHdEc3Z4QjFoQWtDWWd5S21pU2dSUG9SZlFIWWppZkVhdV9MNEZTQjdfMVJYbkdwb21OaVZDYmkyNEFaalRpMmZzcWpUdnl3TkJzUUZVZkcwYnFhWGJGb0R2Rmw2RE9fWnF6dG1n?oc=5",
-     "published": "2026-11-12"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "scoot-11495b581d",
-   "airline_id": "scoot",
-   "airline": "스쿠트항공",
-   "airlines_mentioned": [
-    "스쿠트항공"
-   ],
-   "kind": "foreign",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.flyscoot.com/ko",
-   "iata": [
-    "TR"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "스쿠트항공 올빼미 여행자라면, 싱가포르의 밤이 기다려요. 항공권 145,000원*부터",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": null,
-     "destination": "싱가포르(SIN)"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "route": {
-     "title": "스쿠트항공 메일 본문",
-     "url": "https://www.flyscoot.com/ko#mail-9a0379213794f101"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "official",
-   "first_published": "2026-11-12",
-   "last_published": "2026-11-12",
-   "first_seen": "2026-11-12T16:43:43+09:00",
-   "last_seen": "2026-11-12T16:43:43+09:00",
-   "articles": [
-    {
-     "title": "스쿠트항공 올빼미 여행자라면, 싱가포르의 밤이 기다려요. 항공권 145,000원*부터",
-     "outlet": "스쿠트항공 메일",
-     "url": "https://www.flyscoot.com/ko#mail-9a0379213794f101",
-     "published": "2026-11-12"
-    }
-   ],
-   "status": "undated"
-  },
-  {
-   "id": "h-other-04f750ae5b",
-   "airline_id": "h-other",
-   "airline": "브랜드 미확인",
-   "airlines_mentioned": [
-    "브랜드 미확인"
-   ],
-   "kind": "other",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Your ultimate guide to the best Black Friday 2026 travel deals for hotels and tours",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {},
-   "from_icn": null,
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-12",
-   "last_published": "2026-11-12",
-   "first_seen": "2026-11-12T13:18:14+09:00",
-   "last_seen": "2026-11-12T13:18:14+09:00",
-   "articles": [
-    {
-     "title": "Your ultimate guide to the best Black Friday 2026 travel deals for hotels and tours",
-     "outlet": "Time Out Worldwide",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa2hhVm5yTGduUDZfQnJRZllzdzc2R0h1ZERib1BUcmQzUkpjMlFhVGVxV3JMNFFuZ0lQaVZ2cl84ZUhNSmIxVVFYeHo0T0ZKYzluNXB1LUFZZEx3VjE5cjRnUXk4ZmNzUVFKUGpFalR2aTFzUmNXX1pYcHA5QXd4WXZXUzJ2eUNLc1loZ0xldU9Qd0ZPUUlnXzVra0UtMHpkY2dpcXFZQ2ZqTWlLYTRlNQ?oc=5",
-     "published": "2026-11-12"
-    }
-   ],
-   "status": "undated"
   },
   {
    "id": "h-tripcom-91a861cd73",
@@ -7883,58 +7546,6 @@
    "status": "undated"
   },
   {
-   "id": "h-marriott-dea109af50",
-   "airline_id": "h-marriott",
-   "airline": "메리어트",
-   "airlines_mentioned": [
-    "메리어트"
-   ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
-   "route": null,
-   "route_text": null,
-   "scope": "overseas",
-   "lang": "en",
-   "trial": true,
-   "baseline": "hotel_trial",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": null,
-   "headline": "Marriott Bonvoy Cyber ​​Week 2026: Up to 25% off hotels until May 2027",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "discount": {
-     "title": "Marriott Bonvoy Cyber ​​Week 2026: Up to 25% off hotels until May 2027",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMG9OdXBqUlZrWmhNQ0tLcmhYcnlVaTNZQ29KWFNqM011eDNXa1VHX3hXNEtlT1U0aWhNVG1YRmFwNmcycEE5S2dWMlJGQnJsVTBZYThEZk5xajMyUU9rbHpnVERybXV4WFQ1bEZqeXlHOG5CLXNIZGlXTHNyT3JHRW5GUngzcEtYTmZTTjFVMG5mSnVFT2o0SjY1cjlSbVFvUk0yX2dLRllqWFk?oc=5"
-    }
-   },
-   "from_icn": null,
-   "discount": "최대 25%",
-   "verification": "news",
-   "first_published": "2026-11-20",
-   "last_published": "2026-11-20",
-   "first_seen": "2026-11-25T13:18:15+09:00",
-   "last_seen": "2026-11-25T13:18:15+09:00",
-   "articles": [
-    {
-     "title": "Marriott Bonvoy Cyber ​​Week 2026: Up to 25% off hotels until May 2027",
-     "outlet": "infostourisme.com",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMG9OdXBqUlZrWmhNQ0tLcmhYcnlVaTNZQ29KWFNqM011eDNXa1VHX3hXNEtlT1U0aWhNVG1YRmFwNmcycEE5S2dWMlJGQnJsVTBZYThEZk5xajMyUU9rbHpnVERybXV4WFQ1bEZqeXlHOG5CLXNIZGlXTHNyT3JHRW5GUngzcEtYTmZTTjFVMG5mSnVFT2o0SjY1cjlSbVFvUk0yX2dLRllqWFk?oc=5",
-     "published": "2026-11-20"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-accor-91fa952ec3",
    "airline_id": "h-accor",
    "airline": "아코르",
@@ -7981,6 +7592,58 @@
      "title": "A Trick To Buy Accor Hotel Stays At 40% Off — And Black Friday May Make It Even Better",
      "outlet": "View from the Wing",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWjRHX3FHVVZFM3Zhd3Zyd054Mnp5bE4zREdWVlRqQlJhN1JLZ3MzMWFZUkJKUnNKeUZDYUNDWWl6NFEzWXBHSmY3NWNaWnJRcWNOZDF1dDB1bzFrbkNSdjFCbHRZWFI4NWhtRVVyWHZLNGhaeFhPTjhZNG5mOHBHaUVQZkhvLUxhblNPdjNiaHNYbkxlMjVsRWhQWWRJekpKR3d0b3JOZHZrNHlleVlXdXVR?oc=5",
+     "published": "2026-11-20"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-marriott-dea109af50",
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "airlines_mentioned": [
+    "메리어트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Marriott Bonvoy Cyber ​​Week 2026: Up to 25% off hotels until May 2027",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Marriott Bonvoy Cyber ​​Week 2026: Up to 25% off hotels until May 2027",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMG9OdXBqUlZrWmhNQ0tLcmhYcnlVaTNZQ29KWFNqM011eDNXa1VHX3hXNEtlT1U0aWhNVG1YRmFwNmcycEE5S2dWMlJGQnJsVTBZYThEZk5xajMyUU9rbHpnVERybXV4WFQ1bEZqeXlHOG5CLXNIZGlXTHNyT3JHRW5GUngzcEtYTmZTTjFVMG5mSnVFT2o0SjY1cjlSbVFvUk0yX2dLRllqWFk?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 25%",
+   "verification": "news",
+   "first_published": "2026-11-20",
+   "last_published": "2026-11-20",
+   "first_seen": "2026-11-25T13:18:15+09:00",
+   "last_seen": "2026-11-25T13:18:15+09:00",
+   "articles": [
+    {
+     "title": "Marriott Bonvoy Cyber ​​Week 2026: Up to 25% off hotels until May 2027",
+     "outlet": "infostourisme.com",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMG9OdXBqUlZrWmhNQ0tLcmhYcnlVaTNZQ29KWFNqM011eDNXa1VHX3hXNEtlT1U0aWhNVG1YRmFwNmcycEE5S2dWMlJGQnJsVTBZYThEZk5xajMyUU9rbHpnVERybXV4WFQ1bEZqeXlHOG5CLXNIZGlXTHNyT3JHRW5GUngzcEtYTmZTTjFVMG5mSnVFT2o0SjY1cjlSbVFvUk0yX2dLRllqWFk?oc=5",
      "published": "2026-11-20"
     }
    ],
@@ -9857,7 +9520,7 @@
    "status": "undated"
   },
   {
-   "id": "vietjet-db5080ceaf",
+   "id": "vietjet-7bd7eddd94",
    "airline_id": "vietjet",
    "airline": "비엣젯항공",
    "airlines_mentioned": [
@@ -9879,7 +9542,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "비엣젯항공, 블랙프라이데이 맞아 베트남 노선 할인 프로모션 실시",
+   "headline": "비엣젯항공, 블랙프라이데이 특가 프로모션…베트남행 편도 12만9000원부터",
    "sale_start": null,
    "sale_end": null,
    "travel_start": null,
@@ -9887,10 +9550,6 @@
    "routes": [
     {
      "origin": null,
-     "destination": "베트남"
-    },
-    {
-     "origin": "한국",
      "destination": "베트남"
     }
    ],
@@ -9903,8 +9562,8 @@
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fSjdyOUJ3MmQ0RFVaYjFFOGFoUWpZYUtkVVltc3lTOXlTa2lQc2d6ZHJRdUFtLUpOTnlxQmxHVm1PZmF5dzVzNUppSzE2bFY1TU5wRjdfTXdFN1dDSkhlUUhBLUczNDZuRTVyVg?oc=5"
     },
     "route": {
-     "title": "비엣젯항공, 블랙프라이데이 맞아 베트남 노선 할인 프로모션 실시",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01ekJTVVpMaWttRzFSVXE3UFIyZ2NfeUJDa09lUzZzM2hyQWlfSTh6RGIzekhzX3RtbVdzc0UtSUxuTDJoQTk4V0dycVNkclJVYU85LVF6UmVZSVEwZ2VkRDRkRjBORVVRUTBpZWt2VkRsbUk?oc=5"
+     "title": "비엣젯항공, 블랙프라이데이 특가 프로모션…베트남행 편도 12만9000원부터",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fSjdyOUJ3MmQ0RFVaYjFFOGFoUWpZYUtkVVltc3lTOXlTa2lQc2d6ZHJRdUFtLUpOTnlxQmxHVm1PZmF5dzVzNUppSzE2bFY1TU5wRjdfTXdFN1dDSkhlUUhBLUczNDZuRTVyVg?oc=5"
     }
    },
    "from_icn": "unknown",
@@ -9913,14 +9572,8 @@
    "first_published": "2026-11-25",
    "last_published": "2026-11-25",
    "first_seen": "2026-11-25T18:10:08+09:00",
-   "last_seen": "2026-11-25T22:17:32+09:00",
+   "last_seen": "2026-11-25T18:10:08+09:00",
    "articles": [
-    {
-     "title": "비엣젯항공, 블랙프라이데이 맞아 베트남 노선 할인 프로모션 실시",
-     "outlet": "스페셜타임스",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01ekJTVVpMaWttRzFSVXE3UFIyZ2NfeUJDa09lUzZzM2hyQWlfSTh6RGIzekhzX3RtbVdzc0UtSUxuTDJoQTk4V0dycVNkclJVYU85LVF6UmVZSVEwZ2VkRDRkRjBORVVRUTBpZWt2VkRsbUk?oc=5",
-     "published": "2026-11-25"
-    },
     {
      "title": "비엣젯항공, 블랙프라이데이 특가 프로모션…베트남행 편도 12만9000원부터",
      "outlet": "뉴스플릭스",
@@ -9928,33 +9581,9 @@
      "published": "2026-11-25"
     },
     {
-     "title": "비엣젯항공, 블랙프라이데이 특가 항공권 출시···28일 오전 1시까지 판매",
-     "outlet": "이넷뉴스",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45Y19oREpKdVFybnVjb044M1VSUC1LNC13RWFHZFpOazVuaUZjTG1fRXZWRFpCR3dFRlVNTDhWSGl6VUNZS1pxRUUzNVBybnlQOUkyaVZFS29GUGtLbWtvUEdZY2tlR3ZLbDliQ9IBcEFVX3lxTE45LUIyeXQyWU5rNDd6TmRXeXJjZjhZOU5NblNXdEhTelZmZFdvRlRpTWY4WHdMZkUxNG5nbTFHa2tBdm9KdlN6eG8tdFFXTkdOUWk2NFZvOUd4WG41OTVTR0xLaGtpR2llQU1EMUVndG0?oc=5",
-     "published": "2026-11-25"
-    },
-    {
-     "title": "비엣젯항공, 블랙프라이데이 맞아 한국-베트남 노선 특가 판매",
-     "outlet": "비건뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45ZHJibHFtX3hLRHE5OG5WSnQzZEMyNWQwV3lxZl9yQWYwOE5hUFBWenBIem5GV1pGYnRhZmVZdUQ4X2stZmJZTVYyWTdWMy10VTEwOHpJZ3N6cDA3Q0pTckFYalJtQQ?oc=5",
-     "published": "2026-11-25"
-    },
-    {
-     "title": "비엣젯항공, 블랙프라이데이 특가로 한국·베트남 여행 선택지 넓혀",
-     "outlet": "데일리메이커",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JNWRfRl9vV05PaUtEVnJZN0dIS2s4RVVUdXhMb043akMzaFB4Nm41SmxCVVJOSmctdjYyU3lZM0xkSlI4NXRGbzdHOWVVczkzWjlma1hwVkJqMTBQNkNKa2ZrcmUwaWc?oc=5",
-     "published": "2026-11-25"
-    },
-    {
      "title": "비엣젯항공, 베트남행 항공권 특가 판매…편도 최저 12만 9천 원",
      "outlet": "livesnews.com",
      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13U3dNQXJsb09VSUZkVjYwdG9sMU5vSkV1Wi1FSElqazAyVlVxRFA0RVItQ0tMbHkzVmRTaDJVTjE3SGpnZjNzRExiY25pMlpyUWV4QWh6VUYxNHBCREZhYUNn?oc=5",
-     "published": "2026-11-25"
-    },
-    {
-     "title": "비엣젯항공, 블프 특가 항공권 판매…베트남 편도 12만9000원",
-     "outlet": "브레이크뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9oaEp4WWtBbm9neEJEZU1KNkpRQld1Y1dUbkNrT19DbnJPckN1Rjk0c3l0WTFTWkVzUjdzbWtHaTJrbFM0bVdr?oc=5",
      "published": "2026-11-25"
     }
    ],
@@ -10363,7 +9992,7 @@
    "first_published": "2026-11-26",
    "last_published": "2026-11-26",
    "first_seen": "2026-11-26T17:53:51+09:00",
-   "last_seen": "2026-11-26T18:16:06+09:00",
+   "last_seen": "2026-11-27T04:16:43+09:00",
    "articles": [
     {
      "title": "괌정부관광청, 대한항공·여행사 10곳과 겨울 공동 프로모션",
@@ -10393,6 +10022,12 @@
      "title": "연말·겨울방학 휴양객 잡는다…괌정부관광청, 대한항공·여행사 10곳과 공동 프로모션",
      "outlet": "열린뉴스통신",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE00RE9FbzNPR2xuaWhCbkMxSUdKbDdmTXJZWmdsM2RsczVsUzdmTzZkVThNd1dfYVZ1bUFOOXl2cVBKMkNnN0ZVSE5rMUkxOEJwLW5qRkdHVEJnMERqRmxDOGJfMl9vdw?oc=5",
+     "published": "2026-11-26"
+    },
+    {
+     "title": "괌정부관광청, 대한항공과 겨울 시즌 공동 프로모션 진행",
+     "outlet": "ACROFAN",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oMEJVUW5xeWM5YTNDTmd3ODhzUlYzUG1ZdTJvQk54Z0xsWjdiVnMyZjcyanpNMURuRkpvb05SSnJKYmpBMXduYjdVaThudlpTdk50R1hjRXRkMVE?oc=5",
      "published": "2026-11-26"
     },
     {
@@ -10454,6 +10089,107 @@
      "outlet": "연합뉴스",
      "url": "https://www.yna.co.kr/view/AKR20261126076500003",
      "published": "2026-11-26"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-bf95d74c24",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "UAE National Day hotel deals: 9 Dubai staycations with savings of up to 30%",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "두바이"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "UAE National Day hotel deals: 9 Dubai staycations with savings of up to 30%",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRHpHZ3FLT0d3WllDV3RZcExlcGUwM25KNFBiUTZzeE8xdzVWZ21Wbnl3THlhMVVQVzlxVm5TcmpvX1NfMTJfTGllSy04YkJqU09Ka1phYVBKT1ljdXJnSVFqaVd6SnlVQ1IycTNuZ1ZZc3ZYSC00SFlFOHBfZ19tRG5vdzBfQ0dxMXJiS1JtYzJQSFV2REpBTHhTMWtOSmFCM1lhVmtnUXE3c2ZkLVB6RmVXelYtR2fSAccBQVVfeXFMTXBobG1GVV91dDVNOWVvVVVXbkxZRndiOXEtbnc4SDRrbGVUa05ibDVxb01SN1R3SFZodXJBbUdwYURteHVjbS1ZaUJ3ZURFNU9aTkJvZER6aWktdFotLWFaNWhhYkpjUm9fUzJKVXFNOWQzMDA0b3VNVzJiX2o0THZLQW5LeVhZUFBDc2RqRVk2Qk8tU2dfZk5sSHA4TWVFU01PNGZHQkRyZllUVUY0dlYyS3ZOdXl4RWdoM0I5eEJwbEQ5MFJNYw?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 30%",
+   "verification": "news",
+   "first_published": "2026-11-26",
+   "last_published": "2026-11-26",
+   "first_seen": "2026-11-27T04:16:43+09:00",
+   "last_seen": "2026-11-27T04:16:43+09:00",
+   "articles": [
+    {
+     "title": "UAE National Day hotel deals: 9 Dubai staycations with savings of up to 30%",
+     "outlet": "Gulf News",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRHpHZ3FLT0d3WllDV3RZcExlcGUwM25KNFBiUTZzeE8xdzVWZ21Wbnl3THlhMVVQVzlxVm5TcmpvX1NfMTJfTGllSy04YkJqU09Ka1phYVBKT1ljdXJnSVFqaVd6SnlVQ1IycTNuZ1ZZc3ZYSC00SFlFOHBfZ19tRG5vdzBfQ0dxMXJiS1JtYzJQSFV2REpBTHhTMWtOSmFCM1lhVmtnUXE3c2ZkLVB6RmVXelYtR2fSAccBQVVfeXFMTXBobG1GVV91dDVNOWVvVVVXbkxZRndiOXEtbnc4SDRrbGVUa05ibDVxb01SN1R3SFZodXJBbUdwYURteHVjbS1ZaUJ3ZURFNU9aTkJvZER6aWktdFotLWFaNWhhYkpjUm9fUzJKVXFNOWQzMDA0b3VNVzJiX2o0THZLQW5LeVhZUFBDc2RqRVk2Qk8tU2dfZk5sSHA4TWVFU01PNGZHQkRyZllUVUY0dlYyS3ZOdXl4RWdoM0I5eEJwbEQ5MFJNYw?oc=5",
+     "published": "2026-11-26"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-cc4991f965",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Viva Resorts launches Black Friday BOGO sale across 7 resorts",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-27",
+   "last_published": "2026-11-27",
+   "first_seen": "2026-11-27T04:16:43+09:00",
+   "last_seen": "2026-11-27T04:16:43+09:00",
+   "articles": [
+    {
+     "title": "Viva Resorts launches Black Friday BOGO sale across 7 resorts",
+     "outlet": "Pax News",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaFJwMkJfMmN2c2pBbV9rMXVucFl5S214aWptOFNPUFR1eHV0UzhOTTB0SV9VSUVhOUMwSnNuT3BGRmNjYmxRVzNNVktvTDNheldncG96dkN4UEhqZUprZzAwRnVKU0Npd3A2ck40cXFuYlRRQ28yNDY5Nkh4czlweHJxZ3BGQUZoY3hzTjZ6dUJuanlDemR0NHFndDk?oc=5",
+     "published": "2026-11-27"
     }
    ],
    "status": "undated"
@@ -13897,236 +13633,237 @@
    "status": "stale"
   },
   {
-   "id": "h-shilla-7043d0430d",
-   "airline_id": "h-shilla",
-   "airline": "신라호텔",
+   "id": "koreanair-0855daa689",
+   "airline_id": "koreanair",
+   "airline": "대한항공",
    "airlines_mentioned": [
-    "신라호텔"
+    "대한항공"
    ],
-   "kind": "hotel",
-   "category": "hotel",
-   "section": "hotel",
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.koreanair.com/",
+   "iata": [
+    "KE"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "호텔신라-대한항공, 여행객 위한 특별 프로모션…국제선 고객 최대 20% 할인",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "호텔신라-대한항공, 여행객 위한 특별 프로모션…국제선 고객 최대 20% 할인",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxODRvS0xZSVZnYnZ6eDVYY3RyUEo3WFFzSjB4blRkNmgyLTAtYURfXzZFVUhxeFgyaGprU0FubkF2RnVKTElZWE9qMkFPcEFhOTZGcUdJSV8xbXR4cEZTY2RibE5IeFN0TTZMcUZnVQ?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 20%",
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-12T13:18:14+09:00",
+   "last_seen": "2026-11-12T13:18:14+09:00",
+   "articles": [
+    {
+     "title": "호텔신라-대한항공, 여행객 위한 특별 프로모션…국제선 고객 최대 20% 할인",
+     "outlet": "뉴스퀘스트",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxODRvS0xZSVZnYnZ6eDVYY3RyUEo3WFFzSjB4blRkNmgyLTAtYURfXzZFVUhxeFgyaGprU0FubkF2RnVKTElZWE9qMkFPcEFhOTZGcUdJSV8xbXR4cEZTY2RibE5IeFN0TTZMcUZnVQ?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "호텔신라·대한항공, 국제선 승객에 최대 20% 호텔 할인…“차별화된 여행 경험 선사”",
+     "outlet": "뉴스로드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSZHRlUXdJZjFKaGk1Z1RubUZIQXRkTXVueXc1WHVQcUpKX0Zlb0w3NmRZaTdTU2RuNElPMktMbTh0bzY3S05LdjZfdDAzMEtjaV9INUhmQWJMZ1RVVS0tcmtKTEo5TWlqRnkw0gFvQVVfeXFMTlVLV0IxRFlOQWVQcGw3ZUw3MDdHSVM4a01VeUVPcXAtM2xTTlJKXzlhQW1tNGxQNzBDUmViLXRSYjIyZ0x1WWlWMUhKMWdWeVA1bTk0UVQ0bUVHbmFGRkFGZW5KdzBOcGNSNkNSTFBN?oc=5",
+     "published": "2026-11-12"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "vietjet-e2a95f25e8",
+   "airline_id": "vietjet",
+   "airline": "비엣젯항공",
+   "airlines_mentioned": [
+    "비엣젯항공"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
    "route": null,
    "route_text": null,
    "scope": null,
    "lang": "ko",
    "trial": false,
-   "baseline": "hotel",
-   "official_url": null,
-   "iata": [],
-   "agencies": [],
-   "event_name": "블랙 프라이데이",
-   "headline": "신라호텔앤리조트, 첫 블랙 프라이데이 프로모션 진행… 2027년 객실 28%↓",
-   "sale_start": "2026-11-06",
-   "sale_end": "2026-11-19",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [
-    "포인트 적립"
+   "baseline": "flight",
+   "official_url": "https://www.vietjetair.com/ko",
+   "iata": [
+    "VJ",
+    "VZ"
    ],
+   "agencies": [],
+   "event_name": "더블데이",
+   "headline": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": "2026-12-01",
+   "travel_end": "2027-05-31",
+   "routes": [
+    {
+     "origin": "한국",
+     "destination": "베트남"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
    "conflicts": [],
    "evidence": {
-    "sale": {
-     "title": "한국면세뉴스 요약문: …텔앤리조트는 오는 19일까지 신라리워즈 회원을 대상으로 '블랙 프라이데이' 프로모션을 실시한다고 6일 밝혔다…",
-     "url": "http://www.kdfnews.com/news/articleView.html?idxno=190528"
+    "travel": {
+     "title": "싱글리스트 요약문: 한국과 베트남을 잇는 전 노선에 적용되며 탑승 기간은 12월 1일부터 2027년 5월 31일까지다.",
+     "url": "https://www.slist.kr/news/articleView.html?idxno=780847"
     },
     "discount": {
-     "title": "신라호텔 최대 28%·조선호텔 최대 77% 할인…호텔가 연말 특가 경쟁",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YTE5DMlJtcEpkeWVqRlFYWFNSa1M1ekVxcG94MjMyeUkzNEswTjlpd1ZwWlFJNUlKZ0NFUnVFVUg3UWdyeDhkY2VPcU5LbzNROGt0R9IBVEFVX3lxTE5YTE5DMlJtcEpkeWVqRlFYWFNSa1M1ekVxcG94MjMyeUkzNEswTjlpd1ZwWlFJNUlKZ0NFUnVFVUg3UWdyeDhkY2VPcU5LbzNROGt0Rw?oc=5"
+     "title": "비엣젯항공, 11월 11일 더블데이 항공권 특가 판매...최대 25% 할인",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Zb2pqMUNJWW03QTVpWjlMN2E1VFNXSTI4TlRFOXdZekZUdGNxTVlOa1F4WmtJVnUxOGJnY0NxX2JGa1NxeWpNNE91V2pnNEtBbjB4MnhaeVNWVnFQdDl3RjNR?oc=5"
+    },
+    "route": {
+     "title": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXdUw1Uk5odkl1ZklkRVpJLVZTekVQV3RGdjk1WEdXYWRGamdDS0VLUEU2d3JKWldySGZJN1RDa2JPaEJ6dHFYdHQyM3hwVUhIcmlHWXBYSGN6a2U3bmJaV2tXZDlWWmh4UGd6eHBR0gFyQVVfeXFMT0tVUkNUSU1RLWRqN2I5ZlRNZnNVRVVtdGNYWTJHUHp0c0RvZWdNaTlKNmNpRG5RaURPTENEYjlsUU5tM0tpZV9QZEFFeWJ2UVZCeENLeWZPbE9FSnpXRExRdkpDQzVXYThhSGQzaEc2Uk5R?oc=5"
     }
    },
-   "from_icn": null,
-   "discount": "최대 28%",
+   "from_icn": "unknown",
+   "discount": "최대 25%",
    "verification": "news",
-   "first_published": "2026-11-06",
-   "last_published": "2026-11-11",
-   "first_seen": "2026-11-06T09:14:11+09:00",
-   "last_seen": "2026-11-11T16:08:39+09:00",
+   "first_published": "2026-11-10",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-10T16:44:38+09:00",
+   "last_seen": "2026-11-16T09:14:16+09:00",
    "articles": [
     {
-     "title": "신라호텔앤리조트, 첫 블랙 프라이데이 프로모션 진행… 2027년 객실 28%↓",
-     "outlet": "S저널",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jXzhmaGh4NHVPMlZUX0tJVE82TmtDTzBNNmVWelh1MjQtcmJpOXBmbUROSDFIWG5vZE5rMkR0VUo3VVdoUEZ6ZVV6MTlUOEwzZXJWUmxjNjhHT1VvQ3FkM1JTUE5MMEh6enJVbjNB?oc=5",
+     "title": "비엣젯항공, 11월 11일 더블데이 특가 프로모션...한국-베트남 전 노선 적용",
+     "outlet": "시선뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXdUw1Uk5odkl1ZklkRVpJLVZTekVQV3RGdjk1WEdXYWRGamdDS0VLUEU2d3JKWldySGZJN1RDa2JPaEJ6dHFYdHQyM3hwVUhIcmlHWXBYSGN6a2U3bmJaV2tXZDlWWmh4UGd6eHBR0gFyQVVfeXFMT0tVUkNUSU1RLWRqN2I5ZlRNZnNVRVVtdGNYWTJHUHp0c0RvZWdNaTlKNmNpRG5RaURPTENEYjlsUU5tM0tpZV9QZEFFeWJ2UVZCeENLeWZPbE9FSnpXRExRdkpDQzVXYThhSGQzaEc2Uk5R?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "비엣젯항공, 11월 11일 더블데이 맞아 항공권 특가 판매",
+     "outlet": "경상일보",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NTkZPNGxJM1owR1Y3TTR6WVVJOGZBQ1RaUGE4VWtiVFdta0cwZWFPVGRubUlTRWZQc0MxcGdLVlNxc0d5Z2dwZWZ5c1JfZWQwdFFjbUthR25UODdCQ3BCNUMydUNtbl9Vay1idA?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "홍콩익스프레스, 성수동 팝업 개최→비엣젯항공, '더블데이' 맞아 항공권 특가 판매",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fWE9XVEN3TWE4bllNSEQ4R19KOWlFcXdwNWdBVWxreWd1YzVPMEFBSGgxQWR2TUN5OUdqT25IcFVtWlJTVXJYcjZOdWk5UHdjY3k4UE5LVUFFTkJZMnd3SFlBUFZlQQ?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "비엣젯항공, 한국-베트남 전 노선 더블데이 특가 진행",
+     "outlet": "비건뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xNWlHSm1XRHRZQzlad0otZFdnNjd5LTFlemxjdm9qTHpnVTRJdmh3akNpZWxGZUpCZDZuQlVITGlMaU1NY3JmaElyZ0RWUzkxYUtYSG5vblZNejM5ci1sR1J5YkZKdw?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "비엣젯항공, 11월 11일 더블데이 항공권 특가 판매...최대 25% 할인",
+     "outlet": "livesnews.com",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Zb2pqMUNJWW03QTVpWjlMN2E1VFNXSTI4TlRFOXdZekZUdGNxTVlOa1F4WmtJVnUxOGJnY0NxX2JGa1NxeWpNNE91V2pnNEtBbjB4MnhaeVNWVnFQdDl3RjNR?oc=5",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "비엣젯항공, 더블데이 맞아 항공권 특가 프로모션 돌입",
+     "outlet": "스페셜타임스",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mWmQ3WjlPTE5lam4xOW5zcjNLdkhrMHRscG9GLThhOGRFSVNUQkxuVVRLQ2F6MmE0cGN4UHBJcE9BT3dHdFU5SnhIUXlZRzBsYkpxSENoeEU2NGhWQVJHSHdCbmJXTFQ5X2NUTWw1TXJPa00?oc=5",
      "published": "2026-11-11"
     },
     {
-     "title": "신라호텔·면세점, 블랙프라이데이 할인 확대",
-     "outlet": "한국금융경제신문",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12MEtRWGlwYXgwNUxVU0plRFItdmRwQU5Jcmt1ekdZRWg2ZWIwUzB2eE1VUzhLTkVLaFhJRXNIR192TFFIYmU3Wlk1MjBHdHU4TnZXd3VBOUVfSzk3UUdoSWtBdWNhc1hfS040adIBcEFVX3lxTE15ODlPVUxMcFpVLWZ5YUxieUxJSHhTUElPUk0zMEtvZUZiSUZmYy1CQVJKQWZEV1JuOUlZcXR3Sjd4MkNaWTJxNUsyV290VDYtcFVWUHpZUTdtSk9GRUN0c2JOZm1BeVJnVUxTNndPU2o?oc=5",
+     "title": "비엣젯항공, 11.11 '더블데이' 맞아 항공권 특가판매",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPWDZDeng5dm9SNE5nWjQ4SVV3WGlocnZNTTVHQ1dGdmJyUjBqbExIb3JSMjJpa1oybnk1UWFleWhncXlWcnJzS2JMaXl2ZTltcS1tcHY1cGVwOHZLVVc1dnhxdWE0UQ?oc=5",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "비엣젯항공, ‘11월 11일’ 국내외 특가항공권 프로모션…최대 무료",
+     "outlet": "인사이드비나",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12bVNfVFdXeFVEOGU0TlFsLWVfNlp6SnliUmFmU1lyVzN4Njk4VkpFMDB1Ukt1ZDBlbjJSUVJubmZSNU4yeFJESEJIdS1XVzdza3c1UFNqbHllR2ZOUlZCWk4zTWFjWjE1ZTJKQg?oc=5",
      "published": "2026-11-10"
-    },
-    {
-     "title": "신라호텔 최대 28%·조선호텔 최대 77% 할인…호텔가 연말 특가 경쟁",
-     "outlet": "세계일보",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YTE5DMlJtcEpkeWVqRlFYWFNSa1M1ekVxcG94MjMyeUkzNEswTjlpd1ZwWlFJNUlKZ0NFUnVFVUg3UWdyeDhkY2VPcU5LbzNROGt0R9IBVEFVX3lxTE5YTE5DMlJtcEpkeWVqRlFYWFNSa1M1ekVxcG94MjMyeUkzNEswTjlpd1ZwWlFJNUlKZ0NFUnVFVUg3UWdyeDhkY2VPcU5LbzNROGt0Rw?oc=5",
-     "published": "2026-11-07"
-    },
-    {
-     "title": "신라호텔, 첫 블랙프라이데이 행사…객실 할인부터 전액 포인트백 추첨까지",
-     "outlet": "m.thepowernews.co.kr",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uMi12ZG9vTno1TzM5MC1RSjF5RzA2OXRRajB1dnlUV1M4SUlxNFBnXzExczFZTHV1NnJwSE1VM2Q4ajRiTVYwVGg3SWtSTm5JejR0WUlkOERHVG1pc3FybWp2dk5MejVoLXNhRnlMZ3daUVA2U1pHeFMxeXpWUQ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 블랙프라이데이 맞아 최대 28% 객실 할인",
-     "outlet": "파이낸셜포스트",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54ZU11RzFUV2R4VFNSd0xjcmd0RExKRDVockhzSFlLOHl3Vzh1cmtXNWk0Um5TaTNlQkdZd2tIUG5KMEJQeXpadjNOaXdVbnRzdkhGaW9xNTdodnVPbmF1bXpDRXhrR2Qtc1ZsNkJIYWpmZ01r?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 블랙프라이데이 행사…최대 28% 할인",
-     "outlet": "인사이트코리아",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rbXF2bEpOT0FIQ1hvSkI3OEkwMEZCZWJfdGhkTEhjem8zQzFUWGxFZFpPSWRXLWpUc3dPb21iOTVScktnYk1BR3o1dTlQZ19xVzdrUXNhUzZ5TEhoYTZLSHZfR3NtWkwzaUZNaVRGU0dYQmw5dF9v0gF3QVVfeXFMT2ttcXZsSk5PQUhDWG9KQjc4STAwRkJlYl90aGRMSGN6bzNDMVRYbEVkWk9JZFctalRzd09vbWI5NVJyS2diTUFHejV1OVBnX3FXN2tRc2FTNnlMSGhhNktIdl9Hc21aTDNpRk1pVEZTR1hCbDl0X28?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 블랙 프라이데이 프로모션…2027년 상반기 객실 최대 28% 할인",
-     "outlet": "하이뉴스",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE82Tk44MlRCQ2RGRGNieGpyb1V4SDZNYmR1RVJfZGdsQm1XME1yRUhONVJMYUJlMHBiT21aaDRjT2lJdVdMSDExcVVjdDdPa3V2UUR1MlNjX1dNTXVHM2FpSkxqUFNVTDRURjZ5amNTeVhWRFA3UEFF?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔, 블랙프라이데이 첫 도입…객실 할인에 경품 혜택까지",
-     "outlet": "중앙이코노미뉴스",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Md1BLWHhEendHWmNjVHd6dmp4TWNoeXQzMnlBZFp3RlZ1aURDRVVaZ1RsQkMxMmJ4TFNfR0dsNlNiVHBuMXk0MXc1TkxaQjVFUFFxTHRvd1JrMlhtcGRmVmlfcjZVRVMwYWJVdWlpOHBvQQ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 블랙프라이데이 프로모션 … 2027년 상반기 객실 최대 28% 할인",
-     "outlet": "워크투데이",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVamVUZlVjRDI0c2NlOWJXaVp6OWNuUzdqME9YSkRmV0ZxMU1JTlI3bVJMcXlENFFqcWpSVGxlODVVc3lJT01LaGtsWDRudkVHZ0lkZGlGS09CMzZFSFBSNFBpZVJiYXJuQXdyVA?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔, 첫 블랙 프라이데이 열고 상반기 객실 최대 28% 할인",
-     "outlet": "스마트비즈",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rcVJFaXBFTUFGMVFSbXEySlQtVWpPZV9sd2VxNWhLMy11NnVDejY5dkw4NDd1b3hoWENJVTFnalFCUE1RQWl5YnNUTlVfaXhRRzNNY0dNMElSSzlfYnFaNTdPZVg4d3BrTktidQ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 블랙프라이데이…2027년 상반기 객실 최대 28% 할인",
-     "outlet": "미래경제",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RZjRVTXVTcXYyRkIxaVR5TnhOZGl1NFZsV1hpdUh4d0k4Ump6X0wzTzZMT1R4TFRnQWNHdkNsdWlPVjhZOUphR1Q3cDhrQmZlV1hCS3ZOV3JMY2NzU2RDbE1VdWJOUlVHeGJ4Vw?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 블프 프로모션 연다…객실 최대 28% 할인",
-     "outlet": "AP신문",
-     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zZzBHRE43SFdkWkswaXVSSFRpNDVzNVhKVk80OE5GZ3RTeXFwVDZNa2tIdFc0ekFBSHJQZkF0bG4xa21Xd1loeFVueVlCdXdBSExTOWtlVnFfWnVhdEpuMlBsV05DMDEwZFVub9IBbEFVX3lxTE0zZzBHRE43SFdkWkswaXVSSFRpNDVzNVhKVk80OE5GZ3RTeXFwVDZNa2tIdFc0ekFBSHJQZkF0bG4xa21Xd1loeFVueVlCdXdBSExTOWtlVnFfWnVhdEpuMlBsV05DMDEwZFVubw?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 블랙프라이데이 첫 행사…내년 상반기 객실 최대 28% 할인",
-     "outlet": "스마트경제",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKOEpKVTRIV05qUmxQVEZITHI1ekZMc3BHVUg4ZDJVa082VzNDV0RUUHBNV0ozbGdmUlV5WnJjVUw4WnlsUkJ1Vmd5SkYxQXBqeEZxbkdsV0tDZE83UklNM29jNDd6Mm5qYTBwOHZGMA?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 블랙 프라이데이 맞아 최대 28% 객실 할인 프로모션",
-     "outlet": "뉴스퀘스트",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WVGRRV25mRHB3RnIzZ2p0RzhycjNOWWd0NXdLYUpOdkRpaEJ0ZFF2NHBNVmg4LVBfWlAwOU9zM3hlTVNraEl2Vk1pTFhWRjItSVV3eTE5OU41MnF2alV2ZFlWN09XY0ZKaDU4cUJHMA?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 블랙 프라이데이…내년 객실 최대 28% 할인",
-     "outlet": "한국면세뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAweEkxbmp5Wm81a19RNzVVVnBmYnktMUFiSlVNb1dOQlpwVjlTRk9ydnVleGNDRnRLbVQyajRhbWM4Ty1obk5nUi1CcUl0OUotSWIxc2FlV1hfcm9yUHZraXpab19HZ184OVE?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, '블랙 프라이데이' 맞아 내년 상반기 객실 최대 28% 할인",
-     "outlet": "컨슈머타임스",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VcHZXREFqY05nMUxzSmNDb1hSaXQwOXRLLS01RlFsYkhTM0duOGI2WVVQSjhqZDB2ejQteG1KbTVhNVh5TTFLaEdlTzFfV0VmNVB1SXBGTEhmQmx2MXdubXhBZjlWTlBLLUE?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔, 첫 블랙프라이데이 최대 28% 할인",
-     "outlet": "trndf.com",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TUnFrQnBDNGVmejNKRnlpeTFBWlNSNm95dERuN04wbGVIMERrUVI5WTdYdl9nU3pTemFadnZGOWtEdll0ZllmYjc2Wm9WdjNTc2gySnRJOTFteDlKemtxS3d6OHkxS2FvX2c?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 블랙 프라이데이 행사…객실 최대 28% 할인",
-     "outlet": "서울타임즈뉴스",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHV3Q0VDlHWEE2N0EyTk5OZy1PQ09kZGJOUmtQLXFPRDhLcS1pT2lkOFdjM0NZVnpmeWtOdU52VzhOSUxqbUR3RlFHcEl0QU9oREFrdW1CcnU2RTAxM0hzSlJubmtNbGE1UFl3?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 ‘블랙 프라이데이’…최대 28% 할인에 객실요금 전액 포인트백까지",
-     "outlet": "뉴스로드",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NbkhEdFI4MGw0XzFPdUN2SzAzd3lxRHhsRnVpVFc1LTNkSmczREZpcE9GbTVwSXhVdjlsTTNNS3FyaHNvOVZjZEhodktYRVV0SFJ3cHU5anhtOV8xbUw3SlU3bm1ZSzZGUkJB0gFvQVVfeXFMUFJSQ2tma2xJeUV0SlVVOVlCNVFxT1pUOU5WMnVyZmV4QXFUUkdyaENKcURrc01WUExvZTd0MFBsZUFpNjRoc0Z6Q21YMGdaTF9vME8zMW5MXzdSc3BHbkFrc281S1FjcTY5MDkxQnBJ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔, 첫 블랙프라이데이…객실 최대 28% 할인",
-     "outlet": "논객닷컴",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1McVQ1VXZZOFZvQVp5c0xnSXZiZ3R6SWVZbmE5WHhiR2lHRXVxR1hEZ3RqOUFBR3UxRFRzTHJEc1VOOUVnVDAwdnlzZXBPdllMZDBoUTBzZnFZQjgzVm5abUtqazRqSXpZUWVn0gFrQVVfeXFMTUxxVDVVdlk4Vm9BWnlzTGdJdmJndHpJZVluYTlYeGJHaUdFdXFHWERndGo5QUFHdTFEVHNMckRzVU45RWdUMDB2eXNlcE92WUxkMGhRMHNmcVlCODNWblptS2prNGpJellRZWc?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 블랙 프라이데이 프로모션…내년 상반기 객실 최대 28% 할인",
-     "outlet": "이로운넷",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xWURualg4aHBHekVIU1EtbEx4SjZ0MHJWYWx4Ym1rQXUyM2hLaVpGY2pmekdNc3V6WWhoRUoyM3F1M2FBN1VHbHFPbTJWWVh3cGlvYmNwb1BybEJUaW5KS21uM3FuZw?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "2027년 상반기 객실 최대 28% 할인…신라호텔, 첫 '블랙 프라이데이' 개막",
-     "outlet": "열린뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Wb29qM0dNVmh4bFZsd2EtS0o0MUUwMjdxRlo5eUJCVmFwQ2dMR2JIUEVOVUtvMW5aeHExZlpUT3puZEp6bnMzWFVPOTBDTHZLa1Zla1lsV3BBZjhucTNiVlI2eDRyQQ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔, 첫 블랙 프라이데이…내년 상반기 객실 최대 28% 할인",
-     "outlet": "연합뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsc1RzNnNJNEZoYkhxcUdkWWs3ZGhrRkN5dGppNWVsT21pTE1rdVAwYWZ5X2I1S3Z1VXJzUWU4VldIclYwbEdFRTFQM2VCVHh2LVdWZ0NyeGVBTHJ1clRaQdIBYEFVX3lxTFBsc1RzNnNJNEZoYkhxcUdkWWs3ZGhrRkN5dGppNWVsT21pTE1rdVAwYWZ5X2I1S3Z1VXJzUWU4VldIclYwbEdFRTFQM2VCVHh2LVdWZ0NyeGVBTHJ1clRaQQ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔, 내년 상반기 객실 최대 28% 할인…블랙프라이데이 특가",
-     "outlet": "아시아경제",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IeU5PNGVLZmlBVW95QTFVa1JTbHRzdGdjamkwd29vWXdkZUZQaHBwVGE4eFo4YkxtbkIzSk9WZEFZVHBERGRvMTZscGEtRmlmSExaMzFsUWR1TzVtbXBCVQ?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 '블랙 프라이데이'…내년 상반기 객실 최대 28% 할인",
-     "outlet": "뉴스1",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0dGI3Skg3U1k0dEowMWpwbWpURTBHV1RhR1pDM1Y2X1hDZUw5SlRuYlRiVnZtcEpmZjk4TkNjaElja1VRREZOekswWVlEZUJYZlpiY2UwRlRYWHBVNEh3?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 블랙 프라이데이 행사…내년 객실 최대 28% 할인",
-     "outlet": "세계일보",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oa3VLUTZ6c2pwNHJDdERWYUxOTGJUMHl4OWRrTEFKdHNrS2E2RHdSLVZpQVZ4bG1aRWoxLTVINlU3MEVoSGFjQm9rczNWY2hBakota2FpeFDSAVRBVV95cUxON2RfcG5FSVM2elBLSVV5Y3FUOVpEczhFeG9CekRjbTFLMk9iZnp1U1VVVkxZQ21jQms4WUhiM01FT2ZjRDBoY0o1WjJnSDlJa29Xc1I?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "“내년 여행, 지금 예약하세요”…신라호텔 첫 블랙 프라이데이 최대 28% 할인",
-     "outlet": "위메이크뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FTUVHWWNkZDZVSW1Xai1waURDR2tLMnNUY2hWb0VGSGVzektqVWZpUld6RFZvRGhqV0RvWWswbWR5Qk1VbjQ5Wnh6X2IydS1LSC1OSkhkeXFsNGc?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "\"내년 상반기 여행 지금 잡아라\"... 신라호텔, 블랙프라이데이 특가 쏟아진다",
-     "outlet": "인사이트",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9oVGJnMl9MWTJUMkwzVGw2TlU3ZGJ4aXRiNHBJTVdFNXZCa3hMWTEwNnJfZ1ZDdWpPRWdYdDNZNFo3LU9xM21tbnAzWVcyZw?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔앤리조트, 첫 '블랙 프라이데이' 프로모션…최대 28% 할인",
-     "outlet": "브레이크뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5jY2VMaU1DZndyZzBOcDRCcktGNXBYLURYUTFEWFM4OEE3d3ZNcW1XdXZTME5JeTJVVkxSYXl5NTkwZw?oc=5",
-     "published": "2026-11-06"
-    },
-    {
-     "title": "신라호텔, 블랙 프라이데이 기념…새해 객실 예약 최대 28% 할인",
-     "outlet": "중앙신문",
-     "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPeDBMVEVSMV80VENQdGs2WmtnMWwzUWplLWVHeXlobUt0TVdjQy04WXhqMTNUN1hFT0ZGZ2JTaDM4bFNBMHh6cXpMTll5NUZxU2F5Mkt5ZkFFZlNoOTh1QjZNMXlKQVpLa3JWb3dyN3BvQlBPM1lGOENFN1g1TzREZ0tJUVh0Q3Z4ZXlxRXItMnVCdHNpNmJOVHo5S1ZiOG42TUY1ZXhYSHVVTnFZOVpQNm1IYnUycVlDU0hJbk5tRGpJeFBIM0FtSVdDSkNKSnNGbXgtYnROX2U2Zm83eklnelFhQ1NDX0xPX2I2UnpsZ2JSYk1mQWpmdWZkaHFXTzE4blJsZE85Q2I2LVNYQkNReXRtb3gydWgzQWZ0NFBpLWo3SnJrTU1sdDMtR0d1M3FYbmJXNlEyUnFkOVBMdWZkSGgxbFF5RkxMZHY1eHRNWDVHNTlwcmE2OTBhVFJhVUtJSzJPQ19FdHAwUEJBUW9rLUtHVlF0ODFfelln?oc=5",
-     "published": "2026-11-06"
     }
    ],
-   "status": "ended"
+   "status": "stale"
+  },
+  {
+   "id": "hkexpress-1cad2b792c",
+   "airline_id": "hkexpress",
+   "airline": "홍콩익스프레스",
+   "airlines_mentioned": [
+    "홍콩익스프레스"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.hkexpress.com/ko-kr/",
+   "iata": [
+    "UO"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "홍콩익스프레스, 기간한정 특가…부산~홍콩 편도 8만 8600원부터",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "부산(PUS)",
+     "destination": "홍콩(HKG)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "홍콩익스프레스, 기간한정 특가…부산~홍콩 편도 8만 8600원부터",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aZGJPVHJTOHdEc3Z4QjFoQWtDWWd5S21pU2dSUG9SZlFIWWppZkVhdV9MNEZTQjdfMVJYbkdwb21OaVZDYmkyNEFaalRpMmZzcWpUdnl3TkJzUUZVZkcwYnFhWGJGb0R2Rmw2RE9fWnF6dG1n?oc=5"
+    },
+    "route": {
+     "title": "홍콩익스프레스, 기간한정 특가…부산~홍콩 편도 8만 8600원부터",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aZGJPVHJTOHdEc3Z4QjFoQWtDWWd5S21pU2dSUG9SZlFIWWppZkVhdV9MNEZTQjdfMVJYbkdwb21OaVZDYmkyNEFaalRpMmZzcWpUdnl3TkJzUUZVZkcwYnFhWGJGb0R2Rmw2RE9fWnF6dG1n?oc=5"
+    }
+   },
+   "from_icn": "no",
+   "discount": "8만8600원부터",
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-12T16:43:47+09:00",
+   "last_seen": "2026-11-12T16:43:47+09:00",
+   "articles": [
+    {
+     "title": "홍콩익스프레스, 기간한정 특가…부산~홍콩 편도 8만 8600원부터",
+     "outlet": "부산일보",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aZGJPVHJTOHdEc3Z4QjFoQWtDWWd5S21pU2dSUG9SZlFIWWppZkVhdV9MNEZTQjdfMVJYbkdwb21OaVZDYmkyNEFaalRpMmZzcWpUdnl3TkJzUUZVZkcwYnFhWGJGb0R2Rmw2RE9fWnF6dG1n?oc=5",
+     "published": "2026-11-12"
+    }
+   ],
+   "status": "stale"
   },
   {
    "id": "trinity-f7a40e227f",

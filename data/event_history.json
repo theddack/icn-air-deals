@@ -411,6 +411,16 @@
    "sale_start": "2026-11-10",
    "sale_end": "2026-11-12"
   },
+  "vietjet|2026-11-25|블랙프라이데이": {
+   "airline_id": "vietjet",
+   "airline": "비엣젯항공",
+   "name": "블랙프라이데이",
+   "sale_start": "2026-11-25",
+   "sale_end": "2026-11-27",
+   "dests": [
+    "베트남"
+   ]
+  },
   "vietjet|2026-11-25|비엣젯항공의3일간황금프로모션11월25일부터2": {
    "airline_id": "vietjet",
    "airline": "비엣젯항공",
