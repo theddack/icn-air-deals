@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T04:35:38+09:00",
+ "generated_at": "2026-11-26T09:14:05+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2543,
+  "rss_items": 2449,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1903,
+  "outlet_items": 2069,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 86,
-  "articles": 988,
-  "new_articles": 1,
-  "deals": 207
+  "articles": 992,
+  "new_articles": 4,
+  "deals": 208
  },
  "deals": [
   {
@@ -45,7 +45,7 @@
    "iata": [],
    "agencies": [],
    "event_name": null,
-   "headline": "Marriott 25% Off 2026 Cyber Sale For Weekend Stays November 29 – May 2, 2027 (Book November 24 – December 1)",
+   "headline": "Marriott offers members 25% off qualifying Cyber Week stays",
    "sale_start": "2026-11-29",
    "sale_end": "2027-05-02",
    "travel_start": null,
@@ -60,18 +60,24 @@
      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTVh0Q0FGTDdmeEVGSG9PNEIxLVhpa09VcjctSzFobVluTExuMjRfTG00T3RGV0hLTmJvMzlSWGZ3eUY4QUdBZDVsVTBVTU1JRE9kalNFZWdPNUF4cWw2UHQzZUExUnQzbU5uTkg1S3NTR25xcjhOYjFvQWpQTzNERzhEQ3lzM3dncWJWUEI3aG16TE1GZkxuNGN5dUpiUEx1bG5XdzRjTlJfenB3emFnRUVJVTkwOHFjS2tmSFd6cFVvY3prbkF2VmNCOFZjOU9SdGxN?oc=5"
     },
     "discount": {
-     "title": "Marriott 25% Off 2026 Cyber Sale For Weekend Stays November 29 – May 2, 2027 (Book November 24 – December 1)",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTVh0Q0FGTDdmeEVGSG9PNEIxLVhpa09VcjctSzFobVluTExuMjRfTG00T3RGV0hLTmJvMzlSWGZ3eUY4QUdBZDVsVTBVTU1JRE9kalNFZWdPNUF4cWw2UHQzZUExUnQzbU5uTkg1S3NTR25xcjhOYjFvQWpQTzNERzhEQ3lzM3dncWJWUEI3aG16TE1GZkxuNGN5dUpiUEx1bG5XdzRjTlJfenB3emFnRUVJVTkwOHFjS2tmSFd6cFVvY3prbkF2VmNCOFZjOU9SdGxN?oc=5"
+     "title": "Marriott offers members 25% off qualifying Cyber Week stays",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZUlGNFU1SnRQcjFJTHhuS2lqWG9Gc0x5RElPMUhiSXlMaUNHSW9JX0poQTR1elVadlI0QUJkaXoxeTNqc3pQT2l0R1pzcXU2YU83SVlTTXJfaURuRm1IZENNOW04S2QzNTBSZGctNTBwaHBGel9lbkQ1Q05CS2NWVERwQ1dKaG01Mlc1bkFUYmEyUUNmTERobA?oc=5"
     }
    },
    "from_icn": null,
    "discount": "25% 할인",
    "verification": "news",
    "first_published": "2026-11-13",
-   "last_published": "2026-11-24",
+   "last_published": "2026-11-26",
    "first_seen": "2026-11-13T02:44:33+09:00",
-   "last_seen": "2026-11-24T22:17:42+09:00",
+   "last_seen": "2026-11-26T09:14:05+09:00",
    "articles": [
+    {
+     "title": "Marriott offers members 25% off qualifying Cyber Week stays",
+     "outlet": "www.insideflyer.com",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZUlGNFU1SnRQcjFJTHhuS2lqWG9Gc0x5RElPMUhiSXlMaUNHSW9JX0poQTR1elVadlI0QUJkaXoxeTNqc3pQT2l0R1pzcXU2YU83SVlTTXJfaURuRm1IZENNOW04S2QzNTBSZGctNTBwaHBGel9lbkQ1Q05CS2NWVERwQ1dKaG01Mlc1bkFUYmEyUUNmTERobA?oc=5",
+     "published": "2026-11-26"
+    },
     {
      "title": "Marriott 25% Off 2026 Cyber Sale For Weekend Stays November 29 – May 2, 2027 (Book November 24 – December 1)",
      "outlet": "LoyaltyLobby",
@@ -2472,8 +2478,8 @@
     "YP"
    ],
    "agencies": [],
-   "event_name": null,
-   "headline": "에어프레미아, 첫 중국 노선 닝보 취항…최대 20% 할인",
+   "event_name": "닝보 신규 취항 기념할인",
+   "headline": "에어프레미아, '닝보 신규 취항 기념할인' 돌입…아시아 노선 전격 확대",
    "sale_start": null,
    "sale_end": "2026-12-01",
    "travel_start": null,
@@ -2505,10 +2511,16 @@
    "discount": "최대 20%",
    "verification": "news",
    "first_published": "2026-11-25",
-   "last_published": "2026-11-25",
+   "last_published": "2026-11-26",
    "first_seen": "2026-11-25T13:18:15+09:00",
-   "last_seen": "2026-11-25T18:10:08+09:00",
+   "last_seen": "2026-11-26T09:14:05+09:00",
    "articles": [
+    {
+     "title": "에어프레미아, '닝보 신규 취항 기념할인' 돌입…아시아 노선 전격 확대",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10MmpPaXVObG9Ma2tLaXYtTjZZRVcyZ0Z1R2JVdVBDM3phYVpaSElFdS1WRUt3UDVxQnpaRzlrSFV1MVU1OHBVa3pmTDNESkI5eGRpOExLOVRTdjc4dF8tX2RqYnIzVVJhc29r?oc=5",
+     "published": "2026-11-26"
+    },
     {
      "title": "에어프레미아, 첫 중국 노선 닝보 취항…최대 20% 할인",
      "outlet": "데일리안",
@@ -7520,6 +7532,58 @@
    "status": "undated"
   },
   {
+   "id": "h-other-fc959e14eb",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Taeyoung E&C's Inje Speedium offers up to 80% off winter stays for Desiang customers",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Taeyoung E&C's Inje Speedium offers up to 80% off winter stays for Desiang customers",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPWFpoeFNaX05ibF9xZExBWUdIUDQ4b2daS01aZnZZS2tYc2NxbFY3bnlVMklQTDFDYnJ0TkMzNi05MGhZZW4tWlBxdW80WTVjZzcwZkNR?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 80%",
+   "verification": "news",
+   "first_published": "2026-11-18",
+   "last_published": "2026-11-18",
+   "first_seen": "2026-11-26T09:14:05+09:00",
+   "last_seen": "2026-11-26T09:14:05+09:00",
+   "articles": [
+    {
+     "title": "Taeyoung E&C's Inje Speedium offers up to 80% off winter stays for Desiang customers",
+     "outlet": "헤럴드경제",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPWFpoeFNaX05ibF9xZExBWUdIUDQ4b2daS01aZnZZS2tYc2NxbFY3bnlVMklQTDFDYnJ0TkMzNi05MGhZZW4tWlBxdW80WTVjZzcwZkNR?oc=5",
+     "published": "2026-11-18"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-other-9567c4d8b6",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -9469,7 +9533,7 @@
    "first_published": "2026-10-15",
    "last_published": "2026-11-25",
    "first_seen": "2026-10-19T13:48:24+09:00",
-   "last_seen": "2026-11-25T13:18:15+09:00",
+   "last_seen": "2026-11-26T09:14:05+09:00",
    "articles": [
     {
      "title": "광양시, 섬진강권 4개 시·군 숙박 할인 ‘섬진강여행 여기어때’ > 뉴스",
@@ -9511,6 +9575,12 @@
      "title": "광양시 '섬진강여행 여기어때' 숙박 할인",
      "outlet": "브레이크뉴스",
      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBnX0M5ZVRISEpVVTltU1MzTXNJbEZ6b1BnVk4tbHFteldRd0ZONkFIaXV4S2dsN1ZPcGFNSTlUWmREQQ?oc=5",
+     "published": "2026-11-24"
+    },
+    {
+     "title": "광양시, 섬진강권 4개 시·군 숙박 할인 ‘섬진강여행 여기어때’ 실시",
+     "outlet": "KJB광주방송",
+     "url": "https://news.google.com/rss/articles/CBMiNEFVX3lxTE1tQ1hIVUx0SUg3SWlDczhfbDgtNllWQnI1NU82akZwUERfM19uUFdHbnc5S24?oc=5",
      "published": "2026-11-24"
     },
     {

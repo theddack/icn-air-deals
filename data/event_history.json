@@ -205,6 +205,13 @@
    "sale_start": "2026-11-29",
    "sale_end": "2027-05-02"
   },
+  "h-marriott|2026-11-29|marriottoffersmembers25o": {
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "name": "Marriott offers members 25% off qualifying Cyber Week stays",
+   "sale_start": "2026-11-29",
+   "sale_end": "2027-05-02"
+  },
   "h-marriott|2026-11-29|marriottscyberweeksaleof": {
    "airline_id": "h-marriott",
    "airline": "메리어트",
