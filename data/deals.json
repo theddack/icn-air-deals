@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T13:18:12+09:00",
+ "generated_at": "2026-11-27T18:26:57+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2451,
+  "rss_items": 2466,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2150,
-  "outlet_new_articles": 0,
+  "outlet_items": 2105,
+  "outlet_new_articles": 1,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
-  "articles_with_summary": 87,
-  "articles": 976,
-  "new_articles": 5,
-  "deals": 214
+  "articles_with_summary": 88,
+  "articles": 982,
+  "new_articles": 6,
+  "deals": 217
  },
  "deals": [
   {
@@ -10155,12 +10155,18 @@
    "first_published": "2026-11-26",
    "last_published": "2026-11-27",
    "first_seen": "2026-11-26T17:53:51+09:00",
-   "last_seen": "2026-11-27T13:18:12+09:00",
+   "last_seen": "2026-11-27T18:26:57+09:00",
    "articles": [
     {
      "title": "괌정부관광청·대한항공, 겨울 괌 프로모션…항공권 혜택 펑펑",
      "outlet": "국제뉴스",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnelJJZUZOSHhsZlBuRk5La3l0eXpQWEs5NGFwSTV2bzNLQ25EVDVaXzdmbmVKUnpScDkxNFJsRDFBYzlSLTN3cGQxQ1A5T1ZuSTVSeFdoT0FvRHhLT25nMEFCbUNXcFBRdGNVMktB?oc=5",
+     "published": "2026-11-27"
+    },
+    {
+     "title": "[여행업계 HOT 뉴스] “올겨울 따뜻한 괌으로 떠나볼까”…괌정부관광청·대한항공 공동 프로모션",
+     "outlet": "비즈월드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA2YmczNEhMbVNXWTdBYVh6a2JCcnZWT2tqNmZfQ1JOdFJmeXVMRjI3RDI4LUNKZm9uT2xmWVdCVmo5NHVXWkwxX01ORTVJWXJjeGJqb1ZCQWswWlFranVCREFLVVVQS2R6cmlv?oc=5",
      "published": "2026-11-27"
     },
     {
@@ -10262,7 +10268,7 @@
    "status": "undated"
   },
   {
-   "id": "h-banyantree-c965ee9c9d",
+   "id": "h-banyantree-8d23e84e4b",
    "airline_id": "h-banyantree",
    "airline": "반얀트리",
    "airlines_mentioned": [
@@ -10280,7 +10286,7 @@
    "official_url": null,
    "iata": [],
    "agencies": [],
-   "event_name": null,
+   "event_name": "창사 이래 첫 대규모 타임 세일",
    "headline": "[공간혁신] 도도했던 5성급 호텔이 블프 세일?…반얀트리 서울의 첫 할인이 던진 '셀프 어워딩'",
    "sale_start": null,
    "sale_end": null,
@@ -10299,12 +10305,24 @@
    "first_published": "2026-11-27",
    "last_published": "2026-11-27",
    "first_seen": "2026-11-27T09:14:08+09:00",
-   "last_seen": "2026-11-27T09:14:08+09:00",
+   "last_seen": "2026-11-27T18:26:57+09:00",
    "articles": [
     {
      "title": "[공간혁신] 도도했던 5성급 호텔이 블프 세일?…반얀트리 서울의 첫 할인이 던진 '셀프 어워딩'",
      "outlet": "뉴스스페이스",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DTjhMN0tsUTVkTzhUTWFLWlhzdWs5RzZBbTlreElwTm9wVDRLREVCQnpUZ1BrMDdGZUk4WlY4NzYwYjNtbWV6MWNOdk1Eb1hLSzdNUWRBYXczMGs2QnRxWQ?oc=5",
+     "published": "2026-11-27"
+    },
+    {
+     "title": "반얀트리 서울, 첫 전 부문 통합 할인…객실·다이닝·스파 등 통합 프로모션",
+     "outlet": "세계일보",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE93eEtVSk91TUZCY1N0NnJDaTIyY2VDaFBmT2hrRnNEVHJhdzFWOVhjYmdnWExDTWhiUnJRRVYwYlZpb28ydVIySUx3SGZuT1Zv0gFUQVVfeXFMUG9zaldEQU5iZWV3cnJEUERTRDI4Y2FBazNpbG9uTFBJNlJsMXdXUDV1dzYya01tUktYczItVHFpTDNzY0xoc0NBT2JDUHRmXzJ5QTR3?oc=5",
+     "published": "2026-11-27"
+    },
+    {
+     "title": "반얀트리 서울, 객실 최저 60만원 \"창사 이래 첫 대규모 타임 세일\"",
+     "outlet": "남다른디테일",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15UE9GWjNnd1JuckFkdnBzZ1V3X2lEWXhObVZnaUhtYjRQaG5tWmxwZkhJUWMyVExlR1oxdGhOWTFoUQ?oc=5",
      "published": "2026-11-27"
     }
    ],
@@ -10352,6 +10370,160 @@
      "title": "Viva Resorts launches Black Friday BOGO sale across 7 resorts",
      "outlet": "Pax News",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaFJwMkJfMmN2c2pBbV9rMXVucFl5S214aWptOFNPUFR1eHV0UzhOTTB0SV9VSUVhOUMwSnNuT3BGRmNjYmxRVzNNVktvTDNheldncG96dkN4UEhqZUprZzAwRnVKU0Npd3A2ck40cXFuYlRRQ28yNDY5Nkh4czlweHJxZ3BGQUZoY3hzTjZ6dUJuanlDemR0NHFndDk?oc=5",
+     "published": "2026-11-27"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-cc97b61de9",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Black Friday Travel Deals Expand to Flights, Hotels and Cruises in Israel",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-27",
+   "last_published": "2026-11-27",
+   "first_seen": "2026-11-27T18:26:57+09:00",
+   "last_seen": "2026-11-27T18:26:57+09:00",
+   "articles": [
+    {
+     "title": "Black Friday Travel Deals Expand to Flights, Hotels and Cruises in Israel",
+     "outlet": "SSBCrack",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbm81akxmdlBWMTM0QzFycnB2U25DaGxGUXc1Z3ZWeWJfVHhzZC1wR2NjR01KTGNmUjJYd2hsVHZjQkItcU1WUGRIWnExdHc3VmVNS1RUeV9RSzVqdk1kVFF0WTZvTjk1eVFZckhLSVh2dmlnY0pfM2k3a2NZaWt1bzI5TzNJOWhFLWlDMDN4YUM2R3dBLWRYbmFPUnZSQ0Zs?oc=5",
+     "published": "2026-11-27"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-6abe18edf1",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Black Friday travel deals are here: Save up to 65% on hotels, cruises, and more",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Black Friday travel deals are here: Save up to 65% on hotels, cruises, and more",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0QlJ1MW9ncFU1djFCbFgzWlRPaWM5b2hDSjZESzdMNTFwRE1OTGdCMmNjSXdIYV9wd296djRDNlM2WHNxb2V2Nm1TcEhrX1ZkOFc5ZHlqMVlrUllRVWhUNFZsQ0lGYUVpMGVEcUh3?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 65%",
+   "verification": "news",
+   "first_published": "2026-11-27",
+   "last_published": "2026-11-27",
+   "first_seen": "2026-11-27T18:26:57+09:00",
+   "last_seen": "2026-11-27T18:26:57+09:00",
+   "articles": [
+    {
+     "title": "Black Friday travel deals are here: Save up to 65% on hotels, cruises, and more",
+     "outlet": "USA TODAY 10BEST",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0QlJ1MW9ncFU1djFCbFgzWlRPaWM5b2hDSjZESzdMNTFwRE1OTGdCMmNjSXdIYV9wd296djRDNlM2WHNxb2V2Nm1TcEhrX1ZkOFc5ZHlqMVlrUllRVWhUNFZsQ0lGYUVpMGVEcUh3?oc=5",
+     "published": "2026-11-27"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-0fc2649296",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "ko",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "초겨울 해외 항공권 검색 47%가 일본⋯베트남 호텔비 23% 올라",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": "2026-11-01",
+   "travel_end": "2026-12-20",
+   "routes": [],
+   "regions": [
+    "일본",
+    "베트남"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "travel": {
+     "title": "국민일보 요약문: 지난해 비교 대상 여행 기간은 11월 1일부터 12월 20일까지다.",
+     "url": "https://www.kmib.co.kr/article/20261127500809"
+    }
+   },
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-27",
+   "last_published": "2026-11-27",
+   "first_seen": "2026-11-27T18:26:57+09:00",
+   "last_seen": "2026-11-27T18:26:57+09:00",
+   "articles": [
+    {
+     "title": "초겨울 해외 항공권 검색 47%가 일본⋯베트남 호텔비 23% 올라",
+     "outlet": "국민일보",
+     "url": "https://www.kmib.co.kr/article/20261127500809",
      "published": "2026-11-27"
     }
    ],
