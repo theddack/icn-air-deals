@@ -1,10 +1,10 @@
 {
- "checked_at": "2026-11-27T09:14:05+09:00",
+ "checked_at": "2026-11-27T13:18:10+09:00",
  "days": 21,
- "searched": 14,
+ "searched": 15,
  "sender:스쿠트항공": 2,
- "checked": 14,
- "no_facts": 8,
+ "checked": 15,
+ "no_facts": 9,
  "no_facts:스쿠트항공": 1,
  "sender:에어부산": 6,
  "no_facts:에어부산": 4,
@@ -22,5 +22,7 @@
  "accepted:제주항공": 1,
  "sender:LOT폴란드항공": 1,
  "no_facts:LOT폴란드항공": 1,
+ "sender:루프트한자": 1,
+ "no_facts:루프트한자": 1,
  "kept": 12
 }

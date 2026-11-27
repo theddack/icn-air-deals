@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T09:14:08+09:00",
+ "generated_at": "2026-11-27T13:18:12+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2557,
+  "rss_items": 2451,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2062,
+  "outlet_items": 2150,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 12,
   "mail_new_articles": 0,
   "articles_with_summary": 87,
-  "articles": 971,
-  "new_articles": 2,
-  "deals": 212
+  "articles": 976,
+  "new_articles": 5,
+  "deals": 214
  },
  "deals": [
   {
@@ -1921,88 +1921,6 @@
    "status": "live"
   },
   {
-   "id": "trinity-8fc6269b3a",
-   "airline_id": "trinity",
-   "airline": "트리니티항공",
-   "airlines_mentioned": [
-    "트리니티항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": "international",
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.twayair.com/",
-   "iata": [
-    "TW"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "트리니티항공, 고객 참여형 SNS 이벤트… 국제선 항공권 최대 10만원 할인",
-   "sale_start": null,
-   "sale_end": "2026-11-29",
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "sale": {
-     "title": "트리니티항공, 국제선 최대 10만원 할인…29일까지 인스타그램 팔로우 이벤트",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1abGpQVzcwWVV6cTBSVHNLLVZnUHJmRF93UWZqNkk5YlltVEJfemYxNW1yanYzR01EYWhoWVNlOFMwUjM2YmxDU01xTENOTUg2TnpBb1lNcHlvRWV5ektabnp0YldEQ3k5bmc?oc=5"
-    },
-    "discount": {
-     "title": "트리니티항공, 고객 참여형 SNS 이벤트… 국제선 항공권 최대 10만원 할인",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd05VMEtwOGRHaUZpU0QyaTBwcWpHb2ZYaUs4Um1oSkphV2FtSkgxZ0ZuZklUWkMtT3dyQ01fUjJIUDZvNE84SWdFRlZyajN0UVlMN3laLXpabElFb0YxZjZqblpqMlRMTW5mcV9uVm1GUjFycXh6clFZMTdSRWxVTWxMd1I1QQ?oc=5"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": "최대 10만원 할인",
-   "verification": "news",
-   "first_published": "2026-11-25",
-   "last_published": "2026-11-25",
-   "first_seen": "2026-11-25T09:14:02+09:00",
-   "last_seen": "2026-11-25T18:16:01+09:00",
-   "articles": [
-    {
-     "title": "트리니티항공, 고객 참여형 SNS 이벤트… 국제선 항공권 최대 10만원 할인",
-     "outlet": "뷰티트래블뉴스",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd05VMEtwOGRHaUZpU0QyaTBwcWpHb2ZYaUs4Um1oSkphV2FtSkgxZ0ZuZklUWkMtT3dyQ01fUjJIUDZvNE84SWdFRlZyajN0UVlMN3laLXpabElFb0YxZjZqblpqMlRMTW5mcV9uVm1GUjFycXh6clFZMTdSRWxVTWxMd1I1QQ?oc=5",
-     "published": "2026-11-25"
-    },
-    {
-     "title": "트리니티항공, SNS 팔로워 확대 나서···국제선 최대 10만원 할인",
-     "outlet": "뉴스프리존",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96MU5SaTlTTzNaUHVkLWFKa0hjcW5STTllLXJPUms3QnJjY0FnSDdzcllzZGczT0JVTU8xZGNmMnUyOW5OdWdKWFUwMFVrbzdzdC1fTGx2cTlEd1hnRkNUQmhKOURNYlR3eFMtR1U0cVo2S2fSAXdBVV95cUxNLU84Q0p6NEprQmduUk1CNkRMRmE3R2ZpM0R2V0ZJT1VvaXlUak10cEdCbW1PNU8zWW5JTERmdE5mNExqbXh1VndtanVjRGlQMzZpX01nTzlmeVpCeFFvSEdvZ085M0cxenhZNWg2aWVmT1ZjQXdFaw?oc=5",
-     "published": "2026-11-25"
-    },
-    {
-     "title": "트리니티항공, 국제선 탑승률 90%… SNS 팔로워 확대에 최대 10만 원 할인",
-     "outlet": "한국일보",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1VSXRKOXZxRHc0ak84cVplX1pKUkJFMFROcnN3WjJNOXFfaU1rUXVIdjhDZno1cmpLakxtaTFTV2F6Q0t5V3hBV1Y4X2pqbkpBT1RDT3BySEtTMjNqSWxBNWo5SjlkQnQtSHE3dVpR?oc=5",
-     "published": "2026-11-25"
-    },
-    {
-     "title": "트리니티항공, 국제선 최대 10만원 할인…29일까지 인스타그램 팔로우 이벤트",
-     "outlet": "컨슈머타임스",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1abGpQVzcwWVV6cTBSVHNLLVZnUHJmRF93UWZqNkk5YlltVEJfemYxNW1yanYzR01EYWhoWVNlOFMwUjM2YmxDU01xTENOTUg2TnpBb1lNcHlvRWV5ektabnp0YldEQ3k5bmc?oc=5",
-     "published": "2026-11-25"
-    },
-    {
-     "title": "팔로워 늘면 항공권 할인도 커진다…트리니티항공, SNS 이벤트",
-     "outlet": "스포츠서울",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DZkpyRTYwSUJ5Y1g0SDEwOUVxdkRnblJKbE4xZW1JV0xXZmZnNjdpQ3NJaVNoMFd2UG1xazZEaTd6R1FEMl8wZ045YnhsUE8yUWNWaHhHWG0?oc=5",
-     "published": "2026-11-25"
-    }
-   ],
-   "status": "live"
-  },
-  {
    "id": "qatar-0c2458bdf7",
    "airline_id": "qatar",
    "airline": "카타르항공",
@@ -2132,6 +2050,94 @@
      "outlet": "브레이크뉴스",
      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1vSTlrSkxQYXVFd0NvUWllbVlfa053WWU5cFh6Z0tmSFJQT0Ria09SRllBcEk2Ujg0ZGJtVGR6NTJuTGhYMXJj?oc=5",
      "published": "2026-11-23"
+    }
+   ],
+   "status": "live"
+  },
+  {
+   "id": "trinity-8fc6269b3a",
+   "airline_id": "trinity",
+   "airline": "트리니티항공",
+   "airlines_mentioned": [
+    "트리니티항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": "international",
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.twayair.com/",
+   "iata": [
+    "TW"
+   ],
+   "agencies": [],
+   "event_name": "항공권 결제부터 쇼핑 할인까지",
+   "headline": "“항공권 결제부터 쇼핑 할인까지”…트리니티항공, 외국인 혜택 확대",
+   "sale_start": null,
+   "sale_end": "2026-11-29",
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "sale": {
+     "title": "트리니티항공, 국제선 최대 10만원 할인…29일까지 인스타그램 팔로우 이벤트",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1abGpQVzcwWVV6cTBSVHNLLVZnUHJmRF93UWZqNkk5YlltVEJfemYxNW1yanYzR01EYWhoWVNlOFMwUjM2YmxDU01xTENOTUg2TnpBb1lNcHlvRWV5ektabnp0YldEQ3k5bmc?oc=5"
+    },
+    "discount": {
+     "title": "트리니티항공, 고객 참여형 SNS 이벤트… 국제선 항공권 최대 10만원 할인",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd05VMEtwOGRHaUZpU0QyaTBwcWpHb2ZYaUs4Um1oSkphV2FtSkgxZ0ZuZklUWkMtT3dyQ01fUjJIUDZvNE84SWdFRlZyajN0UVlMN3laLXpabElFb0YxZjZqblpqMlRMTW5mcV9uVm1GUjFycXh6clFZMTdSRWxVTWxMd1I1QQ?oc=5"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": "최대 10만원 할인",
+   "verification": "news",
+   "first_published": "2026-11-25",
+   "last_published": "2026-11-27",
+   "first_seen": "2026-11-25T09:14:02+09:00",
+   "last_seen": "2026-11-27T13:18:12+09:00",
+   "articles": [
+    {
+     "title": "“항공권 결제부터 쇼핑 할인까지”…트리니티항공, 외국인 혜택 확대",
+     "outlet": "서울경제TV",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMNVY4bDg2VHNRdFl3cl94TGZMcGZmRDRaS3o0Z2k5MWZJd0RpZXg4Q3JSS09WVmR3MFNUNGpNUEJSQzRBLV8zZGVuNjlPMjZpTDVaNkpqdVJsVTFXUGM1MWFYMk4?oc=5",
+     "published": "2026-11-27"
+    },
+    {
+     "title": "트리니티항공, 고객 참여형 SNS 이벤트… 국제선 항공권 최대 10만원 할인",
+     "outlet": "뷰티트래블뉴스",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd05VMEtwOGRHaUZpU0QyaTBwcWpHb2ZYaUs4Um1oSkphV2FtSkgxZ0ZuZklUWkMtT3dyQ01fUjJIUDZvNE84SWdFRlZyajN0UVlMN3laLXpabElFb0YxZjZqblpqMlRMTW5mcV9uVm1GUjFycXh6clFZMTdSRWxVTWxMd1I1QQ?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "트리니티항공, SNS 팔로워 확대 나서···국제선 최대 10만원 할인",
+     "outlet": "뉴스프리존",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96MU5SaTlTTzNaUHVkLWFKa0hjcW5STTllLXJPUms3QnJjY0FnSDdzcllzZGczT0JVTU8xZGNmMnUyOW5OdWdKWFUwMFVrbzdzdC1fTGx2cTlEd1hnRkNUQmhKOURNYlR3eFMtR1U0cVo2S2fSAXdBVV95cUxNLU84Q0p6NEprQmduUk1CNkRMRmE3R2ZpM0R2V0ZJT1VvaXlUak10cEdCbW1PNU8zWW5JTERmdE5mNExqbXh1VndtanVjRGlQMzZpX01nTzlmeVpCeFFvSEdvZ085M0cxenhZNWg2aWVmT1ZjQXdFaw?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "트리니티항공, 국제선 탑승률 90%… SNS 팔로워 확대에 최대 10만 원 할인",
+     "outlet": "한국일보",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1VSXRKOXZxRHc0ak84cVplX1pKUkJFMFROcnN3WjJNOXFfaU1rUXVIdjhDZno1cmpLakxtaTFTV2F6Q0t5V3hBV1Y4X2pqbkpBT1RDT3BySEtTMjNqSWxBNWo5SjlkQnQtSHE3dVpR?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "트리니티항공, 국제선 최대 10만원 할인…29일까지 인스타그램 팔로우 이벤트",
+     "outlet": "컨슈머타임스",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1abGpQVzcwWVV6cTBSVHNLLVZnUHJmRF93UWZqNkk5YlltVEJfemYxNW1yanYzR01EYWhoWVNlOFMwUjM2YmxDU01xTENOTUg2TnpBb1lNcHlvRWV5ektabnp0YldEQ3k5bmc?oc=5",
+     "published": "2026-11-25"
+    },
+    {
+     "title": "팔로워 늘면 항공권 할인도 커진다…트리니티항공, SNS 이벤트",
+     "outlet": "스포츠서울",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DZkpyRTYwSUJ5Y1g0SDEwOUVxdkRnblJKbE4xZW1JV0xXZmZnNjdpQ3NJaVNoMFd2UG1xazZEaTd6R1FEMl8wZ045YnhsUE8yUWNWaHhHWG0?oc=5",
+     "published": "2026-11-25"
     }
    ],
    "status": "live"
@@ -9191,6 +9197,55 @@
    "status": "undated"
   },
   {
+   "id": "h-other-b092e7ff37",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Best 2026 Black Friday and Cyber Monday Deals on Caribbean Resorts",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [
+    "카리브"
+   ],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-24",
+   "last_published": "2026-11-24",
+   "first_seen": "2026-11-27T13:18:12+09:00",
+   "last_seen": "2026-11-27T13:18:12+09:00",
+   "articles": [
+    {
+     "title": "Best 2026 Black Friday and Cyber Monday Deals on Caribbean Resorts",
+     "outlet": "Travel Pulse",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZWRzbkhyYzdJUnpXanZXQXNNY1A1eUNyTzZiUi1vbnhRT2dzTFJsN0duN25VRllrNUpXU1FnU1BGTzlfR2VEdUdmTTY2bFNSMVo2cUZxLTRnMmdXcm40cWhubkQyMHJDalhlY1p6MU1URW5rQWw1ZWNtSmE2VjFJTGJYWGJZVVR2S04wa2Nad0YteDdlMzhsQnF6dExKNk81RElnVzJWMFdQLXFxbVFPN3JjVHl1ekN6Wmc?oc=5",
+     "published": "2026-11-24"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "multi-47252f0936",
    "airline_id": "multi",
    "airline": "여러 항공사",
@@ -9945,101 +10000,6 @@
    "status": "undated"
   },
   {
-   "id": "koreanair-bb78b2ee78",
-   "airline_id": "koreanair",
-   "airline": "대한항공",
-   "airlines_mentioned": [
-    "대한항공"
-   ],
-   "kind": "domestic",
-   "category": "flight",
-   "section": "flight",
-   "route": null,
-   "route_text": null,
-   "scope": null,
-   "lang": "ko",
-   "trial": false,
-   "baseline": "flight",
-   "official_url": "https://www.koreanair.com/",
-   "iata": [
-    "KE"
-   ],
-   "agencies": [],
-   "event_name": null,
-   "headline": "괌정부관광청, 대한항공·여행사 10곳과 겨울 공동 프로모션",
-   "sale_start": null,
-   "sale_end": null,
-   "travel_start": null,
-   "travel_end": null,
-   "routes": [
-    {
-     "origin": "인천(ICN)",
-     "destination": "괌(GUM)"
-    }
-   ],
-   "regions": [],
-   "conditions": [],
-   "conflicts": [],
-   "evidence": {
-    "route": {
-     "title": "TTL뉴스 요약문: 여행 플랫폼이 인천-괌 노선의 탑승률 제고와 여행객 유치를 위한 공동 마케팅에 돌입했다.",
-     "url": "http://www.ttlnews.com/news/articleView.html?idxno=3166699"
-    }
-   },
-   "from_icn": "unknown",
-   "discount": null,
-   "verification": "news",
-   "first_published": "2026-11-26",
-   "last_published": "2026-11-26",
-   "first_seen": "2026-11-26T17:53:51+09:00",
-   "last_seen": "2026-11-27T04:16:43+09:00",
-   "articles": [
-    {
-     "title": "괌정부관광청, 대한항공·여행사 10곳과 겨울 공동 프로모션",
-     "outlet": "동아일보",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZVWZFWGhUMUlGMi0yc1prM0lzNFM5eF9uV3lGQm5NQ3drNUk5VWdEaFB6NzVBYzZGX3dGYVh2Q1FWZkJKV2xqSjdGN1k0eWxIZWpQTmw5R0xoXzZtUXg0SnlmTjViem9ocS1ueDFUWHp4Qm1xd1HSAWZBVV95cUxQSnNUcXJXVDBNSS11bWJPODdNa2hIWGVidUZycTVIOGlHT2xEbWFXYmd4NmpwSmdVaVVaclZXdU9BNG0yUk1RNUZFZjJXdDB3YzJBcjIxRi1RMWQyM21BQ2dKYmxWeGc?oc=5",
-     "published": "2026-11-26"
-    },
-    {
-     "title": "괌정부관광청·대한항공, 겨울 성수기 맞아 국내 주요 여행사 10곳과 공동 프로모션 전개",
-     "outlet": "퍼블릭뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTzRFbUhuNDFjbE5hd1dNeVA3a014UWtWbnpEbk5WdjBtdnFVZVA4RFZUMzBNOWZjRWVYSkkxRVV3dURlSU9CSXhBdGpIT0syak0wMkxUOTVlQVRiMGhWUWlzVGZxbTRhaV9j?oc=5",
-     "published": "2026-11-26"
-    },
-    {
-     "title": "괌 관광청, 대한항공과 겨울시즌 공동 프로모션 진행",
-     "outlet": "뉴스로드",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNX1UzQ1ZSb2dyUjE3a0o1OEN4bElvME5YcUJkM2JiU0hTYmEtbGFIV3ppbXctdmxDQXZHeVZuV2NYUjFsaXhVdC05R2FTXzdKN09VYnh0YWpVVHRnbXB0YnRJanVsQ05fVEVN0gFvQVVfeXFMUFlRNHNnTmtCRTJnUmpiVmxud2RheGV4bzlhWkRlbWw0al9vSFdJaXpyU2F4R0NTNldVM1lQQlh1Q1JWUzN0Tllpc3Q4MUd3TGRPRWhvZ3lnd2NhUlI3OEZoVUxyWnliN29jUTZ1WWVv?oc=5",
-     "published": "2026-11-26"
-    },
-    {
-     "title": "괌정부관광청·대한항공, 겨울철 괌 여행 공동 프로모션",
-     "outlet": "뉴스트래블",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4S0NiM0pKNTFkaEp3TUUyWGRac0Z4dmc2VVBJQ0h2REdwUHVvUTl0WXdQQkttWVJYVGN1MVh5TmlUTnhEbENxb3BEZW5jd2xYcnhDQXFXXzc3VDZ4d19sZUtBTm5yQQ?oc=5",
-     "published": "2026-11-26"
-    },
-    {
-     "title": "연말·겨울방학 휴양객 잡는다…괌정부관광청, 대한항공·여행사 10곳과 공동 프로모션",
-     "outlet": "열린뉴스통신",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE00RE9FbzNPR2xuaWhCbkMxSUdKbDdmTXJZWmdsM2RsczVsUzdmTzZkVThNd1dfYVZ1bUFOOXl2cVBKMkNnN0ZVSE5rMUkxOEJwLW5qRkdHVEJnMERqRmxDOGJfMl9vdw?oc=5",
-     "published": "2026-11-26"
-    },
-    {
-     "title": "괌정부관광청, 대한항공과 겨울 시즌 공동 프로모션 진행",
-     "outlet": "ACROFAN",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oMEJVUW5xeWM5YTNDTmd3ODhzUlYzUG1ZdTJvQk54Z0xsWjdiVnMyZjcyanpNMURuRkpvb05SSnJKYmpBMXduYjdVaThudlpTdk50R1hjRXRkMVE?oc=5",
-     "published": "2026-11-26"
-    },
-    {
-     "title": "괌정부관광청, 대한항공과 겨울 시즌 특가 항공권 프로모션",
-     "outlet": "브레이크뉴스",
-     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1JUXNieXQ5dEd4NGhTa3k5TUFSWWllTDJrZFFSN3ctcnpKUWRxX0FWamxRNi12S3I5eXR2Z1pDRS1zdw?oc=5",
-     "published": "2026-11-26"
-    }
-   ],
-   "status": "undated"
-  },
-  {
    "id": "h-other-971cda2b96",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -10143,6 +10103,160 @@
      "outlet": "Gulf News",
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRHpHZ3FLT0d3WllDV3RZcExlcGUwM25KNFBiUTZzeE8xdzVWZ21Wbnl3THlhMVVQVzlxVm5TcmpvX1NfMTJfTGllSy04YkJqU09Ka1phYVBKT1ljdXJnSVFqaVd6SnlVQ1IycTNuZ1ZZc3ZYSC00SFlFOHBfZ19tRG5vdzBfQ0dxMXJiS1JtYzJQSFV2REpBTHhTMWtOSmFCM1lhVmtnUXE3c2ZkLVB6RmVXelYtR2fSAccBQVVfeXFMTXBobG1GVV91dDVNOWVvVVVXbkxZRndiOXEtbnc4SDRrbGVUa05ibDVxb01SN1R3SFZodXJBbUdwYURteHVjbS1ZaUJ3ZURFNU9aTkJvZER6aWktdFotLWFaNWhhYkpjUm9fUzJKVXFNOWQzMDA0b3VNVzJiX2o0THZLQW5LeVhZUFBDc2RqRVk2Qk8tU2dfZk5sSHA4TWVFU01PNGZHQkRyZllUVUY0dlYyS3ZOdXl4RWdoM0I5eEJwbEQ5MFJNYw?oc=5",
      "published": "2026-11-26"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "koreanair-bb78b2ee78",
+   "airline_id": "koreanair",
+   "airline": "대한항공",
+   "airlines_mentioned": [
+    "대한항공"
+   ],
+   "kind": "domestic",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.koreanair.com/",
+   "iata": [
+    "KE"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "괌정부관광청·대한항공, 겨울 괌 프로모션…항공권 혜택 펑펑",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [
+    {
+     "origin": "인천(ICN)",
+     "destination": "괌(GUM)"
+    }
+   ],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "route": {
+     "title": "TTL뉴스 요약문: 여행 플랫폼이 인천-괌 노선의 탑승률 제고와 여행객 유치를 위한 공동 마케팅에 돌입했다.",
+     "url": "http://www.ttlnews.com/news/articleView.html?idxno=3166699"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-26",
+   "last_published": "2026-11-27",
+   "first_seen": "2026-11-26T17:53:51+09:00",
+   "last_seen": "2026-11-27T13:18:12+09:00",
+   "articles": [
+    {
+     "title": "괌정부관광청·대한항공, 겨울 괌 프로모션…항공권 혜택 펑펑",
+     "outlet": "국제뉴스",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnelJJZUZOSHhsZlBuRk5La3l0eXpQWEs5NGFwSTV2bzNLQ25EVDVaXzdmbmVKUnpScDkxNFJsRDFBYzlSLTN3cGQxQ1A5T1ZuSTVSeFdoT0FvRHhLT25nMEFCbUNXcFBRdGNVMktB?oc=5",
+     "published": "2026-11-27"
+    },
+    {
+     "title": "괌정부관광청, 대한항공·여행사 10곳과 겨울 공동 프로모션",
+     "outlet": "동아일보",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZVWZFWGhUMUlGMi0yc1prM0lzNFM5eF9uV3lGQm5NQ3drNUk5VWdEaFB6NzVBYzZGX3dGYVh2Q1FWZkJKV2xqSjdGN1k0eWxIZWpQTmw5R0xoXzZtUXg0SnlmTjViem9ocS1ueDFUWHp4Qm1xd1HSAWZBVV95cUxQSnNUcXJXVDBNSS11bWJPODdNa2hIWGVidUZycTVIOGlHT2xEbWFXYmd4NmpwSmdVaVVaclZXdU9BNG0yUk1RNUZFZjJXdDB3YzJBcjIxRi1RMWQyM21BQ2dKYmxWeGc?oc=5",
+     "published": "2026-11-26"
+    },
+    {
+     "title": "괌정부관광청, 대한항공과 겨울 여행 수요 공동 프로모션",
+     "outlet": "뉴스케이프",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1VdlUyN0t3Ymo4LXR6bmExS2hEc2xOeDU5UnV1M2gwcnptTS1IT0FTeENBQVExZENkR2lqYW1BOThqRENyaTYtZjAzSS1jcU9EWEk2N3NVN05pYjhIUzdFVFVFM1EzbWgweWNUetIBcEFVX3lxTE53VHJMLWZyX2JjdXVNeWFQa0lCMlZqYm1RYlJ3V3FHSF9qUnR5RFprdGxFNEJsQ2NNdlY0Wm13dlNsWUJMMUsySXhiREwtMnlfdmNPYWdjdTlqTFZFSHhDc0RFdFhMLUF0NHdqbE5tUko?oc=5",
+     "published": "2026-11-26"
+    },
+    {
+     "title": "괌정부관광청·대한항공, 겨울 성수기 맞아 국내 주요 여행사 10곳과 공동 프로모션 전개",
+     "outlet": "퍼블릭뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPTzRFbUhuNDFjbE5hd1dNeVA3a014UWtWbnpEbk5WdjBtdnFVZVA4RFZUMzBNOWZjRWVYSkkxRVV3dURlSU9CSXhBdGpIT0syak0wMkxUOTVlQVRiMGhWUWlzVGZxbTRhaV9j?oc=5",
+     "published": "2026-11-26"
+    },
+    {
+     "title": "괌 관광청, 대한항공과 겨울시즌 공동 프로모션 진행",
+     "outlet": "뉴스로드",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNX1UzQ1ZSb2dyUjE3a0o1OEN4bElvME5YcUJkM2JiU0hTYmEtbGFIV3ppbXctdmxDQXZHeVZuV2NYUjFsaXhVdC05R2FTXzdKN09VYnh0YWpVVHRnbXB0YnRJanVsQ05fVEVN0gFvQVVfeXFMUFlRNHNnTmtCRTJnUmpiVmxud2RheGV4bzlhWkRlbWw0al9vSFdJaXpyU2F4R0NTNldVM1lQQlh1Q1JWUzN0Tllpc3Q4MUd3TGRPRWhvZ3lnd2NhUlI3OEZoVUxyWnliN29jUTZ1WWVv?oc=5",
+     "published": "2026-11-26"
+    },
+    {
+     "title": "괌정부관광청·대한항공, 겨울철 괌 여행 공동 프로모션",
+     "outlet": "뉴스트래블",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4S0NiM0pKNTFkaEp3TUUyWGRac0Z4dmc2VVBJQ0h2REdwUHVvUTl0WXdQQkttWVJYVGN1MVh5TmlUTnhEbENxb3BEZW5jd2xYcnhDQXFXXzc3VDZ4d19sZUtBTm5yQQ?oc=5",
+     "published": "2026-11-26"
+    },
+    {
+     "title": "연말·겨울방학 휴양객 잡는다…괌정부관광청, 대한항공·여행사 10곳과 공동 프로모션",
+     "outlet": "열린뉴스통신",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE00RE9FbzNPR2xuaWhCbkMxSUdKbDdmTXJZWmdsM2RsczVsUzdmTzZkVThNd1dfYVZ1bUFOOXl2cVBKMkNnN0ZVSE5rMUkxOEJwLW5qRkdHVEJnMERqRmxDOGJfMl9vdw?oc=5",
+     "published": "2026-11-26"
+    },
+    {
+     "title": "괌정부관광청, 대한항공과 겨울 시즌 공동 프로모션 진행",
+     "outlet": "ACROFAN",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oMEJVUW5xeWM5YTNDTmd3ODhzUlYzUG1ZdTJvQk54Z0xsWjdiVnMyZjcyanpNMURuRkpvb05SSnJKYmpBMXduYjdVaThudlpTdk50R1hjRXRkMVE?oc=5",
+     "published": "2026-11-26"
+    },
+    {
+     "title": "괌정부관광청, 대한항공과 겨울 시즌 특가 항공권 프로모션",
+     "outlet": "브레이크뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1JUXNieXQ5dEd4NGhTa3k5TUFSWWllTDJrZFFSN3ctcnpKUWRxX0FWamxRNi12S3I5eXR2Z1pDRS1zdw?oc=5",
+     "published": "2026-11-26"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-hoshino-43ded5791b",
+   "airline_id": "h-hoshino",
+   "airline": "호시노리조트",
+   "airlines_mentioned": [
+    "호시노리조트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "hotel",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "호시노 리조트, '만복 스테이'→프린스 와이키키, '홀리데이 세일' 선봬",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-27",
+   "last_published": "2026-11-27",
+   "first_seen": "2026-11-27T13:18:12+09:00",
+   "last_seen": "2026-11-27T13:18:12+09:00",
+   "articles": [
+    {
+     "title": "호시노 리조트, '만복 스테이'→프린스 와이키키, '홀리데이 세일' 선봬",
+     "outlet": "싱글리스트",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WNU5ZeHFZc2ZXSl8zZlh2ajBBbFRyY2I4N2dwYmg1LXpCY05SLUYtazVud3hDUlJyejVzOVV5VDJucGVyS21YdUZLYmNFVnFBS2lMeGtkUjVMUlFQbjU1SUlvTUNHZw?oc=5",
+     "published": "2026-11-27"
     }
    ],
    "status": "undated"
