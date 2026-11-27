@@ -5570,6 +5570,38 @@
    "kinds": {
     "new": "2026-11-27"
    }
+  },
+  "h-other-b092e7ff37": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-24",
+    "urls": [
+     "b092e7ff37"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-27"
+   }
+  },
+  "h-hoshino-43ded5791b": {
+   "info": {
+    "airline": "h-hoshino",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-27",
+    "urls": [
+     "43ded5791b"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-27"
+   }
   }
  },
  "slots": {
@@ -5602,10 +5634,11 @@
    "evening": "sent"
   },
   "2026-11-27": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-27T09:19:54+09:00",
+ "saved_at": "2026-11-27T18:27:08+09:00",
  "drops_day": "2026-11-27",
  "drops": {
   "BKK": {
