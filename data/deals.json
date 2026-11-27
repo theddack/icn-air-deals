@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T18:26:57+09:00",
+ "generated_at": "2026-11-27T22:17:35+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2466,
+  "rss_items": 2526,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 2105,
-  "outlet_new_articles": 1,
+  "outlet_items": 2008,
+  "outlet_new_articles": 0,
   "outlet_enriched": 0,
-  "mail_articles": 12,
-  "mail_new_articles": 0,
-  "articles_with_summary": 88,
-  "articles": 982,
-  "new_articles": 6,
-  "deals": 217
+  "mail_articles": 13,
+  "mail_new_articles": 1,
+  "articles_with_summary": 89,
+  "articles": 987,
+  "new_articles": 5,
+  "deals": 222
  },
  "deals": [
   {
@@ -10268,6 +10268,60 @@
    "status": "undated"
   },
   {
+   "id": "finnair-5c07d72e8c",
+   "airline_id": "finnair",
+   "airline": "핀에어",
+   "airlines_mentioned": [
+    "핀에어"
+   ],
+   "kind": "foreign",
+   "category": "flight",
+   "section": "flight",
+   "route": null,
+   "route_text": null,
+   "scope": null,
+   "lang": "ko",
+   "trial": false,
+   "baseline": "flight",
+   "official_url": "https://www.finnair.com/kr-ko",
+   "iata": [
+    "AY"
+   ],
+   "agencies": [],
+   "event_name": null,
+   "headline": "핀에어 세일 곧 종료 – 지금 항공편을 예약하세요",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": "2026-11-30",
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "travel": {
+     "title": "핀에어 메일 본문",
+     "url": "https://www.finnair.com/kr-ko#mail-44f87bcc39546c03"
+    }
+   },
+   "from_icn": "unknown",
+   "discount": null,
+   "verification": "official",
+   "first_published": "2026-11-27",
+   "last_published": "2026-11-27",
+   "first_seen": "2026-11-27T22:17:31+09:00",
+   "last_seen": "2026-11-27T22:17:31+09:00",
+   "articles": [
+    {
+     "title": "핀에어 세일 곧 종료 – 지금 항공편을 예약하세요",
+     "outlet": "핀에어 메일",
+     "url": "https://www.finnair.com/kr-ko#mail-44f87bcc39546c03",
+     "published": "2026-11-27"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-banyantree-8d23e84e4b",
    "airline_id": "h-banyantree",
    "airline": "반얀트리",
@@ -10524,6 +10578,199 @@
      "title": "초겨울 해외 항공권 검색 47%가 일본⋯베트남 호텔비 23% 올라",
      "outlet": "국민일보",
      "url": "https://www.kmib.co.kr/article/20261127500809",
+     "published": "2026-11-27"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-45d31506fe",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "These Black Friday Hotel Deals Will Help You Save Hundreds on Your Next Getaway",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-27",
+   "last_published": "2026-11-27",
+   "first_seen": "2026-11-27T22:17:35+09:00",
+   "last_seen": "2026-11-27T22:17:35+09:00",
+   "articles": [
+    {
+     "title": "These Black Friday Hotel Deals Will Help You Save Hundreds on Your Next Getaway",
+     "outlet": "Condé Nast Traveler",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41UjktREpvY25CMkZuZzVURFNseWZLRXZnR2ZROEJNdzMzblYtTkdnZWN0VGFHMS1DTzZZQ0dIZHY1bjhWUXZJU0lsZ296UGVOblJnanJva2FHWmI3VjFiWXN2WFVtSjVSYXNXQ29FM0dwaTJCaVJ3?oc=5",
+     "published": "2026-11-27"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-defffa868c",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Black Friday Travel Deals 2026: Best Flight, Hotel and Cruise Offers to Book Today",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-27",
+   "last_published": "2026-11-27",
+   "first_seen": "2026-11-27T22:17:35+09:00",
+   "last_seen": "2026-11-27T22:17:35+09:00",
+   "articles": [
+    {
+     "title": "Black Friday Travel Deals 2026: Best Flight, Hotel and Cruise Offers to Book Today",
+     "outlet": "Rus Tourism News",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkRCRWp5VXdtU1lkMGtxYW1nTzZtVEo2cXpzSTNtWFRHRXZZX1BwZEpZamh1YUFKdVpodmp5LU9pZU9vdlUtYzF5YklRNDRIckhhRWxSeTZaLUcxaFVqcHFzdWc3UGVoT3ZhZVBJa0tQNkw2MlNwaVFxSDl5d3RTOGNNS2xUUkZ3clJpUzNaRHZhZjZ1SUxxTUo5QUZIbUNPbDE0MGk2bTFWV000T0Q2QndkS08yOWtfVVJ6T2RqNE8?oc=5",
+     "published": "2026-11-27"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-276324c40f",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Black Friday 2026 hotel deals: up to 55% off Barceló hotels and a discount code",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Black Friday 2026 hotel deals: up to 55% off Barceló hotels and a discount code",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSlN4U2k0d3hwektONTkzVllWclB4YU1RUm1sZ3h3aFZVYmJGbVY1cERJTGtKVlhPYmh5WmJzdUEzQ3lZUzdVdXNheHJWVHNabm9hRFFOdEhUZ3QtSlZhVlRiYnFfbnFMSmlWRDdMdTVSTnI5bEdPbVh5ZVdWam9fOG4yYnh5Y2hlQ2k0d2RjckZpVHI2cWdVdkZJVWFiS3ZMRjlXWFhsdXlIUWVsLVZ2bU5hTnpxQUJ6RmJr?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 55%",
+   "verification": "news",
+   "first_published": "2026-11-27",
+   "last_published": "2026-11-27",
+   "first_seen": "2026-11-27T22:17:35+09:00",
+   "last_seen": "2026-11-27T22:17:35+09:00",
+   "articles": [
+    {
+     "title": "Black Friday 2026 hotel deals: up to 55% off Barceló hotels and a discount code",
+     "outlet": "The Redditch Standard",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSlN4U2k0d3hwektONTkzVllWclB4YU1RUm1sZ3h3aFZVYmJGbVY1cERJTGtKVlhPYmh5WmJzdUEzQ3lZUzdVdXNheHJWVHNabm9hRFFOdEhUZ3QtSlZhVlRiYnFfbnFMSmlWRDdMdTVSTnI5bEdPbVh5ZVdWam9fOG4yYnh5Y2hlQ2k0d2RjckZpVHI2cWdVdkZJVWFiS3ZMRjlXWFhsdXlIUWVsLVZ2bU5hTnpxQUJ6RmJr?oc=5",
+     "published": "2026-11-27"
+    }
+   ],
+   "status": "undated"
+  },
+  {
+   "id": "h-other-063444c17b",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Black Friday holiday deals 2026: hotel offers and a discount code to save on your stay - UK News in Pictures",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {},
+   "from_icn": null,
+   "discount": null,
+   "verification": "news",
+   "first_published": "2026-11-27",
+   "last_published": "2026-11-27",
+   "first_seen": "2026-11-27T22:17:35+09:00",
+   "last_seen": "2026-11-27T22:17:35+09:00",
+   "articles": [
+    {
+     "title": "Black Friday holiday deals 2026: hotel offers and a discount code to save on your stay - UK News in Pictures",
+     "outlet": "UKNIP",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUWp3WVJPcHUtWnhVYlVNc1ZvUVVhV04zTzhOT1NGNWZRd0x4ckE1bnBOLVRQd1VaT0ZlaU5TUzJNWVJjZEZ1LVYzeUUza1dkZmRFRTZmbEVkeUVrVV83ckZQdzNFMkM1SWF0WnhLWGVLMzk5SXAyMVlhc0RDSjFFb1NhTUxicFJPeVFLeGNka3FUcm1GdE9EVlR5REd0a0t2OUQtUWh4NGs4RUtUcFdxVmlXcVN6WjdDdElyZVJsWQ?oc=5",
      "published": "2026-11-27"
     }
    ],

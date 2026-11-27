@@ -1,5 +1,30 @@
 [
  {
+  "title": "핀에어 세일 곧 종료 – 지금 항공편을 예약하세요",
+  "outlet": "핀에어 메일",
+  "url": "https://www.finnair.com/kr-ko#mail-44f87bcc39546c03",
+  "published": "2026-11-27",
+  "first_seen": "2026-11-27T22:17:31+09:00",
+  "source": "mail",
+  "mail_id": "44f87bcc39546c03",
+  "category_hint": "flight",
+  "summary_facts": {
+   "url": "https://www.finnair.com/kr-ko#mail-44f87bcc39546c03",
+   "outlet": "핀에어 메일",
+   "label": "본문",
+   "fields": {
+    "travel_start": "2026-11-30",
+    "travel_end": null
+   },
+   "evidence": {
+    "sale": "",
+    "travel": "",
+    "discount": "",
+    "route": ""
+   }
+  }
+ },
+ {
   "title": "제주항공 💌항공권 특가 소식 도착💌",
   "outlet": "제주항공 메일",
   "url": "https://www.jejuair.net/#mail-6e3a2255894752a5",
