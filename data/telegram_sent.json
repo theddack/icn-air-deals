@@ -5539,22 +5539,6 @@
     "new": "2026-11-27"
    }
   },
-  "h-banyantree-c965ee9c9d": {
-   "info": {
-    "airline": "h-banyantree",
-    "name": "",
-    "sale_start": null,
-    "sale_end": null,
-    "dests": [],
-    "last": "2026-11-27",
-    "urls": [
-     "c965ee9c9d"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-27"
-   }
-  },
   "h-other-cc4991f965": {
    "info": {
     "airline": "h-other",
@@ -5602,6 +5586,24 @@
    "kinds": {
     "new": "2026-11-27"
    }
+  },
+  "h-banyantree-8d23e84e4b": {
+   "info": {
+    "airline": "h-banyantree",
+    "name": "창사이래첫대규모타임세일",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-27",
+    "urls": [
+     "8d23e84e4b",
+     "c965ee9c9d",
+     "ecd07f6536"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-27"
+   }
   }
  },
  "slots": {
@@ -5638,7 +5640,7 @@
    "evening": "sent"
   }
  },
- "saved_at": "2026-11-27T18:27:08+09:00",
+ "saved_at": "2026-11-27T18:31:46+09:00",
  "drops_day": "2026-11-27",
  "drops": {
   "BKK": {
