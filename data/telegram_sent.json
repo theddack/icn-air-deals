@@ -5604,13 +5604,169 @@
    "kinds": {
     "new": "2026-11-27"
    }
+  },
+  "finnair-5c07d72e8c": {
+   "info": {
+    "airline": "finnair",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-27",
+    "urls": [
+     "5c07d72e8c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-28"
+   }
+  },
+  "h-other-cc97b61de9": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-27",
+    "urls": [
+     "cc97b61de9"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-28"
+   }
+  },
+  "h-other-6abe18edf1": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-27",
+    "urls": [
+     "6abe18edf1"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-28"
+   }
+  },
+  "h-other-0fc2649296": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-27",
+    "urls": [
+     "0fc2649296"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-28"
+   }
+  },
+  "h-other-45d31506fe": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-27",
+    "urls": [
+     "45d31506fe"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-28"
+   }
+  },
+  "h-other-defffa868c": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-27",
+    "urls": [
+     "defffa868c"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-28"
+   }
+  },
+  "h-other-276324c40f": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-27",
+    "urls": [
+     "276324c40f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-28"
+   }
+  },
+  "h-other-063444c17b": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-27",
+    "urls": [
+     "063444c17b"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-28"
+   }
+  },
+  "h-other-518e302782": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-27",
+    "urls": [
+     "518e302782"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-28"
+   }
+  },
+  "h-other-ca62494ee6": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-28",
+    "urls": [
+     "ca62494ee6"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-28"
+   }
   }
  },
  "slots": {
-  "2026-11-20": {
-   "morning": "sent",
-   "evening": "sent"
-  },
   "2026-11-21": {
    "morning": "sent",
    "evening": "sent"
@@ -5638,9 +5794,12 @@
   "2026-11-27": {
    "morning": "sent",
    "evening": "sent"
+  },
+  "2026-11-28": {
+   "morning": "sent"
   }
  },
- "saved_at": "2026-11-27T18:31:46+09:00",
+ "saved_at": "2026-11-28T09:21:57+09:00",
  "drops_day": "2026-11-27",
  "drops": {
   "BKK": {
