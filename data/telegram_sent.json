@@ -2976,26 +2976,6 @@
     "new": "2026-11-13"
    }
   },
-  "h-marriott-a06b6b2c0a": {
-   "info": {
-    "airline": "h-marriott",
-    "name": "",
-    "sale_start": "2026-11-14",
-    "sale_end": "2026-11-29",
-    "dests": [],
-    "last": "2026-11-05",
-    "urls": [
-     "2e3d2368d3",
-     "a06b6b2c0a"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-05",
-    "upcoming_d3": "2026-11-11",
-    "upcoming_d1": "2026-11-13",
-    "start_today": "2026-11-14"
-   }
-  },
   "h-tripcom-97d71f7e15": {
    "info": {
     "airline": "h-tripcom",
@@ -3954,26 +3934,6 @@
     "new": "2026-11-18"
    }
   },
-  "h-yeogi-c0b9a35db5": {
-   "info": {
-    "airline": "h-yeogi",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-29",
-    "dests": [],
-    "last": "2026-11-18",
-    "urls": [
-     "15252ce8de",
-     "5c51e6b8d7",
-     "9a66e6ffae",
-     "c0b9a35db5",
-     "d23a4eb0b4"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-18"
-   }
-  },
   "h-hilton-76f38819c8": {
    "info": {
     "airline": "h-hilton",
@@ -4718,24 +4678,6 @@
     "new": "2026-11-23"
    }
   },
-  "qatar-ebab528ee3": {
-   "info": {
-    "airline": "qatar",
-    "name": "",
-    "sale_start": "2026-11-23",
-    "sale_end": "2026-11-29",
-    "dests": [],
-    "last": "2026-11-23",
-    "urls": [
-     "678eadc399",
-     "ebab528ee3"
-    ]
-   },
-   "kinds": {
-    "start_today": "2026-11-23",
-    "new": "2026-11-23"
-   }
-  },
   "h-hanatour-037de37291": {
    "info": {
     "airline": "h-hanatour",
@@ -4750,31 +4692,6 @@
    },
    "kinds": {
     "start_today": "2026-11-23",
-    "new": "2026-11-23"
-   }
-  },
-  "qatar-0c2458bdf7": {
-   "info": {
-    "airline": "qatar",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-29",
-    "dests": [],
-    "last": "2026-11-23",
-    "urls": [
-     "0c2458bdf7",
-     "1de167cbc3",
-     "2f56c833ef",
-     "3623796f37",
-     "4e58061c6f",
-     "807ab9b522",
-     "924bf20c15",
-     "adf36f7090",
-     "bb4d33b175",
-     "e90b6cc6ea"
-    ]
-   },
-   "kinds": {
     "new": "2026-11-23"
    }
   },
@@ -5236,26 +5153,6 @@
     "new": "2026-11-25"
    }
   },
-  "trinity-8fc6269b3a": {
-   "info": {
-    "airline": "trinity",
-    "name": "",
-    "sale_start": null,
-    "sale_end": "2026-11-29",
-    "dests": [],
-    "last": "2026-11-25",
-    "urls": [
-     "3b0da6c719",
-     "645f6162cd",
-     "6ee254a677",
-     "8fc6269b3a",
-     "99c90dc270"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-25"
-   }
-  },
   "airbusan-ef78e7c83b": {
    "info": {
     "airline": "airbusan",
@@ -5277,29 +5174,6 @@
    },
    "kinds": {
     "new": "2026-11-25"
-   }
-  },
-  "h-marriott-94c63880be": {
-   "info": {
-    "airline": "h-marriott",
-    "name": "",
-    "sale_start": "2026-11-29",
-    "sale_end": "2027-05-02",
-    "dests": [],
-    "last": "2026-11-26",
-    "urls": [
-     "03b1f85895",
-     "2f3b4bfb88",
-     "49d0f91073",
-     "6808e75fb9",
-     "72f937655c",
-     "94c63880be",
-     "becc2ad847"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-13",
-    "upcoming_d3": "2026-11-26"
    }
   },
   "h-other-fc959e14eb": {
@@ -5422,24 +5296,6 @@
    },
    "kinds": {
     "new": "2026-11-25"
-   }
-  },
-  "h-other-6eb3899597": {
-   "info": {
-    "airline": "h-other",
-    "name": "",
-    "sale_start": "2026-11-27",
-    "sale_end": "2026-11-29",
-    "dests": [],
-    "last": "2026-11-25",
-    "urls": [
-     "6eb3899597"
-    ]
-   },
-   "kinds": {
-    "upcoming_d1": "2026-11-26",
-    "new": "2026-11-26",
-    "start_today": "2026-11-27"
    }
   },
   "aerok-c07f8884c8": {
@@ -5765,6 +5621,209 @@
    "kinds": {
     "new": "2026-11-24"
    }
+  },
+  "h-marriott-a06b6b2c0a": {
+   "info": {
+    "airline": "h-marriott",
+    "name": "",
+    "sale_start": "2026-11-14",
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-05",
+    "urls": [
+     "2e3d2368d3",
+     "a06b6b2c0a"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-05",
+    "upcoming_d3": "2026-11-11",
+    "upcoming_d1": "2026-11-13",
+    "start_today": "2026-11-14",
+    "closing_tomorrow": "2026-11-28"
+   }
+  },
+  "qatar-ebab528ee3": {
+   "info": {
+    "airline": "qatar",
+    "name": "",
+    "sale_start": "2026-11-23",
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-23",
+    "urls": [
+     "678eadc399",
+     "ebab528ee3"
+    ]
+   },
+   "kinds": {
+    "start_today": "2026-11-23",
+    "new": "2026-11-23",
+    "closing_tomorrow": "2026-11-28"
+   }
+  },
+  "h-other-6eb3899597": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": "2026-11-27",
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-25",
+    "urls": [
+     "6eb3899597"
+    ]
+   },
+   "kinds": {
+    "upcoming_d1": "2026-11-26",
+    "new": "2026-11-26",
+    "start_today": "2026-11-27",
+    "closing_tomorrow": "2026-11-28"
+   }
+  },
+  "h-yeogi-c0b9a35db5": {
+   "info": {
+    "airline": "h-yeogi",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-18",
+    "urls": [
+     "15252ce8de",
+     "5c51e6b8d7",
+     "9a66e6ffae",
+     "c0b9a35db5",
+     "d23a4eb0b4"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-18",
+    "closing_tomorrow": "2026-11-28"
+   }
+  },
+  "qatar-0c2458bdf7": {
+   "info": {
+    "airline": "qatar",
+    "name": "",
+    "sale_start": null,
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-25",
+    "urls": [
+     "02cd9e5b41",
+     "0c2458bdf7",
+     "1de167cbc3",
+     "2f56c833ef",
+     "3623796f37",
+     "38ae1071b2",
+     "4e58061c6f",
+     "4fbd4b1672",
+     "807ab9b522",
+     "924bf20c15",
+     "adf36f7090",
+     "bb4d33b175",
+     "e90b6cc6ea"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-23",
+    "closing_tomorrow": "2026-11-28"
+   }
+  },
+  "trinity-8fc6269b3a": {
+   "info": {
+    "airline": "trinity",
+    "name": "항공권결제부터쇼핑할인까지",
+    "sale_start": null,
+    "sale_end": "2026-11-29",
+    "dests": [],
+    "last": "2026-11-27",
+    "urls": [
+     "3b0da6c719",
+     "5dcad160b7",
+     "645f6162cd",
+     "6ee254a677",
+     "8fc6269b3a",
+     "99c90dc270"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-25",
+    "closing_tomorrow": "2026-11-28"
+   }
+  },
+  "h-marriott-94c63880be": {
+   "info": {
+    "airline": "h-marriott",
+    "name": "",
+    "sale_start": "2026-11-29",
+    "sale_end": "2027-05-02",
+    "dests": [],
+    "last": "2026-11-26",
+    "urls": [
+     "03b1f85895",
+     "2f3b4bfb88",
+     "49d0f91073",
+     "6808e75fb9",
+     "72f937655c",
+     "94c63880be",
+     "becc2ad847"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-13",
+    "upcoming_d3": "2026-11-26",
+    "upcoming_d1": "2026-11-28"
+   }
+  },
+  "h-other-182e42148d": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-27",
+    "urls": [
+     "182e42148d"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-28"
+   }
+  },
+  "garuda-bbcd362287": {
+   "info": {
+    "airline": "garuda",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-28",
+    "urls": [
+     "bbcd362287"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-28"
+   }
+  },
+  "h-other-4ffdea2dd7": {
+   "info": {
+    "airline": "h-other",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-28",
+    "urls": [
+     "4ffdea2dd7"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-28"
+   }
   }
  },
  "slots": {
@@ -5797,10 +5856,11 @@
    "evening": "sent"
   },
   "2026-11-28": {
-   "morning": "sent"
+   "morning": "sent",
+   "evening": "sent"
   }
  },
- "saved_at": "2026-11-28T13:22:50+09:00",
+ "saved_at": "2026-11-28T18:21:27+09:00",
  "drops_day": "2026-11-28",
  "drops": {
   "BKK": {
