@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T04:10:59+09:00",
+ "generated_at": "2026-11-28T13:18:17+09:00",
  "baselines": {
   "flight": "2026-10-15T10:12:09+09:00",
   "domestic": "2026-10-15T13:00:04+09:00",
@@ -10,19 +10,19 @@
  "stats": {
   "queries": 120,
   "failed_queries": 0,
-  "rss_items": 2463,
+  "rss_items": 2447,
   "outlet_feeds": 29,
   "outlet_failed": 0,
   "outlet_failed_feeds": [],
-  "outlet_items": 1896,
+  "outlet_items": 1865,
   "outlet_new_articles": 0,
   "outlet_enriched": 0,
   "mail_articles": 13,
   "mail_new_articles": 0,
   "articles_with_summary": 88,
-  "articles": 968,
-  "new_articles": 2,
-  "deals": 215
+  "articles": 974,
+  "new_articles": 6,
+  "deals": 218
  },
  "deals": [
   {
@@ -2354,7 +2354,7 @@
    ],
    "agencies": [],
    "event_name": null,
-   "headline": "에어부산 일본 8만6900원, 26일 11시 닷새 특가",
+   "headline": "[하늘길] 12월 1주, 겨울맞이 국제선 특가…에어부산 외 3가지 항공",
    "sale_start": null,
    "sale_end": "2026-11-30",
    "travel_start": "2026-11-26",
@@ -2390,10 +2390,16 @@
    "discount": "8만6900원부터",
    "verification": "news",
    "first_published": "2026-11-25",
-   "last_published": "2026-11-26",
+   "last_published": "2026-11-28",
    "first_seen": "2026-11-25T08:16:22+09:00",
-   "last_seen": "2026-11-26T17:53:51+09:00",
+   "last_seen": "2026-11-28T13:18:17+09:00",
    "articles": [
+    {
+     "title": "[하늘길] 12월 1주, 겨울맞이 국제선 특가…에어부산 외 3가지 항공",
+     "outlet": "신아일보",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBadlRXZTQ4a1I2YTFnd1FIX0RJekhkMkpTalZ0R2c3akpIbUxVbk1kelBOc0VpenIzZXc2TnFwTGloNnp0RXJLQ3N1TzlfMlN5dmJHeTdjS2tJRktRQjA5N2VHZ3FHdmg3RkliWDJZQ1k?oc=5",
+     "published": "2026-11-28"
+    },
     {
      "title": "에어부산 일본 8만6900원, 26일 11시 닷새 특가",
      "outlet": "여행픽",
@@ -2485,7 +2491,7 @@
    ],
    "agencies": [],
    "event_name": "닝보 신규 취항 기념할인",
-   "headline": "에어프레미아, 닝보 취항 할인...“중국 노선 경쟁력 키워 나갈 것”",
+   "headline": "에어프레미아, 닝보 취항 할인...“중국 노선 경쟁력 키워 나갈 것” |",
    "sale_start": null,
    "sale_end": "2026-12-01",
    "travel_start": null,
@@ -2509,8 +2515,8 @@
      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPTmtpTVhMWjVuTGZocG5PRzJCNEthS3NId2c4YmMyUHBsWWFLVF9iei1PX3d3Y21GdFhld0M4MkJkS3Q2djk4TWNaS0wyUTlTbmtVMzBPaVpXeWVHekRkZHd4dGhSdUFMS2VIRm8wMnBEamhUbWFIaTVhd0tlVEZGb2tBeklKOGhNT3o2dFR0MjBkQlNPc0x5dWxzSzVsX2Zyd1pwenAzeHlmdUJtdXFERDJaT3RnQ3ZGaXdtZk05Sl92QzdpaVZIUGx5dXd3aGlfV0U5M2t6WDdCRjVtWlRxV1BsZVRiUzZGUnJ6M05xWHZvTlZKakFtLW1BTHpyOHRlMEVNMXZCa1RrTzhRLW8tYlU5SXQwWDRX?oc=5"
     },
     "route": {
-     "title": "에어프레미아, 닝보 취항 할인...“중국 노선 경쟁력 키워 나갈 것”",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sdGE5UElBX3lWNUUzQkhkTm5Ib1Q5WDBXVFd5bWliU0xTaXJtNE16cnBVbTBSdVVzam1Cd0hWLV9wQ1pveldjakYxRGhqSGIwY1N6RjltYkFXZ1pVTzlZbGlDOGk4YWRLT2ZF?oc=5"
+     "title": "에어프레미아, 닝보 취항 할인...“중국 노선 경쟁력 키워 나갈 것” |",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yTC1JaG16OHU0ekJIWXlzN0ctX2NiZzBmRTVjWko4ajFJTnNvOG1VUGpFbEV6aHFZblhQQWc5VzF6MjB4RkVzMGtwTWNRdG5zZWtZWHJ0amIxaEpzcW1FUzE4amh6V0N5Y3VHeUktUQ?oc=5"
     }
    },
    "from_icn": "yes",
@@ -2519,8 +2525,14 @@
    "first_published": "2026-11-25",
    "last_published": "2026-11-26",
    "first_seen": "2026-11-25T13:18:15+09:00",
-   "last_seen": "2026-11-26T13:18:14+09:00",
+   "last_seen": "2026-11-28T13:18:17+09:00",
    "articles": [
+    {
+     "title": "에어프레미아, 닝보 취항 할인...“중국 노선 경쟁력 키워 나갈 것” |",
+     "outlet": "한스경제",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yTC1JaG16OHU0ekJIWXlzN0ctX2NiZzBmRTVjWko4ajFJTnNvOG1VUGpFbEV6aHFZblhQQWc5VzF6MjB4RkVzMGtwTWNRdG5zZWtZWHJ0amIxaEpzcW1FUzE4amh6V0N5Y3VHeUktUQ?oc=5",
+     "published": "2026-11-26"
+    },
     {
      "title": "에어프레미아, 닝보 취항 할인...“중국 노선 경쟁력 키워 나갈 것”",
      "outlet": "한스경제",
@@ -7972,7 +7984,7 @@
    "status": "undated"
   },
   {
-   "id": "h-booking-5d9e92c01d",
+   "id": "h-booking-86b86b129f",
    "airline_id": "h-booking",
    "airline": "부킹닷컴",
    "airlines_mentioned": [
@@ -8009,16 +8021,22 @@
    "from_icn": null,
    "discount": "최대 40%",
    "verification": "news",
-   "first_published": "2026-11-24",
+   "first_published": "2026-11-19",
    "last_published": "2026-11-24",
    "first_seen": "2026-11-24T06:40:05+09:00",
-   "last_seen": "2026-11-24T06:40:05+09:00",
+   "last_seen": "2026-11-28T13:18:17+09:00",
    "articles": [
     {
      "title": "Booking.com Black Friday 2026: Up to 40% Off Hotels",
      "outlet": "TravelPirates",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRno1QlozTWtXV0xaczZoXzdCa2hseTJTVkhBQVR3eUhqQ0IzdE9FV09udmFSZzB3bXU0andsVS05SnVNcGxobEZqbnN4dVJ2bzRNczZpZFI5ZHkxOHplMFIzT0VMZUR3NU80Yzhvc0I4X1gxWjBVRVBrZWZPSUlOWmhJNGtvMG9XOVE?oc=5",
      "published": "2026-11-24"
+    },
+    {
+     "title": "Save up to 40% on hotel stays this Black Friday with these Booking.com deals",
+     "outlet": "The Independent",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON2hzbkJ1UWUxendRQTFNdWthMk1iYW1WYWxoZzNNbVBvV3RNUFhlN0owWDBITDJNd3RnZkVDcEt0OVprSmNQRzFZZHZ6Z1pmVTdzOC1tTWxJRTVvVFdNdm1GWW4wVjBralRBVWdnOHlYU1VibEZmYlJtY1ZqNjc0OElwM0xzWGthZ0Y4?oc=5",
+     "published": "2026-11-19"
     }
    ],
    "status": "undated"
@@ -9856,6 +9874,58 @@
    "status": "undated"
   },
   {
+   "id": "h-other-182e42148d",
+   "airline_id": "h-other",
+   "airline": "브랜드 미확인",
+   "airlines_mentioned": [
+    "브랜드 미확인"
+   ],
+   "kind": "other",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "This Editor-Loved Saatva Mattress Rivals Hotel Beds—and It’s 20% Off for Black Friday",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "This Editor-Loved Saatva Mattress Rivals Hotel Beds—and It’s 20% Off for Black Friday",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNzI2VlJEVHJILXROclBmcXBacVRIQTQxaGdYZWowRWpMMmhOUlNqS1dxZkxZTzB5bUJDeGNleThyV25yZ3JMcU1jWVE2MkxWSWVTVWtCU1c1V2w4VWNpNXFOaGNhMVphOVdybkhIbllQV0E5c2IwdXNpbHVpMnczdnAxTmtZcXJlR2c2QllJNzJLallxZ2txejlqZnNpRmNl?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "20% 할인",
+   "verification": "news",
+   "first_published": "2026-11-27",
+   "last_published": "2026-11-27",
+   "first_seen": "2026-11-28T13:18:17+09:00",
+   "last_seen": "2026-11-28T13:18:17+09:00",
+   "articles": [
+    {
+     "title": "This Editor-Loved Saatva Mattress Rivals Hotel Beds—and It’s 20% Off for Black Friday",
+     "outlet": "Yahoo",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNzI2VlJEVHJILXROclBmcXBacVRIQTQxaGdYZWowRWpMMmhOUlNqS1dxZkxZTzB5bUJDeGNleThyV25yZ3JMcU1jWVE2MkxWSWVTVWtCU1c1V2w4VWNpNXFOaGNhMVphOVdybkhIbllQV0E5c2IwdXNpbHVpMnczdnAxTmtZcXJlR2c2QllJNzJLallxZ2txejlqZnNpRmNl?oc=5",
+     "published": "2026-11-27"
+    }
+   ],
+   "status": "undated"
+  },
+  {
    "id": "h-other-ca62494ee6",
    "airline_id": "h-other",
    "airline": "브랜드 미확인",
@@ -10651,6 +10721,58 @@
      "title": "Hilton's Stay Longer discount is perfect for holiday travel: save 10% on your next extended stay",
      "outlet": "Tom's Guide",
      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcndyWmdIdUh3SlZEZGhVR20xWGF3djlqa1RTbHhjZHNySXNTYjJlMjFDbjdwV0ZNOVhQSHd4R1Q3SEV1Y2VOVF83UzFteHJwNTVvRkNUMDBYcDlkM05pUzRTNkpZSkpxRUE1cF9wLUg5TERuZzZFWnRkZnN3TllmREpZNVdnRk9xU25JNE4xbTc5NjNaR2tQZGVwTHY3bzczNEZ5QV9Uc3pRNDlBbzgyeVRWMzNLZmhrY1RuMWo0N3hxYUg5cU42bXFCc3JSc0ktc0VRWkhMdw?oc=5",
+     "published": "2026-10-31"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-marriott-4b8d8fc644",
+   "airline_id": "h-marriott",
+   "airline": "메리어트",
+   "airlines_mentioned": [
+    "메리어트"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Marriott Coupon: 50% Off Your Second Room in November 2026",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Marriott Coupon: 50% Off Your Second Room in November 2026",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80bHRQd2Fkb0tSVndhR1Rxd1hFUHJzUUJVX2pXbi02QzljUDc4cERRU1NDUXdrd3h0dnByUVhyU0ZLQjRKbXkxbU5aM3U5N0tt?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "50% 할인",
+   "verification": "news",
+   "first_published": "2026-10-31",
+   "last_published": "2026-10-31",
+   "first_seen": "2026-11-28T13:18:17+09:00",
+   "last_seen": "2026-11-28T13:18:17+09:00",
+   "articles": [
+    {
+     "title": "Marriott Coupon: 50% Off Your Second Room in November 2026",
+     "outlet": "USA Today",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80bHRQd2Fkb0tSVndhR1Rxd1hFUHJzUUJVX2pXbi02QzljUDc4cERRU1NDUXdrd3h0dnByUVhyU0ZLQjRKbXkxbU5aM3U5N0tt?oc=5",
      "published": "2026-10-31"
     }
    ],
@@ -13241,6 +13363,58 @@
      "outlet": "인사이드비나",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12bVNfVFdXeFVEOGU0TlFsLWVfNlp6SnliUmFmU1lyVzN4Njk4VkpFMDB1Ukt1ZDBlbjJSUVJubmZSNU4yeFJESEJIdS1XVzdza3c1UFNqbHllR2ZOUlZCWk4zTWFjWjE1ZTJKQg?oc=5",
      "published": "2026-11-10"
+    }
+   ],
+   "status": "stale"
+  },
+  {
+   "id": "h-clubmed-2c495539ac",
+   "airline_id": "h-clubmed",
+   "airline": "클럽메드",
+   "airlines_mentioned": [
+    "클럽메드"
+   ],
+   "kind": "hotel",
+   "category": "hotel",
+   "section": "hotel",
+   "route": null,
+   "route_text": null,
+   "scope": "overseas",
+   "lang": "en",
+   "trial": true,
+   "baseline": "hotel_trial",
+   "official_url": null,
+   "iata": [],
+   "agencies": [],
+   "event_name": null,
+   "headline": "Club Med Black Friday: Up to 50% Off All-Inclusive Stays",
+   "sale_start": null,
+   "sale_end": null,
+   "travel_start": null,
+   "travel_end": null,
+   "routes": [],
+   "regions": [],
+   "conditions": [],
+   "conflicts": [],
+   "evidence": {
+    "discount": {
+     "title": "Club Med Black Friday: Up to 50% Off All-Inclusive Stays",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSVNzTXFLSVl5MVBfM3VzMng0OXJVRUJKbVlqc2dTVjVOOUh6eUIwckZscUpxa2ZoNDQwcENETjJKbmUzb2JSS2ZTdWZkQTd4M3JNZXQ3c1NkckZ5VjduaFV6SzF2ZDdvbXZPel82TnlJbXJBSnM0bzAzQ0xGdElZZkpReHFFNThEbU5yS3J4UWV1VEJmcHVXc0UyeEtzUQ?oc=5"
+    }
+   },
+   "from_icn": null,
+   "discount": "최대 50%",
+   "verification": "news",
+   "first_published": "2026-11-12",
+   "last_published": "2026-11-12",
+   "first_seen": "2026-11-28T13:18:17+09:00",
+   "last_seen": "2026-11-28T13:18:17+09:00",
+   "articles": [
+    {
+     "title": "Club Med Black Friday: Up to 50% Off All-Inclusive Stays",
+     "outlet": "Open Jaw",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSVNzTXFLSVl5MVBfM3VzMng0OXJVRUJKbVlqc2dTVjVOOUh6eUIwckZscUpxa2ZoNDQwcENETjJKbmUzb2JSS2ZTdWZkQTd4M3JNZXQ3c1NkckZ5VjduaFV6SzF2ZDdvbXZPel82TnlJbXJBSnM0bzAzQ0xGdElZZkpReHFFNThEbU5yS3J4UWV1VEJmcHVXc0UyeEtzUQ?oc=5",
+     "published": "2026-11-12"
     }
    ],
    "status": "stale"
