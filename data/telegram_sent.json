@@ -4903,22 +4903,6 @@
     "new": "2026-11-24"
    }
   },
-  "h-booking-5d9e92c01d": {
-   "info": {
-    "airline": "h-booking",
-    "name": "",
-    "sale_start": null,
-    "sale_end": null,
-    "dests": [],
-    "last": "2026-11-24",
-    "urls": [
-     "5d9e92c01d"
-    ]
-   },
-   "kinds": {
-    "new": "2026-11-24"
-   }
-  },
   "jinair-0f1ab979cb": {
    "info": {
     "airline": "jinair",
@@ -5764,6 +5748,23 @@
    "kinds": {
     "new": "2026-11-28"
    }
+  },
+  "h-booking-86b86b129f": {
+   "info": {
+    "airline": "h-booking",
+    "name": "",
+    "sale_start": null,
+    "sale_end": null,
+    "dests": [],
+    "last": "2026-11-24",
+    "urls": [
+     "5d9e92c01d",
+     "86b86b129f"
+    ]
+   },
+   "kinds": {
+    "new": "2026-11-24"
+   }
   }
  },
  "slots": {
@@ -5799,8 +5800,8 @@
    "morning": "sent"
   }
  },
- "saved_at": "2026-11-28T09:21:57+09:00",
- "drops_day": "2026-11-27",
+ "saved_at": "2026-11-28T13:22:50+09:00",
+ "drops_day": "2026-11-28",
  "drops": {
   "BKK": {
    "price": 411600,
